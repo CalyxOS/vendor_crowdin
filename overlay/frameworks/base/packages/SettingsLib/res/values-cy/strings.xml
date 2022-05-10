@@ -34,6 +34,7 @@
     <string name="wifi_no_internet_no_reconnect">Nid yw\'n cysylltu\'n awtomatig</string>
     <string name="wifi_no_internet">Dim mynediad at y rhyngrwyd</string>
     <string name="saved_network">Cadwyd gan <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="connected_to_metered_access_point">Wedi cysylltu â rhwydwaith sy\'n cael ei mesur</string>
     <string name="connected_via_network_scorer">Cysylltwyd yn awtomatig â %1$s</string>
     <string name="connected_via_network_scorer_default">Wedi cysylltu\'n awtomatig trwy\'r sgoriwr rhwydweithiau</string>
     <string name="connected_via_passpoint">Wedi cysylltu drwy %1$s</string>
@@ -82,6 +83,7 @@
     <string name="bluetooth_profile_a2dp">Sain cyfryngau</string>
     <string name="bluetooth_profile_headset">Galwadau ffôn</string>
     <string name="bluetooth_profile_opp">Trosglwyddo ffeiliau</string>
+    <string name="bluetooth_profile_broadcast">Darlledu</string>
     <string name="bluetooth_profile_hid">Dyfeisiau mewnbwn</string>
     <string name="bluetooth_profile_pan">Mynediad at y rhyngrwyd</string>
     <string name="bluetooth_profile_pbap">Rhannu cysylltiadau</string>
@@ -89,6 +91,7 @@
     <string name="bluetooth_profile_pan_nap">Rhannu cysylltiad i\'r rhyngrwyd</string>
     <string name="bluetooth_profile_map">Negeseuon Testun</string>
     <string name="bluetooth_profile_sap">Mynediad SIM</string>
+    <string name="bluetooth_profile_vcp">Rheolaeth sain</string>
     <string name="bluetooth_profile_a2dp_high_quality">Sain HD: <xliff:g id="codec_name">%1$s</xliff:g></string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">Sain HD</string>
     <string name="bluetooth_profile_hearing_aid">Teclynnau Cymorth Clyw</string>
@@ -407,6 +410,9 @@
     <string name="inactive_app_inactive_summary">Anweithredol. Tapia i doglo.</string>
     <string name="inactive_app_active_summary">Gweithredol. Tapia i doglo.</string>
     <string name="standby_bucket_summary">Statws segur ap: <xliff:g id="bucket">%s</xliff:g></string>
+    <string name="transcode_settings_title">Gosodiadau trawsgodio cyfryngau</string>
+    <string name="transcode_enable_all">Galluogi trawsgodio</string>
+    <string name="transcode_notification">Dangos hysbysiadau trawsgodio</string>
     <string name="runningservices_settings_title">Gwasanaethau\'n rhedeg</string>
     <string name="runningservices_settings_summary">Gweld a rheoli gwasanaethau sy\'n rhedeg ar hyn o bryd</string>
     <string name="select_webview_provider_title">Rhoi WebView ar waith</string>
@@ -453,11 +459,16 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="power_remaining_duration_shutdown_imminent" product="tablet">Gallai\'r llechen diffodd yn fuan (<xliff:g id="level">%1$s</xliff:g>)</string>
     <string name="power_remaining_duration_shutdown_imminent" product="device">Gallai\'r ddyfais diffodd yn fuan (<xliff:g id="level">%1$s</xliff:g>)</string>
     <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g></string>
+    <string name="power_remaining_charging_duration_only"><xliff:g id="time">%1$s</xliff:g> nes yn llawn</string>
+    <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> nes yn llawn</string>
     <string name="battery_info_status_unknown">Anhysybys</string>
     <string name="battery_info_status_charging">Yn gwefru</string>
     <string name="battery_info_status_charging_fast">Yn gwefru\'n gyflym</string>
     <string name="battery_info_status_charging_slow">Yn gwefru\'n araf</string>
+    <string name="battery_info_status_charging_wireless">Yn gwefru\'n ddiwifr</string>
     <string name="battery_info_status_discharging">Dim yn gwefru</string>
+    <string name="battery_info_status_not_charging">Wedi cysylltu, dim yn gwefru</string>
+    <string name="battery_info_status_full">Wedi gwefru</string>
     <string name="disabled_by_admin_summary_text">Rheolir gan weinyddwr</string>
     <string name="disabled">Wedi\'i analluogi</string>
     <string name="external_source_trusted">Caniateir</string>
@@ -504,6 +515,10 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="accessibility_manual_zen_less_time">Llai o amser.</string>
     <string name="cancel">Diddymu</string>
     <string name="okay">Iawn</string>
+    <string name="alarms_and_reminders_label">Larymau a nodiadau atgoffa</string>
+    <string name="alarms_and_reminders_switch_title">Caniatáu gosod larymau a nodiadau atgoffa</string>
+    <string name="alarms_and_reminders_title">Larymau a nodiadau atgoffa</string>
+    <string name="keywords_alarms_and_reminders">amserlen, larwm, atgoffa, cloc</string>
     <string name="zen_mode_enable_dialog_turn_on">Troi ymlaen</string>
     <string name="zen_mode_settings_turn_on_dialog_title">Troi Dim Tarfu ymlaen</string>
     <string name="zen_mode_settings_summary_off">Byth</string>
@@ -518,6 +533,7 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="zen_mode_forever">Nes dy fod yn ei ddiffodd</string>
     <string name="time_unit_just_now">Jyst nawr</string>
     <string name="media_transfer_this_device_name">Seinydd y ffôn</string>
+    <string name="media_transfer_this_phone">Y ffôn hwn</string>
     <string name="profile_connect_timeout_subtext">Problem cysylltu. Diffodda\'r ddyfais a\'i throi nôl ymlaen</string>
     <string name="media_transfer_wired_device_name">Dyfais sain gwifredig</string>
     <string name="help_label">Cymorth ac adborth</string>
@@ -555,13 +571,51 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="user_need_lock_message">Cyn medru creu proffil cyfyngedig, rhaid gosod sgrin cloi i warchod dy apiau a data personol.</string>
     <string name="user_set_lock_button">Gosod clo</string>
     <string name="user_switch_to_user">Newid i <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
+    <string name="creating_new_user_dialog_message">Yn creu defnyddiwr newydd…</string>
+    <string name="add_user_failed">Methwyd â chreu defnyddiwr newydd</string>
+    <string name="user_nickname">Llysenw</string>
     <string name="guest_new_guest">Ychwanegu gwestai</string>
     <string name="guest_exit_guest">Tynnu gwestai</string>
+    <string name="guest_reset_guest">Ailosod gwestai</string>
     <string name="guest_nickname">Gwestai</string>
+    <string name="guest_reset_guest_dialog_title">Ailosod gwestai?</string>
+    <string name="guest_reset_guest_confirm_button">Ailosod</string>
+    <string name="guest_resetting">Yn ailosod gwestai\u2026</string>
+    <string name="user_image_take_photo">Tynnu llun</string>
+    <string name="user_image_choose_photo">Dewisa ddelwedd</string>
+    <string name="user_image_photo_selector">Dewis y llun</string>
     <string name="cached_apps_freezer_device_default">Rhagosodiad y ddyfais</string>
     <string name="cached_apps_freezer_disabled">Wedi\'i analluogi</string>
     <string name="cached_apps_freezer_enabled">Galluogwyd</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Rhaid ailgychwyn dy ddyfais er mwyn i\'r newid hwn fod yn berthnasol. Ailgychwyna nawr neu ddiddymu.</string>
     <string name="media_transfer_wired_usb_device_name">Clustffonau gwifr</string>
+    <string name="wifi_hotspot_switch_on_text">Ymlaen</string>
     <string name="wifi_hotspot_switch_off_text">I ffwrdd</string>
+    <string name="data_connection_3g">3G</string>
+    <string name="data_connection_edge">EDGE</string>
+    <string name="data_connection_cdma">1X</string>
+    <string name="data_connection_gprs">GPRS</string>
+    <string name="data_connection_3_5g">H</string>
+    <string name="data_connection_3_5g_plus">H+</string>
+    <string name="data_connection_4g">4G</string>
+    <string name="data_connection_4g_plus">4G+</string>
+    <string name="data_connection_lte">LTE</string>
+    <string name="data_connection_lte_plus">LTE+</string>
+    <string name="data_connection_5ge_html" translate="false"> &lt;i&gt;5G &lt;small&gt;E&lt;/small&gt;&lt;/i&gt; </string>
+    <string name="data_connection_carrier_wifi">W+</string>
+    <string name="cell_data_off_content_description">Data symudol i ffwrdd</string>
+    <string name="not_default_data_content_description">Heb ei osod i ddefnyddio data</string>
+    <string name="accessibility_no_phone">Dim ffôn.</string>
+    <string name="accessibility_phone_one_bar">Un bar ffôn.</string>
+    <string name="accessibility_phone_two_bars">Dau far ffôn.</string>
+    <string name="accessibility_phone_three_bars">Tri bar ffôn.</string>
+    <string name="accessibility_phone_signal_full">Signal ffôn llawn.</string>
+    <string name="accessibility_no_data">Dim data.</string>
+    <string name="accessibility_data_one_bar">Un bar data.</string>
+    <string name="accessibility_data_two_bars">Dau far data.</string>
+    <string name="accessibility_data_three_bars">Tri bar data.</string>
+    <string name="accessibility_data_signal_full">Signal data llawn.</string>
+    <string name="accessibility_ethernet_disconnected">Ether-rwyd heb gysylltu.</string>
+    <string name="accessibility_ethernet_connected">Ether-rwyd.</string>
+    <string name="accessibility_no_calling">Dim galw.</string>
 </resources>
