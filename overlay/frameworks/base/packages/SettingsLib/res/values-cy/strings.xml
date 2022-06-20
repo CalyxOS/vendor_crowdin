@@ -125,6 +125,7 @@
     <string name="bluetooth_talkback_headset">Clustffonau</string>
     <string name="bluetooth_talkback_phone">Ffôn</string>
     <string name="bluetooth_talkback_imaging">Delweddu</string>
+    <string name="bluetooth_talkback_group">Dyfeisiau\'r Grŵp</string>
     <string name="bluetooth_talkback_headphone">Clustffonau</string>
     <string name="bluetooth_talkback_input_peripheral">Perifferol Mewnbwn</string>
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
@@ -208,6 +209,7 @@
     <string name="choose_profile">Dewis proffil</string>
     <string name="category_personal">Personol</string>
     <string name="category_work">Gwaith</string>
+    <string name="development_settings_title">Dewisiadau datblygwr</string>
     <string name="development_settings_enable">Galluogi dewisiadau datblygwyr</string>
     <string name="development_settings_summary">Gosod gosodiadau er mwyn datblygu apiau</string>
     <string name="development_settings_not_available">Dyw dewisiadau datblygu ddim ar gael ar gyfer y defnyddiwr hwn.</string>
@@ -262,6 +264,7 @@
     <string name="wifi_display_certification">Tystysgrifio dangosyddion diwifr</string>
     <string name="wifi_verbose_logging">Galluogi Logio Wi\u2011Fi Geiriog</string>
     <string name="wifi_scan_throttling">Throtlo sganio am Wi\u2011Fi</string>
+    <string name="wifi_enhanced_mac_randomization">MAC amharaus ar hap drwy Wi\u2011Fi</string>
     <string name="mobile_data_always_on">Data symudol yn weithredol o hyd</string>
     <string name="tethering_hardware_offload">Cyflymiad caledwedd tenynnu</string>
     <string name="bluetooth_show_devices_without_names">Dangos dyfeisiau Bluetooth heb enwau</string>
@@ -363,6 +366,7 @@
     <string name="debug_layout_summary">Dangos ffiniau clipiau, ymylon, ayyb.</string>
     <string name="force_rtl_layout_all_locales">Gorfodi cyfeiriad gosodiad RTL</string>
     <string name="force_rtl_layout_all_locales_summary">Gorfodi cyfeiriad darllen o\'r dde i\'r chwith ym mhob iaith.</string>
+    <string name="window_blurs">Caniatáu pylu lefel ffenestri</string>
     <string name="force_msaa">Gorfodi 4x MSAA</string>
     <string name="force_msaa_summary">Galluogi 4x MSAA mewn apiau OpenGL ES 2.0</string>
     <string name="show_non_rect_clip">Dadfygio gweithredoedd clipiau na sy\'n hirsgwar</string>
@@ -411,8 +415,11 @@
     <string name="inactive_app_active_summary">Gweithredol. Tapia i doglo.</string>
     <string name="standby_bucket_summary">Statws segur ap: <xliff:g id="bucket">%s</xliff:g></string>
     <string name="transcode_settings_title">Gosodiadau trawsgodio cyfryngau</string>
+    <string name="transcode_user_control">Gwrthwneud rhagosodiadau trawsgodio</string>
     <string name="transcode_enable_all">Galluogi trawsgodio</string>
+    <string name="transcode_default">Tybio fod apiau yn cefnogi fformatau modern</string>
     <string name="transcode_notification">Dangos hysbysiadau trawsgodio</string>
+    <string name="transcode_disable_cache">Analluogi cof dros dro trawsgodio</string>
     <string name="runningservices_settings_title">Gwasanaethau\'n rhedeg</string>
     <string name="runningservices_settings_summary">Gweld a rheoli gwasanaethau sy\'n rhedeg ar hyn o bryd</string>
     <string name="select_webview_provider_title">Rhoi WebView ar waith</string>
@@ -435,6 +442,12 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="daltonizer_mode_protanomaly">Protoanomaledd (coch-gwyrdd)</string>
     <string name="daltonizer_mode_tritanomaly">Trithoanomaledd (glas-melyn)</string>
     <string name="accessibility_display_daltonizer_preference_title">Cywiriad lliw</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle"><![CDATA[        Addasu sut y mae lliwiau yn ymddangos ar dy ddyfais. Gall fod yn ddefnyddiol pan fyddi eisiau:<br/><br/>
+        <ol>
+            <li>&nbsp;Gweld lliwiau yn fwy cywir</li>
+            <li>&nbsp;Cael gwared â lliwiau i dy helpu i ffocysu</li>
+        </ol>
+        ]]></string>
     <string name="daltonizer_type_overridden">Mae\'n cael ei or-reoli gan <xliff:g id="title" example="Simulate color space">%1$s</xliff:g></string>
     <string name="power_remaining_settings_home_page"><xliff:g id="percentage" example="10%">%1$s</xliff:g> - <xliff:g id="time_string" example="1 hour left based on your usage">%2$s</xliff:g></string>
     <string name="power_remaining_duration_only">Tua <xliff:g id="time_remaining">%1$s</xliff:g> yn weddill</string>
@@ -461,6 +474,7 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g></string>
     <string name="power_remaining_charging_duration_only"><xliff:g id="time">%1$s</xliff:g> nes yn llawn</string>
     <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> nes yn llawn</string>
+    <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Gwefru wedi\'i gyfyngu dros dro</string>
     <string name="battery_info_status_unknown">Anhysybys</string>
     <string name="battery_info_status_charging">Yn gwefru</string>
     <string name="battery_info_status_charging_fast">Yn gwefru\'n gyflym</string>
@@ -518,6 +532,10 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="alarms_and_reminders_label">Larymau a nodiadau atgoffa</string>
     <string name="alarms_and_reminders_switch_title">Caniatáu gosod larymau a nodiadau atgoffa</string>
     <string name="alarms_and_reminders_title">Larymau a nodiadau atgoffa</string>
+    <string name="alarms_and_reminders_footer_title">        Caniatáu i\'r ap hwn osod larymau a gweithrediadau yn ôl amser.
+        Mae hyn yn caniatáu i\'r ap rhedeg yn y cefndir, ac o bosib defnyddio mwy o fatri.\n\nOs na roddir
+        y caniatâd hwn, bydd larymau a gweithgareddau wedi\'u trefnu gan yr ap hwn ddim yn gweithio.
+    </string>
     <string name="keywords_alarms_and_reminders">amserlen, larwm, atgoffa, cloc</string>
     <string name="zen_mode_enable_dialog_turn_on">Troi ymlaen</string>
     <string name="zen_mode_settings_turn_on_dialog_title">Troi Dim Tarfu ymlaen</string>
@@ -591,6 +609,7 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="media_transfer_wired_usb_device_name">Clustffonau gwifr</string>
     <string name="wifi_hotspot_switch_on_text">Ymlaen</string>
     <string name="wifi_hotspot_switch_off_text">I ffwrdd</string>
+    <string name="carrier_network_change_mode">Newid rhwydwaith darparwr</string>
     <string name="data_connection_3g">3G</string>
     <string name="data_connection_edge">EDGE</string>
     <string name="data_connection_cdma">1X</string>
