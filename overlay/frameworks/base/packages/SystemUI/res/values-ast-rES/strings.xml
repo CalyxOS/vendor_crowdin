@@ -22,13 +22,15 @@
     <string name="battery_low_percent_format">Queda\'l <xliff:g id="percentage">%s</xliff:g></string>
     <string name="invalid_charger_title">Nun se pue cargar per USB</string>
     <string name="invalid_charger_text">Usa\'l cargador que vieno col preséu</string>
-    <string name="battery_saver_confirmation_title">¿Quies activar «Aforrador d\'enerxía»?</string>
-    <string name="battery_saver_confirmation_title_generic">Tocante a «Aforrador d\'enerxía»</string>
+    <string name="battery_saver_confirmation_title">¿Quies activar l\'aforrador d\'enerxía?</string>
+    <string name="battery_saver_confirmation_title_generic">Tocante al aforrador d\'enerxía</string>
     <string name="battery_saver_confirmation_ok">Activar</string>
-    <string name="battery_saver_start_action">Activar «Aforrador d\'enerxía»</string>
+    <string name="battery_saver_start_action">Activar l\'aforrador d\'enerxía</string>
     <string name="status_bar_settings_auto_rotation">Voltéu de pantalla automáticu</string>
     <string name="usb_device_permission_prompt">¿Quies permitir que «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
     <string name="usb_device_permission_prompt_warn">¿Quies permitir que «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?\nEsta aplicación nun tien permisu pa grabar, mas podría capturar audiu pente esti preséu USB.</string>
+    <string name="usb_audio_device_permission_prompt_title">¿Quies permitir que «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
+    <string name="usb_audio_device_confirm_prompt_title">¿Quies abrir «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» pa remanar «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
     <string name="usb_accessory_permission_prompt">¿Quies permitir que «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» acceda a «<xliff:g id="usb_accessory" example="USB Dock">%2$s</xliff:g>»?</string>
     <string name="usb_device_confirm_prompt">¿Quies abrir «<xliff:g id="activity">%1$s</xliff:g>» pa remanar «<xliff:g id="usb_device">%2$s</xliff:g>»?</string>
     <string name="usb_device_confirm_prompt_warn">¿Quies abrir «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» pa remanar «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?\nEsta aplicación nun tien permisu pa grabar, mas podría capturar audiu pente esti preséu USB.</string>
@@ -168,8 +170,8 @@
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth habilitáu.</string>
     <string name="accessibility_quick_settings_bluetooth_changed_off">Inhabilitóse\'l Bluetoooth.</string>
     <string name="accessibility_quick_settings_bluetooth_changed_on">Habilitóse\'l Bluetooth.</string>
-    <string name="accessibility_quick_settings_location_changed_off">Desactiváronse los informes d\'allugamientu.</string>
-    <string name="accessibility_quick_settings_location_changed_on">Activáronse los informes d\'allugamientu.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Desactiváronse los informes de llocalización.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Activáronse los informes de llocalización.</string>
     <string name="accessibility_quick_settings_alarm">Programóse l\'alarma pa la hora <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g>.</string>
     <string name="accessibility_quick_settings_more_time">Más tiempu.</string>
     <string name="accessibility_quick_settings_less_time">Menos tiempu.</string>
@@ -187,7 +189,7 @@
     <string name="data_usage_disabled_dialog_title">Los datos tán en posa</string>
     <string name="data_usage_disabled_dialog">Como s\'algamó la llende datos qu\'afitesti, el preséu posó l\'usu de datos pal restu d\'esti ciclu.\n\nSi sigues col usu, la operadora pue aplicar cargos.</string>
     <string name="data_usage_disabled_dialog_enable">Siguir</string>
-    <string name="accessibility_location_active">Solicitúes d\'allugamientu actives</string>
+    <string name="accessibility_location_active">Solicitúes de llocalización actives</string>
     <string name="accessibility_sensors_off_active">Activóse «Desactivar los sensores»</string>
     <string name="accessibility_clear_all">Quitar tolos avisos.</string>
     <string name="notification_group_overflow_indicator">+ <xliff:g id="number" example="3">%s</xliff:g></string>
@@ -211,7 +213,7 @@
     <string name="quick_settings_bluetooth_secondary_label_transient">Habilitando…</string>
     <string name="quick_settings_rotation_unlocked_label">Voltéu automáticu</string>
     <string name="accessibility_quick_settings_rotation">Voltéu de pantalla automáticu</string>
-    <string name="quick_settings_location_label">Allugamientu</string>
+    <string name="quick_settings_location_label">Llocalización</string>
     <string name="quick_settings_media_device_label">Preséu multimedia</string>
     <string name="quick_settings_user_title">Usuariu</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
@@ -245,6 +247,7 @@
     <string name="quick_settings_cellular_detail_data_used">Usóse: <xliff:g id="data_used" example="2.0 GB">%s</xliff:g></string>
     <string name="quick_settings_cellular_detail_data_limit">Llende: <xliff:g id="data_limit" example="2.0 GB">%s</xliff:g></string>
     <string name="quick_settings_cellular_detail_data_warning">Alvertencia: <xliff:g id="data_limit" example="2.0 GB">%s</xliff:g></string>
+    <string name="quick_settings_work_mode_label">Aplicaciones llaborales</string>
     <string name="quick_settings_night_display_label">Lluz nocherniega</string>
     <string name="quick_settings_night_secondary_label_on_at_sunset">Activar al anochar</string>
     <string name="quick_settings_night_secondary_label_until_sunrise">Hasta\'l riscar</string>
@@ -338,8 +341,8 @@ prioridá</string>
     <string name="monitoring_subtitle_network_logging">Rexistru de la rede</string>
     <string name="monitoring_subtitle_ca_certificate">Certificaos d\'EC</string>
     <string name="monitoring_button_view_policies">Ver les polítiques</string>
-    <string name="monitoring_description_named_management">Esti preséu pertenez a «<xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g>».\n\nL\'alministrador de TI pue supervisar y xestionar los axustes, l\'accesu corporativu, les aplicaciones, los datos asociaos col preséu y la información d\'allugamientu d\'esti preséu.\n\nPa consiguir más información, ponte en contautu col alministrador de TI.</string>
-    <string name="monitoring_description_management">Esti preséu pertenez a la to organización.\n\nL\'alministrador de TI pue supervisar y xestionar los axustes, l\'accesu corporativu, les aplicaciones, los datos asociaos col preséu y la información d\'allugamientu d\'esti preséu.\n\nPa consiguir más información, ponte en contautu col alministrador de TI.</string>
+    <string name="monitoring_description_named_management">Esti preséu pertenez a «<xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g>».\n\nL\'alministrador de TI pue supervisar y xestionar los axustes, l\'accesu corporativu, les aplicaciones, los datos asociaos col preséu y la información de llocalización d\'esti preséu.\n\nPa consiguir más información, ponte en contautu col alministrador de TI.</string>
+    <string name="monitoring_description_management">Esti preséu pertenez a la to organización.\n\nL\'alministrador de TI pue supervisar y xestionar los axustes, l\'accesu corporativu, les aplicaciones, los datos asociaos col preséu y la información de llocalización d\'esti preséu.\n\nPa consiguir más información, ponte en contautu col alministrador de TI.</string>
     <string name="monitoring_description_management_ca_certificate">La to organización instaló una entidá certificadora nesti preséu. Ye posible que se supervise o modifique\'l tráficu de rede seguru.</string>
     <string name="monitoring_description_managed_profile_ca_certificate">La to organización instaló una entidá certificadora nel perfil llaboral. Ye posible que se supervise o modifique\'l tráficu de rede seguru.</string>
     <string name="monitoring_description_ca_certificate">Instalóse una entidá certificadora nesti preséu. Ye posible que se supervise o modifique\'l tráficu de rede seguru.</string>
@@ -371,7 +374,7 @@ prioridá</string>
     <string name="screen_pinning_toast_recents_invisible">Pa lliberar esta aplicación, ten primíos al empar los
         botones «Atrás» y «Aniciu»</string>
     <string name="screen_pinning_toast_gesture_nav">Pa lliberar esta pantalla, esliza p\'arriba y ten primío</string>
-    <string name="screen_pinning_positive">D\'acuerdu</string>
+    <string name="screen_pinning_positive">Entendílo</string>
     <string name="screen_pinning_negative">Non, gracies</string>
     <string name="screen_pinning_start">Fixóse l\'aplicación</string>
     <string name="screen_pinning_exit">Lliberóse l\'aplicación</string>
@@ -404,6 +407,7 @@ prioridá</string>
     <string name="show_demo_mode">Amosar el mou de demostración</string>
     <string name="status_bar_ethernet">Ethernet</string>
     <string name="status_bar_alarm">Alarma</string>
+    <string name="wallet_lockscreen_settings_label">Axustes de la pantalla de bloquéu</string>
     <string name="status_bar_work">Perfil llaboral</string>
     <string name="status_bar_airplane">Mou avión</string>
     <string name="zen_alarm_warning_indef">Nun vas sentir la próxima alarma (<xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g>) sacante que desactives esta opción enantes</string>
@@ -416,7 +420,7 @@ prioridá</string>
     <string name="tuner_warning_title">Diversión namás pa dalgunes persones</string>
     <string name="tuner_warning">«Afinador de la IU del sistema» ufre más formes d\'axustar y personalizar la interfaz d\'usuariu d\'Android. Estes carauterístiques esperimentales puen camudar, desapaecer o dexar de funcionar nes versiones futures. Sigui con curiáu.</string>
     <string name="tuner_persistent_warning">Estes carauterístiques esperimentales puen camudar, desapaecer o dexar de funcionar nes versiones futures. Sigui con curiáu.</string>
-    <string name="got_it">D\'acuerdu</string>
+    <string name="got_it">Entendílo</string>
     <string name="tuner_toast">¡Norabona! Amestóse «Afinador de la IU del sistema» a «Axustes»</string>
     <string name="remove_from_settings">Quitar d\'«Axustes»</string>
     <string name="remove_from_settings_prompt">¿Quies quitar «Afinador de la IU del sistema» d\'«Axustes» y dexar d\'usar toles sos carauterístiques?</string>
@@ -657,7 +661,7 @@ prioridá</string>
     <string name="slice_permission_checkbox">Permitir que «<xliff:g id="app" example="Example App">%1$s</xliff:g> amuese fragmentos de cualesquier aplicación</string>
     <string name="slice_permission_allow">Permitir</string>
     <string name="slice_permission_deny">Negar</string>
-    <string name="auto_saver_title">Toca pa programar «Aforrador d\'enerxía»</string>
+    <string name="auto_saver_title">Toca pa programar l\'aforrador d\'enerxía</string>
     <string name="auto_saver_text">Activa la función si prevés que la batería pue escosar</string>
     <string name="no_auto_saver_action">Non, gracies</string>
     <string name="heap_dump_tile_name">Volquiar pila SysUI</string>
@@ -665,7 +669,7 @@ prioridá</string>
     <string name="ongoing_privacy_dialog_separator">,\u0020</string>
     <string name="ongoing_privacy_dialog_last_separator">\u0020y\u0020</string>
     <string name="privacy_type_camera">cámara</string>
-    <string name="privacy_type_location">allugamientu</string>
+    <string name="privacy_type_location">llocalización</string>
     <string name="privacy_type_microphone">micrófonu</string>
     <string name="music_controls_no_title">Ensin títulu</string>
     <string name="inattentive_sleep_warning_title">N\'espera</string>
@@ -711,6 +715,7 @@ prioridá</string>
     <string name="controls_media_dismiss_button">Escartar</string>
     <string name="controls_media_resume">Siguir</string>
     <string name="controls_media_settings_button">Axustes</string>
+    <string name="controls_media_seekbar_description"><xliff:g id="elapsed_time" example="1:30">%1$s</xliff:g> de <xliff:g id="total_time" example="3:00">%2$s</xliff:g></string>
     <string name="controls_media_smartspace_rec_title">Reproducir</string>
     <string name="controls_error_timeout">Inactivu. Revisa l\'aplicación</string>
     <string name="controls_error_removed">Nun s\'atopó</string>
@@ -727,8 +732,24 @@ prioridá</string>
     <string name="media_output_dialog_multiple_devices">Esbilláronse <xliff:g id="count" example="2">%1$d</xliff:g> preseos</string>
     <string name="media_output_dialog_connect_failed">Nun se pudo conectar. Volvi tentalo.</string>
     <string name="media_output_dialog_pairing_new">Empareyamientu d\'un preséu nuevu</string>
+    <string name="select_conversation_title">Widgets de conversación</string>
+    <string name="priority_conversations">Conversaciones con prioridá</string>
+    <string name="recent_conversations">Conversaciones de recién</string>
+    <string name="birthday_status">Cumpleaños</string>
+    <string name="birthday_status_content_description">Ye\'l cumpleaños de: <xliff:g id="name" example="Anna">%1$s</xliff:g></string>
+    <string name="anniversary_status">Aniversariu</string>
+    <string name="anniversary_status_content_description">Ye l\'aniversariu de: <xliff:g id="name" example="Anna">%1$s</xliff:g></string>
+    <string name="missed_call">Llamada perdida</string>
+    <string name="messages_count_overflow_indicator"><xliff:g id="number" example="7">%d</xliff:g>+</string>
+    <string name="people_tile_title">Conversación</string>
+    <string name="new_notification_text_content_description">«<xliff:g id="name" example="Anna">%1$s</xliff:g>» unvió un mensaxe: <xliff:g id="notification" example="Hey! How is your day going">%2$s</xliff:g></string>
+    <string name="new_notification_image_content_description">«<xliff:g id="name" example="Anna">%1$s</xliff:g>» unvió un mensaxe</string>
     <string name="battery_state_unknown_notification_title">Hebo un problema al lleer el mididor de la batería</string>
     <string name="battery_state_unknown_notification_text">Toca pa consiguir más información</string>
+    <string name="accessibility_fingerprint_label">Sensor de buelgues</string>
+    <string name="ongoing_phone_call_content_description">Llamada telefónica entrante</string>
     <string name="mobile_data_settings_title">Datos móviles</string>
     <string name="mobile_data_connection_active">Conectóse</string>
+    <string name="turn_on_wifi">Wi\u2011Fi</string>
+    <string name="tap_a_network_to_connect">Toca una rede pa conectate</string>
 </resources>

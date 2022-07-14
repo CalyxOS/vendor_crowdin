@@ -48,6 +48,7 @@
     <string name="voice_number_setting_primary_user_only">Dim ond y prif ddefnyddiwr gall newid gosodiadau lleisbost.</string>
     <string name="puk_unlocked">Mae dy gerdyn SIM wedi ei dadrwystro. Mae dy ffôn yn datgloi\u2026</string>
     <string name="label_ndp">PIN datgloi rhwydwaith SIM</string>
+    <string name="label_phoneid">SIM wedi\'i gloi i\'r darparydd</string>
     <string name="sim_ndp_unlock_text">Datgloi</string>
     <string name="sim_ndp_dismiss_text">Gwrthod</string>
     <string name="requesting_unlock">Yn gofyn i ddatgloi\'r rhwydwaith\u2026</string>
@@ -121,8 +122,13 @@
     <string name="sum_cfnrc_enabled">Yn dargyfeirio i <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
     <string name="sum_cfnrc_disabled">I ffwrdd</string>
     <string name="disable_cfnrc_forbidden">Dyw dy ddarparwr gwasanaeth ddim yn galluogi dargyfeirio galwadau tra bod dy ffôn yn anghyraeddadwy.</string>
+    <string name="registration_cf_forbidden">Dyw dy ddarparwr gwasanaeth ddim yn caniatáu dargyfeirio galwadau</string>
+    <string name="cdma_call_waiting">Troi Galwad yn Aros ymlaen?</string>
+    <string name="enable_cdma_call_waiting_setting">Yn ystod galwad, cei dy hysbysu am alwadau\'n dod i mewn</string>
     <string name="enable_cdma_cw">Troi ymlaen</string>
     <string name="disable_cdma_cw">Diddymu</string>
+    <string name="cdma_call_waiting_in_ims_on">Galwadau yn Aros CDMA dan IMS Ymlaen</string>
+    <string name="cdma_call_waiting_in_ims_off">Galwadau yn Aros CDMA dan IMS i Ffwrdd</string>
     <string name="updating_title">Gosodiadau galwadau</string>
     <string name="call_settings_admin_user_only">Dim ond defnyddiwr gweinyddol gall newid gosodiadau galwadau.</string>
     <string name="call_settings_with_label">Gosodiadau (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s </xliff:g>)</string>
@@ -287,6 +293,10 @@
     <string name="limited_sim_function_notification_title">Nodweddion SIM cyfyngedig</string>
     <string name="limited_sim_function_with_phone_num_notification_message">Gall fod galwadau a gwasanaethau data <xliff:g id="carrier_name">%1$s</xliff:g> yn cael eu rhwystro wrth ddefnyddio <xliff:g id="phone_number">%2$s</xliff:g>.</string>
     <string name="limited_sim_function_notification_message">Gall fod galwadau a gwasanaethau data <xliff:g id="carrier_name">%1$s</xliff:g> yn cael eu rhwystro wrth ddefnyddio SIM arall.</string>
+    <string name="sip_accounts_removed_notification_title">Wedi canfod a thynnu hen gyfrifon SIP</string>
+    <string name="sip_accounts_removed_notification_message">        Nid yw Android bellach yn cefnogi galwadau SIP.\nMae dy gyfrifon SIP <xliff:g id="removed_sip_accounts">%s</xliff:g> wedi cael eu tynnu.\nCadarnha dy osodiad galwadau rhagosodedig.
+    </string>
+    <string name="sip_accounts_removed_notification_action">Mynd i\'r gosodiadau</string>
     <string name="data_usage_title">Defnydd data apiau</string>
     <string name="data_usage_template"><xliff:g name="amount" example="200 MB">%1$s</xliff:g> o ddata symudol wedi\'i ddefnyddio <xliff:g name="date_range" example="Jan 1 -- Feb 2">%2$s</xliff:g></string>
     <string name="advanced_options_title">Uwch</string>
@@ -505,6 +515,7 @@
     <string name="puk2_requested">Cyfrinair anghywir. Mae\'r SIM nawr ar glo. Rho PUK2.</string>
     <string name="puk2_blocked">Mae PIN2 wedi\'i rhwystro yn barhaol.</string>
     <string name="pin2_attempts">\nMae gennyt <xliff:g id="number">%d</xliff:g> cais yn weddill.</string>
+    <string name="puk2_locked">PUK2 wedi\'i gloi. Cysyllta â dy ddarparwr gwasanaeth i\'w ddatgloi.</string>
     <string name="pin2_unblocked">Dyw\'r PIN2 heb ei rhwystro mwyach</string>
     <string name="pin2_error_exception">Gwall rhwydwaith neu gerdyn SIM</string>
     <string name="doneButton">Iawn</string>
@@ -526,6 +537,7 @@
     <string name="incall_error_power_off" product="watch">I wneud galwad rhai troi\'r rhwydwaith symudol ymlaen, troi modd awyren i ffwrdd neu droi modd arbed batri i fwrdd.</string>
     <string name="incall_error_power_off" product="default">Rhaid diffodd modd awyren er mwyn gwneud galwad.</string>
     <string name="incall_error_power_off_wfc">Diffodda modd awyren neu gysylltu â rhwydwaith diwifr i wneud galwad.</string>
+    <string name="incall_error_power_off_thermal" product="default"><b>Ffôn rhy boeth</b>\n\nMethu cwblhau\'r alwad hon. Rho gynnig arall arni pan mae tymheredd dy ffôn wedi gostwng.\n\nMae galwadau brys yn bosib o hyd.</string>
     <string name="incall_error_ecm_emergency_only">Rhaid gadael modd Galwad Nôl mewn Argyfwng i wneud galwad na sy\'n argyfyngus.</string>
     <string name="incall_error_emergency_only">Heb gofrestru ar y rhwydwaith.</string>
     <string name="incall_error_out_of_service">Dim rhwydwaith symudol ar gael.</string>
@@ -938,4 +950,7 @@
     <string name="phone_info_label" product="default">Gwybodaeth y ffôn</string>
     <string name="carrier_provisioning">Gwybodaeth Darpariaeth Darparwr</string>
     <string name="trigger_carrier_provisioning">Sbarduno Darpariaeth Darparwr</string>
+    <string name="call_quality_notification_bluetooth_details">        Mae dy signal Bluetooth yn wan. Rho gynnig ar y darseinydd.</string>
+    <string name="call_quality_notification_name">Hysbysiad Ansawdd Galwad</string>
+    <string name="notification_channel_sip_account">Hen gyfrifon SIP</string>
 </resources>
