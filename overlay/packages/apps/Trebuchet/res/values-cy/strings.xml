@@ -38,6 +38,10 @@
     <string name="add_item_request_drag_hint">Cyffyrdda a dal dy gyffwrdd ar y teclyn i\'w symud o gwmpas y sgrin Gartref</string>
     <string name="add_to_home_screen">Ychwanegu i\'r sgrin gartref</string>
     <string name="added_to_home_screen_accessibility_text">Ychwanegwyd teclyn <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> i\'r sgrin Gartref</string>
+    <string name="widgets_count">        {count, plural, zero {} one {# teclyn} two {# declyn} few {# theclyn} many {# theclyn} =1{# teclyn} other{# teclyn}}
+    </string>
+    <string name="shortcuts_count">        {count, plural, zero {} one {# llwybr byr} two {# lwybr byr} few {# llwybr byr} many {# llwybr byr} =1{# llwybr byr} other{# llwybr byr}}
+    </string>
     <string name="widgets_and_shortcuts_count"><xliff:g id="widgets_count" example="5 widgets">%1$s</xliff:g>, <xliff:g id="shortcuts_count" example="1 shortcut">%2$s</xliff:g></string>
     <string name="widget_button_text">Teclynnau</string>
     <string name="widgets_full_sheet_search_bar_hint">Chwilio</string>
@@ -86,6 +90,11 @@
     <string name="uninstall_system_app_text">Mae hwn yn ap system a ni ellir ei ddadosod.</string>
     <string name="folder_hint_text">Enw Ffolder</string>
     <string name="disabled_app_label">Analluogwyd <xliff:g id="app_name" example="Messenger">%1$s</xliff:g></string>
+    <string name="dotted_app_label">        {count, plural,
+=1 {Mae gan {app_name} # hysbysiad} 
+other {Mae gan {app_name} # hysbysiad} 
+        }
+    </string>
     <string name="default_scroll_format">Tudalen %1$d o %2$d</string>
     <string name="workspace_scroll_format">Sgrin gartref %1$d o %2$d</string>
     <string name="workspace_new_page">Tudalen sgrin gartref newydd</string>

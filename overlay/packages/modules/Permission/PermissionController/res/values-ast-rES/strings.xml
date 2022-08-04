@@ -26,6 +26,9 @@
     <string name="grant_dialog_button_allow_one_time">Namás esta vegada</string>
     <string name="grant_dialog_button_allow_all_files">Permitir la xestión de tolos ficheros</string>
     <string name="grant_dialog_button_allow_media_only">Permitir l\'accesu al conteníu multimedia</string>
+    <string name="permission_summary_disabled_by_policy_background_only">La política desactivó l\'accesu al segundu planu</string>
+    <string name="permission_summary_enabled_by_policy_background_only">La política activó l\'accesu al segundu planu</string>
+    <string name="permission_summary_enabled_by_policy_foreground_only">La política activó l\'accesu al primer planu</string>
     <string name="loading">Cargando\u2026</string>
     <string name="all_permissions">Tolos permisos</string>
     <string name="wear_not_allowed_dlg_title">Android Wear</string>
@@ -33,6 +36,22 @@
     <string name="review_button_continue">Siguir</string>
     <string name="new_permissions_category">Permisos nuevos</string>
     <string name="current_permissions_category">Permisos actuales</string>
+    <plurals name="duration_used_days">
+        <item quantity="one">1 d</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> d</item>
+    </plurals>
+    <plurals name="duration_used_hours">
+        <item quantity="one">1 h</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> h</item>
+    </plurals>
+    <plurals name="duration_used_minutes">
+        <item quantity="one">1 m</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> m</item>
+    </plurals>
+    <plurals name="duration_used_seconds">
+        <item quantity="one">1 s</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> s</item>
+    </plurals>
     <plurals name="permission_usage_bar_label">
         <item quantity="one">1 aplicación</item>
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> aplicaciones</item>
@@ -51,6 +70,12 @@
     <string name="approximate_image_description">Llocalización aproximada</string>
     <string name="app_permission_footer_app_permissions_link">Ver tolos permisos de: <xliff:g id="app" example="Maps">%1$s</xliff:g></string>
     <string name="app_permission_footer_permission_apps_link">Ver toles aplicaciones con esti permisu</string>
+    <string name="permission_description_summary_calendar">Les aplicaciones con esti permisu puen acceder al calendariu</string>
+    <string name="permission_description_summary_call_log">Les aplicaciones con esti permisu pue lleer y modificar el rexistru de llamaes</string>
+    <string name="permission_description_summary_camera">Les aplicaciones con esti permisu pue facer semeyes y grabar videu</string>
+    <string name="permission_description_summary_contacts">Les aplicaciones con esti permisu puen acceder a los contautos</string>
+    <string name="permission_description_summary_location">Les aplicaciones con esti permisu pue acceder a la llocalización del preséu</string>
+    <string name="permission_description_summary_storage">Les aplicaciones con esti permisu puen acceder al conteníu multimedia y a otros ficheros del preséu</string>
     <plurals name="days">
         <item quantity="one">1 día</item>
         <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> díes</item>
@@ -69,6 +94,7 @@
     </plurals>
     <string name="permission_subtitle_all_files">Tolos ficheros</string>
     <string name="settings">Axustes</string>
+    <string name="role_emergency_search_keywords">en casu d\'emerxencia</string>
     <string name="ongoing_usage_dialog_ok">Entendílo</string>
     <string name="ongoing_usage_dialog_separator">,\u0020</string>
     <string name="ongoing_usage_dialog_last_separator">\u0020y\u0020</string>
