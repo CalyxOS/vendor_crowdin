@@ -15,7 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Calendariu</string>
+    <string name="no_dialler">Nun hai nengún marcador</string>
     <string name="no_events">Nun hai nengún eventu programáu. ¡Tas llibre!</string>
+    <string name="no_calendars">Ye posible que se tea aniciando\'l calendariu o pue que tengas de comprobar los axustes na aplicación d\'acompañamientu</string>
     <string name="all_day_event">Tol día</string>
     <string name="phone_number">        <xliff:g id="number" example="+49 (0) 555 1234567">%1$s</xliff:g>
     </string>
@@ -23,4 +25,8 @@
         PIN:
         <xliff:g id="pin" example="4567">%2$s</xliff:g>
     </string>
+    <plurals name="all_day_title">
+        <item quantity="one">%d eventu que dura tol día</item>
+        <item quantity="other">%d eventos que duren tol día</item>
+    </plurals>
 </resources>
