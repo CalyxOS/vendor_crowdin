@@ -231,7 +231,6 @@
     <string name="permlab_writeCallLog">Urufflëscht änneren</string>
     <string name="permdesc_writeCallLog" product="tablet">Erlaabt der App, d\'Urufflëscht vum Tablet z\'änneren, inklusiv Daten iwwer erakommend an erausgoend Uriff. Béisaarteg Appe kéinten dës Berechtegung benotze fir d\'Daten ouni däi Wëssen ze läschen oder z\'änneren.</string>
     <string name="permdesc_writeCallLog" product="default">Erlaabt der App, d\'Urufflëscht vum Telefon z\'änneren, inklusiv Daten iwwer erakommend an erausgoend Uriff. Béisaarteg Appe kéinten dës Berechtegung benotze fir d\'Daten ouni däi Wëssen ze läschen oder z\'änneren.</string>
-    <string name="permdesc_bodySensors" product="default">Erlaabt der App, op d\'Date vu Sensoren zouzegräifen, déi deng kierperlech Verfaassung iwwerwaachen, z. B. däi Puls.</string>
     <string name="permlab_writeCalendar">Kalenner-Rendezvousen dobäisetzen oder änneren an E-Mailen u Gäscht ouni d\'Wësse vun de Benotzer schécken</string>
     <string name="permlab_accessLocationExtraCommands">Op zousätzlech Serviceproviderbefeeler fir de Standuert zougräifen</string>
     <string name="permlab_modifyAudioSettings">Tounastellungen änneren</string>
@@ -700,6 +699,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="deleteText">Läschen</string>
     <string name="inputMethod">Method fir anzeginn</string>
     <string name="editTextMenuTitle">Textaktiounen</string>
+    <string name="input_method_nav_back_button_desc">Zréck</string>
     <string name="low_internal_storage_view_title">De Späicher huet geschwë keng Plaz méi</string>
     <string name="low_internal_storage_view_text">E puer Systemfunktioune funktionéiere vläicht net</string>
     <string name="low_internal_storage_view_text_no_boot">Net genuch Späicher fir de System. Stell sécher, datt s de 250MB fräi Späicherplaz hues a start nei.</string>
@@ -761,7 +761,6 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="android_upgrading_apk">Optiméierung vun der App <xliff:g id="number" example="123">%1$d</xliff:g> / <xliff:g id="number" example="123">%2$d</xliff:g>.</string>
     <string name="android_upgrading_starting_apps">Appe gi gestart.</string>
     <string name="android_upgrading_complete">Start gëtt ofgeschloss.</string>
-    <string name="fp_enrollment_powerbutton_intent_negative_button">Ofbriechen</string>
     <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> leeft</string>
     <string name="sendText">Aktioun fir Text auswielen</string>
     <string name="volume_ringtone">Schelltounlautstäerkt</string>
@@ -868,10 +867,6 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="skip_button_label">Iwwersprangen</string>
     <string name="no_matches">Keng Treffer</string>
     <string name="find_on_page">Op der Säit fannen</string>
-    <plurals name="matches_found">
-        <item quantity="one">1 Treffer</item>
-        <item quantity="other"><xliff:g id="index" example="2">%d</xliff:g> vu(n) <xliff:g id="total" example="137">%d</xliff:g></item>
-    </plurals>
     <string name="action_mode_done">Fäerdeg</string>
     <string name="share">Deelen</string>
     <string name="find">Sichen</string>
@@ -1116,10 +1111,6 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="restr_pin_create_pin">PIN fir d\'Ännerung vun Aschränkungen uleeën</string>
     <string name="restr_pin_error_doesnt_match">D\'PINe stëmmen net iwwereneen. Probéier nees w.e.g..</string>
     <string name="restr_pin_error_too_short">De PIN ass ze kuerz. E muss mindestens 4 Zifferen hunn.</string>
-    <plurals name="restr_pin_countdown">
-        <item quantity="one">Probéier nees an 1 Sekonn</item>
-        <item quantity="other">Probéier nees a(n) <xliff:g id="count">%d</xliff:g> Sekonnen</item>
-    </plurals>
     <string name="restr_pin_try_later">Probéier méi spéit nees</string>
     <string name="done_label">Fäerdeg</string>
     <string name="hour_picker_description">Kreesfërmege Regeler fir Stonnen</string>
@@ -1136,14 +1127,6 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="lock_to_app_unlock_password">E Passwuert froe fir e Schierm fräizeginn</string>
     <string name="confirm_battery_saver">OK</string>
     <string name="data_saver_enable_button">Uschalten</string>
-    <plurals name="zen_mode_duration_minutes_summary">
-        <item quantity="one">Fir eng Minutt (bis <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Fir %1$d Minutten (bis <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_minutes">
-        <item quantity="one">Fir eng Minutt</item>
-        <item quantity="other">Fir %d Minutten</item>
-    </plurals>
     <string name="zen_mode_until">Bis <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
     <string name="toolbar_collapse_description">Zouklappen</string>
     <string name="zen_mode_feature_name">Net stéieren</string>

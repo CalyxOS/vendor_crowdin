@@ -84,8 +84,8 @@
     <string name="bluetooth_phonebook_request">"Zougrëff op d'Telefonsbuch néideg"</string>
     <string name="bluetooth_map_request">"Ufro fir d'Zougrëff op d'Messagen"</string>
     <string name="bluetooth_map_acceptance_dialog_text">%1$s wëll op deng Messagen zougräifen. Zougrëff fir %2$s fräischalten?</string>
-    <string name="bluetooth_disable_a2dp_hw_offload_dialog_confirm">Nei starten</string>
-    <string name="bluetooth_disable_a2dp_hw_offload_dialog_cancel">Ofbriechen</string>
+    <string name="bluetooth_disable_hw_offload_dialog_confirm">Nei starten</string>
+    <string name="bluetooth_disable_hw_offload_dialog_cancel">Ofbriechen</string>
     <string name="date_and_time">Datum an Zäit</string>
     <string name="choose_timezone">Zäitzon auswielen</string>
     <string name="intent_sender_data_label"><xliff:g id="data">Daten:</xliff:g></string>
@@ -125,6 +125,7 @@
     <string name="skip_label">Iwwersprangen</string>
     <string name="next_label">Weider</string>
     <string name="locale_remove_menu">Ewechhuelen</string>
+    <string name="app_locale_preference_title">Sprooch</string>
     <string name="activity_picker_label">Aktivitéit auswielen</string>
     <string name="debug_intent_sender_label">Debug intent sender</string>
     <string name="display_label">Schierm</string>
@@ -192,29 +193,10 @@
     <string name="security_settings_fingerprint_enroll_dialog_delete">Läschen</string>
     <string name="security_settings_fingerprint_enroll_done">Fäerdeg</string>
     <string name="fingerprint_enroll_button_next">Weider</string>
-    <string name="crypt_keeper_settings_title">Verschlësselung</string>
-    <string name="crypt_keeper_encrypt_title" product="tablet">Tablet verschlësselen</string>
-    <string name="crypt_keeper_encrypt_title" product="default">Telefon verschlësselen</string>
-    <string name="crypt_keeper_encrypted_summary">Verschlësselt</string>
-    <string name="crypt_keeper_button_text" product="tablet">Tablet verschlësselen</string>
-    <string name="crypt_keeper_button_text" product="default">Telefon verschlësselen</string>
-    <string name="crypt_keeper_low_charge_text">Akku oplueden an nees probéieren.</string>
-    <string name="crypt_keeper_unplugged_text">Schléiss däin Oplueder un a probéier nees.</string>
-    <string name="crypt_keeper_dialog_need_password_title">Kee Spärschierm oder Passwuert</string>
-    <string name="crypt_keeper_dialog_need_password_message">Du muss e PIN oder e Passwuert fir de Spärschierm setzen ier s de d\'Verschlësselung starte kanns.</string>
-    <string name="crypt_keeper_confirm_title">Verschlësselen?</string>
-    <string name="crypt_keeper_setup_title">Gëtt verschlësselt</string>
-    <string name="crypt_keeper_setup_description" product="tablet">Waart während den Tablet verschlësselt gëtt. <xliff:g id="percent" example="50">^1</xliff:g>% fäerdeg.</string>
-    <string name="crypt_keeper_setup_description" product="default">Waart während den Telefon verschlësselt gëtt. <xliff:g id="percent" example="50">^1</xliff:g>% fäerdeg.</string>
-    <string name="crypt_keeper_setup_time_remaining" product="tablet">Waart, während däin Tablet verschlësselt gëtt. Verbleiwend Zäit: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
-    <string name="crypt_keeper_setup_time_remaining" product="default">Waart, während däin Telefon verschlësselt gëtt. Verbleiwend Zäit: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
-    <string name="crypt_keeper_force_power_cycle" product="tablet">Fir däin Tablet z\'entspären, schalt däin Telefon aus an dann un.</string>
-    <string name="crypt_keeper_force_power_cycle" product="default">Fir däin Telefon z\'entspären, schalt däin Telefon aus an dann un.</string>
-    <string name="crypt_keeper_warn_wipe">Warnung: Den Apparat gëtt no <xliff:g id="count" example="7">^1</xliff:g> weidere feelgeschloenen Entspärversich komplett geläscht!</string>
-    <string name="crypt_keeper_enter_password">Passwuert aginn</string>
-    <string name="crypt_keeper_failed_title">Verschlësselung feelgeschloen</string>
-    <string name="crypt_keeper_data_corrupt_title">Entschlësselung feelgeschloen</string>
-    <string name="crypt_keeper_switch_input_method">Method fir anzeginn wiesselen</string>
+    <string name="encryption_settings_title">Verschlësselung</string>
+    <string name="encrypt_title" product="tablet">Tablet verschlësselen</string>
+    <string name="encrypt_title" product="default">Telefon verschlësselen</string>
+    <string name="encrypted_summary">Verschlësselt</string>
     <string name="lock_settings_picker_title">Schiermspär auswielen</string>
     <string name="unlock_set_unlock_launch_picker_title">Schiermspär</string>
     <string name="unlock_set_unlock_launch_picker_change_title">Spärschierm änneren</string>
@@ -429,7 +411,6 @@
     <string name="private_dns_mode_on">Un</string>
     <string name="carrier">Provider</string>
     <string name="display_settings_title">Usiicht</string>
-    <string name="sound_settings">Toun</string>
     <string name="all_volume_title">Lautstäerkt</string>
     <string name="musicfx_title">Musekeffekter</string>
     <string name="vibrate_in_silent_title">Vibréiere wa roueg geschalt</string>
@@ -502,7 +483,6 @@
     <string name="screensaver_settings_summary_dock">Wa gedockt</string>
     <string name="screensaver_settings_summary_never">Ni</string>
     <string name="screensaver_settings_summary_off">Aus</string>
-    <string name="screensaver_settings_dream_start">Elo starten</string>
     <string name="screensaver_settings_button">Astellungen</string>
     <string name="automatic_brightness">Automatesch Hellegkeet</string>
     <string name="lift_to_wake_title">Waakreg maache beim Ophiewen</string>
@@ -662,11 +642,11 @@
     <string name="menu_restore">Op de Standard zrécksetzen</string>
     <string name="restore_default_apn_completed">Standard-APN-Astellunge goufen erëmhiergestallt.</string>
     <string name="reset_network_confirm_title">Zrécksetzen?</string>
-    <string name="main_clear_accounts" product="default">\n\nDu bass momentan an dëse Konten ugemellt:\n</string>
-    <string name="main_clear_other_users_present" product="default">\n\nOp dësem Apparat sinn aner Benotzer.\n</string>
-    <string name="main_clear_desc_also_erases_external"><li>Musek</li>\n<li>Fotoen</li>\n<li>Aner Benotzerdaten</li></string>
-    <string name="main_clear_desc_erase_external_storage" product="nosdcard">\n\nFir d\'Musek, Biller an aner Benotzerdaten ze läsche muss den <b>USB-Späicher</b> geläscht ginn.</string>
-    <string name="main_clear_desc_erase_external_storage" product="default">\n\nFir d\'Musek, Biller an aner Benotzerdaten ze läsche muss d\'<b>SD-Kaart</b> geläscht ginn.</string>
+    <string name="main_clear_accounts" product="default">"\n\nDu bass momentan an dëse Konten ugemellt:\n"</string>
+    <string name="main_clear_other_users_present" product="default">"\n\nOp dësem Apparat sinn aner Benotzer.\n"</string>
+    <string name="main_clear_desc_also_erases_external">"<li>Musek</li>\n<li>Fotoen</li>\n<li>Aner Benotzerdaten</li>"</string>
+    <string name="main_clear_desc_erase_external_storage" product="nosdcard">"\n\nFir d'Musek, Biller an aner Benotzerdaten ze läsche muss den <b>USB-Späicher</b> geläscht ginn."</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"\n\nFir d'Musek, Biller an aner Benotzerdaten ze läsche muss d'<b>SD-Kaart</b> geläscht ginn."</string>
     <string name="erase_external_storage" product="nosdcard">USB-Späicher läschen</string>
     <string name="erase_external_storage" product="default">SD-Kaart läschen</string>
     <string name="erase_external_storage_description" product="nosdcard">All d\'Daten um internen USB-Späicher läschen, wéi Musek oder Fotoen</string>
@@ -728,7 +708,6 @@
     <string name="license_title">Lizenz</string>
     <string name="terms_title">Geschäftsbedéngungen</string>
     <string name="webview_license_title">System-WebView-Lizenz</string>
-    <string name="wallpaper_attributions">Hannergrondbiller</string>
     <string name="wallpaper_attributions_values">Source vun de Satellittebiller:\n©2014 CNES / Astrium, DigitalGlobe, Bluesky</string>
     <string name="settings_license_activity_unavailable">Et gëtt e Problem beim Luede vun de Lizenzen.</string>
     <string name="settings_license_activity_loading">Gëtt gelueden\u2026</string>
@@ -820,6 +799,7 @@
     <string name="clear_data_dlg_title">App-Date läschen?</string>
     <string name="dlg_ok">OK</string>
     <string name="dlg_cancel">Ofbriechen</string>
+    <string name="dlg_delete">Läschen</string>
     <string name="join_two_items"><xliff:g id="first_item">%1$s</xliff:g> a(n) <xliff:g id="second_item">%2$s</xliff:g></string>
     <string name="computing_size">Gëtt berechent\u2026</string>
     <string name="version_text">Versioun <xliff:g id="version_num">%1$s</xliff:g></string>
@@ -949,6 +929,7 @@
     <string name="vision_settings_suggestion_title">Schrëftgréisst änneren</string>
     <string name="audio_category_title">Toun</string>
     <string name="display_category_title">Usiicht</string>
+    <string name="accessibility_magnification_triple_tap_warning_negative_button">Ofbriechen</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">Erweidert</string>
     <string name="accessibility_button_location_title">Standuert</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Héich-Kontrasträichen Text</string>
@@ -958,17 +939,16 @@
     <string name="accessibility_timeout_default">Standard</string>
     <string name="accessibility_long_press_timeout_preference_title">Reaktiounszäit fir d\'Drécken an Unhalen</string>
     <string name="accessibility_display_inversion_preference_title">Faarwen invertéieren</string>
-    <string name="accessibility_autoclick_default_title">Aus</string>
     <string name="accessibility_autoclick_medium_title">Mëttel</string>
+    <string name="accessibility_vibration_settings_state_on">Un</string>
+    <string name="accessibility_vibration_settings_state_off">Aus</string>
+    <string name="accessibility_call_vibration_category_title">Uriff</string>
     <string name="captioning_more_options_title">Méi Optiounen</string>
     <string name="accessibility_hearingaid_instruction_continue_button">Weider</string>
     <string name="accessibility_summary_shortcut_disabled">Aus</string>
     <string name="accessibility_summary_state_enabled">Un</string>
     <string name="accessibility_summary_state_disabled">Aus</string>
     <string name="enable_quick_setting">An de séieren Astellungen uweisen</string>
-    <string name="daltonizer_type">Korrekturmodus</string>
-    <string name="accessibility_vibration_intensity_off">Aus</string>
-    <string name="accessibility_vibration_intensity_medium">Mëttel</string>
     <string name="accessibility_menu_item_settings">Astellungen</string>
     <string name="accessibility_feature_state_on">Un</string>
     <string name="accessibility_feature_state_off">Aus</string>
@@ -1003,10 +983,6 @@
     <string name="color_yellow">Giel</string>
     <string name="color_magenta">Magenta</string>
     <string name="capabilities_list_title"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> wëll:</string>
-    <string name="enable_service_encryption_warning">Wann s du <xliff:g id="SERVICE">%1$s</xliff:g> aktivéiers, benotzt den Apparat net d\'Schiermspär, fir d\'Dateverschlësselung ze verbesseren.</string>
-    <string name="enable_service_pattern_reason">Well d\'Aktivéierung vu(n) <xliff:g id="service" example="TalkBack">%1$s</xliff:g> d\'Dateverschlësslung betrëfft, muss du däin Entspärmuster bestätegen.</string>
-    <string name="enable_service_pin_reason">Well d\'Aktivéierung vu(n) <xliff:g id="service" example="TalkBack">%1$s</xliff:g> d\'Dateverschlësslung betrëfft, muss du däi PIN bestätegen.</string>
-    <string name="enable_service_password_reason">Well d\'Aktivéierung vu(n) <xliff:g id="service" example="TalkBack">%1$s</xliff:g> d\'Dateverschlësslung betrëfft, muss du däi Passwuert bestätegen.</string>
     <string name="accessibility_dialog_button_allow">Erlaben</string>
     <string name="accessibility_dialog_button_deny">Verweigeren</string>
     <string name="accessibility_dialog_button_stop">Stopp</string>
@@ -1126,6 +1102,8 @@
     <string name="menu_stats_total">Gesamtverbrauch</string>
     <string name="menu_stats_refresh">Opfrëschen</string>
     <string name="process_mediaserver_label">Medieserver</string>
+    <string name="process_network_tethering">Tethering</string>
+    <string name="process_removed_apps">Geläscht Appen</string>
     <string name="battery_saver_auto_title">Automatesch uschalten</string>
     <string name="battery_saver_turn_on_automatically_title">Automatesch uschalten</string>
     <string name="battery_saver_turn_on_automatically_never">Ni</string>
@@ -1243,13 +1221,6 @@
     <string name="really_remove_account_message" product="tablet">Duerch d\'Läsche vun dësem Kont ginn all seng Messagen, Kontakter an aner Date vum Tablet geläscht!</string>
     <string name="really_remove_account_message" product="default">Duerch d\'Läsche vun dësem Kont ginn all seng Messagen, Kontakter an aner Date vum Telefon geläscht!</string>
     <string name="cant_sync_dialog_message">D\'Synchroniséierung vun dësem Element ass momentan desaktivéiert. Schalt virleefeg d\'Hannergronddaten an déi automatesch Synchroniséierung u fir dës Astellung z\'änneren.</string>
-    <string name="enter_password">Gëff däi Passwuert an, fir Android ze starten</string>
-    <string name="enter_pin">Gëff däi PIN an, fir Android ze starten</string>
-    <string name="enter_pattern">Zeechen däi Muster, fir Android ze starten</string>
-    <string name="cryptkeeper_wrong_pattern">Falscht Muster</string>
-    <string name="cryptkeeper_wrong_password">Falscht Passwuert</string>
-    <string name="cryptkeeper_wrong_pin">Falsche PIN</string>
-    <string name="checking_decryption">Iwwerpréiwung\u2026</string>
     <string name="delete">Läschen</string>
     <string name="misc_files">Verschidde Fichieren</string>
     <string name="misc_files_selected_count"><xliff:g id="number" example="3">%1$d</xliff:g> vu(n) <xliff:g id="total" example="15">%2$d</xliff:g> ausgewielt</string>
@@ -1318,8 +1289,6 @@
     <string name="data_usage_metered_wifi_disabled">Fir bezuelt Netzwierker auszewielen, schalt WLAN un.</string>
     <string name="data_usage_metered_auto">Automatesch</string>
     <string name="data_usage_disclaimer">De Provider berechent d\'Datebenotzung eventuell anescht als den Apparat.</string>
-    <string name="cryptkeeper_emergency_call">Noutruff</string>
-    <string name="cryptkeeper_return_to_call">Zréck bei d\'Gespréich</string>
     <string name="vpn_name">Numm</string>
     <string name="vpn_type">Typ</string>
     <string name="vpn_server">Serveradress</string>
@@ -1376,7 +1345,6 @@
     <string name="ssl_ca_cert_warning_message">Eng drëtt Partei kann deng Netzwierkaktivitéiten, inklusiv Emailen, Appen, a séchere Websäiten iwwerwaachen.\n\nVertrauenswierdeg Umeldungsdaten déi um Apparat installéiert sinn erméiglechen dat.</string>
     <string name="user_list_title">Benotzer a Profiller</string>
     <string name="user_add_user_or_profile_menu">Benotzer oder Profil dobäisetzen</string>
-    <string name="user_add_user_menu">Benotzer dobäisetzen</string>
     <string name="user_summary_restricted_profile">Ageschränkte Profil</string>
     <string name="user_summary_not_set_up">Net agestallt</string>
     <string name="user_summary_restricted_not_set_up">Net agestallt - Ageschränkte Profil</string>
@@ -1392,9 +1360,6 @@
     <string name="user_adding_new_user">Neie Benotzer gëtt dobäigesat\u2026</string>
     <string name="user_delete_user_description">Benotzer läschen</string>
     <string name="user_delete_button">Läschen</string>
-    <string name="user_guest">Gaascht</string>
-    <string name="user_exit_guest_title">Gaascht läschen</string>
-    <string name="user_exit_guest_confirm_title">Gaascht läschen?</string>
     <string name="user_exit_guest_confirm_message">All d\'Appen an Daten an dëser Sëtzung gi geläscht.</string>
     <string name="user_exit_guest_dialog_remove">Läschen</string>
     <string name="user_remove_user">Benotzer läschen</string>
@@ -1403,8 +1368,10 @@
     <string name="application_restrictions">Appen an Inhalter erlaben</string>
     <string name="apps_with_restrictions_header">Appe mat Aschränkungen</string>
     <string name="apps_with_restrictions_settings_button">Astellunge fir d\'App opklappen</string>
+    <string name="nfc_more_details">Méi gewuer ginn</string>
     <string name="nfc_payment_default_not_set">Net gesat</string>
     <string name="nfc_payment_btn_text_update">Aktualiséieren</string>
+    <string name="nfc_work_text">Aarbecht</string>
     <string name="restriction_settings_title">Aschränkungen</string>
     <string name="restriction_menu_reset">Aschränkungen ophiewen</string>
     <string name="restriction_menu_change_pin">PIN änneren</string>
@@ -1450,7 +1417,6 @@
     <string name="sim_settings_summary"><xliff:g id="sim_name">%1$s</xliff:g> - <xliff:g id="sim_number">%2$s</xliff:g></string>
     <string name="sim_cards_changed_message">D\'SIM-Kaarte goufe gewiesselt</string>
     <string name="sim_calls_always_use">Dës SIM ëmmer fir Uriff benotzen</string>
-    <string name="select_sim_for_data">SIM-Kaart fir d\'Daten auswielen</string>
     <string name="select_sim_for_calls">Uruffe mat</string>
     <string name="sim_select_card">SIM-Kaart auswielen</string>
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
@@ -1497,6 +1463,7 @@
     <string name="dock_audio_media_title">Dock-Lautsprecher spillt</string>
     <string name="dock_audio_media_disabled">All d\'Téin</string>
     <string name="dock_audio_media_enabled">Just Medientéin</string>
+    <string name="spatial_summary_off">Aus</string>
     <string name="zen_mode_schedule_delete">Läschen</string>
     <string name="zen_mode_rule_name_edit">Änneren</string>
     <string name="zen_mode_block_effect_summary_none">Ni</string>
@@ -1513,6 +1480,7 @@
     <string name="work_sync_dialog_yes">Bestätegen</string>
     <string name="configure_notification_settings">Notifikatiounen</string>
     <string name="app_notification_field">App-Astellungen</string>
+    <string name="profile_section_header_for_advanced_privacy">Aarbechtsprofil</string>
     <string name="bubbles_feature_disabled_button_cancel">Ofbriechen</string>
     <string name="lock_screen_notifications_summary_show">All Notifikatiounsinhalt uweisen</string>
     <string name="notifications_title">Notifikatiounen</string>
@@ -1682,6 +1650,8 @@
     <string name="sim_action_yes">Jo</string>
     <string name="sim_action_reboot">Nei starten</string>
     <string name="sim_action_no_thanks">Nee Merci</string>
+    <string name="sim_action_cancel">Ofbriechen</string>
+    <string name="privacy_controls_title">Steierelementer</string>
     <string name="contextual_card_dismiss_remove">Ewechhuelen</string>
     <string name="wfc_disclaimer_location_title_text">Standuert</string>
     <string name="wifi_disconnect_button_text">Deconnectéieren</string>
@@ -1700,4 +1670,14 @@
     <string name="smart_forwarding_missing_alert_dialog_text">OK</string>
     <string name="next_page_content_description">Weider</string>
     <string name="bluetooth_connect_access_dialog_positive">Connectéieren</string>
+    <string name="tare_on">Un</string>
+    <string name="tare_off">Aus</string>
+    <string-array name="tare_modifiers_subfactors">
+        <item>Gëtt opgelueden</item>
+        <item>Doze</item>
+        <item>Power Save Mode</item>
+        <item>Process State</item>
+    </string-array>
+    <string name="tare_dialog_confirm_button_title">Bestätegen</string>
+    <string name="dream_preview_button_title">Virschau</string>
 </resources>

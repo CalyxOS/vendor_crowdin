@@ -18,14 +18,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">IU del sistema</string>
-    <string name="battery_low_title">La batería pue escosar pronto</string>
+    <string name="battery_low_title">¿Quies activar l\'aforrador d\'enerxía?</string>
     <string name="battery_low_percent_format">Queda\'l <xliff:g id="percentage">%s</xliff:g></string>
     <string name="invalid_charger_title">Nun se pue cargar per USB</string>
     <string name="invalid_charger_text">Usa\'l cargador que vieno col preséu</string>
     <string name="battery_saver_confirmation_title">¿Quies activar l\'aforrador d\'enerxía?</string>
     <string name="battery_saver_confirmation_title_generic">Tocante al aforrador d\'enerxía</string>
     <string name="battery_saver_confirmation_ok">Activar</string>
-    <string name="battery_saver_start_action">Activar l\'aforrador d\'enerxía</string>
+    <string name="battery_saver_start_action">Activar</string>
+    <string name="battery_saver_dismiss_action">Non, gracies</string>
     <string name="status_bar_settings_auto_rotation">Voltéu de pantalla automáticu</string>
     <string name="usb_device_permission_prompt">¿Quies permitir que «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
     <string name="usb_device_permission_prompt_warn">¿Quies permitir que «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?\nEsta aplicación nun tien permisu pa grabar, mas podría capturar audiu pente esti preséu USB.</string>
@@ -129,10 +130,6 @@
     <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Si vuelves introducir mal el patrón, va desaniciase\'l perfil llaboral xunto colos sos datos.</string>
     <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Si vuelves introducir mal el PIN, va desaniciase\'l perfil llaboral xunto colos sos datos.</string>
     <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Si vuelves introducir mal la contraseña, va desaniciase\'l perfil llaboral xunto colos sos datos.</string>
-    <string name="biometric_dialog_failed_attempts_now_wiping_device">Ficiéronse milenta intentos incorreutos. Van desaniciase los datos d\u2019esti preséu.</string>
-    <string name="biometric_dialog_failed_attempts_now_wiping_user">Ficiéronse milenta intentos incorreutos. Va desaniciase esti usuariu.</string>
-    <string name="biometric_dialog_failed_attempts_now_wiping_profile">Ficiéronse milenta intentos incorreutos. Va desaniciase esti perfil llaboral xunto colos sos datos.</string>
-    <string name="biometric_dialog_now_wiping_dialog_dismiss">Escartar</string>
     <string name="fingerprint_dialog_touch_sensor">Toca\'l sensor de buelgues</string>
     <string name="accessibility_fingerprint_dialog_fingerprint_icon">Iconu de buelga</string>
     <string name="accessibility_bluetooth_connected">Conectóse\'l Bluetooth.</string>
@@ -157,33 +154,15 @@
     <string name="accessibility_desc_lock_screen">Pantalla de bloquéu.</string>
     <string name="accessibility_desc_work_lock">Pantalla de bloquéu del perfil llaboral</string>
     <string name="accessibility_desc_close">Zarrar</string>
-    <string name="accessibility_quick_settings_wifi_changed_off">Inhabilitóse\'l Wi-Fi.</string>
-    <string name="accessibility_quick_settings_wifi_changed_on">Habilitóse\'l Wi-Fi.</string>
-    <string name="accessibility_quick_settings_airplane_changed_off">Desactivóse\'l mou avión.</string>
-    <string name="accessibility_quick_settings_airplane_changed_on">Activóse\'l mou avión.</string>
     <string name="accessibility_quick_settings_dnd_none_on">silenciu total</string>
     <string name="accessibility_quick_settings_dnd_alarms_on">namás alarmes</string>
     <string name="accessibility_quick_settings_dnd">Nun molestar.</string>
-    <string name="accessibility_quick_settings_dnd_changed_off">Desactivóse «Nun molestar».</string>
-    <string name="accessibility_quick_settings_dnd_changed_on">Activóse «Nun molestar».</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth habilitáu.</string>
-    <string name="accessibility_quick_settings_bluetooth_changed_off">Inhabilitóse\'l Bluetoooth.</string>
-    <string name="accessibility_quick_settings_bluetooth_changed_on">Habilitóse\'l Bluetooth.</string>
-    <string name="accessibility_quick_settings_location_changed_off">Desactiváronse los informes de llocalización.</string>
-    <string name="accessibility_quick_settings_location_changed_on">Activáronse los informes de llocalización.</string>
     <string name="accessibility_quick_settings_alarm">Programóse l\'alarma pa la hora <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g>.</string>
     <string name="accessibility_quick_settings_more_time">Más tiempu.</string>
     <string name="accessibility_quick_settings_less_time">Menos tiempu.</string>
-    <string name="accessibility_quick_settings_flashlight_changed_off">Apagóse la llinterna.</string>
-    <string name="accessibility_quick_settings_flashlight_changed_on">Prendióse la llinterna.</string>
-    <string name="accessibility_quick_settings_color_inversion_changed_off">Desactivóse la inversión de color.</string>
-    <string name="accessibility_quick_settings_color_inversion_changed_on">Activóse la inversión de color.</string>
-    <string name="accessibility_quick_settings_hotspot_changed_off">Desactivóse\'l puntu Wi-Fi.</string>
-    <string name="accessibility_quick_settings_hotspot_changed_on">Activóse\'l puntu Wi-Fi.</string>
     <string name="accessibility_casting_turned_off">La tresmisión de la pantalla paró.</string>
-    <string name="accessibility_quick_settings_data_saver_changed_off">Desactivóse l\'aforrador de datos.</string>
-    <string name="accessibility_quick_settings_data_saver_changed_on">Activóse l\'aforrador de datos.</string>
     <string name="accessibility_brightness">Brillu de la pantalla</string>
     <string name="data_usage_disabled_dialog_mobile_title">Los datos móviles tán en posa</string>
     <string name="data_usage_disabled_dialog_title">Los datos tán en posa</string>
@@ -225,7 +204,6 @@
     <string name="quick_settings_cast_detail_empty_text">Nun hai nengún preséu disponible</string>
     <string name="quick_settings_cast_no_wifi">La Wi\u2011Fi nun ta conectada</string>
     <string name="quick_settings_brightness_dialog_title">Brillu</string>
-    <string name="quick_settings_more_settings">Más axustes</string>
     <string name="quick_settings_done">Fecho</string>
     <string name="quick_settings_close_user_panel">Zarrar</string>
     <string name="quick_settings_connected">Conectóse</string>
@@ -287,17 +265,11 @@
 prioridá</string>
     <string name="interruption_level_alarms_twoline">Namás\nalarmes</string>
     <string name="accessibility_multi_user_switch_switcher">Cambiar d\'usuariu</string>
-    <string name="user_add_user">Amestar un usuariu</string>
-    <string name="user_new_user_name">Usuariu nuevu</string>
-    <string name="guest_exit_guest_dialog_title">¿Quies quitar al convidáu?</string>
     <string name="guest_exit_guest_dialog_message">Van desaniciase toles aplicaciones y tolos datos d\'esta sesión.</string>
-    <string name="guest_exit_guest_dialog_remove">Quitar</string>
     <string name="guest_wipe_session_title">¡Volvi afayate, convidáu!</string>
     <string name="guest_wipe_session_message">¿Quies siguir cola sesión?</string>
     <string name="guest_wipe_session_wipe">Volver comenzar</string>
     <string name="guest_wipe_session_dontwipe">Sí, siguir</string>
-    <string name="user_add_user_title" msgid="2108112641783146007">¿Quies amestar un usuariu?</string>
-    <string name="user_add_user_message_short" msgid="1511354412249044381">Cuando amiestes un usuariu, esti tien de configurar el so espaciu.\n\nCualesquier usuariu pue anovar les aplicaciones de los demás usuarios. </string>
     <string name="user_limit_reached_title">Algamóse la llende d\'usuarios</string>
     <plurals name="user_limit_reached_message">
         <item quantity="one">Namás se pue crear un usuariu.</item>
@@ -323,19 +295,11 @@ prioridá</string>
     <string name="empty_shade_text">Nun hai avisos</string>
     <string name="quick_settings_disclosure_management_monitoring">La to organización ye propietaria d\'esti preséu y pue supervisar el tránsitu de rede</string>
     <string name="quick_settings_disclosure_named_management_monitoring">«<xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g>» ye la propietaria d\'esti preséu y pue supervisar el tránsitu de rede</string>
-    <string name="quick_settings_disclosure_management_named_vpn">Esti preséu pertenez a la to organización y ta conectáu a «<xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>»</string>
-    <string name="quick_settings_disclosure_named_management_named_vpn">Esti preséu pertenez a «<xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g>» y ta conectáu a «<xliff:g id="vpn_app" example="Foo VPN App">%2$s</xliff:g>»</string>
     <string name="quick_settings_disclosure_management">Esti preséu pertenez a la to organización</string>
     <string name="quick_settings_disclosure_named_management">Esti preséu pertenez a «<xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g>»</string>
-    <string name="quick_settings_disclosure_management_vpns">Esti preséu pertenez a la to organización y ta conectáu a redes VPN</string>
-    <string name="quick_settings_disclosure_named_management_vpns">Esti preséu pertenez a «<xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g>» y ta conectáu a redes VPN</string>
     <string name="quick_settings_disclosure_managed_profile_monitoring">La to organización pue supervisar el tránsitu de rede del perfil de trabayu</string>
     <string name="quick_settings_disclosure_named_managed_profile_monitoring">«<xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g>» pue supervisar el tránsitu de rede del perfil de trabayu</string>
     <string name="quick_settings_disclosure_monitoring">La rede pue tar supervisada</string>
-    <string name="quick_settings_disclosure_vpns">Esti preséu ta conectáu a redes VPN</string>
-    <string name="quick_settings_disclosure_managed_profile_named_vpn">El perfil llaboral ta conectáu a «<xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>»</string>
-    <string name="quick_settings_disclosure_personal_profile_named_vpn">El perfil personal ta conectáu a «<xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>»</string>
-    <string name="quick_settings_disclosure_named_vpn">Esti preséu ta conectáu a «<xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>»</string>
     <string name="monitoring_title_device_owned">Supervisión de preseos</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
     <string name="monitoring_subtitle_network_logging">Rexistru de la rede</string>
@@ -347,10 +311,6 @@ prioridá</string>
     <string name="monitoring_description_managed_profile_ca_certificate">La to organización instaló una entidá certificadora nel perfil llaboral. Ye posible que se supervise o modifique\'l tráficu de rede seguru.</string>
     <string name="monitoring_description_ca_certificate">Instalóse una entidá certificadora nesti preséu. Ye posible que se supervise o modifique\'l tráficu de rede seguru.</string>
     <string name="monitoring_description_management_network_logging">L\'alministrador activó\'l rexistru de rede, que supervisa\'l tránsitu del preséu.</string>
-    <string name="monitoring_description_named_vpn">Conectéstite a «<xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>», que pue supervisar la to actividá na rede, como los correos electrónicos, les aplicaciones y los sitios web.</string>
-    <string name="monitoring_description_two_named_vpns">Conectéstite a «<xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>» y a «<xliff:g id="vpn_app" example="Bar VPN App">%2$s</xliff:g>», que puen supervisar la to actividá na rede, como los correos electrónicos, les aplicaciones y los sitios web.</string>
-    <string name="monitoring_description_managed_profile_named_vpn">El perfil llaboral ta conectáu a «<xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>», que pue supervisar la to actividá na rede, como los correos electrónicos, les aplicaciones y los sitios web.</string>
-    <string name="monitoring_description_personal_profile_named_vpn">El perfil personal ta conectáu a «<xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>», que pue supervisar la to actividá na rede, como los correos electrónicos, les aplicaciones y los sitios web.</string>
     <string name="monitoring_description_vpn_settings">Abrir los axustes de la VPN</string>
     <string name="legacy_vpn_name">VPN</string>
     <string name="keyguard_indication_trust_unlocked">TrustAgent desbloquió\'l preséu</string>
@@ -414,7 +374,6 @@ prioridá</string>
     <string name="zen_alarm_warning">Nun vas sentir la próxima alarma (<xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g>)</string>
     <string name="alarm_template">Hora: <xliff:g id="when" example="7:00 AM">%1$s</xliff:g></string>
     <string name="alarm_template_far">Día: <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g></string>
-    <string name="accessibility_quick_settings_detail">Axustes rápidos, «<xliff:g id="title" example="Wi-Fi">%s</xliff:g>».</string>
     <string name="accessibility_status_bar_hotspot">Puntu Wi-Fi</string>
     <string name="accessibility_managed_profile">Perfil llaboral</string>
     <string name="tuner_warning_title">Diversión namás pa dalgunes persones</string>
@@ -597,7 +556,6 @@ prioridá</string>
     <string name="accessibility_quick_settings_collapse">Zarrar los axustes rápidos.</string>
     <string name="accessibility_quick_settings_user">Anicióse sesión como <xliff:g name="user" example="John">%s</xliff:g></string>
     <string name="data_connection_no_internet">Nun hai internet</string>
-    <string name="accessibility_quick_settings_open_details">Abrir los detalles.</string>
     <string name="accessibility_quick_settings_open_settings">Abrir los axustes de: <xliff:g name="page" example="Bluetooth">%s</xliff:g>.</string>
     <string name="accessibility_quick_settings_edit">Editar l\'orde de los axustes.</string>
     <string name="accessibility_quick_settings_page">Páxina <xliff:g name="current_page" example="1">%1$d</xliff:g> de <xliff:g name="num_pages" example="2">%2$d</xliff:g></string>
@@ -703,6 +661,7 @@ prioridá</string>
     <string name="controls_dialog_title">Amiestu a los controles de preseos</string>
     <string name="controls_dialog_ok">Amestar</string>
     <string name="controls_dialog_message">«<xliff:g id="app" example="System UI">%s</xliff:g>» suxer esti control</string>
+    <string name="controls_settings_dialog_neutral_button">Non, gracies</string>
     <string name="controls_pin_use_alphanumeric">El PIN contién lletres o símbolos</string>
     <string name="controls_pin_verify">Verifica «<xliff:g id="device" example="Backdoor lock">%s</xliff:g>»</string>
     <string name="controls_pin_wrong">El PIN ye incorreutu</string>
@@ -712,11 +671,14 @@ prioridá</string>
     <string name="controls_structure_tooltip">Esliza pa ver más</string>
     <string name="controls_seeding_in_progress">Cargando les recomendaciones</string>
     <string name="controls_media_title">Multimedia</string>
-    <string name="controls_media_dismiss_button">Escartar</string>
+    <string name="controls_media_dismiss_button">Anubrir</string>
     <string name="controls_media_resume">Siguir</string>
     <string name="controls_media_settings_button">Axustes</string>
     <string name="controls_media_seekbar_description"><xliff:g id="elapsed_time" example="1:30">%1$s</xliff:g> de <xliff:g id="total_time" example="3:00">%2$s</xliff:g></string>
+    <string name="controls_media_button_play">Reproducir</string>
+    <string name="controls_media_button_pause">Posar</string>
     <string name="controls_media_smartspace_rec_title">Reproducir</string>
+    <string name="media_transfer_undo">Desfacer</string>
     <string name="controls_error_timeout">Inactivu. Revisa l\'aplicación</string>
     <string name="controls_error_removed">Nun s\'atopó</string>
     <string name="controls_error_removed_title">El control nun ta disponible</string>
@@ -730,8 +692,8 @@ prioridá</string>
     <string name="media_output_dialog_group">Grupu</string>
     <string name="media_output_dialog_single_device">Esbillóse 1 preséu</string>
     <string name="media_output_dialog_multiple_devices">Esbilláronse <xliff:g id="count" example="2">%1$d</xliff:g> preseos</string>
-    <string name="media_output_dialog_connect_failed">Nun se pudo conectar. Volvi tentalo.</string>
     <string name="media_output_dialog_pairing_new">Empareyamientu d\'un preséu nuevu</string>
+    <string name="media_output_broadcast_dialog_save">Guardar</string>
     <string name="select_conversation_title">Widgets de conversación</string>
     <string name="priority_conversations">Conversaciones con prioridá</string>
     <string name="recent_conversations">Conversaciones de recién</string>
@@ -752,4 +714,9 @@ prioridá</string>
     <string name="mobile_data_connection_active">Conectóse</string>
     <string name="turn_on_wifi">Wi\u2011Fi</string>
     <string name="tap_a_network_to_connect">Toca una rede pa conectate</string>
+    <string name="qs_tile_request_dialog_add">Amestar una caxella</string>
+    <string name="fgs_manager_app_item_stop_button_label">Parar</string>
+    <string name="clipboard_edit_text_done">Fecho</string>
+    <string name="clipboard_overlay_window_name">Cartafueyu</string>
+    <string name="add">Amestar</string>
 </resources>

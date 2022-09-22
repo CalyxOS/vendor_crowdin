@@ -63,24 +63,6 @@
     <string name="contacts_deleted_one_named_toast">Chaidh <xliff:g id="name">%1$s</xliff:g> a sguabadh às</string>
     <string name="contacts_deleted_two_named_toast">Chaidh <xliff:g id="name">%1$s</xliff:g> ’s <xliff:g id="name">%2$s</xliff:g> a sguabadh às</string>
     <string name="contacts_deleted_many_named_toast">Chaidh <xliff:g id="name">%1$s</xliff:g>, <xliff:g id="name">%2$s</xliff:g>, <xliff:g id="name">%3$s</xliff:g>\u2026 a sguabadh às</string>
-    <plurals name="contacts_deleted_toast">
-        <item quantity="one">Chaidh an neach-aithne a sguabadh às</item>
-        <item quantity="two">Chaidh an luchd-aithne a sguabadh às</item>
-        <item quantity="few">Chaidh an luchd-aithne a sguabadh às</item>
-        <item quantity="other">Chaidh an luchd-aithne a sguabadh às</item>
-    </plurals>
-    <plurals name="contacts_count">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> neach-aithne</item>
-        <item quantity="two"><xliff:g id="count">%d</xliff:g> luchd-aithne</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> luchd-aithne</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> luchd-aithne</item>
-    </plurals>
-    <plurals name="contacts_count_with_account">
-        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> neach-aithne · <xliff:g id="account">%2$s</xliff:g></item>
-        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> luchd-aithne · <xliff:g id="account">%2$s</xliff:g></item>
-        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> luchd-aithne · <xliff:g id="account">%2$s</xliff:g></item>
-        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> luchd-aithne · <xliff:g id="account">%2$s</xliff:g></item>
-    </plurals>
     <string name="title_from_google">O Google</string>
     <string name="title_from_other_accounts">O <xliff:g id="account">%s</xliff:g></string>
     <string name="menu_set_ring_tone">Suidhich seirm</string>
@@ -140,12 +122,6 @@
     <string name="menu_share">Co-roinn</string>
     <string name="menu_add_contact">Cuir ris an luchd-aithne</string>
     <string name="menu_add_contacts">Cuir ris</string>
-    <plurals name="title_share_via">
-        <item quantity="one">Co-roinn an neach-aithne slighe</item>
-        <item quantity="two">Co-roinn an luchd-aithne slighe</item>
-        <item quantity="few">Co-roinn an luchd-aithne slighe</item>
-        <item quantity="other">Co-roinn an luchd-aithne slighe</item>
-    </plurals>
     <string name="dialog_new_group_account">Tagh cunntas</string>
     <string name="group_name_dialog_insert_title">Cruthaich leubail</string>
     <string name="group_name_dialog_update_title">Thoir ainm ùr air an leubail</string>
@@ -400,18 +376,6 @@
     <string name="dialog_new_contact_account">Sàbhail an luchd-aithne a chaidh ion-phortadh gu:</string>
     <string name="import_from_sim">Cairt SIM</string>
     <string name="import_from_sim_summary_fmt">SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
-    <plurals name="import_from_sim_secondary_contact_count_fmt">
-        <item quantity="one">%1$d neach-aithne</item>
-        <item quantity="two">%1$d luchd-aithne</item>
-        <item quantity="few">%1$d luchd-aithne</item>
-        <item quantity="other">%1$d luchd-aithne</item>
-    </plurals>
-    <plurals name="import_from_sim_secondary_template">
-        <item quantity="one"><xliff:g id="count">^1</xliff:g> neach-aithne • <xliff:g id="phone_number">^2</xliff:g></item>
-        <item quantity="two"><xliff:g id="count">^1</xliff:g> luchd-aithne • <xliff:g id="phone_number">^2</xliff:g></item>
-        <item quantity="few"><xliff:g id="count">^1</xliff:g> luchd-aithne • <xliff:g id="phone_number">^2</xliff:g></item>
-        <item quantity="other"><xliff:g id="count">^1</xliff:g> luchd-aithne • <xliff:g id="phone_number">^2</xliff:g></item>
-    </plurals>
     <string name="import_from_vcf_file">Faidhle .vcf</string>
     <string name="nothing_to_import_message">Gun dad ri ion-phortadh</string>
     <string name="import_from_vcf_file_confirmation_message">An ion-phortaich thu luchd-aithne on vCard?</string>
@@ -516,12 +480,6 @@
     <string name="sim_import_title_none_selected">Tagh luchd-aithne</string>
     <string name="sim_import_empty_message">Chan eil neach-aithne air a’ chairt SIM agad</string>
     <string name="sim_import_contact_exists_toast">Tha an neach-aithne san liosta agad mu thràth</string>
-    <plurals name="sim_import_success_toast_fmt">
-        <item quantity="one">Chaidh <xliff:g id="count">%d</xliff:g> neach-aithne ion-phortadh on t-SIM</item>
-        <item quantity="two">Chaidh <xliff:g id="count">%d</xliff:g> luchd-aithne ion-phortadh on t-SIM</item>
-        <item quantity="few">Chaidh <xliff:g id="count">%d</xliff:g> luchd-aithne ion-phortadh on t-SIM</item>
-        <item quantity="other">Chaidh <xliff:g id="count">%d</xliff:g> luchd-aithne ion-phortadh on t-SIM</item>
-    </plurals>
     <string name="sim_import_failed_toast">Dh’fhàillig ion-phortadh an luchd-aithne on t-SIM</string>
     <string name="sim_import_title">Ion-phortaich on t-SIM</string>
     <string name="sim_import_cancel_content_description">Sguir dheth</string>

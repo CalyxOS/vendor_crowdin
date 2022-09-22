@@ -72,8 +72,8 @@
     <string name="bluetooth_phonebook_request">"تېلېفون دەپتەر زىيارەت ئىلتىماسى"</string>
     <string name="bluetooth_map_request">"ئۇچۇر زىيارەت ئىلتىماسى"</string>
     <string name="bluetooth_map_acceptance_dialog_text">%1$s ئۇچۇرلىرىڭىزنى زىيارەت قىلماقچى. %2$s غا زىيارەت ھوقۇقىنى بېرەمسىز؟</string>
-    <string name="bluetooth_disable_a2dp_hw_offload_dialog_confirm">قايتا قوزغات</string>
-    <string name="bluetooth_disable_a2dp_hw_offload_dialog_cancel">ۋاز كەچ</string>
+    <string name="bluetooth_disable_hw_offload_dialog_confirm">قايتا قوزغات</string>
+    <string name="bluetooth_disable_hw_offload_dialog_cancel">ۋاز كەچ</string>
     <string name="choose_timezone">ۋاقىت رايونىنى تاللاڭ</string>
     <string name="intent_sender_data_label"><xliff:g id="data">سانلىق مەلۇمات:</xliff:g></string>
     <string name="intent_sender_sendbroadcast_text"><xliff:g id="BROADCAST">broadcast</xliff:g> يوللا</string>
@@ -111,6 +111,7 @@
     <string name="skip_label">ئاتلا</string>
     <string name="next_label">كېيىنكى</string>
     <string name="locale_remove_menu">چىقىرىۋەت</string>
+    <string name="app_locale_preference_title">تىل</string>
     <string name="activity_picker_label">پائالىيەت تاللاڭ</string>
     <string name="debug_intent_sender_label">سازلاشنى يوللىغۇچىنىڭ مەقسىتى</string>
     <string name="display_label">ئېكران</string>
@@ -166,23 +167,10 @@
     <string name="security_settings_fingerprint_enroll_dialog_delete">ئۆچۈر</string>
     <string name="security_settings_fingerprint_enroll_done">تامام</string>
     <string name="fingerprint_enroll_button_next">كېيىنكى</string>
-    <string name="crypt_keeper_settings_title">شىفىرلاش</string>
-    <string name="crypt_keeper_encrypt_title" product="tablet">تاختا كومپيۇتېر شىفىرلا</string>
-    <string name="crypt_keeper_encrypt_title" product="default">تېلېفون شىفىرلا</string>
-    <string name="crypt_keeper_encrypted_summary">شىفىرلانغان</string>
-    <string name="crypt_keeper_button_text" product="tablet">تاختا كومپيۇتېر شىفىرلا</string>
-    <string name="crypt_keeper_button_text" product="default">تېلېفون شىفىرلا</string>
-    <string name="crypt_keeper_low_charge_text">توكداننى توكلاپ ئاندىن قايتا سىناڭ.</string>
-    <string name="crypt_keeper_unplugged_text">توكلىغۇچنى چېتىپ ئاندىن قايتا سىناڭ.</string>
-    <string name="crypt_keeper_dialog_need_password_title">ئېكران قۇلۇپلاش PIN ياكى ئىم يوق</string>
-    <string name="crypt_keeper_dialog_need_password_message">سىز ئېكران قۇلۇپلاش PIN ياكى ئىم تەڭشىگەندىن كېيىن ئاندىن شىفىرلاشنى باشلىيالايسىز.</string>
-    <string name="crypt_keeper_confirm_title">شىفىرلامدۇ؟</string>
-    <string name="crypt_keeper_setup_title">شىفىرلاۋاتىدۇ</string>
-    <string name="crypt_keeper_setup_description" product="tablet">تاختا كومپيۇتېرىڭىزنى شىفىرلاۋاتىدۇ. %<xliff:g id="PERCENT">^1</xliff:g> تاماملاندى.</string>
-    <string name="crypt_keeper_setup_description" product="default">تېلېفونىڭىزنى شىفىرلاۋاتىدۇ. %<xliff:g id="PERCENT">^1</xliff:g> تاماملاندى.</string>
-    <string name="crypt_keeper_enter_password">ئىم كىرگۈزۈڭ</string>
-    <string name="crypt_keeper_failed_title">شىفىرلىيالمىدى</string>
-    <string name="crypt_keeper_switch_input_method">كىرگۈزگۈچ ئالماشتۇر</string>
+    <string name="encryption_settings_title">شىفىرلاش</string>
+    <string name="encrypt_title" product="tablet">تاختا كومپيۇتېر شىفىرلا</string>
+    <string name="encrypt_title" product="default">تېلېفون شىفىرلا</string>
+    <string name="encrypted_summary">شىفىرلانغان</string>
     <string name="lock_settings_picker_title">ئېكران قۇلۇپىنى تاللاڭ</string>
     <string name="unlock_set_unlock_launch_picker_title">ئېكران قۇلۇپلا</string>
     <string name="unlock_set_unlock_launch_picker_change_title">ئېكران قۇلۇپىنى ئۆزگەرت</string>
@@ -364,7 +352,6 @@
     <string name="wifi_tether_configure_ssid_default">Android قىزىق نۇقتا</string>
     <string name="private_dns_mode_on">ئوچۇق</string>
     <string name="display_settings_title">ئېكران</string>
-    <string name="sound_settings">ئاۋاز</string>
     <string name="all_volume_title">ئاۋاز مىقدارى</string>
     <string name="musicfx_title">ئاۋاز ئۈنۈملىرى</string>
     <string name="vibrate_in_silent_title">ئۈنسىز ھالەتتە تىترەت</string>
@@ -430,7 +417,6 @@
     <string name="screensaver_settings_summary_sleep">توكلاۋاتقاندا</string>
     <string name="screensaver_settings_summary_dock">لەڭگەرلەنگەندە</string>
     <string name="screensaver_settings_summary_off">تاقاق</string>
-    <string name="screensaver_settings_dream_start">ھازىرلا باشلا</string>
     <string name="screensaver_settings_button">تەڭشەكلەر</string>
     <string name="automatic_brightness">يورۇقلۇقنى ئۆزلۈكىدىن تەڭشەش</string>
     <string name="title_font_size">خەت چوڭلۇقى</string>
@@ -577,10 +563,10 @@
     <string name="menu_restore">كۆڭۈلدىكىگە قايتۇر</string>
     <string name="restore_default_apn_completed">كۆڭۈلدىكى APN تەڭشەككە ئەسلىگە قايتۇرۇش تاماملاندى</string>
     <string name="reset_network_confirm_title">ئەسلىگە قايتۇرامدۇ؟</string>
-    <string name="main_clear_accounts" product="default">\n\nنۆۋەتتە سىز تۆۋەندىكى ھېساباتقا تىزىمغا كىردىڭىز :\n</string>
-    <string name="main_clear_desc_also_erases_external"><li>\"نەغمە\"</li>\n<li>\"سۈرەتلەر\"</li>\n<li>\"باشقا ئىشلەتكۈچى سانلىق مەلۇماتى\"</li></string>
-    <string name="main_clear_desc_erase_external_storage" product="nosdcard">\n\nنەغمە، رەسىملەر ۋە باشقا ئىشلەتكۈچى سانلىق مەلۇماتىنى تازىلاشتا، \"<b>\"USB ساقلىغۇچ\"</b>\" نى تازىلىشىڭىز كېرەك.</string>
-    <string name="main_clear_desc_erase_external_storage" product="default">\n\nنەغمە، رەسىملەر ۋە باشقا ئىشلەتكۈچى سانلىق مەلۇماتىنى تازىلاشتا، \"<b>\"SD كارتا\"</b>\" نى تازىلىشىڭىز كېرەك.</string>
+    <string name="main_clear_accounts" product="default">"\n\nنۆۋەتتە سىز تۆۋەندىكى ھېساباتقا تىزىمغا كىردىڭىز :\n"</string>
+    <string name="main_clear_desc_also_erases_external">"<li>\"نەغمە\"</li>\n<li>\"سۈرەتلەر\"</li>\n<li>\"باشقا ئىشلەتكۈچى سانلىق مەلۇماتى\"</li>"</string>
+    <string name="main_clear_desc_erase_external_storage" product="nosdcard">"\n\nنەغمە، رەسىملەر ۋە باشقا ئىشلەتكۈچى سانلىق مەلۇماتىنى تازىلاشتا، \"<b>\"USB ساقلىغۇچ\"</b>\" نى تازىلىشىڭىز كېرەك."</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"\n\nنەغمە، رەسىملەر ۋە باشقا ئىشلەتكۈچى سانلىق مەلۇماتىنى تازىلاشتا، \"<b>\"SD كارتا\"</b>\" نى تازىلىشىڭىز كېرەك."</string>
     <string name="erase_external_storage" product="nosdcard">بۇ USB ساقلىغۇچنى ئۆچۈرىدۇ</string>
     <string name="erase_external_storage" product="default">SD كارتىنى ئۆچۈر</string>
     <string name="erase_external_storage_description" product="nosdcard">ئىچىدىكى USB ساقلىغۇچتىكى نەغمە ياكى سۈرەتكە ئوخشاش ھەممە سانلىق مەلۇماتلارنى ئۆچۈرىدۇ</string>
@@ -719,6 +705,7 @@
     <string name="clear_data_dlg_title">ئەپ سانلىق مەلۇماتىنى ئۆچۈرەمدۇ؟</string>
     <string name="dlg_ok">جەزملە</string>
     <string name="dlg_cancel">ۋاز كەچ</string>
+    <string name="dlg_delete">ئۆچۈر</string>
     <string name="join_two_items"><xliff:g id="FIRST_ITEM">%1$s</xliff:g> ۋە <xliff:g id="SECOND_ITEM">%2$s</xliff:g></string>
     <string name="computing_size">ھېسابلاۋاتىدۇ…</string>
     <string name="version_text">نەشرى <xliff:g id="VERSION_NUM">%1$s</xliff:g></string>
@@ -834,6 +821,7 @@
     <string name="vision_settings_suggestion_title">خەت نۇسخا چوڭلۇقى ئۆزگەرت</string>
     <string name="audio_category_title">ئۈن</string>
     <string name="display_category_title">ئېكران</string>
+    <string name="accessibility_magnification_triple_tap_warning_negative_button">ۋاز كەچ</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">ئالىي</string>
     <string name="accessibility_button_location_title">ئورنى</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">ئېكران چوڭايتىش ھالىتىنى ئۆزلۈكىدىن يېڭىلا</string>
@@ -841,15 +829,14 @@
     <string name="accessibility_power_button_ends_call_prerefence_title">توك مەنبە توپچىسى بېسىلسا سۆزلىشىش ئاخىرلىشىدۇ</string>
     <string name="accessibility_timeout_default">كۆڭۈلدىكى</string>
     <string name="accessibility_long_press_timeout_preference_title">چېكىش ۋە كېچىكتۈرۈش</string>
-    <string name="accessibility_autoclick_default_title">تاقاق</string>
     <string name="accessibility_autoclick_medium_title">ئوتتۇرا</string>
+    <string name="accessibility_vibration_settings_state_on">ئوچۇق</string>
+    <string name="accessibility_vibration_settings_state_off">تاقاق</string>
     <string name="captioning_more_options_title">تېخىمۇ كۆپ تاللانما</string>
     <string name="accessibility_hearingaid_instruction_continue_button">داۋاملاشتۇر</string>
     <string name="accessibility_summary_shortcut_disabled">تاقاق</string>
     <string name="accessibility_summary_state_enabled">ئوچۇق</string>
     <string name="accessibility_summary_state_disabled">تاقاق</string>
-    <string name="accessibility_vibration_intensity_off">تاقاق</string>
-    <string name="accessibility_vibration_intensity_medium">ئوتتۇرا</string>
     <string name="accessibility_menu_item_settings">تەڭشەكلەر</string>
     <string name="accessibility_feature_state_on">ئوچۇق</string>
     <string name="accessibility_feature_state_off">تاقاق</string>
@@ -977,6 +964,8 @@
     <string name="menu_stats_total">ئومۇمى ئىشلىتىش مىقدارى</string>
     <string name="menu_stats_refresh">يېڭىلا</string>
     <string name="process_mediaserver_label">ۋاسىتە مۇلازىمېتىر</string>
+    <string name="process_network_tethering">ھەمبەھىر</string>
+    <string name="process_removed_apps">چىقىرىۋېتىلگەن ئەپلەر</string>
     <string name="process_stats_summary_title">جەريان سىتاتىستىكىسى</string>
     <string name="process_stats_summary">ئىجرا قىلىنىۋاتقان جەريانغا ئائىت تېخنىكىلىق سىتاتىستىكا ئۇچۇرى</string>
     <string name="app_memory_use">ئەسلەك ئىشلىتىشى</string>
@@ -1116,8 +1105,6 @@
     <string name="data_usage_received_sent"><xliff:g id="RECEIVED">%1$s</xliff:g> قوبۇللاندى، <xliff:g id="SENT">%2$s</xliff:g> يوللاندى</string>
     <string name="data_usage_total_during_range"><xliff:g id="RANGE">%2$s</xliff:g>: تەخمىنەن <xliff:g id="TOTAL">%1$s</xliff:g> ئىشلىتىلگەن.</string>
     <string name="data_usage_metered_auto">ئاپتوماتىك</string>
-    <string name="cryptkeeper_emergency_call">جىددىي چاقىرىش</string>
-    <string name="cryptkeeper_return_to_call">چاقىرىشقا قايتىش</string>
     <string name="vpn_name">ئاتى</string>
     <string name="vpn_type">تۈرى</string>
     <string name="vpn_server">مۇلازىمېتىر ئادرىسى</string>
@@ -1186,6 +1173,7 @@
     <string name="application_restrictions">ئەپ ۋە مەزمۇنغا يول قوي</string>
     <string name="apps_with_restrictions_header">چەكلىمىلىك ئەپلەر</string>
     <string name="apps_with_restrictions_settings_button">ئەپنىڭ تەڭشىكىنى ياي</string>
+    <string name="nfc_more_details">تەپسىلات بىلدۈرگۈسى</string>
     <string name="nfc_payment_default_not_set">تەڭشەلمىگەن</string>
     <string name="nfc_payment_btn_text_update">يېڭىلا</string>
     <string name="restriction_settings_title">چەكلىمەلەر</string>
@@ -1213,6 +1201,7 @@
     <string name="ringtone_title">تېلېفون قوڭغۇراق</string>
     <string name="notification_ringtone_title">كۆڭۈلدىكى ئۇقتۇرۇش ئاۋازى</string>
     <string name="notification_sound_default">كۆڭۈلدىكى ئۇقتۇرۇش ئاۋازى</string>
+    <string name="spatial_summary_off">تاقاق</string>
     <string name="zen_mode_schedule_delete">ئۆچۈر</string>
     <string name="zen_mode_rule_name_edit">تەھرىر</string>
     <string name="zen_mode_no_exceptions">يوق</string>
@@ -1326,6 +1315,8 @@
     <string name="sim_action_continue">داۋاملاشتۇر</string>
     <string name="sim_action_yes">ھەئە</string>
     <string name="sim_action_reboot">قايتا قوزغات</string>
+    <string name="sim_action_cancel">ۋاز كەچ</string>
+    <string name="privacy_controls_title">تىزگىنلەشلەر</string>
     <string name="contextual_card_dismiss_remove">چىقىرىۋەت</string>
     <string name="wfc_disclaimer_location_title_text">ئورنى</string>
     <string name="wifi_disconnect_button_text">ئۈز</string>
@@ -1338,4 +1329,14 @@
     <string name="smart_forwarding_missing_alert_dialog_text">جەزملە</string>
     <string name="next_page_content_description">كېيىنكى</string>
     <string name="bluetooth_connect_access_dialog_positive">باغلان</string>
+    <string name="tare_on">ئوچۇق</string>
+    <string name="tare_off">تاقاق</string>
+    <string-array name="tare_modifiers_subfactors">
+        <item>توكلاۋاتىدۇ</item>
+        <item>Doze</item>
+        <item>Power Save Mode</item>
+        <item>Process State</item>
+    </string-array>
+    <string name="tare_dialog_confirm_button_title">جەزملە</string>
+    <string name="dream_preview_button_title">ئالدىن كۆزەت</string>
 </resources>

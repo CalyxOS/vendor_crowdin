@@ -41,25 +41,12 @@
     <string name="add_an_account">Cuir cunntas ris</string>
     <string name="accounts_category_title">Cunntasan ⁊ clàradh a-steach</string>
     <string name="accounts_category_summary_no_account">Chan eil cunntas ann fhathast</string>
-    <plurals name="accounts_category_summary">
-        <item quantity="one"><xliff:g id="accounts_number">%1$d</xliff:g> chunntas</item>
-        <item quantity="two"><xliff:g id="accounts_number">%1$d</xliff:g> chunntas</item>
-        <item quantity="few"><xliff:g id="accounts_number">%1$d</xliff:g> cunntasan</item>
-        <item quantity="other"><xliff:g id="accounts_number">%1$d</xliff:g> cunntas</item>
-    </plurals>
     <string name="accounts_slice_summary">Seirbheisean meadhain, cuidiche, pàigheadh</string>
     <string name="connectivity_network_category_title">An lìonra ⁊ an t-eadar-lìon</string>
     <string name="sound_category_title">Fuaim</string>
     <string name="applications_category_title">Aplacaidean</string>
     <string name="device_pref_category_title">Roghainnean an uidheim</string>
     <string name="remotes_and_accessories_category_title">Innealan cèine ⁊ co-innealan</string>
-    <string name="remotes_and_accessories_category_summary_no_bluetooth_device">Chan eil uidheam Bluetooth ceangailte</string>
-    <plurals name="remotes_and_accessories_category_summary">
-        <item quantity="one"><xliff:g id="accessories_number">%1$d</xliff:g> cho-uidheam</item>
-        <item quantity="two"><xliff:g id="accessories_number">%1$d</xliff:g> cho-uidheam</item>
-        <item quantity="few"><xliff:g id="accessories_number">%1$d</xliff:g> co-uidheaman</item>
-        <item quantity="other"><xliff:g id="accessories_number">%1$d</xliff:g> co-uidheam</item>
-    </plurals>
     <string name="display_and_sound_category_title">Taisbeanadh ⁊ fuaim</string>
     <string name="help_and_feedback_category_title">Cobhair ⁊ beachd thugainn</string>
     <string name="privacy_category_title">Prìobhaideachd</string>
@@ -121,6 +108,8 @@
     <string name="game_mode_title">Ceadaich modh nan geama</string>
     <string name="match_content_frame_rate_never">Chan ann idir</string>
     <string name="hdr_format_selection_manual_title">Leabhar-mìneachaidh</string>
+    <string name="resolution_selection_dialog_cancel">Sguir dheth</string>
+    <string name="resolution_selection_dialog_ok">Ceart ma-thà</string>
     <string name="device_storage_clear_cache_title">Am falamhaich dhut an dàta san tasgadan?</string>
     <string name="device_storage_clear_cache_message">Falamhaich seo dàta sam bith a chaidh a chur san tasgadan le aplacaid.</string>
     <string name="accessories_add">Cuir co-inneal ris</string>
@@ -157,7 +146,6 @@
     <string name="send_feedback">Cuir do bheachd thugainn</string>
     <string name="launch_help">Ionad na cobharach</string>
     <string name="system_cast">Google Cast</string>
-    <string name="system_buttons">Putanan</string>
     <string name="system_language">Cànan</string>
     <string name="system_keyboard">Meur-chlàr</string>
     <string name="system_keyboard_autofill">Am meur-chlàr ⁊ fèin-lìonadh</string>
@@ -186,12 +174,6 @@
     <string name="about_license_activity_unavailable">Chan eil dàta a’ cheadachais ri fhaighinn</string>
     <string name="about_model">Modail</string>
     <string name="about_serial">Àireamh shreathach</string>
-    <plurals name="show_dev_countdown">
-        <item quantity="one">Chan eil ach <xliff:g id="step_count">%1$d</xliff:g> cheum a dhìth ort mus dèid thu ’nad neach-leasachaidh</item>
-        <item quantity="two">Chan eil ach <xliff:g id="step_count">%1$d</xliff:g> cheum a dhìth ort mus dèid thu ’nad neach-leasachaidh</item>
-        <item quantity="few">Chan eil ach <xliff:g id="step_count">%1$d</xliff:g> ceuman a dhìth ort mus dèid thu ’nad neach-leasachaidh</item>
-        <item quantity="other">Chan eil ach <xliff:g id="step_count">%1$d</xliff:g> ceum a dhìth ort mus dèid thu ’nad neach-leasachaidh</item>
-    </plurals>
     <string name="about_ads">Sanasachd</string>
     <string name="show_dev_on">Tha thu ’nad neach-leasachaidh a-nis!</string>
     <string name="show_dev_already">Chan eil feum air seo, tha thu nad neach-leasachaidh mu thràth</string>
@@ -346,6 +328,8 @@
     <string name="storage_device_storage_section">Stòras an uidheim</string>
     <string name="storage_removable_storage_section">Stòras so-ghiùlain</string>
     <string name="storage_reset_section">Ath-shuidhich</string>
+    <string name="storage_free_up_clear_cached_data_confirm_title">Am falamhaich dhut an dàta san tasgadan?</string>
+    <string name="storage_free_up_clear_cached_data_confirm_description">Falamhaich seo dàta sam bith a chaidh a chur san tasgadan le aplacaid.</string>
     <string name="storage_mount_success">Chaidh <xliff:g id="name" example="SD card">%1$s</xliff:g> a mhunntachadh</string>
     <string name="storage_mount_failure">Cha b’ urrainn dhuinn <xliff:g id="name" example="SD card">%1$s</xliff:g> a mhunntachadh</string>
     <string name="storage_mount_adopted">Chaidh stòras USB ath-cheangal</string>
@@ -633,26 +617,6 @@
     <string name="inputs_device_auto_off_desc">Cuir cumhachd nan uidheaman HDMI dheth leis an TBh</string>
     <string name="inputs_tv_auto_on">Cur air fèin-obrachail an TBh</string>
     <string name="inputs_tv_auto_on_desc">Cuir cumhachd an TBh air le uidheam HDMI</string>
-    <string name="inputs_volume_control_enabled">Smachd air àirde na fuaime CEC</string>
-    <string name="inputs_volume_control_enabled_desc">Stiùirich àirde fuaime TV/AVR seach àirde na fuaime taobh a-staigh</string>
-    <plurals name="inputs_header_connected_input">
-        <item quantity="one">Ion-chur co-cheangailte</item>
-        <item quantity="two">Ion-chuir cho-cheangailte</item>
-        <item quantity="few">Ion-chuir cho-cheangailte</item>
-        <item quantity="other">Ion-chuir cheangailte</item>
-    </plurals>
-    <plurals name="inputs_header_standby_input">
-        <item quantity="one">Ion-chur ’na fhuireachas</item>
-        <item quantity="two">Ion-chuir ’na fhuireachas</item>
-        <item quantity="few">Ion-chuir ’na fhuireachas</item>
-        <item quantity="other">Ion-chuir ’na fhuireachas</item>
-    </plurals>
-    <plurals name="inputs_header_disconnected_input">
-        <item quantity="one">Ion-chur nach deach a cheangal</item>
-        <item quantity="two">Ion-chuir nach deach a cheangal</item>
-        <item quantity="few">Ion-chuir nach deach a cheangal</item>
-        <item quantity="other">Ion-chuir gun cheangal</item>
-    </plurals>
     <string name="user_add_profile_item_summary">Cuingich an t-inntrigeadh gu aplacaidean is susbaint eile sa chunntas agad</string>
     <string name="user_new_profile_name">Pròifil chuingichte</string>
     <string name="user_restrictions_controlled_by">Fo stiùireadh <xliff:g id="app">%1$s</xliff:g></string>
@@ -666,12 +630,6 @@
     <string name="restricted_profile_create_title">Cruthaich pròifil chuingichte</string>
     <string name="restricted_profile_configure_title">Roghainnean</string>
     <string name="restricted_profile_configure_apps_title">Aplacaidean ceadaichte</string>
-    <plurals name="restricted_profile_configure_apps_description">
-        <item quantity="one">Fhuair %d aplacaid cead</item>
-        <item quantity="two">Fhuair %d aplacaid cead</item>
-        <item quantity="few">Fhuair %d aplacaidean cead</item>
-        <item quantity="other">Fhuair %d aplacaid cead</item>
-    </plurals>
     <string name="restricted_profile_allowed">Ceadaichte</string>
     <string name="restricted_profile_not_allowed">Gun chead</string>
     <string name="restricted_profile_customize_restrictions">Gnàthaich na cuingeachaidhean</string>

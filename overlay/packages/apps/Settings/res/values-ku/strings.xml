@@ -72,8 +72,8 @@
     <string name="bluetooth_phonebook_request">"داواکاری ده‌سته‌ڵاتی ژماره‌ پاشه‌که‌وتکراوه‌کان"</string>
     <string name="bluetooth_map_request">"داواکاری ده‌سته‌ڵاتی نامه‌"</string>
     <string name="bluetooth_map_acceptance_dialog_text">%1$s ئه‌یه‌وێ بچێته‌ ناو نامه‌کانت ، ده‌سه‌ڵات ده‌ده‌یت به‌ %2$s بۆ ئه‌م کاره‌؟</string>
-    <string name="bluetooth_disable_a2dp_hw_offload_dialog_confirm">ده‌ستپێكردنه‌وه‌</string>
-    <string name="bluetooth_disable_a2dp_hw_offload_dialog_cancel">لابردن</string>
+    <string name="bluetooth_disable_hw_offload_dialog_confirm">ده‌ستپێكردنه‌وه‌</string>
+    <string name="bluetooth_disable_hw_offload_dialog_cancel">لابردن</string>
     <string name="choose_timezone">هه‌ڵبژاردنی شوێنی کات</string>
     <string name="intent_sender_data_label"><xliff:g id="data">ڕۆژ:</xliff:g></string>
     <string name="intent_sender_sendbroadcast_text">ناردی <xliff:g id="broadcast"> بۆ برۆدکاستی </xliff:g></string>
@@ -111,6 +111,7 @@
     <string name="skip_label">تێپەڕاندن</string>
     <string name="next_label">دواتر</string>
     <string name="locale_remove_menu">لابردن</string>
+    <string name="app_locale_preference_title">زمان</string>
     <string name="activity_picker_label">هه‌ڵبژاردنی چالاکی</string>
     <string name="debug_intent_sender_label">هه‌ڵدۆزینه‌وه‌ی نێردره‌ر</string>
     <string name="display_label">ڕوونما</string>
@@ -166,23 +167,10 @@
     <string name="security_settings_fingerprint_enroll_dialog_delete">سڕینه‌وه‌</string>
     <string name="security_settings_fingerprint_enroll_done">ئه‌نجام درا</string>
     <string name="fingerprint_enroll_button_next">دواتر</string>
-    <string name="crypt_keeper_settings_title">نهێنیکاری</string>
-    <string name="crypt_keeper_encrypt_title" product="tablet">نهێنی کردنی تابڵیت</string>
-    <string name="crypt_keeper_encrypt_title" product="default">نهێنی کردنی مۆبایل</string>
-    <string name="crypt_keeper_encrypted_summary">نهێنیکراوه‌</string>
-    <string name="crypt_keeper_button_text" product="tablet">نهێنیکردنی تابڵیت</string>
-    <string name="crypt_keeper_button_text" product="default">نهێنیکردنی مۆبایل</string>
-    <string name="crypt_keeper_low_charge_text">پاترییه‌که‌ت بگۆڕه‌ و دووباره‌ هه‌وڵبده‌ره‌وه‌.</string>
-    <string name="crypt_keeper_unplugged_text">بارگه‌پڕکه‌ره‌وه‌ بکه‌ پێوه‌ی و دووباره‌ هه‌وڵبده‌ره‌وه‌.</string>
-    <string name="crypt_keeper_dialog_need_password_title">هیچ قوفڵی ڕوونمایه‌ک نییه‌  PIN یان وشه‌ی نهێنی</string>
-    <string name="crypt_keeper_dialog_need_password_message">پێویسته‌ قوفلی ڕوونمایه‌ک دیاری بکه‌یت PIN یان Password پێش ئه‌وه‌ی ده‌ستبکه‌یت به‌ نهێنیکردن.</string>
-    <string name="crypt_keeper_confirm_title">به‌نهێنیکردن؟</string>
-    <string name="crypt_keeper_setup_title">به‌نهێنیکردن</string>
-    <string name="crypt_keeper_setup_description" product="tablet">چاوه‌ڕێبکه‌ کاتێک که‌ تابلێته‌که‌ت خه‌ریکی به‌نهێنیکردنه‌.. <xliff:g id="percent" example="50">^1</xliff:g>% ته‌واو بووه‌.</string>
-    <string name="crypt_keeper_setup_description" product="default">چاوه‌ڕێبکه‌ کاتێک که‌ مۆبایله‌که‌ت خه‌ریکی به‌نهێنیکردنه‌.. <xliff:g id="percent" example="50">^1</xliff:g>% ته‌واو بووه‌.</string>
-    <string name="crypt_keeper_enter_password">وشه‌ نهێنییه‌که‌ت بنووسه‌</string>
-    <string name="crypt_keeper_failed_title">به‌ نهێنیکردن سه‌رکه‌وتوونه‌بوو</string>
-    <string name="crypt_keeper_switch_input_method">گۆڕینی ته‌خته‌کلیل</string>
+    <string name="encryption_settings_title">نهێنیکاری</string>
+    <string name="encrypt_title" product="tablet">نهێنی کردنی تابڵیت</string>
+    <string name="encrypt_title" product="default">نهێنی کردنی مۆبایل</string>
+    <string name="encrypted_summary">نهێنیکراوه‌</string>
     <string name="lock_settings_picker_title">ده‌ستنیشانکردنی قوفڵی ڕوونما</string>
     <string name="unlock_set_unlock_launch_picker_title">قوفڵی ڕوونما</string>
     <string name="unlock_set_unlock_launch_picker_change_title">گۆڕینی قوفڵی ڕوونما</string>
@@ -365,7 +353,6 @@
     <string name="wifi_tether_configure_ssid_default">ئەندرۆیدHotspot</string>
     <string name="private_dns_mode_on">چالاککردن</string>
     <string name="display_settings_title">شاشە</string>
-    <string name="sound_settings">دەنگ</string>
     <string name="all_volume_title">قەبارەی دەنگەکان</string>
     <string name="musicfx_title">تاییبەتمەندییەکانی مۆسیقا</string>
     <string name="vibrate_in_silent_title">لەرزین کاتی بێدەنگکردن</string>
@@ -431,7 +418,6 @@
     <string name="screensaver_settings_summary_sleep">کاتێک بارگاوی ئەکات</string>
     <string name="screensaver_settings_summary_dock">کاتێک لە تابگەیە</string>
     <string name="screensaver_settings_summary_off">ناچالاککردن</string>
-    <string name="screensaver_settings_dream_start">ئێستا ده‌ست پێبکه‌</string>
     <string name="screensaver_settings_button">رێکخستەکان</string>
     <string name="automatic_brightness">ڕوناکی خۆکارانه‌</string>
     <string name="title_font_size">قه‌باره‌ی فۆنت</string>
@@ -584,10 +570,10 @@
     <string name="menu_restore">ڕێکخستنه‌وه‌ بۆ بنێڕه‌ت</string>
     <string name="restore_default_apn_completed">ڕێکخستنەوەی APN بۆ باری بنەڕەتی تەواوبوو.</string>
     <string name="reset_network_confirm_title">ڕێکخستنەوە?</string>
-    <string name="main_clear_accounts" product="default">\n\nئێستا تۆ لە ژورەوەیت بۆ ئەم هەژمارانەی خوارەوە:\n</string>
-    <string name="main_clear_desc_also_erases_external"><li>مۆسیقا</li>\n<li>وێنەکان</li>\n<li>دراوەکانی دیکەی بەکارهێنەر</li></string>
-    <string name="main_clear_desc_erase_external_storage" product="nosdcard">\n\nبۆ پاککردنەوەی مۆسیقا، وێنەکان و دیکەی دراوەکانی بەکارهێنەر  <b>بیرگەی یو ئێس بی</b> پێویستە بسڕدرێتەوە.</string>
-    <string name="main_clear_desc_erase_external_storage" product="default">\n\nبۆ پاککردنەوەی مۆسیقا، وێنەکان و دیکەی دراوەکانی بەکارهێنەر  <b>بیرگەی هەڵگرتنی</b> پێویستە بسڕدرێتەوە.</string>
+    <string name="main_clear_accounts" product="default">"\n\nئێستا تۆ لە ژورەوەیت بۆ ئەم هەژمارانەی خوارەوە:\n"</string>
+    <string name="main_clear_desc_also_erases_external">"<li>مۆسیقا</li>\n<li>وێنەکان</li>\n<li>دراوەکانی دیکەی بەکارهێنەر</li>"</string>
+    <string name="main_clear_desc_erase_external_storage" product="nosdcard">"\n\nبۆ پاککردنەوەی مۆسیقا، وێنەکان و دیکەی دراوەکانی بەکارهێنەر  <b>بیرگەی یو ئێس بی</b> پێویستە بسڕدرێتەوە."</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"\n\nبۆ پاککردنەوەی مۆسیقا، وێنەکان و دیکەی دراوەکانی بەکارهێنەر  <b>بیرگەی هەڵگرتنی</b> پێویستە بسڕدرێتەوە."</string>
     <string name="erase_external_storage" product="nosdcard">سڕینه‌وه‌ی كۆگای USB</string>
     <string name="erase_external_storage" product="default">پاککردنەوەی بیرگەی دەرەکی</string>
     <string name="erase_external_storage_description" product="nosdcard">سڕینەوەی هەموو داتاکان لەسەر بیرگەی ناوەکی ،وەکو گۆرانی و وێنەکان</string>
@@ -727,6 +713,7 @@
     <string name="clear_data_dlg_title">سڕینەوەی داتای بەرنامە؟</string>
     <string name="dlg_ok">باشه‌</string>
     <string name="dlg_cancel">هەڵوەشاندنەوە</string>
+    <string name="dlg_delete">سڕینه‌وه‌</string>
     <string name="join_two_items"><xliff:g id="first_item">%1$s</xliff:g> و <xliff:g id="second_item">%2$s</xliff:g></string>
     <string name="computing_size">کۆمپیوتەرکردن\u2026</string>
     <string name="version_text">وەشان <xliff:g id="version_num">%1$s</xliff:g></string>
@@ -853,6 +840,7 @@
     <string name="vision_settings_suggestion_title">گوڕینی جۆره‌پیت قەبارە</string>
     <string name="audio_category_title">ده‌نگ</string>
     <string name="display_category_title">شاشە</string>
+    <string name="accessibility_magnification_triple_tap_warning_negative_button">لابردن</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">پەرەسەندوو</string>
     <string name="accessibility_button_location_title">ناوچه‌</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">خۆکارانە
@@ -862,15 +850,14 @@
     <string name="accessibility_power_button_ends_call_prerefence_title">دوگمەی هێز بۆ کۆتایهێنان بە تەلەفۆن</string>
     <string name="accessibility_timeout_default">بنێڕه‌ت</string>
     <string name="accessibility_long_press_timeout_preference_title">دەستلێدان وamp; ڕاگرتنی بۆ دواخستن</string>
-    <string name="accessibility_autoclick_default_title">کوژاندنەوە</string>
     <string name="accessibility_autoclick_medium_title">ناوه‌ندی</string>
+    <string name="accessibility_vibration_settings_state_on">چالاککردن</string>
+    <string name="accessibility_vibration_settings_state_off">کوژاندنەوە</string>
     <string name="captioning_more_options_title">بەربژاردەی زیاتر</string>
     <string name="accessibility_hearingaid_instruction_continue_button">بەردەوامبون</string>
     <string name="accessibility_summary_shortcut_disabled">کوژاندنەوە</string>
     <string name="accessibility_summary_state_enabled">چالاککردن</string>
     <string name="accessibility_summary_state_disabled">کوژاندنەوە</string>
-    <string name="accessibility_vibration_intensity_off">کوژاندنەوە</string>
-    <string name="accessibility_vibration_intensity_medium">ناوه‌ندی</string>
     <string name="accessibility_menu_item_settings">ڕێکخستنه‌کان</string>
     <string name="accessibility_feature_state_on">چالاککردن</string>
     <string name="accessibility_feature_state_off">کوژانه‌وه‌</string>
@@ -1000,6 +987,8 @@
     <string name="menu_stats_total">بەکارهێنانی گشتی</string>
     <string name="menu_stats_refresh">بوژاندنه‌وه‌</string>
     <string name="process_mediaserver_label">ڕاگەیەنە پارێز</string>
+    <string name="process_network_tethering">پەیوەندی ئینتەرنێت بە</string>
+    <string name="process_removed_apps">بەرنامەکە سڕایەوە</string>
     <string name="process_stats_summary_title">ئاماری پرۆسە</string>
     <string name="process_stats_summary"> ئامێرى جێگيركردنى گيكى دەربارەى ڕاكردنى كردار</string>
     <string name="app_memory_use">بەکارهێنانی بیرگە</string>
@@ -1142,8 +1131,6 @@
     <string name="data_usage_received_sent"><xliff:g id="received" example="128KB">%1$s</xliff:g> received, <xliff:g id="sent" example="1.3GB">%2$s</xliff:g> نێردرا</string>
     <string name="data_usage_total_during_range"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> بەکارهات.</string>
     <string name="data_usage_metered_auto">خۆکارانە</string>
-    <string name="cryptkeeper_emergency_call">تەلەفۆنی فریاگوزاری</string>
-    <string name="cryptkeeper_return_to_call">گەڕانەوە بۆ تەلەفۆن</string>
     <string name="vpn_name">ناو</string>
     <string name="vpn_type">جۆر</string>
     <string name="vpn_server">ناونیشانی تۆڕ</string>
@@ -1213,6 +1200,7 @@
     <string name="application_restrictions">ڕێگەدان بە بەرنامە و ناوەڕۆک</string>
     <string name="apps_with_restrictions_header">بەرنامەکان لەگەڵ سنورەکان</string>
     <string name="apps_with_restrictions_settings_button">بڵاوکردنەوەی ڕێکخستنەکان بۆ بەرنامەکان</string>
+    <string name="nfc_more_details">زیاتر بزانە</string>
     <string name="nfc_payment_default_not_set">دانەنراوە</string>
     <string name="nfc_payment_btn_text_update">تازه‌کردنه‌وه‌</string>
     <string name="restriction_settings_title">سنووردارەکان</string>
@@ -1241,6 +1229,7 @@
     <string name="ringtone_title">زەنگی مۆبایل</string>
     <string name="notification_ringtone_title">دەنگی ئاگادارکردنەوەی بنەڕەت</string>
     <string name="notification_sound_default">دەنگی ئاگادارکردنەوەی بنەڕەت</string>
+    <string name="spatial_summary_off">کوژاندنەوە</string>
     <string name="zen_mode_schedule_delete">سڕینه‌وه‌</string>
     <string name="zen_mode_rule_name_edit">دەستکاری</string>
     <string name="zen_mode_no_exceptions">هیچ</string>
@@ -1358,6 +1347,8 @@
     <string name="sim_action_continue">بەردەوامبون</string>
     <string name="sim_action_yes">بەڵێ</string>
     <string name="sim_action_reboot">ده‌ستپێكردنه‌وه‌</string>
+    <string name="sim_action_cancel">لابردن</string>
+    <string name="privacy_controls_title">کۆنترۆڵ</string>
     <string name="contextual_card_dismiss_remove">لابردن</string>
     <string name="wfc_disclaimer_location_title_text">ناوچه‌</string>
     <string name="wifi_disconnect_button_text">پچڕاندنی پەیوەندی</string>
@@ -1370,4 +1361,14 @@
     <string name="smart_forwarding_missing_alert_dialog_text">OK</string>
     <string name="next_page_content_description">دواتر</string>
     <string name="bluetooth_connect_access_dialog_positive">گرێدان</string>
+    <string name="tare_on">چالاککردن</string>
+    <string name="tare_off">کوژاندنەوە</string>
+    <string-array name="tare_modifiers_subfactors">
+        <item>بارگاویکردنەوە</item>
+        <item>Doze</item>
+        <item>Power Save Mode</item>
+        <item>Process State</item>
+    </string-array>
+    <string name="tare_dialog_confirm_button_title">دلنیاکردنەوە</string>
+    <string name="dream_preview_button_title">دەرخستن</string>
 </resources>
