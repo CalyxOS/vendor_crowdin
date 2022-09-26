@@ -19,7 +19,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="wifi_fail_to_scan">Methu â sganio am rwydweithau</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_short_wpa">WPA</string>
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Dim</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_remembered">Wedi ei gofio</string>
     <string name="wifi_disconnected">Heb gysylltu</string>
     <string name="wifi_disabled_generic">Wedi\'i analluogi</string>
@@ -83,7 +90,6 @@
     <string name="bluetooth_profile_a2dp">Sain cyfryngau</string>
     <string name="bluetooth_profile_headset">Galwadau ffôn</string>
     <string name="bluetooth_profile_opp">Trosglwyddo ffeiliau</string>
-    <string name="bluetooth_profile_broadcast">Darlledu</string>
     <string name="bluetooth_profile_hid">Dyfeisiau mewnbwn</string>
     <string name="bluetooth_profile_pan">Mynediad at y rhyngrwyd</string>
     <string name="bluetooth_profile_pbap">Rhannu cysylltiadau</string>
@@ -91,7 +97,6 @@
     <string name="bluetooth_profile_pan_nap">Rhannu cysylltiad i\'r rhyngrwyd</string>
     <string name="bluetooth_profile_map">Negeseuon Testun</string>
     <string name="bluetooth_profile_sap">Mynediad SIM</string>
-    <string name="bluetooth_profile_vcp">Rheolaeth sain</string>
     <string name="bluetooth_profile_a2dp_high_quality">Sain HD: <xliff:g id="codec_name">%1$s</xliff:g></string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">Sain HD</string>
     <string name="bluetooth_profile_hearing_aid">Teclynnau Cymorth Clyw</string>
@@ -125,14 +130,9 @@
     <string name="bluetooth_talkback_headset">Clustffonau</string>
     <string name="bluetooth_talkback_phone">Ffôn</string>
     <string name="bluetooth_talkback_imaging">Delweddu</string>
-    <string name="bluetooth_talkback_group">Dyfeisiau\'r Grŵp</string>
     <string name="bluetooth_talkback_headphone">Clustffonau</string>
     <string name="bluetooth_talkback_input_peripheral">Perifferol Mewnbwn</string>
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
-    <string name="bluetooth_hearingaid_left_pairing_message">Yn paru â theclyn clyw\'r chwith\u2026</string>
-    <string name="bluetooth_hearingaid_right_pairing_message">Yn paru â theclyn clyw\'r dde\u2026</string>
-    <string name="bluetooth_hearingaid_left_battery_level">Chwith - <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batri</string>
-    <string name="bluetooth_hearingaid_right_battery_level">De - <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batri</string>
     <string name="accessibility_wifi_off">Wi-fi i ffwrdd.</string>
     <string name="accessibility_no_wifi">Wi-fi heb gysylltu.</string>
     <string name="accessibility_wifi_one_bar">Un bar W-Fi.</string>
@@ -151,7 +151,6 @@
     <string name="tether_settings_title_usb_bluetooth">Tenynnu</string>
     <string name="tether_settings_title_all">Tenynnu a llecyn Wi-Fi</string>
     <string name="managed_user_title">Pob ap gwaith</string>
-    <string name="user_guest">Gwestai</string>
     <string name="unknown">Anhysybys</string>
     <string name="running_process_item_user_label">Defnyddiwr: <xliff:g id="user_name">%1$s</xliff:g></string>
     <string name="launch_defaults_some">Rhai rhagosodiadau wedi\'u gosod</string>
@@ -264,7 +263,7 @@
     <string name="wifi_display_certification">Tystysgrifio dangosyddion diwifr</string>
     <string name="wifi_verbose_logging">Galluogi Logio Wi\u2011Fi Geiriog</string>
     <string name="wifi_scan_throttling">Throtlo sganio am Wi\u2011Fi</string>
-    <string name="wifi_enhanced_mac_randomization">MAC amharaus ar hap drwy Wi\u2011Fi</string>
+    <string name="wifi_non_persistent_mac_randomization">MAC amharaus ar hap drwy Wi\u2011Fi</string>
     <string name="mobile_data_always_on">Data symudol yn weithredol o hyd</string>
     <string name="tethering_hardware_offload">Cyflymiad caledwedd tenynnu</string>
     <string name="bluetooth_show_devices_without_names">Dangos dyfeisiau Bluetooth heb enwau</string>
@@ -297,7 +296,7 @@
     <string name="wifi_display_certification_summary">Dangos dewisiadau ar gyfer tystysgrifo dangosyddion di-wifr</string>
     <string name="wifi_verbose_logging_summary">Cynyddu lefel logio Wi\u2011Fi, gan ddangos fesul SSID RSSI yn Dewisydd Wi\u2011Fi</string>
     <string name="wifi_scan_throttling_summary">Mae\'n lleihau defnydd batri ac yn gwella perfformiad rhwydwaith</string>
-    <string name="wifi_enhanced_mac_randomization_summary">Pan fydd y modd hwn wedi\'i alluogi, gall gyfeiriad MAC y ddyfais hon newid bob tro y mae\'n cysylltu â rhwydwaith sydd â hap MAC ymlaen.</string>
+    <string name="wifi_non_persistent_mac_randomization_summary">Pan fydd y modd hwn wedi\'i alluogi, gall gyfeiriad MAC y ddyfais hon newid bob tro y mae\'n cysylltu â rhwydwaith sydd â hap MAC ymlaen.</string>
     <string name="wifi_metered_label">Wedi\'i mesur</string>
     <string name="wifi_unmetered_label">Heb ei mesur</string>
     <string name="select_logd_size_title">Meintiau byfferau logwyr</string>
@@ -425,15 +424,6 @@
     <string name="select_webview_provider_title">Rhoi WebView ar waith</string>
     <string name="select_webview_provider_dialog_title">Gosod WebView i weithredu</string>
     <string name="select_webview_provider_toast_text">Dyw\'r dewis hwn ddim yn ddilys bellach. Ceisia eto.</string>
-    <string name="convert_to_file_encryption">Trosi i amgypriad ffeil</string>
-    <string name="convert_to_file_encryption_enabled">Trosi\u2026</string>
-    <string name="convert_to_file_encryption_done">Ffeil eisoes wedi\'i hamgryptio</string>
-    <string name="title_convert_fbe">Yn trosi i amgryptiad yn seiliedig ar ffeil</string>
-    <string name="convert_to_fbe_warning">Trosi rhaniad data i amgryptiad yn seiliedig ar ffeil.\n
-!!Rhybudd!! Bydd hyn yn dileu dy holl ddata.\n
-Mae\'r nodwedd hon dal yn fersiwn alffa, ac felly mae\'n bosib na fydd yn gweithio\'n gywir.\n
-Gwasga \'Clirio a Throsi\' i barhau.</string>
-    <string name="button_convert_fbe">Clirio a throsi\u2026</string>
     <string name="picture_color_mode">Modd lliw darlun</string>
     <string name="picture_color_mode_desc">Defnyddio sRGB</string>
     <string name="daltonizer_mode_disabled">Wedi\'i analluogi</string>
@@ -442,12 +432,6 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="daltonizer_mode_protanomaly">Protoanomaledd (coch-gwyrdd)</string>
     <string name="daltonizer_mode_tritanomaly">Trithoanomaledd (glas-melyn)</string>
     <string name="accessibility_display_daltonizer_preference_title">Cywiriad lliw</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle"><![CDATA[        Addasu sut y mae lliwiau yn ymddangos ar dy ddyfais. Gall fod yn ddefnyddiol pan fyddi eisiau:<br/><br/>
-        <ol>
-            <li>&nbsp;Gweld lliwiau yn fwy cywir</li>
-            <li>&nbsp;Cael gwared â lliwiau i dy helpu i ffocysu</li>
-        </ol>
-        ]]></string>
     <string name="daltonizer_type_overridden">Mae\'n cael ei or-reoli gan <xliff:g id="title" example="Simulate color space">%1$s</xliff:g></string>
     <string name="power_remaining_settings_home_page"><xliff:g id="percentage" example="10%">%1$s</xliff:g> - <xliff:g id="time_string" example="1 hour left based on your usage">%2$s</xliff:g></string>
     <string name="power_remaining_duration_only">Tua <xliff:g id="time_remaining">%1$s</xliff:g> yn weddill</string>
@@ -517,14 +501,6 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="ims_reg_status_not_registered">"Heb gofrestru"</string>
     <string name="status_unavailable">Dim ar gael</string>
     <string name="wifi_status_mac_randomized">MAC wedi\'i osod ar hap</string>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="zero">%1$d dyfais wedi\'u cysylltu</item>
-        <item quantity="one">%1$d dyfais wedi\'i chysylltu</item>
-        <item quantity="two">%1$d ddyfais wedi\'u cysylltu</item>
-        <item quantity="few">%1$d dyfais wedi\'u cysylltu</item>
-        <item quantity="many">%1$d dyfais wedi\'u cysylltu</item>
-        <item quantity="other">%1$d dyfais wedi\'u cysylltu</item>
-    </plurals>
     <string name="accessibility_manual_zen_more_time">Mwy o amser.</string>
     <string name="accessibility_manual_zen_less_time">Llai o amser.</string>
     <string name="cancel">Diddymu</string>
@@ -550,7 +526,7 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="zen_mode_duration_always_prompt_title">Gofyn bob tro</string>
     <string name="zen_mode_forever">Nes dy fod yn ei ddiffodd</string>
     <string name="time_unit_just_now">Jyst nawr</string>
-    <string name="media_transfer_this_device_name">Seinydd y ffôn</string>
+    <string name="media_transfer_this_device_name" product="default">Y ffôn hwn</string>
     <string name="media_transfer_this_phone">Y ffôn hwn</string>
     <string name="profile_connect_timeout_subtext">Problem cysylltu. Diffodda\'r ddyfais a\'i throi nôl ymlaen</string>
     <string name="media_transfer_wired_device_name">Dyfais sain gwifredig</string>
@@ -595,7 +571,6 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="guest_new_guest">Ychwanegu gwestai</string>
     <string name="guest_exit_guest">Tynnu gwestai</string>
     <string name="guest_reset_guest">Ailosod gwestai</string>
-    <string name="guest_nickname">Gwestai</string>
     <string name="guest_reset_guest_dialog_title">Ailosod gwestai?</string>
     <string name="guest_reset_guest_confirm_button">Ailosod</string>
     <string name="guest_resetting">Yn ailosod gwestai\u2026</string>
@@ -637,4 +612,5 @@ Gwasga \'Clirio a Throsi\' i barhau.</string>
     <string name="accessibility_ethernet_disconnected">Ether-rwyd heb gysylltu.</string>
     <string name="accessibility_ethernet_connected">Ether-rwyd.</string>
     <string name="accessibility_no_calling">Dim galw.</string>
+    <string name="keyboard_layout_default_label">Arferol</string>
 </resources>

@@ -63,30 +63,6 @@
     <string name="contacts_deleted_one_named_toast"><xliff:g id="name">%1$s</xliff:g> wedi\'i ddileu</string>
     <string name="contacts_deleted_two_named_toast"><xliff:g id="name">%1$s</xliff:g> a <xliff:g id="name">%2$s</xliff:g> wedi\'u dileu</string>
     <string name="contacts_deleted_many_named_toast"><xliff:g id="name">%1$s</xliff:g>, <xliff:g id="name">%2$s</xliff:g>, <xliff:g id="name">%3$s</xliff:g>\u2026 wedi\'u dileu</string>
-    <plurals name="contacts_deleted_toast">
-        <item quantity="zero">Dim cysylltiadau wedi eu dileu</item>
-        <item quantity="one">Un cyswllt wedi ei ddileu</item>
-        <item quantity="two">Dau gyswllt wedi eu dileu</item>
-        <item quantity="few">Tri chyswllt wedi eu dileu</item>
-        <item quantity="many">Chwe chyswllt wedi eu dileu</item>
-        <item quantity="other">Cysylltiadau wedi eu dileu</item>
-    </plurals>
-    <plurals name="contacts_count">
-        <item quantity="zero"><xliff:g id="count">%d</xliff:g> cysylltiadau</item>
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> cyswllt</item>
-        <item quantity="two"><xliff:g id="count">%d</xliff:g> gyswllt</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> cyswllt</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> chyswllt</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> cyswllt</item>
-    </plurals>
-    <plurals name="contacts_count_with_account">
-        <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> cysylltiadau · <xliff:g id="account">%2$s</xliff:g></item>
-        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> cyswllt · <xliff:g id="account">%2$s</xliff:g></item>
-        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> gyswllt · <xliff:g id="account">%2$s</xliff:g></item>
-        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> cyswllt · <xliff:g id="account">%2$s</xliff:g></item>
-        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> chyswllt · <xliff:g id="account">%2$s</xliff:g></item>
-        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> cyswllt · <xliff:g id="account">%2$s</xliff:g></item>
-    </plurals>
     <string name="title_from_google">O Google</string>
     <string name="title_from_other_accounts">O <xliff:g id="account">%s</xliff:g></string>
     <string name="menu_set_ring_tone">Gosod tôn caniad</string>
@@ -146,14 +122,6 @@
     <string name="menu_share">Rhannu</string>
     <string name="menu_add_contact">Ychwanegu at gysylltiadau</string>
     <string name="menu_add_contacts">Ychwanegu</string>
-    <plurals name="title_share_via">
-        <item quantity="zero">Rhannu cysylltiadau trwy</item>
-        <item quantity="one">Rhannu\'r cyswllt trwy</item>
-        <item quantity="two">Rhannu cysylltiadau trwy</item>
-        <item quantity="few">Rhannu cysylltiadau trwy</item>
-        <item quantity="many">Rhannu cysylltiadau trwy</item>
-        <item quantity="other">Rhannu cysylltiadau trwy</item>
-    </plurals>
     <string name="dialog_new_group_account">Dewis gyfrif</string>
     <string name="group_name_dialog_insert_title">Creu label</string>
     <string name="group_name_dialog_update_title">Ailenwi\'r label</string>
@@ -411,22 +379,6 @@
     <string name="dialog_new_contact_account">Cadw\'r cysylltiadau a fewnforiwyd i:</string>
     <string name="import_from_sim">Cerdyn SIM</string>
     <string name="import_from_sim_summary_fmt">SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
-    <plurals name="import_from_sim_secondary_contact_count_fmt">
-        <item quantity="zero">%1$d cysylltiadau</item>
-        <item quantity="one">1 cyswllt</item>
-        <item quantity="two">%1$d gyswllt</item>
-        <item quantity="few">%1$d chyswllt</item>
-        <item quantity="many">%1$d chyswllt</item>
-        <item quantity="other">%1$d cyswllt</item>
-    </plurals>
-    <plurals name="import_from_sim_secondary_template">
-        <item quantity="zero"><xliff:g id="count">^1</xliff:g> cysylltiadau • <xliff:g id="phone_number">^2</xliff:g></item>
-        <item quantity="one"><xliff:g id="count">^1</xliff:g> cyswllt • <xliff:g id="phone_number">^2</xliff:g></item>
-        <item quantity="two"><xliff:g id="count">^1</xliff:g> gyswllt • <xliff:g id="phone_number">^2</xliff:g></item>
-        <item quantity="few"><xliff:g id="count">^1</xliff:g> cyswllt • <xliff:g id="phone_number">^2</xliff:g></item>
-        <item quantity="many"><xliff:g id="count">^1</xliff:g> chyswllt • <xliff:g id="phone_number">^2</xliff:g></item>
-        <item quantity="other"><xliff:g id="count">^1</xliff:g> cyswllt • <xliff:g id="phone_number">^2</xliff:g></item>
-    </plurals>
     <string name="import_from_vcf_file">ffeil .vcf</string>
     <string name="nothing_to_import_message">Dim byd i\'w fewnforio</string>
     <string name="import_from_vcf_file_confirmation_message">Mewnforio cysylltiadau o vCard?</string>
@@ -531,14 +483,6 @@
     <string name="sim_import_title_none_selected">Dewis cysylltiadau</string>
     <string name="sim_import_empty_message">Does dim cysylltiadau ar dy gerdyn SIM</string>
     <string name="sim_import_contact_exists_toast">Mae\'r cyswllt eisoes yn bodoli yn dy restr</string>
-    <plurals name="sim_import_success_toast_fmt">
-        <item quantity="zero">Mewnforiwyd <xliff:g id="count">%d</xliff:g> cysylltiadau SIM</item>
-        <item quantity="one">Mewnforiwyd 1 cyswllt SIM</item>
-        <item quantity="two">Mewnforiwyd <xliff:g id="count">%d</xliff:g> gyswllt SIM</item>
-        <item quantity="few">Mewnforiwyd <xliff:g id="count">%d</xliff:g> cyswllt SIM</item>
-        <item quantity="many">Mewnforiwyd <xliff:g id="count">%d</xliff:g> chyswllt SIM</item>
-        <item quantity="other">Mewnforiwyd <xliff:g id="count">%d</xliff:g> cyswllt SIM</item>
-    </plurals>
     <string name="sim_import_failed_toast">Methwyd â mewnforio cysylltiadau SIM</string>
     <string name="sim_import_title">Mewnforio o SIM</string>
     <string name="sim_import_cancel_content_description">Diddymu</string>

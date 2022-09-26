@@ -174,10 +174,6 @@
     <string name="low_memory" product="watch">L\'almacenamientu del reló ta enllén. Desanicia dalgunos ficheros pa lliberar espaciu.</string>
     <string name="low_memory" product="tv">L\'almacenamientu d\'Android TV ta enllén. Desanicia dalgunos ficheros pa lliberar espaciu.</string>
     <string name="low_memory" product="default">L\'almacenamientu del teléfonu ta enllén. Desanicia dalgunos ficheros pa lliberar espaciu.</string>
-    <plurals name="ssl_ca_cert_warning">
-        <item quantity="one">Instalóse l\'autoridá certificadora</item>
-        <item quantity="other">Instaláronse les autoridaes certificadores</item>
-    </plurals>
     <string name="ssl_ca_cert_noti_by_unknown">Por un terceru desconocíu</string>
     <string name="ssl_ca_cert_noti_by_administrator">Pol alministrador del perfil llaboral</string>
     <string name="ssl_ca_cert_noti_managed">Por «<xliff:g id="managing_domain">%s</xliff:g>»</string>
@@ -263,10 +259,6 @@
         mínima cuando\'l preséu nun respuenda o vaiga lentu, o cuando precises toles
         seiciones del informe. Nun permite qu\'introduzas más detalles o faigas más
         captures de pantalla.</string>
-    <plurals name="bugreport_countdown">
-        <item quantity="one">Va facese una captura de pantalla pal informe de fallos en <xliff:g id="number">%d</xliff:g> segundu.</item>
-        <item quantity="other">Va facese una captura de pantalla pal informe de fallos en <xliff:g id="number">%d</xliff:g> segundos.</item>
-    </plurals>
     <string name="bugreport_screenshot_success_toast">Fízose una captura de pantalla col informe de fallos</string>
     <string name="bugreport_screenshot_failure_toast">Hebo un fallu al facer la captura de pantalla col informe de fallos</string>
     <string name="global_action_toggle_silent_mode">Mou silenciosu</string>
@@ -320,8 +312,6 @@
     <string name="permgroupdesc_calendar">accesu al calendariu</string>
     <string name="permgrouplab_sms">SMS</string>
     <string name="permgroupdesc_sms">unviu y visualización de mensaxes SMS</string>
-    <string name="permgrouplab_storage">Ficheros y multimedia</string>
-    <string name="permgroupdesc_storage">accesu a los ficheros multimedia del preséu</string>
     <string name="permgrouplab_microphone">Micrófonu</string>
     <string name="permgroupdesc_microphone">grabación d\'audiu</string>
     <string name="permgrouplab_activityRecognition">Actividá física</string>
@@ -335,6 +325,7 @@
     <string name="permgroupdesc_phone">xestión y fechura de llamaes telefóniques</string>
     <string name="permgrouplab_sensors">Sensores corporales</string>
     <string name="permgroupdesc_sensors">accesu a los datos del sensor sobre les tos constantes vitales</string>
+    <string name="permgrouplab_notifications">Avisos</string>
     <string name="capability_title_canRetrieveWindowContent">Recuperar el conteníu de les ventanes</string>
     <string name="capability_desc_canRetrieveWindowContent">Inspeiciona\'l conteníu de la ventana
         cola que teas interactuando.</string>
@@ -502,10 +493,6 @@
     <string name="permdesc_writeCallLog" product="default">Permite que l\'aplicación modifique\'l rexistru de llamaes del teléfonu, incluyíes les llamaes entrantes
         y salientes. Les aplicaciones malicioses puen usar esti permisu pa desaniciar o modificar
         el rexistru de llamaes.</string>
-    <string name="permlab_bodySensors">sensores corporales
-    </string>
-    <string name="permdesc_bodySensors" product="default">Permite que l\'aplicación acceda a los datos de los sensores
-    que supervisen la to condición física, como\'l ritmu cardiacu.</string>
     <string name="permlab_readCalendar">llectura de los eventos y los detalles del calendariu</string>
     <string name="permdesc_readCalendar" product="tablet">Esta aplicación pue lleer tolos eventos del calendariu atroxaos na tableta y compartir o guardar los datos del calendariu.</string>
     <string name="permdesc_readCalendar" product="tv">Esta aplicación pue lleer tolos eventos del calendariu atroxaos n\'Android TV y compartir o guardar datos del calendariu.</string>
@@ -701,7 +688,6 @@
     <string name="biometric_not_recognized">Nun se reconoz</string>
     <string name="biometric_error_canceled">Encaboxóse l\'autenticación</string>
     <string name="biometric_error_device_not_secured">Nun s\'afitó nengún PIN, patrón o contraseña</string>
-    <string name="fingerprint_acquired_partial">Detectóse una buelga parcial</string>
     <string name="fingerprint_acquired_insufficient">Nun se pudo procesar la buelga. Volvi tentalo.</string>
     <string name="fingerprint_acquired_too_slow">El deu movióse perdespacio. Volvi tentalo.</string>
     <string name="fingerprint_acquired_already_enrolled">Prueba otra buelga</string>
@@ -989,7 +975,7 @@
     <string name="lockscreen_instructions_when_pattern_enabled">Primi «Menú» pa desbloquiar o facer una llamada d\'emerxencia.</string>
     <string name="lockscreen_instructions_when_pattern_disabled">Primi «Menú» pa desbloquiar.</string>
     <string name="lockscreen_pattern_instructions">Dibuxa\'l patrón pa desbloquiar</string>
-    <string name="lockscreen_emergency_call">Llamada d\'emerxencia</string>
+    <string name="lockscreen_emergency_call">Emerxencia</string>
     <string name="lockscreen_return_to_call">Volver a la llamada</string>
     <string name="lockscreen_pattern_correct">¡La combinación ye correuta!</string>
     <string name="lockscreen_pattern_wrong">Volvi tentalo</string>
@@ -1229,7 +1215,6 @@
     <string name="save_password_never">Enxamás</string>
     <string name="open_permission_deny">Nun tienes permisu p\'abrir esta páxina.</string>
     <string name="text_copied">El testu copióse nel cartafueyu.</string>
-    <string name="copied">Copióse</string>
     <string name="pasted_text">«<xliff:g id="pasting_app_name" example="Gmail">%1$s</xliff:g>» apegó\'l testu que copiesti</string>
     <string name="pasted_image">«<xliff:g id="pasting_app_name" example="Gmail">%1$s</xliff:g>» apegó una imaxe que copiesti</string>
     <string name="pasted_content">«<xliff:g id="pasting_app_name" example="Gmail">%1$s</xliff:g>» apegó\'l conteníu que copiesti</string>
@@ -1260,10 +1245,6 @@
        deu o facer xestos pa interactuar col teléfonu.</string>
     <string name="oneMonthDurationPast">Hai un mes</string>
     <string name="beforeOneMonthDurationPast">Hai más d\'un mes</string>
-    <plurals name="last_num_days">
-        <item quantity="one">L\'últimu día (<xliff:g id="count">%d</xliff:g>)</item>
-        <item quantity="other">Los últimos <xliff:g id="count">%d</xliff:g> díes</item>
-    </plurals>
     <string name="last_month">El mes pasáu</string>
     <string name="older">Anterior</string>
     <string name="preposition_for_date">el <xliff:g id="date" example="May 29">%s</xliff:g></string>
@@ -1282,70 +1263,6 @@
     <string name="year">añu</string>
     <string name="years">años</string>
     <string name="now_string_shortest">agora</string>
-    <plurals name="duration_minutes_shortest">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g>m</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g>m</item>
-    </plurals>
-    <plurals name="duration_hours_shortest">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g>h</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g>h</item>
-    </plurals>
-    <plurals name="duration_days_shortest">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g>d</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g>d</item>
-    </plurals>
-    <plurals name="duration_years_shortest">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g>a</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g>a</item>
-    </plurals>
-    <plurals name="duration_minutes_shortest_future">
-        <item quantity="one">en <xliff:g example="1" id="count">%d</xliff:g>m</item>
-        <item quantity="other">en <xliff:g example="2" id="count">%d</xliff:g>m</item>
-    </plurals>
-    <plurals name="duration_hours_shortest_future">
-        <item quantity="one">en <xliff:g example="1" id="count">%d</xliff:g>h</item>
-        <item quantity="other">en <xliff:g example="2" id="count">%d</xliff:g>h</item>
-    </plurals>
-    <plurals name="duration_days_shortest_future">
-        <item quantity="one">en <xliff:g example="1" id="count">%d</xliff:g>d</item>
-        <item quantity="other">en <xliff:g example="2" id="count">%d</xliff:g>d</item>
-    </plurals>
-    <plurals name="duration_years_shortest_future">
-        <item quantity="one">en <xliff:g example="1" id="count">%d</xliff:g>a</item>
-        <item quantity="other">en <xliff:g example="2" id="count">%d</xliff:g>a</item>
-    </plurals>
-    <plurals name="duration_minutes_relative">
-        <item quantity="one">Hai <xliff:g example="1" id="count">%d</xliff:g> minutu</item>
-        <item quantity="other">Hai <xliff:g example="1" id="count">%d</xliff:g> minutos</item>
-    </plurals>
-    <plurals name="duration_hours_relative">
-        <item quantity="one">Hai <xliff:g example="1" id="count">%d</xliff:g> hora</item>
-        <item quantity="other">Hai <xliff:g example="1" id="count">%d</xliff:g> hores</item>
-    </plurals>
-    <plurals name="duration_days_relative">
-        <item quantity="one">Hai <xliff:g example="1" id="count">%d</xliff:g> día</item>
-        <item quantity="other">Hai <xliff:g example="1" id="count">%d</xliff:g> díes</item>
-    </plurals>
-    <plurals name="duration_years_relative">
-        <item quantity="one">Hai <xliff:g example="1" id="count">%d</xliff:g> añu</item>
-        <item quantity="other">Hai <xliff:g example="1" id="count">%d</xliff:g> años</item>
-    </plurals>
-    <plurals name="duration_minutes_relative_future">
-        <item quantity="one">en <xliff:g example="1" id="count">%d</xliff:g> minutu</item>
-        <item quantity="other">en <xliff:g example="2" id="count">%d</xliff:g> minutos</item>
-    </plurals>
-    <plurals name="duration_hours_relative_future">
-        <item quantity="one">en <xliff:g example="1" id="count">%d</xliff:g> hora</item>
-        <item quantity="other">en <xliff:g example="2" id="count">%d</xliff:g> hores</item>
-    </plurals>
-    <plurals name="duration_days_relative_future">
-        <item quantity="one">en <xliff:g example="1" id="count">%d</xliff:g> día</item>
-        <item quantity="other">en <xliff:g example="2" id="count">%d</xliff:g> díes</item>
-    </plurals>
-    <plurals name="duration_years_relative_future">
-        <item quantity="one">en <xliff:g example="1" id="count">%d</xliff:g> añu</item>
-        <item quantity="other">en <xliff:g example="2" id="count">%d</xliff:g> años</item>
-    </plurals>
     <string name="VideoView_error_title">Hai un problema col videu</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Esti videu nun val pa la tresmisión al preséu.</string>
     <string name="VideoView_error_text_unknown">Nun se pue reproducir esti videu.</string>
@@ -1375,6 +1292,7 @@
     <string name="deleteText">Desaniciar</string>
     <string name="inputMethod">Métodu d\'entrada</string>
     <string name="editTextMenuTitle">Aiciones del testu</string>
+    <string name="input_method_nav_back_button_desc">Atrás</string>
     <string name="low_internal_storage_view_title">L\'espaciu d\'almacenamientu ta escosando</string>
     <string name="low_internal_storage_view_text">Quiciabes dalgunes funciones del sistema nun funcionen</string>
     <string name="low_internal_storage_view_text_no_boot">Nun hai abondu almacenamientu pal sistema. Asegúrate de que tienes 250 MB d\'espaciu llibre y reanicia.</string>
@@ -1474,11 +1392,7 @@
     <string name="android_preparing_apk">Tresnando «<xliff:g id="appname">%1$s</xliff:g>».</string>
     <string name="android_upgrading_starting_apps">Aniciando les aplicaciones.</string>
     <string name="android_upgrading_complete">Finando l\'arrinque.</string>
-    <string name="fp_enrollment_powerbutton_intent_title">¿Quies apagar la pantalla?</string>
-    <string name="fp_enrollment_powerbutton_intent_message">Mentanto configurabes la buelga,
-        primiesti\'l botón d\'apagáu.\n\nEsta aición suel apagar la pantalla.</string>
-    <string name="fp_enrollment_powerbutton_intent_positive_button">Desactivar</string>
-    <string name="fp_enrollment_powerbutton_intent_negative_button">Encaboxar</string>
+    <string name="fp_power_button_bp_negative_button">Siguir</string>
     <string name="heavy_weight_notification">«<xliff:g id="app">%1$s</xliff:g>» ta n\'execución</string>
     <string name="heavy_weight_notification_detail">Toca pa volver al xuegu</string>
     <string name="heavy_weight_switcher_title">Escoyeta d\'un xuegu</string>
@@ -1743,10 +1657,6 @@
     <string name="skip_button_label">Saltar</string>
     <string name="no_matches">Nun hai coincidencies</string>
     <string name="find_on_page">Atopar na páxina</string>
-    <plurals name="matches_found">
-        <item quantity="one">1 coincidencia</item>
-        <item quantity="other"><xliff:g id="index" example="2">%d</xliff:g> de <xliff:g id="total" example="137">%d</xliff:g></item>
-    </plurals>
     <string name="action_mode_done">Fecho</string>
     <string name="progress_erasing">Desaniciando l\'almacenamientu compartíu\u2026</string>
     <string name="share">Compartir</string>
@@ -1876,10 +1786,6 @@
     <string name="kg_wrong_pattern">El patrón ye incorreutu</string>
     <string name="kg_wrong_password">La contraseña ye incorreuta</string>
     <string name="kg_wrong_pin">El PIN ye incorreutu</string>
-    <plurals name="kg_too_many_failed_attempts_countdown">
-        <item quantity="one">Volvi tentalo en 1 segundu.</item>
-        <item quantity="other">Volvi tentalo en <xliff:g id="number">%d</xliff:g> segundos.</item>
-    </plurals>
     <string name="kg_pattern_instructions">Dibuxa\'l patrón</string>
     <string name="kg_sim_pin_instructions">Introduz el PIN de la SIM</string>
     <string name="kg_pin_instructions">Introduz el PIN</string>
@@ -1964,10 +1870,6 @@
     <string name="accessibility_enable_service_title">¿Quies permitir que
         «<xliff:g id="service" example="TalkBack">%1$s</xliff:g>» tenga\'l control total del
         preséu?</string>
-    <string name="accessibility_enable_service_encryption_warning">Si actives
-        «<xliff:g id="service" example="TalkBack">%1$s</xliff:g>», el preséu nun va usar la pantalla
-        de bloquéu p\'ameyorar el cifráu de datos.
-    </string>
     <string name="accessibility_service_warning_description">El control total ye afayadizu pa
         les aplicaciones que t\'ayuden cola accesibilidá, mas non pa la mayoría d\'elles.
     </string>
@@ -2124,10 +2026,6 @@
     <string name="restr_pin_create_pin">Crea un PIN pa modificar les torgues</string>
     <string name="restr_pin_error_doesnt_match">Los PIN nun concasen. Volvi tentalo.</string>
     <string name="restr_pin_error_too_short">El PIN ye percurtiu. Ha ser de polo menos 4 díxitos.</string>
-    <plurals name="restr_pin_countdown">
-        <item quantity="one">Volvi tentalo en 1 segundu</item>
-        <item quantity="other">Volvi tentalo en <xliff:g id="count">%d</xliff:g> segundos</item>
-    </plurals>
     <string name="restr_pin_try_later">Volvi tentalo dempués</string>
     <string name="immersive_cling_title">Vista a pantalla completa</string>
     <string name="immersive_cling_description">Pa colar, esliza dende lo baxero hasta lo cimero.</string>
@@ -2161,38 +2059,6 @@
     <string name="data_saver_description">P\'ayudar a amenorgar l\'usu de datos, «Aforrador de datos» evita que que les aplicaciones unvien y reciban datos en segundu planu. L\'aplicación que teas usando pue acceder a los datos, mas quiciabes lo faiga con menos frecuencia. Esto quier dicir, por exemplu, que les imáxenes nun van amosase hasta que calques nelles.</string>
     <string name="data_saver_enable_title">¿Quies activar «Aforrador de datos»?</string>
     <string name="data_saver_enable_button">Activar</string>
-    <plurals name="zen_mode_duration_minutes_summary">
-        <item quantity="one">Demientres un minutu (hasta: <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Demientres %1$d minutos (hasta: <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_minutes_summary_short">
-        <item quantity="one">Demientres 1 min (hasta: <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Demientres %1$d min (hasta: <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_hours_summary">
-        <item quantity="one">Demientres 1 hora (hasta la hora: <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Demientres %1$d hores (hasta la hora: <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_hours_summary_short">
-        <item quantity="one">Demientres 1 h (hasta: <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Demientres %1$d h (hasta: <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_minutes">
-        <item quantity="one">Demientres un minutu</item>
-        <item quantity="other">Demientres %d minutos</item>
-    </plurals>
-    <plurals name="zen_mode_duration_minutes_short">
-        <item quantity="one">Demientres 1 min</item>
-        <item quantity="other">Demientres %d min</item>
-    </plurals>
-    <plurals name="zen_mode_duration_hours">
-        <item quantity="one">Demientres 1 hora</item>
-        <item quantity="other">Demientres %d hores</item>
-    </plurals>
-    <plurals name="zen_mode_duration_hours_short">
-        <item quantity="one">Demientres 1 h</item>
-        <item quantity="other">Demientres %d h</item>
-    </plurals>
     <string name="zen_mode_until">Hasta: <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
     <string name="zen_mode_alarm">Hasta: <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (alarma siguiente)</string>
     <string name="zen_mode_forever">Hasta desactivar esta opción</string>
@@ -2232,10 +2098,6 @@
     <string name="notification_messaging_title_template"><xliff:g id="conversation_title" example="Tasty Treat Team">%1$s</xliff:g>: <xliff:g id="sender_name" example="Adrian Baker">%2$s</xliff:g></string>
     <string name="call_notification_answer_video_action">Videu</string>
     <string name="call_notification_decline_action">Refugar</string>
-    <plurals name="selected_count">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> na esbilla</item>
-        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> na esbilla</item>
-    </plurals>
     <string name="default_notification_channel_label">Ensin estaya</string>
     <string name="importance_from_user">Afitesti la importancia d\'estos avisos.</string>
     <string name="importance_from_person">Ye importante pola mor de les persones implicaes.</string>
@@ -2300,10 +2162,6 @@
     <string name="autofill_save_accessibility_title">Guardar pal autorellenu</string>
     <string name="autofill_error_cannot_autofill">El conteníu nun se pue autorellenar</string>
     <string name="autofill_picker_no_suggestions">Nun hai nenguna suxerencia del autorellenu</string>
-    <plurals name="autofill_picker_some_suggestions">
-        <item quantity="one">Una suxerencia del autorellenu</item>
-        <item quantity="other"><xliff:g id="count" example="Two">%1$s</xliff:g> suxerencies del autorellenu</item>
-    </plurals>
     <string name="autofill_save_title">¿Quies guardar el conteníu en: <b><xliff:g id="label" example="MyPass">%1$s</xliff:g></b>?</string>
     <string name="autofill_save_title_with_type">¿Quies guardar «<xliff:g id="type" example="Credit Card">%1$s</xliff:g>» en: <b><xliff:g id="label" example="MyPass">%2$s</xliff:g></b>?</string>
     <string name="autofill_save_title_with_2types">¿Quies guardar «<xliff:g id="type" example="Password">%1$s</xliff:g>» y «<xliff:g id="type" example="Credit Card">%2$s</xliff:g>» en: <b><xliff:g id="label" example="MyPass">%3$s</xliff:g></b>?</string>
@@ -2359,6 +2217,7 @@
     <string name="zen_upgrade_notification_visd_content">Toca pa saber más y camudar los axustes.</string>
     <string name="zen_upgrade_notification_title">«Nun molestar» camudó</string>
     <string name="zen_upgrade_notification_content">Toca pa comprobar qué se bloquió.</string>
+    <string name="review_notification_settings_dismiss">Escartar</string>
     <string name="notification_app_name_system">Sistema</string>
     <string name="notification_app_name_settings">Axustes</string>
     <string name="notification_appops_camera_active">Cámara</string>
@@ -2398,10 +2257,6 @@
     <string name="mime_type_presentation_ext">Presentación <xliff:g id="extension" example="PDF">%1$s</xliff:g></string>
     <string name="bluetooth_airplane_mode_toast">El Bluetooth va siguir habilitáu nel mou avión</string>
     <string name="car_loading_profile">Cargando</string>
-    <plurals name="file_count">
-        <item quantity="one"><xliff:g id="file_name">%s</xliff:g> + <xliff:g id="count">%d</xliff:g> ficheru</item>
-        <item quantity="other"><xliff:g id="file_name">%s</xliff:g> + <xliff:g id="count">%d</xliff:g> ficheros</item>
-    </plurals>
     <string name="chooser_no_direct_share_targets">Nun hai nenguna persona suxerida cola que compartir</string>
     <string name="chooser_all_apps_button_label">Llista d\'aplicaciones</string>
     <string name="usb_device_resolve_prompt_warn">Esta aplicación nun tien permisu pa grabar audiu, mas podría capturalu pente esti preséu USB.</string>

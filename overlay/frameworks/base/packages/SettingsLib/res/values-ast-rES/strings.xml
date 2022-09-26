@@ -19,7 +19,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="wifi_fail_to_scan">Nun se puen buscar redes</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_short_wpa">WPA</string>
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Nada</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_remembered">Guardóse</string>
     <string name="wifi_disconnected">Desconectóse</string>
     <string name="wifi_disabled_generic">Desactivóse</string>
@@ -125,10 +132,6 @@
     <string name="bluetooth_talkback_headphone">Auriculares</string>
     <string name="bluetooth_talkback_input_peripheral">Periféricu d\'entrada</string>
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
-    <string name="bluetooth_hearingaid_left_pairing_message">Empareyando al audífonu esquierdu\u2026</string>
-    <string name="bluetooth_hearingaid_right_pairing_message">Empareyando al audífonu derechu\u2026</string>
-    <string name="bluetooth_hearingaid_left_battery_level">Esquierdu - <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de batería</string>
-    <string name="bluetooth_hearingaid_right_battery_level">Derechu - <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de batería</string>
     <string name="accessibility_wifi_off">Señal Wi-Fi: desactivóse.</string>
     <string name="accessibility_no_wifi">Señal Wi-Fi: desconectóse.</string>
     <string name="accessibility_wifi_one_bar">Señal Wi-Fi: una barra.</string>
@@ -147,7 +150,6 @@
     <string name="tether_settings_title_usb_bluetooth">Tethering</string>
     <string name="tether_settings_title_all">Tethering y puntu Wi-Fi</string>
     <string name="managed_user_title">Toles aplic. llaborales</string>
-    <string name="user_guest">Convidáu</string>
     <string name="unknown">Desconozse</string>
     <string name="running_process_item_user_label">Usuariu: <xliff:g id="user_name">%1$s</xliff:g></string>
     <string name="launch_defaults_some">Afitáronse dalgunos valores predeterminaos</string>
@@ -295,7 +297,7 @@
     <string name="wifi_display_certification_summary">Amuesa les opciones de la certificación de visualización ensin filos</string>
     <string name="wifi_verbose_logging_summary">Aumenta\'l nivel de rexistru de la Wi\u2011Fi y amuesa\'l RSSI de los SSID nel selector Wi\u2011Fi</string>
     <string name="wifi_scan_throttling_summary">Amenorga\'l consumu d\'enerxía y ameyora\'l rindimientu de la rede</string>
-    <string name="wifi_enhanced_mac_randomization_summary">Cuando esti mou s\'activa, la direición MAC d\'esti preséu pue camudar cada vegada que se conecte a una rede que tenga activada la opción pa que la MAC s\'esbille al debalu.</string>
+    <string name="wifi_non_persistent_mac_randomization_summary">Cuando esti mou s\'activa, la direición MAC d\'esti preséu pue camudar cada vegada que se conecte a una rede que tenga activada la opción pa que la MAC s\'esbille al debalu.</string>
     <string name="wifi_metered_label">Con llende de datos</string>
     <string name="wifi_unmetered_label">Ensin llende de datos</string>
     <string name="select_logd_size_title">Tamaños del búfer de Logger</string>
@@ -421,15 +423,6 @@
     <string name="select_webview_provider_title">Implementación de WebView</string>
     <string name="select_webview_provider_dialog_title">Implementación de WebView</string>
     <string name="select_webview_provider_toast_text">Esta escoyeta yá nun ye válida. Volvi tentalo.</string>
-    <string name="convert_to_file_encryption">Convertir al cifráu basáu en ficheros</string>
-    <string name="convert_to_file_encryption_enabled">Convertir\u2026</string>
-    <string name="convert_to_file_encryption_done">Yá se cifró</string>
-    <string name="title_convert_fbe">Convirtiendo al cifráu basáu en ficheros</string>
-    <string name="convert_to_fbe_warning">        Convetir la partición de datos al cifráu basáu en ficheros.\n
-        ¡¡Alvertencia!! Esta aición va desaniciar tolos datos.\n
-        La característica ta n\'estáu alfa y pue funcionar incorreutamente.\n
-        Primi «Desaniciar y convertir\u2026» pa siguir.</string>
-    <string name="button_convert_fbe">Desaniciar y convertir\u2026</string>
     <string name="picture_color_mode">Mou de color de la imaxe</string>
     <string name="picture_color_mode_desc">Usa sRGB</string>
     <string name="daltonizer_mode_disabled">Desactivóse</string>
@@ -508,10 +501,6 @@
     <string name="ims_reg_status_not_registered">"Nun se rexistró"</string>
     <string name="status_unavailable">Nun ta disponible</string>
     <string name="wifi_status_mac_randomized">La direición MAC esbillase al debalu</string>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="one">%1$d preséu conectáu</item>
-        <item quantity="other">%1$d preseos conectaos</item>
-    </plurals>
     <string name="accessibility_manual_zen_more_time">Más tiempu.</string>
     <string name="accessibility_manual_zen_less_time">Menos tiempu.</string>
     <string name="cancel">Encaboxar</string>
@@ -531,7 +520,7 @@
     <string name="zen_mode_duration_always_prompt_title">Entrugar siempres</string>
     <string name="zen_mode_forever">Hasta desactivar esta opción</string>
     <string name="time_unit_just_now">Puramente agora</string>
-    <string name="media_transfer_this_device_name">Altavoz del teléfonu</string>
+    <string name="media_transfer_this_device_name" product="default">Esti teléfonu</string>
     <string name="media_transfer_this_phone">Esti teléfonu</string>
     <string name="profile_connect_timeout_subtext">Hebo un problema al conectar. Apaga y volvi prender el preséu</string>
     <string name="media_transfer_wired_device_name">Preséu d\'audiu con cable</string>
@@ -574,7 +563,6 @@
     <string name="user_nickname">Nomatu</string>
     <string name="guest_new_guest">Amestar un convidáu</string>
     <string name="guest_exit_guest">Quitar al convidáu</string>
-    <string name="guest_nickname">Convidáu</string>
     <string name="cached_apps_freezer_device_default">Comportamientu predetermináu</string>
     <string name="cached_apps_freezer_disabled">Desactivóse</string>
     <string name="cached_apps_freezer_enabled">Activóse</string>
@@ -593,4 +581,5 @@
     <string name="data_connection_lte_plus">LTE+</string>
     <string name="data_connection_5ge_html" translate="false"> &lt;i&gt;5G &lt;small&gt;E&lt;/small&gt;&lt;/i&gt; </string>
     <string name="data_connection_carrier_wifi">W+</string>
+    <string name="keyboard_layout_default_label">Por defeutu</string>
 </resources>

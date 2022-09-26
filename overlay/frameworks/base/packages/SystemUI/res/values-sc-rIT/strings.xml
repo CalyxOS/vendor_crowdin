@@ -20,6 +20,8 @@
     <string name="app_label">IU de su sistema</string>
     <string name="battery_low_percent_format">abarrat <xliff:g id="percentage">%s</xliff:g></string>
     <string name="battery_saver_confirmation_ok">Ativa</string>
+    <string name="battery_saver_start_action">Ativa</string>
+    <string name="battery_saver_dismiss_action">No, gràtzias</string>
     <string name="status_bar_settings_auto_rotation">Rotatzione automàtica de s\'ischermu</string>
     <string name="usb_device_permission_prompt">Boles permìtere a <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> de atzèdere a <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
     <string name="usb_device_permission_prompt_warn">Boles permìtere a <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> de atzèdere a <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?\n Custa aplicatzione no est istada autorizada a registrare ma diat pòdere caturare àudio cun custu dispositivu USB.</string>
@@ -89,9 +91,6 @@
     <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Si pones un\'ischema isballiadu a su tentativu imbeniente, su profilu de traballu e is datos ant a èssere cantzellados dae su dispositivu.</string>
     <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Si pones unu PIN isballiadu a su tentativu imbeniente, su profilu de traballu e is datos ant a èssere cantzellados dae su dispositivu.</string>
     <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Si pones una crae isballiada a su tentativu imbeniente, su profilu de traballu e is datos s\'ant a cantzellare dae su dispositivu.</string>
-    <string name="biometric_dialog_failed_attempts_now_wiping_device">As isballiadu tropu bortas. Is datos de custu dispositivu ant a èssere cantzellados.</string>
-    <string name="biometric_dialog_failed_attempts_now_wiping_user">As isballiadu tropu bortas. Custa utèntzia at a èssere cantzellada.</string>
-    <string name="biometric_dialog_failed_attempts_now_wiping_profile">As isballiadu tropu bortas. Custu profilu de traballu e is datos ant a èssere cantzellados.</string>
     <string name="accessibility_bluetooth_connected">Bluetooth collegadu.</string>
     <string name="accessibility_battery_unknown">Càrriga de sa bateria disconnota.</string>
     <string name="accessibility_bluetooth_name">Collegadu a <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>.</string>
@@ -107,24 +106,10 @@
     <string name="accessibility_desc_quick_settings">Impostatziones lestras.</string>
     <string name="accessibility_desc_lock_screen">Bloca s\'ischermu.</string>
     <string name="accessibility_desc_close">Serra</string>
-    <string name="accessibility_quick_settings_wifi_changed_off">Su Wifi s\'est istudadu.</string>
-    <string name="accessibility_quick_settings_wifi_changed_on">Su Wifi s\'est allutu.</string>
-    <string name="accessibility_quick_settings_airplane_changed_off">Sa modalidade aèreu s\'est istudada.</string>
-    <string name="accessibility_quick_settings_airplane_changed_on">Sa modalidade aèreu s\'est alluta.</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth ativadu.</string>
-    <string name="accessibility_quick_settings_bluetooth_changed_off">Su Bluetooth s\'est disativadu.</string>
-    <string name="accessibility_quick_settings_bluetooth_changed_on">Su Bluetooth s\'est ativadu.</string>
-    <string name="accessibility_quick_settings_location_changed_off">Su signaladore de positzione s\'est disativadu.</string>
-    <string name="accessibility_quick_settings_location_changed_on">Su signaladore de positzione s\'est ativadu.</string>
     <string name="accessibility_quick_settings_alarm">Isvèllia impostada pro <xliff:g id="time" example="Wed 3:30 PM">%s</xliff:g>.</string>
     <string name="accessibility_quick_settings_more_time">Prus tempus.</string>
     <string name="accessibility_quick_settings_less_time">Prus pagu tempus.</string>
-    <string name="accessibility_quick_settings_flashlight_changed_off">Su flash s\'est disativadu.</string>
-    <string name="accessibility_quick_settings_flashlight_changed_on">Su flash s\'est ativadu.</string>
-    <string name="accessibility_quick_settings_color_inversion_changed_off">Inversione de colores disativada.</string>
-    <string name="accessibility_quick_settings_color_inversion_changed_on">Inversione de colores ativada.</string>
-    <string name="accessibility_quick_settings_hotspot_changed_off">Puntu de atzessu mòbile disativadu.</string>
-    <string name="accessibility_quick_settings_hotspot_changed_on">Puntu de atzessu mòbile ativadu.</string>
     <string name="accessibility_casting_turned_off">Sa trasmissione de s\'ischermu s\'est firmada.</string>
     <string name="accessibility_brightness">Lugore de s\'ischermu</string>
     <string name="data_usage_disabled_dialog_title">Is datos sunt in pasu</string>
@@ -148,7 +133,6 @@
     <string name="quick_settings_cast_device_default_name">Dispositivu chene nùmene</string>
     <string name="quick_settings_cast_detail_empty_text">Perunu dispositivu a disponimentu</string>
     <string name="quick_settings_brightness_dialog_title">Lugore</string>
-    <string name="quick_settings_more_settings">Àteras cunfiguratziones</string>
     <string name="quick_settings_done">Fatu</string>
     <string name="quick_settings_close_user_panel">Serra</string>
     <string name="quick_settings_connected">Connètidu</string>
@@ -177,15 +161,10 @@
     <string name="interruption_level_priority_twoline">Prioridade\nisceti</string>
     <string name="interruption_level_alarms_twoline">Isvèllias\nisceti</string>
     <string name="accessibility_multi_user_switch_switcher">Càmbia utente</string>
-    <string name="user_add_user">Agiunghe utente</string>
-    <string name="user_new_user_name">Utente nou</string>
     <string name="guest_exit_guest_dialog_message">Totu is aplicatziones e datos in custa sessione ant a èssere cantzellados.</string>
-    <string name="guest_exit_guest_dialog_remove">Boga</string>
     <string name="guest_wipe_session_message">Boles sighire sa sessione tua?</string>
     <string name="guest_wipe_session_wipe">Torra a cumintzare</string>
     <string name="guest_wipe_session_dontwipe">Eja, sighi</string>
-    <string name="user_add_user_title" msgid="2108112641783146007">Agiùnghere un\'utente nou?</string>
-    <string name="user_add_user_message_short" msgid="1511354412249044381">Cando agiunghes un\'utente nou, cussa persone at a tènnere de impostare su logu.\n\nCale si siat utente podet agiornare aplicatziones pro totu is àteros utentes.</string>
     <string name="user_remove_user_remove">Boga</string>
     <string name="media_projection_dialog_text"><xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> at a tènnere atzessu a totu is informatziones chi sunt visìbiles in s\'ischermu o reproduidas dae su dispositivu durante sa registratzione o sa trasmissione. Custu includet informatziones comente crae, detàllios de pagamentos, messàgios e àudio chi reprodues.</string>
     <string name="media_projection_dialog_service_text">Su servìtziu chi frunit custa funtzione at a tènnere atzessu a totu is informatziones chi sunt visìbiles in s\'ischermu o reproduidas dae su dispositivu durante sa registratzione o sa trasmissione. Custu includit informatziones comente crae, detàllios de pagamentos, messàgios e àudio chi reprodues.</string>
@@ -200,17 +179,9 @@
     <string name="empty_shade_text">Peruna notìfica</string>
     <string name="quick_settings_disclosure_management_monitoring">S\'organizatzione tua est mere de custu dispositivu e podet monitorare su tràficu de rete</string>
     <string name="quick_settings_disclosure_named_management_monitoring"><xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g> est mere de custu dispositivu e podet monitorare su tràficu de rete</string>
-    <string name="quick_settings_disclosure_management_named_vpn">Su dispositivu est de s\'organizatzione tua e est connètidu a <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g></string>
-    <string name="quick_settings_disclosure_named_management_named_vpn">Su dispositivu est de <xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g> e est connètidu a <xliff:g id="vpn_app" example="Foo VPN App">%2$s</xliff:g></string>
     <string name="quick_settings_disclosure_management">Custu dispositivu est de propiedade de s\'organizatzione tua</string>
     <string name="quick_settings_disclosure_named_management">Su dispositivu est de <xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g></string>
-    <string name="quick_settings_disclosure_management_vpns">Custu dispositivu est de s\'organizatzione tua e est connètidu a is VPN</string>
-    <string name="quick_settings_disclosure_named_management_vpns">Custu dispositivu est de <xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g> e est connètidu a is VPN</string>
     <string name="quick_settings_disclosure_monitoring">Sa rete diat pòdere èssere controllada</string>
-    <string name="quick_settings_disclosure_vpns">Custu dispositivu est connètidu a is VPN</string>
-    <string name="quick_settings_disclosure_managed_profile_named_vpn">Profilu de traballu connètidu a <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g></string>
-    <string name="quick_settings_disclosure_personal_profile_named_vpn">Profilu de traballu connètidu a <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g></string>
-    <string name="quick_settings_disclosure_named_vpn">Dispositivu connètidu a <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g></string>
     <string name="monitoring_subtitle_vpn">VPN</string>
     <string name="monitoring_description_management_network_logging">S\'amministradore tuo at ativadu su registru de rete, chi controllat su tràficu in su dispositivu tuo.</string>
     <string name="legacy_vpn_name">VPN</string>
@@ -233,7 +204,6 @@
     <string name="zen_alarm_warning">No as a intèndere s\'isvèllia imbeniente <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g></string>
     <string name="alarm_template">a is <xliff:g id="when" example="7:00 AM">%1$s</xliff:g></string>
     <string name="alarm_template_far">su <xliff:g id="when" example="Fri 7:00 AM">%1$s</xliff:g></string>
-    <string name="accessibility_quick_settings_detail">Impostatziones lestras, <xliff:g id="title" example="Wi-Fi">%s</xliff:g>.</string>
     <string name="accessibility_status_bar_hotspot">Puntu de atzessu Wi-Fi</string>
     <string name="accessibility_managed_profile">Profilu de traballu</string>
     <string name="tuner_warning_title">Ispàssiu isceti pro calicuna persone</string>
@@ -264,7 +234,11 @@
     <string name="slice_permission_allow">Permite</string>
     <string name="slice_permission_deny">Nega</string>
     <string name="no_auto_saver_action">No, gràtzias</string>
+    <string name="controls_settings_dialog_neutral_button">No, gràtzias</string>
+    <string name="controls_media_dismiss_button">Cua</string>
     <string name="controls_media_resume">Torra a cumintzare</string>
     <string name="controls_media_settings_button">Impostatziones</string>
     <string name="mobile_data_connection_active">Connètidu</string>
+    <string name="qs_tile_request_dialog_add">Agiunghe casella</string>
+    <string name="clipboard_edit_text_done">Fatu</string>
 </resources>

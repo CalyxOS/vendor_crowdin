@@ -176,12 +176,6 @@
     <string name="low_memory" product="watch">Tha stòras an uaireadair làn. Sguab às cuid dhe faidhlichean a shaoradh àite.</string>
     <string name="low_memory" product="tv">Tha stòras uidheam an TBh Android làn. Sguab às cuid dhe faidhlichean a shaoradh àite.</string>
     <string name="low_memory" product="default">Tha stòras an fhòn làn. Sguab às cuid dhe faidhlichean a shaoradh àite.</string>
-    <plurals name="ssl_ca_cert_warning">
-        <item quantity="one">Chaidh ùghdarras teisteanachaidh a stàladh</item>
-        <item quantity="two">Chaidh ùghdarrasan teisteanachaidh a stàladh</item>
-        <item quantity="few">Chaidh ùghdarrasan teisteanachaidh a stàladh</item>
-        <item quantity="other">Chaidh ùghdarrasan teisteanachaidh a stàladh</item>
-    </plurals>
     <string name="ssl_ca_cert_noti_by_unknown">Le treas-phàrtaidh nach aithne dhuinn</string>
     <string name="ssl_ca_cert_noti_by_administrator">Le rianaire pròifil na h-obrach agad</string>
     <string name="ssl_ca_cert_noti_managed">Le <xliff:g id="managing_domain">%s</xliff:g></string>
@@ -264,12 +258,6 @@
     <string name="bugreport_option_full_summary">Cleachd an roghainn seo a chùm buaidh bige air an t-siostam ma bhios maille mhòr
         air an uidheam agad no e gun fhreagairt no ma bhios tu feumach air gach earrann dhen aithris.
         Cha leig e leat barrachd fiosrachaidh a chur ris no barrachd glacaidhean-sgrìn a thogail.</string>
-    <plurals name="bugreport_countdown">
-        <item quantity="one">A’ togail glacadh-sgrìn airson aithris air buga an ceann <xliff:g id="number">%d</xliff:g> diog.</item>
-        <item quantity="two">A’ togail glacadh-sgrìn airson aithris air buga an ceann <xliff:g id="number">%d</xliff:g> dhiog.</item>
-        <item quantity="few">A’ togail glacadh-sgrìn airson aithris air buga an ceann <xliff:g id="number">%d</xliff:g> diogan.</item>
-        <item quantity="other">A’ togail glacadh-sgrìn airson aithris air buga an ceann <xliff:g id="number">%d</xliff:g> diog.</item>
-    </plurals>
     <string name="bugreport_screenshot_success_toast">Chaidh glacadh-sgrìn a thogail leis an aithris air buga</string>
     <string name="bugreport_screenshot_failure_toast">Cha deach leinn glacadh-sgrìn a thogail leis an aithris air buga</string>
     <string name="global_action_toggle_silent_mode">Am modh sàmhach</string>
@@ -323,8 +311,6 @@
     <string name="permgroupdesc_calendar">an mìosachan agad inntrigeadh</string>
     <string name="permgrouplab_sms">SMS</string>
     <string name="permgroupdesc_sms">teachdaireachdan SMS a chur ’s a shealltainn</string>
-    <string name="permgrouplab_storage">Faidhlichean is meadhanan</string>
-    <string name="permgroupdesc_storage">na dealbhan, meadhanan is faidhlichean air an uidheam agad inntrigeadh</string>
     <string name="permgrouplab_microphone">Micreofon</string>
     <string name="permgroupdesc_microphone">fuaim a chlàradh</string>
     <string name="permgrouplab_activityRecognition">Gnìomhachd bodhaige</string>
@@ -337,6 +323,7 @@
     <string name="permgroupdesc_phone">gairmean fòn a chur ’s a stiùireadh</string>
     <string name="permgrouplab_sensors">Mothaichearan bodhaige</string>
     <string name="permgroupdesc_sensors">dàta mhothaichearan mu do bheò inntrigeadh</string>
+    <string name="permgrouplab_notifications">Brathan</string>
     <string name="capability_title_canRetrieveWindowContent">Faighinn susbaint uinneige</string>
     <string name="capability_desc_canRetrieveWindowContent">Susbaint na h-uinneige ris a bheil thu
         a sgrùdadh.</string>
@@ -489,10 +476,6 @@
       Faodaidh aplacaidean droch-rùnach seo a chleachdadh airson loga nan gairmean agad a shuathadh bàn no atharrachadh.</string>
     <string name="permdesc_writeCallLog" product="default">Leigidh seo leis an aplacaid gun atharraich i      loga nan gairmean air an fhòn agad, a’ gabhail a-staigh dàta mu gairmean a-steach is a-mach.
       Faodaidh aplacaidean droch-rùnach seo a chleachdadh airson loga nan gairmean agad a shuathadh bàn no atharrachadh.</string>
-    <string name="permlab_bodySensors">inntrigeadh do mhothaichearan bodhaig (can monatair reat a’ chridhe)
-    </string>
-    <string name="permdesc_bodySensors" product="default">Leigidh seo leis an aplacaid dàta o mhothaichearan inntrigeadh
-    a chumas sùil air cor do bhodhaige, can dè cho luath ’s a bhuaileas do chridhe.</string>
     <string name="permlab_readCalendar">Tachartasan is mion-fhiosrachadh a’ mhìosachain a leughadh</string>
     <string name="permdesc_readCalendar" product="tablet">’S urrainn dhan aplacaid seo a h-uile tachartas mìosachain a chaidh a stòradh air an tablaid agad a leughadh agus dàta a’ mhìosachain agad a cho-roinneadh no a shàbhaladh.</string>
     <string name="permdesc_readCalendar" product="tv">’S urrainn dhan aplacaid seo a h-uile tachartas mìosachain a chaidh a stòradh air an uidheam TBh Android agad a leughadh agus dàta a’ mhìosachain agad a cho-roinneadh no a shàbhaladh.</string>
@@ -962,7 +945,7 @@
     <string name="lockscreen_instructions_when_pattern_enabled">Brùth air “Clàr-taice” airson a’ ghlas a thoirt dheth no gairm-èiginn a chur.</string>
     <string name="lockscreen_instructions_when_pattern_disabled">Brùth air “Clàr-taice” airson a’ ghlas a thoirt dheth.</string>
     <string name="lockscreen_pattern_instructions">Tarraing pàtran airson a’ ghlas a thoirt dheth</string>
-    <string name="lockscreen_emergency_call">Gairm-èiginn</string>
+    <string name="lockscreen_emergency_call">Èiginn</string>
     <string name="lockscreen_return_to_call">Till dhan ghairm</string>
     <string name="lockscreen_pattern_correct">Ceart!</string>
     <string name="lockscreen_pattern_wrong">Feuch ris a-rithist</string>
@@ -1196,7 +1179,6 @@
     <string name="save_password_never">Chan ann idir</string>
     <string name="open_permission_deny">Chan eil cead agad an duilleag seo fhosgladh.</string>
     <string name="text_copied">Chaidh lethbhreac dhen teacsa a chur air an stòr-bhòrd.</string>
-    <string name="copied">Chaidh lethbhreac dheth a dhèanamh</string>
     <string name="more_item_label">Barrachd</string>
     <string name="prepend_shortcut_label">Clàr-taice+</string>
     <string name="menu_meta_shortcut_label">Meta+</string>
@@ -1224,12 +1206,6 @@
         no cleachdaidh tu gluasadan airson eadar-ghnìomhan a ghabhail leis an fhòn.</string>
     <string name="oneMonthDurationPast">Mìos air ais</string>
     <string name="beforeOneMonthDurationPast">Ro mhìos air ais</string>
-    <plurals name="last_num_days">
-        <item quantity="one">An <xliff:g id="count">%d</xliff:g> latha seo chaidh</item>
-        <item quantity="two">An <xliff:g id="count">%d</xliff:g> latha seo chaidh</item>
-        <item quantity="few">Na <xliff:g id="count">%d</xliff:g> làithean seo chaidh</item>
-        <item quantity="other">Na <xliff:g id="count">%d</xliff:g> latha seo chaidh</item>
-    </plurals>
     <string name="last_month">Am mìos seo chaidh</string>
     <string name="older">Nas sine</string>
     <string name="preposition_for_date"><xliff:g id="date" example="May 29">%s</xliff:g></string>
@@ -1248,102 +1224,6 @@
     <string name="year">bliadhna</string>
     <string name="years">bliadhna</string>
     <string name="now_string_shortest">an-dràsta</string>
-    <plurals name="duration_minutes_shortest">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g>m</item>
-        <item quantity="two"><xliff:g example="2" id="count">%d</xliff:g>m</item>
-        <item quantity="few"><xliff:g example="2" id="count">%d</xliff:g>m</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g>m</item>
-    </plurals>
-    <plurals name="duration_hours_shortest">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g>u</item>
-        <item quantity="two"><xliff:g example="2" id="count">%d</xliff:g>u</item>
-        <item quantity="few"><xliff:g example="2" id="count">%d</xliff:g>u</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g>u</item>
-    </plurals>
-    <plurals name="duration_days_shortest">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g>l</item>
-        <item quantity="two"><xliff:g example="2" id="count">%d</xliff:g>l</item>
-        <item quantity="few"><xliff:g example="2" id="count">%d</xliff:g>l</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g>l</item>
-    </plurals>
-    <plurals name="duration_years_shortest">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g>b</item>
-        <item quantity="two"><xliff:g example="2" id="count">%d</xliff:g>b</item>
-        <item quantity="few"><xliff:g example="2" id="count">%d</xliff:g>b</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g>b</item>
-    </plurals>
-    <plurals name="duration_minutes_shortest_future">
-        <item quantity="one">an <xliff:g example="1" id="count">%d</xliff:g>mhion</item>
-        <item quantity="two">an <xliff:g example="2" id="count">%d</xliff:g>mhion.</item>
-        <item quantity="few">an <xliff:g example="2" id="count">%d</xliff:g>mion.</item>
-        <item quantity="other">an <xliff:g example="2" id="count">%d</xliff:g>mhion</item>
-    </plurals>
-    <plurals name="duration_hours_shortest_future">
-        <item quantity="one">an <xliff:g example="1" id="count">%d</xliff:g>uair</item>
-        <item quantity="two">an <xliff:g example="2" id="count">%d</xliff:g>uair</item>
-        <item quantity="few">an <xliff:g example="2" id="count">%d</xliff:g>uair.</item>
-        <item quantity="other">an <xliff:g example="2" id="count">%d</xliff:g>uair</item>
-    </plurals>
-    <plurals name="duration_days_shortest_future">
-        <item quantity="one">an <xliff:g example="1" id="count">%d</xliff:g>là</item>
-        <item quantity="two">an <xliff:g example="2" id="count">%d</xliff:g>là</item>
-        <item quantity="few">an <xliff:g example="2" id="count">%d</xliff:g>là.</item>
-        <item quantity="other">an <xliff:g example="2" id="count">%d</xliff:g>là</item>
-    </plurals>
-    <plurals name="duration_years_shortest_future">
-        <item quantity="one">an <xliff:g example="1" id="count">%d</xliff:g>bhl</item>
-        <item quantity="two">an <xliff:g example="2" id="count">%d</xliff:g>bhl.</item>
-        <item quantity="few">an <xliff:g example="2" id="count">%d</xliff:g>bl.</item>
-        <item quantity="other">an <xliff:g example="2" id="count">%d</xliff:g>bhl</item>
-    </plurals>
-    <plurals name="duration_minutes_relative">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g> mhionaid air ais</item>
-        <item quantity="two"><xliff:g example="2" id="count">%d</xliff:g> mhionaid air ais</item>
-        <item quantity="few"><xliff:g example="2" id="count">%d</xliff:g> mionaidean air ais</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g> mionaid air ais</item>
-    </plurals>
-    <plurals name="duration_hours_relative">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g> uair a thìde air ais</item>
-        <item quantity="two"><xliff:g example="2" id="count">%d</xliff:g> uair a thìde air ais</item>
-        <item quantity="few"><xliff:g example="2" id="count">%d</xliff:g> uairean a thìde air ais</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g> uair a thìde air ais</item>
-    </plurals>
-    <plurals name="duration_days_relative">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g> latha air ais</item>
-        <item quantity="two"><xliff:g example="2" id="count">%d</xliff:g> latha air ais</item>
-        <item quantity="few"><xliff:g example="2" id="count">%d</xliff:g> làithean air ais</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g> latha air ais</item>
-    </plurals>
-    <plurals name="duration_years_relative">
-        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g> bhliadhna air ais</item>
-        <item quantity="two"><xliff:g example="2" id="count">%d</xliff:g> bhliadhna air ais</item>
-        <item quantity="few"><xliff:g example="2" id="count">%d</xliff:g> bliadhnaichean air ais</item>
-        <item quantity="other"><xliff:g example="2" id="count">%d</xliff:g> bliadhna air ais</item>
-    </plurals>
-    <plurals name="duration_minutes_relative_future">
-        <item quantity="one">an ceann <xliff:g example="1" id="count">%d</xliff:g> mhionaid</item>
-        <item quantity="two">an ceann <xliff:g example="2" id="count">%d</xliff:g> mhionaid</item>
-        <item quantity="few">an ceann <xliff:g example="2" id="count">%d</xliff:g> mionaidean</item>
-        <item quantity="other">an ceann <xliff:g example="2" id="count">%d</xliff:g> mionaid</item>
-    </plurals>
-    <plurals name="duration_hours_relative_future">
-        <item quantity="one">an ceann <xliff:g example="1" id="count">%d</xliff:g> uair a thìde</item>
-        <item quantity="two">an ceann <xliff:g example="2" id="count">%d</xliff:g> uair a thìde</item>
-        <item quantity="few">an ceann <xliff:g example="2" id="count">%d</xliff:g> uairean a thìde</item>
-        <item quantity="other">an ceann <xliff:g example="2" id="count">%d</xliff:g> uair a thìde</item>
-    </plurals>
-    <plurals name="duration_days_relative_future">
-        <item quantity="one">an ceann <xliff:g example="1" id="count">%d</xliff:g> latha</item>
-        <item quantity="two">an ceann <xliff:g example="2" id="count">%d</xliff:g> latha</item>
-        <item quantity="few">an ceann <xliff:g example="2" id="count">%d</xliff:g> làithean</item>
-        <item quantity="other">an ceann <xliff:g example="2" id="count">%d</xliff:g> latha</item>
-    </plurals>
-    <plurals name="duration_years_relative_future">
-        <item quantity="one">an ceann <xliff:g example="1" id="count">%d</xliff:g> bhliadhna</item>
-        <item quantity="two">an ceann <xliff:g example="2" id="count">%d</xliff:g> bhliadhna</item>
-        <item quantity="few">an ceann <xliff:g example="2" id="count">%d</xliff:g> bliadhnaichean</item>
-        <item quantity="other">an ceann <xliff:g example="2" id="count">%d</xliff:g> bliadhna</item>
-    </plurals>
     <string name="VideoView_error_title">Duilgheadasan leis a’ video</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Chan eil a’ video seo dligheach airson sruthadh dhan uidheam seo.</string>
     <string name="VideoView_error_text_unknown">Cha ghabh a’ video seo a chluich.</string>
@@ -1373,6 +1253,7 @@
     <string name="deleteText">Sguab às</string>
     <string name="inputMethod">Modh an ion-chuir</string>
     <string name="editTextMenuTitle">Gnìomhan teacsa</string>
+    <string name="input_method_nav_back_button_desc">Air ais</string>
     <string name="low_internal_storage_view_title">Tha an stòras gann</string>
     <string name="low_internal_storage_view_text">Dh’fhaoidte nach obair gach gleus an t-siostaim mar bu chòir</string>
     <string name="low_internal_storage_view_text_no_boot">Cha fhoghainn an stòras dhan t-siostam. Dèan cinnteach gu bheil 250MB a dh’àite saor agad is ath-thòisich.</string>
@@ -1472,8 +1353,7 @@
     <string name="android_preparing_apk">Ag ullachadh <xliff:g id="appname">%1$s</xliff:g>.</string>
     <string name="android_upgrading_starting_apps">A’ tòiseachadh nan aplacaidean.</string>
     <string name="android_upgrading_complete">A’ crìochnachadh a’ bhùtaidh.</string>
-    <string name="fp_enrollment_powerbutton_intent_positive_button">Cuir dheth</string>
-    <string name="fp_enrollment_powerbutton_intent_negative_button">Sguir dheth</string>
+    <string name="fp_power_button_bp_negative_button">Lean air adhart</string>
     <string name="heavy_weight_notification">Tha <xliff:g id="app">%1$s</xliff:g> a’ ruith</string>
     <string name="heavy_weight_notification_detail">Thoir gnogag gus tilleadh dhan gheama</string>
     <string name="heavy_weight_switcher_title">Tagh geama</string>
@@ -1733,12 +1613,6 @@
     <string name="skip_button_label">Leum thairis air</string>
     <string name="no_matches">Gun mhaids</string>
     <string name="find_on_page">Lorg air an duilleag</string>
-    <plurals name="matches_found">
-        <item quantity="one"><xliff:g id="index" example="2">%d</xliff:g> à <xliff:g id="total" example="137">%d</xliff:g></item>
-        <item quantity="two"><xliff:g id="index" example="2">%d</xliff:g> à <xliff:g id="total" example="137">%d</xliff:g></item>
-        <item quantity="few"><xliff:g id="index" example="2">%d</xliff:g> à <xliff:g id="total" example="137">%d</xliff:g></item>
-        <item quantity="other"><xliff:g id="index" example="2">%d</xliff:g> à <xliff:g id="total" example="137">%d</xliff:g></item>
-    </plurals>
     <string name="action_mode_done">Deiseil</string>
     <string name="progress_erasing">A’ suathadh bàn an stòrais cho-roinnte\u2026</string>
     <string name="share">Co-roinn</string>
@@ -1868,12 +1742,6 @@
     <string name="kg_wrong_pattern">Pàtran ceàrr</string>
     <string name="kg_wrong_password">Facal-faire ceàrr</string>
     <string name="kg_wrong_pin">PIN ceàrr</string>
-    <plurals name="kg_too_many_failed_attempts_countdown">
-        <item quantity="one">Feuch ris a-rithist an ceann <xliff:g id="number">%d</xliff:g> diog.</item>
-        <item quantity="two">Feuch ris a-rithist an ceann <xliff:g id="number">%d</xliff:g> dhiog.</item>
-        <item quantity="few">Feuch ris a-rithist an ceann <xliff:g id="number">%d</xliff:g> diogan.</item>
-        <item quantity="other">Feuch ris a-rithist an ceann <xliff:g id="number">%d</xliff:g> diog.</item>
-    </plurals>
     <string name="kg_pattern_instructions">Tarraing am pàtran agad</string>
     <string name="kg_sim_pin_instructions">Cuir a-steach PIN an t-SIM</string>
     <string name="kg_pin_instructions">Cuir a-steach am PIN</string>
@@ -1957,10 +1825,6 @@
     <string name="accessibility_enable_service_title">Am faigh
          <xliff:g id="service" example="TalkBack">%1$s</xliff:g> làn-smachd air an
         uidheam agad?</string>
-    <string name="accessibility_enable_service_encryption_warning">Ma chuireas tu 
-<xliff:g id="service" example="TalkBack">%1$s</xliff:g> air, cha chleachd an t-uidheam agad glas na sgrìn
-        agad airson piseach a thoir air        crioptachadh an dàta.
-    </string>
     <string name="accessibility_service_warning_description">Tha làn-smachd iomchaidh do dh’aplacaidean
        a chuidicheas leis an t-so-ruigsinneachd ach chan eil e iomchaidh dhan mhòrchuid a dh’aplacaidean.
     </string>
@@ -2105,12 +1969,6 @@
     <string name="restr_pin_create_pin">Cruthaich PIN airson cuingeachaidhean atharrachadh</string>
     <string name="restr_pin_error_doesnt_match">Chan eil an dà chòd PIN co-ionnann. Feuch ris a-rithist.</string>
     <string name="restr_pin_error_too_short">Tha am PIN ro ghoirid. Feumaidh co-dhiù 4 àireamhan a bhith ann.</string>
-    <plurals name="restr_pin_countdown">
-        <item quantity="one">Feuch ris a-rithist an ceann <xliff:g id="count">%d</xliff:g> diog</item>
-        <item quantity="two">Feuch ris a-rithist an ceann <xliff:g id="count">%d</xliff:g> dhiog.</item>
-        <item quantity="few">Feuch ris a-rithist an ceann <xliff:g id="count">%d</xliff:g> diogan.</item>
-        <item quantity="other">Feuch ris a-rithist an ceann <xliff:g id="count">%d</xliff:g> dhiog</item>
-    </plurals>
     <string name="restr_pin_try_later">Feuch ris a-rithist an ceann greis</string>
     <string name="immersive_cling_title">’Ga shealltainn air an làn-sgrìn</string>
     <string name="immersive_cling_description">Airson am modh fhàgail, grad-shlaighd sìos on bhàrr.</string>
@@ -2142,54 +2000,6 @@
     <string name="data_saver_description">Ach an caith thu nas lugha a dhàta, bacaidh caomhnaiche an dàta cuid a dh’aplacaidean o dhàta a chur no fhaighinn sa chùlaibh. ’S urrainn do dh’aplacaid a bhios tu ris dàta inntrigeadh ach dh’fhaoidte nach dèan i cho tric e. Is ciall dha seo nach dèid cuid a dhealbhan a shealltainn mus doir thu gnogag orra, mar eisimpleir.</string>
     <string name="data_saver_enable_title">A bheil tu airson caomhnaiche an dàta a chur air?</string>
     <string name="data_saver_enable_button">Cuir air</string>
-    <plurals name="zen_mode_duration_minutes_summary">
-        <item quantity="one">Fad %1$d mhionaid (gu ruige <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="two">Fad %1$d mhionaid (gu ruige <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="few">Fad %1$d mionaidean (gu ruige <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Fad %1$d mionaid (gu ruige <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_minutes_summary_short">
-        <item quantity="one">Fad %1$d mhion (gu <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="two">Fad %1$d mhion (gu <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="few">Fad %1$d mion (gu <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Fad %1$d mion (gu <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_hours_summary">
-        <item quantity="one">Fad %1$d uair a thìde (gu ruige <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="two">Fad %1$d uair a thìde (gu ruige <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="few">Fad %1$d uairean a thìde (gu ruige <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Fad %1$d uair a thìde (gu ruige <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_hours_summary_short">
-        <item quantity="one">Fad %1$d uair (gu <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="two">Fad %1$d uair (gu <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="few">Fad %1$d uair (gu <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Fad %1$d uair (gu <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_minutes">
-        <item quantity="one">Fad %d mhionaid</item>
-        <item quantity="two">Fad %d mhionaid</item>
-        <item quantity="few">Fad %d mionaidean</item>
-        <item quantity="other">Fad %d mionaid</item>
-    </plurals>
-    <plurals name="zen_mode_duration_minutes_short">
-        <item quantity="one">Fad %d mhion</item>
-        <item quantity="two">Fad %d mhion</item>
-        <item quantity="few">Fad %d mion</item>
-        <item quantity="other">Fad %d mion</item>
-    </plurals>
-    <plurals name="zen_mode_duration_hours">
-        <item quantity="one">Fad %d uair a thìde</item>
-        <item quantity="two">Fad %d uair a thìde</item>
-        <item quantity="few">Fad %d uairean a thìde</item>
-        <item quantity="other">Fad %d uair a thìde</item>
-    </plurals>
-    <plurals name="zen_mode_duration_hours_short">
-        <item quantity="one">Fad %d uair</item>
-        <item quantity="two">Fad %d uair</item>
-        <item quantity="few">Fad %d uair</item>
-        <item quantity="other">Fad %d uair</item>
-    </plurals>
     <string name="zen_mode_until">Gu ruige <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
     <string name="zen_mode_alarm">Gu ruige <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (an ath-chaismeachd)</string>
     <string name="zen_mode_forever">Gus an cuir thu dheth e</string>
@@ -2229,12 +2039,6 @@
     <string name="notification_messaging_title_template"><xliff:g id="conversation_title" example="Tasty Treat Team">%1$s</xliff:g>: <xliff:g id="sender_name" example="Adrian Baker">%2$s</xliff:g></string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Diùlt</string>
-    <plurals name="selected_count">
-        <item quantity="one">Chaidh <xliff:g id="count" example="1">%1$d</xliff:g> a thaghadh</item>
-        <item quantity="two">Chaidh <xliff:g id="count" example="3">%1$d</xliff:g> a thaghadh</item>
-        <item quantity="few">Chaidh <xliff:g id="count" example="3">%1$d</xliff:g> a thaghadh</item>
-        <item quantity="other">Chaidh <xliff:g id="count" example="3">%1$d</xliff:g> a thaghadh</item>
-    </plurals>
     <string name="default_notification_channel_label">Gun seòrsachadh</string>
     <string name="importance_from_user">Shuidhich thu cudromach nam brathan seo.</string>
     <string name="importance_from_person">Tha seo cudromach ri linn nan daoine a bhios ’na lùib.</string>
@@ -2299,12 +2103,6 @@
     <string name="autofill_save_accessibility_title">Sàbhail a chùm fèin-lìonaidh</string>
     <string name="autofill_error_cannot_autofill">Gabhaidh an t-susbaint fèin-lìonadh</string>
     <string name="autofill_picker_no_suggestions">Chan eil moladh fèin-lìonaidh ann</string>
-    <plurals name="autofill_picker_some_suggestions">
-        <item quantity="one">Tha <xliff:g id="count" example="Two">%1$s</xliff:g> mholadh fèin-lìonaidh ann</item>
-        <item quantity="two">Tha <xliff:g id="count" example="Two">%1$s</xliff:g> mholadh fèin-lìonaidh ann</item>
-        <item quantity="few">Tha <xliff:g id="count" example="Two">%1$s</xliff:g> molaidhean fèin-lìonaidh ann</item>
-        <item quantity="other">Tha <xliff:g id="count" example="Two">%1$s</xliff:g> moladh fèin-lìonaidh ann</item>
-    </plurals>
     <string name="autofill_save_title">An sàbhail thu gu <b><xliff:g id="label" example="MyPass">%1$s</xliff:g></b> e?</string>
     <string name="autofill_save_title_with_type">An sàbhail thu <xliff:g id="type" example="Credit Card">%1$s</xliff:g> gu <b><xliff:g id="label" example="MyPass">%2$s</xliff:g></b>?</string>
     <string name="autofill_save_title_with_2types">An sàbhail thu <xliff:g id="type" example="Password">%1$s</xliff:g> ’s <xliff:g id="type" example="Credit Card">%2$s</xliff:g> gu <b><xliff:g id="label" example="MyPass">%3$s</xliff:g></b>?</string>
@@ -2396,12 +2194,6 @@
     <string name="mime_type_presentation_ext">Taisbeanadh <xliff:g id="extension" example="PDF">%1$s</xliff:g></string>
     <string name="bluetooth_airplane_mode_toast">Bidh Bluetooth ’ga chumail air sa mhodh itealain</string>
     <string name="car_loading_profile">’Ga luchdadh</string>
-    <plurals name="file_count">
-        <item quantity="one"><xliff:g id="file_name">%s</xliff:g> + <xliff:g id="count">%d</xliff:g> fhaidhle</item>
-        <item quantity="two"><xliff:g id="file_name">%s</xliff:g> + <xliff:g id="count">%d</xliff:g> fhaidhle</item>
-        <item quantity="few"><xliff:g id="file_name">%s</xliff:g> + <xliff:g id="count">%d</xliff:g> faidhlichean</item>
-        <item quantity="other"><xliff:g id="file_name">%s</xliff:g> + <xliff:g id="count">%d</xliff:g> faidhle</item>
-    </plurals>
     <string name="chooser_no_direct_share_targets">Cha deach daoine a mholadh airson a cho-roinneadh leotha</string>
     <string name="chooser_all_apps_button_label">Liosta nan aplacaidean</string>
     <string name="usb_device_resolve_prompt_warn">Cha d’ fhuair an aplacaid seo cead clàraidh ach b’ urrainn dhi fuaim a ghlacadh leis an uidheam USB seo.</string>

@@ -41,29 +41,12 @@
     <string name="add_an_account">Ychwanegu cyfrif</string>
     <string name="accounts_category_title">Cyfrifon a mewngofnodi</string>
     <string name="accounts_category_summary_no_account">Dim cyfrifon</string>
-    <plurals name="accounts_category_summary">
-        <item quantity="zero"><xliff:g id="accounts_number">%1$d</xliff:g> cyfrifon</item>
-        <item quantity="one"><xliff:g id="accounts_number">%1$d</xliff:g> cyfrif</item>
-        <item quantity="two"><xliff:g id="accounts_number">%1$d</xliff:g> gyfrif</item>
-        <item quantity="few"><xliff:g id="accounts_number">%1$d</xliff:g> cyfrif</item>
-        <item quantity="many"><xliff:g id="accounts_number">%1$d</xliff:g> chyfrif</item>
-        <item quantity="other"><xliff:g id="accounts_number">%1$d</xliff:g> cyfrif</item>
-    </plurals>
     <string name="accounts_slice_summary">Gwasanaethau cyfryngau, Cynorthwyydd, Taliadau</string>
     <string name="connectivity_network_category_title">Rhwydwaith a\'r Rhyngrwyd</string>
     <string name="sound_category_title">Sain</string>
     <string name="applications_category_title">Apiau</string>
     <string name="device_pref_category_title">Dewisiadau\'r Ddyfais</string>
     <string name="remotes_and_accessories_category_title">Rheolaeth o bell ac ategolion</string>
-    <string name="remotes_and_accessories_category_summary_no_bluetooth_device">Dim dyfeisiau Bluetooth wedi cysylltu</string>
-    <plurals name="remotes_and_accessories_category_summary">
-        <item quantity="zero"><xliff:g id="accessories_number">%1$d</xliff:g> ategolion</item>
-        <item quantity="one"><xliff:g id="accessories_number">%1$d</xliff:g> ategolyn</item>
-        <item quantity="two"><xliff:g id="accessories_number">%1$d</xliff:g> ategolyn</item>
-        <item quantity="few"><xliff:g id="accessories_number">%1$d</xliff:g> ategolyn</item>
-        <item quantity="many"><xliff:g id="accessories_number">%1$d</xliff:g> ategolyn</item>
-        <item quantity="other"><xliff:g id="accessories_number">%1$d</xliff:g> ategolyn</item>
-    </plurals>
     <string name="display_and_sound_category_title">Dangosydd a seiniau</string>
     <string name="help_and_feedback_category_title">Cymorth ac Adborth</string>
     <string name="privacy_category_title">Preifatrwydd</string>
@@ -125,6 +108,8 @@
     <string name="game_mode_title">Galluogi modd gemau</string>
     <string name="match_content_frame_rate_never">Byth</string>
     <string name="hdr_format_selection_manual_title">Â llaw</string>
+    <string name="resolution_selection_dialog_cancel">Diddymu</string>
+    <string name="resolution_selection_dialog_ok">Iawn</string>
     <string name="device_storage_clear_cache_title">Clirio data wedi\'i guddstorio?</string>
     <string name="device_storage_clear_cache_message">Bydd hyn yn clirio\'r data wedi\'i guddstorio gan bob ap.</string>
     <string name="accessories_add">Ychwanegu ategolyn</string>
@@ -161,7 +146,6 @@
     <string name="send_feedback">Anfon adborth</string>
     <string name="launch_help">Canolfan Gymorth</string>
     <string name="system_cast">Google Cast (Bwrw)</string>
-    <string name="system_buttons">Botymau</string>
     <string name="system_language">Iaith</string>
     <string name="system_keyboard">Bysellfwrdd</string>
     <string name="system_keyboard_autofill">Bysellfwrdd ac awto-lenwi</string>
@@ -190,14 +174,6 @@
     <string name="about_license_activity_unavailable">Dyw data trwydded ddim ar gael</string>
     <string name="about_model">Model</string>
     <string name="about_serial">Rhif cyfres</string>
-    <plurals name="show_dev_countdown">
-        <item quantity="zero">Rwyt <xliff:g id="step_count">%1$d</xliff:g> camau i ffwrdd o fod yn ddatblygwr</item>
-        <item quantity="one">Rwyt <xliff:g id="step_count">%1$d</xliff:g> cam i ffwrdd o fod yn ddatblygwr</item>
-        <item quantity="two">Rwyt <xliff:g id="step_count">%1$d</xliff:g> gam i ffwrdd o fod yn ddatblygwr</item>
-        <item quantity="few">Rwyt <xliff:g id="step_count">%1$d</xliff:g> cam i ffwrdd o fod yn ddatblygwr</item>
-        <item quantity="many">Rwyt <xliff:g id="step_count">%1$d</xliff:g> cham i ffwrdd o fod yn ddatblygwr</item>
-        <item quantity="other">Rwyt <xliff:g id="step_count">%1$d</xliff:g> cam i ffwrdd o fod yn ddatblygwr</item>
-    </plurals>
     <string name="about_ads">Hysbysebion</string>
     <string name="show_dev_on">Rwyt bellach â mynediad fel datblygwr!</string>
     <string name="show_dev_already">Dim angen; rwyt eisoes yn ddatblygwr.</string>
@@ -352,6 +328,8 @@
     <string name="storage_device_storage_section">Storfa\'r ddyfais</string>
     <string name="storage_removable_storage_section">Storfa gellir ei dynnu allan</string>
     <string name="storage_reset_section">Ailosod</string>
+    <string name="storage_free_up_clear_cached_data_confirm_title">Clirio data wedi\'i guddstorio?</string>
+    <string name="storage_free_up_clear_cached_data_confirm_description">Bydd hyn yn clirio\'r data wedi\'i guddstorio gan bob ap.</string>
     <string name="storage_mount_success">Mae <xliff:g id="name" example="SD card">%1$s</xliff:g> wedi mowntio</string>
     <string name="storage_mount_failure">Methwyd â mowntio <xliff:g id="name" example="SD card">%1$s</xliff:g></string>
     <string name="storage_mount_adopted">Storfa USB wedi\'i ailgysylltu</string>
@@ -638,32 +616,6 @@
     <string name="inputs_device_auto_off_desc">Troi dyfeisiau HDMI i ffwrdd gyda\'r teledu</string>
     <string name="inputs_tv_auto_on">Troi\'r teledu ymlaen yn awtomatig</string>
     <string name="inputs_tv_auto_on_desc">Troi\'r teledu ymlaen gyda dyfais HDMI</string>
-    <string name="inputs_volume_control_enabled">Rheolaeth Sain CEC</string>
-    <string name="inputs_volume_control_enabled_desc">Rheoli sain teledu/AVR yn hytrach na\'r sain fewnol</string>
-    <plurals name="inputs_header_connected_input">
-        <item quantity="zero">Dim Mewnbynnau wedi eu Cysylltu</item>
-        <item quantity="one">Mewnbwn wedi ei Gysylltu</item>
-        <item quantity="two">Dau Fewnbwn wedi eu Cysylltu</item>
-        <item quantity="few">Tri Mewnbwn wedi eu Cysylltu</item>
-        <item quantity="many">Chwe Mewnbwn wedi eu Cysylltu</item>
-        <item quantity="other">Mewnbynnau wedi eu Cysylltu</item>
-    </plurals>
-    <plurals name="inputs_header_standby_input">
-        <item quantity="zero">Dim Mewnbynnau yn Segur</item>
-        <item quantity="one">Mewnbwn Modd Segur</item>
-        <item quantity="two">Mewnbynnau Modd Segur</item>
-        <item quantity="few">Mewnbynnau Modd Segur</item>
-        <item quantity="many">Mewnbynnau Modd Segur</item>
-        <item quantity="other">Mewnbynnau Modd Segur</item>
-    </plurals>
-    <plurals name="inputs_header_disconnected_input">
-        <item quantity="zero">Dim Mewnbynnau heb eu Cysylltu</item>
-        <item quantity="one">Un Mewnbwn heb ei Gysylltu</item>
-        <item quantity="two">Dau Fewnbwn heb eu Cysylltu</item>
-        <item quantity="few">Tri Mewnbwn heb eu Cysylltu</item>
-        <item quantity="many">Chwe Mewnbwn heb eu Cysylltu</item>
-        <item quantity="other">Mewnbynnau heb eu Cysylltu</item>
-    </plurals>
     <string name="user_add_profile_item_summary">Cyfyngu mynediad at apiau a chynnwys arall yn dy gyfrif</string>
     <string name="user_new_profile_name">Proffil cyfyngedig</string>
     <string name="user_restrictions_controlled_by">Rheolwyd gan <xliff:g id="app">%1$s</xliff:g></string>
@@ -677,14 +629,6 @@
     <string name="restricted_profile_create_title">Creu proffil cyfyngedig</string>
     <string name="restricted_profile_configure_title">Gosodiadau</string>
     <string name="restricted_profile_configure_apps_title">Apiau a chaniateir</string>
-    <plurals name="restricted_profile_configure_apps_description">
-        <item quantity="zero">Caniateir %d apiau</item>
-        <item quantity="one">Caniateir 1 ap</item>
-        <item quantity="two">Caniateir %d ap</item>
-        <item quantity="few">Caniateir %d ap</item>
-        <item quantity="many">Caniateir %d ap</item>
-        <item quantity="other">Caniateir %d ap</item>
-    </plurals>
     <string name="restricted_profile_allowed">Caniateir</string>
     <string name="restricted_profile_not_allowed">Ni chaniateir</string>
     <string name="restricted_profile_customize_restrictions">Ffurfweddu cyfyngiadau</string>

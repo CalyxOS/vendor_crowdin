@@ -216,14 +216,13 @@
     <string name="permgroupdesc_calendar">atzede a su calendàriu tuo</string>
     <string name="permgrouplab_sms">SMS</string>
     <string name="permgroupdesc_sms">imbia e visualiza messàgios SMS</string>
-    <string name="permgrouplab_storage">Archìvios e media</string>
-    <string name="permgroupdesc_storage">atzèdere a fotografias, cuntenutos multimediales e archìvios in su dispositivu</string>
     <string name="permgrouplab_microphone">Micròfonu</string>
     <string name="permgrouplab_camera">Fotocàmera</string>
     <string name="permgroupdesc_camera">faghe fotografias e registra vìdeos</string>
     <string name="permgrouplab_phone">Telèfonu</string>
     <string name="permgroupdesc_phone">faghe e gesti mutidas</string>
     <string name="permgroupdesc_sensors">atzede a is datos sensores de is signos vitales</string>
+    <string name="permgrouplab_notifications">Notìficas</string>
     <string name="capability_title_canRetrieveWindowContent">Recùpera su cuntenutu de sa ventana</string>
     <string name="capability_desc_canRetrieveWindowContent">Ispetziona su cuntenutu de una ventana cun sa chi ses interagende.</string>
     <string name="capability_title_canRequestTouchExploration">Allue Explore by Touch</string>
@@ -337,10 +336,6 @@ Custu permissu autorizat is aplicatziones a sarvare is datos de cuntatu, e is ap
     <string name="permdesc_writeCallLog" product="tv">Permitit a s\'aplicatzione de modificare su registru de mutidas de custu dispositivu Android TV, incluidos datos subra mutidas in intrada e in essida. Is aplicatziones malas ddu diant pòdere impreare pro cantzellare o modificare su registru de mutidas tuo.</string>
     <string name="permdesc_writeCallLog" product="default">Permitit a s\'aplicatzione de modificare su registru de mutidas de su telèfonu tuo, incluidos datos subra mutidas in intrada e in essida.
         Is aplicatziones malas ddu diant pòdere impreare pro cantzellare o modificare su registru de mutidas tuo.</string>
-    <string name="permlab_bodySensors">atzèdere a sensores de corpus (comente mesuradores de frecuèntzia cardìaca)
-    </string>
-    <string name="permdesc_bodySensors" product="default">Permitit a s\'aplicatzione de atzèdere a datos dae sensores
-    chi ti controllant is cunditziones fìsicas, che a sa frecuèntzia cardìaca.</string>
     <string name="permlab_writeCalendar">agiùnghere o modificare eventos de su calendàriu e imbiare posta eletrònica a persones invitadas chene chi sa persone mere ddu iscat.</string>
     <string name="permlab_accessLocationExtraCommands">atzèdere a cumandos in prus de su frunidore de positzione</string>
     <string name="permdesc_accessLocationExtraCommands">Permitit a s\'aplicatzione de atzèdere
@@ -694,7 +689,7 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="lockscreen_instructions_when_pattern_enabled">Incarca Menù pro isblocare o fàghere una mutida de emergèntzia.</string>
     <string name="lockscreen_instructions_when_pattern_disabled">Incarca Menù pro isblocare.</string>
     <string name="lockscreen_pattern_instructions">Disinna sa cumbinada pro isblocare</string>
-    <string name="lockscreen_emergency_call">Mutida de emergèntzia</string>
+    <string name="lockscreen_emergency_call">Emergèntzia</string>
     <string name="lockscreen_return_to_call">Torra a sa mutida</string>
     <string name="lockscreen_pattern_correct">Giustu!</string>
     <string name="lockscreen_pattern_wrong">Torra·bi a proare</string>
@@ -877,10 +872,6 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
        su pòddighe tuo o fàghere gestos pro interagire cun su telèfonu.</string>
     <string name="oneMonthDurationPast">1 mese a oe</string>
     <string name="beforeOneMonthDurationPast">In antis de 1 mese a oe</string>
-    <plurals name="last_num_days">
-        <item quantity="one">Ùrtima <xliff:g id="count">%d</xliff:g> die</item>
-        <item quantity="other">Ùrtimas <xliff:g id="count">%d</xliff:g> dies</item>
-    </plurals>
     <string name="last_month">Su mese passadu</string>
     <string name="older">Prus betzu</string>
     <string name="preposition_for_date">su <xliff:g id="date" example="May 29">%s</xliff:g></string>
@@ -923,6 +914,7 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="deleteText">Cantzella</string>
     <string name="inputMethod">Mètodu de intrada</string>
     <string name="editTextMenuTitle">Atziones de su testu</string>
+    <string name="input_method_nav_back_button_desc">In segus</string>
     <string name="low_internal_storage_view_title">Su logu pro s\'archiviatzione est acabbende</string>
     <string name="low_internal_storage_view_text">Carchi funtzionalidade de sistema diat pòdere non funtzionare</string>
     <string name="low_internal_storage_view_text_no_boot">Non b\'at bastante logu pro su sistema. Segura·ti de tènnere 250MB de logu e torra a aviare.</string>
@@ -975,7 +967,6 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="android_preparing_apk">Aprontende <xliff:g id="appname">%1$s</xliff:g>.</string>
     <string name="android_upgrading_starting_apps">Aviende aplicatziones.</string>
     <string name="android_upgrading_complete">Agabbende s\'aviu</string>
-    <string name="fp_enrollment_powerbutton_intent_negative_button">Annulla</string>
     <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> in esecutzione</string>
     <string name="dump_heap_notification"><xliff:g id="proc">%1$s</xliff:g> at passadu su lìmite de sa
         memòria</string>
@@ -1113,10 +1104,6 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="skip_button_label">Brinca</string>
     <string name="no_matches">Peruna currispondèntzia</string>
     <string name="find_on_page">Agata in sa pàgina</string>
-    <plurals name="matches_found">
-        <item quantity="one">1 currispondèntzia</item>
-        <item quantity="other"><xliff:g id="index" example="2">%d</xliff:g> of <xliff:g id="total" example="137">%d</xliff:g></item>
-    </plurals>
     <string name="action_mode_done">Fatu</string>
     <string name="share">Cumpartzidura</string>
     <string name="find">Agata</string>
@@ -1370,10 +1357,6 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="restr_pin_create_pin">Crea unu PIN pro modificare is lìmites</string>
     <string name="restr_pin_error_doesnt_match">Is PIN non currispondent. Torra a proare.</string>
     <string name="restr_pin_error_too_short">Su PIN est tropu curtzu. Depet tènnere a su mancu 4 caràteres.</string>
-    <plurals name="restr_pin_countdown">
-        <item quantity="one">Torra a proare tra 1 segundu</item>
-        <item quantity="other">Torra a proare tra <xliff:g id="count">%d</xliff:g> segundos</item>
-    </plurals>
     <string name="restr_pin_try_later">Torra a proare a pustis</string>
     <string name="immersive_cling_title">Visualizende ischermu intreu</string>
     <string name="immersive_cling_description">Pro essire, trìsina a bassu dae susu.</string>
@@ -1397,30 +1380,6 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="lock_to_app_unlock_pattern">Pedi una cumbinada de isblocu in antis de isblocare</string>
     <string name="lock_to_app_unlock_password">Pedi una crae in antis de isblocare</string>
     <string name="confirm_battery_saver">AB</string>
-    <plurals name="zen_mode_duration_minutes_summary">
-        <item quantity="one">Pro unu minutu (until <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Pro %1$d minutos (until <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_minutes_summary_short">
-        <item quantity="one">Pro 1 min (until <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Pro %1$d min (until <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_hours_summary_short">
-        <item quantity="one">Pro 1 ora (until <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-        <item quantity="other">Pro %1$d oras (until <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_duration_minutes">
-        <item quantity="one">Pro unu minutu</item>
-        <item quantity="other">Pro %d minutos</item>
-    </plurals>
-    <plurals name="zen_mode_duration_minutes_short">
-        <item quantity="one">Pro 1 min</item>
-        <item quantity="other">Pro %d min</item>
-    </plurals>
-    <plurals name="zen_mode_duration_hours_short">
-        <item quantity="one">Pro 1 ora</item>
-        <item quantity="other">Pro %d oras</item>
-    </plurals>
     <string name="zen_mode_until">Finas a <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
     <string name="zen_mode_alarm">Finas a <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (isvèglia imbeniente)</string>
     <string name="zen_mode_forever_dnd">Finas a cando disativas No istorbes</string>
@@ -1442,10 +1401,6 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="floating_toolbar_close_overflow_description">Serra su menù overflow</string>
     <string name="notification_inbox_ellipsis">\u2026</string>
     <string name="call_notification_decline_action">Refuda</string>
-    <plurals name="selected_count">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> seletzionadu</item>
-        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> seletzionados</item>
-    </plurals>
     <string name="locale_search_menu">Chirca</string>
     <string name="app_suspended_title">S\'aplicatzione no est a disponimentu</string>
     <string name="app_suspended_default_message">        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> no est a disponimentu immoe. Custu ddu gestit <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.

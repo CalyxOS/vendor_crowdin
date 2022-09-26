@@ -125,10 +125,6 @@
     <string name="bluetooth_talkback_headphone">Cluais-fhòn</string>
     <string name="bluetooth_talkback_input_peripheral">Uidheam-taice ion-chuir</string>
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
-    <string name="bluetooth_hearingaid_left_pairing_message">A’ paidhreachadh an inneil-chlaisneachd chlì\u2026</string>
-    <string name="bluetooth_hearingaid_right_pairing_message">A’ paidhreachadh an inneil-chlaisneachd dheis\u2026</string>
-    <string name="bluetooth_hearingaid_left_battery_level">Deas – <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> a bhataraidh</string>
-    <string name="bluetooth_hearingaid_right_battery_level">Clì – <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> a bhataraidh</string>
     <string name="accessibility_wifi_off">Tha WiFi dheth.</string>
     <string name="accessibility_no_wifi">Chaidh WiFi a dhì-cheangal.</string>
     <string name="accessibility_wifi_one_bar">Tha bàr a-mhàin air WiFi.</string>
@@ -147,7 +143,6 @@
     <string name="tether_settings_title_usb_bluetooth">Teadhrachadh</string>
     <string name="tether_settings_title_all">Teadhrachadh ⁊ hotspot so-ghiùlan</string>
     <string name="managed_user_title">Aplacaidean uile na h-obrach</string>
-    <string name="user_guest">Aoigh</string>
     <string name="unknown">Neo-aithnichte</string>
     <string name="running_process_item_user_label">Cleachdaiche: <xliff:g id="user_name">%1$s</xliff:g></string>
     <string name="launch_defaults_some">Chaidh cuid a bhun-roghainnean a shuidheachadh</string>
@@ -295,7 +290,7 @@
     <string name="wifi_display_certification_summary">Seall roghainnean airson teisteanas an uidheim-thaisbeanaidh gun uèir</string>
     <string name="wifi_verbose_logging_summary">Meudaich ìre logaidh WiFi, seall gach SSID RSSI an urra san roghnaichear WiFi</string>
     <string name="wifi_scan_throttling_summary">Ìslichidh seo traoghadh a’ bhataraidh ⁊ bheir e piseach air dèanadas an lìonraidh</string>
-    <string name="wifi_enhanced_mac_randomization_summary">Nuair a bhios am modh seo an comas, dh’fhaoidte gun atharraich seòladh MAC an uidheim gach turas a nì e ceangal ri lìonra aig a bheil MAC tuaireamach an comas.</string>
+    <string name="wifi_non_persistent_mac_randomization_summary">Nuair a bhios am modh seo an comas, dh’fhaoidte gun atharraich seòladh MAC an uidheim gach turas a nì e ceangal ri lìonra aig a bheil MAC tuaireamach an comas.</string>
     <string name="wifi_metered_label">Meadaraichte</string>
     <string name="wifi_unmetered_label">Neo-mheadaraichte</string>
     <string name="select_logd_size_title">Meudan bufair nan loga</string>
@@ -420,15 +415,6 @@
     <string name="select_webview_provider_title">Buileachadh seallaidh-lìn</string>
     <string name="select_webview_provider_dialog_title">Suidhich buileachadh an t-seallaidh-lìn</string>
     <string name="select_webview_provider_toast_text">Chan eil an roghainn seo dligheach tuilleadh. Feuch ris a-rithist.</string>
-    <string name="convert_to_file_encryption">Iompaich gu crioptachadh fhaidhlichean</string>
-    <string name="convert_to_file_encryption_enabled">Iompaich\u2026</string>
-    <string name="convert_to_file_encryption_done">Tha crioptachadh fhaidhlichean air mu thràth</string>
-    <string name="title_convert_fbe">Iompachadh gu crioptachadh stèidhichte air faidhlichean</string>
-    <string name="convert_to_fbe_warning">        Iompaich am pàirteachadh dàta gu crioptachadh stèidhichte air faidhlichean.\n
-        !!Rabhadh!! Suathaidh seo bàn an dàta agad uile.\n
-        Chan e ach dreachd alpha dhen ghleus a tha seo agus dh’fhaoidte nach obraich e mar bu chòir.\n
-        Brùth air “Suath bàn is iompaich\u2026” airson leantainn air adhart.</string>
-    <string name="button_convert_fbe">Suath bàn is iompaich\u2026</string>
     <string name="picture_color_mode">Modh dathan nan dealbhan</string>
     <string name="picture_color_mode_desc">Cleachd sRGB</string>
     <string name="daltonizer_mode_disabled">À comas</string>
@@ -504,12 +490,6 @@
     <string name="ims_reg_status_not_registered">"Gun chlàradh"</string>
     <string name="status_unavailable">Chan eil seo ri fhaighinn</string>
     <string name="wifi_status_mac_randomized">Tha MAC air thuaiream agad</string>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="one">Chaidh %1$d uidheam a cheangal</item>
-        <item quantity="two">Chaidh %1$d uidheam a cheangal</item>
-        <item quantity="few">Chaidh %1$d uidheaman a cheangal</item>
-        <item quantity="other">Chaidh %1$d uidheam a cheangal</item>
-    </plurals>
     <string name="accessibility_manual_zen_more_time">Barrachd ùine.</string>
     <string name="accessibility_manual_zen_less_time">Nas lugha de dh’ùine.</string>
     <string name="cancel">Sguir dheth</string>
@@ -527,7 +507,6 @@
     <string name="zen_mode_duration_always_prompt_title">Faighnich dhìom gach turas</string>
     <string name="zen_mode_forever">Gus an cuir thu dheth e</string>
     <string name="time_unit_just_now">An-dràsta fhèin</string>
-    <string name="media_transfer_this_device_name">Glaodhaire an fhòn</string>
     <string name="profile_connect_timeout_subtext">Tha duilgheadas leis a’ cheangal. Cuir an t-uidheam dheth ⁊ air a-rithist</string>
     <string name="media_transfer_wired_device_name">Uidheam fuaime uèirichte</string>
     <string name="help_label">Taic ⁊ beachd thugainn</string>
@@ -567,11 +546,11 @@
     <string name="user_switch_to_user">Geàrr leum gu <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
     <string name="guest_new_guest">Cuir aoigh ris</string>
     <string name="guest_exit_guest">Thoir an t-aoigh air falbh</string>
-    <string name="guest_nickname">Aoigh</string>
     <string name="cached_apps_freezer_device_default">Bun-roghainn an uidheim</string>
     <string name="cached_apps_freezer_disabled">À comas</string>
     <string name="cached_apps_freezer_enabled">An comas</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Feumaidh tu an t-uidheam agad ath-thòiseachadh gus an t-atharrachadh seo a chur an sàs. Ath-thòisich an-dràsta no sguir dheth.</string>
     <string name="media_transfer_wired_usb_device_name">Cluais-fhòn uèirichte</string>
     <string name="wifi_hotspot_switch_off_text">Dheth</string>
+    <string name="keyboard_layout_default_label">Bun-roghainn</string>
 </resources>
