@@ -49,6 +49,7 @@
     <string name="usb_debugging_allow">Caniatáu</string>
     <string name="usb_debugging_secondary_user_title">Ni chaniateir dadfygio USB</string>
     <string name="usb_debugging_secondary_user_message">Dyw\'r defnyddiwr sydd wedi mewngofnodi i\'r ddyfais ar hyn o bryd methu â throi dadfygio USB ymlaen. I ddefnyddio\'r nodwedd hon, rhaid newid i\'r defnyddiwr gwreiddiol.</string>
+    <string name="hdmi_cec_set_menu_language_accept">Newid iaith</string>
     <string name="wifi_debugging_title">Caniatáu dadfygio gwallau di-wifr ar y rhwydwaith hwn?</string>
     <string name="wifi_debugging_message">Enw Rhwydwaith (SSID)\n<xliff:g id="ssid" example="My wifi">%1$s</xliff:g>\n\nCyfeiriad Wi\u2011Fi (BSSID\n<xliff:g id="bssid" example="AB:CD:EF:12:34:56">%2$s</xliff:g></string>
     <string name="wifi_debugging_always">Caniatáu ar y rhwydwaith hwn bob amser</string>
@@ -233,6 +234,7 @@
     <string name="quick_settings_cast_no_wifi">Wi\u2011Fi heb gysylltu</string>
     <string name="quick_settings_brightness_dialog_title">Disgleirdeb</string>
     <string name="quick_settings_inversion_label">Gwrthdroad lliwiau</string>
+    <string name="quick_settings_color_correction_label">Cywiriad lliw</string>
     <string name="quick_settings_more_user_settings">Gosodiadau defnyddiwr</string>
     <string name="quick_settings_done">Cwblhau</string>
     <string name="quick_settings_close_user_panel">Cau</string>
@@ -788,6 +790,7 @@
     <string name="controls_dialog_message">Awgrymwyd gan <xliff:g id="app" example="System UI">%s</xliff:g></string>
     <string name="controls_tile_locked">Dyfais dan glo</string>
     <string name="controls_settings_dialog_neutral_button">Dim diolch</string>
+    <string name="controls_settings_dialog_positive_button">Iawn</string>
     <string name="controls_pin_use_alphanumeric">Mae\'r PIN yn cynnwys llythrennau neu symbolau</string>
     <string name="controls_pin_verify">Gwiria <xliff:g id="device" example="Backdoor lock">%s</xliff:g></string>
     <string name="controls_pin_wrong">PIN anghywir</string>
@@ -805,11 +808,15 @@
     <string name="controls_media_seekbar_description"><xliff:g id="elapsed_time" example="1:30">%1$s</xliff:g> o <xliff:g id="total_time" example="3:00">%2$s</xliff:g></string>
     <string name="controls_media_button_play">Chwarae</string>
     <string name="controls_media_button_pause">Seibio</string>
+    <string name="controls_media_button_prev">Trac blaenorol</string>
+    <string name="controls_media_button_next">Trac nesaf</string>
+    <string name="controls_media_button_connecting">Yn cysylltu</string>
     <string name="controls_media_smartspace_rec_title">Chwarae</string>
     <string name="controls_media_smartspace_rec_description">Agor <xliff:g id="app_label" example="Spotify">%1$s</xliff:g></string>
     <string name="controls_media_smartspace_rec_item_description">Chwarae <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> gan <xliff:g id="artist_name" example="Various artists">%2$s</xliff:g> o <xliff:g id="app_label" example="Spotify">%3$s</xliff:g></string>
     <string name="controls_media_smartspace_rec_item_no_artist_description">Chwarae <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> o <xliff:g id="app_label" example="Spotify">%2$s</xliff:g></string>
     <string name="media_transfer_undo">Dad-wneud</string>
+    <string name="media_transfer_failed">Aeth rhywbeth o\'i le. Rho gynnig arall arni.</string>
     <string name="controls_error_timeout">Anactif, gwiria\'r ap</string>
     <string name="controls_error_removed">Heb ganfod</string>
     <string name="controls_error_removed_title">Nid yw\'r rheolydd ar gael</string>
@@ -825,7 +832,12 @@
     <string name="media_output_dialog_multiple_devices"><xliff:g id="count" example="2">%1$d</xliff:g> dyfais wedi\'u dewis</string>
     <string name="media_output_dialog_disconnected">(wedi datgysylltu)</string>
     <string name="media_output_dialog_pairing_new">Paru â dyfais newydd</string>
+    <string name="media_output_dialog_unknown_launch_app_name">Ap anhysbys</string>
+    <string name="media_output_dialog_button_stop_casting">Stopio taflu</string>
+    <string name="media_output_dialog_accessibility_seekbar">Uchder sain</string>
+    <string name="media_output_broadcast">Darlledu</string>
     <string name="media_output_broadcast_dialog_save">Cadw</string>
+    <string name="media_output_broadcast_update_error">Methu cadw. Ceisia eto.</string>
     <string name="build_number_clip_data_label">Rhif adeiledd</string>
     <string name="build_number_copy_toast">Wedi copïo rhif adeiledd i\'r clipfwrdd.</string>
     <string name="basic_status">Agor sgwrs</string>
@@ -892,9 +904,17 @@
     <string name="turn_off_airplane_mode">Troi modd awyren i ffwrdd</string>
     <string name="qs_tile_request_dialog_add">Ychwanegu teilsen</string>
     <string name="qs_user_switch_dialog_title">Dewis defnyddiwr</string>
+    <string name="fgs_dot_content_description">Gwybodaeth newydd</string>
+    <string name="fgs_manager_dialog_title">Apiau gweithredol</string>
     <string name="fgs_manager_app_item_stop_button_label">Stopio</string>
+    <string name="fgs_manager_app_item_stop_button_stopped_label">Wedi\'i stopio</string>
     <string name="clipboard_edit_text_done">Cwblhau</string>
+    <string name="clipboard_overlay_text_copied">Copïwyd</string>
+    <string name="clipboard_edit_source">Oddi wrth <xliff:g id="appName" example="Gmail">%1$s</xliff:g></string>
     <string name="clipboard_text_hidden">Tapia i weld</string>
+    <string name="clipboard_text_copied">Testun wedi\'i gopïo</string>
     <string name="clipboard_overlay_window_name">Clipfwrdd</string>
+    <string name="clipboard_edit">golygu</string>
     <string name="add">Ychwanegu</string>
+    <string name="manage_users">Rheoli defnyddwyr</string>
 </resources>
