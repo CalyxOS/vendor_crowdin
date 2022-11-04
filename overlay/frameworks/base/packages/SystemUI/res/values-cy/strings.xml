@@ -49,7 +49,9 @@
     <string name="usb_debugging_allow">Caniatáu</string>
     <string name="usb_debugging_secondary_user_title">Ni chaniateir dadfygio USB</string>
     <string name="usb_debugging_secondary_user_message">Dyw\'r defnyddiwr sydd wedi mewngofnodi i\'r ddyfais ar hyn o bryd methu â throi dadfygio USB ymlaen. I ddefnyddio\'r nodwedd hon, rhaid newid i\'r defnyddiwr gwreiddiol.</string>
+    <string name="hdmi_cec_set_menu_language_title">Wyt ti am newid iaith y system i <xliff:g id="language" example="German">%1$s</xliff:g>?</string>
     <string name="hdmi_cec_set_menu_language_accept">Newid iaith</string>
+    <string name="hdmi_cec_set_menu_language_decline">Cadw\'r iaith cyfredol</string>
     <string name="wifi_debugging_title">Caniatáu dadfygio gwallau di-wifr ar y rhwydwaith hwn?</string>
     <string name="wifi_debugging_message">Enw Rhwydwaith (SSID)\n<xliff:g id="ssid" example="My wifi">%1$s</xliff:g>\n\nCyfeiriad Wi\u2011Fi (BSSID\n<xliff:g id="bssid" example="AB:CD:EF:12:34:56">%2$s</xliff:g></string>
     <string name="wifi_debugging_always">Caniatáu ar y rhwydwaith hwn bob amser</string>
@@ -111,6 +113,7 @@
     <string name="accessibility_phone_button">Ffôn</string>
     <string name="accessibility_voice_assist_button">Cymorth Llais</string>
     <string name="accessibility_wallet_button">Waled</string>
+    <string name="accessibility_qr_code_scanner_button">Sganiwr Codau QR</string>
     <string name="accessibility_unlock_button">Datgloi</string>
     <string name="accessibility_lock_icon">Dyfais dan glo</string>
     <string name="accessibility_scanning_face">Sganio wyneb</string>
@@ -357,12 +360,17 @@
     <string name="quick_settings_disclosure_management_monitoring">Dy sefydliad di sydd berchen y ddyfais hon ac efallai y bydd yn monitro traffig rhwydwaith</string>
     <string name="quick_settings_disclosure_named_management_monitoring"><xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g> sydd berchen y ddyfais hon a gall fonitro traffig rhwydwaith</string>
     <string name="quick_settings_financed_disclosure_named_management">Darperir y ddyfais hon gan <xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g></string>
+    <string name="quick_settings_disclosure_management_named_vpn">Mae\'r ddyfais hon yn perthyn i dy sefydliad ac mae wedi\'i chysylltu â\'r rhyngrwyd trwy  <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g></string>
+    <string name="quick_settings_disclosure_named_management_named_vpn">Mae\'r ddyfais hon yn perthyn i <xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g> ac mae wedi\'i chysylltu â\'r rhyngrwyd trwy <xliff:g id="vpn_app" example="Foo VPN App">%2$s</xliff:g></string>
     <string name="quick_settings_disclosure_management">Mae\'r ddyfais hon yn perthyn i dy sefydliad</string>
     <string name="quick_settings_disclosure_named_management">Mae\'r ddyfais hon yn perthyn i <xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g></string>
+    <string name="quick_settings_disclosure_management_vpns">Mae\'r ddyfais hon yn perthyn i dy sefydliad ac mae wedi\'i chysylltu â\'r rhyngrwyd trwy VPN</string>
+    <string name="quick_settings_disclosure_named_management_vpns">Mae\'r ddyfais hon yn perthyn i <xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g> ac mae wedi\'i chysylltu â\'r rhyngrwyd trwy VPNs</string>
     <string name="quick_settings_disclosure_managed_profile_monitoring">Gall dy sefydliad fonitro traffig rhwydwaith yn dy broffil gwaith</string>
     <string name="quick_settings_disclosure_named_managed_profile_monitoring">Gall <xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g> fonitro traffig rhwydwaith yn dy broffil gwaith</string>
     <string name="quick_settings_disclosure_managed_profile_network_activity">Mae gweithgaredd rhwydwaith y proffil gwaith yn weladwy i dy weinyddwr TG</string>
     <string name="quick_settings_disclosure_monitoring">Mae\'n bosib caiff y rhwydwaith ei fonitro</string>
+    <string name="quick_settings_disclosure_named_vpn">Mae\'r ddyfais hon wedi\'i chysylltu â\'r rhyngrwyd trwy <xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g></string>
     <string name="monitoring_title_financed_device">Darperir y ddyfais hon gan <xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g></string>
     <string name="monitoring_title_device_owned">Rheolaeth dyfais</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -443,6 +451,7 @@
     <string name="wallet_secondary_label_device_locked">Datgloi i\'w ddefnyddio</string>
     <string name="wallet_error_generic">Roedd problem yn cael dy gardiau. Rho gynnig arall arni\'n hwyrach.</string>
     <string name="wallet_lockscreen_settings_label">Gosodiadau\'r sgrin cloi</string>
+    <string name="qr_code_scanner_title">Sganio cod QR</string>
     <string name="status_bar_work">Proffil gwaith</string>
     <string name="status_bar_airplane">Modd awyren</string>
     <string name="zen_alarm_warning_indef">Ni fyddi\'n clywed dy larwm nesaf tan <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> oni bai dy fod yn diffodd hwn cyn hynny.</string>
@@ -506,6 +515,7 @@
     <string name="notification_priority_title">Blaenoriaeth</string>
     <string name="no_shortcut">Nid yw <xliff:g id="app_name" example="YouTube">%1$s</xliff:g> yn cefnogi nodweddion sgwrsio</string>
     <string name="notification_unblockable_desc">Ni ellir addasu\'r hysbysiadau hyn.</string>
+    <string name="notification_unblockable_call_desc">Ni ellir addasu\'r hysbysiadau galwadau.</string>
     <string name="notification_multichannel_desc">Ni ellir ffurfweddu\'r grŵp hwn o hysbysiadau yma</string>
     <string name="notification_delegate_header">Hysbysiad procsi</string>
     <string name="notification_channel_dialog_title">Pob hysbysiad <xliff:g id="app_name" example="YouTube">%1$s</xliff:g></string>
@@ -725,6 +735,7 @@
     <string name="auto_saver_text">Troi ymlaen pan fo\'r batri yn debygol o redeg allan</string>
     <string name="no_auto_saver_action">Dim diolch</string>
     <string name="heap_dump_tile_name">Dympio\'r Domen SysUI</string>
+    <string name="ongoing_privacy_dialog_a11y_title">Mewn defnydd</string>
     <string name="ongoing_privacy_chip_content_multiple_apps">Mae apiau yn defnyddio <xliff:g id="types_list" example="camera, location">%s</xliff:g>.</string>
     <string name="ongoing_privacy_dialog_separator">,\u0020</string>
     <string name="ongoing_privacy_dialog_last_separator">\u0020a\u0020</string>
@@ -733,9 +744,12 @@
     <string name="ongoing_privacy_dialog_enterprise">(gwaith)</string>
     <string name="ongoing_privacy_dialog_phonecall">Galwad ffôn</string>
     <string name="ongoing_privacy_dialog_attribution_text">(trwy <xliff:g id="application name(s)" example="Maps, and Assistant">%s</xliff:g>)</string>
+    <string name="ongoing_privacy_dialog_attribution_label">(<xliff:g id="attribution_label" example="For Wallet">%s</xliff:g>)</string>
+    <string name="ongoing_privacy_dialog_attribution_proxy_label">(<xliff:g id="attribution_label" example="For Wallet">%1$s</xliff:g>  \u2022 <xliff:g id="proxy_label" example="Maps, and Assistant">%2$s</xliff:g>)</string>
     <string name="privacy_type_camera">camera</string>
     <string name="privacy_type_location">lleoliad</string>
     <string name="privacy_type_microphone">meicroffon</string>
+    <string name="privacy_type_media_projection">recordio\'r sgrin</string>
     <string name="music_controls_no_title">Dim teitl</string>
     <string name="inattentive_sleep_warning_title">Modd segur</string>
     <string name="magnification_window_title">Ffenestr Chwyddo</string>
