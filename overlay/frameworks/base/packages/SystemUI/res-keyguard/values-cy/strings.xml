@@ -24,11 +24,9 @@
     <string name="keyguard_sim_error_message_short">Cerdyn Annilys.</string>
     <string name="keyguard_charged">Wedi gwefru</string>
     <string name="keyguard_plugged_in_wireless"><xliff:g id="percentage" example="20%">%s</xliff:g> • Yn gwefru\u2019n ddiwifr</string>
-    <string name="keyguard_plugged_in_dock"><xliff:g id="percentage" example="20%">%s</xliff:g> • Doc Gwefru</string>
     <string name="keyguard_plugged_in"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru</string>
     <string name="keyguard_plugged_in_charging_fast"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru\'n gyflym</string>
     <string name="keyguard_plugged_in_charging_slowly"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru\'n araf</string>
-    <string name="keyguard_plugged_in_charging_limited"><xliff:g id="percentage">%s</xliff:g> • Gwefru wedi\'i gyfyngu dros dro</string>
     <string name="keyguard_instructions_when_pattern_disabled">Gwasga Dewislen i ddatgloi.</string>
     <string name="keyguard_network_locked_message">Rhwydwaith wedi\'i gloi</string>
     <string name="keyguard_missing_sim_message_short">Dim cerdyn SIM</string>
@@ -71,23 +69,7 @@
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
     <string name="kg_password_wrong_pin_code_pukked">Rhoddwyd PIN SIM anghywir a rhaid nawr cysylltu â dy ddarparwr gwasanaeth er mwyn datgloi dy ddyfais.</string>
-    <plurals name="kg_password_wrong_pin_code">
-        <item quantity="zero">Rhoddwyd PIN SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> ceisiadau yn weddill.</item>
-        <item quantity="one">Rhoddwyd PIN SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> cais yn weddill.</item>
-        <item quantity="two">Rhoddwyd PIN SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> gais yn weddill.</item>
-        <item quantity="few">Rhoddwyd PIN SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> cais yn weddill.</item>
-        <item quantity="many">Rhoddwyd PIN SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> chais yn weddill.</item>
-        <item quantity="other">Rhoddwyd PIN SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> cais yn weddill.</item>
-    </plurals>
     <string name="kg_password_wrong_puk_code_dead">Nid yw\'n bosib defnyddio\'r SIM. Cysyllta â dy ddarparwr gwasanaeth.</string>
-    <plurals name="kg_password_wrong_puk_code">
-        <item quantity="zero">Rhoddwyd PUK SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> ceisiadau yn weddill cyn bydd y SIM yn cael ei analluogi a dim posib ei ddefnyddio byth eto.</item>
-        <item quantity="one">Rhoddwyd PUK SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> cais yn weddill cyn bydd y SIM yn cael ei analluogi a dim posib ei ddefnyddio byth eto.</item>
-        <item quantity="two">Rhoddwyd PUK SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> gais yn weddill cyn bydd y SIM yn cael ei analluogi a dim posib ei ddefnyddio byth eto.</item>
-        <item quantity="few">Rhoddwyd PUK SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> cais yn weddill cyn bydd y SIM yn cael ei analluogi a dim posib ei ddefnyddio byth eto.</item>
-        <item quantity="many">Rhoddwyd PUK SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> chais yn weddill cyn bydd y SIM yn cael ei analluogi a dim posib ei ddefnyddio byth eto.</item>
-        <item quantity="other">Rhoddwyd PUK SIM anghywir. Mae gennyt <xliff:g id="number">%d</xliff:g> cais yn weddill cyn bydd y SIM yn cael ei analluogi a dim posib ei ddefnyddio byth eto.</item>
-    </plurals>
     <string name="kg_password_pin_failed">Methodd gweithred PIN y SIM!</string>
     <string name="kg_password_puk_failed">Methodd gweithred PUK y SIM!</string>
     <string name="accessibility_ime_switch_button" msgid="5032926134740456424">Newid dull mewnbwn</string>
@@ -101,22 +83,6 @@
     <string name="kg_prompt_reason_device_admin">Cafodd y ddyfais ei chloi gan weinyddwr</string>
     <string name="kg_prompt_reason_user_request">Cafodd y ddyfais ei chloi gan rywun.</string>
     <string name="kg_face_not_recognized">Dim yn ei adnabod</string>
-    <plurals name="kg_password_default_pin_message">
-        <item quantity="zero">Rho PIN y SIM. Mae gennyt <xliff:g id="number">%d</xliff:g> cynigion yn weddill.</item>
-        <item quantity="one">Rho PIN y SIM. Mae gennyt <xliff:g id="number">%d</xliff:g> cynnig yn weddill cyn bydd yn rhaid cysylltu â dy ddarparwr gwasanaeth i ddatgloi dy ddyfais.</item>
-        <item quantity="two">Rho PIN y SIM. Mae gennyt <xliff:g id="number">%d</xliff:g> cynnig yn weddill cyn bydd yn rhaid cysylltu â dy ddarparwr gwasanaeth i ddatgloi dy ddyfais.</item>
-        <item quantity="few">Rho PIN y SIM. Mae gennyt <xliff:g id="number">%d</xliff:g> cynnig yn weddill.</item>
-        <item quantity="many">Rho PIN y SIM. Mae gennyt <xliff:g id="number">%d</xliff:g> cynnig yn weddill.</item>
-        <item quantity="other">Rho PIN y SIM. Mae gennyt <xliff:g id="number">%d</xliff:g> cynnig yn weddill.</item>
-    </plurals>
-    <plurals name="kg_password_default_puk_message">
-        <item quantity="zero">Mae\'r SIM nawr wedi\'i analluogi. Rho god PUK i barhau. Mae gennyt <xliff:g id=" number">%d</xliff:g> cynigion yn weddill nes na fydd posib defnyddio\'r SIM byth eto. Cysyllta â dy ddarparwr gwasanaeth am ragor o fanylion.</item>
-        <item quantity="one">Mae\'r SIM nawr wedi\'i analluogi. Rho god PUK i barhau. Mae gennyt <xliff:g id=" number">%d</xliff:g> cynnig yn weddill nes na fydd posib defnyddio\'r SIM byth eto. Cysyllta â dy ddarparwr gwasanaeth am ragor o fanylion.</item>
-        <item quantity="two">Mae\'r SIM nawr wedi\'i analluogi. Rho god PUK i barhau. Mae gennyt <xliff:g id=" number">%d</xliff:g> gynnig yn weddill nes na fydd posib defnyddio\'r SIM byth eto. Cysyllta â dy ddarparwr gwasanaeth am ragor o fanylion.</item>
-        <item quantity="few">Mae\'r SIM nawr wedi\'i analluogi. Rho god PUK i barhau. Mae gennyt <xliff:g id=" number">%d</xliff:g> cynnig yn weddill nes na fydd posib defnyddio\'r SIM byth eto. Cysyllta â dy ddarparwr gwasanaeth am ragor o fanylion.</item>
-        <item quantity="many">Mae\'r SIM nawr wedi\'i analluogi. Rho god PUK i barhau. Mae gennyt <xliff:g id=" number">%d</xliff:g> chynnig yn weddill nes na fydd posib defnyddio\'r SIM byth eto. Cysyllta â dy ddarparwr gwasanaeth am ragor o fanylion.</item>
-        <item quantity="other">Mae\'r SIM nawr wedi\'i analluogi. Rho god PUK i barhau. Mae gennyt <xliff:g id=" number">%d</xliff:g> cynnig yn weddill nes na fydd posib defnyddio\'r SIM byth eto. Cysyllta â dy ddarparwr gwasanaeth am ragor o fanylion.</item>
-    </plurals>
     <string name="clock_title_default">Rhagosodiad</string>
     <string name="clock_title_bubble">Swigod</string>
     <string name="clock_title_analog">Analog</string>

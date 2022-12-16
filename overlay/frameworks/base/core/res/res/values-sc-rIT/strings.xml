@@ -216,6 +216,7 @@
     <string name="permgroupdesc_calendar">atzede a su calendàriu tuo</string>
     <string name="permgrouplab_sms">SMS</string>
     <string name="permgroupdesc_sms">imbia e visualiza messàgios SMS</string>
+    <string name="permgrouplab_storage">Archìvios</string>
     <string name="permgrouplab_microphone">Micròfonu</string>
     <string name="permgrouplab_camera">Fotocàmera</string>
     <string name="permgroupdesc_camera">faghe fotografias e registra vìdeos</string>
@@ -456,14 +457,10 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="permlab_useFingerprint">impreare s\'imprenta de pòddighe</string>
     <string name="permdesc_useFingerprint">Permitit a s\'aplicatzione de impreare s\'imprenta de pòddighe pro s\'autenticatzione</string>
     <string name="biometric_dialog_default_title">Verìfica chi ses tue</string>
-    <string name="fingerprint_acquired_insufficient">No at fatu a protzessare s\'imprenta de pòddighe. Torra a proare.</string>
     <string name="fingerprint_acquired_too_slow">Su pòddighe s\'est mòvidu tropu a bellu. Torra a proare.</string>
     <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_hw_not_available">S\'imprenta de pòddighe no est a disponimentu.</string>
-    <string name="fingerprint_error_timeout">Tempus pro s\'imprenta de pòddighe logradu. Torra a proare.</string>
     <string name="fingerprint_error_canceled">Operatzione de s\'imprenta de pòddighe annullada.</string>
-    <string name="fingerprint_error_lockout">Tropu tentativos. Torra·bi a proare.</string>
-    <string name="fingerprint_error_unable_to_process">Torra a proare.</string>
     <string name="fingerprint_error_security_update_required">Sensore disabilitadu in manera temporànea.</string>
     <string name="fingerprint_name_template">Pòddighe <xliff:g id="fingerId" example="1">%d</xliff:g></string>
     <string-array name="fingerprint_error_vendor"/>
@@ -1031,11 +1028,6 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="console_running_notification_message">Sa prestatzione est influentziada. Pro disabilitare, controlla su bootloader.</string>
     <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="fast_scroll_numeric_alphabet">\u00200123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
-    <string name="ext_media_ready_notification_message">Pro tràmudas de fotografias e cuntenutos multimediales</string>
-    <string name="ext_media_unsupported_notification_title">Non suportadu <xliff:g id="name" example="SD card">%s</xliff:g></string>
-    <string name="ext_media_unsupported_notification_title" product="automotive"><xliff:g id="name" example="SD card">%s</xliff:g> no est funtzionende</string>
-    <string name="ext_media_unsupported_notification_message">Custu dispositivu non suportat custa <xliff:g id="name" example="SD card">%s</xliff:g>. Toca pro impostare su formadu suportadu.</string>
-    <string name="ext_media_unsupported_notification_message" product="automotive">Dias pòdere dèpere torrare a formatare su dispositivu</string>
     <string name="ext_media_badremoval_notification_title"><xliff:g id="name" example="SD card">%s</xliff:g> bogadu in manera ispantosa</string>
     <string name="ext_media_unmounting_notification_message">Non boghes</string>
     <string name="ext_media_init_action">Imposta</string>
@@ -1250,9 +1242,11 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     </string>
     <string name="accessibility_shortcut_menu_item_status_on">ATIVU</string>
     <string name="accessibility_shortcut_menu_item_status_off">DISATIVADU</string>
+    <string name="accessibility_service_screen_control_title">Visualizatzione e controllu de s\'ischermu</string>
     <string name="accessibility_dialog_button_allow">Permite</string>
     <string name="accessibility_dialog_button_deny">Nega</string>
     <string name="done_accessibility_shortcut_menu_button">Fatu</string>
+    <string name="accessibility_button_prompt_text">Sèbera una funtzione de impreare cando tocas su butone de atzessibilidade:</string>
     <string name="user_switched">Utente atuale <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
     <string name="user_switching_message">Passende a <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
     <string name="owner_name" msgid="3879126011135546571">Mere</string>
@@ -1461,6 +1455,10 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="PERSOSUBSTATE_RUIM_RUIM_ENTRY">PIN de isblocu de sa RUIM</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_ENTRY">Inserta PUK</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_PUK_ENTRY">Inserta PUK</string>
+    <string name="PERSOSUBSTATE_RUIM_HRPD_PUK_ENTRY">Inserta PUK</string>
+    <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_ENTRY">Inserta PUK</string>
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_IN_PROGRESS">Rechesta de isblocu PUK\u2026</string>
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_PUK_ERROR">Errore in s\'isblocu PUK.</string>
     <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_ERROR">Errore in s\'isblocu PUK.</string>
     <string name="PERSOSUBSTATE_SIM_SIM_PUK_ERROR">Errore in s\'isblocu PUK.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_ERROR">Errore in s\'isblocu PUK.</string>

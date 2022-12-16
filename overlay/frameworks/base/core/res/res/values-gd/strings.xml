@@ -666,19 +666,14 @@
     <string name="biometric_not_recognized">Gun aithneachadh</string>
     <string name="biometric_error_canceled">Chaidh sgur dhen dearbhadh</string>
     <string name="biometric_error_device_not_secured">Cha deach PIN, pàtran no facal-faire a shuidheachadh</string>
-    <string name="fingerprint_acquired_insufficient">Cha b’ urrainn dhuinn an lorg-mheòir a phròiseasadh. Feuch ris a-rithist.</string>
     <string name="fingerprint_acquired_too_slow">Ghluais do mheur ro shlaodach. Feuch ris a-rithist.</string>
     <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_authenticated">Chaidh an lorg-mheòir a dhearbhadh</string>
     <string name="face_authenticated_no_confirmation_required">Chaidh an t-aodann a dhearbhadh</string>
     <string name="face_authenticated_confirmation_required">Chaidh an t-aodann a dhearbhadh, brùth air “Dearbh”</string>
     <string name="fingerprint_error_hw_not_available">Chan eil bathar-cruaidh luirge-meòir ri fhaighinn.</string>
-    <string name="fingerprint_error_timeout">Dh’fhalbh an ùine air an lorg-mheòir. Feuch ris a-rithist.</string>
     <string name="fingerprint_error_canceled">Chaidh sgur de dh’obrachadh na luirge-meòir.</string>
     <string name="fingerprint_error_user_canceled">Sguir cleachdaiche de ghnìomh an luirg-mheòir.</string>
-    <string name="fingerprint_error_lockout">Cus oidhirpean. Feuch ris a-rithist an ceann greis.</string>
-    <string name="fingerprint_error_lockout_permanent">Cus oidhirpean</string>
-    <string name="fingerprint_error_unable_to_process">Feuch ris a-rithist.</string>
     <string name="fingerprint_error_no_fingerprints">Cha deach lorg-mheòir sam bith a chlàradh.</string>
     <string name="fingerprint_error_hw_not_present">Chan eil mothaichear luirg-mheòir aig an uidheam seo.</string>
     <string name="fingerprint_error_security_update_required">Chaidh am mothaichear a chur à comas greis.</string>
@@ -1340,6 +1335,7 @@
     <string name="android_preparing_apk">Ag ullachadh <xliff:g id="appname">%1$s</xliff:g>.</string>
     <string name="android_upgrading_starting_apps">A’ tòiseachadh nan aplacaidean.</string>
     <string name="android_upgrading_complete">A’ crìochnachadh a’ bhùtaidh.</string>
+    <string name="fp_power_button_enrollment_button_text">Cuir dheth</string>
     <string name="fp_power_button_bp_negative_button">Lean air adhart</string>
     <string name="heavy_weight_notification">Tha <xliff:g id="app">%1$s</xliff:g> a’ ruith</string>
     <string name="heavy_weight_notification_detail">Thoir gnogag gus tilleadh dhan gheama</string>
@@ -1499,16 +1495,11 @@
     <string name="ext_media_new_notification_title" product="automotive">Chan eil <xliff:g id="name" example="SD card">%s</xliff:g> ag obair</string>
     <string name="ext_media_new_notification_message">Thoir gnogag gus a shuidheachadh</string>
     <string name="ext_media_new_notification_message" product="automotive">Dh’fhaoidte gum bi agad ris an uidheam ath-fhòrmatadh. Thoir gnogag gus a ghluasad a-mach.</string>
-    <string name="ext_media_ready_notification_message">A chùm dealbhan is meadhanan a thar-chur</string>
     <string name="ext_media_unmountable_notification_title">Tha duilgheadas le <xliff:g id="name" example="SD card">%s</xliff:g></string>
     <string name="ext_media_unmountable_notification_title" product="automotive">Chan eil <xliff:g id="name" example="SD card">%s</xliff:g> ag obair</string>
     <string name="ext_media_unmountable_notification_message">Thoir gnogag gus a chàradh</string>
     <string name="ext_media_unmountable_notification_message" product="tv">Tha <xliff:g id="name" example="SD card">%s</xliff:g> coirbte. Tagh airson càradh.</string>
     <string name="ext_media_unmountable_notification_message" product="automotive">Dh’fhaoidte gum bi agad ris an uidheam ath-fhòrmatadh. Thoir gnogag gus a ghluasad a-mach.</string>
-    <string name="ext_media_unsupported_notification_title">Chan eil taic ri <xliff:g id="name" example="SD card">%s</xliff:g></string>
-    <string name="ext_media_unsupported_notification_title" product="automotive">Chan eil <xliff:g id="name" example="SD card">%s</xliff:g> ag obair</string>
-    <string name="ext_media_unsupported_notification_message">Cha chuir an t-uidheam seo taic ris a’ <xliff:g id="name" example="SD card">%s</xliff:g> seo. Thoir gnogag gus a shuidheachadh ann am fòrmat ris a bheil taic.</string>
-    <string name="ext_media_unsupported_notification_message" product="automotive">Dh’fhaoidte gum bi agad ris an uidheam ath-fhòrmatadh</string>
     <string name="ext_media_badremoval_notification_title">Chaidh <xliff:g id="name" example="SD card">%s</xliff:g> a thoirt air falbh gun dùil</string>
     <string name="ext_media_badremoval_notification_message">Gluais a-mach am meadhan mus doir thu air falbh e ach nach caill thu susbaint</string>
     <string name="ext_media_nomedia_notification_title">Chaidh <xliff:g id="name" example="SD card">%s</xliff:g> a thoirt air falbh</string>
@@ -2036,6 +2027,7 @@
     <string name="country_selection_title">Prìomh-roinn-dùthcha</string>
     <string name="search_language_hint">Cuir a-steach ainm cànain</string>
     <string name="language_picker_section_suggested">Na mholamaid</string>
+    <string name="language_picker_regions_section_suggested">Na mholamaid</string>
     <string name="language_picker_section_all">Na h-uile cànan</string>
     <string name="region_picker_section_all">Na h-uile roinn-dùthcha</string>
     <string name="locale_search_menu">Lorg</string>

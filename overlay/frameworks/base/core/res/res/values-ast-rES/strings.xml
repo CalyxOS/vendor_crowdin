@@ -688,7 +688,6 @@
     <string name="biometric_not_recognized">Nun se reconoz</string>
     <string name="biometric_error_canceled">Encaboxóse l\'autenticación</string>
     <string name="biometric_error_device_not_secured">Nun s\'afitó nengún PIN, patrón o contraseña</string>
-    <string name="fingerprint_acquired_insufficient">Nun se pudo procesar la buelga. Volvi tentalo.</string>
     <string name="fingerprint_acquired_too_slow">El deu movióse perdespacio. Volvi tentalo.</string>
     <string name="fingerprint_acquired_already_enrolled">Prueba otra buelga</string>
     <string-array name="fingerprint_acquired_vendor"/>
@@ -696,12 +695,8 @@
     <string name="face_authenticated_no_confirmation_required">Autenticóse la cara</string>
     <string name="face_authenticated_confirmation_required">Autenticóse la cara, primi «Confirmar»</string>
     <string name="fingerprint_error_hw_not_available">El hardware de buelgues nun ta disponible.</string>
-    <string name="fingerprint_error_timeout">Escosó\'l tiempu d\'espera de la buelga. Volvi tentalo.</string>
     <string name="fingerprint_error_canceled">Encaboxóse la operación de buelga.</string>
     <string name="fingerprint_error_user_canceled">L\'usuariu encaboxó la operación de la buelga.</string>
-    <string name="fingerprint_error_lockout">Ficiéronse milenta intentos. Volvi tentalo.</string>
-    <string name="fingerprint_error_lockout_permanent">Ficiéronse milenta intentos. Inhabilitóse\'l sensor de buelgues.</string>
-    <string name="fingerprint_error_unable_to_process">Volvi tentalo.</string>
     <string name="fingerprint_error_no_fingerprints">Nun se rexistró nenguna buelga.</string>
     <string name="fingerprint_error_hw_not_present">Esti preséu nun tien nengún sensor de buelgues.</string>
     <string name="fingerprint_error_security_update_required">El sensor desactivóse temporalmente.</string>
@@ -1379,6 +1374,7 @@
     <string name="android_preparing_apk">Tresnando «<xliff:g id="appname">%1$s</xliff:g>».</string>
     <string name="android_upgrading_starting_apps">Aniciando les aplicaciones.</string>
     <string name="android_upgrading_complete">Finando l\'arrinque.</string>
+    <string name="fp_power_button_enrollment_button_text">Desactivar</string>
     <string name="fp_power_button_bp_negative_button">Siguir</string>
     <string name="heavy_weight_notification">«<xliff:g id="app">%1$s</xliff:g>» ta n\'execución</string>
     <string name="heavy_weight_notification_detail">Toca pa volver al xuegu</string>
@@ -1541,16 +1537,11 @@
     <string name="ext_media_new_notification_title" product="automotive">«<xliff:g id="name" example="SD card">%s</xliff:g>» nun funciona</string>
     <string name="ext_media_new_notification_message">Toca pa configurar</string>
     <string name="ext_media_new_notification_message" product="automotive">Quiciabes tengas de volver formatiar el preséu. Toca pa espulsalu.</string>
-    <string name="ext_media_ready_notification_message">Pa tresferir ficheros multimedia</string>
     <string name="ext_media_unmountable_notification_title">Hai problemes con «<xliff:g id="name" example="SD card">%s</xliff:g>»</string>
     <string name="ext_media_unmountable_notification_title" product="automotive">«<xliff:g id="name" example="SD card">%s</xliff:g>» nun funciona</string>
     <string name="ext_media_unmountable_notification_message">Toca pa igualu</string>
     <string name="ext_media_unmountable_notification_message" product="tv">El mediu «<xliff:g id="name" example="SD card">%s</xliff:g>» ta toyíu. Esbilla esti avisu pa igualu.</string>
     <string name="ext_media_unmountable_notification_message" product="automotive">Quiciabes tengas de volver formatiar el preséu. Toca pa espulsalu.</string>
-    <string name="ext_media_unsupported_notification_title">«<xliff:g id="name" example="SD card">%s</xliff:g>» nun ye compatible</string>
-    <string name="ext_media_unsupported_notification_title" product="automotive">«<xliff:g id="name" example="SD card">%s</xliff:g>» nun funciona</string>
-    <string name="ext_media_unsupported_notification_message">Esti preséu nun ye compatible col mediu «<xliff:g id="name" example="SD card">%s</xliff:g>». Toca pa configuralu con un formatu compatible.</string>
-    <string name="ext_media_unsupported_notification_message" product="automotive">Quiciabes tengas de volver formatiar el preséu</string>
     <string name="ext_media_badremoval_notification_title">«<xliff:g id="name" example="SD card">%s</xliff:g>» estráxose inesperadamente</string>
     <string name="ext_media_badremoval_notification_message">Espulsa\'l mediu enantes d\'estrayelu pa evitar la perda del conteníu</string>
     <string name="ext_media_nomedia_notification_title">Estráxose\'l mediu «<xliff:g id="name" example="SD card">%s</xliff:g>»</string>
@@ -2095,6 +2086,7 @@
     <string name="country_selection_title">Preferencia rexonal</string>
     <string name="search_language_hint">Nome de la llingua</string>
     <string name="language_picker_section_suggested">Suxerse</string>
+    <string name="language_picker_regions_section_suggested">Suxerse</string>
     <string name="language_picker_section_all">Toles llingües</string>
     <string name="region_picker_section_all">Toles rexones</string>
     <string name="locale_search_menu">Buscar</string>

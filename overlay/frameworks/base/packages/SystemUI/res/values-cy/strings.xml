@@ -118,9 +118,6 @@
     <string name="accessibility_lock_icon">Dyfais dan glo</string>
     <string name="accessibility_scanning_face">Sganio wyneb</string>
     <string name="accessibility_send_smart_reply">Anfon</string>
-    <string name="phone_label">agor y ffôn</string>
-    <string name="voice_assist_label">agor cymorth llais</string>
-    <string name="camera_label">agor y camera</string>
     <string name="cancel">Diddymu</string>
     <string name="biometric_dialog_confirm">Cadarnhau</string>
     <string name="biometric_dialog_try_again">Ceisio eto</string>
@@ -193,14 +190,6 @@
     <string name="accessibility_sensors_off_active">Synhwyryddion i ffwrdd ar waith</string>
     <string name="accessibility_clear_all">Clirio pob hysbysiad.</string>
     <string name="notification_group_overflow_indicator">+ <xliff:g id="number" example="3">%s</xliff:g></string>
-    <plurals name="notification_group_overflow_description">
-        <item quantity="zero"><xliff:g id="number" example="3">%s</xliff:g> rhagor o hysbysiadau tu fewn.</item>
-        <item quantity="one"><xliff:g id="number" example="3">%s</xliff:g> hysbysiad arall tu fewn.</item>
-        <item quantity="two"><xliff:g id="number" example="3">%s</xliff:g> hysbysiad arall tu fewn.</item>
-        <item quantity="few"><xliff:g id="number" example="3">%s</xliff:g> hysbysiad arall tu fewn.</item>
-        <item quantity="many"><xliff:g id="number" example="3">%s</xliff:g> hysbysiad arall tu fewn.</item>
-        <item quantity="other"><xliff:g id="number" example="3">%s</xliff:g> hysbysiad arall tu fewn.</item>
-    </plurals>
     <string name="accessibility_rotation_lock_on_landscape">Mae\'r sgrin wedi\'i chloi yn y gorweddiad tirwedd.</string>
     <string name="accessibility_rotation_lock_on_portrait">Mae\'r sgrin wedi\'i chloi yn y gorweddiad darlun.</string>
     <string name="dessert_case">Cyflwyniad Pwdinau</string>
@@ -218,6 +207,7 @@
     <string name="quick_settings_rotation_unlocked_label">Troi yn Awtomatig</string>
     <string name="accessibility_quick_settings_rotation">Troi\'r sgrin yn awtomatig</string>
     <string name="quick_settings_location_label">Lleoliad</string>
+    <string name="quick_settings_screensaver_label">Arbedwr sgrin</string>
     <string name="quick_settings_camera_label">Mynediad at gamera</string>
     <string name="quick_settings_mic_label">Mynediad at ficroffon</string>
     <string name="quick_settings_camera_mic_available">Ar gael</string>
@@ -247,14 +237,6 @@
     <string name="quick_settings_hotspot_label">Llecyn Wi-Fi</string>
     <string name="quick_settings_hotspot_secondary_label_transient">Yn troi ymlaen…</string>
     <string name="quick_settings_hotspot_secondary_label_data_saver_enabled">Arbedwr Data ar waith</string>
-    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
-        <item quantity="zero">%d dyfeisiau</item>
-        <item quantity="one">%d dyfais</item>
-        <item quantity="two">%d ddyfais</item>
-        <item quantity="few">%d dyfais</item>
-        <item quantity="many">%d dyfais</item>
-        <item quantity="other">%d dyfais</item>
-    </plurals>
     <string name="quick_settings_flashlight_label">Fflacholau</string>
     <string name="quick_settings_flashlight_camera_in_use">Camera yn cael ei ddefnyddio</string>
     <string name="quick_settings_cellular_detail_title">Data symudol</string>
@@ -330,14 +312,6 @@
     <string name="guest_wipe_session_wipe">Dechrau eto</string>
     <string name="guest_wipe_session_dontwipe">Ydw, parhau</string>
     <string name="user_limit_reached_title">Terfyn defnyddwyr wedi\'i gyrraedd</string>
-    <plurals name="user_limit_reached_message">
-        <item quantity="zero">Gellir ychwanegu <xliff:g id="count" example="3">%d</xliff:g> mwy o ddefnyddwyr.</item>
-        <item quantity="one">Gellir ychwanegu dim ond un defnyddiwr.</item>
-        <item quantity="two">Gellir ychwanegu hyd at <xliff:g id="count" example="3">%d</xliff:g> ddefnyddiwr.</item>
-        <item quantity="few">Gellir ychwanegu hyd at <xliff:g id="count" example="3">%d</xliff:g> defnyddiwr.</item>
-        <item quantity="many">Gellir ychwanegu hyd at <xliff:g id="count" example="3">%d</xliff:g> defnyddiwr.</item>
-        <item quantity="other">Gellir ychwanegu hyd at <xliff:g id="count" example="3">%d</xliff:g> defnyddiwr.</item>
-    </plurals>
     <string name="user_remove_user_title">Tynnu defnyddiwr?</string>
     <string name="user_remove_user_message">Caiff holl apiau a data\'r defnyddiwr hwn eu dileu.</string>
     <string name="user_remove_user_remove">Tynnu</string>
@@ -397,6 +371,7 @@
     <string name="volume_odi_captions_content_description">Troshaen isdeitlau</string>
     <string name="volume_odi_captions_hint_enable">galluogi</string>
     <string name="volume_odi_captions_hint_disable">analluogi</string>
+    <string name="volume_panel_dialog_settings_button">Gosodiadau</string>
     <string name="screen_pinning_title">Ap wedi\'i binio</string>
     <string name="screen_pinning_description">Mae hyn yn ei chadw mewn golwg nes dy fod yn ei dadbinio. Cyffyrdda a dal Nôl a Throsolwg i\'w dadbinio.</string>
     <string name="screen_pinning_description_recents_invisible">Mae hyn yn ei chadw mewn golwg nes dy fod yn ei dadbinio. Cyffyrdda a dal Nôl a Cartref i\'w dadbinio.</string>
@@ -537,22 +512,6 @@
     <string name="notification_menu_snooze_action">Atgoffa fi</string>
     <string name="snooze_undo">Dad-wneud</string>
     <string name="snoozed_for_time">Ar oediad am <xliff:g id="time_amount" example="15 minutes">%1$s</xliff:g></string>
-    <plurals name="snoozeHourOptions">
-        <item quantity="zero">%d oriau</item>
-        <item quantity="one">%d awr</item>
-        <item quantity="two">%d awr</item>
-        <item quantity="few">%d awr</item>
-        <item quantity="many">%d awr</item>
-        <item quantity="other">%d awr</item>
-    </plurals>
-    <plurals name="snoozeMinuteOptions">
-        <item quantity="zero">%d munudau</item>
-        <item quantity="one">%d munud</item>
-        <item quantity="two">%d funud</item>
-        <item quantity="few">%d munud</item>
-        <item quantity="many">%d munud</item>
-        <item quantity="other">%d munud</item>
-    </plurals>
     <string name="battery_detail_switch_title">Arbedwr Batri</string>
     <string name="keyboard_key_button_template">Botwm <xliff:g id="name">%1$s</xliff:g></string>
     <string name="keyboard_key_home">Cartref</string>
@@ -608,7 +567,6 @@
     <string name="switch_bar_on">Ymlaen</string>
     <string name="switch_bar_off">I ffwrdd</string>
     <string name="tile_unavailable">Ddim ar gael</string>
-    <string name="tile_disabled">Analluogwyd</string>
     <string name="nav_bar">Bar llywio</string>
     <string name="nav_bar_layout">Gosodiad</string>
     <string name="left_nav_bar_button_type">Math botwm chwith ychwanegol</string>
@@ -681,8 +639,6 @@
     <string name="high_temp_notif_message">Mae rhai nodweddion yn gyfyngedig tra bo\'r ffôn yn oeri.\nTapia am fwy o wybodaeth</string>
     <string name="high_temp_dialog_message">Bydd y ffôn yn ceisio oeri yn awtomatig. Mi fydd dal yn bosib defnyddio dy ffôn, ond mae\'n debyg y bydd yn rhedeg yn arafach.\n\nUnwaith y bydd wedi oeri digon, mi fydd yn rhedeg fel arfer.</string>
     <string name="high_temp_dialog_help_text">Gweler y camau gofal</string>
-    <string name="high_temp_alarm_title">Datgysyllta\u2019r gwefrydd</string>
-    <string name="high_temp_alarm_notify_message">Mae yna broblem wrth wefru\u2019r ddyfais hon. Datgysyllta\u2019r pŵer, gan gymryd gofal rhag ofn bod y wifren yn gynnes.</string>
     <string name="high_temp_alarm_help_care_steps">Gweler y camau gofal</string>
     <string name="lockscreen_shortcut_left">Llwybr byr chwith</string>
     <string name="lockscreen_shortcut_right">Llwybr byr dde</string>
@@ -701,7 +657,7 @@
     <string name="notification_channel_alerts">Rhybuddion</string>
     <string name="notification_channel_battery">Batri</string>
     <string name="notification_channel_screenshot">Sgrinluniau</string>
-    <string name="notification_channel_general">Negeseuon Cyffredinol</string>
+    <string name="notification_channel_instant">Apiau ar Unwaith</string>
     <string name="notification_channel_storage">Storfa</string>
     <string name="notification_channel_hints">Awgrymiadau</string>
     <string name="instant_apps">Apiau ar Unwaith</string>
@@ -775,14 +731,6 @@
     <string name="accessibility_floating_button_action_double_tap_to_toggle">toglo</string>
     <string name="quick_controls_title">Rheolyddion dyfeisiau</string>
     <string name="controls_providers_title">Dewis ap i ychwanegu rheolyddion</string>
-    <plurals name="controls_number_of_favorites">
-        <item quantity="zero"><xliff:g id="number" example="3">%s</xliff:g> rheolydd wedi\'u hychwanegu.</item>
-        <item quantity="one"><xliff:g id="number" example="1">%s</xliff:g> rheolydd wedi\'u hychwanegu.</item>
-        <item quantity="two"><xliff:g id="number" example="3">%s</xliff:g> rheolydd wedi\'u hychwanegu.</item>
-        <item quantity="few"><xliff:g id="number" example="3">%s</xliff:g> rheolydd wedi\'u hychwanegu.</item>
-        <item quantity="many"><xliff:g id="number" example="3">%s</xliff:g> rheolydd wedi\'u hychwanegu.</item>
-        <item quantity="other"><xliff:g id="number" example="3">%s</xliff:g> rheolydd wedi\'u hychwanegu.</item>
-    </plurals>
     <string name="controls_removed">Tynnwyd</string>
     <string name="accessibility_control_favorite">Ffefrynwyd</string>
     <string name="accessibility_control_favorite_position">Ffefrynwyd, safle <xliff:g id="number" example="1">%d</xliff:g></string>
@@ -845,7 +793,6 @@
     <string name="media_output_dialog_single_device">Dewiswyd 1 ddyfais</string>
     <string name="media_output_dialog_multiple_devices"><xliff:g id="count" example="2">%1$d</xliff:g> dyfais wedi\'u dewis</string>
     <string name="media_output_dialog_disconnected">(wedi datgysylltu)</string>
-    <string name="media_output_dialog_pairing_new">Paru â dyfais newydd</string>
     <string name="media_output_dialog_unknown_launch_app_name">Ap anhysbys</string>
     <string name="media_output_dialog_button_stop_casting">Stopio taflu</string>
     <string name="media_output_dialog_accessibility_seekbar">Uchder sain</string>

@@ -99,9 +99,6 @@
     <string name="accessibility_unlock_button">Desbloquiar</string>
     <string name="accessibility_scanning_face">Escaniando la cara</string>
     <string name="accessibility_send_smart_reply">Unviar</string>
-    <string name="phone_label">abrir el teléfonu</string>
-    <string name="voice_assist_label">abrir l\'asistencia per voz</string>
-    <string name="camera_label">abrir la cámara</string>
     <string name="cancel">Encaboxar</string>
     <string name="biometric_dialog_confirm">Confirmar</string>
     <string name="biometric_dialog_try_again">Retentar</string>
@@ -172,10 +169,6 @@
     <string name="accessibility_sensors_off_active">Activóse «Desactivar los sensores»</string>
     <string name="accessibility_clear_all">Quitar tolos avisos.</string>
     <string name="notification_group_overflow_indicator">+ <xliff:g id="number" example="3">%s</xliff:g></string>
-    <plurals name="notification_group_overflow_description">
-        <item quantity="one"><xliff:g id="number" example="1">%s</xliff:g> avisu más nel interior.</item>
-        <item quantity="other"><xliff:g id="number" example="3">%s</xliff:g> avisos más nel interior.</item>
-    </plurals>
     <string name="accessibility_rotation_lock_on_landscape">La pantalla ta bloquiada na orientación horizontal.</string>
     <string name="accessibility_rotation_lock_on_portrait">La pantalla ta bloquiada na orientación vertical.</string>
     <string name="dessert_case">Caxa pa postres</string>
@@ -193,6 +186,7 @@
     <string name="quick_settings_rotation_unlocked_label">Voltéu automáticu</string>
     <string name="accessibility_quick_settings_rotation">Voltéu de pantalla automáticu</string>
     <string name="quick_settings_location_label">Llocalización</string>
+    <string name="quick_settings_screensaver_label">Curiapantalles</string>
     <string name="quick_settings_media_device_label">Preséu multimedia</string>
     <string name="quick_settings_user_title">Usuariu</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
@@ -212,10 +206,6 @@
     <string name="quick_settings_hotspot_label">Puntu Wi-Fi</string>
     <string name="quick_settings_hotspot_secondary_label_transient">Activando…</string>
     <string name="quick_settings_hotspot_secondary_label_data_saver_enabled">L\'aforrador de datos ta activáu</string>
-    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
-        <item quantity="one">%d preséu</item>
-        <item quantity="other">%d preseos</item>
-    </plurals>
     <string name="quick_settings_flashlight_label">Llinterna</string>
     <string name="quick_settings_flashlight_camera_in_use">Cámara n\'usu</string>
     <string name="quick_settings_cellular_detail_title">Datos móviles</string>
@@ -271,10 +261,6 @@ prioridá</string>
     <string name="guest_wipe_session_wipe">Volver comenzar</string>
     <string name="guest_wipe_session_dontwipe">Sí, siguir</string>
     <string name="user_limit_reached_title">Algamóse la llende d\'usuarios</string>
-    <plurals name="user_limit_reached_message">
-        <item quantity="one">Namás se pue crear un usuariu.</item>
-        <item quantity="other">Pues amestar hasta <xliff:g id="count" example="3">%d</xliff:g> usuarios.</item>
-    </plurals>
     <string name="user_remove_user_title">¿Quies quitar l\'usuariu?</string>
     <string name="user_remove_user_message">Van desaniciase toles aplicaciones y tolos datos d\'esti usuariu.</string>
     <string name="user_remove_user_remove">Quitar</string>
@@ -321,6 +307,7 @@ prioridá</string>
     <string name="volume_odi_captions_content_description">Superposición de sotítulos</string>
     <string name="volume_odi_captions_hint_enable">activar</string>
     <string name="volume_odi_captions_hint_disable">desactivar</string>
+    <string name="volume_panel_dialog_settings_button">Axustes</string>
     <string name="screen_pinning_title">L\'aplicación ta fixada</string>
     <string name="screen_pinning_description">Va siguir na vista hasta que lliberes la pantalla. Pa facelo, ten primíos al empar los botones «Atrás» y «Vista xeneral».</string>
     <string name="screen_pinning_description_recents_invisible">Va siguir na vista hasta que lliberes la pantalla. Pa facelo, ten primíos al empar los botones «Atrás» y «Aniciu».</string>
@@ -438,14 +425,6 @@ prioridá</string>
     <string name="notification_menu_snooze_action">Acordase</string>
     <string name="snooze_undo">Desfacer</string>
     <string name="snoozed_for_time">Aplazóse <xliff:g id="time_amount" example="15 minutes">%1$s</xliff:g></string>
-    <plurals name="snoozeHourOptions">
-        <item quantity="one">%d hora</item>
-        <item quantity="other">%d hores</item>
-    </plurals>
-    <plurals name="snoozeMinuteOptions">
-        <item quantity="one">%d minutu</item>
-        <item quantity="other">%d minutos</item>
-    </plurals>
     <string name="battery_detail_switch_title">Aforrador d\'enerxía</string>
     <string name="keyboard_key_button_template">Botón «<xliff:g id="name">%1$s</xliff:g>»</string>
     <string name="keyboard_key_home">Aniciu</string>
@@ -568,8 +547,6 @@ prioridá</string>
     <string name="high_temp_notif_message">Dalgunes funciones puen tar llendaes mentanto\'l teléfonu esfrez.\nToca pa consiguir más información</string>
     <string name="high_temp_dialog_message">El teléfonu va tentar d\'esfrecese automáticamente. Vas poder siguir usando\'l preséu mas pue funcionar más lentu.\n\nNamás que\'l telefonu esfreza, va funcionar con normalidá.</string>
     <string name="high_temp_dialog_help_text">Ver los pasos de curiáu</string>
-    <string name="high_temp_alarm_title">Desconecta\'l cargador</string>
-    <string name="high_temp_alarm_notify_message">Hai un problema al cargar esti preséu. Desconecta l\'adautador de corriente y ten curiáu darréu que\'l cable pue tar caliente.</string>
     <string name="high_temp_alarm_help_care_steps">Ver los pasos de curiáu</string>
     <string name="lockscreen_shortcut_left">Atayu de la esquierda</string>
     <string name="lockscreen_shortcut_right">Atayu de la derecha</string>
@@ -588,7 +565,7 @@ prioridá</string>
     <string name="notification_channel_alerts">Alertes</string>
     <string name="notification_channel_battery">Batería</string>
     <string name="notification_channel_screenshot">Captures de pantalla</string>
-    <string name="notification_channel_general">Mensaxes xenerales</string>
+    <string name="notification_channel_instant">Aplicaciones instantánees</string>
     <string name="notification_channel_storage">Almacenamientu</string>
     <string name="notification_channel_hints">Suxerencies</string>
     <string name="instant_apps">Aplicaciones instantánees</string>
@@ -639,10 +616,6 @@ prioridá</string>
     <string name="accessibility_floating_button_action_move_bottom_right">Mover p\'abaxo a la derecha</string>
     <string name="quick_controls_title">Controles de preseos</string>
     <string name="controls_providers_title">Escueyi una aplicación p\'amestar controles</string>
-    <plurals name="controls_number_of_favorites">
-        <item quantity="one">Amestóse <xliff:g id="number" example="1">%s</xliff:g> control.</item>
-        <item quantity="other">Amestáronse <xliff:g id="number" example="3">%s</xliff:g> controles.</item>
-    </plurals>
     <string name="controls_removed">Quitóse</string>
     <string name="accessibility_control_favorite">Amestóse a Favoritos</string>
     <string name="accessibility_control_favorite_position">Amestóse a Favoritos, posición <xliff:g id="number" example="1">%d</xliff:g></string>
@@ -692,7 +665,6 @@ prioridá</string>
     <string name="media_output_dialog_group">Grupu</string>
     <string name="media_output_dialog_single_device">Esbillóse 1 preséu</string>
     <string name="media_output_dialog_multiple_devices">Esbilláronse <xliff:g id="count" example="2">%1$d</xliff:g> preseos</string>
-    <string name="media_output_dialog_pairing_new">Empareyamientu d\'un preséu nuevu</string>
     <string name="media_output_broadcast_dialog_save">Guardar</string>
     <string name="select_conversation_title">Widgets de conversación</string>
     <string name="priority_conversations">Conversaciones con prioridá</string>

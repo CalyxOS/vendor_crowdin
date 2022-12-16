@@ -332,7 +332,7 @@
     <string name="security_settings_face_enroll_introduction_more">Barrachd</string>
     <string name="security_settings_face_enroll_introduction_title">Thoir a’ ghlas dheth le d’ aodann</string>
     <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Cleachd d’ aonan a chùm dearbhaidh</string>
-    <string name="security_settings_face_enroll_introduction_message">Cleachd d’ aodann airson a’ ghlas a thoirt far an uidheim agad, ceannachdan ùghdarrachadh no clàradh a-steach gu aplacaidean.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Cleachd d’ aodann airson a’ ghlas a thoirt far an uidheim agad, ceannachdan ùghdarrachadh no clàradh a-steach gu aplacaidean.</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled">Cleachd d’ aodann airson a’ ghlas a thoirt far an fhòn agad no ceannachdan a dhearbhadh.\n\nAn aire: Chan urrainn dhut d’ aodann a chleachdadh airson a’ ghlas a thoirt far an uidheim seo. Cuir fios gu rianaire a’ bhuidhinn agad airson barrachd fiosrachaidh.</string>
     <string name="security_settings_face_enroll_introduction_message_setup">Cleachd d’ aodann airson a’ ghlas a thoirt far an uidheim agad, ceannachdan ùghdarrachadh no clàradh a-steach gu aplacaidean</string>
     <string name="security_settings_face_enroll_repeat_title">Cuir d’ aodann am meadhan a’ chearcaill</string>
@@ -381,6 +381,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_content_description">Sgead-dhealbh le uidheam agus an t-ionad aig mothaichear nan lorgan-meòir</string>
     <string name="security_settings_fingerprint_enroll_dialog_name_label">Ainm</string>
     <string name="security_settings_fingerprint_enroll_dialog_ok">Ceart ma-thà</string>
+    <string name="security_settings_fingerprint_enroll_dialog_try_again">Feuch ris a‑rithist</string>
     <string name="security_settings_fingerprint_enroll_dialog_delete">Sguab às</string>
     <string name="security_settings_fingerprint_enroll_start_title">Suath ris a’ mhothaichear</string>
     <string name="security_settings_fingerprint_enroll_start_message">Cuir do chorrag air a’ mhothaichear is tog e às dèidh crith fhaireachdainn</string>
@@ -398,8 +399,6 @@
     <string name="security_settings_fingerprint_enroll_done">Deiseil</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">Iochd, chan e sin am mothaichear</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_message">Suath ris a’ mhothaichear air cùlaibh an fhòn agad. Cleachd do sgealbag.</string>
-    <string name="security_settings_fingerprint_enroll_error_dialog_title">Cha deach an clàradh a choileanadh</string>
-    <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message">Dh’fhalbh an ùine air clàradh na luirge-meòir. Feuch ris a-rithist.</string>
     <string name="security_settings_fingerprint_enroll_error_generic_dialog_message">Cha deach le clàradh na luirge-meòir. Feuch ris a-rithist no cleachd corrag eile.</string>
     <string name="fingerprint_enroll_button_add">Cuir tè eile ris</string>
     <string name="fingerprint_enroll_button_next">Air adhart</string>
@@ -409,7 +408,6 @@
     <string name="fingerprint_intro_error_max">Chuir thu na tha ceadaichte de lorgan-meòir ris</string>
     <string name="fingerprint_intro_error_unknown">Chan urrainn dhut barrachd lorgan-meòir a chur ris</string>
     <string name="fingerprint_last_delete_title">An doir thu air falbh a h-uile lorg-mheòir?</string>
-    <string name="fingerprint_delete_title">Thoir air falbh “<xliff:g id="fingerprint_id" example="Fingerprint 2">%1$s</xliff:g>”</string>
     <string name="fingerprint_delete_message">A bheil thu airson</string>
     <string name="fingerprint_last_delete_confirm">Bheir mi air falbh iad</string>
     <string name="encryption_settings_title">Crioptachadh</string>
@@ -1160,15 +1158,12 @@
     <string name="style_suggestion_summary">Cleachd stoidhlean eadar-dhealaichte, pàipearan-balla is a bharrachd</string>
     <string name="screensaver_settings_title">Sàbhalaiche-sgrìn</string>
     <string name="screensaver_settings_summary_either_long">Rè teàirrdseadh no docadh</string>
-    <string name="screensaver_settings_summary_either_short">An dà chuid</string>
     <string name="screensaver_settings_summary_sleep">Rè teàirrdsidh</string>
     <string name="screensaver_settings_summary_dock">Nuair a bhios e docaichte</string>
     <string name="screensaver_settings_summary_never">Chan ann idir</string>
     <string name="screensaver_settings_summary_off">Dheth</string>
-    <string name="screensaver_settings_disabled_prompt">Airson stiùireadh na thachras nuair a thèid am fòn a docadh agus/no a chur ’na chadal, cuir an sàbhalaiche-sgrìn air.</string>
     <string name="screensaver_settings_when_to_dream">Cuin a thòisicheas e</string>
     <string name="screensaver_settings_current">An sàbhalaiche-sgrìn làithreach</string>
-    <string name="screensaver_settings_button">Roghainnean</string>
     <string name="automatic_brightness">Soilleireachd fhèin-obrachail</string>
     <string name="lift_to_wake_title">Tog airson a dhùsgadh</string>
     <string name="ambient_display_screen_title">Taisbeanadh cuairteach</string>
@@ -1328,9 +1323,8 @@
     <string name="storage_menu_rename">Thoir ainm ùr air</string>
     <string name="storage_menu_mount">Munntaich</string>
     <string name="storage_menu_unmount">Gluais a-mach</string>
-    <string name="storage_menu_format">Fòrmataich</string>
     <string name="storage_menu_format_public">Fòrmat mar stòras so-ghiùlan</string>
-    <string name="storage_menu_format_private">Fòrmataich stòras inntearnail</string>
+    <string name="storage_menu_format_option">Fòrmataich</string>
     <string name="storage_menu_migrate">Imrich dàta</string>
     <string name="storage_menu_forget">Dìochuimhnich</string>
     <string name="storage_menu_set_up">Suidhich</string>
@@ -1361,12 +1355,6 @@
 \n\nAirson <xliff:g id="name" example="SD card">^1</xliff:g> a chleachdadh, feumaidh tu a mhunntachadh an toiseach.</string>
     <string name="storage_dialog_unmountable">Tha <xliff:g id="name" example="SD card">^1</xliff:g> coirbte.
 \n\nAirson <xliff:g id="name" example="SD card">^1</xliff:g> a chleachdadh, feumaidh tu a shuidheachadh an toiseach.</string>
-    <string name="storage_internal_format_details">Nuair a bhios tu air fhòrmatadh, ’s urrainn dhut <xliff:g id="name" example="SD card">^1</xliff:g> a chleachdadh ann an uidheaman eile.
-\n\nThèid dàta sam bith air <xliff:g id="name" example="SD card">^1</xliff:g> a shuathadh bàn. Saoil an dèan thu lethbhreac-glèidhidh dheth an toiseach?
-\n\n<b>Dèan lethbhreac-glèidhidh dhe na dealbhan ⁊ meadhanan eile</b>
-\nGluais na faidhlichean meadhain agad gu stòras eile air an uidheam seo no tar-chuir gu coimpiutair iad le càball USB.
-\n\n<b>Dèan lethbhreac-glèidhidh dhe na h-aplacaidean</b>
-\nThèid aplacaid sam bith a chaidh a stòradh air <xliff:g id="name" example="SD card">^1</xliff:g> a dhì-stàladh agus an dàta aca a shuathadh bàn. Airson na h-aplacaidean seo a chumail, gluais gu stòras eile air an uidheam seo iad.</string>
     <string name="storage_internal_unmount_details"><b>Nuair a ghluaiseas tu a-mach <xliff:g id="name" example="SD card">^1</xliff:g>, chan obraich na h-aplacaidean a tha ’gan stòradh air tuilleadh agus cha bhi na meadhanan a tha ’gan stòradh air ri làimh dhut mus cuir thu a-steach e a-rithist.</b>
 \n\nChaidh <xliff:g id="name" example="SD card">^1</xliff:g> fhòrmatadh air dòigh nach gabh a chleachdadh ach air an uidheam seo. Chan obraich e air uidheam sam bith eile.</string>
     <string name="storage_internal_forget_details">Airson na h-aplacaidean, na dealbhan no an dàta a th’ air <xliff:g id="name" example="SD card">^1</xliff:g> a chleachdadh, cuir a-steach e a-rithist.
@@ -1377,10 +1365,6 @@
     <string name="storage_internal_forget_confirm">Thèid aplacaidean, dealbhan is dàta sam bith a chaidh a stòradh air<xliff:g id="name" example="SD card">^1</xliff:g> air chall gu buan.</string>
     <string name="storage_detail_dialog_system">Tha an siostam a’ gabhail a-staigh faidhlichean airson tionndadh <xliff:g id="version" example="8.0">%s</xliff:g> de dh’Android a ruith</string>
     <string name="storage_wizard_init_title">Suidhich <xliff:g id="name" example="SD card">^1</xliff:g></string>
-    <string name="storage_wizard_init_external_title">Cleachd ’na stòras so-ghiùlan</string>
-    <string name="storage_wizard_init_external_summary">Airson dealbhan is meadhanan eile a ghluasad o uidheam gu uidheam.</string>
-    <string name="storage_wizard_init_internal_title">Cleachd ’na stòras inntearnail</string>
-    <string name="storage_wizard_init_internal_summary">Airson rud sam bith a stòradh air an uidheam seo a-mhàin, a’ gabhail a-staigh aplacaidean is dealbhan. Bidh feum air fòrmatadh a chuireas bacadh air a chleachdadh ann an uidheam sam bith eile.</string>
     <string name="storage_wizard_format_confirm_title">Fòrmataich mar stòras inntearnail</string>
     <string name="storage_wizard_format_confirm_body">Feumaidh thu <xliff:g id="name" example="SD card">^1</xliff:g> fhòrmatadh airson a dhèanamh tèarainte.
 \n\nNuair a bhios tu air fhòrmatadh, chan obraich <xliff:g id="name" example="SD card">^1</xliff:g> ach air an uidheam seo.
@@ -1407,11 +1391,6 @@
 \n\u2022 Chan obraich cuid dhe na h-aplacaidean mar bu chòir.
 \n\u2022 Cùm teàirrds air an uidheam.
     </string>
-    <string name="storage_wizard_ready_title">Tha <xliff:g id="name" example="SD card">^1</xliff:g> deis ri chleachdadh</string>
-    <string name="storage_wizard_ready_external_body">Tha <xliff:g id="name" example="SD card">^1</xliff:g> deis ri chleachdadh le dealbhan is meadhanan eile.</string>
-    <string name="storage_wizard_ready_internal_body">Tha <xliff:g id="name" example="SD card">^1</xliff:g> ag obair.
-\n\nAirson dealbhan, faidhlichean is dàta aplacaidean a ghluasad dhan uidheam ùr seo, rac gu “Roghainnean” &gt; “An stòras”.
-    </string>
     <string name="storage_wizard_move_confirm_title">Gluais <xliff:g id="app" example="Calculator">^1</xliff:g></string>
     <string name="storage_wizard_move_confirm_body">Cha doir e ach greiseag <xliff:g id="app" example="Calculator">^1</xliff:g> ’s an dàta aige a ghluasad gu <xliff:g id="name" example="SD card">^2</xliff:g>. Chan urrainn dhuit an aplacaid a chleachdadh gus am bi an gluasad deiseil.
 \n\nNa doir air falbh <xliff:g id="name" example="SD card">^2</xliff:g> rè a’ ghluasaid.
@@ -1426,16 +1405,10 @@
 \n\n’S urrainn dhut leantainn air adhart ach tha sinn an dùil gum bi na h-aplacaidean a ghluaiseas tu dhan uidheam seo stadach agus gun doir tar-chur dàta ùine mhòr.
 \n\nSaoil an cleachd thu <xliff:g id="name" example="SD card">^1</xliff:g> as luaithe airson dèanadas as fheàrr?</string>
     <string name="storage_wizard_init_v2_title">Ciamar a chleachdas tu a’ <xliff:g id="name" example="SD card">^1</xliff:g> seo?</string>
-    <string name="storage_wizard_init_v2_internal_title" product="tablet">Cleachd airson stòras tablaid a bharrachd</string>
-    <string name="storage_wizard_init_v2_internal_summary" product="tablet">Airson aplacaidean, faidhlichean is meadhanan air an tablaid seo a-mhàin</string>
-    <string name="storage_wizard_init_v2_internal_action" product="tablet">Stòras tablaid</string>
-    <string name="storage_wizard_init_v2_internal_title" product="default">Cleachd airson stòras fòn a bharrachd</string>
-    <string name="storage_wizard_init_v2_internal_summary" product="default">Airson aplacaidean, faidhlichean is meadhanan air an fhòn seo a-mhàin</string>
-    <string name="storage_wizard_init_v2_internal_action" product="default">Stòras an fhòn</string>
+    <string name="storage_wizard_init_v2_internal_action" product="tablet">Fòrmataich</string>
+    <string name="storage_wizard_init_v2_internal_action" product="default">Fòrmataich</string>
     <string name="storage_wizard_init_v2_or">No</string>
-    <string name="storage_wizard_init_v2_external_title">Cleachd airson stòras so-ghiùlan</string>
-    <string name="storage_wizard_init_v2_external_summary">Airson faidhlichean is meadhanan a thar-chur eadar uidheaman</string>
-    <string name="storage_wizard_init_v2_external_action">Stòras so-ghiùlan</string>
+    <string name="storage_wizard_init_v2_external_action">Fòrmataich</string>
     <string name="storage_wizard_init_v2_later">Suidhich uaireigin eile e</string>
     <string name="storage_wizard_format_confirm_v2_title">A bheil thu airson a’ <xliff:g id="name" example="SD card">^1</xliff:g> seo fhòrmatadh?</string>
     <string name="storage_wizard_format_confirm_v2_body">Tha <xliff:g id="name" example="SanDisk SD card">^1</xliff:g> feumach air fòrmatadh airson aplacaidean, faidhlichean is meadhanan a stòradh air.
@@ -1460,10 +1433,6 @@
 \n\nFeuch an cleachd thu <xliff:g id="name" example="SD card">^3</xliff:g> nas luaithe no gun cleachd thu a’ <xliff:g id="name" example="SD card">^4</xliff:g> mar stòras so-ghiùlan ’na àite.</string>
     <string name="storage_wizard_slow_v2_start_over">Tòisich às ùr</string>
     <string name="storage_wizard_slow_v2_continue">Air adhart</string>
-    <string name="storage_wizard_ready_v2_external_body">’S urrainn dhut susbaint a ghluasad gu <xliff:g id="name" example="SanDisk SD card">^1</xliff:g></string>
-    <string name="storage_wizard_ready_v2_internal_body">Airson susbaint a ghluasad gu <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>, tadhail air <b>Roghainnean &gt; Stòras</b></string>
-    <string name="storage_wizard_ready_v2_internal_moved_body">Chaidh an t-susbaint agad a ghluasad gu <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>.
-\n\nAirson a’ <xliff:g id="name" example="SD card">^2</xliff:g> seo a stiùireadh, tadhail air <b>Roghainnean &gt; Stòras</b>.</string>
     <string name="battery_status_title">Staid a’ bhataraidh</string>
     <string name="battery_level_title">Leibheil a’ bhataraidh</string>
     <string name="apn_settings">APNs</string>
@@ -1851,7 +1820,6 @@
     <string name="default_emergency_app">Aplacaid èiginn</string>
     <string name="reset_app_preferences">Ath-shuidhich roghainnean nan aplacaidean</string>
     <string name="reset_app_preferences_title">An ath-shuidhich thu roghainnean nan aplacaidean?</string>
-    <string name="reset_app_preferences_desc">Nì seo ath-shuidheachadh air gach roghainn dha:\n\n        <li>Aplacaidean à comas</li>\n        <li>Brathan aplacaidean à comas</li>\n        <li>Aplacaidean bunaiteach airson gnìomhan</li>\n        <li>Cuingeachadh air dàta sa chùlaibh air aplacaidean</li>\n        <li>Cuingeachadh air cead sam bith</li>\n\nCha chaill thu dàta aplacaid sam bith.</string>
     <string name="reset_app_preferences_button">Ath-shuidhich na h-aplacaidean</string>
     <string name="manage_space_text">Stiùir an àite</string>
     <string name="filter">Criathrag</string>
@@ -2359,7 +2327,6 @@
     <string name="advanced_battery_title">Caitheamh a’ bhataraidh</string>
     <string name="history_details_title">Mion-fhiosrachadh na h-eachdraidh</string>
     <string name="advanced_battery_preference_title">Caitheamh a’ bhataraidh</string>
-    <string name="battery_details_title">Caitheamh a’ bhataraidh</string>
     <string name="details_subtitle">Mion-fhiosrachadh mun chaitheamh</string>
     <string name="controls_subtitle">Cuir gleus air caitheamh na cumhachd</string>
     <string name="packages_subtitle">Na pacaidean ’gan gabhail a-staigh</string>
@@ -2530,6 +2497,7 @@
     <string name="battery_detail_power_usage">Caitheamh a’ bhataraidh</string>
     <string name="battery_detail_info_title">On làn-teàirrds mu dheireadh</string>
     <string name="battery_detail_manage_title">Stiùirich caitheamh a’ bhataraidh</string>
+    <string name="battery_usage_other_users">Cleachdaichean eile</string>
     <string name="advanced_battery_graph_subtext">Tha an tuairmse air dè cho fada ’s a mhaireas am bataraidh stèidhichte air cleachdadh an uidheim</string>
     <string name="estimated_time_left">Tuairmse air an t-àm a tha air fhàgail</string>
     <string name="estimated_charging_time_left">Gus am bi e air a làn-teàirrdseadh</string>
@@ -2996,6 +2964,7 @@
     <string name="user_delete_button">Sguab às</string>
     <string name="user_exit_guest_confirm_message">Thèid a h-uile aplacaid is dàta san t-seisean seo a sguabadh às.</string>
     <string name="user_exit_guest_dialog_remove">Thoir air falbh</string>
+    <string name="other_user_category_title">Cleachdaichean eile</string>
     <string name="user_enable_calling">Cuir gairmean fòn air</string>
     <string name="user_enable_calling_sms">Cuir gairmean fòn ⁊ SMS air</string>
     <string name="user_remove_user">Sguab às an cleachdaiche</string>
@@ -4292,6 +4261,7 @@
     <string name="battery_saver_button_turn_on">Cuir air an-dràsta</string>
     <string name="battery_saver_button_turn_off">Cuir dheth an-dràsta</string>
     <string name="not_battery_optimizing">Gun phiseachadh a’ bhataraidh</string>
+    <string name="filter_battery_restricted_title">Cuingichte</string>
     <string name="lockscreen_remote_input">Nuair a bhios an t-uidheam glaiste, bac sgrìobhadh freagairte no teacsa eile am broinn bratha</string>
     <string name="default_spell_checker">An dearbhair-litreachaidh bunaiteach</string>
     <string name="choose_spell_checker">Tagh dearbhair-litreachaidh</string>
@@ -4909,6 +4879,7 @@
     <string name="quick_controls_lower">uidheaman-smachd do dh’uidheaman</string>
     <string name="cards_passes_sentence">Cairtean ⁊ pasaichean</string>
     <string name="cards_passes_lower">cairtean ⁊ pasaichean</string>
+    <string name="power_menu_long_press_for_power_menu_title">Clàr-taice na cumhachd</string>
     <string name="lockscreen_privacy_not_secure">Suidhich glas na sgrìn mus cleachd thu seo</string>
     <string name="power_menu_long_press_for_assist_sensitivity_low_label">Goirid</string>
     <string name="power_menu_long_press_for_assist_sensitivity_high_label">Fada</string>
