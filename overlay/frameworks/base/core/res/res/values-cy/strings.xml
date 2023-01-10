@@ -587,7 +587,6 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="screen_lock_app_setting_name">Defnyddio clo sgrin</string>
     <string name="screen_lock_dialog_default_subtitle">Rho dy glo sgrin i barhau</string>
     <string name="fingerprint_acquired_partial">Pwysa\'n gadarn ar y synhwyrydd</string>
-    <string name="fingerprint_acquired_insufficient">Methwyd â phrosesu\'r ôl bys. Rho gynnig arall arni.</string>
     <string name="fingerprint_acquired_imager_dirty">Glanha\'r synhwyrydd ôl bys a cheisio eto</string>
     <string name="fingerprint_acquired_imager_dirty_alt">Glanha\'r synhwyrydd a cheisio eto</string>
     <string name="fingerprint_acquired_too_fast">Pwysa\'n gadarn ar y synhwyrydd</string>
@@ -604,12 +603,8 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="face_authenticated_confirmation_required">Dilyswyd y wyneb; Rhaid ei gadarnhau</string>
     <string name="fingerprint_error_hw_not_available">Does dim caledwedd ôl bys ar gael.</string>
     <string name="fingerprint_error_no_space">Methu â gosod ôl bys</string>
-    <string name="fingerprint_error_timeout">Mae\'r cyfnod amser wedi dod i ben. Rho gynnig arall arni.</string>
     <string name="fingerprint_error_canceled">Diddymwyd y weithred ôl bys.</string>
     <string name="fingerprint_error_user_canceled">Diddymwyd y weithred ôl bys gan y defnyddiwr.</string>
-    <string name="fingerprint_error_lockout">Gormod o ymdrechion. Rho gynnig arall arni\'n hwyrach.</string>
-    <string name="fingerprint_error_lockout_permanent">Gormod o ymdrechion. Mae\'r synhwyrydd ôl bys wedi\'i analluogi.</string>
-    <string name="fingerprint_error_unable_to_process">Ceisia eto.</string>
     <string name="fingerprint_error_no_fingerprints">Dim olion bysedd wedi\'u cofrestru.</string>
     <string name="fingerprint_error_hw_not_present">Nid oes gan y ddyfais hon synhwyrydd ôl bys.</string>
     <string name="fingerprint_error_security_update_required">Synhwyrydd wedi\'i analluogi dros dro.</string>
@@ -1251,9 +1246,7 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="android_preparing_apk">Yn paratoi <xliff:g id="appname">%1$s</xliff:g>...</string>
     <string name="android_upgrading_starting_apps">Yn cychwyn apiau...</string>
     <string name="android_upgrading_complete">Yn cwblhau pethau...</string>
-    <string name="fp_power_button_enrollment_title">Parhau â\'r gosod?</string>
-    <string name="fp_power_button_enrollment_positive_button">Troi\'r sgrin i ffwrdd</string>
-    <string name="fp_power_button_enrollment_negative_button">Parhau â\'r gosod</string>
+    <string name="fp_power_button_enrollment_button_text">Troi i ffwrdd</string>
     <string name="fp_power_button_bp_positive_button">Troi\'r sgrin i ffwrdd</string>
     <string name="fp_power_button_bp_negative_button">Parhau</string>
     <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> yn rhedeg</string>
@@ -1401,18 +1394,11 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="ext_media_new_notification_message">Tapia i\'w osod</string>
     <string name="ext_media_new_notification_message" product="tv">Dewisa i\'w osod</string>
     <string name="ext_media_new_notification_message" product="automotive">Efallai fod angen ailfformatio’r ddyfais. Tapia i\'w fwrw allan.</string>
-    <string name="ext_media_ready_notification_message">I drosglwyddo lluniau a chyfryngau</string>
-    <string name="ext_media_ready_notification_message" product="tv">Pori ffeiliau cyfryngau</string>
     <string name="ext_media_unmountable_notification_title">Problem gyda <xliff:g id="name" example="SD card">%s</xliff:g></string>
     <string name="ext_media_unmountable_notification_title" product="automotive">Nid yw <xliff:g id="name" example="SD card">%s</xliff:g> yn gweithio</string>
     <string name="ext_media_unmountable_notification_message">Tapia i drwsio</string>
     <string name="ext_media_unmountable_notification_message" product="tv">Mae <xliff:g id="name" example="SD card">%s</xliff:g> yn llwgr. Dewisa i drwsio.</string>
     <string name="ext_media_unmountable_notification_message" product="automotive">Efallai fod angen ailfformatio’r ddyfais. Tapia i\'w fwrw allan</string>
-    <string name="ext_media_unsupported_notification_title"><xliff:g id="name" example="SD card">%s</xliff:g> anghydnaws</string>
-    <string name="ext_media_unsupported_notification_title" product="automotive">Nid yw <xliff:g id="name" example="SD card">%s</xliff:g> yn gweithio</string>
-    <string name="ext_media_unsupported_notification_message">Nid yw\'r ddyfais hon yn cefnogi\'r <xliff:g id="name" example="SD card">%s</xliff:g> yma. Tapia i\'w osod mewn fformat sy\'n gydnaws.</string>
-    <string name="ext_media_unsupported_notification_message" product="tv">Dewisa i osod <xliff:g id="name" example="SD card">%s</xliff:g> mewn fformat a chefnogir.</string>
-    <string name="ext_media_unsupported_notification_message" product="automotive">Efallai fod angen ailfformatio’r ddyfais.</string>
     <string name="ext_media_badremoval_notification_title">Tynnwyd <xliff:g id="name" example="SD card">%s</xliff:g> yn annisgwyl</string>
     <string name="ext_media_badremoval_notification_message">Dadfowntia gyfrwng cyn ei dynnu allan er mwyn osgoi golli data</string>
     <string name="ext_media_nomedia_notification_title">Cafodd <xliff:g id="name" example="SD card">%s</xliff:g> ei dynnu</string>
@@ -1935,6 +1921,7 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="country_selection_title">Dewis rhanbarth</string>
     <string name="search_language_hint">Rho enw iaith</string>
     <string name="language_picker_section_suggested">Awgrymiadau</string>
+    <string name="language_picker_regions_section_suggested">Awgrymiadau</string>
     <string name="language_picker_section_all">Pob iaith</string>
     <string name="region_picker_section_all">Pob rhanbarth</string>
     <string name="locale_search_menu">Chwilio</string>
@@ -1955,12 +1942,6 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="app_streaming_blocked_title_for_settings_dialog" product="tv">Gosodiadau Android TV ddim ar gael</string>
     <string name="app_streaming_blocked_title_for_settings_dialog" product="tablet">Gosodiadau llechen ddim ar gael</string>
     <string name="app_streaming_blocked_title_for_settings_dialog" product="default">Gosodiadau ffôn ddim ar gael</string>
-    <string name="app_streaming_blocked_message" product="tv">Nid oes modd cyrchu hwn ar dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Rho gynnig ar dy Deledu Android yn lle.</string>
-    <string name="app_streaming_blocked_message" product="tablet">Nid oes modd cyrchu hwn ar dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Rho gynnig ar dy lechen yn lle.</string>
-    <string name="app_streaming_blocked_message" product="default">Nid oes modd cyrchu hwn ar dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Rho gynnig ar dy ffôn yn lle.</string>
-    <string name="app_streaming_blocked_message_for_permission_dialog" product="tv">Nid oes modd cyrchu hwn ar dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g> ar hyn o bryd. Rho gynnig ar dy ddyfais Android TV yn lle.</string>
-    <string name="app_streaming_blocked_message_for_permission_dialog" product="tablet">Nid oes modd cyrchu hwn ar dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g> ar hyn o bryd. Rho gynnig ar dy lechen yn lle.</string>
-    <string name="app_streaming_blocked_message_for_permission_dialog" product="default">Nid oes modd cyrchu hwn ar dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g> ar hyn o bryd. Rho gynnig ar dy ffôn yn lle.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="tv">Mae\'r ap yn ymofyn diogelwch ychwanegol. Rho gynnig ar dy ddyfais Android TV yn lle.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="tablet">Mae\'r ap yn ymofyn diogelwch ychwanegol. Rho gynnig ar dy lechen yn lle.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="default">Mae\'r ap yn ymofyn diogelwch ychwanegol. Rho gynnig ar dy ffôn yn lle.</string>

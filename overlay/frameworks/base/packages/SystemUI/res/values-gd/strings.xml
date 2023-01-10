@@ -98,9 +98,6 @@
     <string name="accessibility_unlock_button">Thoir a’ ghlas dheth</string>
     <string name="accessibility_scanning_face">A’ sganadh d’ aodainn</string>
     <string name="accessibility_send_smart_reply">Cuir</string>
-    <string name="phone_label">fosgail am fòn</string>
-    <string name="voice_assist_label">fosgail an taic gutha</string>
-    <string name="camera_label">fosgail an camara</string>
     <string name="cancel">Sguir dheth</string>
     <string name="biometric_dialog_confirm">Dearbh</string>
     <string name="biometric_dialog_try_again">Feuch ris a‑rithist</string>
@@ -171,12 +168,6 @@
     <string name="accessibility_sensors_off_active">Tha “Mothaichearan dheth” gnìomhach</string>
     <string name="accessibility_clear_all">Falamhaich a h-uile brath.</string>
     <string name="notification_group_overflow_indicator">+ <xliff:g id="number" example="3">%s</xliff:g></string>
-    <plurals name="notification_group_overflow_description">
-        <item quantity="one">Tha <xliff:g id="number" example="1">%s</xliff:g> bhrath eile ann.</item>
-        <item quantity="two">Tha <xliff:g id="number" example="3">%s</xliff:g> bhrath eile ann.</item>
-        <item quantity="few">Tha <xliff:g id="number" example="3">%s</xliff:g> brathan eile ann.</item>
-        <item quantity="other">Tha <xliff:g id="number" example="3">%s</xliff:g> brath eile ann.</item>
-    </plurals>
     <string name="accessibility_rotation_lock_on_landscape">Tha an sgrìn glaiste air comhair an dreach-tìre.</string>
     <string name="accessibility_rotation_lock_on_portrait">Tha an sgrìn glaiste air comhair na portraid.</string>
     <string name="dessert_case">Cèis mhìlsean</string>
@@ -194,6 +185,7 @@
     <string name="quick_settings_rotation_unlocked_label">Fèin-chuairtich</string>
     <string name="accessibility_quick_settings_rotation">Cuairtich an sgrìn gu fèin-obrachail</string>
     <string name="quick_settings_location_label">Ionad</string>
+    <string name="quick_settings_screensaver_label">Sàbhalaiche-sgrìn</string>
     <string name="quick_settings_media_device_label">Uidheam mheadhanan</string>
     <string name="quick_settings_user_title">Cleachdaiche</string>
     <string name="quick_settings_wifi_label">WiFi</string>
@@ -213,12 +205,6 @@
     <string name="quick_settings_hotspot_label">Hotspot</string>
     <string name="quick_settings_hotspot_secondary_label_transient">’Ga chur air…</string>
     <string name="quick_settings_hotspot_secondary_label_data_saver_enabled">Tha caomhnaiche an dàta air</string>
-    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
-        <item quantity="one">%d uidheam</item>
-        <item quantity="two">%d uidheam</item>
-        <item quantity="few">%d uidheaman</item>
-        <item quantity="other">%d uidheam</item>
-    </plurals>
     <string name="quick_settings_flashlight_label">Leus</string>
     <string name="quick_settings_flashlight_camera_in_use">Tha an camara ’ga chleachdadh</string>
     <string name="quick_settings_cellular_detail_title">Dàta mobile</string>
@@ -272,12 +258,6 @@
     <string name="guest_wipe_session_wipe">Tòisich às ùr</string>
     <string name="guest_wipe_session_dontwipe">Leanaidh</string>
     <string name="user_limit_reached_title">Ràinig thu crìoch nan cleachdaichean</string>
-    <plurals name="user_limit_reached_message">
-        <item quantity="one">’S urrainn dhut suas ri <xliff:g id="count" example="3">%d</xliff:g> chleachdaiche a chur ris.</item>
-        <item quantity="two">’S urrainn dhut suas ri <xliff:g id="count" example="3">%d</xliff:g> chleachdaiche a chur ris.</item>
-        <item quantity="few">’S urrainn dhut suas ri <xliff:g id="count" example="3">%d</xliff:g> cleachdaichean a chur ris.</item>
-        <item quantity="other">’S urrainn dhut suas ri <xliff:g id="count" example="3">%d</xliff:g> cleachdaiche a chur ris.</item>
-    </plurals>
     <string name="user_remove_user_title">An doir thu an cleachdaiche air falbh?</string>
     <string name="user_remove_user_message">Thèid a h-uile aplacaid is dàta aig a’ chleachdaiche seo a sguabadh às.</string>
     <string name="user_remove_user_remove">Thoir air falbh</string>
@@ -324,6 +304,7 @@
     <string name="volume_odi_captions_content_description">Tar-chòmhdachadh fho-thiotalan</string>
     <string name="volume_odi_captions_hint_enable">cuir an comas</string>
     <string name="volume_odi_captions_hint_disable">cuir à comas</string>
+    <string name="volume_panel_dialog_settings_button">Roghainnean</string>
     <string name="screen_pinning_title">Chaidh an aplacaid a phrìneachadh</string>
     <string name="screen_pinning_description">Cumaidh seo san t-sealladh e gus an dì-phrìnich thu e. Suath ri “Air ais” agus air “Foir-shealladh” ⁊ cùm sìos iad gus a dhì-phrìneachadh.</string>
     <string name="screen_pinning_description_recents_invisible">Cumaidh seo san t-sealladh e gus an dì-phrìnich thu e. Suath ri “Air ais” agus air “Dachaigh” ⁊ cùm sìos iad gus a dhì-phrìneachadh.</string>
@@ -438,18 +419,6 @@ Leibheil 0</b>
     <string name="notification_menu_snooze_action">Cuir ’nam chuimhne</string>
     <string name="snooze_undo">Neo-dhèan</string>
     <string name="snoozed_for_time">’Na dhùsal fad <xliff:g id="time_amount" example="15 minutes">%1$s</xliff:g></string>
-    <plurals name="snoozeHourOptions">
-        <item quantity="one">%d uair a thìde</item>
-        <item quantity="two">%d uair a thìde</item>
-        <item quantity="few">%d uairean a thìde</item>
-        <item quantity="other">%d uair a thìde</item>
-    </plurals>
-    <plurals name="snoozeMinuteOptions">
-        <item quantity="one">%d mhionaid</item>
-        <item quantity="two">%d mhionaid</item>
-        <item quantity="few">%d mionaidean</item>
-        <item quantity="other">%d mionaid</item>
-    </plurals>
     <string name="battery_detail_switch_title">Caomhnaiche a’ bhataraidh</string>
     <string name="keyboard_key_button_template">Putan <xliff:g id="name">%1$s</xliff:g></string>
     <string name="keyboard_key_home">Dachaigh</string>
@@ -572,8 +541,6 @@ Leibheil 0</b>
     <string name="high_temp_notif_message">Tha cuid a ghleusan cuingichte fhad ’s a tha am fòn ’ga fhuarachadh.\nThoir gnogag airson barrachd fiosrachaidh</string>
     <string name="high_temp_dialog_message">Feuchaidh am fòn agad gum fuaraich e gu fèin-obrachail. ’S urrainn dhut am fòn agad a chleachdadh fhathast ach dh’fhaoidte gun dig maille air.\n\nNuair a bhios am fòn agad fionnar gu leòr, bidh e ag obair mar as àbhaist a-rithist.</string>
     <string name="high_temp_dialog_help_text">Seall ceumannan a’ chùraim</string>
-    <string name="high_temp_alarm_title">Dì-phlugaich an teàirrdsear</string>
-    <string name="high_temp_alarm_notify_message">Tha duilgheadas le teàirrdseadh an uidheim seo. Dì-cheangail adaptar a’ bhun-dealain agus thoir an aire on a bhios an càball blàth ma dh’fhaoidte.</string>
     <string name="high_temp_alarm_help_care_steps">Seall ceumannan a’ chùraim</string>
     <string name="lockscreen_shortcut_left">Ath-ghoirid taobh clì</string>
     <string name="lockscreen_shortcut_right">Ath-ghoirid taobh deas</string>
@@ -592,7 +559,7 @@ Leibheil 0</b>
     <string name="notification_channel_alerts">Rabhaidhean</string>
     <string name="notification_channel_battery">Bataraidh</string>
     <string name="notification_channel_screenshot">Glacaidhean-sgrìn</string>
-    <string name="notification_channel_general">Teachdaireachdan coitcheann</string>
+    <string name="notification_channel_instant">Aplacaidean sa bhad</string>
     <string name="notification_channel_storage">An stòras</string>
     <string name="notification_channel_hints">Oidheaman</string>
     <string name="instant_apps">Aplacaidean sa bhad</string>
@@ -643,12 +610,6 @@ Leibheil 0</b>
     <string name="accessibility_floating_button_action_move_bottom_right">Gluais gun bhonn taobh deas</string>
     <string name="quick_controls_title">Uidheaman-smachd do dh’uidheaman</string>
     <string name="controls_providers_title">Tagh aplacaid airson uidheaman-smachd a chur ris</string>
-    <plurals name="controls_number_of_favorites">
-        <item quantity="one">Chaidh <xliff:g id="number" example="1">%s</xliff:g> uidheam-smachd a chur ris.</item>
-        <item quantity="two">Chaidh <xliff:g id="number" example="3">%s</xliff:g> uidheam-smachd a chur ris.</item>
-        <item quantity="few">Chaidh <xliff:g id="number" example="3">%s</xliff:g> uidheaman-smachd a chur ris.</item>
-        <item quantity="other">Chaidh <xliff:g id="number" example="3">%s</xliff:g> uidheam-smachd a chur ris.</item>
-    </plurals>
     <string name="controls_removed">Air a thoirt air falbh</string>
     <string name="accessibility_control_favorite">’Na annsachd</string>
     <string name="accessibility_control_favorite_position">’Na annsachd, air ionad <xliff:g id="number" example="1">%d</xliff:g></string>
@@ -697,7 +658,6 @@ Leibheil 0</b>
     <string name="media_output_dialog_group">Buidheann</string>
     <string name="media_output_dialog_single_device">Chaidh 1 uidheam a thaghadh</string>
     <string name="media_output_dialog_multiple_devices">Chaidh <xliff:g id="count" example="2">%1$d</xliff:g> uidheam(an) a thaghadh</string>
-    <string name="media_output_dialog_pairing_new">Paidhrich uidheam ùr</string>
     <string name="media_output_broadcast_dialog_save">Sàbhail</string>
     <string name="battery_state_unknown_notification_title">Mearachd a’ leughadh inneal-tomhais a’ bhataraidh agad</string>
     <string name="battery_state_unknown_notification_text">Thoir gnogag airson barrachd fiosrachaidh</string>
