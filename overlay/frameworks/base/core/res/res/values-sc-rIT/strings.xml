@@ -32,6 +32,7 @@
     <string name="defaultMsisdnAlphaTag">MSISDN1</string>
     <string name="mmiError">Problema de connessione o còdighe MMI non bàlidu.</string>
     <string name="mmiFdnError">S\'operatzione est limitada isceti a is nùmeros de seletzione fissa.</string>
+    <string name="mmiErrorWhileRoaming">Impossìbile modificare sa cunfiguratzione de inoltru de mutida dae su telèfonu cando ses suta roaming.</string>
     <string name="serviceEnabled">Servìtziu ativadu.</string>
     <string name="serviceEnabledFor">Servìtziu ativadu pro:</string>
     <string name="serviceDisabled">Servìtziu disativadu.</string>
@@ -77,6 +78,8 @@
     <string name="RestrictedOnEmergencyTitle">Mutidas de emergèntzia no a disponimentu</string>
     <string name="RestrictedOnNormalTitle">Nissunu servìtziu de boghe</string>
     <string name="RestrictedOnAllVoiceTitle">Nissunu servìtziu de boghe o mutida de emergèntzia</string>
+    <string name="RestrictedStateContent">Disativadu in manera temporànea dae s\'operadore tuo</string>
+    <string name="RestrictedStateContentMsimTemplate">Disativadu in manera temporànea dae s\'operadore tuo pro sa SIM <xliff:g id="simNumber" example="1">%d</xliff:g></string>
     <string name="NetworkPreferenceSwitchTitle">Impossìbile agatare sa rete</string>
     <string name="NetworkPreferenceSwitchSummary">Proa a cambiare sa rete preferida. Toca pro cambiare.</string>
     <string name="EmergencyCallWarningTitle">Mutidas de emergèntzia no a disponimentu</string>
@@ -117,11 +120,18 @@
     <string name="roamingText12">Banderedda de roaming disativada</string>
     <string name="roamingTextSearching">Chirchende su servìtziu</string>
     <string name="wfcRegErrorTitle">No at fatu a impostare is mutidas Wi\u2011Fi </string>
+    <string-array name="wfcOperatorErrorAlertMessages">
+        <item>Pro fàghere mutidas e imbiare messàgios tràmite Wi-Fi, prima cosa dimanda a s\'operadore chi cunfiguret custu servìtziu. Tando torra a ativare is mutidas Wi-Fi dae sa Cunfiguratzione. (Còdighe errore: <xliff:g id="code" example="REG09 - No 911 Address">%1$s</xliff:g>)</item>
+    </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
         <item>Registra·ti cun s\'operadore tuo (Còdighe errore: <xliff:g id="code" example="REG09 - No 911 Address">%1$s</xliff:g>)</item>
     </string-array>
     <string name="wfcSpnFormat_spn"><xliff:g id="spn" example="Operator">%s</xliff:g></string>
+    <string name="wfcSpnFormat_spn_wifi_calling">Mutidas Wi-Fi (<xliff:g id="spn" example="Operator">%s</xliff:g>)</string>
+    <string name="wfcSpnFormat_spn_wifi_calling_vo_hyphen">Mutidas WiFi (<xliff:g id="spn" example="Operator">%s</xliff:g>)</string>
     <string name="wfcSpnFormat_wlan_call">Mutida pro WLAN</string>
+    <string name="wfcSpnFormat_spn_wlan_call">Mutidas WLAN (<xliff:g id="spn" example="Operator">%s</xliff:g>)</string>
+    <string name="wfcSpnFormat_spn_wifi">Wi-Fi (<xliff:g id="spn" example="Operator">%s</xliff:g>)</string>
     <string name="wfcSpnFormat_wifi_calling_bar_spn">Mutida WiFi | <xliff:g id="spn" example="Operator">%s</xliff:g></string>
     <string name="wfcSpnFormat_spn_vowifi"><xliff:g id="spn" example="Operator">%s</xliff:g> VoWifi</string>
     <string name="wfcSpnFormat_wifi_calling">Mutida Wi-Fi</string>
@@ -173,7 +183,13 @@
     <string name="ssl_ca_cert_noti_by_administrator">Dae s\'amministratzione de su profilu tuo de traballu</string>
     <string name="ssl_ca_cert_noti_managed">Dae <xliff:g id="managing_domain">%s</xliff:g></string>
     <string name="work_profile_deleted">Profilu de traballu cantzelladu</string>
+    <string name="work_profile_deleted_details">S\'aplicatzione de s\'amministratzione de su profilu de traballu mancat o tenet dannos.
+         Comente resurtadu, su profilu tuo de traballu e is datos relativos si sunt cantzellados. Cuntata s\'amministratzione si boles agiudu.</string>
+    <string name="work_profile_deleted_description_dpm_wipe">Su profilu tuo de traballu no est prus a disponimentu in custu dispositivu</string>
+    <string name="work_profile_deleted_reason_maximum_password_failure">Tropu tentativos de insertatzione de sa crae</string>
     <string name="device_ownership_relinquished">Dispositivu tzèdidu a s\'amministratzione pro impreu personale</string>
+    <string name="network_logging_notification_title">Su dispositivu est gestidu</string>
+    <string name="network_logging_notification_text">S\'organizatzione tua gestit custu dispositivu e diat pòdere monitorare su tràficu de rete. Toca pro otènnere detàllios.</string>
     <string name="location_changed_notification_title">Is aplicatziones podent atzèdere a sa positzione tua</string>
     <string name="location_changed_notification_text">Cuntata a s\'amministratzione IT pro nd\'ischire de prus</string>
     <string name="country_detector">Rilevadore de paisos</string>
@@ -192,6 +208,7 @@
         su profilu de traballu de abarrare disativadu pro prus de 
  <xliff:g id="number" example="3">%3$d</xliff:g> dies.
     </string>
+    <string name="personal_apps_suspended_turn_profile_on">Ativa</string>
     <string name="me">Deo</string>
     <string name="power_dialog" product="tablet">Sèberos de sa tauledda</string>
     <string name="power_dialog" product="tv">Optziones de Android TV</string>
@@ -238,6 +255,14 @@
         de s\'istadu atuale de su dispositivu tuo, de imbiare comente messàgiu de posta eletrònica. Podet èssere chi istentet 
         unu pagu dae su cumintzu de sa signalatzione de errore finas a cando est pronta pro s\'imbiu;
         tene passèntzia.</string>
+    <string name="bugreport_option_interactive_title">Informe interativu</string>
+    <string name="bugreport_option_interactive_summary">Imprea custa optzione su prus de is bortas.
+         Permitit de controllare su progressu de s\'informe, insertare àteros detàllios de su problema e fàghere caturas de ischermu.
+         Diat pòdere omìtere calicuna setzione impreada prus pagu chi diat rechèdere prus tempus pro fàghere s\'informe.</string>
+    <string name="bugreport_option_full_title">Informe cumpletu</string>
+    <string name="bugreport_option_full_summary">Imprea custa optzione pro un\'interferèntzia de sistema mìnima cando
+         su dispositvu tuo respondet tardu o est tropu lentu, o cando tenes bisòngiu de totu is setziones de s\'informe.
+         No permitit insertare àteros detàllios o fàghere àteras caturas de ischermu.</string>
     <string name="bugreport_screenshot_success_toast">Catura de ischermu fata cun s\'informe de errores</string>
     <string name="bugreport_screenshot_failure_toast">Impossìbile caturare s\'ischermu cun s\'informe de errores</string>
     <string name="global_action_toggle_silent_mode">Modalidade a sa muda</string>
@@ -322,6 +347,8 @@
     <string name="capability_desc_canControlMagnification">Controllare su livellu de ingrandimentu e sa
         positzione de s\'ischermu.</string>
     <string name="capability_title_canPerformGestures">Fàghere gestos</string>
+    <string name="capability_desc_canPerformGestures">Podes tocare, iscùrrere, ispitzulare e fàghere àteros
+        gestos.</string>
     <string name="capability_title_canCaptureFingerprintGestures">Gestos in su sensore de imprentas</string>
     <string name="capability_desc_canCaptureFingerprintGestures">Podes caturare is movimentos in su
         sensore de imprentas digitales de su dispositivu.</string>
@@ -391,10 +418,17 @@
       is protzessos in segundu pianu de is àteras aplicatziones. Custu diat pòdere firmare
       s\'esecutzione de is àteras aplicatziones.</string>
     <string name="permlab_systemAlertWindow">Custa aplicatzione podet essire in subra de is àteras</string>
+    <string name="permdesc_systemAlertWindow">Custa aplicatzione podet essire in subra de àteras aplicatziones o in àteros puntos de s\'ischermu. Custu diat pòdere fàghere interferèntzia cun su funtzionamentu normale de s\'aplicatzione e cambiare sa manera de essire de is aplicatziones.</string>
+    <string name="permlab_runInBackground">esecutare in s\'isfundu</string>
+    <string name="permdesc_runInBackground">Custa aplicatzione si podet pònnere in esecutzione. Custu diat pòdere consumire sa bateria prus in presse.</string>
+    <string name="permlab_useDataInBackground">impreu de datos in segundu pranu</string>
+    <string name="permdesc_useDataInBackground">Custa aplicatzione podet impreare datos in segundu pranu. Custu diat pòdere crèschere s\'impreu de datos.</string>
     <string name="permlab_persistentActivity">fàghere chi s\'aplicatzione s\'esecutet semper</string>
     <string name="permdesc_persistentActivity" product="tablet">Permitit a s\'aplicatzione de fàghere chi partes de issa siant persistentes in sa memòria. Custu podet limitare sa memòria a disponimentu a àteras aplicatziones, allentende sa tauledda.</string>
     <string name="permdesc_persistentActivity" product="tv">Permitit a s\'aplicatzione de fàghere chi partes de issa siant persistentes in sa memòria. Custu podet limitare sa memòria a disponimentu a àteras aplicatziones, allentende su dispositivu Android TV tuo.</string>
     <string name="permdesc_persistentActivity" product="default">Permitit a s\'aplicatzione de fàghere chi partes de issa siant persistentes in sa memòria. Custu podet limitare sa memòria a disponimentu a àteras aplicatziones, allentende su telèfonu.</string>
+    <string name="permlab_foregroundService">esecutzione servìtzios in primu pranu</string>
+    <string name="permdesc_foregroundService">Permite chi s\'aplicatzione impreet servìtzios in primu pranu.</string>
     <string name="permlab_getPackageSize">mesurare su logu de archiviatzione de s\'aplicatzione</string>
     <string name="permdesc_getPackageSize">Permitit a s\'aplicatzione de recuperare su còdighe, is datos e is mannàrias de sa memòria temporànea</string>
     <string name="permlab_writeSettings">modificare is impostatziones de sistema</string>
@@ -432,28 +466,52 @@ Custu permissu autorizat is aplicatziones a sarvare is datos de cuntatu, e is ap
 Custu podet inclùdere contos creados dae is aplicatziones chi as installadu.
 Custu permissu autorizat is aplicatziones a sarvare is datos de cuntatu, e is aplicatziones malas diant pòdere cumpartzire is datos sena chi tue dd\'iscas.</string>
     <string name="permlab_writeContacts">modificare is cuntatos tuos</string>
+    <string name="permdesc_writeContacts" product="tablet">Permite a s\'aplicatzione de modificare is datos de is cuntatos tuos archiviados in su tablet. 
+      Custu permissu autorizat s\'aplicatzione a cantzellare is datos de cuntatu.</string>
+    <string name="permdesc_writeContacts" product="tv">Permitit a s\'aplicatzione de modificare is datos de is cuntatos tuos archiviados in custu dispositivu Android TV.
+      Custu permissu autorizat s\'aplicatzione a cantzellare is datos de cuntatu.</string>
+    <string name="permdesc_writeContacts" product="default">Permite a s\'aplicatzione de modificare is datos de is cuntatos tuos archiviados in su telèfonu. 
+      Custu permissu autorizat s\'aplicatzione a cantzellare is datos de cuntatu.</string>
     <string name="permlab_readCallLog">lèghere su registru de mutidas</string>
+    <string name="permdesc_readCallLog">Custa aplicatzione podet lèghere sa cronologia de mutidas.</string>
     <string name="permlab_writeCallLog">iscrìere su registru de mutidas</string>
     <string name="permdesc_writeCallLog" product="tablet">Permitit a s\'aplicatzione de modificare su registru de mutidas de sa tauledda tua, incluidos datos subra mutidas in intrada e in essida.
         Is aplicatziones malas ddu diant pòdere impreare pro cantzellare o modificare su registru de mutidas tuo.</string>
     <string name="permdesc_writeCallLog" product="tv">Permitit a s\'aplicatzione de modificare su registru de mutidas de custu dispositivu Android TV, incluidos datos subra mutidas in intrada e in essida. Is aplicatziones malas ddu diant pòdere impreare pro cantzellare o modificare su registru de mutidas tuo.</string>
     <string name="permdesc_writeCallLog" product="default">Permitit a s\'aplicatzione de modificare su registru de mutidas de su telèfonu tuo, incluidos datos subra mutidas in intrada e in essida.
         Is aplicatziones malas ddu diant pòdere impreare pro cantzellare o modificare su registru de mutidas tuo.</string>
+    <string name="permlab_readCalendar">Letura de is eventos e de is detàllios de su calendàriu</string>
+    <string name="permdesc_readCalendar" product="tablet">Custa aplicatzione podet lèghere totu is eventos sarvados in sa tauledda tua e cumpartzire o sarvare is datos de su calendàriu.</string>
+    <string name="permdesc_readCalendar" product="tv">Custa aplicatzione podet lèghere totu is calendàrios barigados in custu dispositivu Android TV e cumpartzire o sarvare is datos de su calendàriu.</string>
+    <string name="permdesc_readCalendar" product="default">Custa aplicatzione podet lèghere totu is eventos sarvados in su telèfonu tuo e cumpartzire o sarvare is datos de su calendàriu.</string>
     <string name="permlab_writeCalendar">agiùnghere o modificare eventos de su calendàriu e imbiare posta eletrònica a persones invitadas chene chi sa persone mere ddu iscat.</string>
+    <string name="permdesc_writeCalendar" product="tablet">Custa aplicatzione podet agiùnghere, bogare, o cambiare eventos in sa tauledda tua. Custa aplicatzione podet imbiare messàgios chi podent pàrrere comente chi bèngiant dae is meres de su calendàriu, o cambiare eventos chena notificare is meres issoro.</string>
+    <string name="permdesc_writeCalendar" product="tv">Custa aplicatzione podet agiùnghere, bogare, o cambiare eventos in custu dispositivu Android TV. Custa aplicatzione podet imbiare messàgios chi podent pàrrere comente chi bèngiant dae is meres de su calendàriu, o cambiare eventos chena notificare is meres issoro.</string>
+    <string name="permdesc_writeCalendar" product="default">Custa aplicatzione podet agiùnghere, bogare, o cambiare eventos in su telèfonu tuo. Custa aplicatzione podet imbiare messàgios chi podent pàrrere comente chi bèngiant dae is meres de su calendàriu, o cambiare eventos chena notificare is meres issoro.</string>
     <string name="permlab_accessLocationExtraCommands">atzèdere a cumandos in prus de su frunidore de positzione</string>
     <string name="permdesc_accessLocationExtraCommands">Permitit a s\'aplicatzione de atzèdere
          a cumandos in prus de su frunidore de positzione.  Custu diat pòdere permìtere a s\'aplicatzione de istorbare
         s\'operatzione de su GPS o àteras fontes de positzione.</string>
+    <string name="permlab_accessFineLocation">atzessu a sa positzione pretzisa isceti in primu pianu</string>
     <string name="permdesc_accessFineLocation">Custa aplicatzione podet otènnere sa positzione pretzisa tua dae is servìtzios de positzione cando s\'aplicatzione est impreada. Is servìtzios de positzione pro custu dispositivu depent èssere ativados pro chi s\'aplicatzione atzedat a sa positzione. Custu podet crèschere s\'impreu de sa bateria.</string>
     <string name="permlab_accessCoarseLocation">atzessu a sa positzione aprossimada isceti in primu pianu</string>
     <string name="permdesc_accessCoarseLocation">Custa aplicatzione podet otènnere sa positzione aprossimada tua dae is servìtzios de positzione cando s\'aplicatzione est impreada. Is servìtzios de positzione pro custu dispositivu depent èssere ativados pro chi s\'aplicatzione atzedat a sa positzione.</string>
+    <string name="permlab_accessBackgroundLocation">atzessu a sa positzione in segunu pianu</string>
     <string name="permdesc_accessBackgroundLocation">Custa aplicatzione podet atzèdere semper a sa positzione, fintzas cando no est impreada.</string>
+    <string name="permlab_modifyAudioSettings">cambiare sa cunfiguratzione de àudio</string>
+    <string name="permdesc_modifyAudioSettings">Permitit a s\'aplicatzione de modificare sa cunfiguratzione de àudio globale, comente su volùmene e cale altoparlante est impreadu.</string>
     <string name="permlab_recordAudio">registrare àudiu</string>
+    <string name="permdesc_recordBackgroundAudio">Custa aplicatzione podet registrare cuntenutos àudio impreende su micròfonu in onni momentu.</string>
     <string name="permlab_sim_communication">imbiare cumandos a sa SIM</string>
     <string name="permdesc_sim_communication">Permitit a s\'aplicatzione de imbiare cumandos a sa SIM. Est perigulosu a beru.</string>
+    <string name="permlab_activityRecognition">reconnòschere atividade fìsica</string>
+    <string name="permdesc_activityRecognition">Custa aplicatzione podet reconnòschere s\'atividade fìsica tua.</string>
     <string name="permlab_camera">fàghere fotografias e vìdeos</string>
+    <string name="permdesc_backgroundCamera">Custa aplicatzione podet tirare fotos e registrare vìdeos impreende sa fotocàmera in onni momentu.</string>
     <string name="permlab_systemCamera">Permite a un\'aplicatzione o a unu servìtziu s\'atzessu a is càmeras de sistema de fàghere fotografias e vìdeos</string>
     <string name="permdesc_systemCamera">Custa aplicatzione privilegiada o de sistema podet fàghere semper fotografias e registrare vìdeos cun una càmera de sistema. S\'aplicatzione rechedet puru de tènnere su permissu android.permission.CAMERA</string>
+    <string name="permlab_cameraOpenCloseListener">Permite a un\'aplicatzione o unu servìtziu de retzire mutidas de resposta subra is dispositivos de càmera chi sunt abertos o serrados.</string>
+    <string name="permdesc_cameraOpenCloseListener">Custa aplicatzione podet retzire mutidas de resposta cando calesisiat dispositivu de càmera est abertu (dae cale aplicatzione) o serradu.</string>
     <string name="permlab_vibrate">controllare sa vibratzione</string>
     <string name="permdesc_vibrate">Permitit a s\'aplicatzione de controllare sa vibratzione.</string>
     <string name="permdesc_vibrator_state">Permitit a s\'aplicatzione de atzèdere a s\'istadu de sa vibratzione.</string>
@@ -468,11 +526,24 @@ Custu permissu autorizat is aplicatziones a sarvare is datos de cuntatu, e is ap
     <string name="permlab_readPhoneState">lèghere s\'identidade e s\'istadu de su telèfonu</string>
     <string name="permdesc_readPhoneState">Permitit a s\'aplicatzione de atzèdere a is funtzionalidades de su telèfonu de su dispositivu. Custu permitit a s\'aplicatzione de determinare su nùmeru de telèfonu e is ID de su dispositivu, si una mutida est ativa, e su nùmeru remotu collegadu dae una mutida.</string>
     <string name="permlab_readBasicPhoneState">lèghere s\'identidade bàsica e s\'istadu de su telèfonu</string>
+    <string name="permlab_manageOwnCalls">aviu de mutidas tràmite su sistema</string>
+    <string name="permdesc_manageOwnCalls">Permite chi s\'aplicatzione aviet mutidas suas tràmite su sistema pro
+        megiorare s\'esperièntzia de is mutidas.</string>
+    <string name="permlab_callCompanionApp">càstiare e controllare is mutidas cun su sistema.</string>
+    <string name="permdesc_callCompanionApp">Permite a s\'aplicatzione de bìdere e controllare is mutidas in cursu in su 
+        dispositivu. Custu includet informatziones comente is nùmeros de is mutidas e s\'istadu 
+        issoro.</string>
     <string name="permlab_exemptFromAudioRecordRestrictions">esente dae limitatziones de registratzione àudio</string>
     <string name="permdesc_exemptFromAudioRecordRestrictions">Afrancat s\'aplicatzione dae is limitatziones de registratzione àudio.</string>
+    <string name="permlab_acceptHandover">sighire una mutida dae un\'àtera aplicatzione</string>
+    <string name="permdesc_acceptHandovers">Permitet a s\'aplicatzione de sighire una mutida cumintzada in un\'àtera aplicatzione.</string>
+    <string name="permlab_readPhoneNumbers">lèghere nùmeros de telèfonu</string>
+    <string name="permdesc_readPhoneNumbers">Permitit chi s\'aplicatzione atzedat a is nùmeros de telèfonu de su dispositivu.</string>
+    <string name="permlab_wakeLock" product="automotive">mantènnere s\'ischermu de sa màchina allutu </string>
     <string name="permlab_wakeLock" product="tablet">impedire chi sa tauledda s\'assèliet</string>
     <string name="permlab_wakeLock" product="tv">impedit chi su dispositivu Android TV s\'asselit</string>
     <string name="permlab_wakeLock" product="default">impedire chi su telèfonu s\'assèliet</string>
+    <string name="permdesc_wakeLock" product="automotive">Permitit a s\'aplicatzione de mantènnere s\'ischermu de sa màchina allutu.</string>
     <string name="permdesc_wakeLock" product="tablet">Permitit a s\'aplicatzione de impedire chi sa tauledda s\'assèliet.</string>
     <string name="permdesc_wakeLock" product="tv">Permitit a s\'aplicatzione de impedire chi su dispositivu Android TV s\'assèliet.</string>
     <string name="permdesc_wakeLock" product="default">Permitit a s\'aplicatzione de impedire chi su telèfonu s\'assèliet.</string>
@@ -555,6 +626,7 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
       blocu de teclas e cale si siat protetzione de crae assotziada. Pro esèmpiu, su telèfonu
       disativat su blocu de teclas cando si retzit una mutida in intrada, luego
       torrat a ativare su blocu de teclas cando sa mutida est agabbada.</string>
+    <string name="permlab_requestPasswordComplexity">rechèdere cumplessidade de su blocu de ischermu</string>
     <string name="permlab_postNotification">ammustrare notìficas</string>
     <string name="permlab_manageFingerprint">gestire s\'imprenta de pòddighe</string>
     <string name="permdesc_manageFingerprint">Permitit a s\'aplicatzione de pedire mètodos pro agiùnghere o cantzellare is ischemas de imprentas de pòddighe pro ddos impreare.</string>
