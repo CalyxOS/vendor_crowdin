@@ -31,7 +31,7 @@
     <string name="split_screen_position_right">Hollti\'r dde</string>
     <string name="split_app_info_accessibility">Gwybodaeth ap ar gyfer %1$s</string>
     <string name="long_press_widget_to_add">Cyffyrdda a dal dy gyffwrdd i symud teclyn.</string>
-    <string name="long_accessible_way_to_add">Rho dap dwbl a dal dy gyffwrdd i symud teclyn neu ddefnyddio gweithredoedd addasu.</string>
+    <string name="long_accessible_way_to_add">Rho dap dwbl a dal dy gyffwrdd i symud teclyn neu defnyddio gweithredoedd addasu.</string>
     <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
     <string name="widget_accessible_dims_format">%1$d o led, %2$d o uchder</string>
     <string name="widget_preview_context_description">Teclyn <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g></string>
@@ -60,7 +60,7 @@
     <string name="all_apps_label">Pob ap</string>
     <string name="notifications_header">Hysbysiadau</string>
     <string name="long_press_shortcut_to_add">Cyffyrdda a dal dy gyffwrdd i symud llwybr byr.</string>
-    <string name="long_accessible_way_to_add_shortcut">Rho dap dwbl a dal dy gyffwrdd i symud llwybr byr neu ddefnyddio gweithredoedd addasu.</string>
+    <string name="long_accessible_way_to_add_shortcut">Rho dap dwbl a dal dy gyffwrdd i symud llwybr byr neu defnyddio gweithredoedd addasu.</string>
     <string name="hotseat_out_of_space">Does dim rhagor o le yn y blwch ffefrynnau</string>
     <string name="all_apps_button_label">Rhestr apiau</string>
     <string name="all_apps_search_results">Canlyniadau chwilio</string>
@@ -81,6 +81,11 @@
     <string name="uninstall_system_app_text">Mae hwn yn ap system a ni ellir ei ddadosod.</string>
     <string name="folder_hint_text">Enw Ffolder</string>
     <string name="disabled_app_label">Analluogwyd <xliff:g id="app_name" example="Messenger">%1$s</xliff:g></string>
+    <string name="dotted_app_label"> {count, plural,
+        =1 {Mae gan {app_name} # hysbysiad}
+        other {Mae gan {app_name} # hysbysiad}
+        }
+    </string>
     <string name="default_scroll_format">Tudalen %1$d o %2$d</string>
     <string name="workspace_scroll_format">Sgrin gartref %1$d o %2$d</string>
     <string name="workspace_new_page">Tudalen sgrin gartref newydd</string>
@@ -152,5 +157,6 @@ Mae\'n bosib i ti ei dynnu neu i chwilio am a gosod yr ap dy hun.    </string>
     <string name="work_apps_paused_edu_accept">Deall yn iawn</string>
     <string name="work_apps_enable_btn_text">Troi apiau gwaith ymlaen</string>
     <string name="developer_options_filter_hint">Hidlydd</string>
+    <string name="search_pref_screen_title_tablet">Chwilio dy lechen</string>
     <string name="remote_action_failed">Methiant: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
 </resources>

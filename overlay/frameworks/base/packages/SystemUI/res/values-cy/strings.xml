@@ -73,6 +73,7 @@
     <string name="screenshot_failed_to_save_unknown_text">Rho gynnig ar gymryd sgrinlun eto</string>
     <string name="screenshot_failed_to_save_text">Methu cadw\'r sgrinlun</string>
     <string name="screenshot_failed_to_capture_text">Ni chaniateir cymryd sgrinluniau gan yr ap neu dy sefydliad.</string>
+    <string name="screenshot_blocked_by_admin">Mae tynnu sgrinluniau wedi\'i rwystro gan dy weinyddwr TG</string>
     <string name="screenshot_edit_label">Golygu</string>
     <string name="screenshot_edit_description">Golygu\'r sgrinlun</string>
     <string name="screenshot_share_description">Rhannu\'r sgrinlun</string>
@@ -114,7 +115,6 @@
     <string name="accessibility_voice_assist_button">Cymorth Llais</string>
     <string name="accessibility_wallet_button">Waled</string>
     <string name="accessibility_qr_code_scanner_button">Sganiwr Codau QR</string>
-    <string name="accessibility_unlock_button">Datgloi</string>
     <string name="accessibility_lock_icon">Dyfais dan glo</string>
     <string name="accessibility_scanning_face">Sganio wyneb</string>
     <string name="accessibility_send_smart_reply">Anfon</string>
@@ -160,7 +160,6 @@
     <string name="accessibility_airplane_mode">Modd awyren.</string>
     <string name="accessibility_vpn_on">VPN ymlaen.</string>
     <string name="accessibility_battery_level">Batri <xliff:g id="number">%d</xliff:g> y cant.</string>
-    <string name="accessibility_battery_level_with_estimate">Batri <xliff:g id="percentage" example="95%">%1$s</xliff:g>\u066A, tua <xliff:g id="time" example="Until 3:15pm">%2$s</xliff:g> yn weddill yn seiliedig ar dy ddefnydd</string>
     <string name="accessibility_battery_level_charging">Batri\'n gwefru, <xliff:g id="battery_percentage">%d</xliff:g> y cant.</string>
     <string name="accessibility_overflow_action">Gweld pob hysbysiad</string>
     <string name="accessibility_tty_enabled">Galluogwyd TeleTypewriter (TTY).</string>
@@ -190,6 +189,10 @@
     <string name="accessibility_sensors_off_active">Synhwyryddion i ffwrdd ar waith</string>
     <string name="accessibility_clear_all">Clirio pob hysbysiad.</string>
     <string name="notification_group_overflow_indicator">+ <xliff:g id="number" example="3">%s</xliff:g></string>
+    <string name="notification_group_overflow_description">{count, plural,
+        =1 {# hysbysiad arall tu mewn.}
+        other {# hysbysiad arall tu mewn.}
+    }</string>
     <string name="accessibility_rotation_lock_on_landscape">Mae\'r sgrin wedi\'i chloi yn y gorweddiad tirwedd.</string>
     <string name="accessibility_rotation_lock_on_portrait">Mae\'r sgrin wedi\'i chloi yn y gorweddiad darlun.</string>
     <string name="dessert_case">Cyflwyniad Pwdinau</string>
@@ -228,7 +231,6 @@
     <string name="quick_settings_brightness_dialog_title">Disgleirdeb</string>
     <string name="quick_settings_inversion_label">Gwrthdroad lliwiau</string>
     <string name="quick_settings_color_correction_label">Cywiriad lliw</string>
-    <string name="quick_settings_more_user_settings">Gosodiadau defnyddiwr</string>
     <string name="quick_settings_done">Cwblhau</string>
     <string name="quick_settings_close_user_panel">Cau</string>
     <string name="quick_settings_connected">Wedi cysylltu</string>
@@ -237,6 +239,12 @@
     <string name="quick_settings_hotspot_label">Llecyn Wi-Fi</string>
     <string name="quick_settings_hotspot_secondary_label_transient">Yn troi ymlaen…</string>
     <string name="quick_settings_hotspot_secondary_label_data_saver_enabled">Arbedwr Data ar waith</string>
+    <string name="quick_settings_hotspot_secondary_label_num_devices">{count, plural,
+        zero {# dyfeisiau}
+        =1 {#dyfais}
+        two {# ddyfais}
+        other {# dyfais}
+    }</string>
     <string name="quick_settings_flashlight_label">Fflacholau</string>
     <string name="quick_settings_flashlight_camera_in_use">Camera yn cael ei ddefnyddio</string>
     <string name="quick_settings_cellular_detail_title">Data symudol</string>
@@ -312,6 +320,11 @@
     <string name="guest_wipe_session_wipe">Dechrau eto</string>
     <string name="guest_wipe_session_dontwipe">Ydw, parhau</string>
     <string name="user_limit_reached_title">Terfyn defnyddwyr wedi\'i gyrraedd</string>
+    <string name="user_limit_reached_message">{count, plural,
+       =1 {Gellir ond creu un defnyddiwr.}
+        two {Gellir ond creu # ddefnyddiwr.}
+        other {Gellir ond creu # defnyddiwr.}
+    }</string>
     <string name="user_remove_user_title">Tynnu defnyddiwr?</string>
     <string name="user_remove_user_message">Caiff holl apiau a data\'r defnyddiwr hwn eu dileu.</string>
     <string name="user_remove_user_remove">Tynnu</string>
@@ -426,7 +439,7 @@
     <string name="wallet_secondary_label_device_locked">Datgloi i\'w ddefnyddio</string>
     <string name="wallet_error_generic">Roedd problem yn cael dy gardiau. Rho gynnig arall arni\'n hwyrach.</string>
     <string name="wallet_lockscreen_settings_label">Gosodiadau\'r sgrin cloi</string>
-    <string name="qr_code_scanner_title">Sganio cod QR</string>
+    <string name="qr_code_scanner_updating_secondary_label">Yn diweddaru</string>
     <string name="status_bar_work">Proffil gwaith</string>
     <string name="status_bar_airplane">Modd awyren</string>
     <string name="zen_alarm_warning_indef">Ni fyddi\'n clywed dy larwm nesaf tan <xliff:g id="when" example="at 7:00 AM">%1$s</xliff:g> oni bai dy fod yn diffodd hwn cyn hynny.</string>
@@ -436,8 +449,8 @@
     <string name="accessibility_status_bar_hotspot">Llecyn Wi-Fi</string>
     <string name="accessibility_managed_profile">Proffil gwaith</string>
     <string name="tuner_warning_title">Yn hwyl i rai ond nid i bawb</string>
-    <string name="tuner_warning">Mae Tiwniwr Rhyngwyneb y System yn rhoi dulliau ychwanegol i addasu rhyngwyneb defnyddiwr Android. Gall rhai nodweddion arbrofol cael eu haddasu, torri neu ddiflannu mewn fersiynau yn y dyfodol. Defnyddia â gofal.</string>
-    <string name="tuner_persistent_warning">Gall rhai nodweddion arbrofol cael eu haddasu, torri neu ddiflannu mewn fersiynau yn y dyfodol. Defnyddia â gofal.</string>
+    <string name="tuner_warning">Mae Tiwniwr Rhyngwyneb y System yn rhoi dulliau ychwanegol i addasu rhyngwyneb defnyddiwr Android. Gall rhai nodweddion arbrofol cael eu haddasu, torri neu diflannu mewn fersiynau yn y dyfodol. Defnyddia â gofal.</string>
+    <string name="tuner_persistent_warning">Gall rhai nodweddion arbrofol cael eu haddasu, torri neu diflannu mewn fersiynau yn y dyfodol. Defnyddia â gofal.</string>
     <string name="got_it">Deall yn iawn</string>
     <string name="tuner_toast">Llongyfarchiadau! Mae Tiwniwr Rhyngwyneb y System wedi ei ychwanegu i\'r Gosodiadau.</string>
     <string name="remove_from_settings">Tynnu o\'r Gosodiadau</string>
@@ -478,7 +491,7 @@
     <string name="notification_conversation_summary_low">Dim sain na dirgryniad ac mae\'n ymddangos yn is yn yr adran sgwrsio</string>
     <string name="notification_channel_summary_default">Gall ganu neu ddirgrynu yn seiliedig ar osodiadau\'r ffôn</string>
     <string name="notification_channel_summary_default_with_bubbles">Gall ganu neu ddirgrynu yn dibynnu ar osodiadau\'r ffôn. Mae sgyrsiau gan <xliff:g id="app_name" example="YouTube">%1$s</xliff:g> fel swigod yn rhagosodedig.</string>
-    <string name="notification_channel_summary_automatic">Cael y system i bennu a ddylai\'r hysbysiad hwn wneud sain neu ddirgrynu</string>
+    <string name="notification_channel_summary_automatic">Cael y system i bennu a ddylai\'r hysbysiad hwn wneud sain neu dirgrynu</string>
     <string name="notification_channel_summary_automatic_alerted">&lt;b&gt;Statws:&lt;/b&gt; Wedi\'i codi i Rhagosodiad</string>
     <string name="notification_channel_summary_automatic_silenced">&lt;b&gt;Statws:&lt;/b&gt; Wedi\'i ddisgyn i Tawel</string>
     <string name="notification_channel_summary_automatic_promoted">&lt;b&gt;Statws:&lt;/b&gt; Wedi\'i Osod yn Uwch</string>
@@ -512,6 +525,16 @@
     <string name="notification_menu_snooze_action">Atgoffa fi</string>
     <string name="snooze_undo">Dad-wneud</string>
     <string name="snoozed_for_time">Ar oediad am <xliff:g id="time_amount" example="15 minutes">%1$s</xliff:g></string>
+    <string name="snoozeHourOptions">{count, plural,
+       =1 {# awr}
+        =2 {# awr}
+        other {# awr}
+    }</string>
+    <string name="snoozeMinuteOptions">{count, plural,
+        =1 {# funud}
+        two {# funud}
+        other {# munud}
+    }</string>
     <string name="battery_detail_switch_title">Arbedwr Batri</string>
     <string name="keyboard_key_button_template">Botwm <xliff:g id="name">%1$s</xliff:g></string>
     <string name="keyboard_key_home">Cartref</string>
@@ -658,6 +681,7 @@
     <string name="notification_channel_battery">Batri</string>
     <string name="notification_channel_screenshot">Sgrinluniau</string>
     <string name="notification_channel_instant">Apiau ar Unwaith</string>
+    <string name="notification_channel_setup">Gosod</string>
     <string name="notification_channel_storage">Storfa</string>
     <string name="notification_channel_hints">Awgrymiadau</string>
     <string name="instant_apps">Apiau ar Unwaith</string>
@@ -680,6 +704,7 @@
     <string name="mobile_data_disable_title">Troi data symudol i ffwrdd?</string>
     <string name="mobile_data_disable_message">Ni fydd gennyt fynediad at ddata na\'r rhyngrwyd trwy <xliff:g id="carrier" example="T-Mobile">%s</xliff:g>. Bydd y rhyngrwyd ond ar gael dros Wi-Fi.</string>
     <string name="mobile_data_disable_message_default_carrier">dy ddarparwr gwasanaeth</string>
+    <string name="auto_data_switch_dialog_negative_button">Dim diolch</string>
     <string name="touch_filtered_warning">Ni all Gosodiadau gwirio dy ymateb gan fod ap yn rhwystro cais am ganiatâd.</string>
     <string name="slice_permission_title">Caniatáu i <xliff:g id="app" example="Example App">%1$s</xliff:g> ddangos sleisiau <xliff:g id="app_2" example="Other Example App">%2$s</xliff:g>?</string>
     <string name="slice_permission_text_1"> - Gall ddarllen gwybodaeth o <xliff:g id="app" example="Example App">%1$s</xliff:g></string>
@@ -731,6 +756,11 @@
     <string name="accessibility_floating_button_action_double_tap_to_toggle">toglo</string>
     <string name="quick_controls_title">Rheolyddion dyfeisiau</string>
     <string name="controls_providers_title">Dewis ap i ychwanegu rheolyddion</string>
+    <string name="controls_number_of_favorites">{count, plural,
+        =1 {Ychwanegwyd # rheolydd.}
+two {Ychwanegwyd # reolydd.}
+        other {Ychwanegwyd # rheolydd.}
+    }</string>
     <string name="controls_removed">Tynnwyd</string>
     <string name="accessibility_control_favorite">Ffefrynwyd</string>
     <string name="accessibility_control_favorite_position">Ffefrynwyd, safle <xliff:g id="number" example="1">%d</xliff:g></string>
@@ -797,7 +827,9 @@
     <string name="media_output_dialog_button_stop_casting">Stopio taflu</string>
     <string name="media_output_dialog_accessibility_seekbar">Uchder sain</string>
     <string name="media_output_broadcast">Darlledu</string>
+    <string name="media_output_broadcast_code">Cyfrinair</string>
     <string name="media_output_broadcast_dialog_save">Cadw</string>
+    <string name="media_output_broadcast_starting">Yn dechrau…</string>
     <string name="media_output_broadcast_update_error">Methu cadw. Ceisia eto.</string>
     <string name="build_number_clip_data_label">Rhif adeiledd</string>
     <string name="build_number_copy_toast">Wedi copïo rhif adeiledd i\'r clipfwrdd.</string>
@@ -865,6 +897,10 @@
     <string name="turn_off_airplane_mode">Troi modd awyren i ffwrdd</string>
     <string name="qs_tile_request_dialog_add">Ychwanegu teilsen</string>
     <string name="qs_user_switch_dialog_title">Dewis defnyddiwr</string>
+    <string name="fgs_manager_footer_label">{count, plural,
+=1 {Mae # ap yn weithredol}
+        other {Mae # ap yn weithredol}
+    }</string>
     <string name="fgs_dot_content_description">Gwybodaeth newydd</string>
     <string name="fgs_manager_dialog_title">Apiau gweithredol</string>
     <string name="fgs_manager_app_item_stop_button_label">Stopio</string>
@@ -878,4 +914,9 @@
     <string name="clipboard_edit">golygu</string>
     <string name="add">Ychwanegu</string>
     <string name="manage_users">Rheoli defnyddwyr</string>
+    <string name="dream_overlay_status_bar_notification_indicator">{count, plural,
+=1 {# hysbysiad}
+    other {# hysbysiad}
+    }</string>
+    <string name="rear_display_bottom_sheet_cancel">Diddymu</string>
 </resources>
