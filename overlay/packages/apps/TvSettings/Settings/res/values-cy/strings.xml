@@ -43,6 +43,15 @@
     <string name="add_an_account">Ychwanegu cyfrif</string>
     <string name="accounts_category_title">Cyfrifon a mewngofnodi</string>
     <string name="accounts_category_summary_no_account">Dim cyfrifon</string>
+    <string name="accounts_category_summary"> {count, plural,
+        zero {# cyfrifon}
+        =1 {# cyfrif}
+        two {# gyfrif}
+        few {# chyfrif}
+        many {# chyfrif}
+        other {# cyfrif}
+        }
+    </string>
     <string name="accounts_slice_summary">Gwasanaethau cyfryngau, Cynorthwyydd, Taliadau</string>
     <string name="connectivity_network_category_title">Rhwydwaith a\'r Rhyngrwyd</string>
     <string name="sound_category_title">Sain</string>
@@ -229,10 +238,21 @@
     <string name="enterprise_privacy_none">Dim</string>
     <string name="enterprise_privacy_enterprise_installed_packages">Apiau wedi\'u gosod</string>
     <string name="enterprise_privacy_apps_count_estimation_info">Amcangyfrif yw\'r nifer o apiau. Mae\'n bosib nad yw\'n cynnwys apiau wedi\'u gosod tu allan i Play Store.</string>
+    <string name="enterprise_privacy_number_packages_lower_bound"> {count, plural,
+        =1 {O leiaf # ap}
+        other {O leiaf # ap}
+        }
+    </string>
     <string name="enterprise_privacy_location_access">Caniatâd lleoliad</string>
     <string name="enterprise_privacy_microphone_access">Caniatâd meicroffon</string>
     <string name="enterprise_privacy_camera_access">Caniatâd camera</string>
     <string name="enterprise_privacy_enterprise_set_default_apps">Apiau rhagosodedig</string>
+    <string name="enterprise_privacy_number_packages"> {count, plural,
+        zero {# apiau}
+        =1    {# ap}
+        other {# ap}
+        }
+    </string>
     <string name="enterprise_privacy_input_method">Bysellfwrdd rhagosodedig</string>
     <string name="enterprise_privacy_input_method_name">Gosod i <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
     <string name="enterprise_privacy_always_on_vpn_device">VPN ymlaen-o-hyd wedi\'i droi ymlaen</string>
@@ -240,11 +260,44 @@
     <string name="enterprise_privacy_always_on_vpn_work">VPN ymlaen-o-hyd wedi\'i droi ymlaen yn dy broffil gwaith</string>
     <string name="enterprise_privacy_global_http_proxy">Gosodwyd procsi HTTP byd-eang</string>
     <string name="enterprise_privacy_ca_certs_work">Tystnodiadau a ymddiriedir ynddynt yn dy broffil gwaith</string>
+    <string name="enterprise_privacy_number_ca_certs"> {count, plural,
+        zero {# tystysgrifau CA}
+        =1    {# tystysgrif CA}
+        two {# dystysgrif CA}
+        few {# thystysgrif CA}
+        many {# thystysgrif CA}
+        other {# tystysgrif CA}
+        }
+    </string>
     <string name="enterprise_privacy_lock_device">Gall gweinyddwr cloi\'r ddyfais ac ail-osod y cyfrinair</string>
     <string name="enterprise_privacy_wipe_device">Gall gweinyddwr dileu holl ddata\'r ddyfais</string>
     <string name="enterprise_privacy_failed_password_wipe_device">Nifer o ymdrechion cyfrinair aflwyddiannus cyn dileu holl ddata\'r ddyfais</string>
     <string name="enterprise_privacy_failed_password_wipe_work">Nifer o ymdrechion cyfrinair aflwyddiannus cyn dileu holl ddata\'r proffil gwaith</string>
+    <string name="enterprise_privacy_number_failed_password_wipe"> {count, plural,
+        zero {# cynigion}
+        =1    {# cynnig}
+        two {# gynnig}
+        few {# chynnig}
+        many {# chynnig}
+        other {# cynnig}
+        }
+    </string>
     <string name="learn_more">Dysgu mwy</string>
+    <string name="default_camera_app_title"> {count, plural,
+        =1 {Ap camera}
+        other {Apiau camera}
+        }
+    </string>
+    <string name="default_email_app_title"> {count, plural,
+        =1{Ap cleient ebost}
+        other {Apiau cleient ebost}
+        }
+    </string>
+    <string name="default_phone_app_title"> {count, plural,
+        =1 {Ap ffôn}
+        other {Apiau ffôn}
+        }
+    </string>
     <string name="tutorials">Tiwtoriolau</string>
     <string name="about_system_update">Diweddariad system</string>
     <string name="about_preference">Ynghylch</string>
@@ -256,6 +309,14 @@
     <string name="about_license_activity_unavailable">Dyw data trwydded ddim ar gael</string>
     <string name="about_model">Model</string>
     <string name="about_serial">Rhif cyfres</string>
+    <string name="show_dev_countdown"> {count, plural,
+        =1 {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr}
+        two {Rwyt nawr # gam i ffwrdd o fod yn ddatblygwr}
+        few {Rwyt nawr # cham i ffwrdd o fod yn ddatblygwr}
+        many {Rwyt nawr # cham i ffwrdd o fod yn ddatblygwr}
+        other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr}
+        }
+    </string>
     <string name="about_ads">Hysbysebion</string>
     <string name="show_dev_on">Rwyt bellach â mynediad fel datblygwr!</string>
     <string name="show_dev_already">Dim angen; rwyt eisoes yn ddatblygwr.</string>
@@ -265,6 +326,11 @@
     <string name="selinux_status_permissive">Caniataol</string>
     <string name="selinux_status_enforcing">Yn gorfodi</string>
     <string name="additional_system_update_settings_list_item_title">Diweddariadau system ychwanegol</string>
+    <string name="sl_ca_cert_dialog_title"> {count, plural,
+        =1 {Ymddiried yn neu dynnu tystysgrif}
+        other {Ymddiried yn neu dynnu tystysgrifau}
+        }
+    </string>
     <string name="device_status">Statws</string>
     <string name="device_status_summary">Rhwydwaith, rhifau cyfresol a gwybodaeth arall</string>
     <string name="manual">Â llaw</string>
@@ -700,6 +766,11 @@
     <string name="inputs_device_auto_off_desc">Troi dyfeisiau HDMI i ffwrdd gyda\'r teledu</string>
     <string name="inputs_tv_auto_on">Troi\'r teledu ymlaen yn awtomatig</string>
     <string name="inputs_tv_auto_on_desc">Troi\'r teledu ymlaen gyda dyfais HDMI</string>
+    <string name="inputs_header_connected_input"> {count, plural,
+        =1 {Mewnbwn wedi\2019i Gysylltu}
+        other {Mewnbynnau wedi\2019u Cysylltu}
+        }
+    </string>
     <string name="user_add_profile_item_summary">Cyfyngu mynediad at apiau a chynnwys arall yn dy gyfrif</string>
     <string name="user_new_profile_name">Proffil cyfyngedig</string>
     <string name="user_restrictions_controlled_by">Rheolwyd gan <xliff:g id="app">%1$s</xliff:g></string>
@@ -816,7 +887,7 @@
     <string name="high_power_system">Optimeiddiad pŵer ddim ar gael</string>
     <string name="manage_notification_access_title">Mynediad at hysbysiadau</string>
     <string name="no_notification_listeners">Does dim apiau a osodwyd wedi gofyn am fynediad at hysbysiadau.</string>
-    <string name="notification_listener_security_warning_summary">Mi fydd yn bosib i\'r apiau hyn darllen pob hysbysiad, gan gynnwys gwybodaeth bersonol fel enwau cyswllt a chynnwys negeseuon rwyt yn eu derbyn. Mi fyddan hefyd yn gallu diystyru hysbysiadau neu ddewis gweithredu\'r botymau maen nhw\'n eu cynnwys.    </string>
+    <string name="notification_listener_security_warning_summary">Mi fydd yn bosib i\'r apiau hyn darllen pob hysbysiad, gan gynnwys gwybodaeth bersonol fel enwau cyswllt a chynnwys negeseuon rwyt yn eu derbyn. Mi fyddan hefyd yn gallu diystyru hysbysiadau neu dewis gweithredu\'r botymau maen nhw\'n eu cynnwys.    </string>
     <string name="directory_access">Mynediad at gyfeiriadur</string>
     <string name="directory_access_description">Mae gan yr apiau hyn ganiatâd i edrych yn rhai cyfeiriaduron.</string>
     <string name="directory_on_volume"><xliff:g id="volume" example="SD Card">%1$s</xliff:g> (<xliff:g id="directory" example="Movies">%2$s</xliff:g>)</string>

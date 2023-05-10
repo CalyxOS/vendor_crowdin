@@ -180,6 +180,11 @@
     <string name="low_memory" product="watch">Mae storfa\'r oriawr yn llawn. Rhaid dileu rhai ffeiliau i greu lle.</string>
     <string name="low_memory" product="tv">Mae storfa Android TV yn llawn. Rhaid dileu rhai ffeiliau i greu lle.</string>
     <string name="low_memory" product="default">Mae storfa\'r ffôn yn llawn. Rhaid dileu rhai ffeiliau i greu lle.</string>
+    <string name="ssl_ca_cert_warning">{count, plural,
+        =1 {Awdurdod tystysgrifau wedi\'i osod}
+        other {Awdurdod tystysgrifau wedi\'i osod}
+    }
+    </string>
     <string name="ssl_ca_cert_noti_by_unknown">Gan drydydd parti anhysbys</string>
     <string name="ssl_ca_cert_noti_by_administrator">Gan weinyddwr dy broffil gwaith</string>
     <string name="ssl_ca_cert_noti_managed">Gan <xliff:g id="managing_domain">%s</xliff:g></string>
@@ -257,6 +262,11 @@ Mae\'n dy alluogi i dracio cynnydd yr adroddiad, ychwanegu rhagor o wybodaeth am
 Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.</string>
     <string name="bugreport_option_full_title">Adroddiad llawn</string>
     <string name="bugreport_option_full_summary">Defnyddia\'r opsiwn hwn ar gyfer yr ymyrraeth leiaf bosib gan y system pan fo\'r ddyfais ddim yn ymateb neu\'n rhedeg yn rhy araf, neu pan wyt ti angen adrodd am bob adran. Nid yw yn caniatáu ychwanegu unrhyw fanylion na sgrinluniau.</string>
+    <string name="bugreport_countdown">{count, plural,
+        =1 {Tynnu sgrinlun ymhen # eiliad}
+        other {Tynnu sgrinlun ymhen # eiliad}
+    }
+    </string>
     <string name="bugreport_screenshot_success_toast">Tynnwyd sgrinlun gydag adroddiad gwall</string>
     <string name="bugreport_screenshot_failure_toast">Methwyd tynnu sgrinlun gydag adroddiad gwall</string>
     <string name="global_action_toggle_silent_mode">Modd tawel</string>
@@ -362,9 +372,9 @@ Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.<
     <string name="permlab_answerPhoneCalls">ateb galwadau ffôn</string>
     <string name="permdesc_answerPhoneCalls">Mae\'n caniatáu yr ap i ateb galwad ffôn.</string>
     <string name="permlab_receiveSms">derbyn negeseuon testun (SMS)</string>
-    <string name="permdesc_receiveSms">Mae\'n caniatáu yr ap i dderbyn a phrosesu negeseuon SMS. Mae hyn yn golygu ei fod yn bosib i\'r ap medru clustfeinio ar neu ddileu negeseuon a chaiff eu hanfon at dy ddyfais heb i ti eu gweld nhw.</string>
+    <string name="permdesc_receiveSms">Mae\'n caniatáu yr ap i dderbyn a phrosesu negeseuon SMS. Mae hyn yn golygu ei fod yn bosib i\'r ap medru clustfeinio ar neu dileu negeseuon a chaiff eu hanfon at dy ddyfais heb i ti eu gweld nhw.</string>
     <string name="permlab_receiveMms">derbyn negeseuon testun (MMS)</string>
-    <string name="permdesc_receiveMms">Mae\'n caniatáu yr ap i dderbyn a phrosesu negeseuon MMS. Mae hyn yn golygu ei fod yn bosib i\'r ap medru clustfeinio ar neu ddileu negeseuon a chaiff eu hanfon at dy ddyfais heb i ti eu gweld nhw.</string>
+    <string name="permdesc_receiveMms">Mae\'n caniatáu yr ap i dderbyn a phrosesu negeseuon MMS. Mae hyn yn golygu ei fod yn bosib i\'r ap medru clustfeinio ar neu dileu negeseuon a chaiff eu hanfon at dy ddyfais heb i ti eu gweld nhw.</string>
     <string name="permlab_bindCellBroadcastService">Anfon negeseuon darlledu symudol ymlaen</string>
     <string name="permdesc_bindCellBroadcastService">Mae\'n caniatáu yr ap i ymlynu i\'r modiwl darlledu symudol er mwyn anfon negeseuon darlledu symudol ymlaen wrth iddyn nhw gael eu derbyn. Mewn rhai mannau mae rhybuddion am sefyllfaoedd argyfyngus yn cael eu darlledu trwy negeseuon destun. Gall apiau maleisus ymyrryd â pherfformiad neu weithrediad dy ddyfais pan fydd darllediad argyfwng yn cael ei dderbyn.</string>
     <string name="permlab_manageOngoingCalls">Rheoli galwadau allan</string>
@@ -381,7 +391,7 @@ ar y gweill ar dy ddyfais ac i reoli\'r galwadau hyn.</string>
     <string name="permdesc_readSms" product="tv">Gall yr ap hwn ddarllen yr holl negeseuon SMS (testun) wedi eu cadw ar dy ddyfais Android TV.</string>
     <string name="permdesc_readSms" product="default">Gall yr ap hwn ddarllen yr holl negeseuon SMS (testun) wedi eu cadw ar dy ffôn.</string>
     <string name="permlab_receiveWapPush">derbyn negeseuon testun (WAP)</string>
-    <string name="permdesc_receiveWapPush">Mae\'n caniatáu yr ap i dderbyn a phrosesu negeseuon WAP.  Mae\'r caniatâd hwn yn cynnwys y gallu i glustfeinio neu ddileu negeseuon a anfonir atat heb i ti eu gweld nhw.</string>
+    <string name="permdesc_receiveWapPush">Mae\'n caniatáu yr ap i dderbyn a phrosesu negeseuon WAP. Mae hyn yn golygu ei fod yn bosib i\'r ap medru clustfeinio ar neu dileu negeseuon a chaiff eu hanfon at dy ddyfais heb i ti eu gweld nhw.</string>
     <string name="permlab_getTasks">adfer apiau sy\'n rhedeg</string>
     <string name="permdesc_getTasks">Mae\'n caniatáu yr ap i adfer gwybodaeth am dasgau yn rhedeg ar y pryd neu yn ddiweddar. Gall hyn galluogi\'r ap i ddarganfod gwybodaeth am ba apiau sy\'n cael eu defnyddio ar y ddyfais.</string>
     <string name="permlab_manageProfileAndDeviceOwners">rheoli perchennogion dyfais a phroffil</string>
@@ -434,9 +444,9 @@ ar y gweill ar dy ddyfais ac i reoli\'r galwadau hyn.</string>
     <string name="permdesc_bodySensors" product="default">Mae\'n caniatáu i\'r ap gyrchu data synhwyrydd y corff, fel cyfradd curiad y galon, tymheredd, a chanran ocsigen yn y gwaed, wrth ddefnyddio\'r ap.</string>
     <string name="permdesc_bodySensors_background" product="default">Mae\'n caniatáu i\'r ap gyrchu data synhwyrydd y corff, fel cyfradd curiad y galon, tymheredd, a chanran ocsigen yn y gwaed, tra bod yr ap yn y cefndir.</string>
     <string name="permlab_readCalendar">Darllen manylion a digwyddiadau calendr</string>
-    <string name="permdesc_readCalendar" product="tablet">Gall yr ap hwn ddarllen yr holl ddigwyddiadau calendr wedi eu cadw ar dy lechen a rhannu neu gadw data dy galendr.</string>
-    <string name="permdesc_readCalendar" product="tv">Gall yr ap hwn ddarllen yr holl ddigwyddiadau calendr wedi eu cadw ar y ddyfais Android TV a rhannu neu gadw data dy galendr.</string>
-    <string name="permdesc_readCalendar" product="default">Gall yr ap hwn ddarllen yr holl ddigwyddiadau calendr wedi eu cadw ar dy ffôn a rhannu neu gadw data dy galendr.</string>
+    <string name="permdesc_readCalendar" product="tablet">Gall yr ap hwn ddarllen yr holl ddigwyddiadau calendr wedi eu cadw ar dy lechen a rhannu neu cadw data dy galendr.</string>
+    <string name="permdesc_readCalendar" product="tv">Gall yr ap hwn ddarllen yr holl ddigwyddiadau calendr wedi eu cadw ar y ddyfais Android TV a rhannu neu cadw data dy galendr.</string>
+    <string name="permdesc_readCalendar" product="default">Gall yr ap hwn ddarllen yr holl ddigwyddiadau calendr wedi eu cadw ar dy ffôn a rhannu neu cadw data dy galendr.</string>
     <string name="permlab_writeCalendar">ychwanegu neu addasu digwyddiadau calendr ac anfon negeseuon e-bost at westeion heb roi gwybod i\'r perchennog</string>
     <string name="permdesc_writeCalendar" product="tablet">Gall yr ap hwn ychwanegu, tynnu neu newid digwyddiadau calendr ar dy lechen. Gall yr ap anfon negeseuon gall ymddangos i ddod o berchnogion calendrau neu newid digwyddiadau heb wybod eu perchnogion.</string>
     <string name="permdesc_writeCalendar" product="tv">Gall yr ap hwn ychwanegu, tynnu neu newid digwyddiadau calendr ar y ddyfais Android TV. Gall yr ap anfon negeseuon gall ymddangos i ddod o berchnogion calendrau neu newid digwyddiadau heb wybod eu perchnogion.</string>
@@ -666,7 +676,7 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="permdesc_readMediaAudio">Mae\u2019n caniatáu i\u2019r ap ddarllen ffeiliau sain o\u2019r storfa rwyt yn ei rhannu.</string>
     <string name="permdesc_readMediaVideo">Mae\u2019n caniatáu i\u2019r ap ddarllen ffeiliau fideo o\'r storfa rwyt yn ei rhannu.</string>
     <string name="permdesc_readMediaImages">Mae\u2019n caniatáu i\u2019r ap ddarllen ffeiliau delweddau o\'r storfa rwyt yn ei rhannu.</string>
-    <string name="permlab_sdcardWrite">addasu neu ddileu cynnwys dy storfa a rennir</string>
+    <string name="permlab_sdcardWrite">addasu neu dileu cynnwys dy storfa a rennir</string>
     <string name="permdesc_sdcardWrite">Mae\u2019n caniatáu yr ap i ysgrifennu cynnwys i\'r storfa rwyt yn ei rhannu.</string>
     <string name="permlab_use_sip">gwneud/derbyn galwadau SIP</string>
     <string name="permdesc_use_sip">Mae\'n caniatáu yr ap i gwneud a derbyn galwadau SIP.</string>
@@ -721,14 +731,14 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="policylab_limitPassword">Gosod rheolau cyfrinair</string>
     <string name="policydesc_limitPassword">Rheoli hyd a math o nodau gellir eu defnyddio mewn cyfrineiriau cloi\'r sgrin a chodau PIN.</string>
     <string name="policylab_watchLogin">Monitro cynigion i ddatgloi\'r sgrin</string>
-    <string name="policydesc_watchLogin" product="tablet">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r llechen neu ddileu holl ddata\'r llechen os oes gormod o gynigion aflwyddiannus.</string>
-    <string name="policydesc_watchLogin" product="tv">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi dy ddyfais Android TV neu ddileu holl ddata\'r defnyddiwr hwn os oes gormod o gynigion aflwyddiannus.</string>
-    <string name="policydesc_watchLogin" product="automotive">Monitro\'r nifer o gyfrineiriau anghywir sy\'n cael eu teipio wrth ddatgloi’r sgrin a chloi\'r system gwybodloniant neu ddileu holl ddata\'r system gwybodloniant os rhoddir o gynigion anghywir.</string>
-    <string name="policydesc_watchLogin" product="default">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r ffôn neu ddileu holl ddata\'r ffôn os oes gormod o gynigion aflwyddiannus.</string>
-    <string name="policydesc_watchLogin_secondaryUser" product="tablet">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r llechen neu ddileu holl ddata\'r defnyddiwr hwn ar y llechen os oes gormod o gynigion aflwyddiannus.</string>
-    <string name="policydesc_watchLogin_secondaryUser" product="tv">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r dyfais Android TV neu ddileu holl ddata\'r defnyddiwr hwn os oes gormod o gynigion aflwyddiannus.</string>
-    <string name="policydesc_watchLogin_secondaryUser" product="automotive">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r system gwybodloniant neu ddileu holl ddata\'r proffil hwn os oes gormod o gynigion anghywir.</string>
-    <string name="policydesc_watchLogin_secondaryUser" product="default">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r ffôn neu ddileu holl ddata\'r defnyddiwr hwn ar y ffôn os oes gormod o gynigion aflwyddiannus.</string>
+    <string name="policydesc_watchLogin" product="tablet">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r llechen neu dileu holl ddata\'r llechen os oes gormod o gynigion aflwyddiannus.</string>
+    <string name="policydesc_watchLogin" product="tv">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi dy ddyfais Android TV neu dileu holl ddata\'r defnyddiwr hwn os oes gormod o gynigion aflwyddiannus.</string>
+    <string name="policydesc_watchLogin" product="automotive">Monitro\'r nifer o gyfrineiriau anghywir sy\'n cael eu teipio wrth ddatgloi’r sgrin a chloi\'r system gwybodloniant neu dileu holl ddata\'r system gwybodloniant os rhoddir o gynigion anghywir.</string>
+    <string name="policydesc_watchLogin" product="default">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r ffôn neu dileu holl ddata\'r ffôn os oes gormod o gynigion aflwyddiannus.</string>
+    <string name="policydesc_watchLogin_secondaryUser" product="tablet">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r llechen neu dileu holl ddata\'r defnyddiwr hwn ar y llechen os oes gormod o gynigion aflwyddiannus.</string>
+    <string name="policydesc_watchLogin_secondaryUser" product="tv">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r dyfais Android TV neu dileu holl ddata\'r defnyddiwr hwn os oes gormod o gynigion aflwyddiannus.</string>
+    <string name="policydesc_watchLogin_secondaryUser" product="automotive">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r system gwybodloniant neu dileu holl ddata\'r proffil hwn os oes gormod o gynigion anghywir.</string>
+    <string name="policydesc_watchLogin_secondaryUser" product="default">Monitro’r nifer o droeon rhoddir cyfrinair anghywir wrth ddatgloi\'r sgrin a chloi\'r ffôn neu dileu holl ddata\'r defnyddiwr hwn ar y ffôn os oes gormod o gynigion aflwyddiannus.</string>
     <string name="policylab_resetPassword">Newid clo\'r sgrin</string>
     <string name="policydesc_resetPassword">Newid clo\'r sgrin</string>
     <string name="policylab_forceLock">Cloi\'r sgrin</string>
@@ -909,7 +919,7 @@ Cysyllta â dy ddarparwr gwasanaeth ffôn i gael cerdyn SIM arall.</string>
     <string name="emergency_calls_only" msgid="2485604591272668370">Galwadau brys yn unig</string>
     <string name="lockscreen_network_locked_message">Rhwydwaith wedi\'i gloi</string>
     <string name="lockscreen_sim_puk_locked_message">Mae\'r cerdyn SIM wedi\'i gloi â PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Gweler y Canllaw Defnyddiwr neu gysylltu â Gofal Cwsmeriaid.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">Gweler y Canllaw Defnyddiwr neu cysylltu â Gofal Cwsmeriaid.</string>
     <string name="lockscreen_sim_locked_message">Mae\'r cerdyn SIM wedi\'i gloi.</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Yn datgloi cerdyn SIM\u2026</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message">        Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.
@@ -1119,6 +1129,50 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="duration_days_shortest_future">        mewn <xliff:g example="1" id="count">%d</xliff:g>d
     </string>
     <string name="duration_years_shortest_future">        mewn <xliff:g id="count">%d</xliff:g>b
+    </string>
+    <string name="duration_minutes_relative">{count, plural,
+        =1 {# funud yn ôl}
+        two {# funud yn ôl}
+        other {# munud yn ôl}
+    }
+    </string>
+    <string name="duration_hours_relative">{count, plural,
+=1 {# awr yn ôl}
+        other {# awr yn ôl}
+    }
+    </string>
+    <string name="duration_days_relative">{count, plural,
+        =1 {# diwrnod yn ôl}
+        two {# ddiwrnod yn ôl}
+        other {# diwrnod yn ôl}
+    }
+    </string>
+    <string name="duration_years_relative">{count, plural,
+        =1 {blwyddyn yn ôl}
+        two {# flynedd yn ôl}
+        few {# blynedd yn ôl}
+        many {# mlynedd yn ôl}
+        other {# blwyddyn yn ôl}
+    }
+    </string>
+    <string name="duration_hours_relative_future">{count, plural,
+        =1 {# awr}
+        other {# awr}
+    }
+    </string>
+    <string name="duration_days_relative_future">{count, plural,
+        =1 {# diwrnod}
+        two {# ddiwrnod}
+        other {# diwrnod}
+    }
+    </string>
+    <string name="duration_years_relative_future">{count, plural,
+        =1 {blwyddyn}
+        two {# flynedd}
+        few {# blynedd}
+        many {# mlynedd}
+        other {# blwyddyn}
+    }
     </string>
     <string name="VideoView_error_title">Problem fideo</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Nid yw\'r fideo hwn yn ddilys ar gyfer ffrydio i\'r ddyfais hon.</string>
@@ -1345,8 +1399,8 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="dlg_ok">Iawn</string>
     <string name="usb_charging_notification_title">Yn gwefru\'r ddyfais hon trwy USB</string>
     <string name="usb_supplying_notification_title">Yn gwefru\'r ddyfais a gysylltwyd trwy USB</string>
-    <string name="usb_mtp_notification_title">Mae trosglwyddo ffeiliau trwy USB wedi\'i droi ymlaen</string>
-    <string name="usb_ptp_notification_title">Mae PTP trwy USB wedi\'i droi ymlaen</string>
+    <string name="usb_mtp_notification_title">Mae trosglwyddo ffeiliau trwy USB ymlaen</string>
+    <string name="usb_ptp_notification_title">Mae PTP trwy USB ymlaen</string>
     <string name="usb_tether_notification_title">Mae tenynnu USB wedi\'i droi ymlaen</string>
     <string name="usb_midi_notification_title">Mae MIDI twy USB wedi\'i droi ymlaen</string>
     <string name="usb_accessory_notification_title">Cysylltwyd ategolyn trwy\'r USB</string>
@@ -1861,9 +1915,53 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="confirm_battery_saver">Iawn</string>
     <string name="battery_saver_description_with_learn_more">Mae Arbedwr Batri yn troi\'r thema Tywyll ymlaen ac yn cyfyngu neu\'n diffodd gweithrediadau yn y cefndir, rhai effeithiau gweledol, nodweddion penodol, a rhai cysylltiadau rhwydwaith.</string>
     <string name="battery_saver_description">Mae Arbedwr Batri yn troi\'r thema Tywyll ymlaen ac yn cyfyngu neu\'n diffodd gweithrediadau yn y cefndir, rhai effeithiau gweledol, nodweddion penodol, a rhai cysylltiadau rhwydwaith.</string>
-    <string name="data_saver_description">I helpu lleihau defnydd data, mae Arbedwr Data yn rhwystro rhai apiau rhag anfon neu dderbyn data yn y cefndir. Gall ap gael mynediad at ddata tra ei fod yn cael ei ddefnyddio, ond yn llai aml. Mae hyn yn golygu, er enghraifft, na fydd delweddau efallai yn dangos nes dy fod yn eu tapio nhw.</string>
+    <string name="data_saver_description">I helpu lleihau defnydd data, mae Arbedwr Data yn rhwystro rhai apiau rhag anfon neu derbyn data yn y cefndir. Gall ap gael mynediad at ddata tra ei fod yn cael ei ddefnyddio, ond yn llai aml. Mae hyn yn golygu, er enghraifft, na fydd delweddau efallai yn dangos nes dy fod yn eu tapio nhw.</string>
     <string name="data_saver_enable_title">Rhoi Arbedwr Data ar waith?</string>
     <string name="data_saver_enable_button">Troi ymlaen</string>
+    <string name="zen_mode_duration_minutes_summary">{count, plural,
+        =1 {Am un funud (hyd at {formattedTime})}
+        two {Am # funud (hyd at {formattedTime})}
+        other {Am # munud (hyd at {formattedTime})}
+    }
+    </string>
+    <string name="zen_mode_duration_minutes_summary_short">{count, plural,
+        =1 {Am 1 funud (hyd at {formattedTime})}
+        two {Am # funud (hyd at {formattedTime})}
+        other {Am # munud (hyd at {formattedTime})}
+    }
+    </string>
+    <string name="zen_mode_duration_hours_summary">{count, plural,
+        =1 {Am 1 awr (hyd at {formattedTime})}
+        other {Am # awr (hyd at {formattedTime})}
+    }
+    </string>
+    <string name="zen_mode_duration_hours_summary_short">{count, plural,
+        =1 {Am 1 awr (hyd at {formattedTime})}
+        other {Am # awr (hyd at {formattedTime})}
+    }
+    </string>
+    <string name="zen_mode_duration_minutes">{count, plural,
+        =1 {Am un funud}
+        two {Am # funud}
+        other {Am # munud}
+    }
+    </string>
+    <string name="zen_mode_duration_minutes_short">{count, plural,
+        =1 {Am 1 funud}
+        two {Am # funud}
+        other {Am # munud}
+    }
+    </string>
+    <string name="zen_mode_duration_hours">{count, plural,
+        =1 {Am 1 awr}
+        other {Am # awr}
+    }
+    </string>
+    <string name="zen_mode_duration_hours_short">{count, plural,
+        =1 {Am 1 awr}
+        other {Am # awr}
+    }
+    </string>
     <string name="zen_mode_until_next_day">Hyd at <xliff:g id="formattedTime" example="Tue, 10 PM">%1$s</xliff:g></string>
     <string name="zen_mode_until">Hyd at <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
     <string name="zen_mode_alarm">Hyd at <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (larwm nesaf)</string>
@@ -1945,7 +2043,7 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="tv">Mae\'r ap yn ymofyn diogelwch ychwanegol. Rho gynnig ar dy ddyfais Android TV yn lle.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="tablet">Mae\'r ap yn ymofyn diogelwch ychwanegol. Rho gynnig ar dy lechen yn lle.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="default">Mae\'r ap yn ymofyn diogelwch ychwanegol. Rho gynnig ar dy ffôn yn lle.</string>
-    <string name="deprecated_target_sdk_message">Cafodd yr ap hwn ei adeiladu ar gyfer fersiwn gynharach o Android ac mae\'n bosib na fydd yn gweithio\'n gywir. Gwiria am ddiweddariadau neu gysylltu â\'r datblygwr.</string>
+    <string name="deprecated_target_sdk_message">Cafodd yr ap hwn ei adeiladu ar gyfer fersiwn gynharach o Android ac mae\'n bosib na fydd yn gweithio\'n gywir. Gwiria am ddiweddariadau neu cysylltu â\'r datblygwr.</string>
     <string name="deprecated_target_sdk_app_store">Gwirio am ddiweddariad</string>
     <string name="new_sms_notification_title">Mae gennyt negeseuon newydd</string>
     <string name="new_sms_notification_content">Agor yr ap SMS i\'w gweld</string>
@@ -1987,6 +2085,11 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="autofill_save_accessibility_title">Cadw ar gyfer Awtolenwi</string>
     <string name="autofill_error_cannot_autofill">Ni ellir awtolenwi\u2019r cynnwys</string>
     <string name="autofill_picker_no_suggestions">Dim awgrymiadau awtolenwi</string>
+    <string name="autofill_picker_some_suggestions">{count, plural,
+        =1 {Un awgrymiad awtolenwi}
+        other {# awgrymiad awtolenwi}
+    }
+    </string>
     <string name="autofill_save_title">Cadw i <b><xliff:g id="label" example="MyPass">%1$s</xliff:g></b>?</string>
     <string name="autofill_save_title_with_type">Cadw <xliff:g id="type" example="Credit Card">%1$s</xliff:g> i <b><xliff:g id="label" example="MyPass">%2$s</xliff:g></b>?</string>
     <string name="autofill_save_title_with_2types">Cadw <xliff:g id="type" example="Password">%1$s</xliff:g> a <xliff:g id="type" example="Credit Card">%2$s</xliff:g> i <b><xliff:g id="label" example="MyPass">%3$s</xliff:g></b>?</string>
@@ -2091,6 +2194,11 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="mime_type_presentation_ext">Cyflwyniad <xliff:g id="extension" example="PDF">%1$s</xliff:g></string>
     <string name="bluetooth_airplane_mode_toast">Bydd Bluetooth yn aros ymlaen ym modd awyren</string>
     <string name="car_loading_profile">Yn llwytho</string>
+    <string name="file_count">{count, plural,
+        =1 {{file_name} + # ffeil}
+        other {{file_name} + # ffeil}
+    }
+    </string>
     <string name="chooser_no_direct_share_targets">Dim pobl yr argymhellir i rannu gyda nhw</string>
     <string name="chooser_all_apps_button_label">Rhestr apiau</string>
     <string name="usb_device_resolve_prompt_warn">Dyw\'r hap hwn heb gael caniatâd i recordio ond mi allai gipio sain trwy\'r ddyfais USB hon.</string>

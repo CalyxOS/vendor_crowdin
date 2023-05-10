@@ -19,6 +19,8 @@
     <string name="permission_search_keyword">caniatâd</string>
     <string name="cancel">Diddymu</string>
     <string name="back">Nôl</string>
+    <string name="available">Ar gael</string>
+    <string name="blocked">Wedi\'i rhwystro</string>
     <string name="uninstall_or_disable">Dadosod neu analluogi</string>
     <string name="app_not_found_dlg_title">Ni chanfuwyd yr ap</string>
     <string name="grant_dialog_button_deny">Peidio â chaniatáu</string>
@@ -52,7 +54,17 @@
     <string name="unused_apps">Apiau heb eu defnyddio</string>
     <string name="no_unused_apps">Dim apiau heb eu defnyddio</string>
     <string name="zero_unused_apps">0 apiau heb eu defnyddio</string>
+    <string name="review_permission_decisions">Penderfyniadau caniatâd diweddar</string>
+    <string name="review_permission_decisions_view_all">Gweld pob penderfyniad caniatâd diweddar</string>
     <string name="review_permission_decisions_empty">Dim penderfyniadau caniatâd diweddar</string>
+    <string name="auto_permission_manager_summary">Rheoli mynediad data at galendr, logiau galwadau, a mwy</string>
+    <string name="days_ago">{count, plural,
+        =0    {Heddiw}
+        =1    {Ddoe}
+        two {Echddoe}
+        few {Tridiau yn ôl}
+        other {# diwrnod yn ôl}
+        }</string>
     <string name="app_disable_dlg_positive">Analluogi\'r ap</string>
     <string name="app_disable_dlg_text">Os wyt yn analluogi\'r ap hwn, ni fydd Android ac apiau eraill yn parhau i weithio fel y disgwyl. Bydd yn ymwybodol, ni ellir dileu\u2019r ap hwn am ei fod wedi\u2019i osod ar dy ddyfais yn y ffatri. Wrth ei analluogi, bydd yr ap yn cael ei droi i ffwrdd a\u2019i guddio ar dy ddyfais.</string>
     <string name="app_permission_manager">Rheolydd caniatâd</string>
@@ -60,17 +72,27 @@
     <string name="no_permissions">Dim caniatâd</string>
     <string name="additional_permissions">Caniatâd ychwanegol</string>
     <string name="app_permissions_info_button_label">Agor gwybodaeth am yr ap</string>
+    <string name="additional_permissions_more">{count, plural,
+=1      {# arall}
+        other   {# arall}
+    }</string>
     <string name="old_sdk_deny_warning">Cafodd yr ap hwn ei ddylunio ar gyfer fersiwn gynharach o Android. Gall gwrthod caniatâd achosi iddo beidio â gweithio fel y disgwyl.</string>
+    <string name="storage_supergroup_warning_allow">Dyluniwyd yr ap hwn ar gyfer hen fersiwn Android. Os wyt yn rhoi\u2019r caniatâd hwn, caiff mynediad ei ganiatáu at yr holl ystorfa (gan gynnwys lluniau, fideos, cerddoriaeth, sain, a ffeiliau eraill).</string>
+    <string name="storage_supergroup_warning_deny">Dyluniwyd yr ap hwn ar gyfer hen fersiwn Android. Os nad wyt yn rhoi\u2019r caniatâd hwn, ni chaiff mynediad ei ganiatáu at yr holl ystorfa (gan gynnwys lluniau, fideos, cerddoriaeth, sain, a ffeiliau eraill).</string>
     <string name="default_permission_description">perfformio gweithred anhysbys</string>
     <string name="app_permissions_group_summary">Caniateir <xliff:g id="count" example="10">%1$d</xliff:g> o <xliff:g id="count" example="10">%2$d</xliff:g> ap</string>
     <string name="app_permissions_group_summary2"><xliff:g id="count" example="10">%1$d</xliff:g>/<xliff:g id="count" example="10">%2$d</xliff:g> ap y caniateir</string>
     <string name="menu_show_system">Dangos apiau system</string>
     <string name="menu_hide_system">Cuddio apiau system</string>
+    <string name="menu_show_7_days_data">Dangos 7 diwrnod</string>
+    <string name="menu_show_24_hours_data">Dangos 24 awr</string>
     <string name="manage_permission">Rheoli caniatâd</string>
     <string name="no_apps">Dim apiau</string>
     <string name="location_settings">Gosodiadau Lleoliad</string>
     <string name="location_warning">Mae <xliff:g id="app_name" example="Package Installer">%1$s</xliff:g> yn ddarparwr gwasanaethau lleoliad ar gyfer y ddyfais hon. Gellir addasu mynediad lleoliad yng ngosodiadau lleoliad.</string>
     <string name="system_warning">Os wyt yn gwrthod y caniatâd hwn, bydd rhai nodweddion sylfaenol dy ddyfais yn methu â gweithio fel y bwriedir.</string>
+    <string name="deny_read_media_visual_warning">Dyluniwyd yr ap hwn ar gyfer hen fersiwn Android. Os nad wyt yn rhoi caniatâd i\u2019r ap gael mynediad at luniau a fideos, caiff mynediad at gerddoriaeth a sain arall hefyd ei wrthod.</string>
+    <string name="deny_read_media_aural_warning">Dyluniwyd yr ap hwn ar gyfer hen fersiwn Android. Os nad wyt yn rhoi caniatâd i\u2019r ap gael mynediad at gerddoriaeth a sain arall, caiff mynediad at luniau a fideos hefyd ei wrthod.</string>
     <string name="cdm_profile_revoke_warning">Os wyt yn gwrthod y caniatâd hwn, bydd rhai nodweddion o dy ddyfais a reolir gan yr ap hwn o bosib ddim yn gweithio yn gywir.</string>
     <string name="permission_summary_enforced_by_policy">Gorfodwyd fel polisi</string>
     <string name="permission_summary_disabled_by_policy_background_only">Analluogir mynediad cefndir fel polisi.</string>
@@ -116,6 +138,28 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="permission_usage_access_dialog_subtitle">Pan ddefnyddiodd yr ap hwn dy ganiatâd <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
     <string name="permission_usage_access_dialog_learn_more">Dysgu mwy</string>
     <string name="history_preference_subtext_2"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> \u2022 <xliff:g id="truncated_time" example="1 hr 20min">%2$s</xliff:g></string>
+    <string name="duration_used_days">{count, plural,
+        =1 {1 diwrnod}
+        two {# ddiwrnod}
+        other {# diwrnod}
+    }
+    </string>
+    <string name="duration_used_hours">{count, plural,
+        =1 {1 awr}
+        other {# awr}
+    }
+    </string>
+    <string name="duration_used_minutes">{count, plural,
+        =1 {1 mun}
+        two {# fun}
+        other {# mun}
+    }
+    </string>
+    <string name="duration_used_seconds">{count, plural,
+        =1 {1 eil}
+        other {# eil}
+    }
+    </string>
     <string name="permission_usage_any_permission">Unrhyw ganiatâd</string>
     <string name="permission_usage_any_time">Unrhyw bryd</string>
     <string name="permission_usage_last_7_days">7 niwrnod diwethaf</string>
@@ -137,6 +181,12 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="permission_usage_bar_chart_title_last_15_minutes">Defnydd caniatâd yn y 15 munud diwethaf</string>
     <string name="permission_usage_bar_chart_title_last_minute">Defnydd caniatâd yn yr awr ddiwethaf</string>
     <string name="permission_usage_preference_summary_not_used_24h">Heb eu defnyddio yn y 24 awr ddiwethaf</string>
+    <string name="permission_usage_preference_summary_not_used_7d">Heb eu defnyddio yn y 7 diwrnod diwethaf</string>
+    <string name="permission_usage_preference_label">{count, plural,
+        =1 {Defnyddiwyd gan 1 ap}
+        other {Defnyddiwyd gan # ap}
+    }
+    </string>
     <string name="permission_usage_view_details">Gweld y cwbl yn y Dangosfwrdd</string>
     <string name="app_permission_usage_filter_label">Trefnwyd yn ôl: <xliff:g id="perm" example="Location">%1$s</xliff:g> </string>
     <string name="app_permission_usage_remove_filter">Tynnu\'r hidlydd</string>
@@ -172,6 +222,7 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="app_permission_footer_app_permissions_link">Gweld pob caniatâd <xliff:g id="app" example="Maps">%1$s</xliff:g></string>
     <string name="app_permission_footer_permission_apps_link">Gweld pob ap gyda\'r caniatâd hwn</string>
     <string name="assistant_mic_label">Dangos defnydd meicroffon cynorthwyydd</string>
+    <string name="unused_apps_category_title">Gosodiadau ap heb eu defnyddio</string>
     <string name="auto_revoke_label">Tynnu caniatâd yn ôl os nad yw\u2019r ap yn cael ei ddefnyddio</string>
     <string name="unused_apps_label">Tynnu caniatâd yn ôl a rhyddhau lle</string>
     <string name="auto_revoke_summary">I warchod dy ddata, caiff caniatâd yr ap hwn ei dynnu yn ôl os na chaiff yr ap ei ddefnyddio am rai misoedd.</string>
@@ -190,6 +241,7 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="auto_revoked_app_summary_many">Caniatâd <xliff:g id="permission_name" example="Microphone">%1$s</xliff:g> a <xliff:g id="number" example="2">%2$s</xliff:g> arall wedi eu tynnu yn ôl</string>
     <string name="unused_apps_page_title">Apiau heb eu defnyddio</string>
     <string name="unused_apps_page_summary">Os na chaiff ap ei ddefnyddio am rai misoedd:\n\n\u2022 Tynnir caniatâd yn ôl i warchod dy ddata\n\u2022 Rhoddir stop ar hysbysiadau i arbed batri\n\u2022 Tynnir ffeiliau dros dro i ryddhau lle\n\nI roi caniatâd a chaniatáu hysbysiadau eto, agora\u2019r ap.</string>
+    <string name="unused_apps_page_tv_summary">Os na chaiff ap ei ddefnyddio am rai misoedd:\n\n\u2022 Tynnir caniatâd yn ôl i warchod dy ddata\n\u2022 Tynnir ffeiliau dros dro i ryddhau lle\n\nI roi caniatâd eto, agora\u2019r ap.</string>
     <string name="last_opened_category_title">Agorwyd diwethaf dros <xliff:g id="number" example="3">%s</xliff:g> mis yn ôl</string>
     <string name="last_opened_summary">Agorwyd yr ap diwethaf ar <xliff:g id="date" example="March 12, 2020">%s</xliff:g></string>
     <string name="last_opened_summary_short">Agorwyd diwethaf <xliff:g id="date" example="March 12, 2020">%s</xliff:g></string>
@@ -219,13 +271,47 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="allowed_storage_full">Gyda chaniatâd i reoli pob ffeil</string>
     <string name="ask_header">Gofyn bob tro</string>
     <string name="denied_header">Ni chaniateir</string>
+    <string name="days">{count, plural,
+        =1 {1 diwrnod}
+        two {# ddiwrnod}
+        other {# diwrnod}
+    }
+    </string>
+    <string name="hours">{count, plural,
+        =1 {1 awr}
+        other {# awr}
+    }
+    </string>
+    <string name="minutes">{count, plural,
+        =1 {1 munud}
+        two {# funud}
+        other {# munud}
+    }
+    </string>
+    <string name="seconds">{count, plural,
+        =1 {1 eiliad}
+        other {# eiliad}
+    }
+    </string>
     <string name="permission_reminders">Atgoffa am ganiatâd</string>
     <string name="auto_revoke_permission_reminder_notification_title_one">1 ap heb ei ddefnyddio</string>
     <string name="auto_revoke_permission_reminder_notification_title_many"><xliff:g id="number_of_apps" example="4">%s</xliff:g> ap heb eu defnyddio</string>
     <string name="auto_revoke_permission_reminder_notification_content">Tynnwyd caniatâd yn ôl i warchod dy breifatrwydd. Tapia i adolygu</string>
     <string name="auto_revoke_permission_notification_title">Tynnwyd caniatâd yn ôl o apiau heb eu defnyddio</string>
     <string name="auto_revoke_permission_notification_content">Dyw rhai apiau heb eu defnyddio ers rhai misoedd. Tapia i adolygu.</string>
+    <string name="unused_apps_notification_title">{count, plural,
+        zero {# apiau heb eu defnyddio}
+=1      {# ap heb ei ddefnyddio}
+        other   {# ap heb eu defnyddio}
+    }</string>
     <string name="unused_apps_notification_content">Tynnwyd caniatâd a ffeiliau dros dro a chafodd hysbysiadau eu stopio. Tapia i adolygu.</string>
+    <string name="post_drive_permission_decision_reminder_summary_multi_apps"> {count, plural,
+        =1 {Wrth yrru, rhoddaist hawl mynediad i <xliff:g id="app" example="Waze">%1$s</xliff:g> ac # ap arall.}
+        two {Wrth yrru, rhoddaist hawl mynediad i <xliff:g id="app" example="Waze">%1$s</xliff:g> a # ap arall.}
+        other {Wrth yrru, rhoddaist hawl mynediad i <xliff:g id="app" example="Waze">%1$s</xliff:g> a/ac # ap arall.}
+        }
+    </string>
+    <string name="go_to_settings">Mynd i Gosodiadau</string>
     <string name="auto_revoke_setting_subtitle">Dyw rhai apiau heb eu defnyddio ers rhai misoedd</string>
     <string name="permissions_removed_category_title">Caniatâd wedi\'u tynnu yn ôl</string>
     <string name="permission_removed_page_title">Caniatâd wedi\'u tynnu yn ôl</string>
@@ -234,6 +320,18 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="auto_revoke_preference_summary">Tynnwyd caniatâd yn ôl i warchod dy breifatrwydd</string>
     <string name="background_location_access_reminder_notification_title">Cafodd <xliff:g id="app_name" example="Gmail">%s</xliff:g> dy leoliad wrth redeg yn y cefndir</string>
     <string name="background_location_access_reminder_notification_content">Gall yr ap hwn gael gwybod dy leoliad o hyd. Tapia i newid hyn.</string>
+    <string name="notification_listener_reminder_notification_title_plural"> {count, plural,
+        =1 {Adolygu ap gyda mynediad at wrandawr hysbysiadau}
+        other {Adolygu apiau gyda mynediad at wrandawr hysbysiadau}
+        }
+    </string>
+    <string name="notification_listener_reminder_notification_content">Gall <xliff:g id="app_name" example="Gmail">%s</xliff:g> ddarllen dy holl hysbysiadau.</string>
+    <string name="notification_listener_reminder_notification_content_plural"> {count, plural,
+        zero {Gall <xliff:g id="app_name" example="Gmail">%s</xliff:g> apiau ddarllen dy holl hysbysiadau.}
+        =1 {Gall # ap ddarllen dy holl hysbysiadau.}
+        other {Gall # ap ddarllen dy holl hysbysiadau.}
+        }
+    </string>
     <string name="auto_revoke_after_notification_title">Tynnwyd caniatâd yr ap yn ôl i warchod dy breifatrwydd</string>
     <string name="auto_revoke_after_notification_content_one">Dyw <xliff:g id="app_name" example="Gmail">%s</xliff:g> heb ei ddefnyddio ers rhai misoedd. Tapia i adolygu.</string>
     <string name="auto_revoke_after_notification_content_two">Dyw <xliff:g id="app_name" example="Gmail">%s</xliff:g> ac 1 ap arall heb eu defnyddio ers rhai misoedd. Tapia i adolygu.</string>
@@ -256,16 +354,24 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="permission_subtitle_background">Caniateir o hyd</string>
     <string name="app_perms_24h_access">Mynediad diwethaf am <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
     <string name="app_perms_24h_access_yest">Mynediad diwethaf ddoe am <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="app_perms_7d_access">Wedi\u2019u cyrchu diwethaf <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> am <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g></string>
     <string name="app_perms_content_provider_24h">Wedi cael mynediad yn y 24 awr ddiwethaf</string>
+    <string name="app_perms_content_provider_7d">Wedi cael mynediad yn y 7 diwrnod diwethaf</string>
     <string name="app_perms_24h_access_background">Mynediad diwethaf am <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Caniateir o hyd</string>
     <string name="app_perms_24h_access_yest_background">Mynediad diwethaf ddoe am <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Caniateir o hyd</string>
+    <string name="app_perms_7d_access_background">Wedi\u2019u cyrchu diwethaf <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> am <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g> \u2022 Caniateir o hyd</string>
     <string name="app_perms_content_provider_24h_background">Wedi cael mynediad yn y 24 awr diwethaf \u2022 Caniateir o hyd</string>
+    <string name="app_perms_content_provider_7d_background">Wedi\u2019u cyrchu yn y 7 diwrnod diwethaf \u2022 Caniateir o hyd</string>
     <string name="app_perms_24h_access_media_only">Mynediad diwethaf am <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Cyfryngau</string>
     <string name="app_perms_24h_access_yest_media_only">Mynediad diwethaf ddoe am <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Cyfryngau</string>
+    <string name="app_perms_7d_access_media_only">Wedi\u2019u cyrchu diwethaf <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> am <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g> \u2022 Cyfryngau</string>
     <string name="app_perms_content_provider_24h_media_only">Wedi cael mynediad yn y 24 awr diwethaf \u2022 Cyfryngau</string>
+    <string name="app_perms_content_provider_7d_media_only">Wedi\u2019u cyrchu yn y 7 diwrnod diwethaf \u2022 Cyfryngau</string>
     <string name="app_perms_24h_access_all_files">Mynediad diwethaf am <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Pob Ffeil</string>
     <string name="app_perms_24h_access_yest_all_files">Mynediad diwethaf ddoe am <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Pob Ffeil</string>
+    <string name="app_perms_7d_access_all_files">Wedi\u2019u cyrchu diwethaf <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> am <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g> \u2022 Holl Ffeiliau</string>
     <string name="app_perms_content_provider_24h_all_files">Wedi cael mynediad yn y 24 awr diwethaf \u2022 Pob Ffeil</string>
+    <string name="app_perms_content_provider_7d_all_files">Wedi\u2019u cyrchu yn y 7 diwrnod diwethaf \u2022 Holl Ffeiliau</string>
     <string name="no_permissions_allowed">Ni roddir unrhyw ganiatâd</string>
     <string name="no_permissions_denied">Ni rwystrwyd unrhyw ganiatâd</string>
     <string name="no_apps_allowed">Ni chaniateir unrhyw ap</string>
@@ -318,8 +424,12 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="role_call_screening_description">Apiau sy\'n dy alluogi i adnabod galwadau a rhwystro sbam, robotiaid, neu rifau dieithr</string>
     <string name="role_call_screening_request_title">Gosod <xliff:g id="app_name" example="Super Call Screening">%1$s</xliff:g> fel dy ap adnabod galwyr a sbam rhagosodedig?</string>
     <string name="role_call_screening_request_description">Dim angen unrhyw ganiatâd</string>
+    <string name="role_automotive_navigation_label">Ap llywio rhagosodedig</string>
+    <string name="role_automotive_navigation_description">Apiau sy\u2019n caniatáu chwilio mannau o ddiddordeb a chynnig llywio tro wrth dro</string>
+    <string name="role_automotive_navigation_request_title">Gosod <xliff:g id="app_name" example="Super Navigation">%1$s</xliff:g> fel dy ap llywio rhagosodedig?</string>
     <string name="role_automotive_navigation_request_description">Dim angen unrhyw ganiatâd</string>
     <string name="role_watch_description">Bydd <xliff:g id="app_name" example="Wear">%1$s</xliff:g> yn cael rhyngysylltu â dy hysbysiadau a chael mynediad at ganiatâd dy Ffôn, SMS, Cysylltiadau a Chalendr.</string>
+    <string name="role_companion_device_computer_description">Mae\u2019r gwasanaeth hon yn rhannu dy luniau, cyfryngau, a hysbysiadau o dy ffôn gyda dyfeisiau eraill.</string>
     <string name="request_role_current_default">Rhagosodiad cyfredol</string>
     <string name="request_role_dont_ask_again">Peidio â gofyn eto</string>
     <string name="request_role_set_as_default">Gosod fel rhagosodiad</string>
@@ -392,6 +502,12 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="permgrouprequest_calendar">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael mynediad at dy galendr?</string>
     <string name="permgrouprequest_sms">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; anfon a gweld negeseuon SMS?</string>
     <string name="permgrouprequest_storage">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael mynediad at luniau, cyfryngau a ffeiliau eraill ar dy ddyfais?</string>
+    <string name="permgrouprequest_storage_q_to_s">Caniatáu i
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael mynediad at &lt;b&gt;luniau, fideos, cerddoriaeth a sain&lt;/b&gt; ar y ddyfais hon?</string>
+    <string name="permgrouprequest_storage_pre_q">Caniatáu i
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael mynediad at &lt;b&gt;luniau, fideos, cerddoriaeth, sain a ffeiliau eraill&lt;/b&gt; ar y ddyfais hon?</string>
+    <string name="permgrouprequest_read_media_aural">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael mynediad at luniau a sain ar y ddyfais hon?</string>
+    <string name="permgrouprequest_read_media_visual">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael mynediad at luniau a fideos ar y ddyfais hon?</string>
     <string name="permgrouprequest_microphone">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; recordio sain?</string>
     <string name="permgrouprequestdetail_microphone">Bydd yr ap ond yn gallu recordio sain tra dy fod yn defnyddio\u2019r ap</string>
     <string name="permgroupbackgroundrequest_microphone">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; recordio sain?</string>
@@ -408,6 +524,9 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="permgrouprequest_calllog">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael mynediad at gofnodion dy alwadau ffôn?</string>
     <string name="permgrouprequest_phone">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; wneud a rheoli galwadau ffôn?</string>
     <string name="permgrouprequest_sensors">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael at ddata synhwyrydd am dy arwyddion bywyd?</string>
+    <string name="permgroupbackgroundrequest_sensors">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael at ddata\u2019r synhwyrydd am dy arwyddion bywyd?</string>
+    <string name="permgroupupgraderequest_sensors">Parhau i ganiatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; gael mynediad at ddata\u2019r synhwyrydd arwyddion bywyd tra bod yn cael ei ddefnyddio?</string>
+    <string name="permgrouprequest_notifications">Caniatáu i &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; anfon hysbysiadau atat?</string>
     <string name="auto_granted_permissions">Caniatâd a rheolir</string>
     <string name="auto_granted_location_permission_notification_title">Gellir cael mynediad at leoliad</string>
     <string name="auto_granted_permission_notification_body">Mae dy weinyddwr TG yn caniatáu i <xliff:g id="app_name" example="Gmail">%s</xliff:g> gael gwybod dy leoliad</string>
@@ -422,7 +541,52 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="privdash_label_other">Arall</string>
     <string name="privdash_label_none">Dim</string>
     <string name="privdash_label_24h">24 awr\nddiwethaf</string>
+    <string name="privdash_label_7d">7 diwrnod\ndiwethaf</string>
+    <string name="blocked_camera_title">Camera\u2019r ddyfais wedi\u2019i rwystro</string>
+    <string name="blocked_microphone_title">Meicroffon y ddyfais wedi\u2019i rwystro</string>
+    <string name="blocked_location_title">Lleoliad dyfais i ffwrdd</string>
+    <string name="blocked_sensor_summary">Ar gyfer apiau a gwasanaethau</string>
+    <string name="blocked_mic_summary">Gall data meicroffon dal i gael ei rannu os wyt ti\u2019n galw rhif argyfwng.</string>
+    <string name="blocked_sensor_button_label">Newid</string>
+    <string name="safety_center_dashboard_page_title">Diogelwch a Phreifatrwydd</string>
     <string name="safety_center_rescan_button">Sganio</string>
     <string name="safety_center_issue_card_dismiss_button">Diystyru</string>
+    <string name="security_settings">Gosodiadau Diogelwch</string>
+    <string name="sensor_permissions_qs">Caniatâd Synhwyrydd</string>
+    <string name="privacy_controls_qs">Rheolyddion Preifatrwydd</string>
+    <string name="permissions_removed_qs">Caniatâd wedi\'i dynnu yn ôl</string>
+    <string name="camera_usage_qs">Gweld mwy o ddefnydd camera</string>
+    <string name="microphone_usage_qs">Gweld mwy o ddefnydd meicroffon</string>
+    <string name="remove_camera_qs">Tynnu caniatâd camera</string>
+    <string name="remove_microphone_qs">Tynnu caniatâd meicroffon</string>
+    <string name="manage_service_qs">Rheoli gwasanaeth</string>
+    <string name="manage_permissions_qs">Rheoli caniatâd</string>
+    <string name="active_call_usage_qs">Yn cael ei ddefnyddio gan alwad ffôn</string>
+    <string name="recent_call_usage_qs">Wedi ei ddefnyddio\u2019n ddiweddar mewn galwad ffôn</string>
+    <string name="active_app_usage_qs">Yn cael ei ddefnyddio gan <xliff:g id="app_name" example="Gmail">%1$s</xliff:g></string>
+    <string name="recent_app_usage_qs">Wedi ei ddefnyddio\u2019n ddiweddar gan <xliff:g id="app_name" example="Gmail">%1$s</xliff:g></string>
+    <string name="active_app_usage_1_qs">Yn cael ei ddefnyddio gan <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>)</string>
+    <string name="recent_app_usage_1_qs">Wedi ei ddefnyddio\u2019n ddiweddar gan <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>)</string>
+    <string name="active_app_usage_2_qs">Yn cael ei ddefnyddio gan <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g> \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
+    <string name="recent_app_usage_2_qs">Wedi ei ddefnyddio\u2019n ddiweddar gan <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g> \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
+    <string name="safety_privacy_qs_tile_title">Diogelwch a Phreifatrwydd</string>
+    <string name="safety_privacy_qs_tile_subtitle">Gwirio statws</string>
+    <string name="media_confirm_dialog_positive_button">Cadarnhau</string>
     <string name="media_confirm_dialog_negative_button">Nôl</string>
+    <string name="media_confirm_dialog_title_a_to_p_aural_allow">Caiff mynediad at ffeiliau eraill hefyd ei ganiatáu</string>
+    <string name="media_confirm_dialog_title_a_to_p_aural_deny">Ni chaiff mynediad at ffeiliau eraill ei ganiatáu chwaith</string>
+    <string name="media_confirm_dialog_title_a_to_p_visual_allow">Caiff mynediad at ffeiliau eraill hefyd ei ganiatáu</string>
+    <string name="media_confirm_dialog_title_a_to_p_visual_deny">Ni chaiff mynediad at ffeiliau eraill ei ganiatáu chwaith</string>
+    <string name="media_confirm_dialog_title_q_to_s_aural_allow">Caiff mynediad at luniau a fideos hefyd ei ganiatáu</string>
+    <string name="media_confirm_dialog_title_q_to_s_aural_deny">Ni chaiff mynediad at luniau na fideos ei ganiatáu chwaith</string>
+    <string name="media_confirm_dialog_title_q_to_s_visual_allow">Caiff mynediad at gerddoriaeth a ffeiliau sain hefyd ei ganiatáu</string>
+    <string name="media_confirm_dialog_title_q_to_s_visual_deny">Ni chaiff mynediad at gerddoriaeth na ffeiliau sain ei ganiatáu chwaith</string>
+    <string name="media_confirm_dialog_message_a_to_p_aural_allow">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os caiff yr ap hwn fynediad at ffeiliau sain a cherddoriaeth, mi fydd ganddo hefyd mynediad at luniau, fideos, a ffeiliau eraill.</string>
+    <string name="media_confirm_dialog_message_a_to_p_aural_deny">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os na chaiff yr ap hwn fynediad at ffeiliau sain a cherddoriaeth, ni fydd ganddo chwaith mynediad at luniau, fideos, na ffeiliau eraill.</string>
+    <string name="media_confirm_dialog_message_a_to_p_visual_allow">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os caiff yr ap hwn fynediad at luniau a fideos, mi fydd ganddo hefyd mynediad at sain, cerddoriaeth, a ffeiliau eraill.</string>
+    <string name="media_confirm_dialog_message_a_to_p_visual_deny">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os na chaiff yr ap hwn fynediad at luniau a fideos, ni fydd ganddo chwaith mynediad at sain, cerddoriaeth, na ffeiliau eraill.</string>
+    <string name="media_confirm_dialog_message_q_to_s_aural_allow">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os caiff yr ap hwn fynediad at ffeiliau sain a cherddoriaeth, mi fydd ganddo hefyd mynediad at luniau a fideos.</string>
+    <string name="media_confirm_dialog_message_q_to_s_aural_deny">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os na chaiff yr ap hwn fynediad at ffeiliau sain a cherddoriaeth, ni fydd ganddo chwaith mynediad at luniau na fideos.</string>
+    <string name="media_confirm_dialog_message_q_to_s_visual_allow">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os caiff yr ap hwn fynediad at luniau a fideos, mi fydd ganddo hefyd mynediad at ffeiliau sain a cherddoriaeth.</string>
+    <string name="media_confirm_dialog_message_q_to_s_visual_deny">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os na chaiff yr ap hwn fynediad at ffeiliau sain a cherddoriaeth, ni fydd ganddo chwaith mynediad at luniau na fideos.</string>
 </resources>
