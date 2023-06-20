@@ -362,6 +362,7 @@
     <string name="setup_fingerprint_enroll_skip_title">An leum thu thairis air an lorg-meòir?</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text">Cha doir suidheachadh luirg-mheòir ach mionaid no dhà. Ma ghearras tu leum thairis air, ’s urrainn dhut do lorg-meòir a chur ris uaireigin eile sna roghainnean.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_2">Mar a dh’obraicheas e</string>
+    <string name="security_settings_activeunlock_biometric_setup">Suidhich</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Thoir gnogag gus a shuidheachadh</string>
     <string name="biometric_settings_hand_back_to_guardian_ok">Ceart ma-thà</string>
     <string name="lock_screen_intro_skip_title">An leum thu thairis air glas na sgrìn?</string>
@@ -399,6 +400,7 @@
     <string name="security_settings_fingerprint_enroll_done">Deiseil</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">Iochd, chan e sin am mothaichear</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_message">Suath ris a’ mhothaichear air cùlaibh an fhòn agad. Cleachd do sgealbag.</string>
+    <string name="security_settings_fingerprint_enroll_error_unable_to_process_dialog_title">Cha deach an clàradh a choileanadh</string>
     <string name="security_settings_fingerprint_enroll_error_generic_dialog_message">Cha deach le clàradh na luirge-meòir. Feuch ris a-rithist no cleachd corrag eile.</string>
     <string name="fingerprint_enroll_button_add">Cuir tè eile ris</string>
     <string name="fingerprint_enroll_button_next">Air adhart</string>
@@ -1692,9 +1694,9 @@
     <string name="lockpassword_strong_auth_required_work_pattern">Cleachd pàtran na h-obrach agad airson barrachd tèarainteachd</string>
     <string name="lockpassword_strong_auth_required_work_pin">Cuir a-steach PIN na h-obrach agad airson barrachd tèarainteachd</string>
     <string name="lockpassword_strong_auth_required_work_password">Cuir a-steach facal-faire na h-obrach agad airson barrachd tèarainteachd</string>
-    <string name="lockpassword_confirm_your_pattern_details_frp">Chaidh am fòn agad ath-shuidheachadh air roghainnean an fhactaraidh. Airson am fòn seo a chleachdadh, cuir a-steach am pàtran a bh’ agad roimhe.</string>
-    <string name="lockpassword_confirm_your_pin_details_frp">Chaidh am fòn agad ath-shuidheachadh air roghainnean an fhactaraidh. Airson am fòn seo a chleachdadh, cuir a-steach am PIN a bh’ agad roimhe.</string>
-    <string name="lockpassword_confirm_your_password_details_frp">Chaidh am fòn agad ath-shuidheachadh air roghainnean an fhactaraidh. Airson am fòn seo a chleachdadh, cuir a-steach am facal-faire a bh’ agad roimhe.</string>
+    <string name="lockpassword_confirm_your_pattern_details_frp" product="default">Chaidh am fòn agad ath-shuidheachadh air roghainnean an fhactaraidh. Airson am fòn seo a chleachdadh, cuir a-steach am pàtran a bh’ agad roimhe.</string>
+    <string name="lockpassword_confirm_your_pin_details_frp" product="default">Chaidh am fòn agad ath-shuidheachadh air roghainnean an fhactaraidh. Airson am fòn seo a chleachdadh, cuir a-steach am PIN a bh’ agad roimhe.</string>
+    <string name="lockpassword_confirm_your_password_details_frp" product="default">Chaidh am fòn agad ath-shuidheachadh air roghainnean an fhactaraidh. Airson am fòn seo a chleachdadh, cuir a-steach am facal-faire a bh’ agad roimhe.</string>
     <string name="lockpassword_confirm_your_pattern_header_frp">Dearbh am pàtran</string>
     <string name="lockpassword_confirm_your_pin_header_frp">Dearbh am PIN</string>
     <string name="lockpassword_confirm_your_password_header_frp">Dearbh am facal-faire</string>
@@ -3261,7 +3263,6 @@
     <string name="zen_mode_restrict_notifications_mute_footer">Nuair a thig brath a-steach, cha dèan am fòn seirm no crith.</string>
     <string name="zen_mode_restrict_notifications_hide">Gun shealltainn no fhuaim o bhrathan</string>
     <string name="zen_mode_restrict_notifications_hide_summary">Chan fhaic no cluinn thu brathan</string>
-    <string name="zen_mode_restrict_notifications_hide_footer">Cha sheall am fòn agad brathan ùra no a tha ann agus cha dèan e crith no fuaim dhaibh. Thoir an aire gun nochd brathan èiginneach do ghnìomhachd is staid an fhòn fhathast.\n\nNuair a chuireas tu “Na bris a-steach orm” dheth, grad-shlaighd o bhàrr na sgrìn airson na brathan a dh’fhalbh ort a lorg.</string>
     <string name="zen_mode_restrict_notifications_custom">Gnàthaichte</string>
     <string name="zen_mode_restrict_notifications_enable_custom">Cuir an comas roghainn ghnàthaichte</string>
     <string name="zen_mode_restrict_notifications_disable_custom">Thoir air falbh roghainn ghnàthaichte</string>
@@ -3285,7 +3286,6 @@
     <string name="zen_mode_block_effect_summary_sound">An fhuaim ’s a’ chrith</string>
     <string name="zen_mode_block_effect_summary_some">Fuaim, crith is cuid a shanasan lèirsinneach nam brathan</string>
     <string name="zen_mode_block_effect_summary_all">Fuaim, crith is sanasan lèirsinneach nam brathan</string>
-    <string name="zen_mode_blocked_effects_footer">Cha dèid brathan a bhios riatanach airson gnìomhachd is staid an fhòn fhalach idir.</string>
     <string name="zen_mode_no_exceptions">Chan eil gin</string>
     <string name="zen_mode_other_options">roghainnean eile</string>
     <string name="zen_mode_add">Cuir ris</string>
@@ -3550,7 +3550,6 @@
     <string name="manage_zen_access_title">Inntrigeadh dha “Na bris a-steach orm”</string>
     <string name="zen_access_detail_switch">Ceadaich “Na bris a-steach orm”</string>
     <string name="zen_access_empty_text">Cha do dh’iarr aplacaid air a stàladh inntrigeadh dha “Na bris a-steach orm”</string>
-    <string name="app_notifications_off_desc">On a dh’iarr thu sin, tha Android a’ bacadh brathan na h-aplacaid seo ach nach nochd iad air an uidheam seo</string>
     <string name="channel_notifications_off_desc">On a dh’iarr thu sin, tha Android a’ bacadh brathan dhen roinn-sheòrsa seo ach nach nochd iad air an uidheam seo</string>
     <string name="channel_group_notifications_off_desc">On a dh’iarr thu sin, tha Android a’ bacadh brathan dhen bhuidheann seo ach nach nochd iad air an uidheam seo</string>
     <string name="notification_channels">Roinnean-seòrsa</string>
