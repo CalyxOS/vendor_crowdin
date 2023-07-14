@@ -469,6 +469,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="security_settings_fingerprint_v2_enroll_acquire_too_fast">Coda dy fys ar ôl teimlo dirgryniad</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_too_bright">Symuda i fan llai disglair a cheisio eto</string>
     <string name="security_settings_fingerprint_v2_enroll_error_max_attempts">Rwyt wedi cyrraedd y nifer mwyaf o gynigion a ganiateir</string>
+    <string name="security_settings_activeunlock_biometric_setup">Gosod</string>
     <string name="security_settings_biometric_preference_title">Datgloi ag Wyneb ac Ôl Bys</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Tapia i\'w osod</string>
     <string name="security_settings_biometric_preference_summary_both_fp_multiple">Ychwanegwyd wyneb ac olion bysedd</string>
@@ -577,6 +578,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="security_settings_fingerprint_enroll_done">Gorffen</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">Wps, nid dyna\u2019r synhwyrydd</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_message">Cyffyrdda\'r synhwyrydd ar gefn dy ffôn. Defnyddia dy fynegfys (bys cyntaf).</string>
+    <string name="security_settings_fingerprint_enroll_error_unable_to_process_dialog_title">Ni chwblhawyd y cofrestriad</string>
     <string name="security_settings_fingerprint_enroll_error_generic_dialog_message">Ni weithiodd cofrestriad ôl bys. Rho gynnig arall arni neu defnyddio bys arall.</string>
     <string name="fingerprint_enroll_button_add">Ychwanegu un arall</string>
     <string name="fingerprint_enroll_button_next">Nesaf</string>
@@ -1988,9 +1990,9 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="lockpassword_strong_auth_required_work_pattern">Am ddiogelwch ychwanegol, defnyddia dy batrwm gwaith</string>
     <string name="lockpassword_strong_auth_required_work_pin">Am ddiogelwch ychwanegol, rho dy PIN gwaith</string>
     <string name="lockpassword_strong_auth_required_work_password">Am ddiogelwch ychwanegol, rho dy gyfrinair gwaith</string>
-    <string name="lockpassword_confirm_your_pattern_details_frp">Cafodd dy ffôn ei ailosod i fel yr oedd yn gadael y ffatri. I ddefnyddio\'r ffôn, rho dy batrwm blaenorol.</string>
-    <string name="lockpassword_confirm_your_pin_details_frp">Cafodd dy ffôn ei ailosod i fel yr oedd yn gadael y ffatri. I ddefnyddio\'r ffôn, rho dy PIN blaenorol.</string>
-    <string name="lockpassword_confirm_your_password_details_frp">Cafodd dy ffôn ei ailosod i fel yr oedd yn gadael y ffatri. I ddefnyddio\'r ffôn, rho dy gyfrinair blaenorol.</string>
+    <string name="lockpassword_confirm_your_pattern_details_frp" product="default">Cafodd dy ffôn ei ailosod i fel yr oedd yn gadael y ffatri. I ddefnyddio\'r ffôn, rho dy batrwm blaenorol.</string>
+    <string name="lockpassword_confirm_your_pin_details_frp" product="default">Cafodd dy ffôn ei ailosod i fel yr oedd yn gadael y ffatri. I ddefnyddio\'r ffôn, rho dy PIN blaenorol.</string>
+    <string name="lockpassword_confirm_your_password_details_frp" product="default">Cafodd dy ffôn ei ailosod i fel yr oedd yn gadael y ffatri. I ddefnyddio\'r ffôn, rho dy gyfrinair blaenorol.</string>
     <string name="lockpassword_confirm_your_pattern_header_frp">Cadarnhau\'r patrwm</string>
     <string name="lockpassword_confirm_your_pin_header_frp">Dilysu PIN</string>
     <string name="lockpassword_confirm_your_password_header_frp">Cadarnhau\'r cyfrinair</string>
@@ -3712,7 +3714,6 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="zen_mode_restrict_notifications_mute_footer">Pan fydd hysbysiadau yn cyrraedd, ni fydd dy ffôn yn gwneud sain nac yn dirgrynu.</string>
     <string name="zen_mode_restrict_notifications_hide">Dim sain na dangos hysybysiadau</string>
     <string name="zen_mode_restrict_notifications_hide_summary">Ni fyddi\u2019n gweld na chlywed hysbysiadau</string>
-    <string name="zen_mode_restrict_notifications_hide_footer">Ni fydd dy ffôn yn dangos, dirgrynu na gwneud sain ar gyfer hysbysiadau newydd na rhai sy\'n bodoli eisoes. Bydd yn ymwybodol y bydd hysbysiadau sy\u2019n allweddol i weithgaredd a statws y ffôn yn dal i ymddangos.\n\nPan fyddi\u2019n troi Dim Tarfu i ffwrdd, bydd hysbysiadau wedi\u2019u methu i\u2019w gweld wrth lusgo i lawr o frig dy sgrin.</string>
     <string name="zen_mode_restrict_notifications_custom">Addasedig</string>
     <string name="zen_mode_restrict_notifications_enable_custom">Galluogi gosodiad dy hun</string>
     <string name="zen_mode_restrict_notifications_disable_custom">Tynnu\'r gosodiad addasedig</string>
@@ -3736,7 +3737,6 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="zen_mode_block_effect_summary_sound">Sain a dirgrynu</string>
     <string name="zen_mode_block_effect_summary_some">Sain, dirgrynu, a rhai elfennau gweledol hysbysiadau</string>
     <string name="zen_mode_block_effect_summary_all">Sain, digrynu, ac eflennau gweledol hysbysiadau</string>
-    <string name="zen_mode_blocked_effects_footer">Ni chaiff hysbysiadau sydd eu hangen ar gyfer gweithgaredd a statws sylfaenol ffôn byth eu cuddio.</string>
     <string name="zen_mode_no_exceptions">Dim</string>
     <string name="zen_mode_other_options">opsiynau eraill</string>
     <string name="zen_mode_add">Ychwanegu</string>
@@ -4048,7 +4048,6 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="zen_access_detail_switch">Caniatáu Dim Tarfu</string>
     <string name="zen_access_empty_text">Does dim apiau wedi gofyn caniatâd am fynediad at Dim Tarfu</string>
     <string name="loading_notification_apps">Yn llwytho apiau\u2026</string>
-    <string name="app_notifications_off_desc">Ar dy gais, mae Android yn rhwystro hysbysiadau\'r ap hwn rhag ymddangos ar y ddyfais hon</string>
     <string name="channel_notifications_off_desc">Ar dy gais, mae Android yn rhwystro\'r categori hwn o hysbysiadau rhag ymddangos ar y ddyfais hon</string>
     <string name="channel_group_notifications_off_desc">Ar dy gais, mae Android yn rhwystro\'r grŵp hwn o hysbysiadau rhag ymddangos ar y ddyfais hon</string>
     <string name="notification_channels">Categorïau</string>
