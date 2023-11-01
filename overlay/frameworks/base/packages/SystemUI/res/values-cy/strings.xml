@@ -91,6 +91,8 @@
     <string name="screenshot_right_boundary_pct">Terfyn de <xliff:g id="percent" example="50">%1$d</xliff:g> y cant</string>
     <string name="screenshot_work_profile_notification">Cadwyd yn <xliff:g id="app" example="Files">%1$s</xliff:g> yn y proffil gwaith</string>
     <string name="screenshot_default_files_app_name">Ffeiliau</string>
+    <string name="screenshot_detected_template">Mae <xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> wedi canfod y ciplun hwn.</string>
+    <string name="screenshot_detected_multiple_template">Mae <xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> ac apiau eraill wedi canfod y ciplun hwn.</string>
     <string name="screenrecord_name">Recordydd Sgrin</string>
     <string name="screenrecord_background_processing_label">Prosesu recordiad sgrin</string>
     <string name="screenrecord_channel_description">Hysbysiad i ddangos bod y sgrin yn cael ei recordio</string>
@@ -878,6 +880,7 @@
     <string name="controls_structure_tooltip">Llusgo i weld mwy</string>
     <string name="controls_seeding_in_progress">Argymhellion llwytho</string>
     <string name="controls_media_title">Cyfryngau</string>
+    <string name="controls_media_close_session">Cuddio\u2019r rheolydd cyfryngau hwn ar gyfer <xliff:g id="app_name" example="YouTube Music">%1$s</xliff:g>?</string>
     <string name="controls_media_active_session">Ni ellir cuddio\u2019r sesiwn cyfryngau cyfredol.</string>
     <string name="controls_media_dismiss_button">Cuddio</string>
     <string name="controls_media_resume">Parhau</string>
@@ -1013,8 +1016,14 @@
     <string name="qs_tile_request_dialog_add">Ychwanegu teilsen</string>
     <string name="qs_tile_request_dialog_not_add">Peidio ag ychwnegu teitl</string>
     <string name="qs_user_switch_dialog_title">Dewis defnyddiwr</string>
+    <string name="fgs_manager_footer_label">{count, plural,
+        =1 {Mae # ap yn weithredol}
+        zero {Mae # apiau yn weithredol}
+        other {Mae # ap yn weithredol}
+    }</string>
     <string name="fgs_dot_content_description">Gwybodaeth newydd</string>
     <string name="fgs_manager_dialog_title">Apiau gweithredol</string>
+    <string name="fgs_manager_dialog_message">Mae\u2019r apiau hyn yn weithredol ac yn rhedeg, hyd yn oed pan nad wyt yn eu defnyddio. Mae hyn yn gwella eu gweithrediad, ond gall hefyd yn effeithio ar fywyd batri.</string>
     <string name="fgs_manager_app_item_stop_button_label">Stopio</string>
     <string name="fgs_manager_app_item_stop_button_stopped_label">Wedi\'i stopio</string>
     <string name="clipboard_edit_text_done">Cwblhau</string>
