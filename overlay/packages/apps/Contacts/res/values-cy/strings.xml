@@ -63,6 +63,26 @@
     <string name="contacts_deleted_one_named_toast"><xliff:g id="name">%1$s</xliff:g> wedi\'i ddileu</string>
     <string name="contacts_deleted_two_named_toast"><xliff:g id="name">%1$s</xliff:g> a <xliff:g id="name">%2$s</xliff:g> wedi\'u dileu</string>
     <string name="contacts_deleted_many_named_toast"><xliff:g id="name">%1$s</xliff:g>, <xliff:g id="name">%2$s</xliff:g>, <xliff:g id="name">%3$s</xliff:g>\u2026 wedi\'u dileu</string>
+    <string name="contacts_deleted_toast">{count, plural,
+       =1 {Cyswllt wedi\u2019i ddileu}
+        other {Cysylltiadau wedi eu dileu}
+    }</string>
+    <string name="contacts_count">{count, plural,
+      zero {# cysylltiadau}
+       =1 {# cyswllt}
+        two {# gyswllt}
+        few {# chyswllt}
+        many {# chyswllt}
+        other {# cyswllt}
+    }</string>
+    <string name="contacts_count_with_account">{count, plural,
+        zero {# cysylltiadau · {account}}
+       =1 {# cyswllt · {account}}
+        two {# gyswllt · {account}}
+        few {# chyswllt · {account}}
+        many {# chyswllt · {account}}
+        other {# cyswllt · {account}}
+    }</string>
     <string name="title_from_google">O Google</string>
     <string name="title_from_other_accounts">O <xliff:g id="account">%s</xliff:g></string>
     <string name="menu_set_ring_tone">Gosod tôn caniad</string>
@@ -122,6 +142,10 @@
     <string name="menu_share">Rhannu</string>
     <string name="menu_add_contact">Ychwanegu at gysylltiadau</string>
     <string name="menu_add_contacts">Ychwanegu</string>
+    <string name="title_share_via">{count, plural,
+       =1 {Rhannu cyswllt trwy}
+        other {Rhannu cysylltiadau trwy}
+    }</string>
     <string name="dialog_new_group_account">Dewis gyfrif</string>
     <string name="group_name_dialog_insert_title">Creu label</string>
     <string name="group_name_dialog_update_title">Ailenwi\'r label</string>
@@ -379,6 +403,22 @@
     <string name="dialog_new_contact_account">Cadw\'r cysylltiadau a fewnforiwyd i:</string>
     <string name="import_from_sim">Cerdyn SIM</string>
     <string name="import_from_sim_summary_fmt">SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="import_from_sim_secondary_contact_count_fmt"> {count, plural,
+        zero {}
+        one {# cyswllt}
+        two {# gyswllt}
+        few {# chyswllt}
+        many {# chyswllt}=1    {# contact}
+        other {# cyswllt}
+    }</string>
+    <string name="import_from_sim_secondary_template">{count, plural,
+        zero {# cysylltiadau · <xliff:g id="phone_number">^1</xliff:g>}
+       =1 {# cyswllt · <xliff:g id="phone_number">^1</xliff:g>}
+        two {# gyswllt · <xliff:g id="phone_number">^1</xliff:g>}
+        few {# chyswllt · <xliff:g id="phone_number">^1</xliff:g>}
+        many {# chyswllt · <xliff:g id="phone_number">^1</xliff:g>}
+        other {# cyswllt · <xliff:g id="phone_number">^1</xliff:g>}
+    }</string>
     <string name="import_from_vcf_file">ffeil .vcf</string>
     <string name="nothing_to_import_message">Dim byd i\'w fewnforio</string>
     <string name="import_from_vcf_file_confirmation_message">Mewnforio cysylltiadau o vCard?</string>
@@ -483,6 +523,15 @@
     <string name="sim_import_title_none_selected">Dewis cysylltiadau</string>
     <string name="sim_import_empty_message">Does dim cysylltiadau ar dy gerdyn SIM</string>
     <string name="sim_import_contact_exists_toast">Mae\'r cyswllt eisoes yn bodoli yn dy restr</string>
+    <string name="sim_import_success_toast_fmt"> {count, plural,
+        zero {# cysylltiadau wedi\2019u mewnforio}
+        =1    {# cyswllt wedi\2019i fewnforio}
+        two {# gyswllt wedi\2019u mewnforio}
+        few {# chyswllt wedi\2019u mewnforio}
+        many {# chyswllt wedi\2019u mewnforio}
+        other {# cyswllt wedi\2019u mewnforio}
+        }
+    </string>
     <string name="sim_import_failed_toast">Methwyd â mewnforio cysylltiadau SIM</string>
     <string name="sim_import_title">Mewnforio o SIM</string>
     <string name="sim_import_cancel_content_description">Diddymu</string>

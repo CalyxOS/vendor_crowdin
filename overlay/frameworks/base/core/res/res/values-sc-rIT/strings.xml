@@ -1238,6 +1238,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="inputMethod">Mètodu de intrada</string>
     <string name="editTextMenuTitle">Atziones de su testu</string>
     <string name="input_method_nav_back_button_desc">In segus</string>
+    <string name="input_method_ime_switch_button_desc">Càmbia mètodu de intrada</string>
     <string name="low_internal_storage_view_title">Su logu pro s\'archiviatzione est acabbende</string>
     <string name="low_internal_storage_view_text">Carchi funtzionalidade de sistema diat pòdere non funtzionare</string>
     <string name="low_internal_storage_view_text_no_boot">Non b\'at bastante logu pro su sistema. Segura·ti de tènnere 250MB de logu e torra a aviare.</string>
@@ -1254,6 +1255,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="capital_off">DISATIVADU</string>
     <string name="checked">ativadu</string>
     <string name="not_checked">disativadu</string>
+    <string name="in_progress">in cursu</string>
     <string name="whichApplication">Cumpleta s\'atzione impreende</string>
     <string name="whichApplicationNamed">Cumpleta s\'atzione impreende %1$s</string>
     <string name="whichApplicationLabel">Cumpleta s\'atzione</string>
@@ -1873,6 +1875,41 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="data_saver_description">Pro agiudare a menguare s\'impreu de datos, Aorru de datos impedit a unas cantas aplicatzione de imbiare o retzire datos in segundu pranu. Un\'aplicatzione chi ses impreende in custu momentu podet atzèdere a is datos, ma ddu podet fàghere prus pagu a s\'ispissu. Custu bolet nàrrere, pro esempru, ca is imàgines non benint ammustradas fintzas a cando no ddas tocas.</string>
     <string name="data_saver_enable_title">Boles ativare s\'Aorru de datos?</string>
     <string name="data_saver_enable_button">Ativa</string>
+    <string name="zen_mode_duration_minutes_summary_short">{count, plural,
+        one {}=1    {Pro 1 minutu (finas a: {formattedTime})}
+        other {Pro # minutos (finas a: {formattedTime})}
+    }
+    </string>
+    <string name="zen_mode_duration_hours_summary">{count, plural,
+        one {}=1    {Pro 1 ora (finas a: {formattedTime})}
+        other {Pro # oras (finas a: {formattedTime})}
+    }
+    </string>
+    <string name="zen_mode_duration_hours_summary_short">{count, plural,
+        one {}=1    {Pro 1 h (finas a: {formattedTime})}
+        other {Pro # h (finas a: {formattedTime})}
+    }
+    </string>
+    <string name="zen_mode_duration_minutes">{count, plural,
+        one {}=1    {Pro unu minutu}
+        other {Pro # minutos}
+    }
+    </string>
+    <string name="zen_mode_duration_minutes_short">{count, plural,
+        one {}=1    {Pro 1 min}
+        other {Pro # min}
+    }
+    </string>
+    <string name="zen_mode_duration_hours">{count, plural,
+        one {}=1    {Pro 1 ora}
+        other {Pro # oras}
+    }
+    </string>
+    <string name="zen_mode_duration_hours_short">{count, plural,
+        one {}=1    {Pro 1 h}
+        other {Pro # h}
+    }
+    </string>
     <string name="zen_mode_until">Finas a <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
     <string name="zen_mode_alarm">Finas a <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (isvèglia imbeniente)</string>
     <string name="zen_mode_forever">Finas a cando no dd\'as a disativare</string>
@@ -1901,10 +1938,20 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="floating_toolbar_close_overflow_description">Serra su menù overflow</string>
     <string name="notification_inbox_ellipsis">\u2026</string>
     <string name="call_notification_decline_action">Refuda</string>
+    <string name="supervised_user_creation_label">Agiunghe utente suta supervisione</string>
     <string name="locale_search_menu">Chirca</string>
     <string name="app_suspended_title">S\'aplicatzione no est a disponimentu</string>
     <string name="app_suspended_default_message">        <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> no est a disponimentu immoe. Custu ddu gestit <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.
     </string>
+    <string name="app_streaming_blocked_title"><xliff:g id="activity" example="Permission dialog">%1$s</xliff:g> no a disponimentu</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Permissu netzessàriu</string>
+    <string name="app_streaming_blocked_title_for_camera_dialog">Sa càmera no est a disponimentu</string>
+    <string name="app_streaming_blocked_title_for_fingerprint_dialog">Sighi a su telèfonu</string>
+    <string name="app_streaming_blocked_title_for_microphone_dialog">Su micròfonu no est a disponimentu</string>
+    <string name="app_streaming_blocked_title_for_playstore_dialog">Sa Play Store no est a disponimentu</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog" product="tv">Sa cunfiguratzione de Android TV no est a disponimentu</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog" product="tablet">Sa cunfiguratzione de sa tauledda no est a disponimentu</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog" product="default">Sa cunfiguratzione de su telèfonu no est a disponimentu</string>
     <string name="app_category_productivity">Produtividade</string>
     <string name="app_category_accessibility">Atzessibilidade</string>
     <string name="device_storage_monitor_notification_channel">Memòria de su dispositivu</string>

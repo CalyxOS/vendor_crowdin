@@ -101,6 +101,8 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="bluetooth_pair_right_ear_button">Paru\'r glust dde</string>
     <string name="bluetooth_pair_left_ear_button">Paru\'r glust chwith</string>
     <string name="bluetooth_pair_other_ear_dialog_title">Paru\'r glust arall</string>
+    <string name="bluetooth_pair_other_ear_dialog_left_ear_message">Mae dy gymorth clyw chwith wedi\u2019i gysylltu.\n\nI baru\u2019r un dde, sicrha ei fod wedi\u2019i droi ymlaen ac yn barod i\u2019w baru.</string>
+    <string name="bluetooth_pair_other_ear_dialog_right_ear_message">Mae dy gymorth clyw dde wedi\u2019i gysylltu.\n\nI baru\u2019r un chwith, sicrha ei fod wedi\u2019i droi ymlaen ac yn barod i\u2019w baru.</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Paru\'r glust dde</string>
     <string name="bluetooth_pair_other_ear_dialog_left_ear_positive_button">Paru\'r glust chwith</string>
     <string name="bluetooth_screen_related">Yn gysylltiedig</string>
@@ -168,6 +170,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="bluetooth_disable_hw_offload_dialog_confirm">Ailgychwyn</string>
     <string name="bluetooth_disable_hw_offload_dialog_cancel">Diddymu</string>
     <string name="bluetooth_enable_leaudio">Galluogi sain LE Bluetooth</string>
+    <string name="bluetooth_enable_leaudio_summary">Mae\u2019n galluogi nodwedd sain Bluetooth LE os yw\u2019r ddyfais yn cefnogi caledwedd sain LE.</string>
     <string name="connected_device_media_device_title">Dyfeisiau cyfryngau</string>
     <string name="connected_device_call_device_title">Dyfeisiau galw</string>
     <string name="connected_device_other_device_title">Dyfeisiau eraill</string>
@@ -237,6 +240,9 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="all_supported_app_locales_title">Pob iaith</string>
     <string name="preference_of_system_locale_title">Iaith y system</string>
     <string name="preference_of_system_locale_summary">Rhagosodiad y system</string>
+    <string name="desc_no_available_supported_locale">Dyw dewis iaith yr ap hwn ddim ar gael yn Gosodiadau.</string>
+    <string name="desc_app_locale_disclaimer">Gall fod yr iaith yn wahanol i\u2019r ieithoedd ar gael yn yr ap. Dyw rhai apiau ddim yn cefnogi\u2019r gosodiad hwn.</string>
+    <string name="desc_app_locale_selection_supported">Dim ond apiau sy\u2019n cefnogi dewis iaith sydd i\u2019w gweld yma.</string>
     <plurals name="dlg_remove_locales_title">
         <item quantity="zero">Tynnu\'r ieithoedd a ddewiswyd?</item>
         <item quantity="one">Tynnu\'r iaith a ddewiswyd?</item>
@@ -386,6 +392,8 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="security_settings_face_enroll_consent_introduction_title">Caniatáu Datgloi ag Wyneb</string>
     <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Defnyddio dy wyneb i ddilysu</string>
     <string name="security_settings_face_enroll_introduction_message" product="default">Defnyddia dy wyneb i ddatgloi dy ffôn, caniatáu taliadau, neu mewngofnodi i apiau.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="tablet">Defnyddia dy wyneb i ddatgloi dy lechen, caniatáu taliadau, neu mewngofnodi i apiau.</string>
+    <string name="security_settings_face_enroll_introduction_message" product="device">Defnyddia dy wyneb i ddatgloi dy ddyfais, caniatáu taliadau, neu mewngofnodi i apiau.</string>
     <string name="security_settings_face_enroll_introduction_consent_message_0" product="default">Caniatáu i dy blentyn defnyddio ei wyneb i ddatgloi ei ffôn</string>
     <string name="security_settings_face_enroll_introduction_consent_message_0" product="tablet">Caniatáu i dy blentyn defnyddio ei wyneb i ddatgloi ei lechen</string>
     <string name="security_settings_face_enroll_introduction_consent_message_0" product="device">Caniatáu i dy blentyn defnyddio ei wyneb i ddatgloi ei ddyfais</string>
@@ -720,6 +728,12 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
         <item quantity="many">Rhaid bod o leiaf <xliff:g id="count" example="3">%d</xliff:g> nod</item>
         <item quantity="other">Rhaid bod o leiaf <xliff:g id="count" example="3">%d</xliff:g> nod</item>
     </plurals>
+    <string name="lockpassword_password_too_short_all_numeric"> {count, plural,
+        =1 {Os yn defnyddio rhifau yn unig, rhaid bod o leiaf 1 digid.}
+        two {Os yn defnyddio rhifau yn unig, rhaid bod o leiaf # ddigid.}
+        other {Os yn defnyddio rhifau yn unig, rhaid bod o leiaf # digid.}
+        }
+    </string>
     <plurals name="lockpassword_pin_too_short">
         <item quantity="zero">Rhiad bod gan y PIN o leiaf <xliff:g id="count" example="3">%d</xliff:g> digidau</item>
         <item quantity="one">Rhiad bod gan y PIN o leiaf <xliff:g id="count" example="1">%d</xliff:g> digid</item>

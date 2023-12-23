@@ -266,6 +266,12 @@
     <string name="quick_settings_hotspot_label">Llecyn Wi-Fi</string>
     <string name="quick_settings_hotspot_secondary_label_transient">Yn troi ymlaen…</string>
     <string name="quick_settings_hotspot_secondary_label_data_saver_enabled">Arbedwr Data ar waith</string>
+    <string name="quick_settings_hotspot_secondary_label_num_devices">{count, plural,
+        zero {# dyfeisiau}
+        =1 {#dyfais}
+        two {# ddyfais}
+        other {# dyfais}
+    }</string>
     <string name="quick_settings_flashlight_label">Fflacholau</string>
     <string name="quick_settings_flashlight_camera_in_use">Camera yn cael ei ddefnyddio</string>
     <string name="quick_settings_cellular_detail_title">Data symudol</string>
@@ -375,6 +381,11 @@
     <string name="guest_notification_session_active">Rwyt yn y modd gwestai</string>
     <string name="user_add_user_message_guest_remove">\n\nBydd ychwanegu defnyddiwr newydd yn gadael modd gwestai a dileu holl apiau a data\u2019r sesiwn gwestai cyfredol.</string>
     <string name="user_limit_reached_title">Terfyn defnyddwyr wedi\'i gyrraedd</string>
+    <string name="user_limit_reached_message">{count, plural,
+       =1 {Gellir ond creu un defnyddiwr.}
+        two {Gellir ond creu # ddefnyddiwr.}
+        other {Gellir ond creu # defnyddiwr.}
+    }</string>
     <string name="user_remove_user_title">Tynnu defnyddiwr?</string>
     <string name="user_remove_user_message">Caiff holl apiau a data\'r defnyddiwr hwn eu dileu.</string>
     <string name="user_remove_user_remove">Tynnu</string>
@@ -606,8 +617,11 @@
         other {# awr}
     }</string>
     <string name="snoozeMinuteOptions">{count, plural,
-        =1 {# funud}
+        =1 {# munud}
+        zero {# munudau}
         two {# funud}
+        few {# munud}
+        many {# munud}
         other {# munud}
     }</string>
     <string name="battery_detail_switch_title">Arbedwr Batri</string>
@@ -841,6 +855,11 @@
     <string name="accessibility_floating_button_action_double_tap_to_toggle">toglo</string>
     <string name="quick_controls_title">Rheolyddion dyfeisiau</string>
     <string name="controls_providers_title">Dewis ap i ychwanegu rheolyddion</string>
+    <string name="controls_number_of_favorites">{count, plural,
+        =1 {Ychwanegwyd # rheolydd.}
+two {Ychwanegwyd # reolydd.}
+        other {Ychwanegwyd # rheolydd.}
+    }</string>
     <string name="controls_removed">Tynnwyd</string>
     <string name="controls_panel_authorization_title">Ychwanegu <xliff:g id="appName" example="My app">%s</xliff:g>?</string>
     <string name="controls_panel_authorization">Gall <xliff:g id="appName" example="My app">%s</xliff:g> ddewis pa reolyddion a chynnwys sydd i\u2019w gweld yma.</string>
@@ -937,6 +956,7 @@
     <string name="media_output_first_broadcast_title">Sut mae darlledu\u2019n gweithio</string>
     <string name="media_output_broadcast">Darlledu</string>
     <string name="media_output_first_notify_broadcast_message">Gall pobl gerllaw gyda dyfeisiau Bluetooth wrando ar y cyfrwng rwyt yn ei ddarlledu</string>
+    <string name="media_output_broadcasting_message">I wrando ar dy ddarllediad, gall pobl gerllaw gyda dyfeisiau Bluetooth cydnaws sganio dy god QR neu ddefnyddio dy enw a chyfrinair darlledu</string>
     <string name="media_output_broadcast_name">Enw Darllediad</string>
     <string name="media_output_broadcast_code">Cyfrinair</string>
     <string name="media_output_broadcast_dialog_save">Cadw</string>
@@ -1050,6 +1070,10 @@
     <string name="dream_overlay_status_bar_camera_off">Mae\u2019r camera i ffwrdd</string>
     <string name="dream_overlay_status_bar_mic_off">Mae\u2019r meic i ffwrdd</string>
     <string name="dream_overlay_status_bar_camera_mic_off">Mae\u2019r camera a\u2019r meic i ffwrdd</string>
+    <string name="dream_overlay_status_bar_notification_indicator">{count, plural,
+=1 {# hysbysiad}
+    other {# hysbysiad}
+    }</string>
     <string name="dream_overlay_weather_complication_desc">        <xliff:g id="weather_condition" example="Partly cloudy">%1$s</xliff:g>, <xliff:g id="temperature" example="7°C">%2$s</xliff:g>
     </string>
     <string name="note_task_button_label">Nodiadau</string>

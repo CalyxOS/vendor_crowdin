@@ -51,6 +51,11 @@
     <string name="kg_wrong_pattern">Patrwm anghywir</string>
     <string name="kg_wrong_password">Cyfrinair anghywir</string>
     <string name="kg_wrong_pin">PIN Anghywir</string>
+    <string name="kg_too_many_failed_attempts_countdown">{count, plural,
+=1 {Rho gynnig arall ymhen # eiliad.}
+        other {Rho gynnig arall ymhen # eiliad.}
+    }
+    </string>
     <string name="kg_sim_pin_instructions">Rho PIN y SIM</string>
     <string name="kg_sim_pin_instructions_multi">Rho\'r PIN SIM ar gyfer \"<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>\"</string>
     <string name="kg_sim_lock_esim_instructions"><xliff:g id="previous_msg" example="Enter SIM PIN.">%1$s</xliff:g> Analluoga eSIM i ddefnyddio\'r ddyfais heb wasanaeth ffôn symudol.</string>
@@ -71,7 +76,21 @@
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
     <string name="kg_password_wrong_pin_code_pukked">Rhoddwyd PIN SIM anghywir a rhaid nawr cysylltu â dy ddarparwr gwasanaeth er mwyn datgloi dy ddyfais.</string>
+    <string name="kg_password_wrong_pin_code">{count, plural,
+       =1 {Cod PIN anghywir. Mae gennyt # cynnig arall cyn y bydd rhaid cysylltu â dy ddarparwr i ddatgloi dy ddyfais.}
+        two {Cod PIN anghywir. Mae gennyt # gynnig arall cyn y bydd rhaid cysylltu â dy ddarparwr i ddatgloi dy ddyfais.}
+        few {Cod PIN anghywir. Mae gennyt # chynnig arall cyn y bydd rhaid cysylltu â dy ddarparwr i ddatgloi dy ddyfais.}
+        many {Cod PIN anghywir. Mae gennyt # chynnig arall cyn y bydd rhaid cysylltu â dy ddarparwr i ddatgloi dy ddyfais.}
+        other {Cod PIN anghywir. Mae gennyt # cynnig arall cyn y bydd rhaid cysylltu â dy ddarparwr i ddatgloi dy ddyfais.}
+    }</string>
     <string name="kg_password_wrong_puk_code_dead">Nid yw\'n bosib defnyddio\'r SIM. Cysyllta â dy ddarparwr gwasanaeth.</string>
+    <string name="kg_password_wrong_puk_code">{count, plural,
+       =1 {Cod PUK SIM anghywir. Mae gennyt # cynnig arall cyn y bydd dim bosib defnyddio\u2019r SIM byth eto.}
+        two {Cod PUK SIM anghywir. Mae gennyt # gynnig arall cyn y bydd dim bosib defnyddio\u2019r SIM byth eto.}
+        few {Cod PUK SIM anghywir. Mae gennyt # chynnig arall cyn y bydd dim bosib defnyddio\u2019r SIM byth eto.}
+        many {Cod PUK SIM anghywir. Mae gennyt # chynnig arall cyn y bydd dim bosib defnyddio\u2019r SIM byth eto.}
+        other {Cod PUK SIM anghywir. Mae gennyt # cynnig arall cyn y bydd dim bosib defnyddio\u2019r SIM byth eto.}
+    }</string>
     <string name="kg_password_pin_failed">Methodd gweithred PIN y SIM!</string>
     <string name="kg_password_puk_failed">Methodd gweithred PUK y SIM!</string>
     <string name="accessibility_ime_switch_button" msgid="5032926134740456424">Newid dull mewnbwn</string>
@@ -86,6 +105,20 @@
     <string name="kg_prompt_reason_user_request">Cafodd y ddyfais ei chloi gan rywun.</string>
     <string name="kg_face_not_recognized">Dim yn ei adnabod</string>
     <string name="kg_face_sensor_privacy_enabled">I ddefnyddio Datgloi ag Wyneb, tro fynediad at y camera ymlaen yn Gosodiadau</string>
+    <string name="kg_password_default_pin_message">{count, plural,
+       =1 {Rho PIN y SIM. Mae gennyt # cynnig arall cyn y bydd rhaid cysylltu â dy ddarparwr i ddatgloi dy ddyfais.}
+        two {Rho PIN y SIM. Mae gennyt # gynnig arall cyn y bydd rhaid cysylltu â dy ddarparwr i ddatgloi dy ddyfais.}
+        few {Rho PIN y SIM. Mae gennyt # chynnig arall cyn y bydd rhaid cysylltu â dy ddarparwr i ddatgloi dy ddyfais.}
+        many {Rho PIN y SIM. Mae gennyt # chynnig arall cyn y bydd rhaid cysylltu â dy ddarparwr i ddatgloi dy ddyfais.}
+        other {Rho PIN y SIM. Mae gennyt # cynnig arall cyn y bydd rhaid cysylltu â dy ddarparwr i ddatgloi dy ddyfais.}
+    }</string>
+    <string name="kg_password_default_puk_message">{count, plural,
+       =1 {Mae\u2019r SIM nawr wedi\u2019i analluogi. Rho god PUK i barhau. Mae gennyt # cynnig arall cyn y bydd dim posib defnyddio\u2019r SIM byth eto. Cysyllta â dy ddarparwr am fanylion.}
+        two {Mae\u2019r SIM nawr wedi\u2019i analluogi. Rho god PUK i barhau. Mae gennyt # gynnig arall cyn y bydd dim posib defnyddio\u2019r SIM byth eto. Cysyllta â dy ddarparwr am fanylion.}
+        few {Mae\u2019r SIM nawr wedi\u2019i analluogi. Rho god PUK i barhau. Mae gennyt # chynnig arall cyn y bydd dim posib defnyddio\u2019r SIM byth eto. Cysyllta â dy ddarparwr am fanylion.}
+        many {Mae\u2019r SIM nawr wedi\u2019i analluogi. Rho god PUK i barhau. Mae gennyt # chynnig arall cyn y bydd dim posib defnyddio\u2019r SIM byth eto. Cysyllta â dy ddarparwr am fanylion.}
+        other {Mae\u2019r SIM nawr wedi\u2019i analluogi. Rho god PUK i barhau. Mae gennyt # cynnig arall cyn y bydd dim posib defnyddio\u2019r SIM byth eto. Cysyllta â dy ddarparwr am fanylion.}
+    }</string>
     <string name="clock_title_default">Rhagosodiad</string>
     <string name="clock_title_bubble">Swigod</string>
     <string name="clock_title_analog">Analog</string>

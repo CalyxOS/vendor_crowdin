@@ -181,6 +181,11 @@
     <string name="low_memory" product="watch">Mae storfa\'r oriawr yn llawn. Rhaid dileu rhai ffeiliau i greu lle.</string>
     <string name="low_memory" product="tv">Mae storfa Android TV yn llawn. Rhaid dileu rhai ffeiliau i greu lle.</string>
     <string name="low_memory" product="default">Mae storfa\'r ffôn yn llawn. Rhaid dileu rhai ffeiliau i greu lle.</string>
+    <string name="ssl_ca_cert_warning">{count, plural,
+        =1 {Awdurdod tystysgrifau wedi\u2019i osod}
+        other {Awdurdodau tystysgrifau wedi\u2019u gosod}
+    }
+    </string>
     <string name="ssl_ca_cert_noti_by_unknown">Gan drydydd parti anhysbys</string>
     <string name="ssl_ca_cert_noti_by_administrator">Gan weinyddwr dy broffil gwaith</string>
     <string name="ssl_ca_cert_noti_managed">Gan <xliff:g id="managing_domain">%s</xliff:g></string>
@@ -259,6 +264,11 @@ Mae\'n dy alluogi i dracio cynnydd yr adroddiad, ychwanegu rhagor o wybodaeth am
 Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.</string>
     <string name="bugreport_option_full_title">Adroddiad llawn</string>
     <string name="bugreport_option_full_summary">Defnyddia\'r opsiwn hwn ar gyfer yr ymyrraeth leiaf bosib gan y system pan fo\'r ddyfais ddim yn ymateb neu\'n rhedeg yn rhy araf, neu pan wyt ti angen adrodd am bob adran. Nid yw yn caniatáu ychwanegu unrhyw fanylion na sgrinluniau.</string>
+    <string name="bugreport_countdown">{count, plural,
+        =1 {Tynnu sgrinlun ymhen # eiliad}
+        other {Tynnu sgrinlun ymhen # eiliad}
+    }
+    </string>
     <string name="bugreport_screenshot_success_toast">Tynnwyd sgrinlun gydag adroddiad gwall</string>
     <string name="bugreport_screenshot_failure_toast">Methwyd tynnu sgrinlun gydag adroddiad gwall</string>
     <string name="global_action_toggle_silent_mode">Modd tawel</string>
@@ -1125,6 +1135,12 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
 Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r hyn sydd dan dy fys neu ryngweithio gyda\'r ffôn gan wneud ystumiau.</string>
     <string name="oneMonthDurationPast">1 mis yn ôl</string>
     <string name="beforeOneMonthDurationPast">Dros fis yn ôl</string>
+    <string name="last_num_days">{count, plural,
+        =1 {# diwrnod diwethaf}
+        two {# ddiwrnod diwethaf}
+        other {# diwrnod diwethaf}
+    }
+    </string>
     <string name="last_month">Mis diwethaf</string>
     <string name="older">Hŷn</string>
     <string name="preposition_for_date">ar <xliff:g id="date" example="May 29">%s</xliff:g></string>
@@ -1158,6 +1174,73 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="duration_days_shortest_future">        mewn <xliff:g example="1" id="count">%d</xliff:g>d
     </string>
     <string name="duration_years_shortest_future">        mewn <xliff:g id="count">%d</xliff:g>b
+    </string>
+    <string name="duration_minutes_relative">{count, plural,
+        =1 {# funud yn ôl}
+        zero {# munudau yn ôl}
+        two {# funud yn ôl}
+        few {# munud yn ôl}
+        many {# munud yn ôl}
+        other {# munud yn ôl}
+    }
+    </string>
+    <string name="duration_hours_relative">{count, plural,
+        =1 {# awr yn ôl}
+        zero {# oriau yn ôl}
+        two {# awr yn ôl}
+        few {# awr yn ôl}
+        many {# awr yn ôl}
+        other {# awr yn ôl}
+    }</string>
+    <string name="duration_days_relative">{count, plural,
+        zero {# diwrnodau yn ôl}
+        =1 {# diwrnod yn ôl}
+        two {# ddiwrnod yn ôl}
+        few {# diwrnod yn ôl}
+        many {# diwrnod yn ôl}
+        other {# diwrnod yn ôl}
+    }
+    </string>
+    <string name="duration_years_relative">{count, plural,
+        =1 {blwyddyn yn ôl}
+        two {# flynedd yn ôl}
+        few {# blynedd yn ôl}
+        many {# mlynedd yn ôl}
+        other {# blwyddyn yn ôl}
+    }
+    </string>
+    <string name="duration_minutes_relative_future">{count, plural,
+        =1 {# munud}
+        zero {# munudau}
+        two {# funud}
+        few {# munud}
+        many {# munud}
+        other {# munud}
+    }</string>
+    <string name="duration_hours_relative_future">{count, plural,
+        =1 {# awr}
+        zero {# oriau}
+        two {# awr}
+        few {# awr}
+        many {# awr}
+        other {# awr}
+    }</string>
+    <string name="duration_days_relative_future">{count, plural,
+        =1 {# diwrnod}
+        zero {# diwrnodau}
+        two {# ddiwrnod}
+        few {# diwrnod}
+        many {# diwrnod}
+        other {# diwrnod}
+    }
+    </string>
+    <string name="duration_years_relative_future">{count, plural,
+        =1 {blwyddyn}
+        two {# flynedd}
+        few {# blynedd}
+        many {# mlynedd}
+        other {# blwyddyn}
+    }
     </string>
     <string name="VideoView_error_title">Problem fideo</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Nid yw\'r fideo hwn yn ddilys ar gyfer ffrydio i\'r ddyfais hon.</string>
@@ -1544,6 +1627,15 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="skip_button_label">Neidio</string>
     <string name="no_matches">Dim canlyniadau</string>
     <string name="find_on_page">Canfod yn y dudalen</string>
+    <string name="matches_found">{ count, plural,
+        zero {}
+        =1 {# canlyniad}
+        two {# o {total}}
+        few {# o {total}}
+        many {# o {total}}
+        other {# o {total}}
+    }
+    </string>
     <string name="action_mode_done">Iawn</string>
     <string name="progress_erasing">Yn dileu\'r storfa a rhennir\u2026</string>
     <string name="share">Rhannu</string>
@@ -1918,6 +2010,70 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="data_saver_description">I helpu lleihau defnydd data, mae Arbedwr Data yn rhwystro rhai apiau rhag anfon neu derbyn data yn y cefndir. Gall ap gael mynediad at ddata tra ei fod yn cael ei ddefnyddio, ond yn llai aml. Mae hyn yn golygu, er enghraifft, na fydd delweddau efallai yn dangos nes dy fod yn eu tapio nhw.</string>
     <string name="data_saver_enable_title">Rhoi Arbedwr Data ar waith?</string>
     <string name="data_saver_enable_button">Troi ymlaen</string>
+    <string name="zen_mode_duration_minutes_summary">{count, plural,
+        =1 {Am un munud (nes {formattedTime})}
+        zero {Am # munudau (nes {formattedTime})}
+        two {Am # funud (nes {formattedTime})}
+        few {Am # munud (nes {formattedTime})}
+        many {Am # munud (nes {formattedTime})}
+        other {Am # munud (nes {formattedTime})}
+    }</string>
+    <string name="zen_mode_duration_minutes_summary_short">{count, plural,
+        =1 {Am un mun (nes {formattedTime})}
+        zero {Am # mun (nes {formattedTime})}
+        two {Am # fun (nes {formattedTime})}
+        few {Am # mun (nes {formattedTime})}
+        many {Am # mun (nes {formattedTime})}
+        other {Am # mun (nes {formattedTime})}
+    }</string>
+    <string name="zen_mode_duration_hours_summary">{count, plural,
+        =1 {Am 1 awr (nes {formattedTime})}
+        zero {Am # oriau (nes {formattedTime})}
+        two {Am # awr (nes {formattedTime})}
+        few {Am # awr (nes {formattedTime})}
+        many {Am # awr (nes {formattedTime})}
+        other {Am # awr (nes {formattedTime})}
+    }</string>
+    <string name="zen_mode_duration_hours_summary_short">{count, plural,
+        =1 {Am 1 awr (nes {formattedTime})}
+        zero {Am # oriau (nes {formattedTime})}
+        two {Am # awr (nes {formattedTime})}
+        few {Am # awr (nes {formattedTime})}
+        many {Am # awr (nes {formattedTime})}
+        other {Am # awr (nes {formattedTime})}
+    }</string>
+    <string name="zen_mode_duration_minutes">{count, plural,
+        =1 {Am un munud}
+        zero {Am # munudau}
+        two {Am # funud}
+        few {Am # munud}
+        many {Am # munud}
+        other {Am # munud}
+    }</string>
+    <string name="zen_mode_duration_minutes_short">{count, plural,
+        =1 {Am 1 mun}
+        zero {Am # mun}
+        two {Am # fun}
+        few {Am # mun}
+        many {Am # mun}
+        other {Am # mun}
+    }</string>
+    <string name="zen_mode_duration_hours">{count, plural,
+        =1 {Am 1 awr}
+        zero {Am # oriau}
+        two {Am # awr}
+        few {Am # awr}
+        many {Am # awr}
+        other {Am # awr}
+    }</string>
+    <string name="zen_mode_duration_hours_short">{count, plural,
+        =1 {Am 1 awr}
+        zero {Am # oriau}
+        two {Am # awr}
+        few {Am # awr}
+        many {Am # awr}
+        other {Am # awr}
+    }</string>
     <string name="zen_mode_until_next_day">Hyd at <xliff:g id="formattedTime" example="Tue, 10 PM">%1$s</xliff:g></string>
     <string name="zen_mode_until">Hyd at <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
     <string name="zen_mode_alarm">Hyd at <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (larwm nesaf)</string>
@@ -2050,6 +2206,11 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="autofill_save_accessibility_title">Cadw ar gyfer Awtolenwi</string>
     <string name="autofill_error_cannot_autofill">Ni ellir awtolenwi\u2019r cynnwys</string>
     <string name="autofill_picker_no_suggestions">Dim awgrymiadau awtolenwi</string>
+    <string name="autofill_picker_some_suggestions">{count, plural,
+        =1 {Un awgrymiad awtolenwi}
+        other {# awgrymiad awtolenwi}
+    }
+    </string>
     <string name="autofill_save_title">Cadw i <b><xliff:g id="label" example="MyPass">%1$s</xliff:g></b>?</string>
     <string name="autofill_save_title_with_type">Cadw <xliff:g id="type" example="Credit Card">%1$s</xliff:g> i <b><xliff:g id="label" example="MyPass">%2$s</xliff:g></b>?</string>
     <string name="autofill_save_title_with_2types">Cadw <xliff:g id="type" example="Password">%1$s</xliff:g> a <xliff:g id="type" example="Credit Card">%2$s</xliff:g> i <b><xliff:g id="label" example="MyPass">%3$s</xliff:g></b>?</string>
@@ -2161,6 +2322,11 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="mime_type_presentation_ext">Cyflwyniad <xliff:g id="extension" example="PDF">%1$s</xliff:g></string>
     <string name="bluetooth_airplane_mode_toast">Bydd Bluetooth yn aros ymlaen ym modd awyren</string>
     <string name="car_loading_profile">Yn llwytho</string>
+    <string name="file_count">{count, plural,
+        =1 {{file_name} + # ffeil}
+        other {{file_name} + # ffeil}
+    }
+    </string>
     <string name="chooser_no_direct_share_targets">Dim pobl yr argymhellir i rannu gyda nhw</string>
     <string name="chooser_all_apps_button_label">Rhestr apiau</string>
     <string name="usb_device_resolve_prompt_warn">Dyw\'r hap hwn heb gael caniatâd i recordio ond mi allai gipio sain trwy\'r ddyfais USB hon.</string>

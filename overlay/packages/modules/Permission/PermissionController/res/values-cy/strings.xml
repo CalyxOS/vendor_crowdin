@@ -60,6 +60,13 @@
     <string name="auto_permission_manager_summary">Rheoli mynediad data at galendr, logiau galwadau, a mwy</string>
     <string name="granted_permission_decision">Rhoddaist i <xliff:g id="app_name" example="Google Maps">%1$s</xliff:g> mynediad at <xliff:g id="permission_name" example="contacts">%2$s</xliff:g></string>
     <string name="denied_permission_decision">Ni roddaist i <xliff:g id="app_name" example="Google Maps">%1$s</xliff:g> mynediad at <xliff:g id="permission_name" example="contacts">%2$s</xliff:g></string>
+    <string name="days_ago">{count, plural,
+        =0    {Heddiw}
+        =1    {Ddoe}
+        two {Echddoe}
+        few {Tridiau yn ôl}
+        other {# diwrnod yn ôl}
+        }</string>
     <string name="app_disable_dlg_positive">Analluogi\'r ap</string>
     <string name="app_disable_dlg_text">Os wyt yn analluogi\'r ap hwn, ni fydd Android ac apiau eraill yn parhau i weithio fel y disgwyl. Bydd yn ymwybodol, ni ellir dileu\u2019r ap hwn am ei fod wedi\u2019i osod ar dy ddyfais yn y ffatri. Wrth ei analluogi, bydd yr ap yn cael ei droi i ffwrdd a\u2019i guddio ar dy ddyfais.</string>
     <string name="app_permission_manager">Rheolydd caniatâd</string>
@@ -67,6 +74,10 @@
     <string name="no_permissions">Dim caniatâd</string>
     <string name="additional_permissions">Caniatâd ychwanegol</string>
     <string name="app_permissions_info_button_label">Agor gwybodaeth am yr ap</string>
+    <string name="additional_permissions_more">{count, plural,
+=1      {# arall}
+        other   {# arall}
+    }</string>
     <string name="old_sdk_deny_warning">Cafodd yr ap hwn ei ddylunio ar gyfer fersiwn gynharach o Android. Gall gwrthod caniatâd achosi iddo beidio â gweithio fel y disgwyl.</string>
     <string name="storage_supergroup_warning_allow">Dyluniwyd yr ap hwn ar gyfer hen fersiwn Android. Os wyt yn rhoi\u2019r caniatâd hwn, caiff mynediad ei ganiatáu at yr holl ystorfa (gan gynnwys lluniau, fideos, cerddoriaeth, sain, a ffeiliau eraill).</string>
     <string name="storage_supergroup_warning_deny">Dyluniwyd yr ap hwn ar gyfer hen fersiwn Android. Os nad wyt yn rhoi\u2019r caniatâd hwn, ni chaiff mynediad ei ganiatáu at yr holl ystorfa (gan gynnwys lluniau, fideos, cerddoriaeth, sain, a ffeiliau eraill).</string>
@@ -134,6 +145,34 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="auto_permission_usage_timeline_summary"><xliff:g id="access_time" example="12:23am">%1$s</xliff:g> \u2022 <xliff:g id="summary_text" example="2 mins">%2$s</xliff:g></string>
     <string name="history_preference_subtext_2"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> \u2022 <xliff:g id="truncated_time" example="1 hr 20min">%2$s</xliff:g></string>
     <string name="history_preference_subtext_3"><xliff:g id="attribution_name" example="Nearby Share">%1$s</xliff:g> \u2022 <xliff:g id="app_name" example="Gmail">%2$s</xliff:g> \u2022 <xliff:g id="truncated_time" example="1 hr 20min">%3$s</xliff:g></string>
+    <string name="duration_used_days">{count, plural,
+        =1 {# diwrnod}
+        zero {# diwrnodau}
+        two {# ddiwrnod}
+        few {# diwrnod}
+        many {# diwrnod}
+        other {# diwrnod}
+    }
+    </string>
+    <string name="duration_used_hours">{count, plural,
+        =1 {1 awr}
+        zero {# oriau}
+        two {# awr}
+        few {# awr}
+        many {# awr}
+        other {# awr}
+    }</string>
+    <string name="duration_used_minutes">{count, plural,
+        =1 {1 mun}
+        two {# fun}
+        other {# mun}
+    }
+    </string>
+    <string name="duration_used_seconds">{count, plural,
+        =1 {1 eil}
+        other {# eil}
+    }
+    </string>
     <string name="permission_usage_any_permission">Unrhyw ganiatâd</string>
     <string name="permission_usage_any_time">Unrhyw bryd</string>
     <string name="permission_usage_last_7_days">7 niwrnod diwethaf</string>
@@ -156,6 +195,11 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="permission_usage_bar_chart_title_last_minute">Defnydd caniatâd yn yr awr ddiwethaf</string>
     <string name="permission_usage_preference_summary_not_used_24h">Heb eu defnyddio yn y 24 awr ddiwethaf</string>
     <string name="permission_usage_preference_summary_not_used_7d">Heb eu defnyddio yn y 7 diwrnod diwethaf</string>
+    <string name="permission_usage_preference_label">{count, plural,
+        =1 {Defnyddiwyd gan 1 ap}
+        other {Defnyddiwyd gan # ap}
+    }
+    </string>
     <string name="permission_usage_view_details">Gweld y cwbl yn y Dangosfwrdd</string>
     <string name="app_permission_usage_filter_label">Trefnwyd yn ôl: <xliff:g id="perm" example="Location">%1$s</xliff:g> </string>
     <string name="app_permission_usage_remove_filter">Tynnu\'r hidlydd</string>
@@ -194,6 +238,7 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="unused_apps_category_title">Gosodiadau ap heb eu defnyddio</string>
     <string name="auto_revoke_label">Tynnu caniatâd yn ôl os nad yw\u2019r ap yn cael ei ddefnyddio</string>
     <string name="unused_apps_label">Tynnu caniatâd yn ôl a rhyddhau lle</string>
+    <string name="unused_apps_label_v2">Seibio gweithgaredd yr ap os heb ei ddefnyddio</string>
     <string name="unused_apps_summary">Tynnu caniatâd, dileu ffeiliau dros dro, a stopio hysbysiadau</string>
     <string name="auto_revoke_summary">I warchod dy ddata, caiff caniatâd yr ap hwn ei dynnu yn ôl os na chaiff yr ap ei ddefnyddio am rai misoedd.</string>
     <string name="auto_revoke_summary_with_permissions">I warchod dy ddata, os na chaiff yr ap ei ddefnyddio am rai misoedd, caiff y caniatâd hyn eu tynnu yn ôl: <xliff:g id="perms" example="location, contacts, and phone">%1$s</xliff:g></string>
@@ -244,17 +289,59 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="ask_header">Gofyn bob tro</string>
     <string name="denied_header">Ni chaniateir</string>
     <string name="storage_footer_hyperlink_text">Gweld rhagor o apiau gall cael mynediad at ffeiliau</string>
+    <string name="days">{count, plural,
+        =1 {# diwrnod}
+        zero {# diwrnodau}
+        two {# ddiwrnod}
+        few {# diwrnod}
+        many {# diwrnod}
+        other {# diwrnod}
+    }
+    
+    </string>
+    <string name="hours">{count, plural,
+        =1 {1 awr}
+        zero {# oriau}
+        two {# awr}
+        few {# awr}
+        many {# awr}
+        other {# awr}
+    }</string>
+    <string name="minutes">{count, plural,
+        =1 {1 munud}
+        zero {# munudau}
+        two {# funud}
+        few {# munud}
+        many {# munud}
+        other {# munud}
+    }</string>
+    <string name="seconds">{count, plural,
+        =1 {1 eiliad}
+        other {# eiliad}
+    }
+    </string>
     <string name="permission_reminders">Atgoffa am ganiatâd</string>
     <string name="auto_revoke_permission_reminder_notification_title_one">1 ap heb ei ddefnyddio</string>
     <string name="auto_revoke_permission_reminder_notification_title_many"><xliff:g id="number_of_apps" example="4">%s</xliff:g> ap heb eu defnyddio</string>
     <string name="auto_revoke_permission_reminder_notification_content">Tynnwyd caniatâd yn ôl i warchod dy breifatrwydd. Tapia i adolygu</string>
     <string name="auto_revoke_permission_notification_title">Tynnwyd caniatâd yn ôl o apiau heb eu defnyddio</string>
     <string name="auto_revoke_permission_notification_content">Dyw rhai apiau heb eu defnyddio ers rhai misoedd. Tapia i adolygu.</string>
+    <string name="unused_apps_notification_title">{count, plural,
+        zero {# apiau heb eu defnyddio}
+=1      {# ap heb ei ddefnyddio}
+        other   {# ap heb eu defnyddio}
+    }</string>
     <string name="unused_apps_notification_content">Tynnwyd caniatâd a ffeiliau dros dro a chafodd hysbysiadau eu stopio. Tapia i adolygu.</string>
     <string name="post_drive_permission_decision_reminder_title">Gwirio caniatâd diweddar</string>
     <string name="post_drive_permission_decision_reminder_summary_1_app_1_permission">Wrth yrru, rhoddaist i <xliff:g id="app" example="Waze">%1$s</xliff:g> mynediad at <xliff:g id="permission" example="location">%2$s</xliff:g></string>
     <string name="post_drive_permission_decision_reminder_summary_1_app_2_permissions">Wrth yrru, rhoddaist i <xliff:g id="app" example="Waze">%1$s</xliff:g> mynediad at <xliff:g id="permission_1" example="location">%2$s</xliff:g> a <xliff:g id="permission_2" example="microphone">%3$s</xliff:g></string>
     <string name="post_drive_permission_decision_reminder_summary_1_app_multi_permission">Wrth yrru, rhoddaist ganiatâd <xliff:g id="count" example="2">%1$d</xliff:g> i <xliff:g id="app" example="Waze">%2$s</xliff:g></string>
+    <string name="post_drive_permission_decision_reminder_summary_multi_apps"> {count, plural,
+        =1 {Wrth yrru, rhoddaist hawl mynediad i <xliff:g id="app" example="Waze">%1$s</xliff:g> ac # ap arall.}
+        two {Wrth yrru, rhoddaist hawl mynediad i <xliff:g id="app" example="Waze">%1$s</xliff:g> a # ap arall.}
+        other {Wrth yrru, rhoddaist hawl mynediad i <xliff:g id="app" example="Waze">%1$s</xliff:g> a/ac # ap arall.}
+        }
+    </string>
     <string name="go_to_settings">Mynd i Gosodiadau</string>
     <string name="auto_revoke_setting_subtitle">Dyw rhai apiau heb eu defnyddio ers rhai misoedd</string>
     <string name="permissions_removed_category_title">Caniatâd wedi\'u tynnu yn ôl</string>
@@ -264,7 +351,18 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="auto_revoke_preference_summary">Tynnwyd caniatâd yn ôl i warchod dy breifatrwydd</string>
     <string name="background_location_access_reminder_notification_title">Cafodd <xliff:g id="app_name" example="Gmail">%s</xliff:g> dy leoliad wrth redeg yn y cefndir</string>
     <string name="background_location_access_reminder_notification_content">Gall yr ap hwn gael gwybod dy leoliad o hyd. Tapia i newid hyn.</string>
+    <string name="notification_listener_reminder_notification_title_plural"> {count, plural,
+        =1 {Adolygu ap gyda mynediad at wrandawr hysbysiadau}
+        other {Adolygu apiau gyda mynediad at wrandawr hysbysiadau}
+        }
+    </string>
     <string name="notification_listener_reminder_notification_content">Gall <xliff:g id="app_name" example="Gmail">%s</xliff:g> ddarllen dy holl hysbysiadau.</string>
+    <string name="notification_listener_reminder_notification_content_plural"> {count, plural,
+        zero {Gall <xliff:g id="app_name" example="Gmail">%s</xliff:g> apiau ddarllen dy holl hysbysiadau.}
+        =1 {Gall # ap ddarllen dy holl hysbysiadau.}
+        other {Gall # ap ddarllen dy holl hysbysiadau.}
+        }
+    </string>
     <string name="auto_revoke_after_notification_title">Tynnwyd caniatâd yr ap yn ôl i warchod dy breifatrwydd</string>
     <string name="auto_revoke_after_notification_content_one">Dyw <xliff:g id="app_name" example="Gmail">%s</xliff:g> heb ei ddefnyddio ers rhai misoedd. Tapia i adolygu.</string>
     <string name="auto_revoke_after_notification_content_two">Dyw <xliff:g id="app_name" example="Gmail">%s</xliff:g> ac 1 ap arall heb eu defnyddio ers rhai misoedd. Tapia i adolygu.</string>
