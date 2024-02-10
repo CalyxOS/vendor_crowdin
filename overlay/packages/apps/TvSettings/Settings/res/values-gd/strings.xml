@@ -46,6 +46,7 @@
     <string name="sound_category_title">Fuaim</string>
     <string name="applications_category_title">Aplacaidean</string>
     <string name="device_pref_category_title">Roghainnean an uidheim</string>
+    <string name="accessibility_category_title">So-ruigsinneachd</string>
     <string name="remotes_and_accessories_category_title">Innealan cèine ⁊ co-innealan</string>
     <string name="display_and_sound_category_title">Taisbeanadh ⁊ fuaim</string>
     <string name="help_and_feedback_category_title">Cobhair ⁊ beachd thugainn</string>
@@ -93,7 +94,6 @@
     <string name="device_reset">Aiseag roghainnean an fhactaraidh</string>
     <string name="device_factory_reset">Aisig dàta an fhactaraidh</string>
     <string name="device_calibration">Cailbhreachadh</string>
-    <string name="device_energy_saver">Caomhnaiche na cumhachd</string>
     <string name="surround_sound_select_formats">Tagh fòrmatan</string>
     <string name="surround_sound_category_title">Fuaim cuairteachaidh</string>
     <string name="surround_sound_format_ac3">Dolby Digital</string>
@@ -106,6 +106,7 @@
     <string name="advanced_display_settings_title">Roghainnean adhartach an taisbeanaidh</string>
     <string name="advanced_sound_settings_title">Roghainnean adhartach nam fuaimean</string>
     <string name="game_mode_title">Ceadaich modh nan geama</string>
+    <string name="match_content_frame_rate_non_seamless">An-còmhnaidh</string>
     <string name="match_content_frame_rate_never">Chan ann idir</string>
     <string name="hdr_format_selection_manual_title">Leabhar-mìneachaidh</string>
     <string name="resolution_selection_dialog_cancel">Sguir dheth</string>
@@ -156,7 +157,6 @@
     <string name="system_speech">Cainnt</string>
     <string name="system_inputs">Ion-chuir</string>
     <string name="system_home_theater_control">Stiùireadh tèatair-dhachaigh</string>
-    <string name="system_accessibility">So-ruigsinneachd</string>
     <string name="system_developer_options">Roghainnean an luchd-leasachaidh</string>
     <string name="accessibility_none">Chan eil gin</string>
     <string name="system_diagnostic">Cleachdadh ⁊ diagnosachd</string>
@@ -423,9 +423,15 @@
     <string name="location_history_desc">Nuair a bhios eachdraidh nan ionadan air dhan chunntas seo, ’s urrainn dha Google dàta ionad an uidheim agad a stòradh a chùm cleachdadh leis na h-aplacaidean agad.\n\nMar eisimpleir, ’s urrainn dha Google Maps stiùireadh a thoirt dhut agus ’s urrainn dha Google Now innse dhut mu thrafaig.\n\n’S urrainn dhut eachdraidh nan ionadan a chur dheth uair sam bith ach ma nì thu seo, cha dèid a sguabadh às. Airson eachdraidh nan ionadan agad a shealltainn ’s a stiùireadh, tadhail air maps.google.com/locationhistory.</string>
     <string name="delete_location_history_title">Sguab às eachdraidh nan ionadan</string>
     <string name="delete_location_history_desc">Sguabaidh seo às eachdraidh nan ionadan gu lèir a chaidh a stòradh on uidheam seo dhan chunntas Google seo. Chan urrainn dhut an sguabadh às seo a neo-dhèanamh. Chan obraich cuid a dh’aplacaidean, a’ gabhail a-staigh Google Now, tuilleadh.</string>
-    <string name="system_services">Seirbheisean</string>
+    <string name="accessibility_display_category_title">Taisbeanadh</string>
+    <string name="accessibility_services_category_title">Seirbheisean</string>
     <string name="accessibility_service_settings">Roghainnean nan seirbheisean</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Teacsa le iomsgaradh àrd</string>
+    <string name="palette_color_red">Dearg</string>
+    <string name="palette_color_yellow">Buidhe</string>
+    <string name="palette_color_green">Uaine</string>
+    <string name="palette_color_cyan">Saidhean</string>
+    <string name="palette_color_blue">Gorm</string>
     <string name="accessibility_shortcut">Ath-ghoirid na so-ruigsinneachd</string>
     <string name="accessibility_shortcut_enable">Cuir an comas ath-ghoirid na so-ruigsinneachd</string>
     <string name="accessibility_shortcut_service">Seirbheis na h-ath-ghoirid</string>
@@ -682,10 +688,6 @@
     <string name="device_daydreams_sleep_description">Tòisichidh an sàbhalaiche-sgrìn às dèidh na dàlach seo gun ghnìomhachd. Mura deach sàbhalaiche-sgrìn a thaghadh, thèid an t-uidheam-taisbeanaidh a chur dheth.</string>
     <string name="device_daydreams_sleep_summary">Às dèidh <xliff:g id="sleep_description" example="3 minutes">%1$s</xliff:g> gun ghnìomhachd</string>
     <string name="device_energy_saver_screen_off">Cuir dheth an taisbeanadh</string>
-    <string name="device_energy_saver_screen_off_description">Às dèidh <xliff:g id="sleep_description" example="4 hours">%1$s</xliff:g></string>
-    <string name="device_energy_saver_screen_off_dialog_title">Cuir an taisbeanadh dheth às dèidh</string>
-    <string name="device_energy_saver_allow_turning_screen_off">Ceadaich cur dheth na sgrìn</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description">Rè cluich mheadhanan</string>
     <string name="backup_configure_account_default_summary">Nach eil cunntas sam bith a’ stòradh lethbhreacan-glèidhidh de dhàta aig an àm seo</string>
     <string name="backup_erase_dialog_message">An sguir thu de lethbhreacan-glèidhidh a dhèanamh dhe na faclan-faire WiFi, comharran-lìn, roghainnean eile is dàta nan aplacaidean agus an suath thu bàn a h-uile lethbhreac dhiubh air frithealaichean Google?</string>
     <string name="privacy_backup_data">Dèan lethbhreac-glèidhidh dhen dàta agam</string>

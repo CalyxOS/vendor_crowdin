@@ -21,13 +21,10 @@
     <string name="brightness">Ìre na soilleireachd</string>
     <string name="auto_brightness_title">Soilleireachd cho-fhreagrach</string>
     <string name="condition_night_display_title">Tha an solas-oidhche air</string>
-    <string name="night_mode_tile_label">Am modh oidhche</string>
     <string name="network_and_internet">Lìonra ⁊ eadar-lìon</string>
     <string name="mobile_network_settings">Lìonra mobile</string>
     <string name="mobile_network_active_sim">Gnìomhach / SIM</string>
     <string name="mobile_network_inactive_sim">Neo-ghnìomhach / SIM</string>
-    <string name="mobile_network_active_esim">Gnìomhach / SIM air a luchdadh a-nuas</string>
-    <string name="mobile_network_inactive_esim">Neo-ghnìomhach / SIM air a luchdadh a-nuas</string>
     <string name="mobile_network_list_add_more">Cuir barrachd ris</string>
     <string name="mobile_network_toggle_title">Dàta mobile</string>
     <string name="mobile_network_toggle_summary">Inntrig dàta le lìonra mobile</string>
@@ -196,6 +193,8 @@
     <string name="bluetooth_notif_title">Iarrtas paidhreachaidh</string>
     <string name="bluetooth_notif_message">Thoir gnogag gus a phaidhreachadh le <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="bluetooth_device_picker">Tagh uidheam Bluetooth</string>
+    <string name="bluetooth_bonded_bluetooth_toggle_content_description">Bluetooth</string>
+    <string name="bluetooth_bonded_media_toggle_content_description">Meadhanan</string>
     <string name="language_settings">Cànain</string>
     <string name="languages_and_input_settings">Cànain ⁊ ion-chur</string>
     <string name="language_picker_list_suggested_header">Na mholamaid</string>
@@ -273,8 +272,6 @@
     <string name="default_applications">Na h-aplacaidean bunaiteach</string>
     <string name="app_permissions">Ceadan aplacaid</string>
     <string name="applications_settings">Mu na h-aplacaidean</string>
-    <string name="force_stop">Spàrr stad air</string>
-    <string name="force_stop_dialog_title">An spàrr thu stad air?</string>
     <string name="force_stop_dialog_text">Ma sparras tu stad air aplacaid, dh’fhaoidte gum bi giùlan neònach oirre an uairsin.</string>
     <string name="disable_text">Cuir à comas</string>
     <string name="enable_text">Cuir an comas</string>
@@ -349,6 +346,7 @@
     <string name="microphone_settings_loading_app_permission_stats">’Ga luchdadh\u2026</string>
     <string name="system_setting_title">An siostam</string>
     <string name="system_update_settings_title">Ùrachaidhean an t-siostaim</string>
+    <string name="continue_confirmation">Air adhart</string>
     <string name="firmware_version">Tionndadh dhe Android</string>
     <string name="security_patch">Leibheil brèide tèarainteachd Android</string>
     <string name="hardware_info">Modail ⁊ bathar-cruaidh</string>
@@ -387,11 +385,7 @@
     <string name="developer_options_settings">Roghainnean an luchd-leasachaidh</string>
     <string name="reset_options_title">Roghainnean ath-shuidheachaidh</string>
     <string name="reset_options_summary">Ath-shuidheachadh an lìonraidh, nan aplacaidean no an uidheim</string>
-    <string name="reset_network_title">Ath-shuidhich an lìonra</string>
-    <string name="reset_network_desc">Nì seo ath-shuidheachadh air roghainn sam bith an lìonraidh, a’ gabhail a-staigh:</string>
-    <string name="reset_network_item_wifi"><li>WiFi</li></string>
     <string name="reset_network_item_mobile"><li>Dàta mobile</li></string>
-    <string name="reset_network_item_bluetooth"><li>Bluetooth</li></string>
     <string name="reset_esim_title">Sguab às gach eSIM a’ charbaid</string>
     <string name="reset_esim_desc">Cha chuir seo crìoch air plana na seirbheise agad.</string>
     <string name="reset_esim_error_title">Cha b’ urrainn dhuinn na h-eSIMichean ath-shuidheachadh</string>
@@ -554,7 +548,6 @@
     <string name="error_saving_password">Mearachd le sàbhaladh an fhacail-fhaire</string>
     <string name="lockpassword_password_denylisted_by_admin">Tha faclan-faire àbhaisteach ’gam bacadh leis an rianaire agad. Feuch ri facal-faire eile.</string>
     <string name="setup_lock_settings_options_button_label">Roghainnean glas na sgrìn</string>
-    <string name="build_info_fmt"><xliff:g example="google/gcar_emu_x86/..." id="fingerprint">%1$s</xliff:g>\n<xliff:g example="Thu Aug 30" id="date">%2$s</xliff:g> : <xliff:g example="4" id="num_days">%3$s</xliff:g> là(ithean) air ais</string>
     <string name="credentials_reset">Falamhaich na teisteasan</string>
     <string name="credentials_reset_summary">Thoir air falbh gach teisteanas</string>
     <string name="credentials_reset_hint">An doir thu air falbh an t-susbaint gu lèir?</string>

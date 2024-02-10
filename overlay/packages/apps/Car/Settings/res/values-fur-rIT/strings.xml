@@ -22,7 +22,6 @@
     <string name="auto_brightness_title">Luminositât adative</string>
     <string name="auto_brightness_summary">La luminositât dal schermi si adate al ambient </string>
     <string name="condition_night_display_title">La lûs noturne e je ative</string>
-    <string name="night_mode_tile_label">Modalitât gnot</string>
     <string name="network_and_internet">Rêt e internet</string>
     <string name="mobile_network_settings">Rêt mobile</string>
     <string name="mobile_network_summary_count">        {count, plural,
@@ -32,8 +31,6 @@
     </string>
     <string name="mobile_network_active_sim">Atîf / SIM</string>
     <string name="mobile_network_inactive_sim">No atîf / SIM</string>
-    <string name="mobile_network_active_esim">Atîf / SIM discjariade</string>
-    <string name="mobile_network_inactive_esim">No atîf / SIM discjariade</string>
     <string name="mobile_network_list_add_more">Zonte altris</string>
     <string name="mobile_network_toggle_title">Dâts mobii</string>
     <string name="mobile_network_toggle_summary">Acêt ai dâts doprant la rêt mobile</string>
@@ -233,6 +230,8 @@
     <string name="bluetooth_notif_title">Richieste di associazion</string>
     <string name="bluetooth_notif_message">Tocje par associâ cun <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="bluetooth_device_picker">Sielç dispositîf Bluetooth</string>
+    <string name="bluetooth_bonded_bluetooth_toggle_content_description">Bluetooth</string>
+    <string name="bluetooth_bonded_media_toggle_content_description">Contignûts multimediâi</string>
     <string name="language_settings">Lenghis</string>
     <string name="languages_and_input_settings">Lenghis e imission</string>
     <string name="language_picker_list_suggested_header">Sugjeridis</string>
@@ -316,8 +315,6 @@
     <string name="app_permissions">Permès de aplicazion</string>
     <string name="app_permissions_summary">Controle l\'acès des aplicazions ai tiei dâts</string>
     <string name="applications_settings">Informazions aplicazion</string>
-    <string name="force_stop">Sfuarce interuzion</string>
-    <string name="force_stop_dialog_title">Sfuarçâ la interuzion?</string>
     <string name="force_stop_dialog_text">Se tu sfuarcis la interuzion di une aplicazion, e podarès compuartâsi in mût anomal.</string>
     <string name="prioritize_app_performance_dialog_title">Ativâ prioritât a prestazions de aplicazion?</string>
     <string name="prioritize_app_performance_dialog_text">Cheste operazion e pues causâ une potenziâl instabilitât dal sisteme o efiets sul hardware a lunc tiermin. Desideristu continuâ?</string>
@@ -434,42 +431,24 @@
     <string name="wifi_control_description">Il control dal Wi-Fi al permet a une aplicazion di ativâ o disativâ il Wi-Fi, scansionâ e conetiti a rêts Wi-Fi, zontâ o gjavâ rêts o inviâ un pont di acès dome-locâl.</string>
     <string name="more_special_access_title">Altri</string>
     <string name="location_settings_title">Posizion</string>
+    <string name="location_settings_footer">        Il servizi di gjeolocalizazion al podarès doprâ sorzints come GPS, Wi\u2011Fi, rêts
+        mobilis e sensôrs par judâ a stimâ la posizion dal to dispositîf.
+    </string>
     <string name="location_toggle_title">Dopre posizion</string>
-    <string name="location_toggle_summary">Permet a aplic. indicadis di acedi ae posizion</string>
     <string name="location_toggle_off_warning">        Se tu lu disativis, l\'acès ae posizion al vignarà gjavât a dutis lis aplicazions gjavadis chês che a coventin pe assistence ae vuide
     </string>
-    <string name="location_driver_assistance_toggle_title">        Dopre la posizion pe assistence ae vuide
-    </string>
-    <string name="location_driver_assistance_toggle_off_title">Posizion dal veicul disativade</string>
-    <string name="location_driver_assistance_toggle_off_summary">        Lis aplic. pe assistence ae vuide no puedin acedi ae tô posizion
-    </string>
-    <string name="location_driver_assistance_action_text">        Modifiche
-    </string>
-    <string name="location_driver_assistance_toggle_summary">        Permet aes aplic. che ti judin cu la vuide di acedi ae tô posizion
-    </string>
-    <string name="location_driver_assistance_toggle_off_warning">        Se tu disativis cheste impostazion, lis aplicazions di assistence ae vuide che si
+    <string name="adas_location_toggle_off_warning">        Se tu disativis cheste impostazion, lis aplicazions di assistence ae vuide che si
         basin su lis informazions relativis ae posizion a vignaran disativadis.
     </string>
-    <string name="driver_assistance_warning_confirm_label">        Disative distès
+    <string name="adas_location_toggle_confirm_label">        Disative distès
     </string>
     <string name="location_recently_accessed">Utilizazions resintis</string>
     <string name="location_settings_recently_accessed_title">Utilizazions resintis</string>
     <string name="location_settings_recently_accessed_view_all_title">Viôt dutis</string>
     <string name="location_no_recent_access">Nissune aplicazion resinte</string>
-    <string name="driver_assistance_label"><xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Assistence ae vuide</string>
-    <string name="location_driver_assistance_privacy_policy_header_content">        Aplicazions cul permès par acedi ae posizion di chest veicul par funzion di assistence ae vuide
-    </string>
-    <string name="location_driver_assistance_privacy_policy_button_text">Normis su la riservatece</string>
     <string name="location_settings_app_permissions_title">Permès a nivel di aplicazion</string>
     <string name="location_settings_services_title">Servizis di gjeolocalizazion</string>
     <string name="location_use_location_title">Dopre posizion</string>
-    <string name="location_settings_footer">        Il servizi di gjeolocalizazion al podarès doprâ sorzints come GPS, Wi\u2011Fi, rêts
-        mobilis e sensôrs par judâ a stimâ la posizion dal to dispositîf.
-    </string>
-    <string name="driver_assistance_settings_title">Assistence ae vuide</string>
-    <string name="adas_settings_footer">        Lis informazions di gjeolocalizazion mandadis aes aplicazions di assistence ae vuide
-        no contegnin informazions che a puedin identificâti. A vegnin memorizadis par un massim di 2 dîs prime che a vegnin eliminadis.
-    </string>
     <string name="microphone_settings_title">Microfon</string>
     <string name="microphone_toggle_title">Dopre microfon</string>
     <string name="microphone_toggle_summary">Permet a dutis lis aplicazions di acedi al to microfon</string>
@@ -489,6 +468,7 @@
     <string name="system_update_settings_title">Inzornaments di sisteme</string>
     <string name="system_advanced_title">Avanzadis</string>
     <string name="system_advanced_summary">Informazions, informazions legâls, ripristinament e altri</string>
+    <string name="continue_confirmation">Continue</string>
     <string name="firmware_version">Version di Android</string>
     <string name="security_patch">Nivel de corezion di sigurece di Android</string>
     <string name="hardware_info">Model e hardware</string>
@@ -532,11 +512,7 @@
     <string name="developer_options_settings">Opzions pal svilupadôr</string>
     <string name="reset_options_title">Opzions di ripristinament</string>
     <string name="reset_options_summary">Ripristinament di rêt, aplicazions o dispositîf</string>
-    <string name="reset_network_title">Ristabilìs rêt</string>
-    <string name="reset_network_desc">Cheste operazion e ristabilìs dutis lis impostazions di rêt includûts:</string>
-    <string name="reset_network_item_wifi"><li>Wi\u2011Fi</li></string>
     <string name="reset_network_item_mobile"><li>Dâts mobii</li></string>
-    <string name="reset_network_item_bluetooth"><li>Bluetooth</li></string>
     <string name="reset_esim_title">Scancele dutis lis eSIMs dal veicul</string>
     <string name="reset_esim_desc">Cheste operazion no anularà il to plan dai servizis.</string>
     <string name="reset_esim_error_title">Impussibil ripristinâ lis eSIMs</string>
@@ -809,7 +785,6 @@
     </string>
     <string name="lockpassword_pin_no_sequential_digits">Lis secuencis di numars in cressi, in calâ o ripetûts no son ametudis</string>
     <string name="setup_lock_settings_options_button_label">Opzions dal bloc schermi</string>
-    <string name="build_info_fmt"><xliff:g example="google/gcar_emu_x86/..." id="fingerprint">%1$s</xliff:g>\n<xliff:g example="Thu Aug 30" id="date">%2$s</xliff:g> : <xliff:g example="4" id="num_days">%3$s</xliff:g> dîs indaûr</string>
     <string name="credentials_reset">Nete lis credenziâls</string>
     <string name="credentials_reset_summary">Gjave ducj i certificâts</string>
     <string name="credentials_reset_hint">Gjavâ ducj i contignûts?</string>

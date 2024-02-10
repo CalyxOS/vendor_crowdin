@@ -57,6 +57,7 @@
     <string name="sound_category_title">Sain</string>
     <string name="applications_category_title">Apiau</string>
     <string name="device_pref_category_title">Dewisiadau\'r Ddyfais</string>
+    <string name="accessibility_category_title">Hygyrchedd</string>
     <string name="remotes_and_accessories_category_title">Rheolaeth o bell ac ategolion</string>
     <string name="display_and_sound_category_title">Dangosydd a seiniau</string>
     <string name="help_and_feedback_category_title">Cymorth ac Adborth</string>
@@ -108,14 +109,12 @@
     <string name="device_backup_restore">Copi wrth Gefn ac Adfer</string>
     <string name="device_factory_reset">Ailosod data i fel yr oedd wrth adael y ffatri</string>
     <string name="device_calibration">Calibrad</string>
-    <string name="device_energy_saver">Arbedwr pŵer</string>
     <string name="surround_sound_select_formats">Dewis fformatau</string>
     <string name="surround_sound_category_title">Saim Amgylchynu</string>
     <string name="surround_sound_format_ac3">Dolby Digital</string>
     <string name="surround_sound_format_e_ac3">Dolby Digital Plus</string>
     <string name="surround_sound_format_dts">DTS</string>
     <string name="surround_sound_format_dts_hd">DTS-HD</string>
-    <string name="surround_sound_format_dts_uhd">DTS-UHD</string>
     <string name="surround_sound_format_dolby_mat">Dolby Atmos gyda Dolby TrueHD</string>
     <string name="surround_sound_format_dolby_truehd">Dolby TrueHD</string>
     <string name="surround_sound_format_e_ac3_joc">Dolby Atmos gyda Dolby Digital Plus</string>
@@ -129,6 +128,7 @@
     <string name="hdmi_cec_settings_title">HDMI-CEC</string>
     <string name="advanced_sound_settings_title">Gosodiadau sain uwch</string>
     <string name="game_mode_title">Galluogi modd gemau</string>
+    <string name="match_content_frame_rate_non_seamless">Pob amser</string>
     <string name="match_content_frame_rate_never">Byth</string>
     <string name="font_scale_settings_title">Graddio testun</string>
     <string name="font_scale_sample_text_title">Testun enghreifftiol</string>
@@ -212,7 +212,6 @@
     <string name="system_inputs">Mewnbynnau</string>
     <string name="system_inputs_devices">Mewnbwn a Dyfeisiau</string>
     <string name="system_home_theater_control">Rheoli theatr gartref</string>
-    <string name="system_accessibility">Hygyrchedd</string>
     <string name="system_developer_options">Opsiynau datblygwr</string>
     <string name="accessibility_none">Dim</string>
     <string name="system_diagnostic">Defnydd a diagnosteg</string>
@@ -573,9 +572,15 @@
     <string name="location_history_desc">Tra bod hanes lleoliad wedi\'i alluogi ar gyfer y cyfrif hwn, gall Google gadw data lleoliad y ddyfais gan ddefnyddio dy apiau.\n\nEr enghriafft, gall Google Maps dy helpu ti cyrraedd rhywle a gall Google Now rhoi gwybodaeth i ti am draffig.\n\nMae\'n bosib diffodd hanes lleoliad unrhyw bryd, ond nid yw yn dileu\'r hanes. I weld a rheoli dy hanes lleoliad, gweler maps.google.com/locationhistory.</string>
     <string name="delete_location_history_title">Dileu hanes lleoliad</string>
     <string name="delete_location_history_desc">Bydd hyn yn dileu\'r holl Hanes Lleoliadau wedi\'i gadw ar y ddyfais hon ar gyfer y cyfrif Google hwn. Nid yw\'n bosib dadwneud hyn. Bydd rhai apiau, gan gynnwys Google Now, yn stopio gweithio.</string>
-    <string name="system_services">Gwasanaethau</string>
+    <string name="accessibility_display_category_title">Dangosydd</string>
+    <string name="accessibility_services_category_title">Gwasanaethau</string>
     <string name="accessibility_service_settings">Gosodiadau gwasanaeth</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Testun cyferbyniad uchel</string>
+    <string name="palette_color_red">Coch</string>
+    <string name="palette_color_yellow">Melyn</string>
+    <string name="palette_color_green">Gwyrdd</string>
+    <string name="palette_color_cyan">Gwyrddlas</string>
+    <string name="palette_color_blue">Glas</string>
     <string name="accessibility_shortcut">Llwybr byr hygyrchedd</string>
     <string name="accessibility_shortcut_enable">Galluogi llwybr byr hygyrchedd</string>
     <string name="accessibility_shortcut_service">Gwasanaeth llwybr byr</string>
@@ -845,10 +850,6 @@
     <string name="device_daydreams_sleep_description">Mae\'r arbedwr sgrin yn dechrau ar ôl gyfnod heb weithgaredd. Os nad oes arbedwr sgrin wedi ei ddewis, mae\'r sgrin yn diffodd.</string>
     <string name="device_daydreams_sleep_summary">Ar ôl <xliff:g id="sleep_description" example="3 minutes">%1$s</xliff:g> heb weithgaredd</string>
     <string name="device_energy_saver_screen_off">Diffodd y dangosydd</string>
-    <string name="device_energy_saver_screen_off_description">Ar ôl <xliff:g id="sleep_description" example="4 hours">%1$s</xliff:g></string>
-    <string name="device_energy_saver_screen_off_dialog_title">Diffodd y dangosydd ar ôl</string>
-    <string name="device_energy_saver_allow_turning_screen_off">Galluogi diffodd y sgrin</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description">Wrth chwarae cyfryngau</string>
     <string name="backup_configure_account_default_summary">Does dim cyfrif yn cadw data wrth gefn ar hyn o bryd</string>
     <string name="backup_erase_dialog_message">Stopio cadw copi wrth gefn o dy gyfrifon Wi-Fi, nodau tudalennau, gosodiadau eraill, a data apiau, a dileu\'r holl gopïau ar weinyddion Google?</string>
     <string name="privacy_backup_data">Creu copi wrth gefn o fy nata</string>

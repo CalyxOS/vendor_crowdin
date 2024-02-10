@@ -18,30 +18,11 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="timezone_filters">
-        <item>ئەمریکا</item>
-        <item>ئه‌وروپا</item>
-        <item>ئه‌فریقا</item>
-        <item>ئاسیا</item>
-        <item>ئوسترالیا</item>
-        <item>دیاریکراو</item>
-        <item>هه‌موو</item>
-    </string-array>
     <string-array name="screen_timeout_entries">
         <item>15 چرکه‌</item>
         <item>30 چرکه‌</item>
         <item>1 خوله‌ک</item>
         <item>3 خوله‌ک</item>
-        <item>5 خوله‌ک</item>
-        <item>10 خوله‌ک</item>
-        <item>30 خوله‌ک</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>هه‌رگیز</item>
-        <item>15 چرکه‌</item>
-        <item>30 چرکه‌</item>
-        <item>1 خوله‌ک</item>
-        <item>2 خوله‌ک</item>
         <item>5 خوله‌ک</item>
         <item>10 خوله‌ک</item>
         <item>30 خوله‌ک</item>
@@ -71,25 +52,6 @@
         <item>بلۆکرا</item>
         <item>دورخستنه‌وه‌ی په‌یوه‌ندی کز</item>
     </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item/>
-        <item>گه‌ڕان\u2026</item>
-        <item>په‌یوه‌ندکردنی بۆ <xliff:g id="ناوی_تۆڕ">%1$s</xliff:g>\u2026</item>
-        <item>دڵنیاکردنه‌وه‌ <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>به‌ده‌ستهێنانی ناونیشانی IP <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>په‌یوه‌ستکرا به‌ <xliff:g id="network_name">%1$s</xliff:g></item>
-        <item>به‌سه‌رچوو</item>
-        <item>پچڕانی له‌ <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>پچڕا</item>
-        <item>سه‌رکه‌وتوو نه‌بوو</item>
-        <item>بلۆکرا</item>
-        <item>دورخستنه‌وه‌ی تۆڕی کز</item>
-    </string-array>
-    <string-array name="wifi_p2p_wps_setup">
-        <item>پالنانی دوگمه‌</item>
-        <item>PIN له‌ هه‌ر ئامێرێک</item>
-        <item>PINله‌سه‌ر ئه‌م ئامێره‌</item>
-    </string-array>
     <string-array name="wifi_p2p_status">
         <item>په‌یوه‌ستکرا</item>
         <item>بانگه‌شه‌کرا</item>
@@ -97,23 +59,12 @@
         <item>له‌کاره‌</item>
         <item>ده‌ره‌وه‌ی-بازنه‌</item>
     </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 خوله‌ک</item>
-        <item>5 خوله‌ک</item>
-        <item>1 كاتژێر</item>
-        <item>هه‌رگیز کات ته‌واو نه‌بێت</item>
-    </string-array>
     <string-array name="wifi_signal">
         <item>کز</item>
         <item>کز</item>
         <item>که‌م</item>
         <item>باشه‌</item>
         <item>هه‌میشه‌</item>
-    </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>کاتی به‌کارهێنان</item>
-        <item>Last time used</item>
-        <item>ناوی به‌رنامه‌</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>MSCHAPV2</item>
@@ -176,18 +127,6 @@
         <item translatable="false">SPN</item>
         <item translatable="false">IMSI</item>
         <item translatable="false">GID</item>
-    </string-array>
-    <string-array name="app_install_location_entries">
-        <item>بیرگه‌ی ناوه‌کی ئامێر</item>
-        <item>بیرگه‌ی ده‌ره‌کی</item>
-        <item>بڕیار بخه‌ ده‌ستی سیسته‌م بیدات</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>ناوچه‌ی</item>
-        <item>که‌سی</item>
-        <item>نامه‌</item>
-        <item>ڕاگه‌یێنه‌کان</item>
-        <item>ئامێر</item>
     </string-array>
     <string-array name="app_ops_summaries">
         <item>ناوچه‌ی ڕەق</item>
@@ -360,17 +299,6 @@
     <string-array name="accessibility_button_size_selector_titles">
         <item>بچوک</item>
         <item>گه‌وره‌</item>
-    </string-array>
-    <string-array name="vpn_types_long">
-        <item>PPTP VPN</item>
-        <item>L2TP/IPSec VPN with pre-shared keys</item>
-        <item>L2TP/IPSec VPN with certificates</item>
-        <item>IPSec VPN with pre-shared keys and Xauth authentication</item>
-        <item>IPSec VPN with certificates and Xauth authentication</item>
-        <item>IPSec VPN with certificates and hybrid authentication</item>
-        <item>IKEv2/IPSec VPN with certificates and username/password authentication</item>
-        <item>IKEv2/IPSec VPN with pre-shared keys</item>
-        <item>IKEv2/IPSec VPN with certificates</item>
     </string-array>
     <string-array name="vpn_proxy_settings">
         <item>هیچ</item>

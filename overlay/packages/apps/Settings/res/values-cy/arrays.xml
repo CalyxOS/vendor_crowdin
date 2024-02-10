@@ -18,26 +18,7 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="timezone_filters">
-        <item>America</item>
-        <item>Ewrop</item>
-        <item>Affrica</item>
-        <item>Asia</item>
-        <item>Awstralia</item>
-        <item>Cefnfor Tawel</item>
-        <item>Y Cyfan</item>
-    </string-array>
     <string-array name="screen_timeout_entries">
-        <item>15 eiliad</item>
-        <item>30 eiliad</item>
-        <item>1 munud</item>
-        <item>2 funud</item>
-        <item>5 munud</item>
-        <item>10 munud</item>
-        <item>30 munud</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>Byth</item>
         <item>15 eiliad</item>
         <item>30 eiliad</item>
         <item>1 munud</item>
@@ -82,20 +63,6 @@
         <item>Wedi\'i rhwystro</item>
         <item>Yn osgoi cysylltiad gwael am y tro</item>
     </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item/>
-        <item>Yn sganio\u2026</item>
-        <item>Yn cysylltu â <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>Yn dilysu gyda <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>Yn cael cyfeiriad IP oddi wrth <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>Wedi cysylltu â <xliff:g id="network_name">%1$s </xliff:g></item>
-        <item>Wedi\'i atal</item>
-        <item>Yn datgysylltu oddi wrth <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>Heb gysylltu</item>
-        <item>Aflwyddiannus</item>
-        <item>Wedi\'i rhwystro</item>
-        <item>Yn osgoi cysylltiad gwael am y tro</item>
-    </string-array>
     <string-array name="wifi_tether_security">
         <item>@string/wifi_security_sae</item>
         <item>@string/wifi_security_psk_sae</item>
@@ -107,23 +74,12 @@
         <item>Dymuno statws tystysgrif</item>
         <item>Ymofyn statws tystysgrif</item>
     </string-array>
-    <string-array name="wifi_p2p_wps_setup">
-        <item>Gwthio botwm</item>
-        <item>PIN gan ddyfais cyfaill</item>
-        <item>PIN gan y ddyfais hon</item>
-    </string-array>
     <string-array name="wifi_p2p_status">
         <item>Wedi cysylltu</item>
         <item>Gwahoddwyd</item>
         <item>Aflwyddiannus</item>
         <item>Ar gael</item>
         <item>Allan-o-amrediad</item>
-    </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 funud</item>
-        <item>5 munud</item>
-        <item>1 awr</item>
-        <item>Peidio diffodd byth</item>
     </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
         <item>Defnyddio Rhagosodiad y System: <xliff:g id="default_bluetooth_max_connected_audio_devices">%1$d</xliff:g></item>
@@ -139,21 +95,6 @@
         <item>Gweddol</item>
         <item>Da</item>
         <item>Ardderchog</item>
-    </string-array>
-    <string-array name="data_usage_data_range">
-        <item>Y 30 diwrnod diwethaf</item>
-        <item>Gosod cyfnod defnydd...</item>
-    </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>Amser defnydd</item>
-        <item>Defnyddiwyd ddiwethaf</item>
-        <item>Enw\'r ap</item>
-    </string-array>
-    <string-array name="wifi_eap_entries">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>MSCHAPV2</item>
@@ -209,18 +150,6 @@
         <item translatable="false">SPN</item>
         <item translatable="false">IMSI</item>
         <item translatable="false">GID</item>
-    </string-array>
-    <string-array name="app_install_location_entries">
-        <item>Storfa fewnol y ddyfais</item>
-        <item>Cerdyn SD gellir ei dynnu allan</item>
-        <item>Gadael i\'r system benderfynu</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>Lleoliad</item>
-        <item>Personol</item>
-        <item>Negesu</item>
-        <item>Cyfryngau</item>
-        <item>Dyfais</item>
     </string-array>
     <string-array name="app_ops_summaries">
         <item>lleoliad bras</item>
@@ -418,17 +347,6 @@
         <item>lleihaf</item>
         <item>maỽr</item>
     </string-array>
-    <string-array name="vpn_types_long">
-        <item>PPTP VPN</item>
-        <item>L2TP/IPSec VPN gydag allweddau a rennir ymlaen llaw</item>
-        <item>L2TP/IPSec VPN gyda thystysgrifau</item>
-        <item>VPN IPSec gydag allweddau a rannwyd ymlaen llaw a dilysiad Xauth</item>
-        <item>VPN IPSec gyda thystysgrifau a dilysiad Xauth</item>
-        <item>VPN IPSec gyda thystysgrifau a dilysiad hybrid</item>
-        <item>VPN IKEv2/IPSec gyda thystysgrifau a dilysiad enw defnyddiwr/cyfrinair</item>
-        <item>VPN IKEv2/IPSec gydag allweddau wedi\'u rhannu ymlaen llaw</item>
-        <item>VPN IKEv2/IPSec gyda thystysgrifau</item>
-    </string-array>
     <string-array name="vpn_proxy_settings">
         <item>Dim</item>
         <item>Â llaw</item>
@@ -452,28 +370,6 @@
         <item>Isel</item>
         <item>Critigol</item>
         <item>\?</item>
-    </string-array>
-    <string-array name="proc_stats_memory_states">
-        <item>Arferol</item>
-        <item>Cymedrol</item>
-        <item>Isel</item>
-        <item>Critigol</item>
-    </string-array>
-    <string-array name="proc_stats_process_states">
-        <item>Parhaus</item>
-        <item>Gweithred uchaf</item>
-        <item>Pwysig (blaendir)</item>
-        <item>Pwysig (cefndir)</item>
-        <item>Copi wrth gefn</item>
-        <item>Defnydd trwm</item>
-        <item>Gwasanaeth (yn rhedeg)</item>
-        <item>Gwasanaeth (ailgychwyn)</item>
-        <item>Derbynnydd</item>
-        <item>Cartref</item>
-        <item>Gweithgaredd diwethaf</item>
-        <item>Yn y cof dros dro (gweithgarwch)</item>
-        <item>Yn y cof dros dro (cleient gweithgarwch)</item>
-        <item>Cuddstoriwyd (gwag)</item>
     </string-array>
     <string-array name="color_picker">
         <item>Gwyrddlas</item>
@@ -508,10 +404,6 @@
     <string-array name="wifi_hidden_entries">
         <item>Na</item>
         <item>Iawn</item>
-    </string-array>
-    <string-array name="dark_ui_mode_entries">
-        <item>Tywyll</item>
-        <item>Golau</item>
     </string-array>
     <string-array name="autofill_logging_level_entries">
         <item>I ffwrdd</item>
@@ -566,11 +458,6 @@
         <item>@string/enhanced_4g_lte_mode_title</item>
         <item>@string/enhanced_4g_lte_mode_title_advanced_calling</item>
         <item>@string/enhanced_4g_lte_mode_title_4g_calling</item>
-    </string-array>
-    <string-array name="enhanced_4g_lte_mode_sumary_variant">
-        <item>@string/enhanced_4g_lte_mode_summary</item>
-        <item>@string/enhanced_4g_lte_mode_summary</item>
-        <item>@string/enhanced_4g_lte_mode_summary_4g_calling</item>
     </string-array>
     <string-array name="rtt_setting_mode">
         <item/>

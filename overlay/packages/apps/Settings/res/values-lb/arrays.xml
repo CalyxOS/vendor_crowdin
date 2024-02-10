@@ -18,26 +18,7 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="timezone_filters">
-        <item>Amerika</item>
-        <item>Europa</item>
-        <item>Afrika</item>
-        <item>Asien</item>
-        <item>Australien</item>
-        <item>Pazifik</item>
-        <item>All</item>
-    </string-array>
     <string-array name="screen_timeout_entries">
-        <item>15 Sekonnen</item>
-        <item>30 Sekonnen</item>
-        <item>1 Minutt</item>
-        <item>2 Minutten</item>
-        <item>5 Minutten</item>
-        <item>10 Minutten</item>
-        <item>30 Minutten</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>Ni</item>
         <item>15 Sekonnen</item>
         <item>30 Sekonnen</item>
         <item>1 Minutt</item>
@@ -71,25 +52,6 @@
         <item>Blockéiert</item>
         <item>Schlecht Internetconnectioun gëtt temporär ignoréiert</item>
     </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item/>
-        <item>Scan leeft\u2026</item>
-        <item>Connectioun mat <xliff:g id="network_name">%1$s</xliff:g> gëtt hiergestallt\u2026</item>
-        <item>Authentifizéierung mat <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>IP-Adress gëtt fir <xliff:g id="network_name">%1$s</xliff:g> ofgeruff\u2026</item>
-        <item>Connectéiert mat <xliff:g id="network_name">%1$s</xliff:g></item>
-        <item>Ugehalen</item>
-        <item>Connectioun mat <xliff:g id="network_name">%1$s</xliff:g> gëtt getrennt\u2026</item>
-        <item>Deconnectéiert</item>
-        <item>Net erfollegräich</item>
-        <item>Blockéiert</item>
-        <item>Schlecht Internetconnectioun gëtt temporär ignoréiert</item>
-    </string-array>
-    <string-array name="wifi_p2p_wps_setup">
-        <item>Push-Knäppchen</item>
-        <item>PIN vum associéierten Apparat</item>
-        <item>PIN vun dësem Apparat</item>
-    </string-array>
     <string-array name="wifi_p2p_status">
         <item>Verbonnen</item>
         <item>Invitéiert</item>
@@ -97,33 +59,12 @@
         <item>Disponibel</item>
         <item>Ausser Reechwäit</item>
     </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 Minutten</item>
-        <item>5 Minutten</item>
-        <item>1 Stonn</item>
-        <item>Keen Timeout</item>
-    </string-array>
     <string-array name="wifi_signal">
         <item>Schwaach</item>
         <item>Schwaach</item>
         <item>Mëttel</item>
         <item>Gutt</item>
         <item>Exzellent</item>
-    </string-array>
-    <string-array name="data_usage_data_range">
-        <item>Lescht 30 Deeg</item>
-        <item>Benotzungszyklus definéieren...</item>
-    </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>Benotzungszäit</item>
-        <item>Fir d\'lescht benotzt</item>
-        <item>App-Numm</item>
-    </string-array>
-    <string-array name="wifi_eap_entries">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries_with_sim_auth">
         <item translatable="false">MSCHAPV2</item>
@@ -182,18 +123,6 @@
         <item translatable="false">SPN</item>
         <item translatable="false">IMSI</item>
         <item translatable="false">GID</item>
-    </string-array>
-    <string-array name="app_install_location_entries">
-        <item>Interne Späicher</item>
-        <item>Austauschbar SD-Kaart</item>
-        <item>De System auswiele loossen</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>Standuert</item>
-        <item>Perséinlech</item>
-        <item>Messagen</item>
-        <item>Medien</item>
-        <item>Apparat</item>
     </string-array>
     <string-array name="app_ops_summaries">
         <item>ongeféiere Standuert</item>
@@ -383,17 +312,6 @@
         <item>Kleng</item>
         <item>Grouss</item>
     </string-array>
-    <string-array name="vpn_types_long">
-        <item>PPTP VPN</item>
-        <item>L2TP-/IPSec-VPN mat virinstalléierte Schlësselen</item>
-        <item>L2TP-/IPSec-VPN mat Zertifikaten</item>
-        <item>IPSec-VPN mat virinstalléierte Schlësselen an Xauth-Authentifizéierung</item>
-        <item>IPSec-VPN mat Zertifikaten an Xauth-Authentifizéierung</item>
-        <item>IPSec-VPN mat Zertifikaten an Hybrid-Authentifizéierung</item>
-        <item>IKEv2/IPSec VPN with certificates and username/password authentication</item>
-        <item>IKEv2/IPSec VPN with pre-shared keys</item>
-        <item>IKEv2/IPSec VPN with certificates</item>
-    </string-array>
     <string-array name="vpn_proxy_settings">
         <item>None</item>
         <item>Manuell</item>
@@ -417,28 +335,6 @@
         <item>Niddreg</item>
         <item>Kritesch</item>
         <item>\?</item>
-    </string-array>
-    <string-array name="proc_stats_memory_states">
-        <item>Normal</item>
-        <item>Moderat</item>
-        <item>Niddreg</item>
-        <item>Kritesch</item>
-    </string-array>
-    <string-array name="proc_stats_process_states">
-        <item>Persistent</item>
-        <item>Topaktivitéit</item>
-        <item>Wichteg (Virdergrond)</item>
-        <item>Important (Hannergrond)</item>
-        <item>Sécherung</item>
-        <item>Héich Auslaaschtung</item>
-        <item>Service (leeft)</item>
-        <item>Service (gëtt nei gestart)</item>
-        <item>Empfänger</item>
-        <item>Doheem</item>
-        <item>Lescht Aktivitéit</item>
-        <item>Tëschegespäichert (Aktivitéit)</item>
-        <item>Tëschegespäichert (Aktivitéitsclient)</item>
-        <item>Tëschegespäichert (eidel)</item>
     </string-array>
     <string-array name="color_picker">
         <item>Cyan</item>

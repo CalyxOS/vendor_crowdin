@@ -41,15 +41,13 @@
     <string name="wifi_debugging_always">Permite semper in custa rete</string>
     <string name="wifi_debugging_allow">Permite</string>
     <string name="wifi_debugging_secondary_user_title">Curretzione de errores wireless non permìtida</string>
-    <string name="wifi_debugging_secondary_user_message">S\'utèntzia registrada immoe in custu dispositivu non podet ativare sa curretzione de errores wireless. Pro impreare custa funtzione, càmbia a s\'utèntzia primària.</string>
     <string name="remote_input_image_insertion_text">at imbiadu un\'immàgine</string>
     <string name="screenshot_saving_title">Sarvende s\'istantànea\u2026</string>
     <string name="screenshot_dismiss_description">Iscarta sa catura de ischermu</string>
     <string name="screenshot_preview_description">Previsualizatzione de sa catura de ischermu</string>
-    <string name="screenrecord_name">Registratzione de s\'ischermu</string>
+    <string name="screenrecord_title">Registratzione de s\'ischermu</string>
     <string name="screenrecord_background_processing_label">Esecutende sa registratzione de s\'ischermu</string>
-    <string name="screenrecord_start_label">Boles cumintzare sa registratzione?</string>
-    <string name="screenrecord_description">Durante sa registratzione, Android System podet caturare cale si siat informatzione sensìbile chi siat visìbile in s\'ischermu o reproduida in su dispositivu. Custu includet craes, informatziones de pagamentu, fotografias, messàgios e àudio.</string>
+    <string name="screenrecord_permission_dialog_title">Boles cumintzare sa registratzione?</string>
     <string name="screenrecord_audio_label">Registra àudio</string>
     <string name="screenrecord_device_audio_label">Àudio de su dispositivu</string>
     <string name="screenrecord_device_audio_description">Sonu dae su dispositivu, comente mùsica, mutidas e tonos</string>
@@ -59,6 +57,7 @@
     <string name="screenrecord_ongoing_screen_and_audio">Registratzione de s\'ischermu e de s\'àudio</string>
     <string name="screenrecord_taps_label">Ammustra is tocos in s\'ischermu</string>
     <string name="screenrecord_start_error">Errore in s\'aviada de sa registratzione de s\'ischermu</string>
+    <string name="immersive_cling_positive">AB</string>
     <string name="accessibility_back">In segus</string>
     <string name="accessibility_home">Pàgina printzipale</string>
     <string name="accessibility_menu">Menù</string>
@@ -87,6 +86,7 @@
     <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Si pones un\'ischema isballiadu a su tentativu imbeniente, su profilu de traballu e is datos ant a èssere cantzellados dae su dispositivu.</string>
     <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Si pones unu PIN isballiadu a su tentativu imbeniente, su profilu de traballu e is datos ant a èssere cantzellados dae su dispositivu.</string>
     <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Si pones una crae isballiada a su tentativu imbeniente, su profilu de traballu e is datos s\'ant a cantzellare dae su dispositivu.</string>
+    <string name="biometric_re_enroll_dialog_confirm">Imposta</string>
     <string name="accessibility_bluetooth_connected">Bluetooth collegadu.</string>
     <string name="accessibility_battery_unknown">Càrriga de sa bateria disconnota.</string>
     <string name="accessibility_bluetooth_name">Collegadu a <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g>.</string>
@@ -162,10 +162,10 @@
     <string name="guest_wipe_session_wipe">Torra a cumintzare</string>
     <string name="guest_wipe_session_dontwipe">Eja, sighi</string>
     <string name="user_remove_user_remove">Boga</string>
-    <string name="media_projection_dialog_text"><xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> at a tènnere atzessu a totu is informatziones chi sunt visìbiles in s\'ischermu o reproduidas dae su dispositivu durante sa registratzione o sa trasmissione. Custu includet informatziones comente crae, detàllios de pagamentos, messàgios e àudio chi reprodues.</string>
-    <string name="media_projection_dialog_service_text">Su servìtziu chi frunit custa funtzione at a tènnere atzessu a totu is informatziones chi sunt visìbiles in s\'ischermu o reproduidas dae su dispositivu durante sa registratzione o sa trasmissione. Custu includit informatziones comente crae, detàllios de pagamentos, messàgios e àudio chi reprodues.</string>
-    <string name="media_projection_dialog_service_title">Boles aviare sa registratzione o sa trasmissione?</string>
     <string name="media_projection_dialog_title">Boles aviare sa registratzione o sa trasmissione cun <xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g>?</string>
+    <string name="media_projection_dialog_warning"><xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> at a tènnere atzessu a totu is informatziones chi sunt visìbiles in s\'ischermu o reproduidas dae su dispositivu durante sa registratzione o sa trasmissione. Custu includet informatziones comente crae, detàllios de pagamentos, messàgios e àudio chi reprodues.</string>
+    <string name="media_projection_sys_service_dialog_title">Boles aviare sa registratzione o sa trasmissione?</string>
+    <string name="media_projection_sys_service_dialog_warning">Su servìtziu chi frunit custa funtzione at a tènnere atzessu a totu is informatziones chi sunt visìbiles in s\'ischermu o reproduidas dae su dispositivu durante sa registratzione o sa trasmissione. Custu includit informatziones comente crae, detàllios de pagamentos, messàgios e àudio chi reprodues.</string>
     <string name="clear_all_notifications_text">Cantzella·nche totu</string>
     <string name="manage_notifications_history_text">Cronologia</string>
     <string name="notification_section_header_incoming">Nou</string>
@@ -233,6 +233,8 @@
     <string name="slice_permission_allow">Permite</string>
     <string name="slice_permission_deny">Nega</string>
     <string name="no_auto_saver_action">No, gràtzias</string>
+    <string name="accessibility_magnification_done">Fatu</string>
+    <string name="accessibility_floating_button_action_remove_menu">Boga</string>
     <string name="controls_dialog_remove">Boga</string>
     <string name="controls_settings_dialog_neutral_button">No, gràtzias</string>
     <string name="controls_media_dismiss_button">Cua</string>
@@ -242,5 +244,7 @@
     <string name="qs_tile_request_dialog_add">Agiunghe casella</string>
     <string name="clipboard_edit_text_done">Fatu</string>
     <string name="rear_display_bottom_sheet_cancel">Annulla</string>
-    <string name="call_from_work_profile_close">Serra</string>
+    <string name="call_from_work_profile_close">Annulla</string>
+    <string name="privacy_dialog_done_button">Fatu</string>
+    <string name="privacy_dialog_collapse_action">Cuntrae</string>
 </resources>

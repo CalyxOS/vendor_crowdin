@@ -19,12 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="byteShort">B</string>
-    <string name="kilobyteShort">kB</string>
-    <string name="megabyteShort">MB</string>
-    <string name="gigabyteShort">GB</string>
-    <string name="terabyteShort">TB</string>
-    <string name="petabyteShort">PB</string>
-    <string name="fileSizeSuffix"><xliff:g id="number" example="123">%1$s</xliff:g> <xliff:g id="unit" example="MB">%2$s</xliff:g></string>
     <string name="untitled">&lt;Di-deitl&gt;</string>
     <string name="emptyPhoneNumber">(Dim rhif ffôn)</string>
     <string name="unknownName">Anhysbys</string>
@@ -46,9 +40,7 @@
     <string name="mismatchPin">Dyw\'r PINau ddim yr un fath.</string>
     <string name="invalidPin">Rho rif PIN rhwng 4 ac 8 digid.</string>
     <string name="invalidPuk">Rho PUK sy\'n 8 digid neu hirach.</string>
-    <string name="needPuk">Mae dy gerdyn SIM wedi\'i gloi gyda PUK. Rho\'r cod PUK i\'w ddatgloi.</string>
-    <string name="needPuk2">Rho PUK2 i ddad-rwystro dy gerdyn SIM.</string>
-    <string name="enablePin">Anlwyddiannus. Galluoga Clo SIM/RUIM.</string>
+    <string name="enablePin">Aflwyddiannus. Galluoga Clo SIM/RUIM.</string>
     <plurals name="pinpuk_attempts">
         <item quantity="zero">Mae gennyt <xliff:g id="number">%d</xliff:g> ceisiadau yn weddill cyn i\'r SIM cael ei gloi.</item>
         <item quantity="one">Mae gennyt <xliff:g id="number">%d</xliff:g> cais yn weddill cyn i\'r SIM cael ei gloi.</item>
@@ -283,7 +275,6 @@ Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.<
     <string name="global_action_lockdown">Cloi lawr</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="notification_hidden_text">Hysbysiad newydd</string>
-    <string name="notification_channel_virtual_keyboard">Bysellfwrdd rhithwir</string>
     <string name="notification_channel_physical_keyboard">Bysellfwrdd corfforol</string>
     <string name="notification_channel_security">Diogelwch</string>
     <string name="notification_channel_car_mode">Modd car</string>
@@ -485,7 +476,6 @@ ar y gweill ar dy ddyfais ac i reoli\'r galwadau hyn.</string>
     <string name="permdesc_vibrate">Mae\'n caniatáu yr ap i reoli\'r dirgrynydd.</string>
     <string name="permdesc_vibrator_state">Mae\'n caniatáu yr ap i gael mynediad at statws y dirgrynydd.</string>
     <string name="permlab_callPhone">galw rhifau ffôn yn uniongyrchol</string>
-    <string name="permdesc_callPhone">Mae\'n caniatáu yr ap i alw rhifau ffôn heb dy ymyrraeth. Gall hyn arwain at gostau galwadau annisgwyl. Noder nad yw hyn yn caniatáu yr ap i wneud galwadau brys. Gall apiau maleisus gostio arian i ti gan wneud galwadau heb dy gadarnhad.</string>
     <string name="permlab_accessImsCallService">cyrchu gwasanaeth galwadau IMS</string>
     <string name="permdesc_accessImsCallService">Mae\'n caniatáu yr ap i ddefnyddio\'r gwasanaeth IMS i wneud galwadau heb dy ymyrraeth.</string>
     <string name="permlab_readPhoneState">darllen statws a hunaniaeth y ffôn</string>
@@ -645,11 +635,7 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="face_recalibrate_notification_name">Datgloi ag Wyneb</string>
     <string name="face_recalibrate_notification_title">Problem gyda Datgloi ag Wyneb</string>
     <string name="face_recalibrate_notification_content">Tapia i ddileu model dy wyneb, yna ychwanegu dy wyneb eto</string>
-    <string name="face_setup_notification_title">Gosod Datgloi ag Wyneb</string>
-    <string name="face_setup_notification_content">Datglo dy ffôn wrth edrych arno</string>
     <string name="face_sensor_privacy_enabled">I ddefnydio Datgloi ag Wyneb, tro <b>mynediad at y Camera</b> ymlaen yn Gosodiadau &gt; Preifatrwydd</string>
-    <string name="fingerprint_setup_notification_title">Gosod mwy o ffyrdd i ddatgloi</string>
-    <string name="fingerprint_setup_notification_content">Tapia i ychwanegu ôl bys</string>
     <string name="fingerprint_recalibrate_notification_name">Datgloi ag Ôl Bys</string>
     <string name="fingerprint_recalibrate_notification_title">Methu defnyddio synhwyrydd ôl bys</string>
     <string name="fingerprint_recalibrate_notification_content">Ceisiwch gyngor rhywun sy\'n trwsio dyfeisiau.</string>
@@ -683,7 +669,6 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="face_error_canceled">Diddymwyd y weithred wyneb.</string>
     <string name="face_error_user_canceled">Diddymwyd Datgloi ag Wyneb gan ddefnyddiwr</string>
     <string name="face_error_lockout">Gormod o ymdrechion. Rho gynnig arall arni\'n hwyrach.</string>
-    <string name="face_error_lockout_permanent">Gormod o gynigion anghywir. Wedi analluogi Datgloi ag Wyneb.</string>
     <string name="face_error_lockout_screen_lock">Gormod o ymdrechion aflwyddiannus. Rho sgrin cloi yn lle.</string>
     <string name="face_error_unable_to_process">Methu â dilysu\u2019r wyneb. Rho gynnig arall arni.</string>
     <string name="face_error_not_enrolled">Nid wyt wedi gosod Datgloi ag Wyneb</string>
@@ -939,15 +924,6 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="lockscreen_password_wrong">Ceisia Eto</string>
     <string name="lockscreen_storage_locked">Datgloi ar gyfer pob nodwedd a data</string>
     <string name="faceunlock_multiple_failures">Wedi gwneud cynifer o ymdrechion Datgloi Wyneb a chaniateir</string>
-    <string name="lockscreen_missing_sim_message_short">Dim cerdyn SIM</string>
-    <string name="lockscreen_missing_sim_message" product="tablet">Dim cerdyn SIM yn y llechen.</string>
-    <string name="lockscreen_missing_sim_message" product="tv">Dim cerdyn SIM yn dy ddyfais Android TV.</string>
-    <string name="lockscreen_missing_sim_message" product="default">Dim cerdyn SIM yn y ffôn.</string>
-    <string name="lockscreen_missing_sim_instructions">Gosoda gerdyn SIM.</string>
-    <string name="lockscreen_missing_sim_instructions_long">Mae\'r cerdyn SIM ar goll neu yn ddim yn ddarllenadwy. Rho gerdyn SIM darllenadwy.</string>
-    <string name="lockscreen_permanent_disabled_sim_message_short">Dim posib defnyddio\'r SIM.</string>
-    <string name="lockscreen_permanent_disabled_sim_instructions">Mae dy gerdyn SIM wedi ei analluogi yn barhaol.\n
-Cysyllta â dy ddarparwr gwasanaeth ffôn i gael cerdyn SIM arall.</string>
     <string name="lockscreen_transport_prev_description">Trac blaenorol</string>
     <string name="lockscreen_transport_next_description">Trac nesaf</string>
     <string name="lockscreen_transport_pause_description">Saib</string>
@@ -957,10 +933,7 @@ Cysyllta â dy ddarparwr gwasanaeth ffôn i gael cerdyn SIM arall.</string>
     <string name="lockscreen_transport_ffw_description">Ymlaen yn gyflym</string>
     <string name="emergency_calls_only" msgid="2485604591272668370">Galwadau brys yn unig</string>
     <string name="lockscreen_network_locked_message">Rhwydwaith wedi\'i gloi</string>
-    <string name="lockscreen_sim_puk_locked_message">Mae\'r cerdyn SIM wedi\'i gloi â PUK.</string>
     <string name="lockscreen_sim_puk_locked_instructions">Gweler y Canllaw Defnyddiwr neu cysylltu â Gofal Cwsmeriaid.</string>
-    <string name="lockscreen_sim_locked_message">Mae\'r cerdyn SIM wedi\'i gloi.</string>
-    <string name="lockscreen_sim_unlock_progress_dialog_message">Yn datgloi cerdyn SIM\u2026</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message">        Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
@@ -1049,67 +1022,12 @@ Bydd y ffôn nawr yn cael ei ailosod nôl i fel yr oedd yn gadael y ffatri.    <
     <string name="js_dialog_before_unload_positive_button">Gadael y Dudalen Hon</string>
     <string name="js_dialog_before_unload_negative_button">Aros ar y Dudalen Hon</string>
     <string name="js_dialog_before_unload"><xliff:g id="message">%s</xliff:g>\n\nWyt ti\'n bendant eisiau gadael y dudalen hon?</string>
-    <string name="save_password_label">Cadarnhau</string>
-    <string name="double_tap_toast">Awgrym: Tariad dwbl i chwyddo mewn ac allan.</string>
-    <string name="autofill_this_form">Awtolenwi</string>
-    <string name="setup_autofill">Gosod Awtolenwi</string>
     <string name="autofill_window_title">Awtolenwi gyda <xliff:g id="serviceName" example="MyPass">%1$s</xliff:g></string>
-    <string name="autofill_address_name_separator">\u0020</string>
-    <string name="autofill_address_summary_name_format">$1$2$3</string>
-    <string name="autofill_address_summary_separator">,\u0020</string>
-    <string name="autofill_address_summary_format">$1$2$3</string>
-    <string name="autofill_shipping_designator_re">llong</string>
-    <string name="autofill_area_code_re">area.*code|acode|area</string>
-    <string name="autofill_phone_prefix_re">prefix</string>
-    <string name="autofill_phone_suffix_re">ôl-ddodiad</string>
-    <string name="autofill_phone_extension_re">ext</string>
-    <string name="autofill_name_on_card_re">card.?holder|name.?on.?card|ccname|owner</string>
-    <string name="autofill_name_on_card_contextual_re">enw</string>
-    <string name="autofill_card_cvc_re">verification|card identification|cvn|security code|cvv code|cvc</string>
-    <string name="autofill_card_number_re">number|card.?#|card.?no|ccnum</string>
-    <string name="autofill_expiration_month_re">expir|exp.*month|exp.*date|ccmonth</string>
-    <string name="autofill_expiration_date_re">exp|^/|year</string>
-    <string name="autofill_card_ignored_re">^card</string>
-    <string name="autofill_fax_re">fax</string>
-    <string name="autofill_country_code_re">country.*code|ccode|_cc</string>
-    <string name="autofill_area_code_notext_re">^\\($</string>
-    <string name="autofill_phone_prefix_separator_re">^-$|^\\)$</string>
-    <string name="autofill_phone_suffix_separator_re">^-$</string>
-    <string name="autofill_province">Talaith</string>
-    <string name="autofill_postal_code">Cod Post</string>
-    <string name="autofill_state">Sir/Talaith</string>
-    <string name="autofill_zip_code">Cod post</string>
-    <string name="autofill_county">Sir</string>
-    <string name="autofill_island">Ynys</string>
-    <string name="autofill_district">Dosbarth</string>
-    <string name="autofill_department">Adran</string>
-    <string name="autofill_prefecture">Rhaglawiaeth</string>
-    <string name="autofill_parish">Plwyf</string>
-    <string name="autofill_area">Ardal</string>
-    <string name="autofill_emirate">Emiraeth</string>
-    <string name="permlab_readHistoryBookmarks">darllen dy hanes a nodau tudalennau gwefannau</string>
-    <string name="permdesc_readHistoryBookmarks">Mae\'n caniatáu yr ap i ddarllen hanes pob URL mae\'r Porwr wedi ymweld â nhw a holl lyfrnodau\'r Porwr. Noder: Ni all y caniatâd hwn cael ei orfodi gan borwyr trydydd parti na chwaith gan apiau gyda\'r gallu i bori\'r we.</string>
-    <string name="permlab_writeHistoryBookmarks">ysgrifennu hanes a nodau tudalennau gwefannau</string>
-    <string name="permdesc_writeHistoryBookmarks" product="tablet">Mae\'n caniatáu yr ap i addasu hanes neu lyfrnodau porwr dy lechen. Gall hyn ganiatáu i\'r ap ddileu data\'r porwr. Noder: Gall y caniatâd hwn dim cael ei gorfodi gan borwyr trydydd parti neu apiau eraill gyda\'r gallu i bori\'r we.</string>
-    <string name="permdesc_writeHistoryBookmarks" product="tv">Mae\'n caniatáu yr ap i addasu hanes neu lyfrnodau porwr syn cael eu cadw ar dy ddyfais Android TV. Gall hyn ganiatáu i\'r ap ddileu data\'r porwr. Noder: efallai na fydd y caniatâd hwn yn cael ei gorfodi gan borwyr trydydd parti neu apiau eraill gyda\'r gallu i bori\'r we.</string>
-    <string name="permdesc_writeHistoryBookmarks" product="default">Mae\'n caniatáu yr ap i addasu hanes neu lyfrnodau porwr dy ffôn. Gall hyn ganiatáu i\'r ap ddileu data\'r porwr. Noder: Gall y caniatâd hwn dim cael ei gorfodi gan borwyr trydydd parti neu apiau eraill gyda\'r gallu i bori\'r we.</string>
     <string name="permlab_setAlarm">gosod larwm</string>
     <string name="permdesc_setAlarm">Mae\'n caniatáu yr ap i osod larwm mewn ap cloc larwm sydd wedi\'i osod. Mae\'n debyg nad yw pob ap cloc larwm yn cefnogi hyn.</string>
     <string name="permlab_addVoicemail">ychwanegu lleisbost</string>
     <string name="permdesc_addVoicemail">Mae\'n caniatáu yr ap i ychwanegu negeseuon i dy flwch lleisbost.</string>
-    <string name="permlab_writeGeolocationPermissions">addasu caniatâd geoleoliad Porwr</string>
-    <string name="permdesc_writeGeolocationPermissions">Mae\'n caniatáu yr ap i addasu caniatâd daearleoliad y Porwr. Mae\'n bosib i apiau maleisus defnyddio hyn i anfon gwybodaeth lleoliad at wefannau amheus.</string>
-    <string name="save_password_message">Wyt ti am i\'r porwr gofio\'r cyfrinair hwn?</string>
-    <string name="save_password_notnow">Dim nawr</string>
-    <string name="save_password_remember">Cofio</string>
-    <string name="save_password_never">Byth</string>
-    <string name="open_permission_deny">Nid oes gennyt ganiatâd i agor y dudalen hon.</string>
-    <string name="text_copied">Copïwyd y testun i\'r clipfwrdd.</string>
-    <string name="pasted_from_app">Gludoddd <xliff:g id="pasting_app_name" example="Gmail">%1$s</xliff:g> o <xliff:g id="source_app_name" example="Chrome">%2$s</xliff:g></string>
     <string name="pasted_from_clipboard">Gludodd <xliff:g id="pasting_app_name" example="Gmail">%1$s</xliff:g> o\'r clipfwrdd</string>
-    <string name="pasted_text">Gludodd <xliff:g id="pasting_app_name" example="Gmail">%1$s</xliff:g> testun bu i ti ei gopïo</string>
-    <string name="pasted_image">Gludodd &lt;xliff:g id="pasting_app_name" example="Gmail"&gt; delwedd bu i ti ei chopïo.</string>
-    <string name="pasted_content">Gludodd <xliff:g id="pasting_app_name" example="Gmail">%1$s</xliff:g> cynnwys bu i ti ei gopïo</string>
     <string name="more_item_label">Mwy</string>
     <string name="prepend_shortcut_label">Dewislen+</string>
     <string name="menu_meta_shortcut_label">Meta+</string>
@@ -1361,10 +1279,8 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="android_start_title" product="automotive">Mae Android yn cychwyn\u2026</string>
     <string name="android_start_title" product="tablet">Mae\'r llechen yn cychwyn\u2026</string>
     <string name="android_start_title" product="device">Mae\'r ddyfais yn cychwyn\u2026</string>
-    <string name="android_upgrading_fstrim">Yn optimeiddio storfa...</string>
     <string name="android_upgrading_notification_title" product="default">Yn cwblhau diweddariad system\u2026</string>
     <string name="app_upgrading_toast">Mae <xliff:g id="application">%1$s </xliff:g>yn uwchraddio\u2026</string>
-    <string name="android_upgrading_apk">Yn optimeiddio ap <xliff:g id="number" example="123">%1$d</xliff:g> o <xliff:g id="number" example="123">%2$d</xliff:g>.</string>
     <string name="android_preparing_apk">Yn paratoi <xliff:g id="appname">%1$s</xliff:g>...</string>
     <string name="android_upgrading_starting_apps">Yn cychwyn apiau...</string>
     <string name="android_upgrading_complete">Yn cwblhau pethau...</string>
@@ -1448,10 +1364,7 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="sms_short_code_remember_undo_instruction">Gellir newid hyn hwyrach yn Gosodiadau\u00A0&gt;\u00A0Apiau</string>
     <string name="sms_short_code_confirm_always_allow">Caniatáu Bob Tro</string>
     <string name="sms_short_code_confirm_never_allow">Caniatáu Byth</string>
-    <string name="sim_removed_title">Tynnwyd y cerdyn SIM</string>
-    <string name="sim_removed_message">Ni fydd y rhwydwaith symudol ar gael nes dy fod yn ailgychwyn gyda cherdyn SIM dilys wedi ei osod.</string>
     <string name="sim_done_button">Iawn</string>
-    <string name="sim_added_title">Ychwanegwyd cerdyn SIM</string>
     <string name="sim_added_message">Ailgychwyna dy ddyfais i gael mynediad at y rhwydwaith symudol.</string>
     <string name="sim_restart_button">Ailgychwyn</string>
     <string name="install_carrier_app_notification_title">Actifadu gwasanaeth symudol</string>
@@ -1504,8 +1417,6 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="decline_remote_bugreport_action">GWRTHOD</string>
     <string name="select_input_method">Dewis dull mewnbwn</string>
     <string name="show_ime">Ei gadw ar y sgrin tra bod y bysellfwrdd corfforol yn weithredol</string>
-    <string name="hardware">Dangos bysellfwrdd rhithwir</string>
-    <string name="select_keyboard_layout_notification_title">Ffurfweddu bysellfwrdd corfforol</string>
     <string name="select_keyboard_layout_notification_message">Tapia i ddewis iaith a gosodiad</string>
     <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="fast_scroll_numeric_alphabet">\u00200123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
@@ -1739,7 +1650,6 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="default_audio_route_name" product="tv">Teledu</string>
     <string name="default_audio_route_name" product="default">Ffôn</string>
     <string name="default_audio_route_name_dock_speakers">Seinyddion doc</string>
-    <string name="default_audio_route_name_hdmi">HDMI</string>
     <string name="default_audio_route_name_headphones">Clustffonau</string>
     <string name="default_audio_route_name_usb">USB</string>
     <string name="default_audio_route_category_name">System</string>
@@ -1772,7 +1682,6 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="kg_puk_enter_puk_hint">Mae\'r SIM bellach wedi\'i analluogi. Rho god PUK i barhau. Cysyllta â dy ddarparwr gwasanaeth am fanylion.</string>
     <string name="kg_puk_enter_pin_hint">Rho\'r cod PIN newydd</string>
     <string name="kg_enter_confirm_pin_hint">Cadarnha\'r cod PIN newydd</string>
-    <string name="kg_sim_unlock_progress_dialog_message">Yn datgloi\'r cerdyn SIM\u2026</string>
     <string name="kg_password_wrong_pin_code">Cod PIN anghywir</string>
     <string name="kg_invalid_sim_pin_hint">Rho rif PIN rhwng 4 ac 8 digid.</string>
     <string name="kg_invalid_sim_puk_hint">Rhaid i\'r cod PUK fod yn 8 digid.</string>
@@ -1842,13 +1751,10 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="done_accessibility_shortcut_menu_button">Iawn</string>
     <string name="disable_accessibility_shortcut">Troi\'r llwybr byr i ffwrdd</string>
     <string name="leave_accessibility_shortcut_on">Defnyddio Llwybr Byr</string>
-    <string name="color_inversion_feature_name">Gwrthdroad Lliwiau</string>
-    <string name="color_correction_feature_name">Cywiriad Lliw</string>
     <string name="one_handed_mode_feature_name">Modd Un-Llaw</string>
     <string name="reduce_bright_colors_feature_name">Pŵl iawn</string>
     <string name="accessibility_shortcut_enabling_service">Botymau sain wedi eu dal. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> wedi ei droi ymlaen.</string>
     <string name="accessibility_shortcut_disabling_service">Botymau sain wedi eu dal. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> wedi ei droi i ffwrdd.</string>
-    <string name="accessibility_shortcut_spoken_feedback">Gwasga a dal y ddau fotwm sain am dair eiliad i ddefnyddio <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g></string>
     <string name="accessibility_button_prompt_text">Dewisa nodwedd i\'w defnyddio pan fyddi\'n tapio\'r botwm hygyrchedd:</string>
     <string name="accessibility_gesture_prompt_text">Dewisa nodwedd i\'w defnyddio gyda\u2019r ystumiad hygyrchedd (llusgo i fyny o waelod y sgrin gyda dau fys):</string>
     <string name="accessibility_gesture_3finger_prompt_text">Dewisa nodwedd i\'w defnyddio gyda\u2019r ystumiad hygyrchedd (llusgo i fyny o waelod y sgrin gyda thri bys):</string>
@@ -1980,7 +1886,6 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="immersive_cling_description">I adael, llusga i lawr o\'r top.</string>
     <string name="immersive_cling_positive">Deall yn iawn</string>
     <string name="display_rotation_camera_compat_toast_after_rotation">Tro am olwg gwell</string>
-    <string name="display_rotation_camera_compat_toast_in_split_screen">Gad y sgrin hollt am olwg gwell</string>
     <string name="done_label">Iawn</string>
     <string name="hour_picker_description">Llithrydd cylch oriau</string>
     <string name="minute_picker_description">Llithrydd cylch munudau</string>
@@ -2141,9 +2046,7 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     </string>
     <string name="app_suspended_more_details">Dysgu mwy</string>
     <string name="app_suspended_unsuspend_message">Dad-seibio\'r ap</string>
-    <string name="work_mode_off_title">Troi apiau gwaith ymlaen?</string>
-    <string name="work_mode_off_message">Cael mynediad at dy apiau a hysbysiadau gwaith</string>
-    <string name="work_mode_turn_on">Troi ymlaen</string>
+    <string name="work_mode_emergency_call_button">Argyfwng</string>
     <string name="app_blocked_title">Ap ddim ar gael</string>
     <string name="app_blocked_message">Nid yw <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ar gael ar hyn o bryd.</string>
     <string name="app_streaming_blocked_title"><xliff:g id="activity" example="Permission dialog">%1$s</xliff:g> ddim ar gael</string>
@@ -2164,7 +2067,6 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="app_streaming_blocked_message_for_settings_dialog" product="tv">Ni ellir cael mynediad at hwn ar dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Rho gynnig ar dy ddyfais Android TV yn lle.</string>
     <string name="app_streaming_blocked_message_for_settings_dialog" product="tablet">Ni ellir cael mynediad at hwn ar dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Rho gynnig ar dy lechen yn lle.</string>
     <string name="app_streaming_blocked_message_for_settings_dialog" product="default">Ni ellir cael mynediad at hwn ar dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Rho gynnig ar dy ffôn yn lle.</string>
-    <string name="deprecated_target_sdk_message">Cafodd yr ap hwn ei adeiladu ar gyfer fersiwn gynharach o Android ac mae\'n bosib na fydd yn gweithio\'n gywir. Gwiria am ddiweddariadau neu cysylltu â\'r datblygwr.</string>
     <string name="deprecated_target_sdk_app_store">Gwirio am ddiweddariad</string>
     <string name="new_sms_notification_title">Mae gennyt negeseuon newydd</string>
     <string name="new_sms_notification_content">Agor yr ap SMS i\'w gweld</string>
@@ -2256,14 +2158,6 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="harmful_app_warning_uninstall">DADOSOD</string>
     <string name="harmful_app_warning_open_anyway">AGOR BETH BYNNAG</string>
     <string name="harmful_app_warning_title">Synhwyrwyd ap niweidiol</string>
-    <string name="log_access_confirmation_title">Caniatâu <xliff:g id="log_access_app_name" example="Example App">%s</xliff:g> i gael mynediad at holl logiau\u2019r ddyfais?</string>
-    <string name="log_access_confirmation_allow">Caniatáu mynediad un-tro</string>
-    <string name="log_access_confirmation_deny">Peidio â chaniatáu</string>
-    <string name="log_access_confirmation_body" product="default">Mae logiau\u2019r ddyfais yn cofnodi\u2019r hyn sy\u2019n digwydd ar dy ddyfais. Gall apiau ddefnyddio\u2019r logiau hyn i ganfod a thrwsio problemau.\n\nGall rhai logiau cynnwys gwybodaeth sensitif, felly rho ganiatâd dim ond i apiau rwyt yn ymddiried ynddynt.
-\n\nYn yr achos nad wyt yn caniatáu i\u2019r ap hwn gael mynediad at holl logiau\u2019r ddyfais, mi fydd dal ganddo mynediad at ei logiau ei hun. Gall gwneuthuriwr dy ddyfais dal i gael mynediad at rai logiau neu wybodaeth ar dy ddyfais.</string>
-    <string name="log_access_confirmation_body" product="tv">Mae logiau\u2019r ddyfais yn cofnodi\u2019r hyn sy\u2019n digwydd ar dy ddyfais. Gall apiau ddefnyddio\u2019r logiau hyn i ganfod a thrwsio problemau.\n\nGall rhai logiau cynnwys gwybodaeth sensitif, felly rho ganiatâd dim ond i apiau rwyt yn ymddiried ynddynt.
-\n\nYn yr achos nad wyt yn caniatáu i\u2019r ap hwn gael mynediad at holl logiau\u2019r ddyfais, mi fydd dal ganddo mynediad at ei logiau ei hun. Gall gwneuthuriwr dy ddyfais dal i gael mynediad at rai logiau neu wybodaeth ar dy ddyfais.\n\nDysga rhagor ar g.co/android/devicelogs</string>
-    <string name="log_access_do_not_show_again">Peidio â dangos eto</string>
     <string name="slices_permission_request">Mae <xliff:g id="app" example="Example App">%1$s</xliff:g> eisiau dangos sleisiau <xliff:g id="app_2" example="Other Example App">%2$s</xliff:g></string>
     <string name="screenshot_edit">Golygu</string>
     <string name="volume_dialog_ringer_guidance_vibrate">Bydd galwadau a hysbysiadau yn dirgrynu</string>
@@ -2295,8 +2189,6 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="nas_upgrade_notification_learn_more_action">Dysgu mwy</string>
     <string name="nas_upgrade_notification_learn_more_content">Mae hysbysiadau gwell yn cymryd lle \'Android Adaptive Notifications\' yn Android 12. Mae\'r nodwedd hon yn dangos gweithredoedd ac atebion, ac yn trefnu dy hysbysiadau.\n\nMae gan hysbysiadau gwell mynediad at gynnwys hysbysiadau, gan gynnwys gwybodaeth bersonol fel negeseuon ac enwau cysylltiadau. Gall y nodwedd hon hefyd anwybyddu neu ymateb i hysbysiadau, fel ateb galwadau ffôn a rheoli Dim Tarfu.</string>
     <string name="dynamic_mode_notification_channel_name">Hysbysiad gwybodaeth Modd Rheolaidd</string>
-    <string name="dynamic_mode_notification_title">Gall y batri rhedeg allan cyn gwefru arferol y batri</string>
-    <string name="dynamic_mode_notification_summary">Rhoddwyd Arbedwr Batri ar waith i ymestyn bywyd y batri</string>
     <string name="battery_saver_notification_channel_name">Arbedwr Batri</string>
     <string name="battery_saver_off_notification_title">Diffoddwyd Arbedwr Batri</string>
     <string name="battery_saver_charged_notification_summary" product="default">Mae digon o bŵer gan y batri. Dyw\'r nodweddion heb eu rhwystro mwyach.</string>
@@ -2364,12 +2256,8 @@ Rho gynnig arall arni ymhen <xliff:g id="number">%3$d</xliff:g> eiliad.    </str
     <string name="resolver_cant_access_work_apps_explanation">Ni ellir agor y cynnwys hwn gydag apiau gwaith</string>
     <string name="resolver_cant_share_with_personal_apps_explanation">Ni ellir rhannu\u2019r cynnwys hwn gydag apiau personol</string>
     <string name="resolver_cant_access_personal_apps_explanation">Ni ellir agor y cynnwys hwn gydag apiau gwaith</string>
-    <string name="resolver_turn_on_work_apps">Proffil gwaith ar saib</string>
-    <string name="resolver_switch_on_work">Tapia i droi ymlaen</string>
     <string name="resolver_no_work_apps_available">Dim apiau gwaith</string>
     <string name="resolver_no_personal_apps_available">Dim apiau personol</string>
-    <string name="miniresolver_open_in_personal">Agor <xliff:g id="app" example="YouTube">%s</xliff:g> yn dy broffil personol?</string>
-    <string name="miniresolver_open_in_work">Agor <xliff:g id="app" example="YouTube">%s</xliff:g> yn dy broffil gwaith?</string>
     <string name="miniresolver_use_personal_browser">Defnyddio porwr personol</string>
     <string name="miniresolver_use_work_browser">Defnyddio porwr gwaith</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ENTRY">PIN datgloi rhwydwaith SIM</string>
@@ -2513,4 +2401,5 @@ yn llwyddiannus.</string>
     <string name="vdm_camera_access_denied" product="tablet">Meth cael at gamera dy lechen o dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g></string>
     <string name="vdm_secure_window">Nid oes mynediad at hwn wrth ffrydio. Rho gynnig arni ar dy ffôn yn lle.</string>
     <string name="system_locale_title">Rhagosodiad y system</string>
+    <string name="device_state_notification_turn_off_button">Troi i ffwrdd</string>
 </resources>

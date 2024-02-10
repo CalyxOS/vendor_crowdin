@@ -53,6 +53,7 @@
     <string name="sound_category_title">Sun</string>
     <string name="applications_category_title">Aplicazions</string>
     <string name="device_pref_category_title">Preferencis dal dispositîf</string>
+    <string name="accessibility_category_title">Acès facilitât</string>
     <string name="remotes_and_accessories_category_title">Telecomants e acessoris</string>
     <string name="display_and_sound_category_title">Schermi e sun</string>
     <string name="help_and_feedback_category_title">Jutori e valutazions</string>
@@ -111,7 +112,6 @@
     <string name="device_backup_restore">Backup e ripristinament</string>
     <string name="device_factory_reset">Ripristinament dai dâts di fabriche</string>
     <string name="device_calibration">Calibradure</string>
-    <string name="device_energy_saver">Sparagn energjetic</string>
     <string name="device_fastpair">Dispositîfs</string>
     <string name="surround_sound_select_formats">Selezione i formâts</string>
     <string name="surround_sound_category_title">Sun surround</string>
@@ -119,7 +119,6 @@
     <string name="surround_sound_format_e_ac3">Dolby Digital Plus</string>
     <string name="surround_sound_format_dts">DTS</string>
     <string name="surround_sound_format_dts_hd">DTS-HD</string>
-    <string name="surround_sound_format_dts_uhd">DTS-UHD</string>
     <string name="surround_sound_format_dolby_mat">Dolby Atmos cun Dolby TrueHD</string>
     <string name="surround_sound_format_dolby_truehd">Dolby TrueHD</string>
     <string name="surround_sound_format_e_ac3_joc">Dolby Atmos cun Dolby Digital Plus</string>
@@ -163,11 +162,10 @@
     <string name="advanced_sound_settings_title">Impostazions avanzadis dal sun</string>
     <string name="game_mode_title">Permet modalitât zûc</string>
     <string name="match_content_frame_rate_title">Adate ae frecuence di fotograms dai contignûts</string>
-    <string name="match_content_frame_rate_seamless">Fluide</string>
     <string name="match_content_frame_rate_seamless_summary">Se la aplicazion lu domande, la jessude
         dal dispositîf e corispuindarà ae frecuence di fotograms origjinâl dai contignûts
         che tu stâs cjalant DOME se al tô TV e pues fâ une transizion fluide.  </string>
-    <string name="match_content_frame_rate_non_seamless">No fluide</string>
+    <string name="match_content_frame_rate_non_seamless">Simpri</string>
     <string name="match_content_frame_rate_non_seamless_summary">Se la aplicazion lu domande, il to
         dispositîf al cumbinarà la jessude ae frecuence di fotograms origjinâl dal contignût
         che tu stâs cjalant. L\'inviament o la interuzion de riproduzion e podarès causâ il
@@ -297,7 +295,6 @@
     <string name="system_inputs">Inputs</string>
     <string name="system_inputs_devices">Inputs e dispositîfs</string>
     <string name="system_home_theater_control">Control dal home theater</string>
-    <string name="system_accessibility">Acès facilitât</string>
     <string name="system_developer_options">Opzions pal svilupadôr</string>
     <string name="accessibility_none">Nissun</string>
     <string name="system_diagnostic">Utilizazion e diagnostiche</string>
@@ -687,10 +684,6 @@
         sposte l\'interutôr pe riservatece dal dispositîf su la posizion di fotocjamare ative.</string>
     <string name="mic_toggle_info_title">Acès al microfon:
         <xliff:g id="sensor_state" example="On">%s</xliff:g></string>
-    <string name="mic_toggle_info_content">Se cheste opzion e ven ativade, dutis lis aplicazions e i servizis autorizâts
-        a puedin acedi a ducj i microfons su chest dispositîf.\n\nLis periferichis audio cuntun
-        protocol personalizât no vignaran tocjadis di cheste impostazions.
-    </string>
     <string name="camera_toggle_info_title">Acès ae fotocjamare:
         <xliff:g id="sensor_state" example="On">%s</xliff:g></string>
     <string name="camera_toggle_info_content">Se cheste opzion e ven ativade, dutis lis aplicazions e i servizis autorizâts
@@ -720,9 +713,15 @@
     <string name="location_history_desc">Se la Cronologjie des posizions e je ative par chest account, Google al pues archiviâ i dâts de posizion dal to dispositîf par podêle doprâ tes tôs aplicazions.\n\nPar esempli, Google Maps al pues dâti indicazions e Google Now al pues informâti sul trafic.\n\nTu puedis disativâ la Cronologjie des posizions cuant che tu vûs, ma se tu lu fasis tu le eliminarâs. Par viodi e gjestî la Cronologjie des posizions, visite maps.google.com/locationhistory.</string>
     <string name="delete_location_history_title">Elimine cronologjie des posizions</string>
     <string name="delete_location_history_desc">Cheste operazion e eliminarà dute la Cronologjie des posizions archiviade di chest dispositîf par chest account Google. Nol è pussibil tornâ indaûr di cheste eliminazion. Cualchi aplicazion, includude Google Now, no funzionarà plui.</string>
-    <string name="system_services">Servizis</string>
+    <string name="accessibility_display_category_title">Schermi</string>
+    <string name="accessibility_services_category_title">Servizis</string>
     <string name="accessibility_service_settings">Impostazions servizi</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Test a contrast elevât</string>
+    <string name="palette_color_red">Ros</string>
+    <string name="palette_color_yellow">Zâl</string>
+    <string name="palette_color_green">Vert</string>
+    <string name="palette_color_cyan">Ciano</string>
+    <string name="palette_color_blue">Blu</string>
     <string name="accessibility_shortcut">Scurte di acès facilitât</string>
     <string name="accessibility_shortcut_enable">Abilite scurte di acès facilitât</string>
     <string name="accessibility_shortcut_service">Servizi de scurte</string>
@@ -1002,12 +1001,6 @@
     <string name="device_daydreams_sleep_description">Il salve-schermi al partirà dopo chest periodi di inativitât. Se nol è selezionât nissun salve-schermi, il schermi si distudarà.</string>
     <string name="device_daydreams_sleep_summary">Dopo <xliff:g id="sleep_description" example="3 minutes">%1$s</xliff:g> di inativitât</string>
     <string name="device_energy_saver_screen_off">Distude il schermi</string>
-    <string name="device_energy_saver_screen_off_description">Dopo <xliff:g id="sleep_description" example="4 hours">%1$s</xliff:g></string>
-    <string name="device_energy_saver_screen_off_dialog_title">Distude il schermi dopo</string>
-    <string name="device_energy_saver_allow_turning_screen_off">Permet la disativazion dal schermi</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description">Intant de riproduzion multimediâl</string>
-    <string name="device_energy_saver_confirmation_title">Conferme impostazion sparagn energjetic</string>
-    <string name="device_energy_saver_confirmation_text">Conferme la gnove impostazion a <xliff:g id="sleep_time" example="8 hours">%1$s</xliff:g>, che e podarès aumentâ il consum energjetic.</string>
     <string name="backup_configure_account_default_summary">In chest moment nisun account al sta memorizant i dâts dai backups</string>
     <string name="backup_erase_dialog_message">Smeti di fâ il backup des tôs passwords Wi-Fi, dai segnelibris, des altris impostazions e dai dâts di aplicazion e scancelâ dutis lis copiis sui servidôrs di Google?</string>
     <string name="privacy_backup_data">Backup dai miei dâts</string>
@@ -1174,6 +1167,6 @@
     <string name="sound_settings_title">Sun</string>
     <string name="power_and_energy">Alimentazion e energjie</string>
     <string name="power_on_behavior">Compuartament al impiament</string>
-    <string name="reset_options_title">Ristabilìs</string>
+    <string name="reset_options_title">Ripristinament</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label">Codiç di associazion ethernet</string>
 </resources>

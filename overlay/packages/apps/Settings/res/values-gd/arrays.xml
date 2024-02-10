@@ -18,26 +18,7 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="timezone_filters">
-        <item>Aimeireaga</item>
-        <item>An Roinn-Eòrpa</item>
-        <item>Afraga</item>
-        <item>Àisia</item>
-        <item>Astràilia</item>
-        <item>An Cuan Sèimh</item>
-        <item>Na h-uile</item>
-    </string-array>
     <string-array name="screen_timeout_entries">
-        <item>Às dèidh 15 diogan</item>
-        <item>Às dèidh leth-mhionaid</item>
-        <item>Às dèidh mionaid</item>
-        <item>Às dèidh 2 mhionaid</item>
-        <item>Às dèidh 5 mionaidean</item>
-        <item>Às dèidh 10 mionaidean</item>
-        <item>Às dèidh leth-uair a thìde</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>Chan ann idir</item>
         <item>Às dèidh 15 diogan</item>
         <item>Às dèidh leth-mhionaid</item>
         <item>Às dèidh mionaid</item>
@@ -82,20 +63,6 @@
         <item>Chaidh a bhacadh</item>
         <item>A’ seachnadh droch-cheangal gu sealach</item>
     </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item/>
-        <item>’Ga sganadh\u2026</item>
-        <item>A’ ceangal ri <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>A’ dearbhadh le <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>A’ faighinn seòladh IP o <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>Ceangailte ri <xliff:g id="network_name">%1$s</xliff:g></item>
-        <item>’Na dhàil</item>
-        <item>A’ briseadh a’ cheangail ri <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
-        <item>Gun cheangal</item>
-        <item>Cha deach leis</item>
-        <item>Chaidh a bhacadh</item>
-        <item>A’ seachnadh droch-cheangal gu sealach</item>
-    </string-array>
     <string-array name="wifi_tether_security">
         <item>@string/wifi_security_sae</item>
         <item>@string/wifi_security_psk_sae</item>
@@ -107,23 +74,12 @@
         <item>Iarr staid an teisteanais</item>
         <item>Iarr staid an teisteanais</item>
     </string-array>
-    <string-array name="wifi_p2p_wps_setup">
-        <item>Putan putaidh</item>
-        <item>PIN o uidheam-seise</item>
-        <item>PIN on uidheam seo</item>
-    </string-array>
     <string-array name="wifi_p2p_status">
         <item>Ceangailte</item>
         <item>Fhuaras cuireadh</item>
         <item>Cha deach leis</item>
         <item>Ri làimh</item>
         <item>Ro fhad air falbh</item>
-    </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>Às dèidh 2 mhionaid</item>
-        <item>Às dèidh 5 mionaidean</item>
-        <item>Às dèidh uair a thìde</item>
-        <item>Chan fhalbh an ùine air</item>
     </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
         <item>Cleachd bun-roghainn an t-siostaim: <xliff:g id="default_bluetooth_max_connected_audio_devices">%1$d</xliff:g></item>
@@ -139,21 +95,6 @@
         <item>Chan eil dona</item>
         <item>Math</item>
         <item>Fìor-mhath</item>
-    </string-array>
-    <string-array name="data_usage_data_range">
-        <item>Na 30 latha seo chaidh</item>
-        <item>Suidhich cuairt a’ chaitheimh…</item>
-    </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>Ùine a’ chleachdaidh</item>
-        <item>An cleachdadh mu dheireadh</item>
-        <item>Ainm na h-aplacaid</item>
-    </string-array>
-    <string-array name="wifi_eap_entries">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>MSCHAPV2</item>
@@ -209,18 +150,6 @@
         <item translatable="false">SPN</item>
         <item translatable="false">IMSI</item>
         <item translatable="false">GID</item>
-    </string-array>
-    <string-array name="app_install_location_entries">
-        <item>Stòras inntearnail an uidheim</item>
-        <item>Cairt SD so-ghiùlain</item>
-        <item>Taghadh an t-siostaim</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>Ionad</item>
-        <item>Pearsanta</item>
-        <item>Grad-theachdaireachdan</item>
-        <item>Meadhanan</item>
-        <item>Uidheam</item>
     </string-array>
     <string-array name="app_ops_summaries">
         <item>ionad neo-mhionaideach</item>
@@ -410,17 +339,6 @@
         <item>Beag</item>
         <item>Mòr</item>
     </string-array>
-    <string-array name="vpn_types_long">
-        <item>PPTP VPN</item>
-        <item>VPN L2TP/IPsec le iuchraichean co-roinnte ro làimh</item>
-        <item>VPN L2TP/IPsec le teisteanasan</item>
-        <item>VPN IPsec le iuchraichean co-roinnte ro làimh is dearbhadh Xauth</item>
-        <item>VPN IPsec le teisteanasan is dearbhadh Xauth</item>
-        <item>VPN IPsec le teisteanasan is dearbhadh measgaichte</item>
-        <item>VPN IKEv2/IPSec le teisteanasan ’s dearbhadh le ainm-cleachdaiche/facal-faire</item>
-        <item>VPN IKEv2/IPSec le iuchraichean co-roinnte ro làimh</item>
-        <item>VPN IKEv2/IPSec le teisteanasan</item>
-    </string-array>
     <string-array name="vpn_proxy_settings">
         <item>Gun chrioptachadh</item>
         <item>A làimh</item>
@@ -444,28 +362,6 @@
         <item>Ìosal</item>
         <item>Èiginneach</item>
         <item>\?</item>
-    </string-array>
-    <string-array name="proc_stats_memory_states">
-        <item>Àbhaisteach</item>
-        <item>Meadhanach</item>
-        <item>Ìosal</item>
-        <item>Èiginneach</item>
-    </string-array>
-    <string-array name="proc_stats_process_states">
-        <item>Buan</item>
-        <item>A’ gnìomhachd as motha</item>
-        <item>Cudromach (air beulaibh)</item>
-        <item>Cudromach (sa chùlaibh)</item>
-        <item>Lethbhreac-glèidhidh</item>
-        <item>Trom</item>
-        <item>Seirbheis (a’ ruith)</item>
-        <item>Seirbheis (’ga ath-thòiseachadh)</item>
-        <item>Glacadair</item>
-        <item>Dachaigh</item>
-        <item>A’ ghnìomhachd mu dheireadh</item>
-        <item>San tasgadan (gnìomhachd)</item>
-        <item>San tasgadan (cliant gnìomhachd)</item>
-        <item>San tasgadan (falamh)</item>
     </string-array>
     <string-array name="color_picker">
         <item>Cyan</item>
@@ -500,10 +396,6 @@
     <string-array name="wifi_hidden_entries">
         <item>Chan eil</item>
         <item>Tha</item>
-    </string-array>
-    <string-array name="dark_ui_mode_entries">
-        <item>Dorcha</item>
-        <item>Soilleir</item>
     </string-array>
     <string-array name="autofill_logging_level_entries">
         <item>Dheth</item>
@@ -558,11 +450,6 @@
         <item>@string/enhanced_4g_lte_mode_title</item>
         <item>@string/enhanced_4g_lte_mode_title_advanced_calling</item>
         <item>@string/enhanced_4g_lte_mode_title_4g_calling</item>
-    </string-array>
-    <string-array name="enhanced_4g_lte_mode_sumary_variant">
-        <item>@string/enhanced_4g_lte_mode_summary</item>
-        <item>@string/enhanced_4g_lte_mode_summary</item>
-        <item>@string/enhanced_4g_lte_mode_summary_4g_calling</item>
     </string-array>
     <string-array name="rtt_setting_mode">
         <item/>

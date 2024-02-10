@@ -19,11 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="byteShort">AṬ</string>
-    <string name="kilobyteShort">kaṭ</string>
-    <string name="megabyteShort">MAṬ</string>
-    <string name="gigabyteShort">GAṬ</string>
-    <string name="terabyteShort">TAṬ</string>
-    <string name="petabyteShort">PAṬ</string>
     <string name="untitled">&lt;War azwel&gt;</string>
     <string name="emptyPhoneNumber">(Ulac uṭṭun n tiliɣri)</string>
     <string name="unknownName">Arussin</string>
@@ -42,8 +37,6 @@
     <string name="mismatchPin">Tingalin PIN i turiḍ ur menṭaḍent ara.</string>
     <string name="invalidPin">Sekcem tangakt PIN n 4 ar 8 n iwzilen.</string>
     <string name="invalidPuk">Sekcem tangakt PIN n 8 n iwzilen neɣ ugar.</string>
-    <string name="needPuk">Takarḍa-ik SIM teskweṛ s PUK. Sekcem tangalt PUK akken ad s-tserḥeḍ.</string>
-    <string name="needPuk2">Sekcem tangakt PUK2 akken ad tserḥeḍ i tkarḍa SIM.</string>
     <string name="enablePin">UR iddi ara, rmed asewḥel n SIM/RUIM.</string>
     <plurals name="pinpuk_attempts">
         <item quantity="one">Ɣur-k <xliff:g id="number">%d</xliff:g> n uɛraḍ i d-yeqqimen send ad tewḥel tkaraḍa SIM.</item>
@@ -137,7 +130,6 @@
     <string name="global_action_assist">Amallal</string>
     <string name="global_action_voice_assist">Amarag aɣectan</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="notification_channel_virtual_keyboard">Anasiw aḥlis</string>
     <string name="notification_channel_security">Taγellist</string>
     <string name="notification_channel_account">Addad n umiḍan</string>
     <string name="notification_channel_updates">Ileqman</string>
@@ -283,7 +275,6 @@
     <string name="lockscreen_return_to_call">Uɣal ɣer usiwel</string>
     <string name="lockscreen_pattern_wrong">Ɛṛeḍ tikelt nniḍen</string>
     <string name="lockscreen_password_wrong">Ɛṛeḍ tikelt nniḍen</string>
-    <string name="lockscreen_missing_sim_message_short">Ulac takarḍa SIM</string>
     <string name="lockscreen_transport_prev_description">Tafuɣalt tuzwirt</string>
     <string name="lockscreen_transport_next_description">Tafuɣalt tuḍfirt</string>
     <string name="lockscreen_transport_pause_description">Steɛfu</string>
@@ -305,27 +296,7 @@
     <string name="granularity_label_link">aseɣwen</string>
     <string name="granularity_label_line">izirig</string>
     <string name="factorytest_reboot">Ales asenker</string>
-    <string name="save_password_label">Sentem</string>
-    <string name="autofill_this_form">Taččart tawurmant</string>
-    <string name="autofill_address_name_separator">\u0020</string>
-    <string name="autofill_address_summary_name_format">$1$2$3</string>
-    <string name="autofill_address_summary_separator">,\u0020</string>
-    <string name="autofill_address_summary_format">$1$2$3</string>
-    <string name="autofill_name_on_card_contextual_re">name</string>
-    <string name="autofill_card_ignored_re">^card</string>
-    <string name="autofill_area_code_notext_re">^\\($</string>
-    <string name="autofill_phone_prefix_separator_re">^-$|^\\)$</string>
-    <string name="autofill_phone_suffix_separator_re">^-$</string>
-    <string name="autofill_postal_code">Tangalt n lpusta</string>
-    <string name="autofill_state">Aɣir</string>
-    <string name="autofill_county">Tamurt</string>
-    <string name="autofill_island">Tigzirt</string>
-    <string name="autofill_area">Zone</string>
     <string name="permlab_addVoicemail">rnu izen aɣectan</string>
-    <string name="save_password_notnow">Mačči tura</string>
-    <string name="save_password_remember">Cfu</string>
-    <string name="save_password_never">Weṛǧin</string>
-    <string name="text_copied">Aḍris yettwanɣel ɣef afus.</string>
     <string name="more_item_label">Ugar</string>
     <string name="menu_meta_shortcut_label">Méta+</string>
     <string name="menu_space_shortcut_label">tallunt</string>
@@ -496,7 +467,6 @@
     <string name="accessibility_dialog_button_allow">Sireg</string>
     <string name="accessibility_dialog_button_deny">Aggi</string>
     <string name="done_accessibility_shortcut_menu_button">Immed</string>
-    <string name="color_correction_feature_name">Aseɣti n yini</string>
     <string name="accessibility_magnification_chooser_text">Asemɣer</string>
     <string name="owner_name" msgid="3879126011135546571">Bab</string>
     <string name="error_message_title">Erreur</string>
@@ -535,7 +505,7 @@
     <string name="language_picker_section_all">Akk tutlayin</string>
     <string name="locale_search_menu">Nadi</string>
     <string name="app_suspended_more_details">Issin ugar</string>
-    <string name="work_mode_turn_on">Rmed</string>
+    <string name="work_mode_emergency_call_button">Amerwas</string>
     <string name="deprecated_target_sdk_app_store">Nadi lqem</string>
     <string name="pin_target">Senteḍ</string>
     <string name="app_info">Talγut n usnas</string>
@@ -608,4 +578,5 @@
     <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_IN_PROGRESS">Asuter n userreḥ n PUK\u2026</string>
     <string name="PERSOSUBSTATE_SIM_SIM_ERROR">Asuter n userreḥ n SIM ur yeddi ara.</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_ERROR">Asuter n userreḥ n RUIM ur yeddi ara.</string>
+    <string name="device_state_notification_turn_off_button">Sens</string>
 </resources>

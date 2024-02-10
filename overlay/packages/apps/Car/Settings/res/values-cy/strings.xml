@@ -21,7 +21,6 @@
     <string name="brightness">Lefel disgleirdeb</string>
     <string name="auto_brightness_title">Disgleirdeb addasedig</string>
     <string name="condition_night_display_title">Mae\'r Golau Nos ymlaen</string>
-    <string name="night_mode_tile_label">Modd nos</string>
     <string name="network_and_internet">Rhwydwaith a\'r rhyngrwyd</string>
     <string name="mobile_network_settings">Rhwydwaith symudol</string>
     <string name="mobile_network_summary_count">        {count, plural,
@@ -31,8 +30,6 @@
     </string>
     <string name="mobile_network_active_sim">Gweithredol / SIM</string>
     <string name="mobile_network_inactive_sim">Anweithredol / SIM</string>
-    <string name="mobile_network_active_esim">Gweithredol / SIM wedi\u2019i lawrlwytho</string>
-    <string name="mobile_network_inactive_esim">Anweithredol / SIM wedi\u2019i lawrlwytho</string>
     <string name="mobile_network_list_add_more">Ychwanegu rhagor</string>
     <string name="mobile_network_toggle_title">Data symudol</string>
     <string name="mobile_network_toggle_summary">Defnyddio\'r rhwydwaith symudol fel cysylltiad data</string>
@@ -224,6 +221,8 @@
     <string name="bluetooth_notif_title">Cais paru</string>
     <string name="bluetooth_notif_message">Tapia i baru â <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="bluetooth_device_picker">Dewisa ddyfais Bluetooth</string>
+    <string name="bluetooth_bonded_bluetooth_toggle_content_description">Bluetooth</string>
+    <string name="bluetooth_bonded_media_toggle_content_description">Cyfryngau</string>
     <string name="language_settings">Ieithoedd</string>
     <string name="languages_and_input_settings">Ieithoedd a mewnbwn</string>
     <string name="language_picker_list_suggested_header">Awgrymwyd</string>
@@ -304,8 +303,6 @@
     <string name="app_permissions">Caniatâd yr ap</string>
     <string name="app_permissions_summary">Rheoli mynediad yr ap at dy ddata</string>
     <string name="applications_settings">Gwybodaeth ap</string>
-    <string name="force_stop">Gorfodi stopio</string>
-    <string name="force_stop_dialog_title">Gorfodi stopio?</string>
     <string name="force_stop_dialog_text">Os wyt yn gorfodi ap i stopio, mae\'n bosib iddo ymddwyn yn anarferol.</string>
     <string name="prioritize_app_performance_dialog_title">Blaenoriaethu perfformiad ap?</string>
     <string name="prioritize_app_performance_dialog_text">Gall hyn achosi ansefydlogrwydd system neu effeithio ar galedwedd yn yr hirdymor. Wyt ti am barhau?</string>
@@ -433,6 +430,7 @@
     <string name="microphone_settings_loading_app_permission_stats">Yn llwytho\u2026</string>
     <string name="system_setting_title">System</string>
     <string name="system_update_settings_title">Diweddariadau system</string>
+    <string name="continue_confirmation">Parhau</string>
     <string name="firmware_version">Fersiwn Android</string>
     <string name="security_patch">Lefel patsh diogelwch Android</string>
     <string name="hardware_info">Model a chaledwedd</string>
@@ -476,11 +474,7 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="developer_options_settings">Dewisiadau datblygwr</string>
     <string name="reset_options_title">Ailosod dewisiadau</string>
     <string name="reset_options_summary">Ailosod rhwydwaith, apiau neu\'r ddyfais</string>
-    <string name="reset_network_title">Ailosod rhwydweithiau</string>
-    <string name="reset_network_desc">Bydd hyn yn ailosod holl osodiadau rhwydwaith, gan gynnwys:</string>
-    <string name="reset_network_item_wifi"><li>Wi\u2011Fi</li></string>
     <string name="reset_network_item_mobile"><li>Data symudol</li></string>
-    <string name="reset_network_item_bluetooth"><li>Bluetooth</li></string>
     <string name="reset_esim_title">Dileu pob eSIM y cerbyd</string>
     <string name="reset_esim_desc">Ni fydd hyn yn canslo dy gytundeb gwasanaeth.</string>
     <string name="reset_esim_error_title">Methu ailosod eSIMau</string>
@@ -753,7 +747,6 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
         }
     </string>
     <string name="setup_lock_settings_options_button_label">Dewisiadau sgrin cloi</string>
-    <string name="build_info_fmt"><xliff:g example="google/gcar_emu_x86/..." id="fingerprint">%1$s</xliff:g>\n<xliff:g example="Thu Aug 30" id="date">%2$s</xliff:g> : <xliff:g example="4" id="num_days">%3$s</xliff:g> diwrnod yn ôl</string>
     <string name="credentials_reset">Clirio tystnodiadau</string>
     <string name="credentials_reset_summary">Tynnu pob tystysgrif</string>
     <string name="credentials_reset_hint">Tynnu\'r holl gynnwys?</string>

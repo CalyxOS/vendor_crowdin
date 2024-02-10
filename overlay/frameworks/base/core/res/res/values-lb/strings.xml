@@ -19,10 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="byteShort">B</string>
-    <string name="megabyteShort">MB</string>
-    <string name="gigabyteShort">GB</string>
-    <string name="terabyteShort">TB</string>
-    <string name="petabyteShort">PB</string>
     <string name="untitled">&lt;Ouni Titel&gt;</string>
     <string name="emptyPhoneNumber">(Keng Telefonsnummer)</string>
     <string name="unknownName">Onbekannt</string>
@@ -42,8 +38,6 @@
     <string name="mismatchPin">D\'PINen, déi s du aginn hues, stëmmen net iwwereneen.</string>
     <string name="invalidPin">Gëff e PIN an, deen tëscht 4 an 8 Zifferen huet.</string>
     <string name="invalidPuk">Gëff e PUK an, deen 8 oder méi Zifferen huet.</string>
-    <string name="needPuk">Deng SIM-Kaart ass PUK-gespaart. Gëff de PUK-Code an, fir en z\'entspären.</string>
-    <string name="needPuk2">Gëff de PUK2 vun der SIM-Kaart an, fir se z\'entspären.</string>
     <string name="enablePin">Feeler. Aktivéier d\'SIM-/RUIM-Spär.</string>
     <plurals name="pinpuk_attempts">
         <item quantity="one">Du hues nach <xliff:g id="number">%d</xliff:g> Versuch iwwreg ier deng SIM gespaart ass.</item>
@@ -241,7 +235,6 @@
     <string name="permlab_vibrate">Vibratioun steieren</string>
     <string name="permdesc_vibrate">Erlaabt der App, d\'Vibratioun ze steieren.</string>
     <string name="permlab_callPhone">Telefonsnummeren direkt uruffen</string>
-    <string name="permdesc_callPhone">Erlaabt der App, Telefonsnummeren ouni deng Awierkung unzeruffen. Doduerch kéinten onerwaart Käschten oder Uriff entstoen. D\'App kann heiduerch awer keng Noutfallnummeren uruffen. Béiswëlleg Appe kéinte Käschte verursaachen andeem se Nummeren ouni deng Bestätegung uruffen.</string>
     <string name="permlab_readPhoneState">Status an Identitéit vum Telefon liesen</string>
     <string name="permdesc_readPhoneState">Erlaabt der App, op d\'Telefonsfunktioune vum Apparat zouzegräifen. Mat dëser Berechtegung kann d\'App d\'Telefonsnummer an d\'Identifikatiounsnummer vum Apparat, a wann en Uruff aktiv ass och d\'Telefonsnummer vum Gespréichspartner, ausliesen.</string>
     <string name="permlab_wakeLock" product="tablet">Tablet vum Schlofen ofhalen</string>
@@ -486,14 +479,6 @@
     <string name="lockscreen_pattern_wrong">Probéier nees</string>
     <string name="lockscreen_password_wrong">Probéier nees</string>
     <string name="faceunlock_multiple_failures">Maximal Versich fir mam Gesiicht z\'entspären iwwerschratt</string>
-    <string name="lockscreen_missing_sim_message_short">Keng SIM-Kaart</string>
-    <string name="lockscreen_missing_sim_message" product="tablet">Keng SIM-Kaart am Tablet.</string>
-    <string name="lockscreen_missing_sim_message" product="default">Keng SIM-Kaart am Telefon.</string>
-    <string name="lockscreen_missing_sim_instructions">SIM-Kaart asetzen.</string>
-    <string name="lockscreen_missing_sim_instructions_long">D\'SIM-Kaart feelt oder ass net liesbar. Setz eng SIM-Kaart an.</string>
-    <string name="lockscreen_permanent_disabled_sim_message_short">Onbenotzbar SIM-Kaart.</string>
-    <string name="lockscreen_permanent_disabled_sim_instructions">Deng SIM-Kaart gouf permanent ausgeschalt.\n
-Kontaktéier däi Provider fir eng aner SIM-Kaart ze kréien.</string>
     <string name="lockscreen_transport_prev_description">Viregen Titel</string>
     <string name="lockscreen_transport_next_description">Nächsten Titel</string>
     <string name="lockscreen_transport_pause_description">Paus</string>
@@ -503,10 +488,7 @@ Kontaktéier däi Provider fir eng aner SIM-Kaart ze kréien.</string>
     <string name="lockscreen_transport_ffw_description">Virspullen</string>
     <string name="emergency_calls_only" msgid="2485604591272668370">Just Noutriff</string>
     <string name="lockscreen_network_locked_message">Netzwierk gespaart</string>
-    <string name="lockscreen_sim_puk_locked_message">SIM-Kaart ass PUK-gespaart.</string>
     <string name="lockscreen_sim_puk_locked_instructions">D\'Benotzerhandbuch ukucken oder de Clientsservice kontaktéieren.</string>
-    <string name="lockscreen_sim_locked_message">D\'SIM-Kaart ass gespaart.</string>
-    <string name="lockscreen_sim_unlock_progress_dialog_message">D\'SIM-Kaart gëtt entspaart\u2026</string>
     <string name="lockscreen_failed_attempts_now_wiping" product="tablet">Du hues <xliff:g id="number">%d</xliff:g>-mol ouni Erfolleg versicht den Tablet z\'entspären. E gëtt elo op d\'Wierksastellungen zréckgesat.</string>
     <string name="lockscreen_failed_attempts_now_wiping" product="default">Du hues <xliff:g id="number">%d</xliff:g>-mol ouni Erfolleg versicht den Telefon z\'entspären. E gëtt elo op d\'Wierksastellungen zréckgesat.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Probéier nees a(n) <xliff:g id="number">%d</xliff:g> Sekonnen.</string>
@@ -565,76 +547,9 @@ Kontaktéier däi Provider fir eng aner SIM-Kaart ze kréien.</string>
     <string name="js_dialog_before_unload_positive_button">Dës Säit verloossen</string>
     <string name="js_dialog_before_unload_negative_button">Op dëser Säit bleiwen</string>
     <string name="js_dialog_before_unload"><xliff:g id="message">%s</xliff:g>\n\nBass du sécher datt s du vun dëser Säit ewechnavigéiere wëlls?</string>
-    <string name="save_password_label">Bestätegen</string>
-    <string name="double_tap_toast">Tipp: Zweemol drécke fir eran- an erauszezoomen.</string>
-    <string name="autofill_this_form">Automatescht Ausfëllen</string>
-    <string name="setup_autofill">Automatescht Ausfëllen astellen</string>
-    <string name="autofill_address_name_separator">\u0020</string>
-    <string name="autofill_address_summary_name_format">$1$2$3</string>
-    <string name="autofill_address_summary_separator">,\u0020</string>
-    <string name="autofill_address_summary_format">$1$2$3</string>
-    <string name="autofill_region_ignored_re">province|region|other</string>
-    <string name="autofill_company_re">company|business|organization|organisation|department</string>
-    <string name="autofill_address_line_1_re">address.?line|address1|addr1|street</string>
-    <string name="autofill_address_line_1_label_re">address</string>
-    <string name="autofill_address_line_2_re">address.?line2|address2|addr2|street|suite|unit</string>
-    <string name="autofill_address_line_3_re">address.?line3|address3|addr3|street|line3</string>
-    <string name="autofill_country_re">country|location</string>
-    <string name="autofill_zip_code_re">zip|postal|post code|pcode|^1z$</string>
-    <string name="autofill_zip_4_re">zip|^-$|post2</string>
-    <string name="autofill_city_re">city|town</string>
-    <string name="autofill_address_type_use_my_re">use my</string>
-    <string name="autofill_billing_designator_re">bill</string>
-    <string name="autofill_shipping_designator_re">ship</string>
-    <string name="autofill_name_re">^name|full.?name|your.?name|customer.?name|firstandlastname</string>
-    <string name="autofill_name_specific_re">^name</string>
-    <string name="autofill_first_name_re">irst.*name|initials|fname|first$</string>
-    <string name="autofill_middle_initial_re">middle.*initial|m\\.i\\.|mi$</string>
-    <string name="autofill_middle_name_re">middle.*name|mname|middle$</string>
-    <string name="autofill_last_name_re">last.*name|lname|surname|last$</string>
-    <string name="autofill_phone_re">phone</string>
-    <string name="autofill_area_code_re">area.*code|acode|area</string>
-    <string name="autofill_phone_prefix_re">prefix</string>
-    <string name="autofill_phone_suffix_re">suffix</string>
-    <string name="autofill_phone_extension_re">ext</string>
-    <string name="autofill_name_on_card_re">card.?holder|name.?on.?card|ccname|owner</string>
-    <string name="autofill_name_on_card_contextual_re">name</string>
-    <string name="autofill_card_cvc_re">verification|card identification|cvn|security code|cvv code|cvc</string>
-    <string name="autofill_card_number_re">number|card.?#|card.?no|ccnum</string>
-    <string name="autofill_expiration_month_re">expir|exp.*month|exp.*date|ccmonth</string>
-    <string name="autofill_expiration_date_re">exp|^/|year</string>
-    <string name="autofill_card_ignored_re">^card</string>
-    <string name="autofill_fax_re">fax</string>
-    <string name="autofill_country_code_re">country.*code|ccode|_cc</string>
-    <string name="autofill_area_code_notext_re">^\\($</string>
-    <string name="autofill_phone_prefix_separator_re">^-$|^\\)$</string>
-    <string name="autofill_phone_suffix_separator_re">^-$</string>
-    <string name="autofill_province">Provënz</string>
-    <string name="autofill_postal_code">Postleetzuel</string>
-    <string name="autofill_state">Staat</string>
-    <string name="autofill_zip_code">Postleetzuel</string>
-    <string name="autofill_county">Landkrees</string>
-    <string name="autofill_island">Insel</string>
-    <string name="autofill_district">Bezierk</string>
-    <string name="autofill_department">Departement</string>
-    <string name="autofill_prefecture">Präfektur</string>
-    <string name="autofill_parish">Gemeng</string>
-    <string name="autofill_area">Gebitt</string>
-    <string name="autofill_emirate">Emirat</string>
-    <string name="permlab_readHistoryBookmarks">Internet-Lieszeechen an däin Historique liesen</string>
-    <string name="permdesc_readHistoryBookmarks">Erlaabt der App, den Historique vun alle Säiten déi s de besicht hues an all dengem Browser seng Liesezeechen ze liesen. Hiwäis: dës Berechtegung gëtt eventuell net vu Browsere vun Drëtthiersteller oder aneren Appe mat Internetfäegkeete berücksichtegt.</string>
-    <string name="permlab_writeHistoryBookmarks">Internet-Lieszeeche schreiwen an den Historique änneren</string>
     <string name="permlab_setAlarm">Wecker stellen</string>
     <string name="permlab_addVoicemail">Mailboxopnamen dobäisetzen</string>
     <string name="permdesc_addVoicemail">Erlaabt der App, Messagen op denger Mailbox ze späicheren.</string>
-    <string name="permlab_writeGeolocationPermissions">Geolokaliséierungs-Berechtegunge vum Browser änneren</string>
-    <string name="permdesc_writeGeolocationPermissions">Erlaabt der App, d\'Geolokaliséierungs-Berechtegunge vum Browser z\'änneren. Béisaarteg Appe kéinten dat benotze fir Standuertinformatiounen un arbiträr Websäiten ze schécken.</string>
-    <string name="save_password_message">Wëlls du datt de Browser dëst Passwuert verhält?</string>
-    <string name="save_password_notnow">Net elo</string>
-    <string name="save_password_remember">Erënneren</string>
-    <string name="save_password_never">Ni</string>
-    <string name="open_permission_deny">Du hues keng Berechtegung fir dës Säit opzemaachen.</string>
-    <string name="text_copied">Text an d\'Tëschenoflag kopéiert.</string>
     <string name="more_item_label">Méi</string>
     <string name="prepend_shortcut_label">Menü+</string>
     <string name="menu_space_shortcut_label">Espace</string>
@@ -757,8 +672,6 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="unsupported_compile_sdk_show">Ëmmer uweisen</string>
     <string name="smv_application">D\'App <xliff:g id="application">%1$s</xliff:g> (Prozess <xliff:g id="process">%2$s</xliff:g>) huet géint déi selwer operluechte StrictMode-Richtlinne verstouss.</string>
     <string name="smv_process">De Prozess <xliff:g id="process">%1$s</xliff:g> huet géint déi selwer operluechte StrictMode-Richtlinne verstouss.</string>
-    <string name="android_upgrading_fstrim">Späicher optiméieren.</string>
-    <string name="android_upgrading_apk">Optiméierung vun der App <xliff:g id="number" example="123">%1$d</xliff:g> / <xliff:g id="number" example="123">%2$d</xliff:g>.</string>
     <string name="android_upgrading_starting_apps">Appe gi gestart.</string>
     <string name="android_upgrading_complete">Start gëtt ofgeschloss.</string>
     <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> leeft</string>
@@ -805,9 +718,7 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="sms_short_code_remember_undo_instruction">Du kanns dat méi spéit ënner Astellungen\u00A0&gt;\u00A0Appen änneren</string>
     <string name="sms_short_code_confirm_always_allow">Ëmmer erlaben</string>
     <string name="sms_short_code_confirm_never_allow">Ni erlaben</string>
-    <string name="sim_removed_title">SIM-Kaart erausgeholl</string>
     <string name="sim_done_button">Fäerdeg</string>
-    <string name="sim_added_title">SIM-Kaart dobäigesat</string>
     <string name="sim_restart_button">Nei starten</string>
     <string name="time_picker_dialog_title">Zäit setzen</string>
     <string name="date_picker_dialog_title">Datum setzen</string>
@@ -951,7 +862,6 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="default_audio_route_name" product="tv">Tëlee</string>
     <string name="default_audio_route_name" product="default">Telefon</string>
     <string name="default_audio_route_name_dock_speakers">Dock-Lautsprecher</string>
-    <string name="default_audio_route_name_hdmi">HDMI</string>
     <string name="default_audio_route_name_headphones">Kopfhörer</string>
     <string name="default_audio_route_category_name">System</string>
     <string name="bluetooth_a2dp_audio_route_name">Bluetooth-Audio</string>
@@ -983,7 +893,6 @@ Wann \"Drécken an Endecken\" aktivéiert ass, kanns du Beschreiwunge vun Elemen
     <string name="kg_puk_enter_puk_hint">D\'SIM ass elo desaktivéiert. Gëff e PUK-Code a fir weiderzemaachen. Kontaktéier däi Provider fir Detailer.</string>
     <string name="kg_puk_enter_pin_hint">Gëff de gewënschte PIN-Code an</string>
     <string name="kg_enter_confirm_pin_hint">Bestäteg de gewënschte PIN-Code</string>
-    <string name="kg_sim_unlock_progress_dialog_message">D\'SIM-Kaart gëtt entspaart\u2026</string>
     <string name="kg_password_wrong_pin_code">Falsche PIN-Code.</string>
     <string name="kg_invalid_sim_pin_hint">Gëff e PIN an, deen tëscht 4 an 8 Zifferen huet.</string>
     <string name="kg_invalid_sim_puk_hint">De PUK-Code sollt 8 Ziffere laang sinn.</string>

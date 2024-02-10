@@ -43,8 +43,6 @@
   <string name="sure_you_want_to_delete_profile">Ma leanas tu air adhart, thèid a h-uile aplacaid is dàta sa phròifil seo a sguabadh às.</string>
   <string name="delete_profile">Sguab às</string>
   <string name="cancel_delete_profile">Sguir dheth</string>
-  <string name="encrypt_device_text_for_profile_owner_setup">Airson pròifil na h-obrach agad a shuidheachadh, feumaidh tu an t-uidheam agad a chrioptachadh. Dh’fhaoidte gun doir seo greis.</string>
-  <string name="encrypt_device_text_for_device_owner_setup">Airson an t-uidheam seo a shuidheachadh, feumaidh tu a chrioptachadh an toiseach. Dh’fhaoidte gun doir seo greis.</string>
   <string name="encrypt_this_device_question">An crioptaich thu an t-uidheam seo?</string>
   <string name="encrypt">Crioptaich</string>
   <string name="continue_provisioning_notify_title">Tha an crioptachadh deiseil</string>
@@ -52,7 +50,6 @@
   <string name="managed_provisioning_error_text">Cha b’ urrainn dhuinn pròifil na h-obrach agad a shuidheachadh. Cuir fios gun sgioba ICT agad no feuch ris a-rithist uaireigin eile.</string>
   <string name="cant_add_work_profile">Cha ghabh pròifil obrach a chur ris</string>
   <string name="cant_replace_or_remove_work_profile">Cha ghabh pròifil na h-obrach a chur an àite no a thoirt air falbh</string>
-  <string name="work_profile_cant_be_added_contact_admin">Cha ghabh pròifil obrach a chur ris an uidheam seo. Ma tha ceist sam bith agad, cuir fios gun rianaire ICT agad.</string>
   <string name="change_device_launcher">Atharraich lòinsear an uidheim</string>
   <string name="launcher_app_cant_be_used_by_work_profile">Chan urrainn do phròifil na h-obrach agad an aplacaid lòinseir seo a chleachdadh</string>
   <string name="cancel_provisioning">Sguir dheth</string>
@@ -60,9 +57,6 @@
   <string name="user_setup_incomplete">Chan eil suidheachadh a’ chleachdaiche coileanta</string>
   <string name="default_owned_device_username">Cleachdaiche uidheim obrach</string>
   <string name="setup_work_device">A’ suidheachadh uidheam na h-obrach agad…</string>
-  <string name="device_doesnt_allow_encryption_contact_admin">Cha cheadaich an t-uidheam seo crioptachadh ach tha feum air seo airson an t-suidheachaidh. Cuir fios gun rianaire ICT agad airson taic.</string>
-  <string name="stop_setup_reset_device_question">An cuir thu stad air an t-suidheachadh ⁊ an ath-shuidhich thu an t-uidheam?</string>
-  <string name="this_will_reset_take_back_first_screen">Thèid an t-uidheam agad ath-shuidheachadh air na bun-roghainnean agus bheir sinn air ais dhan chiad sgrìn thu</string>
   <string name="device_owner_cancel_message">An cuir thu stad air an t-suidheachadh ’s an suath thu bàn dàta an uidheim agad?</string>
   <string name="device_owner_cancel_cancel">Sguir dheth</string>
   <string name="device_owner_error_ok">Ceart ma-thà</string>
@@ -72,10 +66,7 @@
   <string name="something_went_wrong">Chaidh rudeigin ceàrr</string>
   <string name="couldnt_set_up_device">Cha b’ urrainn dhuinn an t-uidheam a shuidheachadh. Cuir fios gun rianaire ICT agad airson taic.</string>
   <string name="contact_your_admin_for_help">Cuir fios gun rianaire ICT agad airson taic</string>
-  <string name="reset_device">Ath-shuidhich an t-uidheam seo is feuch gun suidhich thu a-rithist e</string>
-  <string name="device_already_set_up">Chaidh an t-uidheam a shuidheachadh mu thràth</string>
   <string name="error_wifi">Cha b’ urrainn dhuinn ceangal WiFi a dhèanamh</string>
-  <string name="device_has_reset_protection_contact_admin">Tha dìon an aghaidh ath-shuidheachadh air an uidheam seo. Cuir fios gun rianaire ICT agad airson taic.</string>
   <string name="frp_clear_progress_title">’Ga shuathadh bàn</string>
   <string name="frp_clear_progress_text">Fuirich ort…</string>
   <string name="error_hash_mismatch">Cha b’ urrainn dhuinn aplacaid rianaire a chleachdadh ri linn mearachd leis a’ checksum. Cuir fios gun rianaire ICT agad airson taic.</string>
@@ -121,9 +112,6 @@
   <string name="comp_profile_benefits_description">Ma chleachdas tu pròifil obrach, ’s urrainn dhut aplacaidean na h-obrach a chumail ann an aon àite</string>
   <string name="setup_profile_encryption">Suidhich a’ phròifil agad. Crioptachadh</string>
   <string name="setup_profile_progress">Suidhich a’ phròifil agad. A’ sealltainn an adhartais</string>
-  <string name="setup_device">Suidhich an t-uidheam agad</string>
-  <string name="setup_device_encryption">Suidhich an t-uidheam agad. Crioptachadh</string>
-  <string name="setup_device_progress">Suidhich an t-uidheam agad. A’ sealltainn an adhartais</string>
   <string name="learn_more_label">Putan “Barrachd fiosrachaidh”</string>
   <string name="mdm_icon_label">Ìomhaigheag <xliff:g id="icon_label" example="Test App">%1$s</xliff:g></string>
   <string name="section_heading">Ceann-sgrìobhaidh earrann <xliff:g id="section_heading" example="Early Renaissance">%1$s</xliff:g>.</string>
@@ -159,14 +147,10 @@
   <string name="work_profile_provisioning_summary">Tha aplacaidean na h-obrach ’gan cumail ann am pròifil na h-obrach agad. ’S urrainn dhut aplacaidean na h-obrach agad a chur ’nan stad aig deireadh do latha. Chì an rianaire ICT agad an dàta ann am pròifil na h-obrach agad.</string>
   <string name="fully_managed_device_provisioning_accept_header">Suidhicheamaid uidheam na h-obrach agad</string>
   <string name="fully_managed_device_provisioning_step_1_header">Cùm aplacaidean na h-obrach agad deas ri do làimh</string>
-  <string name="fully_managed_device_provisioning_step_2_header">Chan eil an t-uidheam seo prìobhaideach</string>
-  <string name="fully_managed_device_provisioning_step_2_subheader">Dh’fhaoidte gum faic an rianaire ICT agad an dàta ’s a’ ghnìomhachd agad air an uidheam seo.</string>
   <string name="fully_managed_device_provisioning_progress_label">A’ suidheachadh an uidheim agad\u2026</string>
   <string name="cope_provisioning_step_1_header">Tha aplacaidean na h-obrach ’gan cumail ann am pròifil na h-obrach agad ⁊ ’gan stiùireadh leis an rianaire ICT agad</string>
   <string name="cope_provisioning_step_2_header">Tha aplacaidean pearsanta ’gan cumail fa leth ⁊ falaichte o aplacaidean na h-obrach</string>
   <string name="cope_provisioning_step_3_header">’S urrainn dhan rianaire ICT agad an t-uidheam seo a stiùireadh ⁊ aplacaidean sònraichte a bhacadh</string>
-  <string name="cope_provisioning_summary">Tha aplacaidean na h-obrach ’gan cumail ann am pròifil na h-obrach agad ’s ’gan stiùireadh leis an rianaire ICT agad. Tha aplacaidean pearsanta ’gan cumail fa leth ’s falaichte o aplacaidean na h-obrach. ’S urrainn dhan rianaire ICT agad an t-uidheam seo a stiùireadh ’s aplacaidean sònraichte a bhacadh.</string>
   <string name="just_a_sec">Fuirich greiseag\u2026</string>
   <string name="fully_managed_device_provisioning_privacy_title">Cuimhneachan na prìobhaideachd</string>
-  <string name="fully_managed_device_provisioning_privacy_body">Dh’fhaoidte gum faic an rianaire ICT agad an dàta ’s a’ ghnìomhachd agad air an uidheam seo</string>
 </resources>

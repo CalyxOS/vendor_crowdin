@@ -19,10 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="byteShort">بایت</string>
-    <string name="megabyteShort">مێگابایت</string>
-    <string name="gigabyteShort">گیگابایت</string>
-    <string name="terabyteShort">تێرابایت</string>
-    <string name="petabyteShort">پیکۆبایت</string>
     <string name="untitled">&lt;بێ ناونیشان&gt;</string>
     <string name="emptyPhoneNumber">(هیچ ژماره‌ ته‌له‌فۆنێک نییه‌)</string>
     <string name="defaultVoiceMailAlphaTag">دەنگەپۆست</string>
@@ -41,8 +37,6 @@
     <string name="mismatchPin">(PIN)ەکان کە نووسیوتن له‌یه‌کناچن.</string>
     <string name="invalidPin">(PIN)ەک بنووسه‌ که‌ ٤ بۆ ٨ ژماره‌ بێت.</string>
     <string name="invalidPuk">(PUK)ەکەیەک بنووسە کە ٨ ژمارە یان درێژتر بێت.</string>
-    <string name="needPuk">سیمکارته‌که‌ت داخراوە به‌ PUK، بۆ کردنه‌وه‌ی کۆدی PUK بنووسە.</string>
-    <string name="needPuk2">تکایه‌ PUK2 بنووسه‌ بۆ کردنەوەی سیمکارت.</string>
     <string name="enablePin">سه‌رکه‌وتوو نه‌بوو ، تکایه‌ داخەری SIM/RUIM چالاک بکه‌.</string>
     <plurals name="pinpuk_attempts">
         <item quantity="one"><xliff:g id="number">%d</xliff:g> هه‌وڵت ماوه‌ پێش ئه‌وه‌ی سیمکارت دابخرێت.</item>
@@ -255,9 +249,6 @@
     <string name="permlab_vibrate">سه‌رپه‌رشتیکردنی له‌رین</string>
     <string name="permdesc_vibrate">ڕێگه‌دان به‌ به‌رنامه‌ بۆ سه‌رپه‌رشتی کردنی له‌رینه‌وه‌.</string>
     <string name="permlab_callPhone">په‌یوه‌ندی کردنی ژماره‌کان ڕاسته‌وخۆیی</string>
-    <string name="permdesc_callPhone">ڕێگه‌دان به‌ به‌رنامه‌ بۆ په‌یوه‌ندی کردن به‌ ژماره‌وه‌ به‌بێ زانینی تۆ.له‌وانه‌یه‌ ئه‌نجامه‌که‌ی خراپ بێت بۆ په‌یوه‌ندی کردن.
-تێبینی:ئه‌مه‌ ڕێگه‌ نادات به‌ به‌رنامه‌که‌ په‌یوه‌ندی به‌ ڕوداوی له‌ناکاو و کتوپڕ بکات.
-به‌رنامه‌ خراپه‌کان به‌کاریده‌هێنن بۆ سه‌رفکردنی باڵانسه‌کانت.</string>
     <string name="permlab_readPhoneState">خوێندنه‌وه‌ی باری ئامێر و ناسنامه‌</string>
     <string name="permdesc_readPhoneState">ڕێگه‌دان به‌ به‌رنامه‌ بۆ ده‌سته‌ڵاتکردنی خزمه‌ته‌کانی ئامێر.ئه‌مه‌ ڕێگه‌ به‌ به‌رنامه‌که‌ ئه‌دات بۆ دیاریکردنی ژماره‌ی مۆبایل و ID ئامێر، کاتێک که‌ په‌یوه‌ندی له‌کاردایه‌ ، یان ژماره‌یه‌کی دووره‌ده‌ست په‌یوه‌ندییه‌ بۆ په‌یوه‌ندی.</string>
     <string name="permlab_wakeLock" product="tablet">ڕێگری کردن له‌ تابلێت بۆ نوستن</string>
@@ -478,19 +469,9 @@
     <string name="lockscreen_pattern_wrong">دوبارە هەوڵبدەرەوە</string>
     <string name="lockscreen_password_wrong">دووباره‌ هەوڵ بدەوە</string>
     <string name="faceunlock_multiple_failures">چالاککردنی قوفڵ بە ڕوخسار هەوڵ زۆر دراوە</string>
-    <string name="lockscreen_missing_sim_message_short">سیمکارتی تیا نیە</string>
-    <string name="lockscreen_missing_sim_message" product="tablet">سیمکارت نیە لە تاتەبژمێر.</string>
-    <string name="lockscreen_missing_sim_message" product="default">سیمکارت نیە لە تەلەفۆن.</string>
-    <string name="lockscreen_missing_sim_instructions">سیمکارتی تیا بکە.</string>
-    <string name="lockscreen_missing_sim_instructions_long">سیمکارتەکە تیایە نیە یان نایخوێنێتەوە. سیمکارتی تێبکە.</string>
-    <string name="lockscreen_permanent_disabled_sim_message_short">سیمکارتەکە بەکارنایەت.</string>
-    <string name="lockscreen_permanent_disabled_sim_instructions">سیمکارتەکە لە کارخرا .\n پەیوەندی بکە بە کۆمپانیای بێ تەلەوە بۆ سیمێکی تر.</string>
     <string name="emergency_calls_only" msgid="2485604591272668370">ته‌نها په‌یوه‌ندی كتوپڕ</string>
     <string name="lockscreen_network_locked_message">تۆڕ قوفڵکراوە</string>
-    <string name="lockscreen_sim_puk_locked_message">سیمکارتەکە PUK-قوفڵکراوە.</string>
     <string name="lockscreen_sim_puk_locked_instructions">بینینی تێبینی بەکارهێنەر یان پەیوەندی بکە بە خزمەتگوزاری یارمەتیدەرەوە.</string>
-    <string name="lockscreen_sim_locked_message">سیمکارتەکە داخراوه‌.</string>
-    <string name="lockscreen_sim_unlock_progress_dialog_message">کردنەوەی سیمکارت\u2026</string>
     <string name="lockscreen_failed_attempts_now_wiping" product="tablet">       تۆ بەهەڵە هەوڵت داوە تاتە بژمێرەکە بکەیتەوە <xliff:g id="number">%d</xliff:g> times.
        Tزۆر هەڵە لێدانی فایلەکان ئەسڕێتەوە بۆ باری بنەڕەتی ئەچێتەوە.
     .
@@ -557,84 +538,10 @@
     <string name="js_dialog_before_unload_positive_button">جێهێشتنی ئەم پەڕەیە</string>
     <string name="js_dialog_before_unload_negative_button">مانەوە لەسەر ئەم پەڕەیە</string>
     <string name="js_dialog_before_unload"><xliff:g id="message">%s</xliff:g>\n\nتۆى دڵنيان تۆ دەوێتان تا دوور لە ئەمە لاپەڕەوە بەناودا بڕوات؟ ?</string>
-    <string name="save_password_label">دلنیاکردنەوە</string>
-    <string name="double_tap_toast">سەر: دوجار -لێدان بۆ زوم نزیک و دەرەوە.</string>
-    <string name="autofill_this_form">خۆکارپڕ</string>
-    <string name="setup_autofill">دانانی خۆکارپڕ</string>
-    <string name="autofill_address_name_separator">\u0020</string>
-    <string name="autofill_address_summary_name_format">$1$2$3</string>
-    <string name="autofill_address_summary_separator">,\u0020</string>
-    <string name="autofill_address_summary_format">$1$2$3</string>
-    <string name="autofill_region_ignored_re">province|region|other</string>
-    <string name="autofill_company_re">company|business|organization|organisation|department</string>
-    <string name="autofill_address_line_1_re">address.?line|address1|addr1|street</string>
-    <string name="autofill_address_line_1_label_re">ناونیشان</string>
-    <string name="autofill_address_line_2_re">ناونیشان.?line2|address2|addr2|street|suite|unit</string>
-    <string name="autofill_address_line_3_re">ناونیشان.?line3|address3|addr3|street|line3</string>
-    <string name="autofill_country_re">وڵات|ناوچه‌</string>
-    <string name="autofill_zip_code_re">zip|postal|post code|pcode|^1z$</string>
-    <string name="autofill_zip_4_re">zip|^-$|post2</string>
-    <string name="autofill_city_re">city|town</string>
-    <string name="autofill_address_type_use_my_re">بەکارهێنانی</string>
-    <string name="autofill_billing_designator_re">گەڵاڵە</string>
-    <string name="autofill_shipping_designator_re">ناردن</string>
-    <string name="autofill_name_re">^name|full.?name|your.?name|customer.?name|firstandlastname</string>
-    <string name="autofill_name_specific_re">^name</string>
-    <string name="autofill_first_name_re">irst.*name|initials|fname|first$</string>
-    <string name="autofill_middle_initial_re">ةاوەند.*initial|m\\.i\\.|mi$</string>
-    <string name="autofill_middle_name_re">ناوی ناوەنجی.*ناو|mname|ناوەند$</string>
-    <string name="autofill_last_name_re">last.*name|lname|surname|last$</string>
-    <string name="autofill_phone_re">phone</string>
-    <string name="autofill_area_code_re">ناوچە.*کۆد|acode|ناوچە</string>
-    <string name="autofill_phone_prefix_re">prefix</string>
-    <string name="autofill_phone_suffix_re">پاشگر</string>
-    <string name="autofill_phone_extension_re">ext</string>
-    <string name="autofill_name_on_card_re">card.?holder|name.?on.?card|ccname|owner</string>
-    <string name="autofill_name_on_card_contextual_re">ناو</string>
-    <string name="autofill_card_cvc_re">گونجاندن|کارتidentification|cvn|security code|cvv code|cvc</string>
-    <string name="autofill_card_number_re">ژمارە|کارت.?#|card.?no|ccnum</string>
-    <string name="autofill_expiration_month_re">بەسەرچوون|exp.*مانگ|نمونە.*ڕۆژ|ccmonth</string>
-    <string name="autofill_expiration_date_re">exp|^/|year</string>
-    <string name="autofill_card_ignored_re">^کارت</string>
-    <string name="autofill_fax_re">فاکس</string>
-    <string name="autofill_country_code_re">وڵات.*کۆد|ccode|_cc</string>
-    <string name="autofill_area_code_notext_re">^\\($</string>
-    <string name="autofill_phone_prefix_separator_re">^-$|^\\)$</string>
-    <string name="autofill_phone_suffix_separator_re">^-$</string>
-    <string name="autofill_province">پارێزگا</string>
-    <string name="autofill_postal_code">کۆدی پۆستان</string>
-    <string name="autofill_state">دەوڵەت</string>
-    <string name="autofill_zip_code">کۆدی پۆستە</string>
-    <string name="autofill_county">وڵات</string>
-    <string name="autofill_island">دوورگە</string>
-    <string name="autofill_district">ناوچە</string>
-    <string name="autofill_department">بەش</string>
-    <string name="autofill_prefecture">ولایەت</string>
-    <string name="autofill_parish">پاریس</string>
-    <string name="autofill_area">ناوچە</string>
-    <string name="autofill_emirate">میرنشین</string>
-    <string name="permlab_readHistoryBookmarks">خوێندنەوەی وێبنیشانکەرەکە و مێژوو</string>
-    <string name="permdesc_readHistoryBookmarks">رێگە بە بەرنامە بە بۆ خوێندنەوەی
-     مێژووی هەموو ئەو وێبپەڕانەی کە وێبگەڕەکەت سەردانی کردوون، لەگەڵ هەموو وێبپەڕە
-     هیماکراوەکان. تێبینی: ئەم ڕێدانە لەوە ئەچێ پابەند نەبێت بە وێبگەڕە یاریدەدەرەکانەوە
-     یان ئەو بەرنامانەی کە توانایی گەڕانی وێبیان هەبێت.</string>
-    <string name="permlab_writeHistoryBookmarks">نوسینی په‌رتوکنیشانکه‌ری وێبگه‌ر و مێژو</string>
     <string name="permlab_setAlarm">دانانی زەنگ</string>
     <string name="permlab_addVoicemail">زیادکردنی نامەی دەنگی</string>
     <string name="permdesc_addVoicemail">ڕێگەدان بە بەرنامەکە بۆ زیادکردنی نامەکان
 بۆ سندوقی دەنگە نامە.</string>
-    <string name="permlab_writeGeolocationPermissions">لابردنی تازەکردنەوەی شوێنی جوگرافی وێبگەر</string>
-    <string name="permdesc_writeGeolocationPermissions">ڕێ دەدات بە بەرنامە تا بگۆڕێت
-
-ڕێگەپێدانى شوێنی جوگرافی براوزە. بەرنامەى ڤایرۆسی
-
-لەوانەيە ئەمە بەكار بهێنێت تا ڕێ بدات بە بۆ ناردنى وێبسايتى زانياريى شوێن هەرەمەكى.</string>
-    <string name="save_password_message">ئایا دەتەوێت وێبگەڕەکەت ئەم نهێنووشەیە بە یادت بهێنێتەوە؟</string>
-    <string name="save_password_notnow">ئێستا نا</string>
-    <string name="save_password_remember">وەبیرهاتنەوە</string>
-    <string name="save_password_never">هەرگیز</string>
-    <string name="open_permission_deny">تۆ ڕێگەت نیە بۆ چالاککردنی ئەم پەڕەیە.</string>
-    <string name="text_copied">دەقەکە لەبەریگیرایەوە بۆ پارێزەر.</string>
     <string name="more_item_label">زیاتر</string>
     <string name="prepend_shortcut_label">پێڕست+</string>
     <string name="menu_space_shortcut_label">بۆشایی</string>
@@ -741,9 +648,6 @@
         (ئەرکی <xliff:g id="process">%2$s</xliff:g>) بە شێوەی خۆسەپاو لە دۆخێکی دژواری پاراستن سەرپێچی کردووە.</string>
     <string name="smv_process">ئەرکی <xliff:g id="process">%1$s</xliff:g> has
       بە شێوەی خۆسەپاو لە دۆخێکی دژواری پاراستن سەرپێچی کردووە.</string>
-    <string name="android_upgrading_apk">باشینەسازی بەرنامە
-        <xliff:g id="number" example="123">%1$d</xliff:g> ی
-        <xliff:g id="number" example="123">%2$d</xliff:g>.</string>
     <string name="android_upgrading_starting_apps">دەستپێکردنی بەرنامەکان.</string>
     <string name="android_upgrading_complete">تەواوبوونی بووت.</string>
     <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> کارکردن</string>
@@ -787,9 +691,7 @@
     <string name="sms_short_code_remember_undo_instruction">ئەتوانی ئەمە دواتر بگۆڕیت لە ڕێکخستن\u00A0وgt;\u00A0Apps\"</string>
     <string name="sms_short_code_confirm_always_allow">هەمیشە ڕێگە بدە</string>
     <string name="sms_short_code_confirm_never_allow">هەرگیز ڕێگە مەدە</string>
-    <string name="sim_removed_title">سیمکارتەکە دەرکرا</string>
     <string name="sim_done_button">ئه‌نجام درا</string>
-    <string name="sim_added_title">سیمکارتەکە زیادکرا</string>
     <string name="sim_restart_button">لەنۆکردنەوە</string>
     <string name="time_picker_dialog_title">دیاریکردنی کات</string>
     <string name="date_picker_dialog_title">دیاریکردنی ڕۆژ</string>
@@ -923,7 +825,6 @@
     <string name="default_audio_route_name" product="tablet">تابلێت</string>
     <string name="default_audio_route_name" product="default">مۆبایل</string>
     <string name="default_audio_route_name_dock_speakers">بڵندگۆی له‌نگه‌ر</string>
-    <string name="default_audio_route_name_hdmi">HDMI</string>
     <string name="default_audio_route_name_headphones">بیستۆک</string>
     <string name="default_audio_route_category_name">سیستەم</string>
     <string name="bluetooth_a2dp_audio_route_name">ده‌نگی بلوتوس</string>
@@ -954,7 +855,6 @@
     <string name="kg_puk_enter_puk_hint">سیمکارتەکە لە کارکەوتوە ئێستا.PUK لێ بدە بۆ بەردەوام بوون. بۆ وردەکاری زیاتر پەیوەندی بکە بە ئۆپەراتۆر.</string>
     <string name="kg_puk_enter_pin_hint">کۆدێکی PIN بەخواستی خۆت دابنێ</string>
     <string name="kg_enter_confirm_pin_hint">کۆدی PIN دوپاتکەرەوە</string>
-    <string name="kg_sim_unlock_progress_dialog_message">کردنەوەی سیمکارت\u2026</string>
     <string name="kg_password_wrong_pin_code">کۆدی PIN ناڕاستە.</string>
     <string name="kg_invalid_sim_pin_hint">(PIN)ەک بنووسه‌ که‌ ٤ بۆ ٨ ژماره‌ بێت.</string>
     <string name="kg_invalid_puk">دوبارە کۆدی PUK دروست تێبنووسەوە. هەوڵدانە دوبارەکراوەکان بۆ هەمیشە سیمکارتەکەت لاچالاک ئەکات.</string>

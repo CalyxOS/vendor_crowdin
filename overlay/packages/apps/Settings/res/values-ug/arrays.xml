@@ -18,26 +18,7 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="timezone_filters">
-        <item>ئامېرىكا</item>
-        <item>ياۋروپا</item>
-        <item>ئافرىقا</item>
-        <item>ئاسىيا</item>
-        <item>ئاۋسترالىيە</item>
-        <item>تىنچ ئوكيان</item>
-        <item>ھەممىسى</item>
-    </string-array>
     <string-array name="screen_timeout_entries">
-        <item>15 سېكۇنت</item>
-        <item>30 سېكۇنت</item>
-        <item>1 مىنۇت</item>
-        <item>2 مىنۇت</item>
-        <item>5 مىنۇت</item>
-        <item>10 مىنۇت</item>
-        <item>30 مىنۇت</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>ھەرگىز</item>
         <item>15 سېكۇنت</item>
         <item>30 سېكۇنت</item>
         <item>1 مىنۇت</item>
@@ -71,25 +52,6 @@
         <item>توسۇلغان</item>
         <item>سىگنال ناچار باغلىنىشنى ۋاقىتلىق تاقايدۇ</item>
     </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item/>
-        <item>تەكشۈرۈۋاتىدۇ…</item>
-        <item><xliff:g id="NETWORK_NAME">%1$s</xliff:g> غا باغلىنىۋاتىدۇ…</item>
-        <item><xliff:g id="NETWORK_NAME">%1$s</xliff:g> ئارقىلىق سالاھىيەت دەلىللەۋاتىدۇ…</item>
-        <item><xliff:g id="NETWORK_NAME">%1$s</xliff:g> دىن IP ئادرېسقا ئېرىشىۋاتىدۇ…</item>
-        <item><xliff:g id="NETWORK_NAME">%1$s</xliff:g> غا باغلاندى</item>
-        <item>ۋاقىتلىق توختىتىلدى</item>
-        <item>\" دىن ئۈزۈلۈۋاتىدۇ…\"<xliff:g id="NETWORK_NAME">%1$s</xliff:g></item>
-        <item>ئۈزۈلدى</item>
-        <item>مۇۋەپپەقىيەتسىز</item>
-        <item>توسۇلغان</item>
-        <item>سىگنال ناچار باغلىنىشنى ۋاقىتلىق تاقايدۇ</item>
-    </string-array>
-    <string-array name="wifi_p2p_wps_setup">
-        <item>توپچا</item>
-        <item>تەڭداش ئۈسكۈنىدىن PIN غا ئېرىش</item>
-        <item>بۇ ئۈسكۈنىدىن شەكىللەنگەن PIN</item>
-    </string-array>
     <string-array name="wifi_p2p_status">
         <item>باغلاندى</item>
         <item>تەكلىپ قىلىندى</item>
@@ -97,23 +59,12 @@
         <item>ئىشلىتىلىشچان</item>
         <item>چېگرا ھالقىدى</item>
     </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 مىنۇت</item>
-        <item>5 مىنۇت</item>
-        <item>1 سائەت</item>
-        <item>ھەرگىز ۋاقىت ھالقىمايدۇ</item>
-    </string-array>
     <string-array name="wifi_signal">
         <item>ناچار</item>
         <item>ناچار</item>
         <item>ياخشىراق</item>
         <item>ياخشى</item>
         <item>ناھايىتى ياخشى</item>
-    </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>ئىشلىتىش ۋاقتى</item>
-        <item>Last time used</item>
-        <item>ئەپ ئاتى</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>MSCHAPV2</item>
@@ -176,18 +127,6 @@
         <item translatable="false">SPN</item>
         <item translatable="false">IMSI</item>
         <item translatable="false">GID</item>
-    </string-array>
-    <string-array name="app_install_location_entries">
-        <item>ئۈسكۈنە ئىچكى ساقلىغۇچ</item>
-        <item>يۆتكىلىشچان SD كارتا</item>
-        <item>سىستېما بەلگىلەيدۇ</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>ئورنى</item>
-        <item>شەخسىي</item>
-        <item>ئۇچۇر</item>
-        <item>ۋاستە</item>
-        <item>ئۈسكۈنە</item>
     </string-array>
     <string-array name="app_ops_summaries">
         <item>تەخمىنىي ئورنى</item>
@@ -360,17 +299,6 @@
     <string-array name="accessibility_button_size_selector_titles">
         <item>كىچىك</item>
         <item>چوڭ</item>
-    </string-array>
-    <string-array name="vpn_types_long">
-        <item>PPTP VPN</item>
-        <item>ئالدىن ھەمبەھىر ئاچقۇچلۇق L2TP/IPSec VPN</item>
-        <item>گۇۋاھنامەلىك L2TP/IPSec VPN</item>
-        <item>ئالدىن ھەمبەھىر ئاچقۇچلۇق ھەمدە Xauth سالاھىيەت دەلىللەيدىغان IPSec VPN</item>
-        <item>گۇۋاھنامەلىك ھەمدە Xauth سالاھىيەت دەلىللەيدىغان IPSec VPN</item>
-        <item>گۇۋاھنامەلىك ھەمدە ئارىلاش سالاھىيەت دەلىللەيدىغان IPSec VPN</item>
-        <item>IKEv2/IPSec VPN with certificates and username/password authentication</item>
-        <item>IKEv2/IPSec VPN with pre-shared keys</item>
-        <item>IKEv2/IPSec VPN with certificates</item>
     </string-array>
     <string-array name="vpn_proxy_settings">
         <item>يوق</item>
