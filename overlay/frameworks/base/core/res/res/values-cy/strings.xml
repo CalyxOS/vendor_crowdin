@@ -174,8 +174,13 @@
     <string name="low_memory" product="tv">Mae storfa Android TV yn llawn. Rhaid dileu rhai ffeiliau i greu lle.</string>
     <string name="low_memory" product="default">Mae storfa\'r ffôn yn llawn. Rhaid dileu rhai ffeiliau i greu lle.</string>
     <string name="ssl_ca_cert_warning">{count, plural,
-        =1 {Awdurdod tystysgrifau wedi\u2019i osod}
-        other {Awdurdodau tystysgrifau wedi\u2019u gosod}
+        zero {}
+		=1    {Awdurdod tystysgrifau wedi\'i osod}
+        one {Awdurdod tystysgrifau wedi\'i osod}
+        two {Awdurdodau tystysgrifau wedi\'u gosod}
+        few {Awdurdodau tystysgrifau wedi\'u gosod}
+        many {Awdurdodau tystysgrifau wedi\'u gosod}
+        other {Awdurdodau tystysgrifau wedi\'u gosod}
     }
     </string>
     <string name="ssl_ca_cert_noti_by_unknown">Gan drydydd parti anhysbys</string>
@@ -257,8 +262,13 @@ Mae\'n bosib y bydd yn anwybyddu rhai adrannau llai pwysig er mwyn bod yn gynt.<
     <string name="bugreport_option_full_title">Adroddiad llawn</string>
     <string name="bugreport_option_full_summary">Defnyddia\'r opsiwn hwn ar gyfer yr ymyrraeth leiaf bosib gan y system pan fo\'r ddyfais ddim yn ymateb neu\'n rhedeg yn rhy araf, neu pan wyt ti angen adrodd am bob adran. Nid yw yn caniatáu ychwanegu unrhyw fanylion na sgrinluniau.</string>
     <string name="bugreport_countdown">{count, plural,
-        =1 {Tynnu sgrinlun ymhen # eiliad}
-        other {Tynnu sgrinlun ymhen # eiliad}
+        zero {}
+		=1 {Yn cymryd sgrinlun mewn # eiliad.}
+        one {Yn cymryd sgrinlun mewn # eiliad.}
+        two {Yn cymryd sgrinlun mewn # eiliad.}
+        few {Yn cymryd sgrinlun mewn # eiliad.}
+        many {Yn cymryd sgrinlun mewn # eiliad.}
+        other {Yn cymryd sgrinlun mewn # eiliad.}
     }
     </string>
     <string name="bugreport_screenshot_success_toast">Tynnwyd sgrinlun gydag adroddiad gwall</string>
@@ -924,6 +934,8 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="lockscreen_password_wrong">Ceisia Eto</string>
     <string name="lockscreen_storage_locked">Datgloi ar gyfer pob nodwedd a data</string>
     <string name="faceunlock_multiple_failures">Wedi gwneud cynifer o ymdrechion Datgloi Wyneb a chaniateir</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions">Mae dy SIM wedi cael ei ddadactifadu yn barhaol.\n
+    Cysyllta â dy ddarparwr gwasanaeth symudol am SIM arall.</string>
     <string name="lockscreen_transport_prev_description">Trac blaenorol</string>
     <string name="lockscreen_transport_next_description">Trac nesaf</string>
     <string name="lockscreen_transport_pause_description">Saib</string>
