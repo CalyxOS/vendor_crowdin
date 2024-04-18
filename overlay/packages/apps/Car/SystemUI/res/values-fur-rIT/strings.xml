@@ -25,6 +25,8 @@
     <string name="end_session">Termine la session</string>
     <string name="car_new_user">Gnûf profîl</string>
     <string name="user_add_profile_title">"Zontâ un gnûf profîl?"</string>
+    <string name="user_add_user_message_setup">Dopo che tu âs zontât un gnûf profîl, il titolâr dal account al pues personalizâlu.</string>
+    <string name="user_add_user_message_update">Ducj i profîi a puedin instalâ un inzornam. di aplic., che dopo al sarà disponibil a ducj i profîi.</string>
     <string name="profile_limit_reached_title">Tocjât il limit di profîi</string>
     <string name="profile_limit_reached_message">        {count, plural,
             one {}=1    {Al è pussibil creâ dome un profîl.}
@@ -36,6 +38,7 @@
     <string name="privacy_chip_off_content"><xliff:g id="sensor" example="Microphone">%1$s</xliff:g> distudât.</string>
     <string name="privacy_chip_use_sensor">Dopre <xliff:g id="sensor" example="microphone">%1$s</xliff:g></string>
     <string name="privacy_chip_use_sensor_subtext">Pes aplicazions che a àn il permès</string>
+    <string name="privacy_chip_settings">Impostazions riservatece</string>
     <string name="privacy_chip_app_using_sensor_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> al sta doprant: <xliff:g id="sensor" example="microphone">%2$s</xliff:g></string>
     <string name="mic_privacy_chip_apps_using_mic_suffix">Microfon in ûs di <xliff:g id="app_list" example="Assistant &amp; Phone">%s</xliff:g></string>
     <string name="privacy_chip_app_recently_used_sensor_suffix"><xliff:g id="app" example="Assistant">%1$s</xliff:g> al à doprât di resint:<xliff:g id="sensor" example="microphone">%2$s</xliff:g></string>
@@ -61,6 +64,11 @@
     <string name="system_bar_notifications_label">Notifichis</string>
     <string name="system_bar_maps_label">Mapis</string>
     <string name="system_bar_media_label">Multimedia</string>
+    <string name="system_bar_control_center_label">Centri di control</string>
+    <string name="system_bar_assistant_label">Assistent</string>
+    <string name="system_bar_mic_privacy_chip">Chip riservatece mic</string>
+    <string name="system_bar_user_avatar">Avatar utent</string>
+    <string name="system_bar_user_name_text">Test non utent</string>
     <string name="hvac_decrease_button_label">Sbasse la temperadure</string>
     <string name="hvac_increase_button_label">Alce la temperadure</string>
     <string name="status_icon_bluetooth_disconnected">Impostazion Bluetooth: disconetût</string>
@@ -70,9 +78,14 @@
     <string name="status_icon_signal_wifi">Impostazions segnâl: Wifi atîf</string>
     <string name="status_icon_signal_hotspot">Impostazions segnâl: pont di acès atîf</string>
     <string name="status_icon_display_status">Impostazions schermi</string>
+    <string name="status_icon_drive_mode">Modalitât vuide</string>
     <string name="activity_blocked_text">No tu puedis doprâ cheste funzion intant che tu vuidis</string>
     <string name="exit_button_close_application">Siere la aplicazion</string>
     <string name="exit_button_go_back">Indaûr</string>
+    <string name="drive_mode_modes_comfort">Comoditât</string>
+    <string name="drive_mode_modes_eco">Economie</string>
+    <string name="drive_mode_modes_sport">Sport</string>
+    <string name="qc_drive_mode_active_subtitle">Ative</string>
     <string name="qc_footer_settings">Impostazions</string>
     <string name="qc_footer_bluetooth_settings">Impostazions Bluetooth</string>
     <string name="qc_footer_network_internet_settings">Impostazions di rêt e internet</string>
@@ -80,6 +93,37 @@
     <string name="qc_footer_network_sound_settings">Impostazions dal sun</string>
     <string name="qc_footer_profiles_accounts_settings">Impostazions dai profîi e dai accounts</string>
     <string name="lockpattern_does_not_support_rotary">La cumbinazion no supuarte l\'input rotatîf; dopre la tocjade</string>
+    <string name="display_input_lock_text">Il schermi al è blocât</string>
+    <string name="display_input_lock_started_text">Il schermi al è stât blocât</string>
+    <string name="display_input_lock_stopped_text">Il schermi al è cumò sblocât</string>
+    <string name="user_logout_title">Desideristu pardabon disconetiti?</string>
+    <string name="user_logout_message">Chest al sierarà dutis lis aplicazions viertis</string>
+    <string name="user_logout">Disconet</string>
     <string name="car_guest">Ospit</string>
+    <string name="user_switching_message">Cambi di profîl\u2026</string>
+    <string name="user_adding_message">Daûr a zontâ un gnûf profîl\u2026</string>
+    <string name="max_user_limit_reached_message">Tu puedi zontâfin a <xliff:g id="user_limit" example="10">%d</xliff:g> profîi</string>
     <string name="confirm_add_user_title">Zontâ un gnûf profîl?</string>
+    <string name="already_logged_in_message">Par continuâ, <xliff:g id="user_name" example="Peter">%1$s</xliff:g> al/e varès di lâ fûr de schermade dal <xliff:g id="seat_location" example="Driver">%2$s</xliff:g></string>
+    <string name="header_bar_text_in_logged_out_state">Selezione il profîl par scomençâ</string>
+    <string name="logged_in_text">Jentrât</string>
+    <string name="prefix_logged_in_info_for_other_seat">Jentrâts su la schermade <xliff:g id="seat_location" example="Driver">%s</xliff:g></string>
+    <string name="create_user_failed_message">Impussibil zontâ un gnûf profîl. Torne prove plui indevant.</string>
+    <string name="guest_creation_failed_message">Impussibil inviâ il profîl Ospit. Torne prove plui indevant.</string>
+    <string name="stopping_user_text">Daûr a disconetisi…</string>
+    <string name="wait_for_until_stopped_message"><xliff:g id="user_name" example="Peter">%s</xliff:g> al è daûr a disconetisi. Torne prove plui indevant.</string>
+    <string name="seat_driver">vuidadôr</string>
+    <string name="seat_front">anteriôr</string>
+    <string name="seat_rear">posteriôr</string>
+    <string name="seat_left_side">çampe</string>
+    <string name="seat_center_side">mieç</string>
+    <string name="seat_right_side">diestre</string>
+    <string name="car_keyguard_enter_your_pin">Inserìs il to PIN</string>
+    <string name="car_keyguard_enter_your_pattern">Inserìs la tô cumbinazion</string>
+    <string name="car_keyguard_enter_your_password">Inserìs la tô password</string>
+    <string name="backspace_key">Tast cancele indaûr</string>
+    <string name="enter_key">Tast invie</string>
+    <string name="user_tos_activity_intent">intent:#Intent;action=com.android.car.SHOW_USER_TOS_ACTIVITY;B.show_value_prop=false;end</string>
+    <string name="back_btn">Indaûr</string>
+    <string name="fullscreen">Plen schermi</string>
 </resources>

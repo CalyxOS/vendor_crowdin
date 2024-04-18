@@ -89,6 +89,9 @@
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Annulla</string>
     <string name="setup_fingerprint_enroll_skip_title">Boles brincare s\'imprenta digitale?</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text">Pro sa configuratzione de s\'imprenta de pòddighes nce bolet isceti unu minutu o duos. Si dda brincas, podes agiùnghere s\'imprenta tua prus a tardu in sa cunfiguratzione.</string>
+    <string name="security_settings_remoteauth_enroll_introduction_agree">Sighi</string>
+    <string name="security_settings_remoteauth_enroll_introduction_more">Àteru</string>
+    <string name="security_settings_remoteauth_enroll_enrolling_disagree">Annulla</string>
     <string name="biometric_settings_hand_back_to_guardian_ok">AB</string>
     <string name="biometric_settings_add_biometrics_in_split_mode_ok">AB</string>
     <string name="skip_anyway_button_label">Brinca su matessi</string>
@@ -102,6 +105,9 @@
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">Oops, cussu no est su sensore</string>
     <string name="security_header">Seguresa</string>
     <string name="work_profile_category_header">Profilu de traballu</string>
+    <string name="private_space_category_system">Sistema</string>
+    <string name="no_device_lock_cancel">Annulla</string>
+    <string name="private_space_cancel_label">Annulla</string>
     <string name="fingerprint_intro_error_max">As agiuntu su nùmeru màssimu de imprentas</string>
     <string name="fingerprint_intro_error_unknown">Non podes agiùnghere àteras imprentas</string>
     <string name="lock_settings_picker_title">Sèbera blocu de ischermu</string>
@@ -133,7 +139,6 @@
     <string name="bluetooth_device_context_connect">Connete</string>
     <string name="bluetooth_device_context_disconnect">Disconnete</string>
     <string name="bluetooth_device_context_pair_connect">Assòtzia e connete</string>
-    <string name="bluetooth_empty_list_bluetooth_off">Cando su Bluetooth est ativu, su dispositivu tuo at a pòdere comunicare cun àteros dispositivos Bluetooth acanta.</string>
     <string name="wifi_display_settings_title">Trasmissione</string>
     <string name="wifi_display_enable_menu_item">Ativa s\'ischermu chene filos</string>
     <string name="wifi_display_no_devices_found">Perunu dispositivu acanta agatadu.</string>
@@ -177,7 +182,6 @@
     <string name="wifi_scan_always_confirm_deny">Nega</string>
     <string name="no_internet_access_remember">Non mi ddu torres a pregontare pro custa rete</string>
     <string name="wifi_forget">Iscaresse·ti</string>
-    <string name="wifi_failed_forget_message">No at fatu a iscarèssere sa rete</string>
     <string name="wifi_save">Sarva</string>
     <string name="wifi_failed_save_message">No at fatu a sarvare sa rete</string>
     <string name="wifi_cancel">Annulla</string>
@@ -290,15 +294,12 @@
     <string name="tether_settings_title_all">Puntu de atzessu Wi-Fi &amp; àncora</string>
     <string name="tether_settings_summary_hotspot_on_tether_on">Puntu de atzessu Wi-Fi ativu e àncora</string>
     <string name="tether_settings_summary_hotspot_off_tether_on">Ancoràgiu web</string>
-    <string name="tethering_interface_options">Ancoràgiu web</string>
-    <string name="usb_title">USB</string>
     <string name="usb_tethering_button_text">Ancoràgiu web USB</string>
     <string name="bluetooth_tether_checkbox_text">Ancoràgiu web Bluetooth</string>
     <string name="ethernet_tether_checkbox_text">Ancoràgiu web de s\'ethernet</string>
     <string name="tethering_footer_info">Imprea su puntu de atzessu Wi-Fi e s\'ancoràgiu web pro frunire ìnternet a àteros dispositivos tràmite sa connessione de datos. Is aplicatziones podent creare puru unu puntu de atzessu Wi-Fi pro cumpartzire cuntenutos cun dispositivos a curtzu.</string>
     <string name="tethering_footer_info_sta_ap_concurrency">Imprea su puntu de atzessu Wi-Fi e s\'ancoràgiu web pro frunire ìnternet a àteros dispositivos tràmite Wi\u2011Fi o sa connessione de datos. Is aplicatziones podent creare puru unu puntu de atzessu Wi-Fi pro cumpartzire cuntenutos cun dispositivos a curtzu.</string>
     <string name="tethering_help_button_text">Agiudu</string>
-    <string name="manage_mobile_plan_title" translatable="true">Pranu mòbile</string>
     <string name="sms_application_title" translatable="true">Aplicatzione de SMS</string>
     <string name="sms_change_default_dialog_text" translatable="true">Boles impreare <xliff:g id="new_app">%1$s</xliff:g> imbetzes de <xliff:g id="current_app">%2$s</xliff:g> comente aplicatzione de SMS?</string>
     <string name="sms_change_default_no_previous_dialog_text" translatable="true">Boles impreare <xliff:g id="new_app">%s</xliff:g> comente aplicatzione de SMS?</string>
@@ -357,7 +358,6 @@
     <string name="accessibility_hearingaid_instruction_continue_button">Sighi</string>
     <string name="accessibility_dialog_button_allow">Permite</string>
     <string name="accessibility_dialog_button_deny">Nega</string>
-    <string name="accessibility_dialog_button_cancel">Annulla</string>
     <string name="background_activity_disabled_dialog_text">Dae chi custa aplicatzione no est impostada pro fàghere rèndere a su màssimu sa bateria, dda podes limitare.\n\nPro limitare s\'aplicatzione, in antis ativa su rendimentu màssimu de sa bateria.</string>
     <string name="battery_tip_unrestrict_app_dialog_cancel">Annulla</string>
     <string name="smart_battery_footer">Cando su gestore de bateria rilevat chi is aplicatziones si sunt iscarrighende sa bateria, as a tènnere sa possibilidade de limitare custas aplicatziones. Is aplicatziones cun limitatziones diant pòdere non funtzionare in manera curreta e is notìficas diant pòdere subire ritardos.</string>
@@ -385,6 +385,7 @@
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary">Bluetooth</string>
     <string name="keywords_time_format">Imprea su formadu 24 oras</string>
     <string name="keywords_sounds_and_notifications_interruptions">no no istorbes, firma, firmare, pàusa</string>
+    <string name="keywords_color_temperature">colore, temperadura, D65, D73, biancu, grogu, biaitu, callente, friu</string>
     <string name="keywords_hotspot_tethering">ancoràgiu web usb, ancoràgiu web bluetooth, puntu de atzessu wifi</string>
     <string name="notification_ringtone_title">Sonu de notìfica predefinidu</string>
     <string name="notification_sound_default">Sonu de notìfica predefinidu</string>

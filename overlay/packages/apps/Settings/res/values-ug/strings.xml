@@ -94,6 +94,11 @@
     <string name="security_settings_face_enroll_dialog_ok">جەزملە</string>
     <string name="security_settings_face_enroll_done">تامام</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">ۋاز كەچ</string>
+    <string name="security_settings_remoteauth_enroll_introduction_disagree">ھازىرچە ياق</string>
+    <string name="security_settings_remoteauth_enroll_introduction_agree">داۋاملاشتۇر</string>
+    <string name="security_settings_remoteauth_enroll_enrolling_disagree">ۋاز كەچ</string>
+    <string name="security_settings_remoteauth_enroll_enrolling_agree">جەزملە</string>
+    <string name="security_settings_remoteauth_enroll_finish_btn_next">تامام</string>
     <string name="biometric_settings_hand_back_to_guardian_ok">جەزملە</string>
     <string name="biometric_settings_add_biometrics_in_split_mode_ok">جەزملە</string>
     <string name="skip_anyway_button_label">ئاتلاۋەر</string>
@@ -104,6 +109,11 @@
     <string name="security_settings_fingerprint_enroll_done">تامام</string>
     <string name="fingerprint_enroll_button_next">كېيىنكى</string>
     <string name="security_header">بىخەتەرلىك</string>
+    <string name="privatespace_hide_off_summary">تاقاق</string>
+    <string name="privatespace_hide_on_summary">ئوچۇق</string>
+    <string name="no_device_lock_cancel">ۋاز كەچ</string>
+    <string name="private_space_cancel_label">ۋاز كەچ</string>
+    <string name="private_space_done_label">تامام</string>
     <string name="encryption_settings_title">شىفىرلاش</string>
     <string name="encrypted_summary">شىفىرلانغان</string>
     <string name="lock_settings_picker_title">ئېكران قۇلۇپىنى تاللاڭ</string>
@@ -132,7 +142,6 @@
     <string name="bluetooth_device_context_connect">باغلان</string>
     <string name="bluetooth_device_context_disconnect">ئۈز</string>
     <string name="bluetooth_device_context_pair_connect">جۈپلەپ باغلا</string>
-    <string name="bluetooth_empty_list_bluetooth_off">كۆكچىش ئېچىلسا، ئۈسكۈنىڭىز يېقىن ئەتراپتىكى باشقا كۆكچىش ئۈسكۈنىلىرى بىلەن ئالاقە قىلالايدۇ.</string>
     <string name="nfc_reboot_dialog_confirm">قايتا قوزغات</string>
     <string name="wifi_display_enable_menu_item">سىمسىز ئېكراننى قوزغات</string>
     <string name="wifi_display_no_devices_found">ئەتراپتا سىمسىز كۆرسىتىش ئۈسكۈنىسى تېپىلمىدى.\"</string>
@@ -183,7 +192,6 @@
     <string name="wifi_connecting">باغلىنىۋاتىدۇ…</string>
     <string name="wifi_failed_connect_message">تورغا باغلىنالمىدى</string>
     <string name="wifi_forget">ئەستە تۇتما</string>
-    <string name="wifi_failed_forget_message">تورنى ئۇنتالمىدى</string>
     <string name="wifi_save">ساقلا</string>
     <string name="wifi_failed_save_message">تورنى ساقلىيالمىدى</string>
     <string name="wifi_cancel">ۋاز كەچ</string>
@@ -324,16 +332,12 @@
     <string name="tether_settings_title_usb_bluetooth">ھەمبەھىر</string>
     <string name="tether_settings_summary_hotspot_off_tether_on">ھەمبەھىر</string>
     <string name="tether_preference_summary_off">تاقاق</string>
-    <string name="tethering_interface_options">ھەمبەھىر</string>
     <string name="usb_tethering_button_text">USB ھەمبەھىر</string>
     <string name="bluetooth_tether_checkbox_text">كۆكچىش ھەمبەھىر</string>
     <string name="tethering_help_button_text">ياردەم</string>
-    <string name="manage_mobile_plan_title" translatable="true">كۆچمە تور پىلانى</string>
     <string name="sms_change_default_dialog_title" translatable="true">كۆڭۈلدىكى قىسقا ئۇچۇر ئەپىنى ئۆزگەرتەمدۇ؟</string>
     <string name="sms_change_default_dialog_text" translatable="true"><xliff:g id="new_app">%1$s</xliff:g> نى <xliff:g id="current_app">%2$s</xliff:g> نىڭ ئورنىغا قىسقا ئۇچۇر ئەپى قىلىپ ئىشلىتەمسىز؟?</string>
     <string name="sms_change_default_no_previous_dialog_text" translatable="true"><xliff:g id="NEW_APP">%s</xliff:g> نى قىسقا ئۇچۇر ئەپى قىلىپ ئىشلىتەمسىز؟</string>
-    <string name="mobile_insert_sim_card" translatable="true">SIM كارتا قىستۇرۇپ قايتا قوزغىتىڭ</string>
-    <string name="mobile_connect_to_internet" translatable="true">ئىنتېرنېتقا باغلاڭ</string>
     <string name="location_category_recent_location_requests">يېقىنقى ئورۇن ئۇچۇر ئىلتىماسى</string>
     <string name="location_no_recent_apps">يېقىندا ھېچقانداق ئەپ ئورۇن ئۇچۇرىنى ئىلتىماس قىلمىدى</string>
     <string name="location_high_battery_use">توك سەرپىياتى يۇقىرى</string>
@@ -568,9 +572,6 @@
     <string name="capabilities_list_title"><xliff:g id="SERVICE">%1$s</xliff:g> ئېھتىياجى:</string>
     <string name="accessibility_dialog_button_allow">يول قوي</string>
     <string name="accessibility_dialog_button_deny">رەت قىل</string>
-    <string name="accessibility_dialog_button_stop">توختا</string>
-    <string name="accessibility_dialog_button_cancel">ۋاز كەچ</string>
-    <string name="disable_service_title"><xliff:g id="SERVICE">%1$s</xliff:g> نى توختىتامدۇ؟</string>
     <string name="accessibility_no_services_installed">ھېچقانداق مۇلازىمەت ئورنىتىلمىغان</string>
     <string name="accessibility_service_default_description">چۈشەندۈرۈش تەمىنلەنمىگەن.</string>
     <string name="settings_button">تەڭشەكلەر</string>
@@ -656,8 +657,6 @@
     <string name="request_manage_credentials_allow">يول قوي</string>
     <string name="no_certificate_management_app">يوق</string>
     <string name="emergency_tone_summary">جىددىي چاقىرغاندىكى ھەرىكەت تەڭشىكى</string>
-    <string name="backup_summary_state_on">ئوچۇق</string>
-    <string name="backup_summary_state_off">تاقاق</string>
     <string name="backup_section_title">زاپاسلا ۋە ئەسلىگە كەلتۈر</string>
     <string name="personal_data_section_title">شەخسىي سانلىق مەلۇمات</string>
     <string name="backup_data_title">سانلىق مەلۇماتلىرىمنى زاپاسلا</string>
@@ -737,17 +736,12 @@
     <string name="vpn_name">ئاتى</string>
     <string name="vpn_type">تۈرى</string>
     <string name="vpn_server">مۇلازىمېتىر ئادرىسى</string>
-    <string name="vpn_mppe">PPP شىفىرلاش (MPPE)</string>
-    <string name="vpn_l2tp_secret">L2TP شىفىرلىق ئاچقۇچ</string>
     <string name="vpn_ipsec_identifier">IPSec بەلگىسى</string>
     <string name="vpn_ipsec_secret">IPSec ئالدىن ھەمبەھىر شىفىرلىق ئاچقۇچى</string>
     <string name="vpn_ipsec_user_cert">IPSec ئىشلەتكۈچى گۇۋاھنامىسى</string>
     <string name="vpn_ipsec_ca_cert">IPSec CA گۇۋاھنامىسى</string>
     <string name="vpn_ipsec_server_cert">IPSec مۇلازىمىتىر گۇۋاھنامىسى</string>
     <string name="vpn_show_options">ئالىي تاللانما كۆرسەت</string>
-    <string name="vpn_search_domains">DNS ئىزدەش دائىرىسى</string>
-    <string name="vpn_dns_servers">DNS مۇلازىمېتىر (مەسىلەن 8.8.8.8)</string>
-    <string name="vpn_routes">ئۇلاپ يېتەكلىگۈچ (مەسىلەن 10.0.0.0/8)</string>
     <string name="vpn_username">ئىشلەتكۈچى ئاتى</string>
     <string name="vpn_password">ئىم</string>
     <string name="vpn_save_login">ھېسابات ئۇچۇرىنى ساقلا</string>
@@ -953,4 +947,17 @@
     <string name="color_selector_dialog_done">تامام</string>
     <string name="color_selector_dialog_cancel">ۋاز كەچ</string>
     <string name="contrast_medium">ئوتتۇرا</string>
+    <string name="generic_accessibility_service_on">ئوچۇق</string>
+    <string name="generic_accessibility_service_off">تاقاق</string>
+    <string name="generic_accessibility_feature_shortcut_off">تاقاق</string>
+    <string name="accessibility_shortcut_state_off">تاقاق</string>
+    <string name="daltonizer_state_on">ئوچۇق</string>
+    <string name="daltonizer_state_off">تاقاق</string>
+    <string name="color_inversion_state_on">ئوچۇق</string>
+    <string name="color_inversion_state_off">تاقاق</string>
+    <string name="autoclick_disabled">تاقاق</string>
+    <string name="show_captions_disabled">تاقاق</string>
+    <string name="show_captions_enabled">ئوچۇق</string>
+    <string name="live_caption_disabled">تاقاق</string>
+    <string name="live_caption_enabled">ئوچۇق</string>
 </resources>

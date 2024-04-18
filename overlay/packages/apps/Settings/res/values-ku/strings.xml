@@ -94,6 +94,11 @@
     <string name="security_settings_face_enroll_dialog_ok">OK</string>
     <string name="security_settings_face_enroll_done">ئه‌نجام درا</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">لابردن</string>
+    <string name="security_settings_remoteauth_enroll_introduction_disagree">ئێستا نا</string>
+    <string name="security_settings_remoteauth_enroll_introduction_agree">بەردەوامبون</string>
+    <string name="security_settings_remoteauth_enroll_enrolling_disagree">لابردن</string>
+    <string name="security_settings_remoteauth_enroll_enrolling_agree">دلنیاکردنەوە</string>
+    <string name="security_settings_remoteauth_enroll_finish_btn_next">ئه‌نجام درا</string>
     <string name="biometric_settings_hand_back_to_guardian_ok">OK</string>
     <string name="biometric_settings_add_biometrics_in_split_mode_ok">OK</string>
     <string name="skip_anyway_button_label">تێپەڕە بەهەرجۆرێک بێ</string>
@@ -104,6 +109,11 @@
     <string name="security_settings_fingerprint_enroll_done">ئه‌نجام درا</string>
     <string name="fingerprint_enroll_button_next">دواتر</string>
     <string name="security_header">پاراستن</string>
+    <string name="privatespace_hide_off_summary">کوژاندنەوە</string>
+    <string name="privatespace_hide_on_summary">چالاککردن</string>
+    <string name="no_device_lock_cancel">لابردن</string>
+    <string name="private_space_cancel_label">لابردن</string>
+    <string name="private_space_done_label">ئه‌نجام درا</string>
     <string name="encryption_settings_title">نهێنیکاری</string>
     <string name="encrypted_summary">نهێنیکراوه‌</string>
     <string name="lock_settings_picker_title">ده‌ستنیشانکردنی قوفڵی ڕوونما</string>
@@ -133,7 +143,6 @@
     <string name="bluetooth_device_context_connect">گرێدان</string>
     <string name="bluetooth_device_context_disconnect">پچڕاندنی پەیوەندی</string>
     <string name="bluetooth_device_context_pair_connect">جووت بوون وamp; بەستنەوە</string>
-    <string name="bluetooth_empty_list_bluetooth_off">کاتێک بلوتوسەکەت هەڵکراوە, ئامێرەکەت ئەتوانێت پەیوەندی بکات بە ئامێرەکانی بلوتوسی نزیک.</string>
     <string name="nfc_reboot_dialog_confirm">ده‌ستپێكردنه‌وه‌</string>
     <string name="wifi_display_enable_menu_item">کارپێکردنی نیشاندانی وایه‌رلێس</string>
     <string name="wifi_display_no_devices_found">هیچ ئامێرێکی نزیک نه‌دۆزرایه‌وه‌.</string>
@@ -184,7 +193,6 @@
     <string name="wifi_connecting">بەستنەوە\u2026</string>
     <string name="wifi_failed_connect_message">بەستنەوە بە تۆڕ سەرکەوتو نەبو</string>
     <string name="wifi_forget">لەیادکردن</string>
-    <string name="wifi_failed_forget_message">لە بیر کردنەوەی تۆڕ سەرکەوتو نەبو</string>
     <string name="wifi_save">پاشەکەوتکردن</string>
     <string name="wifi_failed_save_message">پاشەکەوتکردنی تۆڕ سەرکەوتو نەبو</string>
     <string name="wifi_cancel">پاشگەزبونەوە</string>
@@ -327,17 +335,12 @@
     <string name="tether_settings_title_usb_bluetooth">پەیوەندی ئینتەرنێت بە</string>
     <string name="tether_settings_summary_hotspot_off_tether_on">پەیوەندی ئینتەرنێت بە</string>
     <string name="tether_preference_summary_off">کوژاندنەوە</string>
-    <string name="tethering_interface_options">پەیوەندی ئینتەرنێت بە</string>
-    <string name="usb_title">USB</string>
     <string name="usb_tethering_button_text">USB ئەشكيل</string>
     <string name="bluetooth_tether_checkbox_text">بلوتوس پەیوەستکردن</string>
     <string name="tethering_help_button_text">یارمەتی</string>
-    <string name="manage_mobile_plan_title" translatable="true">نەخشەی مۆبایل</string>
     <string name="sms_change_default_dialog_title" translatable="true">گۆڕینی بەرنامەیSMS?</string>
     <string name="sms_change_default_dialog_text" translatable="true">بەکارهێنان<xliff:g id="new_app">%1$s</xliff:g> instead of <xliff:g id="current_app">%2$s</xliff:g> وەکوSMS app?</string>
     <string name="sms_change_default_no_previous_dialog_text" translatable="true">بەکارهێنان<xliff:g id="new_app">%s</xliff:g> وەکو بەرنامەیSMS?</string>
-    <string name="mobile_insert_sim_card" translatable="true">تکایە سیمکارتی تیا بکە و دوبارە بیکوژێنەوە هەڵیکرسێنەوە</string>
-    <string name="mobile_connect_to_internet" translatable="true">تکایە پەیوەستی بکە بە ئەنتەرێتەوە</string>
     <string name="location_category_recent_location_requests">شوێنی تازە داواکراوە</string>
     <string name="location_no_recent_apps">هیچ بەرنامەیەک داوا نەکراوە بۆ ناوچەی</string>
     <string name="location_high_battery_use">بەکارهێنانی باتری بەرز</string>
@@ -582,9 +585,6 @@
         پێویستە بۆ:</string>
     <string name="accessibility_dialog_button_allow">ڕێگەدان</string>
     <string name="accessibility_dialog_button_deny">نکوڵیکردن</string>
-    <string name="accessibility_dialog_button_stop">وه‌ستاندن</string>
-    <string name="accessibility_dialog_button_cancel">لابردن</string>
-    <string name="disable_service_title">وەستان <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
     <string name="accessibility_no_services_installed">خزمەتگوزاری دانەمەزراوە</string>
     <string name="accessibility_service_default_description">هیچ زانیاریەک دابین نەکراوە.</string>
     <string name="settings_button">ڕێکخستنه‌کان</string>
@@ -671,8 +671,6 @@
     <string name="request_manage_credentials_allow">ڕێگەدان</string>
     <string name="no_certificate_management_app">هیچ</string>
     <string name="emergency_tone_summary">دانانی کرداری كۆمەڵە كاتێك تەلەفۆن كردنێكى بارى ناكاو دا دەنێرێت</string>
-    <string name="backup_summary_state_on">چالاککردن</string>
-    <string name="backup_summary_state_off">کوژاندنەوە</string>
     <string name="backup_section_title">پاڵپشتamp; ڕێکخستنەوە</string>
     <string name="personal_data_section_title">داتای کەسی</string>
     <string name="backup_data_title">پشتگیری کردنی داتاکانم</string>
@@ -753,17 +751,12 @@
     <string name="vpn_name">ناو</string>
     <string name="vpn_type">جۆر</string>
     <string name="vpn_server">ناونیشانی تۆڕ</string>
-    <string name="vpn_mppe">PPP encryption (MPPE)</string>
-    <string name="vpn_l2tp_secret">L2TP نهێنی</string>
     <string name="vpn_ipsec_identifier">IPSec ناسێنەر</string>
     <string name="vpn_ipsec_secret">IPSec کلیلی بەشدار</string>
     <string name="vpn_ipsec_user_cert">IPSec بڕوانامەی بەکارهێنەر</string>
     <string name="vpn_ipsec_ca_cert">IPSec CA بڕوانامە</string>
     <string name="vpn_ipsec_server_cert">IPSec بڕوانامەی خزمەتگوزاری</string>
     <string name="vpn_show_options">پیشاندانی بەربژاردەکانی پەرەسەندوو</string>
-    <string name="vpn_search_domains">DNS گەڕان domains</string>
-    <string name="vpn_dns_servers">DNS servers (e.g. 8.8.8.8)</string>
-    <string name="vpn_routes">سوڕانەوەی پێشەوە  (e.g. 10.0.0.0/8)</string>
     <string name="vpn_username">تێپەڕە وشە</string>
     <string name="vpn_password">تێپەڕەوشە</string>
     <string name="vpn_save_login">پاشەکەوتکردنی زانیاری هەژمار</string>
@@ -970,4 +963,17 @@
     <string name="color_selector_dialog_done">ئه‌نجام درا</string>
     <string name="color_selector_dialog_cancel">لابردن</string>
     <string name="contrast_medium">ناوه‌ندی</string>
+    <string name="generic_accessibility_service_on">چالاککردن</string>
+    <string name="generic_accessibility_service_off">کوژاندنەوە</string>
+    <string name="generic_accessibility_feature_shortcut_off">کوژاندنەوە</string>
+    <string name="accessibility_shortcut_state_off">کوژاندنەوە</string>
+    <string name="daltonizer_state_on">چالاککردن</string>
+    <string name="daltonizer_state_off">کوژاندنەوە</string>
+    <string name="color_inversion_state_on">چالاککردن</string>
+    <string name="color_inversion_state_off">کوژاندنەوە</string>
+    <string name="autoclick_disabled">کوژاندنەوە</string>
+    <string name="show_captions_disabled">کوژاندنەوە</string>
+    <string name="show_captions_enabled">چالاککردن</string>
+    <string name="live_caption_disabled">کوژاندنەوە</string>
+    <string name="live_caption_enabled">چالاککردن</string>
 </resources>

@@ -30,7 +30,9 @@
         }
     </string>
     <string name="mobile_network_active_sim">Atîf / SIM</string>
-    <string name="mobile_network_inactive_sim">No atîf / SIM</string>
+    <string name="mobile_network_inactive_sim">Inatîf / SIM</string>
+    <string name="mobile_network_active_esim">Atîf / eSIM</string>
+    <string name="mobile_network_inactive_esim">Inatîf / eSIM</string>
     <string name="mobile_network_list_add_more">Zonte altris</string>
     <string name="mobile_network_toggle_title">Dâts mobii</string>
     <string name="mobile_network_toggle_summary">Acêt ai dâts doprant la rêt mobile</string>
@@ -170,11 +172,14 @@
     <string name="wifi_ap_2G">2,4 GHz</string>
     <string name="wifi_ap_5G">5 GHz</string>
     <string name="wifi_ap_band_select_one">Sielç almancul une bande pal pont di acès Wi\u2011Fi:</string>
-    <string name="tether_settings_title_all">Pont di acès e tethering</string>
+    <string name="tether_settings_title_all">Pont di acès Wi\u2011Fi</string>
     <string name="hotspot_settings_title">Pont di acès</string>
+    <string name="wifi_hotspot_switch_title">Dopre pont di acès Wi\u2011Fi</string>
     <string name="wifi_hotspot_state_off">Off</string>
     <string name="wifi_hotspot_auto_off_title">Disative il pont di acès in automatic</string>
     <string name="wifi_hotspot_auto_off_summary">Il pont di acès Wi\u2011Fi si distudarà se nol è colegât nissun dispositîf.</string>
+    <string name="wifi_hotspot_qr_code_text">Scansione chest codiç QR par jentrâ in \u0022%s\u0022</string>
+    <string name="wifi_hotspot_qr_code_password_text">Password dal pont di acès: %s</string>
     <string name="wifi_ask_enable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> al vûl ativâ il Wi-Fi</string>
     <string name="wifi_ask_disable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> al vûl disativâ il Wi-Fi</string>
     <string name="wifi_error">Erôr</string>
@@ -185,6 +190,7 @@
     <string name="network_connection_connect_successful">Conession lade a bon fin</string>
     <string name="network_connection_request_dialog_showall">Mostre dutis</string>
     <string name="progress_scanning">Daûr a cirî</string>
+    <string name="connected_settings_title">Dispositîfs conetûts</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
     <string name="bluetooth_toggle_title">Dopre Bluetooth</string>
     <string name="bluetooth_device">Dispositîf cence non</string>
@@ -231,6 +237,7 @@
     <string name="bluetooth_notif_message">Tocje par associâ cun <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="bluetooth_device_picker">Sielç dispositîf Bluetooth</string>
     <string name="bluetooth_bonded_bluetooth_toggle_content_description">Bluetooth</string>
+    <string name="bluetooth_bonded_phone_toggle_content_description">Telefon</string>
     <string name="bluetooth_bonded_media_toggle_content_description">Contignûts multimediâi</string>
     <string name="language_settings">Lenghis</string>
     <string name="languages_and_input_settings">Lenghis e imission</string>
@@ -315,7 +322,11 @@
     <string name="app_permissions">Permès de aplicazion</string>
     <string name="app_permissions_summary">Controle l\'acès des aplicazions ai tiei dâts</string>
     <string name="applications_settings">Informazions aplicazion</string>
+    <string name="force_stop">Ferme aplicazion</string>
+    <string name="force_stop_dialog_title">Fermâ la aplicazion?</string>
     <string name="force_stop_dialog_text">Se tu sfuarcis la interuzion di une aplicazion, e podarès compuartâsi in mût anomal.</string>
+    <string name="force_stop_success_toast_text">        La aplicazion <xliff:g id="app_name" example="Radio">%1$s</xliff:g> e je stade fermade.
+    </string>
     <string name="prioritize_app_performance_dialog_title">Ativâ prioritât a prestazions de aplicazion?</string>
     <string name="prioritize_app_performance_dialog_text">Cheste operazion e pues causâ une potenziâl instabilitât dal sisteme o efiets sul hardware a lunc tiermin. Desideristu continuâ?</string>
     <string name="prioritize_app_performance_dialog_action_on">Sì</string>
@@ -327,6 +338,7 @@
     <string name="app_disable_dialog_positive">Disative aplicazion</string>
     <string name="not_installed">No instalât par chest profîl</string>
     <string name="permissions_label">Permès</string>
+    <string name="app_info_all_services_label">Ducj i servizis</string>
     <string name="notifications_label">Notifichis</string>
     <string name="storage_application_label">Spazi di archiviazion e cache</string>
     <string name="prioritize_app_performance_label">Prioritât aes prestazions des aplicazions</string>
@@ -431,10 +443,9 @@
     <string name="wifi_control_description">Il control dal Wi-Fi al permet a une aplicazion di ativâ o disativâ il Wi-Fi, scansionâ e conetiti a rêts Wi-Fi, zontâ o gjavâ rêts o inviâ un pont di acès dome-locâl.</string>
     <string name="more_special_access_title">Altri</string>
     <string name="location_settings_title">Posizion</string>
-    <string name="location_settings_footer">        Il servizi di gjeolocalizazion al podarès doprâ sorzints come GPS, Wi\u2011Fi, rêts
-        mobilis e sensôrs par judâ a stimâ la posizion dal to dispositîf.
-    </string>
     <string name="location_toggle_title">Dopre posizion</string>
+    <string name="location_toggle_summary">        Dopre la posizion de tô machine cun dutis lis aplicazions che tu âs specificât.
+    </string>
     <string name="location_toggle_off_warning">        Se tu lu disativis, l\'acès ae posizion al vignarà gjavât a dutis lis aplicazions gjavadis chês che a coventin pe assistence ae vuide
     </string>
     <string name="adas_location_toggle_off_warning">        Se tu disativis cheste impostazion, lis aplicazions di assistence ae vuide che si
@@ -442,13 +453,37 @@
     </string>
     <string name="adas_location_toggle_confirm_label">        Disative distès
     </string>
+    <string name="adas_location_toggle_popup_summary">        Nol è pussibil cambiâ cheste impostazion e e je stade disativade dal produtôr de machine.
+    </string>
+    <string name="adas_location_toggle_title">        Funzions che ti judin te vuide
+    </string>
+    <string name="adas_location_toggle_summary">        Permet aes funzionalitâts integradis, aprovadis dal produtôr de tô machine, di acedi
+        ae sô posizion.
+    </string>
     <string name="location_recently_accessed">Utilizazions resintis</string>
     <string name="location_settings_recently_accessed_title">Utilizazions resintis</string>
     <string name="location_settings_recently_accessed_view_all_title">Viôt dutis</string>
     <string name="location_no_recent_access">Nissune aplicazion resinte</string>
+    <string name="driver_assistance_label">        <xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Assistence ae vuide \u2022
+        Domandât acès    </string>
+    <string name="location_adas_apps_list_title">        Funzions che ti judin te vuide
+    </string>
+    <string name="location_driver_assistance_privacy_policy_button_text">Politiche</string>
     <string name="location_settings_app_permissions_title">Permès a nivel di aplicazion</string>
+    <string name="location_settings_app_permissions_summary">        Gjestìs permès individuâi des aplicazions
+    </string>
     <string name="location_settings_services_title">Servizis di gjeolocalizazion</string>
     <string name="location_use_location_title">Dopre posizion</string>
+    <string name="location_access_settings_title">Acès ae posizion</string>
+    <string name="location_access_settings_summary">        Sielç se lis aplicazions a puedin acedi ae posizion de tô machine
+    </string>
+    <string name="location_access_disclaimer_summary">        Il produtôr de tô machine al podarà distès otignî la posizion dal automobil. Tu puedis revisionâ
+        lis lôr politichis par vê plui informazions.
+    </string>
+    <string name="location_adas_app_info_summary">        Chestis funzions integradis a domandin acès ae posizion de tô machine par assisti cu la
+        vuide.\n\nScuvierç di plui su cemût che ogni aplicazion e dopre i dâts de tô posizion, leint lis lôr Politichis su la
+        Riservatece.
+    </string>
     <string name="microphone_settings_title">Microfon</string>
     <string name="microphone_toggle_title">Dopre microfon</string>
     <string name="microphone_toggle_summary">Permet a dutis lis aplicazions di acedi al to microfon</string>
@@ -468,6 +503,8 @@
     <string name="system_update_settings_title">Inzornaments di sisteme</string>
     <string name="system_advanced_title">Avanzadis</string>
     <string name="system_advanced_summary">Informazions, informazions legâls, ripristinament e altri</string>
+    <string name="restart_infotainment_system_title">Torne invie il sisteme di infotainment</string>
+    <string name="restart_infotainment_system_dialog_text">Il gnûf inviament dal to sisteme di infotainment al pues puartâ vie cualchi minût. Desideristu continuâ?</string>
     <string name="continue_confirmation">Continue</string>
     <string name="firmware_version">Version di Android</string>
     <string name="security_patch">Nivel de corezion di sigurece di Android</string>
@@ -512,7 +549,11 @@
     <string name="developer_options_settings">Opzions pal svilupadôr</string>
     <string name="reset_options_title">Opzions di ripristinament</string>
     <string name="reset_options_summary">Ripristinament di rêt, aplicazions o dispositîf</string>
+    <string name="reset_network_title">Ripristine Wi\u2011Fi e Bluetooth</string>
+    <string name="reset_network_desc">Cheste operazion e ripristinarà lis impostazions dal Wi\u2011Fi e dal Bluetooth, gjavant de memorie lis conessions precedentis:</string>
+    <string name="reset_network_item_wifi"><li>Rêts Wi\u2011Fi e passwords</li></string>
     <string name="reset_network_item_mobile"><li>Dâts mobii</li></string>
+    <string name="reset_network_item_bluetooth"><li>Telefons e altris dispositîfs Bluetooth</li></string>
     <string name="reset_esim_title">Scancele dutis lis eSIMs dal veicul</string>
     <string name="reset_esim_desc">Cheste operazion no anularà il to plan dai servizis.</string>
     <string name="reset_esim_error_title">Impussibil ripristinâ lis eSIMs</string>
@@ -562,7 +603,7 @@
     <string name="confirm_grant_admin">Sì, rint aministradôr</string>
     <string name="create_user_permission_title">Cree gnûfs profîi</string>
     <string name="outgoing_calls_permission_title">Fâ telefonadis</string>
-    <string name="sms_messaging_permission_title">Messaçs midiant dâts mobii de automobil</string>
+    <string name="sms_messaging_permission_title">Messaçs midiant dâts mobii de machine</string>
     <string name="install_apps_permission_title">Instalazion di gnovis aplicazions</string>
     <string name="uninstall_apps_permission_title">Disinstalazion di aplicazions</string>
     <string name="user_add_user_menu">Zonte profîl</string>
@@ -807,6 +848,8 @@
     <string name="exit_retail_mode_dialog_confirmation_button_text">Siere dimostrazion</string>
     <string name="suggestion_dismiss_button">IGNORE</string>
     <string name="restricted_while_driving">Funzion no disponibile intant che tu vuidis</string>
+    <string name="restricted_for_passenger">Domande al vuidadôr di cambiâ la impostazion</string>
+    <string name="restricted_for_driver">No tu puedis eseguî cheste azion</string>
     <string name="add_user_restricted_while_driving">Impussibil zontâ il profîl intant che tu vuidis</string>
     <string name="default_search_query">Cîr</string>
     <string name="assistant_and_voice_setting_title">Assistent e vôs</string>
@@ -822,9 +865,11 @@
     <string name="add_a_profile_button_text">Zonte un profîl</string>
     <string name="delete_this_profile_text">Elimine chest profîl</string>
     <string name="add_profile_text">Zonte profîl</string>
+    <string name="cannot_remove_driver_profile">Cumò, chest profîl al è jentrât come vuidadôr. Torne prove cuant che nol ven doprât come vuidadôr.</string>
     <string name="qc_display_brightness">Luminositât dal schermi</string>
     <string name="qc_bluetooth_off_devices_info">Par viodi i tiei dispositîfs, ative il Bluetooth</string>
     <string name="qc_bluetooth_on_no_devices_info">Par associâ un dispositîf, vierç lis impostazions dal Bluetooth</string>
+    <string name="qc_ui_mode_title">Teme</string>
     <string name="device_admin_add_title">Aministradôr di sisteme dal infotainment</string>
     <string name="device_admin_activated_apps">Aplicazions ativadis</string>
     <string name="device_admin_deactivated_apps">Aplicazions disativadis</string>

@@ -219,6 +219,9 @@
     <string name="quick_settings_dnd_label">Dim Tarfu</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_detail_empty_text">Dim dyfeisiau wedi\'u paru ar gael</string>
+    <string name="pair_new_bluetooth_devices">Paru â dyfais newydd</string>
+    <string name="see_all_bluetooth_devices">Gweld y cwbl</string>
+    <string name="quick_settings_bluetooth_device_connected">Wedi cysylltu</string>
     <string name="quick_settings_bluetooth_secondary_label_battery_level"><xliff:g id="battery_level_as_percentage">%s</xliff:g> batri</string>
     <string name="quick_settings_bluetooth_secondary_label_audio">Sain</string>
     <string name="quick_settings_bluetooth_secondary_label_headset">Clustffonau</string>
@@ -244,7 +247,6 @@
     <string name="quick_settings_casting">Yn bwrw</string>
     <string name="quick_settings_cast_device_default_name">Dyfais dienw</string>
     <string name="quick_settings_cast_detail_empty_text">Dim dyfeisiau ar gael</string>
-    <string name="quick_settings_cast_no_wifi">Wi\u2011Fi heb gysylltu</string>
     <string name="quick_settings_brightness_dialog_title">Disgleirdeb</string>
     <string name="quick_settings_inversion_label">Gwrthdroad lliwiau</string>
     <string name="quick_settings_color_correction_label">Cywiriad lliw</string>
@@ -293,6 +295,14 @@
     <string name="quick_settings_screen_record_label">Recordio\u2019r sgrin</string>
     <string name="quick_settings_screen_record_start">Dechrau</string>
     <string name="quick_settings_screen_record_stop">Stopio</string>
+    <string name="qs_record_issue_start">Dechrau</string>
+    <string name="qs_record_issue_stop">Stopio</string>
+    <string name="qs_record_issue_dropdown_screenrecord">Recordio\u2019r sgrin</string>
+    <string-array name="qs_record_issue_types">
+        <item>Performance</item>
+        <item>User Interface</item>
+        <item>Batri</item>
+    </string-array>
     <string name="quick_settings_onehanded_label">Modd un llaw</string>
     <string name="sensor_privacy_start_use_mic_dialog_title">Dadrwystro meicroffon y ddyfais?</string>
     <string name="sensor_privacy_start_use_camera_dialog_title">Dadrwystro camera\u2019r dyfais?</string>
@@ -356,6 +366,8 @@
     <string name="keyguard_indication_charging_time_fast"><xliff:g id="percentage">%2$s</xliff:g> • Yn gwefru\u2019n gyflym • Llawn mewn <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
     <string name="keyguard_indication_charging_time_slowly"><xliff:g id="percentage">%2$s</xliff:g> • Yn gwefru\u2019n araf • Llawn mewn <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
     <string name="keyguard_indication_charging_time_dock"><xliff:g id="percentage" example="20%">%2$s</xliff:g> • Yn gwefru • Llawn mewn <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
+    <string name="button_to_remove_widget">Tynnu</string>
+    <string name="hub_mode_editing_exit_button_text">Cwblhau</string>
     <string name="accessibility_multi_user_switch_switcher">Newid defnyddiwr</string>
     <string name="accessibility_multi_user_list_switcher">dewislen tynnu i lawr</string>
     <string name="guest_exit_guest_dialog_message">Caiff holl apiau a data\'r sesiwn hon eu dileu.</string>
@@ -609,10 +621,6 @@
     <string name="keyboard_key_button_template">Botwm <xliff:g id="name">%1$s</xliff:g></string>
     <string name="keyboard_key_home">Cartref</string>
     <string name="keyboard_key_back">Nôl</string>
-    <string name="keyboard_key_dpad_up">I fyny</string>
-    <string name="keyboard_key_dpad_down">I lawr</string>
-    <string name="keyboard_key_dpad_left">Chwith</string>
-    <string name="keyboard_key_dpad_right">De</string>
     <string name="keyboard_key_dpad_center">Canol</string>
     <string name="keyboard_key_tab">Tab</string>
     <string name="keyboard_key_space">Bwlch</string>
@@ -642,11 +650,13 @@
     <string name="keyboard_shortcut_group_system_switch_input">Newid gosodiad y bysellfwrdd</string>
     <string name="keyboard_shortcut_search_category_system">System</string>
     <string name="keyboard_shortcut_search_category_input">Mewnbwn</string>
+    <string name="group_system_access_system_settings">Agor gosodiadau</string>
     <string name="group_system_lock_screen">Sgrin cloi</string>
     <string name="keyboard_shortcut_group_input">Mewnbwn</string>
     <string name="keyboard_shortcut_group_applications">Apiau</string>
-    <string name="keyboard_shortcut_group_applications_assist">Cymorth</string>
+    <string name="keyboard_shortcut_group_applications_browser">Porwr</string>
     <string name="keyboard_shortcut_group_applications_contacts">Cysylltiadau</string>
+    <string name="keyboard_shortcut_group_applications_email">Ebost</string>
     <string name="keyboard_shortcut_group_applications_sms">SMS</string>
     <string name="keyboard_shortcut_group_applications_music">Cerddoriaeth</string>
     <string name="keyboard_shortcut_group_applications_calendar">Calendr</string>
@@ -1084,6 +1094,7 @@ two {Ychwanegwyd # reolydd.}
     <string name="camera_and_microphone_blocked_dream_overlay_content_description">Camera a meicroffon wedi\u2019u rhwystro</string>
     <string name="microphone_blocked_dream_overlay_content_description">Meicroffon wedi\u2019i rwystro</string>
     <string name="priority_mode_dream_overlay_content_description">Modd blaenoriaeth ymlaen</string>
+    <string name="dismiss_dialog">Diystyru</string>
     <string name="privacy_dialog_done_button">Cwblhau</string>
     <string name="privacy_dialog_collapse_action">Lleihau</string>
 </resources>

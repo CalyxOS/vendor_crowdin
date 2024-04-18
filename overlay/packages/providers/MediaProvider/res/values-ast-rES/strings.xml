@@ -14,19 +14,23 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="uid_label">Multimedia</string>
-    <string name="app_label">Almacenamientu multimedia</string>
-    <string name="picker_app_label">Multimedia</string>
-    <string name="artist_label">Artista</string>
-    <string name="unknown">Descripción desconocida</string>
-    <string name="root_images">Imáxenes</string>
-    <string name="root_videos">Vídeos</string>
-    <string name="root_audio">Audiu</string>
-    <string name="root_documents">Documentos</string>
-    <string name="cache_clearing_dialog_title">Borráu de los ficheros temporales de les aplicaciones</string>
-    <string name="cache_clearing_dialog_text">«<xliff:g id="app_seeking_permission" example="File manager">%s</xliff:g>» quier borrar dalgunos ficheros temporales. Esta aición pue aumentar el consumu de la batería o de los datos móviles.</string>
-    <string name="cache_clearing_in_progress_title">Borrando los ficheros temporales de les aplicaciones\u2026</string>
-    <string name="clear">Borrar</string>
+    <string name="picker_photos">Semeyes</string>
+    <string name="picker_videos">@string/root_videos</string>
+    <string name="picker_albums">Álbumes</string>
+    <string name="picker_profile_work_paused_title">Les aplicaciones llaborales tán en posa</string>
+    <string name="picker_privacy_message">Esta aplicación namás pue acceder a les semeyes que seleiciones</string>
+    <string name="picker_album_item_count"> {count, plural,
+        one {}=1    {<xliff:g id="count" example="1">^1</xliff:g> elementu}
+        other {<xliff:g id="count" example="42">^1</xliff:g> elementos}
+    }</string>
+    <string name="picker_category_camera">Cámara</string>
+    <string name="picker_category_downloads">Descargues</string>
+    <string name="picker_category_favorites">Favoritos</string>
+    <string name="picker_category_screenshots">Captures de pantalla</string>
+    <string name="picker_category_videos">@string/root_videos</string>
+    <string name="picker_photo">Semeya</string>
+    <string name="picker_gif">GIF</string>
+    <string name="preloading_cancel_button">Encaboxar</string>
     <string name="transcode_denied">«<xliff:g id="app_name" example="File manager">%s</xliff:g>» nun pue procesar los ficheros multimedia</string>
     <string name="transcode_processing">Procesando\'l conteníu multimedia…</string>
     <string name="transcode_cancel">Encaboxar</string>

@@ -29,6 +29,8 @@
     <string name="enabled">Atîf</string>
     <string name="disabled">Disativade</string>
     <string name="unavailable">No disponibil</string>
+    <string name="allow">Permet</string>
+    <string name="deny">Dinee</string>
     <string name="header_category_suggestions">Sugjeriments</string>
     <string name="header_category_quick_settings">Impostazions rapidis</string>
     <string name="header_category_general_settings">Impostazions gjenerâls</string>
@@ -65,6 +67,7 @@
     <string name="privacy_app_settings_category">Impostazions aplicazion</string>
     <string name="privacy_category_summary">Posizion, utilizazion e diagnostiche, publicitât</string>
     <string name="add_account">Zonte account</string>
+    <string name="unknown_account">Account no cognossût</string>
     <string name="account_header_remove_account">Gjave account</string>
     <string name="account_sync">Sielç aplicazions sincronizadis</string>
     <string name="sync_now">Sincronize cumò</string>
@@ -112,6 +115,8 @@
     <string name="device_backup_restore">Backup e ripristinament</string>
     <string name="device_factory_reset">Ripristinament dai dâts di fabriche</string>
     <string name="device_calibration">Calibradure</string>
+    <string name="device_energy_saver">Temporizadôr di distudament</string>
+    <string name="device_energy_saver_summary">Stabilìs i temporizadôrs par distudâ la TV e sparagnâ energjie</string>
     <string name="device_fastpair">Dispositîfs</string>
     <string name="surround_sound_select_formats">Selezione i formâts</string>
     <string name="surround_sound_category_title">Sun surround</string>
@@ -119,6 +124,7 @@
     <string name="surround_sound_format_e_ac3">Dolby Digital Plus</string>
     <string name="surround_sound_format_dts">DTS</string>
     <string name="surround_sound_format_dts_hd">DTS-HD</string>
+    <string name="surround_sound_format_dts_uhd">DTS:X</string>
     <string name="surround_sound_format_dolby_mat">Dolby Atmos cun Dolby TrueHD</string>
     <string name="surround_sound_format_dolby_truehd">Dolby TrueHD</string>
     <string name="surround_sound_format_e_ac3_joc">Dolby Atmos cun Dolby Digital Plus</string>
@@ -161,10 +167,77 @@
     <string name="hdmi_cec_settings_title">HDMI-CEC</string>
     <string name="advanced_sound_settings_title">Impostazions avanzadis dal sun</string>
     <string name="game_mode_title">Permet modalitât zûc</string>
+    <string name="match_content_dynamic_range_title">Adate al interval dinamic dai contignûts</string>
+    <string name="match_content_dynamic_range_summary">Se tu ativis cheste opzion, il sisteme al passarà
+        di un formât a intervai dinamics a chel altri par adatâsi ai contignûts. Cheste operazion e podarès
+        puartâ a schermadis neris dilunc il passaç di un formât a chel altri.\n\nFâs clic su 
+        Impostazions avanzadis schermi par vê plui opzions sul interval dinamic.
+    </string>
+    <string name="preferred_dynamic_range_title">Interval dinamic preferît</string>
+    <string name="preferred_dynamic_range_selection_system_title">Conversion preferide dal sisteme</string>
+    <string name="preferred_dynamic_range_selection_system_desc">Lasse che il sisteme al gjestissi la conversion
+        dai formâts
+    </string>
+    <string name="preferred_dynamic_range_selection_system_summary">Se cheste opzion e je selezionade,
+        il sisteme al determinarà un interval dinamic adat di inviâ al to schermi e al convertirà
+        i contignûts a chest interval dinamic, daûr di ce che al covente.</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc">Si adate simpri al formât
+        dai contignûts</string>
+    <string name="preferred_dynamic_range_selection_force_title">Sfuarce conversion</string>
+    <string name="preferred_dynamic_range_selection_force_desc">Al sfuarce la conversion al formât
+        preferît</string>
+    <string name="preferred_dynamic_range_selection_force_summary">Sfuarce la conversion a
+        un formât preferît. La conversion sfuarçade e podarès lâ a tocjâ altris impostazions te
+        Modalitât di visualizazion o tal formât HDR.
+    </string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title">Simpri a SDR</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title">Simpri a
+        <xliff:g id="hdr_type" example="Dolby Vision">%s</xliff:g></string>
+    <string name="preferred_dynamic_range_force_dialog_title">Desideristu sfuarçâ la jessude
+        HDR?</string>
+    <string name="preferred_dynamic_range_force_dialog_desc">Come impostazion predefinide la conversion e
+        vignarà sfuarçade a <xliff:g id="hdr_type" example="Dolby Vision">%s</xliff:g>.</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue">Il to schermi al funzionarà ae
+        risoluzion 1080p a 60Hz. Cheste opzion no je compatibile cul to schermi cuant che al funzione
+         ae risoluzion 4k a 60Hz.</string>
+    <string name="selection_dolby_vision_not_supported_sidebar">Dolby Vision nol è supuartât in cheste
+        risoluzion. Se tu ativis a man il Dolby Vision, la risoluzion dal to schermi e vignarà
+        cambiade a 1080p a 60Hz</string>
+    <string name="manual_dolby_vision_format_on_4k60_title">Cambiâ la risoluzion a 1080p a 60Hz?</string>
+    <string name="dynamic_range_selection_force_dv_title">Sfuarce simpri la conversion a Dolby Vision
+    </string>
+    <string name="dynamic_range_selection_force_dv_summary">Se Dolby Vision al è disativât tai Formâts
+        HDR tes Impostazions avanzadis dal schermi, il sfuarçament de conversion a Dolby Vision
+        al tornarà a ativâlu.
+    </string>
+    <string name="dynamic_range_selection_force_hdr10_title">Sfuarce simpri la conversion a HDR10
+    </string>
+    <string name="dynamic_range_selection_force_hdr10_summary">Se HDR10 al è disativât tai Formâts
+        HDR tes Impostazions avanzadis dal schermi, il sfuarçament de conversion a HDR10 al tornarà a ativâlu.
+    </string>
+    <string name="dynamic_range_selection_force_hlg_title">Sfuarce simpri la conversion a HLG
+    </string>
+    <string name="dynamic_range_selection_force_hlg_summary">Se HLG al è disativât tai Formâts
+        HDR tes Impostazions avanzadis dal schermi, il sfuarçament de conversion a HLG al tornarà a ativâlu.
+    </string>
+    <string name="dynamic_range_selection_force_hdr10plus_title">Sfuarce simpri la conversion a HDR10+
+    </string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary">Se HDR10+ al è disativât tai Formâts
+        HDR tes Impostazions avanzadis dal schermi, il sfuarçament de conversion a HDR10+ al tornarà a ativâlu.
+    </string>
+    <string name="dynamic_range_selection_force_sdr_title">Sfuarce simpri la conversion a SDR
+    </string>
+    <string name="dynamic_range_selection_force_sdr_summary">Il sfuarçament de conversion a SDR al disativarà ducj
+        i formâts intai Formâts HDR tes Impostazions avanzadis dal schermi.
+    </string>
     <string name="match_content_frame_rate_title">Adate ae frecuence di fotograms dai contignûts</string>
+    <string name="match_content_frame_rate_seamless">Dome cence soluzion di continuitât</string>
     <string name="match_content_frame_rate_seamless_summary">Se la aplicazion lu domande, la jessude
         dal dispositîf e corispuindarà ae frecuence di fotograms origjinâl dai contignûts
         che tu stâs cjalant DOME se al tô TV e pues fâ une transizion fluide.  </string>
+    <string name="match_content_frame_rate_seamless_not_supported_summary">Il schermi colegât
+        nol supuarte lis transizions cence soluzion di continuitât des frecuencis di inzornament. 
+        Cheste opzion no varà efiets gjavant che no tu ledis a doprâ un schermi che lis supaurte.</string>
     <string name="match_content_frame_rate_non_seamless">Simpri</string>
     <string name="match_content_frame_rate_non_seamless_summary">Se la aplicazion lu domande, il to
         dispositîf al cumbinarà la jessude ae frecuence di fotograms origjinâl dal contignût
@@ -180,17 +253,17 @@
     <string name="font_scale_preview_text_title" translation_description="Translate manually. No not adopt any copyrighted material for translation.">        Il maraveôs mâc di Oz
     </string>
     <string name="font_scale_preview_text_subtitle">        Cjapitul 11: La maraveose citât di smeralt di Oz</string>
-    <string name="font_scale_preview_text_body">        Aben che i lôr voi a jerin protets des lints verdis, Dorothy e i siei amîs a restarin subite incantesemâts dal sflandôr de maraveose Citât.
-        Su lis stradis si davin lis bielis cjasis fatis di marmul vert e tampiestadis dapardut di smeralts slusints.
-        A cjaminarin dilunc un marcjepît fat dal stes marmul vert e là che i blocs a jerin metûts dongje a stavin riis di smeralts incassâts e slusints ae clare lûs sflandorose dal soreli.
-        I veris dai barcons a jerin verts; ancje il cîl parsore de Citât al veve une sfumadure verde e i rais dal soreli a jerin verts.
-        \n\nE jere tante int, oms, feminis e fruts che a cjaminavin, ducj a jerin vistûts cun vistîts verts e a vevin la piel sul verdulin.
-        A cjalavin Dorothy e la sô strambe compagnie cun voi maraveâts e ducj i fruts a scjampavin e si platavin daûr des lôr maris cuant che a viodevin il Leon; ma nissun ur cjacarà.
-        A jerin tantis buteghis vie pe strade e Dorothy e viodè che dut ce che al stave dentri al jere vert.
-        A vignivin vendudis caramelis verdis e pop-corn verts e cussì ancje scarpis verdis, cjapiei verts e vistîts verts di ogni sorte.
-        Intun puest un om al vendeve limonade verde e cuant che i fruts le compravin Dorothy e podè viodi che le paiavin cun minûts verts.
-        \n\nAl someave che no fossin ni cjavai ni bestiis di cualsisei gjenar; i oms a puartavis ator la robe in piçui cjaruçs verts che a sburtavin denant di lôr.
-        Ducj a someavin contents, sodisfats e florits.
+    <string name="font_scale_preview_text_body">        Ancje cui voi protets dai ocjâi verts Dorothy i siei amîs sul moment a restarin inceadis dal sflandôr de maraveose citât.
+        Dilunc des stradis a jerin bielis cjasis e dutis a jerin costruidis cun marmul vert e tampiestadis dapardut cun smeralts slusints.
+        A cjaminarin sore di un paviment dal stes marmul vert e là che i blocs si univin a jerin riis di smeralts, incassâts un dongje di chel altri, e slusints te lûs dal soreli.
+        I veris dai barcons a jerin di veri vert; ancje il cîl parsore de citât al veve une tinte verde, e verts a jerin i rais dal soreli.
+        \n\nE jere tante int, oms, feminis e fruts, che a cjaminavin ator, cun vistîts di colôr vert e a vevin piels sul verdulin.
+        A cjalavin Dorothy e la sô strambe compagnie cun voi maraveâts e i fruts a scjamavin ducj par platâsi daûr des maris cuant che a viodevin il leon; ma nissun ur cjacarave.
+        Te strade a jerin tancj negozis e Dorothy e viodè che dut là dentri al jere vert.
+        Caramelis verdis e pop-corn vert a vignivin vendûts, e cussì ancje scarpis verdis, cjapiei verts e vistîts verts di ogni sorte.
+        Intun puest un om al stave vendint limonade verde e cuant che i fruts le compravin Dorothy e podè viodi che a paiavin cun becins verts.
+        \n\nAl someave che no fossin ni cjavai ni animâi di ogni sorte; i oms a puartavin la robe ator in piçui cjaruçs verts, che a sburtavin.
+        Ducj a someavin contents e prospars.
     </string>
     <string name="hdr_format_selection_title">Selezion formât</string>
     <string name="hdr_format_selection_auto_title">Automatiche</string>
@@ -199,6 +272,7 @@
     <string name="hdr_format_selection_manual_desc">Sielç a man i formâts tra chei disponibii</string>
     <string name="hdr_format_supported_title">FORMÂTS SUPUARTÂTS</string>
     <string name="hdr_format_unsupported_title">FORMÂTS NO SUPUARTÂTS</string>
+    <string name="hdr_format_sdr">SDR</string>
     <string name="hdr_format_hdr10">HDR10</string>
     <string name="hdr_format_hlg">HLG</string>
     <string name="hdr_format_hdr10plus">HDR10+</string>
@@ -220,10 +294,19 @@
     <string name="resolution_selection_title">Risoluzion</string>
     <string name="resolution_selection_auto_title">Automatiche</string>
     <string name="resolution_selection_dialog_title">La risoluzion e je stade cambiade</string>
+    <string name="resolution_selection_with_mode_dialog_title">Passâ ae risoluzion %1$s?</string>
     <string name="resolution_selection_dialog_desc">Selezione Va ben par doprâ %1$s di cumò indevant.</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc">Dolby Vision nol è 
+        supuartât te modalitât %1$s e al vignarà disativât tes \"Impostazions avanzadis dal schermi\"
+        </string>
+    <string name="resolution_hdr_description_info">Cheste modalitât e supuarte: %1$s\nSu cualchi TV tu varâs
+        di ativâ l\'HDMI miorât par abilitâ plui formats HDR. Controle lis impostazions de tô TV par viodi se
+        cheste funzion e je supuartade.</string>
     <string name="resolution_selection_dialog_cancel">Anule</string>
     <string name="resolution_selection_dialog_ok">Va ben</string>
     <string name="resolution_selection_hz">Hz</string>
+    <string name="resolution_display_mode">        <xliff:g id="resolution" example="1080p, 4k etc">%1$s</xliff:g>
+        (<xliff:g id="refresh-rate" example="60, 59.94 etc">%2$s</xliff:g> Hz)</string>
     <string name="device_storage_clear_cache_title">Netâ i dâts te cache?</string>
     <string name="device_storage_clear_cache_message">Si netarà ducj i dâts te cache des aplicazions.</string>
     <string name="accessories_add">Zonte acessori</string>
@@ -278,6 +361,7 @@
     <string name="bluetooth_connected_status">Conetût</string>
     <string name="bluetooth_disconnected_status">Disconetût</string>
     <string name="bluetooth_empty_list_user_restricted">No tu âs i permès par cambiâ lis impostazions Bluetooth.</string>
+    <string name="bluetooth_toggle_active_audio_output_title">Doprâ pal audio de TV</string>
     <string name="send_feedback">Mande coment</string>
     <string name="launch_help">Centri di assistence</string>
     <string name="system_cast">Google Cast</string>
@@ -360,6 +444,7 @@
     </string>
     <string name="do_disclosure_generic">Chest dispositîf al è gjestît de tô organizazion.</string>
     <string name="do_disclosure_with_name">Chest dispositîf al è gjestît di <xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>.</string>
+    <string name="hdr_capability">- %1$s</string>
     <string name="learn_more">Plui informazions</string>
     <string name="default_camera_app_title"> {count, plural,
         one {}=1    {Aplicazion fotocjamare}
@@ -392,7 +477,6 @@
     <string name="about_preference">Informazions</string>
     <string name="device_name">Non dal dispositîf</string>
     <string name="restart_button_label">Torne invie</string>
-    <string name="shutdown_button_label">Distude</string>
     <string name="about_legal_info">Informazions legâls</string>
     <string name="about_legal_license">Licencis open source di tiercis parts</string>
     <string name="about_terms_of_service">Notis legâls di Google</string>
@@ -672,6 +756,7 @@
     <string name="recently_accessed_show_all">Viôt dutis</string>
     <string name="microphone">Microfon</string>
     <string name="mic_toggle_title">Acès al microfon</string>
+    <string name="mic_remote_toggle_title">Acès al microfon sul telecomant</string>
     <string name="open_mic_permissions">Acès des aplicazions al microfon</string>
     <string name="microphone_physical_privacy_enabled_title">Acès al microfon blocât</string>
     <string name="microphone_physical_privacy_enabled_text">Par sblocâ e concedi l\'acès al microfon,
@@ -684,6 +769,22 @@
         sposte l\'interutôr pe riservatece dal dispositîf su la posizion di fotocjamare ative.</string>
     <string name="mic_toggle_info_title">Acès al microfon:
         <xliff:g id="sensor_state" example="On">%s</xliff:g></string>
+    <string name="mic_toggle_info_content">Se ativât, dutis lis aplicazions e i servizis cul permès par
+        acedi al microfon a rivaran a doprâlu.\n\nSe disativât, nissune aplicazion o servizi al rivarà
+        a acedi al microfon. Ma tu tu rivarâs distès a fevelâ cun Google Assistant
+        fracant il boton dal assistent sul telecomant.\n\nI dispositîfs audio che a doprin protocoi personalizâts pe
+        comunicazion cu la TV no son tocjâts di cheste impostazion.
+    </string>
+    <string name="mic_remote_toggle_on_info_title">Microfon ativât sul telecomant</string>
+    <string name="mic_remote_toggle_on_info_content">Google Assistant al rive a acedi al
+        microfon sul telecomant. Tu rivarâs a fevelâ cul assistent fracant il boton di Google
+        Assistant sul telecomant.
+    </string>
+    <string name="mic_remote_toggle_off_info_title">Microfon disativât sul telecomant</string>
+    <string name="mic_remote_toggle_off_info_content">No tu rivarâs a fevelâ cun Google Assistant
+        doprant il telecomant. Par rivâ a doprâ il boton di Google Assistant, ative l\'acès al
+        microfon.
+    </string>
     <string name="camera_toggle_info_title">Acès ae fotocjamare:
         <xliff:g id="sensor_state" example="On">%s</xliff:g></string>
     <string name="camera_toggle_info_content">Se cheste opzion e ven ativade, dutis lis aplicazions e i servizis autorizâts
@@ -713,15 +814,34 @@
     <string name="location_history_desc">Se la Cronologjie des posizions e je ative par chest account, Google al pues archiviâ i dâts de posizion dal to dispositîf par podêle doprâ tes tôs aplicazions.\n\nPar esempli, Google Maps al pues dâti indicazions e Google Now al pues informâti sul trafic.\n\nTu puedis disativâ la Cronologjie des posizions cuant che tu vûs, ma se tu lu fasis tu le eliminarâs. Par viodi e gjestî la Cronologjie des posizions, visite maps.google.com/locationhistory.</string>
     <string name="delete_location_history_title">Elimine cronologjie des posizions</string>
     <string name="delete_location_history_desc">Cheste operazion e eliminarà dute la Cronologjie des posizions archiviade di chest dispositîf par chest account Google. Nol è pussibil tornâ indaûr di cheste eliminazion. Cualchi aplicazion, includude Google Now, no funzionarà plui.</string>
+    <string name="accessibility_screen_readers_category_title">Letôrs di schermi</string>
     <string name="accessibility_display_category_title">Schermi</string>
+    <string name="accessibility_interaction_controls_category_title">Controi di interazion</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title">Audio e test su schermi</string>
+    <string name="accessibility_experimental_category_title">Sperimentâls</string>
     <string name="accessibility_services_category_title">Servizis</string>
     <string name="accessibility_service_settings">Impostazions servizi</string>
+    <string name="accessibility_screen_reader_flattened_component_name">com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Test a contrast elevât</string>
+    <string name="accessibility_toggle_bold_text_preference_title">Test in neret</string>
+    <string name="accessibility_color_correction">Corezion dai colôrs</string>
+    <string name="color_correction_usage">Dopre corezion dai colôrs</string>
+    <string name="color_correction_color_mode">Modalitât colôr</string>
+    <string name="color_correction_mode_deuteranomaly">Deuteranomalie</string>
+    <string name="color_correction_mode_deuteranomaly_summary">Ros-vert</string>
+    <string name="color_correction_mode_protanomaly">Protanomalie</string>
+    <string name="color_correction_mode_protanomaly_summary">Ros-vert</string>
+    <string name="color_correction_mode_tritanomaly">Tritanomalie</string>
+    <string name="color_correction_mode_tritanomaly_summary">Blu-zâl</string>
+    <string name="color_correction_mode_grayscale">Scjale di grîs</string>
     <string name="palette_color_red">Ros</string>
+    <string name="palette_color_orange">Naranç</string>
     <string name="palette_color_yellow">Zâl</string>
     <string name="palette_color_green">Vert</string>
     <string name="palette_color_cyan">Ciano</string>
     <string name="palette_color_blue">Blu</string>
+    <string name="palette_color_purple">Viole</string>
+    <string name="palette_color_gray">Grîs</string>
     <string name="accessibility_shortcut">Scurte di acès facilitât</string>
     <string name="accessibility_shortcut_enable">Abilite scurte di acès facilitât</string>
     <string name="accessibility_shortcut_service">Servizi de scurte</string>
@@ -768,7 +888,7 @@
     <string name="system_accessibility_status">Ative</string>
     <string name="system_accessibility_config">Configurazion</string>
     <string name="system_accessibility_service_on_confirm_title">Doprâ <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
-    <string name="system_accessibility_service_on_confirm_desc"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> al pues tirâ dongje ducj i tescj che tu scrivis, gjavadis lis passwords. Chest al inclût informazions personâls come i numars di cjarte di credit.</string>
+    <string name="system_accessibility_service_on_confirm_desc"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> al rivarà a lei il schermi, a visualizâ contignûts sore di altris aplicazions, a segnâsi lis tôs interazions cu lis aplicazions o i sensôrs e a interagjî cu lis aplicazions par to cont.</string>
     <string name="system_accessibility_service_off_confirm_title">Fermâ <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
     <string name="system_accessibility_service_off_confirm_desc">Selezionant Va ben tu interomparâs <xliff:g id="service" example="TalkBack">%1$s</xliff:g>.</string>
     <string name="system_accessibility_tts_output">Sintesi vocâl</string>
@@ -790,7 +910,6 @@
     <string name="system_hdmi_optimization">Otimizazion HDMI</string>
     <string name="system_reboot_confirm">Tornâ a inviâ daurman?</string>
     <string name="system_desc_reboot_confirm">Par inzornâ cheste impostazion, al è necessari tornâ a inviâ il dispositîf</string>
-    <string name="system_shutdown_confirm">Distudâ daurman?</string>
     <string name="system_never_check">No sta controlâ mai</string>
     <string name="system_check_for_drm_content_only">Controle dome pai contignûts DRM</string>
     <string name="system_always_check">Controle simpri</string>
@@ -949,6 +1068,13 @@
     <string name="restricted_profile_customize_restrictions">Personalize limitazions</string>
     <string name="restricted_profile_configure_apps_description_loading">Un moment\u2026</string>
     <string name="restricted_profile_change_password_title">Cambie pin</string>
+    <string name="restricted_profile_create_preference_screen">Creâ profîl cun limitazions?</string>
+    <string name="restricted_profile_already_created_placeholder">Za creât</string>
+    <string name="restricted_profile_skip_action">Salte</string>
+    <string name="restricted_profile_create_pin_action">Cree PIN</string>
+    <string name="restricted_profile_enter_preference_screen">Jentrâ tal profîl limitât?</string>
+    <string name="restricted_profile_enter_not_found_placeholder">Nissun profîl cun limitazions</string>
+    <string name="restricted_profile_enter_already_entered_placeholder">Za jentrât</string>
     <string name="restriction_description"><xliff:g id="description">%1$s</xliff:g>\n<xliff:g id="value">%2$s</xliff:g></string>
     <string name="app_sees_restricted_accounts_and_controlled_by">Cheste aplicazion e pues acedi ai tiei accounts. Controlade di <xliff:g id="app">%1$s</xliff:g></string>
     <string name="pin_enter_unlock_channel">Inserìs il PIN par cjalâ chest canâl</string>
@@ -1001,6 +1127,23 @@
     <string name="device_daydreams_sleep_description">Il salve-schermi al partirà dopo chest periodi di inativitât. Se nol è selezionât nissun salve-schermi, il schermi si distudarà.</string>
     <string name="device_daydreams_sleep_summary">Dopo <xliff:g id="sleep_description" example="3 minutes">%1$s</xliff:g> di inativitât</string>
     <string name="device_energy_saver_screen_off">Distude il schermi</string>
+    <string name="device_energy_saver_timeout_description"><xliff:g id="sleep_description" example="4 hours">%1$s</xliff:g></string>
+    <string name="device_energy_saver_confirmation_title">Conferme impostazion di alimentazion e energjie</string>
+    <string name="device_energy_saver_confirmation_message">Lassant impiade la TV par tant timp al podarès aumentâ il consum di energjie</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title">Disative la impostazion di sparagn energjetic</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text">Conferme che il schermi nol à di distudâsi intant che tu cjalis contignûts. Ten iniments che in chest câs tu podaressis aumentâ il consum energjetic.</string>
+    <string name="device_energy_saver_sleep_timeout">Se inatîf</string>
+    <string name="device_energy_saver_attentive_timeout">Se atîf</string>
+    <string name="device_energy_saver_category_title">Disative in automatic</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title">Disative in automatic se inatîf</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title">Disative in automatic dilunc la riproduzion di contignûts</string>
+    <string name="device_energy_saver_validation_sleep">Il temporizadôr \"Se înatîf\" al à di sei plui curt dal temporizadôr \"Se atîf\"</string>
+    <string name="device_energy_saver_validation_attentive">Il temporizadôr \"Se atîf\" al à di sei plui lunc dal temporizadôr \"Se inatîf\"</string>
+    <string name="limit_network_in_standby_toggle_title">Limite la conession di rêt se in pause</string>
+    <string name="limit_network_in_standby_toggle_summary">Al dopre mancul energjie in modalitât in pause (standby)</string>
+    <string name="limit_network_in_standby_toggle_info">La TV e vignarà disconetude de rêt se in modalitât in pause (standby), gjavant il câs de ricezion di inzornaments automatics. Chest al podarès diminuî il consum energjetic de TV, dut câs al significhe che no tu rivarâs a doprâ funzions come Cast e Google Assistant intant che e je in pause.</string>
+    <string name="limit_network_in_standby_confirm_title">Permet la conession di rêt se in pause</string>
+    <string name="limit_network_in_standby_confirm_message">Consintint la conession di rêt se in pause, tu aumentarâs il consum di energjie in modalitât pause (standby).</string>
     <string name="backup_configure_account_default_summary">In chest moment nisun account al sta memorizant i dâts dai backups</string>
     <string name="backup_erase_dialog_message">Smeti di fâ il backup des tôs passwords Wi-Fi, dai segnelibris, des altris impostazions e dai dâts di aplicazion e scancelâ dutis lis copiis sui servidôrs di Google?</string>
     <string name="privacy_backup_data">Backup dai miei dâts</string>
@@ -1099,12 +1242,17 @@
     <string name="time_to_start_read_title">Timp prime di scomençâ a lei</string>
     <string name="time_to_valid_audio_title">Timp par convalidâ i dâts audio</string>
     <string name="empty_audio_duration_title">Durade dal audio vueit</string>
+    <string name="record_audio_source_title">Sorzint audio regjistrade</string>
+    <string name="record_audio_source_dialog_title">Selezione la sorzint audio regjistrade pe prossime regjistrazion</string>
+    <string name="recorded_microphones_title">Microfons regjistrâts</string>
     <string name="show_audio_recording_start_failed">Nol è stât pussibil scomençâ la regjistrazion audio.</string>
     <string name="show_audio_recording_failed">Regjistrazion audio falide.</string>
     <string name="title_data_saver">Sparagn dâts</string>
     <string name="summary_data_saver">Regole in automatic la cualitât video par doprâ mancul dâts mobii</string>
     <string name="title_data_alert">Utilizazion dâts e avîs</string>
     <string name="data_saver_header_info">Tu puedis conetiti a internet midiant il Wi-Fi, un cabli Ethernet o il pont di acès dal telefon.</string>
+    <string name="bluetooth_ask_discovery_title">Rint visibil a altris dispositîfs Bluetooth?</string>
+    <string name="bluetooth_ask_discovery_message">Une aplicazion e vûl rindi visibile la tô TV a altris dispositîfs Bluetooth par <xliff:g id="timeout">%1$d</xliff:g> seconts.</string>
     <string name="disabled_by_policy_title">Azion no consintude</string>
     <string name="disabled_by_policy_title_adjust_volume">Impussibil cambiâ il volum</string>
     <string name="disabled_by_policy_title_outgoing_calls">Clamadis no consintudis</string>
@@ -1157,6 +1305,8 @@
     <string name="network_connection_connect_successful">Conession lade a bon fin</string>
     <string name="network_connection_request_dialog_showall">Mostre dutis</string>
     <string name="progress_scanning">Daûr a cirî</string>
+    <string name="add_account_intent_not_available_dialog_message">Impussibil recuperâ dal autenticadôr l\'intent di zonte dal account.</string>
+    <string name="add_account_failed_dialog_message">Impussibil zontâ l\'account o il gjenar di account nol è disponibil.</string>
     <string name="channels_and_inputs_title">Canâi e jentradis</string>
     <string name="channels_and_inputs_summary">Canâi, jentradis esternis</string>
     <string name="channels_settings_title">Canâi</string>
@@ -1169,4 +1319,14 @@
     <string name="power_on_behavior">Compuartament al impiament</string>
     <string name="reset_options_title">Ripristinament</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label">Codiç di associazion ethernet</string>
+    <string name="energy_modes">Modalitâts di energjie</string>
+    <string name="energy_modes_summary">Miore la eficience energjetiche se la TV no ven doprade</string>
+    <string name="energy_mode_enables">E ative:</string>
+    <string name="energy_mode_eco_hint">Viôt che cheste modalitât e podarès aumentâ il consum energjetic dal dispositîf.</string>
+    <string name="energy_modes_confirmation_title">Ative \"<xliff:g id="energyModeName" example="Essential network features">%s</xliff:g>\"</string>
+    <string name="settings_find_my_remote_title">Cjate il gno telecomant</string>
+    <string name="settings_find_my_remote_description">Riprodûs un sun par localizâ il to telecomant Google TV se nol è tal so puest</string>
+    <string name="find_my_remote_slice_description">Frache il boton daûr dal to Google TV par riprodusi un sun sul telecomant par 30 seconts. Cheste operazion e funzione dome cui controi dal telecomant Google TV supuartâts.\n\nPar interompi il sun, frache un boton sul telecomant.</string>
+    <string name="find_my_remote_integration_hint">Cuant che Cjate il gno telecomant al è ativât, tu puedis riprodusi un sun par cjatâ il to telecomant Google TV se nol è tal so puest.</string>
+    <string name="find_my_remote_play_sound">Riprodûs sun</string>
 </resources>

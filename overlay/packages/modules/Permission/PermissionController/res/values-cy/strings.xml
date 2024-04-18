@@ -118,8 +118,6 @@
     <string name="all_permissions">Pob caniatâd</string>
     <string name="other_permissions">Galluoedd eraill yr ap</string>
     <string name="permission_request_title">Cais am ganiatâd</string>
-    <string name="wear_not_allowed_dlg_title">Android Wear</string>
-    <string name="wear_not_allowed_dlg_text">Gosod/dadosod gweithredoedd na sy\'n gydnaws â Wear.</string>
     <string name="permission_review_title_template_install">Dewisa pa bethau mae &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; yn cael mynediad iddynt</string>
     <string name="permission_review_title_template_update">Cafodd &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ei ddiweddaru.
 Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
@@ -290,6 +288,8 @@ Dewisa pa bethau i roi mynediad iddynt gan yr ap hwn.</string>
     <string name="auto_revoke_preference_summary">Tynnwyd caniatâd yn ôl i warchod dy breifatrwydd</string>
     <string name="background_location_access_reminder_notification_title">Cafodd <xliff:g id="app_name" example="Gmail">%s</xliff:g> dy leoliad wrth redeg yn y cefndir</string>
     <string name="background_location_access_reminder_notification_content">Gall yr ap hwn gael gwybod dy leoliad o hyd. Tapia i newid hyn.</string>
+    <string name="notification_listener_reminder_notification_content">Gall <xliff:g id="app_name" example="Gmail">%s</xliff:g> diystyrru, gweithredu ar, a chael mynediad at gynnwys o fewn dy hysbysiadau</string>
+    <string name="accessibility_access_reminder_notification_content">Gall <xliff:g id="app_name" example="Gmail">%s</xliff:g> weld dy sgrin a pherfformio gweithrediadau ar dy ddyfais. Mae ar apiau hygyrchedd angen y math hwn o fynediad er mwyn gweithio fel y bwriedir.</string>
     <string name="auto_revoke_after_notification_title">Tynnwyd caniatâd yr ap yn ôl i warchod dy breifatrwydd</string>
     <string name="auto_revoke_after_notification_content_one">Dyw <xliff:g id="app_name" example="Gmail">%s</xliff:g> heb ei ddefnyddio ers rhai misoedd. Tapia i adolygu.</string>
     <string name="auto_revoke_after_notification_content_two">Dyw <xliff:g id="app_name" example="Gmail">%s</xliff:g> ac 1 ap arall heb eu defnyddio ers rhai misoedd. Tapia i adolygu.</string>
@@ -510,11 +510,13 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="blocked_sensor_summary">Ar gyfer apiau a gwasanaethau</string>
     <string name="blocked_mic_summary">Gall data meicroffon dal i gael ei rannu os wyt ti\u2019n galw rhif argyfwng.</string>
     <string name="blocked_sensor_button_label">Newid</string>
+    <string name="safety_center_dashboard_page_title">Diogelwch a phreifatrwydd</string>
     <string name="safety_center_issue_card_dismiss_button">Diystyru</string>
     <string name="safety_center_issue_card_confirm_dismiss_button">Diystyru</string>
     <string name="safety_center_issue_card_cancel_dismiss_button">Diddymu</string>
     <string name="safety_center_entries_category_title">Gosodiadau</string>
     <string name="security_settings">Gosodiadau Diogelwch</string>
+    <string name="safety_privacy_qs_tile_title">Diogelwch a phreifatrwydd</string>
     <string name="safety_privacy_qs_tile_subtitle">Gwirio statws</string>
     <string name="permissions_removed_qs">Caniatâd wedi\'i dynnu yn ôl</string>
     <string name="manage_service_qs">Rheoli gwasanaeth</string>
@@ -545,6 +547,7 @@ Caniatáu <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> i uwchlwytho adr
     <string name="media_confirm_dialog_message_q_to_s_aural_deny">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os na chaiff yr ap hwn fynediad at ffeiliau sain a cherddoriaeth, ni fydd ganddo chwaith mynediad at luniau na fideos.</string>
     <string name="media_confirm_dialog_message_q_to_s_visual_allow">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os caiff yr ap hwn fynediad at luniau a fideos, mi fydd ganddo hefyd mynediad at ffeiliau sain a cherddoriaeth.</string>
     <string name="media_confirm_dialog_message_q_to_s_visual_deny">Nid yw\u2019r ap hwn yn cefnogi fersiwn diweddaraf Android. Os na chaiff yr ap hwn fynediad at ffeiliau sain a cherddoriaeth, ni fydd ganddo chwaith mynediad at luniau na fideos.</string>
+    <string name="safety_center_background_location_access_reminder_notification_content">Gall <xliff:g id="app_name" example="Gmail">%s</xliff:g> gael mynediad at dy leoliad o hyd, hyd yn oed pan nad yw\u2019r ap ar agor</string>
     <string name="perm_toggle_description">Ar gyfer apiau a gwasanaethau</string>
     <string name="safety_label_changes_gear_description">Gosodiadau</string>
 </resources>

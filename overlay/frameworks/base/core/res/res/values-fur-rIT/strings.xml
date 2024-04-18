@@ -19,6 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="byteShort">B</string>
+    <string name="fileSizeSuffix"><xliff:g id="number" example="123">%1$s</xliff:g> <xliff:g id="unit" example="B">%2$s</xliff:g></string>
     <string name="untitled">&lt;Cence non&gt;</string>
     <string name="emptyPhoneNumber">(Nissun numar di telefon)</string>
     <string name="unknownName">No cognossût</string>
@@ -40,6 +41,8 @@
     <string name="mismatchPin">I PINs inserîts no corispuindin.</string>
     <string name="invalidPin">Scrîf un PIN che al vedi di 4 a 8 numars.</string>
     <string name="invalidPuk">Scrîf un PUK che al sedi di almancul 8 cifris.</string>
+    <string name="needPuk">La tô SIM e je blocade cul PUK. Inserìs il codiç PUK par sblocâle.</string>
+    <string name="needPuk2">Inserìs il PUK2 par sblocâ la SIM.</string>
     <string name="enablePin">Operazion lade strucje, ative il Bloc SIM/RUIM.</string>
     <plurals name="pinpuk_attempts">
         <item quantity="one">Tu âs ancjemò <xliff:g id="number">%d</xliff:g> tentatîf prime che la SIM si blochi.</item>
@@ -47,6 +50,7 @@
     </plurals>
     <string name="imei">IMEI</string>
     <string name="meid">MEID</string>
+    <string name="ClipMmi">ID di chel che ti clame in jentrade</string>
     <string name="ClirMmi">Plate ID di chel che al clame in jessude</string>
     <string name="ColpMmi">ID linie conetude</string>
     <string name="ColrMmi">Limitazion ID linie conetude</string>
@@ -67,6 +71,8 @@
     <string name="CLIRDefaultOffNextCallOff">ID di chel che al clame metût come predefinît a no limitât. Prossime clamade: no limitât</string>
     <string name="serviceNotProvisioned">Servizi no furnît.</string>
     <string name="CLIRPermanent">No tu puedis cambiâ la impostazion dal ID di chel che al clame.</string>
+    <string name="auto_data_switch_title">Dâts passâts su <xliff:g id="carrierDisplay" example="Verizon">%s</xliff:g></string>
+    <string name="auto_data_switch_content">Tu puedis cambiâ chest valôr plui indenant tes Impostazions.</string>
     <string name="RestrictedOnDataTitle">Nissun servizi di dâts mobii</string>
     <string name="RestrictedOnEmergencyTitle">Clamadis di emergjence no disponibilis</string>
     <string name="RestrictedOnNormalTitle">Nissun servizi vôs</string>
@@ -131,6 +137,7 @@
     <string name="wfcSpnFormat_wifi">Wi-Fi</string>
     <string name="wfcSpnFormat_wifi_calling_wo_hyphen">Clamadis Wi-Fi</string>
     <string name="wfcSpnFormat_vowifi">VoWifi</string>
+    <string name="wfcSpnFormat_wifi_call">Clamade WiFi</string>
     <string name="wifi_calling_off_summary">Off</string>
     <string name="wfc_mode_wifi_preferred_summary">Clamade midiant Wi-Fi</string>
     <string name="wfc_mode_cellular_preferred_summary">Clamade midiant rêt mobile</string>
@@ -206,6 +213,10 @@
         profîl di lavôr di restâ disativât par plui di <xliff:g id="number" example="3">%3$d</xliff:g> dîs.
     </string>
     <string name="personal_apps_suspended_turn_profile_on">Ative</string>
+    <string name="work_profile_telephony_paused_title">Clamadis e messaçs a son disativâts</string>
+    <string name="work_profile_telephony_paused_text">Tu âs metût in pause lis aplicazions di lavôr.
+        No tu ricevarâs clamadis telefonichis o messaçs di test.</string>
+    <string name="work_profile_telephony_paused_turn_on_button">Fin-pause aplic. di lavôr</string>
     <string name="me">Jo</string>
     <string name="power_dialog" product="tablet">Opzions tablet</string>
     <string name="power_dialog" product="tv">Opzions di Android TV</string>
@@ -298,6 +309,7 @@
     <string name="notification_channel_foreground_service">Aplicazions che a consumin batarie</string>
     <string name="notification_channel_accessibility_magnification">Ingrandiment</string>
     <string name="notification_channel_accessibility_security_policy">Utilizazion acès facilitât</string>
+    <string name="notification_channel_display">Schermi</string>
     <string name="foreground_service_app_in_background"><xliff:g id="app_name">%1$s</xliff:g> e sta
         consumant batarie</string>
     <string name="foreground_service_apps_in_background"><xliff:g id="number">%1$d</xliff:g> aplicazions
@@ -310,6 +322,8 @@
     <string name="android_system_label">Sisteme Android</string>
     <string name="user_owner_label">Passe al profîl personâl</string>
     <string name="managed_profile_label">Passe al profîl di lavôr</string>
+    <string name="user_owner_app_label">Passe a <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> personâl</string>
+    <string name="managed_profile_app_label">Passe a <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> di lavôr</string>
     <string name="permgrouplab_contacts">Contats</string>
     <string name="permgroupdesc_contacts">acedi ai tiei contats</string>
     <string name="permgrouplab_location">Posizion</string>
@@ -438,16 +452,48 @@
       esecuzion di altris aplicazions.</string>
     <string name="permlab_systemAlertWindow">Cheste aplicazion e pues parâsi denant di altris aplicazions</string>
     <string name="permdesc_systemAlertWindow">Cheste aplicazion e pues parâsi parsore di altris aplicazions o altris parts dal schermi. Chest al pues interferî cu la normâl utilizazion di aplicazions e cambiâ l\'aspiet di altris aplicazions.</string>
+    <string name="permlab_hideOverlayWindows">platâ soreposizions di altris aplicazions</string>
+    <string name="permdesc_hideOverlayWindows">Cheste aplicazion e pues domandâ che il sisteme al plati lis soreposizions che a àn origjin di altris aplicazions, cussì che chês no vegnin mostradis sore di cheste aplicazion.</string>
     <string name="permlab_runInBackground">esecuzion in sotfont</string>
     <string name="permdesc_runInBackground">Cheste aplicazion e pues zirâ in sotfont. Chest al pues consumâ di plui la batarie.</string>
     <string name="permlab_useDataInBackground">doprâ dâts in sotfont</string>
     <string name="permdesc_useDataInBackground">Cheste aplicazion e pues doprâ dâts in sotfont. Chest al pues aumentâ il consum di dâts.</string>
+    <string name="permlab_schedule_exact_alarm">Programe azions temporizadis in mût precîs</string>
+    <string name="permdesc_schedule_exact_alarm">Cheste aplicazion e pues programâ il lavôr par che al sucedi ae ore desiderade. Chest al significhe ancje che la aplicazion e pues zirâ cuant che no tu stâs doprant il dispositîf in mût atîf.</string>
+    <string name="permlab_use_exact_alarm">Programe sveis o pro memoria di events</string>
+    <string name="permdesc_use_exact_alarm">Cheste aplicazion e pues programâ azions come sveis e pro memoria par dâti notifiche ae ore desiderade tal futûr. </string>
     <string name="permlab_persistentActivity">esecuzion continue de aplicazion</string>
     <string name="permdesc_persistentActivity" product="tablet">Al permet di fâ restâ in memorie part de aplicazion o dute interie. Chest al pues limitâ la memorie disponibile par altris aplicazions, morestant il tablet.</string>
     <string name="permdesc_persistentActivity" product="tv">Al permet di fâ restâ in memorie part de aplicazion o dute interie. Chest al pues limitâ la memorie disponibile par altris aplicazions, morestant il to dispositîf Android TV.</string>
     <string name="permdesc_persistentActivity" product="default">Al permet di fâ restâ in memorie part de aplicazion o dute interie. Chest al pues limitâ la memorie disponibile par altris aplicazions, morestant il telefon.</string>
     <string name="permlab_foregroundService">eseguî servizis in prin plan</string>
     <string name="permdesc_foregroundService">Al permet ae aplicazion di fâ ûs dai servizis in prin plan.</string>
+    <string name="permlab_foregroundServiceCamera">fâ zirâ un servizi in prin plan cul gjenar \"camera\" (fotocjamare)</string>
+    <string name="permdesc_foregroundServiceCamera">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"camera\" (fotocjamare)</string>
+    <string name="permlab_foregroundServiceConnectedDevice">fâ zirâ un servizi in prin plan cul gjenar \"connectedDevice\" (dispositîf conetût)</string>
+    <string name="permdesc_foregroundServiceConnectedDevice">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"connectedDevice\" (dispositîf conetût)</string>
+    <string name="permlab_foregroundServiceDataSync">fâ zirâ un servizi in prin plan cul gjenar \"dataSync\" (sincronizazion dâts)</string>
+    <string name="permdesc_foregroundServiceDataSync">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"dataSync\" (sincronizazion dâts)</string>
+    <string name="permlab_foregroundServiceLocation">fâ zirâ un servizi in prin plan cul gjenar \"location\" (posizion)</string>
+    <string name="permdesc_foregroundServiceLocation">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"location\" (posizion)</string>
+    <string name="permlab_foregroundServiceMediaPlayback">fâ zirâ un servizi in prin plan cul gjenar \"mediaPlayback\" (riproduzion multimediâl)</string>
+    <string name="permdesc_foregroundServiceMediaPlayback">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"mediaPlayback\" (riproduzion multimediâl)</string>
+    <string name="permlab_foregroundServiceMediaProjection">fâ zirâ un servizi in prin plan cul gjenar \"mediaProjection\" (proiezion multimediâl)</string>
+    <string name="permdesc_foregroundServiceMediaProjection">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"mediaProjection\" (proiezion multimediâl)</string>
+    <string name="permlab_foregroundServiceMicrophone">fâ zirâ un servizi in prin plan cul gjenar \"microphone\" (microfon)</string>
+    <string name="permdesc_foregroundServiceMicrophone">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"microphone\" (microfon)</string>
+    <string name="permlab_foregroundServicePhoneCall">fâ zirâ un servizi in prin plan cul gjenar \"phoneCall\" (clamade telefoniche)</string>
+    <string name="permdesc_foregroundServicePhoneCall">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"phoneCall\" (clamade telefoniche)</string>
+    <string name="permlab_foregroundServiceHealth">fâ zirâ un servizi in prin plan cul gjenar \"health\" (salût)</string>
+    <string name="permdesc_foregroundServiceHealth">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"health\" (salût)</string>
+    <string name="permlab_foregroundServiceRemoteMessaging">fâ zirâ un servizi in prin plan cul gjenar \"remoteMessaging\" (messaçs di lontan)</string>
+    <string name="permdesc_foregroundServiceRemoteMessaging">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"remoteMessaging\" (messaçs di lontan)</string>
+    <string name="permlab_foregroundServiceSystemExempted">fâ zirâ un servizi in prin plan cul gjenar \"systemExempted\" (sisteme esentât)</string>
+    <string name="permdesc_foregroundServiceSystemExempted">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"systemExempted\" (sisteme esentât)</string>
+    <string name="permlab_foregroundServiceFileManagement">fâ zirâ un servizi in prin plan cul gjenar \"fileManagement\" (gjestion files)</string>
+    <string name="permdesc_foregroundServiceFileManagement">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"fileManagement\" (gjestion files)</string>
+    <string name="permlab_foregroundServiceSpecialUse">fâ zirâ un servizi in prin plan cul gjenar \"specialUse\" (ûs speciâl)</string>
+    <string name="permdesc_foregroundServiceSpecialUse">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"specialUse\" (ûs speciâl)</string>
     <string name="permlab_getPackageSize">misurâ il spazi di archiviazion de aplicazion</string>
     <string name="permdesc_getPackageSize">Al permet ae aplicaizion di recuperâ lis dimensions dal codiç, dai dâts e de cache</string>
     <string name="permlab_writeSettings">modificâ lis impostazions di sisteme</string>
@@ -537,6 +583,8 @@
     <string name="permdesc_recordAudio">Cheste aplicazion e pues regjistrâ audio doprant il microfon intant che tu le dopris.</string>
     <string name="permlab_recordBackgroundAudio">regjistrâ audio in sotfont</string>
     <string name="permdesc_recordBackgroundAudio">Cheste aplicazion e pues regjistrâ l\'audio doprant il microfon cuant che e vûl.</string>
+    <string name="permlab_detectScreenCapture">rilevâ acuisizion schermadis dai barcons des aplicazions</string>
+    <string name="permdesc_detectScreenCapture">Cheste aplicazion e vignarà informade se e ven fate une acuisizion de videade intant che la aplicazion e je in ûs.</string>
     <string name="permlab_sim_communication">mandâ comants ae SIM</string>
     <string name="permdesc_sim_communication">Al permet ae aplicazion di mandâ comandts ae SIM. Chest al è une vore pericolôs.</string>
     <string name="permlab_activityRecognition">ricognossi ativitât fisiche</string>
@@ -549,10 +597,18 @@
     <string name="permdesc_systemCamera">Cheste aplicazion cun privileçs o di sisteme e pues fâ fotos e regjistrâ videos doprant une fotocjamare di sisteme cuant che e vûl. E à bisugne ancje che la aplicazion e vedi il permès android.permission.CAMERA</string>
     <string name="permlab_cameraOpenCloseListener">Al permet a une aplicazion o servizi di ricevi clamadis di rispueste in merit ai dispositîfs di fotocjamare che a son vierts o sierâts.</string>
     <string name="permdesc_cameraOpenCloseListener">Cheste aplicazion e pues ricevi clamadis di rispueste cuant che cualsisei dispositîf di fotocjamare al ven viert (di cuale aplicazion) o sierât.</string>
+    <string name="permlab_cameraHeadlessSystemUser">Permet a une aplicazion o a un servizi di acedi ae fotocjamare come utent di sisteme cence visôr.</string>
+    <string name="permdesc_cameraHeadlessSystemUser">Cheste aplicazion e pues acedi ae fotocjamare come utent di sisteme cence visôr.</string>
     <string name="permlab_vibrate">controlâ la vibrazion</string>
     <string name="permdesc_vibrate">Al permet ae aplicazion di controlâ la vibrazion.</string>
     <string name="permdesc_vibrator_state">Al permet ae aplicazion di acedi al stât de vibrazion.</string>
     <string name="permlab_callPhone">clamâ in mût diret i numars telefonics</string>
+    <string name="permdesc_callPhone">Al permet ae aplicazion di clamâ numars di telefon
+      cence il to intervent. Chest al pues puartâ a spesis o clamadis inspietadis.
+      Viôt che chest nol permet ae aplicazion di clamâ numars di emergjence.
+      Lis aplicazions malevulis a podaressin fâti spindi bêçs fasint clamadis cence
+      la tô conferme, o doprâ codiçs di operadôr che a podaressin deviâ in automatic
+      lis clamadis in jentrade suntun altri numar.</string>
     <string name="permlab_accessImsCallService">acedi al servizi pes clamadis IMS</string>
     <string name="permdesc_accessImsCallService">Al permet ae aplicazion di doprâ il servizi IMS par fâ clamadis cence il to intervent.</string>
     <string name="permlab_readPhoneState">lei la identitât e il stât dal telefon </string>
@@ -685,6 +741,9 @@
     <string name="permlab_nfc">controlâ il NFC</string>
     <string name="permdesc_nfc">Al permet ae aplicazion di comunicâ
       cu lis etichetis, lis cjartis e i letôrs di Near Field Communication (NFC).</string>
+    <string name="permlab_nfcTransactionEvent">Event di transazion Secure Element</string>
+    <string name="permdesc_nfcTransactionEvent">Al permet ae aplicazion di ricevi informazion su
+      transazions che a sucedin suntun Secure Element.</string>
     <string name="permlab_disableKeyguard">disativâ il to bloc dal schermi</string>
     <string name="permdesc_disableKeyguard">Al permet ae aplicazion di disativâ il
       bloc dai tascj e cualsisei protezion associade aes passwords. P.e. il telefon
@@ -699,6 +758,8 @@
     </string>
     <string name="permlab_postNotification">mostrâ notifichis</string>
     <string name="permdesc_postNotification">Al permet ae aplicazion di mostrâ notifichis</string>
+    <string name="permlab_turnScreenOn">ativâ il schermi</string>
+    <string name="permdesc_turnScreenOn">Al permet ae aplicazion di ativâ il schermi.</string>
     <string name="permlab_useBiometric">ûs dal hardware biometric</string>
     <string name="permdesc_useBiometric">Al permet ae aplicazion di doprâ, pe autenticazion, l\'hardware biometric</string>
     <string name="permlab_manageFingerprint">gjestî hardware par impronts digjitâi</string>
@@ -721,6 +782,7 @@
     <string name="biometric_error_hw_unavailable">Hardware biometric no disponibil</string>
     <string name="biometric_error_user_canceled">Autenticazion anulade</string>
     <string name="biometric_not_recognized">No ricognossût</string>
+    <string name="biometric_face_not_recognized">Muse no ricognossude</string>
     <string name="biometric_error_canceled">Autenticazion anulade</string>
     <string name="biometric_error_device_not_secured">Nol è stât stabilît nissun pin, cumbinazion o password</string>
     <string name="biometric_error_generic">Erôr te autenticazion</string>
@@ -740,6 +802,7 @@
     <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_error_not_match">Impront no ricognossût</string>
     <string name="fingerprint_udfps_error_not_match">Impront no ricognossût</string>
+    <string name="fingerprint_dialog_use_fingerprint_instead">Impussibil ricognossi la muse. Dopre l\'impront.</string>
     <string name="fingerprint_authenticated">Impront digjitâl autenticade</string>
     <string name="face_authenticated_no_confirmation_required">Muse autenticade</string>
     <string name="face_authenticated_confirmation_required">Muse autenticade, frache conferme</string>
@@ -764,6 +827,10 @@
     <string-array name="fingerprint_error_vendor"/>
     <string name="fingerprint_error_vendor_unknown">Alc al è lât strucj. Torne prove.</string>
     <string name="fingerprint_icon_content_description">Icone dal impront digjitâl</string>
+    <string name="device_unlock_notification_name">Sbloc dal dispositîf</string>
+    <string name="alternative_unlock_setup_notification_title">Prove a sblocâ intune altre maniere</string>
+    <string name="alternative_face_setup_notification_content">Dopre il sbloc cu la muse cuant che l\'impront nol ven ricognossût, come cuant che i dêts a son bagnâts</string>
+    <string name="alternative_fp_setup_notification_content">Dopre il sbloc cul impront cuant che la muse no ven ricognossude, come cuant che no je avonde lûs</string>
     <string name="face_recalibrate_notification_name">Sbloc cu la muse</string>
     <string name="face_recalibrate_notification_title">Probleme cul sbloc cu la muse</string>
     <string name="face_recalibrate_notification_content">Tocje par eliminiâ il model de tô muse, dopo torne zonte la tô muse</string>
@@ -803,6 +870,7 @@
     <string name="face_error_canceled">Operazion muse anulade.</string>
     <string name="face_error_user_canceled">Sbloc cu la muse anulât dal utent</string>
     <string name="face_error_lockout">Masse tentatîfs. Torne prove plui indenant.</string>
+    <string name="face_error_lockout_permanent">Masse tentatîfs. Sbloc cu la muse no disponibil.</string>
     <string name="face_error_lockout_screen_lock">Masse tentatîfs. Inserìs il bloc dal schermi.</string>
     <string name="face_error_unable_to_process">Impussibil verificâ la muse. Torne prove.</string>
     <string name="face_error_not_enrolled">No tu âs configurât il sbloc cu la muse.</string>
@@ -830,6 +898,8 @@
     <string name="permdesc_readMediaVideo">Al permet ae aplicazion di lei i files video de tô memorie di archivazion condividude.</string>
     <string name="permlab_readMediaImages">lei files di imagjin de memorie di archiviazion condividude</string>
     <string name="permdesc_readMediaImages">Al permet ae aplicazion di lei i files imagjin de tô memorie di archivazion condividude.</string>
+    <string name="permlab_readVisualUserSelect">lei de memorie di archiviazion condividude i files di imagjins e videos selezionâts dal utent</string>
+    <string name="permdesc_readVisualUserSelect">Al permet ae aplicazion di lei i files di videos e di imagjins che tu selezionis de tô memorie di archiviazion condividude.</string>
     <string name="permlab_sdcardWrite">modificâ o eliminâ i contignûts de tô memorie condividude</string>
     <string name="permdesc_sdcardWrite">Al permet ae aplicazion di scrivi i contignûts de tô memorie di archivazion condividude.</string>
     <string name="permlab_use_sip">fâ/ricevi clamadis SIP</string>
@@ -886,6 +956,8 @@
     <string name="permdesc_startViewAppFeatures">Al permet al titolâr di scomençâ a visualizâ lis informazions relativis aes funzionalitâts di une aplicazion.</string>
     <string name="permlab_highSamplingRateSensors">acedi ai dâts dai sensôrs a une frecuence di campionament elevade</string>
     <string name="permdesc_highSamplingRateSensors">Al permet ae aplicazion di campionâ i dâts dai sensôrs a une frecuence plui grande di 20 Hz</string>
+    <string name="permlab_updatePackagesWithoutUserAction">inzornâ la aplicazion cence la azion dal utent</string>
+    <string name="permdesc_updatePackagesWithoutUserAction">Al permet al possessôr di inzornâ la aplicazion che al à instalât in precedence cence azions de bande dal utent</string>
     <string name="policylab_limitPassword">Stabilìs lis regulis pes passwords</string>
     <string name="policydesc_limitPassword">Controle la lungjece e i caratars ametûts tes passwords e tai PINs dal bloc dal schermi.</string>
     <string name="policylab_watchLogin">Monitore i tentatîfs di sbloc dal schermi</string>
@@ -1076,6 +1148,15 @@
     <string name="lockscreen_password_wrong">Torne prove</string>
     <string name="lockscreen_storage_locked">Sbloche par ducj i dâts e lis funzionalitâts</string>
     <string name="faceunlock_multiple_failures">A son stâts superâts i tentatîfs massims di sbloc cu la muse</string>
+    <string name="lockscreen_missing_sim_message_short">Nissune SIM</string>
+    <string name="lockscreen_missing_sim_message" product="tablet">Nissune SIM tal tablet.</string>
+    <string name="lockscreen_missing_sim_message" product="tv">Nissune SIM tal to dispositîf Android TV.</string>
+    <string name="lockscreen_missing_sim_message" product="default">Nissune SIM tal telefon.</string>
+    <string name="lockscreen_missing_sim_instructions">Zonte une SIM.</string>
+    <string name="lockscreen_missing_sim_instructions_long">La SIM e mancje opûr no si rive a lei. Zonte une SIM.</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">SIM inusabile.</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions">La tô SIM e je stade disativade in maniere definitive.\n
+    Contate il to furnidôr dal servizi cence fîi par vê une altre SIM.</string>
     <string name="lockscreen_transport_prev_description">Toc precedent</string>
     <string name="lockscreen_transport_next_description">Toc sucessîf</string>
     <string name="lockscreen_transport_pause_description">Pause</string>
@@ -1085,7 +1166,10 @@
     <string name="lockscreen_transport_ffw_description">Avanzament svelt</string>
     <string name="emergency_calls_only" msgid="2485604591272668370">Dome clamadis di emergjence</string>
     <string name="lockscreen_network_locked_message">Rêt blocade</string>
+    <string name="lockscreen_sim_puk_locked_message">La SIM e je blocade cul PUK.</string>
     <string name="lockscreen_sim_puk_locked_instructions">Viôt la vuide utent o contate il servizi clients.</string>
+    <string name="lockscreen_sim_locked_message">La SIM e je blocade.</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">Daûr a sblocâ la SIM\u2026</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message">        Tu âs dissegnât mâl la tô cumbinazion di sbloc <xliff:g id="number">%1$d</xliff:g> voltis.
         \n\nTorne prove chi di <xliff:g id="number">%2$d</xliff:g> seconts.
     </string>
@@ -1359,6 +1443,11 @@
     <string name="not_checked">deselezionât</string>
     <string name="selected">selezionât</string>
     <string name="not_selected">no selezionât</string>
+    <string name="rating_label">{ rating, plural,
+        one {}=1 {Une stele su {max}}
+        other {# stelis su {max}}
+    }
+    </string>
     <string name="in_progress">in cors</string>
     <string name="whichApplication">Complete la azion doprant</string>
     <string name="whichApplicationNamed">Complete la azion doprant %1$s</string>
@@ -1532,7 +1621,10 @@
     <string name="sms_short_code_remember_undo_instruction">Tu puedis cambiâ cheste impostazion plui indenant in Impostazions\u00A0&gt;\u00A0Aplicazions</string>
     <string name="sms_short_code_confirm_always_allow">Permet simpri</string>
     <string name="sms_short_code_confirm_never_allow">No sta permeti mai</string>
+    <string name="sim_removed_title">SIM gjavade</string>
+    <string name="sim_removed_message">La rêt mobile no sarà disponibile fintremai che no tu tornis a inviâ cuntune SIM valide.</string>
     <string name="sim_done_button">Fat</string>
+    <string name="sim_added_title">SIM zontade</string>
     <string name="sim_added_message">Torne invie il dispositîf par acedi ae rêt mobile.</string>
     <string name="sim_restart_button">Torne invie</string>
     <string name="install_carrier_app_notification_title">Ativazion dal servizi mobil</string>
@@ -1556,6 +1648,7 @@
     <string name="usb_ptp_notification_title">PTP vie USB ativât</string>
     <string name="usb_tether_notification_title">Tethering USB ativât</string>
     <string name="usb_midi_notification_title">MIDI vie USB ativât</string>
+    <string name="usb_uvc_notification_title">Dispositîf colegât come Webcam</string>
     <string name="usb_accessory_notification_title">Acessori USB colegât</string>
     <string name="usb_notification_message">Tocje par vê plui opzions.</string>
     <string name="usb_power_notification_message">Daûr a ricjariâ il dispositîf colegât. Tocje par vê plui opzions.</string>
@@ -1586,6 +1679,9 @@
     <string name="decline_remote_bugreport_action">REFUDE</string>
     <string name="select_input_method">Sielç il metodi di imission</string>
     <string name="show_ime">Tegnilu sul schermi intant che la tastiere fisiche e je ative</string>
+    <string name="hardware">Dopre tastiere su schermi</string>
+    <string name="select_keyboard_layout_notification_title">Configure <xliff:g id="device_name" example="Foobar USB Keyboard">%s</xliff:g></string>
+    <string name="select_multiple_keyboards_layout_notification_title">Configure tastieris fisichis</string>
     <string name="select_keyboard_layout_notification_message">Tocje par selezionâ la lenghe e la disposizion</string>
     <string name="fast_scroll_alphabet">\u0020AÂBCÇDEÊFGHIÎJKLMNOÔPQRSTUÛVWXYZ</string>
     <string name="fast_scroll_numeric_alphabet">\u00200123456789AÂBCÇDEÊFGHIÎJKLMNOÔPQRSTUÛVWXYZ</string>
@@ -1816,6 +1912,7 @@
     <string name="default_audio_route_name" product="tv">TV</string>
     <string name="default_audio_route_name" product="default">Telefon</string>
     <string name="default_audio_route_name_dock_speakers">Cassis cun base</string>
+    <string name="default_audio_route_name_external_device">Dispositîf esterni</string>
     <string name="default_audio_route_name_headphones">Scufis</string>
     <string name="default_audio_route_name_usb">USB</string>
     <string name="default_audio_route_category_name">Sisteme</string>
@@ -1849,6 +1946,7 @@
     <string name="kg_puk_enter_puk_hint">Cumò la SIM e je disativade. Inserìs il codiç PUK par continuâ. Contate l\'operadôr pai detais.</string>
     <string name="kg_puk_enter_pin_hint">Inserìs il codiç PIN desiderât</string>
     <string name="kg_enter_confirm_pin_hint">Conferme il codiç PIN desiderât</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Daûr a sblocâ la SIM\u2026</string>
     <string name="kg_password_wrong_pin_code">Codiç PIN sbaliât.</string>
     <string name="kg_invalid_sim_pin_hint">Scrîf un PIN che al vedi di 4 a 8 numars.</string>
     <string name="kg_invalid_sim_puk_hint">Il codiç PUK al à di vê 8 numars.</string>
@@ -1913,6 +2011,10 @@
     <string name="kg_reordering_delete_drop_target_text">Gjave</string>
     <string name="safe_media_volume_warning" product="default">       \"Alçâ il volum parsore dai nivei racomandâts?\n\nScoltâ a volums alts par periodis luncs al podarès fâ dam ae uldide.\"
     </string>
+    <string name="csd_dose_reached_warning" product="default">        \"Continuâ a scoltâ a volum alt?\n\nIl volum des scufis al è stât alt par plui timp di ce che al è conseât, chest al pues fâ mâl ae uldide\"
+    </string>
+    <string name="csd_momentary_exposure_warning" product="default">        \"Sun fuart rilevât\n\nIl volum des scufis al è stât plui alt di ce che al è conseât, chest al pues fâ mâl ae tô uldide\"
+    </string>
     <string name="accessibility_shortcut_warning_dialog_title">Doprâ la scurte al acès facilitât?</string>
     <string name="accessibility_shortcut_toogle_warning">        Cuant che la scurte e je ative, la pression di ducj i doi i botons dal volum par 3 seconts e inviarà une
         funzion di acès facilitât.
@@ -1941,6 +2043,9 @@
         cun une aplicazion o un sensôr hardware e interagjî cun aplicazions al to puest.</string>
     <string name="accessibility_dialog_button_allow">Permet</string>
     <string name="accessibility_dialog_button_deny">Dinee</string>
+    <string name="accessibility_dialog_button_uninstall">Disinstale</string>
+    <string name="accessibility_dialog_touch_filtered_warning">Une aplicazion e sta blocant la richieste
+        di permès in mût di impedî la verifiche de tô rispueste.</string>
     <string name="accessibility_select_shortcut_menu_title">Tocje une funzion par scomençâ a doprâle:</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Sielç lis funzions di doprâ cul boton
         di acès facilitât
@@ -1953,10 +2058,14 @@
     <string name="done_accessibility_shortcut_menu_button">Fat</string>
     <string name="disable_accessibility_shortcut">Disative la scurte</string>
     <string name="leave_accessibility_shortcut_on">Dopre la scurte</string>
+    <string name="color_inversion_feature_name">Inversion dai colôrs</string>
+    <string name="color_correction_feature_name">Corezion dai colôrs</string>
     <string name="one_handed_mode_feature_name">Modalitât a une man</string>
     <string name="reduce_bright_colors_feature_name">Atenuazion extra</string>
+    <string name="hearing_aids_feature_name">Dispositîfs pe scolte</string>
     <string name="accessibility_shortcut_enabling_service">Tignûts fracâts i tascj dal volum. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> ativât.</string>
     <string name="accessibility_shortcut_disabling_service">Tignûts fracâts i tascj dal volum. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> disativât.</string>
+    <string name="accessibility_shortcut_spoken_feedback">Mole i tascj dal volum. Par ativâ<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>, frache e ten fracât di gnûf ducj i doi i tascj dal volum par 3 seconts.</string>
     <string name="accessibility_button_prompt_text">Sielç une funzion di doprâ cuant che tu tocjis il boton pal acès facilitât:</string>
     <string name="accessibility_gesture_prompt_text">Sielç une funzion di doprâ cul mot pal acès facilitât (scori in sù dal bas dal schermi cun doi dêts):</string>
     <string name="accessibility_gesture_3finger_prompt_text">Sielç une funzion di doprâ cul mot pal acès facilitât (scori in sù dal bas dal schermi cun trê dêts):</string>
@@ -2088,6 +2197,7 @@
     <string name="immersive_cling_description">Par lâ fûr, di parsore scor in jù.</string>
     <string name="immersive_cling_positive">Capît</string>
     <string name="display_rotation_camera_compat_toast_after_rotation">Volte par viodi miôr</string>
+    <string name="display_rotation_camera_compat_toast_in_multi_window">Vierç <xliff:g id="name" example="MyApp">%s</xliff:g> a plen schermi par viodi miôr</string>
     <string name="done_label">Fat</string>
     <string name="hour_picker_description">Cursôr circolâr pes oris</string>
     <string name="minute_picker_description">Cursôr circolâr pai minûts</string>
@@ -2099,6 +2209,8 @@
     <string name="managed_profile_label_badge"><xliff:g id="label" example="Email">%1$s</xliff:g> di lavôr</string>
     <string name="managed_profile_label_badge_2"><xliff:g id="label" example="Email">%1$s</xliff:g> di lavôr 2</string>
     <string name="managed_profile_label_badge_3"><xliff:g id="label" example="Email">%1$s</xliff:g> di lavôr 3</string>
+    <string name="clone_profile_label_badge"><xliff:g id="label" example="Messenger">%1$s</xliff:g> clon</string>
+    <string name="private_profile_label_badge"><xliff:g id="label" example="Messenger">%1$s</xliff:g> privât</string>
     <string name="time_placeholder">--</string>
     <string name="radial_numbers_typeface">sans-serif</string>
     <string name="sans_serif">sans-serif</string>
@@ -2170,6 +2282,9 @@
     <string name="zen_mode_default_weekends_name">Fin setemane</string>
     <string name="zen_mode_default_events_name">Event</string>
     <string name="zen_mode_default_every_night_name">In polse</string>
+    <string name="zen_mode_implicit_trigger_description">Gjestît di <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="zen_mode_implicit_activated">On</string>
+    <string name="zen_mode_implicit_deactivated">Off</string>
     <string name="muted_by"><xliff:g id="third_party">%1$s</xliff:g> al sta cidinant cualchi sun</string>
     <string name="system_error_wipe_data">Il to dispositîf al à un probleme interni e al podarès jessi instabil fintremai che no tu fasis un ripristinament dai dâts di fabriche.</string>
     <string name="system_error_manufacturer">Il to dispositîf al à un probleme interni. Contate il produtôr pai detais.</string>
@@ -2216,6 +2331,8 @@
     <string name="search_language_hint">Scrîf il non de lenghe</string>
     <string name="language_picker_section_suggested">Sugjeridis</string>
     <string name="language_picker_regions_section_suggested">Sugjeridis</string>
+    <string name="language_picker_section_suggested_bilingual">Lenghis sugjeridis</string>
+    <string name="region_picker_section_suggested_bilingual">Regjons sugjeridis</string>
     <string name="language_picker_section_all">Dutis lis lenghis</string>
     <string name="region_picker_section_all">Dutis lis regjons</string>
     <string name="locale_search_menu">Cîr</string>
@@ -2224,12 +2341,14 @@
     </string>
     <string name="app_suspended_more_details">Plui informazions</string>
     <string name="app_suspended_unsuspend_message">Torne ative la aplicazion</string>
+    <string name="work_mode_off_title">Terminâ la pause des apl. di lavôr?</string>
+    <string name="work_mode_turn_on">Termine pause</string>
     <string name="work_mode_emergency_call_button">Emergjence</string>
     <string name="app_blocked_title">La aplicazion no je disponibile</string>
     <string name="app_blocked_message">        In chest moment <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> nol è disponibil.
     </string>
     <string name="app_streaming_blocked_title"><xliff:g id="activity" example="Permission dialog">%1$s</xliff:g> no disponibil</string>
-    <string name="app_streaming_blocked_title_for_permission_dialog">Permès necessari</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Richieste di permès soprimude</string>
     <string name="app_streaming_blocked_title_for_camera_dialog">Fotocjamare no disponibile</string>
     <string name="app_streaming_blocked_title_for_fingerprint_dialog">Continue sul telefon</string>
     <string name="app_streaming_blocked_title_for_microphone_dialog">Microfon no disponibil</string>
@@ -2240,13 +2359,18 @@
     <string name="app_streaming_blocked_message" product="tv">In chest moment nol è pussibil acedi a cheste aplicazion su <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prove sul to dispositîf Android TV.</string>
     <string name="app_streaming_blocked_message" product="tablet">In chest moment nol è pussibil acedi a cheste aplicazion su <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prove sul to tablet.</string>
     <string name="app_streaming_blocked_message" product="default">In chest moment nol è pussibil acedi a cheste aplicazion su <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prove sul to telefon.</string>
+    <string name="app_streaming_blocked_message_for_permission_request" product="tv">Cheste aplicazion e sta domandant altris permès, ma nol è pussibil concedi i permès intune session trasmetude. Concêt prime il permès sul to dispositîf Android TV.</string>
+    <string name="app_streaming_blocked_message_for_permission_request" product="tablet">Cheste aplicazion e sta domandant altris permès, ma nol è pussibil concedi i permès intune session trasmetude. Concêt prime il permès sul to tablet.</string>
+    <string name="app_streaming_blocked_message_for_permission_request" product="default">Cheste aplicazion e sta domandant altris permès, ma nol è pussibil concedi i permès intune session trasmetude. Concêt prime il permès sul to telefon.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="tv">Cheste aplicazion e domande plui sigurece. Prove sul to dispositîf Android TV.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="tablet">Cheste aplicazion e domande plui sigurece. Prove sul to tablet.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog" product="default">Cheste aplicazion e domande plui sigurece. Prove sul to telefon.</string>
     <string name="app_streaming_blocked_message_for_settings_dialog" product="tv">Nol è pussibil acedi a cheste aplicazion su <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prove sul to dispositîf Android TV.</string>
     <string name="app_streaming_blocked_message_for_settings_dialog" product="tablet">Nol è pussibil acedi a cheste aplicazion su <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prove sul to tablet.</string>
     <string name="app_streaming_blocked_message_for_settings_dialog" product="default">Nol è pussibil acedi a cheste aplicazion su <xliff:g id="device" example="Chromebook">%1$s</xliff:g>. Prove sul to telefon.</string>
+    <string name="deprecated_target_sdk_message">Cheste aplicazion e je stade fate par une version di Android plui vecje. Al è pussibil che no funzioni ben e che no includi lis ultimis protezions di sigurece e riservatece. Controle se al esist un inzornament, opûr contate il svilupadôr de aplicazion.</string>
     <string name="deprecated_target_sdk_app_store">Controle i inzornaments</string>
+    <string name="deprecated_abi_message">Cheste aplicazion no je compatibile cu la ultime version di Android. Controle se al esist un inzornament o contate il svilupadôr de aplicazion.</string>
     <string name="new_sms_notification_title">Tu âs gnûfs messaçs</string>
     <string name="new_sms_notification_content">Vierç la aplicazion dai SMS par viodi</string>
     <string name="profile_encrypted_title">Cualchi funzionalitât e podarès jessi limitade</string>
@@ -2299,7 +2423,7 @@
     <string name="autofill_update_title">Inzornâ in <b><xliff:g id="label" example="MyPass">%1$s</xliff:g></b>?</string>
     <string name="autofill_update_title_with_type">Inzornâ <xliff:g id="type" example="Credit Card">%1$s</xliff:g> in <b><xliff:g id="label" example="MyPass">%2$s</xliff:g></b>?</string>
     <string name="autofill_update_title_with_2types">Inzornâ <xliff:g id="type" example="Password">%1$s</xliff:g> e <xliff:g id="type" example="Credit Card">%2$s</xliff:g> in <b><xliff:g id="label" example="MyPass">%3$s</xliff:g></b>?</string>
-    <string name="autofill_update_title_with_3types">Inzornâ chescj elements in <b><xliff:g id="label" example="MyPass">%4$s</xliff:g></b>: <xliff:g id="type" example="Username">%1$s</xliff:g>, <xliff:g id="type" example="Password">%2$s</xliff:g> e <xliff:g id="type" example="Credit Card">%3$s</xliff:g> ?</string>
+    <string name="autofill_update_title_with_3types">Inzornâ chescj elements in <b><xliff:g id="label" example="MyPass">%4$s</xliff:g></b>: <xliff:g id="type" example="Username">%1$s</xliff:g>, <xliff:g id="type" example="Password">%2$s</xliff:g> e <xliff:g id="type" example="Credit Card">%3$s</xliff:g>?</string>
     <string name="autofill_save_yes">Salve</string>
     <string name="autofill_save_no">No graciis</string>
     <string name="autofill_save_notnow">No cumò</string>
@@ -2368,6 +2492,8 @@
     <string name="nas_upgrade_notification_learn_more_action">Plui informazions</string>
     <string name="nas_upgrade_notification_learn_more_content">In Android 12 lis notifichis avanzadis a àn sostituît lis notifichis adativis di Android. Cheste funzionalitât e mostre lis azions e lis rispuestis sugjeridis e e organize lis tôs notifichis.\n\nLis notifichis avanzadis a puedin acedi ai contignûts des notifichis, includudis lis informazions personâls come i nons dai contats e i messaçs. Cheste funzion e pues ancje scartâ o rispuindi aes notifichis, come par esempli rispuindi aes clamadis telefonichis e controlâ il No Sta Disturbâ.</string>
     <string name="dynamic_mode_notification_channel_name">Notifiche di informazion de modalitât Routine</string>
+    <string name="dynamic_mode_notification_title">Sparagn energjetic ativât</string>
+    <string name="dynamic_mode_notification_summary">Daûr a ridusi il consum di batarie par sprolungjâ la durade de batarie</string>
     <string name="battery_saver_notification_channel_name">Sparagn energjetic</string>
     <string name="battery_saver_off_notification_title">Sparagn energjetic disativât</string>
     <string name="battery_saver_charged_notification_summary" product="default">Il telefon al à avonde batarie. Lis funzionalitâts no son plui limitadis.</string>
@@ -2435,10 +2561,21 @@
     <string name="resolver_cant_access_work_apps_explanation">Nol è pussibil vierzi chest contignût cu lis aplicazions di lavôr</string>
     <string name="resolver_cant_share_with_personal_apps_explanation">Nol è pussibil condividi chest contignût cu lis aplicazions personâls</string>
     <string name="resolver_cant_access_personal_apps_explanation">Nol è pussibil vierzi chest contignût cu lis aplicazions personâls</string>
+    <string name="resolver_turn_on_work_apps">Lis aplicazions di lavôr a son in pause</string>
+    <string name="resolver_switch_on_work">Termine pause</string>
     <string name="resolver_no_work_apps_available">Nissune aplicazion di lavôr</string>
     <string name="resolver_no_personal_apps_available">Nissune aplicazion personâl</string>
+    <string name="miniresolver_open_work">Vierzi <xliff:g id="app" example="YouTube">%s</xliff:g> di lavôr?</string>
+    <string name="miniresolver_open_in_personal">Vierzi tal <xliff:g id="app" example="YouTube">%s</xliff:g> personâl?</string>
+    <string name="miniresolver_open_in_work">Vierzi tal <xliff:g id="app" example="YouTube">%s</xliff:g> di lavôr?</string>
+    <string name="miniresolver_call_in_work">Clamâ de aplicazion di lavôr?</string>
+    <string name="miniresolver_switch_to_work">Passâ ae aplicazion di lavôr?</string>
+    <string name="miniresolver_call_information">La tô organizazion ti permet di fâ clamadis dome cu lis aplicazions di lavôr</string>
+    <string name="miniresolver_sms_information">La tô organizazion ti permet di mandâ messaçs dome cu lis aplicazions di lavôr</string>
     <string name="miniresolver_use_personal_browser">Dopre il navigadôr personâl</string>
     <string name="miniresolver_use_work_browser">Dopre il navigadôr di lavôr</string>
+    <string name="miniresolver_call">Clame</string>
+    <string name="miniresolver_switch">Passe a</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ENTRY">PIN di sbloc de rêt de SIM</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_ENTRY">PIN di sbloc dal sotinsiemi di rêt de SIM</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_ENTRY">PIN di sbloc aziendâl de SIM</string>
@@ -2573,6 +2710,43 @@
     <string name="vdm_camera_access_denied" product="default">Dal to <xliff:g id="device" example="Chromebook">%1$s</xliff:g> nol è pussibil acedi ae fotocjamare dal telefon</string>
     <string name="vdm_camera_access_denied" product="tablet">Dal to <xliff:g id="device" example="Chromebook">%1$s</xliff:g> nol è pussibil acedi ae fotocjamare dal tablet</string>
     <string name="vdm_secure_window">Impussibil acedi a chescj contignûts intant de trasmission in streaming. Prove sul telefon.</string>
+    <string name="vdm_pip_blocked">Impussibil visualizâ il picture-in-picture intant di une trasmission</string>
     <string name="system_locale_title">Predefinît di sisteme</string>
+    <string name="default_card_name">SCHEDE <xliff:g id="cardNumber" example="1">%d</xliff:g></string>
+    <string name="permlab_companionProfileWatch">Permès par gjestî i orlois dal profîl de aplicazion di acompagnament dal orloi</string>
+    <string name="permdesc_companionProfileWatch">Al permet a une aplicazion di acompagnament di gjestî i orlois.</string>
+    <string name="permlab_observeCompanionDevicePresence">Osservâ la presince di dispositîfs di acompagnament</string>
+    <string name="permdesc_observeCompanionDevicePresence">Al permet a une aplicazion di acompagnament di osservâ la presince di dispositîfs di acompagnament cuant che i dispositîfs a son dongje o lontans.</string>
+    <string name="permlab_deliverCompanionMessages">Consegnâ messaçs di acompagnament</string>
+    <string name="permdesc_deliverCompanionMessages">Al permet a une aplicazion di acompagnament di consegnâ i messaçs di acompagnament a altris dispositîfs.</string>
+    <string name="permlab_startForegroundServicesFromBackground">Invie i servizis in prin plan dal sotfont</string>
+    <string name="permdesc_startForegroundServicesFromBackground">Al permet a une aplicazion di acompagnament di inviâ servizis in prin plan dal sotfont.</string>
+    <string name="mic_access_on_toast">Il microfon al è disponibil</string>
+    <string name="mic_access_off_toast">Il microfon al è blocât</string>
+    <string name="connected_display_unavailable_notification_title">Impussibil spielâ il schermi</string>
+    <string name="connected_display_unavailable_notification_content">Dopre un altri fîl e torne prove</string>
+    <string name="connected_display_thermally_unavailable_notification_content">Il to dispositîf al è masse cjalt e nol pues spielâ il schermi fintremai che no si sfrede</string>
+    <string name="concurrent_display_notification_name">Dopli schermi</string>
+    <string name="concurrent_display_notification_active_title">Il dopli schermi al è atîf</string>
+    <string name="concurrent_display_notification_active_content">Utilizazion di ducj i doi i schermis de bande di <xliff:g id="app_name" example="Camera app">%1$s</xliff:g> par mostrâ il contignût</string>
+    <string name="concurrent_display_notification_thermal_title">Il dispositîf al è masse cjalt</string>
+    <string name="concurrent_display_notification_thermal_content">Il dopli schermi nol è disponibil parcè che il telefon si sta scjaldant masse</string>
+    <string name="concurrent_display_notification_power_save_title">Il dopli schermi nol è disponibil</string>
+    <string name="concurrent_display_notification_power_save_content">Il dopli schermi nol è disponibil parcè che il Sparagn energjetic al è atîf. Tu puedis disativâlu tes Impostaszions.</string>
+    <string name="device_state_notification_settings_button">Va tes impostazions</string>
     <string name="device_state_notification_turn_off_button">Disative</string>
+    <string name="keyboard_layout_notification_selected_title"><xliff:g id="device_name" example="Foobar USB Keyboard">%s</xliff:g> configurade</string>
+    <string name="keyboard_layout_notification_one_selected_message">Disposizion de tastiere metude a <xliff:g id="layout_1" example="English (US)">%s</xliff:g>. Tocje par cambiâ.</string>
+    <string name="keyboard_layout_notification_two_selected_message">Disposizion de tastiere metude a <xliff:g id="layout_1" example="English (US)">%1$s</xliff:g>, <xliff:g id="layout_2" example="German">%2$s</xliff:g>. Tocje par cambiâ.</string>
+    <string name="keyboard_layout_notification_three_selected_message">Disposizion de tastiere metude a <xliff:g id="layout_1" example="English (US)">%1$s</xliff:g>, <xliff:g id="layout_2" example="German">%2$s</xliff:g>, <xliff:g id="layout_3" example="French">%3$s</xliff:g>. Tocje par cambiâ.</string>
+    <string name="keyboard_layout_notification_more_than_three_selected_message">Disposizion de tastiere metude a <xliff:g id="layout_1" example="English (US)">%1$s</xliff:g>, <xliff:g id="layout_2" example="English (US)">%2$s</xliff:g>, <xliff:g id="layout_3" example="French">%3$s</xliff:g>\u2026 Tocje par cambiâ.</string>
+    <string name="keyboard_layout_notification_multiple_selected_title">Tastieris fisichis configuradis</string>
+    <string name="keyboard_layout_notification_multiple_selected_message">Tocje par viodi lis tastieris</string>
+    <string name="profile_label_private">Privât</string>
+    <string name="profile_label_clone">Clon</string>
+    <string name="profile_label_work">Lavôr</string>
+    <string name="profile_label_work_2">Lavôr 2</string>
+    <string name="profile_label_work_3">Lavôr 3</string>
+    <string name="profile_label_test">Prove</string>
+    <string name="profile_label_communal">In comun</string>
 </resources>

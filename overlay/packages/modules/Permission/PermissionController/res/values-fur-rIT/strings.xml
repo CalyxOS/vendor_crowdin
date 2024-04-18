@@ -21,6 +21,7 @@
     <string name="back">Indaûr</string>
     <string name="available">Disponibil</string>
     <string name="blocked">Blocât</string>
+    <string name="on">On</string>
     <string name="off">Off</string>
     <string name="uninstall_or_disable">Disinstale o disative</string>
     <string name="app_not_found_dlg_title">Aplicazion no cjatade</string>
@@ -29,6 +30,12 @@
     <string name="grant_dialog_button_no_upgrade">Manten \u201cIntat che tu dopris la aplicazion\u201d</string>
     <string name="grant_dialog_button_no_upgrade_one_time">Manten \u201cDome cheste volte\u201d</string>
     <string name="grant_dialog_button_more_info">Plui infos</string>
+    <string name="grant_dialog_button_allow_all">Permet dut</string>
+    <string name="grant_dialog_button_always_allow_all">Permet dut simpri</string>
+    <string name="grant_dialog_button_allow_limited_access">Permet acès limitât</string>
+    <string name="grant_dialog_button_allow_selected_photos">Selezione fotos e videos</string>
+    <string name="grant_dialog_button_allow_more_selected_photos">Selezione di plui</string>
+    <string name="grant_dialog_button_dont_select_more">No sta selezionâ di plui</string>
     <string name="grant_dialog_button_deny_anyway">No sta permeti distès</string>
     <string name="grant_dialog_button_dismiss">Ignore</string>
     <string name="current_permission_template">        <xliff:g id="current_permission_index" example="1">%1$s</xliff:g> di
@@ -57,6 +64,7 @@
     <string name="app_permissions_breadcrumb">Aplicazions</string>
     <string name="app_permissions">Permès de aplicazion</string>
     <string name="unused_apps">Aplicazions no dopradis</string>
+    <string name="edit_photos_description">Modifiche lis fotos selezionadis par cheste aplicazion</string>
     <string name="no_unused_apps">Nissune aplicazion no doprade</string>
     <string name="zero_unused_apps">0 aplicazions no dopradis</string>
     <string name="review_permission_decisions">Decisions resintis sui permès</string>
@@ -120,8 +128,6 @@
     <string name="all_permissions">Ducj i permès</string>
     <string name="other_permissions">Altris capacitâts de aplicazion</string>
     <string name="permission_request_title">Richieste di permès</string>
-    <string name="wear_not_allowed_dlg_title">Android Wear</string>
-    <string name="wear_not_allowed_dlg_text">Lis azions Instale/Disinstale no son supuartadis su Wear.</string>
     <string name="permission_review_title_template_install">Sielç ce che
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; al pues acedi</string>
     <string name="permission_review_title_template_update">        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; al è stât inzornât.
@@ -142,12 +148,41 @@
     <string name="permission_group_usage_subtitle_7d">Secuence temporâl di cuant che lis aplicazions a àn doprât il grup di permès <xliff:g id="permgroup" example="Location">%1$s</xliff:g> tai ultins 7 dîs</string>
     <string name="permission_usage_access_dialog_subtitle">Cuant che cheste aplicazion e à doprât il permès <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
     <string name="permission_usage_access_dialog_learn_more">Plui informazions</string>
+    <string name="learn_more_content_description">Plui informazions su <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
     <string name="manage_permission_summary">Controle l\'acès de aplicazion a <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
     <string name="auto_permission_usage_timeline_summary"><xliff:g id="access_time" example="12:23am">%1$s</xliff:g> \u2022 <xliff:g id="summary_text" example="2 mins">%2$s</xliff:g></string>
     <string name="history_preference_subtext_2"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> \u2022 <xliff:g id="truncated_time" example="1 hr 20min">%2$s</xliff:g></string>
     <string name="history_preference_subtext_3"><xliff:g id="attribution_name" example="Nearby Share">%1$s</xliff:g> \u2022 <xliff:g id="app_name" example="Gmail">%2$s</xliff:g> \u2022 <xliff:g id="truncated_time" example="1 hr 20min">%3$s</xliff:g></string>
+    <string name="duration_used_days">{count, plural,
+        one {}=1      {# dì}
+        other   {# dîs}
+    }</string>
+    <string name="duration_used_hours">{count, plural,
+        one {}=1      {# ore}
+        other   {# oris}
+    }</string>
+    <string name="duration_used_minutes">{count, plural,
+        one {}=1      {# min}
+        other   {# mins}
+    }</string>
+    <string name="duration_used_seconds">{count, plural,
+        one {}=1      {# sec}
+        other   {# secs}
+    }</string>
     <string name="permission_usage_any_permission">Ducj i permès</string>
     <string name="permission_usage_any_time">Cualsisei ore</string>
+    <string name="permission_usage_last_n_days">{count, plural,
+        one {}=1    {Ultime zornade}
+        other {Ultins # dîs}
+    }</string>
+    <string name="permission_usage_last_n_hours">{count, plural,
+        one {}=1    {Ultime ore}
+        other {Ultimis # oris}
+    }</string>
+    <string name="permission_usage_last_n_minutes">{count, plural,
+        one {}=1    {Ultin minût}
+        other {Ultins # minûts}
+    }</string>
     <string name="no_permission_usages">Nissune utilizazion dal permès</string>
     <string name="permission_usage_list_title_any_time">Acès plui resint di simpri</string>
     <string name="permission_usage_list_title_last_7_days">Acès plui resint tai ultins 7 dîs</string>
@@ -161,6 +196,14 @@
     <string name="permission_usage_bar_chart_title_last_hour">Utilizazion permès te ultime ore</string>
     <string name="permission_usage_bar_chart_title_last_15_minutes">Utilizazion permès tai ultins 15 minûts</string>
     <string name="permission_usage_bar_chart_title_last_minute">Utilizazion permès tal ultin minût</string>
+    <string name="permission_usage_preference_summary_not_used_in_past_n_days">{count, plural,
+        one {}=1    {No doprât tal ultin dì}
+        other {No doprât tai ultins # dîs}
+    }</string>
+    <string name="permission_usage_preference_summary_not_used_in_past_n_hours">{count, plural,
+        one {}=1    {No doprât te ultime ore}
+        other {No doprât tes ultimis # oris}
+    }</string>
     <string name="permission_usage_preference_label">{count, plural,
         one {}=1      {Doprât di 1 aplicazion}
         other   {Doprât di # aplicazions}
@@ -189,6 +232,7 @@
     <string name="app_permission_button_allow_media_only">Permet l\'acès dome ai files multimediâi</string>
     <string name="app_permission_button_allow_always">Permet par dut il timp</string>
     <string name="app_permission_button_allow_foreground">Permet dome intant che tu dopris la aplicazion</string>
+    <string name="app_permission_button_always_allow_all">Permet dut simpri</string>
     <string name="app_permission_button_ask">Domande ogni volte</string>
     <string name="app_permission_button_deny">No sta permeti</string>
     <string name="precise_image_description">Posizion precise</string>
@@ -220,6 +264,12 @@
     <string name="auto_revoked_app_summary_many"><xliff:g id="permission_name" example="Microphone">%1$s</xliff:g> e <xliff:g id="number" example="2">%2$s</xliff:g> altris permès gjavâts</string>
     <string name="unused_apps_page_title">Aplicazions no dopradis</string>
     <string name="unused_apps_page_summary">Se une aplicazion no ven doprade par un pôcs di mês:\n\n\u2022 I vegnin gjavâts i permès par protezi i tiei dâts\n\u2022 Lis notifichis a vegnin interotis par sparagnâ batarie\n\u2022 I files temporanis a vegnin gjavâts par liberâ spazi\n\nPar tornâ a concedi i permès e lis notifichis, vierç la aplicazion.</string>
+    <string name="unused_apps_page_tv_summary">Se une aplicazion no ven doprade par un mês:\n\n\u2022 I vegnin gjavâts i permès par protezi i tiei dâts\n\u2022 I files temporanis a vegnin gjavâts par liberâ spazi\n\nPar tornâ a concedi i permès, vierç la aplicazion.</string>
+    <string name="last_opened_category_title"> {count, plural,
+        one {}=1{Vierts la ultime volte plui di # mês indaûr}
+        other{Vierts la ultime volte plui di # mês indaûr}
+        }
+    </string>
     <string name="last_opened_summary">Ultime utilizazion de aplicazion: <xliff:g id="date" example="March 12, 2020">%s</xliff:g></string>
     <string name="last_opened_summary_short">Ultime utilizazion: <xliff:g id="date" example="March 12, 2020">%s</xliff:g></string>
     <string name="app_permission_footer_special_file_access">Se tu permetis la gjestion di ducj i files, cheste aplicazion e podarà acedi, modificâ e eliminâ ducj i files tal archivi comun su chest dispositîf o sui dispositîfs di archiviazion colegâts. La aplicazion e podarès doprâ files cence domandâti nuie.</string>
@@ -255,6 +305,18 @@
         one {}=1      {1 dì}
         other   {# dîs}
     }</string>
+    <string name="hours">{count, plural,
+        one {}=1      {# ore}
+        other   {# oris}
+    }</string>
+    <string name="minutes">{count, plural,
+        one {}=1      {# minût}
+        other   {# minûts}
+    }</string>
+    <string name="seconds">{count, plural,
+        one {}=1      {# secont}
+        other   {# seconts}
+    }</string>
     <string name="permission_reminders">Pro memoria permès</string>
     <string name="auto_revoke_permission_reminder_notification_title_one">1 aplicazion no doprade</string>
     <string name="auto_revoke_permission_reminder_notification_title_many"><xliff:g id="number_of_apps" example="4">%s</xliff:g> aplicazions no dopradis</string>
@@ -266,6 +328,9 @@
         other   {# aplicazions no dopradis}
     }</string>
     <string name="unused_apps_notification_content">I permès e i files temporanis a son stâts gjavâts e lis notifichis a son stadis interotis. Tocje par controlâ.</string>
+    <string name="unused_apps_safety_center_card_title">Torne viôt lis aplicazions cun permès gjavâts</string>
+    <string name="unused_apps_safety_center_card_content">Pes aplicazions che no tu âs doprât di un pôc, i permès e i files temporanis a son stâts gjavâts e lis notifichis a son stadis interotis.</string>
+    <string name="unused_apps_safety_center_action_title">Revisione lis aplicazions</string>
     <string name="post_drive_permission_decision_reminder_title">Controle i permès resints</string>
     <string name="post_drive_permission_decision_reminder_summary_1_app_1_permission">Intant de vuide, tu âs dât a <xliff:g id="app" example="Waze">%1$s</xliff:g> l\'acès a <xliff:g id="permission" example="location">%2$s</xliff:g></string>
     <string name="post_drive_permission_decision_reminder_summary_1_app_2_permissions">Intant de vuide, tu âs dât a <xliff:g id="app" example="Waze">%1$s</xliff:g> l\'acès a <xliff:g id="permission_1" example="location">%2$s</xliff:g> e <xliff:g id="permission_2" example="microphone">%3$s</xliff:g></string>
@@ -283,6 +348,19 @@
     <string name="auto_revoke_preference_summary">Permès gjavâts par protezi la tô riservatece</string>
     <string name="background_location_access_reminder_notification_title"><xliff:g id="app_name" example="Gmail">%s</xliff:g> al à otignude la tô posizion in sotfont</string>
     <string name="background_location_access_reminder_notification_content">Cheste aplicazion e pues simpri acedi ae tô posizion. Tocje par cambiâ.</string>
+    <string name="notification_listener_reminder_notification_title">Revisione la aplicazion cun acès aes tôs notifichis</string>
+    <string name="notification_listener_reminder_notification_content"><xliff:g id="app_name" example="Gmail">%s</xliff:g> al pues scartâ, agjî e acedi ai contignûts des tôs notifichis</string>
+    <string name="notification_listener_warning_card_content">Cheste aplicazion e pues scartâ, agjî e acedi ai contignûts dentri des tôs notifichis. Cualchi aplicazion e domande chest acès par funzionâ ben come previodût.</string>
+    <string name="notification_listener_remove_access_button_label">Gjave acès</string>
+    <string name="notification_listener_review_app_button_label">Viôt altris opzions</string>
+    <string name="notification_listener_remove_access_success_label">Acès gjavât</string>
+    <string name="accessibility_access_reminder_notification_title">Revisione la aplicazion cun plen acès al dispositîf</string>
+    <string name="accessibility_access_reminder_notification_content"><xliff:g id="app_name" example="Gmail">%s</xliff:g> al pues viodi il to schermi e eseguî azions sul dispositîf. Lis aplicazions pal acès facilitât a àn bisugne di chest gjenar di acès par funzionâ ben come previodût.</string>
+    <string name="accessibility_access_warning_card_content">Cheste aplicazion e pues viodi il schermi e eseguî azions sul dispositîf. Lis aplicazions pal acès facilitât a àn bisugne di chest gjenar di acès par funzionâ ben, ma controle la aplicazion e verifiche che e je fidade.</string>
+    <string name="accessibility_remove_access_button_label">Gjave acès</string>
+    <string name="accessibility_show_all_apps_button_label">Viôt lis aplicazions cun acès complet</string>
+    <string name="accessibility_remove_access_success_label">Acès gjavât</string>
+    <string name="safety_center_notification_app_label">Sisteme Android</string>
     <string name="auto_revoke_after_notification_title">Permès di aplicazion gjavâts par protezi la tô riservatece</string>
     <string name="auto_revoke_after_notification_content_one"><xliff:g id="app_name" example="Gmail">%s</xliff:g> nol è stât doprât di un pôcs di mês. Tocje par controlâ.</string>
     <string name="auto_revoke_after_notification_content_two"><xliff:g id="app_name" example="Gmail">%s</xliff:g> e une altre aplicazion no son stadis dopradis di un pôcs di mês. Tocje par controlâ.</string>
@@ -385,6 +463,10 @@
     <string name="role_watch_description">La aplicazion <xliff:g id="app_name" example="Wear">%1$s</xliff:g> e podarà interagjî cu lis notifichis e e podarà acedi ai permès di Telefon, SMS, Contats e Calendari.</string>
     <string name="role_app_streaming_description">Al vignarà concedût a <xliff:g id="app_name" example="Cross-Device Communciation">%1$s</xliff:g> di interagjî cu lis notifichis e di trasmeti lis tôs aplicazions sul dispositîf colegât.</string>
     <string name="role_companion_device_computer_description">Chest servizi al condivît lis tôs fotos, i contignûts multimediâi e lis notifichis dal to telefon a altris dispositîfs.</string>
+    <string name="role_notes_label">Aplicazion predefinide pes notis</string>
+    <string name="role_notes_short_label">Aplicazions pes notis</string>
+    <string name="role_notes_description">Aplicazions che ti permetin di cjapâ notis sul to dispositîf</string>
+    <string name="role_notes_search_keywords">notis</string>
     <string name="request_role_current_default">Predefinît atuâl</string>
     <string name="request_role_dont_ask_again">No sta domandâ plui</string>
     <string name="request_role_set_as_default">Met come predefinît</string>
@@ -442,67 +524,117 @@ Permeti a <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> di cjariâ in r�
     <string name="assistant_record_audio_user_sensitive_summary">Mostre icone te sbare di stât se il microfon al ven doprât par ativâ l\'assistent vocâl</string>
     <string name="permgrouprequest_storage_isolated">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a fotos e contignûts multimediâi sul to dispositîf?</string>
+    <string name="permgrouprequest_device_aware_storage_isolated">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi aes fotos e ai contignûts multimediâi sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_contacts">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai tiei contats?</string>
+    <string name="permgrouprequest_device_aware_contacts">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai tiei contats sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_location">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion di chest dispositîf?</string>
+    <string name="permgrouprequest_device_aware_location">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion dal to &lt;b&gt;<xliff:g id="device_name" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequestdetail_location">La aplicazion e podarà acedi ae posizion dome cuant che tu le stâs doprant</string>
     <string name="permgroupbackgroundrequest_location">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion di chest dispositîf?</string>
+    <string name="permgroupbackgroundrequest_device_aware_location">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion dal to &lt;b&gt;<xliff:g id="device_name" example="tablet">%2$s</xliff:g>?</string>
     <string name="permgroupbackgroundrequestdetail_location">Cheste aplicazion e podarès acedi simpri ae posizion, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgroupupgraderequest_location">Cambiâ l\'acès ae posizion par &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_location">Cambiâ l\'acès ae posizion par &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_location">Cheste aplicazion e vûl acedi simpri ae posizion, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgrouprequest_nearby_devices">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di cjatâ, conetisi e determinâ la posizion relative dai dispositîfs tai contors?</string>
+    <string name="permgrouprequest_device_aware_nearby_devices">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di cjatâ, conetisi e determinâ la posizion relative dai dispositîfs tai contors sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_nearby_devices">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di cjatâ, conetisi e determinâ la posizion relative dai dispositîfs tai contors? <annotation id="link">Permet tes impostazions.</annotation></string>
     <string name="permgrouprequest_fineupgrade">Cambiâ l\'acès ae posizion di aprossimative a precise par <xliff:g id="app_name" example="Gmail">&lt;b&gt;%1$s&lt;/b&gt;</xliff:g>?</string>
+    <string name="permgrouprequest_device_aware_fineupgrade">Cambiâ l\'aces ae posizion di <xliff:g id="app_name" example="Gmail">&lt;b&gt;%1$s&lt;/b&gt;</xliff:g> sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt; di aprossimative a precise?</string>
     <string name="permgrouprequest_coarselocation">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion aprossimative di chest dispositîf?</string>
+    <string name="permgrouprequest_device_aware_coarselocation">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion aprossimative dal to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_finelocation_imagetext">Precise</string>
     <string name="permgrouprequest_coarselocation_imagetext">Aprossimative</string>
     <string name="permgrouprequest_calendar">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi al to calendari?</string>
+    <string name="permgrouprequest_device_aware_calendar">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi al to calendari sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_sms">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di inviâ e viodi i messaçs SMS?</string>
+    <string name="permgrouprequest_device_aware_sms">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di mandâ e viodi i messaçs SMS sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_storage">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a fotos, files multimediâi e files in gjenerâl sul to dispositîf?</string>
+    <string name="permgrouprequest_device_aware_storage">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a fotos, contignûts multimediâi e files sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_storage_q_to_s">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a &lt;b&gt;fotos, videos, musiche e audio&lt;/b&gt; su chest dispositîf?</string>
     <string name="permgrouprequest_storage_pre_q">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a &lt;b&gt;fotos, videos, musiche, audio e altris files&lt;/b&gt; su chest dispositîf?</string>
     <string name="permgrouprequest_read_media_aural">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a musiche e audio su chest dispositîf?</string>
+    <string name="permgrouprequest_device_aware_read_media_aural">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a musiche e audio sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_read_media_visual">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a fotos e videos su chest dispositîf?</string>
+    <string name="permgrouprequest_device_aware_read_media_visual">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a fotos e videos sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_more_photos">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a plui fotos e videos su chest dispositîf?</string>
+    <string name="permgrouprequest_device_aware_more_photos">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a plui fotos e videos sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_microphone">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di regjistrâ audio?</string>
+    <string name="permgrouprequest_device_aware_microphone">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di regjistrâ audio sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequestdetail_microphone">La aplicazion e rivarà a regjistrâ l\'audio dome cuant che tu le stâs doprant</string>
     <string name="permgroupbackgroundrequest_microphone">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di regjistrâ audio?</string>
+    <string name="permgroupbackgroundrequest_device_aware_microphone">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di regjistrâ audio sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupbackgroundrequestdetail_microphone">Cheste aplicazion e podarès regjistrâ audio simpri, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgroupupgraderequest_microphone">Cambiâ l\'acès al microfon par &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_microphone">Cambiâ l\'acès al microfon par &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_microphone">Cheste aplicazion e vûl regjistrâ audio simpri, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgrouprequest_activityRecognition">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae tô ativitât fisiche?</string>
+    <string name="permgrouprequest_device_aware_activityRecognition">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae ativitât fisiche sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_camera">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ fotos e regjistrâ videos?</string>
+    <string name="permgrouprequest_device_aware_camera">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ fotos e regjistrâ videos sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequestdetail_camera">La aplicazion e rivarà a fâ fotos e regjistrâ videos dome cuant che tu le stâs doprant</string>
     <string name="permgroupbackgroundrequest_camera">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ fotos e regjistrâ videos?</string>
+    <string name="permgroupbackgroundrequest_device_aware_camera">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ fotos e regjistrâ videos sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupbackgroundrequestdetail_camera">Cheste aplicazion e vularès fâ fotos e regjistrâ videos par dut il timp, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgroupupgraderequest_camera">Cambiâ l\'acès ae fotocjamare par <xliff:g id="app_name" example="Gmail">%1$s</xliff:g>?</string>
+    <string name="permgroupupgraderequest_device_aware_camera">Cambiâ l\'acès ae fotocjamare par &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_camera">Cheste aplicazion e vûl fâ fotos e regjistrâ videos par dut il timp, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgrouprequest_calllog">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai tiei regjistris des clamadis telefonichis?</string>
+    <string name="permgrouprequest_device_aware_calllog">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai regjistris des clamadis telefonichis sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_phone">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ e gjestî clamadis telefonichis?</string>
+    <string name="permgrouprequest_device_aware_phone">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ e gjestî clamadis telefonichis sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_sensors">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai dâts dai sensôrs sui tiei segns vitâi?</string>
+    <string name="permgrouprequest_device_aware_sensors">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai dâts dai sensôrs sui tiei segns vitâi sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_sensors">Cheste aplicazion e vûl acedi dut il timp ai dâts dal sensôr sui tiei parametris vitâi, ancje cuant che no tu stâs doprant la aplicazion. Par fâ cheste modifiche, <annotation id="link">va tes impostazions.</annotation></string>
     <string name="permgroupbackgroundrequest_sensors">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai dâts dal sensôr sui tiei parametris vitâi?</string>
+    <string name="permgroupbackgroundrequest_device_aware_sensors">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai dâts dai sensôrs sui tiei sengs vitâi sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupbackgroundrequestdetail_sensors">Par concedi a cheste aplicazion l\'acès costant ai dâts dal sensôr corporâl, ancje cuant che no tu le stâs doprant, <annotation id="link">va tes impostazions.</annotation></string>
     <string name="permgroupupgraderequest_sensors">Continue a permeti a <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> di acedi ai dâts dal sensôr corporâl intant che tu dopris la aplicazion?</string>
+    <string name="permgroupupgraderequest_device_aware_sensors">Continuâ a consintî a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai dâts dai sensôrs corporâi sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt; intant che la aplicazion e je in ûs?</string>
     <string name="permgrouprequest_notifications">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> di mandâti notifichis?</string>
+    <string name="permgrouprequest_device_aware_notifications">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di mandâti notifichis sul to &lt;b&gt;<xliff:g id="device" example="tablet">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="auto_granted_permissions">Permès controlâts</string>
+    <string name="auto_granted_location_permission_notification_title"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> al à l\'acès ae posizion</string>
+    <string name="auto_granted_permission_notification_body">La tô organizazion e permet a <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> di acedi ae tô posizion</string>
     <string name="other_permissions_label">Altris permès</string>
     <string name="not_used_permissions_label">Permès doprâts dal sisteme</string>
     <string name="not_used_permissions_description">Permès doprâts dome da lis aplicazions di sisteme.</string>
@@ -523,13 +655,28 @@ Permeti a <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> di cjariâ in r�
     <string name="blocked_sensor_summary">Par aplicazions e servizis</string>
     <string name="blocked_mic_summary">Al è pussibil che i dâts dal microfon a vegnin condividûts distès cuant che tu clamis un numar di emergjence.</string>
     <string name="blocked_sensor_button_label">Cambie</string>
+    <string name="safety_center_dashboard_page_title">Sigurece e riservatece</string>
+    <string name="safety_center_rescan_button">Scansione dispositîf</string>
     <string name="safety_center_issue_card_dismiss_button">Ignore</string>
+    <string name="safety_center_issue_card_dismiss_confirmation_title">Scartâ chest avîs?</string>
+    <string name="safety_center_issue_card_dismiss_confirmation_message">Torne viôt lis impostazions di sigurece e riservatece cuant che tu vûs par zontâ plui protezion</string>
     <string name="safety_center_issue_card_confirm_dismiss_button">Ignore</string>
     <string name="safety_center_issue_card_cancel_dismiss_button">Anule</string>
     <string name="safety_center_entries_category_title">Impostazions</string>
+    <string name="safety_status_preference_title_and_summary_content_description">Stât de sigurece e riservatece: <xliff:g id="overall safety status" example="Looks Good">%1$s</xliff:g><xliff:g id="summary of device status" example="This device is up to date">%2$s</xliff:g></string>
     <string name="security_settings">Impostazions di sigurece</string>
+    <string name="sensor_permissions_qs">Permès</string>
+    <string name="safety_privacy_qs_tile_title">Sigurece e riservatece</string>
     <string name="safety_privacy_qs_tile_subtitle">Controle il stât</string>
+    <string name="privacy_controls_qs">I tiei controi di riservatece</string>
+    <string name="security_settings_button_label_qs">Altris impostazions</string>
+    <string name="camera_toggle_label_qs">Acès ae fotocjamare</string>
+    <string name="microphone_toggle_label_qs">Acès al microfon</string>
     <string name="permissions_removed_qs">Permès gjavât</string>
+    <string name="camera_usage_qs">Viôt la utilizazion resinte de fotocjamare</string>
+    <string name="microphone_usage_qs">Viôt la utilizazion resinte dal microfon</string>
+    <string name="remove_camera_qs">Gjave i permès par cheste aplicazion</string>
+    <string name="remove_microphone_qs">Gjave i permès par cheste aplicazion</string>
     <string name="manage_service_qs">Gjestìs il servizi</string>
     <string name="manage_permissions_qs">Gjestìs i permès</string>
     <string name="active_call_usage_qs">In ûs de clamade telefoniche</string>
@@ -558,6 +705,61 @@ Permeti a <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> di cjariâ in r�
     <string name="media_confirm_dialog_message_q_to_s_aural_deny">Cheste aplicazion no supuarte la ultime version di Android. Se cheste aplicazion no pues acedi a musiche e files audio, no podarà nancje acedi a fotos e videos.</string>
     <string name="media_confirm_dialog_message_q_to_s_visual_allow">Cheste aplicazion no supuarte la ultime version di Android. Se cheste aplicazion e pues acedi a fotos e videos, e podarà ancje acedi a musiche e files audio.</string>
     <string name="media_confirm_dialog_message_q_to_s_visual_deny">Cheste aplicazion no supuarte la ultime version di Android. Se cheste aplicazion no pues acedi a musiche e files audio, no podarà nancje acedi a fotos e videos.</string>
+    <string name="safety_center_background_location_access_notification_title">Torne esamine l\'acès de aplicazion in sotfont ae posizion</string>
+    <string name="safety_center_background_location_access_reminder_notification_content"><xliff:g id="app_name" example="Gmail">%s</xliff:g> al pues simpri acedi ae tô posizion, ancje cuant che la aplicazion e je sierade</string>
+    <string name="safety_center_background_location_access_reminder_title">Torne esamine l\'acès in sotfont ae posizion de aplicazion</string>
+    <string name="safety_center_background_location_access_reminder_summary">Cheste aplicazion e pues simpri acedi ae tô posizion, ancje cuant che e je sierade.\u000a\u000aCualchi aplicazion di sigurece e di emergjence par funzionâ ben e domande l\'acès in sotfont ae posizion.</string>
+    <string name="safety_center_background_location_access_revoked">Acès cambiât</string>
+    <string name="safety_center_view_recent_location_access">Viôt la utilizazion resinte de posizion</string>
+    <string name="camera_toggle_enable_config">camera_toggle_enabled</string>
+    <string name="mic_toggle_enable_config">mic_toggle_enabled</string>
+    <string name="clipboard_show_access_notifications_config">clipboard_show_access_notifications</string>
+    <string name="show_access_notifications_default_config">show_access_notifications</string>
+    <string name="privacy_controls_title">Controi di riservatece</string>
+    <string name="camera_toggle_title">Acès ae fotocjamare</string>
+    <string name="mic_toggle_title">Acès al microfon</string>
     <string name="perm_toggle_description">Par aplicazions e servizis</string>
+    <string name="mic_toggle_description">Par aplicazions e servizis. Se cheste impostazion e je disativade, i dâts dal microfon a podaran ancjemò jessi condividûts cuant che tu clamis un numar di emergjence.</string>
+    <string name="location_settings_subtitle">Viôt lis aplicazions e i servizis che a àn acès ae posizion</string>
+    <string name="show_clip_access_notification_title">Mostre acès aes notis</string>
+    <string name="show_clip_access_notification_summary">Mostre un messaç cuant che lis aplicazions a doprin test, imagjins o altris contignûts che tu âs copiâts</string>
+    <string name="show_password_title">Mostre passwords</string>
+    <string name="show_password_summary">Visualize in mût rapit i caratars, a man a man che tu ju scrivis</string>
+    <string name="permission_rationale_message_location">Cheste aplicazion e declare che e podarès condividi i dâts de posizion cun tiercis parts</string>
+    <string name="permission_rationale_location_title">Condivision dâts e posizion</string>
+    <string name="permission_rationale_data_sharing_source_title">Di dulà che i dâts di condivision a rivin</string>
+    <string name="permission_rationale_data_sharing_device_manufacturer_message">Il svilupadôr al à furnît informazions al produtôr di chest dispositîf su cemût che cheste aplicazion e condivît i dâts. Al è pussibil che il svilupadôr al inzorni chestis informazions vie pal timp.</string>
+    <string name="permission_rationale_data_sharing_source_message">Il svilupadôr al à furnît informazion a &lt;annotation id="link"&gt;&lt;annotation id="install_source" example="App Store"&gt;&lt;/annotation&gt; su cemût che cheste aplicazion e condivît i dâts. Al è pussibil che il svilupadôr al inzorni chestis informazions vie pal timp.</string>
+    <string name="permission_rationale_location_purpose_title">Cheste aplicazion e podarès condividi dâts di posizion par:</string>
+    <string name="permission_rationale_permission_data_sharing_varies_title">La condivision di dâts e varie</string>
+    <string name="permission_rationale_data_sharing_varies_message">Lis pratichis relativis ai dâts a podaressin variâ in base a version de tô aplicazion, ûs, regjon e etât. <annotation id="link">Altris informazions su la condivision dai dâts</annotation></string>
+    <string name="permission_rationale_data_sharing_varies_message_without_link">Lis pratichis relativis ai dâts a podaressin variâin base a version, ûs, regjon e etât.</string>
+    <string name="permission_rationale_location_settings_title">Dâts de tô posizion</string>
+    <string name="permission_rationale_permission_settings_message">Cambie l\'acès di cheste aplicazion intes <annotation id="link">impostazions de riservatece</annotation></string>
+    <string name="permission_rationale_purpose_app_functionality">Funzionalitât de aplicazion</string>
+    <string name="permission_rationale_purpose_analytics">Analitiche</string>
+    <string name="permission_rationale_purpose_developer_communications">Comunicazions dal svilupadôr</string>
+    <string name="permission_rationale_purpose_advertising">Publicitât e comercializazion</string>
+    <string name="permission_rationale_purpose_fraud_prevention_security">Prevenzion da lis fraudis, sigurece e conformitât</string>
+    <string name="permission_rationale_purpose_personalization">Personalizazion</string>
+    <string name="permission_rationale_purpose_account_management">Gjestion accounts</string>
+    <string name="app_permission_rationale_message">Sigurece dai dâts</string>
+    <string name="app_location_permission_rationale_title">I dâts de posizion a podaressin vignî condividûts</string>
+    <string name="app_location_permission_rationale_subtitle">Cheste aplicazion e declare che e podarès condividi i dâts de tô posizion cun tiercis parts</string>
+    <string name="data_sharing_updates_title">Inzornaments condivision dâts pe posizion</string>
+    <string name="data_sharing_updates_summary">Torne esamine lis aplicazions che a àn cambiât la maniere di condividi i dâts de posizion</string>
+    <string name="data_sharing_updates_subtitle">Chestis aplicazions a àn cambiât la maniere di condividi i dâts de tô posizion. Al è pussibil che prime no ju vedin condividûts o che cumò ju condividedin par finalitâts di publicitât o di comercializazion.</string>
+    <string name="data_sharing_updates_footer_message">I svilupadôrs di chestis aplicazions a àn furnît informazions su lis lôr pratichis di condivision dai dâts a un negozi di aplicazions (app store). Al è pussibil che lis inzornin vie pal timp.\n\nLis pratichis di condivision dai dâts a podaressin variâ in base a version de aplicazion, ûs, regjon e etât.</string>
+    <string name="learn_about_data_sharing">Informazions su condivision dâts</string>
+    <string name="shares_location_with_third_parties">Cumò i dâts de tô posizion a son condividûts cun tiercis parts</string>
+    <string name="shares_location_with_third_parties_for_advertising">Cumò i dâts de tô posizion a son condividûts cun tiercis parts par publicitâts o comercializazions</string>
+    <string name="updated_in_last_days">{count, plural,
+        one {}=0    {Inzornât inte ultime zornade}
+        =1    {Inzornât te ultime zornade}
+        other {Inzornâts tai ultins # dîs}
+        }</string>
+    <string name="no_updates_at_this_time">In chest moment, nissun inzornament</string>
+    <string name="safety_label_changes_notification_title">Inzornaments di condivision dâts</string>
+    <string name="safety_label_changes_notification_desc">Cualchi aplicazion e à cambiât la maniere di condividi i dâts de tô posizion</string>
     <string name="safety_label_changes_gear_description">Impostazions</string>
 </resources>

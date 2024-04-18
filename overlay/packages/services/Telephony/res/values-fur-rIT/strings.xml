@@ -131,6 +131,7 @@
     <string name="cdma_call_waiting_in_ims_off">Clamade in spiete CDMA sot di IMS inatîf</string>
     <string name="updating_title">Impostazions clamadis</string>
     <string name="call_settings_admin_user_only">Dome l\'utent aministradôr al pues cambiâ lis impostazions des clamadis.</string>
+    <string name="phone_account_settings_user_restriction">Dome l\'aministradôr o l\'utent di lavôr a puedin cambiâ lis impostazions dal account par telefonâ.</string>
     <string name="call_settings_with_label">Impostazions (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)</string>
     <string name="error_updating_title">Erôr impostazions clamadis</string>
     <string name="reading_settings">Daûr a lei lis impostazions\u2026</string>
@@ -556,6 +557,7 @@
     <string name="incall_error_supp_service_hold">Impussibil meti in spiete lis clamadis.</string>
     <string name="incall_error_wfc_only_no_wireless_network">Conetiti a une rêt cence fîi par fa une clamade.</string>
     <string name="incall_error_promote_wfc">Ative lis clamadis Wi-Fi par fâ une clamade.</string>
+    <string name="incall_error_satellite_enabled">Disative modalitât satelit par fâ une clamade.</string>
     <string name="emergency_information_hint">Informazions di emergjence</string>
     <string name="emergency_information_owner_hint">Proprietari</string>
     <string name="emergency_information_confirm_hint">Tocje di gnûf par viodi lis informazions</string>
@@ -734,6 +736,7 @@
     <string name="clh_callFailed_powerOff_txt">La modalitât avion e je ative</string>
     <string name="clh_callFailed_simError_txt">Impussibil acedi ae schede SIM</string>
     <string name="clh_incall_error_out_of_service_txt">Rêt celulâr no disponibile</string>
+    <string name="clh_callFailed_satelliteEnabled_txt">La modalitât satelit e je ative</string>
     <string name="clh_callFailed_unassigned_number_txt">Probleme cul numar di telefon che tu stâs cirint di componi. Codiç di erôr 1.</string>
     <string name="clh_callFailed_no_route_to_destination_txt">Impussibil completâ la clamade. Codiç di erôr 3.</string>
     <string name="clh_callFailed_channel_unacceptable_txt">Impussibil completâ la clamade. Codiç di erôr 6.</string>
@@ -859,6 +862,7 @@
     <string name="dsds_dialog_cancel">Anule</string>
     <string name="removable_esim_string">Met la eSIM che si pues gjavâ come predefinide</string>
     <string name="radio_info_radio_power">Potence dal segnâl radio mobil</string>
+    <string name="simulate_out_of_service_string">Simule Fûr servizi (dome version di debug)</string>
     <string name="radioInfo_menu_viewADN">Visualize la rubriche de SIM</string>
     <string name="radioInfo_menu_viewFDN">Visualize numars di composizion fis</string>
     <string name="radioInfo_menu_viewSDN">Visualize numars di composizion di servizi</string>
@@ -883,6 +887,7 @@
     <string name="radioInfo_data_connected">Conetût</string>
     <string name="radioInfo_data_suspended">Sospindût</string>
     <string name="radioInfo_unknown">No cognossût</string>
+    <string name="radioInfo_imei_primary">Primari</string>
     <string name="radioInfo_display_packets">pkts</string>
     <string name="radioInfo_display_bytes">bytes</string>
     <string name="radioInfo_display_dbm">dBm</string>
@@ -893,7 +898,7 @@
     <string name="radio_info_dds">ID secondari de SIM dâts predefinide:</string>
     <string name="radio_info_dl_kbps">Largjece di bande DL (kbps):</string>
     <string name="radio_info_ul_kbps">Largjece di bande UL (kbps):</string>
-    <string name="radio_info_phy_chan_config">Configurazion canâl fisic LTE:</string>
+    <string name="radio_info_phy_chan_config">Configurazions canâl fisic:</string>
     <string name="radio_info_cell_info_refresh_rate">Frecuence di inzornament des informazions su lis celis:</string>
     <string name="radio_info_cellinfo_label">Informazions su la misurazion di dutis lis celis:</string>
     <string name="radio_info_gprs_service_label">Servizi dâts:</string>
@@ -913,6 +918,9 @@
     <string name="radio_info_voice_network_type_label">Gjenar di rêt vocâl:</string>
     <string name="radio_info_data_network_type_label">Gjenar di rêt dâts:</string>
     <string name="radio_info_override_network_type_label">Sostituìs gjenar di rêt:</string>
+    <string name="radio_info_voice_raw_registration_state_label">Stât regjistrazion grese de vôs:</string>
+    <string name="radio_info_data_raw_registration_state_label">Stât regjistrazion grese dai dâts:</string>
+    <string name="radio_info_wlan_data_raw_registration_state_label">Stât regjistrazion grese dai dâts WLAN:</string>
     <string name="phone_index_label">Selezione indicadôr dal telefon</string>
     <string name="radio_info_set_perferred_label">Stabilìs il gjenar di rêt preferide:</string>
     <string name="radio_info_ping_hostname_v4">Ping non host (www.google.com) IPv4:</string>
@@ -941,5 +949,9 @@
     <string name="call_quality_notification_bluetooth_details">        Il segnâl bluetooth al è debil.  Prove a passâ al amplificadôr pe casse dal telefon.</string>
     <string name="call_quality_notification_name">Notifiche su la cualitât de clamade</string>
     <string name="notification_channel_sip_account">Accounts SIP deplorâts</string>
+    <string name="send_from_work_profile_title">Impussibil mandâ messaçs di une aplicazion personâl</string>
+    <string name="send_from_work_profile_description">La tô organizazion ti permet di mandâ messaçs dome cu lis aplicazions di lavôr</string>
     <string name="send_from_work_profile_cancel">Anule</string>
+    <string name="send_from_work_profile_action_str">Passe al profîl di lavôr</string>
+    <string name="install_messages_on_work_profile_action_str">Instale une aplicazion di lavôr pai messaçs</string>
 </resources>

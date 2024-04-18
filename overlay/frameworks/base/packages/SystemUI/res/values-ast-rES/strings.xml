@@ -172,6 +172,8 @@
     <string name="quick_settings_dnd_label">Nun molestar</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_detail_empty_text">Nun hai preseos empareyaos disponibles</string>
+    <string name="pair_new_bluetooth_devices">Empareyamientu d\'un preséu nuevu</string>
+    <string name="quick_settings_bluetooth_device_connected">Conectóse</string>
     <string name="quick_settings_bluetooth_secondary_label_battery_level"><xliff:g id="battery_level_as_percentage">%s</xliff:g> de batería</string>
     <string name="quick_settings_bluetooth_secondary_label_audio">Audiu</string>
     <string name="quick_settings_bluetooth_secondary_label_headset">Cascos</string>
@@ -190,7 +192,6 @@
     <string name="quick_settings_casting">En tresmisión</string>
     <string name="quick_settings_cast_device_default_name">Preséu ensin nome</string>
     <string name="quick_settings_cast_detail_empty_text">Nun hai nengún preséu disponible</string>
-    <string name="quick_settings_cast_no_wifi">La Wi\u2011Fi nun ta conectada</string>
     <string name="quick_settings_brightness_dialog_title">Brillu</string>
     <string name="quick_settings_done">Fecho</string>
     <string name="quick_settings_close_user_panel">Zarrar</string>
@@ -226,6 +227,13 @@
     <string name="quick_settings_nfc_on">El NFC ta habilitáu</string>
     <string name="quick_settings_screen_record_start">Comienzu</string>
     <string name="quick_settings_screen_record_stop">Parar</string>
+    <string name="qs_record_issue_start">Comienzu</string>
+    <string name="qs_record_issue_stop">Parar</string>
+    <string-array name="qs_record_issue_types">
+        <item>Performance</item>
+        <item>User Interface</item>
+        <item>Batería</item>
+    </string-array>
     <string name="quick_step_accessibility_toggle_overview">Alternar «Vista xeneral»</string>
     <string name="zen_priority_introduction">Nun va molestate nengún soníu nin vibración, quitante los de los recordatorios, les alarmes, los eventos y les llamaes qu\'especifiques. Vas siguir sintiendo tolo que decidas reproducir, como los vídeos, la música y los xuegos.</string>
     <string name="zen_alarms_introduction">Nun va molestate nengún soníu nin vibración, quitante los de les alarmes. Vas siguir sintiendo tolo que decidas reproducir, como los vídeos, la música y los xuegos.</string>
@@ -248,6 +256,8 @@
     <string name="interruption_level_priority_twoline">Namás con\n
 prioridá</string>
     <string name="interruption_level_alarms_twoline">Namás\nalarmes</string>
+    <string name="button_to_remove_widget">Quitar</string>
+    <string name="hub_mode_editing_exit_button_text">Fecho</string>
     <string name="accessibility_multi_user_switch_switcher">Cambiar d\'usuariu</string>
     <string name="guest_exit_guest_dialog_message">Van desaniciase toles aplicaciones y tolos datos d\'esta sesión.</string>
     <string name="guest_wipe_session_title">¡Volvi afayate, convidáu!</string>
@@ -360,12 +370,12 @@ prioridá</string>
     <string name="accessibility_status_bar_hotspot">Puntu Wi-Fi</string>
     <string name="accessibility_managed_profile">Perfil llaboral</string>
     <string name="tuner_warning_title">Diversión namás pa dalgunes persones</string>
-    <string name="tuner_warning">«Afinador de la IU del sistema» ufre más formes d\'axustar y personalizar la interfaz d\'usuariu d\'Android. Estes carauterístiques esperimentales puen camudar, desapaecer o dexar de funcionar nes versiones futures. Sigui con curiáu.</string>
-    <string name="tuner_persistent_warning">Estes carauterístiques esperimentales puen camudar, desapaecer o dexar de funcionar nes versiones futures. Sigui con curiáu.</string>
+    <string name="tuner_warning">«Afinador de la IU del sistema» ufre más formes d\'axustar y personalizar la interfaz d\'usuariu d\'Android. Estes funciones esperimentales puen camudar, desapaecer o dexar de funcionar nes versiones futures. Sigui con curiáu.</string>
+    <string name="tuner_persistent_warning">Estes funciones esperimentales puen camudar, desapaecer o dexar de funcionar nes versiones futures. Sigui con curiáu.</string>
     <string name="got_it">Entendílo</string>
     <string name="tuner_toast">¡Norabona! Amestóse «Afinador de la IU del sistema» a «Axustes»</string>
     <string name="remove_from_settings">Quitar d\'«Axustes»</string>
-    <string name="remove_from_settings_prompt">¿Quies quitar «Afinador de la IU del sistema» d\'«Axustes» y dexar d\'usar toles sos carauterístiques?</string>
+    <string name="remove_from_settings_prompt">¿Quies quitar «Afinador de la IU del sistema» d\'«Axustes» y dexar d\'usar toles sos funciones?</string>
     <string name="enable_bluetooth_title">¿Quies habilitar el Bluetooth?</string>
     <string name="enable_bluetooth_message">Pa conectar el tecláu a la tableta, primero tienes d\'habilitar el Bluetooth.</string>
     <string name="enable_bluetooth_confirmation_ok">Habilitar</string>
@@ -423,10 +433,6 @@ prioridá</string>
     <string name="keyboard_key_button_template">Botón «<xliff:g id="name">%1$s</xliff:g>»</string>
     <string name="keyboard_key_home">Aniciu</string>
     <string name="keyboard_key_back">Atrás</string>
-    <string name="keyboard_key_dpad_up">Arriba</string>
-    <string name="keyboard_key_dpad_down">Abaxo</string>
-    <string name="keyboard_key_dpad_left">Esquierda</string>
-    <string name="keyboard_key_dpad_right">Derecha</string>
     <string name="keyboard_key_dpad_center">Centru</string>
     <string name="keyboard_key_tab">Tabulador</string>
     <string name="keyboard_key_space">Espaciu</string>
@@ -455,11 +461,13 @@ prioridá</string>
     <string name="keyboard_shortcut_group_system_switch_input">Cambiar la distribución del tecláu</string>
     <string name="keyboard_shortcut_search_category_system">Sistema</string>
     <string name="keyboard_shortcut_search_category_input">Entrada</string>
+    <string name="group_system_access_system_settings">Abrir los axustes</string>
     <string name="group_system_lock_screen">Pantalla de bloquéu</string>
     <string name="keyboard_shortcut_group_input">Entrada</string>
     <string name="keyboard_shortcut_group_applications">Aplicaciones</string>
-    <string name="keyboard_shortcut_group_applications_assist">Asistencia</string>
+    <string name="keyboard_shortcut_group_applications_browser">Restolador</string>
     <string name="keyboard_shortcut_group_applications_contacts">Contautos</string>
+    <string name="keyboard_shortcut_group_applications_email">Corréu electrónicu</string>
     <string name="keyboard_shortcut_group_applications_sms">SMS</string>
     <string name="keyboard_shortcut_group_applications_music">Música</string>
     <string name="keyboard_shortcut_group_applications_calendar">Calendariu</string>
@@ -591,9 +599,12 @@ prioridá</string>
     <string name="auto_saver_text">Activa la función si prevés que la batería pue escosar</string>
     <string name="no_auto_saver_action">Non, gracies</string>
     <string name="heap_dump_tile_name">Volquiar pila SysUI</string>
+    <string name="ongoing_privacy_dialog_a11y_title">N\'usu</string>
     <string name="ongoing_privacy_chip_content_multiple_apps">Aplicaciones que tán usando: <xliff:g id="types_list" example="camera, location">%s</xliff:g>.</string>
     <string name="ongoing_privacy_dialog_separator">,\u0020</string>
     <string name="ongoing_privacy_dialog_last_separator">\u0020y\u0020</string>
+    <string name="ongoing_privacy_dialog_attribution_label">(<xliff:g id="attribution_label" example="For Wallet">%s</xliff:g>)</string>
+    <string name="ongoing_privacy_dialog_attribution_proxy_label">(<xliff:g id="attribution_label" example="For Wallet">%1$s</xliff:g>  \u2022 <xliff:g id="proxy_label" example="Maps, and Assistant">%2$s</xliff:g>)</string>
     <string name="privacy_type_camera">cámara</string>
     <string name="privacy_type_location">llocalización</string>
     <string name="privacy_type_microphone">micrófonu</string>
@@ -633,6 +644,7 @@ prioridá</string>
     <string name="controls_dialog_remove">Quitar</string>
     <string name="controls_dialog_message">«<xliff:g id="app" example="System UI">%s</xliff:g>» suxer esti control</string>
     <string name="controls_settings_dialog_neutral_button">Non, gracies</string>
+    <string name="controls_settings_dialog_positive_button">Sí</string>
     <string name="controls_pin_use_alphanumeric">El PIN contién lletres o símbolos</string>
     <string name="controls_pin_verify">Verifica «<xliff:g id="device" example="Backdoor lock">%s</xliff:g>»</string>
     <string name="controls_pin_wrong">El PIN ye incorreutu</string>
@@ -648,6 +660,8 @@ prioridá</string>
     <string name="controls_media_seekbar_description"><xliff:g id="elapsed_time" example="1:30">%1$s</xliff:g> de <xliff:g id="total_time" example="3:00">%2$s</xliff:g></string>
     <string name="controls_media_button_play">Reproducir</string>
     <string name="controls_media_button_pause">Posar</string>
+    <string name="controls_media_button_prev">Pista anterior</string>
+    <string name="controls_media_button_next">Pista siguiente</string>
     <string name="controls_media_smartspace_rec_title">Reproducir</string>
     <string name="media_transfer_undo">Desfacer</string>
     <string name="controls_error_timeout">Inactivu. Revisa l\'aplicación</string>
@@ -663,6 +677,7 @@ prioridá</string>
     <string name="media_output_dialog_group">Grupu</string>
     <string name="media_output_dialog_single_device">Esbillóse 1 preséu</string>
     <string name="media_output_dialog_multiple_devices">Esbilláronse <xliff:g id="count" example="2">%1$d</xliff:g> preseos</string>
+    <string name="media_output_dialog_accessibility_seekbar">Volume</string>
     <string name="media_output_end_session_dialog_stop">Parar</string>
     <string name="media_output_broadcast_dialog_save">Guardar</string>
     <string name="select_conversation_title">Widgets de conversación</string>
@@ -693,6 +708,7 @@ prioridá</string>
     <string name="log_access_confirmation_learn_more">Saber más</string>
     <string name="rear_display_bottom_sheet_cancel">Encaboxar</string>
     <string name="call_from_work_profile_close">Encaboxar</string>
+    <string name="dismiss_dialog">Escartar</string>
     <string name="privacy_dialog_done_button">Fecho</string>
     <string name="privacy_dialog_collapse_action">Contrayer</string>
 </resources>

@@ -26,7 +26,7 @@
     <string name="battery_saver_confirmation_title_generic">Mu chaomhnaiche a’ bhataraidh</string>
     <string name="battery_saver_confirmation_ok">Cuir air</string>
     <string name="battery_saver_start_action">Cuir air</string>
-    <string name="battery_saver_dismiss_action">Cha chuir mi seo an comas</string>
+    <string name="battery_saver_dismiss_action">Cha phrìnich mi seo</string>
     <string name="status_bar_settings_auto_rotation">Cuairtich an sgrìn gu fèin-obrachail</string>
     <string name="usb_device_permission_prompt">Am faod <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g> inntrigeadh?</string>
     <string name="usb_device_permission_prompt_warn">Am faod <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g> inntrigeadh?\nCha d’ fhuair an aplacaid seo cead clàraidh ach b’ urrainn dhi fuaim a ghlacadh leis an uidheam USB seo.</string>
@@ -171,6 +171,8 @@
     <string name="quick_settings_dnd_label">Na bris a-steach orm</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_detail_empty_text">Chan eil uidheam paidhrichte ri làimh</string>
+    <string name="pair_new_bluetooth_devices">Paidhrich uidheam ùr</string>
+    <string name="quick_settings_bluetooth_device_connected">Ceangailte</string>
     <string name="quick_settings_bluetooth_secondary_label_battery_level"><xliff:g id="battery_level_as_percentage">%s</xliff:g> a bhataraidh</string>
     <string name="quick_settings_bluetooth_secondary_label_audio">Fuaimean</string>
     <string name="quick_settings_bluetooth_secondary_label_headset">Seata-cinn</string>
@@ -189,7 +191,6 @@
     <string name="quick_settings_casting">Tilgeil</string>
     <string name="quick_settings_cast_device_default_name">Uidheam gun ainm</string>
     <string name="quick_settings_cast_detail_empty_text">Chan eil uidheam ri làimh</string>
-    <string name="quick_settings_cast_no_wifi">Cha deach WiFi a cheangal</string>
     <string name="quick_settings_brightness_dialog_title">Soilleireachd</string>
     <string name="quick_settings_done">Deiseil</string>
     <string name="quick_settings_close_user_panel">Dùin</string>
@@ -224,6 +225,13 @@
     <string name="quick_settings_nfc_on">Tha NFC an comas</string>
     <string name="quick_settings_screen_record_start">Toiseach</string>
     <string name="quick_settings_screen_record_stop">Cuir stad air</string>
+    <string name="qs_record_issue_start">Toiseach</string>
+    <string name="qs_record_issue_stop">Cuir stad air</string>
+    <string-array name="qs_record_issue_types">
+        <item>Performance</item>
+        <item>User Interface</item>
+        <item>Bataraidh</item>
+    </string-array>
     <string name="quick_step_accessibility_toggle_overview">Toglaich am foir-shealladh</string>
     <string name="zen_priority_introduction">Cha dèid briseadh a-steach ort le fuaimean no crith ach o chaismeachdan, cuimhneachain no tachartasan agus on luchd-ghairm a shònraicheas tu. Cluinnidh tu fhathast na thaghas tu fhèin, a’ gabhail a-staigh ceòl, videothan is geamannan.</string>
     <string name="zen_alarms_introduction">Cha dèid briseadh a-steach ort le fuaimean no crith ach o chaismeachdan. Cluinnidh tu fhathast na thaghas tu fhèin, a’ gabhail a-staigh ceòl, videothan is geamannan.</string>
@@ -245,6 +253,8 @@
     <string name="interruption_level_none_twoline">Tost\nslàn</string>
     <string name="interruption_level_priority_twoline">Le prìomhachas\na-mhàin</string>
     <string name="interruption_level_alarms_twoline">Caismeachdan\na-mhàin</string>
+    <string name="button_to_remove_widget">Thoir air falbh</string>
+    <string name="hub_mode_editing_exit_button_text">Deiseil</string>
     <string name="accessibility_multi_user_switch_switcher">Geàrr leum gu cleachdaiche eile</string>
     <string name="guest_exit_guest_dialog_message">Thèid a h-uile aplacaid is dàta san t-seisean seo a sguabadh às.</string>
     <string name="guest_wipe_session_title">Fàilte air ais, aoigh!</string>
@@ -417,10 +427,6 @@ Leibheil 0</b>
     <string name="keyboard_key_button_template">Putan <xliff:g id="name">%1$s</xliff:g></string>
     <string name="keyboard_key_home">Dachaigh</string>
     <string name="keyboard_key_back">Air ais</string>
-    <string name="keyboard_key_dpad_up">Suas</string>
-    <string name="keyboard_key_dpad_down">Sìos</string>
-    <string name="keyboard_key_dpad_left">Clì</string>
-    <string name="keyboard_key_dpad_right">Deas</string>
     <string name="keyboard_key_dpad_center">Meadhan</string>
     <string name="keyboard_key_tab">Tab</string>
     <string name="keyboard_key_space">Space</string>
@@ -449,11 +455,13 @@ Leibheil 0</b>
     <string name="keyboard_shortcut_group_system_switch_input">Atharraich co-dhealbhachd a’ mheur-chlàir</string>
     <string name="keyboard_shortcut_search_category_system">An siostam</string>
     <string name="keyboard_shortcut_search_category_input">Ion-chur</string>
+    <string name="group_system_access_system_settings">Fosgail na roghainnean</string>
     <string name="group_system_lock_screen">An sgrìn-ghlasaidh</string>
     <string name="keyboard_shortcut_group_input">Ion-chur</string>
     <string name="keyboard_shortcut_group_applications">Aplacaidean</string>
-    <string name="keyboard_shortcut_group_applications_assist">Cuidiche</string>
+    <string name="keyboard_shortcut_group_applications_browser">Brabhsair</string>
     <string name="keyboard_shortcut_group_applications_contacts">Luchd-aithne</string>
+    <string name="keyboard_shortcut_group_applications_email">Post-d</string>
     <string name="keyboard_shortcut_group_applications_sms">SMS</string>
     <string name="keyboard_shortcut_group_applications_music">Ceòl</string>
     <string name="keyboard_shortcut_group_applications_calendar">Mìosachan</string>
@@ -572,7 +580,7 @@ Leibheil 0</b>
     <string name="mobile_data_disable_title">An cuir thu dheth dàta mobile?</string>
     <string name="mobile_data_disable_message">Cha bhi cothrom agad air dàta no an t-eadar-lìon slighe <xliff:g id="carrier" example="T-Mobile">%s</xliff:g>. Chan fhaigh thu an t-eadar-lìon ach slighe WiFi.</string>
     <string name="mobile_data_disable_message_default_carrier">a’ ghiùlanair agad</string>
-    <string name="auto_data_switch_dialog_negative_button">Cha chuir mi seo an comas</string>
+    <string name="auto_data_switch_dialog_negative_button">Cha phrìnich mi seo</string>
     <string name="touch_filtered_warning">Air sgàth ’s gu bheil aplacaid a’ falach iarrtas air cead, chan urrainn
         do ghleus nan roghainnean an fhreagairt agad a dhearbhadh.</string>
     <string name="slice_permission_title">A bheil thu airson cead a thoirt dha <xliff:g id="app" example="Example App">%1$s</xliff:g> ach an seall e slisean dhe <xliff:g id="app_2" example="Other Example App">%2$s</xliff:g>?</string>
@@ -626,7 +634,7 @@ Leibheil 0</b>
     <string name="controls_dialog_ok">Cuir ris</string>
     <string name="controls_dialog_remove">Thoir air falbh</string>
     <string name="controls_dialog_message">’Ga mholadh le <xliff:g id="app" example="System UI">%s</xliff:g></string>
-    <string name="controls_settings_dialog_neutral_button">Cha chuir mi seo an comas</string>
+    <string name="controls_settings_dialog_neutral_button">Cha phrìnich mi seo</string>
     <string name="controls_pin_use_alphanumeric">Tha litrichean no samhlaidhean sa PIN</string>
     <string name="controls_pin_verify">Dearbh <xliff:g id="device" example="Backdoor lock">%s</xliff:g></string>
     <string name="controls_pin_wrong">PIN ceàrr</string>
@@ -670,6 +678,7 @@ Leibheil 0</b>
     <string name="log_access_confirmation_learn_more">Barrachd fiosrachaidh</string>
     <string name="rear_display_bottom_sheet_cancel">Sguir dheth</string>
     <string name="call_from_work_profile_close">Sguir dheth</string>
+    <string name="dismiss_dialog">Leig seachad</string>
     <string name="privacy_dialog_done_button">Deiseil</string>
     <string name="privacy_dialog_collapse_action">Co-theannaich</string>
 </resources>

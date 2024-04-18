@@ -68,8 +68,12 @@
     <string name="bluetooth_active_battery_level">Atîf, <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> di batarie</string>
     <string name="bluetooth_active_battery_level_untethered">Atîf, Ç: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g></string>
     <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> di batarie</string>
+    <string name="tv_bluetooth_battery_level">Batarie <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
     <string name="bluetooth_battery_level_untethered">Ç: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, D: batarie al <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered_left">Çampe <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered_right">Diestre <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">Atîf</string>
+    <string name="bluetooth_saved_device">Salvât</string>
     <string name="bluetooth_hearing_aid_left_active">Ative, dome a çampe</string>
     <string name="bluetooth_hearing_aid_right_active">Ative, dome a diestre</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Ative, a çampe e a diestre</string>
@@ -78,13 +82,16 @@
     <string name="bluetooth_profile_opp">Trasferiment files</string>
     <string name="bluetooth_profile_hid">Dispositîf di input</string>
     <string name="bluetooth_profile_pan">Acès a internet</string>
-    <string name="bluetooth_profile_pbap">Condivision contats e cronologjie clamadis</string>
-    <string name="bluetooth_profile_pbap_summary">Dopre par condivision di contats e cronologjie clamadis</string>
+    <string name="bluetooth_profile_pbap">Permet l\'acès a contats e cronologjie clamadis</string>
+    <string name="bluetooth_profile_pbap_summary">Lis informazions a vignaran dopradis pai anuncis di clamade e altri</string>
     <string name="bluetooth_profile_pan_nap">Condivision conession internet</string>
     <string name="bluetooth_profile_map">Messaçs di test</string>
     <string name="bluetooth_profile_sap">Acès ae SIM</string>
     <string name="bluetooth_profile_a2dp_high_quality">Audio HD: <xliff:g id="codec_name">%1$s</xliff:g></string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">Audio HD</string>
+    <string name="bluetooth_profile_hearing_aid">Aparâts acustics</string>
+    <string name="bluetooth_profile_le_audio">Audio LE</string>
+    <string name="bluetooth_hearing_aid_profile_summary_connected">Colegât ai aparâts acustics</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Conetût a audio LE</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Colegât al audio multimdiâl</string>
     <string name="bluetooth_headset_profile_summary_connected">Colegât al audio dal telefon</string>
@@ -102,6 +109,7 @@
     <string name="bluetooth_headset_profile_summary_use_for">Doprâ pal audio dal telefon</string>
     <string name="bluetooth_opp_profile_summary_use_for">Doprâ pal trasferiment files</string>
     <string name="bluetooth_hid_profile_summary_use_for">Doprâ pal input</string>
+    <string name="bluetooth_hearing_aid_profile_summary_use_for">Doprâ pai aparâts acustics</string>
     <string name="bluetooth_le_audio_profile_summary_use_for">Dopre par LE_AUDIO</string>
     <string name="bluetooth_pairing_accept">Associe</string>
     <string name="bluetooth_pairing_accept_all_caps">ASSOCIE</string>
@@ -124,6 +132,7 @@
     <string name="accessibility_wifi_two_bars">Segnâl wifi a dôs sbaris.</string>
     <string name="accessibility_wifi_three_bars">Segnâl wifi a trê sbaris.</string>
     <string name="accessibility_wifi_signal_full">Segnâl wifi al massim.</string>
+    <string name="accessibility_wifi_other_device">Colegât al to dispositîf.</string>
     <string name="accessibility_wifi_security_type_none">Rêt vierte</string>
     <string name="accessibility_wifi_security_type_secured">Rêt sigure</string>
     <string name="process_kernel_label">SO Android</string>
@@ -196,6 +205,8 @@
     <string name="choose_profile">Sielç un profîl</string>
     <string name="category_personal">Personâl</string>
     <string name="category_work">Lavôr</string>
+    <string name="category_private">Privât</string>
+    <string name="category_clone">Clon</string>
     <string name="development_settings_title">Opzions pal svilupadôr</string>
     <string name="development_settings_enable">Abilite lis opzions pal svilupadôr</string>
     <string name="development_settings_summary">Stabilìs lis opzions pal disvilup des aplicazions</string>
@@ -338,6 +349,8 @@
     <string name="pointer_location_summary">Soreposizion dal schermi che al mostre i dâts atuâi des tocjadis</string>
     <string name="show_touches">Mostre tocjadis</string>
     <string name="show_touches_summary">Mostre lis rispuestis visivis pes tocjadis</string>
+    <string name="show_key_presses">Mostre pressions tascj</string>
+    <string name="show_key_presses_summary">Mostre la retroazion visive pes pressions fisichis dai tascj</string>
     <string name="show_screen_updates">Mostre i inzornaments de superficie</string>
     <string name="show_screen_updates_summary">Lampe dutis lis superficiis dal barcon cuant che si inzornin</string>
     <string name="show_hw_screen_updates">Mostre i inzornaments de viodude</string>
@@ -355,6 +368,8 @@
     <string name="debug_layout_summary">Mostre limits dal ritai, margjins e v.i.</string>
     <string name="force_rtl_layout_all_locales">Sfuarce direzion disposizion RTL(DAÇ)</string>
     <string name="force_rtl_layout_all_locales_summary">Sfuarce la direzion de disposizion dal schermi a RTL (di drete a çampe) par dutis lis localizazions</string>
+    <string name="transparent_navigation_bar">Sbare di navigazion trasparente</string>
+    <string name="transparent_navigation_bar_summary">Rint trasparent, tant che impostazion predefinide, il colôr dal fonts de sbare di navigazion</string>
     <string name="window_blurs">Permet fûr fûcs a nivel di barcon</string>
     <string name="force_msaa">Sfuarce MSAA 4x</string>
     <string name="force_msaa_summary">Ative il MSAA 4x tes aplicazions OpenGL ES 2.0</string>
@@ -383,7 +398,6 @@
     <string name="force_resizable_activities_summary">Fâs in mût che dutis lis ativitâts si podedin ridimensionâ pai barcons multiplis, in mût indipendent dai valôrs dal manifest.</string>
     <string name="enable_freeform_support">Abilite i barcons a forme libare</string>
     <string name="enable_freeform_support_summary">Abilite il supuart pai barcons a forme libare sperimentâi.</string>
-    <string name="desktop_mode">Modalitât scritori</string>
     <string name="local_backup_password_title">Password backup computer</string>
     <string name="local_backup_password_summary_none">I backups complets dal computer locâl al moment no son protets</string>
     <string name="local_backup_password_summary_change">Tocje par cambiâ o gjavâla password pai backups complets dal computer</string>
@@ -412,6 +426,9 @@
     <string name="transcode_default">Presupon che lis aplicazions a supuartin i formâts modernis</string>
     <string name="transcode_notification">Mostre lis notifichis di transcodifiche</string>
     <string name="transcode_disable_cache">Disative la cache di transcodifiche</string>
+    <string name="widevine_settings_title">Impostazions Widevine</string>
+    <string name="force_l3_fallback_title">Sfuarce repeç L3</string>
+    <string name="force_l3_fallback_summary">Selezione di sfuarçâ il repeç L3</string>
     <string name="runningservices_settings_title">Servizis in esecuzion</string>
     <string name="runningservices_settings_summary">Visualize e controle i servizis al moment in esecuzion</string>
     <string name="select_webview_provider_title">Implementazion WebView</string>
@@ -448,12 +465,6 @@
     <string name="power_remaining_less_than_duration">Cjarie residue: mancul di <xliff:g id="threshold">%1$s</xliff:g> (<xliff:g id="level">%2$s</xliff:g>)</string>
     <string name="power_remaining_more_than_subtext">Timp residui: plui di <xliff:g id="time_remaining">%1$s</xliff:g> (<xliff:g id="level">%2$s</xliff:g>)</string>
     <string name="power_remaining_only_more_than_subtext">Timp residui: plui di <xliff:g id="time_remaining">%1$s</xliff:g></string>
-    <string name="power_remaining_duration_only_shutdown_imminent" product="default">Il telefon al podarès distudâsi chi di pôc</string>
-    <string name="power_remaining_duration_only_shutdown_imminent" product="tablet">Il tablet al podarès distudâsi chi di pôc</string>
-    <string name="power_remaining_duration_only_shutdown_imminent" product="device">Il dispositîf al podarès distudâsi chi di pôc</string>
-    <string name="power_remaining_duration_shutdown_imminent" product="default">Il telefon al podarès distudâsi chi di pôc (<xliff:g id="level">%1$s</xliff:g>)</string>
-    <string name="power_remaining_duration_shutdown_imminent" product="tablet">Il tablet al podarès distudâsi chi di pôc (<xliff:g id="level">%1$s</xliff:g>)</string>
-    <string name="power_remaining_duration_shutdown_imminent" product="device">Il dispositîf al podarès distudâsi chi di pôc (<xliff:g id="level">%1$s</xliff:g>)</string>
     <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g></string>
     <string name="power_remaining_charging_duration_only"><xliff:g id="time">%1$s</xliff:g> pe ricjarie complete</string>
     <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> pe ricjarie complete</string>
@@ -509,8 +520,7 @@
     <string name="status_unavailable">No disponibil</string>
     <string name="wifi_status_mac_randomized">La direzion MAC e je casuâl</string>
     <string name="wifi_tether_connected_summary">        {count, plural,
-            one {}=0    {0 dispositîf conetût}
-            =1    {1 dispositîf conetût}
+            one {}=1    {1 dispositîf conetût}
             other {# dispositîfs conetûts}
         }
     </string>
@@ -518,6 +528,7 @@
     <string name="accessibility_manual_zen_less_time">Mancul timp.</string>
     <string name="cancel">Anule</string>
     <string name="next">Indenant</string>
+    <string name="back">Indaûr</string>
     <string name="save">Salve</string>
     <string name="okay">Va ben</string>
     <string name="done">Fat</string>
@@ -544,7 +555,26 @@
     <string name="time_unit_just_now">Juste cumò</string>
     <string name="media_transfer_this_device_name" product="default">Chest telefon</string>
     <string name="media_transfer_this_device_name" product="tablet">Chest tablet</string>
+    <string name="media_transfer_this_device_name" product="tv">@string/tv_media_transfer_default</string>
+    <string name="media_transfer_dock_speaker_device_name">Casse cun base</string>
+    <string name="media_transfer_external_device_name">Dispositîf esterni</string>
+    <string name="media_transfer_default_device_name">Dispositîf colegât</string>
     <string name="media_transfer_this_phone">Chest telefon</string>
+    <string name="media_output_status_unknown_error">Impussibil meti in riproduzion su chest dispositîf</string>
+    <string name="media_output_status_require_premium">Inzorne l\'account par cambiâ</string>
+    <string name="media_output_status_not_support_downloads">Impussibil riprodusi i files discjariâts achì</string>
+    <string name="media_output_status_try_after_ad">Torne prove dopo de publicitât</string>
+    <string name="media_output_status_device_in_low_power_mode">Svee il dispositîf par riprodusi achì</string>
+    <string name="media_output_status_unauthorized">Dispositîf no aprovât pe riproduzion</string>
+    <string name="media_output_status_track_unsupported">Impussibil riprodusi chest contignût multimediâl achì</string>
+    <string name="tv_media_transfer_connected">Conetût</string>
+    <string name="tv_media_transfer_arc_fallback_title">ARC HDMI</string>
+    <string name="tv_media_transfer_earc_fallback_title">eARC HDMI</string>
+    <string name="tv_media_transfer_arc_subtitle">Colegât vie ARC</string>
+    <string name="tv_media_transfer_earc_subtitle">Colegât vie eARC</string>
+    <string name="tv_media_transfer_default">Predefinît de TV</string>
+    <string name="tv_media_transfer_hdmi">Jessude HDMI</string>
+    <string name="tv_media_transfer_internal_speakers">Cassis internis</string>
     <string name="profile_connect_timeout_subtext">Probleme di conession. Distude il dispositîf e torne impiilu</string>
     <string name="media_transfer_wired_device_name">Dispositîf audio cun fîl</string>
     <string name="help_label">Jutori e valutazions</string>
@@ -569,6 +599,9 @@
     <string name="user_add_user_title">Zontâ un gnûf utent?</string>
     <string name="user_add_user_message_long">Tu puedis condividi chest dispositîf cun altris personis creant altris utents. Ogni utent al à il so spazi, che al pues jessi personalizât cun aplicazions, fonts e vie indenant. I utents a puedin ancje regolâ lis impostazions dal dispositîf come il Wi\u2011Fi che a tocjin ducj.\n\nCuant che tu zontis un gnûf utent, chê persone e scugne configurâ il so spazi. Al è pussibil che lis impostazions e i servizis di acès facilitât no vegnin trasferîts al gnûf utent.</string>
     <string name="user_add_user_message_short">Cuant che tu zontis un gnûf utent, che persone e à di configurâ il so spazi.\n\nDucj i utents a puedin inzornâ lis aplicazions di ducj i altris utents. </string>
+    <string name="user_grant_admin_title">Rindi chest utent un aministradôr?</string>
+    <string name="user_grant_admin_message">I aministradôrs a àn privileçs speciâi che altris utents no àn. Un aministradôr al pues gjestî ducj i utents, inzornâ o ripristinâ chest dispositîf, modificâ impostazions, viodi dutis lis aplicazions instaladis e concedi o gjavâ privileçs di aministradôr a chei altri utents.</string>
+    <string name="user_grant_admin_button">Rint aministradôr</string>
     <string name="user_setup_dialog_title">Configurâ l\'utent daurman?</string>
     <string name="user_setup_dialog_message">Verifiche che chê persone e sedi disponibile a cjapâ in man il dispositîf e configurâ il so spazi</string>
     <string name="user_setup_profile_dialog_message">Configurâ il profîl daurman?</string>
@@ -602,6 +635,8 @@
     <string name="guest_exit_dialog_title">Lâ fûr de modalitât ospit?</string>
     <string name="guest_exit_dialog_message">Chest al eliminarà
         lis aplicazions e i dâts de session ospit atuâl</string>
+    <string name="grant_admin">Sì, rindiju aministradôrs</string>
+    <string name="not_grant_admin">No, no sta rindiju aministradôrs</string>
     <string name="guest_exit_dialog_button">Jes</string>
     <string name="guest_exit_dialog_title_non_ephemeral">Salvâ la ativitât ospit?</string>
     <string name="guest_exit_dialog_message_non_ephemeral">Tu puedis salvâ la ativitât de
@@ -666,10 +701,15 @@
     <string name="allow_turn_screen_on">Permet di impiâ il schermi</string>
     <string name="allow_turn_screen_on_description">Permet a une aplicazion di impiâ il schermi. Se chest permès al ven concedût, la aplicazion e podarès impiâ il schermi a cualsisei ore cence la tô autorizazion esplicite.</string>
     <string name="bt_le_audio_broadcast_dialog_title">Interompi la trasmission di <xliff:g id="app_name" example="App Name 1">%1$s</xliff:g>?</string>
-    <string name="bt_le_audio_broadcast_dialog_sub_title">Se tu trasmetis <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g> o tu cambis la jessude, la trasmission corinte si interomparà</string>
+    <string name="bt_le_audio_broadcast_dialog_sub_title">Se tu trasmetis <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g> o tu cambiis la jessude, la trasmission corinte si interomparà</string>
     <string name="bt_le_audio_broadcast_dialog_switch_app">Trasmeti <xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g></string>
     <string name="bt_le_audio_broadcast_dialog_different_output">Cambie jessude</string>
     <string name="back_navigation_animation">Animazions preditivis par Indaûr</string>
     <string name="back_navigation_animation_summary">Ative lis animazions di sisteme pal mot Indaûr preditîf.</string>
     <string name="back_navigation_animation_dialog">Cheste impostazion e ative lis animazions di sisteme pal mot Indaûr preditîf. E domande di meti il metodi \"enableOnBackInvokedCallback\" a true tal file manifest di dutis lis aplicazions.</string>
+    <string name="font_scale_percentage"> <xliff:g id="percentage">%1$d</xliff:g> %%</string>
+    <string name="not_specified">No specificât</string>
+    <string name="neuter">Neutri</string>
+    <string name="feminine">Feminin</string>
+    <string name="masculine">Maschîl</string>
 </resources>

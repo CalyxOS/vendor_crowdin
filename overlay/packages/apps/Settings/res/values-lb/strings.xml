@@ -108,6 +108,12 @@
     <string name="security_settings_face_enroll_done">Fäerdeg</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Ofbriechen</string>
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks">Nee Merci</string>
+    <string name="security_settings_remoteauth_enroll_introduction_disagree">Net elo</string>
+    <string name="security_settings_remoteauth_enroll_introduction_agree">Weider</string>
+    <string name="security_settings_remoteauth_enroll_introduction_more">Méi</string>
+    <string name="security_settings_remoteauth_enroll_enrolling_disagree">Ofbriechen</string>
+    <string name="security_settings_remoteauth_enroll_enrolling_agree">Bestätegen</string>
+    <string name="security_settings_remoteauth_enroll_finish_btn_next">Fäerdeg</string>
     <string name="biometric_settings_hand_back_to_guardian_ok">OK</string>
     <string name="biometric_settings_add_biometrics_in_split_mode_ok">OK</string>
     <string name="skip_anyway_button_label">Trotzdeem iwwersprangen</string>
@@ -120,6 +126,12 @@
     <string name="fingerprint_enroll_button_next">Weider</string>
     <string name="security_header">Sécherheet</string>
     <string name="work_profile_category_header">Aarbechtsprofil</string>
+    <string name="privatespace_hide_off_summary">Aus</string>
+    <string name="privatespace_hide_on_summary">Un</string>
+    <string name="private_space_category_system">System</string>
+    <string name="no_device_lock_cancel">Ofbriechen</string>
+    <string name="private_space_cancel_label">Ofbriechen</string>
+    <string name="private_space_done_label">Fäerdeg</string>
     <string name="encryption_settings_title">Verschlësselung</string>
     <string name="encrypted_summary">Verschlësselt</string>
     <string name="lock_settings_picker_title">Schiermspär auswielen</string>
@@ -154,7 +166,6 @@
     <string name="bluetooth_device_context_connect">Connectéieren</string>
     <string name="bluetooth_device_context_disconnect">Deconnectéieren</string>
     <string name="bluetooth_device_context_pair_connect">Koppelen a connectéieren</string>
-    <string name="bluetooth_empty_list_bluetooth_off">Wa Bluetooth un ass, kann däin Apparat mat Bluetooth-Apparater an der Géigend kommunikéieren.</string>
     <string name="nfc_reboot_dialog_confirm">Nei starten</string>
     <string name="wifi_display_enable_menu_item">Kabellose Schierm aktivéieren</string>
     <string name="wifi_display_no_devices_found">Keng Apparater an der Géigend fonnt.</string>
@@ -209,7 +220,6 @@
     <string name="wifi_connecting">Connectioun gëtt hiergestallt\u2026</string>
     <string name="wifi_failed_connect_message">Connectioun mam Netzwierk feelgeschloen</string>
     <string name="wifi_forget">Vergiessen</string>
-    <string name="wifi_failed_forget_message">Konnt d\'Netzwierk net vergiessen</string>
     <string name="wifi_save">Späicheren</string>
     <string name="wifi_failed_save_message">Konnt d\'Netzwierk net späicheren</string>
     <string name="wifi_cancel">Ofbriechen</string>
@@ -364,21 +374,15 @@
     <string name="tether_settings_title_usb_bluetooth">Tethering</string>
     <string name="tether_settings_summary_hotspot_off_tether_on">Tethering</string>
     <string name="tether_preference_summary_off">Aus</string>
-    <string name="tethering_interface_options">Tethering</string>
-    <string name="usb_title">USB</string>
     <string name="usb_tethering_button_text">USB-Tethering</string>
     <string name="bluetooth_tether_checkbox_text">Bluetooth-Tethering</string>
     <string name="tethering_help_button_text">Hëllef</string>
-    <string name="manage_mobile_plan_title" translatable="true">Mobillen Tariff</string>
     <string name="sms_change_default_dialog_title" translatable="true">SMS-App änneren?</string>
     <string name="sms_change_default_dialog_text" translatable="true"><xliff:g id="new_app">%1$s</xliff:g> amplaz vu(n) <xliff:g id="current_app">%2$s</xliff:g> als deng SMS-App benotzen?</string>
     <string name="sms_change_default_no_previous_dialog_text" translatable="true"><xliff:g id="new_app">%s</xliff:g> als deng SMS-App benotzen?</string>
     <string name="network_scorer_change_active_dialog_title">WLAN-Assistent änneren?</string>
     <string name="network_scorer_change_active_dialog_text"><xliff:g id="new_app">%1$s</xliff:g> duerch <xliff:g id="current_app">%2$s</xliff:g> ersetze fir d\'Netzwierkconnectiounen ze geréieren?</string>
     <string name="network_scorer_change_active_no_previous_dialog_text"><xliff:g id="new_app">%s</xliff:g> benotze fir d\'Netzwierkconnectiounen ze geréieren?</string>
-    <string name="mobile_unknown_sim_operator" translatable="true">Onbekannte SIM-Provider</string>
-    <string name="mobile_insert_sim_card" translatable="true">Setz w.e.g. eng SIM-Kaart an a start nei</string>
-    <string name="mobile_connect_to_internet" translatable="true">Verbann dech w.e.g. mam Internet</string>
     <string name="location_category_recent_location_requests">Rezent Standuertufroen</string>
     <string name="managed_profile_location_switch_title">Standuert fir Aarbechtsprofil</string>
     <string name="location_no_recent_apps">Kierzlech hu keng Appen Zougrëff op de Standuert ugefrot</string>
@@ -642,9 +646,6 @@
     <string name="capabilities_list_title"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> wëll:</string>
     <string name="accessibility_dialog_button_allow">Erlaben</string>
     <string name="accessibility_dialog_button_deny">Verweigeren</string>
-    <string name="accessibility_dialog_button_stop">Stopp</string>
-    <string name="accessibility_dialog_button_cancel">Ofbriechen</string>
-    <string name="disable_service_title"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> stoppen?</string>
     <string name="accessibility_no_services_installed">Keng Servicer installéiert</string>
     <string name="accessibility_service_default_description">Keng Beschreiwung aginn.</string>
     <string name="settings_button">Astellungen</string>
@@ -751,8 +752,6 @@
     <string name="request_manage_credentials_allow">Erlaben</string>
     <string name="no_certificate_management_app">Ouni</string>
     <string name="emergency_tone_summary">Definéier d\'Behuele wann en Noutruff ofgesat gëtt</string>
-    <string name="backup_summary_state_on">Un</string>
-    <string name="backup_summary_state_off">Aus</string>
     <string name="backup_section_title">Sécheren an erëmhierstellen</string>
     <string name="personal_data_section_title">Perséinlech Daten</string>
     <string name="backup_data_title">Meng Date sécheren</string>
@@ -843,17 +842,12 @@
     <string name="vpn_name">Numm</string>
     <string name="vpn_type">Typ</string>
     <string name="vpn_server">Serveradress</string>
-    <string name="vpn_mppe">PPP-Verschlësselung (MPPE)</string>
-    <string name="vpn_l2tp_secret">L2TP-Geheimnis</string>
     <string name="vpn_ipsec_identifier">IPSec-ID</string>
     <string name="vpn_ipsec_secret">Virinstalléierten IPSec-Schlëssel</string>
     <string name="vpn_ipsec_user_cert">IPSec-Benotzerzertifikat</string>
     <string name="vpn_ipsec_ca_cert">IPSec-CA-Zertifikat</string>
     <string name="vpn_ipsec_server_cert">IPSec-Serverzertifikat</string>
     <string name="vpn_show_options">Erweidert Optiounen uweisen</string>
-    <string name="vpn_search_domains">DNS-Sichdomains</string>
-    <string name="vpn_dns_servers">DNS-Serveren (z. B. 8.8.8.8)</string>
-    <string name="vpn_routes">Weiderleedungs-Routen (z. B. 10.0.0.0/8)</string>
     <string name="vpn_username">Benotzernumm</string>
     <string name="vpn_password">Passwuert</string>
     <string name="vpn_save_login">Konteninformatioun späicheren</string>
@@ -936,10 +930,6 @@
     <string name="amber_alerts_title">AMBER-Warnungen</string>
     <string name="amber_alerts_summary">Berichter iwwer Entféierunge vu Kanner emfänken</string>
     <string name="repeat_title">Widderhuelen</string>
-    <string name="call_manager_enable_title">Uruffverwalter aktivéieren</string>
-    <string name="call_manager_enable_summary">Dësem Service erlaaben, ze geréiere wéi d\'Uriff gemaach ginn.</string>
-    <string name="call_manager_title">Uruffverwalter</string>
-    <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
     <string name="network_operators_settings">Netzwierkprovideren</string>
     <string name="access_point_names">Nimm vun den Zougrëffspunkten</string>
     <string name="preferred_network_type_title">Preferéierten Netzwierktyp</string>
@@ -1167,4 +1157,17 @@
     <string name="color_selector_dialog_done">Fäerdeg</string>
     <string name="color_selector_dialog_cancel">Ofbriechen</string>
     <string name="contrast_medium">Mëttel</string>
+    <string name="generic_accessibility_service_on">Un</string>
+    <string name="generic_accessibility_service_off">Aus</string>
+    <string name="generic_accessibility_feature_shortcut_off">Aus</string>
+    <string name="accessibility_shortcut_state_off">Aus</string>
+    <string name="daltonizer_state_on">Un</string>
+    <string name="daltonizer_state_off">Aus</string>
+    <string name="color_inversion_state_on">Un</string>
+    <string name="color_inversion_state_off">Aus</string>
+    <string name="autoclick_disabled">Aus</string>
+    <string name="show_captions_disabled">Aus</string>
+    <string name="show_captions_enabled">Un</string>
+    <string name="live_caption_disabled">Aus</string>
+    <string name="live_caption_enabled">Un</string>
 </resources>
