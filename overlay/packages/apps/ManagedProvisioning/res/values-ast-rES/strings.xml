@@ -17,12 +17,35 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="navigation_button_description">Desplazase p\'arriba</string>
-  <string name="account_management_disclaimer_header">La cuenta ta xestionada</string>
-  <string name="fully_managed_device_provisioning_permissions_header">L\'actividá y los datos de to</string>
-  <string name="fully_managed_device_provisioning_permissions_secondary_header">Permisos d\'aplicaciones</string>
-  <string name="fully_managed_device_provisioning_return_device_title">Devolución del preséu al alministrador de TI</string>
-  <string name="fully_managed_device_provisioning_return_device_subheader">Volvi a la pantalla anterior o reanicia esti preséu y devólvilu al alministrador de TI.</string>
-  <string name="fully_managed_device_cancel_setup_button">Encaboxar la configuración</string>
-  <string name="fully_managed_device_reset_and_return_button">Reafitar y devolver el preséu</string>
+  <string name="admin_has_ability_to_monitor_device">L\'alministrador de TI tien la capacidá, supervisar y xestionar la configuración, l\'accesu corporativu, los permisos, les aplicaciones y los datos asociaos con esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>), incluyida l\'actividá de rede, la llocalización del preséu, l\'historial de llamaes y l\'historial de la busca de contautos.<xliff:g id="line_break">\n\n</xliff:g>Ponte en contautu col alministrador de TI pa consiguir más información y consultar les polítiques de privacidá de la to organización.</string>
+  <string name="encrypt_device_text_for_profile_owner_setup">Pa configurar el perfil llaboral hai que cifrar el preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>). Esta aición pue tardar un tiempu.</string>
+  <string name="encrypt_device_text_for_device_owner_setup">Pa configurar el preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>), primero hai que lu cifrar. Esta aición pue tardar un tiempu.</string>
+  <string name="work_profile_cant_be_added_contact_admin">Nun se pue amestar el perfil llaboral a esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>). Si tienes entrugues, ponte en contautu col alministrador de TI.</string>
+  <string name="device_doesnt_allow_encryption_contact_admin">Esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) nun permite\'l cifráu, que ye necesariu pa la configuración. Pa consiguir ayuda, ponte en contautu col alministrador de TI.</string>
+  <string name="stop_setup_reset_device_question">¿Quies parar la configuración y reafitar esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>)?</string>
+  <string name="this_will_reset_take_back_first_screen">Esta aición va reafitar esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) y va volver llevate a la primer pantalla</string>
+  <string name="reset_device">Reafita esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) y volvi probar a configuralu</string>
+  <string name="device_already_set_up">«<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>» yá ta configuráu</string>
+  <string name="device_has_reset_protection_contact_admin">El preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) tien activada la proteición escontra\'l reafitamientu. Pa consiguir ayuda, ponte en contautu col alministrador de TI.</string>
+  <string name="setup_device">Configura\'l <xliff:g id="device_name" example="Pixel">%1$s</xliff:g></string>
+  <string name="setup_device_encryption">Configura\'l <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>. Cifráu</string>
+  <string name="setup_device_progress">Configura\'l <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>. Amosando\'l progresu</string>
+  <string name="account_management_disclaimer_subheader">L\'alministrador de TI usa la xestión de preseos móviles p\'aplicar les polítiques de seguranza</string>
+  <string name="fully_managed_device_provisioning_step_2_header">Esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) nun ye priváu</string>
+  <string name="fully_managed_device_provisioning_step_2_subheader">Ye posible que l\'alministrador de TI seya a ver los datos y l\'actividá d\'esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>).</string>
+  <string name="fully_managed_device_provisioning_permissions_secondary_subheader">L\'alministrador de TI pue configurar permisos pa les aplicaciones d\'esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>), incluyíos los permisos de la cámara, el micrófonu y la llocalización.</string>
+  <string name="fully_managed_device_provisioning_summary">Usa esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) p\'acceder fácilmente a les aplicaciones llaborales. Esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) nun ye priváu y, polo tanto, ye posible que l\'alministrador de TI seya a ver los datos y l\'actividá de to.</string>
+  <string name="fully_managed_device_with_permission_control_provisioning_summary">Usa esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) p\'acceder fácilmente a les aplicaciones llaborales. Esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) nun ye priváu y, polo tanto, ye posible que l\'alministrador de TI seya a ver los datos y l\'actividá de to. L\'alministrador de TI tamién pue configurar permisos pa les aplicaciones d\'esti preséu, incluyíos los permisos de la cámara, el micrófonu y la llocalización.</string>
+  <string name="fully_managed_device_unsupported_DPC_in_headless_mode_header">El preséu nun se pue configurar</string>
+  <string name="fully_managed_device_unsupported_DPC_in_headless_mode_subheader">Esti preséu nun se pue inscribir nel mou totalmente xestionáu. Reafita\'l preséu y ponte en contautu col alministrador de TI.</string>
+  <string name="fully_managed_device_reset_button">Reafitar</string>
+  <string name="cope_provisioning_summary">Les aplicaciones llaborales caltiénense nel perfil llaboral y xestiónales l\'alministrador de TI. Les aplicaciones personales queden anubríes y separtaes del perfil llaboral. L\'alministrador de TI pue controlar esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) y bloquiar determinaes aplicaciones.</string>
+  <string name="fully_managed_device_provisioning_privacy_body">Ye posible que l\'alministrador de de TI tenga la capacidá de ver los datos y l\'actividá d\'esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>)</string>
+  <string name="financed_device_screen_header"><xliff:g id="creditor_name" example="creditor_name">%2$s</xliff:g> forne esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>)</string>
+  <string name="financed_make_payments_subheader_title">Fai pagos con esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>)</string>
+  <string name="financed_make_payments_subheader_description">«<xliff:g id="creditor_name" example="creditor_name">%1$s</xliff:g>» pue instalar l\'aplicación «<xliff:g id="creditor_name" example="creditor_name">%2$s</xliff:g>» pa que puedas facer pagos con esti preséu (<xliff:g id="device_name" example="Pixel">%3$s</xliff:g>)</string>
+  <string name="financed_restrict_device_subheader_title">Pue torgase esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>)</string>
+  <string name="financed_restrict_device_subheader_description">«<xliff:g id="creditor_name" example="creditor_name">%1$s</xliff:g>» pue torgar l\'accesu a esti preséu (<xliff:g id="device_name" example="Pixel">%2$s</xliff:g>) si nun faes nengún pagu.</string>
+  <string name="error_role_holder_hash_mismatch">Nun se pue configurar el preséu <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>. Ponte en contautu col alministrador de TI y fai referencia a «La suma de comprobación ye inválida».</string>
+  <string name="error_role_holder_package_invalid">Nun se pue configurar el preséu <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>. Ponte en contautu col alministrador de TI y fai referencia a «Falten componentes o tán toyíos».</string>
 </resources>

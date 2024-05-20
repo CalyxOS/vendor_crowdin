@@ -21,14 +21,16 @@
     <string name="keyguard_enter_your_pin">Rho dy PIN</string>
     <string name="keyguard_enter_pin">Rho\'r PIN</string>
     <string name="keyguard_enter_your_pattern">Rho dy batrwm</string>
+    <string name="keyguard_enter_pattern">Rho\u2019r patrwm</string>
     <string name="keyguard_enter_your_password">Rho dy gyfrinair</string>
+    <string name="keyguard_enter_password">Rho gyfrinair</string>
     <string name="keyguard_sim_error_message_short">Cerdyn Annilys.</string>
     <string name="keyguard_charged">Wedi gwefru</string>
     <string name="keyguard_plugged_in_wireless"><xliff:g id="percentage" example="20%">%s</xliff:g> • Yn gwefru\u2019n ddi-wifr</string>
     <string name="keyguard_plugged_in_dock"><xliff:g id="percentage" example="20%">%s</xliff:g> • Yn gwefru</string>
     <string name="keyguard_plugged_in"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru</string>
     <string name="keyguard_plugged_in_charging_fast"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru\'n gyflym</string>
-    <string name="keyguard_plugged_in_charging_slowly"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru\'n araf</string>
+    <string name="keyguard_plugged_in_charging_slowly"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru\u2019n araf</string>
     <string name="keyguard_plugged_in_charging_limited"><xliff:g id="percentage">%s</xliff:g> • Gwefru wedi\u2019i optimeiddio i warchod y batri</string>
     <string name="keyguard_network_locked_message">Rhwydwaith wedi\'i gloi</string>
     <string name="keyguard_accessibility_pin_area">Maes PIN</string>
@@ -41,8 +43,14 @@
     <string name="error_disable_esim_msg">Ni ellir analluogi\u2019r eSIM oherwydd gwall.</string>
     <string name="keyboardview_keycode_enter">Bysell \'Enter\'</string>
     <string name="kg_wrong_pattern">Patrwm anghywir</string>
+    <string name="kg_wrong_pattern_try_again">Patrwm anghywir. Ceisia eto.</string>
     <string name="kg_wrong_password">Cyfrinair anghywir</string>
+    <string name="kg_wrong_password_try_again">Cyfrinair anghywir. Ceisia eto.</string>
     <string name="kg_wrong_pin">PIN Anghywir</string>
+    <string name="kg_wrong_pin_try_again">PIN anghywir. Ceisia eto.</string>
+    <string name="kg_wrong_input_try_fp_suggestion">Neu ddatgloi gydag ôl dy fys</string>
+    <string name="kg_bio_try_again_or_pin">Ceisia eto neu rho\u2019r PIN</string>
+    <string name="kg_bio_try_again_or_password">Ceisia eto neu rho\u2019r cyfrinair</string>
     <string name="kg_too_many_failed_attempts_countdown">{count, plural,
 =1 {Rho gynnig arall ymhen # eiliad.}
         other {Rho gynnig arall ymhen # eiliad.}
@@ -86,6 +94,9 @@
     <string name="kg_password_puk_failed">Methodd gweithred PUK y SIM!</string>
     <string name="accessibility_ime_switch_button" msgid="5032926134740456424">Newid dull mewnbwn</string>
     <string name="airplane_mode">Modd awyren</string>
+    <string name="kg_prompt_reason_restart_pattern">Rhaid rhoi\u2019r patrwm ar ôl ailgychwyn y ddyfais</string>
+    <string name="kg_prompt_reason_restart_pin">Rhaid rhoi\u2019r PIN ar ôl ailgychwyn y ddyfais</string>
+    <string name="kg_prompt_reason_restart_password">Rhaid rhoi\u2019r cyfrinair ar ôl ailgychwyn y ddyfais</string>
     <string name="kg_prompt_reason_timeout_pattern">Am ddiogelwch ychwanegol, defnyddia batrwm yn lle</string>
     <string name="kg_prompt_reason_timeout_pin">Am ddiogelwch ychwanegol, defnyddia PIN yn lle</string>
     <string name="kg_prompt_reason_timeout_password">Am ddiogelwch ychwanegol, defnyddia gyfrinair yn lle</string>
@@ -111,4 +122,9 @@
     <string name="clock_title_bubble">Swigod</string>
     <string name="clock_title_analog">Analog</string>
     <string name="keyguard_unlock_to_continue">Datglo dy ddyfais i barhau</string>
+    <string name="kg_prompt_unattended_update_pin">Rho PIN i osod y diweddariad yn hwyrach</string>
+    <string name="kg_prompt_unattended_update_password">Rho\u2019r cyfrinair i osod y diweddariad yn hwyrach</string>
+    <string name="kg_prompt_after_update_pin">Dyfais wedi\u2019i diweddaru. Rho PIN i barhau.</string>
+    <string name="kg_prompt_after_update_password">Dyfais wedi\u2019i diweddaru. Rho gyfrinair i barhau.</string>
+    <string name="kg_prompt_after_update_pattern">Dyfais wedi\u2019i diweddaru. Rho batrwm i barhau.</string>
 </resources>

@@ -14,40 +14,76 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="surround_sound_format_dolby_mat">Dolby Atmos con Dolby TrueHD</string>
-    <string name="surround_sound_format_dolby_truehd">Dolby TrueHD</string>
-    <string name="surround_sound_format_e_ac3_joc">Dolby Atmos con Dolby Digital Plus</string>
-    <string name="surround_sound_supported_title">FORMATOS COMPATIBLES</string>
-    <string name="surround_sound_unsupported_title">FORMATOS INCOMPATIBLES</string>
-    <string name="hdmi_cec_settings_title">HDMI-CEC</string>
-    <string name="font_scale_sample_text_title">Testu d\'exemplu</string>
-    <string name="hdr_format_supported_title">FORMATOS COMPATIBLES</string>
-    <string name="hdr_format_unsupported_title">FORMATOS INCOMPATIBLES</string>
-    <string name="hdr_format_hdr10">HDR10</string>
-    <string name="hdr_format_hlg">HLG</string>
-    <string name="hdr_format_hdr10plus">HDR10+</string>
-    <string name="hdr_format_dolby_vision">Dolby Vision</string>
-    <string name="bluetooth_toggle_title">Bluetooth</string>
-    <string name="bluetooth_known_devices_category">Accesorios</string>
-    <string name="bluetooth_official_remote_category">Mandu</string>
-    <string name="number_of_device_admins_none">Nun hai nenguna aplicación activa</string>
-    <string name="enterprise_privacy_input_method">Tecláu predetermináu</string>
-    <string name="do_disclosure_generic">La to organización xestiona esti preséu.</string>
-    <string name="do_disclosure_with_name">«<xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>» xestiona esti preséu.</string>
-    <string name="about_version">Versión del SO d\'Android TV</string>
-    <string name="about_build">Compilación del SO d\'Android TV</string>
-    <string name="ssl_ca_cert_warning">La rede pue tar supervisada</string>
-    <string name="done_button">Fecho</string>
-    <string name="wifi_setting_other_options_add_network_via_easyconnect">Conexón rápida</string>
-    <string name="wifi_setting_other_options_add_network_via_easyconnect_info_summary">        La conexón rápida ayúdate a conectate aína a redes Wi-Fi pente l\'escanéu d\'un códigu QR nel teléfonu.
+    <string name="settings_app_name">Configuración</string>
+    <string name="launcher_settings_app_name">Configuración</string>
+    <string name="allow">Permitir</string>
+    <string name="deny">Negar</string>
+    <string name="header_category_quick_settings">Configuración rápida</string>
+    <string name="header_category_general_settings">Configuración xeneral</string>
+    <string name="unknown_account">Cuenta desconocida</string>
+    <string name="device_energy_saver">Temporizador d\'apagáu</string>
+    <string name="device_energy_saver_summary">Configura temporizadores p\'apagar la TV y aforrar enerxía</string>
+    <string name="surround_sound_format_dts_uhd">DTS:X</string>
+    <string name="match_content_dynamic_range_title">Igualar l\'intervalu dinámicu del conteníu</string>
+    <string name="match_content_dynamic_range_summary">Cuando s\'activa esta opción, el sistema
+        cambia ente los diferentes formatos d\'intervalu dinámicu estremaos pa igualar el conteníu.
+        Ye posible que la pantalla se ponga prieta demientres un cambéu de formatu.\n\nCalca en
+        «Configuración avanzada de la pantalla» pa consiguir más opciones d\'intervalu dinámicu.
     </string>
-    <string name="storage_dcim_usage">Semeyes y vídeos</string>
-    <string name="microphone">Micrófonu</string>
-    <string name="camera">Cámara</string>
-    <string name="admin_support_more_info">Más detalles</string>
-    <string name="remove_and_uninstall_device_admin">Desactivar y desinstalar</string>
-    <string name="channels_and_inputs_title">Canales y entraes</string>
-    <string name="channels_settings_title">Canales</string>
-    <string name="external_inputs_settings_title">Entraes esternes</string>
-    <string name="power_and_energy">Potencia y enerxía</string>
+    <string name="preferred_dynamic_range_title">Intervalu dinámicu preferíu</string>
+    <string name="preferred_dynamic_range_selection_system_title">Conversión preferida pol sistema
+            </string>
+    <string name="preferred_dynamic_range_selection_system_desc">Dexa que\'l sistema xestione la
+        conversión del formatu
+    </string>
+    <string name="preferred_dynamic_range_selection_system_summary">Cuando esta opción ta seleicionada,
+        el sistema determina un intervalu dinámicu afayadizu pa unvialu a la pantalla y convertir
+        el conteníu a esti intervalu dinámicu si ye necesario.
+    </string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc">Siempres iguala\'l formatu\'l
+        conteníu</string>
+    <string name="preferred_dynamic_range_selection_force_title">Forciar la conversión</string>
+    <string name="preferred_dynamic_range_selection_force_desc">Forcia la conversión al formatu
+        preferíu</string>
+    <string name="preferred_dynamic_range_selection_force_summary">Forcia la conversión
+        al formatu preferíu. Esta aición pue afeutar a otres opciones de «Mou de visualización»
+        o «Formatu HDR».
+    </string>
+    <string name="selection_dolby_vision_not_supported_sidebar">Dolby Vision nun ye compatible cola resolución
+        actual. Si actives Dolby Vision manualmente, la resolución de la pantalla va
+        camudar a 1080p 60Hz</string>
+    <string name="manual_dolby_vision_format_on_4k60_title">¿Quies camudar la resolución a 1080p 60Hz?</string>
+    <string name="hdr_format_sdr">SDR</string>
+    <string name="resolution_selection_with_mode_dialog_title">¿Quies camudar la resolución a %1$s?</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc">Dolby Vision nun ye
+        compatible con «%1$s» y va desactivase en «Configuración avanzada de la pantalla»
+        </string>
+    <string name="resolution_display_mode">        <xliff:g id="resolution" example="1080p, 4k etc">%1$s</xliff:g>
+        (<xliff:g id="refresh-rate" example="60, 59.94 etc">%2$s</xliff:g> Hz)</string>
+    <string name="hdr_capability">- %1$s</string>
+    <string name="mic_remote_toggle_title">Accesu al micrófonu del mandu</string>
+    <string name="accessibility_screen_readers_category_title">Llectores de pantalla</string>
+    <string name="accessibility_interaction_controls_category_title">Controles d\'interación</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title">Audiu y testu na pantalla</string>
+    <string name="accessibility_experimental_category_title">Esperimental</string>
+    <string name="accessibility_screen_reader_flattened_component_name">com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</string>
+    <string name="accessibility_toggle_bold_text_preference_title">Testu en negrina</string>
+    <string name="accessibility_color_correction">Correición del color</string>
+    <string name="color_correction_mode_deuteranomaly">Deuteranomalía</string>
+    <string name="color_correction_mode_protanomaly">Protanomalía</string>
+    <string name="color_correction_mode_tritanomaly">Tritanomalía</string>
+    <string name="palette_color_orange">Naranxa</string>
+    <string name="restricted_profile_configure_title">Configuración</string>
+    <string name="device_energy_saver_timeout_description"><xliff:g id="sleep_description" example="4 hours">%1$s</xliff:g></string>
+    <string name="device_energy_saver_confirmation_message">Dexar la TV prendida munchu tiempu pue aumentar el consumu d\'enerxía</string>
+    <string name="bluetooth_ask_discovery_message">Una aplicación quier facer que la TV seya visible pa otros preseos Bluetooth demientres <xliff:g id="timeout">%1$d</xliff:g> segundos.</string>
+    <string name="add_account_failed_dialog_message">Hebo un fallu al amestar la cuenta o\'l tipu de cuenta nun ta disponible</string>
+    <string name="energy_modes">Moos enerxéticos</string>
+    <string name="energy_modes_summary">Ameyora la eficiencia enerxética cuando la TV nun ta n\'usu</string>
+    <string name="energy_mode_enables">Activa:</string>
+    <string name="energy_mode_eco_hint">Decátate qu\'esti mou pue aumentar el consumu d\'enerxía del preséu.</string>
+    <string name="settings_find_my_remote_title">Atopar el mandu</string>
+    <string name="settings_find_my_remote_description">Reproduz un soníu p\'atopar el mandu de Google TV si nun sabes ónde ta</string>
+    <string name="find_my_remote_slice_description">Primi\'l botón traseru de Google TV pa reproducir un soníu nel mandu demientres 30 segundos. Esta aición namás funciona con mandos compatibles con Google TV.\n\nPa parar el soníu, primi cualesquier botón del mandu.</string>
+    <string name="find_my_remote_play_sound">Reproducir un soníu</string>
 </resources>

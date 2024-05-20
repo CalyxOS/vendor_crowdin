@@ -49,7 +49,7 @@
     <string name="bluetooth_not_visible_to_other_devices">Dim i\'w gweld gan ddyfeisiau Bluetooth eraill</string>
     <string name="bluetooth_only_visible_to_paired_devices">Dim ond yn weladwy i ddyfeisiau wedi\'u paru</string>
     <string name="bluetooth_devices">Dyfeisiau Bluetooth</string>
-    <string name="bluetooth_device_name">Enw\'r ddyfais</string>
+    <string name="bluetooth_device_name">Enw\u2019r ddyfais</string>
     <string name="bluetooth_rename_device">Ailenwi\'r ddyfais hon</string>
     <string name="bluetooth_rename_button">Ailenwi</string>
     <string name="bluetooth_disconnect_title">Datgysylltu\'r ddyfais?</string>
@@ -480,6 +480,7 @@
     <string name="bluetooth_enter_pin_other_device">Mae\'n bosib bydd yn rhaid hefyd rhoi\'r PIN hwn ar y ddyfais arall.</string>
     <string name="bluetooth_enter_passkey_other_device">Mae\'n bosib bydd yn rhaid hefyd rhoi\'r allwedd hon ar y ddyfais arall.</string>
     <string name="bluetooth_pairing_shares_phonebook">Caniatáu mynediad at dy gysylltiadau a hanes galwadau</string>
+    <string name="bluetooth_pairing_phonebook_toggle_text">Caniatáu mynediad at gysylltiadau a hanes galwadau hefyd</string>
     <string name="bluetooth_connecting_error_message">Methwyd â chysylltu â <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="bluetooth_preference_found_media_devices">Dyfeisiau ar gael</string>
     <string name="bluetooth_device_context_connect">Cysylltu</string>
@@ -488,6 +489,7 @@
     <string name="bluetooth_scan_change">Newid</string>
     <string name="device_details_title">Manylion y ddyfais</string>
     <string name="bluetooth_device_mac_address">Cyfeiriad Bluetooth y ddyfais: <xliff:g id="address">%1$s</xliff:g></string>
+    <string name="bluetooth_multuple_devices_mac_address">Cyfeiriad Bluetooth y ddyfais:\n<xliff:g id="address">%1$s</xliff:g></string>
     <string name="bluetooth_unpair_dialog_title">Anghofio\'r ddyfais?</string>
     <string name="remove_association_button">Tynnu cydgysylltiad</string>
     <string name="bluetooth_companion_app_remove_association_dialog_title">Datgysylltu\'r Ap?</string>
@@ -839,6 +841,7 @@
     <string name="dark_ui_summary_on_auto_mode_never">Ni fydd byth yn troi i ffwrdd yn awtomatig</string>
     <string name="dark_ui_summary_on_auto_mode_auto">Bydd yn troi ymlaen yn awtomatig gyda\'r wawr</string>
     <string name="dark_ui_summary_on_auto_mode_custom">Bydd yn troi i ffwrdd yn awtomatig am <xliff:g name="time" example="10 PM">%1$s</xliff:g>.</string>
+    <string name="dark_ui_summary_on_auto_mode_custom_bedtime">Bydd yn troi i ffwrdd yn awtomatig ar ôl amser gwely</string>
     <string name="dark_ui_text">Mae\u2019r thema dywyll yn defnyddio cefndir du i helpu\u2019r batri byw yn hirach ar rai sgriniau. Mae amserlenni sgrin dywyll yn aros i droi ymlaen nes bod dy sgrin i ffwrdd.</string>
     <string name="screen_timeout">Terfyn amser y sgrin</string>
     <string name="screen_timeout_summary">Ar ôl <xliff:g id="sleep_description">%1$s</xliff:g> heb weithgaredd</string>
@@ -874,6 +877,7 @@
     <string name="sim_enter_new">PIN SIM newydd</string>
     <string name="sim_reenter_new">Rho\u2019r PIN newydd</string>
     <string name="sim_change_pin">PIN SIM</string>
+    <string name="sim_invalid_pin_hint">Rho rif PIN rhwng 4 ac 8 digid</string>
     <string name="sim_pins_dont_match">Dyw\u2019r ddau PIN ddim yr un fath</string>
     <string name="sim_change_succeeded">Newidiwyd PIN SIM yn llwyddiannus</string>
     <string name="sim_pin_disable_failed">Methu ag analluogi PIN.</string>
@@ -1166,6 +1170,8 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="lockpassword_forgot_password">Wedi anghofio dy gyfrinair?</string>
     <string name="lockpassword_forgot_pattern">Wedi anghofio dy batrwm?</string>
     <string name="lockpassword_forgot_pin">Wedi anghofio dy PIN?</string>
+    <string name="lockpassword_confirm_your_pattern_generic">Llunia dy batrwm i barhau</string>
+    <string name="lockpassword_confirm_your_pattern_generic_profile">Llunia dy batrwm gwaith i barhau.</string>
     <string name="lockpassword_confirm_your_pin_generic_profile">Rho dy PIN gwaith i barhau.</string>
     <string name="lockpassword_confirm_your_password_generic_profile">Rho dy gyfrinair gwaith i barhau.</string>
     <string name="lockpassword_strong_auth_required_device_pattern">Am ddiogelwch ychwanegol, defnyddia patrwm dy ddyfais</string>
@@ -2996,10 +3002,12 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="usb_summary_tether">Tenynnu USB</string>
     <string name="usb_summary_photo_transfers">PTP</string>
     <string name="usb_summary_MIDI">MIDI</string>
+    <string name="usb_summary_UVC">Gwe-camera</string>
     <string name="usb_summary_file_transfers_power">Trosglwyddo ffeiliau a chyflenwi pŵer</string>
     <string name="usb_summary_tether_power">Tenynnu USB a chyflenwi pŵer</string>
     <string name="usb_summary_photo_transfers_power">PTP a chyflenwi pŵer</string>
     <string name="usb_summary_MIDI_power">MIDI a chyflenwi pŵer</string>
+    <string name="usb_summary_UVC_power">Gwe-camera a chyflenwi pŵer</string>
     <string name="background_check_pref">Gwirio cefndir</string>
     <string name="assist_access_context_title">Defnyddio testun o\'r sgrin</string>
     <string name="assist_access_context_summary">Defnyddio\'r ap cynorthwyo i gael at gynnwys y sgrin fel testun</string>
@@ -3097,7 +3105,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="condition_expand_show">Dangos</string>
     <string name="condition_expand_hide">Cuddio</string>
     <string name="condition_hotspot_title">Llecyn Wi\u2011Fi ymlaen</string>
-    <string name="condition_airplane_title">Mae\'r modd awyren ymlaen</string>
+    <string name="condition_airplane_title">Mae modd awyren ymlaen</string>
     <string name="condition_airplane_summary">Rhwydweithiau dim ar gael</string>
     <string name="condition_zen_title">Mae Dim Tarfu ymlaen</string>
     <string name="condition_zen_summary_phone_muted">Ffôn yn ddistaw</string>
@@ -3440,7 +3448,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="platform_compat_dialog_text_no_apps">Gellir ond addasu newidiadau cytunedd ap ar gyfer apiau y gellir eu dadfygio. Gosoda ap dadfygiadwy a cheisio eto.</string>
     <string name="disabled_dependent_setting_summary">Yn ddibynnol ar osodiad arall</string>
     <string name="my_device_info_account_preference_title">Cyfrif</string>
-    <string name="my_device_info_device_name_preference_title">Enw\'r ddyfais</string>
+    <string name="my_device_info_device_name_preference_title">Enw\u2019r ddyfais</string>
     <string name="my_device_info_basic_info_category_title">Gwybodaeth sylfaenol</string>
     <string name="my_device_info_legal_category_title">Cyfreithiol a rheoliadol</string>
     <string name="my_device_info_device_details_category_title">Manylion y ddyfais</string>

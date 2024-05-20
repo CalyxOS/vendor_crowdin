@@ -75,7 +75,10 @@
     <string name="bluetooth_active_battery_level">N\'activo, <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de batería</string>
     <string name="bluetooth_active_battery_level_untethered">N\'activo. E: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de batería, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de batería</string>
     <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de batería</string>
+    <string name="tv_bluetooth_battery_level">Batería: <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
     <string name="bluetooth_battery_level_untethered">E: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de batería, D: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de batería</string>
+    <string name="bluetooth_battery_level_untethered_left">Llau esquierdu: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered_right">Llau derechu: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">N\'activo</string>
     <string name="bluetooth_saved_device">Guardóse</string>
     <string name="bluetooth_profile_a2dp">Audiu multimedia</string>
@@ -83,6 +86,8 @@
     <string name="bluetooth_profile_opp">Tresferencia de ficheros</string>
     <string name="bluetooth_profile_hid">Preséu d\'entrada</string>
     <string name="bluetooth_profile_pan">Accesu a internet</string>
+    <string name="bluetooth_profile_pbap">Permitir l\'accesu a los contautos y al historial de llamaes</string>
+    <string name="bluetooth_profile_pbap_summary">La información va usase pa los avisos de llamaes y más</string>
     <string name="bluetooth_profile_pan_nap">Compartición de la conexón a internet</string>
     <string name="bluetooth_profile_map">Mensaxes de testu</string>
     <string name="bluetooth_profile_sap">Accesu a la SIM</string>
@@ -129,6 +134,7 @@
     <string name="accessibility_wifi_two_bars">Señal Wi-Fi: dos barres.</string>
     <string name="accessibility_wifi_three_bars">Señal Wi-Fi: trés barres.</string>
     <string name="accessibility_wifi_signal_full">Señal Wi-Fi al máximu.</string>
+    <string name="accessibility_wifi_other_device">Conectóse al to preséu.</string>
     <string name="accessibility_wifi_security_type_none">Rede abierta</string>
     <string name="accessibility_wifi_security_type_secured">Rede segura</string>
     <string name="process_kernel_label">SO Android</string>
@@ -145,7 +151,7 @@
     <string name="running_process_item_user_label">Usuariu: <xliff:g id="user_name">%1$s</xliff:g></string>
     <string name="launch_defaults_some">Afitáronse dalgunos valores predeterminaos</string>
     <string name="launch_defaults_none">Nun s\'afitó nengún valor predetermináu</string>
-    <string name="tts_settings">Axustes de la síntesis de voz</string>
+    <string name="tts_settings">Configuración de la síntesis de voz</string>
     <string name="tts_settings_title">Síntesis de voz</string>
     <string name="tts_default_rate_title">Velocidá de la voz</string>
     <string name="tts_default_rate_summary">La velocidá a la que se diz el testu</string>
@@ -153,7 +159,7 @@
     <string name="tts_default_pitch_summary">Afeuta al tonu de la voz sintetizada</string>
     <string name="tts_default_lang_title">Llingua</string>
     <string name="tts_lang_use_system">Usar la llingua del sistema</string>
-    <string name="tts_lang_not_selected">Nun s\'esbilló nenguna llingua</string>
+    <string name="tts_lang_not_selected">Nun se seleicionó nenguna llingua</string>
     <string name="tts_default_lang_summary">Afita la llingua usada pa la síntesis de voz</string>
     <string name="tts_play_example_title">Escuchar un exemplu</string>
     <string name="tts_play_example_summary">Reproduz una demostración curtia de la síntesis de voz</string>
@@ -170,8 +176,8 @@
     <string name="tts_status_requires_network">«<xliff:g id="locale" example="English (United States)">%1$s</xliff:g>» rique una conexón a la rede</string>
     <string name="tts_status_not_supported">«<xliff:g id="locale" example="English (United States)">%1$s</xliff:g>» nun ye compatible</string>
     <string name="tts_status_checking">Comprobando…</string>
-    <string name="tts_engine_settings_title">Axustes de: <xliff:g id="tts_engine_name">%s</xliff:g></string>
-    <string name="tts_engine_settings_button">Llanzar los axustes del motor</string>
+    <string name="tts_engine_settings_title">Configuración de: <xliff:g id="tts_engine_name">%s</xliff:g></string>
+    <string name="tts_engine_settings_button">Llanzar la configuración del motor</string>
     <string name="tts_engine_preference_section_title">Motor preferíu</string>
     <string name="tts_general_section_title">Xeneral</string>
     <string name="tts_reset_speech_pitch_title">Reafitar el tonu de voz</string>
@@ -187,28 +193,18 @@
         <item>350%</item>
         <item>400%</item>
     </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>300</item>
-        <item>350</item>
-    </string-array>
     <string name="choose_profile">Escoyeta d\'un perfil</string>
     <string name="category_personal">Personal</string>
     <string name="category_work">Llaboral</string>
+    <string name="category_private">Priváu</string>
     <string name="category_clone">Clonación</string>
     <string name="development_settings_title">Opciones pa desendolcadores</string>
     <string name="development_settings_enable">Activar les opciones pa desendolcadores</string>
     <string name="development_settings_summary">Afita les opciones pal desendolcu d\'aplicaciones</string>
     <string name="development_settings_not_available">Les opciones pa desendolcadores nun tán disponibles pa esti usuariu</string>
-    <string name="vpn_settings_not_available">Los axustes de la VPN nun tán disponibles pa esti usuariu</string>
-    <string name="tethering_settings_not_available">Los axustes del tethering nun tán disponibles pa esti usuariu</string>
-    <string name="apn_settings_not_available">Los axustes del APN nun tán disponibles pa esti usuariu</string>
+    <string name="vpn_settings_not_available">La configuración de la VPN nun ta disponible pa esti usuariu</string>
+    <string name="tethering_settings_not_available">La configuración del tethering nun ta disponible pa esti usuariu</string>
+    <string name="apn_settings_not_available">La configuración del APN nun ta disponible pa esti usuariu</string>
     <string name="enable_adb">Depuración per USB</string>
     <string name="enable_adb_summary">Activa\'l mou de depuración al conectar l\'USB</string>
     <string name="clear_adb_keys">Revocar autorizaciones de depur. USB</string>
@@ -245,12 +241,12 @@
     <string name="keep_screen_on">Pantalla encesa siempres</string>
     <string name="keep_screen_on_summary">La pantalla nun duerme enxamás mentanto\'l preséu ta en carga</string>
     <string name="bt_hci_snoop_log">Activar el rexistru de busca HCI Bluetooth</string>
-    <string name="bt_hci_snoop_log_summary">Captura los paquetes de Bluetooth (alterna\'l Bluetooth dempués de camudar esti axuste).</string>
+    <string name="bt_hci_snoop_log_summary">Captura los paquetes de Bluetooth (alterna\'l Bluetooth dempués de camudar esta opción).</string>
     <string name="oem_unlock_enable">Desbloquéu d\'OEM</string>
     <string name="oem_unlock_enable_summary">Permite desbloquiar el cargador d\'arrinque</string>
     <string name="confirm_enable_oem_unlock_title">¿Quies permitir el desbloquéu d\'OEM?</string>
-    <string name="confirm_enable_oem_unlock_text">ALVERTENCIA: les funciones de proteición del preséu nun van funcionar mentanto esti axuste tea activáu.</string>
-    <string name="mock_location_app">Esbillar l\'aplicación de llocalización ficticia</string>
+    <string name="confirm_enable_oem_unlock_text">ALVERTENCIA: les funciones de proteición del preséu nun van funcionar mentanto esta opción tea activada.</string>
+    <string name="mock_location_app">Seleicionar l\'aplicación de llocalización ficticia</string>
     <string name="mock_location_app_not_set">Nun s\'afitó l\'aplicación de llocalización ficticia</string>
     <string name="mock_location_app_set">Aplicación de llocalización ficticia: <xliff:g id="app_name">%1$s</xliff:g></string>
     <string name="debug_networking_category">Redes</string>
@@ -263,24 +259,24 @@
     <string name="bluetooth_disable_absolute_volume">Desactivar el volume absolutu</string>
     <string name="bluetooth_enable_gabeldorsche">Activar «Gabeldorsche»</string>
     <string name="bluetooth_select_avrcp_version_string">Versión del AVRCP de Bluetooth</string>
-    <string name="bluetooth_select_avrcp_version_dialog_title">Esbilla la versión del AVRCP de Bluetooth</string>
+    <string name="bluetooth_select_avrcp_version_dialog_title">Seleiciona la versión del AVRCP de Bluetooth</string>
     <string name="bluetooth_select_map_version_string">Versión del MAP de Bluetooth</string>
-    <string name="bluetooth_select_map_version_dialog_title">Esbilla la versión del MAP de Bluetooth</string>
+    <string name="bluetooth_select_map_version_dialog_title">Seleiciona la versión del MAP de Bluetooth</string>
     <string name="bluetooth_select_a2dp_codec_type">Códec del audiu per Bluetooth</string>
-    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Aicionar el códec del audiu per Bluetooth\u000AEsbilla</string>
+    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Aicionar el códec del audiu per Bluetooth\u000ASeleición</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate">Tasa d\'amuesa del audiu per Bluetooth</string>
-    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Aicionar el códec del audiu per Bluetooth\u000AEsbilla: tasa d\'amuesa</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Aicionar el códec del audiu per Bluetooth\u000ASeleición: tasa d\'amuesa</string>
     <string name="bluetooth_select_a2dp_codec_type_help_info">Los elementos abuxaos quieren dicir que
         nun son compatibles col teléfonu o colos cascos</string>
     <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bits per amuesa del audiu per Bluetooth</string>
-    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Aicionar el códec del audiu per Bluetooth\u000AEsbilla: bits per amuesa</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Aicionar el códec del audiu per Bluetooth\u000ASeleición: bits per amuesa</string>
     <string name="bluetooth_select_a2dp_codec_channel_mode">Mou de canal del audiu per Bluetooth</string>
-    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Aicionar el códec del audiu per Bluetooth\u000AEsbilla: mou de canal</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Aicionar el códec del audiu per Bluetooth\u000ASeleición: mou de canal</string>
     <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Códec LDAC del audiu per Bluetooth: calidá de reproducción</string>
-    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Aicionar el códec LDAC del audiu per Bluetooth\u000AEsbilla del códec: calidá de reproducción</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Aicionar el códec LDAC del audiu per Bluetooth\u000ASeleición del códec: calidá de reproducción</string>
     <string name="bluetooth_select_a2dp_codec_streaming_label">N\'emisión: <xliff:g id="streaming_parameter">%1$s</xliff:g></string>
     <string name="select_private_dns_configuration_title">DNS priváu</string>
-    <string name="select_private_dns_configuration_dialog_title">Esbilla\'l mou de DNS priváu</string>
+    <string name="select_private_dns_configuration_dialog_title">Seleiciona\'l mou de DNS priváu</string>
     <string name="private_dns_mode_off">Non</string>
     <string name="private_dns_mode_opportunistic">N\'automático</string>
     <string name="private_dns_mode_provider">Agospiador del fornidor de DNS priváu</string>
@@ -289,15 +285,15 @@
     <string name="wifi_display_certification_summary">Amuesa les opciones de la certificación de visualización ensin filos</string>
     <string name="wifi_verbose_logging_summary">Aumenta\'l nivel de rexistru de la Wi\u2011Fi y amuesa\'l RSSI de los SSID nel selector Wi\u2011Fi</string>
     <string name="wifi_scan_throttling_summary">Amenorga\'l consumu d\'enerxía y ameyora\'l rindimientu de la rede</string>
-    <string name="wifi_non_persistent_mac_randomization_summary">Cuando esti mou s\'activa, la direición MAC d\'esti preséu pue camudar cada vegada que se conecte a una rede que tenga activada la opción pa que la MAC s\'esbille al debalu.</string>
+    <string name="wifi_non_persistent_mac_randomization_summary">Cuando s\'activa esti mou, la direición MAC d\'esti preséu pue camudar cada vegada que se conecte a una rede que tenga activada la opción pa que la MAC se seleicione al debalu.</string>
     <string name="wifi_metered_label">Con llende de datos</string>
     <string name="wifi_unmetered_label">Ensin llende de datos</string>
     <string name="select_logd_size_title">Tamaños del búfer de Logger</string>
-    <string name="select_logd_size_dialog_title">Esbilla los tamaños de Logger per búfer de rexistru</string>
+    <string name="select_logd_size_dialog_title">Seleiciona los tamaños de Logger per búfer de rexistru</string>
     <string name="dev_logpersist_clear_warning_title">¿Quies desaniciar l\'almacenamientu permanente del rexistrador?</string>
     <string name="dev_logpersist_clear_warning_message">Cuando yá nun supervisemos col rexistrador permanente, tenemos de desaniciar los datos del rexistrador qu\'heba nel preséu.</string>
     <string name="select_logpersist_title">Atroxar los datos del rexistrador permanentemente nel preséu</string>
-    <string name="select_logpersist_dialog_title">Esbilla los búferes de rexistru p\'atroxalos permanentemente nel preséu</string>
+    <string name="select_logpersist_dialog_title">Seleiciona los búferes de rexistru p\'atroxalos permanentemente nel preséu</string>
     <string name="select_usb_configuration_title">Configuración del USB</string>
     <string name="select_usb_configuration_dialog_title">Configuración del USB</string>
     <string name="allow_mock_location">Permitir la llocalización ficticia</string>
@@ -310,8 +306,8 @@
     <string name="adbwifi_warning_title">¿Quies permitir la depuración ensin filos?</string>
     <string name="adbwifi_warning_message">La depuración ensin filos ta diseñada namás p\'actividaes de desendolcu. Úsala pa copiar datos ente un ordenador y esti preséu, pa instalar aplicaciones nel preséu ensin avisar y pa lleer los datos del rexistru.</string>
     <string name="adb_keys_warning_message">¿Quies revocar l\'accesu a la depuración per USB de tolos ordenadores qu\'autoricesti anteriormente?</string>
-    <string name="dev_settings_warning_title">¿Quies permitir los axustes de desendolcu?</string>
-    <string name="dev_settings_warning_message">Estos axustes tán diseñaos namás pa programar.  Puen causar que\'l preséu y les aplicaciones que contenga s\'estropien o funcionen mal.</string>
+    <string name="dev_settings_warning_title">¿Quies permitir la configuración de desendolcu?</string>
+    <string name="dev_settings_warning_message">Estes opciones tán diseñaes namás pa programar.  Puen causar que\'l preséu y les aplicaciones que contenga s\'estropien o funcionen mal.</string>
     <string name="verify_apps_over_usb_title">Verificar aplicaciones per USB</string>
     <string name="verify_apps_over_usb_summary">Comprueba les aplicaciones instalaes per ADB/ADT pa detectar comportamientos peligrosos.</string>
     <string name="bluetooth_show_devices_without_names_summary">Los preseos Bluetooth van apaecer ensin el nome (namás la direición MAC)</string>
@@ -323,10 +319,10 @@
     <string name="hdcp_checking_title">Comprobación HDCP</string>
     <string name="hdcp_checking_dialog_title">Afita\'l comportamientu de la comprobación HDCP</string>
     <string name="debug_debugging_category">Depuración</string>
-    <string name="debug_app">Esbillar l\'aplicación de depuración</string>
+    <string name="debug_app">Seleicionar l\'aplicación de depuración</string>
     <string name="debug_app_not_set">Nun s\'afitó nenguna aplicación de depuración</string>
     <string name="debug_app_set">Aplicación de depuración: <xliff:g id="app_name">%1$s</xliff:g></string>
-    <string name="select_application">Esbilla d\'una aplicación</string>
+    <string name="select_application">Seleición d\'una aplicación</string>
     <string name="no_application">Nada</string>
     <string name="wait_for_debugger">Esperar pol depurador</string>
     <string name="wait_for_debugger_summary">Enantes d\'executase, l\'aplicación depurada
@@ -414,6 +410,9 @@
     <string name="inactive_app_active_summary">Aplicación activa. Toca p\'alternar.</string>
     <string name="standby_bucket_summary">Estáu de l\'aplicación
         n\'espera: <xliff:g id="bucket">%s</xliff:g></string>
+    <string name="widevine_settings_title">Configuración de Widevine</string>
+    <string name="force_l3_fallback_title">Forciar l\'alternativa L3</string>
+    <string name="force_l3_fallback_summary">Seleiciona pa forciar l\'alternativa L3</string>
     <string name="runningservices_settings_title">Servicios n\'execución</string>
     <string name="runningservices_settings_summary">Visualiza y controla los servicios n\'execución</string>
     <string name="select_webview_provider_title">Implementación de WebView</string>
@@ -459,7 +458,7 @@
     <string name="external_source_trusted">Con permisu</string>
     <string name="external_source_untrusted">Ensin permisu</string>
     <string name="install_other_apps">Instalación d\'aplicaciones desconocíes</string>
-    <string name="home">Aniciu d\'«Axustes»</string>
+    <string name="home">Aniciu de Configuración</string>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -474,13 +473,12 @@
     <string name="screen_zoom_summary_extremely_large">Lo más grande</string>
     <string name="screen_zoom_summary_custom">Por defeutu(<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
     <string name="content_description_menu_button">Menú</string>
-    <string name="retail_demo_reset_message">Introduz la contraseña pa reafitar los axustes de fábrica nel mou de demostración</string>
+    <string name="retail_demo_reset_message">Introduz la contraseña pa reafitar la configuración de fábrica nel mou de demostración</string>
     <string name="retail_demo_reset_next">Siguiente</string>
     <string name="retail_demo_reset_title">Contraseña obligatoria</string>
-    <string name="battery_meter_very_low_overlay_symbol">!</string>
     <string name="active_input_method_subtypes">Métodos d\'entrada activos</string>
     <string name="use_system_language_to_select_input_method_subtypes">Usar les llingües del sistema</string>
-    <string name="failed_to_open_app_settings_toast">Hebo un fallu al abrir los axustes de: <xliff:g id="spell_application_name">%1$s</xliff:g></string>
+    <string name="failed_to_open_app_settings_toast">Hebo un fallu al abrir la configuración de: <xliff:g id="spell_application_name">%1$s</xliff:g></string>
     <string name="ime_security_warning">Esti métodu d\'entrada pue ser a recoyer
         tol testu que teclexes, incluyíos los datos personales como les contraseñes
         y los númberos de tarxetes de creitu.  Provién de l\'aplicación
@@ -491,7 +489,12 @@
     <string name="ims_reg_status_registered">"Rexistróse"</string>
     <string name="ims_reg_status_not_registered">"Nun se rexistró"</string>
     <string name="status_unavailable">Nun ta disponible</string>
-    <string name="wifi_status_mac_randomized">La direición MAC esbillase al debalu</string>
+    <string name="wifi_status_mac_randomized">La direición MAC seleiciónase al debalu</string>
+    <string name="wifi_tether_connected_summary">        {count, plural,
+            one {}=1    {Conectóse 1 preséu}
+            other {Conectáronse # preseos}
+        }
+    </string>
     <string name="accessibility_manual_zen_more_time">Más tiempu.</string>
     <string name="accessibility_manual_zen_less_time">Menos tiempu.</string>
     <string name="cancel">Encaboxar</string>
@@ -514,6 +517,7 @@
     <string name="zen_mode_forever">Hasta desactivar esta opción</string>
     <string name="time_unit_just_now">Puramente agora</string>
     <string name="media_transfer_this_device_name" product="default">Esti teléfonu</string>
+    <string name="media_transfer_this_device_name" product="tv">@string/tv_media_transfer_default</string>
     <string name="media_transfer_dock_speaker_device_name">Altavoces de la base</string>
     <string name="media_transfer_external_device_name">Preséu esternu</string>
     <string name="media_transfer_default_device_name">Preséu conectáu</string>
@@ -525,6 +529,14 @@
     <string name="media_output_status_device_in_low_power_mode">Esconsoña\'l preséu pa reproducir equí</string>
     <string name="media_output_status_unauthorized">El preséu nun tien l\'aprobación pa reproducir</string>
     <string name="media_output_status_track_unsupported">Equí nun se pue reproducir esti conteníu multimedia</string>
+    <string name="tv_media_transfer_connected">Conectóse</string>
+    <string name="tv_media_transfer_arc_fallback_title">HDMI ARC</string>
+    <string name="tv_media_transfer_earc_fallback_title">HDMI eARC</string>
+    <string name="tv_media_transfer_arc_subtitle">Conectóse per ARC</string>
+    <string name="tv_media_transfer_earc_subtitle">Conectóse per eARC</string>
+    <string name="tv_media_transfer_default">Salida predeterminada de la TV</string>
+    <string name="tv_media_transfer_hdmi">Salida HDMI</string>
+    <string name="tv_media_transfer_internal_speakers">Altavoces internos</string>
     <string name="profile_connect_timeout_subtext">Hebo un problema al conectar. Apaga y volvi prender el preséu</string>
     <string name="media_transfer_wired_device_name">Preséu d\'audiu con cable</string>
     <string name="help_label">Ayuda y opiniones</string>
@@ -547,7 +559,7 @@
     <string name="user_add_user_item_title">Usuariu</string>
     <string name="user_add_profile_item_title">Perfil torgáu</string>
     <string name="user_add_user_title">¿Quies amestar un usuariu?</string>
-    <string name="user_add_user_message_long">Pues compartir esti preséu con otres persones pente la creación d\'usuarios adicionales. Cada usuariu tien el so espaciu que puen personalizar con aplicaciones, fondos de pantalla y más coses. Los usuarios tamién pue configurar los axustes del preséu, como\'l Wi\u2011Fi, qu\'afeuta a tol mundu.\n\nCuando amiestes un usuariu nuevu, esta persona va tener de configurar el so espaciu.\n\nCualesquier usuariu pue anovar les aplicaciones de los demás. Sicasí, ye posible que los axustes y servicios d\'accesibilidá nun puedan tresferise al usuariu nuevu.</string>
+    <string name="user_add_user_message_long">Pues compartir esti preséu con otres persones pente la creación d\'usuarios adicionales. Cada usuariu tien el so espaciu que puen personalizar con aplicaciones, fondos de pantalla y más coses. Los usuarios tamién pue configurar la configuración del preséu, como\'l Wi\u2011Fi, qu\'afeuta a tol mundu.\n\nCuando amiestes un usuariu nuevu, esta persona va tener de configurar el so espaciu.\n\nCualesquier usuariu pue anovar les aplicaciones de los demás. Sicasí, ye posible que la configuración y servicios d\'accesibilidá nun puedan tresferise al usuariu nuevu.</string>
     <string name="user_add_user_message_short">Cuando amiestes un usuariu, esti tien de configurar el so espaciu.\n\nCualesquier usuariu pue anovar les aplicaciones de los demás usuarios. </string>
     <string name="user_grant_admin_title">¿Quies convertir esti usuariu n\'alministrador?</string>
     <string name="user_grant_admin_message">Los alministradores tienen privilexos especiales qu\'otros usuarios nun tienen. Un alministrador pue xestionar tolos usuarios, anovar o reafitar el preséu, modificar la configuración, ver toles aplicaciones instalaes y conceder o revocar privilexos d\'alministrador a otros usuarios.</string>
@@ -587,8 +599,11 @@
     <string name="data_connection_4g_plus">4G+</string>
     <string name="data_connection_lte">LTE</string>
     <string name="data_connection_lte_plus">LTE+</string>
-    <string name="data_connection_5ge_html" translate="false"> &lt;i&gt;5G &lt;small&gt;E&lt;/small&gt;&lt;/i&gt; </string>
     <string name="data_connection_carrier_wifi">W+</string>
     <string name="keyboard_layout_default_label">Por defeutu</string>
     <string name="font_scale_percentage"> <xliff:g id="percentage">%1$d</xliff:g>%%</string>
+    <string name="not_specified">Nun s\'especificó</string>
+    <string name="neuter">Neutru</string>
+    <string name="feminine">Femenín</string>
+    <string name="masculine">Masculín</string>
 </resources>

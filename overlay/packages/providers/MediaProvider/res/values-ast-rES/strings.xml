@@ -14,15 +14,31 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="picker_app_label">Selector de medios</string>
+    <string name="picker_browse">Restolar\u2026</string>
+    <string name="picker_settings">Aplicación de medios na nube</string>
+    <string name="picker_settings_system_settings_menu_title">Aplicación de medios na nube</string>
+    <string name="picker_settings_title">Aplicación de medios na nube</string>
+    <string name="picker_settings_description">Accede a los medios na nube cuando una aplicación o un sitiu web te pida seleicionar semeyes o vídeos</string>
+    <string name="picker_settings_selection_message">Accedi al mediu na nube dende </string>
+    <string name="picker_settings_no_provider">Nenguna</string>
+    <string name="picker_settings_toast_error">Nun se pudo camudar l\'aplicación de medios na nube</string>
+    <string name="picker_sync_notification_channel">Selector de medios</string>
+    <string name="picker_sync_notification_title">Selector de medios</string>
+    <string name="picker_sync_notification_text">Sincronizando\'l mediu…</string>
+    <string name="picker_album_media_empty_message">Nun hai nenguna semeya nin videu compatibles</string>
     <string name="picker_photos">Semeyes</string>
     <string name="picker_videos">@string/root_videos</string>
     <string name="picker_albums">Álbumes</string>
     <string name="picker_profile_work_paused_title">Les aplicaciones llaborales tán en posa</string>
     <string name="picker_privacy_message">Esta aplicación namás pue acceder a les semeyes que seleiciones</string>
+    <string name="picker_header_permissions">"Seleiciona les semeyes y los vídeos a los que permites qu'acceda esta aplicación"</string>
     <string name="picker_album_item_count"> {count, plural,
         one {}=1    {<xliff:g id="count" example="1">^1</xliff:g> elementu}
         other {<xliff:g id="count" example="42">^1</xliff:g> elementos}
     }</string>
+    <string name="picker_add_button_multi_select_permissions">Permitir (<xliff:g id="count" example="42">^1</xliff:g>)</string>
+    <string name="picker_add_button_allow_none_option">Nun permitir nenguna</string>
     <string name="picker_category_camera">Cámara</string>
     <string name="picker_category_downloads">Descargues</string>
     <string name="picker_category_favorites">Favoritos</string>
@@ -30,9 +46,35 @@
     <string name="picker_category_videos">@string/root_videos</string>
     <string name="picker_photo">Semeya</string>
     <string name="picker_gif">GIF</string>
-    <string name="preloading_cancel_button">Encaboxar</string>
-    <string name="transcode_denied">«<xliff:g id="app_name" example="File manager">%s</xliff:g>» nun pue procesar los ficheros multimedia</string>
-    <string name="transcode_processing">Procesando\'l conteníu multimedia…</string>
-    <string name="transcode_cancel">Encaboxar</string>
-    <string name="transcode_wait">Esperar</string>
+    <string name="picker_play_video">Reproducir</string>
+    <string name="picker_pause_video">Posar</string>
+    <string name="picker_error_snackbar">Nun se pue reproducir el videu</string>
+    <string name="picker_error_dialog_title">Hai problemes al reproducir el videu</string>
+    <string name="picker_error_dialog_body">Comprueba la conexón a internet y volvi tentalo</string>
+    <string name="picker_error_dialog_positive_action">Retentar</string>
+    <string name="preloading_dialog_title">"Preparando los medios seleicionaos"</string>
+    <string name="preloading_progress_message"><xliff:g id="number_preloaded">%1$d</xliff:g> de <xliff:g id="number_total">%2$d</xliff:g> a puntu</string>
+    <string name="picker_banner_cloud_first_time_available_title">Agora inclúise la copia de seguranza de les semeyes</string>
+    <string name="picker_banner_cloud_first_time_available_desc">Pues seleicionar les semeyes de la cuenta «<xliff:g id="user_account" example="johndoe123@gmail.com">%2$s</xliff:g>» de l\'aplicación «<xliff:g id="app_name" example="Photos">%1$s</xliff:g>»</string>
+    <string name="picker_banner_cloud_account_changed_title">Anovóse la cuenta de: <xliff:g id="app_name" example="Photos">%1$s</xliff:g></string>
+    <string name="picker_banner_cloud_account_changed_desc">Agora les semeyes de la cuenta «<xliff:g id="user_account" example="johndoe123@gmail.com">%1$s</xliff:g>» inclúinse equí</string>
+    <string name="picker_banner_cloud_choose_app_title">Escueyi una aplicación de medios na nube</string>
+    <string name="picker_banner_cloud_choose_app_desc">Pa incluyir equí una copia de seguranza de les semeyes, escueyi una aplicación de medios na nube en Configuración</string>
+    <string name="picker_banner_cloud_choose_account_title">Seleición de la cuenta de l\'aplicación <xliff:g id="app_name" example="Photos">%1$s</xliff:g></string>
+    <string name="picker_banner_cloud_choose_account_desc">Pa incluyir equí les semeyes de «<xliff:g id="app_name" example="Photos">%1$s</xliff:g>», escueyi una cuenta na aplicación</string>
+    <string name="picker_banner_cloud_dismiss_button">Escartar</string>
+    <string name="picker_banner_cloud_choose_app_button">Escoyer una aplicación</string>
+    <string name="picker_banner_cloud_choose_account_button">Escoyer una cuenta</string>
+    <string name="picker_banner_cloud_change_account_button">Camudar la cuenta</string>
+    <string name="picker_loading_photos_message">Consiguiendo toles semeyes</string>
+    <string name="permission_delete_image"> {count, plural,
+        one {}=1    {¿Quies permitir a «&lt;xliff:g id="app_name" example="Gmail"&gt;^1&lt;/xliff:g&gt;» que desanicie esta semeya?}
+        other {¿Quies permitir a «&lt;xliff:g id="app_name" example="Gmail"&gt;^1&lt;/xliff:g&gt;» que desanicie &lt;xliff:g id="count" example="42"&gt;^2/xliff:g&gt; semeyes?}
+    }</string>
+    <string name="safety_protection_icon_label">Proteición de seguranza</string>
+    <string name="transcode_alert_channel">Alertes de la trescodificación nativa</string>
+    <string name="transcode_progress_channel">Progresu de la trescodificación nativa</string>
+    <string name="dialog_error_message">Volvi tentalo dempués. Les semeyes van tar disponibles namás que se solucione\'l problema.</string>
+    <string name="dialog_error_title">Nun se puen cargar dalgunes semeyes</string>
+    <string name="dialog_button_text">Entendílo</string>
 </resources>

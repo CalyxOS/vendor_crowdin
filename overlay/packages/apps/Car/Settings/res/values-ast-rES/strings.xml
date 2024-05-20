@@ -15,126 +15,57 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="mobile_network_summary_count">        {count, plural, one {}
-            =1    {# SIM}
-            other {# SIMs}
-        }
-    </string>
-    <string name="network_and_internet_vehicle_internet_title">Internet del vehículu</string>
-    <string name="wifi_connecting">Conectando\u2026</string>
-    <string name="wifi_hotspot_wpa3_sae">WPA3-Personal</string>
-    <string name="wifi_security_psk_sae">WPA2/WPA3-Personal</string>
-    <string name="hotspot_settings_title">Puntu Wi-Fi</string>
-    <string name="display_brightness">Brillu</string>
+    <string name="settings_label">Configuración</string>
+    <string name="mobile_network_active_esim">Serviciu activu/eSIM</string>
+    <string name="mobile_network_inactive_esim">Serviciu inactivu/eSIM</string>
+    <string name="tether_settings_title_all">Puntu Wi\u2011Fi</string>
+    <string name="wifi_hotspot_switch_title">Usar el puntu Wi\u2011Fi</string>
+    <string name="wifi_hotspot_qr_code_text">Escania esti códigu QR pa xunite a «%s»</string>
+    <string name="wifi_hotspot_qr_code_password_text">Contraseña del puntu Wi\u2011Fi: %s</string>
+    <string name="connected_settings_title">Preseos conectaos</string>
+    <string name="bluetooth_bonded_phone_toggle_content_description">Teléfonu</string>
+    <string name="force_stop">Parar l\'aplicación</string>
+    <string name="force_stop_dialog_title">¿Quies parar l\'aplicación?</string>
     <string name="force_stop_success_toast_text">        «<xliff:g id="app_name" example="Radio">%1$s</xliff:g>» paró.
     </string>
-    <string name="prioritize_app_performance_dialog_action_on">Sí</string>
-    <string name="prioritize_app_performance_dialog_action_off">Non, gracies</string>
-    <string name="data_usage_all_apps_title">Toles aplicaciones</string>
-    <string name="runtime_permissions_additional_count">        {count, plural,
-            =1    {# permisu adicional}
-            other {# permisos adicionales}
-        }
+    <string name="app_info_all_services_label">Tolos servicios</string>
+    <string name="location_toggle_summary">        Usa la llocalización del coche con cualesquier aplicación qu\u2019especificares.
     </string>
-    <string name="apps_settings_title">Aplicaciones</string>
-    <string name="apps_permission_manager_title">Xestor de permisos</string>
-    <string name="location_toggle_title">Usar la llocalización</string>
+    <string name="adas_location_toggle_popup_summary">        Esta opción nun se pue camudar y el fabricante del coche desactivóla.
+    </string>
+    <string name="adas_location_toggle_title">        Funciones que t\'ayuden a conducir
+    </string>
+    <string name="adas_location_toggle_summary">        Permite que les funciones integraes, y aprobaes pol fabricante del vehículu,
+        accedan a la llocalización del coche.
+    </string>
+    <string name="driver_assistance_label">        <xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Asistencia al conductor \u2022
+        Rique l\'accesu
+    </string>
+    <string name="location_adas_apps_list_title">        Funciones que t\'ayuden a conducir
+    </string>
     <string name="location_driver_assistance_privacy_policy_button_text">Política</string>
-    <string name="microphone_settings_title">Micrófonu</string>
-    <string name="microphone_toggle_title">Usar el micrófonu</string>
-    <string name="show_dev_countdown">        {count, plural,
-            =1    {Fáltate # toque p\'activar les opciones de desendolcu.}
-            other {Fáltente # toques p\'activar les opciones de desendolcu.}
-        }
+    <string name="location_settings_app_permissions_summary">        Xestiona los permisos de les aplicaciones individualmente
     </string>
-    <string name="user_new_user_name">Perfil nuevu</string>
-    <string name="user_limit_reached_message">        {count, plural, one {}
-            =1    {Namás se pue crear un perfil.}
-            other {Pues crear hasta # perfiles.}
-        }
+    <string name="location_access_settings_title">Accesu a la llocalización</string>
+    <string name="location_access_settings_summary">        Escueyi si les aplicaciones puen acceder a la llocalización del coche
     </string>
-    <string name="delete_user_dialog_title">¿Quies desaniciar esti perfil?</string>
-    <string name="delete_user_error_title">Nun se desanició\'l perfil. Pues reaniciar el preséu y volver tentalo.</string>
-    <string name="mute_mic_title">Micrófonu</string>
-    <string name="lockpassword_password_requires_alpha">Ha contener polo menos una lletra</string>
-    <string name="lockpassword_password_requires_digit">Ha contener polo menos un díxitu</string>
-    <string name="lockpassword_password_requires_symbol">Ha contener polo menos un símbolu</string>
-    <string name="lockpassword_password_requires_letters">        {count, plural, one {}
-        =1    {Ha contener polo menos # lletra}
-        other {Ha contener polo menos # lletres}
-        }
+    <string name="location_access_disclaimer_summary">        Ye posible que\'l fabricante del vehículu entá tenga accesu a la llocalización del coche.
+        Pues revisar les sos polítiques pa consiguir más información.
     </string>
-    <string name="lockpassword_password_requires_lowercase">        {count, plural, one {}
-        =1    {Ha contener polo menos # lletra minúscula}
-        other {Ha contener polo menos # lletres minúscules}
-        }
+    <string name="location_adas_app_info_summary">        Estes funciones integraes riquen l\'accesu a la llocalización del coche p\'asistite na
+        conducción.\n\nConoz más tocante a cómo les aplicaciones usen los datos de llocalización
+        revisando la so política de privacidá.
     </string>
-    <string name="lockpassword_password_requires_uppercase">        {count, plural, one {}
-        =1    {Ha contener polo menos # lletra mayúscula}
-        other {Ha contener polo menos # lletres mayúscules}
-        }
-    </string>
-    <string name="lockpassword_password_requires_numeric">        {count, plural, one {}
-        =1    {Ha contener polo menos # díxitu}
-        other {Ha contener polo menos # díxitos}
-        }
-    </string>
-    <string name="lockpassword_password_requires_symbols">        {count, plural, one {}
-        =1    {Ha contener polo menos # símbolu especial}
-        other {Ha contener polo menos # símbolos especiales}
-        }
-    </string>
-    <string name="lockpassword_password_requires_nonletter">        {count, plural, one {}
-        =1    {Ha contener polos menos # caráuter que nun seya una lletra}
-        other {Ha contener polos menos # caráuteres que nun seyan lletres}
-        }
-    </string>
-    <string name="lockpassword_password_requires_nonnumerical">        {count, plural, one {}
-        =1    {Ha contener polos menos # caráuter que nun seya numbéricu}
-        other {Ha contener polos menos # caráuteres que nun seyan numbéricos}
-        }
-    </string>
-    <string name="lockpassword_password_too_short">        {count, plural, one {}
-        =1    {Ha contener polos menos # caráuter}
-        other {Ha contener polos menos # caráuteres}
-        }
-    </string>
-    <string name="lockpassword_pin_too_short">        {count, plural, one {}
-        =1    {Ha contener polos menos # díxitu}
-        other {Ha contener polos menos # díxitos}
-        }
-    </string>
-    <string name="assistant_and_voice_setting_title">Asistente y voz</string>
-    <string name="notifications_all_apps">Toles aplicaciones</string>
-    <string name="profiles_and_accounts_settings_title">Perfiles y cuentes</string>
-    <string name="deactivate_and_uninstall_device_admin">Desactivar y desinstalar</string>
-    <string name="admin_profile_owner_message">El xestor de la organización pue supervisar y xestionar les aplicaciones
-        y los datos asociaos con esti perfil, incluyíos los axustes, l\'accesu corporativu,
-        los permisos, l\'actividá na rede y la información de llocalización del vehículu.</string>
-    <string name="admin_profile_owner_user_message">El xestor de la organización pue supervisar y xestionar les aplicaciones
-        y los datos asociaos con esti perfil, incluyíos los axustes, l\'accesu corporativu,
-        los permisos, l\'actividá na rede y la información de llocalización del preséu.</string>
-    <string name="disabled_by_policy_title">Nun ta disponible</string>
-    <string name="disabled_by_policy_title_adjust_volume">Nun se pue camudar el volume nesti vehículu xestionáu</string>
-    <string name="disabled_by_policy_title_outgoing_calls">Nun se puen facer llamaes nesti vehículu xestionáu</string>
-    <string name="disabled_by_policy_title_camera">La cámara nun ta disponible nesti vehículu xestionáu</string>
-    <string name="disabled_by_policy_title_screen_capture">Nun se puen facer captures de pantalla nesti vehículu xestionáu</string>
-    <string name="disabled_by_policy_title_suspend_packages">Nun se pue abrir esta aplicación nesti vehículu xestionáu</string>
-    <plurals name="enterprise_privacy_number_packages">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> aplicación</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> aplicaciones</item>
-    </plurals>
-    <plurals name="enterprise_privacy_number_failed_password_wipe">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> intentu</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> intentos</item>
-    </plurals>
-    <string name="share_remote_bugreport_action">Compartir</string>
-    <string name="decline_remote_bugreport_action">Refugar</string>
-    <string name="accessibility_settings_title">Accesibilidá</string>
-    <string name="show_captions_toggle_title">Amosar los sotítulos</string>
-    <string name="captions_settings_text_style_white_on_black">Blancu sobre prietu</string>
-    <string name="captions_settings_text_style_black_on_white">Prietu sobre blancu</string>
-    <string name="captions_settings_text_style_yellow_on_black">Mariellu sobre prietu</string>
-    <string name="captions_settings_text_style_yellow_on_blue">Mariellu sobre azul</string>
-    <string name="screen_reader_options_title">Opciones</string>
+    <string name="system_update_settings_title">Anovamientos del sistema</string>
+    <string name="restart_infotainment_system_title">Reaniciar el sistema d\'información y entretenimentu</string>
+    <string name="restart_infotainment_system_dialog_text">El reaniciu del sistema d\'información y entretenimientu pue tardar unos minutos. ¿Quies siguir?</string>
+    <string name="reset_network_title">Reafitar el Wi\u2011Fi y el Bluetooth</string>
+    <string name="reset_network_desc">Esta aición va reafitar la configuración del Wi\u2011Fi y el Bluetooth, y va desaniciar l\'historial de:</string>
+    <string name="reset_network_item_wifi"><li>les redes Wi\u2011Fi y les sos contraseñes</li></string>
+    <string name="reset_network_item_bluetooth"><li>los teléfonos y otros preseos Bluetooth a los que te conectares</li></string>
+    <string name="restricted_for_passenger">Solicita al conductor que camude la opción</string>
+    <string name="restricted_for_driver">Nun pues facer esta aición</string>
+    <string name="cannot_remove_driver_profile">Esti perfil tien la sesión aniciada como conductor. Volvi tentalo cuando\'l perfil nun tea nesi mou.</string>
+    <string name="qc_ui_mode_title">Estilu</string>
+    <string name="screen_reader_description_title">Configuración</string>
 </resources>
