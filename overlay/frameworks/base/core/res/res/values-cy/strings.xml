@@ -934,6 +934,12 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="lockscreen_password_wrong">Ceisia Eto</string>
     <string name="lockscreen_storage_locked">Datgloi ar gyfer pob nodwedd a data</string>
     <string name="faceunlock_multiple_failures">Wedi gwneud cynifer o ymdrechion Datgloi Wyneb a chaniateir</string>
+    <string name="lockscreen_missing_sim_message_short">Dim SIM</string>
+    <string name="lockscreen_missing_sim_message" product="tablet">Dim SIM yn y llechen.</string>
+    <string name="lockscreen_missing_sim_message" product="tv">Dim SIM yn dy ddyfais Android TV.</string>
+    <string name="lockscreen_missing_sim_message" product="default">Dim SIM yn y ffôn.</string>
+    <string name="lockscreen_missing_sim_instructions">Ychwanega SIM.</string>
+    <string name="lockscreen_missing_sim_instructions_long">Mae\u2019r SIM ar goll neu ddim yn ddarllenadwy. Ychwanega SIM.</string>
     <string name="lockscreen_permanent_disabled_sim_instructions">Mae dy SIM wedi cael ei ddadactifadu yn barhaol.\n
     Cysyllta â dy ddarparwr gwasanaeth symudol am SIM arall.</string>
     <string name="lockscreen_transport_prev_description">Trac blaenorol</string>
@@ -945,7 +951,10 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="lockscreen_transport_ffw_description">Ymlaen yn gyflym</string>
     <string name="emergency_calls_only" msgid="2485604591272668370">Galwadau brys yn unig</string>
     <string name="lockscreen_network_locked_message">Rhwydwaith wedi\'i gloi</string>
+    <string name="lockscreen_sim_puk_locked_message">SIM wedi\u2019i gloi â PUK.</string>
     <string name="lockscreen_sim_puk_locked_instructions">Gweler y Canllaw Defnyddiwr neu cysylltu â Gofal Cwsmeriaid.</string>
+    <string name="lockscreen_sim_locked_message">SIM wedi\u2019i gloi.</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">Yn datgloi\u2019r SIM\u2026</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message">        Rwyt wedi cael y patrwm yn anghywir <xliff:g id="number">%1$d</xliff:g> tro.
         \n\nRho gynnig arall arni ymhen <xliff:g id="number">%2$d</xliff:g> eiliad.
     </string>
@@ -1376,6 +1385,7 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="sms_short_code_remember_undo_instruction">Gellir newid hyn hwyrach yn Gosodiadau\u00A0&gt;\u00A0Apiau</string>
     <string name="sms_short_code_confirm_always_allow">Caniatáu Bob Tro</string>
     <string name="sms_short_code_confirm_never_allow">Caniatáu Byth</string>
+    <string name="sim_removed_message">Ni fydd y rhwydwaith symudol ar gael nes dy fod wedi ail-gychwyn gyda SIM dilys.</string>
     <string name="sim_done_button">Iawn</string>
     <string name="sim_added_message">Ailgychwyna dy ddyfais i gael mynediad at y rhwydwaith symudol.</string>
     <string name="sim_restart_button">Ailgychwyn</string>
@@ -1694,6 +1704,7 @@ Pan mae Archwilio trwy Gyffwrdd ymlaen, rwyt yn clywed neu weld disgrifiadau\'r 
     <string name="kg_puk_enter_puk_hint">Mae\'r SIM bellach wedi\'i analluogi. Rho god PUK i barhau. Cysyllta â dy ddarparwr gwasanaeth am fanylion.</string>
     <string name="kg_puk_enter_pin_hint">Rho\'r cod PIN newydd</string>
     <string name="kg_enter_confirm_pin_hint">Cadarnha\'r cod PIN newydd</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Yn datgloi\u2019r SIM\u2026</string>
     <string name="kg_password_wrong_pin_code">Cod PIN anghywir</string>
     <string name="kg_invalid_sim_pin_hint">Rho rif PIN rhwng 4 ac 8 digid.</string>
     <string name="kg_invalid_sim_puk_hint">Rhaid i\'r cod PUK fod yn 8 digid.</string>
@@ -2412,6 +2423,7 @@ yn llwyddiannus.</string>
     <string name="vdm_camera_access_denied" product="tablet">Meth cael at gamera dy lechen o dy <xliff:g id="device" example="Chromebook">%1$s</xliff:g></string>
     <string name="vdm_secure_window">Nid oes mynediad at hwn wrth ffrydio. Rho gynnig arni ar dy ffôn yn lle.</string>
     <string name="system_locale_title">Rhagosodiad y system</string>
+    <string name="permlab_startForegroundServicesFromBackground">Dechrau gwasanaethau blaendir o\u2019r cefndir</string>
     <string name="device_state_notification_turn_off_button">Troi i ffwrdd</string>
     <string name="profile_label_work">Gwaith</string>
 </resources>

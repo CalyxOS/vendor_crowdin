@@ -27,13 +27,15 @@
     <string name="keyguard_sim_error_message_short">La tarxeta nun ye válida.</string>
     <string name="keyguard_charged">Cargó</string>
     <string name="keyguard_plugged_in_wireless"><xliff:g id="percentage" example="20%">%s</xliff:g> • En carga, ensin filos</string>
+    <string name="keyguard_plugged_in_dock"><xliff:g id="percentage" example="20%">%s</xliff:g> • En carga</string>
     <string name="keyguard_plugged_in"><xliff:g id="percentage">%s</xliff:g> • En carga</string>
     <string name="keyguard_plugged_in_charging_fast"><xliff:g id="percentage">%s</xliff:g> • En carga, rápida</string>
     <string name="keyguard_plugged_in_charging_slowly"><xliff:g id="percentage">%s</xliff:g> • En carga, lenta</string>
+    <string name="keyguard_plugged_in_charging_limited"><xliff:g id="percentage">%s</xliff:g> • Carga optimizada pa protexer la batería</string>
     <string name="keyguard_plugged_in_incompatible_charger"><xliff:g id="percentage">%s</xliff:g> • Hai un problema col accesoriu de carga</string>
     <string name="keyguard_network_locked_message">Rede bloquiada</string>
     <string name="keyguard_missing_sim_message_short">Nun hai nenguna SIM</string>
-    <string name="keyguard_permanent_disabled_sim_message_short">La SIM ta inutilizada.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">La SIM quedó inutilizable.</string>
     <string name="keyguard_sim_locked_message">La SIM ta bloquiada.</string>
     <string name="keyguard_sim_puk_locked_message">La SIM ta bloquiada col PUK.</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Desbloquiando la SIM\u2026</string>
@@ -79,6 +81,11 @@
     <string name="kg_primary_auth_locked_out_pin">Ficiéronse milenta intentos con un PIN incorreutu</string>
     <string name="kg_primary_auth_locked_out_pattern">Ficiéronse milenta intentos con un patrón incorreutu</string>
     <string name="kg_primary_auth_locked_out_password">Ficiéronse milenta intentos con una contraseña incorreuta</string>
+    <string name="kg_too_many_failed_attempts_countdown">{count, plural,
+        one {}=1 {Volvi tentalo en # segundu.}
+        other {Volvi tentalo en # segundos.}
+    }
+    </string>
     <string name="kg_sim_pin_instructions">Introduz el PIN de la SIM.</string>
     <string name="kg_sim_pin_instructions_multi">Introduz el PIN de la SIM de: <xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>.</string>
     <string name="kg_sim_lock_esim_instructions"><xliff:g id="previous_msg" example="Enter SIM PIN.">%1$s</xliff:g> Desactiva la eSIM pa usar el preséu ensin serviciu móvil.</string>
@@ -99,7 +106,15 @@
         \n\nVolvi tentalo en <xliff:g id="number">%2$d</xliff:g> segundos.
     </string>
     <string name="kg_password_wrong_pin_code_pukked">El códigu PIN de la SIM ye incorreutu. Agora tienes de ponete en contautu cola operadora pa desbloquiar el preséu.</string>
-    <string name="kg_password_wrong_puk_code_dead">La SIM ta inutilizada. Ponte en contautu cola operadora.</string>
+    <string name="kg_password_wrong_pin_code"> {count, plural,
+        one {}=1 {El códigu PIN de la SIM ye incorreutu. Quédate # intentu enantes de tener de ponete en contautu cola operadora pa desbloquiar el preséu.}
+        other {El códigu PIN de la SIM ye incorreutu. Quédente # intentos.}
+    }</string>
+    <string name="kg_password_wrong_puk_code_dead">La SIM quedó inutilizable. Ponte en contautu cola operadora.</string>
+    <string name="kg_password_wrong_puk_code"> {count, plural,
+        one {}=1 {El códigu PUK de la SIM ye incorreutu. Quédate # intentu enantes de dexar la SIM inutilizable permanentemente.}
+        other {El códigu PUK de la SIM ye incorreutu. Quédente # intentos enantes de dexar la SIM inutilizable permanentemente.}
+    }</string>
     <string name="kg_password_pin_failed">¡La operación col PIN de la SIM falló!</string>
     <string name="kg_password_puk_failed">¡La operación col PUK de la SIM falló!</string>
     <string name="accessibility_ime_switch_button" msgid="5032926134740456424">Botón «Cambiar el métodu d\'entrada»</string>
@@ -107,12 +122,25 @@
     <string name="kg_prompt_reason_restart_pattern">Ríquise\'l patrón dempués de reaniciar el preséu</string>
     <string name="kg_prompt_reason_restart_pin">Ríquise\'l PIN dempués de reaniciar el preséu</string>
     <string name="kg_prompt_reason_restart_password">Ríquise la contraseña dempués de reaniciar el preséu</string>
+    <string name="kg_prompt_reason_timeout_pattern">Pa más seguranza, usa\'l patrón</string>
+    <string name="kg_prompt_reason_timeout_pin">Pa más seguranza, usa\'l PIN</string>
+    <string name="kg_prompt_reason_timeout_password">Pa más seguranza, usa la contraseña</string>
     <string name="kg_prompt_reason_device_admin">L\'alministrador bloquió\'l preséu</string>
     <string name="kg_prompt_reason_user_request">El preséu bloquióse manualmente</string>
     <string name="kg_face_not_recognized">Nun se reconoz</string>
+    <string name="kg_face_sensor_privacy_enabled">El desbloquéu facial precisa l\'accesu a la cámara</string>
+    <string name="kg_password_default_pin_message">{count, plural,
+      one {}=1      {Introduz el PIN de la SIM. Quédate # intentu enantes de tener de ponete en contautu cola operadora pa desbloquiar el preséu.}
+      other   {Introduz el PIN de la SIM. Quédente # intentos.}
+    }</string>
+    <string name="kg_password_default_puk_message">{count, plural,
+        one {}=1 {La SIM ta inhabilitada. Introduz el códigu PUK pa siguir. Quédate # intentu enantes de dexar la SIM inutilizable permanentemente. Ponte en contautu cola operadora pa consiguir más información.}
+        other {La SIM ta inhabilitada. Introduz el códigu PUK pa siguir. Quédente # intentos enantes de dexar la SIM inutilizable permanentemente. Ponte en contautu cola operadora pa consiguir más información.}
+    }</string>
     <string name="clock_title_default">Por defeutu</string>
     <string name="clock_title_bubble">Burbuya</string>
     <string name="clock_title_analog">Analóxicu</string>
+    <string name="keyguard_unlock_to_continue">Desbloquia\'l preséu pa siguir</string>
     <string name="kg_prompt_unattended_update_pin">Introduz el PIN pa instalar l\'anovamientu dempués</string>
     <string name="kg_prompt_unattended_update_password">Introduz la contraseña pa instalar l\'anovamientu dempués</string>
     <string name="kg_prompt_unattended_update_pattern">Dibuxa\'l patrón pa instalar l\'anovamientu dempués</string>

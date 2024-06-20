@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="keyguard_enter_your_pin">Rho dy PIN</string>
-    <string name="keyguard_enter_pin">Rho\'r PIN</string>
+    <string name="keyguard_enter_pin">Rho\u2019r PIN</string>
     <string name="keyguard_enter_your_pattern">Rho dy batrwm</string>
     <string name="keyguard_enter_pattern">Rho\u2019r patrwm</string>
     <string name="keyguard_enter_your_password">Rho dy gyfrinair</string>
@@ -33,6 +33,9 @@
     <string name="keyguard_plugged_in_charging_slowly"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru\u2019n araf</string>
     <string name="keyguard_plugged_in_charging_limited"><xliff:g id="percentage">%s</xliff:g> • Gwefru wedi\u2019i optimeiddio i warchod y batri</string>
     <string name="keyguard_network_locked_message">Rhwydwaith wedi\'i gloi</string>
+    <string name="keyguard_sim_locked_message">SIM wedi\u2019i gloi.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM wedi\u2019i gloi â PUK.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Yn datgloi\u2019r SIM\u2026</string>
     <string name="keyguard_accessibility_pin_area">Maes PIN</string>
     <string name="keyguard_accessibility_password">Cyfrinair y ddyfais</string>
     <string name="keyguard_accessibility_sim_pin_area">Maes PIN SIM</string>
@@ -63,6 +66,7 @@
     <string name="kg_puk_enter_puk_hint_multi">Mae\'r SIM \"<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>\" bellach wedi\'i analluogi. Rho god PUK i barhau. Cysyllta â dy ddarparwr gwasanaeth symudol am fanylion.</string>
     <string name="kg_puk_enter_pin_hint">Rho\'r cod PIN newydd</string>
     <string name="kg_enter_confirm_pin_hint">Cadarnha\'r cod PIN newydd</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Yn datgloi\u2019r SIM\u2026</string>
     <string name="kg_invalid_sim_pin_hint">Rho rif PIN rhwng 4 ac 8 digid.</string>
     <string name="kg_invalid_sim_puk_hint">Rhaid i\'r cod PUK fod yn o leiaf 8 digid.</string>
     <string name="kg_too_many_failed_pin_attempts_dialog_message">        Rwyt wedi rhoi PIN anghywir <xliff:g id="number">%1$d</xliff:g> tro.

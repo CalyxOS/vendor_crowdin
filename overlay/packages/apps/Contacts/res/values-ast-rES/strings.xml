@@ -14,7 +14,35 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="contacts_deleted_toast"> {count, plural,
+        one {}=1    {Desanicióse\'l contautu}
+        other {Desaniciáronse los contautos}
+    }</string>
+    <string name="contacts_count"> {count, plural,
+        one {}=1    {# contautu}
+        other {# contautos}
+    }</string>
+    <string name="contacts_count_with_account"> {count, plural,
+        one {}=1    {# contautu · {account}}
+        other {# contautos · {account}}
+    }</string>
+    <string name="title_share_via"> {count, plural,
+        one {}=1    {Compartir el contautu per}
+        other {Compartir los contautos per}
+    }</string>
     <string name="activity_title_settings">Configuración</string>
     <string name="menu_settings" msgid="377929915873428211">Configuración</string>
+    <string name="import_from_sim_secondary_contact_count_fmt"> {count, plural,
+        one {}=1    {# contautu}
+        other {# contautos}
+    }</string>
+    <string name="import_from_sim_secondary_template"> {count, plural,
+        one {}=1    {# contautu • <xliff:g id="phone_number">^1</xliff:g>}
+        other {# contautos • <xliff:g id="phone_number">^1</xliff:g>}
+    }</string>
+    <string name="sim_import_success_toast_fmt"> {count, plural,
+        one {}=1    {Importóse # contautu de la SIM}
+        other {Importáronse # contautos de la SIM}
+    }</string>
     <string name="sdn_contacts_directory_search_label">Númberos de serviciu de la operadora</string>
 </resources>

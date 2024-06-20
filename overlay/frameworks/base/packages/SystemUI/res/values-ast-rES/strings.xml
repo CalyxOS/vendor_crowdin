@@ -28,11 +28,11 @@
     <string name="battery_saver_start_action">Activar</string>
     <string name="battery_saver_dismiss_action">Non, gracies</string>
     <string name="status_bar_settings_auto_rotation">Voltéu de pantalla automáticu</string>
-    <string name="usb_device_permission_prompt">¿Quies permitir que «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
-    <string name="usb_device_permission_prompt_warn">¿Quies permitir que «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?\nEsta aplicación nun tien permisu pa grabar, mas podría capturar audiu pente esti preséu USB.</string>
-    <string name="usb_audio_device_permission_prompt_title">¿Quies permitir que «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
+    <string name="usb_device_permission_prompt">¿Quies permitir a «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» qu\'acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
+    <string name="usb_device_permission_prompt_warn">¿Quies permitir a «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» qu\'acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?\nEsta aplicación nun tien permisu pa grabar, mas podría capturar audiu pente esti preséu USB.</string>
+    <string name="usb_audio_device_permission_prompt_title">¿Quies permitir a «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» qu\'acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
     <string name="usb_audio_device_confirm_prompt_title">¿Quies abrir «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» pa remanar «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
-    <string name="usb_accessory_permission_prompt">¿Quies permitir que «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» acceda a «<xliff:g id="usb_accessory" example="USB Dock">%2$s</xliff:g>»?</string>
+    <string name="usb_accessory_permission_prompt">¿Quies permitir a «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» qu\'acceda a «<xliff:g id="usb_accessory" example="USB Dock">%2$s</xliff:g>»?</string>
     <string name="usb_device_confirm_prompt">¿Quies abrir «<xliff:g id="activity">%1$s</xliff:g>» pa remanar «<xliff:g id="usb_device">%2$s</xliff:g>»?</string>
     <string name="usb_device_confirm_prompt_warn">¿Quies abrir «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» pa remanar «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?\nEsta aplicación nun tien permisu pa grabar, mas podría capturar audiu pente esti preséu USB.</string>
     <string name="usb_accessory_confirm_prompt">¿Quies abrir «<xliff:g id="activity">%1$s</xliff:g>» pa remanar «<xliff:g id="usb_accessory">%2$s</xliff:g>»?</string>
@@ -171,7 +171,6 @@
     <string name="accessibility_tty_enabled">Teletipu activáu.</string>
     <string name="accessibility_ringer_vibrate">Mou vibración.</string>
     <string name="accessibility_ringer_silent">Timbre desactiváu.</string>
-    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_desc_notification_shade">Área d\'avisos.</string>
     <string name="accessibility_desc_quick_settings">Configuración rápida.</string>
     <string name="accessibility_desc_lock_screen">Pantalla de bloquéu.</string>
@@ -723,7 +722,7 @@ prioridá</string>
     <string name="auto_data_switch_dialog_negative_button">Non, gracies</string>
     <string name="touch_filtered_warning">Pola mor d\'una aplicación que bloquia la solicitú de
         permisos, «Configuración» nun pue verificar la to rempuesta.</string>
-    <string name="slice_permission_title">¿Quies permitir que «<xliff:g id="app" example="Example App">%1$s</xliff:g> amuese fragmentos de l\'aplicación «<xliff:g id="app_2" example="Other Example App">%2$s</xliff:g>»?</string>
+    <string name="slice_permission_title">¿Quies permitir a «<xliff:g id="app" example="Example App">%1$s</xliff:g> qu\'amuese fragmentos de l\'aplicación «<xliff:g id="app_2" example="Other Example App">%2$s</xliff:g>»?</string>
     <string name="slice_permission_text_1"> - Pue lleer la información de l\'aplicación «<xliff:g id="app" example="Example App">%1$s</xliff:g>»</string>
     <string name="slice_permission_text_2"> - Pue facer aiciones na aplicación «<xliff:g id="app" example="Example App">%1$s</xliff:g>»</string>
     <string name="slice_permission_checkbox">Permitir que «<xliff:g id="app" example="Example App">%1$s</xliff:g> amuese fragmentos de cualesquier aplicación</string>
@@ -737,8 +736,6 @@ prioridá</string>
     <string name="ongoing_privacy_chip_content_multiple_apps">Aplicaciones que tán usando: <xliff:g id="types_list" example="camera, location">%s</xliff:g>.</string>
     <string name="ongoing_privacy_dialog_separator">,\u0020</string>
     <string name="ongoing_privacy_dialog_last_separator">\u0020y\u0020</string>
-    <string name="ongoing_privacy_dialog_attribution_label">(<xliff:g id="attribution_label" example="For Wallet">%s</xliff:g>)</string>
-    <string name="ongoing_privacy_dialog_attribution_proxy_label">(<xliff:g id="attribution_label" example="For Wallet">%1$s</xliff:g>  \u2022 <xliff:g id="proxy_label" example="Maps, and Assistant">%2$s</xliff:g>)</string>
     <string name="privacy_type_camera">cámara</string>
     <string name="privacy_type_location">llocalización</string>
     <string name="privacy_type_microphone">micrófonu</string>
@@ -878,7 +875,7 @@ prioridá</string>
     <string name="drag_split_not_supported">Esti avisu nun se pue arrastrar a la pantalla dixebrada</string>
     <string name="note_task_button_label">Toma de notes</string>
     <string name="note_task_shortcut_long_label">Toma de notes, <xliff:g id="note_taking_app" example="Note-taking App">%1$s</xliff:g></string>
-    <string name="log_access_confirmation_title">¿Quies permitir que «<xliff:g id="log_access_app_name" example="Example App">%s</xliff:g>» acceda a tolos rexistros del preséu?</string>
+    <string name="log_access_confirmation_title">¿Quies permitir a «<xliff:g id="log_access_app_name" example="Example App">%s</xliff:g>» qu\'acceda a tolos rexistros del preséu?</string>
     <string name="log_access_confirmation_allow">Permitir l\'accesu una vegada</string>
     <string name="log_access_confirmation_deny">Nun permitir</string>
     <string name="log_access_confirmation_body">Los rexistros del preséu inclúin información sobre tolo que pasa nelli. Les aplicaciones puen usar estos rexistros p\'atopar ya iguar problemes\n\nDalgunos rexistros puen contener información sensible y, polo tanto, namás habríes permitir el so accesu a les aplicaciones nes que t\'enfotes.
