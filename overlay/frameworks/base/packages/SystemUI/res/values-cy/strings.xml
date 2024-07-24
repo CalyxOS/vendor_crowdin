@@ -109,6 +109,8 @@
     <string name="screenrecord_save_title">Wedi cadw recordiad sgrin</string>
     <string name="screenrecord_save_text">Tapia i weld</string>
     <string name="screenrecord_start_error">Gwall wrth gychwyn recordio\'r sgrin</string>
+    <string name="issuerecord_share_label">Rhannu</string>
+    <string name="issuerecord_save_text">Tapia i weld</string>
     <string name="immersive_cling_positive">Deall yn iawn</string>
     <string name="accessibility_back">Nôl</string>
     <string name="accessibility_home">Cartref</string>
@@ -159,9 +161,7 @@
     <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Os fyddi wedi rhoi\'r cyfrinair anghywir ar yr ymgais nesaf, bydd data\'r ddyfais hon yn cael ei dileu.</string>
     <string name="biometric_re_enroll_dialog_confirm">Gosod</string>
     <string name="fingerprint_dialog_touch_sensor">Cyffyrdda\'r synhwyrydd ôl bys</string>
-    <string name="fingerprint_dialog_use_fingerprint_instead">Methu adnabod wyneb. Defnyddia ôl bys yn lle.</string>
     <string name="keyguard_face_failed_use_fp">@string/fingerprint_dialog_use_fingerprint_instead</string>
-    <string name="keyguard_face_failed">Methu adnabod wyneb</string>
     <string name="keyguard_suggest_fingerprint">Defnyddo ôl bys yn lle</string>
     <string name="keyguard_face_unlock_unavailable">Datgloi â Wyneb ddim ar gael</string>
     <string name="accessibility_bluetooth_connected">Bluetooth wedi cysylltu.</string>
@@ -369,6 +369,8 @@
     <string name="keyguard_indication_charging_time_fast"><xliff:g id="percentage">%2$s</xliff:g> • Yn gwefru\u2019n gyflym • Llawn mewn <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
     <string name="keyguard_indication_charging_time_slowly"><xliff:g id="percentage">%2$s</xliff:g> • Yn gwefru\u2019n araf • Llawn mewn <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
     <string name="keyguard_indication_charging_time_dock"><xliff:g id="percentage" example="20%">%2$s</xliff:g> • Yn gwefru • Llawn mewn <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
+    <string name="cta_tile_button_to_open_widget_editor">Addasu</string>
+    <string name="cta_tile_button_to_dismiss">Diystyru</string>
     <string name="button_to_remove_widget">Tynnu</string>
     <string name="hub_mode_editing_exit_button_text">Cwblhau</string>
     <string name="accessibility_multi_user_switch_switcher">Newid defnyddiwr</string>
@@ -539,31 +541,7 @@
     <string name="enable_bluetooth_title">Rhoi Bluetooth ar waith?</string>
     <string name="enable_bluetooth_message">I gysylltu dy fysellfwrdd gyda dy lechen, rhaid yn gyntaf troi Bluetooth ymlaen.</string>
     <string name="enable_bluetooth_confirmation_ok">Troi ymlaen</string>
-    <string name="tuner_full_importance_settings">Rheolaeth pwysigrwydd hysbysiadau</string>
     <string name="rotation_lock_camera_rotation_on">Ymlaen - Ar sail wyneb</string>
-    <string name="power_notification_controls_description">Gyda rheolaeth pwysigrwydd hysbysiadau, gellir gosod apiau ar lefel o 0 i 5 yn ôl pwysigrwydd eu hysbysiadau.
-\n\n<b>Lefel 5</b>
-\n\n- Dangos ar frig y rhestr hysbysiadau
-\n\n- Caniatáu i dorri ar draws sgrin lawn
-\n\n- Dangos cipolowg bob tro
-\n\n<b>Lefel 4</b>
-\n\n- Dim torri ar draws sgrin lawn
-\n\n- Dangos cipolowg bob tro
-\n\n<b>Lefel 3</b>
-\n\n- Dim torri ar draws sgrin lawn
-\n\n- Dim dangos cipolwg
-\n\n<b>Lefel 2</b>
-\n\n- Dim torri ar draws sgrin lawn
-\n\n- Dim dangos cipolwg
-\n\n- Dim sain na dirgrynu
-\n\n<b>Lefel 1</b>
-\n\n- Dim torri ar draws sgrin lawn
-\n\n- Dim dangos cipolwg
-\n\n- Dim sain na dirgrynu
-\n\n- Cuddio o\'r sgrin cloi a\'r bar statws
-\n\n- Dangos ar waelod y rhestr hysbysiadau
-\n\n<b>Lefel 0</b>
-\n\n- Rhwystro holl hysbysiadau\'r ap    </string>
     <string name="inline_done_button">Cwblhau</string>
     <string name="inline_ok_button">Gosod</string>
     <string name="inline_turn_off_notifications">Troi hysbysiadau i ffwrdd</string>
@@ -766,6 +744,7 @@
     <string name="notification_channel_setup">Gosod</string>
     <string name="notification_channel_storage">Storfa</string>
     <string name="notification_channel_hints">Awgrymiadau</string>
+    <string name="notification_channel_accessibility">Hygyrchedd</string>
     <string name="instant_apps">Apiau ar Unwaith</string>
     <string name="instant_apps_title"><xliff:g id="app" example="Gmail">%1$s</xliff:g> yn rhedeg</string>
     <string name="instant_apps_message">Agorir yr ap heb iddo fod wedi ei osod.</string>
@@ -801,7 +780,6 @@
     <string name="auto_saver_title">Tapia i osod amser Arbedwr Batri</string>
     <string name="auto_saver_text">Troi ymlaen pan fo\'r batri yn debygol o redeg allan</string>
     <string name="no_auto_saver_action">Dim diolch</string>
-    <string name="heap_dump_tile_name">Dympio\'r Domen SysUI</string>
     <string name="ongoing_privacy_dialog_a11y_title">Mewn defnydd</string>
     <string name="ongoing_privacy_chip_content_multiple_apps">Mae apiau yn defnyddio <xliff:g id="types_list" example="camera, location">%s</xliff:g>.</string>
     <string name="ongoing_privacy_dialog_separator">,\u0020</string>
@@ -847,6 +825,7 @@
     <string name="accessibility_floating_button_action_move_out_edge_and_show">Symud yr ymyl allan a dangos</string>
     <string name="accessibility_floating_button_action_remove_menu">Tynnu</string>
     <string name="accessibility_floating_button_action_double_tap_to_toggle">toglo</string>
+    <string name="accessibility_floating_button_action_edit">Golygu</string>
     <string name="quick_controls_title">Rheolyddion dyfeisiau</string>
     <string name="controls_providers_title">Dewis ap i ychwanegu rheolyddion</string>
     <string name="controls_number_of_favorites">{count, plural,

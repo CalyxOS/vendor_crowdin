@@ -149,6 +149,8 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> dempués de <xliff:g id="time_delay">{2}</xliff:g> segundos</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: nun s\'esvió</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: nun s\'esvió</string>
+    <string name="scNullCipherIssueEncryptedSummary">Conectéstite a una rede más segura.</string>
+    <string name="scNullCipherIssueActionLearnMore">Saber más</string>
     <string name="fcComplete">Códigu de función completu.</string>
     <string name="fcError">Hebo un problema de conexón o\'l códigu de función nun ye válidu.</string>
     <string name="httpErrorOk">OK</string>
@@ -209,9 +211,9 @@
     <string name="printing_disabled_by">«<xliff:g id="owner_app">%s</xliff:g>» desactivó la imprentación.</string>
     <string name="personal_apps_suspension_title">Activa\'l perfil llaboral</string>
     <string name="personal_apps_suspension_text">        Les aplicaciones personales tán bloquiaes hasta qu\'actives el perfil llaboral</string>
-    <string name="personal_apps_suspension_soon_text">        Les aplicaciones van bloquiase\'l <xliff:g id="date" example="May 29">%1$s</xliff:g> a la
-        hora: <xliff:g id="time" example="5:20 PM">%2$s</xliff:g>. L\'alministrador de TI nun permite
-        que\'l perfill llaboral quede desactiváu más de
+    <string name="personal_apps_suspension_soon_text">        Les aplicaciones personales van bloquiase\'l <xliff:g id="date" example="May 29">%1$s
+        </xliff:g> a la hora: <xliff:g id="time" example="5:20 PM">%2$s</xliff:g>. L\'alministrador de
+        TI nun permite que\'l perfill llaboral quede desactiváu más de
         <xliff:g id="number" example="3">%3$d</xliff:g> díes.
     </string>
     <string name="personal_apps_suspended_turn_profile_on">Activar</string>
@@ -415,7 +417,7 @@
         del preséu cuando se reciba un espardimientu móvil d\'emerxencia.</string>
     <string name="permlab_manageOngoingCalls">xestión de llamaes en cursu</string>
     <string name="permdesc_manageOngoingCalls">Permite qu\'una aplicación vea los detalles de les
-         llamaes en cursu del preséu ya que controle
+         llamaes en cursu del preséu y que controle
          eses llamaes.</string>
     <string name="permlab_readCellBroadcasts">llectura de los mensaxes d\'espardimientu móvil</string>
     <string name="permdesc_readCellBroadcasts">Permite que l\'aplicación llea
@@ -734,7 +736,7 @@
       configuración del Bluetooth del teléfonu y faiga y acepte
       conexones colos preseos empareyaos.</string>
     <string name="permlab_bluetooth_scan">descubrimientu de preseos Bluetooth cercanos y empareyamientu con ellos</string>
-    <string name="permdesc_bluetooth_scan" product="default">Permite que l\'aplicación descubra ya s\'empareye con preseos Bluetooth cercanos</string>
+    <string name="permdesc_bluetooth_scan" product="default">Permite que l\'aplicación descubra y s\'empareye con preseos Bluetooth cercanos</string>
     <string name="permlab_bluetooth_connect">conexón con preseos Bluetooth empareyaos</string>
     <string name="permdesc_bluetooth_connect" product="default">Permite que l\'aplicación se conecte a los preseos Bluetooth empareyaos</string>
     <string name="permlab_bluetooth_advertise">avisos a preseos Bluetooth cercanos</string>
@@ -798,7 +800,6 @@
     <string name="screen_lock_app_setting_name">Usar el bloquéu de pantalla</string>
     <string name="screen_lock_dialog_default_subtitle">Pa siguir, introduz el bloquéu de pantalla</string>
     <string name="fingerprint_acquired_partial">Primi\'l sensor con firmeza</string>
-    <string name="fingerprint_acquired_insufficient">Nun se pue reconocer la buelga. Volvi tentalo.</string>
     <string name="fingerprint_acquired_imager_dirty">Llimpia\'l sensor de buelgues y volvi tentalo</string>
     <string name="fingerprint_acquired_imager_dirty_alt">Llimpia\'l sensor y volvi tentalo</string>
     <string name="fingerprint_acquired_too_fast">Primi\'l sensor con firmeza</string>
@@ -815,18 +816,12 @@
     <string name="fingerprint_authenticated">Autenticóse la buelga</string>
     <string name="face_authenticated_no_confirmation_required">Autenticóse la cara</string>
     <string name="face_authenticated_confirmation_required">Autenticóse la cara, primi «Confirmar»</string>
-    <string name="fingerprint_error_hw_not_available">El hardware de buelgues nun ta disponible.</string>
+    <string name="fingerprint_error_hw_not_available">El hardware de buelgues nun ta disponible</string>
     <string name="fingerprint_error_no_space">Nun se pue configurar la buelga</string>
     <string name="fingerprint_error_timeout">Escosó\'l tiempu d\'espera pa configurar la buelga. Volvi tentalo.</string>
-    <string name="fingerprint_error_canceled">Encaboxóse la operación de buelga.</string>
-    <string name="fingerprint_error_user_canceled">L\'usuariu encaboxó la operación de la buelga.</string>
     <string name="fingerprint_error_lockout">Ficiéronse milenta intentos. Usa\'l bloquéu de pantalla.</string>
     <string name="fingerprint_error_lockout_permanent">Ficiéronse milenta intentos. Usa\'l bloquéu de pantalla.</string>
     <string name="fingerprint_error_unable_to_process">Nun se pue procesar la buelga. Volvi tentalo.</string>
-    <string name="fingerprint_error_no_fingerprints">Nun se rexistró nenguna buelga.</string>
-    <string name="fingerprint_error_hw_not_present">Esti preséu nun tien nengún sensor de buelgues.</string>
-    <string name="fingerprint_error_security_update_required">El sensor desactivóse temporalmente.</string>
-    <string name="fingerprint_error_bad_calibration">Nun se pue usar el sensor de buelgues. Visita un fornidor de reparaciones</string>
     <string name="fingerprint_error_power_pressed">Primióse\'l botón de prendíu</string>
     <string name="fingerprint_name_template">Deu <xliff:g id="fingerId" example="1">%d</xliff:g></string>
     <string name="fingerprint_app_setting_name">Usar la buelga</string>
@@ -860,7 +855,6 @@
     <string name="face_acquired_not_detected">Nun se pue ver la cara. Pon el teléfonu al altor de los güeyos.</string>
     <string name="face_acquired_too_much_motion">Hebo munchu movimientu. Nun muevas el teléfonu.</string>
     <string name="face_acquired_recalibrate">Volvi rexistrar la cara.</string>
-    <string name="face_acquired_too_different">Nun se pue reconocer la cara. Volvi tentalo.</string>
     <string name="face_acquired_too_similar">Camuda llixeramente la posición de la cabeza</string>
     <string name="face_acquired_pan_too_extreme">Mira\'l teléfonu de forma más direuta</string>
     <string name="face_acquired_tilt_too_extreme">Mira\'l teléfonu de forma más direuta</string>
@@ -2222,8 +2216,8 @@
     <string name="package_updated_device_owner">L\'alministrador anovó l\'aplicación</string>
     <string name="package_deleted_device_owner">L\'alministrador desanició l\'aplicación</string>
     <string name="confirm_battery_saver">OK</string>
-    <string name="battery_saver_description_with_learn_more">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones ya dalgunes conexones a la rede.</string>
-    <string name="battery_saver_description">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones ya dalgunes conexones a la rede.</string>
+    <string name="battery_saver_description_with_learn_more">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones y dalgunes conexones a la rede.</string>
+    <string name="battery_saver_description">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones y dalgunes conexones a la rede.</string>
     <string name="data_saver_description">P\'ayudar a amenorgar l\'usu de datos, «Aforrador de datos» evita que les aplicaciones unvien y reciban datos en segundu planu. L\'aplicación que teas usando pue acceder a los datos, mas quiciabes lo faiga con menos frecuencia. Esto quier dicir, por exemplu, que les imáxenes nun van amosase hasta que calques nelles.</string>
     <string name="data_saver_enable_title">¿Quies activar «Aforrador de datos»?</string>
     <string name="data_saver_enable_button">Activar</string>
@@ -2341,6 +2335,7 @@
     <string name="work_mode_off_title">¿Reactivar apls. llaborales?</string>
     <string name="work_mode_turn_on">Volver activar</string>
     <string name="work_mode_emergency_call_button">Emerxencia</string>
+    <string name="private_space_set_up_screen_lock_message">Pa usar l\'espaciu priváu, configura una pantalla de bloquéu nel preséu</string>
     <string name="app_blocked_title">L\'aplicación nun ta disponible</string>
     <string name="app_blocked_message">        Nesti momentu, «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» nun ta disponible.
     </string>
@@ -2561,7 +2556,7 @@
     <string name="resolver_turn_on_work_apps">Les aplicaciones llaborales tán en posa</string>
     <string name="resolver_switch_on_work">Volver activar</string>
     <string name="resolver_no_work_apps_available">Nun hai nenguna aplicación llaboral</string>
-    <string name="resolver_no_personal_apps_available">No personal apps</string>
+    <string name="resolver_no_personal_apps_available">Nun hai nenguna aplicación personal</string>
     <string name="miniresolver_open_work">¿Quies abrir l\'aplicación «<xliff:g id="app" example="YouTube">%s</xliff:g>» del perfil llaboral?</string>
     <string name="miniresolver_open_in_personal">¿Quies abrir el conteníu na aplicación «<xliff:g id="app" example="YouTube">%s</xliff:g>» del perfil personal?</string>
     <string name="miniresolver_open_in_work">¿Quies abrir el conteníu na aplicación «<xliff:g id="app" example="YouTube">%s</xliff:g>» del perfil llaboral?</string>
@@ -2687,7 +2682,7 @@
     <string name="dismiss_action">Escartar</string>
     <string name="sensor_privacy_start_use_mic_notification_content_title">Desbloquia\'l micrófonu de la cámara</string>
     <string name="sensor_privacy_start_use_camera_notification_content_title">Desbloquia la cámara del preséu</string>
-    <string name="sensor_privacy_start_use_notification_content_text">Pa &lt;b&gt;<xliff:g id="app" example="Gmail">%s</xliff:g>&lt;/b&gt; ya pa toles aplicaciones ya tolos servicios</string>
+    <string name="sensor_privacy_start_use_notification_content_text">Pa &lt;b&gt;<xliff:g id="app" example="Gmail">%s</xliff:g>&lt;/b&gt; y pa toles aplicaciones y tolos servicios</string>
     <string name="sensor_privacy_start_use_dialog_turn_on_button">Desbloquiar</string>
     <string name="sensor_privacy_notification_channel_label">Privacidá de los sensores</string>
     <string name="splash_screen_view_icon_description">Iconu de l\'aplicación</string>
@@ -2745,4 +2740,5 @@
     <string name="profile_label_work_3">Trabayu 3</string>
     <string name="profile_label_test">Prueba</string>
     <string name="profile_label_communal">Comunal</string>
+    <string name="satellite_notification_how_it_works">Cómo funciona</string>
 </resources>

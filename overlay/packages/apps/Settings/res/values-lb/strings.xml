@@ -40,7 +40,7 @@
     <string name="bluetooth_device_name">Apparatnumm</string>
     <string name="bluetooth_rename_device">Dësen Apparat ëmbenennen</string>
     <string name="bluetooth_rename_button">Ëmbenennen</string>
-    <string name="bluetooth_media_title">Medien</string>
+    <string name="bluetooth_notification_title">Notifikatiounen</string>
     <string name="bluetooth_device">Onbenannte Bluetooth-Apparat</string>
     <string name="progress_scanning">Gëtt gesicht</string>
     <string name="bluetooth_no_devices_found">Keng Bluetooth-Apparater an der Géigend fonnt.</string>
@@ -126,12 +126,16 @@
     <string name="fingerprint_enroll_button_next">Weider</string>
     <string name="security_header">Sécherheet</string>
     <string name="work_profile_category_header">Aarbechtsprofil</string>
+    <string name="private_space_auto_lock_never">Ni</string>
     <string name="privatespace_hide_off_summary">Aus</string>
     <string name="privatespace_hide_on_summary">Un</string>
     <string name="private_space_category_system">System</string>
+    <string name="private_space_delete_button_label">Läschen</string>
     <string name="no_device_lock_cancel">Ofbriechen</string>
     <string name="private_space_cancel_label">Ofbriechen</string>
     <string name="private_space_done_label">Fäerdeg</string>
+    <string name="private_space_skip_login_label">Net elo</string>
+    <string name="private_space_continue_login_label">Weider</string>
     <string name="encryption_settings_title">Verschlësselung</string>
     <string name="encrypted_summary">Verschlësselt</string>
     <string name="lock_settings_picker_title">Schiermspär auswielen</string>
@@ -193,6 +197,7 @@
     <string name="wifi_add_network">Netzwierk dobäisetzen</string>
     <string name="wifi_menu_p2p">Wi\u2011Fi Direct</string>
     <string name="wifi_empty_list_wifi_off">Schalt WLAN u fir déi disponibel Netzwierker ze gesinn.</string>
+    <string name="wifi_settings_ssid_block_button_close">Zoumaachen</string>
     <string name="wifi_show_advanced">Erweidert Optiounen</string>
     <string name="wifi_ssid">Netzwierknumm</string>
     <string name="wifi_ssid_hint">SSID aginn</string>
@@ -211,6 +216,7 @@
     <string name="wifi_password">Passwuert</string>
     <string name="wifi_show_password">Passwuert uweisen</string>
     <string name="wifi_ip_settings">IP-Astellungen</string>
+    <string name="wifi_privacy_device_name_settings">Apparatnumm</string>
     <string name="wifi_dpp_connecting">Connectioun gëtt hiergestallt\u2026</string>
     <string name="wifi_unchanged">(onverännert)</string>
     <string name="wifi_scan_always_turnon_message">Fir d\'Standuertgenauegkeet ze verbesseren a fir aner Zwecker wëll <xliff:g id="app_name">%1$s</xliff:g> no Netzwierker sichen, och wa WLAN aus ass.\n\nFir all d\'Appen déi Netzwierker siche wëllen erlaben?</string>
@@ -539,6 +545,7 @@
     <string name="spellchecker_security_warning">Dësen Orthographiekorrekturprogramm kéint de ganzen Text, deen s du agëss, sammelen, inklusiv perséinlechen Date wéi Passwierder a Kreditkaartennummeren. E kënnt aus der App <xliff:g id="spellchecker_application_name">%1$s</xliff:g>. Dësen Orthographiekorrekturprogramm benotzen?</string>
     <string name="spellchecker_quick_settings">Astellungen</string>
     <string name="spellchecker_language">Sprooch</string>
+    <string name="keyboard_a11y_category">Accessibilitéit</string>
     <string name="physical_keyboard_title">Physesch Tastatur</string>
     <string name="keyboard_default_layout">Standard</string>
     <string name="trackpad_pointer_speed">Mausgeschwindegkeet</string>
@@ -583,13 +590,13 @@
     <string name="allow_bind_app_widget_activity_allow_bind_title">Widget erstellen an Zougrëff erlaben?</string>
     <string name="allow_bind_app_widget_activity_always_allow_bind"><xliff:g id="widget_host_name">%1$s</xliff:g> ëmmer erlabe fir nei Widgeten z\'erstellen an op hir Daten zouzegräifen</string>
     <string name="testing_usage_stats">Benotzungsstatistiken</string>
-    <string name="last_time_used_label">Fir d\'lescht benotzt</string>
     <string name="usage_time_label">Benotzungszäit</string>
     <string name="accessibility_settings">Accessibilitéit</string>
     <string name="accessibility_settings_title">Accessibilitéits-Astellungen</string>
     <string name="vision_settings_suggestion_title">Schrëftgréisst änneren</string>
     <string name="audio_category_title">Toun</string>
     <string name="display_category_title">Usiicht</string>
+    <string name="color_contrast_preview">Virschau</string>
     <string name="accessibility_magnification_triple_tap_warning_negative_button">Ofbriechen</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">Erweidert</string>
     <string name="accessibility_button_location_title">Standuert</string>
@@ -1112,11 +1119,14 @@
     <string name="preferred_network_mode_dialogtitle">Preferéierten Netzwierktyp</string>
     <string name="network_operator_category">Netzwierk</string>
     <string name="roaming_alert_title">Dateroaming erlaben?</string>
-    <string name="mobile_data_usage_title">App-Datebenotzung</string>
     <string name="sim_action_yes">Jo</string>
     <string name="sim_action_reboot">Nei starten</string>
     <string name="sim_action_no_thanks">Nee Merci</string>
     <string name="sim_action_cancel">Ofbriechen</string>
+    <string name="primary_sim_calls_title">Uriff</string>
+    <string name="sim_onboarding_next">Weider</string>
+    <string name="mobile_network_phone_number_title">Telefonsnummer</string>
+    <string name="wifi_warning_return_button">OK</string>
     <string name="privacy_controls_title">Steierelementer</string>
     <string name="contextual_card_dismiss_remove">Ewechhuelen</string>
     <string name="wfc_disclaimer_location_title_text">Standuert</string>
@@ -1127,6 +1137,8 @@
     <string name="lockscreen_privacy_not_secure">Definéier virun der Benotzung fir d\'éischt eng Schiermspär</string>
     <string name="media_controls_title">Medien</string>
     <string name="calls_preference_title">Uriff</string>
+    <string name="sim_category_active_sim">Un</string>
+    <string name="sim_category_inactive_sim">Aus</string>
     <string name="mobile_data_connection_active">Verbonnen</string>
     <string name="apps_dashboard_title">Appen</string>
     <string name="category_name_brightness">Hellegkeet</string>
@@ -1156,6 +1168,7 @@
     <string name="screen_flash_color_magenta">Magenta</string>
     <string name="color_selector_dialog_done">Fäerdeg</string>
     <string name="color_selector_dialog_cancel">Ofbriechen</string>
+    <string name="contrast_default">Standard</string>
     <string name="contrast_medium">Mëttel</string>
     <string name="generic_accessibility_service_on">Un</string>
     <string name="generic_accessibility_service_off">Aus</string>

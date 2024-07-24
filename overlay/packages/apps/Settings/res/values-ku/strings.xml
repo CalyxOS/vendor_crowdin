@@ -37,7 +37,7 @@
     <string name="bluetooth_devices">ئامێری بلوتوسه‌کان</string>
     <string name="bluetooth_device_name">ناوی ئامێر</string>
     <string name="bluetooth_rename_button">ناوگۆڕین</string>
-    <string name="bluetooth_media_title">ڕاگه‌یێنه‌کان</string>
+    <string name="bluetooth_notification_title">ئاگادارییه‌کان</string>
     <string name="bluetooth_device">بلوتوسه‌ بێناوه‌کان</string>
     <string name="progress_scanning">گه‌ڕان</string>
     <string name="bluetooth_no_devices_found">هیچ بلوتوسێک نه‌دۆزرایه‌وه‌ له‌م نزیکانه‌.</string>
@@ -111,9 +111,12 @@
     <string name="security_header">پاراستن</string>
     <string name="privatespace_hide_off_summary">کوژاندنەوە</string>
     <string name="privatespace_hide_on_summary">چالاککردن</string>
+    <string name="private_space_delete_button_label">سڕینه‌وه‌</string>
     <string name="no_device_lock_cancel">لابردن</string>
     <string name="private_space_cancel_label">لابردن</string>
     <string name="private_space_done_label">ئه‌نجام درا</string>
+    <string name="private_space_skip_login_label">ئێستا نا</string>
+    <string name="private_space_continue_login_label">بەردەوامبون</string>
     <string name="encryption_settings_title">نهێنیکاری</string>
     <string name="encrypted_summary">نهێنیکراوه‌</string>
     <string name="lock_settings_picker_title">ده‌ستنیشانکردنی قوفڵی ڕوونما</string>
@@ -184,6 +187,7 @@
     <string name="wifi_password">نهێنووشە</string>
     <string name="wifi_show_password">نیشاندانی نهێنووشە</string>
     <string name="wifi_ip_settings">ڕێکبەندەکانی IP</string>
+    <string name="wifi_privacy_device_name_settings">ناوی ئامێر</string>
     <string name="wifi_dpp_connecting">بەستنەوە\u2026</string>
     <string name="wifi_unchanged">(نەگۆڕدراو)</string>
     <string name="wifi_scan_always_turnon_message">بۆ باشترکردنی ڕاستی و دروستی شوێن و چەند مەبەستیکی دیکە, <xliff:g id="app_name">%1$s</xliff:g> دەیهەوێت پشکنین بۆ تۆڕ هەڵبکات ، ئەگەر کاتێکیش Wi-Fi کوژاوە بێت.\n\nبەمجۆرە رێگە بەو بەرنامانە ئەدەیت کە بیانەوێ پشکنین بکەن؟</string>
@@ -484,6 +488,7 @@
 هەموو دەقەکان بنوسە.وەکو تێپەڕە وشە و زانیاری کەسی</string>
     <string name="spellchecker_quick_settings">ڕێکخستنه‌کان</string>
     <string name="spellchecker_language">زمان</string>
+    <string name="keyboard_a11y_category">توانای ده‌ستپێگه‌شتن</string>
     <string name="physical_keyboard_title">تەختەکلیلی فیزیکی</string>
     <string name="keyboard_default_layout">بنێڕه‌ت</string>
     <string name="trackpad_pointer_speed">خێرایی خاڵەر</string>
@@ -534,6 +539,7 @@
     <string name="vision_settings_suggestion_title">گوڕینی جۆره‌پیت قەبارە</string>
     <string name="audio_category_title">ده‌نگ</string>
     <string name="display_category_title">شاشە</string>
+    <string name="color_contrast_preview">دەرخستن</string>
     <string name="accessibility_magnification_triple_tap_warning_negative_button">لابردن</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">پەرەسەندوو</string>
     <string name="accessibility_button_location_title">ناوچه‌</string>
@@ -930,12 +936,16 @@
     <string name="sim_action_yes">بەڵێ</string>
     <string name="sim_action_reboot">ده‌ستپێكردنه‌وه‌</string>
     <string name="sim_action_cancel">لابردن</string>
+    <string name="sim_onboarding_next">دواتر</string>
+    <string name="wifi_warning_return_button">OK</string>
     <string name="privacy_controls_title">کۆنترۆڵ</string>
     <string name="contextual_card_dismiss_remove">لابردن</string>
     <string name="wfc_disclaimer_location_title_text">ناوچه‌</string>
     <string name="wifi_disconnect_button_text">پچڕاندنی پەیوەندی</string>
     <string name="default_app_none">هیچ</string>
     <string name="media_controls_title">ڕاگه‌یێنه‌کان</string>
+    <string name="sim_category_active_sim">چالاککردن</string>
+    <string name="sim_category_inactive_sim">کوژاندنەوە</string>
     <string name="mobile_data_connection_active">پێكه‌وه‌به‌سترا</string>
     <string name="apps_dashboard_title">بەرنامەکان</string>
     <string name="smart_forwarding_missing_alert_dialog_text">OK</string>
@@ -962,6 +972,7 @@
     <string name="screen_flash_color_magenta">سووری ئەرخەوانی</string>
     <string name="color_selector_dialog_done">ئه‌نجام درا</string>
     <string name="color_selector_dialog_cancel">لابردن</string>
+    <string name="contrast_default">بنێڕه‌ت</string>
     <string name="contrast_medium">ناوه‌ندی</string>
     <string name="generic_accessibility_service_on">چالاککردن</string>
     <string name="generic_accessibility_service_off">کوژاندنەوە</string>

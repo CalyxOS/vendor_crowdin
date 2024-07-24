@@ -119,6 +119,8 @@
     <string name="screenrecord_save_text">Tocje par viodi</string>
     <string name="screenrecord_save_error">Erôr tal salvâ la regjistrazion dal schermi</string>
     <string name="screenrecord_start_error">Erôr tal scomençâ a regjistrâ il schermi</string>
+    <string name="issuerecord_share_label">Condivît</string>
+    <string name="issuerecord_save_text">Tocje par viodi</string>
     <string name="immersive_cling_title">Visualizazion a plen schermi</string>
     <string name="immersive_cling_description">Par lâ fûr, di parsore scor in jù.</string>
     <string name="immersive_cling_positive">Capît</string>
@@ -187,9 +189,7 @@
     <string name="face_reenroll_failure_dialog_content">Impussibil configurâ il sbloc cu la muse. Va tes impostazions e torne prove.</string>
     <string name="fingerprint_dialog_touch_sensor">Tocje il sensôr di impronts digjitâi</string>
     <string name="fingerprint_dialog_authenticated_confirmation">Frache la icone Sbloche par continuâ</string>
-    <string name="fingerprint_dialog_use_fingerprint_instead">Impussibil ricognossi la muse. Dopre l\'impront.</string>
     <string name="keyguard_face_failed_use_fp">@string/fingerprint_dialog_use_fingerprint_instead</string>
-    <string name="keyguard_face_failed">Muse no ricognossude</string>
     <string name="keyguard_suggest_fingerprint">Dopre l\'impront</string>
     <string name="keyguard_face_unlock_unavailable">Sbloc cu la muse no disponibil</string>
     <string name="accessibility_bluetooth_connected">Bluetooth colegât.</string>
@@ -435,7 +435,8 @@
     <string name="keyguard_indication_charging_time_slowly"><xliff:g id="percentage">%2$s</xliff:g> • In ricjarie lente • Plene ca di <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
     <string name="keyguard_indication_charging_time_dock"><xliff:g id="percentage" example="20%">%2$s</xliff:g> • Ricjarie • Plene ca di <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
     <string name="communal_tutorial_indicator_text">Scor a çampe par scomençâ il seminari comunitari</string>
-    <string name="button_to_open_widget_editor">Vierç l\'editôr di widget</string>
+    <string name="cta_tile_button_to_open_widget_editor">Personalize</string>
+    <string name="cta_tile_button_to_dismiss">Scarte</string>
     <string name="button_to_remove_widget">Gjave</string>
     <string name="hub_mode_add_widget_button_text">Zonte widget</string>
     <string name="hub_mode_editing_exit_button_text">Fat</string>
@@ -628,32 +629,7 @@
     <string name="enable_bluetooth_title">Ativâ il Bluetooth?</string>
     <string name="enable_bluetooth_message">Par coneti la tô tastiere cul to tablet, tu âs prime di ativâ il Bluetooth.</string>
     <string name="enable_bluetooth_confirmation_ok">Ative</string>
-    <string name="tuner_full_importance_settings">Controi des notifichis di alimentazion</string>
     <string name="rotation_lock_camera_rotation_on">On - Basade su la muse</string>
-    <string name="power_notification_controls_description">Cui controi des notifichis di alimentazion, tu puedis stabilî un nivel di impuartance di 0 a 5 pes notifichis di une aplicazion.
-        \n\n<b>Nivel 5</b>
-        \n- Mostre te par superiôr de liste des notifichis
-        \n- Permet la interuzion a plen schermi
-        \n- Mostre simpri la anteprime
-        \n\n<b>Nivel 4</b>
-        \n- Impedìs la interuzion a plen schermi
-        \n- Mostre simpri la anteprime
-        \n\n<b>Nivel 3</b>
-        \n- Impedìs la interuzion a plen schermi
-        \n- No sta mostrâ mai la anteprime
-        \n\n<b>Nivel 2</b>
-        \n- Impedìs la interuzion a plen schermi
-        \n- No sta mostrâ mai la anteprime
-        \n- No sta fâ mai suns o vibrazions
-        \n\n<b>Nivel 1</b>
-        \n- Impedìs la interuzion a plen schermi
-        \n- No sta mostrâ mai la anteprime
-        \n- No sta fâ mai suns o vibrazions
-        \n- Plate dal bloc schermi e de sbare di stât
-        \n- Mostre te part inferiôr de liste des notifichis
-        \n\n<b>Nivel 0</b>
-        \n- Bloche dutis lis notifichis de aplicazion
-    </string>
     <string name="inline_done_button">Fat</string>
     <string name="inline_ok_button">Apliche</string>
     <string name="inline_turn_off_notifications">Disative lis notifichis</string>
@@ -765,11 +741,9 @@
     <string name="group_system_cycle_forward">Scor indenant in cicli tra lis aplicazions resintis</string>
     <string name="group_system_cycle_back">Scor indaûr in cicli tra lis aplicazions resintis</string>
     <string name="group_system_access_all_apps_search">Vierç la liste di aplicazions</string>
-    <string name="group_system_hide_reshow_taskbar">Mostrâ la sbare des ativitâts</string>
     <string name="group_system_access_system_settings">Vierç lis impostazions</string>
     <string name="group_system_access_google_assistant">Vierç l\'assistent</string>
     <string name="group_system_lock_screen">Bloc dal schermi</string>
-    <string name="group_system_quick_memo">Vierç lis notis</string>
     <string name="keyboard_shortcut_group_system_multitasking">Multitasking di sisteme</string>
     <string name="system_multitasking_rhs">Jentre in modalitât schermi dividût cun cheste aplicazion a diestre</string>
     <string name="system_multitasking_lhs">Jentre in modalitât schermi dividût cun cheste aplicazion a çampe</string>
@@ -893,6 +867,7 @@
     <string name="notification_channel_setup">Configurazion</string>
     <string name="notification_channel_storage">Spazi di archiviazion</string>
     <string name="notification_channel_hints">Sugjeriments</string>
+    <string name="notification_channel_accessibility">Acès facilitât</string>
     <string name="instant_apps">Aplicazions istantaniis</string>
     <string name="instant_apps_title"><xliff:g id="app" example="Gmail">%1$s</xliff:g> in esecuzion</string>
     <string name="instant_apps_message">Aplicazion vierzude cence che e fos instalade.</string>
@@ -929,7 +904,6 @@
     <string name="auto_saver_title">Tocje par programâ il Sparagn energjetic</string>
     <string name="auto_saver_text">Ative cuant che al è probabil che la batarie si esaurissi</string>
     <string name="no_auto_saver_action">No graciis</string>
-    <string name="heap_dump_tile_name">Bute jù l\'heap di SysUI</string>
     <string name="ongoing_privacy_dialog_a11y_title">In ûs</string>
     <string name="ongoing_privacy_chip_content_multiple_apps">Lis aplicazions a stan doprant: <xliff:g id="types_list" example="camera, location">%s</xliff:g>.</string>
     <string name="ongoing_privacy_dialog_separator">,\u0020</string>
@@ -1003,6 +977,7 @@
     <string name="accessibility_floating_button_action_move_out_edge_and_show">Sposte lontan dal ôr e mostre</string>
     <string name="accessibility_floating_button_action_remove_menu">Gjave</string>
     <string name="accessibility_floating_button_action_double_tap_to_toggle">comute</string>
+    <string name="accessibility_floating_button_action_edit">Modifiche</string>
     <string name="quick_controls_title">Controi dal dipositîf</string>
     <string name="controls_providers_title">Sielç la aplicazion par zontâ controi</string>
     <string name="controls_number_of_favorites">{count, plural,
@@ -1284,7 +1259,6 @@
     <string name="set_default_notes_app_toast_content">Stabilìs in Impostazions la aplicazion pes notis predefinide</string>
     <string name="install_app">Instale aplicazion</string>
     <string name="connected_display_dialog_start_mirroring">Spielâ su schermi esterni?</string>
-    <string name="connected_display_dialog_dual_display_stop_warning">E vignarà interote ogni ativitât in schermi dopli che cumò e je in esecuzion</string>
     <string name="mirror_display">Spiele schermi</string>
     <string name="dismiss_dialog">Scarte</string>
     <string name="connected_display_icon_desc">Schermi colegât</string>

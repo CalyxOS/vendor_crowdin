@@ -52,7 +52,7 @@
     <string name="bluetooth_disconnect_title">An dì-cheangail thu an t-uidheam?</string>
     <string name="bluetooth_pairing_pref_title">Paidhrich uidheam ùr</string>
     <string name="keywords_add_bt_device">bluetooth</string>
-    <string name="bluetooth_media_title">Meadhanan</string>
+    <string name="bluetooth_notification_title">Brathan</string>
     <string name="bluetooth_device">Uidheam Bluetooth gun ainm</string>
     <string name="progress_scanning">’Ga lorg</string>
     <string name="bluetooth_no_devices_found">Cha deach uidheam Bluetooth a lorg am fagas.</string>
@@ -265,15 +265,20 @@
     <string name="work_profile_category_header">Pròifil na h-obrach</string>
     <string name="private_space_biometric_summary">Thoir gnogag gus a shuidheachadh</string>
     <string name="private_space_screen_lock_summary">Mar glas sgrìn an uidheim</string>
+    <string name="private_space_auto_lock_never">Chan ann idir</string>
     <string name="privatespace_hide_off_summary">Dheth</string>
     <string name="privatespace_hide_on_summary">Air</string>
     <string name="private_space_category_system">An siostam</string>
+    <string name="private_space_delete_button_label">Sguab às</string>
     <string name="no_device_lock_action_label">Suidhich glas na sgrìn</string>
     <string name="no_device_lock_cancel">Sguir dheth</string>
     <string name="private_space_cancel_label">Sguir dheth</string>
     <string name="private_space_setup_button_label">Suidhich</string>
-    <string name="private_space_how_title">Mar a dh’obraicheas e</string>
     <string name="private_space_done_label">Deiseil</string>
+    <string name="private_space_retry_signin_title">Clàraich a-steach</string>
+    <string name="private_space_skip_login_label">Chan ann an-dràsta</string>
+    <string name="private_space_continue_login_label">Air adhart</string>
+    <string name="private_space_gaia_education_got_it">Tha mi agaibh</string>
     <string name="fingerprint_add_max">’S urrainn dhut suas ri <xliff:g id="count" example="5">%d</xliff:g> lorg(an)-meòir a chur ris</string>
     <string name="fingerprint_intro_error_max">Chuir thu na tha ceadaichte de lorgan-meòir ris</string>
     <string name="fingerprint_intro_error_unknown">Chan urrainn dhut barrachd lorgan-meòir a chur ris</string>
@@ -424,6 +429,7 @@
     <string name="wifi_settings_scanning_required_info">Leigidh sganadh WiFi le aplacaidean is seirbheisean sganadh airson lìonraidhean WiFi uair sam bith fiù ma tha WiFi dheth. Gabhaidh seo a chleachdadh airson piseach a thoirt air gleusan is seirbheisean a tha stèidhichte air d’ ionad, mar eisimpleir.</string>
     <string name="wifi_settings_scanning_required_turn_on">Cuir air</string>
     <string name="wifi_settings_scanning_required_enabled">Chaidh sganadh WiFi a chur air</string>
+    <string name="wifi_settings_ssid_block_button_close">Dùin</string>
     <string name="wifi_show_advanced">Roghainnean adhartach</string>
     <string name="wifi_advanced_toggle_description">Liosta theàrnach le roghainnean adhartach</string>
     <string name="wifi_advanced_toggle_description_collapsed">leudaich</string>
@@ -455,6 +461,7 @@
     <string name="wifi_ap_prefer_5G">Prìomhachas air bann 5.0 GHz</string>
     <string name="wifi_ip_settings">Roghainnean IP</string>
     <string name="wifi_privacy_settings">Prìobhaideachd</string>
+    <string name="wifi_privacy_device_name_settings">Ainm an uidheim</string>
     <string name="wifi_subscription">Fo-sgrìobhadh</string>
     <string name="wifi_subscription_summary">Seall no atharraich am fo-sgrìobhadh</string>
     <string name="wifi_privacy_settings_ephemeral_summary">MAC tuaireamach</string>
@@ -628,7 +635,6 @@
     <string name="auto_brightness_summary_on">Air</string>
     <string name="auto_brightness_summary_off">Dheth</string>
     <string name="display_white_balance_title">Balans geal na sgrìn</string>
-    <string name="peak_refresh_rate_title">Taisbeanadh rèidh</string>
     <string name="force_high_refresh_rate_desc">An reat ath-nuadhachaidh as àirde airson freagairt suathaidh as luaithe ⁊ càileachd as àirde nam beòthachaidhean. Caithidh seo barrachd dhen bhataraidh.</string>
     <string name="adaptive_sleep_title">Aire air an sgrìn</string>
     <string name="adaptive_sleep_title_no_permission">Tha feum air inntrigeadh camara</string>
@@ -872,14 +878,12 @@
     <string name="reset_network_confirm_title">An ath-shuidhich thu iad?</string>
     <string name="network_reset_not_available">Chan eil ath-shuidheachadh an lìonraidh ri fhaighinn airson a’ cleachdaiche seo</string>
     <string name="reset_network_complete_toast">Chaidh roghainnean an lìonraidh ath-shuidheachadh</string>
-    <string name="reset_esim_error_title">Cha ghabh na SIMaichean a shuathadh bàn</string>
     <string name="main_clear_title">Suath bàn an dàta air fad</string>
     <string name="main_clear_short_title">Suath bàn an dàta air fad</string>
     <string name="main_clear_desc_also_erases_external"><li>Ceòl</li>\n<li>Dealbhan</li>\n<li>Dàta eile a’ chleachdaiche</li></string>
     <string name="main_clear_desc_also_erases_esim"><li>eSIMichean</li></string>
     <string name="main_clear_desc_no_cancel_mobile_plan">\n\nCha chuir seo crìoch air plana na seirbheise mobile agad.</string>
     <string name="main_clear_final_desc">Thèid am fiosrachadh pearsanta agad agus na h-aplacaidean a luchdaich thu a-nuas a sguabadh às uile gu lèir. Chan urrainn dhut seo a neo-dhèanamh.</string>
-    <string name="main_clear_final_desc_esim">Thèid am fiosrachadh pearsanta agad , a’ gabhail a-staigh nan aplacaidean ⁊ SIMaichean a luchdaich thu a-nuas a sguabadh às uile gu lèir. Chan urrainn dhut seo a neo-dhèanamh.</string>
     <string name="main_clear_confirm_title">An suath thu bàn an dàta air fad?</string>
     <string name="main_clear_not_available">Chan eil ath-shuidheachadh air bun-roghainnean an fhactaraidh ri fhaighinn airson a’ cleachdaiche seo</string>
     <string name="main_clear_progress_title">’Ga shuathadh bàn</string>
@@ -1200,6 +1204,7 @@
     <string name="available_virtual_keyboard_category">Meur-chlàr air an sgrìn ri fhaighinn</string>
     <string name="add_virtual_keyboard">Stiùirich na meur-chlàran air an sgrìn</string>
     <string name="keyboard_options_category">Roghainnean</string>
+    <string name="keyboard_a11y_category">So-ruigsinneachd</string>
     <string name="physical_keyboard_title">Am meur-chlàr fiosaigeach</string>
     <string name="show_ime">Cleachd am meur-chlàr air sgrìn</string>
     <string name="show_ime_summary">Cùm air an sgrìn e fhad ’s a bhios meur-chlàr fiosaigeach gnìomhach</string>
@@ -1256,7 +1261,6 @@
     <string name="allow_bind_app_widget_activity_allow_bind_title">An cruthaich thu a’ widget ’s an ceadaich thu inntrigeadh?</string>
     <string name="allow_bind_app_widget_activity_always_allow_bind">Ceadaich an-còmhnaidh gun cruthaich <xliff:g id="widget_host_name">%1$s</xliff:g> widgets ’s gun inntrig e an dàta aca</string>
     <string name="testing_usage_stats">Stadastaireachd a’ chleachdaidh</string>
-    <string name="last_time_used_label">An cleachdadh mu dheireadh</string>
     <string name="usage_time_label">Ùine a’ chleachdaidh</string>
     <string name="accessibility_settings">So-ruigsinneachd</string>
     <string name="accessibility_settings_title">Roghainnean na so-inntrigeachd</string>
@@ -1265,6 +1269,7 @@
     <string name="vision_settings_suggestion_title">Atharraich meud a’ chruth-chlò</string>
     <string name="audio_category_title">Fuaimean</string>
     <string name="display_category_title">Taisbeanadh</string>
+    <string name="color_contrast_preview">Ro-shealladh</string>
     <string name="interaction_control_category_title">Uidheaman-smachd eadar-ghnìomhan</string>
     <string name="user_installed_services_category_title">Aplacaidean air an luchdadh a-nuas</string>
     <string name="experimental_category_title">Deuchainneil</string>
@@ -2511,7 +2516,6 @@
     <string name="screen_pinning_unlock_pin">Iarr PIN ron dhì-phrìneachadh</string>
     <string name="screen_pinning_unlock_password">Iarr facal-faire ron dhì-phrìneachadh</string>
     <string name="screen_pinning_unlock_none">Glais an t-uidheam nuair a thèid a dhì-phrìneachadh</string>
-    <string name="confirm_sim_deletion_title">Dearbh sguabadh às an t-SIM</string>
     <string name="memtag_on">Air</string>
     <string name="memtag_off">Dheth</string>
     <string name="memtag_reboot_yes">Ath-thòisich</string>
@@ -2952,12 +2956,16 @@
     <string name="webview_uninstalled_for_user">(chaidh a dhì-stàladh dhan chleachdaiche <xliff:g id="user" example="John Doe">%s</xliff:g>)</string>
     <string name="webview_disabled_for_user">(chaidh a chur à comas dhan chleachdaiche <xliff:g id="user" example="John Doe">%s</xliff:g>)</string>
     <string name="autofill_app">Seirbheis fèin-lìonaidh</string>
+    <string name="credman_button_change">Atharraich</string>
+    <string name="credman_button_open">Fosgail</string>
     <string name="autofill_confirmation_message"><![CDATA[        <b>Dèan cinnteach gu bheil earbsa agad san aplacaid seo</b>
         <br/>
         <br/>
         Cleachdaidh <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> na tha air an sgrìn agad
         airson faighinn a-mach dè ghabhas fhèin-lìonadh.
         ]]></string>
+    <string name="credman_confirmation_turn_off_positive_button">Cuir dheth</string>
+    <string name="credman_confirmation_change_provider_positive_button">Atharraich</string>
     <string name="credman_confirmation_message_positive_button">Cuir dheth</string>
     <string name="debug_autofill_category">Fèin-lìonadh</string>
     <string name="autofill_logging_level_title">Ìre an logaidh</string>
@@ -3107,13 +3115,7 @@
     <string name="mobile_network_sim_name_label">Ainm</string>
     <string name="mobile_network_sim_color_label">Dath (’ga chleachdadh le aplacaidean co-chòrdail)</string>
     <string name="mobile_network_sim_name_rename">Sàbhail</string>
-    <string name="mobile_network_use_sim_on">Cleachd an SIM</string>
     <string name="mobile_network_use_sim_off">Dheth</string>
-    <string name="mobile_network_disable_sim_explanation">        Gus an SIM seo a chur à comas, thoir air falbh a’ chairt SIM
-    </string>
-    <string name="mobile_network_tap_to_activate">        Thoir gnogag airson <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> a ghnìomhachadh
-    </string>
-    <string name="mobile_network_erase_sim">Suath bàn SIM</string>
     <string name="preferred_network_mode_title">An seòrsa lìonraidh as fheàrr leat</string>
     <string name="preferred_network_mode_summary">Atharraich modh obrachaidh an lìonraidh</string>
     <string name="preferred_network_mode_dialogtitle">An seòrsa lìonraidh as fheàrr leat</string>
@@ -3129,8 +3131,8 @@
     <string name="register_automatically">Clàradh fèin-obrachail\u2026</string>
     <string name="roaming_alert_title">An ceadaich thu dàta air fàrsan?</string>
     <string name="roaming_check_price_warning">Bruidhinn ri solaraiche an lìonraidh agad a thaobh phrìsean.</string>
-    <string name="mobile_data_usage_title">Caitheamh dàta le aplacaidean</string>
     <string name="mobile_network_mode_error">Modh lìonraidh <xliff:g id="networkModeId" example="0">%1$d</xliff:g> mì-dhligheach. Leig seachad.</string>
+    <string name="category_name_how_it_works">Mar a dh’obraicheas e</string>
     <string name="mobile_network_apn_title">Ainmean puing-inntrigidh</string>
     <string name="manual_mode_disallowed_summary">Chan eil seo ri fhaighinn nuair a bhios tu ceangailte ri <xliff:g id="carrier" example="verizon">%1$s</xliff:g></string>
     <string name="see_more">Seall barrachd</string>
@@ -3139,8 +3141,14 @@
     <string name="sim_action_no_thanks">Chan iarr mi seo</string>
     <string name="sim_action_cancel">Sguir dheth</string>
     <string name="sim_action_turn_off">Cuir dheth</string>
+    <string name="primary_sim_calls_title">Gairmean</string>
+    <string name="sim_onboarding_setup">Suidhich</string>
+    <string name="sim_onboarding_next">Air adhart</string>
+    <string name="mobile_network_spn_title">Lìonra mobile</string>
+    <string name="mobile_network_phone_number_title">Àireamh fòn</string>
     <string name="sim_card_label">SIM</string>
     <string name="erase_sim_confirm_button">Suath bàn</string>
+    <string name="wifi_warning_return_button">Ceart ma-thà</string>
     <string name="network_connection_request_dialog_title">Ceangail ri uidheam</string>
     <string name="network_connection_request_dialog_summary">        Tha aplacaid <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g>
         airson lìonra WiFi sealach a chleachdadh airson ceangal ris an uidheam agad
@@ -3223,6 +3231,8 @@
     <string name="calls_preference_title">Gairmean</string>
     <string name="calls_sms_no_sim">Gun SIM</string>
     <string name="sim_category_title">SIM</string>
+    <string name="sim_category_active_sim">Air</string>
+    <string name="sim_category_inactive_sim">Dheth</string>
     <string name="default_active_sim_calls">gairmean</string>
     <string name="wifi_scan_change">Atharraich</string>
     <string name="mobile_data_connection_active">Ceangailte</string>
@@ -3277,6 +3287,7 @@
     <string name="screen_flash_color_magenta">Magenta</string>
     <string name="color_selector_dialog_done">Deiseil</string>
     <string name="color_selector_dialog_cancel">Sguir dheth</string>
+    <string name="contrast_default">Bun-roghainn</string>
     <string name="contrast_medium">Meadhanach</string>
     <string name="contrast_high">Àrd</string>
     <string name="generic_accessibility_service_on">Air</string>

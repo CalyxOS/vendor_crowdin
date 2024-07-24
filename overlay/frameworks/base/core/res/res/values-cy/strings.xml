@@ -147,6 +147,9 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> ar ôl <xliff:g id="time_delay">{2}</xliff:g> eiliad</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: Heb ei dargyfeirio</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: Heb ei dargyfeirio</string>
+    <string name="scCellularNetworkSecurityTitle">Diogelwch rhwydwaith symudol</string>
+    <string name="scCellularNetworkSecuritySummary">Adolygu gosodiadau</string>
+    <string name="scNullCipherIssueActionLearnMore">Dysgu mwy</string>
     <string name="fcComplete">Cod nodwedd yn gyflawn.</string>
     <string name="fcError">Problem cysylltu neu god nodwedd annilys.</string>
     <string name="httpErrorOk">Iawn</string>
@@ -419,7 +422,7 @@ ar y gweill ar dy ddyfais ac i reoli\'r galwadau hyn.</string>
     <string name="permlab_foregroundService">dim gwasanaeth blaendir</string>
     <string name="permdesc_foregroundService">Mae\'n caniatáu yr ap i wneud defnydd o wasanaethau blaendir.</string>
     <string name="permlab_getPackageSize">mesur storfa\'r ap</string>
-    <string name="permdesc_getPackageSize">Mae\'n caniatáu yr ap i adfer ei god, data a meintiau cof dros dro.</string>
+    <string name="permdesc_getPackageSize">Mae\u2019n caniatáu yr ap i adfer ei god, data a meintiau cof dros dro.</string>
     <string name="permlab_writeSettings">addasu gosodiadau\'r system</string>
     <string name="permdesc_writeSettings">Mae\'n caniatáu yr ap i addasu gosodiadau data\'r system. Gall apiau maleisus llygru ffurfweddiad y system.</string>
     <string name="permlab_receiveBootCompleted">rhedeg wrth gychwyn</string>
@@ -605,7 +608,6 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="screen_lock_app_setting_name">Defnyddio clo sgrin</string>
     <string name="screen_lock_dialog_default_subtitle">Rho dy glo sgrin i barhau</string>
     <string name="fingerprint_acquired_partial">Pwysa\u2019n gadarn ar y synhwyrydd</string>
-    <string name="fingerprint_acquired_insufficient">Methu adnobabod yr ôl bys. Rho gynnig arall arni.</string>
     <string name="fingerprint_acquired_imager_dirty">Glanha\u2019r synhwyrydd ôl bys a cheisio eto</string>
     <string name="fingerprint_acquired_imager_dirty_alt">Glanha\u2019r synhwyrydd a cheisio eto</string>
     <string name="fingerprint_acquired_too_fast">Pwysa\u2019n gadarn ar y synhwyrydd</string>
@@ -621,18 +623,11 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="fingerprint_authenticated">Dilyswyd yr ôl bys</string>
     <string name="face_authenticated_no_confirmation_required">Dilyswyd y wyneb</string>
     <string name="face_authenticated_confirmation_required">Dilyswyd y wyneb; Rhaid ei gadarnhau</string>
-    <string name="fingerprint_error_hw_not_available">Does dim caledwedd ôl bys ar gael.</string>
     <string name="fingerprint_error_no_space">Methu â gosod ôl bys</string>
     <string name="fingerprint_error_timeout">Daeth amser gosod ôl bys i ben. Rho gynnig arall arni.</string>
-    <string name="fingerprint_error_canceled">Diddymwyd y weithred ôl bys.</string>
-    <string name="fingerprint_error_user_canceled">Diddymwyd y weithred ôl bys gan y defnyddiwr.</string>
     <string name="fingerprint_error_lockout">Gormod o ymdrechion. Defnyddia sgrin cloi yn lle.</string>
     <string name="fingerprint_error_lockout_permanent">Gormod o ymdrechion. Defnyddia sgrin cloi yn lle.</string>
     <string name="fingerprint_error_unable_to_process">Methu prosesu\u2019r ôl bys. Rho gynnig arall arni.</string>
-    <string name="fingerprint_error_no_fingerprints">Dim olion bysedd wedi\'u cofrestru.</string>
-    <string name="fingerprint_error_hw_not_present">Nid oes gan y ddyfais hon synhwyrydd ôl bys.</string>
-    <string name="fingerprint_error_security_update_required">Synhwyrydd wedi\'i analluogi dros dro.</string>
-    <string name="fingerprint_error_bad_calibration">Methu â defnyddio\'r synhwyrydd ôl bys. Awgrymir cael arbenigwr i edrych arno.</string>
     <string name="fingerprint_error_power_pressed">Botwm pŵer wedi\u2019i bwyso</string>
     <string name="fingerprint_name_template">Bys <xliff:g id="fingerId" example="1">%d</xliff:g></string>
     <string name="fingerprint_app_setting_name">Defnyddio ôl bys</string>
@@ -662,7 +657,6 @@ megis cynorthwyon cofrestredig a chyrchfan teithiau.</string>
     <string name="face_acquired_not_detected">Methu gweld dy wyneb. Dalia dy ffôn yn lefel â dy lygaid.</string>
     <string name="face_acquired_too_much_motion">Gormod o symud. Dalia dy ffôn yn llonydd.</string>
     <string name="face_acquired_recalibrate">Ail-gofrestra dy wyneb.</string>
-    <string name="face_acquired_too_different">Methu adnabod wyneb. Rho gynnig arall arni.</string>
     <string name="face_acquired_too_similar">Symuda dy ben fymryn</string>
     <string name="face_acquired_pan_too_extreme">Edrycha\u2019n syth at dy ffôn</string>
     <string name="face_acquired_tilt_too_extreme">Edrycha\u2019n syth at dy ffôn</string>

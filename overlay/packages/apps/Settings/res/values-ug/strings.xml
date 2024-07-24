@@ -37,7 +37,7 @@
     <string name="bluetooth_devices">كۆكچىش ئۈسكۈنىلىرى</string>
     <string name="bluetooth_device_name">ئۈسكۈنە ئاتى</string>
     <string name="bluetooth_rename_button">ئات ئۆزگەرت</string>
-    <string name="bluetooth_media_title">ۋاستە</string>
+    <string name="bluetooth_notification_title">ئۇقتۇرۇشلار</string>
     <string name="bluetooth_device">ئاتسىز كۆكچىش ئۈسكۈنە</string>
     <string name="progress_scanning">ئىزدەۋاتىدۇ</string>
     <string name="bluetooth_no_devices_found">ئەتراپتا كۆكچىش ئۈسكۈنىسى تېپىلمىدى.</string>
@@ -111,9 +111,12 @@
     <string name="security_header">بىخەتەرلىك</string>
     <string name="privatespace_hide_off_summary">تاقاق</string>
     <string name="privatespace_hide_on_summary">ئوچۇق</string>
+    <string name="private_space_delete_button_label">ئۆچۈر</string>
     <string name="no_device_lock_cancel">ۋاز كەچ</string>
     <string name="private_space_cancel_label">ۋاز كەچ</string>
     <string name="private_space_done_label">تامام</string>
+    <string name="private_space_skip_login_label">ھازىرچە ياق</string>
+    <string name="private_space_continue_login_label">داۋاملاشتۇر</string>
     <string name="encryption_settings_title">شىفىرلاش</string>
     <string name="encrypted_summary">شىفىرلانغان</string>
     <string name="lock_settings_picker_title">ئېكران قۇلۇپىنى تاللاڭ</string>
@@ -168,6 +171,7 @@
     <string name="wifi_add_network">تور قوش</string>
     <string name="wifi_menu_p2p">Wi‑Fi Direct</string>
     <string name="wifi_empty_list_wifi_off">ئىشلىتىلىشچان تورنى كۆرۈشتە. WiFi نى ئېچىڭ.</string>
+    <string name="wifi_settings_ssid_block_button_close">تاقاش</string>
     <string name="wifi_ssid_hint">SSID كىرگۈزۈڭ</string>
     <string name="wifi_security">بىخەتەرلىك</string>
     <string name="wifi_signal">سىگنال كۈچلۈكلۈكى</string>
@@ -183,6 +187,7 @@
     <string name="wifi_password">ئىم</string>
     <string name="wifi_show_password">ئىم كۆرسەت</string>
     <string name="wifi_ip_settings">IP تەڭشەك</string>
+    <string name="wifi_privacy_device_name_settings">ئۈسكۈنە ئاتى</string>
     <string name="wifi_dpp_connecting">باغلىنىۋاتىدۇ…</string>
     <string name="wifi_unchanged">(ئۆزگەرتىلمىگەن)</string>
     <string name="wifi_scan_always_turnon_message">\"ئورۇن ئۇچۇرىنىڭ دەللىكىنى ئۈستۈرۈش ۋە باشقا مەقسەت ئۈچۈن، Wi-Fi تاقالغان تەقدىردىمۇ، <xliff:g id="APP_NAME">%1$s</xliff:g> تور تەكشۈرۈشنى ئاچماقچى.\n\nبۇنىڭغا يول قويۇپ ھەممە ئەپلەر تەكشۈرەلەيدىغان بولسۇنمۇ؟</string>
@@ -474,6 +479,7 @@
     <string name="spellchecker_security_warning">بۇ ئىملا تەكشۈرگۈچ ئىھتىمال سىزنىڭ كىرگۈزگەن بارلىق يېزىق، ئىم، ئىناۋەتلىك كارتا نومۇرى قاتارلىق شەخسى ئۇچۇرلىرىڭىزنى توپلىشى مۇمكىن. ئۇ <xliff:g id="SPELLCHECKER_APPLICATION_NAME">%1$s</xliff:g> ئەپتىن كەلگەن. بۇ ئىملا تەكشۈرگۈچنى ئىشلىتەمسىز؟</string>
     <string name="spellchecker_quick_settings">تەڭشەكلەر</string>
     <string name="spellchecker_language">تىل</string>
+    <string name="keyboard_a11y_category">قوشۇمچە ئىقتىدار</string>
     <string name="physical_keyboard_title">فىزىكىلىق ھەرپتاختا</string>
     <string name="keyboard_default_layout">كۆڭۈلدىكى</string>
     <string name="trackpad_pointer_speed">ئىسترېلكا سۈرئىتى</string>
@@ -524,6 +530,7 @@
     <string name="vision_settings_suggestion_title">خەت نۇسخا چوڭلۇقى ئۆزگەرت</string>
     <string name="audio_category_title">ئۈن</string>
     <string name="display_category_title">ئېكران</string>
+    <string name="color_contrast_preview">ئالدىن كۆزەت</string>
     <string name="accessibility_magnification_triple_tap_warning_negative_button">ۋاز كەچ</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">ئالىي</string>
     <string name="accessibility_button_location_title">ئورنى</string>
@@ -914,12 +921,16 @@
     <string name="sim_action_yes">ھەئە</string>
     <string name="sim_action_reboot">قايتا قوزغات</string>
     <string name="sim_action_cancel">ۋاز كەچ</string>
+    <string name="sim_onboarding_next">كېيىنكى</string>
+    <string name="wifi_warning_return_button">جەزملە</string>
     <string name="privacy_controls_title">تىزگىنلەشلەر</string>
     <string name="contextual_card_dismiss_remove">چىقىرىۋەت</string>
     <string name="wfc_disclaimer_location_title_text">ئورنى</string>
     <string name="wifi_disconnect_button_text">ئۈز</string>
     <string name="default_app_none">يوق</string>
     <string name="media_controls_title">ۋاستە</string>
+    <string name="sim_category_active_sim">ئوچۇق</string>
+    <string name="sim_category_inactive_sim">تاقاق</string>
     <string name="mobile_data_connection_active">باغلاندى</string>
     <string name="apps_dashboard_title">ئەپلەر</string>
     <string name="smart_forwarding_missing_alert_dialog_text">جەزملە</string>
@@ -946,6 +957,7 @@
     <string name="screen_flash_color_magenta">ئاچ قىزىل</string>
     <string name="color_selector_dialog_done">تامام</string>
     <string name="color_selector_dialog_cancel">ۋاز كەچ</string>
+    <string name="contrast_default">كۆڭۈلدىكى</string>
     <string name="contrast_medium">ئوتتۇرا</string>
     <string name="generic_accessibility_service_on">ئوچۇق</string>
     <string name="generic_accessibility_service_off">تاقاق</string>

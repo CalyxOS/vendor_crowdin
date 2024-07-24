@@ -82,6 +82,7 @@
     <string name="screenrecord_stop_label">Cuir stad air</string>
     <string name="screenrecord_share_label">Co-roinn</string>
     <string name="screenrecord_start_error">Mearachd a’ tòiseachadh clàradh na sgrìn</string>
+    <string name="issuerecord_share_label">Co-roinn</string>
     <string name="immersive_cling_positive">Tha mi agaibh</string>
     <string name="accessibility_back">Air ais</string>
     <string name="accessibility_home">Dachaigh</string>
@@ -253,6 +254,8 @@
     <string name="interruption_level_none_twoline">Tost\nslàn</string>
     <string name="interruption_level_priority_twoline">Le prìomhachas\na-mhàin</string>
     <string name="interruption_level_alarms_twoline">Caismeachdan\na-mhàin</string>
+    <string name="cta_tile_button_to_open_widget_editor">Gnàthaich</string>
+    <string name="cta_tile_button_to_dismiss">Leig seachad</string>
     <string name="button_to_remove_widget">Thoir air falbh</string>
     <string name="hub_mode_editing_exit_button_text">Deiseil</string>
     <string name="accessibility_multi_user_switch_switcher">Geàrr leum gu cleachdaiche eile</string>
@@ -375,29 +378,6 @@
     <string name="enable_bluetooth_title">An cuir thu Bluetooth air?</string>
     <string name="enable_bluetooth_message">Feumaidh tu Bluetooth a chur air mus ceangail thu am meur-chlàr ris an tablaid.</string>
     <string name="enable_bluetooth_confirmation_ok">Cuir air</string>
-    <string name="tuner_full_importance_settings">Stiùireadh bhrathan na cumhachd</string>
-    <string name="power_notification_controls_description">Le stiùireadh bhrathan cumhachdach, ’s urrainn dhut suidheachadh dè cho cudromach ’s a tha brathan aplacaid ’s leibheilean o 0 gu 5 ri làimh dhut.
-        \n\n<b>Leibheil 5</b>
-        \n- Seall air bàrr liosta nam brathan
-        \n- Ceadaich briseadh a-steach air an làn-sgrìn
-        \n- Dèan plathadh an-còmhnaidh<b>        \n\n<b>Leibheil 4</b>
-        \n- Seachain briseadh a-steach air an làn-sgrìn
-        \n- Dèan plathadh an-còmhnaidh
-        \n\n
-Leibheil 3</b>
-        \n- Seachain briseadh a-steach air an làn-sgrìn
-        \n- Na dèan plathadh
-        \n\n<b>Leibheil 2</b>
-        \n- Seachain briseadh a-steach air an làn-sgrìn
-        \n- Na dèan plathadh
-        \n- Na cluich fuaim ’s na dèan crith
-        \n\n
-Leibheil 1<b>        \n- Seachain briseadh a-steach air an làn-sgrìn</b>
-        \n- Na dèan plathadh        \n- Na cluich fuaim ’s na dèan crith        \n- Falaich on sgrìn-ghlasaidh ’s o bhàr na staid
-        \n- Seall air bonn liosta nam brathan<b>        \n\n
-Leibheil 0</b>
-        \n- Bac gach brath on aplacaid
-    </string>
     <string name="inline_done_button">Deiseil</string>
     <string name="inline_ok_button">Cuir an sàs</string>
     <string name="inline_turn_off_notifications">Cuir na brathan dheth</string>
@@ -560,6 +540,7 @@ Leibheil 0</b>
     <string name="notification_channel_instant">Aplacaidean sa bhad</string>
     <string name="notification_channel_storage">An stòras</string>
     <string name="notification_channel_hints">Oidheaman</string>
+    <string name="notification_channel_accessibility">So-ruigsinneachd</string>
     <string name="instant_apps">Aplacaidean sa bhad</string>
     <string name="instant_apps_title">Tha <xliff:g id="app" example="Gmail">%1$s</xliff:g> a’ ruith</string>
     <string name="instant_apps_message">Chaidh aplacaid fhosgladh gun feum air a stàladh.</string>
@@ -592,7 +573,6 @@ Leibheil 0</b>
     <string name="auto_saver_title">Thoir gnogag airson caomhnaiche a’ bhataraidh a chur air an sgeideal</string>
     <string name="auto_saver_text">Cur air nuair a bhios sinn an dùil nach mair am bataraidh agad</string>
     <string name="no_auto_saver_action">Cha chuir mi seo an comas</string>
-    <string name="heap_dump_tile_name">Dumpaich SysUI Heap</string>
     <string name="ongoing_privacy_chip_content_multiple_apps">Tha aplacaidean a’ cleachdadh <xliff:g id="types_list" example="camera, location">%s</xliff:g>.</string>
     <string name="ongoing_privacy_dialog_separator">,\u0020</string>
     <string name="ongoing_privacy_dialog_last_separator">\u0020⁊\u0020</string>
@@ -612,6 +592,7 @@ Leibheil 0</b>
     <string name="accessibility_floating_button_action_move_bottom_left">Gluais gun bhonn taobh clì</string>
     <string name="accessibility_floating_button_action_move_bottom_right">Gluais gun bhonn taobh deas</string>
     <string name="accessibility_floating_button_action_remove_menu">Thoir air falbh</string>
+    <string name="accessibility_floating_button_action_edit">Deasaich</string>
     <string name="quick_controls_title">Uidheaman-smachd do dh’uidheaman</string>
     <string name="controls_providers_title">Tagh aplacaid airson uidheaman-smachd a chur ris</string>
     <string name="controls_removed">Air a thoirt air falbh</string>
