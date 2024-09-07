@@ -29,6 +29,8 @@
     <string name="split_app_info_accessibility">Informazions aplicazion par %1$s</string>
     <string name="save_app_pair">Salve cubie di aplicazions</string>
     <string name="app_pair_default_title"><xliff:g id="app1" example="Chrome">%1$s</xliff:g> | <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
+    <string name="app_pair_unlaunchable_at_screen_size">Cheste cubie di aplicazions no je supuartade su chest dispositîf</string>
+    <string name="app_pair_needs_unfold">Vierç il dispositîf par doprâ cheste cubie di aplicazions</string>
     <string name="long_press_widget_to_add">Tocje e ten fracât par spostâ un widget.</string>
     <string name="long_accessible_way_to_add">Tocje dôs volti e ten fracât par spostâ un widget o par doprâ azions personalizadis.</string>
     <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
@@ -38,6 +40,13 @@
     <string name="add_to_home_screen">Zonte ae schermade di inizi</string>
     <string name="added_to_home_screen_accessibility_text">Widget di <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> zontât ae schermade iniziâl</string>
     <string name="suggested_widgets_header_title">Sugjeriments</string>
+    <string name="productivity_widget_recommendation_category_label">L\'essenziâl ogni dì</string>
+    <string name="news_widget_recommendation_category_label">Notiziis par te</string>
+    <string name="social_and_entertainment_widget_recommendation_category_label">Il to cjanton di rilassament</string>
+    <string name="fitness_widget_recommendation_category_label">Rive ai tiei obietîfs di alenament</string>
+    <string name="weather_widget_recommendation_category_label">Ten di voli il meteo</string>
+    <string name="others_widget_recommendation_category_label">Ti podarès plasê ancje</string>
+    <string name="widget_picker_right_pane_accessibility_title">I widgets <xliff:g id="selected_header" example="Calendar">%1$s</xliff:g> a diestre, ricercje e opzions a çampe</string>
     <string name="widgets_count">        {count, plural, one {}=1{# widget} other{# widgets}}
     </string>
     <string name="shortcuts_count">        {count, plural, one {}=1{# scurte} other{# scurtis}}
@@ -74,6 +83,7 @@
     <string name="remove_drop_target_label">Gjave</string>
     <string name="uninstall_drop_target_label">Disinstale</string>
     <string name="app_info_drop_target_label">Infos aplicazion</string>
+    <string name="install_private_system_shortcut_label">Instale tal privât</string>
     <string name="install_drop_target_label">Instale</string>
     <string name="dismiss_prediction_label">No sta sugjerî aplicazions</string>
     <string name="pin_prediction">Prevision dal fissâ</string>
@@ -134,6 +144,7 @@
     <string name="app_installing_title">Daûr a instalâ <xliff:g id="name" example="Messenger">%1$s</xliff:g>, <xliff:g id="progress" example="30%">%2$s</xliff:g> completât</string>
     <string name="app_downloading_title">Daûr a discjariâ <xliff:g id="name" example="Messenger">%1$s</xliff:g>, <xliff:g id="progress" example="30%">%2$s</xliff:g> completât</string>
     <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> in spiete pe instalazion</string>
+    <string name="app_archived_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> al è archiviât. Tocje par discjariâ.</string>
     <string name="dialog_update_title">Inzornament de aplicazion necessari</string>
     <string name="dialog_update_message">La aplicazion par cheste icone no je inzornade. Tu puedis inzornâle a man par tornâ a ativâ cheste scurte opûr gjave la icone.</string>
     <string name="dialog_update">Inzorne</string>
@@ -181,9 +192,13 @@
     <string name="developer_options_filter_hint">Filtre</string>
     <string name="remote_action_failed">Azion falide: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
     <string name="private_space_label">Spazi privât</string>
+    <string name="private_space_secondary_label">Ten blocadis e platadis lis aplicazions privadis</string>
     <string name="ps_container_title">Privât</string>
     <string name="ps_container_settings">Impostazions spazi privât</string>
     <string name="ps_container_lock_unlock_button">Bloche/Sbloche spazi privât</string>
+    <string name="ps_container_lock_title">Bloche</string>
     <string name="ps_container_transition">Transizion spazi privât</string>
+    <string name="ps_add_button_label">Instale aplicazions</string>
+    <string name="ps_add_button_content_description">Instale lis aplicazions sul spazi privât</string>
     <string name="bubble_bar_overflow_description">Extra</string>
 </resources>
