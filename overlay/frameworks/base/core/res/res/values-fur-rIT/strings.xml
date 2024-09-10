@@ -149,6 +149,15 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> dopo <xliff:g id="time_delay">{2}</xliff:g> seconts</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: no mandât indevant</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: no mandât indevant</string>
+    <string name="scCellularNetworkSecurityTitle">Sigurece de rêt celulâr</string>
+    <string name="scCellularNetworkSecuritySummary">Controle lis impostazions</string>
+    <string name="scIdentifierDisclosureIssueTitle">Acès al identificadôr dal dispositîf</string>
+    <string name="scIdentifierDisclosureIssueSummary">Une rêt su la conession <xliff:g id="disclosure_network">%4$s</xliff:g> e à regjistrât l\'identificadôr univoc (IMSI) dal to dispositîf par <xliff:g id="disclosure_count">%1$d</xliff:g> voltis te dade di timp tra: <xliff:g id="disclosure_window_start_time">%2$tr</xliff:g> e: <xliff:g id="disclosure_window_end_time">%3$tr</xliff:g>.</string>
+    <string name="scNullCipherIssueEncryptedTitle">Conession cifrade a: <xliff:g id="network_name">%1$s</xliff:g></string>
+    <string name="scNullCipherIssueEncryptedSummary">Cumò tu âs stabilît une conession a une rêt mobile plui sigure.</string>
+    <string name="scNullCipherIssueNonEncryptedTitle">Conession cence cifradure a: <xliff:g id="network_name">%1$s</xliff:g></string>
+    <string name="scNullCipherIssueNonEncryptedSummary">Tu stâs intune rêt celulâr cence cifradure. Lis tôs clamadis, i messaçs e i dâts a puedin vignî intercetâts.</string>
+    <string name="scNullCipherIssueActionSettings">Impostazions sigurece rêt mobile</string>
     <string name="scNullCipherIssueActionLearnMore">Plui informazions</string>
     <string name="fcComplete">Codiç di funzion complet.</string>
     <string name="fcError">Probleme di conession o codiç di funzion no valit.</string>
@@ -414,6 +423,9 @@
     <string name="permlab_manageOngoingCalls">Al permet di gjestî clamadis in cors</string>
     <string name="permdesc_manageOngoingCalls">Al permet a une aplicazion di viodi i detais su lis
          clamadis in cors tal to dispositîf e controlâlis.</string>
+    <string name="permlab_accessLastKnownCellId">Rive a doprâ l\'ultin ID di cele cognossût.</string>
+    <string name="permdesc_accessLastKnownCellId">Al permet a une aplicazion di acedi al ultin ID
+        di cele cognossût furnît dal servizi di telefonie.</string>
     <string name="permlab_readCellBroadcasts">lei i messaçs di difusion de cele</string>
     <string name="permdesc_readCellBroadcasts">Al permet ae aplicazion di lei
         i messaçs di difusion de cele di rêt ricevûts dal to dispositîf. Lis alertis di
@@ -493,6 +505,8 @@
     <string name="permdesc_foregroundServiceSystemExempted">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"systemExempted\" (sisteme esentât)</string>
     <string name="permlab_foregroundServiceFileManagement">fâ zirâ un servizi in prin plan cul gjenar \"fileManagement\" (gjestion files)</string>
     <string name="permdesc_foregroundServiceFileManagement">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"fileManagement\" (gjestion files)</string>
+    <string name="permlab_foregroundServiceMediaProcessing">eseguî servizis in prin plan cul gjenar \"mediaProcessing\"</string>
+    <string name="permdesc_foregroundServiceMediaProcessing">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"mediaProcessing\" (elaborazion multimediâl)</string>
     <string name="permlab_foregroundServiceSpecialUse">fâ zirâ un servizi in prin plan cul gjenar \"specialUse\" (ûs speciâl)</string>
     <string name="permdesc_foregroundServiceSpecialUse">Al permet ae aplicazion di doprâ i servizis in prin plan cul gjenar \"specialUse\" (ûs speciâl)</string>
     <string name="permlab_getPackageSize">misurâ il spazi di archiviazion de aplicazion</string>
@@ -646,6 +660,8 @@
     <string name="permdesc_transmitIr" product="default">Al permet ae aplicazion di doprâ il trasmetidôr a infraròs dal telefon.</string>
     <string name="permlab_setWallpaper">configurâ il fonts dal schermi</string>
     <string name="permdesc_setWallpaper">Al permet ae aplicazion di configurâ il fonts di sisteme.</string>
+    <string name="permlab_accessHiddenProfile">Rive a doprâ i profîi platâts</string>
+    <string name="permdesc_accessHiddenProfile">Al permet ae aplicazion di acedi ai profîi platâts.</string>
     <string name="permlab_setWallpaperHints">justâ la dimension dal to fonts</string>
     <string name="permdesc_setWallpaperHints">Al permet ae aplicazion di configurâ i sugjeriments pe dimension dal fonts di sisteme.</string>
     <string name="permlab_setTimeZone">configurâ il fûs orari</string>
@@ -790,6 +806,7 @@
     <string name="screen_lock_app_setting_name">Dopre il bloc schermi</string>
     <string name="screen_lock_dialog_default_subtitle">Inserìs il bloc schermi par continuâ</string>
     <string name="fingerprint_acquired_partial">Frache cun decision sul sensôr</string>
+    <string name="fingerprint_acquired_insufficient">Impront digjitâl no ricognossût. Torne prove.</string>
     <string name="fingerprint_acquired_imager_dirty">Nete il sensôr di impronts e torne prove</string>
     <string name="fingerprint_acquired_imager_dirty_alt">Nete il sensôr e torne prove</string>
     <string name="fingerprint_acquired_too_fast">Frache cun decision sul sensôr</string>
@@ -806,11 +823,18 @@
     <string name="fingerprint_authenticated">Impront digjitâl autenticade</string>
     <string name="face_authenticated_no_confirmation_required">Muse autenticade</string>
     <string name="face_authenticated_confirmation_required">Muse autenticade, frache conferme</string>
+    <string name="fingerprint_error_hw_not_available">Hardware pai impronts digjitâi no disponibil.</string>
     <string name="fingerprint_error_no_space">Impussibil configurâ l\'impront</string>
     <string name="fingerprint_error_timeout">Configurazion di impront scjadude. Torne prove.</string>
+    <string name="fingerprint_error_canceled">Operazion pal impront digjitâl anulade</string>
+    <string name="fingerprint_error_user_canceled">Operazion pal impront digjitâl anulade dal utent</string>
     <string name="fingerprint_error_lockout">Masse tentatîfs. Dopre il bloc schermi.</string>
     <string name="fingerprint_error_lockout_permanent">Masse tentatîfs. Dopre il bloc dal schermi.</string>
     <string name="fingerprint_error_unable_to_process">Impussibil elaborâ l\'impront. Torne prove.</string>
+    <string name="fingerprint_error_no_fingerprints">Nissun impront digjitâl regjistrât</string>
+    <string name="fingerprint_error_hw_not_present">Chest dispositîf nol à un sensôr di impronts digjitâi</string>
+    <string name="fingerprint_error_security_update_required">Sensôr disativât in mût temporani</string>
+    <string name="fingerprint_error_bad_calibration">Impussibil doprâ il sensôr di impronts. Contate un riparadôr.</string>
     <string name="fingerprint_error_power_pressed">Boton di impiament fracât</string>
     <string name="fingerprint_name_template">Dêt <xliff:g id="fingerId" example="1">%d</xliff:g></string>
     <string name="fingerprint_app_setting_name">Dopre l\'impront</string>
@@ -844,6 +868,7 @@
     <string name="face_acquired_not_detected">Impussibil viodi la tô muse. Ten il telefon ae altece dai voi.</string>
     <string name="face_acquired_too_much_motion">Masse moviment. Ten fêr il telefon.</string>
     <string name="face_acquired_recalibrate">Torne regjistre la tô muse.</string>
+    <string name="face_acquired_too_different">Muse no ricognossude. Torne prove.</string>
     <string name="face_acquired_too_similar">Cambie di un pôc la posizion dal to cjâf</string>
     <string name="face_acquired_pan_too_extreme">Cjale plui dret tal telefon</string>
     <string name="face_acquired_tilt_too_extreme">Cjale plui dret tal telefon</string>
@@ -950,6 +975,8 @@
     <string name="permdesc_highSamplingRateSensors">Al permet ae aplicazion di campionâ i dâts dai sensôrs a une frecuence plui grande di 20 Hz</string>
     <string name="permlab_updatePackagesWithoutUserAction">inzornâ la aplicazion cence la azion dal utent</string>
     <string name="permdesc_updatePackagesWithoutUserAction">Al permet al possessôr di inzornâ la aplicazion che al à instalât in precedence cence azions de bande dal utent</string>
+    <string name="permlab_writeVerificationStateE2eeContactKeys">inzornâ i stâts di verifiche des clâfs di contat E2EE che a àn lis altris aplicazions</string>
+    <string name="permdesc_writeVerificationStateE2eeContactKeys">Al permet ae aplicazion di inzornâ i stâts di verifiche des clâfs di contat E2EE che a àn lis altris aplicazions</string>
     <string name="policylab_limitPassword">Stabilìs lis regulis pes passwords</string>
     <string name="policydesc_limitPassword">Controle la lungjece e i caratars ametûts tes passwords e tai PINs dal bloc dal schermi.</string>
     <string name="policylab_watchLogin">Monitore i tentatîfs di sbloc dal schermi</string>
@@ -2294,6 +2321,8 @@
     <string name="notification_verified_content_description">Verificade</string>
     <string name="expand_button_content_description_collapsed">Slargje</string>
     <string name="expand_button_content_description_expanded">Strenç</string>
+    <string name="content_description_collapsed">Strenzût</string>
+    <string name="content_description_expanded">Slargjât</string>
     <string name="expand_action_accessibility">comute espansion</string>
     <string name="usb_midi_peripheral_name">Puarte de periferiche USB di Android</string>
     <string name="usb_midi_peripheral_manufacturer_name">Android</string>
@@ -2336,6 +2365,9 @@
     <string name="work_mode_off_title">Terminâ la pause des apl. di lavôr?</string>
     <string name="work_mode_turn_on">Termine pause</string>
     <string name="work_mode_emergency_call_button">Emergjence</string>
+    <string name="set_up_screen_lock_title">Stabilìs un bloc schermi</string>
+    <string name="set_up_screen_lock_action_label">Stabilìs il bloc schermi</string>
+    <string name="private_space_set_up_screen_lock_message">Par doprâil to spazi privât, stabilìs un bloc dal schermi par chest dispositîf</string>
     <string name="app_blocked_title">La aplicazion no je disponibile</string>
     <string name="app_blocked_message">        In chest moment <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> nol è disponibil.
     </string>
@@ -2741,4 +2773,8 @@
     <string name="profile_label_work_3">Lavôr 3</string>
     <string name="profile_label_test">Prove</string>
     <string name="profile_label_communal">In comun</string>
+    <string name="satellite_notification_title">Conetût in automatic al satelit</string>
+    <string name="satellite_notification_summary">Tu puedis mandâ e ricevi messaçs cence une rêt celulâr o Wi-Fi</string>
+    <string name="satellite_notification_open_message">Vierç messaçs</string>
+    <string name="satellite_notification_how_it_works">Cemût funzionial?</string>
 </resources>
