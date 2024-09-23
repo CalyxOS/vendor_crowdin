@@ -18,7 +18,7 @@
     <string name="blocked">Bloquióse</string>
     <string name="on">Sí</string>
     <string name="grant_dialog_button_allow_all">Permitir too</string>
-    <string name="grant_dialog_button_always_allow_all">Permitir siempres too</string>
+    <string name="grant_dialog_button_always_allow_all">Permitir siempre too</string>
     <string name="grant_dialog_button_allow_limited_access">Permitir l\'accesu llendáu</string>
     <string name="grant_dialog_button_allow_selected_photos">Seleicionar semeyes y vídeos</string>
     <string name="grant_dialog_button_allow_more_selected_photos">Seleicionar más</string>
@@ -86,10 +86,12 @@
         one {}=1      {Permisu usáu por 1 aplicación}
         other   {Permisu usáu por # aplicaciones}
     }</string>
-    <string name="app_permission_button_always_allow_all">Permitir siempres too</string>
+    <string name="app_permission_button_always_allow_all">Permitir siempre too</string>
     <string name="unused_apps_category_title">Configuración d\'aplic. non usaes</string>
     <string name="unused_apps_label_v2">Posar l\'actividá l\'aplicación si nun s\'usa</string>
+    <string name="unused_apps_label_v3">Xestionar l\'aplicación si nun s\'usa</string>
     <string name="unused_apps_summary">Quita los permisos, desanicia los ficheros temporales y para los avisos</string>
+    <string name="unused_apps_summary_v2">Quita los permisos, desanicia los ficheros temporales, para los avisos y archiva l\'aplicación</string>
     <string name="unused_apps_page_tv_summary">Si una aplicación nun s\'usa demientres un mes:\n\n\u2022Quítense los permisos pa protexer los tos datos\n\n\u2022Quítense los ficheros temporales pa lliberar espaciu\n\nPa volver conceder los permisos, abri l\'aplicación.</string>
     <string name="last_opened_category_title"> {count, plural,
         one {}=1{Abiertes per última vegada hai más d\'un mes}
@@ -161,6 +163,10 @@
     <string name="role_notes_short_label">Aplicación de notes</string>
     <string name="role_notes_description">Aplicaciones que te permiten tomar notes nel preséu</string>
     <string name="role_notes_search_keywords">notes</string>
+    <string name="role_wallet_label">Apl. predeterminada de cartera</string>
+    <string name="role_wallet_short_label">Aplicación de cartera</string>
+    <string name="role_wallet_description">Les aplicaciones de cartera puen atroxar tarxetes de creitu y de fidelización, llaves de coche y otros elementos p\'ayudate con varies formes de transaición.</string>
+    <string name="role_wallet_request_title">¿Quies predeterminar l\'aplicación de cartera «<xliff:g id="app_name" example="Super Wallet">%1$s</xliff:g>»?</string>
     <string name="settings_button">Configuración</string>
     <string name="adjust_user_sensitive_title">Configuración avanzada</string>
     <string name="menu_adjust_user_sensitive">Configuración avanzada</string>
@@ -283,9 +289,9 @@
     <string name="media_confirm_dialog_message_q_to_s_visual_allow">Esta aplicación nun ye compatible cola última versión d\'Android. Si esta aplicación pue acceder a semeyes y vídeos, tamién va poder acceder a ficheros de música y d\'audiu.</string>
     <string name="media_confirm_dialog_message_q_to_s_visual_deny">Esta aplicación nun ye compatible cola última versión d\'Android. Si esta aplicación nun pue acceder a semeyes y vídeos, tampoco va poder acceder a ficheros de música y d\'audiu.</string>
     <string name="safety_center_background_location_access_notification_title">Revisa l\'aplicación con accesu a la llocalización en segundu planu</string>
-    <string name="safety_center_background_location_access_reminder_notification_content">L\'aplicación «<xliff:g id="app_name" example="Gmail">%s</xliff:g>» pue acceder siempres a la to llocalización, magar que tea zarrada</string>
+    <string name="safety_center_background_location_access_reminder_notification_content">L\'aplicación «<xliff:g id="app_name" example="Gmail">%s</xliff:g>» pue acceder siempre a la to llocalización, magar que tea zarrada</string>
     <string name="safety_center_background_location_access_reminder_title">Revisa l\'aplicación con accesu a la llocalización en segundu planu</string>
-    <string name="safety_center_background_location_access_reminder_summary">Esta aplicación pue acceder siempres a la to llocalización, magar que tea zarrada.\u000a\u000aDalgunes aplicaciones d\'emerxencia y de seguranza riquen l\'accesu a la llocalización en segundu planu pa que funcionen como s\'espera.</string>
+    <string name="safety_center_background_location_access_reminder_summary">Esta aplicación pue acceder siempre a la to llocalización, magar que tea zarrada.\u000a\u000aDalgunes aplicaciones d\'emerxencia y de seguranza riquen l\'accesu a la llocalización en segundu planu pa que funcionen como s\'espera.</string>
     <string name="safety_center_background_location_access_revoked">L\'accesu camudó</string>
     <string name="safety_center_view_recent_location_access">Ver l\'usu recién de la llocalización</string>
     <string name="privacy_controls_title">Controles de privacidá</string>
@@ -336,4 +342,12 @@
     <string name="safety_label_changes_notification_title">Anovamientos tocante a la compartición de datos</string>
     <string name="safety_label_changes_notification_desc">Dalgunes aplicaciones camudaron la forma na que pue compartir los tos datos de llocalización</string>
     <string name="safety_label_changes_gear_description">Configuración</string>
+    <string name="wear_app_perms_24h_access">Últimu accesu: <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="wear_app_perms_24h_access_yest">Últimu accesu ayeri: <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="wear_app_perms_7d_access">Últimu accesu: <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g></string>
+    <string name="test_otp_msg">La contraseña d\'un usu ye 132435</string>
+    <string name="enhanced_confirmation_dialog_title">Opción restrinxida</string>
+    <string name="enhanced_confirmation_dialog_desc">Por seguranaza, esta opción nun ta disponibles.</string>
+    <string name="enhanced_confirmation_dialog_title_permission">Negóse l\'usu del permisu «<xliff:g id="permission_name" example="contacts">%1$s</xliff:g>»</string>
+    <string name="enhanced_confirmation_dialog_desc_permission">Esta aplicación solicitó\'l permisu «<xliff:g id="permission_name" example="contacts">%1$s</xliff:g>», que ye una opción restrinxida porque pue poner en riesgu la to seguranza y privacidá. Ye posible que la restricción d\'esti permisu impida qu\'esta aplicación funciones.</string>
 </resources>

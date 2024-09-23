@@ -51,7 +51,7 @@
     <string name="imei">IMEI</string>
     <string name="meid">MEID</string>
     <string name="ClipMmi">ID de llamador entrante</string>
-    <string name="ClirMmi">Anubrir la ID de llamadores salientes</string>
+    <string name="ClirMmi">Esconder la ID de llamadores salientes</string>
     <string name="ColpMmi">ID de llinia conectada</string>
     <string name="ColrMmi">Torga d\'ID de la llinia conectada</string>
     <string name="CfMmi">Esvíu de llamaes</string>
@@ -149,7 +149,15 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> dempués de <xliff:g id="time_delay">{2}</xliff:g> segundos</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: nun s\'esvió</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: nun s\'esvió</string>
+    <string name="scCellularNetworkSecurityTitle">Seguranza de les redes móviles</string>
+    <string name="scCellularNetworkSecuritySummary">Revisa la configuración</string>
+    <string name="scIdentifierDisclosureIssueTitle">Accedióse al identificador del preséu</string>
+    <string name="scIdentifierDisclosureIssueSummary">Un rede de la conexón «<xliff:g id="disclosure_network">%4$s</xliff:g>» rexistró l\'identificador únicu del preséu (IMSI) <xliff:g id="disclosure_count">%1$d</xliff:g> vegaes nun periodu de tiempu que trescurre dende <xliff:g id="disclosure_window_start_time">%2$tr</xliff:g> hasta <xliff:g id="disclosure_window_end_time">%3$tr</xliff:g></string>
+    <string name="scNullCipherIssueEncryptedTitle">Conexón cifrada a «<xliff:g id="network_name">%1$s</xliff:g>»</string>
     <string name="scNullCipherIssueEncryptedSummary">Conectéstite a una rede más segura.</string>
+    <string name="scNullCipherIssueNonEncryptedTitle">Conexón non cifrada a «<xliff:g id="network_name">%1$s</xliff:g>»</string>
+    <string name="scNullCipherIssueNonEncryptedSummary">Conectéstite a una rede móvil que nun ta cifrada. Los datos, les llamaes y los mensaxes son susceptibles a que los interceuten.</string>
+    <string name="scNullCipherIssueActionSettings">Configuración de seguranza de les redes móviles</string>
     <string name="scNullCipherIssueActionLearnMore">Saber más</string>
     <string name="fcComplete">Códigu de función completu.</string>
     <string name="fcError">Hebo un problema de conexón o\'l códigu de función nun ye válidu.</string>
@@ -419,6 +427,10 @@
     <string name="permdesc_manageOngoingCalls">Permite qu\'una aplicación vea los detalles de les
          llamaes en cursu del preséu y que controle
          eses llamaes.</string>
+    <string name="permlab_accessLastKnownCellId">accesu a la última identidá móvil conocida</string>
+    <string name="permdesc_accessLastKnownCellId">Permite qu\'una aplicación acceda a la
+        última identidá móvil conocida que
+        forniere\'l serviciu de telefonía.</string>
     <string name="permlab_readCellBroadcasts">llectura de los mensaxes d\'espardimientu móvil</string>
     <string name="permdesc_readCellBroadcasts">Permite que l\'aplicación llea
         los mensaxes d\'espardimientu móvil que reciba\'l preséu. Les alertes
@@ -459,7 +471,8 @@
       causar qu\'otres aplicaciones dexen de tar n\'execución.</string>
     <string name="permlab_systemAlertWindow">Esta aplicación pue apaecer enriba d\'otres</string>
     <string name="permdesc_systemAlertWindow">Esta aplicación pue apaecer enriba d\'otres aplicaciones o d\'otres partes de la pantalla. Poro, ye posible qu\'interfira col usu normal de les aplicaciones y camudar la forma na qu\'apaecen.</string>
-    <string name="permdesc_hideOverlayWindows">Esta aplicación pue solicitar al sistema qu\'anubra les superposiciones d\'otres aplicaciones pa que nun s\'amuesen penriba.</string>
+    <string name="permlab_hideOverlayWindows">ocultación de les superposiciones d\'otres aplicaciones</string>
+    <string name="permdesc_hideOverlayWindows">Esta aplicación pue solicitar al sistema qu\'escuenda les superposiciones d\'otres aplicaciones pa que nun s\'amuesen penriba.</string>
     <string name="permlab_runInBackground">execución en segundu planu</string>
     <string name="permdesc_runInBackground">Esta aplicación pue executase en segundu planu. Poro, la batería pue escosar aína.</string>
     <string name="permlab_useDataInBackground">usu de los datos en segundu planu</string>
@@ -498,6 +511,8 @@
     <string name="permdesc_foregroundServiceSystemExempted">Permite que l\'aplicación use los servicios en primer planu col tipu «systemExempted»</string>
     <string name="permlab_foregroundServiceFileManagement">execución d\'un serviciu en primer planu col tipu «fileManagement»</string>
     <string name="permdesc_foregroundServiceFileManagement">Permite que l\'aplicación use los servicios en primer planu col tipu «fileManagement»</string>
+    <string name="permlab_foregroundServiceMediaProcessing">execución de permisos en primer planu col tipu «mediaProcessing»</string>
+    <string name="permdesc_foregroundServiceMediaProcessing">Permite que l\'aplicación faiga usu de los servicios en primer planu col tipu «mediaProcessing»</string>
     <string name="permlab_foregroundServiceSpecialUse">execución d\'un serviciu en primer planu col tipu «specialUse»</string>
     <string name="permdesc_foregroundServiceSpecialUse">Permite que l\'aplicación use los servicios en primer planu col tipu «specialUse»</string>
     <string name="permlab_getPackageSize">midimientu del espaciu d\'almacenamientu de l\'aplicación</string>
@@ -656,6 +671,8 @@
     <string name="permdesc_transmitIr" product="default">Permite que l\'aplicación use\'l tresmisor d\'infrabermeyos del teléfonu.</string>
     <string name="permlab_setWallpaper">configuración del fondu de pantalla</string>
     <string name="permdesc_setWallpaper">Permite que l\'aplicación afite\'l fondu de pantalla del sistema.</string>
+    <string name="permlab_accessHiddenProfile">accesu a los perfiles escondíos</string>
+    <string name="permdesc_accessHiddenProfile">Permite que l\'aplicación acceda a los perfiles escondíos.</string>
     <string name="permlab_setWallpaperHints">axuste del tamañu del fondu de pantalla</string>
     <string name="permdesc_setWallpaperHints">Permite que l\'aplicación afite\'l tamañu del fondu de pantalla.</string>
     <string name="permlab_setTimeZone">configuración del fusu horariu</string>
@@ -800,6 +817,7 @@
     <string name="screen_lock_app_setting_name">Usar el bloquéu de pantalla</string>
     <string name="screen_lock_dialog_default_subtitle">Pa siguir, introduz el bloquéu de pantalla</string>
     <string name="fingerprint_acquired_partial">Primi\'l sensor con firmeza</string>
+    <string name="fingerprint_acquired_insufficient">Nun se reconoció la buelga. Volvi tentalo.</string>
     <string name="fingerprint_acquired_imager_dirty">Llimpia\'l sensor de buelgues y volvi tentalo</string>
     <string name="fingerprint_acquired_imager_dirty_alt">Llimpia\'l sensor y volvi tentalo</string>
     <string name="fingerprint_acquired_too_fast">Primi\'l sensor con firmeza</string>
@@ -819,9 +837,15 @@
     <string name="fingerprint_error_hw_not_available">El hardware de buelgues nun ta disponible</string>
     <string name="fingerprint_error_no_space">Nun se pue configurar la buelga</string>
     <string name="fingerprint_error_timeout">Escosó\'l tiempu d\'espera pa configurar la buelga. Volvi tentalo.</string>
+    <string name="fingerprint_error_canceled">Encaboxóse la operación de buelga.</string>
+    <string name="fingerprint_error_user_canceled">L\'usuariu encaboxó la operación de buelga.</string>
     <string name="fingerprint_error_lockout">Ficiéronse milenta intentos. Usa\'l bloquéu de pantalla.</string>
     <string name="fingerprint_error_lockout_permanent">Ficiéronse milenta intentos. Usa\'l bloquéu de pantalla.</string>
     <string name="fingerprint_error_unable_to_process">Nun se pue procesar la buelga. Volvi tentalo.</string>
+    <string name="fingerprint_error_no_fingerprints">Nun se rexistró nenguna buelga.</string>
+    <string name="fingerprint_error_hw_not_present">Esti preséu nun tien nengún sensor de buelgues</string>
+    <string name="fingerprint_error_security_update_required">El sensor de buelgues ta temporalmente desactiváu</string>
+    <string name="fingerprint_error_bad_calibration">Nun se pue usar el sensor de buelgues. Visita un fornidor de reparaciones.</string>
     <string name="fingerprint_error_power_pressed">Primióse\'l botón de prendíu</string>
     <string name="fingerprint_name_template">Deu <xliff:g id="fingerId" example="1">%d</xliff:g></string>
     <string name="fingerprint_app_setting_name">Usar la buelga</string>
@@ -855,11 +879,12 @@
     <string name="face_acquired_not_detected">Nun se pue ver la cara. Pon el teléfonu al altor de los güeyos.</string>
     <string name="face_acquired_too_much_motion">Hebo munchu movimientu. Nun muevas el teléfonu.</string>
     <string name="face_acquired_recalibrate">Volvi rexistrar la cara.</string>
+    <string name="face_acquired_too_different">Nun se reconoció la cara. Volvi tentalo.</string>
     <string name="face_acquired_too_similar">Camuda llixeramente la posición de la cabeza</string>
     <string name="face_acquired_pan_too_extreme">Mira\'l teléfonu de forma más direuta</string>
     <string name="face_acquired_tilt_too_extreme">Mira\'l teléfonu de forma más direuta</string>
     <string name="face_acquired_roll_too_extreme">Mira\'l teléfonu de forma más direuta</string>
-    <string name="face_acquired_obscured">Quita tolo qu\'anubra la cara.</string>
+    <string name="face_acquired_obscured">Quita tolo que t\'escuenda la cara.</string>
     <string name="face_acquired_sensor_dirty">Llimipia\'l sensor del estremu cimeru.</string>
     <string name="face_acquired_recalibrate_alt">Nun se pue crear el modelu facial. Volvi tentalo.</string>
     <string name="face_acquired_dark_glasses_detected_alt">Detectáronse lentes escures. La cara ha tar completamente visible.</string>
@@ -959,6 +984,8 @@
     <string name="permdesc_highSamplingRateSensors">Permite que l\'aplicación recueya los datos de sensores a una frecuencia superior a 200 Hz</string>
     <string name="permlab_updatePackagesWithoutUserAction">anovamientu d\'aplicaciones ensin la intervención del usuariu</string>
     <string name="permdesc_updatePackagesWithoutUserAction">Permite que\'l propietariu anueve les aplicaciones qu\'instalares anteriormente ensin la intervención del usuariu</string>
+    <string name="permlab_writeVerificationStateE2eeContactKeys">anovamientu de los estaos de verificación de les claves de contautu E2EE que son propiedá d\'otres aplicaciones</string>
+    <string name="permdesc_writeVerificationStateE2eeContactKeys">Permite que l\'aplicación anueve los estaos de verificación de les claves de contautu E2EE que son propiedá d\'otres aplicaciones</string>
     <string name="policylab_limitPassword">Configuración de les regles pa les contraseñes</string>
     <string name="policydesc_limitPassword">Controla la llongura y los caráuteres permitíos nes contraseñes y nos PIN de la pantalla de bloquéu.</string>
     <string name="policylab_watchLogin">Supervisión de los intentos del desbloquéu de pantalla</string>
@@ -1503,12 +1530,12 @@
     <string name="launch_warning_replace">«<xliff:g id="app_name">%1$s</xliff:g>» ta n\'execución.</string>
     <string name="launch_warning_original">«<xliff:g id="app_name">%1$s</xliff:g>» llanzóse inicialmente.</string>
     <string name="screen_compat_mode_scale">Escala</string>
-    <string name="screen_compat_mode_show">Amosar siempres</string>
+    <string name="screen_compat_mode_show">Amosar siempre</string>
     <string name="screen_compat_mode_hint">Volvi activar esti mou en Configuración &gt; Aplicaciones &gt; Baxóse.</string>
     <string name="unsupported_display_size_message">«<xliff:g id="app_name">%1$s</xliff:g>» nun ye compatible col tamañu actual de la pantalla y pue tener un comportamientu inesperáu.</string>
-    <string name="unsupported_display_size_show">Amosar siempres</string>
+    <string name="unsupported_display_size_show">Amosar siempre</string>
     <string name="unsupported_compile_sdk_message">«<xliff:g id="app_name">%1$s</xliff:g>» creóse pa una versión incompatible del SO Android y pue comportase de mou inesperáu. Ye posible qu\'heba una versión anovada de l\'aplicación.</string>
-    <string name="unsupported_compile_sdk_show">Amosar siempres</string>
+    <string name="unsupported_compile_sdk_show">Amosar siempre</string>
     <string name="unsupported_compile_sdk_check_update">Comprobar los anovamientos</string>
     <string name="smv_application">L\'aplicación «<xliff:g id="application">%1$s</xliff:g>»
         (procesu «<xliff:g id="process">%2$s</xliff:g>») incumplió la so política autoimpuesta StrictMode.</string>
@@ -1535,7 +1562,7 @@
     <string name="fp_power_button_bp_negative_button">Siguir</string>
     <string name="heavy_weight_notification">«<xliff:g id="app">%1$s</xliff:g>» ta n\'execución</string>
     <string name="heavy_weight_notification_detail">Toca pa volver al xuegu</string>
-    <string name="heavy_weight_switcher_title">Escoyeta d\'un xuegu</string>
+    <string name="heavy_weight_switcher_title">Seleición d\'un xuegu</string>
     <string name="heavy_weight_switcher_text">Pa consiguir el meyor rindimientu, namás
         se pue abrir unu d\'estos xuegos.</string>
     <string name="old_app_action">Volver a «<xliff:g id="old_app">%1$s</xliff:g>»</string>
@@ -1620,7 +1647,7 @@
     <string name="sms_short_code_confirm_deny">Encaboxar</string>
     <string name="sms_short_code_remember_choice">Acordase de la escoyeta</string>
     <string name="sms_short_code_remember_undo_instruction">Camúdalo dempués en Configuración\u00A0&gt;\u00A0Aplicaciones</string>
-    <string name="sms_short_code_confirm_always_allow">Permitir siempres</string>
+    <string name="sms_short_code_confirm_always_allow">Permitir siempre</string>
     <string name="sms_short_code_confirm_never_allow">Nun permitir enxamás</string>
     <string name="sim_removed_title">Estráxose una SIM</string>
     <string name="sim_removed_message">La rede móvil nun va tar disponible hasta que reanicies el preséu con una SIM válida.</string>
@@ -1679,7 +1706,7 @@
         compartise les aplicaciones y los datos.</string>
     <string name="share_remote_bugreport_action">COMPARTIR</string>
     <string name="decline_remote_bugreport_action">REFUGAR</string>
-    <string name="select_input_method">Escoyeta d\'un métodu d\'entrada</string>
+    <string name="select_input_method">Seleición d\'un métodu d\'entrada</string>
     <string name="show_ime">Caltiénse na pantalla mentanto\'l tecláu físicu ta activu</string>
     <string name="hardware">Usar el tecláu en pantalla</string>
     <string name="select_keyboard_layout_notification_title">Configura «<xliff:g id="device_name" example="Foobar USB Keyboard">%s</xliff:g>»</string>
@@ -1788,10 +1815,10 @@
     <string name="vpn_title_long">«<xliff:g id="app" example="FooVPN client">%s</xliff:g>» activó la VPN</string>
     <string name="vpn_text">Toca pa xestionar la rede.</string>
     <string name="vpn_text_long">Conectóse a «<xliff:g id="session" example="office">%s</xliff:g>». Toca pa xestionar la rede.</string>
-    <string name="vpn_lockdown_connecting">Conectando a la VPN siempres activa\u2026</string>
-    <string name="vpn_lockdown_connected">Conectóse la VPN siempres activa</string>
-    <string name="vpn_lockdown_disconnected">Desconectóse de la VPN siempres activa</string>
-    <string name="vpn_lockdown_error">Nun se pudo conectar a la VPN siempres activa</string>
+    <string name="vpn_lockdown_connecting">Conectando a la VPN siempre activa\u2026</string>
+    <string name="vpn_lockdown_connected">Conectóse la VPN siempre activa</string>
+    <string name="vpn_lockdown_disconnected">Desconectóse de la VPN siempre activa</string>
+    <string name="vpn_lockdown_error">Nun se pudo conectar a la VPN siempre activa</string>
     <string name="vpn_lockdown_config">Camuda la configuración de la rede o la VPN</string>
     <string name="upload_file">Escoyer un ficheru</string>
     <string name="no_file_chosen">Nun s\'escoyó nengún ficheru</string>
@@ -1900,12 +1927,12 @@
     <string name="sha256_fingerprint">Buelga SHA-256:</string>
     <string name="sha1_fingerprint">Buelga SHA-1:</string>
     <string name="activity_chooser_view_see_all">Ver too</string>
-    <string name="activity_chooser_view_dialog_title_default">Escoyeta de l\'actividá</string>
+    <string name="activity_chooser_view_dialog_title_default">Seleición de l\'actividá</string>
     <string name="share_action_provider_share_with">Compartir con</string>
     <string name="sending">Unviando\u2026</string>
     <string name="launchBrowserDefault">¿Quies llanzar «Restolador»?</string>
     <string name="SetupCallDefault">¿Quies aceptar la llamada?</string>
-    <string name="activity_resolver_use_always">Siempres</string>
+    <string name="activity_resolver_use_always">Siempre</string>
     <string name="activity_resolver_use_once">Namás una vegada</string>
     <string name="activity_resolver_work_profiles_support">«%1$s» nun ye compatible col perfil llaboral</string>
     <string name="default_audio_route_name" product="tablet">Tableta</string>
@@ -2042,7 +2069,7 @@
     <string name="accessibility_dialog_button_allow">Permitir</string>
     <string name="accessibility_dialog_button_deny">Negar</string>
     <string name="accessibility_dialog_button_uninstall">Desinstalar</string>
-    <string name="accessibility_dialog_touch_filtered_warning">Hai una aplicación que ta anubriendo la solicitú
+    <string name="accessibility_dialog_touch_filtered_warning">Hai una aplicación que ta escondiendo la solicitú
         de permisu, polo que nun se pue verificar la to rempuesta.</string>
     <string name="accessibility_select_shortcut_menu_title">Toca una función pa comenzar a usala:</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Escueyi qué funciones usar
@@ -2218,8 +2245,8 @@
     <string name="confirm_battery_saver">OK</string>
     <string name="battery_saver_description_with_learn_more">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones y dalgunes conexones a la rede.</string>
     <string name="battery_saver_description">L\'aforrador d\'enerxía activa l\'estilu escuru ya torga l\'actividá en segundu planu, dalgunos efeutos visuales, determinaes funciones y dalgunes conexones a la rede.</string>
-    <string name="data_saver_description">P\'ayudar a amenorgar l\'usu de datos, «Aforrador de datos» evita que les aplicaciones unvien y reciban datos en segundu planu. L\'aplicación que teas usando pue acceder a los datos, mas quiciabes lo faiga con menos frecuencia. Esto quier dicir, por exemplu, que les imáxenes nun van amosase hasta que calques nelles.</string>
-    <string name="data_saver_enable_title">¿Quies activar «Aforrador de datos»?</string>
+    <string name="data_saver_description">P\'ayudar a amenorgar l\'usu de datos, l\'aforrador de datos impide que les aplicaciones unvien y reciban datos en segundu planu. L\'aplicación que teas usando va poder acceder a los datos, mas quiciabes lo faiga con menos frecuencia. Esto quier dicir, por exemplu, que les imáxenes nun van amosase hasta que calques nelles.</string>
+    <string name="data_saver_enable_title">¿Quies activar l\'aforrador de datos?</string>
     <string name="data_saver_enable_button">Activar</string>
     <string name="zen_mode_duration_minutes_summary">{count, plural,
         one {}=1    {Demientres # minutu (hasta: {formattedTime})}
@@ -2294,6 +2321,8 @@
     <string name="notification_verified_content_description">Verificóse</string>
     <string name="expand_button_content_description_collapsed">Espander</string>
     <string name="expand_button_content_description_expanded">Contrayer</string>
+    <string name="content_description_collapsed">Contráxose</string>
+    <string name="content_description_expanded">Espandióse</string>
     <string name="expand_action_accessibility">alternar la espansión</string>
     <string name="usb_midi_peripheral_name">Puertu de periféricos USB (Android)</string>
     <string name="usb_midi_peripheral_manufacturer_name">Android</string>
@@ -2335,6 +2364,8 @@
     <string name="work_mode_off_title">¿Reactivar apls. llaborales?</string>
     <string name="work_mode_turn_on">Volver activar</string>
     <string name="work_mode_emergency_call_button">Emerxencia</string>
+    <string name="set_up_screen_lock_title">Afita un bloquéu de pantalla</string>
+    <string name="set_up_screen_lock_action_label">Afitar un bloquéu de pantalla</string>
     <string name="private_space_set_up_screen_lock_message">Pa usar l\'espaciu priváu, configura una pantalla de bloquéu nel preséu</string>
     <string name="app_blocked_title">L\'aplicación nun ta disponible</string>
     <string name="app_blocked_message">        Nesti momentu, «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» nun ta disponible.
@@ -2452,14 +2483,14 @@
     <string name="shortcut_disabled_reason_unknown">Desactivóse l\'atayu</string>
     <string name="harmful_app_warning_uninstall">DESINSTALAR</string>
     <string name="harmful_app_warning_open_anyway">ABRIR DE TOES TOES</string>
-    <string name="harmful_app_warning_title">Aplicación dañina detectada</string>
+    <string name="harmful_app_warning_title">Aplicación dañible detectada</string>
     <string name="slices_permission_request">«<xliff:g id="app" example="Example App">%1$s</xliff:g>» quier amosar los fragmentos de: <xliff:g id="app_2" example="Other Example App">%2$s</xliff:g></string>
     <string name="screenshot_edit">Editar</string>
     <string name="volume_dialog_ringer_guidance_vibrate">Les llamaes y los avisos van facer que\'l preséu vibre</string>
     <string name="volume_dialog_ringer_guidance_silent">El soníu de les llamaes y los avisos van desactivase</string>
     <string name="notification_channel_system_changes">Cambeos del sistema</string>
     <string name="notification_channel_do_not_disturb">Nun molestar</string>
-    <string name="zen_upgrade_notification_visd_title">Novedá: «Nun molestar» anubre los avisos</string>
+    <string name="zen_upgrade_notification_visd_title">Novedá: «Nun molestar» escuende los avisos</string>
     <string name="zen_upgrade_notification_visd_content">Toca pa saber más y camudar la configuración.</string>
     <string name="zen_upgrade_notification_title">«Nun molestar» camudó</string>
     <string name="zen_upgrade_notification_content">Toca pa comprobar qué se bloquió.</string>
@@ -2740,5 +2771,8 @@
     <string name="profile_label_work_3">Trabayu 3</string>
     <string name="profile_label_test">Prueba</string>
     <string name="profile_label_communal">Comunal</string>
+    <string name="satellite_notification_title">Conectóse automáticamente a un satélite</string>
+    <string name="satellite_notification_summary">Pues unviar y recibir mensaxes ensin una rede móvil o Wi-Fi</string>
+    <string name="satellite_notification_open_message">Abrir l\'aplicación Mensaxes</string>
     <string name="satellite_notification_how_it_works">Cómo funciona</string>
 </resources>

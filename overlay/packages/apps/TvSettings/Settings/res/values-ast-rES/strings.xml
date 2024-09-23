@@ -40,7 +40,7 @@
         el sistema determina un intervalu dinámicu afayadizu pa unvialu a la pantalla y convertir
         el conteníu a esti intervalu dinámicu si ye necesario.
     </string>
-    <string name="preferred_dynamic_range_selection_passthrough_desc">Siempres iguala\'l formatu\'l
+    <string name="preferred_dynamic_range_selection_passthrough_desc">Siempre iguala\'l formatu\'l
         conteníu</string>
     <string name="preferred_dynamic_range_selection_force_title">Forciar la conversión</string>
     <string name="preferred_dynamic_range_selection_force_desc">Forcia la conversión al formatu
@@ -49,43 +49,152 @@
         al formatu preferíu. Esta aición pue afeutar a otres opciones de «Mou de visualización»
         o «Formatu HDR».
     </string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title">Siempre a SDR</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title">Siempre
+        a «<xliff:g id="hdr_type" example="Dolby Vision">%s</xliff:g>»</string>
+    <string name="preferred_dynamic_range_force_dialog_title">¿Quies forciar la salida HDR?</string>
+    <string name="preferred_dynamic_range_force_dialog_desc">Por defeutu, la conversión va
+        forciase a «<xliff:g id="hdr_type" example="Dolby Vision">%s</xliff:g>»</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue">La pantalla va funcionar a
+        una resolución de 1080p a 60Hz. Esta opción nun ye compatible cola pantalla cuando funciona
+        a una resolución de 4K a 60Hz</string>
     <string name="selection_dolby_vision_not_supported_sidebar">Dolby Vision nun ye compatible cola resolución
         actual. Si actives Dolby Vision manualmente, la resolución de la pantalla va
         camudar a 1080p 60Hz</string>
     <string name="manual_dolby_vision_format_on_4k60_title">¿Quies camudar la resolución a 1080p 60Hz?</string>
+    <string name="dynamic_range_selection_force_dv_title">Forciar siempre la conversión a Dolby Vision
+    </string>
+    <string name="dynamic_range_selection_force_dv_summary">Si Dolby Vision ta desactiváu nos
+        formatos HDR de la configuración avanzada de la pantalla y se forcia la conversión a Dolby Vision,
+        va volver activase.
+        </string>
+    <string name="dynamic_range_selection_force_hdr10_title">Forciar siempre la conversión a HDR10
+    </string>
+    <string name="dynamic_range_selection_force_hdr10_summary">Si HDR10 ta desactiváu nos
+        formatos HDR de la configuración avanzada de la pantalla y se forcia la conversión a HDR10,
+        va volver activase.
+        </string>
+    <string name="dynamic_range_selection_force_hlg_title">Forciar siempre la conversión a HLG
+    </string>
+    <string name="dynamic_range_selection_force_hlg_summary">Si HLG ta desactiváu nos
+        formatos HDR de la configuración avanzada de la pantalla y se forcia la conversión a HLG,
+        va volver activase.
+        </string>
+    <string name="dynamic_range_selection_force_hdr10plus_title">Forciar siempre la conversión a HDR10+
+    </string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary">Si HDR10+ ta desactiváu nos
+        formatos HDR de la configuración avanzada de la pantalla y se forcia la conversión a HDR10+,
+        va volver activase.
+        </string>
+    <string name="dynamic_range_selection_force_sdr_title">Forciar siempre la conversión a SDR
+    </string>
+    <string name="dynamic_range_selection_force_sdr_summary">Al forciar la conversion a SDR desactívense
+        tolos formatos HDR de la configuración avanzada de la pantalla.
+    </string>
+    <string name="match_content_frame_rate_seamless">Namás ensin interrupciones</string>
+    <string name="match_content_frame_rate_seamless_not_supported_summary">La pantalla conectada
+        nun ye compatible coles transiciones que tengan una frecuencia d\'anovamientu ensin interrupciones.
+        Esta opción nun va tener efeutu sacante que cambies a una pantalla que seya
+        compatible.</string>
+    <string name="font_scale_preview_text_body">«Asturies» ye’l nome que güei se da a la comunidá autónoma del Principáu d’Asturies. El territoriu que llamaron asina na documentación medieval apaez delles vegaes como Asturies y otres como Asturias acordies colos vezos dialeutales de la so xente. Por embargu, el nome emplegáu na actualidá ye una adautación del documentáu de vieyo como Asturia que, según pescanciamos, habría entendese como referencia más llarga a tol país de los ástures. El porqué d’esti nome deberíase nun primer momentu al d’un importante ríu al oriente del país onde corría L’Esla, lo mesmo que más al norte y tamién al este otra corriente documentada na Edá Media, Estola, identifícase col nuesu actual Seya.\n\nYe posible que del nome prerromanu d’eses agües venga’l términu d’ástures con que los romanos se referiríen a la xente de les sos orielles y, darréu, a ún de los pueblos prellatinos d’Hispania, l’últimu que conquistare Roma na Península. Les referencies que se facíen a esti pueblu unes vegaes yeren direutes, otres pente medies d’axetivos o antropónimos.</string>
     <string name="hdr_format_sdr">SDR</string>
     <string name="resolution_selection_with_mode_dialog_title">¿Quies camudar la resolución a %1$s?</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc">Dolby Vision nun ye
         compatible con «%1$s» y va desactivase en «Configuración avanzada de la pantalla»
         </string>
+    <string name="resolution_hdr_description_info">Esti mou ye compatible con: %1$s\nEn dalgunes TV,
+        ye posible que precises activar la opción de HDMI ameyoráu pa tener más formatos HDR.
+        Comprueba la configuración de la TV pa ver si ye compatible.</string>
     <string name="resolution_display_mode">        <xliff:g id="resolution" example="1080p, 4k etc">%1$s</xliff:g>
         (<xliff:g id="refresh-rate" example="60, 59.94 etc">%2$s</xliff:g> Hz)</string>
+    <string name="bluetooth_toggle_active_audio_output_title">Usar pal audiu de la TV</string>
     <string name="hdr_capability">- %1$s</string>
+    <string name="device_mode">Mou de preséu</string>
+    <string name="store_demo_mode">Demostración de tienda</string>
     <string name="show_dev_countdown"> {count, plural,
         =1    {Tas a # calcu d\'activar la configuración pa desendolcadores.}
         other {Tas a # calcos d\'activar la configuración pa desendolcadores.}
         }
     </string>
+    <string name="wifi_no_internet">Nun hai internet</string>
+    <string name="wifi_saved">Guardóse</string>
+    <string name="wifi_bad_password">La contraseña ye incorreuta</string>
+    <string name="wifi_short_password">La contraseña de la Wi-Fi ye mui curtia</string>
+    <string name="wifi_captive_portal">L\'aniciu de la sesión ye obligatoriu</string>
     <string name="mic_remote_toggle_title">Accesu al micrófonu del mandu</string>
+    <string name="mic_toggle_info_content">Cuando la opción ta activada, toles aplicaciones y tolos
+        servicios que tengan permisu pa usar el micrófonu van ser a acceder a elli.\n\nCuando la opción ta
+        desactivada, nenguna aplicación nin serviciu va ser a acceder al micrófonu. Por embargu, vas poder
+        falar al Asistente de Google primiendo\'l botón del asistente nel mandu.\n\nYe posible que los
+        preseos d\'audiu qu\'usen protocolos personalizaos pa comunicase cola TV nun-yos afeute esta
+        opción.
+    </string>
+    <string name="mic_remote_toggle_on_info_title">El micrófonu ta habilitáu nel mandu</string>
+    <string name="mic_remote_toggle_on_info_content">L\'Asistente de Google ye a acceder al micrófonu
+        del mandu. Vas poder falar col asistente primiendo\'l botón de l\'Asistente de Google nel mandu.</string>
+    <string name="mic_remote_toggle_off_info_title">El micrófonu ta inhabilitáu nel mandu</string>
+    <string name="mic_remote_toggle_off_info_content">Nun vas ser a falar al Asistente de Google
+        col mandu. Pa poder usar el botón del Asistente de Google, activa l\'accesu al micrófonu.
+    </string>
     <string name="accessibility_screen_readers_category_title">Llectores de pantalla</string>
     <string name="accessibility_interaction_controls_category_title">Controles d\'interación</string>
     <string name="accessibility_audio_and_onscreen_text_category_title">Audiu y testu na pantalla</string>
     <string name="accessibility_experimental_category_title">Esperimental</string>
-    <string name="accessibility_screen_reader_flattened_component_name">com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</string>
     <string name="accessibility_toggle_bold_text_preference_title">Testu en negrina</string>
     <string name="accessibility_color_correction">Correición del color</string>
+    <string name="color_correction_usage">Usar la correición del color</string>
+    <string name="color_correction_color_mode">Mou de color</string>
     <string name="color_correction_mode_deuteranomaly">Deuteranomalía</string>
+    <string name="color_correction_mode_deuteranomaly_summary">Coloráu-verde</string>
     <string name="color_correction_mode_protanomaly">Protanomalía</string>
+    <string name="color_correction_mode_protanomaly_summary">Coloráu-verde</string>
     <string name="color_correction_mode_tritanomaly">Tritanomalía</string>
+    <string name="color_correction_mode_tritanomaly_summary">Azul-mariellu</string>
+    <string name="color_correction_mode_grayscale">Escala de buxos</string>
     <string name="palette_color_orange">Naranxa</string>
+    <string name="palette_color_purple">Moráu</string>
+    <string name="palette_color_gray">Buxu</string>
+    <string name="system_accessibility_service_on_confirm_desc">«<xliff:g id="service" example="TalkBack">%1$s</xliff:g>» va ser a lleer la pantalla, amosar conteníu penriba d\'otres aplicaciones, facer un siguimientu de les interaiciones que tengas coles aplicaciones o sensores de hardware ya interactuar con aplicaciones nel to nome.</string>
+    <string name="system_desc_verify_apps_over_usb">Comprueba les aplicaciones instalaes per ADB/ADT pa detectar comportamientos dañibles</string>
     <string name="restricted_profile_configure_title">Configuración</string>
+    <string name="restricted_profile_create_preference_screen">¿Quies crear un perfil torgáu?</string>
+    <string name="restricted_profile_already_created_placeholder">Yá se creó</string>
+    <string name="restricted_profile_create_pin_action">Crear un PIN</string>
+    <string name="restricted_profile_enter_preference_screen">¿Acceder al perfil torgáu?</string>
+    <string name="restricted_profile_enter_not_found_placeholder">Nun hai nengún perfil torgáu</string>
+    <string name="restricted_profile_enter_already_entered_placeholder">Yá s\'accedió</string>
     <string name="device_energy_saver_timeout_description"><xliff:g id="sleep_description" example="4 hours">%1$s</xliff:g></string>
+    <string name="device_energy_saver_confirmation_title">Confirmación de la opción d\'alimentación y enerxía</string>
     <string name="device_energy_saver_confirmation_message">Dexar la TV prendida munchu tiempu pue aumentar el consumu d\'enerxía</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title">Desactivación de la opción d\'aforru d\'enerxía</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text">Confirma que quies evitar que la pantalla s\'apague mentanto ves conteníu, lo que podría aumentar el consumu d\'enerxía.</string>
+    <string name="device_energy_saver_sleep_timeout">Cuando se detecte inactividá</string>
+    <string name="device_energy_saver_attentive_timeout">Cuando se vea conteníu</string>
+    <string name="device_energy_saver_category_title">Apagar automáticamente</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title">Apagar automáticamente cuando se detecte inactividá</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title">Apagar automáticamente cuando se vea conteníu</string>
+    <string name="device_energy_saver_validation_sleep">El temporizador «Cuando se detecte inactividá» ha durar menos que\'l temporizador «Cuando se vea conteníu»</string>
+    <string name="device_energy_saver_validation_attentive">El temporizador «Cuando se vea conteníu» ha durar más que\'l temporizador «Cuando se detecte inactividá»</string>
+    <string name="limit_network_in_standby_toggle_title">Llendar la conexón a la rede n\'espera</string>
+    <string name="limit_network_in_standby_toggle_summary">Usa menos enerxía nel mou d\'espera</string>
+    <string name="limit_network_in_standby_toggle_info">La TV va desconectase de la rede al tar nel mou d\'espera, quitante pa recibir anovamientos automáticos. Esta aición pue amenorgar el consumu d\'enerxía de la TV, mas tamién implica que nun vas ser a usar les funciones de tresmisión y l\'Asistente de Google mentanto ta nel mou d\'espera.</string>
+    <string name="limit_network_in_standby_confirm_title">Permitir la conexón a la rede nel mou d\'espera</string>
+    <string name="limit_network_in_standby_confirm_message">Al permitir la conexón a la rede nel mou d\'espera, va aumentar el consumu d\'enerxía nesi mou.</string>
+    <string name="record_audio_source_title">Fonte del audiu de la grabación</string>
+    <string name="record_audio_source_dialog_title">Seleiciona la fonte d\'audiu pa la grabación siguiente</string>
+    <string name="recorded_microphones_title">Micrófonos de la grabación</string>
+    <string name="bluetooth_ask_discovery_title">¿Quies facer que la TV seya visible pa otros preseos Bluetooth?</string>
     <string name="bluetooth_ask_discovery_message">Una aplicación quier facer que la TV seya visible pa otros preseos Bluetooth demientres <xliff:g id="timeout">%1$d</xliff:g> segundos.</string>
+    <string name="add_account_intent_not_available_dialog_message">Hebo un fallu al recuperar l\'intentu del autenticador p\'amestar la cuenta.</string>
     <string name="add_account_failed_dialog_message">Hebo un fallu al amestar la cuenta o\'l tipu de cuenta nun ta disponible</string>
     <string name="energy_modes">Moos enerxéticos</string>
+    <string name="energy_modes_summary">Estes opciones afeuten al preséu cuando nun ta n\'usu</string>
     <string name="energy_mode_enables">Activa:</string>
+    <string name="energy_mode_eco_hint">El consumu d\'enerxía pue aumentar según el númberu de funciones de la TV qu\'actives.</string>
+    <string name="energy_modes_confirmation_title">Activación del mou «<xliff:g id="energyModeName" example="Essential network features">%s</xliff:g>»</string>
     <string name="settings_find_my_remote_title">Atopar el mandu</string>
     <string name="settings_find_my_remote_description">Reproduz un soníu p\'atopar el mandu de Google TV si nun sabes ónde ta</string>
+    <string name="find_my_remote_slice_description">Hai un botón nel preséu de Google TV que pues primir pa reproducir un soníu nel mandu demientres 30 segundos. Esta función namás funciona colos mandos de Google TV compatibles.\n\nPa parar el soníu, primi cualesquier botón del mandu.</string>
+    <string name="find_my_remote_integration_hint">Cuando la opción «Atopar el mandu» ta activada, pues reproducir un soníu pa llocalizar el mandu de Google TV si nun sabes ónde ta.</string>
     <string name="find_my_remote_play_sound">Reproducir un soníu</string>
 </resources>

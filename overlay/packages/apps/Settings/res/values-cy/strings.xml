@@ -1813,6 +1813,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="history_details_title">Manylion hanes</string>
     <string name="advanced_battery_preference_title">Defnydd batri</string>
     <string name="advanced_battery_preference_summary_with_hours">Gweld defnydd y 24 awr ddiwethaf</string>
+    <string name="advanced_battery_preference_summary">Gweld defnydd ers gwefru\u2019n llawn diwethaf</string>
     <string name="battery_details_title">Defnydd batri\u2019r ap</string>
     <string name="details_subtitle">Manylion defnydd</string>
     <string name="controls_subtitle">Addasu defnydd pŵer</string>
@@ -1864,8 +1865,11 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="battery_detail_since_full_charge">Dadansoddiad ers gwefru\'n llawn</string>
     <string name="battery_last_full_charge">Gwefru llawn ddiwethaf</string>
     <string name="battery_full_charge_last">Batri llawn yn para tua</string>
+    <string name="battery_footer_summary">Mae bywyd y batri\u2019n amcangyfrif a gall newid yn ôl defnydd</string>
     <string name="battery_detail_power_usage">Defnydd batri</string>
     <string name="battery_not_usage_24hr">Dim defnydd dros y 24 awr ddiwethaf</string>
+    <string name="battery_usage_system_apps">Apiau system</string>
+    <string name="battery_usage_uninstalled_apps">Apiau wedi eu dadosod</string>
     <string name="battery_usage_others">Eraill</string>
     <string name="estimated_time_left">Amcangyfrif amser yn weddill</string>
     <string name="estimated_charging_time_left">Nes wedi gwefru\'n llawn</string>
@@ -1893,7 +1897,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="battery_saver_turn_on_automatically_pct">pan fo <xliff:g id="percent">%1$s</xliff:g> o fatri</string>
     <string name="battery_percentage">Canran batri</string>
     <string name="battery_percentage_description">Dangos canran batri yn y bar statws</string>
-    <string name="battery_usage_chart_graph_hint_last_full_charge">Lefel batri ers gwefru\n2019n llawn diwethaf</string>
+    <string name="battery_usage_chart_graph_hint_last_full_charge">Lefel batri ers gwefru\u2019n llawn diwethaf</string>
     <string name="battery_usage_chart_graph_hint">Lefel batri y 24 awr ddiwethaf</string>
     <string name="battery_app_usage">Defnydd apiau ers gwefru\u2019n llawn diwethaf</string>
     <string name="battery_app_usage_for_past_24">Defnydd yr ap dros y 24 awr ddiwethaf</string>
@@ -1902,8 +1906,10 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="battery_app_usage_for">Defnydd yr ap am <xliff:g id="slot">%s</xliff:g></string>
     <string name="battery_usage_total_less_than_one_minute">Cyfanswm: llai na munud</string>
     <string name="battery_usage_background_less_than_one_minute">Cefndir: llai na munud</string>
+    <string name="battery_usage_screen_time_less_than_one_minute">Amser sgrin: llai na munud</string>
     <string name="battery_usage_for_total_time">Cyfanswm: <xliff:g id="time">%s</xliff:g></string>
     <string name="battery_usage_for_background_time">Cefndir: <xliff:g id="time">%s</xliff:g></string>
+    <string name="battery_usage_screen_time">Amser sgrin: <xliff:g id="time">%s</xliff:g></string>
     <string name="battery_usage_screen_footer_empty">Bydd data defnydd batri ar gael ymhen ychydig oriau pan fydd y batri wedi gwefru\u2019n llawn</string>
     <string name="battery_usage_chart">Siart defnydd batri</string>
     <string name="process_stats_summary_title">Ystadegau Proses</string>
@@ -3480,8 +3486,11 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
         hyn sydd ar dy sgrin i benderfynu pa bethau gellir
         eu llenwi yn awtomatig.
         ]]></string>
+    <string name="credman_picker_title">Dy ddewis gwasanaeth dewisol ar gyfer cyfrineiriau, cyfrinallweddi ac awto-lenwi</string>
+    <string name="account_dashboard_title_with_passkeys">Cyfrineiriau, cyfrinallweddi ac awto-lenwi</string>
     <string name="credman_confirmation_turn_off_positive_button">Troi i ffwrdd</string>
     <string name="credman_confirmation_change_provider_positive_button">Newid</string>
+    <string name="credman_error_message_title">Cyfrineiriau, cyfrinallweddi, a therfyn gwasanaethau data</string>
     <string name="credman_confirmation_message_positive_button">Troi i ffwrdd</string>
     <string name="debug_autofill_category">Awtolenwi</string>
     <string name="autofill_logging_level_title">Lefel logio</string>
@@ -3679,6 +3688,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="dsds_activation_failure_title">Methu â gweithredu\'r SIM</string>
     <string name="dsds_activation_failure_body_msg2">Rho gynnig ar droi\'r SIM ymlaen eto. Os yw\'r broblem yn parhau, ail-ddechreua dy ddyfais.</string>
     <string name="primary_sim_calls_title">Galwadau</string>
+    <string name="sim_onboarding_phoneNumber_data_only">Data yn unig</string>
     <string name="sim_onboarding_setup">Gosod</string>
     <string name="sim_onboarding_next">Nesaf</string>
     <string name="mobile_network_spn_title">Rhwydwaith symudol</string>
