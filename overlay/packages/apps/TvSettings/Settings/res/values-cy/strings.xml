@@ -109,6 +109,7 @@
     <string name="device_backup_restore">Copi wrth Gefn ac Adfer</string>
     <string name="device_factory_reset">Ailosod data i fel yr oedd wrth adael y ffatri</string>
     <string name="device_calibration">Calibrad</string>
+    <string name="device_fastpair">Dyfeisiau</string>
     <string name="surround_sound_select_formats">Dewis fformatau</string>
     <string name="surround_sound_category_title">Saim Amgylchynu</string>
     <string name="surround_sound_format_ac3">Dolby Digital</string>
@@ -139,7 +140,10 @@
     <string name="hdr_format_hlg">HLG</string>
     <string name="hdr_format_hdr10plus">HDR10+</string>
     <string name="hdr_format_dolby_vision">Dolby Vision</string>
+    <string name="resolution_selection_title">Cydraniad</string>
     <string name="resolution_selection_auto_title">Awtomatig</string>
+    <string name="resolution_selection_dialog_title">Newidiwyd cydraniad</string>
+    <string name="resolution_selection_dialog_desc">Dewisa Iawn i ddefnyddio %1$s o hyn ymlaen.</string>
     <string name="resolution_selection_dialog_cancel">Diddymu</string>
     <string name="resolution_selection_dialog_ok">Iawn</string>
     <string name="resolution_selection_hz">Hz</string>
@@ -176,6 +180,8 @@
     <string name="bluetooth_toggle_confirmation_dialog_title">Troi Bluetooth i ffwrdd</string>
     <string name="bluetooth_official_remote_category">Botymau Rheoli</string>
     <string name="bluetooth_official_remote_entry_title">Gosodiadau botymau rheoli</string>
+    <string name="bluetooth_ir_entry_title">Gosod botymau o bellter</string>
+    <string name="bluetooth_ir_entry_subtitle">Rheoli sain, pŵer, mewnbwn ar setiau teledu, derbynyddion a barrau sain</string>
     <string name="bluetooth_connect_action_title">Cysylltu</string>
     <string name="bluetooth_connect_confirm">Cysylltu â %1$s</string>
     <string name="bluetooth_disconnect_action_title">Datgysylltu</string>
@@ -401,6 +407,10 @@
     <string name="wifi_connect">Cysylltu</string>
     <string name="wifi_forget_network">Anghofio\'r rhwydwaith</string>
     <string name="wifi_forget_network_description">Mae hyn yn clirio\'r wybodaeth a ddefnyddir i gysylltu â\'r rhwydwaith hwn, gan gynnwys cyfrinair wedi\'i chadw</string>
+    <string name="wifi_scan_qr_code_description">        Ymuna â Wi\u2011Fi gan sganio\u2019r cod QR o ffôn symudol a dilyn y cyfarwyddiadau.\n
+        \n
+        O <b>Ffôn Android</b> cer i Gosodiadau -&gt; Rhwydwaith a\u2019r rhyngrwyd -&gt; Wi-Fi -&gt; Dewis Wi-Fi -&gt; Uwch -&gt; Ychwanegu ddyfais, ac yna sganio\u2019r cod QR.
+    </string>
     <string name="wifi_action_ok">Iawn</string>
     <string name="wifi_setup_action_dont_change_network">Parhau</string>
     <string name="wifi_setup_action_change_network">Newid rhwydwaith</string>
@@ -466,9 +476,13 @@
     <string name="storage_device_storage_section">Storfa\'r ddyfais</string>
     <string name="storage_removable_storage_section">Storfa gellir ei dynnu allan</string>
     <string name="storage_reset_section">Ailosod</string>
-    <string name="storage_free_up_clear_cached_data">Clirio\u2019r data yn y cof dros dro</string>
+    <string name="storage_free_up">Rhyddhau lle ar y storfa</string>
+    <string name="storage_free_up_clear_cached_data">Clirio data yn y cof dros dro</string>
+    <string name="storage_free_up_clear_cached_data_summary">Rhyddhau <xliff:g id="space" example="100MB">%1$s</xliff:g></string>
+    <string name="storage_free_up_clear_cached_data_info">Mae\u2019n clirio ffeiliau dros dro sy\u2019n cymryd lle. Ni fydd yn effeithio ar ddata wedi\u2019i gadw fel gosodiadau apiau neu fideos all-lein, ac ni fydd yn rhaid mewngofnodi eto i apiau.</string>
     <string name="storage_free_up_clear_cached_data_confirm_title">Clirio data yn y cof dros dro?</string>
     <string name="storage_free_up_clear_cached_data_confirm_description">Bydd hyn yn clirio\u2019r data yn y cof dros dro o bob ap.</string>
+    <string name="storage_free_up_uninstall_apps">Dadosod apiau</string>
     <string name="storage_mount_success">Mae <xliff:g id="name" example="SD card">%1$s</xliff:g> wedi mowntio</string>
     <string name="storage_mount_failure">Methwyd â mowntio <xliff:g id="name" example="SD card">%1$s</xliff:g></string>
     <string name="storage_mount_adopted">Storfa USB wedi\'i ailgysylltu</string>
@@ -541,7 +555,11 @@
     </string-array>
     <string name="no_recent_sensor_accesses">Dim mynediad diweddar</string>
     <string name="recently_accessed_show_all">Gweld y cwbl</string>
+    <string name="microphone_physical_privacy_enabled_title">Mynediad at feicroffon wedi\u2019i rwystro</string>
+    <string name="microphone_physical_privacy_enabled_text">I ddadrwystro, symuda\u2019r switsh preifatrwydd ar dy ddyfais fel bod y meicroffon ymlaen i ganiatáu mynediad at y meicroffon.</string>
     <string name="camera">Camera</string>
+    <string name="camera_physical_privacy_enabled_title">Mynediad at gamera wedi\u2019i rwystro</string>
+    <string name="camera_physical_privacy_enabled_text">I ddadrwystro, symuda\u2019r switsh preifatrwydd ar dy ddyfais fel bod y camera ymlaen i ganiatáu mynediad at y camera.</string>
     <string name="sensor_toggle_info_on">Ymlaen</string>
     <string name="sensor_toggle_info_off">I ffwrdd</string>
     <string name="system_location">Lleoliad</string>
@@ -831,6 +849,7 @@
     <string name="device_apps_app_management_notifications">Hysbysiadau</string>
     <string name="device_apps_app_management_permissions">Caniatâd</string>
     <string name="device_apps_app_management_not_available">Ap ddim ar gael</string>
+    <string name="unused_apps">Apiau heb eu defnyddio</string>
     <string name="settings_ok">Iawn</string>
     <string name="settings_cancel">Diddymu</string>
     <string name="settings_on">Ymlaen</string>
@@ -901,10 +920,16 @@
     <string name="write_settings_description">Mae\'n caniatáu ap i addasu gosodiadau\'r system.</string>
     <string name="write_settings_on">Iawn</string>
     <string name="write_settings_off">Na</string>
+    <string name="manage_external_storage_title">Mynediad at bob ffeil</string>
+    <string name="permit_manage_external_storage">Caniatáu mynediad at bob ffeil</string>
+    <string name="allow_manage_external_storage_description">Caniatáu yr ap hwn i ddarllen, addasu a dileu ffeiliau ar y ddyfais hon neu ar unrhyw ddyfeisiau storio sy\u2019n cael eu cysylltu. Gallai\u2019r ap cael mynediad at ffeiliau heb ofyn i ti.</string>
     <string name="picture_in_picture_title">Llun-mewn-llun</string>
     <string name="picture_in_picture_app_detail_switch">Caniatáu llun-mewn-llun</string>
     <string name="picture_in_picture_empty_text">Nid oes unrhyw apiau wedi\'u gosod yn cefnogi Llun-mewn-llun</string>
     <string name="picture_in_picture_app_detail_summary">Caniatáu i bob un o\'r apiau hyn greu ffenestr llun-mewn-llun tra bod yr ap ar agor neu ar ôl i ti ei adael (i barhau i wylio fideo, er enghraifft). Bydd y ffenestr hon yn ymddangos dros ben yr apiau eraill sy\'n cael eu defnyddio.</string>
+    <string name="turn_screen_on_title">Troi\u2019r sgrin ymlaen</string>
+    <string name="allow_turn_screen_on">Caniatáu troi\u2019r sgrin ymlaen</string>
+    <string name="allow_turn_screen_on_description">Ychwanegu ap i droi\u2019r sgrin ymlaen. Os rhoddir, bydd yr ap yn gallu troi\u2019r sgrin ymlaen unrhyw bryd heb i ti fod wedi dewis gwneud.</string>
     <string name="special_access">Mynediad arbennig yr ap</string>
     <string name="string_concat"><xliff:g id="part1">%1$s</xliff:g>, <xliff:g id="part2">%2$s</xliff:g></string>
     <string name="audio_category">Sain</string>
@@ -940,4 +965,5 @@
     <string name="screen_settings_title">Sgrin</string>
     <string name="sound_settings_title">Sain</string>
     <string name="reset_options_title">Ailosod</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label">Cod paru ethernet</string>
 </resources>

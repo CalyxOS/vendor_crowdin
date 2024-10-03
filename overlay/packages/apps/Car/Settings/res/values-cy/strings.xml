@@ -298,7 +298,7 @@
     <string name="apps_and_notifications_settings">Apiau a hysbysiadau</string>
     <string name="all_applications">Dangos pob ap</string>
     <string name="default_applications">Apiau rhagosodedig</string>
-    <string name="performance_impacting_apps">Apiau sy\u2019n amharu perfformiad</string>
+    <string name="performance_impacting_apps">Apiau sy\u2019n amharu ar berfformiad</string>
     <string name="app_permissions">Caniatâd yr ap</string>
     <string name="app_permissions_summary">Rheoli mynediad yr ap at dy ddata</string>
     <string name="applications_settings">Gwybodaeth ap</string>
@@ -409,6 +409,7 @@
     <string name="notification_listener_revoke_warning_summary">Os fyddi\'n gwrthod mynediad <xliff:g id="notification_listener_name">%1$s</xliff:g> at hysbysiadau, mae\'n bosib y bydd mynediad at Dim Tarfu hefyd yn cael ei wrthod.</string>
     <string name="notification_listener_revoke_warning_confirm">Troi i ffwrdd</string>
     <string name="notification_listener_revoke_warning_cancel">Diddymu</string>
+    <string name="performance_impacting_apps_description">Mae\u2019r apiau hyn yn cael dylanwad negatif ar berfformiad y system ac wedi eu rhwystro rhag rhedeg yn y cefndir.\nBlaenoriaetha ap i ganiatáu defnydd yn y cefndir a\u2019i dynnu o\u2019r rhestr hon.</string>
     <string name="performance_impacting_apps_button_label">Blaenoriaethu ap</string>
     <string name="premium_sms_access_title">Mynediad SMS premiwm</string>
     <string name="premium_sms_access_description">Gall SMS Premiwm gostio arian i ti a bydd yn ymddangos ar filiau dy ddarparwr gwasanaeth symudol. Os wyt ti\'n rhoi caniatâd i ap, mi fydd yn bosib iti anfon SMS Premiwm gyda\'r ap hwnnw.</string>
@@ -418,8 +419,13 @@
     <string name="wifi_control_description">Mae rheolaeth Wi-Fi yn caniatáu i ap droi Wi-Fi ymlaen ac i ffwrdd, sganio am a chysylltu â rhwydweithiau Wi-Fi, tynnu neu ychwanegu rhwydweithiau neu dechrau llecyn Wi-Fi.</string>
     <string name="more_special_access_title">Rhagor</string>
     <string name="location_settings_title">Lleoliad</string>
-    <string name="adas_location_toggle_off_warning">Os wyt yn troi hwn i ffwrdd, bydd apiau cymorth gyrrwr sy\u2019n ddibynol ar wybodaeth lleoliad yn cael eu hanalluogi</string>
+    <string name="location_toggle_off_warning">Os fydd hwn i ffwrdd, mi fydd yn tynnu mynediad at leoliad oddi wrth pob ap ag eithro\u2019r rhai sydd ei angen ar gyfer cymorth gyrrwr</string>
+    <string name="adas_location_toggle_off_warning">        Os fydd hwn i ffwrdd, caiff apiau cymorth gyrrwr sy\u2019n dibynnu ar wybodaeth lleoliad eu hanalluogi.
+    </string>
     <string name="location_no_recent_access">Dim apiau diweddar</string>
+    <string name="driver_assistance_label">        <xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Cymorth Gyrrwr \u2022
+        Angen mynediad
+    </string>
     <string name="location_settings_app_permissions_title">Caniatâd lefel apiau</string>
     <string name="location_settings_services_title">Gwasanaethau Lleoliad</string>
     <string name="microphone_no_recent_access">Dim apiau diweddar</string>
@@ -568,6 +574,7 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="storage_clear_user_data_text">Clirio\'r storfa</string>
     <string name="storage_clear_cache_btn_text">Clirio\u2019r cof dros dro</string>
     <string name="storage_clear_data_dlg_title">Dileu data\'r ap?</string>
+    <string name="storage_clear_data_dlg_text">Bydd data\u2019r ap hwn yn cael ei ddileu yn barhaol. Mae hyn yn cynnwys ffeiliau, gosodiadau, cronfeydd ddata, ac unrhyw ddata arall yr ap.</string>
     <string name="storage_clear_failed_dlg_text">Methwyd â chlirio storfa ar gyfer yr ap.</string>
     <string name="storage_unmount_success">Dadfowntwyd <xliff:g id="name" example="SD card">%1$s</xliff:g> yn ddiogel</string>
     <string name="storage_unmount_failure">Methwyd â dadfowntio <xliff:g id="name" example="SD card">%1$s</xliff:g> yn ddiogel</string>
@@ -770,11 +777,13 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="exit_retail_mode_dialog_confirmation_button_text">Gadael modd arddangos</string>
     <string name="suggestion_dismiss_button">DIYSTYRU</string>
     <string name="restricted_while_driving">Nodwedd ddim ar gael tra\'n gyrru.</string>
+    <string name="restricted_for_passenger">Gofyn i\u2019r gyrrwr newid gosodiad</string>
     <string name="default_search_query">Chwilio</string>
     <string name="assistant_and_voice_setting_title">Cynorthwyyd a llais</string>
     <string name="assistant_and_voice_assistant_app_title">Ap cynorthwyydd digidol</string>
     <string name="assistant_and_voice_use_text_from_screen_title">Defnyddio testun o\'r sgrin</string>
     <string name="assistant_and_voice_use_screenshot_title">Defnyddio sgrinlun</string>
+    <string name="cannot_remove_driver_profile">Mae\u2019r proffil hwn wedi mewngofnodi fel gyrrwr. Ceisia eto pan na fydd y proffil yn cael ei ddefnyddio fel y gyrrwr.</string>
     <string name="device_admin_activated_apps">Apiau wedi\u2019u actifadu</string>
     <string name="device_admin_deactivated_apps">Apiau wedi\u2019u dadactifadu</string>
     <string name="add_device_admin_msg">Actifadu\u2019r ap gwybodloniant system hwn?</string>

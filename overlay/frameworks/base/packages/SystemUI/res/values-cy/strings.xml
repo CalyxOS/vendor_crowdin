@@ -88,8 +88,8 @@
     <string name="screenshot_right_boundary_pct">Terfyn de <xliff:g id="percent" example="50">%1$d</xliff:g> y cant</string>
     <string name="screenshot_work_profile_notification">Cadwyd yn <xliff:g id="app" example="Files">%1$s</xliff:g> yn y proffil gwaith</string>
     <string name="screenshot_default_files_app_name">Ffeiliau</string>
-    <string name="screenshot_detected_template">Mae <xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> wedi canfod y ciplun hwn.</string>
-    <string name="screenshot_detected_multiple_template">Mae <xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> ac apiau eraill wedi canfod y ciplun hwn.</string>
+    <string name="screenshot_detected_template">Canfododd <xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> y sgrinlun hwn.</string>
+    <string name="screenshot_detected_multiple_template">Canfododd <xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> ac apiau eraill y sgrinlun hwn.</string>
     <string name="screenrecord_title">Recordydd Sgrin</string>
     <string name="screenrecord_background_processing_label">Prosesu recordiad sgrin</string>
     <string name="screenrecord_channel_description">Hysbysiad i ddangos bod y sgrin yn cael ei recordio</string>
@@ -858,9 +858,9 @@ two {Ychwanegwyd # reolydd.}
     <string name="controls_dialog_message">Awgrymwyd gan <xliff:g id="app" example="System UI">%s</xliff:g></string>
     <string name="controls_tile_locked">Dyfais dan glo</string>
     <string name="controls_settings_show_controls_dialog_title">Dangos a rheoli dyfeisiau o\u2019r sgrin cloi?</string>
-    <string name="controls_settings_show_controls_dialog_message">Gellir ychwanegu rheolyddion ar gyfer dy ddyfeisiau allanol i\'r sgrin gloi.\n\nGall ap dy ddyfais ganiatáu i ti reoli rhai dyfeisiau heb ddatgloi dy ffôn neu lechen.\n\nGellir gwneud newidiadau ar unrhyw adeg yn Gosodiadau.</string>
+    <string name="controls_settings_show_controls_dialog_message">Gellir ychwanegu rheolyddion ar gyfer dy ddyfeisiau allanol i\'r sgrin cloi.\n\nGall ap dy ddyfais ganiatáu i ti reoli rhai dyfeisiau heb ddatgloi dy ffôn neu lechen.\n\nGellir gwneud newidiadau ar unrhyw adeg yn Gosodiadau.</string>
     <string name="controls_settings_trivial_controls_dialog_title">Rheoli dyfeisiau o\u2019r sgrin cloi?</string>
-    <string name="controls_settings_trivial_controls_dialog_message">Gellir rheoli rhai dyfeisiau heb ddatgloi dy ffôn neu lechen. Bydd ap dy ddyfias yn pennu pa ddyfeisiau y gellid eu reoli fel yma.</string>
+    <string name="controls_settings_trivial_controls_dialog_message">Gellir rheoli rhai dyfeisiau heb ddatgloi dy ffôn neu lechen. Bydd ap dy ddyfais yn pennu pa ddyfeisiau y gellid eu rheoli fel hyn.</string>
     <string name="controls_settings_dialog_neutral_button">Dim diolch</string>
     <string name="controls_settings_dialog_positive_button">Iawn</string>
     <string name="controls_pin_use_alphanumeric">Mae\'r PIN yn cynnwys llythrennau neu symbolau</string>
@@ -889,7 +889,7 @@ two {Ychwanegwyd # reolydd.}
     <string name="controls_media_smartspace_rec_description">Agor <xliff:g id="app_label" example="Spotify">%1$s</xliff:g></string>
     <string name="controls_media_smartspace_rec_item_description">Chwarae <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> gan <xliff:g id="artist_name" example="Various artists">%2$s</xliff:g> o <xliff:g id="app_label" example="Spotify">%3$s</xliff:g></string>
     <string name="controls_media_smartspace_rec_item_no_artist_description">Chwarae <xliff:g id="song_name" example="Daily mix">%1$s</xliff:g> o <xliff:g id="app_label" example="Spotify">%2$s</xliff:g></string>
-    <string name="controls_media_smartspace_rec_header">I Ti</string>
+    <string name="controls_media_smartspace_rec_header">Ar Dy Gyfer</string>
     <string name="media_transfer_undo">Dad-wneud</string>
     <string name="media_move_closer_to_start_cast">Symuda\u2019n agosach i chwarae ar <xliff:g id="deviceName" example="My Tablet">%1$s</xliff:g></string>
     <string name="media_move_closer_to_end_cast">I chwarae yma, symuda\u2019n agosach at <xliff:g id="deviceName" example="tablet">%1$s</xliff:g></string>
@@ -1010,12 +1010,16 @@ two {Ychwanegwyd # reolydd.}
     <string name="qs_user_switch_dialog_title">Dewis defnyddiwr</string>
     <string name="fgs_manager_footer_label">{count, plural,
         =1 {Mae # ap yn weithredol}
-        zero {Mae # apiau yn weithredol}
+one {Mae # ap yn weithredol}
+two  {Mae # ap yn weithredol}
+few {Mae # ap yn weithredol}
+many {Mae # ap yn weithredol}
+        zero {Does # apiau yn weithredol}
         other {Mae # ap yn weithredol}
     }</string>
     <string name="fgs_dot_content_description">Gwybodaeth newydd</string>
     <string name="fgs_manager_dialog_title">Apiau gweithredol</string>
-    <string name="fgs_manager_dialog_message">Mae\u2019r apiau hyn yn weithredol ac yn rhedeg, hyd yn oed pan nad wyt yn eu defnyddio. Mae hyn yn gwella eu gweithrediad, ond gall hefyd yn effeithio ar fywyd batri.</string>
+    <string name="fgs_manager_dialog_message">Mae\u2019r apiau hyn yn weithredol ac yn rhedeg, hyd yn oed pan nad wyt yn eu defnyddio. Mae hyn yn gwella eu gweithrediad, ond gall hefyd effeithio ar oes batri.</string>
     <string name="fgs_manager_app_item_stop_button_label">Stopio</string>
     <string name="fgs_manager_app_item_stop_button_stopped_label">Wedi\'i stopio</string>
     <string name="clipboard_edit_text_done">Cwblhau</string>
@@ -1031,7 +1035,7 @@ two {Ychwanegwyd # reolydd.}
     <string name="clipboard_content_copied">Cynnwys wedi\u2019i gopïo</string>
     <string name="clipboard_editor">Golygydd Clipfwrdd</string>
     <string name="clipboard_overlay_window_name">Clipfwrdd</string>
-    <string name="clipboard_image_preview">Rhagolwg llun</string>
+    <string name="clipboard_image_preview">Rhagolwg delwedd</string>
     <string name="clipboard_edit">golygu</string>
     <string name="add">Ychwanegu</string>
     <string name="manage_users">Rheoli defnyddwyr</string>
@@ -1062,10 +1066,10 @@ two {Ychwanegwyd # reolydd.}
     <string name="rear_display_bottom_sheet_confirm">Newid sgriniau nawr</string>
     <string name="rear_display_folded_bottom_sheet_title">Dadblygu\u2019r ffôn</string>
     <string name="rear_display_unfolded_bottom_sheet_title">Newid sgriniau?</string>
-    <string name="rear_display_folded_bottom_sheet_description">Ar gyfer cydraniad uwch, defnyddia\'r camera cefn</string>
-    <string name="rear_display_unfolded_bottom_sheet_description">Ar gyfer cydranaid uwch, fflipia\'r ffôn</string>
-    <string name="rear_display_accessibility_folded_animation">Dyfais plygadwy\'n cael ei ddadblygu</string>
-    <string name="rear_display_accessibility_unfolded_animation">Dyfais plygadwy\'n cael ei fflipio</string>
+    <string name="rear_display_folded_bottom_sheet_description">Am gydraniad uwch, defnyddia\'r camera cefn</string>
+    <string name="rear_display_unfolded_bottom_sheet_description">Am gydranaid uwch, fflipia\'r ffôn</string>
+    <string name="rear_display_accessibility_folded_animation">Dyfais blygadwy\'n cael ei dat-blygu</string>
+    <string name="rear_display_accessibility_unfolded_animation">Dyfais blygadwy\'n cael ei fflipio</string>
     <string name="stylus_battery_low_percentage"><xliff:g id="percentage" example="16%">%s</xliff:g> o fatri\u2019n weddill</string>
     <string name="stylus_battery_low_subtitle">Cysyllta dy ysgrifbin at wefrydd</string>
     <string name="stylus_battery_low">Batri ysgrifbin yn isel</string>

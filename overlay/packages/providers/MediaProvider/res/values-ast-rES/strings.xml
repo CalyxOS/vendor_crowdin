@@ -14,7 +14,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uid_label">Conteníu multimedia</string>
+    <string name="storage_description">Almacenamientu llocal</string>
     <string name="picker_app_label">Selector de medios</string>
+    <string name="artist_label">Artista</string>
+    <string name="unknown">Descripción desconocida</string>
+    <string name="root_images">Imáxenes</string>
+    <string name="root_videos">Vídeos</string>
+    <string name="root_audio">Audiu</string>
+    <string name="root_documents">Documentos</string>
+    <string name="permission_required">Ríquense permisos pa modificar o desaniciar esti elementu.</string>
+    <string name="permission_required_action">Siguir</string>
+    <string name="grant_dialog_button_allow">Permitir</string>
+    <string name="grant_dialog_button_deny">Negar</string>
     <string name="permission_more_thumb"> {count, plural,
         one {}=1    {+<xliff:g id="count" example="1">^1</xliff:g>}
         other {+<xliff:g id="count" example="42">^1</xliff:g>}
@@ -23,6 +35,12 @@
         one {}=1    {Más <xliff:g id="count" example="1">^1</xliff:g> elementu adicional}
         other {Más <xliff:g id="count" example="42">^1</xliff:g> elementos adicionales}
     }</string>
+    <string name="cache_clearing_dialog_title">Borráu de los ficheros temporales de les aplicaciones</string>
+    <string name="cache_clearing_dialog_text">«<xliff:g id="app_seeking_permission" example="File manager">%s</xliff:g>» quier borrar dalgunos ficheros temporales. Esta aición pue aumentar el consumu de la batería o de los datos móviles.</string>
+    <string name="cache_clearing_in_progress_title">Borrando los ficheros temporales de les aplicaciones\u2026</string>
+    <string name="clear">Borrar</string>
+    <string name="allow">Permitir</string>
+    <string name="deny">Negar</string>
     <string name="picker_browse">Restolar\u2026</string>
     <string name="picker_settings">Aplicación de medios na nube</string>
     <string name="picker_settings_system_settings_menu_title">Aplicación de medios na nube</string>
@@ -93,6 +111,7 @@
     <string name="not_selected">nun se seleicionó</string>
     <string name="preloading_dialog_title">"Preparando los medios seleicionaos"</string>
     <string name="preloading_progress_message"><xliff:g id="number_preloaded">%1$d</xliff:g> de <xliff:g id="number_total">%2$d</xliff:g> a puntu</string>
+    <string name="preloading_cancel_button">Encaboxar</string>
     <string name="picker_banner_cloud_first_time_available_title">Agora inclúise la copia de seguranza de les semeyes</string>
     <string name="picker_banner_cloud_first_time_available_desc">Pues seleicionar les semeyes de la cuenta «<xliff:g id="user_account" example="johndoe123@gmail.com">%2$s</xliff:g>» de l\'aplicación «<xliff:g id="app_name" example="Photos">%1$s</xliff:g>»</string>
     <string name="picker_banner_cloud_account_changed_title">Anovóse la cuenta de: <xliff:g id="app_name" example="Photos">%1$s</xliff:g></string>
@@ -234,6 +253,14 @@
         one {}=1    {Desaniciando l\'elementu…}
         other {Desaniciando <xliff:g id="count" example="42">^1</xliff:g> elementos…}
     }</string>
+    <string name="transcode_denied">«<xliff:g id="app_name" example="File manager">%s</xliff:g>» nun pue procesar los ficheros multimedia</string>
+    <string name="transcode_processing_cancelled">Anulóse\'l procesamientu del conteníu multimedia</string>
+    <string name="transcode_processing_error">Prodúxose un error nel procesamientu del conteníu multimedia</string>
+    <string name="transcode_processing_success">El procesamientu del conteníu multimedia foi correutu</string>
+    <string name="transcode_processing_started">Anicióse\'l procesamientu del conteníu multimedia</string>
+    <string name="transcode_processing">Procesando\'l conteníu multimedia…</string>
+    <string name="transcode_cancel">Encaboxar</string>
+    <string name="transcode_wait">Esperar</string>
     <string name="safety_protection_icon_label">Proteición de seguranza</string>
     <string name="transcode_alert_channel">Alertes de la trescodificación nativa</string>
     <string name="transcode_progress_channel">Progresu de la trescodificación nativa</string>

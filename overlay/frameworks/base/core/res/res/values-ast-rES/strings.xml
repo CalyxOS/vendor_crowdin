@@ -162,7 +162,7 @@
     <string name="fcComplete">Códigu de función completu.</string>
     <string name="fcError">Hebo un problema de conexón o\'l códigu de función nun ye válidu.</string>
     <string name="httpErrorOk">OK</string>
-    <string name="httpError">Hebo un fallu de rede.</string>
+    <string name="httpError">Hebo un error de rede.</string>
     <string name="httpErrorLookup">Nun se pudo atopar la URL.</string>
     <string name="httpErrorUnsupportedAuthScheme">L\'esquema d\'autenticación del sitiu nun ye compatible.</string>
     <string name="httpErrorAuth">Nun se pudo autenticar.</string>
@@ -177,7 +177,7 @@
     <string name="httpErrorFile">Nun se pudo acceder al ficheru.</string>
     <string name="httpErrorFileNotFound">Nun se pudo atopar el ficheru solicitáu.</string>
     <string name="httpErrorTooManyRequests">Tán procesándose milenta solicitúes. Volvi a tentalo dempués.</string>
-    <string name="notification_title">Fallu del aniciu de sesión de: <xliff:g id="account" example="foo@gmail.com">%1$s</xliff:g></string>
+    <string name="notification_title">Error del aniciu de la sesión de: <xliff:g id="account" example="foo@gmail.com">%1$s</xliff:g></string>
     <string name="contentServiceSync">Sincronización</string>
     <string name="contentServiceSyncNotificationTitle">Nun se pue sincronizar</string>
     <string name="contentServiceTooManyDeletesNotificationDesc">Tentóse de desaniciar milenta elementos de: <xliff:g id="content_type">%s</xliff:g>.</string>
@@ -320,7 +320,7 @@
     <string name="notification_channel_usb">Conexón USB</string>
     <string name="notification_channel_heavy_weight_app">Aplicación n\'execución</string>
     <string name="notification_channel_foreground_service">Aplicaciones que gasten enerxía</string>
-    <string name="notification_channel_accessibility_magnification">Aumentu</string>
+    <string name="notification_channel_accessibility_magnification">Agrandamientu</string>
     <string name="notification_channel_accessibility_security_policy">Usu de l\'accesibilidá</string>
     <string name="notification_channel_display">Pantalla</string>
     <string name="foreground_service_app_in_background">«<xliff:g id="app_name">%1$s</xliff:g>»
@@ -357,7 +357,7 @@
     <string name="permgroupdesc_activityRecognition">accesu a l\'actividá física</string>
     <string name="permgrouplab_camera">Cámara</string>
     <string name="permgroupdesc_camera">fechura d\'imáxenes y grabación de vídeos</string>
-    <string name="permgrouplab_nearby_devices">Preseos cercanos</string>
+    <string name="permgrouplab_nearby_devices">Preseos próximos</string>
     <string name="permgroupdesc_nearby_devices">descubrimientu de preseos y conexón con ellos</string>
     <string name="permgrouplab_calllog">Rexistru de llamaes</string>
     <string name="permgroupdesc_calllog">llectura y escritura nel rexistru de llamaes telefóniques</string>
@@ -376,7 +376,7 @@
     <string name="capability_title_canRequestFilterKeyEvents">Ver el testu que teclexes</string>
     <string name="capability_desc_canRequestFilterKeyEvents">Inclúi datos personales como númberos
         de tarxetes de creitu y contraseñes.</string>
-    <string name="capability_title_canControlMagnification">Controlar l\'aumentu de la pantalla</string>
+    <string name="capability_title_canControlMagnification">Controlar l\'agrandamientu de la pantalla</string>
     <string name="capability_desc_canControlMagnification">Controla\'l nivel de zoom y el posicionamientu
         de la pantalla.</string>
     <string name="capability_title_canPerformGestures">Facer xestos</string>
@@ -596,7 +596,7 @@
         a los comandos adicionales del fornidor de llocalización.  Esti permisu
         pue interfirir col funcionamientu del GPS con otres fontes de llocalización.</string>
     <string name="permlab_accessFineLocation">accesu a la llocalización exauta namás en primer planu</string>
-    <string name="permdesc_accessFineLocation">Esta aplicación pue consiguir la lo llocalización exautu pente les fontes de llocalización mentanto l\'aplicación ta n\'usu. Los servicios de llocalización han tar activaos pa que l\'aplicación consiga la llocalización. Poro, l\'aplicación pue consumir más enerxía.</string>
+    <string name="permdesc_accessFineLocation">Esta aplicación pue consiguir la to llocalización exauta pente les fontes de llocalización mentanto l\'aplicación ta n\'usu. Los servicios de llocalización han tar activaos pa que l\'aplicación consiga la llocalización. Poro, l\'aplicación pue consumir más enerxía.</string>
     <string name="permlab_accessCoarseLocation">accesu a la llocalización namás en primer planu</string>
     <string name="permdesc_accessCoarseLocation">Esta aplicación pue consiguir la to llocalización aproximada pente les fontes de llocalización mentanto l\'aplicación ta n\'usu. Los servicios de llocalización han tar activaos pa que l\'aplicación consiga la llocalización.</string>
     <string name="permlab_accessBackgroundLocation">accesu a la llocalización en segundu planu</string>
@@ -752,16 +752,16 @@
     <string name="permdesc_bluetooth" product="default">Permite que l\'aplicación vea la
       configuración del Bluetooth del teléfonu y faiga y acepte
       conexones colos preseos empareyaos.</string>
-    <string name="permlab_bluetooth_scan">descubrimientu de preseos Bluetooth cercanos y empareyamientu con ellos</string>
-    <string name="permdesc_bluetooth_scan" product="default">Permite que l\'aplicación descubra y s\'empareye con preseos Bluetooth cercanos</string>
+    <string name="permlab_bluetooth_scan">descubrimientu de preseos Bluetooth próximos y empareyamientu con ellos</string>
+    <string name="permdesc_bluetooth_scan" product="default">Permite que l\'aplicación descubra y s\'empareye con preseos Bluetooth próximos</string>
     <string name="permlab_bluetooth_connect">conexón con preseos Bluetooth empareyaos</string>
     <string name="permdesc_bluetooth_connect" product="default">Permite que l\'aplicación se conecte a los preseos Bluetooth empareyaos</string>
-    <string name="permlab_bluetooth_advertise">avisos a preseos Bluetooth cercanos</string>
-    <string name="permdesc_bluetooth_advertise" product="default">Permite que l\'aplicación s\'anuncie a los preseos Bluetooth cercanos</string>
-    <string name="permlab_uwb_ranging">cálculu de la posición relativa ente preseos de banda ultraampla cercanos</string>
-    <string name="permdesc_uwb_ranging">Permite que l\'aplicación determine la posición relativa ente preseos de banda ultraampla cercanos</string>
-    <string name="permlab_nearby_wifi_devices">interaición colos preseos Wi\u2011Fi cercanos</string>
-    <string name="permdesc_nearby_wifi_devices">Permite que l\'aplicación s\'anuncie, conecte y determine la posición relativa de los preseos Wi\u2011Fi cercanos</string>
+    <string name="permlab_bluetooth_advertise">avisos a preseos Bluetooth próximos</string>
+    <string name="permdesc_bluetooth_advertise" product="default">Permite que l\'aplicación s\'anuncie a los preseos Bluetooth próximos</string>
+    <string name="permlab_uwb_ranging">cálculu de la posición relativa ente preseos de banda ultraampla próximos</string>
+    <string name="permdesc_uwb_ranging">Permite que l\'aplicación determine la posición relativa ente preseos de banda ultraampla próximos</string>
+    <string name="permlab_nearby_wifi_devices">interaición colos preseos Wi\u2011Fi próximos</string>
+    <string name="permdesc_nearby_wifi_devices">Permite que l\'aplicación s\'anuncie, conecte y determine la posición relativa de los preseos Wi\u2011Fi próximos</string>
     <string name="permlab_preferredPaymentInfo">Información del serviciu de pagos preferíu per NFC</string>
     <string name="permdesc_preferredPaymentInfo">Permite que l\'aplicación consiga información del serviciu de pagos preferíu
       per NFC, como ayudes rexistraes y destinos de caminos.</string>
@@ -775,7 +775,7 @@
     <string name="permdesc_disableKeyguard">Permite que l\'aplicación desactive\'l
       bloquéu de tecles y cualesquier proteición asociada a les contraseñes.
       Por exemplu, el teléfonu desactiva\'l bloquéu de tecles al recibir una
-      llamada entrante y vuelve activalu cuando fine esa llamada.</string>
+      llamada telefónica entrante y vuelve activalu cuando fine esa llamada.</string>
     <string name="permlab_requestPasswordComplexity">solicitú de la complexidá del bloquéu de pantalla</string>
     <string name="permdesc_requestPasswordComplexity">Permite que l\'aplicación sepa\'l
         nivel de complexidá del bloquéu (altu, mediu, baxu o nengún), qu\'indica la llongura de les
@@ -787,7 +787,7 @@
     <string name="permlab_postNotification">amuesa d\'avisos</string>
     <string name="permdesc_postNotification">Permite que l\'aplicación amuese avisos</string>
     <string name="permlab_turnScreenOn">encendíu de la pantalla</string>
-    <string name="permdesc_turnScreenOn">Permite que l\'aplicación prenda la pantalla.</string>
+    <string name="permdesc_turnScreenOn">Permite que l\'aplicación encienda la pantalla.</string>
     <string name="permlab_useBiometric">usu del hardware biométrico</string>
     <string name="permdesc_useBiometric">Permite que l\'aplicación use\'l hardware biométrico pa l\'autenticación</string>
     <string name="permlab_manageFingerprint">xestión del hardware de buelgues</string>
@@ -824,7 +824,7 @@
     <string name="fingerprint_acquired_too_slow">El deu movióse perdespacio. Volvi tentalo.</string>
     <string name="fingerprint_acquired_already_enrolled">Prueba con otra buelga</string>
     <string name="fingerprint_acquired_too_bright">Hai permuncha lluz</string>
-    <string name="fingerprint_acquired_power_press">Primióse\'l botón de prendíu</string>
+    <string name="fingerprint_acquired_power_press">Primióse\'l botón d\'encendíu</string>
     <string name="fingerprint_acquired_try_adjusting">Prueba a mover el deu</string>
     <string name="fingerprint_acquired_immobile">Camuda llixeramente la posición del deu en cada intentu</string>
     <string-array name="fingerprint_acquired_vendor"/>
@@ -846,7 +846,7 @@
     <string name="fingerprint_error_hw_not_present">Esti preséu nun tien nengún sensor de buelgues</string>
     <string name="fingerprint_error_security_update_required">El sensor de buelgues ta temporalmente desactiváu</string>
     <string name="fingerprint_error_bad_calibration">Nun se pue usar el sensor de buelgues. Visita un fornidor de reparaciones.</string>
-    <string name="fingerprint_error_power_pressed">Primióse\'l botón de prendíu</string>
+    <string name="fingerprint_error_power_pressed">Primióse\'l botón d\'apagáu</string>
     <string name="fingerprint_name_template">Deu <xliff:g id="fingerId" example="1">%d</xliff:g></string>
     <string name="fingerprint_app_setting_name">Usar la buelga</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Usar la buelga o\'l bloquéu de pantalla</string>
@@ -1436,7 +1436,7 @@
     <string name="failed_to_copy_to_clipboard">Hebo un fallu al copiar nel cartafueyu</string>
     <string name="paste">Apegar</string>
     <string name="paste_as_plain_text">Apegar como testu ensin formatu</string>
-    <string name="replace">Trocar\u2026</string>
+    <string name="replace">Sustituyir\u2026</string>
     <string name="delete">Desaniciar</string>
     <string name="copyUrl">Copiar la URL</string>
     <string name="selectTextMode">Seleicionar testu</string>
@@ -1553,11 +1553,11 @@
     <string name="android_preparing_apk">Tresnando «<xliff:g id="appname">%1$s</xliff:g>».</string>
     <string name="android_upgrading_starting_apps">Aniciando les aplicaciones.</string>
     <string name="android_upgrading_complete">Finando l\'arrinque.</string>
-    <string name="fp_power_button_enrollment_message">Primiesti\'l botón de prendíu, aición que suel apagar la pantalla.\n\nPrueba a tocalu llixeramente mentanto configures la buelga.</string>
+    <string name="fp_power_button_enrollment_message">Primiesti\'l botón d\'apagáu, aición que suel apagar la pantalla.\n\nPrueba a tocalu llixeramente mentanto configures la buelga.</string>
     <string name="fp_power_button_enrollment_title">Pa finar, apaga la pantalla</string>
     <string name="fp_power_button_enrollment_button_text">Desactivar</string>
     <string name="fp_power_button_bp_title">¿Quies siguir verificando la buelga?</string>
-    <string name="fp_power_button_bp_message">Primiesti\'l botón de prendíu, aición que suel apagar la pantalla.\n\nPrueba a tocalu llixeramente pa verificar la to buelga.</string>
+    <string name="fp_power_button_bp_message">Primiesti\'l botón d\'apagáu, aición que suel apagar la pantalla.\n\nPrueba a tocalu llixeramente pa verificar la to buelga.</string>
     <string name="fp_power_button_bp_positive_button">Apagar la pantalla</string>
     <string name="fp_power_button_bp_negative_button">Siguir</string>
     <string name="heavy_weight_notification">«<xliff:g id="app">%1$s</xliff:g>» ta n\'execución</string>
@@ -1612,9 +1612,8 @@
     <string name="ringtone_picker_title_alarm">Soníos d\'alarma</string>
     <string name="ringtone_picker_title_notification">Soníos d\'avisu</string>
     <string name="ringtone_unknown">Desconozse</string>
-    <string name="wifi_available_sign_in">Anicia sesión na rede Wi-Fi</string>
+    <string name="wifi_available_sign_in">Anicia la sesión na rede Wi-Fi</string>
     <string name="network_available_sign_in">Anicia sesión na rede</string>
-    <string name="network_available_sign_in_detailed"><xliff:g id="network_ssid">%1$s</xliff:g></string>
     <string name="wifi_no_internet">«<xliff:g id="network_ssid" example="GoogleGuest">%1$s</xliff:g>» nun tien accesu a la rede</string>
     <string name="wifi_no_internet_detailed">Toca pa ver les opciones</string>
     <string name="mobile_no_internet">La rede móvil nun tien accesu a internet</string>
@@ -2097,13 +2096,13 @@
     <string name="accessibility_button_instructional_text">Pa cambiar de función, ten primíu\'l botón d\'accesibilidá.</string>
     <string name="accessibility_gesture_instructional_text">Pa cambiar de función, esliza p\'arriba con dos deos y ten primida la pantalla.</string>
     <string name="accessibility_gesture_3finger_instructional_text">Pa cambiar de función, esliza p\'arriba con trés deos y ten primida la pantalla.</string>
-    <string name="accessibility_magnification_chooser_text">Aumentu</string>
+    <string name="accessibility_magnification_chooser_text">Agrandamientu</string>
     <string name="user_switched">Usuariu actual: <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
     <string name="user_switching_message">Cambiando a «<xliff:g id="name" example="Bob">%1$s</xliff:g>»\u2026</string>
     <string name="user_logging_out_message">Zarrando la sesión de «<xliff:g id="name" example="Bob">%1$s</xliff:g>»\u2026</string>
     <string name="owner_name" msgid="3879126011135546571">Propietariu</string>
     <string name="guest_name">Convidáu</string>
-    <string name="error_message_title">Fallu</string>
+    <string name="error_message_title">Error</string>
     <string name="error_message_change_not_allowed">L\'alministrador nun permite esti cambéu</string>
     <string name="app_not_found">Nun s\'atopó nenguna aplicación pa remanar esta aición</string>
     <string name="revoke">Revocar</string>
@@ -2203,7 +2202,7 @@
     <string name="mediasize_unknown_portrait">Orientación vertical desconocida</string>
     <string name="mediasize_unknown_landscape">Orientación horizontal desconocida</string>
     <string name="write_fail_reason_cancelled">Encaboxóse</string>
-    <string name="write_fail_reason_cannot_write">Hebo un fallu al escribir el conteníu</string>
+    <string name="write_fail_reason_cannot_write">Hebo un error al escribir el conteníu</string>
     <string name="reason_unknown">desconozse</string>
     <string name="reason_service_unavailable">El serviciu d\'imprentación nun ta activáu</string>
     <string name="print_service_installed_title">Instalóse\'l serviciu «<xliff:g id="name" example="Cloud Print">%s</xliff:g>»</string>
@@ -2338,7 +2337,7 @@
     <string name="call_notification_hang_up_action">Colgar</string>
     <string name="call_notification_incoming_text">Llamada entrante</string>
     <string name="call_notification_ongoing_text">Llamada en cursu</string>
-    <string name="call_notification_screening_text">Filtrando una llamada entrante</string>
+    <string name="call_notification_screening_text">Peñerando una llamada entrante</string>
     <string name="default_notification_channel_label">Ensin estaya</string>
     <string name="importance_from_user">Afitesti la importancia d\'estos avisos.</string>
     <string name="importance_from_person">Ye importante pola mor de les persones implicaes.</string>
@@ -2513,8 +2512,8 @@
     <string name="nas_upgrade_notification_enable_action">OK</string>
     <string name="nas_upgrade_notification_disable_action">Desactivar</string>
     <string name="nas_upgrade_notification_learn_more_action">Saber más</string>
-    <string name="nas_upgrade_notification_learn_more_content">Los avisos ameyoraos trocaron los avisos adautables n\'Android 12. Esta función amuesa aiciones y rempuestes suxeríes, y organiza los avisos.\n\nLos avisos ameyoraos puen acceder al conteníu de los avisos, incluyida la información personal como\'l nome y los mensaxes de los contautos. Esta función tamién pue escartar o responder a los avisos, como les llamaes telefóniques y controlar el mou «Nun molestar».</string>
-    <string name="dynamic_mode_notification_channel_name">Avisu d\'información el mou Rutina</string>
+    <string name="nas_upgrade_notification_learn_more_content">Los avisos ameyoraos sustituyeron los avisos adautables n\'Android 12. Esta función amuesa aiciones y rempuestes suxeríes, y organiza los avisos.\n\nLos avisos ameyoraos puen acceder al conteníu de los avisos, incluyida la información personal como\'l nome y los mensaxes de los contautos. Esta función tamién pue escartar o responder a los avisos, como les llamaes telefóniques y controlar el mou «Nun molestar».</string>
+    <string name="dynamic_mode_notification_channel_name">Avisu d\'información del mou Rutina</string>
     <string name="dynamic_mode_notification_title">Activóse l\'aforrador d\'enerxía</string>
     <string name="dynamic_mode_notification_summary">Ta amenorgándose l\'usu de la batería p\'aumentar la so duración</string>
     <string name="battery_saver_notification_channel_name">Aforrador d\'enerxía</string>
@@ -2549,7 +2548,7 @@
     </string>
     <string name="chooser_no_direct_share_targets">Nun hai nenguna persona suxerida cola que compartir</string>
     <string name="chooser_all_apps_button_label">Llista d\'aplicaciones</string>
-    <string name="usb_device_resolve_prompt_warn">Esta aplicación nun tien permisu pa grabar audiu, mas podría capturalu pente esti preséu USB.</string>
+    <string name="usb_device_resolve_prompt_warn">A esta aplicación nun se-y concedió\'l permisu de grabación, mas podría capturar audiu pente esti preséu USB.</string>
     <string name="accessibility_system_action_home_label">Casa</string>
     <string name="accessibility_system_action_back_label">Atrás</string>
     <string name="accessibility_system_action_recents_label">Aplicaciones de recién</string>
@@ -2732,7 +2731,7 @@
     <string name="vdm_camera_access_denied" product="default">Nun se pue acceder a la cámara del teléfonu dende <xliff:g id="device" example="Chromebook">%1$s</xliff:g></string>
     <string name="vdm_camera_access_denied" product="tablet">Nun se pue acceder a la cámara de la tableta dende <xliff:g id="device" example="Chromebook">%1$s</xliff:g></string>
     <string name="vdm_secure_window">Nun se pue acceder a esti conteníu mentanto s\'emite. Prueba nel teléfonu.</string>
-    <string name="vdm_pip_blocked">Nun se pue ver el mou «Picture-in-Picture» mentanto s\'emite</string>
+    <string name="vdm_pip_blocked">Nun se pue ver el mou «Imaxe superpuesta» mentanto s\'emite</string>
     <string name="system_locale_title">Preaxuste del sistema</string>
     <string name="default_card_name">TARXETA <xliff:g id="cardNumber" example="1">%d</xliff:g></string>
     <string name="permlab_companionProfileWatch">permisu del perfil de relós complementarios pa xestionar relós</string>

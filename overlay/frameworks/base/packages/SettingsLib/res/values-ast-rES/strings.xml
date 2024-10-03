@@ -65,9 +65,9 @@
     <string name="bluetooth_connecting">Conectando\u2026</string>
     <string name="bluetooth_connected">Conectóse <xliff:g id="active_device">%1$s</xliff:g></string>
     <string name="bluetooth_pairing">Empareyando\u2026</string>
-    <string name="bluetooth_connected_no_headset">Conectóse (ensin teléfonu) <xliff:g id="active_device">%1$s</xliff:g></string>
-    <string name="bluetooth_connected_no_a2dp">Conectóse (ensin multimedia) <xliff:g id="active_device">%1$s</xliff:g></string>
-    <string name="bluetooth_connected_no_headset_no_a2dp">Conectóse (ensin teléfonu o multimedia) <xliff:g id="active_device">%1$s</xliff:g></string>
+    <string name="bluetooth_connected_no_headset">Conectóse (ensin teléfonu) «<xliff:g id="active_device">%1$s</xliff:g>»</string>
+    <string name="bluetooth_connected_no_a2dp">Conectóse (ensin multimedia) «<xliff:g id="active_device">%1$s</xliff:g>»</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">Conectóse (ensin teléfonu o multimedia) «<xliff:g id="active_device">%1$s</xliff:g>»</string>
     <string name="bluetooth_connected_battery_level">Conectóse, batería al <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
     <string name="bluetooth_connected_no_headset_battery_level">Conectóse (ensin teléfonu) <xliff:g id="active_device">%2$s</xliff:g>, batería al <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
     <string name="bluetooth_connected_no_a2dp_battery_level">Conectóse (ensin multimedia) <xliff:g id="active_device">%2$s</xliff:g>, batería al <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
@@ -81,6 +81,9 @@
     <string name="bluetooth_battery_level_untethered_right">Llau derechu: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">N\'activo</string>
     <string name="bluetooth_saved_device">Guardóse</string>
+    <string name="bluetooth_hearing_aid_left_active">Activu, namás l\'esquierdu</string>
+    <string name="bluetooth_hearing_aid_right_active">Activu, namás el derechu</string>
+    <string name="bluetooth_hearing_aid_left_and_right_active">Activu, esquierdu y derechu</string>
     <string name="bluetooth_profile_a2dp">Audiu multimedia</string>
     <string name="bluetooth_profile_headset">Llamaes telefóniques</string>
     <string name="bluetooth_profile_opp">Tresferencia de ficheros</string>
@@ -96,6 +99,7 @@
     <string name="bluetooth_profile_hearing_aid">Audífonos</string>
     <string name="bluetooth_profile_le_audio">Audiu LE</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Conectóse a los audífonos</string>
+    <string name="bluetooth_le_audio_profile_summary_connected">Conectóse al audiu de consumu baxu</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Conectóse al audiu multimedia</string>
     <string name="bluetooth_headset_profile_summary_connected">Conectóse al audiu del teléfonu</string>
     <string name="bluetooth_opp_profile_summary_connected">Conectóse al sirvidor de tresferencia de ficheros</string>
@@ -113,6 +117,7 @@
     <string name="bluetooth_opp_profile_summary_use_for">Úsase pa la tresferencia de ficheros</string>
     <string name="bluetooth_hid_profile_summary_use_for">Úsase pa la entrada</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Úsase pa los audífonos</string>
+    <string name="bluetooth_le_audio_profile_summary_use_for">Úsase pa LE_AUDIO</string>
     <string name="bluetooth_pairing_accept">Empareyar</string>
     <string name="bluetooth_pairing_accept_all_caps">EMPAREYAR</string>
     <string name="bluetooth_pairing_decline">Encaboxar</string>
@@ -211,7 +216,7 @@
     <string name="clear_adb_keys">Revocar autorizaciones de depur. USB</string>
     <string name="enable_adb_wireless">Depuración ensin filos</string>
     <string name="enable_adb_wireless_summary">Activa\'l mou de depuración al conectar la Wi\u2011Fi</string>
-    <string name="adb_wireless_error">Fallu</string>
+    <string name="adb_wireless_error">Error</string>
     <string name="adb_wireless_settings">Depuración ensin filos</string>
     <string name="adb_wireless_list_empty_off">Pa ver y usar los preseos disponibles, activa la depuración ensin filos</string>
     <string name="adb_pair_method_qrcode_title">Empareyar el preséu con un códigu QR</string>
@@ -254,6 +259,7 @@
     <string name="wifi_display_certification">Certificación de visualización ensin filos</string>
     <string name="wifi_verbose_logging">Activar el rexistru detalláu de la Wi\u2011Fi</string>
     <string name="wifi_scan_throttling">Llende de la busca de redes Wi\u2011Fi</string>
+    <string name="wifi_non_persistent_mac_randomization">Aleatorización de direiciones MAC non persistentes pa conexones Wi-Fi</string>
     <string name="mobile_data_always_on">Datos móviles activaos siempre</string>
     <string name="tethering_hardware_offload">Aceleración per hardware pal tethering</string>
     <string name="bluetooth_show_devices_without_names">Amosar los preseos Bluetooth ensin el nome</string>
@@ -362,6 +368,7 @@
     <string name="force_rtl_layout_all_locales_summary">Forcia\'l diseñu «derecha-esquierda» en toles locales</string>
     <string name="transparent_navigation_bar">Barra de navegación tresparente</string>
     <string name="transparent_navigation_bar_summary">Fai que\'l color del fondu de la barra de navegación seya tresparente por defeutu</string>
+    <string name="window_blurs">Permitir el desenfoque de les ventanes</string>
     <string name="force_msaa">Forciar el MSAA x4</string>
     <string name="force_msaa_summary">Activa\'l MSAA x4 nes aplicaciones d\'OpenGL ES 2.0</string>
     <string name="show_non_rect_clip">Depurar les operaciones de recorte que nun son rectangulares</string>
@@ -411,6 +418,12 @@
     <string name="inactive_app_active_summary">Aplicación activa. Toca p\'alternar.</string>
     <string name="standby_bucket_summary">Estáu de l\'aplicación
         n\'espera: <xliff:g id="bucket">%s</xliff:g></string>
+    <string name="transcode_settings_title">Configuración de la trescodificación de conteníu multimedia</string>
+    <string name="transcode_user_control">Anular la configuración predeterminada de la trescodificación</string>
+    <string name="transcode_enable_all">Activar la trescodificación</string>
+    <string name="transcode_default">Considerar que les aplicaciones son compatibles colos formatos nuevos</string>
+    <string name="transcode_notification">Amosar los avisos de trescodificación</string>
+    <string name="transcode_disable_cache">Desactivar la caché pa la trescodificación</string>
     <string name="widevine_settings_title">Configuración de Widevine</string>
     <string name="force_l3_fallback_title">Forciar l\'alternativa L3</string>
     <string name="force_l3_fallback_summary">Seleiciona pa forciar l\'alternativa L3</string>
@@ -427,6 +440,12 @@
     <string name="daltonizer_mode_protanomaly">Protanomalía (coloráu-verde)</string>
     <string name="daltonizer_mode_tritanomaly">Tritanomalía (azul-mariellu)</string>
     <string name="accessibility_display_daltonizer_preference_title">Correición del color</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle"><![CDATA[        La correción del color pue ser útil cuando quieras:<br/>
+        <ol>
+            <li>&nbsp;Ver los colores con más precisión</li>
+            <li>&nbsp;Quitar colores pa concentrate meyor</li>
+        </ol>
+        ]]></string>
     <string name="daltonizer_type_overridden">«<xliff:g id="title" example="Simulate color space">%1$s</xliff:g>» anula la opción</string>
     <string name="power_remaining_settings_home_page"><xliff:g id="percentage" example="10%">%1$s</xliff:g> - <xliff:g id="time_string" example="1 hour left based on your usage">%2$s</xliff:g></string>
     <string name="power_charging_on_hold_settings_home_page"><xliff:g id="level">%1$s</xliff:g> - Posóse la carga pa protexer la batería</string>
@@ -449,6 +468,7 @@
     <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g></string>
     <string name="power_remaining_charging_duration_only"><xliff:g id="time">%1$s</xliff:g> pa completar la carga</string>
     <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> pa completar la carga</string>
+    <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Carga optimizada</string>
     <string name="power_charging_future_paused"><xliff:g id="level">%1$s</xliff:g> - En carga</string>
     <string name="battery_info_status_unknown">Desconozse</string>
     <string name="battery_info_status_charging">En carga</string>
@@ -456,10 +476,13 @@
     <string name="battery_info_status_charging_slow">En carga, lenta</string>
     <string name="battery_info_status_charging_wireless">En carga, ensin filos</string>
     <string name="battery_info_status_charging_dock">En carga</string>
-    <string name="battery_info_status_discharging">Nun ta en carga</string>
+    <string name="battery_info_status_discharging">Nun ta cargando</string>
     <string name="battery_info_status_not_charging">Conectóse mas nun ta cargando</string>
+    <string name="battery_info_status_full">Cargó</string>
+    <string name="battery_info_status_full_charged">Carga completa</string>
     <string name="battery_info_status_charging_on_hold">Carga n\'espera</string>
     <string name="disabled_by_admin_summary_text">Opción controlada pol alministrador</string>
+    <string name="disabled_by_app_ops_text">Preferencia controlada poles opciones restrinxíes</string>
     <string name="disabled">Desactivóse</string>
     <string name="external_source_trusted">Con permisu</string>
     <string name="external_source_untrusted">Ensin permisu</string>
@@ -490,7 +513,7 @@
         y los númberos de tarxetes de creitu.  Provién de l\'aplicación
         «<xliff:g id="ime_application_name">%1$s</xliff:g>».
         ¿Quies usar esti métodu d\'entrada?</string>
-    <string name="direct_boot_unaware_dialog_message">Nota: darréu de reaniciar, esta aplicación nun se pue aniciar hasta que desbloquies el teléfonu</string>
+    <string name="direct_boot_unaware_dialog_message">Nota: dempués de reaniciar, esta aplicación nun se pue aniciar hasta que desbloquies el teléfonu</string>
     <string name="ims_reg_title">"Estáu del rexistru d'IMS"</string>
     <string name="ims_reg_status_registered">"Rexistróse"</string>
     <string name="ims_reg_status_not_registered">"Nun se rexistró"</string>
@@ -506,9 +529,18 @@
     <string name="cancel">Encaboxar</string>
     <string name="next">Siguiente</string>
     <string name="back">Atrás</string>
+    <string name="save">Guardar</string>
     <string name="okay">D\'acuerdu</string>
+    <string name="done">Fecho</string>
     <string name="alarms_and_reminders_label">Alarmes y recordatorios</string>
+    <string name="alarms_and_reminders_switch_title">Permitir la programación d\'alarmes y recordatorios</string>
     <string name="alarms_and_reminders_title">Alarmes y recordatorios</string>
+    <string name="alarms_and_reminders_footer_title">        Permite que l\'aplicación configure alarmes y programe aiciones a hores determinaes.
+        Esti permisu dexa que les aplicaciones s\'executen en segundu planu y, polo tanto, ye posible
+        que consuman más batería.\n\nSi esti permisu ta desactiváu, les alarmes esistentes y los eventos
+        programaos a hores determinaos nun van funcionar.
+    </string>
+    <string name="keywords_alarms_and_reminders">programar, programación, alarma, recordar, recordatoriu, reló, hora, tiempu</string>
     <string name="zen_mode_enable_dialog_turn_on">Activar</string>
     <string name="zen_mode_settings_turn_on_dialog_title">Activar el mou «Nun molestar»</string>
     <string name="zen_mode_settings_summary_off">Enxamás</string>
@@ -523,6 +555,7 @@
     <string name="zen_mode_forever">Hasta desactivar esta opción</string>
     <string name="time_unit_just_now">Puramente agora</string>
     <string name="media_transfer_this_device_name">Esti teléfonu</string>
+    <string name="media_transfer_this_device_name_tablet">Esta tableta</string>
     <string name="media_transfer_dock_speaker_device_name">Altavoces de la base</string>
     <string name="media_transfer_external_device_name">Preséu esternu</string>
     <string name="media_transfer_default_device_name">Preséu conectáu</string>
@@ -542,17 +575,17 @@
     <string name="tv_media_transfer_default">Salida predeterminada de la TV</string>
     <string name="tv_media_transfer_hdmi">Salida HDMI</string>
     <string name="tv_media_transfer_internal_speakers">Altavoces internos</string>
-    <string name="profile_connect_timeout_subtext">Hebo un problema al conectar. Apaga y volvi prender el preséu</string>
+    <string name="profile_connect_timeout_subtext">Hebo un problema al conectar. Apaga y volvi encender el preséu</string>
     <string name="media_transfer_wired_device_name">Preséu d\'audiu con cable</string>
     <string name="help_label">Ayuda y opiniones</string>
     <string name="storage_category">Almacenamientu</string>
     <string name="shared_data_title">Datos compartíos</string>
     <string name="shared_data_summary">Visualiza y modifica los datos compartíos</string>
     <string name="shared_data_no_blobs_text">Nun hai datos compartíos pa esti usuariu.</string>
-    <string name="shared_data_query_failure_text">Hebo un fallu al dir en cata de los datos compartíos. Volvi tentalo.</string>
+    <string name="shared_data_query_failure_text">Hebo un error al dir en cata de los datos compartíos. Volvi tentalo.</string>
     <string name="blob_id_text">ID de los datos compartíos: <xliff:g id="blob_id" example="100">%d</xliff:g></string>
     <string name="blob_expires_text">Data de caducidá: <xliff:g id="date" example="Mar 20, 2020 11:59:59 GMT">%s</xliff:g></string>
-    <string name="shared_data_delete_failure_text">Hebo un fallu al desaniciar los datos compartíos.</string>
+    <string name="shared_data_delete_failure_text">Hebo un error al desaniciar los datos compartíos.</string>
     <string name="shared_data_no_accessors_dialog_text">Nun se consiguió nenguna concesión pa estos datos compartíos. ¿Quies desanicialos?</string>
     <string name="accessor_info_title">Aplicaciones que comparten datos</string>
     <string name="accessor_no_description_text">L\'aplicación nun fornió nenguna descripción.</string>
@@ -582,19 +615,57 @@
     <string name="user_need_lock_message">Enantes de poder crear un perfil torgáu, tienes de configurar un bloquéu de pantalla pa protexer les aplicaciones y los datos personales.</string>
     <string name="user_set_lock_button">Afitar un bloquéu</string>
     <string name="user_switch_to_user">Cambiar a «<xliff:g id="user_name" example="John Doe">%s</xliff:g>»</string>
+    <string name="creating_new_user_dialog_message">Creando l\'usuariu…</string>
+    <string name="creating_new_guest_dialog_message">Creando un convidáu…</string>
     <string name="add_user_failed">Hebo un fallu al crear un usuariu</string>
+    <string name="add_guest_failed">Hebo un fallu al crear un convidáu</string>
     <string name="user_nickname">Nomatu</string>
     <string name="edit_user_info_message">El nome y la semeya de to van ser visibles pa cualesquier persona qu\'use esti preséu.</string>
+    <string name="user_add_user">Amestar un usuariu</string>
     <string name="guest_new_guest">Amestar un convidáu</string>
     <string name="guest_exit_guest">Quitar al convidáu</string>
+    <string name="guest_reset_guest">Reafitar la sesión de convidáu</string>
+    <string name="guest_reset_guest_dialog_title">¿Quies reafitar la sesión de convidáu?</string>
+    <string name="guest_remove_guest_dialog_title">¿Quies quitar el convidáu?</string>
+    <string name="guest_reset_guest_confirm_button">Reafitar</string>
+    <string name="guest_remove_guest_confirm_button">Quitar</string>
+    <string name="guest_resetting">Reafitando la sesión de convidáu\u2026</string>
+    <string name="guest_reset_and_restart_dialog_title">¿Quies reafitar la sesión de convidáu?</string>
+    <string name="guest_reset_and_restart_dialog_message">Esta aición va aniciar una
+        sesión de convidáu nueva y desaniciar toles aplicaciones y datos de la sesión actual</string>
+    <string name="guest_exit_dialog_title">¿Colar del mou de convidáu?</string>
+    <string name="guest_exit_dialog_message">Esta aición va desaniciar
+        les aplicaciones y los datos de la sesión de convidáu actual</string>
     <string name="grant_admin">Sí, convertir n\'alministrador</string>
     <string name="not_grant_admin">Non, nun convertir n\'alministrador</string>
+    <string name="guest_exit_dialog_button">Colar</string>
+    <string name="guest_exit_dialog_title_non_ephemeral">¿Guardar l\'actividá de convidáu?</string>
+    <string name="guest_exit_dialog_message_non_ephemeral">Pues guardar l\'actividá de la
+        sesión actual o desaniciar toles aplicaciones y datos</string>
+    <string name="guest_exit_clear_data_button">Desaniciar</string>
+    <string name="guest_exit_save_data_button">Guardar</string>
+    <string name="guest_exit_button">Colar del mou de convidáu</string>
+    <string name="guest_reset_button">Reafitar la sesión de convidáu</string>
+    <string name="guest_exit_quick_settings_button">Colar del mou de convidáu</string>
+    <string name="guest_notification_ephemeral">Al colar, van desaniciase toles actividaes</string>
+    <string name="guest_notification_non_ephemeral">Pues guardar o desaniciar l\'actividá al colar</string>
+    <string name="guest_notification_non_ephemeral_non_first_login">Reafita la sesión pa
+        desaniciar l\'actividá yá o pues guardar o desaniciar les actividaes al colar</string>
+    <string name="user_image_take_photo">Facer una semeya</string>
+    <string name="user_image_choose_photo">Escoyer una imaxe</string>
+    <string name="user_image_photo_selector">Seleicionar la semeya</string>
+    <string name="failed_attempts_now_wiping_device">Ficiéronse milenta intentos incorreutos. Van desaniciase los datos d\'esti preséu.</string>
+    <string name="failed_attempts_now_wiping_user">Ficiéronse milenta intentos incorreutos. Va desaniciase esti usuariu.</string>
+    <string name="failed_attempts_now_wiping_profile">Ficiéronse milenta intentos incorreutos. Va desaniciase esti perfil llaboral xunto colos sos datos.</string>
+    <string name="failed_attempts_now_wiping_dialog_dismiss">Escartar</string>
     <string name="cached_apps_freezer_device_default">Comportamientu predetermináu</string>
     <string name="cached_apps_freezer_disabled">Desactivóse</string>
     <string name="cached_apps_freezer_enabled">Activóse</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Tienes de reaniciar el preséu p\'aplicar esti cambéu. Failo agora o encaboxa.</string>
     <string name="media_transfer_wired_usb_device_name">Auriculares con cable</string>
+    <string name="wifi_hotspot_switch_on_text">Sí</string>
     <string name="wifi_hotspot_switch_off_text">Non</string>
+    <string name="carrier_network_change_mode">Cambéu de la rede de la operadora</string>
     <string name="data_connection_3g">3G</string>
     <string name="data_connection_edge">EDGE</string>
     <string name="data_connection_cdma">1X</string>
@@ -606,8 +677,37 @@
     <string name="data_connection_lte">LTE</string>
     <string name="data_connection_lte_plus">LTE+</string>
     <string name="data_connection_carrier_wifi">W+</string>
+    <string name="cell_data_off_content_description">Desactiváronse los datos móviles</string>
+    <string name="not_default_data_content_description">Nun se configuró pa usar los datos</string>
+    <string name="accessibility_no_phone">Cobertoria telefónica: nun hai.</string>
+    <string name="accessibility_phone_one_bar">Cobertoria telefónica: una barra.</string>
+    <string name="accessibility_phone_two_bars">Cobertoria telefónica: dos barres.</string>
+    <string name="accessibility_phone_three_bars">Cobertoria telefónica: trés barres.</string>
     <string name="accessibility_phone_four_bars">Cobertoria telefónica: cuatro barres.</string>
+    <string name="accessibility_phone_signal_full">Cobertoria telefónica al máximu.</string>
+    <string name="accessibility_no_data">Cobertoria de datos: nun hai.</string>
+    <string name="accessibility_data_one_bar">Cobertoria de datos: una barra.</string>
+    <string name="accessibility_data_two_bars">Cobertoria de datos: dos barres.</string>
+    <string name="accessibility_data_three_bars">Cobertoria de datos: trés barres.</string>
+    <string name="accessibility_data_signal_full">Cobertoria de datos al máximu.</string>
+    <string name="accessibility_ethernet_disconnected">Desconectóse l\'ethernet.</string>
+    <string name="accessibility_ethernet_connected">Ethernet.</string>
+    <string name="accessibility_no_calling">Ensin llamaes.</string>
+    <string name="avatar_picker_title">Escueyi una semeya pal perfil</string>
+    <string name="default_user_icon_description">Iconu d\'usuariu predetermináu</string>
+    <string name="physical_keyboard_title">Tecláu físicu</string>
+    <string name="keyboard_layout_dialog_title">Escueyi una distribución de tecláu</string>
     <string name="keyboard_layout_default_label">Por defeutu</string>
+    <string name="turn_screen_on_title">Encender la pantalla</string>
+    <string name="allow_turn_screen_on">Permitir que s\'encienda la pantalla</string>
+    <string name="allow_turn_screen_on_description">Permite qu\'una aplicación encienda la pantalla. Si se concede esti permisu, l\'aplicación va poder encender la pantalla en cualesquier momentu ensin la to intención esplícita.</string>
+    <string name="bt_le_audio_broadcast_dialog_title">¿Quies dexar d\'emitir «<xliff:g id="app_name" example="App Name 1">%1$s</xliff:g>»?</string>
+    <string name="bt_le_audio_broadcast_dialog_sub_title">Si emites «<xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g>» o camudes la salida, la emisión actual va parar</string>
+    <string name="bt_le_audio_broadcast_dialog_switch_app">Emitir «<xliff:g id="switchApp" example="App Name 2">%1$s</xliff:g>»</string>
+    <string name="bt_le_audio_broadcast_dialog_different_output">Camudar la salida</string>
+    <string name="back_navigation_animation">Animaciones del retrocesu predictivu</string>
+    <string name="back_navigation_animation_summary">Activa les animaciones del sistema pal retrocesu predictivu.</string>
+    <string name="back_navigation_animation_dialog">Esta opción activa les animaciones del sistema pa los xestos predictivos. Rique definir el parámetru «enableOnBackInvokedCallback» a «true» nel ficheru manifest de les aplicaciones.</string>
     <string name="font_scale_percentage"> <xliff:g id="percentage">%1$d</xliff:g>%%</string>
     <string name="not_specified">Nun s\'especificó</string>
     <string name="neuter">Neutru</string>
