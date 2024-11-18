@@ -27,6 +27,10 @@
     <string name="home_screen">Cartref</string>
     <string name="recent_task_option_split_screen">Hollti\'r sgrin</string>
     <string name="split_app_info_accessibility">Gwybodaeth ap ar gyfer %1$s</string>
+    <string name="save_app_pair">Cadw\u2019r pâr apiau</string>
+    <string name="app_pair_default_title"><xliff:g id="app1" example="Chrome">%1$s</xliff:g> | <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
+    <string name="app_pair_unlaunchable_at_screen_size">Ni chefnogir y pâr apiau hwn ar y ddyfais hon</string>
+    <string name="app_pair_needs_unfold">Dad-blyga\u2019r ddyfais i ddefnyddio\u2019r pâr apiau hwn</string>
     <string name="long_press_widget_to_add">Cyffyrdda a dal dy gyffwrdd i symud teclyn.</string>
     <string name="long_accessible_way_to_add">Rho dap dwbl a dal dy gyffwrdd i symud teclyn neu defnyddio gweithredoedd addasu.</string>
     <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
@@ -36,6 +40,13 @@
     <string name="add_to_home_screen">Ychwanegu at y sgrin gartref</string>
     <string name="added_to_home_screen_accessibility_text">Ychwanegwyd teclyn <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> i\'r sgrin Gartref</string>
     <string name="suggested_widgets_header_title">Awgrymiadau</string>
+    <string name="productivity_widget_recommendation_category_label">Dy Hanfodion Dyddiol</string>
+    <string name="news_widget_recommendation_category_label">Newyddion Ar Dy Gyfer</string>
+    <string name="social_and_entertainment_widget_recommendation_category_label">Dy Barth Ymlacio</string>
+    <string name="fitness_widget_recommendation_category_label">Cyflawna Dy Amcanion Ffitrwydd </string>
+    <string name="weather_widget_recommendation_category_label">Dalia Blaen ar y Gaeaf</string>
+    <string name="others_widget_recommendation_category_label">Posib Byddet Hefyd yn Hoffi</string>
+    <string name="widget_picker_right_pane_accessibility_title">Teclynnau <xliff:g id="selected_header" example="Calendar">%1$s</xliff:g> ar y dde, chwilio a dewisiadau ar y chwith</string>
     <string name="widgets_count">        {count, plural, zero {} one {# teclyn} two {# declyn} few {# theclyn} many {# theclyn} =1{# teclyn} other{# teclyn}}
     </string>
     <string name="shortcuts_count">        {count, plural, zero {} one {# llwybr byr} two {# lwybr byr} few {# llwybr byr} many {# llwybr byr} =1{# llwybr byr} other{# llwybr byr}}
@@ -49,6 +60,7 @@
     <string name="widgets_full_sheet_personal_tab">Personol</string>
     <string name="widgets_full_sheet_work_tab">Gwaith</string>
     <string name="widget_category_conversations">Sgyrsiau</string>
+    <string name="widget_category_note_taking">Cymryd nodiadau</string>
     <string name="widget_education_header">Gwybodaeth ddefnyddiol ar flaenau dy fysedd</string>
     <string name="widget_education_content">I gael gwybodaeth heb agor apiau, gellir ychwanegu teclynnau at y sgrin gartref</string>
     <string name="reconfigurable_widget_education_tip">Tapia i newid gosodiadau teclyn</string>
@@ -71,6 +83,7 @@
     <string name="remove_drop_target_label">Tynnu</string>
     <string name="uninstall_drop_target_label">Dadosod</string>
     <string name="app_info_drop_target_label">Gwybodaeth am yr ap</string>
+    <string name="install_private_system_shortcut_label">Gosod yn preifat</string>
     <string name="install_drop_target_label">Gosod</string>
     <string name="dismiss_prediction_label">Peidio awgrymu ap</string>
     <string name="pin_prediction">Pinio Rhagfynegiad</string>
@@ -101,7 +114,9 @@
     <string name="folder_renamed">Ailenwyd y ffolder i <xliff:g id="name" example="Games">%1$s</xliff:g></string>
     <string name="folder_name_format_exact">Ffolder: <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> eitem</string>
     <string name="folder_name_format_overflow">Ffolder: <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> neu ragor o eitemau.</string>
+    <string name="app_pair_name_format">Pâr apiau: <xliff:g id="app1" example="Chrome">%1$s</xliff:g> a <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
     <string name="styles_wallpaper_button_text">Papur wal ac arddull</string>
+    <string name="edit_home_screen">Golygu\u2019r Sgrin Gartref</string>
     <string name="settings_button_text">Gosodiadau cartref</string>
     <string name="msg_disabled_by_admin">Analluogwyd gan dy weinyddwr</string>
     <string name="allow_rotation_title">Caniatáu troi\'r sgrin gartref</string>
@@ -125,6 +140,7 @@ Mae\'n bosib i ti ei dynnu neu i chwilio am a gosod yr ap dy hun.    </string>
     <string name="app_installing_title">Yn gosod <xliff:g id="name" example="Messenger">%1$s</xliff:g>, <xliff:g id="progress" example="30%">%2$s</xliff:g> yn gyflawn</string>
     <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> yn lawrlwytho, <xliff:g id="progress" example="30%">%2$s</xliff:g> yn gyflawn</string>
     <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> yn disgwyl i\'w osod</string>
+    <string name="app_archived_title">Archifwyd <xliff:g id="name" example="Messenger">%1$s</xliff:g>. Tapia i lawrlwytho.</string>
     <string name="dialog_update_title">Angen diweddaru\u2019r ap</string>
     <string name="dialog_update_message">Ni ellir diweddaru eicon yr ap hwn. Gellir ei ddiweddaru dy hun i ail-alluogi\i2019r llwybr byr hwn neu tynnu\u2019r eicon.</string>
     <string name="dialog_update">Diweddaru</string>
@@ -162,10 +178,23 @@ Mae\'n bosib i ti ei dynnu neu i chwilio am a gosod yr ap dy hun.    </string>
     <string name="work_profile_edu_work_apps">Mae apiau gwaith wedi\'u bathodynnu ac yn weladwy i dy weinyddwyr TG</string>
     <string name="work_profile_edu_accept">Deall yn iawn</string>
     <string name="work_apps_paused_title">Mae apiau gwaith ar saib</string>
+    <string name="work_apps_paused_info_body">Ni fyddi di\u2019n derbyn hysbysiadau o dy apiau gwaith.</string>
     <string name="work_apps_paused_body">Ni all dy apiau gwaith anfon hysbysiadau, defnyddio dy fatri, na chanfod dy leoliad</string>
+    <string name="work_apps_paused_telephony_unavailable_body">Ni fyddi di\u2019n derbyn galwadau ffôn, negeseuon testun, na hysbysiadau o dy apiau gwaith.</string>
     <string name="work_apps_paused_edu_banner">Mae apiau gwaith wedi\'u bathodynnu ac yn weladwy i dy weinyddwyr TG</string>
     <string name="work_apps_paused_edu_accept">Deall yn iawn</string>
     <string name="work_apps_pause_btn_text">Rhoi apiau gwaith ar saib</string>
+    <string name="work_apps_enable_btn_text">Dad-seibio</string>
     <string name="developer_options_filter_hint">Hidlydd</string>
     <string name="remote_action_failed">Methiant: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
+    <string name="private_space_label">Gofod preifat</string>
+    <string name="private_space_secondary_label">Cadwa apiau preifat wedi\u2019u cloi a\u2019u cuddio</string>
+    <string name="ps_container_title">Preifat</string>
+    <string name="ps_container_settings">Gosodiadau Gofod Preifat</string>
+    <string name="ps_container_lock_unlock_button">Cloi/Datgloi Gofod Preifat</string>
+    <string name="ps_container_lock_title">Cloi</string>
+    <string name="ps_container_transition">Trawsnewid Gofod Preifat</string>
+    <string name="ps_add_button_label">Gosod apiau</string>
+    <string name="ps_add_button_content_description">Gosod apiau i\u2019r Gofod Preifat</string>
+    <string name="bubble_bar_overflow_description">Gorlif</string>
 </resources>

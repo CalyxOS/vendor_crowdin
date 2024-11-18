@@ -14,22 +14,98 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="phoneAppLabel" product="tablet">Datos móviles</string>
+    <string name="phoneAppLabel" product="default">Servicios del teléfonu</string>
+    <string name="emergencyDialerIconLabel">Marcador d\'emerxencia</string>
+    <string name="phoneIconLabel">Teléfonu</string>
+    <string name="fdnListLabel">Llista de NMF</string>
+    <string name="unknown">Númberu desconocíu</string>
+    <string name="private_num">Númberu priváu</string>
+    <string name="payphone">Teléfonu públicu</string>
+    <string name="onHold">N\'espera</string>
+    <string name="carrier_mmi_msg_title">Mensaxe de: <xliff:g id="mmicarrier" example="T-Mobile">%s</xliff:g></string>
+    <string name="default_carrier_mmi_msg_title">Mensaxe de la operadora</string>
+    <string name="mmiStarted">Anicióse\'l códigu MMI</string>
+    <string name="ussdRunning">Códigu USSD n\'execución\u2026</string>
+    <string name="mmiCancelled">Encaboxóse\'l códigu MMI</string>
+    <string name="cancel">Encaboxar</string>
+    <string name="enter_input">El mensaxe USSD ha contener ente <xliff:g id="min_len">%1$d</xliff:g> y <xliff:g id="max_len">%2$d</xliff:g> caráuteres. Volvi tentalo.</string>
     <string name="ok">D\'acuerdu</string>
+    <string name="audio_mode_speaker">Altavoz</string>
+    <string name="audio_mode_earpiece">Auricular del preséu</string>
+    <string name="audio_mode_wired_headset">Cascos con cable</string>
+    <string name="audio_mode_bluetooth">Bluetooth</string>
+    <string name="wait_prompt_str">¿Quies unviar los tonos siguientes?\n</string>
+    <string name="pause_prompt_str">Unviando los tonos\n</string>
     <string name="send_button">Unviar</string>
     <string name="pause_prompt_yes">Sí</string>
     <string name="pause_prompt_no">Non</string>
+    <string name="wild_prompt_str">Sustituyir el caráuter comodín por</string>
+    <string name="no_vm_number">Falta\'l númberu del buzón de voz</string>
+    <string name="no_vm_number_msg">Nun s\'atroxó nengún númberu de buzón de voz na tarxeta SIM.</string>
+    <string name="add_vm_number_str">Amestar un númberu</string>
+    <string name="voice_number_setting_primary_user_only">La configuración del buzón de voz namás la pue modificar l\'usuariu primariu.</string>
+    <string name="puk_unlocked">Desbloquióse la tarxeta SIM. El teléfonu ta desbloquiándose\u2026</string>
     <string name="sim_ndp_unlock_text">Desbloquiar</string>
     <string name="sim_ndp_dismiss_text">Escartar</string>
+    <string name="requesting_unlock">Solicitando\'l desbloquéu de la rede\u2026</string>
+    <string name="unlock_failed">La solicitú de desbloquéu nun se fizo correutamente.</string>
+    <string name="unlock_success">El desbloquéu de rede fízose correutamente.</string>
+    <string name="mobile_network_settings_not_available">La configuración de la rede móvil nun ta disponible pa esti usuariu</string>
+    <string name="labelGSMMore">Configuración de llamaes GSM</string>
+    <string name="labelGsmMore_with_label">Configuración de llamaes GSM (<xliff:g id="subscriptionlabel" example="T-Mobile">%s</xliff:g>)</string>
+    <string name="labelCDMAMore">Configuración de llamaes CDMA</string>
+    <string name="labelCdmaMore_with_label">Configuración de llamaes CDMA (<xliff:g id="subscriptionlabel" example="T-Mobile">%s</xliff:g>)</string>
+    <string name="apn_settings">Nomes de los puntos d\'accesu</string>
+    <string name="settings_label">Configuración de rede</string>
+    <string name="phone_accounts">Cuentes pa llamaes</string>
+    <string name="phone_accounts_make_calls_with">Facer llamaes con</string>
+    <string name="phone_accounts_make_sip_calls_with">Facer llamaes SIP con</string>
+    <string name="phone_accounts_ask_every_time">Entrugar primero</string>
+    <string name="phone_accounts_default_account_label">Nun hai nenguna rede disponible</string>
     <string name="phone_accounts_settings_header">Configuración</string>
+    <string name="phone_accounts_choose_accounts">Escoyer cuentes</string>
+    <string name="phone_accounts_selection_header">Cuentes del teléfonu</string>
+    <string name="phone_accounts_add_sip_account">Amestar una cuenta SIP</string>
+    <string name="phone_accounts_configure_account_settings">Configurar les opciones de la cuenta</string>
+    <string name="phone_accounts_all_calling_accounts">Toles cuentes pa llamaes</string>
+    <string name="phone_accounts_all_calling_accounts_summary">Seleiciona qué cuentes puen facer llamaes</string>
+    <string name="wifi_calling">Llamaes per Wi-Fi</string>
+    <string name="connection_service_default_label">Serviciu de conexón integráu</string>
+    <string name="voicemail">Buzón de voz</string>
+    <string name="voicemail_settings_with_label">Buzón de voz (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)</string>
+    <string name="voicemail_abbreviated">BV:</string>
     <string name="make_and_receive_calls">Fechura y receición de llamaes</string>
     <string name="smart_forwarding_settings_menu">Esvíu intelixente</string>
+    <string name="voicemail_notifications_preference_title">Avisos</string>
     <string name="additional_gsm_call_settings">Configuración adicional</string>
     <string name="additional_gsm_call_settings_with_label">Configuración adicional (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
+    <string name="sum_loading_settings">Cargando la configuración\u2026</string>
+    <string name="sum_default_caller_id">Usar la configuración de la operadora predeterminada p\'amosar el mio númberu nes llamaes salientes</string>
+    <string name="labelCW">Llamada n\'espera</string>
+    <string name="sum_cw_enabled">Demientres una llamada, recibes avisos de les llamaes entrantes</string>
+    <string name="sum_cw_disabled">Demientres una llamada, nun recibes avisos de les llamaes entrantes</string>
+    <string name="call_forwarding_settings">Configuración del esvíu de llamaes</string>
+    <string name="call_forwarding_settings_with_label">Configuración del esvíu de llamaes (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
+    <string name="labelCF">Esvíu de llamaes</string>
+    <string name="labelCFU">Esviar siempre</string>
+    <string name="messageCFU">Usar siempre esti númberu</string>
+    <string name="sum_cfu_enabled_indicator">Esvíense toles llamaes</string>
+    <string name="sum_cfu_enabled_no_number">El númberu nun ta disponible</string>
+    <string name="sum_cfu_disabled">Non</string>
+    <string name="sum_cfb_disabled">Non</string>
+    <string name="sum_cfnry_disabled">Non</string>
+    <string name="sum_cfnrc_disabled">Non</string>
     <string name="registration_cf_forbidden">La operadora nun ye compatible col esvíu de llamaes</string>
+    <string name="cdma_call_waiting">¿Quies activar la opción de llamada n\'espera?</string>
+    <string name="enable_cdma_call_waiting_setting">Demientres una llamada, vas recibir avisos de les llamaes entrantes</string>
+    <string name="enable_cdma_cw">Activar</string>
+    <string name="disable_cdma_cw">Encaboxar</string>
     <string name="phone_account_settings_user_restriction">Namás l\'alministrador o l\'usuariu llaboral puen camudar la configuración de la cuenta del teléfonu</string>
     <string name="call_settings_with_label">Configuración (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)</string>
     <string name="reading_settings">Lleendo la configuración\u2026</string>
     <string name="updating_settings">Anovando la configuración\u2026</string>
+    <string name="reverting_settings">Reafitando la configuración\u2026</string>
     <string name="close_dialog">D\'acuerdu</string>
     <string name="enable">Activar</string>
     <string name="disable">Desactivar</string>
@@ -39,10 +115,57 @@
     <string name="vm_change_pin_new_pin">PIN nuevu</string>
     <string name="vm_change_pin_progress_message">Espera.</string>
     <string name="vm_change_pin_error_too_short">El PIN nuevu ye mui curtiu.</string>
+    <string name="vm_change_pin_error_mismatch">El PIN antiguu nun concasa.</string>
+    <string name="vm_change_pin_error_invalid">El PIN nuevu contién caráuteres inválidos.</string>
     <string name="vm_change_pin_error_system_error">Nun ye posible camudar el PIN</string>
+    <string name="network_settings_title">Rede móvil</string>
+    <string name="label_available">Redes disponibles</string>
     <string name="load_networks_progress">Buscando\u2026</string>
+    <string name="empty_networks_list">Nun s\'atopó nenguna rede.</string>
+    <string name="register_automatically">Rexistru automáticu\u2026</string>
+    <string name="network_connecting">Conectando…</string>
+    <string-array name="preferred_network_mode_choices">
+        <item>GSM/WCDMA preferred</item>
+        <item>Namás GSM</item>
+        <item>Namás WCDMA</item>
+        <item>GSM/WCDMA auto</item>
+        <item>CDMA/EvDo auto</item>
+        <item>CDMA w/o EvDo</item>
+        <item>Namás EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>Global</item>
+        <item>LTE</item>
+        <item>LTE / WCDMA</item>
+        <item>Namás TDSCDMA</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA </item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>Namás NR</item>
+        <item>NR/LTE</item>
+        <item>NR/LTE/CDMA/EvDo</item>
+        <item>NR/LTE/GSM/WCDMA</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>NR/LTE/WCDMA</item>
+        <item>NR/LTE/TDSCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM</item>
+        <item>NR/LTE/TDSCDMA/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
+    </string-array>
+    <string name="network_operator_category">Rede</string>
     <string name="enhanced_4g_lte_mode_summary">Usa los servicios LTE p\'ameyorar la voz y otres comunicaciones (aconséyase)</string>
+    <string name="carrier_settings_euicc">Operadora</string>
     <string name="keywords_carrier_settings_euicc">operadora, esim, sim, euicc, cambéu d\'operadora, cambiar d\'operadora, amestar una operadora, amiestu d\'una operadora</string>
+    <string name="mobile_data_settings_title">Datos móviles</string>
+    <string name="data_usage_disable_mobile">¿Quies desactivar los datos móviles?</string>
     <string name="entertainment_news_settings">Noticies d\'entretenimientu</string>
     <string name="list_language_title">Llingua</string>
     <string-array name="list_language_entries">
@@ -197,6 +320,7 @@
     <string name="phone_info_label" product="default">Información del teléfonu</string>
     <string name="send_from_work_profile_title">Nun pues unviar mensaxes dende una aplicación personal</string>
     <string name="send_from_work_profile_description">La to organización namás te permite unviar mensaxes dende aplicaciones llaborales</string>
+    <string name="send_from_work_profile_cancel">Encaboxar</string>
     <string name="send_from_work_profile_action_str">Cambiar al perfil llaboral</string>
     <string name="install_messages_on_work_profile_action_str">Instalar una aplicación de mensaxería llaboral</string>
 </resources>

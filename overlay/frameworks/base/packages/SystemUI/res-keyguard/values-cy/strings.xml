@@ -31,7 +31,11 @@
     <string name="keyguard_plugged_in"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru</string>
     <string name="keyguard_plugged_in_charging_fast"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru\'n gyflym</string>
     <string name="keyguard_plugged_in_charging_slowly"><xliff:g id="percentage">%s</xliff:g> • Yn gwefru\u2019n araf</string>
+    <string name="keyguard_plugged_in_charging_limited"><xliff:g id="percentage">%s</xliff:g> • Gwefru wedi\u2019i seibio i warchod y batri</string>
+    <string name="keyguard_plugged_in_incompatible_charger"><xliff:g id="percentage">%s</xliff:g> • Gwiria\u2019r ategloyn gwefru</string>
     <string name="keyguard_network_locked_message">Rhwydwaith wedi\'i gloi</string>
+    <string name="keyguard_missing_sim_message_short">Dim SIM</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Sim an-ddefnyddiadwy.</string>
     <string name="keyguard_sim_locked_message">SIM wedi\u2019i gloi.</string>
     <string name="keyguard_sim_puk_locked_message">SIM wedi\u2019i gloi â PUK.</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Yn datgloi\u2019r SIM\u2026</string>
@@ -51,8 +55,32 @@
     <string name="kg_wrong_pin">PIN Anghywir</string>
     <string name="kg_wrong_pin_try_again">PIN anghywir. Ceisia eto.</string>
     <string name="kg_wrong_input_try_fp_suggestion">Neu ddatgloi gyda dy ôl bys</string>
+    <string name="kg_fp_not_recognized">Heb adnabod ôl bys</string>
+    <string name="bouncer_face_not_recognized">Heb adnabod wyneb</string>
     <string name="kg_bio_try_again_or_pin">Ceisia eto neu rho\u2019r PIN</string>
     <string name="kg_bio_try_again_or_password">Ceisia eto neu rho\u2019r cyfrinair</string>
+    <string name="kg_bio_try_again_or_pattern">Ceisia eto neu ddefnyddio patrwm</string>
+    <string name="kg_bio_too_many_attempts_pin">Mae angen PIN ar ôl gormod o ymdrechion</string>
+    <string name="kg_bio_too_many_attempts_password">Mae angen cyfrinair ar ôl gormod o ymdrechion</string>
+    <string name="kg_bio_too_many_attempts_pattern">Mae angen patrwm ar ôl gormod o ymdrechion</string>
+    <string name="kg_unlock_with_pin_or_fp">Datgloi gyda PIN neu ôl bys</string>
+    <string name="kg_unlock_with_password_or_fp">Datgloi gyda chyfrinair neu ôl bys</string>
+    <string name="kg_unlock_with_pattern_or_fp">Datgloi gyda phatrwm neu ôl bys</string>
+    <string name="kg_prompt_after_dpm_lock">Er diogelwch ychwanegol, cafodd y ddyfais ei chloi gan bolisi gwaith.</string>
+    <string name="kg_prompt_after_user_lockdown_pin">Mae angen PIN ar ôl cloi i lawr</string>
+    <string name="kg_prompt_after_user_lockdown_password">Mae angen cyfrinair ar ôl cloi i lawr</string>
+    <string name="kg_prompt_after_user_lockdown_pattern">Mae angen patrwm ar ôl cloi i lawr</string>
+    <string name="kg_prompt_unattended_update">Caiff y diweddariad ei osod pan na fydd y ddyfais yn cael ei defnyddio</string>
+    <string name="kg_prompt_pin_auth_timeout">Angen diogelwch ychwanegol. Dyw\u2019r PIN heb ei ddefnyddio ers sbel.</string>
+    <string name="kg_prompt_password_auth_timeout">Angen diogelwch ychwanegol. Dyw\u2019r cyfrinair heb ei ddefnyddio ers sbel.</string>
+    <string name="kg_prompt_pattern_auth_timeout">Angen diogelwch ychwanegol. Dyw\u2019r patrwm heb ei ddefnyddio ers sbel.</string>
+    <string name="kg_prompt_auth_timeout">Angen diogelwch ychwanegol. Dyw\u2019r ddyfais heb ei datgloi ers sbel.</string>
+    <string name="kg_face_locked_out">Methu datgloi gydag wyneb. Gormod o ymdrechion.</string>
+    <string name="kg_fp_locked_out">Methu datgloi gydag ôl bys. Gormod o ymdrechion.</string>
+    <string name="kg_trust_agent_disabled">Asiant ymddiried ddim ar gael</string>
+    <string name="kg_primary_auth_locked_out_pin">Gormod o ymdrechion gyda PIN anghywir</string>
+    <string name="kg_primary_auth_locked_out_pattern">Gormod o ymdrechion gyda phatrwm anghywir</string>
+    <string name="kg_primary_auth_locked_out_password">Gormod o ymdrechion gyda chyfrinair anghywir</string>
     <string name="kg_too_many_failed_attempts_countdown">{count, plural,
 =1 {Rho gynnig arall ymhen # eiliad.}
         other {Rho gynnig arall ymhen # eiliad.}
@@ -127,6 +155,7 @@
     <string name="keyguard_unlock_to_continue">Datglo dy ddyfais i barhau</string>
     <string name="kg_prompt_unattended_update_pin">Rho PIN i osod y diweddariad yn hwyrach</string>
     <string name="kg_prompt_unattended_update_password">Rho\u2019r cyfrinair i osod y diweddariad yn hwyrach</string>
+    <string name="kg_prompt_unattended_update_pattern">Llunia batrwm i osod y diweddariad yn hwyrach</string>
     <string name="kg_prompt_after_update_pin">Dyfais wedi\u2019i diweddaru. Rho PIN i barhau.</string>
     <string name="kg_prompt_after_update_password">Dyfais wedi\u2019i diweddaru. Rho gyfrinair i barhau.</string>
     <string name="kg_prompt_after_update_pattern">Dyfais wedi\u2019i diweddaru. Rho batrwm i barhau.</string>

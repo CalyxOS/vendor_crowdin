@@ -54,6 +54,7 @@
     <string name="hdmi_cec_set_menu_language_description">Mae cais gan ddyfais arall i newid iaith y system</string>
     <string name="hdmi_cec_set_menu_language_accept">Newid iaith</string>
     <string name="hdmi_cec_set_menu_language_decline">Cadw\'r iaith cyfredol</string>
+    <string name="share_wifi_button_text">Rhannu Wi\u2011Fi</string>
     <string name="wifi_debugging_title">Caniatáu dadfygio gwallau di-wifr ar y rhwydwaith hwn?</string>
     <string name="wifi_debugging_message">Enw Rhwydwaith (SSID)\n<xliff:g id="ssid" example="My wifi">%1$s</xliff:g>\n\nCyfeiriad Wi\u2011Fi (BSSID\n<xliff:g id="bssid" example="AB:CD:EF:12:34:56">%2$s</xliff:g></string>
     <string name="wifi_debugging_always">Caniatáu ar y rhwydwaith hwn bob amser</string>
@@ -70,6 +71,7 @@
     <string name="screenshot_saving_work_profile_title">Yn cadw sgrinlun i\u2019r proffil gwaith\u2026</string>
     <string name="screenshot_saved_title">Wedi cadw\'r sgrinlun</string>
     <string name="screenshot_failed_title">Methwyd â chadw\'r sgrinlun</string>
+    <string name="screenshot_failed_external_display_indication">Dangosydd Allanol</string>
     <string name="screenshot_failed_to_save_user_locked_text">Rhaid bod y ddyfais wedi\u2019i ddatgloi cyn gallu cadw sgrinlun</string>
     <string name="screenshot_failed_to_save_unknown_text">Rho gynnig ar gymryd sgrinlun eto</string>
     <string name="screenshot_failed_to_save_text">Methu cadw\u2019r sgrinlun</string>
@@ -90,10 +92,13 @@
     <string name="screenshot_default_files_app_name">Ffeiliau</string>
     <string name="screenshot_detected_template">Canfododd <xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> y sgrinlun hwn.</string>
     <string name="screenshot_detected_multiple_template">Canfododd <xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> ac apiau eraill y sgrinlun hwn.</string>
+    <string name="app_clips_save_add_to_note">Ychwanegu at nodyn</string>
     <string name="screenrecord_title">Recordydd Sgrin</string>
     <string name="screenrecord_background_processing_label">Prosesu recordiad sgrin</string>
     <string name="screenrecord_channel_description">Hysbysiad i ddangos bod y sgrin yn cael ei recordio</string>
     <string name="screenrecord_permission_dialog_title">Dechrau recordio?</string>
+    <string name="screenrecord_permission_dialog_warning_entire_screen">Wrth i ti recordio, mae gan Android fynediad at unrhyw beth sy\u2019n weledol ar dy sgrin neu\u2019n chwarae ar dy ddyfais, felly bydda\u2019n ofalus gyda phethau fel cyfrineiriau, manylion talu, negeseuon, lluniau, a sain a fideo.</string>
+    <string name="screenrecord_permission_dialog_warning_single_app">Wrth i ti recordio ap, mae gan Android fynediad at unrhyw beth sy\u2019n weledol ar dy sgrin neu\u2019n chwarae ar dy ddyfais, felly bydda\u2019n ofalus gyda phethau fel cyfrineiriau, manylion talu, negeseuon, lluniau, a sain a fideo.</string>
     <string name="screenrecord_permission_dialog_continue">Dechrau recordio</string>
     <string name="screenrecord_audio_label">Recordio sain</string>
     <string name="screenrecord_device_audio_label">Sain dyfais</string>
@@ -108,9 +113,11 @@
     <string name="screenrecord_share_label">Rhannu</string>
     <string name="screenrecord_save_title">Wedi cadw recordiad sgrin</string>
     <string name="screenrecord_save_text">Tapia i weld</string>
+    <string name="screenrecord_save_error">Gwall cadw recordiad sgrin</string>
     <string name="screenrecord_start_error">Gwall wrth gychwyn recordio\'r sgrin</string>
     <string name="issuerecord_share_label">Rhannu</string>
     <string name="issuerecord_save_text">Tapia i weld</string>
+    <string name="immersive_cling_description">I adael, llusga i lawr o\u2019r top.</string>
     <string name="immersive_cling_positive">Deall yn iawn</string>
     <string name="accessibility_back">Nôl</string>
     <string name="accessibility_home">Cartref</string>
@@ -141,6 +148,7 @@
     <string name="biometric_dialog_tap_confirm_with_face_alt_2">Wedi adnabod wyneb. Pwysa i barhau.</string>
     <string name="biometric_dialog_tap_confirm_with_face_alt_3">Wedi adnabod wyneb. Pwysa\u2019r eicon datgloi i barhau.</string>
     <string name="biometric_dialog_authenticated">Dilyswyd</string>
+    <string name="biometric_dialog_cancel_authentication">Diddymu Dilysiad</string>
     <string name="biometric_dialog_use_pin">Defnyddio PIN</string>
     <string name="biometric_dialog_use_pattern">Defnyddio patrwm</string>
     <string name="biometric_dialog_use_password">Defnyddio cyfrinair</string>
@@ -148,6 +156,7 @@
     <string name="biometric_dialog_wrong_pattern">Patrwm anghywir</string>
     <string name="biometric_dialog_wrong_password">Cyfrinair anghywir</string>
     <string name="biometric_dialog_credential_too_many_attempts">Gormod o ymdrechion anghywir.\nRho gynnig arall arni ymhen <xliff:g id="number">%d</xliff:g> eiliad.</string>
+    <string name="work_challenge_emergency_button_text">Argyfwng</string>
     <string name="biometric_dialog_credential_attempts_before_wipe">Ceisio eto. Ymgais <xliff:g id="attempts" example="1">%1$d</xliff:g> o <xliff:g id="max_attempts" example="3">%2$d</xliff:g>.</string>
     <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">Caiff dy ddata ei ddileu</string>
     <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Os fyddi wedi rhoi\'r patrwm anghywir ar yr ymgais nesaf, bydd data\'r ddyfais hon yn cael ei ddileu.</string>
@@ -160,6 +169,19 @@
     <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Os fyddi wedi rhoi\'r PIN anghywir ar yr ymgais nesaf, bydd data\'r ddyfais hon yn cael ei dileu.</string>
     <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Os fyddi wedi rhoi\'r cyfrinair anghywir ar yr ymgais nesaf, bydd data\'r ddyfais hon yn cael ei dileu.</string>
     <string name="biometric_re_enroll_dialog_confirm">Gosod</string>
+    <string name="biometric_re_enroll_dialog_cancel">Dim nawr</string>
+    <string name="biometric_re_enroll_notification_content">Mae angen hwn i wella diogelwch a pherfformiad</string>
+    <string name="fingerprint_re_enroll_notification_title">Gosod Datgloi ag Ôl Bys eto</string>
+    <string name="fingerprint_re_enroll_notification_name">Datgloi ag Ôl Bys</string>
+    <string name="fingerprint_re_enroll_dialog_title">Gosod Datgloi ag Ôl Bys</string>
+    <string name="fingerprint_re_enroll_dialog_content">I osod Datgloi ag Ôl Bys eto, caiff delweddau a modelau cyfredol dy olion bysedd eu dileu.\n\nAr ôl iddynt gael eu dileu, bydd rhaid gosod Datgloi ag Ôl Bys eto i ddefnyddio dy ôl bys i ddatgloi dy ffôn neu gadarnhau mai ti sy\u2019n ei defnyddio.</string>
+    <string name="fingerprint_re_enroll_dialog_content_singular">I osod Datgloi ag Ôl Bys eto, caiff delweddau a model cyfredol dy ôl bys eu dileu.\n\nAr ôl iddynt gael eu dileu, bydd rhaid gosod Datgloi ag Ôl Bys eto i ddefnyddio dy ôl bys i ddatgloi dy ffôn neu gadarnhau mai ti sy\u2019n ei defnyddio.</string>
+    <string name="fingerprint_reenroll_failure_dialog_content">Methwyd gosod datgloi ag ôl bys. Cer i\u2019r Gosodiadau i geisio eto.</string>
+    <string name="face_re_enroll_notification_title">Gosod Datgloi ag Wyneb eto</string>
+    <string name="face_re_enroll_notification_name">Datgloi ag Wyneb</string>
+    <string name="face_re_enroll_dialog_title">Gosod Datgloi ag Wyneb</string>
+    <string name="face_re_enroll_dialog_content">I osod Datgloi ag Wyneb eto, caiff model cyfredol dy wyneb ei ddileu.\n\nBydd rhaid gosod Datgloi ag Wyneb eto i ddefnyddio dy wyneb i ddatgloi dy ffôn.</string>
+    <string name="face_reenroll_failure_dialog_content">Methwyd gosod datgloi ag wyneb. Cer i\u2019r Gosodiadau i geisio eto.</string>
     <string name="fingerprint_dialog_touch_sensor">Cyffyrdda\'r synhwyrydd ôl bys</string>
     <string name="keyguard_face_failed_use_fp">@string/fingerprint_dialog_use_fingerprint_instead</string>
     <string name="keyguard_suggest_fingerprint">Defnyddo ôl bys yn lle</string>

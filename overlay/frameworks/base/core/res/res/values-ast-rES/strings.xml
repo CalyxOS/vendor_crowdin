@@ -79,7 +79,7 @@
     <string name="RestrictedOnAllVoiceTitle">Nun hai serviciu de llamaes de voz o d\'emerxencia</string>
     <string name="RestrictedStateContent">La operadora desactivó temporalmente\'l serviciu</string>
     <string name="RestrictedStateContentMsimTemplate">La operadora desactivó temporalmente\'l serviciu pa la SIM <xliff:g id="simNumber" example="1">%d</xliff:g></string>
-    <string name="NetworkPreferenceSwitchTitle">Nun se pue algamar la rede móvil</string>
+    <string name="NetworkPreferenceSwitchTitle">Nun se pue acceder a la rede móvil</string>
     <string name="NetworkPreferenceSwitchSummary">Prueba a camudar la rede preferida. Toca pa camudala.</string>
     <string name="EmergencyCallWarningTitle">Les llamaes d\'emerxencia nun tán disponibles</string>
     <string name="EmergencyCallWarningSummary">Nun se puen facer llamaes d\'emerxencia per Wi\u2011Fi</string>
@@ -92,7 +92,7 @@
     <string name="notification_channel_wfc">Llamaes per Wi-Fi</string>
     <string name="notification_channel_sim">Estáu de la SIM</string>
     <string name="notification_channel_sim_high_prio">Avisos prioritarios de la SIM</string>
-    <string name="peerTtyModeFull">L\'otru preséu solicitó\'l mou TTY FULL</string>
+    <string name="peerTtyModeFull">L\'otru preséu solicitó\'l mou FULL de TTY</string>
     <string name="peerTtyModeHco">L\'otru preséu solicitó\'l mou TTY HCO</string>
     <string name="peerTtyModeVco">L\'otru preséu solicitó\'l mou TTY VCO</string>
     <string name="peerTtyModeOff">L\'otru preséu solicitó\'l mou TTY OFF</string>
@@ -301,7 +301,7 @@
     <string name="global_action_assist">Asistencia</string>
     <string name="global_action_voice_assist">Asist. per voz</string>
     <string name="global_action_lockdown">Bloquiar</string>
-    <string name="status_bar_notification_info_overflow">+999</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="notification_hidden_text">Avisu nuevu</string>
     <string name="notification_channel_physical_keyboard">Tecláu físicu</string>
     <string name="notification_channel_security">Seguranza</string>
@@ -425,8 +425,7 @@
         del preséu cuando se reciba un espardimientu móvil d\'emerxencia.</string>
     <string name="permlab_manageOngoingCalls">xestión de llamaes en cursu</string>
     <string name="permdesc_manageOngoingCalls">Permite qu\'una aplicación vea los detalles de les
-         llamaes en cursu del preséu y que controle
-         eses llamaes.</string>
+         llamaes en cursu del preséu y les controle.</string>
     <string name="permlab_accessLastKnownCellId">accesu a la última identidá móvil conocida</string>
     <string name="permdesc_accessLastKnownCellId">Permite qu\'una aplicación acceda a la
         última identidá móvil conocida que
@@ -853,7 +852,7 @@
     <string name="fingerprint_dialog_default_subtitle">Pa siguir, usa la buelga</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Pa siguir, usa la buelga o\'l bloquéu de pantalla</string>
     <string-array name="fingerprint_error_vendor"/>
-    <string name="fingerprint_error_vendor_unknown">Asocedió daqué malo. Volvi tentalo.</string>
+    <string name="fingerprint_error_vendor_unknown">Prodúxose un error. Volvi tentalo.</string>
     <string name="fingerprint_icon_content_description">Iconu de buelga</string>
     <string name="device_unlock_notification_name">Desbloquéu del preséu</string>
     <string name="alternative_unlock_setup_notification_title">Prueba otra forma de desbloquiar</string>
@@ -908,7 +907,7 @@
     <string name="face_dialog_default_subtitle">Usa la cara pa siguir</string>
     <string name="face_or_screen_lock_dialog_default_subtitle">Pa siguir, usa la cara o\'l bloquéu de pantalla</string>
     <string-array name="face_error_vendor"/>
-    <string name="face_error_vendor_unknown">Asocedió daqué malo. Volvi tentalo.</string>
+    <string name="face_error_vendor_unknown">Prodúxose un error. Volvi tentalo.</string>
     <string name="face_icon_content_description">Iconu facial</string>
     <string name="permlab_readSyncSettings">llectura de la configuración de sincronización</string>
     <string name="permdesc_readSyncSettings">Permite que l\'aplicación llea la configuración de sincronización d\'una cuenta. Por exemplu, esto pue determinar si l\'aplicación Persones ta sincronizada con una cuenta.</string>
@@ -1094,7 +1093,7 @@
     <string name="phoneTypeCallback">Retornu de llamaes</string>
     <string name="phoneTypeCar">Coche</string>
     <string name="phoneTypeCompanyMain">Teléfonu principal d\'empresa</string>
-    <string name="phoneTypeIsdn">ISDN</string>
+    <string name="phoneTypeIsdn">RDSI</string>
     <string name="phoneTypeMain">Teléfonu principal</string>
     <string name="phoneTypeOtherFax">Otru fax</string>
     <string name="phoneTypeRadio">Radioteléfonu</string>
@@ -1763,7 +1762,7 @@
     <string name="ext_media_status_mounted_ro">Namás de llectura</string>
     <string name="ext_media_status_bad_removal">Estráxose ensin seguranza</string>
     <string name="ext_media_status_unmountable">Toyóse</string>
-    <string name="ext_media_status_unsupported">Nun ye compatible</string>
+    <string name="ext_media_status_unsupported">Ye incompatible</string>
     <string name="ext_media_status_ejecting">Espulsando\u2026</string>
     <string name="ext_media_status_formatting">Formatiando\u2026</string>
     <string name="ext_media_status_missing">Nun s\'inxertó</string>
@@ -2032,7 +2031,7 @@
     </string>
     <string name="kg_text_message_separator" product="default">" \u2014 "</string>
     <string name="kg_reordering_delete_drop_target_text">Quitar</string>
-    <string name="safe_media_volume_warning" product="default">       ¿Quies xubir el volume penriba del nivel aconseyáu?\n\nSentir l\'audiu a volume altu demientres munchu tiempu pue dañar l\'audición.
+    <string name="safe_media_volume_warning" product="default">       ¿Quies xubir el volume penriba del nivel aconseyáu?\n\nEscuchar l\'audiu a volume altu demientres munchu tiempu pue dañar l\'audición.
     </string>
     <string name="csd_dose_reached_warning" product="default">        \"¿Quies siguir escuchando a un volume eleváu?\n\nEl volume de los auriculares tuvo altu más tiempu del aconseyáu, lo que pue dañar l\'audición.\"
     </string>
@@ -2292,7 +2291,7 @@
     <string name="zen_mode_alarm">Hasta: <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g> (alarma siguiente)</string>
     <string name="zen_mode_forever">Hasta desactivar esta opción</string>
     <string name="zen_mode_forever_dnd">Hasta que desactives el mou «Nun molestar»</string>
-    <string name="zen_mode_rule_name_combination"><xliff:g id="first" example="Weeknights">%1$s</xliff:g>/<xliff:g id="rest" example="Meetings">%2$s</xliff:g></string>
+    <string name="zen_mode_rule_name_combination"><xliff:g id="first" example="Weeknights">%1$s</xliff:g> / <xliff:g id="rest" example="Meetings">%2$s</xliff:g></string>
     <string name="toolbar_collapse_description">Contrayer</string>
     <string name="zen_mode_feature_name">Nun molestar</string>
     <string name="zen_mode_downtime_feature_name">Tiempu d\'inactividá</string>

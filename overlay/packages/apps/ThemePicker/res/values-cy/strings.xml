@@ -20,6 +20,7 @@
     <string name="clock_title">Cloc Dy Hun</string>
     <string name="clock_description">Dewis cloc dy hun</string>
     <string name="clock_picker_entry_content_description">Newid cloc dy hun</string>
+    <string name="select_clock_action_description">Dewisiad wyneb cloc: <xliff:g name="clock_face_description">%1$s</xliff:g></string>
     <string name="clock_settings_title">Lliw a maint cloc</string>
     <string name="clock_color_and_size_title">Lliw a maint cloc</string>
     <string name="clock_color_and_size_description"><xliff:g name="color">%1$s</xliff:g>, <xliff:g name="size">%2$s</xliff:g></string>
@@ -38,6 +39,7 @@
     <string name="clock_size_dynamic_description">Mae maint cloc yn newid yn ôl cynnwys y sgrin cloi</string>
     <string name="clock_size_large">Mawr</string>
     <string name="clock_size_small">Bach</string>
+    <string name="clock_size_small_description">Bydd cloc bach yn ymddangos yng nghornel dy sgrin</string>
     <string name="grid_title">Grid apiau</string>
     <string name="apply_theme_btn">Gosod</string>
     <string name="edit_custom_theme_lbl">Tapia i\'w olygu</string>
@@ -63,6 +65,9 @@
     <string name="font_card_body">Ychwanega dy hoff ffontiau i bob sgrin</string>
     <string name="grid_options_title">Dewisa faint grid</string>
     <string name="grid_title_pattern"><xliff:g name="num_cols" example="1">%1$d</xliff:g>x<xliff:g name="num_rows" example="1">%2$d</xliff:g></string>
+    <string name="apply_grid_btn_note">Bydd newid maint y grid yn ail-lwytho\u2019r gofod gwaith ac fe all gymryd ychydig eiliadau.</string>
+    <string name="toast_of_changing_grid">Yn ail-lwytho\u2019r gofod gwaith gyda grid %1$s</string>
+    <string name="toast_of_failure_to_change_grid">Methwyd ail-lwytho gofod gwaith gyda grid %1$s</string>
     <string name="applied_theme_msg">Gosodwyd yr arddull yn iawn</string>
     <string name="applied_clock_msg">Gosodwyd y cloc yn iawn</string>
     <string name="applied_grid_msg">Gosodwyd y grid yn iawn</string>
@@ -96,6 +101,7 @@
     <string name="accessibility_custom_color_title">Lliw addasu</string>
     <string name="accessibility_custom_shape_title">Siâp addasu</string>
     <string name="accessibility_custom_name_title">Enw arddull addasu</string>
+    <string name="accessibility_clock_slider_description">Arddwysedd lliw</string>
     <string name="mode_title" msgid="1000319159005403986">Thema dywyll</string>
     <string name="mode_disabled_msg" msgid="1926077857799715086">Wedi\u2019i analluogi dros dro oherwydd Arbedwr Batri</string>
     <string name="mode_changed">Thema wedi\'i newid</string>
@@ -114,6 +120,7 @@
     <string name="keyguard_slot_name_bottom_start">Llwybr byr chwith</string>
     <string name="keyguard_slot_name_bottom_end">Llwybr byr dde</string>
     <string name="keyguard_affordance_none">Dim</string>
+    <string name="keyguard_affordance_enablement_dialog_headline">Methu ychwanegu llwybr byr</string>
     <string name="keyguard_affordance_enablement_dialog_action_template">Agor <xliff:g id="appName" example="Wallet">%1$s</xliff:g></string>
     <string name="keyguard_affordance_enablement_dialog_message">I ychwanegu\u2019r ap <xliff:g id="appName" example="Wallet">%1$s</xliff:g> fel llwybr byr, sicrha</string>
     <string name="keyguard_affordance_enablement_dialog_dismiss_button">Iawn</string>
@@ -122,7 +129,16 @@
     <string name="keyguard_quick_affordance_two_selected_template"><xliff:g id="first">%1$s</xliff:g>, <xliff:g id="second">%2$s</xliff:g></string>
     <string name="keyguard_quick_affordance_none_selected">Dim</string>
     <string name="show_notifications_on_lock_screen">Dangos hysbysiadau ar y sgrin cloi</string>
+    <string name="more_settings_section_title">Rhagor o ddewisiadau sgrin cloi</string>
+    <string name="more_settings_section_description">Preifatrwydd, Yn Chwarae Nawr, a rhagor</string>
     <string name="more_colors">Rhagor o Liwiau</string>
+    <string name="content_description_dynamic_color_option">Prif thema ddynamig</string>
+    <string name="content_description_neutral_color_option">Prif thema niwtral</string>
+    <string name="content_description_vibrant_color_option">Prif thema llachar</string>
+    <string name="content_description_expressive_color_option">Prif thema fynegiannol</string>
     <string name="content_description_default_color_option">Dewisiad lliw rhagosodedig</string>
     <string name="content_description_color_option">Dewisiad lliw <xliff:g name="color_number" example="1">%1$d</xliff:g></string>
+    <string name="scroll_forward_and_select">Llithra i\u2019r chwith i ddewis wyneb cloc gwahanol</string>
+    <string name="scroll_backward_and_select">Llithra i\u2019r dde i ddewis wyneb cloc gwahanol</string>
+    <string name="custom_clocks_label">Clociau dy Hun</string>
 </resources>

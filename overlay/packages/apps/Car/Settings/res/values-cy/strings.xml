@@ -162,10 +162,14 @@
     <string name="wifi_ap_2G">2.4 GHz</string>
     <string name="wifi_ap_5G">5.0 GHz</string>
     <string name="wifi_ap_band_select_one">Rhaid dewis o leiaf un band ar gyfer y llecyn Wi\u2011Fi:</string>
+    <string name="tether_settings_title_all">Llecyn Wi\u2011Fi (Hotspot)</string>
     <string name="hotspot_settings_title">Llecyn Wi-Fi</string>
+    <string name="wifi_hotspot_switch_title">Defnyddio llecyn Wi\u2011Fi</string>
     <string name="wifi_hotspot_state_off">I ffwrdd</string>
     <string name="wifi_hotspot_auto_off_title">Troi\'r llecyn i ffwrdd yn awtomatig</string>
     <string name="wifi_hotspot_auto_off_summary">Bydd y llecyn Wi\u2011Fi yn troi i ffwrdd os na fydd unrhyw ddyfeisiau wedi\'u cysylltu</string>
+    <string name="wifi_hotspot_qr_code_text">Sgania\u2019r cod QR hwn i ymuno â \u0022%s\u0022</string>
+    <string name="wifi_hotspot_qr_code_password_text">Cyfrinair llecyn: %s</string>
     <string name="wifi_ask_enable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau troi Wi-Fi ymlaen</string>
     <string name="wifi_ask_disable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau troi Wi-Fi i ffwrdd</string>
     <string name="wifi_error">Gwall</string>
@@ -176,6 +180,7 @@
     <string name="network_connection_connect_successful">Cysylltiad llwyddiannus</string>
     <string name="network_connection_request_dialog_showall">Dangos y cwbl</string>
     <string name="progress_scanning">Yn chwilio</string>
+    <string name="connected_settings_title">Dyfeisiau cysylltiedig</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
     <string name="bluetooth_toggle_title">Defnyddio Bluetooth</string>
     <string name="bluetooth_device">Dyfais dienw</string>
@@ -221,6 +226,7 @@
     <string name="bluetooth_notif_message">Tapia i baru â <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="bluetooth_device_picker">Dewisa ddyfais Bluetooth</string>
     <string name="bluetooth_bonded_bluetooth_toggle_content_description">Bluetooth</string>
+    <string name="bluetooth_bonded_phone_toggle_content_description">Ffôn</string>
     <string name="bluetooth_bonded_media_toggle_content_description">Cyfryngau</string>
     <string name="language_settings">Ieithoedd</string>
     <string name="languages_and_input_settings">Ieithoedd a mewnbwn</string>
@@ -302,7 +308,11 @@
     <string name="app_permissions">Caniatâd yr ap</string>
     <string name="app_permissions_summary">Rheoli mynediad yr ap at dy ddata</string>
     <string name="applications_settings">Gwybodaeth ap</string>
+    <string name="force_stop">Stopio\'r ap</string>
+    <string name="force_stop_dialog_title">Stopio\'r ap?</string>
     <string name="force_stop_dialog_text">Os wyt yn gorfodi ap i stopio, mae\'n bosib iddo ymddwyn yn anarferol.</string>
+    <string name="force_stop_success_toast_text">        Cafodd <xliff:g id="app_name" example="Radio">%1$s</xliff:g> ei stopio.
+    </string>
     <string name="prioritize_app_performance_dialog_title">Blaenoriaethu perfformiad ap?</string>
     <string name="prioritize_app_performance_dialog_text">Gall hyn achosi ansefydlogrwydd system neu effeithio ar galedwedd yn yr hirdymor. Wyt ti am barhau?</string>
     <string name="prioritize_app_performance_dialog_action_on">Iawn</string>
@@ -314,6 +324,7 @@
     <string name="app_disable_dialog_positive">Analluogi\'r ap</string>
     <string name="not_installed">Heb ei osod ar y proffil hwn</string>
     <string name="permissions_label">Caniatâd</string>
+    <string name="app_info_all_services_label">Pob gwasanaeth</string>
     <string name="notifications_label">Hysbysiadau</string>
     <string name="storage_application_label">Storfa a chof dros dro</string>
     <string name="prioritize_app_performance_label">Blaenoriaethu perfformiad ap</string>
@@ -361,13 +372,13 @@
     <string name="app_list_preference_none">Dim</string>
     <string name="default_app_selected_app">Wedi\'u dewis</string>
     <string name="assistant_security_warning">Bydd y cynorthwyydd yn medru darllen gwybodaeth am yr apiau mewn defnydd ar dy system, gan gynnwys gwybodaeth sy\'n weledol ar dy sgrin neu ar gael o fewn yr apiau.</string>
-    <string name="autofill_confirmation_message"><![CDATA[        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
+    <string name="autofill_confirmation_message">        <b>Sicrha dy fod yn ymddiried yn yr ap hwn</b>
         <br/>
         <br/>
         Mae <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> yn defnyddio\'r
         hyn sydd ar dy sgrin i benderfynu pa bethau gellir
         eu llenwi yn awtomatig.
-        ]]></string>
+        </string>
     <string name="autofill_add_service">Ychwanegu gwasanaeth</string>
     <string name="app_launch_domain_links_title">Agor dolenni</string>
     <string name="domain_url_section_title">Apiau wedi\u2019u gosod</string>
@@ -419,15 +430,30 @@
     <string name="wifi_control_description">Mae rheolaeth Wi-Fi yn caniatáu i ap droi Wi-Fi ymlaen ac i ffwrdd, sganio am a chysylltu â rhwydweithiau Wi-Fi, tynnu neu ychwanegu rhwydweithiau neu dechrau llecyn Wi-Fi.</string>
     <string name="more_special_access_title">Rhagor</string>
     <string name="location_settings_title">Lleoliad</string>
+    <string name="location_toggle_summary">        Defnyddia lleoliad dy gar gydag unrhyw ap rwyt yn ei ddewis.
+    </string>
     <string name="location_toggle_off_warning">Os fydd hwn i ffwrdd, mi fydd yn tynnu mynediad at leoliad oddi wrth pob ap ag eithro\u2019r rhai sydd ei angen ar gyfer cymorth gyrrwr</string>
     <string name="adas_location_toggle_off_warning">        Os fydd hwn i ffwrdd, caiff apiau cymorth gyrrwr sy\u2019n dibynnu ar wybodaeth lleoliad eu hanalluogi.
+    </string>
+    <string name="adas_location_toggle_popup_summary">        Ni ellir newid y gosodiad hwn ac mae wedi cael ei analluogi gan wneuthurwr dy gar.
+    </string>
+    <string name="adas_location_toggle_title">        Nodweddion sy\u2019n dy helpu i yrru
+    </string>
+    <string name="adas_location_toggle_summary">        Caniatáu nodweddion o fewn iddo, wedi eu cymeradwyo gan wneuthurwr dy gar, i gael mynediad at leoliad dy gar.
     </string>
     <string name="location_no_recent_access">Dim apiau diweddar</string>
     <string name="driver_assistance_label">        <xliff:g id="time" example="1 min. ago">%1$s</xliff:g> \u2022 Cymorth Gyrrwr \u2022
         Angen mynediad
     </string>
+    <string name="location_adas_apps_list_title">        Nodweddion sy\u2019n dy helpu i yrru
+    </string>
+    <string name="location_driver_assistance_privacy_policy_button_text">Polisi</string>
     <string name="location_settings_app_permissions_title">Caniatâd lefel apiau</string>
+    <string name="location_settings_app_permissions_summary">        Rheoli caniatâd apiau unigol
+    </string>
     <string name="location_settings_services_title">Gwasanaethau Lleoliad</string>
+    <string name="location_access_settings_title">Mynediad at leoliad</string>
+    <string name="location_access_settings_summary">Dewisa os gaiff apiau fynediad at leoliad dy gar</string>
     <string name="microphone_no_recent_access">Dim apiau diweddar</string>
     <string name="microphone_app_permission_summary_microphone_on">        {count, plural,
 =1    {Mae gan # o {total_count} ap fynediad}
