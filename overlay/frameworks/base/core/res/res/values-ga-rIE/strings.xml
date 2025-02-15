@@ -18,8 +18,79 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="EmergencyCallWarningSummary">Éilíonn líonra soghluaiste ó ghlaonna</string>
+    <string name="scCellularNetworkSecurityTitle">Slándáil líonra soghlu</string>
+    <string name="scCellularNetworkSecuritySummary">Criptiú, fógraí do líonraí neamhcriptithe</string>
+    <string name="scIdentifierDisclosureIssueTitle">Aitheantas Gléas rochtaithe</string>
+    <string name="scIdentifierDisclosureIssueSummaryNotification">Ag <xliff:g id="disclosure_time">%1$s</xliff:g>, thaifead líonra in aice láimhe aitheantas uathúil do ghléis (IMSI nó IMEI) agus do<xliff:g id="disclosure_network">%2$s</xliff:g> SIM</string>
+    <string name="scIdentifierDisclosureIssueSummary">Ag <xliff:g id="disclosure_time">%1$s</xliff:g>, thaifead líonra in aice láimhe aitheantas uathúil do ghléis (IMSI nó IMEI) agus do <xliff:g id="disclosure_network">%2$s</xliff:g> SIM.\n\nCiallaíonn sé seo go bhfuil do shuíomh, do ghníomhaíocht nó d\'aitheantas logáilte. Is cleachtas coitianta é seo ach d’fhéadfadh sé a bheith ina cheist do dhaoine atá buartha faoi phríobháideachas.</string>
+    <string name="scNullCipherIssueEncryptedTitle">Ceangailte le líonra criptithe <xliff:g id="network_name">%1$s</xliff:g></string>
+    <string name="scNullCipherIssueEncryptedSummary"><xliff:g id="network_name">%1$s</xliff:g> Tá ceangal SIM níos sláine anois</string>
+    <string name="scNullCipherIssueNonEncryptedTitle">Ceangailte le líonra gan chriptiú</string>
+    <string name="scNullCipherIssueNonEncryptedSummaryNotification">Tá glaonna, teachtaireachtaí agus sonraí níos leochailí faoi láthair agus do <xliff:g id="network_name">%1$s</xliff:g> SIM in úsáid</string>
+    <string name="scNullCipherIssueNonEncryptedSummary">Tá glaonna, teachtaireachtaí agus sonraí níos leochailí faoi láthair agus do <xliff:g id="network_name">%1$s</xliff:g> SIM á úsáid agat.\n\nNuair a bheidh do nasc criptithe arís, gheobhaidh tú ceann eile fógra.</string>
+    <string name="scNullCipherIssueActionSettings">Socruithe slándála líonra móibíleach</string>
+    <string name="private_space_deleted_by_admin">Spás príobháideach bainte</string>
+    <string name="private_space_deleted_by_admin_details">Ní cheadaíonn d\'eagraíocht spásanna príobháideacha ar an bhfeiste bainistithe seo.</string>
+    <string name="dream_accessibility_action_click">dhíbhe</string>
     <string-array name="fingerprint_acquired_vendor"/>
+    <string name="fingerprint_dialog_use_fingerprint_instead">Ní aithnítear aghaidh. Úsáid méarlorg ina ionad.</string>
     <string-array name="fingerprint_error_vendor"/>
     <string-array name="face_acquired_vendor"/>
     <string-array name="face_error_vendor"/>
+    <string name="error_handwriting_unsupported">Ní thacaítear le lámhscríbhneoireacht sa réimse seo</string>
+    <string name="error_handwriting_unsupported_password">Ní thacaítear le lámhscríbhinn i réimsí pasfhocal</string>
+    <string name="input_method_ime_switch_long_click_action_desc">Oscail roghnóir modh ionchuir</string>
+    <string name="wrong_hsum_configuration_notification_title">Cumraíocht tógála mícheart HSUM</string>
+    <string name="wrong_hsum_configuration_notification_message">Ní hionann staid Mhód Úsáideora an Chórais Gan Cheann an ghléis seo agus a chumraíocht tógála. Le do thoil mhonarcha athshocrú an gléas.</string>
+    <string name="input_method_language_settings">Socruithe Teanga</string>
+    <string name="accessibility_edit_shortcut_menu_volume_title">Roghnaigh gnéithe le húsáid leis an
+        aicearra eochracha toirte
+    </string>
+    <string name="accessibility_button_prompt_text">Roghnaigh gné</string>
+    <string name="accessibility_gesture_prompt_text">Roghnaigh gné</string>
+    <string name="accessibility_gesture_3finger_prompt_text">Roghnaigh gné</string>
+    <string name="accessibility_button_instructional_text">Osclófar an ghné seo chugainn an chéad uair eile a thapálann tú an cnaipe inrochtaineachta</string>
+    <string name="accessibility_gesture_instructional_text">Osclófar an ghné an chéad uair eile a úsáideann tú an gearrthóg seo. Sleamhnaigh suas le 2 mhéar ó bhun do scáileáin agus scaoil go tapa.</string>
+    <string name="accessibility_gesture_3finger_instructional_text">Osclófar an ghné an chéad uair eile a úsáideann tú an gearrthóg seo. Sleamhnaigh suas le 3 mhéar ó bhun do scáileáin agus scaoil go tapa.</string>
+    <string name="immersive_cling_description">Chun imeacht, swipeáil síos ó bharr do scáileáin</string>
+    <string name="package_installed_device_owner">Suiteáilte ag do riarachán. \nTéigh go socruithe chun ceadanna deonaithe a fheiceáil</string>
+    <string name="zen_mode_trigger_summary_range_symbol_combination"><xliff:g id="start" example="Sun">%1$s</xliff:g> - <xliff:g id="end" example="Thu">%2$s</xliff:g></string>
+    <string name="zen_mode_trigger_event_calendar_any">Aon féilire</string>
+    <string name="promotional_notification_channel_label">Arduithe Céime</string>
+    <string name="social_notification_channel_label">Sóisialta</string>
+    <string name="news_notification_channel_label">Nuacht</string>
+    <string name="recs_notification_channel_label">Moltaí</string>
+    <string name="private_space_set_up_screen_lock_for_reset">Chun spás príobháideach a scriosadh, socraigh glas scáileáin ar an ngléas seo</string>
+    <string name="dynamic_mode_notification_title_v2">Tá Coigilt Ceallraí ar siúl</string>
+    <string name="dynamic_mode_notification_summary_v2">Cuirtear Coigilt Ceallraí ar siúl chun saol na ceallraí a leathnú</string>
+    <string name="accessibility_system_action_menu_label">Roghchlár</string>
+    <string name="accessibility_system_action_media_play_pause_label">Meáin Seinn/Sos</string>
+    <string name="miniresolver_private_space_phone_information">"Ní féidir leat glaonna teileafóin a dhéanamh ach ó d'aip fón pearsanta. Cuirfear glaonna a dhéantar le Fón pearsanta le do stair glaonna pearsanta."</string>
+    <string name="miniresolver_private_space_messages_information">"Ní féidir leat teachtaireachtaí SMS a sheoladh ach ó d'aip Teachtaireachtaí pearsanta."</string>
+    <string name="accessibility_label_private_profile">Spás príobháideach</string>
+    <string name="private_space_biometric_prompt_title">Spás príobháideach</string>
+    <string name="redacted_notification_message">Ábhar fógra íogair i bhfolach</string>
+    <string name="screen_not_shared_sensitive_content">Ábhar aip i bhfolach ó scáileán le haghaidh slándála</string>
+    <string name="satellite_notification_manual_title">Úsáid teachtaireachtaí satailíte?</string>
+    <string name="satellite_notification_manual_summary">Seol agus faigh teachtaireachtaí gan líonra soghluaiste nó Wi-Fi</string>
+    <string name="unarchival_session_app_label">Ar feitheamh...</string>
+    <string name="fingerprint_dangling_notification_title">Socraigh Díghlasáil Méarlorg arís</string>
+    <string name="fingerprint_dangling_notification_msg_1">Ní féidir<xliff:g id="fingerprint">%s</xliff:g> a aithint a thuilleadh.</string>
+    <string name="fingerprint_dangling_notification_msg_2">Ní féidir <xliff:g id="fingerprint">%1$s</xliff:g> agus <xliff:g id="fingerprint">%2$s</xliff:g> a aithint a thuilleadh.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_1">Ní féidir <xliff:g id="fingerprint">%s</xliff:g>a aithint a thuilleadh. Socraigh Díghlasáil Méarloirg arís.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_2">Ní féidir <xliff:g id="fingerprint">%1$s</xliff:g> agus <xliff:g id="fingerprint">%2$s</xliff:g> a aithint a thuilleadh. Socraigh Díghlasáil Méarloirg arís.</string>
+    <string name="face_dangling_notification_title">Socraigh Aghaidh Díghlasáil arís</string>
+    <string name="face_dangling_notification_msg">Ní féidir do mhúnla aghaidhe a aithint níos mó. Socraigh Díghlasáil Aghaidhe arís.</string>
+    <string name="bg_user_sound_notification_title_alarm">Aláram le haghaidh <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
+    <string name="bg_user_sound_notification_button_switch_user">Athraigh úsáideoir</string>
+    <string name="bg_user_sound_notification_button_mute">Balbhaigh</string>
+    <string name="bg_user_sound_notification_message">Tapáil chun fuaim a bhalbhú</string>
+    <string name="keyboard_shortcut_group_applications_browser">Brabhsálaí</string>
+    <string name="keyboard_shortcut_group_applications_email">Ríomhphost</string>
+    <string name="keyboard_shortcut_group_applications_music">Ceol</string>
+    <string name="keyboard_shortcut_group_applications_calculator">Áireamhán</string>
+    <string name="keyboard_shortcut_group_applications_maps">Léarscáil</string>
+    <string name="keyboard_shortcut_group_applications">Feidhmchláir</string>
+    <string name="fingerprint_loe_notification_msg">Ní féidir do mhéarloirg a aithint a thuilleadh. Socraigh Díghlasáil Méarloirg arís.</string>
 </resources>
