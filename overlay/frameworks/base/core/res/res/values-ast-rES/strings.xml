@@ -149,6 +149,17 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> dempués de <xliff:g id="time_delay">{2}</xliff:g> segundos</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: nun s\'esvió</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: nun s\'esvió</string>
+    <string name="scCellularNetworkSecurityTitle">Seguranza de les redes móviles</string>
+    <string name="scCellularNetworkSecuritySummary">Cifráu y avisos pa redes ensin cifrar</string>
+    <string name="scIdentifierDisclosureIssueTitle">Accedióse a la ID del preséu</string>
+    <string name="scIdentifierDisclosureIssueSummaryNotification"><xliff:g id="disclosure_time">%1$s</xliff:g> - Una rede próxima rexistró la ID (IMSI o IMEI) única del preséu mentanto usabes la SIM «<xliff:g id="disclosure_network">%2$s</xliff:g>»</string>
+    <string name="scIdentifierDisclosureIssueSummary"><xliff:g id="disclosure_time">%1$s</xliff:g> - Una rede próxima rexistró la ID (IMSI o IMEI) única del preséu mentanto usabes la SIM «<xliff:g id="disclosure_network">%2$s</xliff:g>».\n\nEsto significa que tamién se rexistró la llocalización, actividá o identidá de to. Magar que seya una práutica habitual, pue ser un problema si t\'esmolez la privacidá.</string>
+    <string name="scNullCipherIssueEncryptedTitle">Conectéstite a la rede cifrada «<xliff:g id="network_name">%1$s</xliff:g>»</string>
+    <string name="scNullCipherIssueEncryptedSummary">Agora la conexón de la SIM «<xliff:g id="network_name">%1$s</xliff:g>» ye más segura</string>
+    <string name="scNullCipherIssueNonEncryptedTitle">Conectéstite a una rede ensin cifrar</string>
+    <string name="scNullCipherIssueNonEncryptedSummaryNotification">Los mensaxes, les llamaes y los datos son más vulnerables mentanto uses la SIM «<xliff:g id="network_name">%1$s</xliff:g>»</string>
+    <string name="scNullCipherIssueNonEncryptedSummary">Los mensaxes, les llamaes y los datos son más vulnerables mentanto uses la SIM «<xliff:g id="network_name">%1$s</xliff:g>».\n\nCuando la conexón vuelva tar cifrada, vas recibir otru avisu.</string>
+    <string name="scNullCipherIssueActionSettings">Configuración de seguranza de les redes móviles</string>
     <string name="scNullCipherIssueActionLearnMore">Saber más</string>
     <string name="scNullCipherIssueActionGotIt">Entendílo</string>
     <string name="fcComplete">Códigu de función completu.</string>
@@ -228,8 +239,8 @@
     <string name="power_dialog" product="tv">Opciones d\'Android TV</string>
     <string name="power_dialog" product="default">Opciones del teléfonu</string>
     <string name="silent_mode">Mou silenciosu</string>
-    <string name="turn_on_radio">Activar la conexón ensin filos</string>
-    <string name="turn_off_radio">Desactivar la conexón ensin filos</string>
+    <string name="turn_on_radio">Activar la conexón ensin fillo</string>
+    <string name="turn_off_radio">Desactivar la conexón ensin fillo</string>
     <string name="screen_lock">Bloquiar la pantalla</string>
     <string name="power_off">Apagar</string>
     <string name="silent_mode_silent">Timbre desactiváu</string>
@@ -353,7 +364,7 @@
     <string name="permgrouplab_camera">Cámara</string>
     <string name="permgroupdesc_camera">fechura d\'imáxenes y grabación de vídeos</string>
     <string name="permgrouplab_nearby_devices">Preseos próximos</string>
-    <string name="permgroupdesc_nearby_devices">descubrimientu de preseos y conexón con ellos</string>
+    <string name="permgroupdesc_nearby_devices">descubrimientu de preseos próximos y conexón con ellos</string>
     <string name="permgrouplab_calllog">Rexistru de llamaes</string>
     <string name="permgroupdesc_calllog">llectura y escritura nel rexistru de llamaes telefóniques</string>
     <string name="permgrouplab_phone">Teléfonu</string>
@@ -383,6 +394,7 @@
     <string name="capability_title_canTakeScreenshot">Facer una captura de pantalla</string>
     <string name="capability_desc_canTakeScreenshot">Pue facer una captura de la pantalla.</string>
     <string name="dream_preview_title">Previsualización, <xliff:g id="dream_name" example="Clock">%1$s</xliff:g></string>
+    <string name="dream_accessibility_action_click">escartar</string>
     <string name="permlab_statusBar">desactivación o modificación de la barra d\'estáu</string>
     <string name="permdesc_statusBar">Permite que l\'aplicación desactive la barra d\'estáu o amieste y quite iconos del sistema.</string>
     <string name="permlab_statusBarService">barra d\'estáu</string>
@@ -772,7 +784,7 @@
       llamada telefónica entrante y vuelve activalu cuando fine esa llamada.</string>
     <string name="permlab_requestPasswordComplexity">solicitú de la complexidá del bloquéu de pantalla</string>
     <string name="permdesc_requestPasswordComplexity">Permite que l\'aplicación sepa\'l
-        nivel de complexidá del bloquéu (altu, mediu, baxu o nengún), qu\'indica la llongura de les
+        nivel de complexidá del bloquéu (altu, medianu, baxu o nengún), qu\'indica la llongura de les
         contraseñes y el tipu de bloquéu de pantalla posibles. L\'aplicación tamién pue suxerir que
         los usuarios anueven el bloquéu de pantalla a un nivel determináu, mas estos puen inorar
         estes recomendaciones. Decátate que\'l bloquéu de pantalla nun s\'atroxa como testu ensin
@@ -953,7 +965,7 @@
     <string name="permlab_invokeCarrierSetup">invocación de l\'aplicación de configuración fornida pola operadora</string>
     <string name="permdesc_invokeCarrierSetup">Permite que\'l titular invoque l\'aplicación de configuración fornida pola operadora. Les aplicaciones normales enxamás habríen precisar esti permisu.</string>
     <string name="permlab_accessNetworkConditions">conocimientu de les observaciones tocante a les condiciones de la rede</string>
-    <string name="permdesc_accessNetworkConditions">Permite que l\'aplicación conoza les observaciones de les condiciones de la rede. Les aplicaciones normales enxamás habríen precisar esti permisu.</string>
+    <string name="permdesc_accessNetworkConditions">Permite qu\'una aplicación conoza les observaciones de les condiciones de la rede. Les aplicaciones normales enxamás habríen precisar esti permisu.</string>
     <string name="permlab_setInputCalibration">cambéu de la calibración del preséu d\'entrada</string>
     <string name="permdesc_setInputCalibration">Permite que l\'aplicación modifique los parámetros de calibración de la pantalla táctil. Les aplicaciones normales enxamás habríen precisar esti permisu.</string>
     <string name="permlab_accessDrmCertificates">accesu a los certificaos DRM</string>
@@ -1178,7 +1190,7 @@
     <string name="lockscreen_missing_sim_instructions_long">Falta la SIM o nun se pue lleer. Amiesta una.</string>
     <string name="lockscreen_permanent_disabled_sim_message_short">La SIM quedó inutilizable.</string>
     <string name="lockscreen_permanent_disabled_sim_instructions">La SIM inhabilitóse dafechu.\n
-    Ponte en contautu col fornidor de servicios ensin filos pa consiguir otra.</string>
+    Ponte en contautu col fornidor de servicios ensin fillo pa consiguir otra.</string>
     <string name="lockscreen_transport_prev_description">Pista anterior</string>
     <string name="lockscreen_transport_next_description">Pista siguiente</string>
     <string name="lockscreen_transport_pause_description">Posar</string>
@@ -1442,8 +1454,11 @@
     <string name="deleteText">Desaniciar</string>
     <string name="inputMethod">Métodu d\'entrada</string>
     <string name="editTextMenuTitle">Aiciones del testu</string>
+    <string name="error_handwriting_unsupported">La escritura a mano nun ye compatible nesti campu</string>
+    <string name="error_handwriting_unsupported_password">La escritura a mano nun ye compatible nos campos de contraseña</string>
     <string name="input_method_nav_back_button_desc">Atrás</string>
     <string name="input_method_ime_switch_button_desc">Cambiar el métodu d\'introducción de testu</string>
+    <string name="input_method_ime_switch_long_click_action_desc">Abrir el selector del métodu d\'entrada</string>
     <string name="input_method_switcher_settings_button">Configuración</string>
     <string name="low_internal_storage_view_title">L\'espaciu d\'almacenamientu ta escosando</string>
     <string name="low_internal_storage_view_text">Quiciabes dalgunes funciones del sistema nun funcionen</string>
@@ -1679,11 +1694,13 @@
     <string name="adb_active_notification_title">Depuración per USB</string>
     <string name="adb_active_notification_message">Toca pa desactivar la depuración per USB</string>
     <string name="adb_active_notification_message" product="tv">Seleiciona esti avisu pa desactivar la depuración per USB.</string>
-    <string name="adbwifi_active_notification_title">Depuración ensin filos conectada</string>
-    <string name="adbwifi_active_notification_message">Toca pa desactivar la depuración ensin filos</string>
-    <string name="adbwifi_active_notification_message" product="tv">Seleiciona esti avisu pa desactivar la depuración ensin filos.</string>
+    <string name="adbwifi_active_notification_title">Depuración ensin fillo conectada</string>
+    <string name="adbwifi_active_notification_message">Toca pa desactivar la depuración ensin fillo</string>
+    <string name="adbwifi_active_notification_message" product="tv">Seleiciona esti avisu pa desactivar la depuración ensin fillo.</string>
     <string name="test_harness_mode_notification_title">Mou «Prueba Harness» activáu</string>
     <string name="test_harness_mode_notification_message">Reafita\'l preséu pa desactivar el mou «Prueba Harness».</string>
+    <string name="wrong_hsum_configuration_notification_title">La configuración de la compilación HSUM ye incorreuta</string>
+    <string name="wrong_hsum_configuration_notification_message">L\'estáu del mou d\'usuariu ensin interfaz gráfica d\'esti preséu estrémase de la configuración de la so compilación. Reafita\'l preséu.</string>
     <string name="console_running_notification_title">Consola de serie activada</string>
     <string name="console_running_notification_message">El rindimientu ta afeutáu. Pa desactivar esta función, comprueba\'l cargador d\'arrinque.</string>
     <string name="mte_override_notification_title">Activóse\'l MTE esperimental</string>
@@ -1701,6 +1718,7 @@
     <string name="share_remote_bugreport_action">COMPARTIR</string>
     <string name="decline_remote_bugreport_action">REFUGAR</string>
     <string name="select_input_method">Seleición d\'un métodu d\'entrada</string>
+    <string name="input_method_language_settings">Configuración de llingua</string>
     <string name="show_ime">Caltiénse na pantalla mentanto\'l tecláu físicu ta activu</string>
     <string name="hardware">Usar el tecláu en pantalla</string>
     <string name="select_keyboard_layout_notification_title">Configura «<xliff:g id="device_name" example="Foobar USB Keyboard">%s</xliff:g>»</string>
@@ -1938,7 +1956,7 @@
     <string name="default_audio_route_name_usb">USB</string>
     <string name="default_audio_route_category_name">Sistema</string>
     <string name="bluetooth_a2dp_audio_route_name">Audiu per Bluetooth</string>
-    <string name="wireless_display_route_description">Pantalla ensin filos</string>
+    <string name="wireless_display_route_description">Pantalla ensin fillo</string>
     <string name="media_route_button_content_description">Tresmitir</string>
     <string name="media_route_chooser_title">Conexón al preséu</string>
     <string name="media_route_chooser_title_for_remote_display">Tresmisión de la pantalla al preséu</string>
@@ -2027,11 +2045,11 @@
     </string>
     <string name="kg_text_message_separator" product="default">" \u2014 "</string>
     <string name="kg_reordering_delete_drop_target_text">Quitar</string>
-    <string name="safe_media_volume_warning" product="default">       ¿Quies xubir el volume penriba del nivel aconseyáu?\n\nEscuchar l\'audiu a volume altu demientres munchu tiempu pue dañar l\'audición.
+    <string name="safe_media_volume_warning" product="default">       ¿Quies poner el volume más fuerte del nivel aconseyáu?\n\nEscuchar l\'audiu a volume fuerte demientres munchu tiempu pue dañar l\'audición.
     </string>
-    <string name="csd_dose_reached_warning" product="default">        \"¿Quies siguir escuchando a un volume eleváu?\n\nEl volume de los auriculares tuvo altu más tiempu del aconseyáu, lo que pue dañar l\'audición.\"
+    <string name="csd_dose_reached_warning" product="default">        \"¿Quies siguir escuchando a un volume fuerte?\n\nEl volume de los auriculares tuvo fuerte más tiempu del aconseyáu, lo que pue dañar l\'audición.\"
     </string>
-    <string name="csd_momentary_exposure_warning" product="default">        \"Detectóse un soníu fuerte\n\nEl volume de los auriculares tuvo más altu de lo aconseyao, lo que pue dañar l\'audición.\"
+    <string name="csd_momentary_exposure_warning" product="default">        \"Detectóse un soníu fuerte\n\nEl volume de los auriculares tuvo más fuerte de lo aconseyao, lo que pue dañar l\'audición.\"
     </string>
     <string name="accessibility_shortcut_warning_dialog_title">¿Quies usar l\'atayu «Accesibilidá»?</string>
     <string name="accessibility_shortcut_toogle_warning">        Cuando l\'atayu ta activáu, primi los botones del volume demientres 3 segundos
@@ -2066,8 +2084,11 @@
     <string name="accessibility_dialog_touch_filtered_warning">Hai una aplicación que ta escondiendo la solicitú
         de permisu, polo que nun se pue verificar la to rempuesta.</string>
     <string name="accessibility_select_shortcut_menu_title">Toca una función pa comenzar a usala:</string>
-    <string name="accessibility_edit_shortcut_menu_button_title">Escueyi qué funciones usar
+    <string name="accessibility_edit_shortcut_menu_button_title">Escueyi qué funciones van usase
         col botón «Accesibilidá»
+    </string>
+    <string name="accessibility_edit_shortcut_menu_volume_title">Escueyi qué funciones van usase
+        col atayu de les tecles de volume
     </string>
     <string name="accessibility_uncheck_legacy_item_warning">        «<xliff:g id="service_name" example="TalkBack">%s</xliff:g>» desactivóse</string>
     <string name="edit_accessibility_shortcut_menu_button">Editar los atayos</string>
@@ -2082,6 +2103,9 @@
     <string name="accessibility_shortcut_enabling_service">Tuviéronse primíes les tecles del volume. Activóse «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>».</string>
     <string name="accessibility_shortcut_disabling_service">Tuviéronse primíes les tecles del volume. Desactivóse «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>».</string>
     <string name="accessibility_shortcut_spoken_feedback">Suelta los botones del volume. P\'activar el serviciu «<xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>», volvi tener primíos los dos botones del volume demientres 3 segundos.</string>
+    <string name="accessibility_button_prompt_text">Escueyi una función</string>
+    <string name="accessibility_gesture_prompt_text">Escueyi una función</string>
+    <string name="accessibility_gesture_3finger_prompt_text">Escueyi una función</string>
     <string name="accessibility_button_instructional_text">Esta función va abrise la próxima vegada que toques el botón d\'accesibilidá</string>
     <string name="accessibility_gesture_instructional_text">Esta función va abrise la próxima vegada qu\'uses esti atayu. Esliza p\'arriba con 2 deos dende lo baxero de la pantalla y quítalos aína.</string>
     <string name="accessibility_gesture_3finger_instructional_text">Esta función va abrise la próxima vegada qu\'uses esti atayu. Esliza p\'arriba con 3 deos dende lo baxero de la pantalla y quítalos aína.</string>
@@ -2207,6 +2231,7 @@
     <string name="restr_pin_error_too_short">El PIN ye percurtiu. Ha ser de polo menos 4 díxitos.</string>
     <string name="restr_pin_try_later">Volvi tentalo dempués</string>
     <string name="immersive_cling_title">Vista a pantalla completa</string>
+    <string name="immersive_cling_description">Pa colar, esliza p\'abaxo dende lo cimero de la pantalla</string>
     <string name="immersive_cling_positive">Entendílo</string>
     <string name="display_rotation_camera_compat_toast_after_rotation">Voltia la pantalla p\'ameyorar la visualización</string>
     <string name="display_rotation_camera_compat_toast_in_multi_window">Abri «<xliff:g id="name" example="MyApp">%s</xliff:g>» a pantalla completa p\'ameyorar la visualización</string>
@@ -2292,6 +2317,7 @@
     <string name="zen_mode_implicit_activated">Sí</string>
     <string name="zen_mode_implicit_deactivated">Desactivaes</string>
     <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
+    <string name="zen_mode_trigger_event_calendar_any">Cualesquier calendariu</string>
     <string name="muted_by">«<xliff:g id="third_party">%1$s</xliff:g>» ta desactivando dalgunos soníos</string>
     <string name="system_error_wipe_data">Hai un problema internu col preséu y pue que funcione de forma inestable hasta que lu reafites.</string>
     <string name="system_error_manufacturer">Hai un problema internu col preséu. Ponte en contautu col fabricante pa consiguir más información.</string>
@@ -2328,6 +2354,9 @@
     <string name="call_notification_ongoing_text">Llamada en cursu</string>
     <string name="call_notification_screening_text">Peñerando una llamada entrante</string>
     <string name="default_notification_channel_label">Ensin estaya</string>
+    <string name="promotional_notification_channel_label">Promociones</string>
+    <string name="social_notification_channel_label">Social</string>
+    <string name="news_notification_channel_label">Noticies</string>
     <string name="recs_notification_channel_label">Recomendaciones</string>
     <string name="importance_from_user">Afitesti la importancia d\'estos avisos.</string>
     <string name="importance_from_person">Ye importante pola mor de les persones implicaes.</string>
@@ -2356,6 +2385,7 @@
     <string name="set_up_screen_lock_title">Afita un bloquéu de pantalla</string>
     <string name="set_up_screen_lock_action_label">Afitar un bloquéu de pantalla</string>
     <string name="private_space_set_up_screen_lock_message">Pa usar l\'espaciu priváu, configura una pantalla de bloquéu nel preséu</string>
+    <string name="private_space_set_up_screen_lock_for_reset">Pa desaniciar l\'espaciu priváu, afita una pantalla de bloquéu nesti preséu</string>
     <string name="app_blocked_title">L\'aplicación nun ta disponible</string>
     <string name="app_blocked_message">        Nesti momentu, «<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>» nun ta disponible.
     </string>
@@ -2450,9 +2480,9 @@
     <string name="autofill_save_type_generic_card">tarxeta</string>
     <string name="autofill_save_type_username">nome d\'usuariu</string>
     <string name="autofill_save_type_email_address">direición de corréu electrónicu</string>
-    <string name="etws_primary_default_message_earthquake">Mantén la calma y busca refuxu cierca.</string>
+    <string name="etws_primary_default_message_earthquake">Mantén la calma y busca refuxu cerca.</string>
     <string name="etws_primary_default_message_tsunami">Marcha nel intre de les marines y les riberes, y busca llugares más seguros como terrenos elevaos.</string>
-    <string name="etws_primary_default_message_earthquake_and_tsunami">Mantén la calma y busca refuxu cierca.</string>
+    <string name="etws_primary_default_message_earthquake_and_tsunami">Mantén la calma y busca refuxu cerca.</string>
     <string name="etws_primary_default_message_test">Prueba de mensaxes d\'emerxencia</string>
     <string name="notification_reply_button_accessibility">Responder</string>
     <string name="mmcc_authentication_reject">Refugóse la SIM pal serviciu de voz</string>
@@ -2505,7 +2535,9 @@
     <string name="nas_upgrade_notification_learn_more_content">Los avisos ameyoraos sustituyeron los avisos adautables n\'Android 12. Esta función amuesa aiciones y rempuestes suxeríes, y organiza los avisos.\n\nLos avisos ameyoraos puen acceder al conteníu de los avisos, incluyida la información personal como\'l nome y los mensaxes de los contautos. Esta función tamién pue escartar o responder a los avisos, como les llamaes telefóniques y controlar el mou «Nun molestar».</string>
     <string name="dynamic_mode_notification_channel_name">Avisu d\'información del mou Rutina</string>
     <string name="dynamic_mode_notification_title">Activóse l\'aforrador d\'enerxía</string>
-    <string name="dynamic_mode_notification_summary">Ta amenorgándose l\'usu de la batería p\'aumentar la so duración</string>
+    <string name="dynamic_mode_notification_summary">Ta amenorgándose l\'usu de la batería pa prollongar la so duración</string>
+    <string name="dynamic_mode_notification_title_v2">L\'aforrador d\'enerxía ta activáu</string>
+    <string name="dynamic_mode_notification_summary_v2">Activóse l\'aforrador d\'enerxía pa prollongar la duración de la batería</string>
     <string name="battery_saver_notification_channel_name">Aforrador d\'enerxía</string>
     <string name="battery_saver_off_notification_title">Desactivóse l\'aforrador d\'enerxía</string>
     <string name="battery_saver_charged_notification_summary" product="default">El teléfonu yá cargó abondo. Les funciones yá nun tán torgaes.</string>
@@ -2553,6 +2585,7 @@
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Atayu d\'accesibilidá</string>
     <string name="accessibility_system_action_dismiss_notification_shade">Escartar l\'área d\'avisos</string>
     <string name="accessibility_system_action_menu_label">Menú</string>
+    <string name="accessibility_system_action_media_play_pause_label">Reproducir/posar el conteníu multimedia</string>
     <string name="accessibility_system_action_dpad_up_label">Cruceta direicional: arriba</string>
     <string name="accessibility_system_action_dpad_down_label">Cruceta direicional: abaxo</string>
     <string name="accessibility_system_action_dpad_left_label">Cruceta direicional: esquierda</string>
@@ -2584,6 +2617,8 @@
     <string name="miniresolver_switch_to_work">¿Quies cambiar a l\'aplicación llaboral?</string>
     <string name="miniresolver_call_information">La to organización namás te permite facer llamaes dende aplicaciones llaborales</string>
     <string name="miniresolver_sms_information">La to organización namás te permite unviar mensaxes dende aplicaciones llaborales</string>
+    <string name="miniresolver_private_space_phone_information">"Namás pues facer llamaes dende l'aplicación Teléfonu del perfil personal. Les llamaes que faigas con esta aplicación van amestase al historial de llamaes del perfil personal."</string>
+    <string name="miniresolver_private_space_messages_information">"Namás pues unviar mensaxes SMS dende l'aplicación Mensaxería del perfil personal."</string>
     <string name="miniresolver_use_personal_browser">Usar el restolador personal</string>
     <string name="miniresolver_use_work_browser">Usar el restolador llaboral</string>
     <string name="miniresolver_call">Llamar</string>
@@ -2765,14 +2800,28 @@
     <string name="accessibility_label_clone_profile">Clon</string>
     <string name="accessibility_label_communal_profile">Comunal</string>
     <string name="private_space_biometric_prompt_title">Espaciu priváu</string>
+    <string name="redacted_notification_message">Escondióse\'l conteníu sensible del avisu</string>
+    <string name="screen_not_shared_sensitive_content">Por seguranza, escondióse\'l conteníu de l\'aplicación na pantalla compartida</string>
     <string name="satellite_notification_title">Conectóse automáticamente a un satélite</string>
     <string name="satellite_notification_summary">Pues unviar y recibir mensaxes ensin una rede móvil o Wi-Fi</string>
     <string name="satellite_notification_manual_title">¿Quies usar la mensaxería per satélite?</string>
     <string name="satellite_notification_manual_summary">Unvia y recibi mensaxes ensin una rede móvil o Wi-Fi</string>
     <string name="satellite_notification_open_message">Abrir l\'aplicación Mensaxes</string>
     <string name="satellite_notification_how_it_works">Cómo funciona</string>
+    <string name="unarchival_session_app_label">Pendiente…</string>
+    <string name="fingerprint_dangling_notification_title">Volvi configurar el desbloquéu cola buelga</string>
+    <string name="fingerprint_dangling_notification_msg_1">«<xliff:g id="fingerprint">%s</xliff:g>» yá nun se pue reconocer.</string>
+    <string name="fingerprint_dangling_notification_msg_2">«<xliff:g id="fingerprint">%1$s</xliff:g>» y «<xliff:g id="fingerprint">%2$s</xliff:g>» yá nun se puen reconocer.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_1">«<xliff:g id="fingerprint">%s</xliff:g>» yá nun se pue reconocer. Volvi configurar el desbloquéu cola buelga.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_2">«<xliff:g id="fingerprint">%1$s</xliff:g>» y «<xliff:g id="fingerprint">%2$s</xliff:g>» yá nun se puen reconocer. Volvi configurar el desbloquéu cola buelga.</string>
+    <string name="face_dangling_notification_title">Volvi configurar el desbloquéu facial</string>
+    <string name="face_dangling_notification_msg">Yá nun se pue reconocer el modelu facial. Volvi configurar el desbloquéu facial.</string>
     <string name="biometric_dangling_notification_action_set_up">Configurar</string>
     <string name="biometric_dangling_notification_action_not_now">Agora non</string>
+    <string name="bg_user_sound_notification_title_alarm">Alarma pa: <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
+    <string name="bg_user_sound_notification_button_switch_user">Cambiar d\'usuariu</string>
+    <string name="bg_user_sound_notification_button_mute">Desactivar el soníu</string>
+    <string name="bg_user_sound_notification_message">Toca pa desactivar el soníu</string>
     <string name="keyboard_shortcut_group_applications_browser">Restolador</string>
     <string name="keyboard_shortcut_group_applications_contacts">Contautos</string>
     <string name="keyboard_shortcut_group_applications_email">Corréu electrónicu</string>
@@ -2782,4 +2831,5 @@
     <string name="keyboard_shortcut_group_applications_calculator">Calculadora</string>
     <string name="keyboard_shortcut_group_applications_maps">Mapes</string>
     <string name="keyboard_shortcut_group_applications">Aplicaciones</string>
+    <string name="fingerprint_loe_notification_msg">Yá nun se puen reconocer les buelgues. Volvi configurar el desbloquéu cola buelga.</string>
 </resources>

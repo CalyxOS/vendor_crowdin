@@ -25,21 +25,33 @@
     <string name="safemode_widget_error">Los widgets tán desactivaos nel mou seguru</string>
     <string name="shortcut_not_available">L\'atayu nun ta disponible</string>
     <string name="home_screen">Aniciu</string>
+    <string name="set_default_home_app">Predetermina «<xliff:g id="launcher_name" example="Launcher3">%1$s</xliff:g>» como aplicación d\'Aniciu en Configuración</string>
     <string name="recent_task_option_split_screen">Dixebrar la pantalla</string>
     <string name="split_app_info_accessibility">Información de l\'aplicación «%1$s»</string>
+    <string name="split_app_usage_settings">Configuración d\'usu de: %1$s</string>
+    <string name="new_window_option_taskbar">Ventana nueva</string>
     <string name="save_app_pair">Guardar la pareya d\'aplicaciones</string>
     <string name="app_pair_default_title"><xliff:g id="app1" example="Chrome">%1$s</xliff:g> | <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
     <string name="app_pair_unlaunchable_at_screen_size">Esta pareya d\'aplicaciones nun ye compatible con esti preséu</string>
     <string name="app_pair_needs_unfold">Despliega\'l preséu pa usar esta pareya d\'aplicaciones</string>
+    <string name="app_pair_not_available">La pareya d\'aplicaciones nun ta disponible</string>
     <string name="long_press_widget_to_add">Ten primíu un widget pa movelu.</string>
     <string name="long_accessible_way_to_add">Toca dos vegaes un widget y tenlu primíu pa movelu o usar aiciones personalizaes.</string>
+    <string name="widget_picker_widget_options_button_description">Más opciones</string>
+    <string name="widget_picker_show_all_widgets_menu_item_title">Amosar tolos widgets</string>
     <string name="widget_accessible_dims_format">%1$d de llargor por %2$d d\'altor</string>
     <string name="widget_preview_context_description">Widget de: <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g></string>
+    <string name="widget_preview_name_and_dims_content_description">        Widget «<xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g>», %2$d de llargor por %3$d d\'altor
+    </string>
     <string name="add_item_request_drag_hint">Ten primíu\'l widget pa movelu pela pantalla d\'aniciu</string>
     <string name="add_to_home_screen">Amestar a la pantalla d\'aniciu</string>
     <string name="added_to_home_screen_accessibility_text">Amestóse\'l widget «<xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g>» a la pantalla d\'aniciu</string>
     <string name="suggested_widgets_header_title">Suxerencies</string>
+    <string name="productivity_widget_recommendation_category_label">Esenciales</string>
+    <string name="news_widget_recommendation_category_label">Noticies y magacinos</string>
     <string name="entertainment_widget_recommendation_category_label">Entretenimientu</string>
+    <string name="social_widget_recommendation_category_label">Social</string>
+    <string name="others_widget_recommendation_category_label">Suxerencies pa ti</string>
     <string name="widget_picker_right_pane_accessibility_title">Los widgets de l\'aplicación «<xliff:g id="selected_header" example="Calendar">%1$s</xliff:g>» tán a la derecha, la busca y les opciones a la esquierda</string>
     <string name="widgets_count">        {count, plural, =1{# widget} other{# widgets}}
     </string>
@@ -54,6 +66,8 @@
     <string name="widgets_full_sheet_work_tab">Perfil llaboral</string>
     <string name="widget_category_conversations">Conversaciones</string>
     <string name="widget_category_note_taking">Toma de notes</string>
+    <string name="widget_add_button_label">Amestar</string>
+    <string name="widget_add_button_content_description">Amestar el widget «<xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g>»</string>
     <string name="reconfigurable_widget_education_tip">Toca pa camudar la configuración del widget</string>
     <string name="widget_reconfigure_button_content_description">Camudar la configuración del widget</string>
     <string name="all_apps_search_bar_hint">Buscar aplicaciones</string>
@@ -74,9 +88,11 @@
     <string name="uninstall_drop_target_label">Desinstalar</string>
     <string name="app_info_drop_target_label">Información de l\'aplicación</string>
     <string name="install_private_system_shortcut_label">Instalar no privao</string>
+    <string name="uninstall_private_system_shortcut_label">Desinstalar l\'aplicación</string>
     <string name="install_drop_target_label">Instalar</string>
     <string name="dismiss_prediction_label">Nun suxerir l\'aplicación</string>
     <string name="pin_prediction">Fixar la predicción</string>
+    <string name="bubble">Burbuya</string>
     <string name="permlab_install_shortcut">instalación d\'atayos</string>
     <string name="permdesc_install_shortcut">Permite qu\'una aplicación amieste
         atayos ensin la intervención del usuariu.</string>
@@ -110,7 +126,7 @@
     <string name="app_pair_name_format">Pareya d\'aplicaciones: «<xliff:g id="app1" example="Chrome">%1$s</xliff:g>» y «<xliff:g id="app2" example="YouTube">%2$s</xliff:g>»</string>
     <string name="styles_wallpaper_button_text">Fondu de pantalla y estilu</string>
     <string name="edit_home_screen">Editar la pantalla d\'aniciu</string>
-    <string name="settings_button_text">Config. pant. d\'aniciu</string>
+    <string name="settings_button_text">Configuración d\'Aniciu</string>
     <string name="msg_disabled_by_admin">L\'alministrador desactivó la función</string>
     <string name="allow_rotation_title">Permitir el voltéu de la pantalla d\'aniciu</string>
     <string name="allow_rotation_desc">Cuando se voltia\'l preséu</string>
@@ -134,6 +150,7 @@
     <string name="app_installing_title">Instalando «<xliff:g id="name" example="Messenger">%1$s</xliff:g>», completóse\'l <xliff:g id="progress" example="30%">%2$s</xliff:g></string>
     <string name="app_downloading_title">Baxando «<xliff:g id="name" example="Messenger">%1$s</xliff:g>», completóse\'l <xliff:g id="progress" example="30%">%2$s</xliff:g></string>
     <string name="app_waiting_download_title">Esperando pa instalar «<xliff:g id="name" example="Messenger">%1$s</xliff:g>»</string>
+    <string name="app_archived_title">L\'aplicación «<xliff:g id="name" example="Messenger">%1$s</xliff:g>» ta archivada. Toca pa baxala y restaurala.</string>
     <string name="dialog_update_title">Ríquese anovar l\'aplicación</string>
     <string name="dialog_update_message">Nun s\'anovó l\'aplicación d\'esti iconu. Pues anovala manualmente pa volver activar esti atayu o quitar l\'iconu.</string>
     <string name="dialog_update">Anovar</string>
@@ -181,8 +198,11 @@
     <string name="developer_options_filter_hint">Peñera</string>
     <string name="remote_action_failed">L\'aición «<xliff:g id="what" example="Pause">%1$s</xliff:g>» falló</string>
     <string name="private_space_label">Espaciu priváu</string>
+    <string name="private_space_secondary_label">Toca pa configurar o p\'abrir</string>
     <string name="ps_container_title">Espaciu priváu</string>
     <string name="ps_container_settings">Configuración del espaciu priváu</string>
+    <string name="ps_container_unlock_button_content_description">Espaciu priváu, desbloquiáu</string>
+    <string name="ps_container_lock_button_content_description">Espaciu priváu, bloquiáu</string>
     <string name="ps_container_lock_title">Bloquéu</string>
     <string name="ps_container_transition">Cambiar al espaciu priváu</string>
     <string name="ps_add_button_label">Instalar</string>

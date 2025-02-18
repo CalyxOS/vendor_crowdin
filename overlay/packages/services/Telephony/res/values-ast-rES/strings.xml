@@ -102,6 +102,7 @@
     <string name="enable_cdma_cw">Activar</string>
     <string name="disable_cdma_cw">Encaboxar</string>
     <string name="phone_account_settings_user_restriction">Namás l\'alministrador o l\'usuariu llaboral puen camudar la configuración de la cuenta del teléfonu</string>
+    <string name="phone_account_no_config_mobile_networks">El propietariu del preséu restrinxó la capacidá de camudar la configuración de la rede móvil</string>
     <string name="call_settings_with_label">Configuración (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)</string>
     <string name="reading_settings">Lleendo la configuración\u2026</string>
     <string name="updating_settings">Anovando la configuración\u2026</string>
@@ -160,6 +161,44 @@
         <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
         <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
+    <string name="preferred_network_mode_wcdma_perf_summary">Mou de rede preferente: prefierse WCDMA</string>
+    <string name="preferred_network_mode_gsm_only_summary">Mou de rede preferente: namás GSM</string>
+    <string name="preferred_network_mode_wcdma_only_summary">Mou de rede preferente: namás WCDMA</string>
+    <string name="preferred_network_mode_gsm_wcdma_summary">Mou de rede preferente: GSM/WCDMA</string>
+    <string name="preferred_network_mode_cdma_summary">Mou de rede preferente: CDMA</string>
+    <string name="preferred_network_mode_cdma_evdo_summary">Mou de rede preferente: CDMA/EvDo</string>
+    <string name="preferred_network_mode_cdma_only_summary">Mou de rede preferente: namás CDMA</string>
+    <string name="preferred_network_mode_evdo_only_summary">Mou de rede preferente: namás EvDo</string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Mou de rede preferente: CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_lte_summary">Mou de rede preferente: LTE </string>
+    <string name="preferred_network_mode_lte_gsm_wcdma_summary">Mou de rede preferente: GSM/WCDMA/LTE</string>
+    <string name="preferred_network_mode_lte_cdma_evdo_summary">Mou de rede preferente: CDMA+LTE/EVDO</string>
+    <string name="preferred_network_mode_lte_cdma_evdo_gsm_wcdma_summary">Mou de rede preferente: LTE/CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_global_summary">Mou de rede preferente: global</string>
+    <string name="preferred_network_mode_lte_wcdma_summary">Mou de rede preferente: LTE/WCDMA</string>
+    <string name="preferred_network_mode_lte_gsm_umts_summary">Mou de rede preferente: LTE/GSM/UMTS</string>
+    <string name="preferred_network_mode_lte_cdma_summary">Mou de rede preferente: LTE/CDMA</string>
+    <string name="preferred_network_mode_tdscdma_summary">Mou de rede preferente: TDSCDMA</string>
+    <string name="preferred_network_mode_tdscdma_wcdma_summary">Mou de rede preferente: TDSCDMA/WCDMA</string>
+    <string name="preferred_network_mode_lte_tdscdma_summary">Mou de rede preferente: LTE/TDSCDMA</string>
+    <string name="preferred_network_mode_tdscdma_gsm_summary">Mou de rede preferente: TDSCDMA/GSM</string>
+    <string name="preferred_network_mode_lte_tdscdma_gsm_summary">Mou de rede preferente: LTE/GSM/TDSCDMA</string>
+    <string name="preferred_network_mode_tdscdma_gsm_wcdma_summary">Mou de rede preferente: TDSCDMA/GSM/WCDMA</string>
+    <string name="preferred_network_mode_lte_tdscdma_wcdma_summary">Mou de rede preferente: LTE/TDSCDMA/WCDMA</string>
+    <string name="preferred_network_mode_lte_tdscdma_gsm_wcdma_summary">Mou de rede preferente: LTE/TDSCDMA/GSM/WCDMA</string>
+    <string name="preferred_network_mode_tdscdma_cdma_evdo_gsm_wcdma_summary">Mou de rede preferente: TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_lte_tdscdma_cdma_evdo_gsm_wcdma_summary">Mou de rede preferente: LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_nr_only_summary">Mou de rede preferente: namás NR</string>
+    <string name="preferred_network_mode_nr_lte_summary">Mou de rede preferente: NR/LTE</string>
+    <string name="preferred_network_mode_nr_lte_cdma_evdo_summary">Mou de rede preferente: NR/LTE/CDMA/EvDo</string>
+    <string name="preferred_network_mode_nr_lte_gsm_wcdma_summary">Mou de rede preferente: NR/LTE/GSM/WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_cdma_evdo_gsm_wcdma_summary">Mou de rede preferente: NR/LTE/CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_wcdma_summary">Mou de rede preferente: NR/LTE/WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_tdscdma_summary">Mou de rede preferente: NR/LTE/TDSCDMA</string>
+    <string name="preferred_network_mode_nr_lte_tdscdma_gsm_summary">Mou de rede preferente: NR/LTE/TDSCDMA/GSM</string>
+    <string name="preferred_network_mode_nr_lte_tdscdma_wcdma_summary">Mou de rede preferente: NR/LTE/TDSCDMA/WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_tdscdma_gsm_wcdma_summary">Mou de rede preferente: NR/LTE/TDSCDMA/GSM/WCDMA</string>
+    <string name="preferred_network_mode_nr_lte_tdscdma_cdma_evdo_gsm_wcdma_summary">Mou de rede preferente: NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
     <string name="network_operator_category">Rede</string>
     <string name="enhanced_4g_lte_mode_summary">Usa los servicios LTE p\'ameyorar la voz y otres comunicaciones (aconséyase)</string>
     <string name="carrier_settings_euicc">Operadora</string>
@@ -180,6 +219,7 @@
     </string-array>
     <string name="list_language_dtitle">Llingües</string>
     <string name="enable_disable_advertisements">Anuncios</string>
+    <string name="network_lte">LTE (opción aconseyada)</string>
     <string name="cdma_subscription_dialogtitle">soscripción</string>
     <string name="name">Nome</string>
     <string name="number">Númberu</string>
@@ -189,10 +229,12 @@
     <string name="doneButton">Fecho</string>
     <string name="incall_error_power_off" product="watch">Pa facer una llamada, activa la rede móvil o desactiva\'l mou avión o l\'aforrador d\'enerxía.</string>
     <string name="incall_error_power_off" product="default">Pa facer una llamada, desactiva\'l mou avión</string>
-    <string name="incall_error_power_off_wfc">Pa facer una llamada, desactiva\'l mou avión o conéctate a una rede ensin filos.</string>
+    <string name="incall_error_power_off_wfc">Pa facer una llamada, desactiva\'l mou avión o conéctate a una rede ensin fillo.</string>
     <string name="incall_error_ecm_emergency_only">Pa facer una llamada que nun ye d\'emerxencia, desactiva\'l mou de retornu de llamaes d\'emerxencia</string>
     <string name="incall_error_out_of_service">La rede móvil nun ta disponible.</string>
-    <string name="incall_error_out_of_service_wfc">La rede móvil nun ta disponible. Pa facer una llamada, conéctate a una rede ensin filos.</string>
+    <string name="incall_error_out_of_service_2g">La rede móvil nun ta disponible.\n\nConéctate a una rede ensin filo pa facer una llamada.\n\nEl 2G ta desactiváu nesti preséu, lo que pue afeutar a la conectividá. Ve a Configuración y activa la opción «Permitir el 2G» pa siguir.</string>
+    <string name="incall_error_out_of_service_wfc">La rede móvil nun ta disponible. Pa facer una llamada, conéctate a una rede ensin fillo.</string>
+    <string name="incall_error_out_of_service_wfc_2g_user">La rede móvil nun ta disponible.\n\nConéctate a una rede ensin filo pa facer una llamada.\n\nEl 2G ta desactiváu nesti preséu, lo que pue afeutar a la conectividá. Ve a Configuración y activa la opción «Permitir el 2G» pa siguir.</string>
     <string name="incall_error_no_phone_number_supplied">Pa facer una llamada, introduz un númberu válidu.</string>
     <string name="incall_error_call_failed">La llamada falló.</string>
     <string name="incall_error_supp_service_unknown">El serviciu nun ye compatible</string>
@@ -202,8 +244,9 @@
     <string name="incall_error_supp_service_reject">Nun se pue refugar la llamada.</string>
     <string name="incall_error_supp_service_hangup">Nun se puen lliberar les llamaes.</string>
     <string name="incall_error_supp_service_hold">Nun se puen poner les llamaes n\'espera.</string>
-    <string name="incall_error_wfc_only_no_wireless_network">Pa facer una llamada, conectate a una rede ensin filos.</string>
+    <string name="incall_error_wfc_only_no_wireless_network">Pa facer una llamada, conectate a una rede ensin fillo.</string>
     <string name="incall_error_promote_wfc">Pa facer llamaes, activa les llamaes per Wi-Fi</string>
+    <string name="incall_error_satellite_enabled">Pa facer una llamada, fina la conexón per satélite primero</string>
     <string name="incall_error_carrier_roaming_satellite_mode">Pues unviar y recibir mensaxes ensin una rede móvil o Wi-Fi.</string>
     <string name="emergency_information_hint">Información d\'emerxencia</string>
     <string name="emergency_information_confirm_hint">Volvi tocar pa ver la información</string>
@@ -306,6 +349,11 @@
     <string name="dsds_dialog_message">Tienes de reaniciar el preséu pa camudar esta opción.</string>
     <string name="removable_esim_string">Predeterminar la eSIM estrayible</string>
     <string name="simulate_out_of_service_string">Simular que nun heba serviciu (namás compilación de depuración)</string>
+    <string name="enforce_satellite_channel_string">Forciar la canal LTE del satélite de campu (namás pa la compilación de depuración)</string>
+    <string name="mock_carrier_roaming_satellite_string">Simular el mou satélite de la operadora (namás pa la compilación de depuración)</string>
+    <string name="esos_satellite_string">Probar el mou eSOS real per satélite (namás pa la compilación de depuración)</string>
+    <string name="satellite_enable_non_emergency_mode_string">Probar el mou non eSOS real per satélite (namás pa la compilación de depuración)</string>
+    <string name="demo_esos_satellite_string">Probar el mou de demostración eSOS per satélite (namás pa la compilación de depuración)</string>
     <string name="radioInfo_service_emergency">Namás llamaes d\'emerxencia</string>
     <string name="radioInfo_roaming_in">Roaming</string>
     <string name="radioInfo_phone_offhook">Llamada en cursu</string>

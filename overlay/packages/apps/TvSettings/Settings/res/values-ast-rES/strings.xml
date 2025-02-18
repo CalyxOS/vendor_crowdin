@@ -23,12 +23,17 @@
     <string name="header_category_suggestions">Suxerencies</string>
     <string name="header_category_quick_settings">Configuración rápida</string>
     <string name="header_category_general_settings">Configuración xeneral</string>
+    <string name="screen_reader_service_title">Talkback\u0020(llector de pantalla)</string>
+    <string name="screen_reader_summary">TalkBack ye una función d\'accesibilidá pa lleer pantalles qu\'ayuda a los usuarios con discapacidá visual a lleer fuerte\'l testu, los elementos de los menús y otros elementos en pantalla. Tamién se pue configurar pa usala col atayu d\'accesibilidá.</string>
+    <string name="accounts_category_title">Cuentes y perfiles</string>
     <string name="accounts_category_summary"> {count, plural,
         one {}=1    {# cuenta}
         other {# cuentes}
         }
     </string>
+    <string name="privacy_device_lock_settings_title">Bloquéu del preséu</string>
     <string name="unknown_account">Cuenta desconocida</string>
+    <string name="unplug_ethernet_to_use_wifi">Desconecta\'l cable Ethernet pa usar la Wi-Fi</string>
     <string name="device_energy_saver">Temporizador d\'apagáu</string>
     <string name="device_energy_saver_summary">Configura temporizadores p\'apagar la TV y aforrar enerxía</string>
     <string name="device_fastpair">Preseos</string>
@@ -42,6 +47,9 @@
     <string name="preferred_dynamic_range_title">Intervalu dinámicu preferíu</string>
     <string name="preferred_dynamic_range_selection_system_title">Conversión preferida pol sistema
             </string>
+    <string name="preferred_dynamic_range_selection_system_desc">Dexa que\'l sistema xestione la conversión
+        del formatu
+    </string>
     <string name="preferred_dynamic_range_selection_system_summary">Cuando esta opción ta seleicionada,
         el sistema determina un intervalu dinámicu afayadizu pa unvialu a la pantalla y convertir
         el conteníu a esti intervalu dinámicu si ye necesario.
@@ -120,6 +128,7 @@
     <string name="bluetooth_ir_entry_title">Configurar los botones del mandu</string>
     <string name="bluetooth_ir_entry_subtitle">Controla\'l volume, l\'encendíu, la entrada de TVs, receutores y barres de soníu</string>
     <string name="bluetooth_toggle_active_audio_output_title">Usar pal audiu de la TV</string>
+    <string name="system_developer_options">Opciones pa desendolcadores</string>
     <string name="enterprise_privacy_number_packages_lower_bound"> {count, plural,
         one {}=1    {# aplicación como mínimu}
         other {# aplicaciones como mínimu}
@@ -207,7 +216,20 @@
     <string name="accessibility_interaction_controls_category_title">Controles d\'interación</string>
     <string name="accessibility_audio_and_onscreen_text_category_title">Audiu y testu na pantalla</string>
     <string name="accessibility_experimental_category_title">Esperimental</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title">Testu de contraste fuerte</string>
     <string name="accessibility_toggle_bold_text_preference_title">Testu en negrina</string>
+    <string name="bounce_key_title">Pulsaciones repitíes de les tecles</string>
+    <string name="bounce_key_description">Escueyi l\'intervalu que prefieres</string>
+    <string name="bounce_key_detailed">El mandu inora les pulsaciones repitíes de les tecles</string>
+    <string name="bounce_key_description_summary">Inora les pulsaciones rápides, accidentales y repitíes de los botones. Pues axustar l\'intervalu de tiempu nel que s\'inoren les pulsaciones</string>
+    <string name="bounce_key_timing_default_title">Intervalu: el predetermináu</string>
+    <string name="bounce_key_timing_default_description">Inora les pulsaciones repitíes demientres l\'intervalu predetermináu dempués de la pulsación inicial</string>
+    <string name="bounce_key_timing_half_second_title">Intervalu: 0,5 segundos</string>
+    <string name="bounce_key_timing_half_second_description">Axusta l\'intervalu de tiempu a 0,5 segundos pa que s\'inoren les pulsaciones repitíes de les tecles</string>
+    <string name="bounce_key_timing_one_second_title">Intervalu: 1 segundu</string>
+    <string name="bounce_key_timing_one_second_description">Axusta l\'intervalu de tiempu a 1 segundu pa que s\'inoren les pulsaciones repitíes de les tecles</string>
+    <string name="bounce_key_timing_two_second_title">Intervalu: 2 segundos</string>
+    <string name="bounce_key_timing_two_second_description">Axusta l\'intervalu de tiempu a 2 segundos pa que s\'inoren les pulsaciones repitíes de les tecles</string>
     <string name="accessibility_color_correction">Correición del color</string>
     <string name="color_correction_usage">Usar la correición del color</string>
     <string name="color_correction_color_mode">Mou de color</string>
@@ -221,6 +243,22 @@
     <string name="palette_color_orange">Naranxa</string>
     <string name="palette_color_purple">Moráu</string>
     <string name="palette_color_gray">Buxu</string>
+    <string name="keyboard_accessibility">Accesibilidá del tecláu</string>
+    <string name="accessibility_timeout">Tiempu pa facer l\'aición (tiempu d\'espera d\'accesibilidá)</string>
+    <string name="accessibility_timeout_summary">Axusta la duración de los mensaxes que riquen una aición</string>
+    <string name="accessibility_timeout_detailed">Escueyi cuántu tiempu quies que s\'amuesen los mensaxes temporales que te piden facer una aición</string>
+    <string name="accessibility_timeout_info_title">Intervalu: 2\u20133 segundos</string>
+    <string name="accessibility_timeout_info_description">Afita la cantidá de tiempu predetermináu pa responder a les aiciones en pantalla (2\u20133 segundos)</string>
+    <string name="accessibility_key_repeat_delay">Retrasu de la repitición de tecles</string>
+    <string name="accessibility_key_repeat_delay_detailed">Configura\'l retrasu previu a l\'apaición de caráuteres repitíos cuando se tien primida una tecla</string>
+    <string name="accessibility_key_repeat_delay_summary">Axusta\'l retrasu previu a la repitición de tecles</string>
+    <string name="accessibility_key_repeat">Repitición de tecles</string>
+    <string name="accessibility_delay_before_repeat">Retrasu previu a la repitición</string>
+    <string name="accessibility_delay_before_repeat_summary">Personaliza cuántu tiempu pues tener primíu un botón enantes de que comience a repitise</string>
+    <string name="accessibility_delay_before_repeat_detailed">Personaliza cuántu tiempu s\'ha tener primíu un botón pa que comience a repitise </string>
+    <string name="accessibility_repeat_rate">Velocidá de repitición</string>
+    <string name="accessibility_repeat_rate_summary">Afita la rapidez cola que s\'introducen los caráuteres repitíos cuando se tien primida una tecla</string>
+    <string name="accessibility_repeat_rate_info_summary">Controla la rapidez cola que se repite\'l botón dempués del retrasu inicial</string>
     <string name="accessibility_toggle_audio_description_preference_title">Audiodescripción</string>
     <string name="accessibility_audio_description_summary">Escucha una descripción de lo que pasa na pantalla en filmes y programes compatibles</string>
     <string name="system_accessibility_service_on_confirm_desc">«<xliff:g id="service" example="TalkBack">%1$s</xliff:g>» va ser a lleer la pantalla, amosar conteníu penriba d\'otres aplicaciones, facer un siguimientu de les interaiciones que tengas coles aplicaciones o sensores de hardware ya interactuar con aplicaciones nel to nome.</string>
@@ -248,6 +286,9 @@
     <string name="restricted_profile_enter_preference_screen">¿Acceder al perfil torgáu?</string>
     <string name="restricted_profile_enter_not_found_placeholder">Nun hai nengún perfil torgáu</string>
     <string name="restricted_profile_enter_already_entered_placeholder">Yá s\'accedió</string>
+    <string name="wifi_setup_already_connected">Yá se conectó</string>
+    <string name="device_apps_app_management_force_stop">Forciar la parada</string>
+    <string name="device_apps_app_management_force_stop_desc">Si forcies la parada d\'una aplicación, ye posible que nun funcione bien.</string>
     <string name="unused_apps">Aplicaciones que nun s\'usen</string>
     <string name="device_energy_saver_timeout_description"><xliff:g id="sleep_description" example="4 hours">%1$s</xliff:g></string>
     <string name="device_energy_saver_confirmation_title">Confirmación de la opción d\'alimentación y enerxía</string>
@@ -284,6 +325,7 @@
     <string name="bluetooth_ask_discovery_message">Una aplicación quier facer que la TV seya visible pa otros preseos Bluetooth demientres <xliff:g id="timeout">%1$d</xliff:g> segundos.</string>
     <string name="add_account_intent_not_available_dialog_message">Hebo un fallu al recuperar l\'intentu del autenticador p\'amestar la cuenta.</string>
     <string name="add_account_failed_dialog_message">Hebo un fallu al amestar la cuenta o\'l tipu de cuenta nun ta disponible</string>
+    <string name="system_tv_title">Televisión</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label">Códigu d\'empareyamientu per ethernet</string>
     <string name="energy_modes">Moos enerxéticos</string>
     <string name="energy_modes_summary">Estes opciones afeuten al preséu cuando nun ta n\'usu</string>
@@ -293,5 +335,12 @@
     <string name="settings_find_my_remote_title">Atopar el mandu</string>
     <string name="settings_find_my_remote_description">Reproduz un soníu p\'atopar el mandu de Google TV si nun sabes ónde ta</string>
     <string name="find_my_remote_slice_description">Hai un botón nel preséu de Google TV que pues primir pa reproducir un soníu nel mandu demientres 30 segundos. Esta función namás funciona colos mandos de Google TV compatibles.\n\nPa parar el soníu, primi cualesquier botón del mandu.</string>
+    <string name="find_my_remote_integration_hint">Cuando esta opción ta activada, pues usar el botón del preséu pa reproducir un soníu y atopar el mandu. Cuando ta desactivada, esti botón nun funciona. Vas poder siguir usando la función «Atopar el mandu» per otros métodos.</string>
     <string name="find_my_remote_play_sound">Reproducir un soníu</string>
+    <string name="settings_backlight_title">Mou de retroilluminación</string>
+    <string name="settings_backlight_description">Illuminación de los botones del mandu con cada pulsación.</string>
+    <string name="backlight_slice_description">Nos mandos de Google TV compatibles, primir el botón del mandu activa la retroilluminación.</string>
+    <string name="volume_change_settings_title">Volume: %1$s</string>
+    <string name="volume_change_subtitle_unselect">Pues controlar el volume del asistente nel altavoz «%1$s»</string>
+    <string name="volume_change_subtitle_select">Namás afeuta al volume del preséu «%1$s», non al de la TV</string>
 </resources>

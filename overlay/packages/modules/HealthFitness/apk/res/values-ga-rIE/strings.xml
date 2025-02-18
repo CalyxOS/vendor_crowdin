@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2022 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_subtitle" description="Description on the home screen of the app. [CHAR_LIMIT=NONE]">Bainistigh na sonraí sláinte agus folláine ar do ghléas, agus rialaigh cé na haipeanna ar féidir leo rochtain a fháil orthu</string>
+    <string name="browse_medical_data" description="Label for a button that navigates to a screen with medical data. [CHAR_LIMIT=50]">Brabhsáil taifid sláinte</string>
+    <string name="only_one_connected_app_button_subtitle" description="Description for a button that takes the user to the connected apps' permissions screens. [CHAR_LIMIT=NONE]">{count, plural,
+    one {}
+    two {Tá rochtain ag # aip.}
+    few {Tá rochtain ag # aipeanna.}
+    many {Tá rochtain ag # aipeanna.}
+    =1 {Tá rochtain ag 1 aip.}
+    other {Tá rochtain ag # aipeanna.}
+}</string>
+    <string name="connected_apps_connected_subtitle" description="Description for a button that takes the user to the connected apps' permissions screens when all possible apps are connected. [ICU SYNTAX][CHAR_LIMIT=NONE]">{count, plural,
+    one {}
+    two {Tá rochtain ag # aip.}
+    few {Tá rochtain ag # aipeanna.}
+    many {Tá rochtain ag # aipeanna.}
+    =1 {Tá rochtain ag 1 aip.}
+    other {Tá rochtain ag # aipeanna.}
+}</string>
+    <string name="browse_data_subtitle" description="Description for button that allows the user to browse data [CHAR_LIMIT=NONE]">Féach ar na sonraí agus cé na haipeanna ar féidir leo rochtain a fháil orthu</string>
+    <string name="manage_data_summary" description="Summary for the manage data preference. [CHAR_LIMIT=NONE]">Uath-scrios, foinsí sonraí, cúltaca agus athbhunaigh</string>
+    <string name="manage_data_preferences_category_title" description="Label for the grouped preference settings for managing data. [CHAR_LIMIT=40]">Roghanna</string>
+    <string name="backup_and_restore_settings_summary" description="Summary for the backup and restore setting preference. [CHAR_LIMIT=NONE]">Easpórtáil agus sonraí iompórtála</string>
+    <string name="read_data_access_label" description="Label used to indicate that app performed read access to specified data types (as opposed to writing the data), as in 'Read: Steps, Heart rate'. [CHAR_LIMIT=NONE]">Léigh: <xliff:g example="heart rate" id="data_type">%s</xliff:g></string>
+    <string name="write_data_access_label" description="Label used to indicate that app performed write (insertion, deletion or update) access to specified data types (as opposed to reading the data), as in 'Write: Steps, Heart rate'. [CHAR_LIMIT=NONE]">Scríobh: <xliff:g example="heart rate" id="data_type">%s</xliff:g></string>
+    <string name="recent_access_time_content_descritption" description="Content description for time section of recent access preference providing better context for accessibility talk back. [CHAR_LIMIT=NONE]">Am: <xliff:g example="13:05" id="recent_access_time">%1$s</xliff:g></string>
+    <string name="wellness_category_uppercase" description="Uppercase name for wellness category, displaying user data related to wellness (e.g. mindfulness) [CHAR LIMIT=30]">Folláine</string>
+    <string name="wellness_category_lowercase" description="Lowercase name for wellness category, displaying user data related to wellness (e.g. mindfulness) [CHAR LIMIT=30]">folláine</string>
+    <string name="inactive_apps_message" description="Description of the inactive apps section. [CHAR_LIMIT=NONE]">Ní féidir leis na haipeanna seo <xliff:g example="heart rate" id="data_type">%s</xliff:g> a léamh ná a scríobh a thuilleadh, ach tá sonraí stóráilte acu fós i Health Connect</string>
+    <string name="background_read_title" description="Title for permission to read health data in the background. [CHAR_LIMIT=NONE]">Rochtain a fháil ar shonraí sa chúlra</string>
+    <string name="background_read_request_title" description="Title for screen to give permission to an app to read health data in the background. [CHAR_LIMIT=NONE]">Ceadaigh <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> rochtain a fháil ar shonraí sa chúlra?</string>
+    <string name="background_read_description" description="Description for permission to read health data in the background. [CHAR_LIMIT=NONE]">Lig don aip seo rochtain a fháil ar shonraí Health Connect nuair nach bhfuil an aip in úsáid agat</string>
+    <string name="background_read_request_description" description="Description for screen to give permission to an app to read health data in the background. [CHAR_LIMIT=NONE]">Má cheadaíonn tú, is féidir leis an aip seo rochtain a fháil ar shonraí Health Connect nuair nach bhfuil an aip in úsáid agat.</string>
+    <string name="historic_access_title" description="Title for permission to access past health data. [CHAR_LIMIT=NONE]">Faigh rochtain ar shonraí san am atá caite</string>
+    <string name="historic_access_request_title" description="Title for screen to give permission to an app to access past health data. [CHAR_LIMIT=NONE]">Ceadaigh do <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> rochtain a fháil ar shonraí roimhe seo?</string>
+    <string name="historic_access_description" description="Description for permission to access past health data. [CHAR_LIMIT=NONE]">Lig don aip seo rochtain a fháil ar shonraí Health Connect a cuireadh leis roimh <xliff:g example="22 January 2022" id="data_access_date">%1$s</xliff:g></string>
+    <string name="historic_access_description_fallback" description="Description for permission to access past health data when there is no access date [CHAR_LIMIT=NONE]">Lig don aip seo rochtain a fháil ar na sonraí go léir Health Connect roimhe seo</string>
+    <string name="historic_access_request_description" description="Description for screen to give permission to an app to access past health data. [CHAR_LIMIT=NONE]">Má cheadaíonn tú, is féidir leis an aip seo rochtain a fháil ar shonraí Health Connect a cuireadh leis roimh &lt;&lt;xliff:g example="22 January 2022" id="data_access_date"&gt;%1$s&lt;/xliff:g&gt;</string>
+    <string name="historic_access_request_description_fallback" description="Description for screen to give permission to an app to access past health data. [CHAR_LIMIT=NONE]">Má cheadaíonn tú, is féidir leis an aip seo rochtain a fháil ar na sonraí go léir Health Connect san am a chuaigh thart.</string>
+    <string name="all_medical_data_uppercase_label" description="Uppercase label used to show the user's active calories burned data [CHAR_LIMIT=50]">Gach taifead sláinte</string>
+    <string name="all_medical_data_lowercase_label" description="Lowercase label used to show the user's active calories burned data [CHAR_LIMIT=50]">gach taifead sláinte</string>
+    <string name="all_medical_data_content_description" description="Content description for switch that enables permissions for writing the user's medical data [CHAR_LIMIT=NONE]">Scríobh gach taifead sláinte</string>
+    <string name="allergy_intolerance_uppercase_label" description="Uppercase label used to show the user's allergy intolerance data [CHAR_LIMIT=50]">Ailléirgí</string>
+    <string name="allergy_intolerance_lowercase_label" description="Lowercase label used to show the user's allergy intolerance data [CHAR_LIMIT=50]">ailléirgí</string>
+    <string name="allergy_intolerance_content_description" description="Content description for switch that enables permissions for reading the user's allergy intolerance data [CHAR_LIMIT=NONE]">Léigh ailléirgí</string>
+    <string name="immunization_uppercase_label" description="Uppercase label used to show the user's immunization data [CHAR_LIMIT=50]">Imdhíonadh</string>
+    <string name="immunization_lowercase_label" description="Lowercase label used to show the user's immunization data [CHAR_LIMIT=50]">imdhíonadh</string>
+    <string name="immunization_content_description" description="Content description for switch that enables permissions for reading the user's immunization data [CHAR_LIMIT=NONE]">Léigh imdhíonadh</string>
+    <string name="laboratory_results_uppercase_label" description="Uppercase label used to show the user's laboratory results data [CHAR_LIMIT=50]">Torthaí Saotharlainne</string>
+    <string name="laboratory_results_lowercase_label" description="Lowercase label used to show the user's laboratory results data [CHAR_LIMIT=50]">torthaí saotharlainne</string>
+    <string name="laboratory_results_content_description" description="Content description for switch that enables permissions for reading the user's laboratory results data [CHAR_LIMIT=NONE]">Léigh torthaí saotharlainne</string>
+    <string name="medications_uppercase_label" description="Uppercase label used to show the user's medications data [CHAR_LIMIT=50]">Cógais</string>
+    <string name="medications_lowercase_label" description="Lowercase label used to show the user's medications data [CHAR_LIMIT=50]">cógais</string>
+    <string name="medications_content_description" description="Content description for switch that enables permissions for reading the user's medications data [CHAR_LIMIT=NONE]">Léigh cógais</string>
+    <string name="pregnancy_uppercase_label" description="Uppercase label used to show the user's pregnancy data [CHAR_LIMIT=50]">Toircheas</string>
+    <string name="pregnancy_lowercase_label" description="Lowercase label used to show the user's pregnancy data [CHAR_LIMIT=50]">toircheas</string>
+    <string name="pregnancy_content_description" description="Content description for switch that enables permissions for reading the user's pregnancy data [CHAR_LIMIT=NONE]">Léigh toircheas</string>
+    <string name="problems_uppercase_label" description="Uppercase label used to show the user's problem data [CHAR_LIMIT=50]">Fadhbanna</string>
+    <string name="problems_lowercase_label" description="Lowercase label used to show the user's problem data [CHAR_LIMIT=50]">fadhbanna</string>
+    <string name="problems_content_description" description="Content description for switch that enables permissions for reading the user's problem data [CHAR_LIMIT=NONE]">Fadhbanna a léamh</string>
+    <string name="procedures_uppercase_label" description="Uppercase label used to show the user's procedure data [CHAR_LIMIT=50]">Nósanna Imeachta</string>
+    <string name="procedures_lowercase_label" description="Lowercase label used to show the user's procedure data [CHAR_LIMIT=50]">nósanna imeachta</string>
+    <string name="procedures_content_description" description="Content description for switch that enables permissions for reading the user's procedure data [CHAR_LIMIT=NONE]">Léigh nósanna imeachta</string>
+    <string name="social_history_uppercase_label" description="Uppercase label used to show the user's social history data [CHAR_LIMIT=50]">Stair Shóisialta</string>
+    <string name="social_history_lowercase_label" description="Lowercase label used to show the user's social history data [CHAR_LIMIT=50]">stair shóisialta</string>
+    <string name="social_history_content_description" description="Content description for switch that enables permissions for reading the user's social history data [CHAR_LIMIT=NONE]">Léigh stair shóisialta</string>
+    <string name="vital_signs_uppercase_label" description="Uppercase label used to show the user's vital signs data [CHAR_LIMIT=50]">Comharthaí Beatha</string>
+    <string name="vital_signs_lowercase_label" description="Lowercase label used to show the user's vital signs data [CHAR_LIMIT=50]">comharthaí beatha</string>
+    <string name="vital_signs_content_description" description="Content description for switch that enables permissions for reading the user's vital signs data [CHAR_LIMIT=NONE]">Léigh comharthaí beatha</string>
+    <string name="mindfulness_uppercase_label" description="Uppercase label used to show user's mindfulness session data [CHAR_LIMIT=50]">Aireachas</string>
+    <string name="mindfulness_lowercase_label" description="Lowercase label used to show user's mindfulness session data [CHAR_LIMIT=50]">aireachas</string>
+    <string name="mindfulness_read_content_description" description="Content description for switch that enables permissions for reading user's mindfulness session data [CHAR_LIMIT=NONE]">Léigh aireachas</string>
+    <string name="mindfulness_write_content_description" description="Content description for switch that enables permissions for writing user's mindfulness session data [CHAR_LIMIT=NONE]">Scríobh aireachas</string>
+    <string name="request_permissions_header_time_frame_desc" description="Text describing the time frame of data which an app will be able to access. [CHAR_LIMIT=NONE]">Má thugann tú rochtain léite, is féidir leis an aip sonraí agus sonraí nua a léamh le 30 lá anuas</string>
+    <string name="request_permissions_header_time_frame_history_desc" description="Text describing the time frame of data which an app with history read permission will be able to access. [CHAR_LIMIT=NONE]">Má thugann tú rochtain léite, is féidir leis an aip sonraí nua agus sonraí atá caite a léamh</string>
+    <string name="permissions_disconnect_dialog_message" description="Text informing the user that an app will no longer be able to read or write data after the permissions have been removed. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]"><xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> ní bheidh sé in ann sonraí ar bith ó Health Connect a léamh ná a scríobh a thuilleadh.\n\nNí bheidh sé seo in ann sonraí a léamh ná a scríobh. t difear do cheadanna eile a d’fhéadfadh a bheith ag an aip seo, amhail ceamara, micreafón, nó suíomh.</string>
+    <string name="permissions_disconnect_dialog_message_background" description="Text informing the user that an app will no longer be able to read or write data after the permissions have been removed, including the background read permission. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]">Ní bheidh <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> in ann sonraí ar bith ó Health Connect a léamh ná a scríobh, lena n-áirítear sonraí cúlra.\n \nNí chuireann sé seo isteach ar cheadanna eile a d\'fhéadfadh a bheith ag an aip seo, amhail suíomh, ceamara nó micreafón.</string>
+    <string name="permissions_disconnect_dialog_message_history" description="Text informing the user that an app will no longer be able to read or write data after the permissions have been removed, including the history read permission. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]"><xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> ní bheidh sé in ann aon sonraí ó Health Connect a léamh ná a scríobh a thuilleadh, lena n-áirítear sonraí ón am atá thart.\n \nNí chuireann sé seo isteach ar cheadanna eile a d\'fhéadfadh a bheith ag an aip seo, amhail suíomh, ceamara nó micreafón.</string>
+    <string name="permissions_disconnect_dialog_message_combined" description="Text informing the user that an app will no longer be able to read or write data after the permissions have been removed, including the background and history permissions. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]"><xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> ní bheidh sé in ann aon sonraí ó Health Connect a léamh ná a scríobh a thuilleadh, lena n-áirítear sonraí cúlra agus sonraí san am atá thart. \n\nNí chuireann sé seo isteach ar cheadanna eile a d\'fhéadfadh a bheith ag an aip seo, amhail suíomh, ceamara nó micreafón.</string>
+    <string name="disconnect_all_medical_permissions_title" description="Title for dialog asking user to confirm they want to remove all medical permissions for an app [CHAR_LIMIT=60]">Bain gach cead taifid sláinte?</string>
+    <string name="disconnect_all_fitness_permissions_title" description="Title for dialog asking user to confirm they want to remove all fitness permissions for an app [CHAR_LIMIT=60]">An bhfuil fonn ort gach cead folláine agus folláine a bhaint?</string>
+    <string name="disconnect_all_health_no_additional_permissions_dialog_message" description="Text informing the user that an app will no longer be able to read or write fitness and medical data after the permissions have been removed. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]"><xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> ní bheidh sé in ann sonraí a léamh ná a scríobh ó Health Connect.\n\nNí bheidh sé seo in ann sonraí a léamh ná a scríobh cuir isteach ar cheadanna eile a d\'fhéadfadh a bheith ag an aip seo, amhail ceamara, micreafón nó suíomh.</string>
+    <string name="disconnect_all_health_and_background_permissions_dialog_message" description="Text informing the user that an app will no longer be able to read or write fitness and medical data after the permissions have been removed. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]"><xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> ní bheidh sé in ann sonraí ó Health Connect a léamh ná a scríobh a thuilleadh, lena n-áirítear sonraí cúlra.\n\ nNí chuireann sé seo isteach ar cheadanna eile a d’fhéadfadh a bheith ag an aip seo, amhail ceamara, micreafón nó suíomh.</string>
+    <string name="disconnect_all_health_and_historical_permissions_dialog_message" description="Text informing the user that an app will no longer be able to read or write fitness and medical data after the permissions have been removed. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]"><xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> ní bheidh sé in ann sonraí ó Health Connect a léamh ná a scríobh a thuilleadh, lena n-áirítear sonraí ón am atá thart.\n\nNí chuireann sé seo isteach ar cheadanna eile a d’fhéadfadh a bheith ag an aip seo, amhail ceamara, micreafón nó suíomh.</string>
+    <string name="disconnect_all_health_and_additional_permissions_dialog_message" description="Text informing the user that an app will no longer be able to read or write fitness and medical data after the permissions have been removed. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]"><xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> ní bheidh sé in ann sonraí ó Health Connect a léamh ná a scríobh a thuilleadh, lena n-áirítear sonraí cúlra agus sonraí san am atá thart.\n\nNí chuireann sé seo isteach ar cheadanna eile a d\'fhéadfadh a bheith ag an aip seo, amhail ceamara, micreafón nó suíomh.</string>
+    <string name="disconnect_all_health_permissions_dialog_checkbox" description="Text of a checkbox to decide whether to delete all fitness and medical data written by the app that is being disconnected by the user. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]">Scrios sonraí folláine agus taifid sláinte freisin ó <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> ó Health Connect</string>
+    <string name="disconnect_all_health_permissions_success_toast" description="Toast shown when permissions have been successfully removed [CHAR_LIMIT=NONE]">Baineadh ceadanna don aip seo</string>
+    <string name="unkwown_resource" description="Label shown when a medical data cannot be identified [CHAR_LIMIT=NONE]">Acmhainn Anaithnid</string>
+    <string name="raw_fhir_open_bracket" description="Content description for the open curly bracket character and a prefix before that which is usually a space. [CHAR_LIMIT=50]"><xliff:g example=" " id="prefix">%1$s</xliff:g>Oscail lúibín.</string>
+    <string name="raw_fhir_closed_bracket" description="Content description for the closed curly bracket character. [CHAR_LIMIT=50]"><xliff:g example=" " id="prefix">%1$s</xliff:g> Lúibín dúnta.</string>
+    <string name="raw_fhir_field_value" description="Content description for a field and a corresponding value from a JSON file, starting with a prexif which is usually a space. [CHAR_LIMIT=50]"><xliff:g example=" " id="prefix">%1$s</xliff:g> Réimse <xliff:g example="name" id="field">%2$s</xliff:g> Luach</string>
+    <string name="raw_fhir_value" description="Content description for a value from a JSON file, starting with a prexif which is usually a space. [CHAR_LIMIT=50]"><xliff:g example=" " id="prefix">%1$s</xliff:g>: <xliff:g example="Nora" id="value">%2$s</xliff:g>. </string>
+    <string name="raw_fhir_content_description" description="Content description for a JSON file that is an electronic health care record [CHAR_LIMIT=NONE]">Cód foinse mionsonraithe: <xliff:g example="Open bracket. Field name Value John Doe. Field age Value 30. close bracket." id="source_code">%1$s</xliff:g></string>
+    <string name="remove_access_for_this_app" description="Label of a button that removes all permissions of an app [CHAR_LIMIT=NONE]">Bain rochtain don aip seo</string>
+    <string name="removed_additional_permissions_toast" description="Message letting the user know that additional permissions have also been removed for this app">Baineadh ceadanna breise don aip seo</string>
+    <string name="permissions_header" description="Title shown for section that lists permissions. [CHAR_LIMIT=40]">Ceadanna</string>
+    <string name="fitness_permissions" description="Label of a button that opens the fitness permissions screen. [CHAR_LIMIT=40]">Folláine agus folláine</string>
+    <string name="fitness_permissions_summary" description="Summary of a button that opens the fitness permissions screen. [CHAR_LIMIT=40]">Cleachtadh, codlata, cothú agus daoine eile</string>
+    <string name="medical_permissions" description="Uppercase name of medical data category that contains lab results, immunizations, medications, etc. [CHAR_LIMIT=40]">Taifid sláinte</string>
+    <string name="medical_permissions_lowercase" description="Lowercase name of medical data category that contains lab results, immunizations, medications, etc. [CHAR_LIMIT=40]">taifid sláinte</string>
+    <string name="medical_permissions_summary" description="Summary of a button that opens the medical permissions screen. [CHAR_LIMIT=40]">Torthaí saotharlainne, cógais, imdhíonta agus eile</string>
+    <string name="export_file_access_error_banner_title" description="Title of banner prompting the user to set up the scheduled export again due to the lost file access. [CHAR LIMIT=50]">Níorbh fhéidir sonraí a easpórtáil</string>
+    <string name="export_file_access_error_banner_summary" description="Summary of banner prompting the user to set up the scheduled export again due to the lost file access. [CHAR LIMIT=NONE]">Bhí fadhb leis an easpórtáil le haghaidh <xliff:g example="May 21" id="date">%1$s</xliff:g>. Socraigh easpórtáil nua sceidealta agus bain triail eile as.</string>
+    <string name="next_export_time" description="Text to show when the next export will be [CHAR LIMIT=40]">An chéad easpórtáil eile: <xliff:g example="May 21" id="date">%1$s</xliff:g></string>
+    <string name="next_export_text" description="Text to show when the next export will start soon [CHAR LIMIT=60]">An chéad onnmhairiú eile ag tosú go luath</string>
+    <string name="backup_and_restore_settings_screen_title" description="Title of the 'backup and restore' screen where users can set up configurations to export and import Health Connect data. [CHAR_LIMIT=40]">Cúltaca agus aischur</string>
+    <string name="last_export_time" description="Text to show when the last successful export was [CHAR LIMIT=40]">Easpórtáil is déanaí: <xliff:g example="May 21" id="date">%1$s</xliff:g></string>
+    <string name="last_export_time_now" description="Text to show if the last successful export was within 1 minute [CHAR LIMIT=NONE]">Onnmhairiú deiridh: anois</string>
+    <string name="last_export_time_minutes_ago" description="Text to show if the last successful export was between 1 minute and 1 hour [ICU SYNTAX][CHAR LIMIT=NONE]">{count, plural,
+    one {}
+    two {An t-easpórtáil dheireanach: # nóiméad ó shin}
+    few {An t-easpórtáil dheireanach: # nóiméad ó shin}
+    many {An t-easpórtáil dheireanach: # nóiméad ó shin}
+    =1 {An t-easpórtáil dheireanach: 1 nóiméad ó shin}
+    other {An t-easpórtáil dheireanach: # nóiméad ó shin}
+}</string>
+    <string name="last_export_time_hours_ago" description="Text to show if the last successful export was between 1 hour and 1 day [ICU SYNTAX][CHAR LIMIT=NONE]">{count, plural,
+    one {}
+    two {An t-easpórtáil dheireanach: # uair an chloig ó shin}
+    few {An t-easpórtáil dheireanach: # uair an chloig ó shin}
+    many {An t-easpórtáil dheireanach: # uair an chloig ó shin}
+    =1 {An t-easpórtáil dheireanach: 1 uair an chloig ó shin}
+    other {An t-easpórtáil dheireanach: # uair an chloig ó shin}
+}</string>
+    <string name="no_last_export_message" description="Text to show when there is no previous export after scheduling an export [CHAR_LIMIT=NONE]">Easpórtáil dheireanach: aon cheann</string>
+    <string name="last_export_file_location" description="Label to indicate the file location of the last successful export. [CHAR_LIMIT=NONE]"><xliff:g example="Drive" id="export_app_name">%1$s</xliff:g> • <xliff:g example="healthconnect.zip" id="export_file_name">%2$s</xliff:g></string>
+    <string name="scheduled_export" description="Menu item where users can click to configure scheduled data export. [CHAR_LIMIT=40]">Easpórtáil sceidealta</string>
+    <string name="import_data" description="Menu item where users can click to import their data. [CHAR_LIMIT=40]">Iompórtáil sonraí</string>
+    <string name="import_data_description" description="Description about the function of the 'restore data' preference. [CHAR_LIMIT=NONE]">Athchóirigh sonraí ó chomhad a easpórtáladh roimhe seo</string>
+    <string name="import_error_banner_title" description="Title of banner prompting the user that a previous data import failed. [CHAR LIMIT=50]">Níorbh fhéidir sonraí a chur ar ais</string>
+    <string name="import_wrong_file_error_banner_button" description="Button of banner prompting the user to set up the import again due to the wrong file error. [CHAR LIMIT=50]">Roghnaigh comhad</string>
+    <string name="import_wrong_file_error_banner_summary" description="Summary of banner prompting the user to set up the import again due to the wrong file error. [CHAR LIMIT=NONE]">Níl an comhad a roghnaigh tú comhoiriúnach le hathchóiriú. Bí cinnte an comhad easpórtáilte ceart a roghnú.</string>
+    <string name="import_version_mismatch_error_banner_summary" description="Summary of banner prompting the user to update the mainline module due to the version mismatch error. [CHAR LIMIT=NONE]">Nuashonraigh do chóras ionas gur féidir le Health Connect do shonraí a aischur, agus ansin bain triail eile as.</string>
+    <string name="import_other_error_banner_summary" description="Summary of banner prompting the user to try the import again due to certain error. [CHAR LIMIT=NONE]">Bhí fadhb ann le sonraí a athbhunú ó d\'easpórtáil.</string>
+    <string name="backup_and_restore_footer_body_text" description="Text displayed in page footer explaining the purpose of the export feature. [CHAR_LIMIT=NONE]">Ligeann Easpórtáil duit do shonraí a shábháil ionas gur féidir leat iad a aistriú chuig fón nua</string>
+    <string name="backup_and_restore_footer_link_text" description="Link text displayed in the footer to allow the user to navigate to further information about the export feature. [CHAR_LIMIT=40]">Maidir le cúltaca agus ar ais</string>
+    <string name="automatic_export_status" description="Label to indicate whether the automatic export is enabled or not and if enabled, what the export frequency is. [CHAR_LIMIT=NONE]"><xliff:g example="On" id="export_on_or_off">%1$s</xliff:g> • <xliff:g example="Daily" id="export_frequency">%2$s</xliff:g></string>
+    <string name="automatic_export_on" description="Text indicates the state of the automatic export is on. [CHAR_LIMIT=40]">Ar</string>
+    <string name="automatic_export_switch_text" description="Text label for a switch indicating whether the user has automatic export enabled. [CHAR_LIMIT=40]">Úsáid easpórtáil sceidealta</string>
+    <string name="next_export_file_location" description="Label to indicate the file location of the next export. [CHAR_LIMIT=NONE]"><xliff:g example="Drive" id="export_app_name">%1$s</xliff:g> • <xliff:g example="healthconnect.zip" id="export_file_name">%2$s</xliff:g></string>
+    <string name="choose_frequency_category" description="Category name to indicate that customers can update the scheduled export frequency below. [CHAR_LIMIT=40]">Athraigh minicíocht</string>
+    <string name="scheduled_export_settings_footer_text" description="Text displayed to warn users that the previous exported data will not be removed if they turn off the export.">Má mhúch tú easpórtáil sceidealaithe, ní scriosfaidh sé seo sonraí a easpórtáladh roimhe seo ón áit ar sábháladh é</string>
+    <string name="choose_frequency" description="Title of the 'set up scheduled export' screen where users can select the data saving frequency. [CHAR_LIMIT=40]">Socraigh easpórtáil sceidealta</string>
+    <string name="choose_frequency_description" description="Description of the data export frequency. [CHAR_LIMIT=NONE]">Roghnaigh cé chomh minic is féidir do shonraí a onnmhairiú</string>
+    <string name="export_destination_title" description="Title of the export destination screen where users can select which cloud storage service to store their exported data. [CHAR_LIMIT=40]">Roghnaigh cá háit is féidir onnmhairiú sceidealaithe a shábháil</string>
+    <string name="export_invalid_storage" description="Message shown to the user when they pick a local storage app instead of a cloud storage app to export their data to. [CHAR_LIMIT=NONE]">Roghnaigh aip stórála néil chun do shonraí a easpórtáil</string>
+    <string name="export_default_file_name" description="File name of exported Health Connect data. Note: Health Connect is the brand. [CHAR_LIMIT=40]">Nasc Sláinte</string>
+    <string name="export_default_file_name_with_sequence" description="File name of exported Health Connect data. Note: Health Connect is the brand. [CHAR_LIMIT=40]">Health Connect (<xliff:g example="1" id="export_sequential_number">%1$s</xliff:g>)</string>
+    <string name="import_confirmation_dialog_title" description="Title displayed on dialog asking user to confirm their choice of file for import. [CHAR_LIMIT=NONE]">Iompórtáil an comhad seo?</string>
+    <string name="import_confirmation_dialog_text" description="Text displayed on dialog asking user to confirm their choice of file for import. Note: Health Connect is the brand. [CHAR_LIMIT=NONE]"><xliff:g example="Health Connect.zip" id="file_name">%1$s</xliff:g> allmhaireofar chuig Health Connect</string>
+    <string name="import_confirmation_dialog_import_button" description="Text on a button that proceeds with the import process if the user confirms their choice of file. [CHAR_LIMIT=40]">Iompórtáil</string>
+    <string name="import_notification_import_complete_title" description="Title text of notification displayed when import has completed successfully. [CHAR_LIMIT=NONE]">Health Connect aischur críochnaithe</string>
+    <string name="import_complete_toast_text" description="Toast text displayed when import completes successfully. [CHAR_LIMIT=40]">Críochnaíodh athshlánú na sonraí</string>
+    <string name="import_notification_error_generic_error_title" description="Title text of notification displayed when import fails due to generic error. [CHAR_LIMIT=NONE]">Níorbh fhéidir le Health Connect sonraí a chur ar ais</string>
+    <string name="import_notification_error_invalid_file_body_text" description="Body text of notification displayed when import fails due to invalid file selection. [CHAR_LIMIT=NONE]">Níl an comhad a roghnaigh tú comhoiriúnach le hathchóiriú. Bí cinnte an comhad easpórtáilte ceart a roghnú.</string>
+    <string name="import_notification_error_more_space_needed_body_text" description="Body text of notification displayed when import fails due to needing additional space. [CHAR_LIMIT=NONE]">Tá <xliff:g example="500MB" id="space_needed">%1$s</xliff:g> de spás stórála ar do ghuthán ag teastáil ó Health Connect chun leanúint ar aghaidh ag athchóiriú do shonraí.</string>
+    <string name="import_notification_error_generic_error_body_text" description="Body text of notification displayed when import fails due to generic error. [CHAR_LIMIT=NONE]">Bhí fadhb ann le sonraí a athbhunú ó d\'easpórtáil.</string>
+    <string name="import_notification_error_version_mismatch_body_text" description="Body text of notification displayed when import fails due to a version mismatch between new and old backup file. [CHAR_LIMIT=NONE]">Nuashonraigh do chóras ionas gur féidir le Health Connect do shonraí a aischur, agus ansin bain triail eile as.</string>
+    <string name="import_notification_choose_file_intent_button" description="Button text on notification restarts the file selection stage of the import process. [CHAR_LIMIT=40]">Roghnaigh comhad</string>
+    <string name="scheduled_export_on_toast_text" description="Toast text displayed when user sets up a scheduled export. [CHAR_LIMIT=NONE]">Tá onnmhairiú sceidealta ar siúl</string>
+    <string name="export_notification_error_generic_error_title" description="Title text of notification displayed when export fails due to an unknown error. [CHAR_LIMIT=40]">Níorbh fhéidir le Health Connect sonraí a easpórtáil</string>
+    <string name="export_notification_error_generic_error_body_text" description="Body text of notification displayed when export fails due to an unknown error. [CHAR_LIMIT=NONE]">Bhí fadhb leis an easpórtáil le haghaidh <xliff:g example="May 21" id="date">%1$s</xliff:g>. Socraigh easpórtáil nua sceidealta agus bain triail eile as.</string>
+    <string name="export_notification_error_more_space_needed_body_text" description="Body text of notification displayed when the export fails due to needing additional space. [CHAR_LIMIT=NONE]">Tá <xliff:g example="500MB" id="space_needed">%1$s</xliff:g> de spás stórála ag teastáil ó Health Connect ar do ghuthán chun leanúint leis an easpórtáil sceidealaithe.</string>
+    <string name="import_source_location_title" description="Title of the 'Import from' screen where the use chooses the location where their backup is saved. [CHAR_LIMIT=40]">Iompórtáil ó</string>
+    <string name="import_invalid_storage" description="Message shown to the user when they pick a local storage app instead of a cloud storage app to import their data from. [CHAR_LIMIT=NONE]">Roghnaigh aip stórála néil chun do shonraí a iompórtáil</string>
+    <string name="export_import_tap_to_choose_account" description="Label of text indicating that the user needs to select an account to export data to or import data from. [CHAR_LIMIT=NONE]">Tapáil chun cuntas a roghnú</string>
+    <string name="export_import_choose_account_title" description="Title of a dialog where users select the account to export data to or import data from. [CHAR_LIMIT=40]">Roghnaigh cuntas</string>
+    <string name="export_import_no_apps_text" description="Text informing the user to install cloud storage apps to export data to or import data from. [CHAR_LIMIT=NONE]">Níl aon aipeanna ar fáil. Suiteáil aipeanna stórála scamall chun iad a fheiceáil anseo</string>
+    <string name="export_import_install_apps_text" description="Text informing the user to install cloud storage apps to export data to or import data from. [CHAR_LIMIT=NONE]">Le haghaidh tuilleadh roghanna, suiteáil aipeanna stórála scamall chun iad a fheiceáil anseo</string>
+    <string name="export_import_go_to_play_store_text" description="Link text taking the user to the Play Store so they can install cloud storage apps to export data to or import data from. [CHAR_LIMIT=NONE]">Téigh go dtí an Play Store</string>
+    <string name="onboarding_description" description="Content description of Health Connect app on the onboarding page">Stórálann Health Connect do shonraí sláinte agus folláine, rud a thugann bealach simplí duit na haipeanna éagsúla ar do ghléas a shioncronú</string>
+    <string name="enter_deletion_button_content_description" description="Content description of a button that enters the deletion state">Cuir isteach scriosadh</string>
+    <string name="exit_deletion_button_content_description" description="Content description of a button that exits the deletion state">Scriosadh scoir</string>
+    <string name="time_range_title" description="Window title where user can choose the time range for data deletion. [CHAR_LIMIT=50]">Roghnaigh sonraí le scriosadh ó Health Connect</string>
+    <string name="time_range_message_permission_type_app_data" description="Description explaining that this data deletion user activity is permanent. [CHAR_LIMIT=NONE]">Scriosann sé seo go buan <xliff:g example="heart rate" id="data_type">%1$s</xliff:g> sonraí curtha leis ag <xliff:g example="Strava" id="app_data">%2$s</xliff:g> le Health Connect sa tréimhse ama roghnaithe</string>
+    <string name="confirming_question_permission_type_app_data_all" description="Description of what permanent deletion of all permission type data written by given app means. [CHAR_LIMIT=NONE]">Scrios go buan <xliff:g example="heart rate" id="data_type">%1$s</xliff:g> sonraí curtha leis ag <xliff:g example="Strava" id="app_data">%2$s </xliff:g> ó am ar fad?</string>
+    <string name="confirming_question_permission_type_app_data_one_day" description="Description of what permanent deletion of all permission type data written by given app from the lat 24 hours means. [CHAR_LIMIT=NONE]">Scrios go buan <xliff:g example="heart rate" id="data_type">%1$s</xliff:g>sonraí curtha leis ag <xliff:g example="Strava" id="app_data">%2$s </xliff:g> ón 24 uair dheireanach?</string>
+    <string name="confirming_question_permission_type_app_data_one_week" description="Description of what permanent deletion of all permission type data written by given app from the lat 7 days means. [CHAR_LIMIT=NONE]">Scrios go buan <xliff:g example="heart rate" id="data_type">%1$s</xliff:g> sonraí curtha leis ag <xliff:g example="Strava" id="app_data">%2$s </xliff:g> le 7 lá anuas?</string>
+    <string name="confirming_question_permission_type_app_data_one_month" description="Description of what permanent deletion of all permission type data written by given app from the lat 30 days means. [CHAR_LIMIT=NONE]">Scrios go buan <xliff:g example="heart rate" id="data_type">%1$s</xliff:g> sonraí curtha leis ag <xliff:g example="Strava" id="app_data">%2$s </xliff:g> le 30 lá anuas?</string>
+    <string name="confirming_question_single_entry" description="Description of what permanent deletion of a single data point means. [CHAR_LIMIT=NONE]">Scrios go buan an iontráil seo ó Health Connect?</string>
+    <string name="confirming_question_message_menstruation" description="Description of what menstruation entries this action will delete [CHAR_LIMIT=NONE]">Scriosfaidh sé seo gach iontráil tréimhse ó <xliff:g example="22 January 2022" id="start_date">%1$s</xliff:g> go <xliff:g example="22 January 2022" id="end_date">%2$s</xliff:g></string>
+    <string name="delete_dialog_success_title" description="Title of the confirmation window of successful data deletion. [CHAR_LIMIT=50]">Scriosadh na sonraí ó Health Connect</string>
+    <string name="delete_dialog_success_message" description="A message that confirms successful data deletion. [CHAR_LIMIT=NONE]">Más mian leat na sonraí ó do chuid aipeanna nasctha a scriosadh go hiomlán, seiceáil gach aip nuair is féidir do shonraí a shábháil.</string>
+    <string name="delete_dialog_see_connected_apps_button" description="Button of the confirmation window of successful data deletion that takes the user to the connected apps screen. [CHAR_LIMIT=50]">Féach aipeanna nasctha</string>
+    <string name="velocity_minute_miles" translation_description="Speed in minute per mile formatted."><xliff:g example="1:30" id="minute">%1$s</xliff:g> nóim/míle</string>
+    <string name="velocity_minute_km" translation_description="Speed in minute per kilometer formatted."><xliff:g example="1:30" id="minute">%1$s</xliff:g> nóim/km</string>
+    <string name="velocity_minute_miles_long" translation_description="Speed in minute per mile formatted for audible announcement."><xliff:g example="1:30" id="minute">%1$s</xliff:g> nóiméad sa mhíle</string>
+    <string name="velocity_minute_km_long" translation_description="Speed in minute per kilometer formatted audible announcement."><xliff:g example="1:30" id="minute">%1$s</xliff:g> nóiméad in aghaidh an chiliméadair</string>
+    <string name="velocity_minute_per_one_hundred_yards" translation_description="Speed in minute per one hundred yards formatted."><xliff:g example="1:30" id="minute">%1$s</xliff:g> nóim/100 slat</string>
+    <string name="velocity_minute_per_one_hundred_meters" translation_description="Speed in minute per one hundred meters formatted."><xliff:g example="1:30" id="minute">%1$s</xliff:g> nóim/100 méadar</string>
+    <string name="velocity_minute_per_one_hundred_yards_long" translation_description="Speed in minute per one hundred yards formatted for audible announcement."><xliff:g example="1:30" id="minute">%1$s</xliff:g> nóiméad in aghaidh an 100 slat</string>
+    <string name="velocity_minute_per_one_hundred_meters_long" translation_description="Speed in minute per one hundred meters formatted audible announcement."><xliff:g example="1:30" id="minute">%1$s</xliff:g> nóiméad in aghaidh an 100 méadar</string>
+    <string name="planned_exercise_session_notes_title" description="Title for notes section.">Nótaí</string>
+    <string name="planned_exercise_block_repetitions" description="Repetitions of an exercise set. [ICU SYNTAX][CHAR LIMIT=50]">{count, plural,
+    one {}
+    two {# uair.}
+    few {# uair.}
+    many {# uair.}
+    =1 {1 uair.}
+    other {# uair.}
+}</string>
+    <string name="active_calories_burned" description="Label for active calories burned">Gníomhach: <xliff:g example="40 Cal" id="active_calories">%1$s</xliff:g></string>
+    <string name="total_calories_burned" description="Label for total calories burned">Iomlán: <xliff:g example="40 Cal" id="total_calories">%1$s</xliff:g></string>
+    <string name="amrap_performance_goal" description="Label for as many reps as possible performance goal">An oiread athrá agus is féidir</string>
+    <string name="rate_of_perceived_exertion_goal" description="Label for rate of perceived exertion goal">Leibhéal na hiarrachta: <xliff:g example="4" id="value">%1$d</xliff:g>/10</string>
+    <string name="elapsed_time_placeholder" description="Value to represent time for un realistic data input.">--:--</string>
+    <string name="unknown_type" description="Unknown exercise type">Cineál anaithnid</string>
+    <string name="mindfulness_type_breathing" description="Mindfulness session type: Breathing. [CHAR LIMIT=20]">Análú</string>
+    <string name="mindfulness_type_movement" description="Mindfulness session type: Movement. [CHAR LIMIT=20]">Gluaiseacht</string>
+    <string name="mindfulness_type_music" description="Mindfulness session type: Music. [CHAR LIMIT=20]">Ceol</string>
+    <string name="mindfulness_type_unguided" description="Mindfulness session type: Unguided. [CHAR LIMIT=20]">Neamhtreoraithe</string>
+    <string name="temperature_celsius" description="Temperature value with unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
+    one {}
+    two {#℃.}
+    few {#℃.}
+    many {#℃.}
+    =1 {1℃.}
+    other {#℃.}
+}</string>
+    <string name="temperature_kelvin" description="Temperature value with unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
+    one {}
+    two {#K.}
+    few {#K.}
+    many {#K.}
+    =1 {1K.}
+    other {#K.}
+}</string>
+    <string name="temperature_fahrenheit" description="Temperature value with unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
+    one {}
+    two {#℉.}
+    few {#℉.}
+    many {#℉.}
+    =1 {1℉.}
+    other {#℉.}
+}</string>
+    <string name="temperatureDelta_celsius" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
+    one {}
+    two {{formattedValue}℃.}
+    few {{formattedValue}℃.}
+    many {{formattedValue}℃.}
+    =1 {{formattedValue}℃.}
+    other {{formattedValue}℃.}
+}</string>
+    <string name="temperatureDelta_celsius_long" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
+    one {}
+    two {{formattedValue} céim Celsius.}
+    few {{formattedValue} céimeanna Celsius.}
+    many {{formattedValue} céimeanna Celsius.}
+    =1 {{formattedValue} céim Celsius.}
+    other {{formattedValue} céimeanna Celsius.}
+}</string>
+    <string name="temperatureDelta_fahrenheit" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
+    one {}
+    two {{formattedValue}℉.}
+    few {{formattedValue}℉.}
+    many {{formattedValue}℉.}
+    =1 {{formattedValue}℉.}
+    other {{formattedValue}℉.}
+}</string>
+    <string name="temperatureDelta_fahrenheit_long" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
+    one {}
+    two {{formattedValue} céim Fahrenheit.}
+    few {{formattedValue} céimeanna Fahrenheit.}
+    many {{formattedValue} céimeanna Fahrenheit.}
+    =1 {{formattedValue} céim Fahrenheit.}
+    other {{formattedValue} céimeanna Fahrenheit.}
+}</string>
+    <string name="temperatureDelta_kelvin" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
+    one {}
+    two {{formattedValue}K.}
+    few {{formattedValue}K.}
+    many {{formattedValue}K.}
+    =1 {{formattedValue}K.}
+    other {{formattedValue}K.}
+}</string>
+    <string name="temperatureDelta_kelvin_long" description="Difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
+    one {}
+    two {{formattedValue} céim Kelvin.}
+    few {{formattedValue} céimeanna Kelvin.}
+    many {{formattedValue} céimeanna Kelvin.}
+    =1 {{formattedValue} céim Kelvin.}
+    other {{formattedValue} céimeanna Kelvin.}
+}</string>
+    <string name="temperatureDelta_average_celsius" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
+    one {}
+    two {{formattedValue}℃ (athrú meánach).}
+    few {{formattedValue}℃ (athrú meánach).}
+    many {{formattedValue}℃ (athrú meánach).}
+    =1 {{formattedValue}℃ (athrú meánach).}
+    other {{formattedValue}℃ (athrú meánach).}
+}</string>
+    <string name="temperatureDelta_average_celsius_long" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
+    one {}
+    two {{formattedValue} céimeanna Celsius (athrú meánach).}
+    few {{formattedValue} céimeanna Celsius (athrú meánach).}
+    many {{formattedValue} céimeanna Celsius (athrú meánach).}
+    =1 {{formattedValue} céim Celsius (athrú meánach).}
+    other {{formattedValue} céimeanna Celsius (athrú meánach).}
+}</string>
+    <string name="temperatureDelta_average_fahrenheit" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
+    one {}
+    two {{formattedValue}℉ (athrú meánach).}
+    few {{formattedValue}℉ (athrú meánach).}
+    many {{formattedValue}℉ (athrú meánach).}
+    =1 {{formattedValue}℉ (athrú meánach).}
+    other {{formattedValue}℉ (athrú meánach).}
+}</string>
+    <string name="temperatureDelta_average_fahrenheit_long" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
+    one {}
+    two {{formattedValue} céimeanna Fahrenheit (athrú meánach).}
+    few {{formattedValue} céimeanna Fahrenheit (athrú meánach).}
+    many {{formattedValue} céimeanna Fahrenheit (athrú meánach).}
+    =1 {{formattedValue} céim Fahrenheit (athrú meánach).}
+    other {{formattedValue} céimeanna Fahrenheit (athrú meánach).}
+}</string>
+    <string name="temperatureDelta_average_kelvin" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=80]">{value, plural,
+    one {}
+    two {{formattedValue}K (athrú meánach).}
+    few {{formattedValue}K (athrú meánach).}
+    many {{formattedValue}K (athrú meánach).}
+    =1 {{formattedValue}K (athrú meánach).}
+    other {{formattedValue}K (athrú meánach).}
+}</string>
+    <string name="temperatureDelta_average_kelvin_long" description="Average difference from baseline temperature, value with sign and unit. [ICU SYNTAX][CHAR LIMIT=160]">{value, plural,
+    one {}
+    two {{formattedValue} kelvins (athrú meánach).}
+    few {{formattedValue} kelvins (athrú meánach).}
+    many {{formattedValue} kelvins (athrú meánach).}
+    =1 {{formattedValue} kelvins (athrú meánach).}
+    other {{formattedValue} kelvins (athrú meánach).}
+}</string>
+    <string name="skin_temperature_measurement_location_title" description="Title for the location where the body temperature measurement was taken. [CHAR LIMIT=50]">Suíomh tomhais</string>
+    <string name="skin_temperature_baseline_title" description="Title for the skin temperature record baseline temperature reading. [CHAR LIMIT=50]">Bunlíne</string>
+    <string name="skin_temperature_delta_details_heading" description="Heading for the list of individual delta readings. [CHAR LIMIT=160]">Athrú ón mbunlíne</string>
+    <string name="confirming_message_x_months" description="Description to explain what auto-deleting data older than x months means. [CHAR_LIMIT=NONE]">{count, plural,
+    one {}
+    two {Scriosann sé seo freisin sonraí níos sine ná # mí ó Health Connect.\n\nMá theastaíonn uait na sonraí a scriosadh go hiomlán ó na aipeanna ceangailte agat, seiceáil gach aip ina bhféadfadh do shonraí a bheith sábháilte.}
+    few {Scriosann sé seo freisin sonraí níos sine ná # mí ó Health Connect.\n\nMá theastaíonn uait na sonraí a scriosadh go hiomlán ó na aipeanna ceangailte agat, seiceáil gach aip ina bhféadfadh do shonraí a bheith sábháilte.}
+    many {Scriosann sé seo freisin sonraí níos sine ná # mí ó Health Connect.\n\nMá theastaíonn uait na sonraí a scriosadh go hiomlán ó na aipeanna ceangailte agat, seiceáil gach aip ina bhféadfadh do shonraí a bheith sábháilte.}
+    =1 {Scriosann sé seo freisin sonraí níos sine ná # mí ó Health Connect.\n\nMá theastaíonn uait na sonraí a scriosadh go hiomlán ó na aipeanna ceangailte agat, seiceáil gach aip ina bhféadfadh do shonraí a bheith sábháilte.}
+    other {Scriosann sé seo freisin sonraí níos sine ná # mí ó Health Connect.\n\nMá theastaíonn uait na sonraí a scriosadh go hiomlán ó na aipeanna ceangailte agat, seiceáil gach aip ina bhféadfadh do shonraí a bheith sábháilte.}
+}</string>
+    <string name="auto_delete_confirmation_toast" description="Toast confirming that auto-delete has been set">{
+    count, plural,
+    one {}
+    two {Tá an fheidhm uathoibríoch scriosadh i ngníomh. Scriosfar sonraí níos sine ná # mí}
+    few {Tá an fheidhm uathoibríoch scriosadh i ngníomh. Scriosfar sonraí níos sine ná # mí}
+    many {Tá an fheidhm uathoibríoch scriosadh i ngníomh. Scriosfar sonraí níos sine ná # mí}
+    =1 {Tá an fheidhm uathoibríoch scriosadh i ngníomh. Scriosfar sonraí níos sine ná # mí ó shin}
+    other {Tá an fheidhm uathoibríoch scriosadh i ngníomh. Scriosfar sonraí níos sine ná # mí}
+}</string>
+    <string name="auto_delete_off_toast" description="Toast confirming that auto-delete is off.">Tá uath-scriosadh múchta</string>
+    <string name="route_permissions_label" description="Summary of the section explaining in more details what it means to give read exercise route permission access to an app.">Rochtain bealaí aclaíochta</string>
+    <string name="route_permissions_summary" description="Summary of the section explaining in more details what it means to give read exercise route permission access to an app.">Ceadaigh do <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> bealaí a rochtain</string>
+    <string name="request_additional_permissions_header_title" description="Title for screen to give additional permissions to an app. [CHAR_LIMIT=NONE]">Ceadaigh rochtain bhreise do <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g>?</string>
+    <string name="request_additional_permissions_description" description="Description for screen to give additional permissions to an app. [CHAR_LIMIT=NONE]"><xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g>ag iarraidh rochtain a fháil ar na socruithe Health Connect seo freisin</string>
+    <string name="additional_access_combined_footer" description="Footer of screen to manage additional permissions for an app when no read fitness permissions are granted [CHAR_LIMIT=NONE]">Cumasaigh cead léite amháin ar a laghad chun rochtain chúlra nó sonraí roimhe seo a chur ar siúl don aip seo</string>
+    <string name="additional_access_background_footer" description="Footer of screen to manage additional permissions for an app when no read fitness permissions are granted [CHAR_LIMIT=NONE]">Cumasaigh cead léite amháin ar a laghad chun rochtain chúlra don aip seo a chur ar siúl</string>
+    <string name="additional_access_history_footer" description="Footer of screen to manage additional permissions for an app when no read fitness permissions are granted [CHAR_LIMIT=NONE]">Cumasaigh cead léite amháin ar a laghad chun rochtain sonraí roimhe seo a chur ar siúl don aip seo</string>
+    <string name="start_using_hc_banner_title" description="Title for banner shown when users have not connected their first fitness app">Tosaigh ag úsáid Health Connect</string>
+    <string name="start_using_hc_banner_content" description="Content for banner shown when users have not connected their first fitness app">Sioncronaigh do chéad aipeanna chun sonraí sláinte agus folláine a roinnt eatarthu</string>
+    <string name="connect_more_apps_banner_title" description="Title for banner shown when users have not connected their second fitness app">Ceangail tuilleadh aipeanna</string>
+    <string name="connect_more_apps_banner_content" description="Content for banner shown when users have not connected their second fitness app">Tosaigh ag roinnt sonraí idir <xliff:g example="Run Tracker" id="app_name">%s</xliff:g> agus na haipeanna sláinte ar do ghuthán</string>
+    <string name="see_compatible_apps_banner_title" description="Title for banner shown when users only have one available fitness app">Féach aipeanna comhoiriúnacha</string>
+    <string name="see_compatible_apps_banner_content" description="Content for banner shown when users only have one available fitness app">Aimsigh tuilleadh aipeanna le sioncronú le <xliff:g example="Run Tracker" id="app_name">%s</xliff:g> trí Health Connect</string>
+    <string name="see_compatible_apps_set_up_button" description="Button that takes users to the app store, for banner shown when users only have one available fitness app">Féach ar an siopa aip</string>
+    <string name="select_all" description="Label for a button that selects all data for deletion [CHAR_LIMIT=40]">Roghnaigh go léir</string>
+    <string name="deletion_confirmation_dialog_body" description="Text for dialog asking the user to confirm they want to delete all data">Ní bheidh aipeanna nasctha in ann na sonraí seo ó Health Connect a léamh a thuilleadh</string>
+    <string name="all_data_selected_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete all data">An bhfuil fonn ort na sonraí go léir a scriosadh go buan?</string>
+    <string name="some_data_selected_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete some data">An bhfuil fonn ort sonraí roghnaithe a scriosadh go buan?</string>
+    <string name="all_app_data_selected_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete all app data">Scrios go buan na sonraí <xliff:g example="Run Tracker" id="app_name">%s</xliff:g>?</string>
+    <string name="some_app_data_selected_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete some app data">Scrios buan <xliff:g example="Run Tracker" id="app_name">%s</xliff:g> sonraí roghnaithe go buan?</string>
+    <string name="all_entries_selected_day_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete all entries from the selected day">Scrios go buan gach iontráil do <xliff:g example="22 Jan 2022" id="selected_date_range">%1$s</xliff:g>?</string>
+    <string name="all_entries_selected_week_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete all entries from the selected week">Scrios go buan gach iontráil don tseachtain <xliff:g example="18-25 Jan 2022" id="selected_date_range">%1$s</xliff:g>?</string>
+    <string name="all_entries_selected_month_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete all entries from the selected month">Scrios buan gach iontráil le haghaidh <xliff:g example="Jan 2022" id="selected_date_range">%1$s</xliff:g>?</string>
+    <string name="some_entries_selected_day_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete selected entries from the selected day">Scrios go buan iontrálacha roghnaithe do <xliff:g example="22 Jan 2022" id="selected_date_range">%1$s</xliff:g>?</string>
+    <string name="some_entries_selected_week_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete selected entries from the selected week">Scrios go buan iontrálacha roghnaithe don tseachtain <xliff:g example="18-25 Jan 2022" id="selected_date_range">%1$s</xliff:g>?</string>
+    <string name="some_entries_selected_month_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete selected entries from the selected month">Scrios go buan iontrálacha roghnaithe le haghaidh <xliff:g example="Jan 2022" id="selected_date_range">%1$s</xliff:g>?</string>
+    <string name="all_app_entries_selected_day_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete all app entries from the selected day">Scrios go buan gach <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> iontráil do <xliff:g example="22 Jan 2022" id="selected_date_range">%2$s</xliff:g>?</string>
+    <string name="all_app_entries_selected_week_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete all app entries from the selected week">Scrios go buan gach <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> iontráil don tseachtain <xliff:g example="18-25 Jan 2022" id="selected_date_range">%2$s</xliff:g>?</string>
+    <string name="all_app_entries_selected_month_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete all app entries from the selected month">Scrios go buan gach <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> iontráil do <xliff:g example="Jan 2022" id="selected_date_range">%2$s</xliff:g>?</string>
+    <string name="some_app_entries_selected_day_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete selected app entries from the selected day">Scrios go buan iontrálacha <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g>iontrálacha roghnaithe le haghaidh <xliff:g example="22 Jan 2022" id="selected_date_range">%2$s</xliff:g>?</string>
+    <string name="some_app_entries_selected_week_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete selected app entries from the selected week">Scrios go buan iontrálacha <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> iontrálacha roghnaithe don tseachtain <xliff:g example="18-25 Jan 2022" id="selected_date_range">%2$s</xliff:g>?</string>
+    <string name="some_app_entries_selected_month_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete selected app entries from the selected month">Scrios go buan iontrálacha <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> iontrálacha roghnaithe le haghaidh <xliff:g example="Jan 2022" id="selected_date_range">%2$s</xliff:g>?</string>
+    <string name="one_app_entry_selected_deletion_confirmation_dialog" description="Title for dialog asking the user to confirm they want to delete the selected app entry">Scrios go buan an iontráil <xliff:g example="Run Tracker" id="app_name">%s</xliff:g>?</string>
+</resources>

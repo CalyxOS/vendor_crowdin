@@ -20,30 +20,44 @@
     <string name="mobile_network_active_esim">Serviciu activu / eSIM</string>
     <string name="mobile_network_inactive_esim">Serviciu inactivu / eSIM</string>
     <string name="wifi_network_state_switch_subtitle">Atopar y conectase a redes Wi\u2011Fi</string>
+    <string name="wifi_ap_2G_5G">2,4 y 5,0 GHz</string>
     <string name="tether_settings_title_all">Puntu Wi\u2011Fi</string>
     <string name="wifi_hotspot_switch_title">Usar el puntu Wi\u2011Fi</string>
+    <string name="wifi_hotspot_keep_on_title">Usar el puntu Wi-Fi pa tolos trayeutos</string>
+    <string name="wifi_hotspot_keep_on_summary">Fai que\'l puntu Wi-Fi tea disponible siempre que\'l coche tea en marcha</string>
     <string name="wifi_hotspot_qr_code_text">Escania esti códigu QR pa xunite a «%s»</string>
     <string name="wifi_hotspot_qr_code_password_text">Contraseña del puntu Wi\u2011Fi: %s</string>
     <string name="connected_settings_title">Preseos conectaos</string>
     <string name="bluetooth_toggle_title">Usar el Bluetooth</string>
+    <string name="device_connections_category_title">Conexones del preséu col coche</string>
+    <string name="uwb_toggle_title">Banda ultraampla (UWB)</string>
+    <string name="uwb_toggle_summary">Ayuda al coche a identificar la posición de los preseos UWB</string>
     <string name="bluetooth_bonded_phone_toggle_content_description">Teléfonu</string>
     <string name="audio_route_selector_title">Reproducir el conteníu multimedia en</string>
+    <string name="audio_route_selector_toast">Cambiando\'l conteníu multimedia a «%1$s»</string>
     <string name="performance_impacting_apps">Aplicaciones qu\'afeuten al rindimientu</string>
     <string name="force_stop">Parar l\'aplicación</string>
     <string name="force_stop_dialog_title">¿Quies parar l\'aplicación?</string>
+    <string name="force_stop_dialog_text">Si forcies la parada d\'una aplicación, ye posible que nun funcione bien.</string>
     <string name="force_stop_success_toast_text">        «<xliff:g id="app_name" example="Radio">%1$s</xliff:g>» paró.
     </string>
     <string name="prioritize_app_performance_dialog_title">¿Priorizar el rindimientu l\'aplicación?</string>
     <string name="prioritize_app_performance_dialog_text">Esta opción pue causar inestabilidá al sistema o afeutar al hardware a la llarga. ¿Quies siguir?</string>
     <string name="app_info_all_services_label">Tolos servicios</string>
+    <string name="runtime_permissions_summary_no_permissions_requested">Nun se solicitó nengún permisu</string>
     <string name="performance_impacting_apps_summary">        {count, plural,
             one {}=1    {Hai # aplicación qu\'afeuta al rindimientu}
             other {Hai # aplicaciones qu\'afeuten al rindimientu}
         }
     </string>
+    <string name="alarms_and_reminders_title">Alarmes y recordatorios</string>
     <string name="performance_impacting_apps_description">Estes aplicaciones afeuten negativamente al rindimientu del sistema ya impidióse la so execución en segundu planu.\nPrioriza una aplicación pa permiti-y l\'usu en segundu planu y quitala de la llista.</string>
     <string name="performance_impacting_apps_button_label">Priorizar l\'aplic.</string>
+    <string name="premium_sms_access_title">SMS premium</string>
     <string name="location_toggle_summary">        Usa la llocalización del coche con cualesquier aplicación qu\u2019especificares.
+    </string>
+    <string name="location_infotainment_apps_toggle_title">Aplicaciones d\'infoentretenimientu</string>
+    <string name="location_infotainment_apps_toggle_summary">        Permite que les aplicaciones tengan accesu a la llocalización
     </string>
     <string name="location_toggle_off_warning">        Si desactives esta opción va quitase l\'accesu a la llocalización en toles aplicaciones, quitante les que precisen la función d\'asistencia al conductor
     </string>
@@ -68,7 +82,7 @@
     <string name="location_access_settings_title">Accesu a la llocalización</string>
     <string name="location_access_settings_summary">        Escueyi si les aplicaciones puen acceder a la llocalización del coche
     </string>
-    <string name="location_access_disclaimer_summary">        Ye posible que\'l fabricante del vehículu entá tenga accesu a la llocalización del coche.
+    <string name="location_access_disclaimer_summary">        Ye posible que\'l fabricante del coche entá tenga accesu a la llocalización del coche.
         Pues revisar les sos polítiques pa consiguir más información.
     </string>
     <string name="location_adas_app_info_summary">        Estes funciones integraes riquen l\'accesu a la llocalización del coche p\'asistite na
@@ -83,27 +97,51 @@
             other {Tas a # calcos d\'activar la configuración pa desendolcadores.}
         }
     </string>
+    <string name="developer_options_settings">Opciones pa desendolcadores</string>
     <string name="reset_network_title">Reafitar el Wi\u2011Fi y el Bluetooth</string>
     <string name="reset_network_desc">Esta aición va reafitar la configuración del Wi\u2011Fi y el Bluetooth, y va desaniciar l\'historial de:</string>
     <string name="reset_network_item_wifi"><li>les redes Wi\u2011Fi y les sos contraseñes</li></string>
     <string name="reset_network_item_bluetooth"><li>los teléfonos y otros preseos Bluetooth a los que te conectares</li></string>
     <string name="factory_reset_desc">Esta opción va desaniciar tolos datos del sistema d\'información y entretenimientu del vehículu qu\'inclúin:\n\n&lt;li&gt;Les cuentes y los perfiles&lt;/li&gt;\n&lt;li&gt;Los datos y la configuración del sistema y de les aplicaciones&lt;/li&gt;\n&lt;li&gt;Les aplicaciones baxaes</string>
+    <string name="date_time_set_time">Configurar el reló</string>
+    <string name="auto_local_time_disclaimer_summary">        Ye posible que la data y la hora automátiques usen fontes como la llocalización y les redes móviles pa determinar la data, la hora y el fusu horariu.
+    </string>
+    <string name="auto_local_time_toggle_summary">        Usa la llocalización del coche p\u2019afitar automáticamente la data y la hora. Esta opción namás funciona si la llocalización ta activada.
+    </string>
+    <string name="auto_local_time_dialog_positive_button_text">Camudar en Configuración</string>
+    <string name="auto_local_time_dialog_msg">        La llocalización ta desactivada. Quiciabes la hora automática nun funcione
+    </string>
     <string name="storage_clear_data_dlg_text">Los datos d\'esta aplicación (los ficheros, la configuración, les bases de datos y otros elementos) van desaniciase permanentemente.</string>
     <string name="data_usage_auto_sync_on_dialog_title">¿Permitir la sincronización de datos automática?</string>
     <string name="data_usage_auto_sync_on_dialog">Los cambeos que faigas a les cuentes na web van copiase automáticamente nel vehículu.\n\nYe posible que dalgunes cuentes tamién copien automáticamente na web los cambeos que faigas al vehículu.</string>
     <string name="data_usage_auto_sync_off_dialog_title">¿Desactivar la sincronización de datos automática?</string>
     <string name="mute_camera_title">Cámara</string>
     <string name="mute_camera_summary">Controla l\'accesu de les aplicaciones a les cámares</string>
+    <string name="microphone_access_settings_title">Accesu al micrófonu</string>
+    <string name="microphone_access_settings_summary">Escueye si les aplicaciones puen acceder a los micrófonos del coche</string>
+    <string name="microphone_infotainment_apps_toggle_title">Aplicaciones d\'infoentretenimientu</string>
+    <string name="microphone_infotainment_apps_toggle_summary">Permite que les aplicaciones d\'información y entretenimientu graben audiu</string>
     <string name="camera_access_settings_title">Accesu a la cámara</string>
     <string name="camera_access_settings_summary">Escueyi si les aplicaciones puen acceder a les cámares del coche</string>
     <string name="required_apps_group_title">Aplicaciones obligatories</string>
+    <string name="required_apps_group_summary">        Aplicaciones riquíes pol fabricante del coche p\u2019ayudate a conducir
+    </string>
     <string name="required_apps_privacy_policy_button_text">Política</string>
+    <string name="camera_access_disclaimer_summary">        Ye posible que\u2019l fabricante del coche entá tenga accesu a la cámara del coche
+    </string>
+    <string name="camera_infotainment_apps_toggle_title">Aplicaciones d\'infoentretenimientu</string>
+    <string name="camera_infotainment_apps_toggle_summary">Permite que les aplicaciones d\'información y entretenimientu faigan semeyes y graben vídeos</string>
+    <string name="permission_grant_allowed">Con permisu</string>
+    <string name="permission_grant_always">En tou momentu</string>
+    <string name="permission_grant_never">Ensin permisu</string>
+    <string name="permission_grant_in_use">Mentanto s\'usa l\'aplicación</string>
     <string name="locktype_unavailable">Esti tipu de bloquéu nun ta disponible.</string>
     <string name="do_not_allow">Nun permitir</string>
     <string name="restricted_for_passenger">Solicita al conductor que camude la opción</string>
     <string name="restricted_for_driver">Nun pues facer esta aición</string>
     <string name="cannot_remove_driver_profile">Esti perfil tien la sesión aniciada como conductor. Volvi tentalo cuando\'l perfil nun tea nesi mou.</string>
     <string name="qc_ui_mode_title">Estilu</string>
+    <string name="show_layout_bounds_title">Usar les llendes de la distribución</string>
     <string name="work_policy_privacy_settings_no_org_name">Política del vehículu</string>
     <string name="factory_reset_parked_title">Restauración de los datos del sistema</string>
     <string name="factory_reset_now_button">Restaurar agora</string>
@@ -115,4 +153,8 @@
     <string name="camera_toggle_title">Usar la cámara</string>
     <string name="camera_toggle_summary">Permite que toles aplicaciones accedan a la cámara</string>
     <string name="camera_manage_permissions">Xestionar los permisos de la cámara</string>
+    <string name="data_subscription_explore_options">Ver los planes</string>
+    <string name="connectivity_inactive_prompt">Los tos planes d\'internet caducaron</string>
+    <string name="connectivity_inactive_action_text">Ver los planes</string>
+    <string name="audio_route_dialog_neutral_button_text">Fecho</string>
 </resources>
