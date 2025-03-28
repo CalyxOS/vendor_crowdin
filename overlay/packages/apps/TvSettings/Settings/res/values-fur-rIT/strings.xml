@@ -43,6 +43,7 @@
     <string name="header_category_personal">Personâls</string>
     <string name="connect_to_network">Conet ae rêt</string>
     <string name="add_an_account">Zonte un account</string>
+    <string name="accounts_category_title">Accounts e profîi</string>
     <string name="accounts_category_summary_no_account">Nissun account</string>
     <string name="accounts_category_summary"> {count, plural,
         one {}=1    {# account}
@@ -61,6 +62,7 @@
     <string name="privacy_category_title">Riservatece</string>
     <string name="privacy_device_settings_category">Impostazions dispositîf</string>
     <string name="privacy_account_settings_category">Impostazions account</string>
+    <string name="privacy_device_lock_settings_title">Bloc dispositîf</string>
     <string name="privacy_assistant_settings_title">Assistent di Google</string>
     <string name="privacy_purchases_settings_title">Paiament e compris</string>
     <string name="privacy_app_settings_category">Impostazions aplicazion</string>
@@ -827,6 +829,13 @@
     <string name="accessibility_screen_reader_flattened_component_name">com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Test a contrast elevât</string>
     <string name="accessibility_toggle_bold_text_preference_title">Test in neret</string>
+    <string name="bounce_key_timing_default_description">Ignore lis fracadis ripetudis par un interval predefinît dopo de prime fracade</string>
+    <string name="bounce_key_timing_half_second_title">Timp : 0,5 seconts</string>
+    <string name="bounce_key_timing_half_second_description">Regole la dade di timp a 0,5 seconts dulà che lis fracadis ripetudis dal tast a vegnin ignoradis</string>
+    <string name="bounce_key_timing_one_second_title">Timp : 1 secont</string>
+    <string name="bounce_key_timing_one_second_description">Regole la dade di timp a 1 secont dulà che lis fracadis dal tast ripetudis a vegnin ignoradis</string>
+    <string name="bounce_key_timing_two_second_title">Timp : 2 seconts</string>
+    <string name="bounce_key_timing_two_second_description">Regole la dade di timp a 2 seconts dulà che lis fracadis dal tast ripetudis a vegnin ignoradis</string>
     <string name="accessibility_color_correction">Corezion dai colôrs</string>
     <string name="color_correction_usage">Dopre corezion dai colôrs</string>
     <string name="color_correction_color_mode">Modalitât colôr</string>
@@ -848,8 +857,24 @@
     <string name="accessibility_shortcut">Scurte di acès facilitât</string>
     <string name="accessibility_shortcut_enable">Abilite scurte di acès facilitât</string>
     <string name="accessibility_shortcut_service">Servizi de scurte</string>
+    <string name="keyboard_accessibility">Acessibilitât de tastiere</string>
     <string name="accessibility_shortcut_description">Se la scurte e je ative, tu puedis fracâ ducj i doi i botons indaûr e jù par 3 seconts par inviâ une funzion di acès facilitât.</string>
+    <string name="accessibility_timeout">Timp par agjî (scjadince acès facilitât)</string>
+    <string name="accessibility_timeout_summary">Regole la durade dai messaçs che a domandin une azion</string>
+    <string name="accessibility_timeout_detailed">Sielç trop a dilunc mostrâ i messaçs temporanis che a domandin di fâ une azion</string>
+    <string name="accessibility_timeout_info_title">Timp : 2\u20133 seconts</string>
+    <string name="accessibility_timeout_info_description">Al stabilìs une cuantitât di timp predefinît par rispuindi aes azions su schermi (2\u20133 seconts)</string>
+    <string name="accessibility_key_repeat_delay">Ritart ripetizion tast</string>
+    <string name="accessibility_key_repeat_delay_detailed">Configure il ritart prime che il caratar ripetût al vegni fûr cuant che il tast al ven tignût fracât</string>
+    <string name="accessibility_key_repeat_delay_summary">Regole il ritart prime de ripetizion dal tast</string>
+    <string name="accessibility_key_repeat">Ripetizion tascj</string>
+    <string name="accessibility_delay_before_repeat">Ritart prime de ripetzion</string>
+    <string name="accessibility_delay_before_repeat_summary">Personalize trop a dilunc che tu puedis tignî fracât un boton prime che al scomenci a ripetisi</string>
+    <string name="accessibility_delay_before_repeat_detailed">Personalize la dade di timp che tu âs di tignî fracât un boton par che al scomenci a ripetisi</string>
+    <string name="accessibility_repeat_rate">Velocitât di ripetizion</string>
+    <string name="accessibility_repeat_rate_summary">Stabilìs trop svelts che i caratars ripetûts a vegnin inserîts cuant che un tast al ven tignût fracât</string>
     <string name="accessibility_key_repeat_info">Valôr predefinît</string>
+    <string name="accessibility_repeat_rate_info_summary">Controle trop svelt che si ripet il boton dopo dal ritart iniziâl</string>
     <string name="accessibility_captions">Sottitui</string>
     <string name="accessibility_captions_description">Impostazions pe soreposizion dal test dai sottitui sul video</string>
     <string name="captions_display">Visualizazion</string>
@@ -1094,6 +1119,7 @@
     <string name="wifi_setup_description">Selezione <xliff:g id="wifi_submit_icon">%1$s</xliff:g> par continuâ.</string>
     <string name="label_done_key">Fat</string>
     <string name="wifi_setup_connection_success">Conetût cun sucès</string>
+    <string name="wifi_setup_already_connected">Za conetude</string>
     <string name="wifi_setup_save_success">Salvade cun sucès</string>
     <string name="device_apps_app_management_version">Version <xliff:g id="app_version">%1$s</xliff:g></string>
     <string name="device_apps_app_management_open">Vierç</string>
@@ -1318,6 +1344,7 @@
     <string name="power_and_energy">Alimentazion e energjie</string>
     <string name="power_on_behavior">Compuartament al impiament</string>
     <string name="reset_options_title">Ripristinament</string>
+    <string name="system_tv_title">Television</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label">Codiç di associazion ethernet</string>
     <string name="energy_modes">Modalitâts di energjie</string>
     <string name="energy_modes_summary">Chestis impostazions a interessin il dispositîf cuant che nol ven doprât</string>
@@ -1327,5 +1354,12 @@
     <string name="settings_find_my_remote_title">Cjate il gno telecomant</string>
     <string name="settings_find_my_remote_description">Riprodûs un sun par localizâ il to telecomant Google TV se nol è tal so puest</string>
     <string name="find_my_remote_slice_description">Al è un boton sul to Google TV che tu puedis fracâ par riprodusi un sun sul telecomant par 30 seconts. Cheste operazion e funzione dome sui controi dal telecomant di Google TV.\n\nPar interompi il sun, frache un boton sul telecomant.</string>
+    <string name="find_my_remote_integration_hint">Se cheste opzion e je ative, tu puedis doprâ il boton sul to dispositîf par riprodusi un sun par localizâ il telecomant. Se disativade, chest boton nol funzionarà. Tu rivarâs distès a doprâ Cjate il gno telecomant in altris manieris.</string>
     <string name="find_my_remote_play_sound">Riprodûs sun</string>
+    <string name="settings_backlight_title">Modalitât iluminazion di daûr</string>
+    <string name="settings_backlight_description">La iluminazion dai botons sul telecomant a ogni fracade di tast.</string>
+    <string name="backlight_slice_description">Sui telecomants Google TV supuartâts, fracant il boton sui telecomants si ative la iluminazion di daûr.</string>
+    <string name="volume_change_settings_title">Volum: %1$s</string>
+    <string name="volume_change_subtitle_unselect">Tu puedis controlâ il volum dal assistent su la casse %1$s</string>
+    <string name="volume_change_subtitle_select">Al interesse nome il volum sul dispositîf %1$s, no chel de TV</string>
 </resources>

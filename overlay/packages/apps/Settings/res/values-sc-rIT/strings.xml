@@ -90,7 +90,6 @@
     <string name="setup_fingerprint_enroll_skip_title">Boles brincare s\'imprenta digitale?</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text">Pro sa configuratzione de s\'imprenta de pòddighes nce bolet isceti unu minutu o duos. Si dda brincas, podes agiùnghere s\'imprenta tua prus a tardu in sa cunfiguratzione.</string>
     <string name="identity_check_biometric_error_cancel">Annulla</string>
-    <string name="identity_check_biometric_error_ok">AB</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">Sighi</string>
     <string name="security_settings_remoteauth_enroll_introduction_more">Àteru</string>
     <string name="security_settings_remoteauth_enroll_enrolling_disagree">Annulla</string>
@@ -143,7 +142,6 @@
     <string name="bluetooth_device_context_disconnect">Disconnete</string>
     <string name="bluetooth_device_context_pair_connect">Assòtzia e connete</string>
     <string name="bluetooth_key_missing_cancel">Annulla</string>
-    <string name="external_display_more_options_title">Àteras optziones</string>
     <string name="wifi_display_settings_title">Trasmissione</string>
     <string name="wifi_display_enable_menu_item">Ativa s\'ischermu chene filos</string>
     <string name="wifi_display_no_devices_found">Perunu dispositivu acanta agatadu.</string>
@@ -308,7 +306,6 @@
     <string name="tethering_footer_info_sta_ap_concurrency">Imprea su puntu de atzessu Wi-Fi e s\'ancoràgiu web pro frunire ìnternet a àteros dispositivos tràmite Wi\u2011Fi o sa connessione de datos. Is aplicatziones podent creare puru unu puntu de atzessu Wi-Fi pro cumpartzire cuntenutos cun dispositivos a curtzu.</string>
     <string name="tethering_help_button_text">Agiudu</string>
     <string name="sms_application_title" translatable="true">Aplicatzione de SMS</string>
-    <string name="sms_change_default_dialog_title" translatable="true">Boles cambiare s\'aplicatzione de SMS?</string>
     <string name="sms_change_default_dialog_text" translatable="true">Boles impreare <xliff:g id="new_app">%1$s</xliff:g> imbetzes de <xliff:g id="current_app">%2$s</xliff:g> comente aplicatzione de SMS?</string>
     <string name="sms_change_default_no_previous_dialog_text" translatable="true">Boles impreare <xliff:g id="new_app">%s</xliff:g> comente aplicatzione de SMS?</string>
     <string name="network_scorer_change_active_dialog_title">Boles cambiare assistente Wi\u2011Fi?</string>
@@ -359,13 +356,14 @@
     <string name="audio_category_title">Àudio</string>
     <string name="display_category_title">Ischermu</string>
     <string name="accessibility_magnification_triple_tap_warning_negative_button">Annulla</string>
-    <string name="accessibility_tutorial_dialog_configure_software_shortcut_type">Àteras optziones</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">Connoschèntzia avantzada</string>
     <string name="accessibility_button_location_title">Positzione</string>
     <string name="accessibility_autoclick_medium_title">Mesanu</string>
     <string name="accessibility_call_vibration_category_title">Mutidas</string>
     <string name="captioning_more_options_title">Àteras optziones</string>
     <string name="accessibility_hearingaid_instruction_continue_button">Sighi</string>
+    <string name="daltonizer_mode_deuteranomaly_summary">Deuteranomalia</string>
+    <string name="daltonizer_mode_protanomaly_summary">Protanomalia</string>
     <string name="accessibility_dialog_button_allow">Permite</string>
     <string name="accessibility_dialog_button_deny">Nega</string>
     <string name="background_activity_disabled_dialog_text">Dae chi custa aplicatzione no est impostada pro fàghere rèndere a su màssimu sa bateria, dda podes limitare.\n\nPro limitare s\'aplicatzione, in antis ativa su rendimentu màssimu de sa bateria.</string>
@@ -457,6 +455,7 @@
     <string name="admin_device_owner_message">S\'amministradore tuo podet monitorare e gestire aplicatziones e datos
         assotziados cun custu dispositivu, incluende impostatziones, permissos, atzessu 
         corporativu, atividade de rete, e informatziones subra sa positzione de su dispositivu.</string>
+    <string name="operator_warning">Is datos de s\'operadore podent èssere diferentes dae sa contabilidade de su dispositivu</string>
     <string name="enterprise_privacy_header">Pro frunire s\'atzessu a is datos de traballu, s\'organizatzione diat pòdere modificare is impostatziones e installare su programma in su dispositivu.\n\nPro àteros detàllios, cuntata s\'amministradore de s\'organizatzione tua.</string>
     <string name="enterprise_privacy_exposure_changes_category">Càmbios fatos dae s\'amministradore de s\'organizatzione</string>
     <string name="enterprise_privacy_none">Perunu</string>
@@ -483,6 +482,7 @@
     <string name="wifi_warning_return_button">AB</string>
     <string name="wfc_disclaimer_location_title_text">Positzione</string>
     <string name="wifi_disconnect_button_text">Disconnete</string>
+    <string name="confirm_ext4_button_text">Cantzella totu is datos</string>
     <string name="default_app_none">Perunu</string>
     <string name="lockscreen_privacy_not_secure">Pro dd\'impreare, imposta unu blocu de ischermu</string>
     <string name="media_controls_title">Cuntenutos multimediales</string>
@@ -501,6 +501,10 @@
     <string name="audio_sharing_stream_password_title">Crae</string>
     <string name="audio_sharing_close_button_label">Serra</string>
     <string name="audio_sharing_settings_button_label">Impostatziones</string>
+    <string name="audio_sharing_disconnect_dialog_title">Sèbera unu dispositivu de disconnètere</string>
+    <string name="audio_sharing_dialog_disconnect_content">Isceti duos dispositivos podent cumpartzire àudio a su pròpiu tempus</string>
+    <string name="audio_sharing_disconnect_device_button_label">Disconnete <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
+    <string name="audio_sharing_stop_dialog_title">Boles connètere <xliff:g example="My buds" id="device_name">%1$s</xliff:g>?</string>
     <string name="audio_sharing_connect_button_label">Connete</string>
     <string name="audio_streams_disconnect">Disconnete</string>
     <string name="audio_streams_connect">Connete</string>

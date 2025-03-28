@@ -33,10 +33,28 @@
     <string name="bluetooth_disconnecting">Iscolleghende·si\u2026</string>
     <string name="bluetooth_connecting">Connetende·si\u2026</string>
     <string name="bluetooth_pairing">Assotziende·si\u2026</string>
+    <string name="bluetooth_active_battery_level">Ativu. <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_active_battery_level_untethered">Ativu. Manca: <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_active_battery_level_untethered_left">Ativu. Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_active_battery_level_untethered_right">Ativu. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria.</string>
     <string name="tv_bluetooth_battery_level">Bateria: <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered">Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_battery_level_untethered_left">Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_battery_level_untethered_right">Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria.</string>
     <string name="tv_bluetooth_battery_level_untethered_left">Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="tv_bluetooth_battery_level_untethered_right">Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_saved_device">Sarvadu</string>
+    <string name="bluetooth_hearing_aid_left_active">Ativu (manca ebbia)</string>
+    <string name="bluetooth_hearing_aid_right_active">Ativu (dereta ebbia)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_active">Ativu (manca e dereta)</string>
+    <string name="bluetooth_active_media_only_battery_level">Ativu (multimèdia ebbia). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_active_media_only_battery_level_untethered">Ativu (multimèdia ebbia). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_battery_level_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_battery_level_untethered_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_active_media_only_no_battery_level">Ativu (multimèdia ebbia)</string>
+    <string name="bluetooth_hearing_aid_media_only_left_active">Ativu (multimèdia ebbia), isceti su de manca</string>
+    <string name="bluetooth_hearing_aid_media_only_right_active">Ativu (multimèdia ebbia), isceti cussu de dereta</string>
+    <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Ativu (multimèdia ebbia), dereta e manca</string>
     <string name="bluetooth_profile_opp">Tràmuda de archìvios</string>
     <string name="bluetooth_profile_hid">Dispositivu de intrada</string>
     <string name="bluetooth_profile_pan">Atzessu a internet</string>
@@ -131,17 +149,27 @@
     <string name="bluetooth_enable_gabeldorsche_summary">Ativat su grupu de funtziones de Bluetooth Gabeldorsche.</string>
     <string name="show_key_presses">Ammustra sa pressione de is teclas</string>
     <string name="show_key_presses_summary">Ammustra una retroatzione visuale pro is teclas fìsicas prèmidas </string>
+    <string name="touchpad_visualizer">Mustra s\'intrada de su pannellu tàtile</string>
     <string name="transparent_navigation_bar">Barra de navigatzione trasparente</string>
     <string name="transparent_navigation_bar_summary">Faghe trasparente su colore de s\'isfundu de sa barra de navigatzione in manera predefinida</string>
     <string name="enable_verbose_vendor_logging">Ativat sa registratzione detalliada de chie bendit</string>
+    <string name="enable_verbose_vendor_logging_checkbox">Disativa a pustis de una die</string>
+    <string name="verbose_vendor_logging_notification_summary">Ativu pro una die</string>
+    <string name="verbose_vendor_logging_preference_summary_will_disable">S\'at a disativare a pustis de una die</string>
+    <string name="verbose_vendor_logging_preference_summary_on">Ativadu in manera indefinida</string>
     <string name="daltonizer_mode_disabled">Disativadu</string>
     <string name="power_charging_on_hold_settings_home_page"><xliff:g id="level">%1$s</xliff:g> - Sa càrriga est in pàusa pro amparare sa bateria</string>
     <string name="power_incompatible_charging_settings_home_page"><xliff:g id="level">%1$s</xliff:g> - Verifica s\'atzessòriu de càrriga</string>
     <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> - Sa càrriga est in pàusa pro amparare sa bateria</string>
     <string name="power_charging_future_paused"><xliff:g id="level">%1$s</xliff:g> - Carrighende</string>
+    <string name="power_fast_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="status">%2$s</xliff:g> - <xliff:g id="time">%3$s</xliff:g> a sa càrriga cumpleta</string>
+    <string name="power_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> a sa càrriga cumpleta</string>
+    <string name="power_remaining_charging_duration_only_v2"><xliff:g id="time">%1$s</xliff:g> a sa càrriga cumpleta</string>
+    <string name="power_remaining_fast_charging_duration_only_v2"><xliff:g id="time">%1$s</xliff:g> a sa càrriga cumpleta</string>
     <string name="battery_info_status_unknown">Disconnotu</string>
     <string name="battery_info_status_not_charging">Connètidu, ma no in càrriga</string>
     <string name="battery_info_status_charging_on_hold">Sa càrriga est in pàusa</string>
+    <string name="battery_info_status_charging_fast_v2">Càrriga lestra</string>
     <string name="disabled">Disativadu</string>
     <string name="wifi_tether_connected_summary">        {count, plural,
             one {}=1    {1 dispositivu collegadu}
@@ -149,6 +177,11 @@
         }
     </string>
     <string name="cancel">Annulla</string>
+    <string name="zen_mode_do_not_disturb_name">No istorbes</string>
+    <string name="zen_mode_settings_title">No istorbes</string>
+    <string name="zen_mode_starred_contacts_empty_name">(Nissunu nòmine)</string>
+    <string name="media_transfer_this_device_name_desktop">Custu elaboradore (internu)</string>
+    <string name="media_transfer_internal_mic">Micròfonu (internu)</string>
     <string name="media_transfer_dock_speaker_device_name">Altoparlantes in sa base</string>
     <string name="media_transfer_external_device_name">Dispositivu esternu</string>
     <string name="media_transfer_default_device_name">Dispositivu connètidu</string>
@@ -182,6 +215,7 @@
     <string name="profile_info_settings_title">Informatziones de su profilu</string>
     <string name="user_need_lock_message">Antis de creare unu profilu limitadu, tenes bisòngiu de cunfigurare unu blocu de ischermu pro amparare is aplicatziones e is datos personales tuos.</string>
     <string name="user_switch_to_user">Càmbia a <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
+    <string name="edit_user_info_message">Sa fotografia e su nòmine chi sèberas ant a èssere visìbiles pro chie si siat impreet custu dispositivu.</string>
     <string name="guest_new_guest">Agiunghe persone invitada</string>
     <string name="guest_exit_guest">Boga·nche persone invitada</string>
     <string name="grant_admin">Eja, torra in amministradore</string>
@@ -191,10 +225,15 @@
     <string name="cached_apps_freezer_enabled">Abilitadu</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Su dispositivu depet èssere torradu a aviare pro aplicare custu càmbiu. Torra a aviare immoe o annulla</string>
     <string name="media_transfer_wired_headphone_name">Cùfias cun filu</string>
+    <string name="media_transfer_usb_speaker_name">Altoparlante USB</string>
+    <string name="media_transfer_wired_device_mic_name">Jack pro su micròfonu</string>
+    <string name="media_transfer_usb_device_mic_name">Micròfonu USB</string>
     <string name="accessibility_phone_four_bars">Signale a cuatru istancas.</string>
+    <string name="turn_screen_on_title">Controllu pro ativare s\'ischermu</string>
     <string name="font_scale_percentage"> <xliff:g id="percentage">%1$d</xliff:g> %%</string>
     <string name="not_specified">No ispetzificadu</string>
     <string name="neuter">Nèutru</string>
     <string name="feminine">Feminile</string>
     <string name="masculine">Maschile</string>
+    <string name="system_update_settings_list_item_title">Atualizatziones de sistema</string>
 </resources>

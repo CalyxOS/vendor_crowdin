@@ -172,11 +172,14 @@
     <string name="wifi_ap_prefer_5G">Bande a 5 GHz preferide</string>
     <string name="wifi_ap_2G">2,4 GHz</string>
     <string name="wifi_ap_5G">5 GHz</string>
+    <string name="wifi_ap_2G_5G">2.4 e 5.0 GHz</string>
     <string name="wifi_ap_band_select_one">Sielç almancul une bande pal pont di acès Wi\u2011Fi:</string>
     <string name="tether_settings_title_all">Pont di acès Wi\u2011Fi</string>
     <string name="hotspot_settings_title">Pont di acès</string>
     <string name="wifi_hotspot_switch_title">Dopre pont di acès Wi\u2011Fi</string>
     <string name="wifi_hotspot_state_off">Off</string>
+    <string name="wifi_hotspot_keep_on_title">Dopre pont di acès par dutis lis unitâts</string>
+    <string name="wifi_hotspot_keep_on_summary">Rint disponibil il pont di acès ogni volte che la machine e je impiade</string>
     <string name="wifi_hotspot_qr_code_text">Scansione chest codiç QR par jentrâ in \u0022%s\u0022</string>
     <string name="wifi_hotspot_qr_code_password_text">Password dal pont di acès: %s</string>
     <string name="wifi_ask_enable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> al vûl ativâ il Wi-Fi</string>
@@ -221,6 +224,9 @@
     <string name="bluetooth_previously_connected">Conetûts in precedence</string>
     <string name="bluetooth_device_connected_toast">Dispositîf %1$s conetût</string>
     <string name="bluetooth_device_disconnected_toast">Dispositîf %1$s disconetût</string>
+    <string name="device_connections_category_title">Conessions dispositîf cu la tô machine</string>
+    <string name="uwb_toggle_title">Bande Ultra\u2011Largje (UWB)</string>
+    <string name="uwb_toggle_summary">Al jude la tô machine a identificâ la posizion dai dispositîfs UWB</string>
     <string name="bluetooth_notif_ticker">Richieste di associazion Bluetooth</string>
     <string name="bluetooth_device_context_pair_connect">Associe e conet</string>
     <string name="bluetooth_pairing_key_msg">Codiç di associazion Bluetooth</string>
@@ -265,6 +271,7 @@
     <string name="sound_alert_sounds">Suns di avîs</string>
     <string name="sound_alert_sounds_summary">Sunarie, notifichis, svee</string>
     <string name="audio_route_selector_title">Rirpodûs contignûts multimediâi su</string>
+    <string name="audio_route_selector_toast">Passaç dal contignût multimediâl a %1$s</string>
     <string name="display_brightness">Luminositât</string>
     <string name="display_night_mode_summary">Regole il schermi pes cundizions di scjarse iluminazion</string>
     <string name="units_settings">Unitâts</string>
@@ -423,6 +430,7 @@
     <string name="show_system">Mostre sisteme</string>
     <string name="hide_system">Plate sisteme</string>
     <string name="hide_system_apps">Plate aplicazions di sisteme</string>
+    <string name="alarms_and_reminders_title">Sveis e pro memoria</string>
     <string name="modify_system_settings_title">Modifiche impostazions sisteme</string>
     <string name="modify_system_settings_description">Chest permès al consint a une aplicazion di modificâ lis impostazions di sisteme.</string>
     <string name="notification_access_title">Acès aes notifichis</string>
@@ -435,6 +443,7 @@
     <string name="notification_listener_revoke_warning_cancel">Anule</string>
     <string name="performance_impacting_apps_description">Chestis aplicazions a influissin in mût negatîf su lis prestazions dal sisteme e a ur è stat impedît di zirâ in sotfont.\nDa prioritât a aplicazion al permet la utilizazion de aplicazion in sotfont e al permet di gjavâle di cheste liste.</string>
     <string name="performance_impacting_apps_button_label">Da prioritât a aplicazion</string>
+    <string name="premium_sms_access_title">SMS premium</string>
     <string name="premium_sms_access_description">I SMS Premium a podaressin costâti bêçs che a vignaran zontâts aes boletis dal to operadôr. Se tu ativis il permès par une aplicazion, ti rivarâs a doprâle par mandâ SMS premium.</string>
     <string name="usage_access_title">Acès ai dâts di utilizazion</string>
     <string name="usage_access_description">L\'acès ai dâts di utilizazion al permès a une aplicazion di tignî di voli cualis altris aplicazions tu dopris e trop dispès, e ancje il to operadôr, lis impostazions de lenghe e altris detais.</string>
@@ -444,6 +453,9 @@
     <string name="location_settings_title">Posizion</string>
     <string name="location_toggle_title">Dopre posizion</string>
     <string name="location_toggle_summary">        Dopre la posizion de tô machine cun dutis lis aplicazions che tu âs specificât.
+    </string>
+    <string name="location_infotainment_apps_toggle_title">Aplicazions dal infotainment</string>
+    <string name="location_infotainment_apps_toggle_summary">        Permet aes aplicazions di vê acès ae tô posizion
     </string>
     <string name="location_toggle_off_warning">        Se tu lu disativis, l\'acès ae posizion al vignarà gjavât a dutis lis aplicazions gjavadis chês che a coventin pe assistence ae vuide
     </string>
@@ -584,6 +596,7 @@
     <string name="date_time_24hour_title">Formât 24 oris</string>
     <string name="date_time_24hour">Dopre formât 24 oris</string>
     <string name="date_time_set_time_title">Ore</string>
+    <string name="date_time_set_time">Configure orloi</string>
     <string name="date_time_set_timezone_title">Fûs orari</string>
     <string name="date_time_set_timezone">Selezione fûs orari</string>
     <string name="date_time_set_date_title">Date</string>
@@ -592,7 +605,14 @@
     <string name="zone_list_menu_sort_by_timezone">Ordene par fûs orari</string>
     <string name="date_picker_title">Date</string>
     <string name="time_picker_title">Orari</string>
+    <string name="auto_local_time_disclaimer_summary">        Al è pussibil che la date e la ore automatiche a doprin sorzints di dâts come la posizion gjeografiche e lis rêts mobilis par determinâ date, ore e fûs orari.
+    </string>
+    <string name="auto_local_time_toggle_summary">        Dopre la posizion de tô machine par configurâ in automatic la date e la ore. Al funzione nome se la posizion e je ative.
+    </string>
     <string name="auto_local_time_dialog_negative_button_text">Continue</string>
+    <string name="auto_local_time_dialog_positive_button_text">Cambie in impostazions</string>
+    <string name="auto_local_time_dialog_msg">        La localizazion e je disativade. Al è probabil che la ore automatiche no funzioni.
+    </string>
     <string name="user_admin">Aministradôr</string>
     <string name="signed_in_admin_user">Jentrât come aministradôr</string>
     <string name="grant_admin_permissions_title">Concedi i permès di aministradôr?</string>
@@ -702,10 +722,24 @@
     <string name="vehicle_data_delete_user_title">Elimine il to profîl</string>
     <string name="vehicle_data_delete_user_summary">Scancele il to profîl e i accounts dal sisteme di infotainment</string>
     <string name="action_unavailable">Cheste azion no je disponibile pal to profîl</string>
+    <string name="microphone_access_settings_title">Acès al microfon</string>
+    <string name="microphone_access_settings_summary">Sielç se lis aplicazions a puedin acedi ai microfons de machine</string>
+    <string name="microphone_infotainment_apps_toggle_title">Aplicazions dal infotainment</string>
+    <string name="microphone_infotainment_apps_toggle_summary">Permeti aes aplicazions dal infotainment di regjistrâ audio</string>
     <string name="camera_access_settings_title">Acès ae fotocjamare</string>
     <string name="camera_access_settings_summary">Sielç se lis aplicazions a puedin acedi aes fotocjamaris de machine</string>
     <string name="required_apps_group_title">Aplicazions domandadis</string>
+    <string name="required_apps_group_summary">        Aplicazions che il produtôr de tô machine al necessite par judâti te vuide
+    </string>
     <string name="required_apps_privacy_policy_button_text">Politiche</string>
+    <string name="camera_access_disclaimer_summary">        Il produtôr de tô machine al podarà distès vê l\'acès ae fotocjamare de tô machine
+    </string>
+    <string name="camera_infotainment_apps_toggle_title">Aplicazions dal infotainment</string>
+    <string name="camera_infotainment_apps_toggle_summary">Permeti aes aplicazions dal infotainment di fâ fotos e regjistrâ videos</string>
+    <string name="permission_grant_allowed">Consintût</string>
+    <string name="permission_grant_always">Simpri</string>
+    <string name="permission_grant_never">No consintût</string>
+    <string name="permission_grant_in_use">Dome intant che tu dopris la aplicazion</string>
     <string name="permission_grant_ask">Domande ogni volte</string>
     <string name="security_settings_title">Sigurece</string>
     <string name="security_settings_subtitle">Bloc schermi</string>
@@ -874,6 +908,7 @@
     <string name="qc_bluetooth_off_devices_info">Par viodi i tiei dispositîfs, ative il Bluetooth</string>
     <string name="qc_bluetooth_on_no_devices_info">Par associâ un dispositîf, vierç lis impostazions dal Bluetooth</string>
     <string name="qc_ui_mode_title">Teme</string>
+    <string name="show_layout_bounds_title">Mostre limits de disposizion</string>
     <string name="device_admin_add_title">Aministradôr di sisteme dal infotainment</string>
     <string name="device_admin_activated_apps">Aplicazions ativadis</string>
     <string name="device_admin_deactivated_apps">Aplicazions disativadis</string>
@@ -940,8 +975,19 @@
         <item quantity="one"><xliff:g id="count">%d</xliff:g> aplicazion</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> aplicazions</item>
     </plurals>
+    <string name="enterprise_privacy_network_logs">Regjistri sul trafic di rêt plui resint</string>
+    <string name="enterprise_privacy_bug_reports">Segnalazion di erôr plui resinte</string>
+    <string name="enterprise_privacy_security_logs">Regjistri di sigurece plui resint</string>
     <string name="enterprise_privacy_none">Nissune</string>
+    <string name="enterprise_privacy_enterprise_installed_packages">Aplicazions instaladis</string>
+    <string name="enterprise_privacy_location_access">Autorizazions di localizazion</string>
+    <string name="enterprise_privacy_microphone_access">Autorizazions al microfon</string>
+    <string name="enterprise_privacy_camera_access">Autorizazions ae fotocjamare</string>
     <string name="enterprise_privacy_enterprise_set_default_apps">Aplicazions predefinidis</string>
+    <string name="enterprise_privacy_input_method">Tastiere predefinide</string>
+    <string name="enterprise_privacy_input_method_name">Met a <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
+    <string name="enterprise_privacy_global_http_proxy">Proxy HTTP globâl stabilît</string>
+    <string name="enterprise_privacy_ca_certs_personal">Credenziâls atendibilis tal to profîl personâl</string>
     <string name="enterprise_privacy_device_access_desc">        <li>L\'aministradôr al pues blocâ il sisteme di infotainment e ristabilî la password</li>\n
         <li>L\'aministradôr al pues eliminâ dâts sul sisteme di infotainment</li>
     </string>
@@ -1017,4 +1063,8 @@
     <string name="camera_settings_recent_requests_title">Utilizazions resintis</string>
     <string name="camera_settings_recent_requests_view_all_title">Viôt dutis</string>
     <string name="camera_settings_loading_app_permission_stats">Daûr a cjariâ\u2026</string>
+    <string name="data_subscription_explore_options">Viôt i plans</string>
+    <string name="connectivity_inactive_prompt">Il tiei plans par internet a son scjadûts</string>
+    <string name="connectivity_inactive_action_text">Viôt i plans</string>
+    <string name="audio_route_dialog_neutral_button_text">Fat</string>
 </resources>

@@ -25,8 +25,10 @@
     <string name="safemode_widget_error">I widgets a son disativâts in modalitât sigure</string>
     <string name="shortcut_not_available">La scurte no je disponibile</string>
     <string name="home_screen">Inizi</string>
+    <string name="set_default_home_app">Met <xliff:g id="launcher_name" example="Launcher3">%1$s</xliff:g> tant che aplicazion di inizi predefinide tes Impostazions</string>
     <string name="recent_task_option_split_screen">Schermi dividût</string>
     <string name="split_app_info_accessibility">Informazions aplicazion par %1$s</string>
+    <string name="split_app_usage_settings">Impostazions di utilizazion par %1$s</string>
     <string name="save_app_pair">Salve cubie di aplicazions</string>
     <string name="app_pair_default_title"><xliff:g id="app1" example="Chrome">%1$s</xliff:g> | <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
     <string name="app_pair_unlaunchable_at_screen_size">Cheste cubie di aplicazions no je supuartade su chest dispositîf</string>
@@ -36,10 +38,17 @@
     <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
     <string name="widget_accessible_dims_format">%1$d di largjece par %2$d di altece</string>
     <string name="widget_preview_context_description">Widget <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g></string>
+    <string name="widget_preview_name_and_dims_content_description">        <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> widget, %2$d di largjece par %3$d di altece
+    </string>
     <string name="add_item_request_drag_hint">Tocje e ten fracât il widget par spostâlu ator te schermade iniziâl</string>
     <string name="add_to_home_screen">Zonte ae schermade di inizi</string>
     <string name="added_to_home_screen_accessibility_text">Widget di <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> zontât ae schermade iniziâl</string>
     <string name="suggested_widgets_header_title">Sugjeriments</string>
+    <string name="productivity_widget_recommendation_category_label">Essenziâls</string>
+    <string name="news_widget_recommendation_category_label">Notiziis e rivistis</string>
+    <string name="entertainment_widget_recommendation_category_label">Divertiment</string>
+    <string name="social_widget_recommendation_category_label">Social</string>
+    <string name="others_widget_recommendation_category_label">Conseâts par te</string>
     <string name="widget_picker_right_pane_accessibility_title">I widgets <xliff:g id="selected_header" example="Calendar">%1$s</xliff:g> a diestre, ricercje e opzions a çampe</string>
     <string name="widgets_count">        {count, plural, one {}=1{# widget} other{# widgets}}
     </string>
@@ -55,6 +64,8 @@
     <string name="widgets_full_sheet_work_tab">Lavôr</string>
     <string name="widget_category_conversations">Conversazions</string>
     <string name="widget_category_note_taking">Cjape notis</string>
+    <string name="widget_add_button_label">Zonte</string>
+    <string name="widget_add_button_content_description">Zonte widget <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g></string>
     <string name="reconfigurable_widget_education_tip">Tocje par modificâ lis impostazions dal widget</string>
     <string name="widget_reconfigure_button_content_description">Cambie impostazions widget</string>
     <string name="all_apps_search_bar_hint">Cîr tes aplicazions</string>
@@ -75,6 +86,7 @@
     <string name="uninstall_drop_target_label">Disinstale</string>
     <string name="app_info_drop_target_label">Infos aplicazion</string>
     <string name="install_private_system_shortcut_label">Instale tal privât</string>
+    <string name="uninstall_private_system_shortcut_label">Disinstale aplicazion</string>
     <string name="install_drop_target_label">Instale</string>
     <string name="dismiss_prediction_label">No sta sugjerî aplicazions</string>
     <string name="pin_prediction">Prevision dal fissâ</string>
@@ -135,6 +147,7 @@
     <string name="app_installing_title">Daûr a instalâ <xliff:g id="name" example="Messenger">%1$s</xliff:g>, <xliff:g id="progress" example="30%">%2$s</xliff:g> completât</string>
     <string name="app_downloading_title">Daûr a discjariâ <xliff:g id="name" example="Messenger">%1$s</xliff:g>, <xliff:g id="progress" example="30%">%2$s</xliff:g> completât</string>
     <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> in spiete pe instalazion</string>
+    <string name="app_archived_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> al è archiviât. Tocje par discjariâ e ripristinâ.</string>
     <string name="dialog_update_title">Inzornament de aplicazion necessari</string>
     <string name="dialog_update_message">La aplicazion par cheste icone no je inzornade. Tu puedis inzornâle a man par tornâ a ativâ cheste scurte opûr gjave la icone.</string>
     <string name="dialog_update">Inzorne</string>
@@ -182,8 +195,11 @@
     <string name="developer_options_filter_hint">Filtre</string>
     <string name="remote_action_failed">Azion falide: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
     <string name="private_space_label">Spazi privât</string>
+    <string name="private_space_secondary_label">Tocje par configurâ o vierzi</string>
     <string name="ps_container_title">Privât</string>
     <string name="ps_container_settings">Impostazions spazi privât</string>
+    <string name="ps_container_unlock_button_content_description">Privât, sblocât.</string>
+    <string name="ps_container_lock_button_content_description">Privât, blocât.</string>
     <string name="ps_container_lock_title">Bloche</string>
     <string name="ps_container_transition">Transizion spazi privât</string>
     <string name="ps_add_button_label">Instale</string>

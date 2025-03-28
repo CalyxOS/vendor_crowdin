@@ -19,7 +19,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="wifi_fail_to_scan">Impussibil scandaiâ rêts</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_short_wpa">WPA</string>
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_eap_wpa">WPA-EAP</string>
+    <string name="wifi_security_short_eap_wpa2_wpa3">RSN-EAP</string>
+    <string name="wifi_security_short_sae">WPA3</string>
+    <string name="wifi_security_short_psk_sae">WPA2/WPA3</string>
+    <string name="wifi_security_short_none_owe">Nissune/OWE</string>
+    <string name="wifi_security_short_owe">OWE</string>
+    <string name="wifi_security_short_eap_suiteb">Suite-B-192</string>
     <string name="wifi_security_none">Nissune</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA-Personâl</string>
+    <string name="wifi_security_wpa2">WPA2-Personâl</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2-Personâl</string>
+    <string name="wifi_security_eap">WPA/WPA2/WPA3-Imprese</string>
+    <string name="wifi_security_eap_wpa">WPA-Imprese</string>
+    <string name="wifi_security_eap_wpa_wpa2">WPA/WPA2-Imprese</string>
+    <string name="wifi_security_eap_wpa2_wpa3">WPA2/WPA3-Imprese</string>
+    <string name="wifi_security_eap_wpa3">WPA3-Imprese</string>
+    <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_sae">WPA3-Personâl</string>
+    <string name="wifi_security_psk_sae">WPA2/WPA3-Personâl</string>
+    <string name="wifi_security_none_owe">Nissune/Enhanced Open</string>
+    <string name="wifi_security_owe">Enhanced Open</string>
+    <string name="wifi_security_eap_suiteb">WPA3-Imprese 192-bit</string>
     <string name="wifi_remembered">Salvât</string>
     <string name="wifi_disconnected">Disconetût</string>
     <string name="wifi_disabled_generic">Disativât</string>
@@ -368,6 +395,8 @@
     <string name="show_touches_summary">Mostre lis rispuestis visivis pes tocjadis</string>
     <string name="show_key_presses">Mostre pressions tascj</string>
     <string name="show_key_presses_summary">Mostre la retroazion visive pes pressions fisichis dai tascj</string>
+    <string name="touchpad_visualizer">Mostre input dal touchpad</string>
+    <string name="touchpad_visualizer_summary">Une soreposizion sul schermi che e mostre i dâts di input e i mots ricognossûts</string>
     <string name="show_screen_updates">Mostre i inzornaments de superficie</string>
     <string name="show_screen_updates_summary">Lampe dutis lis superficiis dal barcon cuant che si inzornin</string>
     <string name="show_hw_screen_updates">Mostre i inzornaments de viodude</string>
@@ -396,6 +425,12 @@
     <string name="enable_gpu_debug_layers_summary">Amet il cjariâ strâts debug GPU pes apps di debug</string>
     <string name="enable_verbose_vendor_logging">Ative i regjistris detaiâts dai produtôrs</string>
     <string name="enable_verbose_vendor_logging_summary">Inclût regjistris adizionâi dal produtôr specifics pai dispositîfs tes segnalazions di erôr, che a podaressin: contignî informazions privadis, consumâ plui batarie e/o doprâ plui spazi di archiviazion.</string>
+    <string name="enable_verbose_vendor_logging_checkbox">Disative dopo un dì</string>
+    <string name="verbose_vendor_logging_notification_title">La regjistrazion prolisse dal produtôr e je terminade</string>
+    <string name="verbose_vendor_logging_notification_summary">Ativade par un dì</string>
+    <string name="verbose_vendor_logging_notification_action">Ative par un dì in plui</string>
+    <string name="verbose_vendor_logging_preference_summary_will_disable">Al disative dopo un dì</string>
+    <string name="verbose_vendor_logging_preference_summary_on">Ativade in mût indefinît</string>
     <string name="window_animation_scale_title">Scjale animazion barcons</string>
     <string name="transition_animation_scale_title">Scjale animaz. transizion</string>
     <string name="animator_duration_scale_title">Scjale durade animadôr</string>
@@ -562,6 +597,8 @@
         al ven disativât, lis sveis esistentis e i events a oraris specifics programâts di cheste aplicazion no funzionaran.
     </string>
     <string name="keywords_alarms_and_reminders">programâ, planificâ, svee, pro memoria, orloi</string>
+    <string name="zen_mode_do_not_disturb_name">No Sta Disturbâ</string>
+    <string name="zen_mode_settings_title">No Sta Disturbâ</string>
     <string name="zen_mode_enable_dialog_turn_on">Ative</string>
     <string name="zen_mode_settings_turn_on_dialog_title">Ative No Stâ Disturbâ</string>
     <string name="zen_mode_settings_summary_off">Mai</string>
@@ -574,9 +611,12 @@
     <string name="zen_mode_duration_settings_title">Durade</string>
     <string name="zen_mode_duration_always_prompt_title">Domande ogni volte</string>
     <string name="zen_mode_forever">Fintremai che no tu disativis</string>
+    <string name="zen_mode_starred_contacts_empty_name">(Cence non)</string>
     <string name="time_unit_just_now">Juste cumò</string>
     <string name="media_transfer_this_device_name">Chest telefon</string>
     <string name="media_transfer_this_device_name_tablet">Chest tablet</string>
+    <string name="media_transfer_this_device_name_desktop">Chest computer (interni)</string>
+    <string name="media_transfer_internal_mic">Microfon (interni)</string>
     <string name="media_transfer_dock_speaker_device_name">Casse cun base</string>
     <string name="media_transfer_external_device_name">Dispositîf esterni</string>
     <string name="media_transfer_default_device_name">Dispositîf colegât</string>
@@ -683,6 +723,9 @@
     <string name="cached_apps_freezer_reboot_dialog_text">Tu scugnis tornâ a inviâ il dispositîf par aplicâ cheste modifiche. Torne invie cumò o anule.</string>
     <string name="media_transfer_wired_headphone_name">Scufis cun fîl</string>
     <string name="media_transfer_headphone_name">Scufis</string>
+    <string name="media_transfer_usb_speaker_name">Casse USB</string>
+    <string name="media_transfer_wired_device_mic_name">Prese pal microfon</string>
+    <string name="media_transfer_usb_device_mic_name">Microfon USB</string>
     <string name="wifi_hotspot_switch_on_text">On</string>
     <string name="wifi_hotspot_switch_off_text">Off</string>
     <string name="carrier_network_change_mode">Cambi dal operadôr di rêt</string>
