@@ -32,6 +32,11 @@
         <item>24 oris</item>
         <item>Mai</item>
     </string-array>
+    <string-array name="bounce_key_timeout_entries">
+        <item>0,5 seconts</item>
+        <item>1 secont</item>
+        <item>2 seconts</item>
+    </string-array>
     <string-array name="device_energy_saver_attentive_timeout_entries">
         <item>4 oris</item>
         <item>6 oris</item>
@@ -87,15 +92,22 @@
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
+    <string-array name="a11y_timeout_entries">
+        <item>Predefinît</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+    </string-array>
     <string-array name="a11y_delay_before_repeat_entries">
         <item>Predefinît</item>
-        <item>3 seconds</item>
-        <item>5 seconds</item>
+        <item>3 seconts</item>
+        <item>5 seconts</item>
     </string-array>
     <string-array name="a11y_repeat_rate_entries">
         <item>Predefinît</item>
-        <item>Slow</item>
-        <item>Fast</item>
+        <item>Lente</item>
+        <item>Svelte</item>
     </string-array>
     <string-array name="volume_change_entries">
         <item>Cidine</item>
@@ -103,9 +115,20 @@
         <item>Medi (50%)</item>
         <item>Alt (80%)</item>
     </string-array>
+    <string-array name="volume_change_entry_values">
+        <item>0</item>
+        <item>0,2</item>
+        <item>0.5</item>
+        <item>0,8</item>
+    </string-array>
     <string-array name="backlight_modes">
         <item>Mai</item>
         <item>Standard</item>
-        <item>Scheduled</item>
+        <item>Programade</item>
+    </string-array>
+    <string-array name="backlight_hints">
+        <item>La iluminazion di daûr no si impiarà a ogni pression.</item>
+        <item>La iluminazion di daûr si impiarà a ogni pression. La iluminazion e durarà 5 seconts ogni volte che e vignarà ativade.</item>
+        <item>La iluminazion di daûr si impiarà a ogni pression dome vie pe gnot ( oris 6pm~6am). La iluminazion e durarà 5 seconts ogni volte che e vignarà ativade.</item>
     </string-array>
 </resources>

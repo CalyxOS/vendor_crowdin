@@ -37,6 +37,8 @@
     <string name="dismiss_suggestion">Scarte il sugjeriment</string>
     <string name="hotwording_title">Rilevament di \"OK Google\"</string>
     <string name="hotwording_summary">Cjacare cul assistent di Google cuant che tu vûs</string>
+    <string name="screen_reader_service_title">Talkback\u0020(letôr di schermi)</string>
+    <string name="screen_reader_summary">TalkBack e je une funzionalitât di acès facilitât dal letôr di schermi che e jude i utents cun disabilitâts visivis leint a vôs alte test, elements dai menûs e altris elements che a son sul schermi. Al è pussibil ancje configurâlu ancje pe utilizazion cu la scurte pal acès facilitât.</string>
     <string name="header_category_device">Dispositîf</string>
     <string name="header_category_preferences">Preferencis</string>
     <string name="header_category_accessories">Telecomant e acessoris</string>
@@ -86,6 +88,7 @@
     <string name="connectivity_summary_ethernet_connected">Ethernet colegât</string>
     <string name="connectivity_summary_no_network_connected">Nissune rêt colegade</string>
     <string name="connectivity_summary_wifi_disabled">Il Wi-Fi al è disativât</string>
+    <string name="unplug_ethernet_to_use_wifi">Distache il cabli dal Ethernet par doprâ il Wi-Fi</string>
     <string name="wifi_setting_always_scan">Scansion simpri disponibile</string>
     <string name="wifi_setting_always_scan_context">Lasse che il servizi di localizazion
         di Google e altris aplicazions a scansionin lis rêts, ancje cuant che il Wi-Fi al è disativât
@@ -119,7 +122,6 @@
     <string name="device_energy_saver">Temporizadôr di distudament</string>
     <string name="device_energy_saver_summary">Stabilìs i temporizadôrs par distudâ la TV e sparagnâ energjie</string>
     <string name="device_fastpair">Dispositîfs</string>
-    <string name="surround_sound_select_formats">Selezione i formâts</string>
     <string name="surround_sound_category_title">Sun surround</string>
     <string name="surround_sound_format_ac3">Dolby Digital</string>
     <string name="surround_sound_format_e_ac3">Dolby Digital Plus</string>
@@ -132,16 +134,11 @@
     <string name="surround_sound_format_dra">DRA</string>
     <string name="surround_sound_auto_info">Note: al è pussibil che la opzion automatic no funzioni se il to dispositîf
         nol segnale in mût just i formâts supuartâts.</string>
-    <string name="surround_sound_auto_title">Automatic: ative dome i formâts che a son supuartâts
-        dal to dispositîf di jessude audio
-        \"</string>
     <string name="surround_sound_auto_summary">Se cheste opzion e je selezionade, il sisteme al permetarà aes aplicazions di selezionâ
         ducj i formâts di sun che a son supuartâts de tô cjadene di dispositîfs. Lis aplicazions 
         a podaressin sielzi un formât che nol è chel miôr pe cualitât.</string>
     <string name="surround_sound_none_title">Nissun: no sta doprâ mai il sun surround</string>
-    <string name="surround_sound_manual_title">Manuâl: ative o disative in mût seletîf ogni formât
-        supuartât di chest dispositîf, a part di ce che al è supuartât dal to dispositîf di
-        jessude audio.</string>
+    <string name="surround_sound_manual_title">Manuâl</string>
     <string name="surround_sound_manual_summary">Se cheste opzion e je selezionade, tu puedis disativâ a man i formâts
         audio che a son supuartâts de tô cjadene dai dispositîfs ma che a puedin causâ problemis cu la riproduzion.
         Al sarà pussibil ativâ i formâts audio che no son supuartâts de tô cjadene di dispositîfs. In cualchi câs lis aplicazions a podaressin sielzi un
@@ -166,24 +163,13 @@
     <string name="display_category_title">Schermi</string>
     <string name="advanced_display_settings_title">Impostazions avanzadis dal schermi</string>
     <string name="hdmi_cec_settings_title">HDMI-CEC</string>
-    <string name="advanced_sound_settings_title">Impostazions avanzadis dal sun</string>
     <string name="game_mode_title">Permet modalitât zûc</string>
     <string name="match_content_dynamic_range_title">Adate al interval dinamic dai contignûts</string>
-    <string name="match_content_dynamic_range_summary">Se tu ativis cheste opzion, il sisteme al passarà
-        di un formât a intervai dinamics a chel altri par adatâsi ai contignûts. Cheste operazion e podarès
-        puartâ a schermadis neris dilunc il passaç di un formât a chel altri.\n\nFâs clic su 
-        Impostazions avanzadis schermi par vê plui opzions sul interval dinamic.
-    </string>
-    <string name="preferred_dynamic_range_title">Interval dinamic preferît</string>
     <string name="preferred_dynamic_range_selection_system_title">Conversion preferide dal sisteme</string>
     <string name="preferred_dynamic_range_selection_system_summary">Se cheste opzion e je selezionade,
         il sisteme al determinarà un interval dinamic adat di inviâ al to schermi e al convertirà
         i contignûts a chest interval dinamic, daûr di ce che al covente.</string>
-    <string name="preferred_dynamic_range_selection_passthrough_desc">Si adate simpri al formât
-        dai contignûts</string>
     <string name="preferred_dynamic_range_selection_force_title">Sfuarce conversion</string>
-    <string name="preferred_dynamic_range_selection_force_desc">Al sfuarce la conversion al formât
-        preferît</string>
     <string name="preferred_dynamic_range_selection_force_summary">Sfuarce la conversion a
         un formât preferît. La conversion sfuarçade e podarès lâ a tocjâ altris impostazions te
         Modalitât di visualizazion o tal formât HDR.
@@ -263,11 +249,8 @@
         \n\nAl someave che no fossin ni cjavai ni animâi di ogni sorte; i oms a puartavin la robe ator in piçui cjaruçs verts, che a sburtavin.
         Ducj a someavin contents e prospars.
     </string>
-    <string name="hdr_format_selection_title">Selezion formât</string>
     <string name="hdr_format_selection_auto_title">Automatiche</string>
     <string name="hdr_format_selection_manual_title">Manuâl</string>
-    <string name="hdr_format_selection_auto_desc">Dopre i formâts indicâts dal dispositîf</string>
-    <string name="hdr_format_selection_manual_desc">Sielç a man i formâts tra chei disponibii</string>
     <string name="hdr_format_supported_title">FORMÂTS SUPUARTÂTS</string>
     <string name="hdr_format_unsupported_title">FORMÂTS NO SUPUARTÂTS</string>
     <string name="hdr_format_sdr">SDR</string>
@@ -829,6 +812,11 @@
     <string name="accessibility_screen_reader_flattened_component_name">com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Test a contrast elevât</string>
     <string name="accessibility_toggle_bold_text_preference_title">Test in neret</string>
+    <string name="bounce_key_title">Tascj sbalçâts</string>
+    <string name="bounce_key_description">Sielç i timps preferîts</string>
+    <string name="bounce_key_detailed">Il disp. lontan al ignore lis fracadis ripetudis di tascj</string>
+    <string name="bounce_key_description_summary">Ignore lis fracadis ripetudis acidentâls di botons, in rapide sucession. Tu puedis regolâ la dade di timp dulà che dentri di chê a vegnin ignoradis lis pressions.</string>
+    <string name="bounce_key_timing_default_title">Timp: predefinît</string>
     <string name="bounce_key_timing_default_description">Ignore lis fracadis ripetudis par un interval predefinît dopo de prime fracade</string>
     <string name="bounce_key_timing_half_second_title">Timp : 0,5 seconts</string>
     <string name="bounce_key_timing_half_second_description">Regole la dade di timp a 0,5 seconts dulà che lis fracadis ripetudis dal tast a vegnin ignoradis</string>
@@ -1254,7 +1242,7 @@
     <string name="picture_in_picture_app_detail_switch">Permet picture-in-picture</string>
     <string name="picture_in_picture_empty_text">Nissune aplicazion instalade e supuarte il Picture-in-picture</string>
     <string name="picture_in_picture_app_detail_summary">Permet aes aplicazions di creâ barcons picture-in-picture intant che la aplicazion e je vierte o dopo che tu le lassis (par esempli, par continuâ a viodi un video).  Chest barcon al ven visualizât sore di altris aplicazions che tu dopris.</string>
-    <string name="alarms_and_reminders_description">        Permet aes aplicazions di configurâ sveis e programâ azions a timp.
+    <string name="alarms_and_reminders_description">        Permet aes aplicazions di pontâ sveis e programâ azions a timp.
         Chest al permet aes aplicazions di zirâ in sotfont, che al podarès consumâ plui energjie.\n\nSe chest permès
         al è disativât, lis sveis esistentis e i events a orari programâts de aplicazion no funzionaran.
     </string>

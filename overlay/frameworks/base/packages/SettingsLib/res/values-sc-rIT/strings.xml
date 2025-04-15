@@ -19,6 +19,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="wifi_fail_to_scan">Non faghet a chircare retes</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_short_wpa">WPA</string>
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Perunu</string>
     <string name="wifi_remembered">Sarvadu</string>
     <string name="wifi_disconnected">Disconnètidu</string>
@@ -28,6 +33,8 @@
     <string name="wifi_not_in_range">No esecutàbile</string>
     <string name="saved_network">Sarvadu dae <xliff:g id="name">%1$s</xliff:g></string>
     <string name="private_dns_broken">Impossìbile atzèdere a su serbidore privadu DNS</string>
+    <string name="speed_label_slow">Lenta</string>
+    <string name="speed_label_fast">Lestra</string>
     <string name="wifi_passpoint_expired">Iscadidu</string>
     <string name="bluetooth_disconnected">Disconnètidu</string>
     <string name="bluetooth_disconnecting">Iscolleghende·si\u2026</string>
@@ -51,10 +58,15 @@
     <string name="bluetooth_active_media_only_battery_level_untethered">Ativu (multimèdia ebbia). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
     <string name="bluetooth_battery_level_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> de bateria.</string>
     <string name="bluetooth_battery_level_untethered_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria. Dereta: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_battery_level_untethered_left_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_battery_level_untethered_right_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio). Manca: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> de bateria.</string>
+    <string name="bluetooth_no_battery_level_lea_support">Connètidu (cumpatìbile cun sa cumpartzidura de àudio)</string>
     <string name="bluetooth_active_media_only_no_battery_level">Ativu (multimèdia ebbia)</string>
+    <string name="bluetooth_saved_device_lea_support">Cumpatìbile cun sa cumpartzidura de àudio</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Ativu (multimèdia ebbia), isceti su de manca</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Ativu (multimèdia ebbia), isceti cussu de dereta</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Ativu (multimèdia ebbia), dereta e manca</string>
+    <string name="bluetooth_profile_a2dp">Àudio de is media</string>
     <string name="bluetooth_profile_opp">Tràmuda de archìvios</string>
     <string name="bluetooth_profile_hid">Dispositivu de intrada</string>
     <string name="bluetooth_profile_pan">Atzessu a internet</string>
@@ -65,6 +77,8 @@
     <string name="bluetooth_profile_hearing_aid">Auriculares</string>
     <string name="bluetooth_profile_le_audio">Àudio LE</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Connètidu a is auriculares</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">Connètidu a s\'àudio de is media</string>
+    <string name="bluetooth_headset_profile_summary_connected">Connètidu a s\'àudio de su telèfonu</string>
     <string name="bluetooth_opp_profile_summary_connected">Collegadu a su serbidore de tràmuda de archìvios</string>
     <string name="bluetooth_map_profile_summary_connected">Collegadu a una mapa</string>
     <string name="bluetooth_sap_profile_summary_connected">Collegadu a SAP</string>
@@ -72,6 +86,8 @@
     <string name="bluetooth_hid_profile_summary_connected">Collegadu a su dispositivu de intrada</string>
     <string name="bluetooth_map_profile_summary_use_for">Imprea pro sa mapa</string>
     <string name="bluetooth_sap_profile_summary_use_for">Imprea pro s\'atzessu a sa SIM</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">Imprea pro s\'àudio de is media</string>
+    <string name="bluetooth_headset_profile_summary_use_for">Imprea pro s\'àudio de su telèfonu</string>
     <string name="bluetooth_opp_profile_summary_use_for">Imprea pro sa tràmuda de archìvios</string>
     <string name="bluetooth_hid_profile_summary_use_for">Imprea pro s\'intrada</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Imprea pro is auriculares</string>
@@ -98,9 +114,37 @@
     <string name="tether_settings_title_bluetooth">Ancoràgiu web Bluetooth.</string>
     <string name="tether_settings_title_usb_bluetooth">Ancoràgiu web</string>
     <string name="tether_settings_title_all">Ancoràgiu web e puntu de atzessu portàtile</string>
+    <string name="managed_user_title">Totu is aplicatziones de traballu</string>
     <string name="unknown">Disconnotu</string>
     <string name="running_process_item_user_label">Utente: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <string name="launch_defaults_some">Unas cantas cunfiguratziones predefinidas</string>
+    <string name="launch_defaults_none">Nissuna cunfiguratzione predefinida</string>
+    <string name="tts_settings">Cunfiguratzione de sa sìntesi de boghe</string>
+    <string name="tts_settings_title">Sìntesi de boghe in essida</string>
+    <string name="tts_default_rate_title">Lestresa de sa boghe</string>
+    <string name="tts_default_rate_summary">Lestresa de sa boghe de su testu</string>
+    <string name="tts_default_pitch_title">Tonu</string>
+    <string name="tts_default_pitch_summary">Interessat su tonu de sa boghe sintetizada</string>
+    <string name="tts_default_lang_title">Limba</string>
+    <string name="tts_lang_use_system">Imprea sa limba de sistema</string>
+    <string name="tts_lang_not_selected">Limba non seletzionada</string>
+    <string name="tts_default_lang_summary">Cunfigurat sa boghe de sa limba ispetzìfica pro su testu faeddadu</string>
+    <string name="tts_play_example_title">Ascurta un\'esèmpiu</string>
+    <string name="tts_play_example_summary">Reprodue una mustra curtza de sìntesi de boghe</string>
+    <string name="tts_install_data_title">Installa datos de boghe</string>
+    <string name="tts_install_data_summary">Installa is datos de boghes rechestos pro sa sìntesi de boghe</string>
+    <string name="tts_engine_security_warning">Podet èssere chi custu motore de sìntesi de boghe potzat regòllere
+        totu is testos faeddados, inclùdidos is datos personales comente craes e nùmeros
+        de sa carta de crèditu. Benet dae su motore <xliff:g id="tts_plugin_engine_name">%s</xliff:g>.
+        Boles ativare s\'impreu de custu motore de sìntesi de boghe?</string>
+    <string name="tts_engine_network_required">Custa limba rechedet una connessione de rete ativa pro s\'essida de sa sìntesi de boghe.</string>
+    <string name="tts_default_sample_string">Custu est un\'esèmpiu de sìntesi de boghe</string>
     <string name="tts_status_title">Istadu de limba predefinidu</string>
+    <string name="tts_status_ok"><xliff:g id="locale" example="English (United States)">%1$s</xliff:g> est de su totu cumpatìbile</string>
+    <string name="tts_status_requires_network"><xliff:g id="locale" example="English (United States)">%1$s</xliff:g> rechedet connessione a sa rete</string>
+    <string name="tts_status_not_supported"><xliff:g id="locale" example="English (United States)">%1$s</xliff:g> no est cumpatìbile</string>
+    <string name="tts_engine_settings_title">Cunfiguratziones pro <xliff:g id="tts_engine_name">%s</xliff:g></string>
+    <string name="tts_engine_settings_button">Avia sa cunfiguratzione de su motore</string>
     <string-array name="tts_rate_entries">
         <item>60%</item>
         <item>80%</item>
@@ -147,16 +191,40 @@
     <string name="bluetooth_select_a2dp_codec_type_help_info">Si s\'optzione est disativada bolet nàrrere chi no est cumpatìbile cun su telèfonu
         o auriculares</string>
     <string name="bluetooth_enable_gabeldorsche_summary">Ativat su grupu de funtziones de Bluetooth Gabeldorsche.</string>
+    <string name="select_application">Sèbera un\'aplicatzione</string>
+    <string name="no_application">Nudda</string>
+    <string name="wait_for_debugger">Abeta su curretore</string>
+    <string name="debug_input_category">Intrada</string>
+    <string name="debug_drawing_category">Disinnos</string>
+    <string name="media_category">Cuntenutu multimediale</string>
+    <string name="debug_monitoring_category">Controllu</string>
+    <string name="strict_mode">Modalidade rigurosa ativada</string>
+    <string name="pointer_location">Positzione de su cursore</string>
     <string name="show_key_presses">Ammustra sa pressione de is teclas</string>
     <string name="show_key_presses_summary">Ammustra una retroatzione visuale pro is teclas fìsicas prèmidas </string>
     <string name="touchpad_visualizer">Mustra s\'intrada de su pannellu tàtile</string>
+    <string name="touchpad_visualizer_summary">Una subrapositzione de ischermu chi ammustrat is datos de intrada e is gestos reconnotos</string>
+    <string name="show_screen_updates">Mustra atualizatziones a pìgiu</string>
+    <string name="debug_layout">Mustra is lìnias de s\'istrutura</string>
+    <string name="debug_layout_summary">Mustra is oros, is lìmites de su vìdeu, etz.</string>
+    <string name="force_rtl_layout_all_locales">Fortza sa dispositzione dereta-manca</string>
+    <string name="force_rtl_layout_all_locales_summary">Fortza sa dispositzione dae dereta a manca (RTL) pro totu is locales</string>
     <string name="transparent_navigation_bar">Barra de navigatzione trasparente</string>
     <string name="transparent_navigation_bar_summary">Faghe trasparente su colore de s\'isfundu de sa barra de navigatzione in manera predefinida</string>
+    <string name="force_msaa">Fortza MSAA 4x</string>
+    <string name="force_msaa_summary">Ativa MSAA 4x in is aplicatziones de OpenGL ES 2.0</string>
+    <string name="show_non_rect_clip">Currige is operatziones de segada non retangulares</string>
     <string name="enable_verbose_vendor_logging">Ativat sa registratzione detalliada de chie bendit</string>
     <string name="enable_verbose_vendor_logging_checkbox">Disativa a pustis de una die</string>
+    <string name="verbose_vendor_logging_notification_title">Su registru detalliadu de su fabricante est agabbadu</string>
     <string name="verbose_vendor_logging_notification_summary">Ativu pro una die</string>
+    <string name="verbose_vendor_logging_notification_action">Ativa pro un\'àtera die</string>
     <string name="verbose_vendor_logging_preference_summary_will_disable">S\'at a disativare a pustis de una die</string>
     <string name="verbose_vendor_logging_preference_summary_on">Ativadu in manera indefinida</string>
+    <string name="window_animation_scale_title">Iscala de animatzione de ventanas</string>
+    <string name="transition_animation_scale_title">Iscala de animatzione de transitziones</string>
+    <string name="animator_duration_scale_title">Iscala de durada de s\'animadore</string>
+    <string name="overlay_display_devices_title">Reprodue ischermos segundàrios</string>
     <string name="daltonizer_mode_disabled">Disativadu</string>
     <string name="power_charging_on_hold_settings_home_page"><xliff:g id="level">%1$s</xliff:g> - Sa càrriga est in pàusa pro amparare sa bateria</string>
     <string name="power_incompatible_charging_settings_home_page"><xliff:g id="level">%1$s</xliff:g> - Verifica s\'atzessòriu de càrriga</string>
@@ -181,7 +249,6 @@
     <string name="zen_mode_settings_title">No istorbes</string>
     <string name="zen_mode_starred_contacts_empty_name">(Nissunu nòmine)</string>
     <string name="media_transfer_this_device_name_desktop">Custu elaboradore (internu)</string>
-    <string name="media_transfer_internal_mic">Micròfonu (internu)</string>
     <string name="media_transfer_dock_speaker_device_name">Altoparlantes in sa base</string>
     <string name="media_transfer_external_device_name">Dispositivu esternu</string>
     <string name="media_transfer_default_device_name">Dispositivu connètidu</string>
@@ -197,9 +264,6 @@
     <string name="tv_media_transfer_earc_fallback_title">eARC HDMI</string>
     <string name="tv_media_transfer_arc_subtitle">Connètidu cun ARC</string>
     <string name="tv_media_transfer_earc_subtitle">Connètidu cun eARC</string>
-    <string name="tv_media_transfer_default">Essida predeterminada de sa TV</string>
-    <string name="tv_media_transfer_hdmi">Essida HDMI</string>
-    <string name="tv_media_transfer_internal_speakers">Altoparlantes internos</string>
     <string name="user_add_profile_item_summary">Podes limitare s\'atzessu a is aplicatziones e a su cuntenutu dae su contu tuo</string>
     <string name="user_add_user_item_title">Utente</string>
     <string name="user_add_profile_item_title">Profilu limitadu</string>
@@ -225,9 +289,6 @@
     <string name="cached_apps_freezer_enabled">Abilitadu</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Su dispositivu depet èssere torradu a aviare pro aplicare custu càmbiu. Torra a aviare immoe o annulla</string>
     <string name="media_transfer_wired_headphone_name">Cùfias cun filu</string>
-    <string name="media_transfer_usb_speaker_name">Altoparlante USB</string>
-    <string name="media_transfer_wired_device_mic_name">Jack pro su micròfonu</string>
-    <string name="media_transfer_usb_device_mic_name">Micròfonu USB</string>
     <string name="accessibility_phone_four_bars">Signale a cuatru istancas.</string>
     <string name="turn_screen_on_title">Controllu pro ativare s\'ischermu</string>
     <string name="font_scale_percentage"> <xliff:g id="percentage">%1$d</xliff:g> %%</string>

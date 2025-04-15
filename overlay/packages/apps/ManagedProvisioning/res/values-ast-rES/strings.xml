@@ -24,12 +24,17 @@
   <string name="the_following_is_your_mdm_for_device">L\'aplicación siguiente va xestionar el preséu:</string>
   <string name="next">Siguiente</string>
   <string name="setting_up_workspace">Configurando\'l perfil llaboral\u2026</string>
-  <string name="admin_has_ability_to_monitor_profile">L\'alministrador de TI pue supervisar y xestionar la configuración, l\'accesu corporativu, los permisos, les aplicaciones, los datos y l\'actividá na rede asociaos con esti perfil, amás del historial de llamaes y l\'historial de la busca de contautos.\n\nPonte en contautu col alministrador de TI pa consiguir más información y saber más tocante a les polítiques de privacidá de la organización.</string>
-  <string name="admin_has_ability_to_monitor_device">L\'alministrador de TI tien la capacidá, supervisar y xestionar la configuración, l\'accesu corporativu, los permisos, les aplicaciones y los datos asociaos con esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>), incluyida l\'actividá de rede, la llocalización del preséu, l\'historial de llamaes y l\'historial de la busca de contautos.<xliff:g id="line_break">\n\n</xliff:g>Ponte en contautu col alministrador de TI pa consiguir más información, como les polítiques de privacidá de la to organización.</string>
+  <string name="admin_has_ability_to_monitor_profile">L\'alministrador de TI pue supervisar y xestionar la configuración, l\'accesu corporativu, los permisos, les aplicaciones, los datos y l\'actividá na rede asociaos a esti perfil, amás del historial de llamaes y l\'historial de la busca de contautos.\n\nPonte en contautu col alministrador de TI pa consiguir más información y saber más tocante a les polítiques de privacidá de la to organización.</string>
+  <string name="admin_has_ability_to_monitor_device">L\'alministrador de TI tien la capacidá de supervisar y xestionar la configuración, l\'accesu corporativu, los permisos, les aplicaciones y los datos asociaos a esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>), incluyida l\'actividá de rede, la llocalización del preséu, l\'historial de llamaes y l\'historial de la busca de contautos.<xliff:g id="line_break">\n\n</xliff:g>Ponte en contautu col alministrador de TI pa consiguir más información, como les polítiques de privacidá de la to organización.</string>
   <string name="contact_your_admin_for_more_info">Ponte en contautu col alministrador de TI pa consiguir más información, como les polítiques de privacidá de la to organización.</string>
   <string name="cancel_setup">Encaboxar</string>
   <string name="ok_setup">D\'acuerdu</string>
+  <string name="url_error">Nun se pue amosar esti enllaz.</string>
   <string name="navigation_button_description">Desplazase p\'arriba</string>
+  <string name="terms">Términos</string>
+  <string name="work_profile_info">Información del perfil llaboral</string>
+  <string name="default_managed_profile_name">Perfil llaboral</string>
+  <string name="delete_profile_title">¿Quies desaniciar el perfil esistente?</string>
   <string name="delete_profile">Desaniciar</string>
   <string name="cancel_delete_profile">Encaboxar</string>
   <string name="encrypt_device_text_for_profile_owner_setup">Pa configurar el perfil llaboral hai que cifrar el preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>). Esta aición pue tardar un tiempu.</string>
@@ -60,8 +65,11 @@
   <string name="error_download_failed">Nun se pudo baxar l\'aplicación d\'alministración</string>
   <string name="error_package_invalid">Nun se pue usar l\'aplicación d\'alministración, fálten-y componentes o ta toyida. Pa consiguir ayuda, ponte en contautu col alministrador de TI.</string>
   <string name="error_installation_failed">Nun se pudo instalar l\'aplicación d\'alministración</string>
+  <string name="profile_owner_cancel_message">¿Quies dexar de configurar?</string>
   <string name="profile_owner_cancel_cancel">Non</string>
   <string name="profile_owner_cancel_ok">Sí</string>
+  <string name="work_profile_setup_later_title">¿Quies parar la configuración del perfil?</string>
+  <string name="work_profile_setup_later_message">Pues configurar el perfil llaboral dempués na aplicación de xestión de preseos de la to organización</string>
   <string name="continue_button">Siguir</string>
   <string name="work_profile_setup_stop">Parar</string>
   <string name="dismiss">Escartar</string>
@@ -75,6 +83,9 @@
   <string name="view_terms">Ver los términos</string>
   <string name="accept_and_continue">Aceptar y siguir</string>
   <string name="back">Atrás</string>
+  <string name="info_anim_title_0">Camuda la forma que trabayes</string>
+  <string name="info_anim_title_1">Estrema ente lo persona y lo llaboral</string>
+  <string name="info_anim_title_2">Escaezte del trabayu cuando acabes</string>
   <string name="setup_device">Configura\'l <xliff:g id="device_name" example="Pixel">%1$s</xliff:g></string>
   <string name="setup_device_encryption">Configura\'l <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>. Cifráu</string>
   <string name="setup_device_progress">Configura\'l <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>. Amosando\'l progresu</string>
@@ -83,8 +94,13 @@
   <string name="cancel_setup_and_factory_reset_dialog_cancel">Encaboxar</string>
   <string name="join_two_items"><xliff:g id="first_item">%1$s</xliff:g> y <xliff:g id="second_item">%2$s</xliff:g></string>
   <string name="join_many_items_last"><xliff:g id="all_but_last_item">%1$s</xliff:g> y <xliff:g id="last_item">%2$s</xliff:g></string>
+  <string name="take_a_few_minutes">Esta aición pue tardar unos minutos</string>
+  <string name="device_owner_description">La to organización va xestionar y protexer esti preséu</string>
   <string name="brand_screen_header">Esti preséu pertenez a la to organización</string>
+  <string name="account_management_disclaimer_header">La cuenta ta xestionada</string>
   <string name="account_management_disclaimer_subheader">L\'alministrador de TI usa la xestión de preseos móviles p\'aplicar les polítiques de seguranza</string>
+  <string name="work_profile_provisioning_step_1_header">Les aplicaciones llaborales caltiénense nel perfil llaboral</string>
+  <string name="work_profile_provisioning_step_2_header">Posa les aplicaciones llaborables al acabar la xornada</string>
   <string name="work_profile_provisioning_progress_label">Configurando\'l perfil llaboral\u2026</string>
   <string name="fully_managed_device_provisioning_step_2_header">Esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>) nun ye priváu</string>
   <string name="fully_managed_device_provisioning_step_2_subheader">Ye posible que l\'alministrador de TI seya a ver los datos y l\'actividá d\'esti preséu (<xliff:g id="device_name" example="Pixel">%1$s</xliff:g>).</string>

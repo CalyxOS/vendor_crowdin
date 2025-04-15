@@ -25,6 +25,15 @@
         <item quantity="many">Tá <xliff:g id="number">%d</xliff:g> iarrachtaí fágtha agat sula gcuirfear an SIM faoi ghlas.</item>
         <item quantity="other">Tá <xliff:g id="number">%d</xliff:g> iarrachtaí fágtha agat sula gcuirfear an SIM faoi ghlas.</item>
     </plurals>
+    <string name="page_size_compat_apk_warning">Níl an aip seo comhoiriúnach 16 KB. Theip ar sheiceáil ailíniú APK.
+        Reáchtálfar an aip seo trí úsáid a bhaint as mód atá comhoiriúnach do mhéid an leathanaigh. Chun an chomhoiriúnacht is fearr a fháil, cuir an feidhmchlár le chéile arís le tacaíocht 16 KB.
+        Le haghaidh tuilleadh faisnéise, féach &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt; </string>
+    <string name="page_size_compat_elf_warning">Níl an aip seo comhoiriúnach 16 KB. Theip ar sheiceáil ailínithe ELF.
+        Reáchtálfar an aip seo trí úsáid a bhaint as mód atá comhoiriúnach do mhéid an leathanaigh. Chun an chomhoiriúnacht is fearr a fháil, cuir an feidhmchlár le chéile arís le tacaíocht 16 KB.
+        Le haghaidh tuilleadh faisnéise, féach &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt;</string>
+    <string name="page_size_compat_apk_and_elf_warning">Níl an aip seo comhoiriúnach 16 KB. Theip ar sheiceálacha ailínithe APK agus ELF.
+        Reáchtálfar an aip seo trí úsáid a bhaint as mód atá comhoiriúnach do mhéid an leathanaigh. Chun an chomhoiriúnacht is fearr a fháil, cuir an feidhmchlár le chéile arís le tacaíocht 16 KB.
+        Le haghaidh tuilleadh faisnéise, féach &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt;</string>
     <string name="EmergencyCallWarningSummary">Éilíonn líonra soghluaiste ó ghlaonna</string>
     <string name="scCellularNetworkSecurityTitle">Slándáil líonra soghlu</string>
     <string name="scCellularNetworkSecuritySummary">Criptiú, fógraí do líonraí neamhcriptithe</string>
@@ -40,11 +49,41 @@
     <string name="private_space_deleted_by_admin">Spás príobháideach bainte</string>
     <string name="private_space_deleted_by_admin_details">Ní cheadaíonn d\'eagraíocht spásanna príobháideacha ar an bhfeiste bainistithe seo.</string>
     <string name="dream_accessibility_action_click">dhíbhe</string>
+    <string name="permlab_ranging">suíomh coibhneasta idir feistí in aice láimhe a chinneadh</string>
+    <string name="permdesc_ranging">Lig don aip suíomh coibhneasta idir gléasanna in aice láimhe a chinneadh</string>
     <string-array name="fingerprint_acquired_vendor"/>
     <string name="fingerprint_dialog_use_fingerprint_instead">Ní aithnítear aghaidh. Úsáid méarlorg ina ionad.</string>
     <string-array name="fingerprint_error_vendor"/>
     <string-array name="face_acquired_vendor"/>
     <string-array name="face_error_vendor"/>
+    <string name="duration_minutes_shortest_past">        <xliff:g id="count">%d</xliff:g>n ó shin
+    </string>
+    <string name="duration_hours_shortest_past">        <xliff:g id="count">%d</xliff:g>u ó shin
+    </string>
+    <string name="duration_days_shortest_past">        <xliff:g example="1" id="count">%d</xliff:g>lá ó shin
+    </string>
+    <string name="duration_years_shortest_past">        <xliff:g id="count">%d</xliff:g>b ó shin
+    </string>
+    <string name="duration_minutes_medium">        <xliff:g id="count">%d</xliff:g>nóim
+    </string>
+    <string name="duration_hours_medium">        <xliff:g id="count">%d</xliff:g>uair
+    </string>
+    <string name="duration_years_medium">        <xliff:g id="count">%d</xliff:g>bl
+    </string>
+    <string name="duration_minutes_medium_future">        i <xliff:g id="count">%d</xliff:g>nóim
+    </string>
+    <string name="duration_hours_medium_future">        i <xliff:g id="count">%d</xliff:g>uair
+    </string>
+    <string name="duration_years_medium_future">        i <xliff:g id="count">%d</xliff:g>bl
+    </string>
+    <string name="duration_minutes_medium_past">        <xliff:g id="count">%d</xliff:g>nóim ó shin
+    </string>
+    <string name="duration_hours_medium_past">        <xliff:g id="count">%d</xliff:g>uair ó shin
+    </string>
+    <string name="duration_days_medium_past">        <xliff:g example="1" id="count">%d</xliff:g>lá ó shin
+    </string>
+    <string name="duration_years_medium_past">        <xliff:g id="count">%d</xliff:g>bliain ó shin
+    </string>
     <string name="error_handwriting_unsupported">Ní thacaítear le lámhscríbhneoireacht sa réimse seo</string>
     <string name="error_handwriting_unsupported_password">Ní thacaítear le lámhscríbhinn i réimsí pasfhocal</string>
     <string name="input_method_ime_switch_long_click_action_desc">Oscail roghnóir modh ionchuir</string>
@@ -62,8 +101,11 @@
     <string name="accessibility_gesture_3finger_instructional_text">Osclófar an ghné an chéad uair eile a úsáideann tú an gearrthóg seo. Sleamhnaigh suas le 3 mhéar ó bhun do scáileáin agus scaoil go tapa.</string>
     <string name="immersive_cling_description">Chun imeacht, swipeáil síos ó bharr do scáileáin</string>
     <string name="package_installed_device_owner">Suiteáilte ag do riarachán. \nTéigh go socruithe chun ceadanna deonaithe a fheiceáil</string>
+    <string name="zen_mode_implicit_name">Ná Cuir isteach (<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>)</string>
     <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="zen_mode_trigger_summary_range_symbol_combination"><xliff:g id="start" example="Sun">%1$s</xliff:g> - <xliff:g id="end" example="Thu">%2$s</xliff:g></string>
+    <string name="zen_mode_trigger_summary_range_words"><xliff:g id="start" example="Sunday">%1$s</xliff:g> go <xliff:g id="end" example="Thursday">%2$s</xliff:g></string>
+    <string name="zen_mode_trigger_summary_combined"><xliff:g id="days" example="Sat-Thurs">%1$s</xliff:g>,\u0020<xliff:g id="times" example="10:00 PM - 7:00 AM">%2$s</xliff:g></string>
     <string name="zen_mode_trigger_event_calendar_any">Aon féilire</string>
     <string name="promotional_notification_channel_label">Arduithe Céime</string>
     <string name="social_notification_channel_label">Sóisialta</string>
@@ -82,7 +124,34 @@
     <string name="screen_not_shared_sensitive_content">Ábhar aip i bhfolach ó scáileán le haghaidh slándála</string>
     <string name="satellite_notification_manual_title">Úsáid teachtaireachtaí satailíte?</string>
     <string name="satellite_notification_manual_summary">Seol agus faigh teachtaireachtaí gan líonra soghluaiste nó Wi-Fi</string>
+    <string name="satellite_manual_selection_state_popup_title">Cuir \"Roghnaigh líonra go huathoibríoch\" ar siúl</string>
+    <string name="satellite_manual_selection_state_popup_message">Cuir \"líonra a roghnú go huathoibríoch\" ar siúl sna Socruithe ionas gur féidir le do ghuthán teacht ar líonra a oibríonn le satailít</string>
+    <string name="satellite_manual_selection_state_popup_cancel">Téigh ar ais</string>
     <string name="unarchival_session_app_label">Ar feitheamh...</string>
+    <string name="satellite_sos_available_notification_title">Tá Satailít SOS ar fáil anois</string>
+    <string name="satellite_sos_available_notification_summary">Is féidir leat teachtaireacht a chur chuig na seirbhísí éigeandála mura bhfuil líonra soghluaiste nó Wi-Fi ann. Caithfidh Google Messages a bheith mar aip teachtaireachtaí réamhshocraithe agat.</string>
+    <string name="satellite_sos_not_supported_notification_title">Ní thacaítear le Satailít SOS</string>
+    <string name="satellite_sos_not_supported_notification_summary">Ní thacaítear le Satailít SOS ar an ngléas seo</string>
+    <string name="satellite_sos_not_provisioned_notification_title">Níl Satailít SOS socraithe</string>
+    <string name="satellite_sos_not_provisioned_notification_summary">Cinntigh go bhfuil tú nasctha leis an idirlíon agus bain triail as socrú arís</string>
+    <string name="satellite_sos_not_in_allowed_region_notification_title">Níl Satailít SOS ar fáil</string>
+    <string name="satellite_sos_not_in_allowed_region_notification_summary">Níl Satailít SOS ar fáil sa tír nó sa réigiún seo</string>
+    <string name="satellite_sos_unsupported_default_sms_app_notification_title">Satailít SOS gan socrú</string>
+    <string name="satellite_sos_unsupported_default_sms_app_notification_summary">Chun teachtaireachtaí a sheoladh le satailít, socraigh Google Messages mar an aip teachtaireachtaí réamhshocraithe</string>
+    <string name="satellite_sos_location_disabled_notification_title">Níl Satailít SOS ar fáil</string>
+    <string name="satellite_sos_location_disabled_notification_summary">Chun seiceáil an bhfuil satailíte SOS ar fáil sa tír nó sa réigiún seo, cuir socruithe suímh ar siúl</string>
+    <string name="satellite_messaging_available_notification_title">Teachtaireachtaí satailíte ar fáil</string>
+    <string name="satellite_messaging_available_notification_summary">Is féidir leat teachtaireachtaí a sheoladh le satailíte mura bhfuil líonra soghluaiste nó Wi-Fi ann. Caithfidh Google Messages a bheith mar aip teachtaireachtaí réamhshocraithe agat.</string>
+    <string name="satellite_messaging_not_supported_notification_title">Ní thacaítear le teachtaireachtaí satailíte</string>
+    <string name="satellite_messaging_not_supported_notification_summary">Ní thacaítear le teachtaireachtaí satailíte ar an ngléas seo</string>
+    <string name="satellite_messaging_not_provisioned_notification_title">Níl na teachtaireachtaí satailíte socraithe</string>
+    <string name="satellite_messaging_not_provisioned_notification_summary">Cinntigh go bhfuil tú nasctha leis an idirlíon agus bain triail as socrú arís</string>
+    <string name="satellite_messaging_not_in_allowed_region_notification_title">Níl fáil ar theachtaireachtaí satailíte</string>
+    <string name="satellite_messaging_not_in_allowed_region_notification_summary">Níl teachtaireachtaí satailíte ar fáil sa tír nó sa réigiún seo</string>
+    <string name="satellite_messaging_unsupported_default_sms_app_notification_title">Níl na teachtaireachtaí satailíte socraithe</string>
+    <string name="satellite_messaging_unsupported_default_sms_app_notification_summary">Chun teachtaireachtaí a sheoladh le satailít, socraigh Google Messages mar an aip teachtaireachtaí réamhshocraithe</string>
+    <string name="satellite_messaging_location_disabled_notification_title">Níl fáil ar theachtaireachtaí satailíte</string>
+    <string name="satellite_messaging_location_disabled_notification_summary">Chun seiceáil an bhfuil teachtaireachtaí satailíte ar fáil sa tír nó sa réigiún seo, cuir socruithe suímh ar siúl</string>
     <string name="fingerprint_dangling_notification_title">Socraigh Díghlasáil Méarlorg arís</string>
     <string name="fingerprint_dangling_notification_msg_1">Ní féidir<xliff:g id="fingerprint">%s</xliff:g> a aithint a thuilleadh.</string>
     <string name="fingerprint_dangling_notification_msg_2">Ní féidir <xliff:g id="fingerprint">%1$s</xliff:g> agus <xliff:g id="fingerprint">%2$s</xliff:g> a aithint a thuilleadh.</string>

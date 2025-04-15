@@ -123,6 +123,7 @@
     <string name="label_available">Redes disponibles</string>
     <string name="load_networks_progress">Buscando\u2026</string>
     <string name="empty_networks_list">Nun s\'atopó nenguna rede.</string>
+    <string name="network_select_title">Rede</string>
     <string name="register_automatically">Rexistru automáticu\u2026</string>
     <string name="network_connecting">Conectando…</string>
     <string-array name="preferred_network_mode_choices">
@@ -138,7 +139,7 @@
         <item>GSM/WCDMA/LTE</item>
         <item>Global</item>
         <item>LTE</item>
-        <item>LTE / WCDMA</item>
+        <item>LTE/WCDMA</item>
         <item>Namás TDSCDMA</item>
         <item>TDSCDMA/WCDMA</item>
         <item>LTE/TDSCDMA</item>
@@ -201,6 +202,7 @@
     <string name="preferred_network_mode_nr_lte_tdscdma_cdma_evdo_gsm_wcdma_summary">Mou de rede preferente: NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
     <string name="network_operator_category">Rede</string>
     <string name="enhanced_4g_lte_mode_summary">Usa los servicios LTE p\'ameyorar la voz y otres comunicaciones (aconséyase)</string>
+    <string name="enhanced_4g_lte_mode_summary_o2">Usa los servicios 4G p\'ameyorar la voz y otres comunicaciones (aconséyase)</string>
     <string name="carrier_settings_euicc">Operadora</string>
     <string name="keywords_carrier_settings_euicc">operadora, esim, sim, euicc, cambéu d\'operadora, cambiar d\'operadora, amestar una operadora, amiestu d\'una operadora</string>
     <string name="mobile_data_settings_title">Datos móviles</string>
@@ -224,12 +226,22 @@
     <string name="name">Nome</string>
     <string name="number">Númberu</string>
     <string name="save">Guardar</string>
+    <string name="fdn_invalid_number">Nun s\'anovó\'l NMF porque supera los <xliff:g id="FDN_NUMBER_LIMIT_LENGTH">%d</xliff:g> díxitos.</string>
+    <string name="enter_pin_text">PIN de tarxeta SIM:</string>
     <string name="oldPinLabel">PIN antiguu</string>
     <string name="newPinLabel">PIN nuevu</string>
+    <string name="oldPin2Label">PIN2 antiguu</string>
+    <string name="newPin2Label">PIN2 nuevu</string>
+    <string name="pin2_changed">Anovóse\'l PIN2</string>
+    <string name="puk2_locked">Bloquióse\'l PUK2. Ponte en contautu col fornidor de servicios pa desbloquialu.</string>
     <string name="doneButton">Fecho</string>
+    <string name="card_title_on_hold">N\'espera</string>
+    <string name="card_title_in_call">En llamada</string>
+    <string name="notification_network_selection_text">La rede seleicionada (<xliff:g id="operator_name">%s</xliff:g>) nun ta disponible</string>
     <string name="incall_error_power_off" product="watch">Pa facer una llamada, activa la rede móvil o desactiva\'l mou avión o l\'aforrador d\'enerxía.</string>
     <string name="incall_error_power_off" product="default">Pa facer una llamada, desactiva\'l mou avión</string>
     <string name="incall_error_power_off_wfc">Pa facer una llamada, desactiva\'l mou avión o conéctate a una rede ensin fillo.</string>
+    <string name="incall_error_power_off_thermal" product="default"><b>El teléfonu ta mui caliente</b>\n\nNun se pue completar esta llamada. Volvi tentalo cuando esfreza.\n\nPues facer llamaes d\'emerxencia igualmente.</string>
     <string name="incall_error_ecm_emergency_only">Pa facer una llamada que nun ye d\'emerxencia, desactiva\'l mou de retornu de llamaes d\'emerxencia</string>
     <string name="incall_error_out_of_service">La rede móvil nun ta disponible.</string>
     <string name="incall_error_out_of_service_2g">La rede móvil nun ta disponible.\n\nConéctate a una rede ensin filo pa facer una llamada.\n\nEl 2G ta desactiváu nesti preséu, lo que pue afeutar a la conectividá. Ve a Configuración y activa la opción «Permitir el 2G» pa siguir.</string>
@@ -239,8 +251,10 @@
     <string name="incall_error_call_failed">La llamada falló.</string>
     <string name="incall_error_supp_service_unknown">El serviciu nun ye compatible</string>
     <string name="incall_error_supp_service_switch">Nun se pue cambiar de llamada.</string>
+    <string name="incall_error_supp_service_resume">Nun se pue siguir cola llamada.</string>
     <string name="incall_error_supp_service_separate">Nun se pue separtar la llamada.</string>
     <string name="incall_error_supp_service_transfer">Nun se pue tresferir.</string>
+    <string name="incall_error_supp_service_conference">Nun ye posible mecer les llamaes.</string>
     <string name="incall_error_supp_service_reject">Nun se pue refugar la llamada.</string>
     <string name="incall_error_supp_service_hangup">Nun se puen lliberar les llamaes.</string>
     <string name="incall_error_supp_service_hold">Nun se puen poner les llamaes n\'espera.</string>
@@ -254,30 +268,50 @@
     <string name="single_emergency_number_title">Númberu d\'emerxencia</string>
     <string name="numerous_emergency_numbers_title">Númberos d\'emerxencia</string>
     <string name="emergency_call_shortcut_hint">Volvi tocar pa llamar al <xliff:g id="emergency_number">%s</xliff:g></string>
+    <string name="dial_emergency_calling_not_available">Les llamaes d\'emerxencia nun tán disponibles</string>
+    <string name="pin_puk_system_user_only">Namás el propietariu del preséu pue introducir códigos PIN/PUK.</string>
     <string name="police_type_description">Policía</string>
     <string name="ambulance_type_description">Ambulancia</string>
     <string name="onscreenEndCallText">Finar</string>
+    <string name="onscreenAudioText">Audiu</string>
+    <string name="onscreenVideoCallText">Videollamada</string>
+    <string name="rtt_mode_title">Llamada RTT</string>
+    <string name="no_rtt_when_roaming">Nota: la función RTT nun ta disponible en roaming</string>
     <string name="ota_hfa_activation_title">Activando…</string>
+    <string name="ota_hfa_activation_dialog_message">El teléfonu ta activando\'l serviciu de datos móviles.\n\nEsti procesu pue tardar hasta 5 minutos.</string>
+    <string name="ota_skip_activation_dialog_title">¿Quies saltar l\'activación\?</string>
     <string name="ota_speaker">Altavoz</string>
     <string name="ota_progress">Programando\'l teléfonu\u2026</string>
     <string name="ota_failure">Nun se pudo programar el teléfonu</string>
+    <string name="ota_call_end">Atrás</string>
+    <string name="ota_try_again">Retentar</string>
+    <string name="ota_next">Siguiente</string>
     <string name="alert_dialog_exit_ecm"> {count, plural,
         </string>
     <string name="alert_dialog_not_avaialble_in_ecm"> {count, plural,
         </string>
     <string name="alert_dialog_yes">Sí</string>
     <string name="alert_dialog_no">Non</string>
+    <string name="phone_in_ecm_call_notification_text_without_data_restriction_hint">El teléfonu ta nel mou de retornu de llamaes d\'emerxencia</string>
+    <string name="phone_in_ecm_notification_complete_time_without_data_restriction_hint">Hasta la hora: <xliff:g id="completeTime">%s</xliff:g></string>
     <string name="alert_dialog_exit_ecm_without_data_restriction_hint"> {count, plural,
         </string>
+    <string name="voicemail_provider">Serviciu</string>
+    <string name="voicemail_settings">Configuración</string>
+    <string name="pane_title_emergency_dialpad">Tecláu d\'emerxencia</string>
     <string name="pstn_connection_service_label">Tarxetes SIM integraes</string>
     <string name="enable_video_calling_title">Activar les videollamaes</string>
     <string name="enable_video_calling_dialog_settings">Configuración de rede</string>
+    <string name="enable_video_calling_dialog_close">Zarrar</string>
     <string name="sim_label_emergency_calls">Llamaes d\'emerxencia</string>
+    <string name="accessibility_settings_activity_title">Accesibilidá</string>
     <string name="message_decode_error">Hebo un error mentanto se descodificaba\'l mensaxe.</string>
     <string name="callFailed_cdma_activation">        Una tarxeta SIM activó\'l serviciu y anovó la función de roaming del teléfonu.
     </string>
     <string name="callFailed_imei_not_accepted">        Nun ye posible conectase, inxerta una tarxeta SIM válida.
     </string>
+    <string name="callFailed_emergency_call_over_wfc_not_available">Les llamaes d\'emerxencia per Wi-Fi nun tán disponibles nesti llugar.</string>
+    <string name="callFailed_wfc_service_not_available_in_this_location">Les llamaes per Wi-Fi nun tán disponibles nesti llugar.</string>
     <string name="change_pin_continue_label">Siguir</string>
     <string name="change_pin_cancel_label">Encaboxar</string>
     <string name="change_pin_ok_label">D\'acuerdu</string>
@@ -286,13 +320,18 @@
     <string name="mobile_data_status_roaming_turned_on_subtext">Activóse\'l roaming de datos</string>
     <string name="mobile_data_status_no_plan_subtext">Nun queden datos móviles</string>
     <string name="mobile_data_activate_prepaid">Nun queden datos móviles</string>
+    <string name="mobile_data_activate_diag_message">Ye posible que tengas d\'amestar datos pente «<xliff:g id="provider_name">%s</xliff:g>»</string>
     <string name="clh_card_title_call_ended_txt">La llamada finó</string>
+    <string name="clh_callFailed_powerOff_txt">El mou avión ta activáu</string>
+    <string name="clh_callFailed_simError_txt">Nun se pue acceder a la tarxeta SIM</string>
     <string name="clh_incall_error_out_of_service_txt">La rede móvil nun ta disponible</string>
     <string name="clh_callFailed_satelliteEnabled_txt">El mou satélite ta activáu</string>
+    <string name="clh_callFailed_unassigned_number_txt">Hai un problema col númberu de teléfonu que tentes de marcar. Códigu d\'error: 1</string>
     <string name="clh_callFailed_no_route_to_destination_txt">Nun se pudo completar la llamada. Códigu d\'error: 3.</string>
     <string name="clh_callFailed_channel_unacceptable_txt">Nun se pudo completar la llamada. Códigu d\'error: 6.</string>
     <string name="clh_callFailed_operator_determined_barring_txt">Nun se pudo completar la llamada. Códigu d\'error: 8.</string>
     <string name="clh_callFailed_normal_call_clearing_txt">Nun se pudo completar la llamada. Códigu d\'error: 16.</string>
+    <string name="clh_callFailed_no_user_responding_txt">L\'usuariu nun respuende</string>
     <string name="clh_callFailed_user_alerting_txt">Nun se pudo completar la llamada. Códigu d\'error: 19.</string>
     <string name="clh_callFailed_number_changed_txt">El númberu camudó</string>
     <string name="clh_callFailed_pre_emption_txt">Nun se pudo completar la llamada. Códigu d\'error: 25.</string>
@@ -341,11 +380,23 @@
     <string name="call_barring_baoic_enabled">¿Quies desactivar el bloquéu de les llamaes internacionales salientes?</string>
     <string name="call_barring_baoic_disabled">¿Quies bloquiar les llamaes internacionales salientes?</string>
     <string name="call_barring_baic_disabled">¿Quies bloquiar toles llamaes entrantes?</string>
+    <string name="call_barring_change_pwd_description_disabled">Nun se pue camudar la contraseña del bloquéu de llamaes</string>
     <string name="call_barring_pwd_not_match">Les contraseñes nun concasen</string>
     <string name="call_barring_old_pwd">Contraseña antigua</string>
     <string name="call_barring_new_pwd">Contraseña nueva</string>
+    <string name="callFailed_NetworkBusy">La rede ta ocupada. Volvi tentar de llamar dempués.</string>
+    <string name="callFailed_NetworkCongested">La rede ta saturada. Ponte en contautu cola operadora
+    pa consiguir más asistencia.</string>
     <string name="supp_service_forwarded_call">Esvióse la llamada.</string>
-    <string name="callFailed_too_many_calls">Nun se pue la llamada porque yá hai dos en cursu. Desconecta una d\'elles o mezles nuna conferencia enantes de facer otra llamada.</string>
+    <string name="callFailed_already_dialing">Nun se pue facer la llamada darréu que yá hai otra en cursu.</string>
+    <string name="callFailed_already_ringing">Nun se pue facer la llamada darréu qu\'hai una llamada entrante ensin contestar. Contéstala o refúgala enantes de facer más llamaes.</string>
+    <string name="callFailed_calling_disabled">Nun se pue facer la llamada porque se desactivaron les llamaes cola propiedá del sistema « ro.telephony.disable-call system».</string>
+    <string name="callFailed_too_many_calls">Nun se pue facer la llamada porque yá hai dos en cursu. Desconecta una d\'elles o mezles nuna conferencia enantes de facer otra llamada.</string>
+    <string name="supp_service_over_ut_precautions">Pa usar «<xliff:g id="supp service">%s</xliff:g>», asegúrate de que los datos móviles tán activaos. Pues camudar esta opción na configuración de rede móvil.</string>
+    <string name="supp_service_over_ut_precautions_roaming">Pa usar «<xliff:g id="supp service">%s</xliff:g>», asegúrate de que los datos móviles y el roaming de datos tán activaos. Pues camudar estes opciones na configuración de rede móvil.</string>
+    <string name="radio_info_data_connection_enable">Activar la conexón de datos</string>
+    <string name="radio_info_data_connection_disable">Desactivar la conexón de datos</string>
+    <string name="cbrs_data_switch_string">Datos CBRS</string>
     <string name="dsds_dialog_message">Tienes de reaniciar el preséu pa camudar esta opción.</string>
     <string name="removable_esim_string">Predeterminar la eSIM estrayible</string>
     <string name="simulate_out_of_service_string">Simular que nun heba serviciu (namás compilación de depuración)</string>
@@ -354,6 +405,7 @@
     <string name="esos_satellite_string">Probar el mou eSOS real per satélite (namás pa la compilación de depuración)</string>
     <string name="satellite_enable_non_emergency_mode_string">Probar el mou non eSOS real per satélite (namás pa la compilación de depuración)</string>
     <string name="demo_esos_satellite_string">Probar el mou de demostración eSOS per satélite (namás pa la compilación de depuración)</string>
+    <string name="radio_info_ims_reg_status">Rexistru d\'IMS: <xliff:g id="status" example="registered">%1$s</xliff:g>\u000AVoz per LTE: <xliff:g id="availability" example="available">%2$s</xliff:g>\u000AVoz per Wi-Fi: <xliff:g id="availability" example="available">%3$s</xliff:g>\u000AVideollamaes: <xliff:g id="availability" example="available">%4$s</xliff:g>\u000AInterfaz UT: <xliff:g id="availability" example="available">%5$s</xliff:g></string>
     <string name="radioInfo_service_emergency">Namás llamaes d\'emerxencia</string>
     <string name="radioInfo_roaming_in">Roaming</string>
     <string name="radioInfo_phone_offhook">Llamada en cursu</string>
@@ -365,8 +417,13 @@
     <string name="radioInfo_lac">LAC</string>
     <string name="radioInfo_cid">CID</string>
     <string name="radio_info_phy_chan_config">Configuración de la canal física:</string>
+    <string name="radio_info_gprs_service_label">Serviciu de datos:</string>
     <string name="radio_info_roaming_label">Roaming:</string>
+    <string name="radio_info_current_network_label">Rede actual:</string>
+    <string name="radio_info_ppp_received_label">Datos recibíos:</string>
+    <string name="radio_info_gsm_service_label">Serviciu de voz:</string>
     <string name="radio_info_signal_strength_label">Intensidá de la señal:</string>
+    <string name="radio_info_ppp_sent_label">Datos unviaos:</string>
     <string name="radio_info_override_network_type_label">Anulación del tipu de rede:</string>
     <string name="radio_info_voice_raw_registration_state_label">Estáu del rexistru en bruto del serviciu de voz:</string>
     <string name="radio_info_data_raw_registration_state_label">Estáu del rexistru en bruto del serviciu de datos:</string>
@@ -376,6 +433,7 @@
     <string name="radio_info_dcnr_restricted">DCNR torgada (NSA):</string>
     <string name="radio_info_nr_available">NR disponible (NSA):</string>
     <string name="radio_info_nr_state">Estáu de NR (NSA):</string>
+    <string name="band_mode_loading">Cargando la llista de bandes\u2026</string>
     <string name="phone_info_label" product="tablet">Información de la tableta</string>
     <string name="phone_info_label" product="default">Información del teléfonu</string>
     <string name="send_from_work_profile_title">Nun pues unviar mensaxes dende una aplicación personal</string>

@@ -19,6 +19,7 @@
     <string name="permission_search_keyword">permès</string>
     <string name="cancel">Anule</string>
     <string name="back">Indaûr</string>
+    <string name="dialog_close">Siere</string>
     <string name="available">Disponibil</string>
     <string name="blocked">Blocât</string>
     <string name="on">On</string>
@@ -138,7 +139,7 @@
     <string name="current_permissions_category">Permès atuâi</string>
     <string name="message_staging">Preparazion de aplicazion…</string>
     <string name="app_name_unknown">No cognossût</string>
-    <string name="permission_usage_title">Panel di control de riservatece</string>
+    <string name="permission_usage_title">Cruscot de riservatece</string>
     <string name="auto_permission_usage_summary">Viôt lis aplicazions che di resint a àn doprât permès</string>
     <string name="permission_group_usage_title">Utilizazion di <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
     <string name="perm_usage_adv_info_title">Viôt altris permès</string>
@@ -242,6 +243,7 @@
     <string name="app_permission_location_accuracy_subtitle">Cuant che la posizion precise e je disativade, lis aplicazions apuedin otignî la tô posizion aprossimative</string>
     <string name="app_permission_title">Permès di <xliff:g id="perm" example="location">%1$s</xliff:g></string>
     <string name="app_permission_header">Acès a <xliff:g id="perm" example="location">%1$s</xliff:g> par cheste aplicazion</string>
+    <string name="app_permission_header_with_device_name">Acès a <xliff:g id="perm" example="camera">%1$s</xliff:g> par cheste aplicazion su <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
     <string name="app_permission_footer_app_permissions_link">Viôt ducj i permès di <xliff:g id="app" example="Maps">%1$s</xliff:g></string>
     <string name="app_permission_footer_permission_apps_link">Viôt dutis lis aplicazions cun chest permès</string>
     <string name="assistant_mic_label">Mostre utilizazion dal microfon dal assistent</string>
@@ -303,6 +305,7 @@
     <string name="allowed_storage_full">Consintude gjestion di ducj i files</string>
     <string name="ask_header">Domande ogni volte</string>
     <string name="denied_header">No consintût</string>
+    <string name="permission_group_name_with_device_name"><xliff:g id="perm_group_name" example="camera">%1$s</xliff:g> su <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
     <string name="storage_footer_hyperlink_text">Viôt altris aplicazions che a puedin acedi a ducj i files</string>
     <string name="days">{count, plural,
         one {}=1      {1 dì}
@@ -500,9 +503,11 @@
     <string name="default_apps_more">Altris predefinidis</string>
     <string name="default_apps_manage_domain_urls">Viertidure dai colegaments</string>
     <string name="default_apps_for_work">Predefinît pal lavôr</string>
+    <string name="default_apps_for_private_profile">Predefinît pal spazi privât</string>
     <string name="default_app_none">Nissune</string>
     <string name="default_app_system_default">(Predefinide di sisteme)</string>
     <string name="default_app_no_apps">Nissune aplicazion</string>
+    <string name="default_payment_app_other_nfc_services">Altris servizis NFC</string>
     <string name="car_default_app_selected">Selezionade</string>
     <string name="car_default_app_selected_with_info">Selezionât - <xliff:g id="additional_info" example="(System default)">%1$s</xliff:g></string>
     <string name="special_app_access_search_keyword">acès speciâl de aplicazion</string>
@@ -532,68 +537,114 @@ Permeti a <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> di cjariâ in r�
     <string name="assistant_record_audio_user_sensitive_summary">Mostre icone te sbare di stât se il microfon al ven doprât par ativâ l\'assistent vocâl</string>
     <string name="permgrouprequest_storage_isolated">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a fotos e contignûts multimediâi sul to dispositîf?</string>
+    <string name="permgrouprequest_device_aware_storage_isolated">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi aes fotos e ai contignûts multimediâi su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_contacts">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai tiei contats?</string>
+    <string name="permgrouprequest_device_aware_contacts">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai tiei contats su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_location">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion di chest dispositîf?</string>
+    <string name="permgrouprequest_device_aware_location">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion di &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequestdetail_location">La aplicazion e podarà acedi ae posizion dome cuant che tu le stâs doprant</string>
     <string name="permgroupbackgroundrequest_location">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion di chest dispositîf?</string>
+    <string name="permgroupbackgroundrequest_device_aware_location">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion di &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupbackgroundrequestdetail_location">Cheste aplicazion e podarès acedi simpri ae posizion, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgroupupgraderequest_location">Cambiâ l\'acès ae posizion par &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_location">Modificâ l\'acès ae posizion par &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_location">Cheste aplicazion e vûl acedi simpri ae posizion, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgrouprequest_nearby_devices">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di cjatâ, conetisi e determinâ la posizion relative dai dispositîfs tai contors?</string>
+    <string name="permgrouprequest_device_aware_nearby_devices">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di cjatâ, conetisi e determinâ la posizion relative dai dispositîfs tai contors su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_nearby_devices">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di cjatâ, conetisi e determinâ la posizion relative dai dispositîfs tai contors? <annotation id="link">Permet tes impostazions.</annotation></string>
     <string name="permgrouprequest_fineupgrade">Cambiâ l\'acès ae posizion di aprossimative a precise par <xliff:g id="app_name" example="Gmail">&lt;b&gt;%1$s&lt;/b&gt;</xliff:g>?</string>
+    <string name="permgrouprequest_device_aware_fineupgrade">Modificâ l\'acès ae posizion di <xliff:g id="app_name" example="Gmail">&lt;b&gt;%1$s&lt;/b&gt;</xliff:g> su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt; di aprossimatîf a precîs?</string>
     <string name="permgrouprequest_coarselocation">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion aprossimative di chest dispositîf?</string>
+    <string name="permgrouprequest_device_aware_coarselocation">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae posizion aprossimative di &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_finelocation_imagetext">Precise</string>
     <string name="permgrouprequest_coarselocation_imagetext">Aprossimative</string>
     <string name="permgrouprequest_calendar">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi al to calendari?</string>
+    <string name="permgrouprequest_device_aware_calendar">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi al to calendari su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_sms">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di inviâ e viodi i messaçs SMS?</string>
+    <string name="permgrouprequest_device_aware_sms">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di manda e viodi i messaçs SMS su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_storage">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a fotos, files multimediâi e files in gjenerâl sul to dispositîf?</string>
+    <string name="permgrouprequest_device_aware_storage">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a fotos, contignûts multimediâi e files su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_storage_q_to_s">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a &lt;b&gt;fotos, videos, musiche e audio&lt;/b&gt; su chest dispositîf?</string>
     <string name="permgrouprequest_storage_pre_q">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a &lt;b&gt;fotos, videos, musiche, audio e altris files&lt;/b&gt; su chest dispositîf?</string>
     <string name="permgrouprequest_read_media_aural">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a musiche e audio su chest dispositîf?</string>
+    <string name="permgrouprequest_device_aware_read_media_aural">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a musiche e audio su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_read_media_visual">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a fotos e videos su chest dispositîf?</string>
+    <string name="permgrouprequest_device_aware_read_media_visual">Permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a fotos e videos su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_more_photos">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a plui fotos e videos su chest dispositîf?</string>
+    <string name="permgrouprequest_device_aware_more_photos">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi a plui fotos e videos su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_microphone">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di regjistrâ audio?</string>
+    <string name="permgrouprequest_device_aware_microphone">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di regjistrâ audio su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequestdetail_microphone">La aplicazion e rivarà a regjistrâ l\'audio dome cuant che tu le stâs doprant</string>
     <string name="permgroupbackgroundrequest_microphone">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di regjistrâ audio?</string>
+    <string name="permgroupbackgroundrequest_device_aware_microphone">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di regjistrâ audio su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupbackgroundrequestdetail_microphone">Cheste aplicazion e podarès regjistrâ audio simpri, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgroupupgraderequest_microphone">Cambiâ l\'acès al microfon par &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_microphone">Modificâ l\'acès al microfon par &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_microphone">Cheste aplicazion e vûl regjistrâ audio simpri, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgrouprequest_activityRecognition">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae tô ativitât fisiche?</string>
+    <string name="permgrouprequest_device_aware_activityRecognition">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ae tô ativitât fisiche su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_camera">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ fotos e regjistrâ videos?</string>
+    <string name="permgrouprequest_device_aware_camera">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ fotos e regjistrâ videos su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequestdetail_camera">La aplicazion e rivarà a fâ fotos e regjistrâ videos dome cuant che tu le stâs doprant</string>
     <string name="permgroupbackgroundrequest_camera">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ fotos e regjistrâ videos?</string>
+    <string name="permgroupbackgroundrequest_device_aware_camera">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ fotos e regjistrâ videos su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupbackgroundrequestdetail_camera">Cheste aplicazion e vularès fâ fotos e regjistrâ videos par dut il timp, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgroupupgraderequest_camera">Cambiâ l\'acès ae fotocjamare par <xliff:g id="app_name" example="Gmail">%1$s</xliff:g>?</string>
+    <string name="permgroupupgraderequest_device_aware_camera">Modificâ l\'acès ae fotocjamare par &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_camera">Cheste aplicazion e vûl fâ fotos e regjistrâ videos par dut il timp, ancje cuant che no tu le dopris. <annotation id="link">Permet l\'acès tes impostazions.</annotation></string>
     <string name="permgrouprequest_calllog">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai tiei regjistris des clamadis telefonichis?</string>
+    <string name="permgrouprequest_device_aware_calllog">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi al to regjistri des clamadis telefonichis su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_phone">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ e gjestî clamadis telefonichis?</string>
+    <string name="permgrouprequest_device_aware_phone">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di fâ e gjestî clamadis telefonichis su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_sensors">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai dâts dai sensôrs sui tiei segns vitâi?</string>
+    <string name="permgrouprequest_device_aware_sensors">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai dâts dai sensôrs relatîfs ai segnâi vitâi su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequestdetail_sensors">Cheste aplicazion e vûl acedi dut il timp ai dâts dal sensôr sui tiei parametris vitâi, ancje cuant che no tu stâs doprant la aplicazion. Par fâ cheste modifiche, <annotation id="link">va tes impostazions.</annotation></string>
     <string name="permgroupbackgroundrequest_sensors">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai dâts dal sensôr sui tiei parametris vitâi?</string>
+    <string name="permgroupbackgroundrequest_device_aware_sensors">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai dâts dai sensôrs relatîfs ai tiei segnâi vitâi su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupbackgroundrequestdetail_sensors">Par concedi a cheste aplicazion l\'acès costant ai dâts dal sensôr corporâl, ancje cuant che no tu le stâs doprant, <annotation id="link">va tes impostazions.</annotation></string>
     <string name="permgroupupgraderequest_sensors">Continue a permeti a <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> di acedi ai dâts dal sensôr corporâl intant che tu dopris la aplicazion?</string>
+    <string name="permgroupupgraderequest_device_aware_sensors">Continuâ a permeti a &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di acedi ai dâts dai sensôrs corporâi su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt; intant che la aplicazion e ven doprade?</string>
     <string name="permgrouprequest_notifications">Permeti a
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> di mandâti notifichis?</string>
+    <string name="permgrouprequest_device_aware_notifications">Permeti a
+        &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; di mandâti notifichis su &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="auto_granted_permissions">Permès controlâts</string>
     <string name="auto_granted_location_permission_notification_title"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> al à l\'acès ae posizion</string>
     <string name="auto_granted_permission_notification_body">La tô organizazion e permet a <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> di acedi ae tô posizion</string>
@@ -609,14 +660,22 @@ Permeti a <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> di cjariâ in r�
     <string name="privdash_label_none">Nissun</string>
     <string name="privdash_label_24h">Ultimis 24 oris</string>
     <string name="privdash_label_7d">Ultins\n7 dîs</string>
+    <string name="privdash_usage_percent"><xliff:g id="permission_name" example="camera">%1$s</xliff:g> <xliff:g id="percent" example="25">%2$d</xliff:g> par cent</string>
     <string name="exempt_mic_camera_info_label"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> al è protet di Android. Par vie che i tiei dâts a vegnin elaborâts su chest dispositîf, la utilizazion dai permès di cheste aplicazion no ven mostrade te sbare di stât o sul panel di control de riservatece. </string>
-    <string name="exempt_info_label"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> al è protet di Android. Par vie che i tiei dâts a vegnin elaborâts su chest dispositîf, la utilizazion dai permès di cheste aplicazion no ven mostrade sul panel di control de riservatece. </string>
+    <string name="exempt_info_label"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> al è protet di Android. Par vie che i tiei dâts a vegnin elaborâts su chest dispositîf, la utilizazion dai permès di cheste aplicazion no ven mostrade sul cruscot de riservatece. </string>
     <string name="blocked_camera_title">La fotocjamare dal dispositîf e je blocade</string>
     <string name="blocked_microphone_title">Il microfon dal dispositîf al è blocât</string>
     <string name="blocked_location_title">La posizion dal dispositîf e je disativade</string>
     <string name="blocked_sensor_summary">Par aplicazions e servizis</string>
     <string name="blocked_mic_summary">Al è pussibil che i dâts dal microfon a vegnin condividûts distès cuant che tu clamis un numar di emergjence.</string>
     <string name="blocked_sensor_button_label">Cambie</string>
+    <string name="automotive_blocked_camera_title">L\'acès ae fotocjamare al è disativât</string>
+    <string name="automotive_blocked_microphone_title">L\'acès al microfon al è disativât</string>
+    <string name="automotive_blocked_location_title">L\'acès ae posizion al è disativât</string>
+    <string name="automotive_blocked_infotainment_app_summary">Par aplicazions di infotainment</string>
+    <string name="automotive_blocked_required_app_summary">Pes aplicazions necessariis</string>
+    <string name="automotive_required_app_title">Cheste aplicazion e je necessarie</string>
+    <string name="automotive_required_app_summary">Cheste aplicazion e je domandade dal produtôr de tô machine</string>
     <string name="safety_center_dashboard_page_title">Sigurece e riservatece</string>
     <string name="safety_center_rescan_button">Scansione dispositîf</string>
     <string name="safety_center_issue_card_dismiss_button">Ignore</string>
@@ -728,8 +787,23 @@ Permeti a <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> di cjariâ in r�
     <string name="wear_app_perms_24h_access_yest">Acès fat îr aes <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
     <string name="wear_app_perms_7d_access">Acès fat ai <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> aes <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g></string>
     <string name="test_otp_msg">La tô password a ûs ugnul e je 132435</string>
+    <string name="allow_restricted_settings">Permet impostazions limitadis</string>
     <string name="enhanced_confirmation_dialog_title">Impostazion limitade</string>
     <string name="enhanced_confirmation_dialog_desc">Pe tô sigurece, pal moment cheste impostazions no je disponibile.</string>
+    <string name="enhanced_confirmation_dialog_title_permission">Al è stât dineât ae aplicazion l\'acès a <xliff:g id="permission_name" example="contacts">%1$s</xliff:g></string>
+    <string name="enhanced_confirmation_dialog_desc_permission">La aplicazion e à domandât acès a un permès sensibil che al pues meti in risi i tiei dâts personâi e lis tôs informazions finanziariis. <xliff:g>&lt;br&gt;&lt;br&gt;</xliff:g>Al è pussibil che la aplicazion no funzioni ben cence chest permès limitât. &lt;a href="<xliff:g id="learn_more_link">%1$s</xliff:g>"&gt;Scuvierç cemût permeti l\'acès&lt;/a&gt;</string>
+    <string name="enhanced_confirmation_dialog_title_role">Al è stât dineât ae aplicazion l\'acès par jessi la <xliff:g id="role_name" example="phone app">%1$s</xliff:g> predefinide</string>
+    <string name="enhanced_confirmation_dialog_desc_role">La aplicazion e à domandât l\'acès a permès sensibii che a puedin meti a risi lis tôs informazions personâls e chês finanziariis. <xliff:g>&lt;br&gt;&lt;br&gt;</xliff:g>Al è pussibil che la aplicazion no funzioni ben cence chescj permès limitâts. &lt;a href="<xliff:g id="learn_more_link">%1$s</xliff:g>"&gt;Scuvierç cemût consintî l\'acès&lt;/a&gt;</string>
+    <string name="enhanced_confirmation_dialog_title_settings_default">Acès dineât ae aplicazion</string>
+    <string name="enhanced_confirmation_dialog_desc_settings_default">L\'acès a chest permès al pues meti a risi lis tôs informazions personâls e chês finanziariis.<xliff:g>&lt;br&gt;&lt;br&gt;</xliff:g>Al è pussibil che la aplicazion no funzioni ben cence chest permès limitât. &lt;a href="<xliff:g id="learn_more_link">%1$s</xliff:g>"&gt;Scuvierç cemût consintî l\'acès&lt;/a&gt;</string>
     <string name="enhanced_confirmation_dialog_learn_more">Plui informazions</string>
     <string name="enhanced_confirmation_dialog_ok">Va ben</string>
+    <string name="permission_grant_dialog_streaming_blocked_title">Richieste di permès soprimude</string>
+    <string name="permission_grant_dialog_streaming_blocked_description">Cheste aplicazion e sta domandant altris permès, ma nol è pussibil concedi i permès intune session trasmetude. Concêt prime il permès sul to telefon.</string>
+    <string name="privacy_dashboard_emergency_location_enforced_attribution_label">Par clamadis o messaçs di emergjence</string>
+    <string name="privacy_dashboard_emergency_location_dialog_title">Posizion inviade ai servizis di emergjence</string>
+    <string name="privacy_dashboard_emergency_location_dialog_description">Cheste aplicazion e à doprât la posizion dal to dispositîf intant di une clamade o un messaç a un numar di emergjence. Chest al pues sucedi ancje se la aplicazion no à i permès pe posizion o il rilevament de posizion dal dispositîf al è disativât. <a href="https://support.google.com/android/answer/9319337">Altris informazions</a></string>
+    <string name="wear_check_your_phone_title">Controle il telefon</string>
+    <string name="wear_phone_connection_error">Impussibil rivâ al to telefon</string>
+    <string name="wear_phone_connection_should_retry">Tornâ a provâ?</string>
 </resources>

@@ -132,12 +132,15 @@
     <string name="app_locale_picker_summary">Gosod yr iaith fesul ap</string>
     <string name="suggested_app_locales_title">Ieithoedd a awgrymir</string>
     <string name="all_supported_app_locales_title">Pob iaith</string>
+    <string name="all_supported_locales_title">Pob iaith</string>
     <string name="preference_of_system_locale_title">Iaith y system</string>
     <string name="preference_of_system_locale_summary">Rhagosodiad y system</string>
     <string name="desc_no_available_supported_locale">Dyw dewis iaith yr ap hwn ddim ar gael yn Gosodiadau.</string>
     <string name="desc_app_locale_disclaimer">Gall fod yr iaith yn wahanol i\u2019r ieithoedd ar gael yn yr ap. Dyw rhai apiau ddim yn cefnogi\u2019r gosodiad hwn.</string>
     <string name="button_label_confirmation_of_system_locale_change">Newid</string>
     <string name="title_unavailable_locale">%s dim ar gael</string>
+    <string name="locale_search_menu">Chwilio</string>
+    <string name="language_selection_title">Ychwanegu iaith</string>
     <string name="default_string_of_regional_preference">Defnyddio\'r rhagosodiad</string>
     <string name="dlg_remove_locales_message">Caiff testun ei ddangos mewn iaith arall.</string>
     <string name="dlg_remove_locales_error_title">Nid yw\'n bosib tynnu pob un iaith.</string>
@@ -166,7 +169,6 @@
     <string name="roaming_enable">Cysylltu â gwasanaethau data wrth grwydro tramor</string>
     <string name="roaming_disable">Cysylltu â gwasanaethau data wrth grwydro tramor</string>
     <string name="roaming_warning">Gall fod costau crwydro.</string>
-    <string name="date_time_auto">Gosod yr amser yn awtomatig</string>
     <string name="date_time_24hour_auto">Defnyddio locale rhagosodedig</string>
     <string name="date_time_24hour">Defnyddio fformat 24 awr</string>
     <string name="date_time_set_time_title">Amser</string>
@@ -506,12 +508,6 @@
     <string name="lock_last_pattern_attempt_before_wipe_profile">Os rwyt yn rhoi patrwm anghywir ar dy ymdrech nesaf caiff dy broffil gwaith a\'i ddata eu dileu</string>
     <string name="lock_last_pin_attempt_before_wipe_profile">Os rwyt yn rhoi PIN anghywir ar dy ymdrech nesaf caiff holl ddata\'r ddyfais ei ddileu</string>
     <string name="lock_last_password_attempt_before_wipe_profile">Os rwyt yn rhoi cyfrinair anghywir ar dy ymdrech nesaf caiff dy broffil gwaith a\'i ddata eu dileu</string>
-    <string name="lockpassword_password_too_short_all_numeric"> {count, plural,
-        =1 {Os yn defnyddio rhifau yn unig, rhaid bod o leiaf 1 digid.}
-        two {Os yn defnyddio rhifau yn unig, rhaid bod o leiaf # ddigid.}
-        other {Os yn defnyddio rhifau yn unig, rhaid bod o leiaf # digid.}
-        }
-    </string>
     <string name="lockpassword_pin_recently_used">Dyw gweinyddwr y ddyfais ddim yn caniatáu defnyddio PIN diweddar</string>
     <string name="lockpassword_illegal_character">Rhaid peidio â chynnwys nod annilys.</string>
     <string name="lockpassword_password_recently_used">Dyw gweinyddwr y ddyfais ddim yn caniatáu defnyddio cyfrinair diweddar</string>
@@ -850,8 +846,6 @@
     <string name="auto_rotate_link_a11y">Dysgu rhagor am droi yn awtomatig</string>
     <string name="screen_resolution_title">Cydraniad sgrin</string>
     <string name="screen_resolution_option_high">Cydraniad uchel</string>
-    <string name="screen_resolution_option_full">Cydraniad llawn</string>
-    <string name="screen_resolution_footer">Mae cydraniad llawn yn defnyddio mwy o fatri. Gall newid y cydraniad achosi rhai apiau i ailgychwyn.</string>
     <string name="screen_resolution_selected_a11y">Dewiswyd</string>
     <string name="color_mode_title">Lliwiau</string>
     <string name="color_mode_option_natural">Naturiol</string>
@@ -919,6 +913,7 @@
     <string name="dark_ui_text">Mae\u2019r thema dywyll yn defnyddio cefndir du i helpu\u2019r batri byw yn hirach ar rai sgriniau. Mae amserlenni sgrin dywyll yn aros i droi ymlaen nes bod dy sgrin i ffwrdd.</string>
     <string name="dark_ui_bedtime_footer_summary">Mae\u2019r thema dywyll yn dilyn dy amserlen ym modd amser gwely</string>
     <string name="dark_ui_bedtime_footer_action">Gosodiadau modd amser gwely</string>
+    <string name="even_dimmer_display_title">Pŵl iawn</string>
     <string name="screen_timeout">Terfyn amser y sgrin</string>
     <string name="screen_timeout_summary">Ar ôl <xliff:g id="sleep_description">%1$s</xliff:g> heb weithgaredd</string>
     <string name="screen_timeout_summary_not_set">Heb ei osod</string>
@@ -1038,16 +1033,6 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="storage_unmount_success">Dadfowntwyd <xliff:g id="name" example="SD card">%1$s</xliff:g> yn ddiogel</string>
     <string name="storage_unmount_failure">Methwyd â dadfowntio <xliff:g id="name" example="SD card">%1$s</xliff:g> yn ddiogel</string>
     <string name="storage_rename_title">Ailenwi\'r storfa</string>
-    <string name="storage_dialog_unmountable">Mae\'r <xliff:g id="name" example="SD card">^1</xliff:g> hwn yn llygredig.\n\nI ddefnyddio\'r <xliff:g id="name" example="SD card">^1</xliff:g> hwn, rhaid yn gyntaf ei osod.</string>
-    <string name="storage_internal_format_details">Gellir fformatio\'r cerdyn SD hwn i storio lluniau, fideos, ffeiliau sain, a mwy a chael mynediad atynt ar ddyfeisiau eraill.\n\n
-<b>Bydd yr holl ddata ar y cerdyn SD hwn yn cael ei ddileu.</b>\n\n
-<b>Cyn fformatio</b>\n\n
-<b>Cadwa gopi wrth gefn o luniau a ffeiliau pwysig</b>\n
-Symuda dy ffeiliau cyfryngau i storfa arall ar y ddyfais hon, neu trosglwydda nhw i gyfrifiadur drwy gwifren USB.\n\n
-<b>Cadwa gopi wrth gefn o apiau</b>\n
-Bydd pob ap ar y <xliff:g id="name" example="SD card">^1</xliff:g> hon yn cael ei ddadosod a bydd eu data yn cael ei ddileu. I gadw\u2019r apiau hyn, symuda nhw i storfa arall ar y ddyfais hon.</string>
-    <string name="storage_internal_unmount_details"><b>Pan fyddi di\'n dadfowntio\'r <xliff:g id="name" example="SD card">^1</xliff:g>, bydd apiau arno yn stopio gweithio a bydd ffeiliau cyfryngau arno ddim ar gael nes ei fod yn cael ei ail-fowntio.</b>\n\nMae\'r <xliff:g id="name" example="SD card">^1</xliff:g> wedi ei fformatio i weithio ar y ddyfais hon yn unig. Ni fydd yn gweithio ar unrhyw ddyfeisiau eraill.</string>
-    <string name="storage_internal_forget_details">I ddefnyddio apiau, lluniau neu ddata <xliff:g id="name" example="SD card">^1</xliff:g>, rho gynnig ar ei ailosod yn y ddyfais.\n\nFel arall, mae\'n bosib dewis anghofio\'r storfa hon os nad yw\'r ddyfais ar gael.\n\nOs wyt yn dewis ei anghofio, bydd yr holl ddata mae\'r ddyfais yn ei gynnwys yn cael ei golli am byth.\n\nMae\'n bosib ailosod yr apiau yn hwyrach, ond bydd y data maen nhw wedi cadw ar y ddyfais hon wedi ei golli.</string>
     <string name="storage_internal_forget_confirm_title">Anghofio <xliff:g id="name" example="SD card">^1</xliff:g>?</string>
     <string name="storage_internal_forget_confirm">Caiff yr holl apiau, lluniau a data ar y <xliff:g id="name" example="SD card">^1</xliff:g> eu colli am byth.</string>
     <string name="storage_detail_dialog_system">Mae\'r system yn cynnwys ffeiliau defnyddir i redeg Android fersiwn <xliff:g id="version" example="8.0">%s</xliff:g></string>
@@ -1057,12 +1042,8 @@ Bydd pob ap ar y <xliff:g id="name" example="SD card">^1</xliff:g> hon yn cael e
     <string name="storage_wizard_format_progress_body">Paid â thynnu\u2019r <xliff:g id="name" example="SD card">^1</xliff:g> tra ei bod yn cael ei fformatio.</string>
     <string name="storage_wizard_ready_title"><xliff:g id="name" example="SD card">^1</xliff:g> wedi\u2019i fformatio</string>
     <string name="storage_wizard_move_confirm_title">Symud <xliff:g id="app" example="Calculator">^1</xliff:g></string>
-    <string name="storage_wizard_move_confirm_body">Bydd symud <xliff:g id="app" example="Calculator">^1</xliff:g> a\'i ddata i <xliff:g id="name" example="SD card">^2</xliff:g> ond yn cymryd ychydig funudau. Ni fyddi\'n medru defnyddio\'r ap nes bod y trosglwyddo wedi ei gwblhau.\n\nPaid â thynnu <xliff:g id="name" example="SD card">^2</xliff:g> nes bod y trosglwyddo wedi ei gwblhau.</string>
     <string name="storage_wizard_move_unlock">I symud data mae angen datgloi\'r defnyddiwr <xliff:g id="app" example="Joey">^1</xliff:g>.</string>
     <string name="storage_wizard_move_progress_title">Yn symud <xliff:g id="app" example="Calculator">^1</xliff:g>\u2026</string>
-    <string name="storage_wizard_move_progress_body">Paid â thynnu <xliff:g id="name" example="SD card">^1</xliff:g> allan yn ystod y symud.
-\n\nNi fydd yr ap <xliff:g id="app" example="Calculator">^2</xliff:g> ar y ddyfais hon ar gael nes bod y symud wedi ei gwblhau.
-    </string>
     <string name="storage_wizard_init_v2_title">Sut fydd y <xliff:g id="name" example="SD card">^1</xliff:g> yn cael ei ddefnyddio?</string>
     <string name="storage_wizard_init_v2_or">Neu</string>
     <string name="storage_wizard_init_v2_external_title">Fformatio cerdyn SD fel storfa datgysylltadwy</string>
@@ -1070,7 +1051,6 @@ Bydd pob ap ar y <xliff:g id="name" example="SD card">^1</xliff:g> hon yn cael e
     <string name="storage_wizard_init_v2_external_action">Fformatio</string>
     <string name="storage_wizard_init_v2_later">Gosod rhywbryd eto</string>
     <string name="storage_wizard_format_confirm_v2_title">Fformatio\'r <xliff:g id="name" example="SD card">^1</xliff:g> hwn?</string>
-    <string name="storage_wizard_format_confirm_v2_body">Mae angen fformatio\'r <xliff:g id="name" example="SanDisk SD card">^1</xliff:g> hwn er mwyn cadw apiau, ffeiliau a chyfryngau arno. \n\nBydd fformatio yn dileu unrhyw gynnwys sydd ar y <xliff:g id="name" example="SD card">^2</xliff:g>. I osgoi colli cynnwys, cadwa copi wrth gefn i <xliff:g id="name" example="SD card">^3</xliff:g> neu ddyfais arall.</string>
     <string name="storage_wizard_format_confirm_v2_body_external">Mae angen fformati o\u2019r <xliff:g id="name" example="SanDisk SD card">^1</xliff:g> hwn i allu cadw lluniau, fideos, cerddoriaeth a mwy.</string>
     <string name="storage_wizard_format_confirm_v2_action">Fformatio <xliff:g id="name" example="SD card">^1</xliff:g></string>
     <string name="storage_wizard_migrate_v2_title">Symud cynnwys i <xliff:g id="name" example="SD card">^1</xliff:g>?</string>
@@ -1081,9 +1061,6 @@ Bydd pob ap ar y <xliff:g id="name" example="SD card">^1</xliff:g> hon yn cael e
     <string name="storage_wizard_migrate_v2_later">Symud cynnwys yn hwyrach</string>
     <string name="storage_wizard_migrate_progress_v2_title">Symud cynnwys\u2026</string>
     <string name="storage_wizard_slow_v2_title"><xliff:g id="name" example="SD card">^1</xliff:g> araf</string>
-    <string name="storage_wizard_slow_v2_body">Gellir dal i ddefnyddio\'r <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>, ond fe all fod yn araf.
-\n\nMae\'n bosib na fydd apiau wedi\'u cadw ar <xliff:g id="name" example="SD card">^2</xliff:g> yn gweithio\'n gywir a gall trosglwyddo cynnwys cymryd amser hir.
-\n\nRho gynnig ar ddefnyddio <xliff:g id="name" example="SD card">^3</xliff:g> cyflymach neu defnyddio\'r <xliff:g id="name" example="SD card">^4</xliff:g> hwn ar gyfer storfa gludadwy yn lle.</string>
     <string name="storage_wizard_slow_v2_start_over">Dechrau eto</string>
     <string name="storage_wizard_slow_v2_continue">Parhau</string>
     <string name="storage_wizard_ready_v2_external_body">Gellir ddechrau defnyddio dy <xliff:g id="name" example="SD card">^1</xliff:g></string>
@@ -1208,12 +1185,10 @@ Bydd pob ap ar y <xliff:g id="name" example="SD card">^1</xliff:g> hon yn cael e
     <string name="location_scanning_bluetooth_always_scanning_description">Mae\'n caniatáu i apiau a gwasanaethau sganio am ddyfeisiau cyfagos unrhyw bryd, hyd yn oed pan mae Bluetooth i ffwrdd. Gellir defnyddio hyn, er enghraifft, i wella nodweddion a gwasanaethau sy\'n ddibynnol ar leoliad.</string>
     <string name="location_services_preference_title">Gwasanaethau lleoliad</string>
     <string name="location_services_screen_title">Gwasanaethau lleoliad</string>
-    <string name="location_time_zone_detection_toggle_title">Defnyddio lleoliad</string>
     <string name="location_time_zone_detection_location_is_off_dialog_title">Angen lleoliad y ddyfais</string>
     <string name="location_time_zone_detection_location_is_off_dialog_message">I osod y gylchfa amser yn ôl dy leoliad, rhaid troi lleoliad ymlaen, yna diweddaru\'r gosodiadau gylchfa amser</string>
     <string name="location_time_zone_detection_location_is_off_dialog_ok_button">Gosodiadau lleoliad</string>
     <string name="location_time_zone_detection_location_is_off_dialog_cancel_button">Diddymu</string>
-    <string name="location_time_zone_detection_auto_is_off">Mae cylchfa amser awtomatig i ffwrdd</string>
     <string name="location_time_zone_detection_not_applicable">Mae canfod cylchfa amser o leoliad wedi\'i analluogi</string>
     <string name="location_time_zone_detection_not_supported">Ni chefnogir canfod cylchfa amser o leoliad</string>
     <string name="location_time_zone_detection_not_allowed">Ni chaniateir newid i ganfyddiad cylchfa amser o leoliad</string>
@@ -1369,7 +1344,6 @@ Bydd pob ap ar y <xliff:g id="name" example="SD card">^1</xliff:g> hon yn cael e
     <string name="always_allow_bind_appwidgets_text">Rwyt wedi dewis caniatáu i’r ap hwn greu teclynnau a chael mynediad at eu data.</string>
     <string name="auto_launch_disable_text">Dim rhagosodiadau wedi\'u gosod.</string>
     <string name="clear_activities">Clirio dewisiadau rhagosodedig</string>
-    <string name="screen_compatibility_text">Mae\'n bosib nad yw\'r ap hwn wedi ei ddylunio ar gyfer dy sgrin. Gellir rheoli sut mae\'n addasu i dy sgrin yma.</string>
     <string name="ask_compatibility">Gofyn wrth lansio</string>
     <string name="enable_compatibility">Graddio\'r ap</string>
     <string name="unknown">Anhysybys</string>
@@ -1483,8 +1457,6 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="auto_punctuate_summary">Gwasga\'r fysell Bwlch dwywaith i osod \u0022.\u0022</string>
     <string name="show_password">Dangos cyfrineiriau</string>
     <string name="show_password_summary">Dangos nodau am foment wrth eu teipio</string>
-    <string name="spellchecker_security_warning">Mae\'n bosib gall y gwirydd sillafu hwn gasglu\'r holl destun rwyt yn ei deipio, gan gynnwys data personol megis cyfrineiriau a rhifau cardiau credyd. Mae\'n dod o\'r ap <xliff:g id="spellchecker_application_name">%1$s</xliff:g>.
-Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="spellchecker_quick_settings">Gosodiadau</string>
     <string name="spellchecker_language">Iaith</string>
     <string name="keyboard_and_input_methods_category">Bysellfyrddau</string>
@@ -1495,6 +1467,7 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="keyboard_options_category">Dewisiadau</string>
     <string name="keyboard_a11y_category">Hygyrchedd</string>
     <string name="physical_keyboard_title">Bysellfwrdd corfforol</string>
+    <string name="input_setting_keys_custom_title">Addasedig</string>
     <string name="keyboard_shortcuts_helper">Llwybrau byr bysellfwrdd</string>
     <string name="language_and_input_for_work_category_title">Offer a bysellfyrddau proffil gwaith</string>
     <string name="virtual_keyboards_for_work_title">Bysellfwrdd ar y sgrin ar gyfer gwaith</string>
@@ -1503,6 +1476,7 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="pointer_stroke_style_name_white">Gwyn</string>
     <string name="pointer_stroke_style_name_black">Du</string>
     <string name="pointer_stroke_style_name_none">Dim</string>
+    <string name="three_finger_tap_go_back">Mynd nôl</string>
     <string name="gesture_title_go_back">Mynd nôl</string>
     <string name="gesture_button_skip">Neidio</string>
     <string name="gesture_button_next">Nesaf</string>
@@ -1810,7 +1784,6 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="captioning_preview_title">Rhagolwg</string>
     <string name="captioning_standard_options_title">Dewisiadau safonol</string>
     <string name="captioning_locale">Iaith</string>
-    <string name="captioning_text_size">Maint testun</string>
     <string name="captioning_preset">Arddull capsiynau</string>
     <string name="captioning_custom_options_title">Dewisiadau personol</string>
     <string name="captioning_background_color">Lliw cefndir</string>
@@ -1883,8 +1856,6 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="printer_info_desc">Rhagor o wybodaeth am yr argraffydd</string>
     <string name="power_usage_summary_title">Batri</string>
     <string name="power_usage_summary">Pethau sydd wedi bod yn defnyddio\'r batri</string>
-    <string name="power_usage_level_and_status"><xliff:g id="level">%1$s</xliff:g>
-            - <xliff:g id="status">%2$s</xliff:g></string>
     <string name="power_discharge_remaining"><xliff:g id="remain">%1$s</xliff:g> yn weddill</string>
     <string name="power_charge_remaining"><xliff:g id="until_charged">%1$s</xliff:g> i wefru</string>
     <string name="power_usage_detail_screen_time">Amser sgrin</string>
@@ -2647,12 +2618,6 @@ wrth adael modd gwestai</string>
     <string name="spatial_audio_footer_learn_more_text">Gosodiadau dyfeisiau wedi cysylltu</string>
     <string name="spatial_audio_multi_toggle_title">Sain Gofodol</string>
     <string name="spatial_audio_multi_toggle_off">I ffwrdd</string>
-    <string name="zen_mode_settings_schedules_summary">        {count, plural,
-           =0 {Dim}
-            =1    {1 amserlen wedi\'i osod}
-            other {# 1 amserlen wedi\'u gosod}
-        }
-    </string>
     <string name="zen_mode_settings_title">Dim Tarfu</string>
     <string name="zen_mode_settings_summary">Cael hysbysiadau dim ond gan bobol ac apiau pwysig</string>
     <string name="zen_mode_select_schedule">Gosod amserlen</string>
@@ -2732,21 +2697,6 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_sound_summary_on">Ymlaen</string>
     <string name="zen_mode_duration_summary_always_prompt">Gofyn bob tro</string>
     <string name="zen_mode_duration_summary_forever">Nes dy fod yn ei ddiffodd</string>
-    <string name="zen_mode_duration_summary_time_hours">        {count, plural,
-            zero {# oriau}
-            =1    {1 awr}
-            other {# awr}
-        }
-    </string>
-    <string name="zen_mode_duration_summary_time_minutes">        {count, plural, zero {} two {# funud} other {# munud}
-        }
-    </string>
-    <string name="zen_mode_sound_summary_off">        {count, plural,
-            =0    {I ffwrdd}
-            =1    {I ffwrdd / Gall 1 amserlen droi ymlaen yn awtomatig}
-            other {I ffwrdd / Gall # amserlen troi ymlaen yn awtomatig}
-        }
-    </string>
     <string name="zen_category_behavior">Pa bethau all dorri ar draws Dim Tarfu</string>
     <string name="zen_category_people">Pobol</string>
     <string name="zen_category_apps">Apiau</string>
@@ -2760,15 +2710,6 @@ wrth adael modd gwestai</string>
     <string name="zen_custom_settings_dialog_ok">Deall yn iawn</string>
     <string name="zen_custom_settings_notifications_header">Hysbysiadau</string>
     <string name="zen_custom_settings_duration_header">Hyd</string>
-    <string name="zen_msg_event_reminder_title">Negeseuon, digwyddiadau ac atgoffa</string>
-    <string name="zen_msg_event_reminder_footer">Pan fydd Dim Tarfu ymlaen, caiff negeseuon, hysbysiadau a digwyddiadau eu distewi, ond am yr eitemau rwyt yn eu caniatáu uchod. Gellir addasu gosodiadau negeseuon i alluogi dy ffrindiau, dy deulu neu dy gysylltiadau eraill i dy gyrraedd di.</string>
-    <string name="zen_onboarding_ok">Iawn</string>
-    <string name="zen_onboarding_settings">Gosodiadau</string>
-    <string name="zen_onboarding_new_setting_title">Dim sain na dangos hysybysiadau</string>
-    <string name="zen_onboarding_current_setting_title">Dim sain gan hysbysiadau</string>
-    <string name="zen_onboarding_new_setting_summary">Ni fyddi yn gweld na chlywed hysbysiadau. Caniateir galwadau oddi wrth gysylltiadau serennog a rhai sy\'n galw\'n aml.</string>
-    <string name="zen_onboarding_current_setting_summary">(Gosodiad cyfredol)</string>
-    <string name="zen_onboarding_dnd_visual_disturbances_header">Newid gosodiadau hysbysiadau Dim Tarfu?</string>
     <string name="sound_work_settings">Seiniau proffil gwaith</string>
     <string name="work_use_personal_sounds_title">Defnyddio seiniau proffil personol</string>
     <string name="work_use_personal_sounds_summary">Defnyddio\'r un seiniau a dy broffil personol</string>
@@ -2909,7 +2850,6 @@ wrth adael modd gwestai</string>
         fel negeseuon ac enwau cysylltiadau. Gall y nodwedd hon hefyd diddymu neu ateb hysbysiadau,
         fel ateb galwadau ffôn a rheoli Dim Tarfu.
     </string>
-    <string name="notification_listener_security_warning_title">Caniatáu i <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> gael mynediad at hysbysiadau?</string>
     <string name="nls_feature_read_title">Darllen dy hysbysiadau</string>
     <string name="nls_feature_read_summary">Gall ddarllen dy hysbysiadau, gan gynnwys gwybodaeth bersonol fel dy gysylltiadau, negeseuon a lluniau.</string>
     <string name="nls_feature_reply_title">Ateb negeseuon</string>
@@ -2928,9 +2868,10 @@ wrth adael modd gwestai</string>
     <string name="notification_listener_not_allowed">Ni chaniateir</string>
     <string name="notif_listener_excluded_app_title">Gweld pob ap</string>
     <string name="notif_listener_more_settings">Rhagor o osodiadau</string>
+    <string name="notification_bundle_on">Ymlaen</string>
+    <string name="notification_bundle_off">I ffwrdd</string>
     <string name="vr_listeners_title">Gwasanaethau helpwr realiti rhithwir</string>
     <string name="no_vr_listeners">Does dim apiau wedi gwneud cais i redeg fel gwasanaethau cynorthwyo realiti rhithwir.</string>
-    <string name="vr_listener_security_warning_title">Caniatáu i <xliff:g id="service" example="VrCore">%1$s</xliff:g> gael mynediad at wasanaeth VR?</string>
     <string name="vr_listener_security_warning_summary">Bydd <xliff:g id="vr_listener_name">%1$s</xliff:g> yn medru rhedeg tra\'r wyt yn defnyddio apiau yn y modd realiti rhithwir.</string>
     <string name="display_vr_pref_title">Pan fo\'r dyfais mewn realiti rhithwir</string>
     <string name="display_vr_pref_low_persistence">Lleihau aneglurder (argymhellir)</string>
@@ -3024,11 +2965,6 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_from_important_conversations">Sgyrsiau blaenoriaeth</string>
     <string name="zen_mode_from_important_conversations_second">sgyrsiau blaenoriaeth</string>
     <string name="zen_mode_from_no_conversations">Dim</string>
-    <string name="zen_mode_conversations_count">        {count, plural, zero {}
-            =0    {Dim}
-            other {# sgwrs}
-        }
-    </string>
     <string name="zen_mode_people_calls_messages_section_title">Pwy all dorri ar draws</string>
     <string name="zen_mode_people_footer">Hyd yn oed os na all apiau negesu neu alwadau dy hysbysu, bydd y bobl rwyt yn eu dewis yma yn dal i allu dy gyrraedd trwy\u2019r apiau hynny</string>
     <string name="zen_mode_calls_title">Galwadau</string>
@@ -3038,9 +2974,6 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_calls_footer">I sicrhau bod galwadau a chaniateir yn gwneud sŵn, gwiria fod dy ddyfais wedi\u2019i gosod i ganu</string>
     <string name="zen_mode_custom_calls_footer">Am \u2018<xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>\u2019 caiff galwadau i mewn eu rhwystro. Gellir addasu\u2019r gosodiadau i ganiatáu dy ffrindiau, teulu a chysylltiadau eraill i gysylltu â thi.</string>
     <string name="zen_mode_starred_contacts_title">Cysylltiadau serennog</string>
-    <string name="zen_mode_starred_contacts_summary_contacts">        {count, plural, zero {} one {{contact_1}, {contact_2}, ac # arall} other {{contact_1}, {contact_2}, a # arall}
-        }
-    </string>
     <string name="zen_mode_starred_contacts_empty_name">(Dim enw)</string>
     <string name="zen_mode_messages">Negeseuon</string>
     <string name="zen_mode_messages_list">negeseuon</string>
@@ -3050,10 +2983,6 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_custom_messages_footer">Am \u2018<xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>\u2019 caiff negeseuon i mewn eu rhwystro. Gellir addasu\u2019r gosodiadau i ganiatáu dy ffrindiau, teulu a chysylltiadau eraill i gysylltu â thi.</string>
     <string name="zen_mode_all_messages_summary">Gall pob neges dy gyrraedd di</string>
     <string name="zen_mode_all_calls_summary">Gall pob galwad dy gyrraedd di</string>
-    <string name="zen_mode_contacts_count">        {count, plural, zero {} one {# cyswllt} two {# gyswllt} few {# cyswllt} many {# chyswllt}
-            other {# cyswllt}
-        }
-    </string>
     <string name="zen_mode_from_anyone">Unrhyw un</string>
     <string name="zen_mode_from_contacts">Cysylltiadau</string>
     <string name="zen_mode_from_starred">Cysylltiadau serennog</string>
@@ -3082,9 +3011,6 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_apps_title">Apiau</string>
     <string name="zen_mode_apps_category">Apiau sy\'n cael torri ar draws</string>
     <string name="zen_mode_apps_none_apps">Dim</string>
-    <string name="zen_mode_apps_subtext">        {count, plural, zero {} one {Gall {app_1}, {app_2}, ac # ap arall dorri ar draws} other {Gall {app_1}, {app_2}, a # ap arall dorri ar draws}
-        }
-    </string>
     <string name="zen_mode_apps_calculating">Yn cyfrifo\u2026</string>
     <string name="zen_mode_bypassing_apps">Caniatáu apiau i anwybyddu</string>
     <string name="zen_mode_bypassing_apps_header">Apiau sy\'n cael torri ar draws</string>
@@ -3095,15 +3021,9 @@ wrth adael modd gwestai</string>
     <string name="zen_mode_bypassing_apps_summary_all">Pob hysbysiad</string>
     <string name="zen_mode_bypassing_apps_summary_some">Rhai hysbysiadau</string>
     <string name="zen_mode_bypassing_apps_footer">Gall pobol a dewisir dal dy gyrraedd, hyd yn oed os nad wyt yn caniatáu apiau i dorri ar draws.</string>
-    <string name="zen_mode_bypassing_apps_subtext">        {count, plural, zero {} one {Gall {app_1}, {app_2}, ac # ap arall dorri ar draws} other {Gall {app_1}, {app_2}, a # ap arall dorri ar draws}
-        }
-    </string>
     <string name="zen_mode_bypassing_apps_title">Apiau</string>
     <string name="zen_mode_bypassing_app_channels_header">Hysbysiadau sy\'n cael torri ar draws</string>
     <string name="zen_mode_bypassing_app_channels_toggle_all">Caniatáu pob hysbysiad</string>
-    <string name="zen_mode_other_sounds_summary">        {count, plural, zero {} one {Gall {sound_category_1}, {sound_category_2}, ac # arall dorri ar draws} other {Gall {sound_category_1}, {sound_category_2}, a # arall dorri ar draws}
-        }
-    </string>
     <string name="zen_mode_sounds_none">Gall dim torri ar draws</string>
     <string name="zen_mode_people_none">Gall neb dorri ar draws</string>
     <string name="zen_mode_people_some">Gall rhai pobl dorri ar draws</string>

@@ -69,6 +69,15 @@
     <string name="CLIRDefaultOnNextCallOff">ID di chel che al clame metût come predefinît a limitât. Prossime clamade: no limitât</string>
     <string name="CLIRDefaultOffNextCallOn">ID di chel che al clame metût come predefinît a no limitât. Prossime clamade: limitât</string>
     <string name="CLIRDefaultOffNextCallOff">ID di chel che al clame metût come predefinît a no limitât. Prossime clamade: no limitât</string>
+    <string name="page_size_compat_apk_warning">Cheste aplicazion no je compatibile cui 16 KB. Control di inlineament APK falît.
+        Cheste aplicazion e vignarà eseguide doprant la modalitât compatibile pe dimension de pagjine. Par vê une compatibilitât miorade, torne compile la aplicazion cul supuart pai 16 KB.
+        Par vê altris informazions, viôt &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt; </string>
+    <string name="page_size_compat_elf_warning">Cheste aplicazion no je compatibile cui 16 KB. Control di inlineament ELF falît.
+        Cheste aplicazion e vignarà eseguide doprant la modalitât compatibile pe dimension de pagjine. Par vê une compatibilitât miorade, torne compile la aplicazion cul supuart pai 16 KB.
+        Par altris informazions, viôt &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt;</string>
+    <string name="page_size_compat_apk_and_elf_warning">Cheste aplicazion no je compatibilie cui 16 KB. Controi di inlineament APK e ELF falîts.
+        Cheste aplicazion e vignarà eseguide doprant la modalitât compatibile pe dimension de pagjine. Par vê une compatibilitât miorade, torne compile la aplicazion cul supuart pai 16 KB.
+        Par altris informazions, viôt &lt;a href=\"https://developer.android.com/16kb-page-size\"&gt;https://developer.android.com/16kb-page-size&lt;/a&gt;</string>
     <string name="serviceNotProvisioned">Servizi no furnît.</string>
     <string name="CLIRPermanent">No tu puedis cambiâ la impostazion dal ID di chel che al clame.</string>
     <string name="auto_data_switch_title">Dâts passâts su <xliff:g id="carrierDisplay" example="Verizon">%s</xliff:g></string>
@@ -759,6 +768,8 @@
     <string name="permdesc_uwb_ranging">Al permet ae aplicazion di determinâ la posizion relative tra i dispositîfs a bande ultra-largje tai contors</string>
     <string name="permlab_nearby_wifi_devices">interagjî cui dispositîfs Wi\u2011Fi tai contors</string>
     <string name="permdesc_nearby_wifi_devices">Al permet ae aplicazion di visâ, coneti e determinâ la posizion relative dai dispositîfs Wi\u2011Fi tai contors</string>
+    <string name="permlab_ranging">determinâ la posizion relative tra i dispositîfs tai contors</string>
+    <string name="permdesc_ranging">Al permet ae aplicazion di determinâ la posizion relative tra i dispositîfs tai contors</string>
     <string name="permlab_preferredPaymentInfo">Informazions dal servizi di paiament NFC preferît</string>
     <string name="permdesc_preferredPaymentInfo">Al permet ae aplicazion di otignî informazions sul servizi di paiament nfc preferît come
       i identificadôrs di aplicazion regjistrâts (AIDs) e la destinazion dal percors.</string>
@@ -1378,6 +1389,38 @@
     <string name="duration_days_shortest_future">        ca di <xliff:g example="1" id="count">%d</xliff:g> d
     </string>
     <string name="duration_years_shortest_future">        ca di <xliff:g id="count">%d</xliff:g> a
+    </string>
+    <string name="duration_minutes_shortest_past">        <xliff:g id="count">%d</xliff:g>m indaûr
+    </string>
+    <string name="duration_hours_shortest_past">        <xliff:g id="count">%d</xliff:g>o indaûr
+    </string>
+    <string name="duration_days_shortest_past">        <xliff:g example="1" id="count">%d</xliff:g>d indaûr
+    </string>
+    <string name="duration_years_shortest_past">        <xliff:g id="count">%d</xliff:g>a indaûr
+    </string>
+    <string name="duration_minutes_medium">        <xliff:g id="count">%d</xliff:g>min
+    </string>
+    <string name="duration_hours_medium">        <xliff:g id="count">%d</xliff:g>or
+    </string>
+    <string name="duration_days_medium">       <xliff:g id="count">%d</xliff:g> d
+    </string>
+    <string name="duration_years_medium">        <xliff:g id="count">%d</xliff:g>agn
+    </string>
+    <string name="duration_minutes_medium_future">        ca di <xliff:g id="count">%d</xliff:g>min
+    </string>
+    <string name="duration_hours_medium_future">        ca di <xliff:g id="count">%d</xliff:g>or
+    </string>
+    <string name="duration_days_medium_future">        ca di <xliff:g example="1" id="count">%d</xliff:g> d
+    </string>
+    <string name="duration_years_medium_future">        ca di <xliff:g id="count">%d</xliff:g>agn
+    </string>
+    <string name="duration_minutes_medium_past">        <xliff:g id="count">%d</xliff:g>min indaûr
+    </string>
+    <string name="duration_hours_medium_past">        <xliff:g id="count">%d</xliff:g>or indaûr
+    </string>
+    <string name="duration_days_medium_past">        <xliff:g example="1" id="count">%d</xliff:g>d indaûr
+    </string>
+    <string name="duration_years_medium_past">        <xliff:g id="count">%d</xliff:g>agn indaûr
     </string>
     <string name="duration_minutes_relative">{count, plural,
         one {}=1 {# minût indaûr}
@@ -2315,11 +2358,14 @@
     <string name="zen_mode_default_weekends_name">Fin setemane</string>
     <string name="zen_mode_default_events_name">Event</string>
     <string name="zen_mode_default_every_night_name">In polse</string>
+    <string name="zen_mode_implicit_name">No Sta Disturbâ (<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>)</string>
     <string name="zen_mode_implicit_trigger_description">Gjestît di <xliff:g id="app_name">%1$s</xliff:g></string>
     <string name="zen_mode_implicit_activated">On</string>
     <string name="zen_mode_implicit_deactivated">Off</string>
     <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
     <string name="zen_mode_trigger_summary_range_symbol_combination"><xliff:g id="start" example="Sun">%1$s</xliff:g> - <xliff:g id="end" example="Thu">%2$s</xliff:g></string>
+    <string name="zen_mode_trigger_summary_range_words">Di <xliff:g id="start" example="Sunday">%1$s</xliff:g> a <xliff:g id="end" example="Thursday">%2$s</xliff:g></string>
+    <string name="zen_mode_trigger_summary_combined"><xliff:g id="days" example="Sat-Thurs">%1$s</xliff:g>,\u0020<xliff:g id="times" example="10:00 PM - 7:00 AM">%2$s</xliff:g></string>
     <string name="zen_mode_trigger_event_calendar_any">Ducj i calendaris</string>
     <string name="muted_by"><xliff:g id="third_party">%1$s</xliff:g> al sta cidinant cualchi sun</string>
     <string name="system_error_wipe_data">Il to dispositîf al à un probleme interni e al podarès jessi instabil fintremai che no tu fasis un ripristinament dai dâts di fabriche.</string>
@@ -2512,11 +2558,6 @@
     <string name="volume_dialog_ringer_guidance_vibrate">Clamadis e notifichis a vibraran</string>
     <string name="volume_dialog_ringer_guidance_silent">Clamadis e notifichis a saran cidinadis</string>
     <string name="notification_channel_system_changes">Modifichis di sisteme</string>
-    <string name="notification_channel_do_not_disturb">No Sta Disturbâ</string>
-    <string name="zen_upgrade_notification_visd_title">Novitât: No Sta Disturbâ al sta platant lis notifichis</string>
-    <string name="zen_upgrade_notification_visd_content">Tocje par savê di plui e modificâ.</string>
-    <string name="zen_upgrade_notification_title">No Sta Disturbâ al è stât modificât</string>
-    <string name="zen_upgrade_notification_content">Tocje par controlâ ce che al è blocât.</string>
     <string name="review_notification_settings_title">Controle impostazions des notifichis</string>
     <string name="review_notification_settings_text">A partî di Android 13, lis aplicazions che tu instalis a àn bisugne dal to permès par mandâ notifichis. Tocje par cambiâ chest permès pes aplicazions esistentis.</string>
     <string name="review_notification_settings_remind_me_action">Visimi plui tart</string>
@@ -2813,7 +2854,22 @@
     <string name="satellite_notification_manual_summary">Mande e ricêf messaçs cence doprâ une rêt mobile o une conession Wi-Fi</string>
     <string name="satellite_notification_open_message">Vierç messaçs</string>
     <string name="satellite_notification_how_it_works">Cemût funzionial?</string>
+    <string name="satellite_manual_selection_state_popup_title">Ative \"Selezione in automatic la rêt\"</string>
+    <string name="satellite_manual_selection_state_popup_message">Ative \"Selezione in automatic la rêt\" tes Impostazions in mût che il telefon al rivi a cjatâ une rêt che e funzioni cul satelit</string>
+    <string name="satellite_manual_selection_state_popup_ok">Ative</string>
+    <string name="satellite_manual_selection_state_popup_cancel">Tone indaûr</string>
     <string name="unarchival_session_app_label">In spiete...</string>
+    <string name="satellite_sos_available_notification_title">Cumò, il SOS di Satelit al è disponibil</string>
+    <string name="satellite_sos_available_notification_summary">Tu puedis mandâ messaçs ai servizis di emergjence se no son disponibilis rêts mobilis o Wi-Fi. La aplicazion Google Messages e scugne jessi chê predefinide pai messaçs.</string>
+    <string name="satellite_sos_not_supported_notification_title">Il SOS di satelit nol è supuartât</string>
+    <string name="satellite_sos_not_supported_notification_summary">Il SOS di satelit nol è supuartât su chest dispositîf</string>
+    <string name="satellite_sos_not_provisioned_notification_title">Il SOS di satelit nol è configurât</string>
+    <string name="satellite_sos_not_provisioned_notification_summary">Controle la conession a internet e torne prove a configurâ</string>
+    <string name="satellite_sos_not_in_allowed_region_notification_title">Il SOS di satelit nol è disponibil</string>
+    <string name="satellite_sos_not_in_allowed_region_notification_summary">Il SOS di satelit nol è disponibil in chest paîs o regjon</string>
+    <string name="satellite_sos_unsupported_default_sms_app_notification_title">SOS di satelit no configurât</string>
+    <string name="satellite_sos_unsupported_default_sms_app_notification_summary">Par mandâ messaçs vie satelit, met Google Messages tant che tô aplicazion predefinide pai messaçs</string>
+    <string name="satellite_sos_location_disabled_notification_title">Il SOS di satelit nol è disponibil</string>
     <string name="fingerprint_dangling_notification_title">Torne configure il sbloc cul impront</string>
     <string name="fingerprint_dangling_notification_msg_1">Nol è plui pussibil ricognossi <xliff:g id="fingerprint">%s</xliff:g>.</string>
     <string name="fingerprint_dangling_notification_msg_2">Nol è plui pussibil ricognossi <xliff:g id="fingerprint">%1$s</xliff:g> e <xliff:g id="fingerprint">%2$s</xliff:g>.</string>

@@ -147,6 +147,7 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> a pustis de <xliff:g id="time_delay">{2}</xliff:g> segundos</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: No inoltradu</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: No inoltradu</string>
+    <string name="scCellularNetworkSecurityTitle">Seguresa de sa rete mòbile</string>
     <string name="scCellularNetworkSecuritySummary">Tzifradura, notìficas pro retes non tzifradas</string>
     <string name="scIdentifierDisclosureIssueTitle">Atzessu a s\'ID de su dispositivu fatu</string>
     <string name="scNullCipherIssueEncryptedTitle">Connètidu a sa rete tzifrada <xliff:g id="network_name">%1$s</xliff:g></string>
@@ -154,6 +155,7 @@
     <string name="scNullCipherIssueNonEncryptedSummaryNotification">Is mutidas, is messàgios e is datos immoe sunt prus a arriscu cando impreas sa SIM tua <xliff:g id="network_name">%1$s</xliff:g></string>
     <string name="scNullCipherIssueNonEncryptedSummary">Is mutidas, is messàgios e is datos immoe sunt prus a arriscu cando impreas sa SIM tua <xliff:g id="network_name">%1$s</xliff:g>.\n\nCando sa connessione tua at a èssere torra tzifrada, as a retzire un\'àtera notìfica.</string>
     <string name="scNullCipherIssueActionSettings">Cunfiguratziones de seguresa de is retes mòbiles</string>
+    <string name="scNullCipherIssueActionLearnMore">Àteras informatziones</string>
     <string name="scNullCipherIssueActionGotIt">AB</string>
     <string name="fcComplete">Còdighe de funtzionalidade cumpletadu.</string>
     <string name="fcError">Problema de connessione o còdighe de funtzionalidade non bàlidu.</string>
@@ -219,6 +221,8 @@
     </string>
     <string name="personal_apps_suspended_turn_profile_on">Ativa</string>
     <string name="work_profile_telephony_paused_title">Mutidas e messàgios disativados</string>
+    <string name="work_profile_telephony_paused_text">As postu in pàusa is aplicatziones de traballu.
+        No as a retzire mutidas o messàgios de testu.</string>
     <string name="work_profile_telephony_paused_turn_on_button">Torra a ativare is aplicatziones de traballu</string>
     <string name="me">Deo</string>
     <string name="power_dialog" product="tablet">Sèberos de sa tauledda</string>
@@ -370,6 +374,7 @@
     <string name="capability_title_canTakeScreenshot">Faghe una catura de ischermu</string>
     <string name="capability_desc_canTakeScreenshot">Podet fàghere una catura de s\'ischermu.</string>
     <string name="dream_preview_title"><xliff:g id="dream_name" example="Clock">%1$s</xliff:g> in anteprima</string>
+    <string name="dream_accessibility_action_click">iscarta</string>
     <string name="permlab_statusBar">disativare o modìficare s\'istanca de istadu</string>
     <string name="permdesc_statusBar">Permitit a s\'aplicatzione de disativare s\'istanca de istadu o agiùnghere e bogare iconas de sistema.</string>
     <string name="permlab_statusBarService">èssere s\'istanca de istadu</string>
@@ -558,6 +563,7 @@ Custu permissu autorizat is aplicatziones a sarvare is datos de cuntatu, e is ap
     <string name="permlab_recordAudio">registrare àudiu</string>
     <string name="permdesc_recordBackgroundAudio">Custa aplicatzione podet registrare cuntenutos àudio impreende su micròfonu in cada momentu.</string>
     <string name="permlab_detectScreenCapture">rilevare caturas de ischermu de ventanas de aplicatziones</string>
+    <string name="permdesc_detectScreenCapture">Custa aplicatzione at a retzire un\'avisu cando s\'at a fàghere una catura de ischermu cun s\'aplicatzione in esecutzione.</string>
     <string name="permlab_sim_communication">imbiare cumandos a sa SIM</string>
     <string name="permdesc_sim_communication">Permitit a s\'aplicatzione de imbiare cumandos a sa SIM. Est perigulosu a beru.</string>
     <string name="permlab_activityRecognition">reconnòschere atividade fìsica</string>
@@ -746,6 +752,7 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="fingerprint_error_no_fingerprints">Nissuna imprenta registrada</string>
     <string name="fingerprint_error_hw_not_present">Custu dispositivu est chena sensore de imprenta digitale</string>
     <string name="fingerprint_error_security_update_required">Sensore disabilitadu in manera temporànea</string>
+    <string name="fingerprint_error_bad_calibration">Impossìbile impreare su sensore de imprentas. Cuntata a unu reparadore.</string>
     <string name="fingerprint_error_power_pressed">Butone de allughidura prèmidu</string>
     <string name="fingerprint_name_template">Pòddighe <xliff:g id="fingerId" example="1">%d</xliff:g></string>
     <string-array name="fingerprint_error_vendor"/>
@@ -862,6 +869,7 @@ connètere custu dispositivu Android TV a is retes WiMAX e de ddu disconnètere.
     <string name="permlab_updatePackagesWithoutUserAction">atualizare s\'aplicatzione chene de s\'interventu de s\'utente</string>
     <string name="permdesc_updatePackagesWithoutUserAction">Permitit a su propietàriu de atualizare s\'aplicatzione installada in antis chene s\'interventu de s\'utente</string>
     <string name="permlab_writeVerificationStateE2eeContactKeys">atualizare s\'istadu de verìfica de is craes de cuntatu E2EE chi giai tenent àteras aplicatziones</string>
+    <string name="permdesc_writeVerificationStateE2eeContactKeys">Permitit a s\'aplicatzione de atualizare s\'istadu de verìfica de is craes de cuntatu E2EE chi giai tenent àteras aplicatziones</string>
     <string name="policylab_limitPassword">Imposta is règulas de sa crae</string>
     <string name="policydesc_limitPassword">Controlla sa longària e is caràteres permìtidos in is craes de blocu ischermu e PIN.</string>
     <string name="policylab_watchLogin">Controlla tentativos de isblocare s\'ischermu</string>
@@ -1216,6 +1224,8 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="duration_days_shortest">       <xliff:g id="count">%d</xliff:g>d
     </string>
     <string name="duration_years_shortest">        <xliff:g id="count">%d</xliff:g>a
+    </string>
+    <string name="duration_days_medium">       <xliff:g id="count">%d</xliff:g>d
     </string>
     <string name="VideoView_error_title">Problema de su vìdeu</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Custu vìdeu no est bàlidu pro sa trasmissione in custu dispositivu.</string>
@@ -1723,6 +1733,8 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="kg_reordering_delete_drop_target_text">Boga</string>
     <string name="safe_media_volume_warning" product="default">       \"Crèschere su volùmene prus in artu de su livellu cussigiadu?\n\nAscurtare a volùmene artu pro tempus longos ti podet fàghere dannu a is origras.\"
     </string>
+    <string name="csd_dose_reached_warning" product="default">        \"Boles sighire a ascurtare a unu volùmene artu?\n\nSu volùmene de is cùfias est istadu artu pro prus tempus de su cussigiadu, e custu ti podet fàghere dannu a s\'oidu\"
+    </string>
     <string name="csd_momentary_exposure_warning" product="default">        \"Volùmene de àudio artu rilevadu\n\n\Su volùmene de is cùfias est istadu prus artu de su chi est cussigiadu, e custu ti podet fàghere dannu a s\'oidu\"
     </string>
     <string name="accessibility_shortcut_warning_dialog_title">Boles impreare su curtzadòrgiu de atzessibilidade?</string>
@@ -1742,6 +1754,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="leave_accessibility_shortcut_on">Imprea su curtziadòrgiu</string>
     <string name="color_inversion_feature_name">Inversione de colores</string>
     <string name="color_correction_feature_name">Curretzione de colores</string>
+    <string name="reduce_bright_colors_feature_name">Iscuridade additzionale</string>
     <string name="hearing_aids_feature_name">Cùfias</string>
     <string name="accessibility_button_prompt_text">Sèbera una funtzione</string>
     <string name="accessibility_gesture_prompt_text">Sèbera una funtzione</string>
@@ -1952,6 +1965,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="stk_cc_ussd_to_dial_video">Rechesta USSD cambiada a mutida de vìdeu</string>
     <string name="notification_work_profile_content_description">Profilu de traballu</string>
     <string name="expand_button_content_description_expanded">Cuntrae</string>
+    <string name="content_description_collapsed">Minimadu</string>
     <string name="content_description_expanded">Ismanniadu</string>
     <string name="usb_midi_peripheral_name">Porta perifèrica USB de Android</string>
     <string name="usb_midi_peripheral_manufacturer_name">Android</string>
@@ -1959,11 +1973,13 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="floating_toolbar_open_overflow_description">Àteras optziones</string>
     <string name="floating_toolbar_close_overflow_description">Serra su menù overflow</string>
     <string name="notification_inbox_ellipsis">\u2026</string>
+    <string name="notification_messaging_title_template"><xliff:g id="conversation_title" example="Tasty Treat Team">%1$s</xliff:g>: <xliff:g id="sender_name" example="Adrian Baker">%2$s</xliff:g></string>
     <string name="call_notification_decline_action">Refuda</string>
     <string name="promotional_notification_channel_label">Promotziones</string>
     <string name="social_notification_channel_label">Sotziale</string>
     <string name="news_notification_channel_label">Noas</string>
     <string name="recs_notification_channel_label">Cussìgios</string>
+    <string name="user_creation_adding">Boles permìtere a <xliff:g id="app" example="Gmail">%1$s</xliff:g> de creare un\'utèntzia noa cun <xliff:g id="account" example="foobar@gmail.com">%2$s</xliff:g> ?</string>
     <string name="supervised_user_creation_label">Agiunghe utente suta supervisione</string>
     <string name="language_picker_section_suggested_bilingual">Lìnguas cussigiadas</string>
     <string name="locale_search_menu">Chirca</string>
@@ -1980,6 +1996,9 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="app_streaming_blocked_title_for_settings_dialog" product="tv">Sa cunfiguratzione de Android TV no est a disponimentu</string>
     <string name="app_streaming_blocked_title_for_settings_dialog" product="tablet">Sa cunfiguratzione de sa tauledda no est a disponimentu</string>
     <string name="app_streaming_blocked_title_for_settings_dialog" product="default">Sa cunfiguratzione de su telèfonu no est a disponimentu</string>
+    <string name="usb_mtp_launch_notification_title">Connètidu  a <xliff:g id="product_name">%1$s</xliff:g></string>
+    <string name="negative_duration">\u2212<xliff:g id="time" example="1:14">%1$s</xliff:g></string>
+    <string name="suspended_widget_accessibility"><xliff:g id="label" example="Calendar">%1$s</xliff:g> disativadu</string>
     <string name="app_category_productivity">Produtividade</string>
     <string name="app_category_accessibility">Atzessibilidade</string>
     <string name="device_storage_monitor_notification_channel">Memòria de su dispositivu</string>
@@ -2042,6 +2061,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="notification_appops_microphone_active">Micròfonu</string>
     <string name="nas_upgrade_notification_enable_action">AB</string>
     <string name="dynamic_mode_notification_title_v2">Rispàrmiu de bateria ativu</string>
+    <string name="dynamic_mode_notification_summary_v2">Rispàrmiu de bateria ativu pro illonghiare sa durada de sa bateria</string>
     <string name="chooser_no_direct_share_targets">Non ddoe at nissunu cun chie ddu cumpartzire</string>
     <string name="usb_device_resolve_prompt_warn">Cust\'aplicatzione no tenet su permissu de registrare ma diat pòdere caturare àudio cun custu dispositivu USB.</string>
     <string name="accessibility_system_action_home_label">Domo</string>
@@ -2052,10 +2072,12 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="accessibility_system_action_power_dialog_label">Ventana de diàlogu de s\'alimentatzione</string>
     <string name="accessibility_system_action_lock_screen_label">Bloca ischermu</string>
     <string name="accessibility_system_action_screenshot_label">Ischermada</string>
+    <string name="accessibility_system_action_headset_hook_label">Gantzu pro is cùfias</string>
     <string name="accessibility_system_action_on_screen_a11y_shortcut_label">Curtzadòrgiu de atzessibilidae in s\'ischermu</string>
     <string name="accessibility_system_action_on_screen_a11y_shortcut_chooser_label">Sèberu lestru de su curtzadòrgiu de atzessibilidade </string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Curtziadòrgiu de s\'atzessibilidade</string>
     <string name="accessibility_system_action_menu_label">Menù</string>
+    <string name="accessibility_system_action_media_play_pause_label">Riprodue/pone in pàusa s\'elementu multimediale</string>
     <string name="as_app_forced_to_restricted_bucket">        <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> est istadu postu in s\'àliga LIMITADA</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">at imbiadu un\'immàgine</string>
@@ -2126,6 +2148,7 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="PERSOSUBSTATE_SIM_ICCID_SUCCESS">ICCID isblocadu.</string>
     <string name="PERSOSUBSTATE_SIM_IMPI_SUCCESS">IMPI isblocadu.</string>
     <string name="PERSOSUBSTATE_SIM_NS_SP_SUCCESS">Frunidura de servìtzios de su sutagrupu de rete isblocada.</string>
+    <string name="sensor_privacy_start_use_dialog_turn_on_button">Isbloca</string>
     <string name="permdesc_startForegroundServicesFromBackground">Permitit chi un\'aplicatzione cumplementària aviet servìtzios de primu pranu dae su segundu pranu.</string>
     <string name="mic_access_on_toast">Su micròfonu est a disponimentu</string>
     <string name="mic_access_off_toast">Su micròfonu est blocadu</string>
@@ -2142,6 +2165,9 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="device_state_notification_settings_button">Bae a sa Cunfiguratzione</string>
     <string name="device_state_notification_turn_off_button">Disativa</string>
     <string name="keyboard_layout_notification_selected_title"><xliff:g id="device_name" example="Foobar USB Keyboard">%s</xliff:g> est istadu cunfiguradu</string>
+    <string name="keyboard_layout_notification_one_selected_message">Sa dispositzione de su  tecladu est cunfigurada in <xliff:g id="layout_1" example="English (US)">%s</xliff:g>. Toca pro dda cambiare.</string>
+    <string name="keyboard_layout_notification_three_selected_message">Sa cunfiguratzione de su tecladu est cunfigurada in <xliff:g id="layout_1" example="English (US)">%1$s</xliff:g>, <xliff:g id="layout_2" example="German">%2$s</xliff:g>, <xliff:g id="layout_3" example="French">%3$s</xliff:g>. Toca pro dda cambiare.</string>
+    <string name="keyboard_layout_notification_more_than_three_selected_message">Sa dispositzione de su tecladu est cunfigurada in <xliff:g id="layout_1" example="English (US)">%1$s</xliff:g>, <xliff:g id="layout_2" example="English (US)">%2$s</xliff:g>, <xliff:g id="layout_3" example="French">%3$s</xliff:g>\u2026 Toca inoghe pro dda cambiare.</string>
     <string name="keyboard_layout_notification_multiple_selected_title">Is teclados fìsicos sunt istados cunfigurados</string>
     <string name="keyboard_layout_notification_multiple_selected_message">Toca pro bìdere is teclados</string>
     <string name="profile_label_private">Privadu</string>
@@ -2163,17 +2189,21 @@ A pustis de <xliff:g id="number">%2$d</xliff:g> tentativos isballiados in prus, 
     <string name="satellite_notification_manual_summary">Imbia e retzi messàgios chene una rete mòbile o Wi-Fi</string>
     <string name="satellite_notification_open_message">Aberi is messàgios</string>
     <string name="satellite_notification_how_it_works">Comente funtzionat?</string>
+    <string name="satellite_manual_selection_state_popup_ok">Ativa</string>
+    <string name="unarchival_session_app_label">Abetende...</string>
     <string name="fingerprint_dangling_notification_title">Cunfigura torra s\'isblocu cun s\'imprenta</string>
     <string name="fingerprint_dangling_notification_msg_1"><xliff:g id="fingerprint">%s</xliff:g> non podet èssere prus reconnota.</string>
     <string name="fingerprint_dangling_notification_msg_2"><xliff:g id="fingerprint">%1$s</xliff:g> e <xliff:g id="fingerprint">%2$s</xliff:g> non podent prus èssere reconnotas.</string>
     <string name="fingerprint_dangling_notification_msg_all_deleted_1"><xliff:g id="fingerprint">%s</xliff:g> non podet prus èssere reconnota. Cunfigura torra s\'isblocu cun s\'imprenta.</string>
     <string name="fingerprint_dangling_notification_msg_all_deleted_2"><xliff:g id="fingerprint">%1$s</xliff:g> e <xliff:g id="fingerprint">%2$s</xliff:g> non podent prus èssere reconnotas. Cunfigura torra s\'isblocu cun s\'imprenta.</string>
     <string name="face_dangling_notification_title">Torra a cunfigurare s\'isblocu de cara</string>
+    <string name="face_dangling_notification_msg">Su modellu de cara tuo non podet prus èssere reconnotu. Cunfigura torra s\'isblocu cun sa cara.</string>
     <string name="biometric_dangling_notification_action_set_up">Imposta</string>
     <string name="biometric_dangling_notification_action_not_now">No immoe</string>
     <string name="bg_user_sound_notification_title_alarm">Isvèllia pro <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
     <string name="bg_user_sound_notification_button_switch_user">Càmbia utente</string>
     <string name="bg_user_sound_notification_button_mute">A sa muda</string>
+    <string name="bg_user_sound_notification_message">Toca pro istudare s\'àudio</string>
     <string name="keyboard_shortcut_group_applications_browser">Navigadore</string>
     <string name="keyboard_shortcut_group_applications_contacts">Cuntatos</string>
     <string name="keyboard_shortcut_group_applications_email">Posta eletrònica</string>

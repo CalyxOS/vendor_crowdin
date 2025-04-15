@@ -19,6 +19,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="recent_task_option_pin">Fisse</string>
     <string name="recent_task_option_freeform">Forme libare</string>
+    <string name="recent_task_option_desktop">Scritori</string>
+    <string name="recent_task_desktop">Scritori</string>
     <string name="recents_empty_message">Nissun element resint</string>
     <string name="accessibility_app_usage_settings">Impostazions utilizazion aplicazion</string>
     <string name="recents_clear_all">Nete dut</string>
@@ -93,6 +95,7 @@
     <string name="action_share">Condivît</string>
     <string name="action_screenshot">Acuisizion schermade</string>
     <string name="action_split">Divît</string>
+    <string name="action_save_app_pair">Salve cubie aplicaz.</string>
     <string name="toast_split_select_app">Tocje une altre aplicazion par doprâ il schermi dividût</string>
     <string name="toast_contextual_split_select_app">Sielç une altre aplicazion par doprâ il schermi dividût</string>
     <string name="toast_split_select_app_cancel">Anule</string>
@@ -113,6 +116,8 @@
     <string name="taskbar_edu_features">Altris funzions cu la sbare des ativitâts</string>
     <string name="taskbar_edu_pinning_title">Mostre simpri la sbare des ativitâts</string>
     <string name="taskbar_edu_pinning_standalone">Par mostrâ simpri la sbare des ativitâts te part inferiôr dal schermi, tocje e ten fracât il divisôr</string>
+    <string name="taskbar_search_edu_title">Tocje e ten fracât il tast di azion par cirî ce che al è sul to schermi</string>
+    <string name="taskbar_edu_search_disclosure">Chest prodot al dopre la part selezionade dal schermi par cirî. Si aplichin lis <xliff:g example="https://policies.google.com/privacy/embedded" id="begin_privacy_link">&lt;a href=\"%1$s\"&gt;</xliff:g>Normis su la riservatece<xliff:g id="end_privacy_link">&lt;/a&gt;</xliff:g> e i <xliff:g example="https://policies.google.com/terms" id="begin_tos_link">&lt;a href=\"%2$s\"&gt;</xliff:g>Tiermins dal servizi<xliff:g id="end_tos_link">&lt;/a&gt;</xliff:g>.</string>
     <string name="taskbar_edu_close">Siere</string>
     <string name="taskbar_edu_done">Fat</string>
     <string name="taskbar_button_home">Inizi</string>
@@ -124,12 +129,30 @@
     <string name="taskbar_button_quick_settings">Impostazions rapidis</string>
     <string name="taskbar_a11y_title">Sbare des ativitâts</string>
     <string name="taskbar_a11y_shown_title">Sbare des ativitâts mostrade</string>
+    <string name="taskbar_a11y_shown_with_bubbles_left_title">Sbare e bufulis mostr. a çampe</string>
+    <string name="taskbar_a11y_shown_with_bubbles_right_title">Sbare e bufulis mostr. a drete</string>
     <string name="taskbar_a11y_hidden_title">Sbare des ativitâts platade</string>
+    <string name="taskbar_a11y_hidden_with_bubbles_title">Sbare app e bufulis platadis</string>
     <string name="taskbar_phone_a11y_title">Sbare di navigazion</string>
     <string name="always_show_taskbar">Mostre simpri sbare ativitâts</string>
     <string name="change_navigation_mode">Cambie modalitât di navigazion</string>
     <string name="taskbar_divider_a11y_title">Divisôr de sbare des ativitâts</string>
+    <string name="taskbar_overflow_a11y_title">Flotâ de sbare des aplicazions</string>
     <string name="move_drop_target_top_or_left">Sposte in alt/çampe</string>
     <string name="move_drop_target_bottom_or_right">Sposte in bas/diestre</string>
+    <string name="quick_switch_overflow">{count, plural,
+            one {}=1{altre aplicazion}
+            other{altris aplicazions}
+        }</string>
+    <string name="quick_switch_desktop">Scritori</string>
     <string name="quick_switch_split_task"><xliff:g id="app_name_1" example="Chrome">%1$s</xliff:g> e <xliff:g id="app_name_2" example="Gmail">%2$s</xliff:g></string>
+    <string name="bubble_bar_bubble_fallback_description">Bufule</string>
+    <string name="bubble_bar_overflow_description">Extra</string>
+    <string name="bubble_bar_bubble_description"><xliff:g id="notification_title" example="some title">%1$s</xliff:g> di <xliff:g id="app_name" example="YouTube">%2$s</xliff:g></string>
+    <string name="bubble_bar_description_multiple_bubbles"><xliff:g id="bubble_bar_bubble_description" example="some title from YouTube">%1$s</xliff:g> e altris <xliff:g id="bubble_count" example="4">%2$d</xliff:g></string>
+    <string name="bubble_bar_action_move_left">Môf a çampe</string>
+    <string name="bubble_bar_action_move_right">Môf a diestre</string>
+    <string name="bubble_bar_action_dismiss_all">Scarte dut</string>
+    <string name="bubble_bar_accessibility_announce_expand">slargje <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
+    <string name="bubble_bar_accessibility_announce_collapse">strenç <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
 </resources>
