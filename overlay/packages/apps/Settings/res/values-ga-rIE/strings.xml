@@ -234,6 +234,20 @@
     other {Caithfidh sé a bheith ar a laghad # carachtair nach uimhir iad}
 }</string>
     <string name="lockpassword_password_no_sequential_characters">Ní cheadaítear seicheamh carachtar ardaitheach, íslitheach nó arís agus arís eile</string>
+    <string name="number_of_device_admins">{count, plural,
+        one {}
+        two {# aip ghníomhacha}
+        few {# aip ghníomhacha}
+        many {# aip ghníomhacha}=1      {# aip ghníomhach}
+        other   {# aip ghníomhacha}
+        }</string>
+    <string name="manage_trust_agents_summary_on">{count, plural,
+        one {}
+        two {# gníomhaire iontaofa gníomhacha}
+        few {# gníomhaire iontaofa gníomhacha}
+        many {# gníomhaire iontaofa gníomhacha}=1      {1 ghníomhaire iontaofa gníomhach}
+        other   {# gníomhaire iontaofa gníomhacha}
+        }</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available">Nuair a bhíonn Bluetooth air, is féidir le do ghléas cumarsáid a dhéanamh le gléasanna Bluetooth eile in aice láimhe. Úsáideann gnéithe cosúil le Quick Share agus Find My Device Bluetooth.</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available">Nuair a bhíonn Bluetooth ar siúl, is féidir le do ghléas cumarsáid a dhéanamh le gléasanna Bluetooth eile in aice láimhe. Úsáideann gnéithe cosúil le Quick Share agus Find My Device Bluetooth.\n\nIs féidir le haipeanna agus seirbhísí scanadh fós le haghaidh gléasanna in aice láimhe ag am ar bith, fiú nuair a bhíonn Bluetooth múchta. Is féidir é seo a úsáid, mar shampla, chun gnéithe agus seirbhísí bunaithe ar shuíomh a fheabhsú. Is féidir leat é seo a athrú i socruithe scanadh Bluetooth.</string>
     <string name="bluetooth_key_missing_title"><xliff:g id="device_name">%1$s</xliff:g> gan ceangal</string>
@@ -257,6 +271,27 @@
     <string name="wifi_settings_wep_networks_disconnect_summary">Tá tú ceangailte le líonra WEP. Má stopann tú na líonraí seo a cheadú, beidh tú dícheangailte.</string>
     <string name="wifi_dpp_check_connection_no_matched_ssid">Níl an líonra Wi\u2011Fi seo ar fáil faoi láthair</string>
     <string name="wifi_dpp_check_connection_no_matched_security">\u2019s fadhb leis an gcód QR seo. Bain triail as nascadh ar bhealach eile.</string>
+    <string name="wifi_saved_access_points_summary">{count, plural,
+        one {}
+        two {# líonraí}
+        few {# líonraí}
+        many {# líonraí}=1      {1 líonra}
+        other   {# líonraí}
+        }</string>
+    <string name="wifi_saved_passpoint_access_points_summary">{count, plural,
+        one {}
+        two {# síntiúis}
+        few {# síntiúis}
+        many {# síntiúis}=1      {1 síntiús}
+        other   {# síntiúis}
+        }</string>
+    <string name="wifi_saved_all_access_points_summary">{count, plural,
+        one {}
+        two {# líonraí &amp; síntiúis}
+        few {# líonraí &amp; síntiúis}
+        many {# líonraí &amp; síntiúis}=1      {1 líonra &amp; síntiús}
+        other   {# líonraí &amp; síntiúis}
+        }</string>
     <string name="wifi_certificate_summary_Certificates"><xliff:g id="number" example="2">%d</xliff:g> teastais</string>
     <string name="wifi_certificate_summary_system">Teastas an chórais</string>
     <string name="wifi_certificate_summary_pinning">Teastas a phinniú</string>
@@ -266,8 +301,23 @@
     <string name="screen_resolution_footer">Úsáideann taifeach uasta níos mó de do cheallraí. Seans go n-atosóidh roinnt aipeanna má athraítear do thaifeach.</string>
     <string name="dark_ui_summary_off_auto_mode_modes">Cuirfear ar siúl é nuair a thosóidh <xliff:g name="modeName" example="Bedtime">%1$s</xliff:g></string>
     <string name="dark_ui_summary_on_auto_mode_modes">Múchfar é nuair a chríochnóidh<xliff:g name="modeName" example="Bedtime">%1$s</xliff:g></string>
+    <string name="dark_ui_modes_footer_summary">{count, plural, offset:2
+        one {}
+        two {{mode_1}, {mode_2}, agus # cheann eile a ghníomhaíonn an téama dorcha freisin}
+        few {{mode_1}, {mode_2}, agus # cinn eile a ghníomhaíonn an téama dorcha freisin}
+        many {{mode_1}, {mode_2}, agus # cinn eile a ghníomhaíonn an téama dorcha freisin}
+        =0    {Is féidir le módanna eile an téama dorcha a ghníomhachtú freisin}
+        =1    {Gníomhaíonn {mode_1} an téama dorcha freisin}
+        =2    {Gníomhaíonn {mode_1} agus {mode_2} an téama dorcha freisin}
+        =3    {Gníomhaíonn {mode_1}, {mode_2}, agus {mode_3} an téama dorcha freisin}
+        other {{mode_1}, {mode_2}, agus # cinn eile a ghníomhaíonn an téama dorcha freisin}
+        }</string>
     <string name="dark_ui_modes_footer_action">Socruithe mód</string>
     <string name="sim_preferred_message">Is é <xliff:g id="new_sim">%1$s</xliff:g> do phríomh SIM anois</string>
+    <string name="wrong_pin_code">{count, plural,
+    =1 {Cód PIN an SIM mícheart, tá # iarracht fágtha agat sula mbeidh ort dul i dteagmháil le d’oibreoir chun do ghléas a dhíghlasáil.}
+    other {Cód PIN an SIM mícheart, tá # iarrachtaí fágtha agat.}
+}</string>
     <string name="status_eid">E​ID</string>
     <string name="eid_multi_sim">E​ID (sliotán sim <xliff:g id="eid_slot_id">%1$d</xliff:g>)</string>
     <string name="status_up_time">Aga fónaimh</string>
@@ -305,9 +355,24 @@
     <string name="sms_change_default_dialog_text" translatable="true">Úsáid <xliff:g id="new_app">%1$s</xliff:g> in ionad <xliff:g id="current_app">%2$s</xliff:g> mar d\'aip SMS?</string>
     <string name="sms_change_default_no_previous_dialog_text" translatable="true">Úsáid <xliff:g id="new_app">%s</xliff:g> mar d\'aip SMS?</string>
     <string name="private_profile_location_switch_title">Suíomh le haghaidh spás príobháideach</string>
+    <string name="location_app_permission_summary_location_on">{count, plural,
+    =1 {Tá rochtain ar shuíomh ag # as {total} aip.}
+    other {Tá rochtain ar shuíomh ag # as {total} aip.}
+}</string>
     <string name="location_time_zone_detection_toggle_title">Úsáid suíomh don chrios ama</string>
     <string name="location_time_zone_detection_auto_is_off">Níl sé ar fáil nuair a bhíonn an crios ama uathoibríoch múchta</string>
     <string name="location_time_zone_detection_auto_is_on">Má tá suíomh do ghléis ar fáil, féadfar é a úsáid chun do chrios ama a shocrú</string>
+    <string name="see_all_apps_title">{count, plural,
+    =1 {Féach ar gach aip}
+    other {Féach ar gach {count} aip}
+}</string>
+    <string name="uri_permissions_text">{count, plural,
+    one {1 mír}
+    two {# míreanna}
+    few {# míreanna}
+    many {# míreanna}=1      {1 mír}
+    other {# míreanna}
+}</string>
     <string name="screen_compatibility_text">Seans nach bhfuil an aip seo deartha do do scáileán. Is féidir leat a rialú conas é
         a choigeartú le do scáileán anseo.</string>
     <string name="app_install_details_different_initiating_package_summary">Suiteáilte aip ó <xliff:g id="app_store1">%1$s</xliff:g> (trí <xliff:g id="app_store2">%2$s</xliff:g>)</string>
@@ -405,13 +470,53 @@
     <string name="accessibility_tutorial_dialog_message_volume">Chun an ghné seo a úsáid, brúigh agus coinnigh an dá eochair toirte</string>
     <string name="accessibility_tutorial_dialog_tripletap_instruction">Chun formhéadú a thosú agus a stopadh, tapáil go tapa ar an scáileán %1$d uair</string>
     <string name="accessibility_tutorial_dialog_twofinger_doubletap_instruction">Chun formhéadú a thosú agus a stopadh, tapáil go tapa ar an scáileán faoi dhó le méara %1$d</string>
+    <string name="accessibility_tutorial_dialog_message_quick_setting">{count, plural,
+    one {Chun an gné seo a úsáid, sleamhnaigh síos ó bharr do scáileáin. Ansin, faigh an tile {featureName}.}
+    two {Chun an gné seo a úsáid, sleamhnaigh síos ó bharr do scáileáin le # méara. Ansin, faigh an tile {featureName}.}
+    few {Chun an gné seo a úsáid, sleamhnaigh síos ó bharr do scáileáin le # méara. Ansin, faigh an tile {featureName}.}
+    many {Chun an gné seo a úsáid, sleamhnaigh síos ó bharr do scáileáin le # méara. Ansin, faigh an tile {featureName}.}
+    =1 {Chun an gné seo a úsáid, sleamhnaigh síos ó bharr do scáileáin. Ansin, faigh an tile {featureName}.}
+    other {Chun an gné seo a úsáid, sleamhnaigh síos ó bharr do scáileáin le # méara. Ansin, faigh an tile {featureName}.}
+}</string>
     <string name="accessibility_tutorial_dialog_shortcut_unavailable_in_suw">Beidh an t-aicearra seo ar fáil tar éis duit socrú feiste a chríochnú.</string>
+    <string name="accessibility_tutorial_dialog_gesture_shortcut_instruction">{count, plural,
+    one {Chun an gné seo a úsáid, sleamhnaigh suas ó bhun do scáileáin.}
+    two {Chun an gné seo a úsáid, sleamhnaigh suas le # méara ó bhun do scáileáin.}
+    few {Chun an gné seo a úsáid, sleamhnaigh suas le # méara ó bhun do scáileáin.}
+    many {Chun an gné seo a úsáid, sleamhnaigh suas le # méara ó bhun do scáileáin.}
+    =1 {Chun an gné seo a úsáid, sleamhnaigh suas ó bhun do scáileáin.}
+    other {Chun an gné seo a úsáid, sleamhnaigh suas le # méara ó bhun do scáileáin.}
+}</string>
     <string name="accessibility_tutorial_dialog_link_button">Saincheapadh cnaipe</string>
     <string name="accessibility_shortcut_edit_summary_software">cnaipe inrochtaineachta</string>
     <string name="accessibility_shortcut_edit_summary_software_gesture">chomhartha inrochtaineachta</string>
     <string name="accessibility_shortcut_edit_dialog_summary_floating_button">Tapáil ar an gcnaipe ar snámh</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software">Tapáil an cnaipe inrochtaineachta <xliff:g id="accessibility_icon" example="[Icon]"> %s</xliff:g> ag bun do scáileáin. Chun aistriú idir gnéithe, déan teagmháil &amp; coinnigh an cnaipe inrochtaineachta.</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_gesture">{count, plural,
+    one {Sleamhnaigh suas ó bhun do scáileáin. Chun idirghníomhú idir gnéithe, sleamhnaigh suas agus coinnigh.}
+    two {Sleamhnaigh suas le # méara ó bhun do scáileáin. Chun idirghníomhú idir gnéithe, sleamhnaigh suas le # méara agus coinnigh.}
+    few {Sleamhnaigh suas le # méara ó bhun do scáileáin. Chun idirghníomhú idir gnéithe, sleamhnaigh suas le # méara agus coinnigh.}
+    many {Sleamhnaigh suas le # méara ó bhun do scáileáin. Chun idirghníomhú idir gnéithe, sleamhnaigh suas le # méara agus coinnigh.}
+    =1 {Sleamhnaigh suas ó bhun do scáileáin. Chun idirghníomhú idir gnéithe, sleamhnaigh suas agus coinnigh.}
+    other {Sleamhnaigh suas le # méara ó bhun do scáileáin. Chun idirghníomhú idir gnéithe, sleamhnaigh suas le # méara agus coinnigh.}
+}</string>
     <string name="accessibility_shortcut_edit_dialog_title_quick_settings">Socruithe Tapa</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_quick_settings">{count, plural,
+    one {Sleamhnaigh síos ó bharr do scáileáin.}
+    two {Sleamhnaigh síos le # méara ó bharr do scáileáin.}
+    few {Sleamhnaigh síos le # méara ó bharr do scáileáin.}
+    many {Sleamhnaigh síos le # méara ó bharr do scáileáin.}
+    =1 {Sleamhnaigh síos ó bharr do scáileáin.}
+    other {Sleamhnaigh síos le # méara ó bharr do scáileáin.}
+}</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_quick_settings_suw">{count, plural,
+    one {Sleamhnaigh síos ó bharr do scáileáin. Beidh an ghearrthóg seo ar fáil tar éis duit an socrú atá ag an gléas a chríochnú.}
+    two {Sleamhnaigh síos le # méara ó bharr do scáileáin. Beidh an ghearrthóg seo ar fáil tar éis duit an socrú atá ag an gléas a chríochnú.}
+    few {Sleamhnaigh síos le # méara ó bharr do scáileáin. Beidh an ghearrthóg seo ar fáil tar éis duit an socrú atá ag an gléas a chríochnú.}
+    many {Sleamhnaigh síos le # méara ó bharr do scáileáin. Beidh an ghearrthóg seo ar fáil tar éis duit an socrú atá ag an gléas a chríochnú.}
+    =1 {Sleamhnaigh síos ó bharr do scáileáin. Beidh an ghearrthóg seo ar fáil tar éis duit an socrú atá ag an gléas a chríochnú.}
+    other {Sleamhnaigh síos le # méara ó bharr do scáileáin. Beidh an ghearrthóg seo ar fáil tar éis duit an socrú atá ag an gléas a chríochnú.}
+}</string>
     <string name="accessibility_feature_shortcut_setting_summary_quick_settings">Socruithe Tapa</string>
     <string name="accessibility_shortcut_edit_dialog_title_hardware">Eochracha toirt</string>
     <string name="accessibility_shortcut_hardware_keyword">eochracha toirt</string>
@@ -433,11 +538,102 @@
     <string name="daltonizer_saturation_unavailable_summary">Níl sé ar fáil don mhód liathscála nó nuair atá ceartú datha díchumasaithe</string>
     <string name="daltonizer_mode_deuteranomaly_summary">Díghnáthacht Dheatránach</string>
     <string name="daltonizer_mode_protanomaly_summary">Díghnáthacht Phrotánach</string>
+    <string name="accessibilty_autoclick_preference_subtitle_short_delay">{count, plural,
+    one {Ghearr ({time} soicind)}
+    two {Ghearr ({time} soicind)}
+    few {Ghearr ({time} soicind)}
+    many {Ghearr ({time} soicind)}=1 {Ghearr ({time} soicind)}
+    other {Ghearr ({time} soicind)}
+}</string>
+    <string name="accessibilty_autoclick_preference_subtitle_medium_delay">{count, plural,
+    one {Meán ({time} soicind)}
+    two {Meán ({time} soicind)}
+    few {Meán ({time} soicind)}
+    many {Meán ({time} soicind)}=1 {Meán ({time} soicind)}
+    other {Meán ({time} soicind)}
+}</string>
+    <string name="accessibilty_autoclick_preference_subtitle_long_delay">{count, plural,
+    one {Fada ({time} soicind)}
+    two {Fada ({time} soicind)}
+    few {Fada ({time} soicind)}
+    many {Fada ({time} soicind)}=1 {Fada ({time} soicind)}
+    other {Fada ({time} soicind)}
+}</string>
+    <string name="accessibilty_autoclick_delay_unit_second">{count, plural,
+    one {{{time} soicind}
+    two {{{time} soicind}
+    few {{{time} soicind}
+    many {{{time} soicind}=1 {{{time} soicind}
+    other {{{time} soicind}
+}</string>
     <string name="captioning_text_size">Méid fotheideal</string>
+    <string name="print_settings_summary">{count, plural,
+    one {}
+    two {# seirbhísí priontála ar}
+    few {# seirbhísí priontála ar}
+    many {# seirbhísí priontála ar}=1 {1 seirbhís priontála ar}
+    other {# seirbhísí priontála ar}
+}</string>
+    <string name="print_jobs_summary">{count, plural,
+        one {}
+        two {# phost priontála}
+        few {# phost priontála}
+        many {# phost priontála}=1      {1 phost priontála}
+        other   {# phost priontála}
+        }</string>
     <string name="power_usage_level_and_status"><xliff:g id="level">%1$s</xliff:g>
         - <xliff:g id="status">%2$s</xliff:g></string>
     <string name="battery_tip_replacement_title">Moltar athsholáthar ceallraí</string>
     <string name="battery_tip_replacement_summary">Laghdaítear cumas ceallraí agus feidhmíocht muirir, agus moltar athsholáthar ceallraí.</string>
+    <string name="battery_tip_restrict_title">{count, plural,
+        one {}
+        two {Cuir srianta ar # aip}
+        few {Cuir srianta ar # aip}
+        many {Cuir srianta ar # aip}=1      {Cuir srianta ar # aip}
+        other   {Cuir srianta ar # aip}
+        }</string>
+    <string name="battery_tip_restrict_handled_title">{count, plural,
+        one {}
+        two {Cuireadh srianta ar # aip le déanaí}
+        few {Cuireadh srianta ar # aip le déanaí}
+        many {Cuireadh srianta ar # aip le déanaí}=1      {Cuireadh srianta ar {label} le déanaí}
+        other   {Cuireadh srianta ar # aip le déanaí}
+        }</string>
+    <string name="battery_tip_restrict_summary">{count, plural,
+        one {}
+        two {Tá tomhaltas ard cúlra ceallraí ag # aip}
+        few {Tá tomhaltas ard cúlra ceallraí ag # aip}
+        many {Tá tomhaltas ard cúlra ceallraí ag # aip}=1      {Tá tomhaltas ard cúlra ceallraí ag {label}}
+        other   {Tá tomhaltas ard cúlra ceallraí ag # aip}
+        }</string>
+    <string name="battery_tip_restrict_handled_summary">{count, plural,
+        one {}
+        two {Ní féidir leis na haipeanna seo rith sa chúlra}
+        few {Ní féidir leis na haipeanna seo rith sa chúlra}
+        many {Ní féidir leis na haipeanna seo rith sa chúlra}=1      {Ní féidir leis an aip seo rith sa chúlra}
+        other   {Ní féidir leis na haipeanna seo rith sa chúlra}
+        }</string>
+    <string name="battery_tip_restrict_app_dialog_title">{count, plural,
+        one {}
+        two {Srian a chur ar # aipeanna?}
+        few {Srian a chur ar # aipeanna?}
+        many {Srian a chur ar # aipeanna?}=1      {Srian a chur ar an aip?}
+        other   {Srian a chur ar # aipeanna?}
+        }</string>
+    <string name="restricted_app_summary">{count, plural,
+        one {}
+        two {Teorainn a chur le húsáid ceallraí ag # aipeanna}
+        few {Teorainn a chur le húsáid ceallraí ag # aipeanna}
+        many {Teorainn a chur le húsáid ceallraí ag # aipeanna}=1      {Teorainn a chur le húsáid ceallraí ag aip amháin}
+        other   {Teorainn a chur le húsáid ceallraí ag # aipeanna}
+        }</string>
+    <string name="battery_manager_app_restricted">{count, plural,
+        one {}
+        two {# aipeanna srianta}
+        few {# aipeanna srianta}
+        many {# aipeanna srianta}=1      {# aip srianta}
+        other   {# aipeanna srianta}
+        }</string>
     <string name="battery_saver_sticky_description_new">Casann an Sábháil Ceallraí as nuair a ghearrann an ceallraí os cionn <xliff:g id="battery_percentage" example="80%">%1$s</xliff:g></string>
     <string name="battery_usage_total_less_than_one_minute">Iomlán: níos lú ná nóiméad</string>
     <string name="battery_usage_background_less_than_one_minute">Cúlra: níos lú ná nóiméad</string>
@@ -455,18 +651,74 @@
     <string name="cellular_security_network_generations_summary">Is féidir leat gach cárta SIM suiteáilte a chumrú chun nascadh a dhéanamh ach le líonraí a thacaíonn le 3G, 4G, agus 5G. Ní cheanglóidh an SIM le líonraí 2G níos sine, neamhchinnte. Féadfaidh an socrú seo do nascacht a theorannú i gcás gurb é 2G an t-aon líonra atá ar fáil I gcás éigeandála, féadfar 2G a úsáid.</string>
     <string name="credential_installed_for_wifi">Suiteáilte do <xliff:g id="ssid" example="SSID">%s</xliff:g></string>
     <string name="credential_using_for_wifi">Ag úsáid le haghaidh <xliff:g id="ssid" example="SSID">%s</xliff:g></string>
+    <string name="number_of_urls">{count, plural,
+        one {}
+        two {# URLanna}
+        few {# URLanna}
+        many {# URLanna}=1      {# URL}
+        other   {# URLanna}
+        }</string>
+    <string name="notification_history_count">{count, plural,
+        one {}
+        two {# fógraí}
+        few {# fógraí}
+        many {# fógraí}=1      {# fógra}
+        other   {# fógraí}
+        }</string>
     <string name="vpn_version_info">Leagan <xliff:g id="version" example="3.3.0">%s</xliff:g></string>
+    <string name="ssl_ca_cert_dialog_title">{count, plural,
+        one {}
+        two {Iontráil nó bain na deimhnithe}
+        few {Iontráil nó bain na deimhnithe}
+        many {Iontráil nó bain na deimhnithe}=1      {Iontráil nó bain an deimhnithe}
+        other   {Iontráil nó bain na deimhnithe}
+        }</string>
+    <string name="ssl_ca_cert_settings_button">{count, plural,
+        one {}
+        two {Seiceáil deimhnithe}
+        few {Seiceáil deimhnithe}
+        many {Seiceáil deimhnithe}=1      {Seiceáil an deimhnithe}
+        other   {Seiceáil deimhnithe}
+        }</string>
     <string name="user_owner">Úinéir</string>
     <string name="keywords_styles">deilbhín, deilbhíní, blas, dath, scáileán baile, scáileán glas, aicearra, méid clog</string>
     <string name="sound_dashboard_summary">Toirt agus creathadh</string>
     <string name="spatial_audio_multi_toggle_on">Seasta</string>
     <string name="spatial_audio_multi_toggle_head_tracking_on">Rianú Ceann</string>
+    <string name="zen_mode_settings_schedules_summary">{count, plural,
+        one {}
+        two {# sceidil socraithe}
+        few {# sceidil socraithe}
+        many {# sceidil socraithe}=0    {None}
+        =1    {1 sceideal socraithe}
+        other {# sceidil socraithe}
+        }</string>
     <string name="zen_modes_list_title">Modhanna</string>
     <string name="zen_modes_list_intro">Íoslaghdaigh seachráin agus bí i gceannas ar d\'aird le modhanna codlata, oibre, tiomána, agus gach rud eatarthu.</string>
     <string name="zen_modes_add_mode">Cruthaigh do mhodh féin</string>
     <string name="zen_mode_select_schedule_title">Sceideal bunaithe ar</string>
     <string name="zen_mode_select_schedule_time">Lá agus am</string>
     <string name="zen_mode_select_schedule_time_example">\"9:00 r.n. - 5:00 i.n. i rith na seachtaine\"</string>
+    <string name="zen_modes_summary_some_active">{count, plural, offset:2
+        one {}
+        two {{mode_1}, {mode_2}, agus # níos mó atá gníomhach}
+        few {{mode_1}, {mode_2}, agus # níos mó atá gníomhach}
+        many {{mode_1}, {mode_2}, agus # níos mó atá gníomhach}=0    {}
+        =1    {Tá {mode_1} gníomhach}
+        =2    {Tá {mode_1} agus {mode_2} gníomhach}
+        =3    {Tá {mode_1}, {mode_2}, agus {mode_3} gníomhach}
+        other {Tá {mode_1}, {mode_2}, agus # níos mó gníomhach}
+        }</string>
+    <string name="zen_modes_summary">        {count, plural,
+        one {}
+        two {{mode_1}, {mode_2}, {mode_3}}
+        few {{mode_1}, {mode_2}, {mode_3}}
+        many {{mode_1}, {mode_2}, {mode_3}}=0    {Ná Cuir isteach}
+        =1    {{mode_1}}
+        =2    {{mode_1}, {mode_2}}
+        other {{mode_1}, {mode_2}, {mode_3}}
+        }
+    </string>
     <string name="zen_mode_active_text">AR</string>
     <string name="zen_mode_new_title">Cruthaigh mód</string>
     <string name="zen_mode_not_found_text">Mód gan aimsiú</string>
@@ -520,6 +772,30 @@
     <string name="zen_mode_restrict_notifications_summary_custom">Fógraí go páirteach
        i bhfolach</string>
     <string name="zen_mode_restrict_notifications_summary_hidden">Fógraí i bhfolach</string>
+    <string name="zen_mode_duration_summary_time_hours">{count, plural,
+        one {}
+        two {# uair an chloig}
+        few {# uair an chloig}
+        many {# uair an chloig}=1    {1 uair an chloig}
+        other {# uair an chloig}
+        }</string>
+    <string name="zen_mode_duration_summary_time_minutes"> 
+        {count, plural,
+        one {}
+        two {# nóiméad}
+        few {# nóiméad}
+        many {# nóiméad}=1    {1 nóiméad}
+        other {# nóiméad}
+        }
+    </string>
+    <string name="zen_mode_sound_summary_off">{count, plural,
+        one {}
+        two {Múchta / is féidir le # sceidil a chasadh air go huathoibríoch}
+        few {Múchta / is féidir le # sceidil a chasadh air go huathoibríoch}
+        many {Múchta / is féidir le # sceidil a chasadh air go huathoibríoch}=0    {Múchta}
+        =1    {Múchta / is féidir le 1 sceideal a chasadh air go huathoibríoch}
+        other {Múchta / is féidir le # sceidil a chasadh air go huathoibríoch}
+        }</string>
     <string name="notification_bundles">Cuachtaí fógraí</string>
     <string name="lock_screen_notif_minimalism">Íostachas fógra scáileán glas</string>
     <string name="lock_screen_notif_minimalism_summary">Taispeáin níos lú fógraí ar an scáileán glas</string>
@@ -531,6 +807,27 @@
     <string name="lock_screen_notification_hide_seen_summary">Baintear fógraí atá le feiceáil den scáileán glas.</string>
     <string name="lock_screen_notification_hide_silent_title">Folaigh fógraí ciúine</string>
     <string name="lock_screen_notification_hide_silent_summary">Baintear fógraí agus comhráite ciúine den scáileán glas.</string>
+    <string name="priority_conversation_count">{count, plural,
+        one {}
+        two {# comhrá prioireachta}
+        few {# comhrá prioireachta}
+        many {# comhrá prioireachta}=1      {# comhrá prioireachta}
+        other   {# comhrá prioireachta}
+        }</string>
+    <string name="notifications_sent_daily">{count, plural,
+        one {}
+        two {Tart faoi # fógraí gach lá}
+        few {Tart faoi # fógraí gach lá}
+        many {Tart faoi # fógraí gach lá}=1      {Tart faoi # fógra gach lá}
+        other   {Tart faoi # fógraí gach lá}
+        }</string>
+    <string name="notifications_sent_weekly">{count, plural,
+        one {}
+        two {Tart faoi # fógraí gach seachtain}
+        few {Tart faoi # fógraí gach seachtain}
+        many {Tart faoi # fógraí gach seachtain}=1      {Tart faoi # fógra gach seachtain}
+        other   {Tart faoi # fógraí gach seachtain}
+        }</string>
     <string name="manage_notification_access_title">Léadh an fógra, freagra &amp; smacht</string>
     <string name="notification_listener_security_warning_title">Ceadaigh rochtain fógraí do
         <xliff:g id="service" example="NotificationReader">%1$s</xliff:g>?</string>
@@ -546,22 +843,99 @@
     <string name="notification_bundle_description">Déanfar fógraí le téamaí comhchosúla a chur ina dtost agus a ghrúpáil le chéile le haghaidh eispéireas níos ciúine. Sáróidh cuachadh socruithe fógra na haipe féin.</string>
     <string name="vr_listener_security_warning_title">Ceadaigh rochtain ar sheirbhís VR le haghaidh
         <xliff:g id="service" example="VrCore">%1$s</xliff:g>?</string>
+    <string name="interact_across_profiles_number_of_connected_apps">{count, plural,
+        one {}
+        two {# aipeanna ceangailte}
+        few {# aipeanna ceangailte}
+        many {# aipeanna ceangailte}=1      {# aip ceangailte}
+        other   {# aipeanna ceangailte}
+        }</string>
     <string name="manage_zen_modes_access_title">Rochtain modhanna</string>
     <string name="zen_modes_access_detail_switch">Ceadaigh rochtain ar Mhóid</string>
     <string name="zen_modes_access_empty_text">Níor iarr aon aip suiteáilte rochtain ar Mhód</string>
     <string name="no_recent_channels">Taispeáin catagóirí gan úsáid</string>
     <string name="show_unused_channels">Taispeáin catagóirí gan úsáid</string>
     <string name="hide_unused_channels">Folaigh catagóirí nár úsáideadh</string>
+    <string name="deleted_channels">{count, plural,
+        one {}
+        two {# catagóirí scriosta}
+        few {# catagóirí scriosta}
+        many {# catagóirí scriosta}=1      {# catagóir scriosta}
+        other   {# catagóirí scriosta}
+        }</string>
     <string name="app_notification_fsi_permission_title">Ceadaigh fógraí lánscáileáin</string>
     <string name="zen_mode_from_all_conversations_second">gach comhrá</string>
+    <string name="zen_mode_conversations_count">{count, plural,
+        one {}
+        two {# comhráite}
+        few {# comhráite}
+        many {# comhráite}=0    {Aon cheann}
+        =1    {1 comhrá}
+        other {# comhráite}
+        }</string>
     <string name="zen_mode_from_conversations_settings">Socruithe comhráite</string>
+    <string name="zen_mode_starred_contacts_summary_contacts">{count, plural, offset:2
+        one {}
+        two {{contact_1}, {contact_2}, agus # daoine eile}
+        few {{contact_1}, {contact_2}, agus # daoine eile}
+        many {{contact_1}, {contact_2}, agus # daoine eile}=0    {Aon cheann}
+        =1    {{contact_1}}
+        =2    {{contact_1} agus {contact_2}}
+        =3    {{contact_1}, {contact_2}, agus {contact_3}}
+        other {{contact_1}, {contact_2}, agus # daoine eile}
+        }</string>
+    <string name="zen_mode_contacts_count">{count, plural,
+        one {}
+        two {# teagmhálaithe}
+        few {# teagmhálaithe}
+        many {# teagmhálaithe}=0    {Aon cheann}
+        =1    {1 teagmháil}
+        other {# teagmhálaithe}
+        }</string>
     <string name="zen_mode_from_contacts_settings">Socruithe teagmhálaithe</string>
     <string name="zen_mode_from_starred_settings">Socruithe teagmhálaithe le réiltín</string>
     <string name="zen_mode_apps_priority_apps">Aipeanna roghnaithe</string>
+    <string name="zen_mode_apps_subtext">{count, plural, offset:2
+        one {}
+        two {{app_1}, {app_2}, agus # eile is féidir leo cur isteach}
+        few {{app_1}, {app_2}, agus # eile is féidir leo cur isteach}
+        many {{app_1}, {app_2}, agus # eile is féidir leo cur isteach}=0    {Ní féidir le haon aip cur isteach}
+        =1    {{app_1} is féidir leo cur isteach}
+        =2    {{app_1} agus {app_2} is féidir leo cur isteach}
+        =3    {{app_1}, {app_2}, agus {app_3} is féidir leo cur isteach}
+        other {{app_1}, {app_2}, agus # eile is féidir leo cur isteach}
+        }</string>
     <string name="zen_mode_apps_work_app"><xliff:g id="app_label" example="Chrome"> %s</xliff:g> (Obair)</string>
     <string name="zen_mode_apps_priority_apps_settings">Socruithe aipeanna</string>
     <string name="zen_mode_plus_n_items">+<xliff:g id="number" example="42">%d</xliff:g></string>
+    <string name="zen_mode_bypassing_apps_subtext">{count, plural, offset:2
+        one {}
+        two {{app_1}, {app_2}, agus # eile is féidir leo cur isteach}
+        few {{app_1}, {app_2}, agus # eile is féidir leo cur isteach}
+        many {{app_1}, {app_2}, agus # eile is féidir leo cur isteach}=0    {Ní féidir le haon aip cur isteach}
+        =1    {{app_1} is féidir leo cur isteach}
+        =2    {{app_1} agus {app_2} is féidir leo cur isteach}
+        =3    {{app_1}, {app_2}, agus {app_3} is féidir leo cur isteach}
+        other {{app_1}, {app_2}, agus # eile is féidir leo cur isteach}
+        }</string>
+    <string name="zen_mode_other_sounds_summary">{count, plural, offset:2
+        one {}
+        two {{sound_category_1}, {sound_category_2}, agus # eile is féidir leo cur isteach}
+        few {{sound_category_1}, {sound_category_2}, agus # eile is féidir leo cur isteach}
+        many {{sound_category_1}, {sound_category_2}, agus # eile is féidir leo cur isteach}=0    {Ní féidir le haon rud cur isteach}
+        =1    {{sound_category_1} is féidir leo cur isteach}
+        =2    {{sound_category_1} agus {sound_category_2} is féidir leo cur isteach}
+        =3    {{sound_category_1}, {sound_category_2}, agus {sound_category_3} is féidir leo cur isteach}
+        other {{sound_category_1}, {sound_category_2}, agus # eile is féidir leo cur isteach}
+        }</string>
     <string name="zen_mode_people_repeat_callers">Is féidir le glaoiteoirí athuair cur isteach</string>
+    <string name="zen_mode_summary_alarms_only_by_minute">{count, plural,
+        one {}
+        two {Athraigh go rabhadh amháin le haghaidh # nóiméad (go {time})}
+        few {Athraigh go rabhadh amháin le haghaidh # nóiméad (go {time})}
+        many {Athraigh go rabhadh amháin le haghaidh # nóiméad (go {time})}=1      {Athraigh go rabhadh amháin le haghaidh nóiméad amháin go {time}}
+        other   {Athraigh go rabhadh amháin le haghaidh # nóiméad (go {time})}
+}</string>
     <string name="zen_mode_summary_alarms_only_by_hour">{count, plural,
     one {}
     two {Athraigh go aláraim amháin le haghaidh # uair an chloig go dtí {time}}
