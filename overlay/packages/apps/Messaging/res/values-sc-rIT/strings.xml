@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (C) 2015 The Android Open Source Project
-    Copyright (C) 2024 The LineageOS Project
+    Copyright (C) 2024-2025 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -37,9 +37,6 @@
     <string name="mediapicker_audioChooserDescription">Registra àudio</string>
     <string name="mediapicker_gallery_item_selected_content_description">Su cuntenutu est seletzionadu.</string>
     <string name="mediapicker_gallery_item_unselected_content_description">Su cuntenutu est deseletzionadu.</string>
-    <string name="mediapicker_gallery_title_selection"><xliff:g id="count">%d</xliff:g> seletzionadu</string>
-    <string name="mediapicker_gallery_image_item_description">immàgine <xliff:g id="date">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
-    <string name="mediapicker_gallery_image_item_description_no_date">immàgine</string>
     <string name="action_share">Cumpartzi</string>
     <string name="posted_just_now">"Immoe etotu"</string>
     <string name="posted_now">"Immoe"</string>
@@ -94,11 +91,6 @@
         <item quantity="one">Messàgiu nou</item>
         <item quantity="other"><xliff:g id="messages">%d</xliff:g> messàgios noos</item>
     </plurals>
-    <string name="camera_error_opening">Càmera no a disponimentu</string>
-    <string name="camera_error_unknown">Càmera no a disponimentu</string>
-    <string name="camera_error_video_init_fail">Catura vìdeu no a disponimentu</string>
-    <string name="camera_error_storage_fail">Non faghet a sarvare cuntenutos multimediales</string>
-    <string name="camera_error_failure_taking_picture">Non faghet a tirare fotos</string>
     <string name="back">In segus</string>
     <string name="action_menu_show_archived">Archiviadu</string>
     <string name="action_delete">Cantzella</string>
@@ -118,8 +110,6 @@
     <string name="delete_conversation_confirmation_button">Cantzella</string>
     <string name="delete_conversation_decline_button">Annulla</string>
     <string name="recipient_hint">A</string>
-    <string name="action_multiselect">Seletziona immàgines mùltiplas</string>
-    <string name="action_confirm_multiselect">Cunfirma seletzione</string>
     <string name="attachment_more_items">+<xliff:g id="count">%d</xliff:g></string>
     <string name="audio_recording_start_failed">Non faghet a registrare su sonu. Torra a proare.</string>
     <string name="audio_recording_replay_failed">Non faghet a riproduire su sonu. Torra a proare.</string>
@@ -152,14 +142,6 @@
     <string name="audio_play_content_description">Reprodue alligongiadu àudio</string>
     <string name="audio_pause_content_description">Pàusa</string>
     <string name="delete_subject_content_description">Cantzella sugetu</string>
-    <string name="camera_switch_to_video_mode">Catura vìdeu</string>
-    <string name="camera_switch_to_still_mode">Catura un\'immàgine fissa</string>
-    <string name="camera_take_picture">Tira una foto</string>
-    <string name="camera_start_recording">Cumintza sa registratzione</string>
-    <string name="camera_switch_full_screen">Passa a fotocàmera a totu ischermu</string>
-    <string name="camera_switch_camera_facing">Càmbia tra càmera de in antis e de palas</string>
-    <string name="camera_stop_recording">Tzessa de registrare e imbia vìdeu</string>
-    <string name="camera_cancel_recording">Firma sa registratzione</string>
     <string name="photo_view_activity_title">Imbiende fotos</string>
     <plurals name="photos_saved_to_album">
         <item quantity="one"><xliff:g id="quantity">%d</xliff:g> fotografia sarvada in s\'album \"<xliff:g id="albumName">%s</xliff:g>\"</item>
@@ -185,7 +167,6 @@
         <item quantity="one">No at fatu a sarvare <xliff:g id="quantity">%d</xliff:g> alligongiadu</item>
         <item quantity="other">No at fatu a sarvare <xliff:g id="quantity">%d</xliff:g> alligongiados</item>
     </plurals>
-    <string name="attachment_file_description">Alligongiadu de su MMS sarvadu </string>
     <string name="settings_activity_title">Impostatziones</string>
     <string name="archived_activity_title">Archiviadu</string>
     <string name="mms_messaging_category_pref_title">MMS</string>
@@ -203,10 +184,6 @@
     <string name="mms_phone_number_pref_title">Nùmeru tuo de telèfonu</string>
     <string name="unknown_phone_number_pref_display_value">Disconnotu</string>
     <string name="send_sound_pref_title">Sonos de messàgios in essida</string>
-    <string name="dump_sms_pref_title">Isbòida SMS</string>
-    <string name="dump_sms_pref_summary">Isbòida is datos grusseris SMS retzidos in una memòria de archiviatzione esterna</string>
-    <string name="dump_mms_pref_title">Isbòida MMS</string>
-    <string name="dump_mms_pref_summary">Isbòida is datos grusseris MMS retzidos in una memòria de archiviatzione esterna</string>
     <string name="message_context_menu_copy_text">Còpia testu</string>
     <string name="message_context_menu_view_details">Ammustra detàllios</string>
     <string name="message_context_menu_forward_message">Torra a imbiare</string>
@@ -263,7 +240,6 @@
     <string name="no_preferred_sim_selected">SIM seletzionada non preferida pro imbiare SMS</string>
     <string name="requires_sms_permissions_message">Custa aplicatzione no est permìtida dae su mere de su dispositivu.</string>
     <string name="requires_sms_permissions_close_button">AB</string>
-    <string name="camera_media_failure">No at fatu a carrigare s\'immàgine</string>
     <string name="conversation_list_item_view_draft_message">Anteprima</string>
     <string name="conversation_list_snippet_video">Vìdeu</string>
     <string name="mms_text">MMS</string>
@@ -320,6 +296,5 @@
     <string name="attachment_load_failed_dialog_message">Messagìstica at faddidu carrighende s\'alligongiadu.</string>
     <string name="attachment_limit_reached_send_anyway">Imbia a su pròpiu</string>
     <string name="conversation_creation_failure">No at fatu a cumintzare sa tzarrada</string>
-    <string name="link_display_format"><xliff:g id="text">%1$s</xliff:g> (<xliff:g id="url">%2$s</xliff:g>)</string>
     <string name="selected_sim_content_message"><xliff:g id="selected_sim">%s</xliff:g> seletzionadu</string>
 </resources>

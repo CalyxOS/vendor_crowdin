@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (C) 2015 The Android Open Source Project
-    Copyright (C) 2024 The LineageOS Project
+    Copyright (C) 2024-2025 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -40,9 +40,6 @@
     <string name="mediapicker_gallery_title">Tagh meadhanan</string>
     <string name="mediapicker_gallery_item_selected_content_description">Thagh thu meadhan.</string>
     <string name="mediapicker_gallery_item_unselected_content_description">Dì-thagh thu meadhan.</string>
-    <string name="mediapicker_gallery_title_selection"><xliff:g id="count">%d</xliff:g> air a thaghadh</string>
-    <string name="mediapicker_gallery_image_item_description">dealbh <xliff:g id="date">%1$te %1$tB %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
-    <string name="mediapicker_gallery_image_item_description_no_date">dealbh</string>
     <string name="mediapicker_audio_title">Clàraich fuaim</string>
     <string name="mediapicker_contact_title">Tagh neach-aithne</string>
     <string name="contact_picker_hint_text">Dèan briogadh a dh’fhosgladh liosta an luchd-aithne air an uidheam seo</string>
@@ -118,11 +115,6 @@
         <item quantity="few"><xliff:g id="messages">%d</xliff:g> teachdaireachdan ùra</item>
         <item quantity="other"><xliff:g id="messages">%d</xliff:g> teachdaireachd ùr</item>
     </plurals>
-    <string name="camera_error_opening">Chan eil camara ri làimh</string>
-    <string name="camera_error_unknown">Chan eil camara ri làimh</string>
-    <string name="camera_error_video_init_fail">Chan eil glacadh video ri làimh</string>
-    <string name="camera_error_storage_fail">Cha ghabh meadhan a shàbhaladh</string>
-    <string name="camera_error_failure_taking_picture">Cha ghabh dealbh a thogail</string>
     <string name="back">Air ais</string>
     <string name="action_menu_show_archived">Air a chur san tasg-lann</string>
     <string name="action_delete">Sguab às</string>
@@ -144,8 +136,6 @@
     <string name="delete_conversation_confirmation_button">Sguab às</string>
     <string name="delete_conversation_decline_button">Sguir dheth</string>
     <string name="recipient_hint">Gu</string>
-    <string name="action_multiselect">Tagh iomadh dealbh</string>
-    <string name="action_confirm_multiselect">Dearbh an taghadh</string>
     <string name="attachment_more_items">+<xliff:g id="count">%d</xliff:g></string>
     <string name="audio_recording_start_failed">Cha b’ urrainn dhuinn an fhuaim a chlàradh. Feuch ris a-rithist.</string>
     <string name="audio_recording_replay_failed">Cha b’ urrainn dhuinn an fhuaim a chluich. Feuch ris a-rithist.</string>
@@ -200,14 +190,6 @@
     <string name="group_outgoing_successful_message_prefix">Teachdaireachd gu <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Àm: <xliff:g id="time">%3$s</xliff:g>.</string>
     <string name="failed_message_content_description">Dh’fhàillig leis an teachdaireachd. Thoir gnogag airson feuchainn ris a-rithist.</string>
     <string name="delete_subject_content_description">Sguab às an cuspair</string>
-    <string name="camera_switch_to_video_mode">Glac video</string>
-    <string name="camera_switch_to_still_mode">Glac dealbh</string>
-    <string name="camera_take_picture">Tog dealbh</string>
-    <string name="camera_start_recording">Tòisich air video a chlàradh</string>
-    <string name="camera_switch_full_screen">Geàrr leum gu camara na làn-sgrìn</string>
-    <string name="camera_switch_camera_facing">Geàrr leum eadar camara beòil ’s cùil</string>
-    <string name="camera_stop_recording">Cuir stad air a’ clàradh ’s ceangal a’ video ris</string>
-    <string name="camera_cancel_recording">Cuir stad air a’ chlàradh a’ video</string>
     <string name="photo_view_activity_title">Dealbhan theachdaireachdan</string>
     <plurals name="photos_saved_to_album">
         <item quantity="one">Chaidh <xliff:g id="quantity">%d</xliff:g> dealbh a shàbhaladh dhan albam “<xliff:g id="albumName">%s</xliff:g>”</item>
@@ -245,12 +227,10 @@
         <item quantity="few">Tha <xliff:g id="quantity">%d</xliff:g> ceanglachain nach b’ urrainn dhuinn a shàbhaladh ann</item>
         <item quantity="other">Tha <xliff:g id="quantity">%d</xliff:g> ceanglachan nach b’ urrainn dhuinn a shàbhaladh ann</item>
     </plurals>
-    <string name="attachment_file_description">Ceanglachan MMS air a shàbhaladh</string>
     <string name="settings_activity_title">Roghainnean</string>
     <string name="archived_activity_title">Air a chur san tasg-lann</string>
     <string name="mms_messaging_category_pref_title">MMS</string>
     <string name="advanced_category_pref_title">Adhartach</string>
-    <string name="debug_category_pref_title">Dì-bhugachadh</string>
     <string name="notifications_pref_title">Brathan</string>
     <string name="delivery_reports_pref_title">Aithisgean lìbhrigidh SMS</string>
     <string name="delivery_reports_pref_summary">Iarr aithisg lìbhrigidh airson gach SMS a chuireas tu</string>
@@ -264,10 +244,6 @@
     <string name="mms_phone_number_pref_title">An àireamh fòn agad</string>
     <string name="unknown_phone_number_pref_display_value">Neo-aithnichte</string>
     <string name="send_sound_pref_title">Fuaimean nan teachdaireachdan a-mach</string>
-    <string name="dump_sms_pref_title">Dumpaich an SMS</string>
-    <string name="dump_sms_pref_summary">Dèan dump de dàta amh an SMS a fhuair thu gu faidhle stòrais air an taobh a-muigh</string>
-    <string name="dump_mms_pref_title">Dumpaich an MMS</string>
-    <string name="dump_mms_pref_summary">Dèan dump de dàta amh an MMS a fhuair thu gu faidhle stòrais air an taobh a-muigh</string>
     <string name="message_context_menu_copy_text">Dèan lethbhreac dhen teacsa</string>
     <string name="message_context_menu_view_details">Seall am mion-fhiosrachadh</string>
     <string name="message_context_menu_forward_message">Sìn air adhart</string>
@@ -298,7 +274,6 @@
     <string name="gallery_checkbox_content_description">Tagh an nì seo</string>
     <string name="video_thumbnail_view_play_button_content_description">Cluich a’ video</string>
     <string name="action_people_and_options">Daoine ⁊ roghainnean</string>
-    <string name="action_debug_options">Dì-bhugachadh</string>
     <string name="people_and_options_activity_title">Daoine ⁊ roghainnean</string>
     <string name="general_settings_title">Coitcheann</string>
     <string name="participant_list_title">Na daoine sa chòmhradh seo</string>
@@ -378,7 +353,6 @@
         <item quantity="few">Luchd-aithne mì-dhligheach</item>
         <item quantity="other">Luchd-aithne mì-dhligheach</item>
     </plurals>
-    <string name="camera_media_failure">Cha b’ urrainn dhuinn dealbh a’ chamara a luchdadh</string>
     <string name="conversation_list_item_view_draft_message">Dreachd</string>
     <string name="conversation_list_empty_text">Nuair a thòisicheas tu air còmhradh ùr, chì thu an-seo e</string>
     <string name="archived_conversation_list_empty_text">Nochdaidhean còmhraidhean na tasg-lainn an-seo</string>
@@ -473,7 +447,6 @@
     <string name="attachment_load_failed_dialog_message">Dh’fhàillig le luchdadh ceanglachain.</string>
     <string name="attachment_limit_reached_send_anyway">Cuir e co-dhiù</string>
     <string name="conversation_creation_failure">Cha b’ urrainn dhuinn tòiseachadh air a’ chòmhradh</string>
-    <string name="link_display_format"><xliff:g id="text">%1$s</xliff:g> (<xliff:g id="url">%2$s</xliff:g>)</string>
     <string name="selected_sim_content_message">Chaidh <xliff:g id="selected_sim">%s</xliff:g> a thaghadh</string>
     <string name="work_directory_display_name">Luchd-aithne aig pròifil na h-obrach</string>
     <string name="disallow_emergency_call">Chan urrainn dhut gairm gutha a dhèanamh dha na seirbheisean-èiginn an-seo.</string>

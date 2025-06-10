@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (C) 2015 The Android Open Source Project
-    Copyright (C) 2024 The LineageOS Project
+    Copyright (C) 2024-2025 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -40,9 +40,6 @@
     <string name="mediapicker_gallery_title">Sielç media</string>
     <string name="mediapicker_gallery_item_selected_content_description">Il media al è selezionât.</string>
     <string name="mediapicker_gallery_item_unselected_content_description">Il media nol è selezionât.</string>
-    <string name="mediapicker_gallery_title_selection">Selezionât: <xliff:g id="count">%d</xliff:g></string>
-    <string name="mediapicker_gallery_image_item_description">imagjin <xliff:g id="date">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
-    <string name="mediapicker_gallery_image_item_description_no_date">imagjin</string>
     <string name="mediapicker_audio_title">Regjistre audio</string>
     <string name="mediapicker_contact_title">Sielç un contat</string>
     <string name="contact_picker_hint_text">Fâs clic par vierzi la liste dai contats su chest dispositîf</string>
@@ -106,11 +103,6 @@
         <item quantity="one">Gnûf messaç</item>
         <item quantity="other"><xliff:g id="messages">%d</xliff:g> gnûfs messaçs</item>
     </plurals>
-    <string name="camera_error_opening">Fotocjamare no disponibile</string>
-    <string name="camera_error_unknown">Fotocjamare no disponibile</string>
-    <string name="camera_error_video_init_fail">Acuisizion video no disponibile</string>
-    <string name="camera_error_storage_fail">Impussibil salvâ il contignût multimediâl</string>
-    <string name="camera_error_failure_taking_picture">Impussibil fâ la foto</string>
     <string name="back">Indaûr</string>
     <string name="action_menu_show_archived">Archiviadis</string>
     <string name="action_delete">Elimine</string>
@@ -130,8 +122,6 @@
     <string name="delete_conversation_confirmation_button">Elimine</string>
     <string name="delete_conversation_decline_button">Anule</string>
     <string name="recipient_hint">A</string>
-    <string name="action_multiselect">Selezione imagjins multiplis</string>
-    <string name="action_confirm_multiselect">Conferme selezion</string>
     <string name="attachment_more_items">+<xliff:g id="count">%d</xliff:g></string>
     <string name="audio_recording_start_failed">Impussibil regjistrâ l\'audio. Torne prove.</string>
     <string name="audio_recording_replay_failed">Impussibil riprodusi l\'audio. Torne prove.</string>
@@ -182,14 +172,6 @@
     <string name="group_outgoing_successful_message_prefix">Messaç a <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Ore: <xliff:g id="time">%3$s</xliff:g>.</string>
     <string name="failed_message_content_description">Messaç falît. Tocje par tornâ a provâ.</string>
     <string name="delete_subject_content_description">Elimine ogjet</string>
-    <string name="camera_switch_to_video_mode">Cature video</string>
-    <string name="camera_switch_to_still_mode">Cature une imagjin ferme</string>
-    <string name="camera_take_picture">Fâs foto</string>
-    <string name="camera_start_recording">Scomence a regjistrâ il video</string>
-    <string name="camera_switch_full_screen">Passe ae fotocjamare a plen schermi</string>
-    <string name="camera_switch_camera_facing">Passe de fotocjamare frontâl a chê posteriôr e contrari</string>
-    <string name="camera_stop_recording">Ferme di regjistrâ e zonte il video</string>
-    <string name="camera_cancel_recording">Ferme di regjistrâ il video</string>
     <string name="photo_view_activity_title">Daûr a mandâ lis fotos</string>
     <plurals name="photos_saved_to_album">
         <item quantity="one"><xliff:g id="quantity">%d</xliff:g> foto salvade sul album \"<xliff:g id="albumName">%s</xliff:g>\"</item>
@@ -215,12 +197,10 @@
         <item quantity="one">Nol è stât pussibil salvâ <xliff:g id="quantity">%d</xliff:g> zonte</item>
         <item quantity="other">Nol è stât pussibil salvâ <xliff:g id="quantity">%d</xliff:g> zontis</item>
     </plurals>
-    <string name="attachment_file_description">Salvade zonte MMS</string>
     <string name="settings_activity_title">Impostazions</string>
     <string name="archived_activity_title">Archiviadis</string>
     <string name="mms_messaging_category_pref_title">MMS</string>
     <string name="advanced_category_pref_title">Avanzadis</string>
-    <string name="debug_category_pref_title">Debug</string>
     <string name="notifications_pref_title">Notifichis</string>
     <string name="delivery_reports_pref_title">Rapuarts di spedizion di SMS</string>
     <string name="delivery_reports_pref_summary">Domande un rapuart di spedizion par ogni SMS che tu inviis</string>
@@ -234,10 +214,6 @@
     <string name="mms_phone_number_pref_title">Il to numar di telefon</string>
     <string name="unknown_phone_number_pref_display_value">No cognossût</string>
     <string name="send_sound_pref_title">Suns pai messaçs in jessude</string>
-    <string name="dump_sms_pref_title">Bute jù SMS</string>
-    <string name="dump_sms_pref_summary">Bute jù suntun file in une memorie esterne i dâts grês dai SMS ricevûts</string>
-    <string name="dump_mms_pref_title">Bute jù MMS</string>
-    <string name="dump_mms_pref_summary">Bute jù suntun file in une memorie esterne i dâts grês dai MMS ricevûts</string>
     <string name="message_context_menu_copy_text">Copie test</string>
     <string name="message_context_menu_view_details">Viôt i detais</string>
     <string name="message_context_menu_forward_message">Mande indenant</string>
@@ -268,7 +244,6 @@
     <string name="gallery_checkbox_content_description">Selezione chest element</string>
     <string name="video_thumbnail_view_play_button_content_description">Riprodûs video</string>
     <string name="action_people_and_options">Personis e opzions</string>
-    <string name="action_debug_options">Debug</string>
     <string name="people_and_options_activity_title">Personis e opzions</string>
     <string name="general_settings_title">Gjenerâls</string>
     <string name="participant_list_title">Personis in cheste conversazion</string>
@@ -332,7 +307,6 @@
         <item quantity="one">Contat no valit</item>
         <item quantity="other">Contats no valits</item>
     </plurals>
-    <string name="camera_media_failure">Nol è stât pussibil cjariâ la imagjin de fotocjamare</string>
     <string name="conversation_list_item_view_draft_message">Stampon</string>
     <string name="conversation_list_empty_text">Une volte scomençade une gnove conversazion, tu le viodarâs listade achì</string>
     <string name="archived_conversation_list_empty_text">Lis conversazions archiviadis a vignaran fûr achì</string>
@@ -427,7 +401,6 @@
     <string name="attachment_load_failed_dialog_message">Messaçs nol è rivât a cjariâ la zonte.</string>
     <string name="attachment_limit_reached_send_anyway">Invie di istès</string>
     <string name="conversation_creation_failure">Impussibil scomençâ la conversazion</string>
-    <string name="link_display_format"><xliff:g id="text">%1$s</xliff:g> (<xliff:g id="url">%2$s</xliff:g>)</string>
     <string name="selected_sim_content_message">SIM selezionade: <xliff:g id="selected_sim">%s</xliff:g></string>
     <string name="work_directory_display_name">Contats dal profîl di lavôr</string>
     <string name="disallow_emergency_call">Impussibil fâ achì une clamade vocâl ai servizis di emergjence.</string>

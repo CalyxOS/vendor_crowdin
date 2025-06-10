@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (C) 2015 The Android Open Source Project
-    Copyright (C) 2024 The LineageOS Project
+    Copyright (C) 2024-2025 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -40,9 +40,6 @@
     <string name="mediapicker_gallery_title">Dewis cyfrwng</string>
     <string name="mediapicker_gallery_item_selected_content_description">Dewiswyd y cyfrwng.</string>
     <string name="mediapicker_gallery_item_unselected_content_description">Dad-ddewiswyd y cyfrwng.</string>
-    <string name="mediapicker_gallery_title_selection"><xliff:g id="count">%d</xliff:g> wedi\'u dewis</string>
-    <string name="mediapicker_gallery_image_item_description">delwedd <xliff:g id="date">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
-    <string name="mediapicker_gallery_image_item_description_no_date">delwedd</string>
     <string name="mediapicker_audio_title">Recordio sain</string>
     <string name="mediapicker_contact_title">Dewis cyswllt</string>
     <string name="contact_picker_hint_text">Clicia i agor rhestr cysylltiadau y ddyfais hon</string>
@@ -128,11 +125,6 @@
         <item quantity="many"><xliff:g id="messages">%d</xliff:g> neges newydd</item>
         <item quantity="other"><xliff:g id="messages">%d</xliff:g> neges newydd</item>
     </plurals>
-    <string name="camera_error_opening">Camera ddim ar gael</string>
-    <string name="camera_error_unknown">Camera ddim ar gael</string>
-    <string name="camera_error_video_init_fail">Cipio fideo dim ar gael</string>
-    <string name="camera_error_storage_fail">Methu â chadw\'r cyfrwng</string>
-    <string name="camera_error_failure_taking_picture">Methu â chymryd llun</string>
     <string name="back">Nôl</string>
     <string name="action_menu_show_archived">Wedi\'u harchifo</string>
     <string name="action_delete">Dileu</string>
@@ -156,8 +148,6 @@
     <string name="delete_conversation_confirmation_button">Dileu</string>
     <string name="delete_conversation_decline_button">Diddymu</string>
     <string name="recipient_hint">At</string>
-    <string name="action_multiselect">Dewis mwy nag un ddelwedd</string>
-    <string name="action_confirm_multiselect">Cadarnhau\'r dewis</string>
     <string name="attachment_more_items">+<xliff:g id="count">%d</xliff:g></string>
     <string name="audio_recording_start_failed">Methu â recordio sain. Ceisia eto.</string>
     <string name="audio_recording_replay_failed">Methu â chwarae sain. Ceisia eto.</string>
@@ -216,14 +206,6 @@
     <string name="group_outgoing_successful_message_prefix">Neges at <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Amser: <xliff:g id="time">%3$s</xliff:g>.</string>
     <string name="failed_message_content_description">Methodd y neges. Tapia i geisio eto.</string>
     <string name="delete_subject_content_description">Dileu\'r pwnc</string>
-    <string name="camera_switch_to_video_mode">Cipio fideo</string>
-    <string name="camera_switch_to_still_mode">Cipio llun llonydd</string>
-    <string name="camera_take_picture">Tynnu llun</string>
-    <string name="camera_start_recording">Dechrau recordio fideo</string>
-    <string name="camera_switch_full_screen">Newid i gamera sgrin lawn</string>
-    <string name="camera_switch_camera_facing">Newid rhwng camerâu cefn a blaen</string>
-    <string name="camera_stop_recording">Stopio recordio ac atodi fideo</string>
-    <string name="camera_cancel_recording">Stopio recordio fideo</string>
     <string name="photo_view_activity_title">Lluniau Negeseua</string>
     <plurals name="photos_saved_to_album">
         <item quantity="zero"><xliff:g id="quantity">%d</xliff:g> lluniau wedi eu cadw i\'r casgliad \"<xliff:g id="albumName">%s</xliff:g>\"</item>
@@ -273,12 +255,10 @@
         <item quantity="many">Methwyd â chadw <xliff:g id="quantity">%d</xliff:g> atodiad</item>
         <item quantity="other">Methwyd â chadw <xliff:g id="quantity">%d</xliff:g> atodiad</item>
     </plurals>
-    <string name="attachment_file_description">Atodiad MMS wedi\'i gadw</string>
     <string name="settings_activity_title">Gosodiadau</string>
     <string name="archived_activity_title">Wedi\'u harchifo</string>
     <string name="mms_messaging_category_pref_title">MMS</string>
     <string name="advanced_category_pref_title">Uwch</string>
-    <string name="debug_category_pref_title">Dadfygio</string>
     <string name="notifications_pref_title">Hysbysiadau</string>
     <string name="delivery_reports_pref_title">Adroddiadau danfon SMS</string>
     <string name="delivery_reports_pref_summary">Gofyn am adroddiad ar gyfer pob neges SMS wyt ti\'n ei anfon i gadarnhau ei bod wedi cyrraedd</string>
@@ -292,10 +272,6 @@
     <string name="mms_phone_number_pref_title">Dy rif ffôn</string>
     <string name="unknown_phone_number_pref_display_value">Anhysybys</string>
     <string name="send_sound_pref_title">Seiniau negeseuon allan</string>
-    <string name="dump_sms_pref_title">Dympio SMS</string>
-    <string name="dump_sms_pref_summary">Dympio data craidd negeseuon SMS a dderbyniwyd mewn i ffeil storfa allanol</string>
-    <string name="dump_mms_pref_title">Dympio MMS</string>
-    <string name="dump_mms_pref_summary">Dympio data craidd negeseuon MMS a dderbyniwyd mewn i ffeil storfa allanol</string>
     <string name="message_context_menu_copy_text">Copïo\'r testun</string>
     <string name="message_context_menu_view_details">Gweld manylion</string>
     <string name="message_context_menu_forward_message">Anfon ymlaen</string>
@@ -326,7 +302,6 @@
     <string name="gallery_checkbox_content_description">Dewis yr eitem hon</string>
     <string name="video_thumbnail_view_play_button_content_description">Chwarae fideo</string>
     <string name="action_people_and_options">Pobol a dewisiadau</string>
-    <string name="action_debug_options">Dadfygio</string>
     <string name="people_and_options_activity_title">Pobol a dewisiadau</string>
     <string name="general_settings_title">Cyffredinol</string>
     <string name="participant_list_title">Pobl yn y sgwrs hon</string>
@@ -422,7 +397,6 @@
         <item quantity="many">Cysylltiadau annilys</item>
         <item quantity="other">Cysylltiadau annilys</item>
     </plurals>
-    <string name="camera_media_failure">Methwyd â llwytho delwedd camera</string>
     <string name="conversation_list_item_view_draft_message">Drafft</string>
     <string name="conversation_list_empty_text">Pan fyddi\'n dechrau sgwrs newydd, mi fydd yn ymddangos mewn rhestr yma</string>
     <string name="archived_conversation_list_empty_text">Mae sgyrsiau wedi\'u harchifo yn ymddangos yma</string>
@@ -517,7 +491,6 @@
     <string name="attachment_load_failed_dialog_message">Methodd Negeseua â llwytho\'r atodiad.</string>
     <string name="attachment_limit_reached_send_anyway">Anfon beth bynnag</string>
     <string name="conversation_creation_failure">Methwyd â dechrau sgwrs</string>
-    <string name="link_display_format"><xliff:g id="text">%1$s</xliff:g> (<xliff:g id="url">%2$s</xliff:g>)</string>
     <string name="selected_sim_content_message"><xliff:g id="selected_sim">%s</xliff:g> wedi\'i ddewis</string>
     <string name="work_directory_display_name">Cysylltiadau Proffil Gwaith</string>
     <string name="disallow_emergency_call">Ni ellir gwneud alwad i\'r gwasanaethau brys fan hyn.</string>
