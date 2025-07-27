@@ -89,6 +89,8 @@
     <string name="suggested_app_locales_title">Llingües suxeríes</string>
     <string name="all_supported_app_locales_title">Toles llingües</string>
     <string name="all_supported_locales_title">Toles llingües</string>
+    <string name="all_supported_locales_regions_title">Toles rexones</string>
+    <string name="all_supported_numbering_system_title">Tolos sistemes de numberación</string>
     <string name="preference_of_system_locale_title">Llingua del sistema</string>
     <string name="desc_no_available_supported_locale">La seleición de llingua pa esta aplicación nun ta disponible dende Configuración</string>
     <string name="desc_app_locale_disclaimer">Ye posible que la llingua nun concase coles disponibles na aplicación. Dalgunes aplicaciones nun son compatibles con esta opción.</string>
@@ -129,6 +131,10 @@
     <string name="terms_of_address_feminine">Femenín</string>
     <string name="terms_of_address_masculine">Masculín</string>
     <string name="terms_of_address_neutral">Neutral</string>
+    <string name="dlg_remove_locales_title">{count, plural,
+        one {}=1      {¿Quies quitar la llingua seleicionada?}
+        other   {¿Quies quitar les llingües seleicionaes?}
+        }</string>
     <string name="dlg_remove_locales_message">El testu va amosase n\'otra llingua.</string>
     <string name="dlg_remove_locales_error_title">Nun pues quitar toles llingües</string>
     <string name="dlg_remove_locales_error_message">Caltén polo menos una llingua preferida</string>
@@ -399,6 +405,7 @@
     <string name="wifi_ap_choose_2G">Banda de 2,4 GHz</string>
     <string name="wifi_privacy_settings">Privacidá</string>
     <string name="wifi_subscription">Soscripción</string>
+    <string name="wifi_dpp_check_connection_no_matched_security">Hai un problema con esti códigu QR. Prueba a conectate d\'otra forma.</string>
     <string name="wifi_dpp_could_not_add_device">Nun se pudo amestar el preséu</string>
     <string name="wifi_dpp_connecting">Conectando\u2026</string>
     <string name="wifi_dpp_add_device">Amestar un preséu</string>
@@ -407,6 +414,14 @@
     <string name="wifi_forget">Escaecer</string>
     <string name="wifi_save">Guardar</string>
     <string name="wifi_forget_dialog_title">¿Quies escaecer la rede?</string>
+    <string name="wifi_saved_access_points_summary">{count, plural,
+        one {}=1      {1 rede}
+        other   {# redes}
+        }</string>
+    <string name="wifi_saved_passpoint_access_points_summary">{count, plural,
+        one {}=1      {1 soscripción}
+        other   {# soscripciones}
+        }</string>
     <string name="wifi_advanced_randomized_mac_address_title">Direición MAC aleatoria</string>
     <string name="wifi_certificate_summary_Certificates"><xliff:g id="number" example="2">%d</xliff:g> certificaos</string>
     <string name="wifi_certificate_summary_system">Certificáu del sistema</string>
@@ -550,6 +565,7 @@
     <string name="mouse_keys">Tecles pal mur</string>
     <string name="trackpad_settings">Panel táctil</string>
     <string name="trackpad_mouse_settings">Panel táctil y mur</string>
+    <string name="mouse_settings">Mur</string>
     <string name="trackpad_tap_dragging_title">Arrastrar al tocar</string>
     <string name="trackpad_tap_dragging_summary">Toca y arrastra\'l deu pel panel táctil pa mover oxetos</string>
     <string name="trackpad_touchpad_gesture_title">Xestos del panel táctil</string>
@@ -678,6 +694,10 @@
     <string name="daltonizer_mode_protanomaly_summary">Protanomalía</string>
     <string name="daltonizer_mode_tritanomaly_summary">Tritanomalía</string>
     <string name="reduce_bright_colors_intensity_preference_title">Intensidá</string>
+    <string name="accessibilty_autoclick_delay_unit_second">{count, plural,
+        one {}=1      {{time} segundu}
+        other   {{time} segundos}
+        }</string>
     <string name="accessibility_menu_item_settings">Configuración</string>
     <string name="captioning_standard_options_title">Opciones estándar</string>
     <string name="captioning_locale">Llingua</string>
@@ -742,6 +762,10 @@
     <string name="remove_credential_management_app_dialog_title">¿Quies quitar esta aplicación?</string>
     <string name="uninstall_device_admin">Desinstalar l\'aplicación</string>
     <string name="remove_and_uninstall_device_admin">Desactivar y desinstalar</string>
+    <string name="notification_history_count">{count, plural,
+        one {}=1      {# avisu}
+        other   {# avisos}
+        }</string>
     <string name="wifi_setup_detail">Detalles de la rede</string>
     <string name="remove_managed_profile_label">Quitar el perfil llaboral</string>
     <string name="sync_calendar">Calendariu</string>
@@ -766,6 +790,7 @@
     <string name="vpn_forget">Escaecer</string>
     <string name="vpn_disconnect">Desconectar</string>
     <string name="vpn_version">Versión</string>
+    <string name="vpn_version_info">Versión <xliff:g id="version" example="3.3.0">%s</xliff:g></string>
     <string name="vpn_forget_long">Escaecer la VPN</string>
     <string name="vpn_no_vpns_added">Nun s\'amestó nenguna VPN</string>
     <string name="trusted_credentials_disable_label">Desactivar</string>
@@ -861,6 +886,7 @@
     <string name="configure_notification_settings">Avisos</string>
     <string name="conversation_notifs_category">Conversación</string>
     <string name="profile_section_header_for_advanced_privacy">Perfil llaboral</string>
+    <string name="lock_screen_notifs_show_full_list">Llista completa</string>
     <string name="lock_screen_notifications_interstitial_message">¿Qué quies qu\'amuese la pantalla de bloquéu?</string>
     <string name="notification_importance_title">Comportamientu</string>
     <string name="conversations_category_title">Conversaciones</string>
@@ -894,6 +920,7 @@
     <string name="zen_mode_schedule_rule_days">Díes</string>
     <string name="zen_mode_conversations_title">Conversaciones</string>
     <string name="zen_mode_from_all_conversations">Toles conversaciones</string>
+    <string name="zen_mode_from_all_conversations_second">toles conversaciones</string>
     <string name="zen_mode_from_important_conversations">Conversaciones con prioridá</string>
     <string name="zen_mode_from_important_conversations_second">conversaciones prioritaries</string>
     <string name="zen_mode_calls_title">Llamaes</string>
@@ -914,6 +941,8 @@
     <string name="memtag_reboot_no">Agora non</string>
     <string name="memtag_learn_more">Saber más tocante a la proteición avanzada de la memoria.</string>
     <string name="opening_paragraph_delete_profile_unknown_company">Esti perfil llaboral ta xestionáu por:</string>
+    <string name="app_launch_open_in_app">Na aplicación</string>
+    <string name="app_launch_top_intro_message">Escueyi cómo quies abrir los enllaces web d\'esta aplicación</string>
     <string name="app_launch_dialog_ok">D\'acuerdu</string>
     <string name="app_launch_dialog_cancel">Encaboxar</string>
     <string name="app_launch_supported_links_add">Amestar</string>
@@ -981,6 +1010,10 @@
     <string name="web_action_enable_title">Aplicaciones instantánees</string>
     <string name="web_action_section_title">Aplicaciones instantánees</string>
     <string name="automatic_storage_manager_activation_warning">El xestor d\'almacenamientu ta xestionando l\'almacenamientu</string>
+    <string name="enterprise_privacy_number_packages">{count, plural,
+        one {}=1      {# aplicación}
+        other   {# aplicaciones}
+        }</string>
     <string name="enterprise_privacy_wipe_device">L\'alministrador pue desaniciar tolos datos del preséu</string>
     <string name="do_disclosure_generic">La to organización xestiona esti preséu.</string>
     <string name="do_disclosure_with_name">«<xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>» xestiona esti preséu.</string>
