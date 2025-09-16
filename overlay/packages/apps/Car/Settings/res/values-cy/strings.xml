@@ -36,7 +36,7 @@
     <string name="mobile_network_mobile_network_toggle_title">Rhwydwaith symudol</string>
     <string name="mobile_network_mobile_network_toggle_summary">Defnyddio data symudol</string>
     <string name="mobile_network_state_off">I ffwrdd</string>
-    <string name="confirm_mobile_data_disable">Troi data symudol i ffwrdd?</string>
+    <string name="confirm_mobile_data_disable">Diffodd data symudol?</string>
     <string name="sim_selection_required_pref">Rhaid dewis</string>
     <string name="sim_change_data_title">        Defnyddio <xliff:g id="carrier" example="Google Fi">%1$s</xliff:g> ar gyfer data symudol?
     </string>
@@ -91,7 +91,7 @@
     <string name="network_and_internet_network_preferences_title">Dewisiadau rhwydwaith</string>
     <string name="wifi_settings">Wi\u2011Fi</string>
     <string name="wifi_starting">Yn troi Wi-Fi ymlaen\u2026</string>
-    <string name="wifi_stopping">Yn troi Wi-Fi i ffwrdd\u2026</string>
+    <string name="wifi_stopping">Yn diffodd Wi-Fi\u2026</string>
     <string name="loading_wifi_list">Yn llwytho rhestr Wi\u2011Fi</string>
     <string name="wifi_disabled">Wi\u2011Fi wedi\u2019i analluogi</string>
     <string name="wifi_failed_forget_message">Methwyd anghofio\'r rhwydwaith</string>
@@ -169,7 +169,7 @@
     <string name="wifi_hotspot_qr_code_text">Sgania\u2019r cod QR hwn i ymuno â \u0022%s\u0022</string>
     <string name="wifi_hotspot_qr_code_password_text">Cyfrinair llecyn: %s</string>
     <string name="wifi_ask_enable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau troi Wi-Fi ymlaen</string>
-    <string name="wifi_ask_disable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau troi Wi-Fi i ffwrdd</string>
+    <string name="wifi_ask_disable">Mae <xliff:g id="requester" example="FancyApp">%s</xliff:g> eisiau diffodd y Wi-Fi</string>
     <string name="wifi_error">Gwall</string>
     <string name="network_connection_request_dialog_title">Dyfais i\'w defnyddio gyda <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g></string>
     <string name="network_connection_timeout_dialog_message">Ni chanfuwyd unrhyw ddyfeisiau. Gwiria fod dyfeisiau wedi\u2019u troi ymlaen ac ar gael i gysylltu.</string>
@@ -196,11 +196,11 @@
     <string name="bluetooth_available_devices">Dyfeisiau ar gael</string>
     <string name="bluetooth_profiles">Proffiliau</string>
     <string name="bluetooth_turning_on">"Yn troi Bluetooth ymlaen\u2026"</string>
-    <string name="bluetooth_turning_off">"Yn troi Bluetooth i ffwrdd\u2026"</string>
+    <string name="bluetooth_turning_off">"Yn diffodd Bluetooth\u2026"</string>
     <string name="bluetooth_ask_enablement">Mae <xliff:g id="app_name" example="FancyApp">%1$s</xliff:g> eisiau troi Bluetooth ymlaen</string>
-    <string name="bluetooth_ask_disablement">Mae <xliff:g id="app_name" example="FancyApp">%1$s</xliff:g> eisiau troi Bluetooth i ffwrdd.</string>
+    <string name="bluetooth_ask_disablement">Mae <xliff:g id="app_name" example="FancyApp">%1$s</xliff:g> eisiau diffodd Bluetooth.</string>
     <string name="bluetooth_ask_enablement_no_name">Mae ap eisiau troi Bluetooth ymlaen</string>
-    <string name="bluetooth_ask_disablement_no_name">Mae ap eisiau troi Bluetooth i ffwrdd</string>
+    <string name="bluetooth_ask_disablement_no_name">Mae ap eisiau diffodd Bluetooth</string>
     <string name="bluetooth_ask_discovery">Mae <xliff:g id="app_name">%1$s</xliff:g> eisiau gwneud dy uned system yn weladwy i ddyfeisiau Bluetooth eraill am <xliff:g id="timeout">%2$d</xliff:g> eiliad.</string>
     <string name="bluetooth_ask_discovery_no_name">Mae ap eisiau gwneud dy uned system yn weladwy i ddyfeisiau Bluetooth eraill am <xliff:g id="timeout">%1$d</xliff:g> eiliad.</string>
     <string name="bluetooth_ask_enablement_and_discovery">Mae <xliff:g id="app_name">%1$s</xliff:g> eisiau troi Bluetooth ymlaen a gwneud dy uned system yn weladwy i ddyfeisiau eraill am <xliff:g id="timeout">%2$d</xliff:g> eiliad.</string>
@@ -414,9 +414,9 @@
     <string name="modify_system_settings_description">Mae\'n caniatáu ap i addasu gosodiadau\'r system.</string>
     <string name="notification_access_title">Mynediad at hysbysiadau</string>
     <string name="notification_listener_security_warning_title">Caniatáu i <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> gael mynediad at hysbysiadau?</string>
-    <string name="notification_listener_security_warning_summary">Mi fydd yn bosib i <xliff:g id="notification_listener_name">%1$s</xliff:g> ddarllen dy holl hysbysiadau, gan gynnwys gwybodaeth bersonol megis enwau cysylltiadau a thestun negeseuon rwyt yn eu derbyn.\nMi fydd hefyd yn bosib wfftio rhai hysbysiadau neu i weithredu unrhyw fotymau maen nhw\'n eu cynnwys.\n\nBydd hyn hefyd yn caniatáu i\'r ap droi Dim Tarfu ymlaen neu i ffwrdd ac i newid gosodiadau cysylltiedig.</string>
-    <string name="notification_listener_revoke_warning_summary">Os fyddi\'n gwrthod mynediad <xliff:g id="notification_listener_name">%1$s</xliff:g> at hysbysiadau, mae\'n bosib y bydd mynediad at Dim Tarfu hefyd yn cael ei wrthod.</string>
-    <string name="notification_listener_revoke_warning_confirm">Troi i ffwrdd</string>
+    <string name="notification_listener_security_warning_summary">Mi fydd yn bosib i <xliff:g id="notification_listener_name">%1$s</xliff:g> ddarllen dy holl hysbysiadau, gan gynnwys gwybodaeth bersonol megis enwau cysylltiadau a thestun negeseuon rwyt yn eu derbyn.\nMi fydd hefyd yn bosib wfftio rhai hysbysiadau neu i weithredu unrhyw fotymau maen nhw\'n eu cynnwys.\n\nBydd hyn hefyd yn caniatáu i\'r ap droi Paid â Tharfu ymlaen neu i ffwrdd ac i newid gosodiadau cysylltiedig.</string>
+    <string name="notification_listener_revoke_warning_summary">Os fyddi\'n gwrthod mynediad <xliff:g id="notification_listener_name">%1$s</xliff:g> at hysbysiadau, mae\'n bosib y bydd mynediad at Paid â Tharfu hefyd yn cael ei wrthod.</string>
+    <string name="notification_listener_revoke_warning_confirm">Diffodd</string>
     <string name="notification_listener_revoke_warning_cancel">Diddymu</string>
     <string name="performance_impacting_apps_description">Mae\u2019r apiau hyn yn cael dylanwad negatif ar berfformiad y system ac wedi eu rhwystro rhag rhedeg yn y cefndir.\nBlaenoriaetha ap i ganiatáu defnydd yn y cefndir a\u2019i dynnu o\u2019r rhestr hon.</string>
     <string name="performance_impacting_apps_button_label">Blaenoriaethu ap</string>
