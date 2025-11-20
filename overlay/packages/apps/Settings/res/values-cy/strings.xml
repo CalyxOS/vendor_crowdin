@@ -37,6 +37,11 @@
     <string name="radioInfo_data_suspended">Wedi\'i atal</string>
     <string name="radioInfo_unknown">Anhysybys</string>
     <string name="preview_pager_content_description">Rhagolwg</string>
+    <string name="preview_pager_home_content_description">Rhagolwg sgrin gartref</string>
+    <string name="preview_pager_message_content_description">Rhagolwg neges</string>
+    <string name="preview_pager_email_content_description">Rhagolwg ebost</string>
+    <string name="preview_pager_previous_button">Rhagolwg blaenorol</string>
+    <string name="preview_pager_next_button">Rhagolwg nesaf</string>
     <string name="font_size_make_smaller_desc">Gwneud yn llai</string>
     <string name="font_size_make_larger_desc">Gwneud yn fwy</string>
     <string name="stay_awake_on_fold_title">Pob tro</string>
@@ -60,9 +65,18 @@
     <string name="bluetooth_pair_other_ear_dialog_title">Paru\'r glust arall</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Paru\'r glust dde</string>
     <string name="bluetooth_pair_other_ear_dialog_left_ear_positive_button">Paru\'r glust chwith</string>
+    <string name="bluetooth_ambient_volume_control_expand">Ehangu i reolyddion de a chwith ar wahân</string>
+    <string name="bluetooth_ambient_volume_control_collapse">Cwympo i reolaeth unol</string>
     <string name="bluetooth_ambient_volume_control_left">Chwith</string>
     <string name="bluetooth_ambient_volume_control_right">De</string>
+    <string name="bluetooth_hearing_device_input_routing_title">Meicroffon rhagosodedig ar gyfer galwadau</string>
+    <string name="bluetooth_hearing_device_input_routing_dialog_title">Meicroffon rhagosodedig</string>
+    <string name="bluetooth_hearing_device_input_routing_dialog_summary">Dewis meicroffon ar gyfer galwadau.</string>
+    <string name="bluetooth_hearing_device_input_routing_hearing_device_option">Meicroffon cymorth clyw</string>
+    <string name="bluetooth_hearing_device_input_routing_builtin_option">Meicroffon y ffôn hwn</string>
     <string name="bluetooth_screen_related">Yn gysylltiedig</string>
+    <string name="bluetooth_try_nearby_share_title">Ceisia rhannu gyda <xliff:g id="Nearby Sharing app label" example="Nearby Sharing">%s</xliff:g></string>
+    <string name="bluetooth_try_nearby_share_summary">Y dull cyflymaf i anfon ffeiliau at ddyfeisiau Android gerllaw</string>
     <string name="bluetooth_notification_title">Hysbysiadau</string>
     <string name="bluetooth_device">Dyfais Bluetooth dienw</string>
     <string name="progress_scanning">Yn chwilio</string>
@@ -106,9 +120,11 @@
     <string name="date_and_time">Dyddiad ac amser</string>
     <string name="proxy_settings_title">Procsi</string>
     <string name="proxy_clear_text">Clirio</string>
+    <string name="proxy_port_label">Porth procsi (dewisol)</string>
     <string name="proxy_exclusionlist_label">Osgoi procsi ar gyfer</string>
     <string name="proxy_defaultView_text">Adfer y rhagosodiadau</string>
     <string name="proxy_action_text">Iawn</string>
+    <string name="proxy_hostname_label">Enw procsi (dewisol)</string>
     <string name="proxy_error">Sylw</string>
     <string name="proxy_error_dismiss">Iawn</string>
     <string name="proxy_error_invalid_host">Dyw\u2019r enw gwesteiydd a roddwyd ddim yn dilys.</string>
@@ -124,6 +140,8 @@
     <string name="skip_label">Neidio</string>
     <string name="next_label">Nesaf</string>
     <string name="region_picker_preference_title">Rhanbarth</string>
+    <string name="region_picker_title">Dewisa ranbarth</string>
+    <string name="region_picker_sub_title">Mae\u2019r rhanbarth a ddewisir yn effeithio ar sut mae\u2019r ddyfais yn dangos amser, dyddiadau, tymheredd, a mwy.</string>
     <string name="language_picker_title">Ieithoedd</string>
     <string name="desc_current_default_language">Iaith y system</string>
     <string name="locale_remove_menu">Tynnu</string>
@@ -134,15 +152,33 @@
     <string name="suggested_app_locales_title">Ieithoedd a awgrymir</string>
     <string name="all_supported_app_locales_title">Pob iaith</string>
     <string name="all_supported_locales_title">Pob iaith</string>
+    <string name="more_supported_locales_title">Rhagor o ieithoedd</string>
     <string name="preference_of_system_locale_title">Iaith y system</string>
     <string name="preference_of_system_locale_summary">Rhagosodiad y system</string>
     <string name="desc_no_available_supported_locale">Dyw dewis iaith yr ap hwn ddim ar gael yn Gosodiadau.</string>
     <string name="desc_app_locale_disclaimer">Gall fod yr iaith yn wahanol i\u2019r ieithoedd ar gael yn yr ap. Dyw rhai apiau ddim yn cefnogi\u2019r gosodiad hwn.</string>
+    <string name="title_change_system_region">Newid rhanbarth i %s?</string>
+    <string name="desc_notice_device_region_change">Bydd y ddyfais yn cadw %s fel iaith system</string>
+    <string name="desc_notice_device_region_change_for_preferred_language">Bydd %1$s yn cymryd lle %2$s yn yr ieithoedd a ffafrir</string>
+    <string name="title_change_system_locale">Newid iaith y system i %s?</string>
     <string name="button_label_confirmation_of_system_locale_change">Newid</string>
     <string name="title_unavailable_locale">%s dim ar gael</string>
     <string name="locale_search_menu">Chwilio</string>
+    <string name="language_and_region_title">Iaith a rhanbarth</string>
     <string name="language_selection_title">Ychwanegu iaith</string>
+    <string name="region_selection_title">Dewisa ranbarth</string>
+    <string name="numbering_system_selection_title">System Rhifau</string>
+    <string name="search_language_hint">Chwilio ieithoedd</string>
+    <string name="search_region_hint">Chwilio rhanbarthau</string>
+    <string name="top_intro_region_title">Mae\u2019r rhanbarth a ddewisir yn effeithio ar sut mae\u2019r ffôn yn dangos amser, dyddiadau, tymheredd, a mwy.</string>
+    <string name="title_change_system_locale_region">Newid rhanbarth i <xliff:g id="system_language_region" example="Canada">%1$s</xliff:g>?</string>
+    <string name="body_change_system_locale_region">Bydd y ddyfais yn cadw <xliff:g id="system_language" example="English">%1$s</xliff:g> fel iaith system</string>
+    <string name="top_intro_numbering_system_title">Dewisa sut bydd y ddyfais, gwefannau, ac apiau yn dangos rhifau</string>
+    <string name="measurement_system_preferences_title">Sytem mesur</string>
     <string name="default_string_of_regional_preference">Defnyddio\'r rhagosodiad</string>
+    <string name="metric_measurement_system">Metrig</string>
+    <string name="us_measurement_system">UDA</string>
+    <string name="uk_measurement_system">Cymru</string>
     <string name="dlg_remove_locales_message">Caiff testun ei ddangos mewn iaith arall.</string>
     <string name="dlg_remove_locales_error_title">Nid yw\'n bosib tynnu pob un iaith.</string>
     <string name="dlg_remove_locales_error_message">Cadw o leiaf un iaith i\'w ffafrio</string>
@@ -212,6 +248,10 @@
     <string name="safety_center_title">Diogelwch a phreifatrwydd</string>
     <string name="safety_center_summary">Diogelwch apiau, clo\u2019r ddyfais, caniatâd</string>
     <string name="security_settings_face_preference_summary">Ychwanegwyd y wyneb</string>
+    <string name="security_settings_face_preference_summary_none_new">Ychwanegu wyneb</string>
+    <string name="security_settings_face_preference_title_new">Wyneb</string>
+    <string name="security_settings_face_profile_preference_title_new">Wyneb ar gyfer gwaith</string>
+    <string name="private_space_face_unlock_title_new">Wyneb ar gyfer gofod preifat</string>
     <string name="security_settings_face_preference_title">Datgloi ag Wyneb</string>
     <string name="security_settings_face_profile_preference_title">Datgloi ag Wyneb ar gyfer gwaith</string>
     <string name="security_settings_face_enroll_education_title">Sut i osod Datgloi ag Wyneb</string>
@@ -249,6 +289,8 @@
     <string name="security_settings_face_enroll_improve_face_alert_body">Rhaid dileu dy fodel wyneb cyfredol i osod Datgloi ag Wyneb eto.\n\nCaiff fodel dy wyneb ei ddileu yn barhaol ac yn ddiogel.\n\nAr ôl ei ddileu, bydd angen dy gyfrinair, PIN neu batrwm i ddatgloi dy ffôn neu ar gyfer dilysiad o fewn apiau.</string>
     <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">Rhaid dileu dy fodel wyneb cyfredol i osod Datgloi ag Wyneb eto.\n\nCaiff fodel dy wyneb ei ddileu yn barhaol ac yn ddiogel.\n\nAr ôl ei ddileu, bydd angen dy ôl bys, dy gyfrinair, PIN neu batrwm i ddatgloi dy ffôn neu ar gyfer dilysiad o fewn apiau.</string>
     <string name="security_settings_face_settings_use_face_category">Defnyddio Datgloi ag Wyneb ar gyfer</string>
+    <string name="security_settings_face_settings_face_category">Wyneb</string>
+    <string name="security_settings_face_settings_use_face_to_category">Defnyddio Wyneb i</string>
     <string name="security_settings_face_settings_preferences_category">Wrth ddefnyddio Datgloi ag Wyneb</string>
     <string name="security_settings_face_settings_require_attention">Rhaid bod y llygaid ar agor</string>
     <string name="security_settings_face_settings_require_attention_details">I ddatgloi\u2019r ffôn, mae\u2019n rhaid bod dy lygaid ar agor</string>
@@ -260,11 +302,15 @@
     <string name="security_settings_face_settings_remove_dialog_details">Caiff dy fodel wyneb ei ddileu am byth yn ddiogel.\n\nAr ôl ei dileu, bydd angen PIN, patrwm neu gyfrinair i ddatgloi dy ffôn neu ar gyfer dilysiadau o fewn apiau.</string>
     <string name="security_settings_face_settings_remove_dialog_details_convenience">Caiff dy fodel wyneb ei ddileu am byth yn ddiogel.\n\nAr ôl ei dileu, bydd angen PIN, patrwm neu gyfrinair i ddatgloi dy ffôn.</string>
     <string name="security_settings_face_settings_context_subtitle">Defnyddio Datgloi ag Wyneb i ddatgloi dy ffôn</string>
+    <string name="security_settings_face_add">Ychwanegu wyneb</string>
     <string name="security_settings_fingerprint">Ôl bys</string>
+    <string name="security_settings_fingerprint_title">Olion bysedd</string>
+    <string name="security_settings_category_use_fingerprint">Defnyddio ôl-bys i</string>
     <string name="security_settings_fingerprint_preference_title">Ôl bys</string>
     <string name="security_settings_fingerprint_settings_preferences_category">Pan yn defnyddio Datgloi ag Ôl Bys</string>
     <string name="security_settings_work_fingerprint_preference_title">Ôl Bys ar gyfer gwaith</string>
     <string name="security_settings_work_fingerprint_preference_title_new">Ôl Bys ar gyfer gwaith</string>
+    <string name="fingerprint_check_enrolled_title">Gwirio olion bysedd wedi\u2019r cofrestru</string>
     <string name="fingerprint_add_title">Ychwanegu ôl bys</string>
     <string name="security_settings_fingerprint_preference_summary_none_new">Ychwanegu ôl bys</string>
     <string name="security_settings_fingerprint_enroll_introduction_title">Gosoda dy ôl bys</string>
@@ -287,6 +333,8 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Mae Datgloi ag Ôl Bys yn creu model unigryw o ôl bys dy blentyn i ddilysu mai nhw sydd yno. I greu\u2019r model hwn ar ddechrau, rhaid cymryd lluniau o\'r ôl bys o wahanol fannau.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6">Am y canlyniadau gorau, defnyddia amddiffynnydd sgrin wedi’i ardystio gan Made fôr Google. Gydag amddiffynwyr eraill, efallai na fydd dy ôl bys yn gweithio.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_6">Ar gyfer y canlyniadau gorau, defnyddia amddiffynnydd sgrin wedi’i ardystio gan Made fôr Google. Gydag amddiffynwyr eraill, efallai na fydd ôl bys dy blentyn yn gweithio.</string>
+    <string name="fingerprint_check_enroll_touch_sensor">Cyffyrdda\u2019r synhwyrydd ôl bys</string>
+    <string name="fingerprint_check_enroll_not_recognized">Heb adnabod ôl bys</string>
     <string name="security_settings_activeunlock_preference_title">Datgloi ag Oriawr</string>
     <string name="biometric_settings_intro_with_activeunlock">Pan fyddi wedi gosod Datgloi ag Wyneb a Datgloi ag Ôl Bys, bydd dy ffôn yn gofyn am dy ôl bys pan rwyt yn gwisgo mwgwd neu mewn man tywyll.\n\nMae Datgloi ag Oriawr yn fodd cyfleus arall o ddatgloi dy ffôn, er enghraifft, os fydd dy fysedd yn wlyb neu dy wyneb ddim yn cael ei adnabod.</string>
     <string name="biometric_settings_intro_with_fingerprint">Mae Datgloi ag Oriawr yn fodd cyfleus arall o ddatgloi dy ffôn, er enghraifft, pan na fydd dy ôl bys yn cael ei adnabod.</string>
@@ -396,6 +444,8 @@
     <string name="lock_screen_pattern_skip_face_title">Neidio gosod patrwm ac wyneb?</string>
     <string name="lock_screen_pattern_skip_fingerprint_title">Neidio gosod patrwm ac ôl bys?</string>
     <string name="lock_screen_pattern_skip_biometrics_title">Neidio gosod patrwm, wyneb, ac ôl bys?</string>
+    <string name="resume_animation">Parhau â\u2019r animeiddiad</string>
+    <string name="pause_animation">Seibio\u2019r animeiddiad</string>
     <string name="security_settings_fingerprint_enroll_setup_screen_lock">Gosod clo\'r sgrin</string>
     <string name="security_settings_fingerprint_enroll_done">Gorffen</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">Wps, nid dyna\u2019r synhwyrydd</string>
@@ -417,6 +467,7 @@
     <string name="private_space_biometric_title">Datgloi ag Wyneb ac Ôl Bys</string>
     <string name="private_space_face_title">Datgloi ag Wyneb</string>
     <string name="private_space_biometric_summary">Tapia i\'w osod</string>
+    <string name="private_space_fingerprint_unlock_title_new">Ôl-bys ar gyfer gofod preifat</string>
     <string name="private_space_category_ways_to_unlock">Dulliau i ddatgloi</string>
     <string name="private_space_screen_lock_summary">Yr un fath a chlo sgrin y ddyfais</string>
     <string name="private_space_hide_off_summary">I ffwrdd</string>
@@ -460,6 +511,7 @@
     <string name="lock_settings_picker_admin_restricted_personal_message">Os wyt yn anghofio\u2019r clo sgrin, gall dy weinyddwr TG ei ailosod.</string>
     <string name="lock_settings_picker_admin_restricted_personal_message_action">Gosod clo gwaith ar wahân</string>
     <string name="lock_settings_picker_profile_message">Os fyddi di\'n anghofio\'r clo hwn, gofynna i dy weinyddwr TG ei ailosod</string>
+    <string name="lock_settings_screen_lock_settings_title">Gosodiadau\u2019r sgrin cloi</string>
     <string name="setup_lock_settings_options_button_label">Dewisiadau sgrin cloi</string>
     <string name="setup_lock_settings_options_dialog_title">Dewisiadau sgrin cloi</string>
     <string name="unlock_set_unlock_launch_picker_title">Clo sgrin</string>
@@ -471,9 +523,12 @@
     <string name="unlock_set_unlock_password_title">Cyfrinair</string>
     <string name="unlock_set_do_later_title">Dim nawr</string>
     <string name="current_screen_lock">Clo cyfredol y sgrin</string>
+    <string name="unlock_accessibility_pin_area">Maes PIN</string>
+    <string name="unlock_accessibility_password">Cyfrinair y ddyfais</string>
     <string name="fingerprint_unlock_skip_fingerprint">Parhau heb ôl bys</string>
     <string name="face_unlock_skip_face">Parhau heb Datgloi ag Wyneb</string>
     <string name="unlock_set_unlock_mode_off">Dim</string>
+    <string name="unlock_set_unlock_mode_off_new">Ychwanegu PIN, patrwm, cyfrinair, neu lusgo</string>
     <string name="unlock_set_unlock_mode_none">Llusgo</string>
     <string name="unlock_set_unlock_mode_pattern">Patrwm</string>
     <string name="unlock_set_unlock_mode_pin">PIN</string>
@@ -543,9 +598,13 @@
     <string name="bluetooth_device_context_disconnect">Datgysylltu</string>
     <string name="bluetooth_device_context_pair_connect">Paru a chysylltu</string>
     <string name="bluetooth_scan_change">Newid</string>
+    <string name="bluetooth_key_missing_title">Methu â chysylltu <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_key_missing_message">Am ragor o fanylion, gweler gosodiadau\u2019r ddyfais</string>
     <string name="bluetooth_key_missing_forget">Anghofio\'r ddyfais</string>
     <string name="bluetooth_key_missing_cancel">Diddymu</string>
+    <string name="bluetooth_key_missing_device_settings">Gosodiadau\u2019r ddyfais</string>
     <string name="bluetooth_key_missing_close">Cau</string>
+    <string name="bluetooth_key_missing_toast">Methodd <xliff:g id="device_name">%1$s</xliff:g> â chysylltu</string>
     <string name="device_details_title">Manylion y ddyfais</string>
     <string name="bluetooth_device_more_settings_preference_title">Rhagor o osodiadau</string>
     <string name="bluetooth_device_tip_support">Awgrymiadau a chymorth</string>
@@ -556,6 +615,7 @@
     <string name="bluetooth_companion_app_remove_association_dialog_title">Datgysylltu\'r Ap?</string>
     <string name="bluetooth_companion_app_body">Ni fydd ap <xliff:g id="app_name" example="App Name">%1$s</xliff:g> yn cysylltu â\'r ddyfais <xliff:g id="device_name" example="Device Name">%2$s</xliff:g></string>
     <string name="device_details_battery">Batri</string>
+    <string name="device_details_battery_charging">Batri, yn gwefru</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Anghofio\'r ddyfais</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button">Datgysylltu\'r ap</string>
     <string name="device_details_more_settings">Rhagor o osodiadau</string>
@@ -640,6 +700,7 @@
     <string name="wifi_show_advanced">Dewisiadau uwch</string>
     <string name="wifi_advanced_toggle_description">Cwymplen rhestr Dewisiadau Uwch</string>
     <string name="wifi_advanced_toggle_description_collapsed">ehangu</string>
+    <string name="wifi_ssid">Enw rhwydwaith*</string>
     <string name="wifi_ssid_hint">Rho\'r SSID</string>
     <string name="wifi_security">Diogelwch</string>
     <string name="wifi_hidden_network">Rhwydwaith cudd</string>
@@ -661,6 +722,9 @@
     <string name="wifi_eap_user_cert">Tystysgrif defnyddiwr</string>
     <string name="wifi_eap_identity">Adnabod</string>
     <string name="wifi_eap_anonymous">Hunaniaeth anhysbys</string>
+    <string name="wifi_password">Cyfrinair*</string>
+    <string name="wifi_password_optional">Cyfrinair (dewisol)</string>
+    <string name="wifi_password_invalid">Mae\u2019r cyfrinair yn annilys</string>
     <string name="wifi_show_password">Dangos cyfrinair</string>
     <string name="wifi_ap_choose_2G">Band 2.4 GHz</string>
     <string name="wifi_ap_prefer_5G">Ffafrio band 5.0 GHz</string>
@@ -721,6 +785,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown">I wella cywirdeb lleoliad ac ar gyfer pwrpasau eraill, mae ap anhysbys eisiau troi sganio am rwydwaith ymlaen, hyd yn oed pan mae Wi\u2011Fi i ffwrdd.\n\nCaniatáu hyn i bob ap sydd eisiau sganio?</string>
     <string name="wifi_scan_always_confirm_allow">Caniatáu</string>
     <string name="wifi_scan_always_confirm_deny">Gwrthod</string>
+    <string name="wifi_field_required">*angenrheidiol</string>
     <string name="no_internet_access_text">Does gan y rhwydwaith hwn dim mynediad at y rhyngrwyd. Parhau wedi cysylltu?</string>
     <string name="partial_connectivity_text">Gall rhai apiau a gwasanaethau ddim gweithio os bydd cysylltedd cyfyngedig. Parhau?</string>
     <string name="no_internet_access_remember">Peidio â gofyn eto ar gyfer y rhwydwaith hwn</string>
@@ -828,6 +893,9 @@
     <string name="wifi_calling_off_explanation">Tra bod galwadau Wi-Fi ymlaen, gall dy ffôn dargyfeirio galwadau trwy rwydweithiau Wi-Fi neu rwydwaith dy ddarparwr gwasanaeth symudol, yn dibynnu ar dy osodiadau a pha signal sy\'n gryfach ar y pryd. Cyn troi\'r nodwedd hon ymlaen, mae\'n syniad da gwirio gyda dy ddarparwr symudol am ffioedd a manylion eraill. <xliff:g id="additional_text" example="Learn More">%1$s</xliff:g></string>
     <string name="emergency_address_title">Cyfeiriad argyfwng</string>
     <string name="emergency_address_summary">Defnyddir fel dy leoliad os wyt yn gwneud galwad brys dros Wi\u2011Fi</string>
+    <string name="private_dns_title">Enw gwesteiydd</string>
+    <string name="private_dns_field_require">Rhaid llenwi\u2019r maes</string>
+    <string name="private_dns_hostname_invalid">Dyw\u2019r enw gwesteiydd a roddwyd ddim yn dilys.</string>
     <string name="private_dns_help_message"><annotation id="url">Dysgu mwy</annotation> am nodweddion DNS Preifat</string>
     <string name="private_dns_mode_on">Ymlaen</string>
     <string name="wifi_calling_settings_activation_instructions">Actifadu Galwadau Wi\u2011Fi</string>
@@ -849,6 +917,7 @@
     <string name="auto_rotate_link_a11y">Dysgu rhagor am droi yn awtomatig</string>
     <string name="screen_resolution_title">Cydraniad sgrin</string>
     <string name="screen_resolution_option_high">Cydraniad uchel</string>
+    <string name="screen_resolution_delimiter_a11y"><xliff:g id="width">%1$s</xliff:g> gan <xliff:g id="height">%2$s</xliff:g></string>
     <string name="color_mode_title">Lliwiau</string>
     <string name="color_mode_option_natural">Naturiol</string>
     <string name="color_mode_option_boosted">Cyfnerthwyd</string>
@@ -1158,6 +1227,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="usb_tethering_button_text">Tenynnu USB</string>
     <string name="bluetooth_tether_checkbox_text">Tenynnu Bluetooth</string>
     <string name="ethernet_ip_address">Cyfeiriad IP</string>
+    <string name="ethernet_mac_address_title">Cyfeiriad MAC</string>
     <string name="rx_ethernet_speed">Cyflymder cyswllt derbyn</string>
     <string name="ethernet_network_usage">Defnydd rhwydwaith</string>
     <string name="ethernet_tether_checkbox_text">Tenynnu ethernet</string>
@@ -1196,6 +1266,7 @@ Os wyt yn newid i <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, ni fy
     <string name="location_time_zone_detection_not_supported">Ni chefnogir canfod cylchfa amser o leoliad</string>
     <string name="location_time_zone_detection_not_allowed">Ni chaniateir newid i ganfyddiad cylchfa amser o leoliad</string>
     <string name="time_notifications_title">Hysbysiadau</string>
+    <string name="time_zone_change_notifications_toggle_title">Newid parth amser</string>
     <string name="about_settings_summary">Gweld gwybodaeth gyfreithiol, statws, fersiwn meddalwedd</string>
     <string name="legal_information">Gwybodaeth gyfreithiol</string>
     <string name="manual">Â llaw</string>
@@ -1446,6 +1517,7 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="language_input_gesture_title">Ieithoedd, mewnbwn ac ystumiau</string>
     <string name="language_settings">Ieithoedd a mewnbwn</string>
     <string name="languages_settings">Ieithoedd</string>
+    <string name="language_and_region_settings">Iaith a rhanbarth</string>
     <string name="keyboard_settings">Bysellfwrdd</string>
     <string name="language_empty_list_user_restricted">Nid oes gennyt ganiatâd i newid iaith y ddyfais.</string>
     <string name="language_keyboard_settings_title">Ieithoedd a mewnbwn</string>
@@ -1472,14 +1544,36 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="keyboard_a11y_category">Hygyrchedd</string>
     <string name="physical_keyboard_title">Bysellfwrdd corfforol</string>
     <string name="input_setting_keys_dialog_option_200">0.2 eiliad</string>
+    <string name="input_setting_keys_dialog_option_400">0.4 eiliad</string>
     <string name="input_setting_keys_dialog_option_600">0.6 eiliad</string>
     <string name="input_setting_keys_custom_title">Addasedig</string>
+    <string name="mouse_scrolling_category_title">Sgrolio</string>
+    <string name="mouse_scrolling_acceleration">Sgrolio wedi\u2019i reoli</string>
+    <string name="mouse_scrolling_speed">Cyflymder sgrolio</string>
+    <string name="mouse_swap_primary_button">Cyfnewid prif fotymau llygoden</string>
+    <string name="mouse_pointer_acceleration">Cyflymiad pwyntydd</string>
+    <string name="mouse_pointer_acceleration_summary">Bydd symudiadau mwy cyflym gyda\u2019r llygoden yn symud y pwyntydd yn bellach</string>
+    <string name="mouse_keys_directional_summary">Defnyddio\u2019r bysellau \"<xliff:g id="directional_label" example="7,8,9,u,o,j,k,l">%s</xliff:g>\" i symud pwyntydd y llygoden.</string>
+    <string name="mouse_keys_click_summary">Defnyddio\u2019r bysell \"<xliff:g id="click_label" example="i">%s</xliff:g>\" i glicio prif fotwm y llygoden</string>
+    <string name="mouse_keys_press_hold_summary">Defnyddio\u2019r bysell \"<xliff:g id="press_hold_label" example="m">%s</xliff:g>\" i glicio a dal prif fotwm y llygoden</string>
+    <string name="mouse_keys_release_summary">Defnyddio\u2019r bysell \"<xliff:g id="release_label" example=",">%s</xliff:g>\" i ollwng prif fotwm y llygoden</string>
+    <string name="mouse_keys_toggle_scroll_summary">Defnyddio\u2019r bysell \"<xliff:g id="release_label_1" example=".">%1$s</xliff:g>\" i doglo\u2019r modd sgrolio. Bydd hyn yn gwneud i\u2019r bysellau \"<xliff:g id="release_label_2" example="8, k, o, u">%2$s</xliff:g>\" sgrolio\u2019r golwg i fyny, i lawr, i\u2019r chwith neu\u2019r dde.</string>
+    <string name="mouse_keys_release2_summary">Defnyddio\u2019r bysell \"<xliff:g id="release_2_label" example="/">%s</xliff:g>\" i glicio ail fotwm y llygoden</string>
+    <string name="keyboard_shortcuts_helper">Gweld bysellau byr</string>
     <string name="language_and_input_for_work_category_title">Offer a bysellfyrddau proffil gwaith</string>
     <string name="virtual_keyboards_for_work_title">Bysellfwrdd ar y sgrin ar gyfer gwaith</string>
     <string name="keyboard_default_layout">Rhagosodiad</string>
+    <string name="mouse_settings_summary">Cyflymder pwyntydd, cyfnewid botymau, addasu botymau, ffurfweddu botymau</string>
+    <string name="trackpad_tap_dragging_title">Tapio a llusgo i symud eitemau</string>
+    <string name="trackpad_tap_dragging_summary">Dyro dap dwbl ar eitem, dal i lawr ar yr ail dap, ac yna llusgo\u2019r eitem i\u2019w symud</string>
+    <string name="trackpad_pointer_speed">Cyflymder pwyntydd</string>
+    <string name="three_finger_tap_preference_title">Defnyddio tap tri bys</string>
+    <string name="touchpad_acceleration_title">Cyflymdra pad cyffwrdd</string>
+    <string name="touchpad_acceleration_summary">Bydd symudiadau mwy cyflym ar y pad cyffwrdd yn symud y pwyntydd yn bellach</string>
     <string name="pointer_stroke_style_name_white">Gwyn</string>
     <string name="pointer_stroke_style_name_black">Du</string>
     <string name="pointer_stroke_style_name_none">Dim</string>
+    <string name="three_finger_tap_middle_click">Botwm canol y llygoden</string>
     <string name="three_finger_tap_go_back">Mynd nôl</string>
     <string name="gesture_title_go_back">Mynd nôl</string>
     <string name="gesture_button_skip">Neidio</string>
@@ -1493,7 +1587,9 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="default_keyboard_layout">Rhagosodiad</string>
     <string name="speech_category_title">Llafar</string>
     <string name="speech_preference_title">Llafar</string>
+    <string name="speech_preference_summary">Rheoli adnabod ac allbwn llais</string>
     <string name="pointer_speed">Cyflymder pwyntydd</string>
+    <string name="pointer_scale">Maint y pwyntydd</string>
     <string name="game_controller_settings_category">Rheolydd Gemau</string>
     <string name="vibrate_input_devices">Dargyfeirio dirgrynu</string>
     <string name="vibrate_input_devices_summary">Anfon dirgryniad i\'r teclyn rheoli gemau pan wedi\'i gysylltu</string>
@@ -1544,11 +1640,19 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="general_category_title">Cyffredinol</string>
     <string name="display_category_title">Dangosydd</string>
     <string name="accessibility_color_and_motion_title">Lliw a symudiad</string>
+    <string name="accessibility_pointer_and_touchpad_title">Hygyrchedd pwyntydd a phad cyffwrdd</string>
+    <string name="accessibility_pointer_and_touchpad_summary">Maint, lliw, math</string>
+    <string name="accessibility_pointer_color_customization_title">Lliw y pwyntydd</string>
+    <string name="accessibility_pointer_title">Pwyntydd</string>
+    <string name="accessibility_touchpad_system_gestures_enable_title">Defnyddio ystumiau tri neu bedwar bys</string>
+    <string name="accessibility_touchpad_system_gestures_enable_summary">Pan i ffwrdd, bydd y pad cyffwrdd yn anwybyddu ystumiau â thri neu bedwar bys</string>
     <string name="color_contrast_preview">Rhagolwg</string>
     <string name="accessibility_turn_screen_darker_title">Troi\'r sgrin yn dywyllach</string>
     <string name="interaction_control_category_title">Rheolaeth rhyngweithio</string>
     <string name="accessibility_tap_assistance_title">Rheolaeth amseru</string>
     <string name="accessibility_system_controls_title">Rheolaeth system</string>
+    <string name="accessibility_feedback_summary">Helpu gwella wrth lenwi arolwg</string>
+    <string name="accessibility_feedback_disabled_summary">Dim arolygon ar gael</string>
     <string name="accessibility_send_feedback_title">Anfon adborth</string>
     <string name="user_installed_services_category_title">Apiau wedi\'u lawrlwytho</string>
     <string name="experimental_category_title">Arbrofol</string>
@@ -1561,6 +1665,11 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="accessibility_captioning_footer_learn_more_content_description">Dysgu mwy am ddewisiadau capsiynau</string>
     <string name="accessibility_screen_magnification_title">Chwyddo</string>
     <string name="accessibility_screen_magnification_shortcut_title">Llwybr byr at chwyddiad</string>
+    <string name="accessibility_magnification_cursor_following_title">Dilyn y pwyntydd</string>
+    <string name="accessibility_magnification_cursor_following_header">Dewisa sut mae Chwyddo yn dilyn y pwyntydd.</string>
+    <string name="accessibility_magnification_cursor_following_continuous">Symud y sgrin yn barhaol wrth i\u2019r pwyntydd symud</string>
+    <string name="accessibility_magnification_cursor_following_center">Symud y sgrin gan gadw\u2019r pwyntydd yng nghanol y sgrin</string>
+    <string name="accessibility_magnification_cursor_following_edge">Symud y sgrin pan fo\u2019r pwyntydd yn cyffwrdd ymyl y sgrin</string>
     <string name="accessibility_screen_magnification_follow_typing_title">Chwyddo teipio</string>
     <string name="accessibility_screen_magnification_follow_typing_summary">Chwyddwydr yn dilyn y testun wrth i ti deipio</string>
     <string name="accessibility_screen_magnification_about_title">Ynghylch chwyddiad</string>
@@ -1657,9 +1766,15 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="accessibility_button_high_label">Anhryloyw</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Testun cyferbyniad uchel</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary">Newid lliw testun i ddu neu wyn. Mae\u2019n cynyddu cyferbyniad gyda\u2019r cefndir.</string>
+    <string name="accessibility_notification_high_contrast_text_title">Gwella cyferbyniad testun</string>
+    <string name="accessibility_notification_high_contrast_text_body_message">Mae amlinelliad testun wedi cymryd lle testun cyferbyniad uchel. Gellir ei droi ymlaen yn <xliff:g example="Settings" id="settings">%1$s</xliff:g>.</string>
+    <string name="accessibility_notification_high_contrast_text_action_open_settings">Mynd i <xliff:g example="Settings" id="settings">%1$s</xliff:g></string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title">Amlinelliad testun</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Awto diweddaru chwyddo\'r sgrin</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">Diweddaru chwyddiad y sgrin wrth drawsnewid rhwng apiau</string>
     <string name="accessibility_power_button_ends_call_prerefence_title">Botwm pŵer yn gorffen galwad</string>
+    <string name="accessibility_force_invert_title">Gwneud rhagor o apiau yn dywyll</string>
+    <string name="accessibility_force_invert_summary">Mae\u2019n ehangu thema dywyll i ragor o apiau. Efallai ddim yn gweithio gyda phob ap.</string>
     <string name="accessibility_disable_animations">Tynnu animeiddiadau</string>
     <string name="accessibility_disable_animations_summary">Lleihau symudiad ar y sgrin</string>
     <string name="accessibility_toggle_primary_mono_title">Sain mono</string>
@@ -1690,6 +1805,7 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
             <li>\u00a0I ddangos cefndir tywyll, gellir ddefnyddio\u2019r Thema Dywyll yn lle</li>
         </ol>
         ]]></string>
+    <string name="accessibility_autoclick_preference_title">Awtoglicio (Amser trigo)</string>
     <string name="accessibility_autoclick_intro_text">Gellir gosod llygoden wedi\u2019i chysylltu i glicio\u2019n awtomatig pan fo\u2019r pwyntydd yn stopio symud am gyfnod penodol o amser</string>
     <string name="accessibility_autoclick_description">Gall awtoglicio fod o help os yw clicio\u2019r llygoden yn anodd</string>
     <string name="accessibility_autoclick_default_title">Awtoglicio i ffwrdd</string>
@@ -2066,6 +2182,7 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="credentials_reset_hint">Tynnu\'r holl gynnwys?</string>
     <string name="credentials_erased">Dileuwyd y storfa tystnodiadau.</string>
     <string name="credentials_not_erased">Methwyd â dileu\u2019r storfa tystnodiadau.</string>
+    <string name="usage_access_title">Apiau gyda mynediad at ddata defnydd apiau</string>
     <string name="ca_certificate">Tystysgrif CA</string>
     <string name="user_certificate">Tystysgrif VPN a defnyddiwr ap</string>
     <string name="wifi_certificate">Tystysgrif Wi\u2011Fi</string>
@@ -2218,16 +2335,25 @@ yn cael ei ddefnyddio ar hyn o bryd. Tapia Gosodiadau i\'w reoli.</string>
     <string name="data_usage_uninstalled_apps_users">Apiau a defnyddwyr wedi eu tynnu</string>
     <string name="wifi_metered_title">Defnydd rhwydwaith</string>
     <string name="data_usage_metered_yes">Wedi\'i mesur</string>
+    <string name="vpn_name">Enw*</string>
     <string name="vpn_type">Math</string>
+    <string name="vpn_server">Cyfeiriad gweinydd*</string>
+    <string name="vpn_ipsec_identifier">Adnabyddydd IPSec*</string>
+    <string name="vpn_ipsec_secret">Allwedd IPSec a rannwyd ymlaen llaw*</string>
     <string name="vpn_ipsec_user_cert">Tystysgrif defnyddiwr IPSec</string>
     <string name="vpn_ipsec_ca_cert">Tystysgrif CA IPSec</string>
     <string name="vpn_ipsec_server_cert">Tystysgrif gweinydd IPSec</string>
     <string name="vpn_show_options">Dangos dewisiadau uwch</string>
+    <string name="vpn_username_optional">Enw defnyddiwr (dewisol)</string>
+    <string name="vpn_password_optional">Cyfrinair (dewisol)</string>
+    <string name="vpn_username_required">Enw defnyddiwr*</string>
+    <string name="vpn_password_required">Cyfrinair*</string>
     <string name="vpn_save_login">Cadw gwybodaeth y cyfrif</string>
     <string name="vpn_not_used">(heb ei ddefnyddio)</string>
     <string name="vpn_no_ca_cert">(peidio â gwirio\'r gweinydd)</string>
     <string name="vpn_no_server_cert">(derbyniwyd gan y gweinydd)</string>
     <string name="vpn_always_on_invalid_reason_other">Dyw\'r wybodaeth a roddwyd ddim yn cefnogi VPN ymlaen-o-hyd</string>
+    <string name="vpn_field_required">*angenrheidiol</string>
     <string name="vpn_cancel">Diddymu</string>
     <string name="vpn_done">Diystyru</string>
     <string name="vpn_save">Cadw</string>
@@ -2450,6 +2576,7 @@ wrth adael modd gwestai</string>
     <string name="color_orange">Oren</string>
     <string name="color_purple">Porffor</string>
     <string name="sim_status_title">Statws SIM</string>
+    <string name="sim_status_title_sim_slot">Statws SIM (slot SIM %1$d)</string>
     <string name="sim_signal_strength"><xliff:g id="dbm">%1$d</xliff:g> dBm <xliff:g id="asu">%2$d</xliff:g> asu</string>
     <string name="sim_notification_summary">Tapia i\'w osod</string>
     <string name="sim_calls_ask_first_prefs_title">Gofyn bob tro</string>
@@ -2749,9 +2876,19 @@ wrth adael modd gwestai</string>
     <string name="notification_history_open_notification">agor hysbysiad</string>
     <string name="snooze_options_title">Caniatáu oedi hysbysiadau</string>
     <string name="notification_badging_title">Dot hysbysiad ar eicon yr ap</string>
+    <string name="notification_summarization_title">Crynodebau hysbysiadau</string>
     <string name="notification_summarization_on">Ymlaen</string>
     <string name="notification_summarization_off">I ffwrdd</string>
+    <string name="notification_summarization_main_control_title">Defnyddio crynodebau hysbysiadau</string>
+    <string name="notification_summarization_description">Crynhoi hysbysiadau sgyrsiau oddi wrth apiau yn awtomatig</string>
+    <string name="notification_summarization_excluded_description">Ni chaiff hysbysiadau sgyrsiau o\u2019r apiau hyn eu crynhoi</string>
     <string name="notification_summarization_manage_excluded_apps">Rheoli apiau</string>
+    <string name="notification_summarization_manage_excluded_apps_title">Caniatáu crynodebau hysbysiadau ar gyfer apiau</string>
+    <string name="notification_excluded_apps">Eithriadau apiau</string>
+    <string name="notification_app_level_summarize_title">Crynhoi hysbysiadau</string>
+    <string name="notification_app_level_summarize_subtext">Crynhoi hysbysiadau sgyrsiau o\u2019r ap hwn</string>
+    <string name="live_notifications">Hysbysiadau byw</string>
+    <string name="live_notifications_switch">Dangos gwybodaeth byw</string>
     <string name="notification_bubbles_title">Swigod</string>
     <string name="bubbles_app_toggle_title">Swigod</string>
     <string name="bubbles_conversation_toggle_title">Dangos y sgwrs hon fel swigod</string>
@@ -2796,6 +2933,11 @@ wrth adael modd gwestai</string>
     <string name="lock_screen_notifications_summary_show_profile">Dangos holl gynnwys hysbysiadau gwaith</string>
     <string name="lock_screen_notifications_summary_hide_profile">Cuddio cynnwys gwaith sensitif</string>
     <string name="lock_screen_notifications_interstitial_message_profile">Pan fydd y ddyfais ar glo, sut wyt am i hysbysiadau dy broffil arddangos?</string>
+    <string name="lockscreen_notification_what_to_show_title">Beth i ddangos ar y sgrin cloi</string>
+    <string name="lock_screen_notification_show_seen_title">Dangos hysbysiadau wedi eu gweld</string>
+    <string name="lock_screen_notification_show_silent_title">Dangos hysbysiadau tawel</string>
+    <string name="lock_screen_notification_show_sensitive_content_title">Dangos cynnwys sensitif</string>
+    <string name="lock_screen_notification_show_sensitive_work_content_title">Dangos cynnwys sensitif y proffil gwaith</string>
     <string name="lock_screen_notifications_interstitial_title_profile">Hysbysiadau proffil</string>
     <string name="notifications_title">Hysbysiadau</string>
     <string name="app_notifications_title">Hysbysiadau apiau</string>
@@ -2870,6 +3012,10 @@ wrth adael modd gwestai</string>
     <string name="notif_listener_more_settings">Rhagor o osodiadau</string>
     <string name="notification_bundle_on">Ymlaen</string>
     <string name="notification_bundle_off">I ffwrdd</string>
+    <string name="notification_app_level_bundle_title">Bwndelu hysbysiadau</string>
+    <string name="notification_app_level_bundle_subtext">Caiff hysbysiadau gyda themâu tebyg eu tawelu a\u2019u grwpio gyda\u2019i gilydd am brofiad tawelach</string>
+    <string name="notification_bundle_excluded_description">Ni chaiff hysbysiadau o\u2019r apiau hyn eu bwndelu</string>
+    <string name="notification_bundle_manage_excluded_apps_title">Caniatáu bwndelu ar gyfer apiau</string>
     <string name="vr_listeners_title">Gwasanaethau helpwr realiti rhithwir</string>
     <string name="no_vr_listeners">Does dim apiau wedi gwneud cais i redeg fel gwasanaethau cynorthwyo realiti rhithwir.</string>
     <string name="vr_listener_security_warning_summary">Bydd <xliff:g id="vr_listener_name">%1$s</xliff:g> yn medru rhedeg tra\'r wyt yn defnyddio apiau yn y modd realiti rhithwir.</string>
@@ -2908,6 +3054,7 @@ wrth adael modd gwestai</string>
     <string name="channel_group_notifications_off_desc">Ar dy gais, mae Android yn rhwystro\'r grŵp hwn o hysbysiadau rhag ymddangos ar y ddyfais hon</string>
     <string name="app_notifications_not_send_desc">Dyw\u2019r ap hwn ddim yn anfon hysbysiadau</string>
     <string name="app_notification_settings">Gosodiadau apiau</string>
+    <string name="notification_channels">Categorïau hysbysiadau</string>
     <string name="notification_channels_other">Arall</string>
     <string name="no_channels">Dyw\'r ap hwn heb greu unrhyw hysbysiadau</string>
     <string name="app_settings_link">Gosodiadau ychwanegol yn yr ap</string>
@@ -3130,7 +3277,10 @@ wrth adael modd gwestai</string>
     <string name="default_phone_title">Ap ffôn</string>
     <string name="system_app">(System)</string>
     <string name="apps_storage">Storfa apiau</string>
+    <string name="usage_access">Data defnydd apiau</string>
+    <string name="permit_usage_access">Caniatáu mynediad at ddata defnydd apiau</string>
     <string name="time_spent_in_app_pref_title">Amser sgrin</string>
+    <string name="usage_access_description">Mae data defnydd apiau yn caniatáu i ap dracio pa apiau eraill rwyt yn defnyddio a pha mor aml, yn ogystal â dy ddarparwr gwasanaeth, gosodiadau iaith, a manylion eraill.</string>
     <string name="memory_settings_title">Cof</string>
     <string name="always_running">Yn rhedeg o hyd (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
     <string name="sometimes_running">Weithiau yn rhedeg (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
@@ -3217,6 +3367,8 @@ wrth adael modd gwestai</string>
     <string name="ignore_optimizations_on_desc">Gall defnyddio mwy o bŵer dy fatri. Ni fydd yr ap bellach wedi\'i rhwystro rhag defnyddio\'r batri yn y cefndir.</string>
     <string name="ignore_optimizations_off_desc">Argymhellir am oes batri hirach</string>
     <string name="app_list_preference_none">Dim</string>
+    <string name="work_profile_usage_access_warning">Dyw troi data defnydd apiau i ffwrdd ar gyfer yr ap hwn ddim 
+yn rhwystro dy weinyddwr rhag tracio data defnydd apiau yn dy broffil gwaith</string>
     <string name="draw_overlay">Dangos dros ben apiau eraill</string>
     <string name="system_alert_window_settings">Dangos dros ben apiau eraill</string>
     <string name="permit_draw_overlay">Caniatáu dangos dros ben apiau eraill</string>
@@ -3318,6 +3470,7 @@ wrth adael modd gwestai</string>
     <string name="ethernet_data_usage">Defnydd data ether-rwyd</string>
     <string name="wifi">Wi-Fi</string>
     <string name="ethernet">Ether-rwyd</string>
+    <string name="ethernet_interface_title">Ether-rwyd <xliff:g id="interfaceid">%1$s</xliff:g></string>
     <string name="cell_data_template"><xliff:g id="amount" example="1 GB">^1</xliff:g> data symudol</string>
     <string name="wifi_data_template"><xliff:g id="amount" example="1 GB">^1</xliff:g> data Wi-Fi</string>
     <string name="ethernet_data_template"><xliff:g id="amount" example="1 GB">^1</xliff:g> data ether-rwyd</string>
@@ -4125,5 +4278,11 @@ wrth adael modd gwestai</string>
     <string name="audio_streams_dialog_turn_off_talkback_button">Troi i ffwrdd</string>
     <string name="audio_streams_main_page_scan_qr_code_title">Sganio cod QR</string>
     <string name="homepage_search">Chwilio\'r Gosodiadau</string>
+    <string name="device_supervision_switch_no_pin_summary">Gosoda PIN i ddechrau</string>
+    <string name="supervision_pin_management_preference_title">Rheoli PIN</string>
+    <string name="supervision_pin_management_preference_summary_add">Ychwanegu dull adfer PIN</string>
     <string name="supervision_change_pin_preference_title">Newid PIN</string>
+    <string name="supervision_add_forgot_pin_preference_title">Wedi anghofio PIN</string>
+    <string name="supervision_web_content_filters_browser_allow_all_sites_title">Caniatáu gwefannau diogel</string>
+    <string name="supervision_web_content_filters_search_title">Chwilio Google</string>
 </resources>

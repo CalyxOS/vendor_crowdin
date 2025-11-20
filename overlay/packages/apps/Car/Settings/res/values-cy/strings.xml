@@ -287,11 +287,14 @@
     <string name="units_unit_name_millivolt">Milifolt</string>
     <string name="units_unit_name_milliwatts">Miliwat</string>
     <string name="units_unit_name_ampere_hour">Awr Amper</string>
+    <string name="units_unit_name_kilowatt_hour">Awr Cilowat</string>
     <string name="units_unit_name_psi">Pwys y fodfedd sgwâr</string>
     <string name="units_unit_name_miles_per_hour">Milltir yr awr</string>
     <string name="units_unit_name_kilometers_per_hour">Cilometr yr awr</string>
     <string name="units_unit_name_bar">Bar</string>
     <string name="units_unit_name_degrees">Gradd</string>
+    <string name="units_unit_name_kilowatt_per_hundred_miles">Oriau cilowat pob can milltir</string>
+    <string name="units_unit_name_kilowatt_per_hundred_kilometers">Oriau cilowat pob can cilomedr</string>
     <string name="units_unit_name_miles_per_gallon_us">Milltir y Galwyn (UDA)</string>
     <string name="units_unit_name_miles_per_gallon_uk">Milltir y Galwyn (DU)</string>
     <string name="units_unit_name_kilometers_per_liter">Cilometr y Litr</string>
@@ -335,6 +338,7 @@
     </string>
     <string name="unused_apps_switch">Tynnu caniatâd yn ôl a rhyddhau lle</string>
     <string name="storage_type_internal">%s yn y storfa fewnol</string>
+    <string name="app_open_by_default_summary">Caniatáu iu\2019r ap agor dolenni a gefnogir</string>
     <string name="data_usage_summary_title">Defnydd data</string>
     <string name="data_usage_app_summary_title">Defnydd data apiau</string>
     <string name="data_usage_usage_history_title">Hanes defnydd</string>
@@ -390,7 +394,30 @@
     <string name="app_link_open_ask">Gofyn pob tro</string>
     <string name="app_link_open_never">Peidio ag agor yn yr ap hwn</string>
     <string name="app_launch_supported_domain_urls_title">Dolenni a gefnogir</string>
+    <string name="opening_links_verified_links_title">Dolenni wedi\u2019u dilysu</string>
+    <string name="opening_links_verified_links_summary">        {count, plural,
+        zero {}
+        one {# dolen wedi ei dilysu}
+        two {# ddolen wedi eu dilysu}
+        few {# dolen wedi eu dilysu}
+        many {# o ddolenni wedi eu dilysu}
+=1    {# dolen wedi ei dilysu}
+        other {# dolen wedi eu dilysu}
+        }
+    </string>
     <string name="opening_links_supported_links_title">Dolenni a gefnogir</string>
+    <string name="opening_links_supported_links_summary">        {count, plural,
+        zero {}
+        one {# dolen a gefnogir}
+        two {# ddolen a gefnogir}
+        few {# dolen a gefnogir}
+        many {# o ddolenni a gefnogir}
+=1    {# dolen a gefnogir}
+        other {# dolen a gefnogir}
+        }
+    </string>
+    <string name="opening_links_add_links_title">Ychwanegu dolenni</string>
+    <string name="app_launch_footer">Gall ap dilysu dolenni i\u2019w agor yn awtomatig yn yr ap.</string>
     <string name="apps_settings_title">Apiau</string>
     <string name="apps_recently_opened">Wedi\'i agor yn ddiweddar</string>
     <string name="apps_view_all_apps_title">Gweld pob ap %1$d</string>
@@ -413,11 +440,14 @@
     <string name="notification_access_title">Mynediad at hysbysiadau</string>
     <string name="notification_listener_security_warning_title">Caniatáu i <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> gael mynediad at hysbysiadau?</string>
     <string name="notification_listener_security_warning_summary">Mi fydd yn bosib i <xliff:g id="notification_listener_name">%1$s</xliff:g> ddarllen dy holl hysbysiadau, gan gynnwys gwybodaeth bersonol megis enwau cysylltiadau a thestun negeseuon rwyt yn eu derbyn.\nMi fydd hefyd yn bosib wfftio rhai hysbysiadau neu i weithredu unrhyw fotymau maen nhw\'n eu cynnwys.\n\nBydd hyn hefyd yn caniatáu i\'r ap droi Paid â Tharfu ymlaen neu i ffwrdd ac i newid gosodiadau cysylltiedig.</string>
+    <string name="notification_listener_revoke_warning_summary">Ow bydd mynediad at hysbysiadau i ffwrdd ar gyfer <xliff:g id="notification_listener_name">%1$s</xliff:g>, gallai rheolaeth Dim Tarfu hefyd cael ei droi i ffwrdd.</string>
     <string name="notification_listener_revoke_warning_confirm">Diffodd</string>
     <string name="notification_listener_revoke_warning_cancel">Diddymu</string>
     <string name="performance_impacting_apps_description">Mae\u2019r apiau hyn yn cael dylanwad negatif ar berfformiad y system ac wedi eu rhwystro rhag rhedeg yn y cefndir.\nBlaenoriaetha ap i ganiatáu defnydd yn y cefndir a\u2019i dynnu o\u2019r rhestr hon.</string>
     <string name="performance_impacting_apps_button_label">Blaenoriaethu ap</string>
     <string name="premium_sms_access_description">Gall SMS Premiwm gostio arian i ti a bydd yn ymddangos ar filiau dy ddarparwr gwasanaeth symudol. Os wyt ti\'n rhoi caniatâd i ap, mi fydd yn bosib iti anfon SMS Premiwm gyda\'r ap hwnnw.</string>
+    <string name="usage_access_title">Data defnydd apiau</string>
+    <string name="usage_access_description">Mae cael mynediad at ddata defnydd pob ap yn tracio pa apiau sy\u2019n cael eu defnyddio a pha mor aml, yn ogystal â\u2019r darparwr gwasanaeth, gosodiadau iaith, a manylion eraill.</string>
     <string name="wifi_control_title">Rheolaeth Wi-Fi</string>
     <string name="wifi_control_description">Mae rheolaeth Wi-Fi yn caniatáu i ap droi Wi-Fi ymlaen ac i ffwrdd, sganio am a chysylltu â rhwydweithiau Wi-Fi, tynnu neu ychwanegu rhwydweithiau neu dechrau llecyn Wi-Fi.</string>
     <string name="more_special_access_title">Rhagor</string>
@@ -809,7 +839,9 @@ other {Rwyt nawr # cam i ffwrdd o fod yn ddatblygwr.}
     <string name="assistant_and_voice_setting_title">Cynorthwyyd a llais</string>
     <string name="assistant_and_voice_assistant_app_title">Ap cynorthwyydd digidol</string>
     <string name="assistant_and_voice_use_text_from_screen_title">Defnyddio testun o\'r sgrin</string>
+    <string name="assistant_and_voice_use_text_from_screen_summary">Caniatáu i gynorthwyydd gael mynediad at gynnwys sgrin</string>
     <string name="assistant_and_voice_use_screenshot_title">Defnyddio sgrinlun</string>
+    <string name="assistant_and_voice_use_screenshot_summary">Caniatáu i gynorthwyydd gael mynediad at ddelwedd sgrin</string>
     <string name="cannot_remove_driver_profile">Mae\u2019r proffil hwn wedi mewngofnodi fel gyrrwr. Ceisia eto pan na fydd y proffil yn cael ei ddefnyddio fel y gyrrwr.</string>
     <string name="device_admin_activated_apps">Apiau wedi\u2019u actifadu</string>
     <string name="device_admin_deactivated_apps">Apiau wedi\u2019u dadactifadu</string>

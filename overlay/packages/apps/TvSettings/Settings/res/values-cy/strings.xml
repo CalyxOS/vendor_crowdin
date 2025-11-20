@@ -29,6 +29,8 @@
     <string name="enabled">Galluogwyd</string>
     <string name="disabled">Wedi\'i analluogi</string>
     <string name="unavailable">Dim ar gael</string>
+    <string name="allow">Caniatáu</string>
+    <string name="deny">Gwrthod</string>
     <string name="header_category_suggestions">Awgrymiadau</string>
     <string name="header_category_quick_settings">Gosodiadau Cyflym</string>
     <string name="header_category_general_settings">Gosodiadau Cyffredinol</string>
@@ -62,9 +64,12 @@
     <string name="privacy_category_title">Preifatrwydd</string>
     <string name="privacy_device_settings_category">Gosodiadau\'r Ddyfais</string>
     <string name="privacy_account_settings_category">Gosodiadau Cyfrif</string>
+    <string name="privacy_assistant_settings_title">Cynorthwyydd Llais</string>
+    <string name="privacy_purchases_settings_title">Taliadau a Phryniadau</string>
     <string name="privacy_app_settings_category">Gosodiadau\'r Ap</string>
     <string name="privacy_category_summary">Lleoliad, Defnydd a Diagnosteg, Hysbysebion</string>
     <string name="add_account">Ychwanegu cyfrif</string>
+    <string name="unknown_account">Cyfrif Anhysbys</string>
     <string name="account_header_remove_account">Tynnu cyfrif</string>
     <string name="account_sync">Dewis apiau wedi\'u cysoni</string>
     <string name="sync_now">Cysoni nawr</string>
@@ -91,6 +96,7 @@
     <string name="apps_recently_used_category_title">Apiau â\'u hagorwyd yn ddiweddar</string>
     <string name="apps_see_all_apps">Gweld pob ap</string>
     <string name="apps_permissions_category_title">Caniatâd</string>
+    <string name="add_apps_title">Ychwanegu rhagor o apiau</string>
     <string name="all_apps_title">Pob ap</string>
     <string name="all_apps_show_system_apps">Dangos apiau system</string>
     <string name="all_apps_installed">Apiau wedi\u2019u gosod</string>
@@ -214,6 +220,7 @@
     <string name="no_device_admins">Dim apiau gweinyddu\u2019r ddyfais ar gael</string>
     <string name="security_enable_widgets_disabled_summary">Analluogwyd gan weinyddwr</string>
     <string name="disabled_by_administrator_summary">Dim ar gael</string>
+    <string name="manage_device_admin">Gweinyddwr y ddyfais</string>
     <string name="number_of_device_admins_none">Dim apiau yn weithredol</string>
     <string name="unlock_set_unlock_disabled_summary">Analluogwyd gan weinyddwr, polisi amgryptio, neu storfa tyst-nodyn</string>
     <string name="enterprise_privacy_settings">Gwybodaeth dyfais a reolir</string>
@@ -366,11 +373,17 @@
     <string name="title_internet_connection">Cysylltiad rhyngrwyd</string>
     <string name="connected">Wedi cysylltu</string>
     <string name="not_connected">Heb gysylltu</string>
+    <string name="wifi_no_internet">Dim Rhyngrwyd</string>
+    <string name="wifi_saved">Wedi\u2019i gadw</string>
+    <string name="wifi_bad_password">Cyfrinair anghywir</string>
+    <string name="wifi_short_password">Cyfrinair Wi-Fi yn rhy fyr</string>
+    <string name="wifi_captive_portal">Rhaid mewngofnodi</string>
     <string name="wifi_setting_header_other_options">Dewisiadau eraill</string>
     <string name="wifi_setting_see_all">Gweld y cwbl</string>
     <string name="wifi_setting_see_fewer">Gweld llai</string>
     <string name="wifi_setting_available_networks">Rhwydweithiau ar gael</string>
     <string name="wifi_setting_other_options_add_network">Ychwanegu rhwydwaith newydd</string>
+    <string name="wifi_setting_other_options_add_network_via_easyconnect">Cysylltu cyflym</string>
     <string name="security_type">Math o ddiogelwch</string>
     <string name="other_network">Rhwydwaith arall…</string>
     <string name="skip_network">Neidio</string>
@@ -398,6 +411,7 @@
     <string name="title_wifi_proxy_settings_invalid">Gosodiadau procsi yn annilys</string>
     <string name="title_wifi_ip_settings_invalid">Gosodiadau IP yn annilys</string>
     <string name="title_wifi_known_network">Mae <xliff:g id="ssid">%1$s</xliff:g> yn rhwydwaith wedi\'i gadw</string>
+    <string name="title_wifi_scan_qr_code">Sgania god QR i ymuno</string>
     <string name="wifi_action_try_again">Ceisio eto</string>
     <string name="wifi_action_view_available_networks">Gweld y rhwydweithiau ar gael</string>
     <string name="wifi_connecting">Yn cysylltu â <xliff:g id="ssid">%1$s</xliff:g></string>
@@ -409,6 +423,7 @@
         \n
         O <b>Ffôn Android</b> cer i Gosodiadau -&gt; Rhwydwaith a\u2019r rhyngrwyd -&gt; Wi-Fi -&gt; Dewis Wi-Fi -&gt; Uwch -&gt; Ychwanegu ddyfais, ac yna sganio\u2019r cod QR.
     </string>
+    <string name="wifi_scan_qr_code_back_description">Pwysa\u2019r botwm yn ôl i ddiddymu</string>
     <string name="wifi_action_ok">Iawn</string>
     <string name="wifi_setup_action_dont_change_network">Parhau</string>
     <string name="wifi_setup_action_change_network">Newid rhwydwaith</string>
@@ -449,6 +464,7 @@
     <string name="wifi_summary_title_not_connected">Rhwydwaith heb gysylltu</string>
     <string name="wifi_summary_description_connected_to_wifi_network">Eisoes wedi cysylltu â <xliff:g id="ssid">%1$s</xliff:g>. Cysylltu â rhwydwaith gwahanol?</string>
     <string name="wifi_summary_unknown_network">rhwydwaith anhysbys</string>
+    <string name="wifi_empty_list_user_restricted">Nid oes gennyt ganiatâd i newid y rhwydwaith Wi\u2011Fi.</string>
     <string name="title_ok">Iawn</string>
     <string name="title_cancel">Diddymu</string>
     <string name="storage_title">Storfa</string>
@@ -457,6 +473,7 @@
     <string name="storage_calculating_size">Yn cyfrifo\u2026</string>
     <string name="storage_apps_usage">Apiau</string>
     <string name="storage_downloads_usage">Llwythi</string>
+    <string name="storage_dcim_usage">Lluniau a Fideos</string>
     <string name="storage_music_usage">Sain</string>
     <string name="storage_media_misc_usage">Amr.</string>
     <string name="storage_media_cache_usage">Data yn y cof dros dro</string>
@@ -551,6 +568,7 @@
         <item>Defnyddio\'r amser a ddarperir gan ffrwd trafnidiaeth</item>
         <item>I ffwrdd</item>
     </string-array>
+    <string name="sensor_toggle_description">Ar gyfer pob ap a gwasanaeth</string>
     <string name="no_recent_sensor_accesses">Dim mynediad diweddar</string>
     <string name="recently_accessed_show_all">Gweld y cwbl</string>
     <string name="microphone">Meicroffon</string>
@@ -589,11 +607,25 @@
     <string name="accessibility_services_category_title">Gwasanaethau</string>
     <string name="accessibility_service_settings">Gosodiadau gwasanaeth</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Testun cyferbyniad uchel</string>
+    <string name="accessibility_toggle_bold_text_preference_title">Testun trwm</string>
+    <string name="accessibility_color_correction">Cywiriad lliw</string>
+    <string name="color_correction_usage">Defnyddio cywiriad lliw</string>
+    <string name="color_correction_color_mode">Modd Lliw</string>
+    <string name="color_correction_mode_deuteranomaly">Diwteranomaledd</string>
+    <string name="color_correction_mode_deuteranomaly_summary">Coch-gwyrdd</string>
+    <string name="color_correction_mode_protanomaly">Protanomaledd</string>
+    <string name="color_correction_mode_protanomaly_summary">Coch-gwyrdd</string>
+    <string name="color_correction_mode_tritanomaly">Tritanomaledd</string>
+    <string name="color_correction_mode_tritanomaly_summary">Glas-melyn</string>
+    <string name="color_correction_mode_grayscale">Graddlwyd</string>
     <string name="palette_color_red">Coch</string>
+    <string name="palette_color_orange">Oren</string>
     <string name="palette_color_yellow">Melyn</string>
     <string name="palette_color_green">Gwyrdd</string>
     <string name="palette_color_cyan">Gwyrddlas</string>
     <string name="palette_color_blue">Glas</string>
+    <string name="palette_color_purple">Porffor</string>
+    <string name="palette_color_gray">Llwyd</string>
     <string name="accessibility_shortcut">Llwybr byr hygyrchedd</string>
     <string name="accessibility_shortcut_enable">Galluogi llwybr byr hygyrchedd</string>
     <string name="accessibility_shortcut_service">Gwasanaeth llwybr byr</string>
@@ -636,6 +668,8 @@
     <string name="color_cyan">Gwyrddlas</string>
     <string name="color_yellow">Melyn</string>
     <string name="color_magenta">Magenta</string>
+    <string name="accessibility_toggle_audio_description_preference_title">Disgrifiad sain</string>
+    <string name="accessibility_audio_description_summary">Clywed disgrifiad sain o beth sy\u2019n digwydd ar y sgrin mewn ffilimiau a sioeau ble mae hyn yn gweithio</string>
     <string name="system_accessibility_status">Galluogi</string>
     <string name="system_accessibility_config">Ffurfweddiad</string>
     <string name="system_accessibility_service_on_confirm_title">Defnyddio <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
@@ -655,6 +689,7 @@
     <string name="system_monitoring">Monitro</string>
     <string name="system_apps">Apiau</string>
     <string name="system_stay_awake">Aros yn effro</string>
+    <string name="keep_screen_on_summary">Bydd y sgrin byth yn cysgu</string>
     <string name="system_hdcp_checking">Gwirio HDCP</string>
     <string name="system_hdmi_optimization">Optimeiddiad HDMI</string>
     <string name="system_reboot_confirm">Ailgychwyn nawr?</string>
@@ -815,8 +850,12 @@
     <string name="restricted_profile_customize_restrictions">Ffurfweddu cyfyngiadau</string>
     <string name="restricted_profile_configure_apps_description_loading">Un foment\u2026</string>
     <string name="restricted_profile_change_password_title">Newid PIN</string>
+    <string name="restricted_profile_already_created_placeholder">Eisoes wedi\u2019i Greu</string>
     <string name="restricted_profile_skip_action">Neidio</string>
+    <string name="restricted_profile_create_pin_action">Creu PIN</string>
     <string name="restricted_profile_enter_preference_screen">Mynd mewn i\u2019r proffil cyfyngedig?</string>
+    <string name="restricted_profile_enter_not_found_placeholder">Dim proffil cyfyngedig</string>
+    <string name="restricted_profile_enter_already_entered_placeholder">Eisoes wedi\u2019i roi</string>
     <string name="restriction_description"><xliff:g id="description">%1$s</xliff:g>\n<xliff:g id="value">%2$s</xliff:g></string>
     <string name="app_sees_restricted_accounts_and_controlled_by">Gall yr ap hwn gael at dy gyfrifon. Rheolwyd gan <xliff:g id="app">%1$s</xliff:g></string>
     <string name="pin_enter_unlock_channel">Rho PIN i wylio\'r sianel hon</string>
@@ -829,6 +868,8 @@
     <string name="pin_toast_wrong">PIN anghywir. Ceisia eto.</string>
     <string name="pin_toast_not_match">Dyw\'r PIN ddim yr un fath. Ceisia eto.</string>
     <string name="wifi_setup_input_password">Rho gyfrinair ar gyfer <xliff:g id="ssid">%1$s</xliff:g></string>
+    <string name="wifi_setup_description">Dewisa <xliff:g id="wifi_submit_icon">%1$s</xliff:g> i barhau</string>
+    <string name="label_done_key">Iawn</string>
     <string name="wifi_setup_connection_success">Cysylltwyd yn llwyddiannus</string>
     <string name="wifi_setup_save_success">Cadwyd yn llwyddiannus</string>
     <string name="device_apps_app_management_version">Fersiwn <xliff:g id="app_version">%1$s</xliff:g></string>
@@ -851,10 +892,12 @@
     <string name="device_apps_app_management_clear_default_none">Dim rhagosodiadau wedi\'u gosod</string>
     <string name="device_apps_app_management_clear_cache">Clirio\u2019r cof dros dro</string>
     <string name="device_apps_app_management_notifications">Hysbysiadau</string>
+    <string name="device_apps_app_management_licenses">Ffynhonnell Trydydd Parti</string>
     <string name="device_apps_app_management_permissions">Caniatâd</string>
     <string name="device_apps_app_management_not_available">Ap ddim ar gael</string>
     <string name="unused_apps">Apiau heb eu defnyddio</string>
     <string name="settings_ok">Iawn</string>
+    <string name="settings_confirm">Cadarnhau</string>
     <string name="settings_cancel">Diddymu</string>
     <string name="settings_on">Ymlaen</string>
     <string name="settings_off">I ffwrdd</string>
@@ -865,6 +908,16 @@
     <string name="device_daydreams_sleep_description">Mae\'r arbedwr sgrin yn dechrau ar ôl gyfnod heb weithgaredd. Os nad oes arbedwr sgrin wedi ei ddewis, mae\'r sgrin yn diffodd.</string>
     <string name="device_daydreams_sleep_summary">Ar ôl <xliff:g id="sleep_description" example="3 minutes">%1$s</xliff:g> heb weithgaredd</string>
     <string name="device_energy_saver_screen_off">Diffodd y dangosydd</string>
+    <string name="device_energy_saver_timeout_description"><xliff:g id="sleep_description" example="4 hours">%1$s</xliff:g></string>
+    <string name="device_energy_saver_confirmation_title">Cadarnhau gosodiad Pŵer ac Ynni</string>
+    <string name="device_energy_saver_confirmation_message">Gall gadael dy deledu ymlaen am gyfnod hir gynyddu defnydd ynni</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title">Analluogi gosodiad arbed ynni</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text">Cadarnha dy fod am atal y dangosydd rhag diffodd wrth wylio, er y gall hyn olygu fwy o ddefnydd ynni.</string>
+    <string name="device_energy_saver_sleep_timeout">Pan yn anweithredol</string>
+    <string name="device_energy_saver_attentive_timeout">Pan yn gwylio</string>
+    <string name="device_energy_saver_category_title">Troi i ffwrdd yn awtomatig</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title">Troi i ffwrdd yn awtomatig pan yn anweithredol</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title">Troi i ffwrdd yn awtomatig pan yn gwylio</string>
     <string name="backup_configure_account_default_summary">Does dim cyfrif yn cadw data wrth gefn ar hyn o bryd</string>
     <string name="backup_erase_dialog_message">Stopio cadw copi wrth gefn o dy gyfrifon Wi-Fi, nodau tudalennau, gosodiadau eraill, a data apiau, a dileu\'r holl gopïau ar weinyddion Google?</string>
     <string name="privacy_backup_data">Creu copi wrth gefn o fy nata</string>
@@ -902,6 +955,8 @@
     <string name="manage_keyboards">Rheoli bysellfyrddau</string>
     <string name="app_permission_summary_allowed">Caniateir</string>
     <string name="app_permission_summary_not_allowed">Ni chaniateir</string>
+    <string name="usage_access">Data defnydd apiau</string>
+    <string name="usage_access_description">Mae data defnydd apiau yn caniatáu i ap dracio pa apiau eraill rwyt yn defnyddio a pha mor aml, yn ogystal â dy ddarparwr gwasanaeth, gosodiadau iaith, a manylion eraill.</string>
     <string name="high_power_apps">Optimeiddiad ynni</string>
     <string name="high_power_apps_description">Optimeiddio defnydd apiau o\'r batri</string>
     <string name="high_power_apps_empty">Does dim apiau angen eu hoptimeiddio</string>
@@ -953,10 +1008,17 @@
     <string name="disabled_by_policy_title_screen_capture">Ni chaniateir sgrinlun</string>
     <string name="disabled_by_policy_title_suspend_packages">Methu agor yr ap hwn</string>
     <string name="default_admin_support_msg">Os oes gennyt gwestiynau, cysyllta â dy weinyddwyr TG</string>
+    <string name="admin_support_more_info">Rhagor o fanylion</string>
+    <string name="remove_managed_profile_label">Tynnu proffil gwaith</string>
+    <string name="active_device_admin_msg">Ap gweinyddu\u2019r ddyfais</string>
     <string name="remove_device_admin">Dadactifadu\u2019r ap gweinyddu dyfais hwn</string>
+    <string name="uninstall_device_admin">Dadosod yr ap</string>
     <string name="remove_and_uninstall_device_admin">Dadactifadu a dadosod</string>
+    <string name="select_device_admin_msg">Gweinyddwr y ddyfais</string>
     <string name="add_device_admin_msg">Actifadu ap gweinyddu\u2019r ddyfais?</string>
     <string name="add_device_admin">Actifadu\u2019r app gweinyddu dyfais hwn?</string>
+    <string name="share_remote_bugreport_action">Rhannu</string>
+    <string name="decline_remote_bugreport_action">Gwrthod</string>
     <string name="network_connection_request_dialog_title">Dyfais i\'w defnyddio gyda <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g></string>
     <string name="network_connection_timeout_dialog_message">Heb ganfod dyfeisiau. Gwiria fod dyfeisiau ymlaen ac ar gael i gysylltu â nhw.</string>
     <string name="network_connection_timeout_dialog_ok">Ceisio eto</string>
@@ -964,9 +1026,23 @@
     <string name="network_connection_connect_successful">Cysylltiad llwyddiannus</string>
     <string name="network_connection_request_dialog_showall">Dangos y cwbl</string>
     <string name="progress_scanning">Yn chwilio</string>
+    <string name="channels_and_inputs_title">Sianeli a Mewnbynnau</string>
+    <string name="channels_and_inputs_summary">Sianeli, mewnbynnau allanol</string>
+    <string name="channels_settings_title">Sianeli</string>
+    <string name="external_inputs_settings_title">Mewnbynnau allanol</string>
+    <string name="display_and_sound_vendor_summary">Llun, sgrin, sain</string>
+    <string name="picture_settings_title">Llun</string>
     <string name="screen_settings_title">Sgrin</string>
     <string name="sound_settings_title">Sain</string>
+    <string name="power_and_energy">Pŵer ac Ynni</string>
+    <string name="power_on_behavior">Ymddygiad pŵer ymlaen</string>
     <string name="reset_options_title">Ailosod</string>
+    <string name="menu_monitor">Monitor</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label">Cod paru ethernet</string>
+    <string name="energy_modes">Moddau Ynni</string>
+    <string name="energy_modes_summary">Mae\u2019r gosodiadau hyn yn effeithio ar y ddyfais pan nad yw\u2019n cael ei ddefnyddio</string>
+    <string name="energy_mode_enables">Yn galluogi:</string>
     <string name="energy_modes_confirmation_title">Galluogi \"<xliff:g id="energyModeName" example="Essential network features">%s</xliff:g>\"</string>
+    <string name="find_my_remote_play_sound">Chwarae sain</string>
+    <string name="volume_change_subtitle_unselect">Gellir rheoli lefel sain y cynorthwyydd ar seinydd %1$s</string>
 </resources>
