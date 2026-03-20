@@ -14,17 +14,776 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Løyvestyring</string>
+    <string name="ok">OK</string>
+    <string name="permission_search_keyword">løyve</string>
+    <string name="cancel">Avbryt</string>
+    <string name="back">Tilbake</string>
+    <string name="dialog_close">Lukk</string>
+    <string name="available">Tilgjengeleg</string>
     <string name="blocked">Sperra</string>
+    <string name="on">På</string>
+    <string name="off">Av</string>
+    <string name="uninstall_or_disable">Avinstaller eller slå av</string>
+    <string name="app_not_found_dlg_title">Fann ikkje appen</string>
+    <string name="grant_dialog_button_deny">Ikkje gjev løyve</string>
+    <string name="grant_dialog_button_deny_and_dont_ask_again">Ikkje gjev løyve og ikkje spør att</string>
+    <string name="grant_dialog_button_no_upgrade">Hald på «Når appen er i bruk»</string>
+    <string name="grant_dialog_button_no_upgrade_one_time">Hald på «Berre denne gongen»</string>
+    <string name="grant_dialog_button_more_info">Meir informasjon</string>
+    <string name="grant_dialog_button_allow_all">Gjev løyve til alt</string>
+    <string name="grant_dialog_button_always_allow_all">Alltid gjev løyve til alt</string>
+    <string name="grant_dialog_button_allow_limited_access">Gjev avgrensa tilgang</string>
+    <string name="grant_dialog_button_allow_selected_photos">Vel bilete og videoar</string>
+    <string name="grant_dialog_button_allow_more_selected_photos">Vel fleire</string>
+    <string name="grant_dialog_button_dont_select_more">Ikkje vel fleire</string>
+    <string name="grant_dialog_button_deny_anyway">Ikkje gjev løyve likevel</string>
+    <string name="grant_dialog_button_dismiss">Lukk</string>
+    <string name="current_permission_template"> <xliff:g id="current_permission_index" example="1">%1$s</xliff:g> av
+<xliff:g id="permission_count" example="2">%2$s</xliff:g></string>
+    <string name="permission_warning_template">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; løyve til å <xliff:g id="action" example="do something">%2$s</xliff:g>?</string>
+    <string name="permission_add_background_warning_template">Vil du alltid gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; løyve til å <xliff:g id="action" example="do something">%2$s</xliff:g>?</string>
+    <string name="allow_permission_foreground_only">Berre når appen er i bruk</string>
+    <string name="allow_permission_always">Alltid</string>
+    <string name="deny_permission_deny_and_dont_ask_again">Ikkje gjev løyve og ikkje spør att</string>
+    <string name="permission_revoked_count"><xliff:g id="count" example="2">%1$d</xliff:g> er slått av</string>
+    <string name="permission_revoked_all">alle er slått av</string>
+    <string name="permission_revoked_none">ingen er slått av</string>
+    <string name="grant_dialog_button_allow">Gjev løyve</string>
+    <string name="grant_dialog_button_allow_always">Gjev løyve heile tida</string>
+    <string name="grant_dialog_button_allow_foreground">Når appen er i bruk</string>
+    <string name="grant_dialog_button_change_to_precise_location">Byt til nøyaktig posisjon</string>
+    <string name="grant_dialog_button_keey_approximate_location">Hald på omtrentleg posisjon</string>
+    <string name="grant_dialog_button_allow_one_time">Berre denne gongen</string>
+    <string name="grant_dialog_button_allow_background">Gjev løyve heile tida</string>
+    <string name="grant_dialog_button_allow_all_files">Gjev løyve til å styra alle filer</string>
+    <string name="grant_dialog_button_allow_media_only">Gjev tilgang til mediefiler</string>
+    <string name="app_permissions_breadcrumb">Appar</string>
+    <string name="app_permissions">Appløyve</string>
+    <string name="unused_apps">Ubrukte appar</string>
+    <string name="edit_photos_description">Endra bileta denne appen har tilgang til</string>
+    <string name="no_unused_apps">Ingen ubrukte appar</string>
+    <string name="zero_unused_apps">0 ubrukte appar</string>
+    <string name="review_permission_decisions">Nylege løyveval</string>
+    <string name="review_permission_decisions_view_all">Sjå alle nylege løyveval</string>
+    <string name="review_permission_decisions_empty">Ingen nylege løyveval</string>
+    <string name="auto_permission_manager_summary">Styr tilgangen til kalender, samtaleloggar og anna</string>
+    <string name="granted_permission_decision">Du gav <xliff:g id="app_name" example="Google Maps">%1$s</xliff:g> tilgang til <xliff:g id="permission_name" example="contacts">%2$s</xliff:g></string>
+    <string name="denied_permission_decision">Du nekta <xliff:g id="app_name" example="Google Maps">%1$s</xliff:g> tilgang til <xliff:g id="permission_name" example="contacts">%2$s</xliff:g></string>
+    <string name="days_ago">{count, plural,
+=0 {I dag}
+=1 {I går}
+other {# dagar sidan}
+}</string>
+    <string name="app_disable_dlg_positive">Slå av appen</string>
+    <string name="app_disable_dlg_text">Om du slår av denne appen, kan det henda at Android og andre appar ikkje lenger fungerer som dei skal. Hugs at du ikkje kan sletta denne appen sidan han kom førehandsinstallert på eininga di. Ved å slå han av, deaktiverer du appen og gøymer han på eininga.</string>
+    <string name="app_permission_manager">Løyvehandsaming</string>
+    <string name="never_ask_again">Ikkje spør att</string>
+    <string name="no_permissions">Ingen løyve</string>
+    <string name="additional_permissions">Andre løyve</string>
+    <string name="app_permissions_info_button_label">Opna appinformasjonen</string>
+    <string name="additional_permissions_more">{count, plural,
+=1 {# til}
+other {# til}
+}</string>
+    <string name="old_sdk_deny_warning">Denne appen er laga for ein eldre versjon av Android. Om du nektar han løyve, kan det henda at han ikkje lenger fungerer som han skal.</string>
+    <string name="storage_supergroup_warning_allow">Denne appen er laga for ein eldre versjon av Android. Om du gjev dette løyvet, får appen tilgang til alt på lagringsplassen (bilete, videoar, musikk, lyd og andre filer).</string>
+    <string name="storage_supergroup_warning_deny">Denne appen er laga for ein eldre versjon av Android. Om du nektar dette løyvet, får ikkje appen tilgang til noko på lagringsplassen (bilete, videoar, musikk, lyd og andre filer).</string>
+    <string name="default_permission_description">utføra ei ukjend handling</string>
+    <string name="app_permissions_group_summary"><xliff:g id="count" example="10">%1$d</xliff:g> av <xliff:g id="count" example="10">%2$d</xliff:g> appar har løyve</string>
+    <string name="app_permissions_group_summary2"><xliff:g id="count" example="10">%1$d</xliff:g>/<xliff:g id="count" example="10">%2$d</xliff:g> appar har løyve</string>
+    <string name="menu_show_system">Vis systemet</string>
+    <string name="menu_hide_system">Gøym systemet</string>
+    <string name="menu_show_7_days_data">Vis siste 7 dagar</string>
+    <string name="menu_show_24_hours_data">Vis siste 24 timar</string>
+    <string name="manage_permission">Handter løyve</string>
+    <string name="no_apps">Ingen appar</string>
+    <string name="location_settings">Posisjonsinnstillingar</string>
+    <string name="location_warning"><xliff:g id="app_name" example="Package Installer">%1$s</xliff:g> leverer posisjonstenester for denne eininga. Du kan endra tilgangen til posisjon i posisjonsinnstillingane.</string>
+    <string name="system_warning">Om du nektar dette løyvet, kan det henda at grunnleggjande funksjonar på eininga ikkje lenger fungerer som dei skal.</string>
+    <string name="deny_read_media_visual_warning">Denne appen er laga for ein eldre versjon av Android. Om du nektar appen tilgang til bilete og videoar, vert han òg nekta tilgang til musikk og lyd.</string>
+    <string name="deny_read_media_aural_warning">Denne appen er laga for ein eldre versjon av Android. Om du nektar appen tilgang til musikk og lyd, vert han òg nekta tilgang til bilete og videoar.</string>
+    <string name="cdm_profile_revoke_warning">Om du nektar dette løyvet, kan det henda at somme funksjonar på eininga di som denne appen styrer, ikkje lenger fungerer som dei skal.</string>
+    <string name="permission_summary_enforced_by_policy">Pålagt av retningslinjer</string>
+    <string name="permission_summary_disabled_by_policy_background_only">Bakgrunnstilgang er slått av i følgje retningslinjene</string>
+    <string name="permission_summary_enabled_by_policy_background_only">Bakgrunnstilgang er slått på i følgje retningslinjene</string>
+    <string name="permission_summary_enabled_by_policy_foreground_only">Tilgang i bruk er slått på i følgje retningslinjene</string>
+    <string name="permission_summary_enforced_by_admin">Styrt av administrator</string>
+    <string name="permission_summary_disabled_by_admin_background_only">Bakgrunnstilgang er slått av av ein administrator</string>
+    <string name="permission_summary_enabled_by_admin_background_only">Bakgrunnstilgang er slått på av ein administrator</string>
+    <string name="permission_summary_enabled_by_admin_foreground_only">Tilgang i bruk er slått på av ein administrator</string>
+    <string name="permission_summary_enabled_system_fixed">Eininga krev dette løyvet for å fungera</string>
+    <string-array name="background_access_chooser_dialog_choices">
+        <item>@string/permission_access_always</item>
+        <item>@string/permission_access_only_foreground</item>
+        <item>@string/permission_access_never</item>
+    </string-array>
+    <string name="permission_access_always">Gjev løyve heile tida</string>
+    <string name="permission_access_only_foreground">Gjev løyve berre når appen er i bruk</string>
+    <string name="permission_access_never">Ikkje gjev løyve</string>
     <string name="loading">Lastar inn \u2026</string>
+    <string name="all_permissions">Alle løyve</string>
+    <string name="other_permissions">Andre appfunksjonar</string>
+    <string name="permission_request_title">Løyveførespurnad</string>
+    <string name="permission_review_title_template_install">Vel kva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; skal få tilgang til</string>
+    <string name="permission_review_title_template_update">&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; er oppdatert. Vel kva appen skal få tilgang til.</string>
+    <string name="review_button_cancel">Avbryt</string>
+    <string name="review_button_continue">Hald fram</string>
+    <string name="new_permissions_category">Nye løyve</string>
+    <string name="current_permissions_category">Gjeldande løyve</string>
     <string name="message_staging">Klargjer appen …</string>
+    <string name="app_name_unknown">Ukjend</string>
+    <string name="permission_usage_title">Personvernoversikt</string>
+    <string name="auto_permission_usage_summary">Sjå kva appar som nyleg har brukt løyve</string>
+    <string name="permission_group_usage_title">Bruk av <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
+    <string name="perm_usage_adv_info_title">Sjå andre løyve</string>
+    <string name="perm_usage_adv_info_summary_2_items"><xliff:g id="permgroup" example="Location">%1$s</xliff:g>, <xliff:g id="permgroup" example="Location">%2$s</xliff:g></string>
+    <string name="perm_usage_adv_info_summary_more_items"><xliff:g id="permgroup" example="Location">%1$s</xliff:g>, <xliff:g id="permgroup" example="Location">%2$s</xliff:g> og <xliff:g id="num" example="7">%3$s</xliff:g> til</string>
+    <string name="permission_group_usage_subtitle_24h">Tidslinje for når appar har brukt <xliff:g id="permgroup" example="Location">%1$s</xliff:g> det siste døgeret</string>
+    <string name="permission_group_usage_subtitle_7d">Tidslinje for når appar har brukt <xliff:g id="permgroup" example="Location">%1$s</xliff:g> dei siste 7 dagane</string>
+    <string name="permission_usage_access_dialog_subtitle">Når denne appen brukte løyvet for <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
+    <string name="permission_usage_access_dialog_learn_more">Finn ut meir</string>
+    <string name="learn_more_content_description">Finn ut meir om <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
+    <string name="manage_permission_summary">Styr apptilgangen til <xliff:g id="permgroup" example="Location">%1$s</xliff:g></string>
+    <string name="auto_permission_usage_timeline_summary"><xliff:g id="access_time" example="12:23am">%1$s</xliff:g> \u2022 <xliff:g id="summary_text" example="2 mins">%2$s</xliff:g></string>
+    <string name="history_preference_subtext_2"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> \u2022 <xliff:g id="truncated_time" example="1 hr 20min">%2$s</xliff:g></string>
+    <string name="history_preference_subtext_3"><xliff:g id="attribution_name" example="Nearby Share">%1$s</xliff:g> \u2022 <xliff:g id="app_name" example="Gmail">%2$s</xliff:g> \u2022 <xliff:g id="truncated_time" example="1 hr 20min">%3$s</xliff:g></string>
+    <string name="duration_used_days">{count, plural,
+=1 {# dag}
+other {# dagar}
+}</string>
+    <string name="duration_used_hours">{count, plural,
+=1 {# time}
+other {# timar}
+}</string>
+    <string name="duration_used_minutes">{count, plural,
+=1 {# min}
+other {# min}
+}</string>
+    <string name="duration_used_seconds">{count, plural,
+=1 {# sek}
+other {# sek}
+}</string>
+    <string name="permission_usage_any_permission">Kva som helst løyve</string>
+    <string name="permission_usage_any_time">Kva tid som helst</string>
+    <string name="permission_usage_last_n_days">{count, plural,
+=1 {Siste dag}
+other {Siste # dagar}
+}</string>
+    <string name="permission_usage_last_n_hours">{count, plural,
+=1 {Siste time}
+other {Siste # timar}
+}</string>
+    <string name="permission_usage_last_n_minutes">{count, plural,
+=1 {Siste minutt}
+other {Siste # minutt}
+}</string>
+    <string name="no_permission_usages">Ingen bruk av løyve</string>
+    <string name="permission_usage_list_title_any_time">Siste tilgangar</string>
+    <string name="permission_usage_list_title_last_7_days">Siste tilgangar dei siste 7 dagane</string>
+    <string name="permission_usage_list_title_last_day">Siste tilgangar det siste døgeret</string>
+    <string name="permission_usage_list_title_last_hour">Siste tilgangar den siste timen</string>
+    <string name="permission_usage_list_title_last_15_minutes">Siste tilgangar dei siste 15 minutta</string>
+    <string name="permission_usage_list_title_last_minute">Siste tilgangar det siste minuttet</string>
+    <string name="permission_usage_bar_chart_title_any_time">Løyvebruk</string>
+    <string name="permission_usage_bar_chart_title_last_7_days">Løyvebruk dei siste 7 dagane</string>
+    <string name="permission_usage_bar_chart_title_last_day">Løyvebruk det siste døgeret</string>
+    <string name="permission_usage_bar_chart_title_last_hour">Løyvebruk den siste timen</string>
+    <string name="permission_usage_bar_chart_title_last_15_minutes">Løyvebruk dei siste 15 minutta</string>
+    <string name="permission_usage_bar_chart_title_last_minute">Løyvebruk det siste minuttet</string>
+    <string name="permission_usage_preference_summary_not_used_in_past_n_days">{count, plural,
+=1 {Ikkje brukt det siste døgeret}
+other {Ikkje brukt dei siste # dagane}
+}</string>
+    <string name="permission_usage_preference_summary_not_used_in_past_n_hours">{count, plural,
+=1 {Ikkje brukt den siste timen}
+other {Ikkje brukt dei siste # timane}
+}</string>
+    <string name="permission_usage_preference_label">{count, plural,
+=1 {Brukt av 1 app}
+other {Brukt av # appar}
+}</string>
+    <string name="permission_usage_view_details">Sjå alt i oversikta</string>
+    <string name="app_permission_usage_filter_label">Filtrert etter: <xliff:g id="perm" example="Location">%1$s</xliff:g> </string>
+    <string name="app_permission_usage_remove_filter">Fjern filteret</string>
+    <string name="filter_by_title">Filtrer etter</string>
+    <string name="filter_by_permissions">Filtrer etter løyve</string>
+    <string name="filter_by_time">Filtrer etter tid</string>
+    <string name="sort_spinner_most_permissions">Flest løyve</string>
+    <string name="sort_spinner_most_accesses">Flest tilgangar</string>
+    <string name="sort_spinner_recent">Nyleg</string>
+    <string name="sort_by_app">Sorter etter appbruk</string>
+    <string name="sort_by_time">Sorter etter tid</string>
+    <string name="item_separator">,\u0020</string>
+    <string name="permission_usage_refresh">Oppdater</string>
+    <string name="permission_history_title">Løyvehistorikk</string>
+    <string name="permission_history_category_today">I dag</string>
+    <string name="permission_history_category_yesterday">I går</string>
+    <string name="app_permission_usage_title">Løyvebruk for appar</string>
+    <string name="app_permission_usage_summary">Tilgang: <xliff:g id="num" example="2">%1$s</xliff:g> gonger. Samla tid: <xliff:g id="duration" example="2 hours">%2$s</xliff:g>. Sist brukt for <xliff:g id="time" example="2 hours">%3$s</xliff:g> sidan.</string>
+    <string name="app_permission_usage_summary_no_duration">Tilgang: <xliff:g id="num" example="2">%1$s</xliff:g> gonger. Sist brukt for <xliff:g id="time" example="2 hours">%2$s</xliff:g> sidan.</string>
+    <string name="app_permission_button_allow">Gjev løyve</string>
+    <string name="app_permission_button_allow_all_files">Gjev løyve til å styra alle filer</string>
+    <string name="app_permission_button_allow_media_only">Gjev tilgang berre til mediefiler</string>
+    <string name="app_permission_button_allow_always">Gjev løyve heile tida</string>
+    <string name="app_permission_button_allow_foreground">Gjev løyve berre når appen er i bruk</string>
+    <string name="app_permission_button_always_allow_all">Alltid gjev løyve til alt</string>
+    <string name="app_permission_button_ask">Spør kvar gong</string>
+    <string name="app_permission_button_deny">Ikkje gjev løyve</string>
+    <string name="app_permission_button_allow_limited_access">Gjev avgrensa tilgang</string>
+    <string name="precise_image_description">Nøyaktig posisjon</string>
+    <string name="approximate_image_description">Omtrentleg posisjon</string>
+    <string name="app_permission_location_accuracy">Bruk nøyaktig posisjon</string>
+    <string name="app_permission_location_accuracy_subtitle">Når nøyaktig posisjon er av, kan appar berre få tak i omtrentleg posisjon</string>
+    <string name="app_permission_title">Løyve for <xliff:g id="perm" example="location">%1$s</xliff:g></string>
+    <string name="app_permission_header">Tilgang til <xliff:g id="perm" example="location">%1$s</xliff:g> for denne appen</string>
+    <string name="app_permission_header_with_device_name">Tilgang til <xliff:g id="perm" example="camera">%1$s</xliff:g> for denne appen på <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
+    <string name="app_permission_footer_app_permissions_link">Sjå alle løyva for <xliff:g id="app" example="Maps">%1$s</xliff:g></string>
+    <string name="app_permission_footer_permission_apps_link">Sjå alle appar med dette løyvet</string>
     <string name="app_permission_info_button">Informasjon</string>
+    <string name="app_permission_settings_button">Innstillingar</string>
+    <string name="assistant_mic_label">Vis når assistenten brukar mikrofonen</string>
+    <string name="unused_apps_category_title">Innstillingar for ubrukte appar</string>
+    <string name="auto_revoke_label">Fjern løyve viss appen ikkje vert brukt</string>
+    <string name="unused_apps_label">Fjern løyve og frigjer plass</string>
+    <string name="unused_apps_label_v2">Sett appaktiviteten på pause viss han ikkje vert brukt</string>
+    <string name="unused_apps_label_v3">Handter appen viss han ikkje vert brukt</string>
+    <string name="unused_apps_summary">Fjern løyve, slett mellombelse filer og stopp varsel</string>
+    <string name="unused_apps_summary_v2">Fjern løyve, slett mellombelse filer, stopp varsel og arkiver appen</string>
+    <string name="auto_revoke_summary">For å verna dataa dine vert løyva for denne appen fjerna om han ikkje vert brukt på nokre månader.</string>
+    <string name="auto_revoke_summary_with_permissions">For å verna dataa dine vert desse løyva fjerna om appen ikkje vert brukt på nokre månader: <xliff:g id="perms" example="location, contacts, and phone">%1$s</xliff:g></string>
+    <string name="auto_revoked_apps_page_summary">For å verna dataa dine er løyva fjerna frå appar som du ikkje har brukt på nokre månader.</string>
+    <string name="auto_revoke_open_app_message">Opna appen om du vil gjeva løyva på nytt.</string>
+    <string name="auto_revoke_disabled">Automatisk fjerning er slått av for denne appen.</string>
+    <string name="auto_revocable_permissions_none">Ingen løyve som kan fjernast automatisk, er gjevne</string>
+    <string name="auto_revocable_permissions_one">Løyvet for <xliff:g id="perm" example="location">%1$s</xliff:g> vert fjerna.</string>
+    <string name="auto_revocable_permissions_two">Løyva for <xliff:g id="perm" example="location">%1$s</xliff:g> og <xliff:g id="perm" example="contacts">%2$s</xliff:g> vert fjerna.</string>
+    <string name="auto_revocable_permissions_many">Desse løyva vert fjerna: <xliff:g id="perms" example="location, contacts, and phone">%1$s</xliff:g>.</string>
+    <string name="auto_manage_title">Handter løyve automatisk</string>
+    <string name="auto_revoked_app_summary_one">Løyvet for <xliff:g id="permission_name" example="Location">%s</xliff:g> er fjerna</string>
+    <string name="auto_revoked_app_summary_two">Løyva for <xliff:g id="permission_name" example="Camera">%1$s</xliff:g> og <xliff:g id="permission_name" example="Contacts">%2$s</xliff:g> er fjerna</string>
+    <string name="auto_revoked_app_summary_many">Løyva for <xliff:g id="permission_name" example="Microphone">%1$s</xliff:g> og <xliff:g id="number" example="2">%2$s</xliff:g> andre er fjerna</string>
+    <string name="unused_apps_page_title">Ubrukte appar</string>
+    <string name="unused_apps_page_summary">Om ein app ikkje vert brukt på nokre månader:\n\n\u2022 Løyva vert fjerna for å verna dataa dine\n\u2022 Varsel vert stoppa for å spara batteri\n\u2022 Mellombelse filer vert fjerna for å frigjera plass\n\nOpna appen om du vil gjeva løyva eller slå på varsla att.</string>
+    <string name="unused_apps_page_tv_summary">Om ein app ikkje vert brukt på ein månad:\n\n\u2022 Løyva vert fjerna for å verna dataa dine\n\u2022 Mellombelse filer vert fjerna for å frigjera plass\n\nOpna appen om du vil gje løyva att.</string>
+    <string name="last_opened_category_title"> {count, plural,
+=1{Sist opna for meir enn # månad sidan}
+other{Sist opna for meir enn # månader sidan}
+}</string>
+    <string name="last_opened_summary">Appen vart sist opna <xliff:g id="date" example="March 12, 2020">%s</xliff:g></string>
+    <string name="last_opened_summary_short">Sist opna <xliff:g id="date" example="March 12, 2020">%s</xliff:g></string>
+    <string name="app_permission_footer_special_file_access">Om du gjev løyve til å styra alle filer, kan denne appen få tak i, endra og sletta alle filer på lagringsplassen på denne eininga eller tilkopla einingar. Appen kan henta filer utan å spørja deg.</string>
+    <string name="special_file_access_dialog">Vil du gjeva denne appen løyve til å henta, endra og sletta filer på eininga eller tilkopla lagringseiningar? Appen kan henta filer utan å spørja deg.</string>
+    <string name="permission_description_summary_generic">Appar med dette løyvet kan <xliff:g id="description" example="record audio">%1$s</xliff:g></string>
+    <string name="permission_description_summary_activity_recognition">Appar med dette løyvet får tilgang til fysisk aktivitet, som gåing, sykling, bilkøyring, stegteljing og anna</string>
+    <string name="permission_description_summary_calendar">Appar med dette løyvet får tilgang til kalenderen din</string>
+    <string name="permission_description_summary_call_log">Appar med dette løyvet kan lesa og skriva i samtaleloggen</string>
+    <string name="permission_description_summary_camera">Appar med dette løyvet kan ta bilete og ta opp video</string>
+    <string name="permission_description_summary_contacts">Appar med dette løyvet får tilgang til kontaktane dine</string>
+    <string name="permission_description_summary_location">Appar med dette løyvet får tilgang til posisjonen til eininga</string>
+    <string name="permission_description_summary_nearby_devices">Appar med dette løyvet kan finna, kopla til og sjå kor andre einingar i nærleiken er</string>
+    <string name="permission_description_summary_microphone">Appar med dette løyvet kan ta opp lyd</string>
+    <string name="permission_description_summary_phone">Appar med dette løyvet kan ringja og styra telefonsamtalar</string>
+    <string name="permission_description_summary_sensors">Appar med dette løyvet får tilgang til sensordata om helsetilstanden din</string>
+    <string name="permission_description_summary_sms">Appar med dette løyvet kan senda og sjå SMS-meldingar</string>
+    <string name="permission_description_summary_storage">Appar med dette løyvet får tilgang til bilete, medium og filer på eininga di</string>
+    <string name="permission_description_summary_read_media_aural">Appar med dette løyvet får tilgang til musikk og andre lydfiler på eininga di</string>
+    <string name="permission_description_summary_read_media_visual">Appar med dette løyvet får tilgang til bilete og videoar på eininga di</string>
+    <string name="app_permission_most_recent_summary">Sist brukt: <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="app_permission_most_recent_denied_summary">Nekta no / Sist brukt: <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="app_permission_never_accessed_summary">Aldri brukt</string>
+    <string name="app_permission_never_accessed_denied_summary">Nekta / Aldri brukt</string>
+    <string name="allowed_header">Gjeve løyve</string>
+    <string name="allowed_always_header">Alltid gjeve løyve</string>
+    <string name="allowed_foreground_header">Gjeve løyve berre i bruk</string>
+    <string name="allowed_storage_scoped">Tilgang berre til mediefiler</string>
+    <string name="allowed_storage_full">Løyve til å styra alle filer</string>
+    <string name="ask_header">Spør kvar gong</string>
+    <string name="denied_header">Ikkje gjeve løyve</string>
+    <string name="permission_group_name_with_device_name"><xliff:g id="perm_group_name" example="camera">%1$s</xliff:g> på <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
+    <string name="storage_footer_hyperlink_text">Sjå fleire appar som kan styra alle filer</string>
+    <string name="days">{count, plural,
+=1 {1 dag}
+other {# dagar}
+}</string>
+    <string name="hours">{count, plural,
+=1 {1 time}
+other {# timar}
+}</string>
+    <string name="minutes">{count, plural,
+=1 {1 minutt}
+other {# minutt}
+}</string>
+    <string name="seconds">{count, plural,
+=1 {1 sekund}
+other {# sekund}
+}</string>
+    <string name="permission_reminders">Løyvepåminningar</string>
+    <string name="auto_revoke_permission_reminder_notification_title_one">1 ubrukt app</string>
+    <string name="auto_revoke_permission_reminder_notification_title_many"><xliff:g id="number_of_apps" example="4">%s</xliff:g> ubrukte appar</string>
+    <string name="auto_revoke_permission_reminder_notification_content">Løyve er fjerna for å verna personvernet ditt. Trykk for å gå gjennom dei.</string>
+    <string name="auto_revoke_permission_notification_title">Løyva er fjerna for appar som ikkje er i bruk</string>
+    <string name="auto_revoke_permission_notification_content">Somme appar er ikkje brukte på nokre månader. Trykk for å gå gjennom dei.</string>
+    <string name="unused_apps_notification_title">{count, plural,
+=1 {# ubrukt app}
+other {# ubrukte appar}
+}</string>
+    <string name="unused_apps_notification_content">Løyve og mellombelse filer er fjerna, og varsla er stoppa. Trykk for å gå gjennom dette.</string>
+    <string name="unused_apps_safety_center_card_title">Gå gjennom appar der løyva er fjerna</string>
+    <string name="unused_apps_safety_center_card_content">For appar som du ikkje har brukt på ei stund, er løyve og mellombelse filer fjerna og varsla stoppa.</string>
+    <string name="unused_apps_safety_center_action_title">Gå gjennom appar</string>
+    <string name="post_drive_permission_decision_reminder_title">Sjekk nylege løyve</string>
+    <string name="post_drive_permission_decision_reminder_summary_1_app_1_permission">Du gav <xliff:g id="app" example="Waze">%1$s</xliff:g> tilgang til <xliff:g id="permission" example="location">%2$s</xliff:g> medan du køyrde</string>
+    <string name="post_drive_permission_decision_reminder_summary_1_app_2_permissions">Du gav <xliff:g id="app" example="Waze">%1$s</xliff:g> tilgang til <xliff:g id="permission_1" example="location">%2$s</xliff:g> og <xliff:g id="permission_2" example="microphone">%3$s</xliff:g> medan du køyrde</string>
+    <string name="post_drive_permission_decision_reminder_summary_1_app_multi_permission">Du gav <xliff:g id="count" example="2">%1$d</xliff:g> løyve til <xliff:g id="app" example="Waze">%2$s</xliff:g> medan du køyrde</string>
+    <string name="post_drive_permission_decision_reminder_summary_multi_apps">{count, plural,
+=1 {Du gav <xliff:g id="app" example="Waze">%1$s</xliff:g> og # annan app tilgang medan du køyrde}
+other {Du gav <xliff:g id="app" example="Waze">%1$s</xliff:g> og # andre appar tilgang medan du køyrde}
+}</string>
+    <string name="go_to_settings">Gå til innstillingar</string>
+    <string name="auto_revoke_setting_subtitle">Somme appar er ikkje brukte på nokre månader</string>
+    <string name="permissions_removed_category_title">Fjerna løyve</string>
+    <string name="permission_removed_page_title">Løyva er fjerna</string>
+    <string name="all_unused_apps_category_title">Alle ubrukte appar</string>
+    <string name="months_ago"><xliff:g id="count" example="2">%1$d</xliff:g> månader sidan</string>
+    <string name="auto_revoke_preference_summary">Løyva er fjerna for å verna personvernet ditt</string>
+    <string name="background_location_access_reminder_notification_title"><xliff:g id="app_name" example="Gmail">%s</xliff:g> henta posisjonen din i bakgrunnen</string>
+    <string name="background_location_access_reminder_notification_content">Denne appen har alltid tilgang til posisjonen din. Trykk for å endra dette.</string>
+    <string name="notification_listener_reminder_notification_title">Gå gjennom appar som har tilgang til varsla dine</string>
+    <string name="notification_listener_reminder_notification_content"><xliff:g id="app_name" example="Gmail">%s</xliff:g> kan fjerna, svara på og lesa innhaldet i varsla dine</string>
+    <string name="notification_listener_warning_card_content">Denne appen kan fjerna, svara på og lesa innhaldet i varsla dine. Somme appar treng denne tilgangen for å fungera som dei skal.</string>
+    <string name="notification_listener_remove_access_button_label">Fjern tilgangen</string>
+    <string name="notification_listener_review_app_button_label">Sjå fleire val</string>
+    <string name="notification_listener_remove_access_success_label">Tilgangen er fjerna</string>
+    <string name="accessibility_access_reminder_notification_title">Gå gjennom appar med full tilgang til eininga</string>
+    <string name="accessibility_access_reminder_notification_content"><xliff:g id="app_name" example="Gmail">%s</xliff:g> kan sjå skjermen din og utføra handlingar på eininga di. Tilgjenge-appar treng slik tilgang for å fungera som dei skal.</string>
+    <string name="accessibility_access_warning_card_content">Denne appen kan sjå skjermen din og utføra handlingar på eininga di. Tilgjenge-appar treng slik tilgang for å fungera som dei skal, men sjekk at du stoler på appen.</string>
+    <string name="accessibility_remove_access_button_label">Fjern tilgangen</string>
+    <string name="accessibility_show_all_apps_button_label">Vis appar med full tilgang</string>
+    <string name="accessibility_remove_access_success_label">Tilgangen er fjerna</string>
+    <string name="safety_center_notification_app_label">Android-systemet</string>
+    <string name="auto_revoke_after_notification_title">Appløyve er fjerna for å verna personvernet</string>
+    <string name="auto_revoke_after_notification_content_one"><xliff:g id="app_name" example="Gmail">%s</xliff:g> er ikkje brukt på nokre månader. Trykk for å gå gjennom.</string>
+    <string name="auto_revoke_after_notification_content_two"><xliff:g id="app_name" example="Gmail">%s</xliff:g> og ein annan app er ikkje brukte på nokre månader. Trykk for å gå gjennom.</string>
+    <string name="auto_revoke_after_notification_content_many"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> og <xliff:g id="number_of_apps" example="4">%2$s</xliff:g> andre appar er ikkje brukte på nokre månader. Trykk for å gå gjennom.</string>
+    <string name="auto_revoke_before_notification_title_one">1 app er ikkje i bruk</string>
+    <string name="auto_revoke_before_notification_title_many"><xliff:g id="number_of_apps" example="4">%s</xliff:g> appar er ikkje i bruk</string>
+    <string name="auto_revoke_before_notification_content_one">Løyva vert fjerna for å verna personvernet ditt. Trykk for å gå gjennom.</string>
+    <string name="unused_apps_title">Ubrukte appar</string>
+    <string name="unused_apps_subtitle_after">Løyva er fjerna frå</string>
+    <string name="unused_apps_subtitle_before">Løyva vert fjerna frå</string>
+    <string name="unused_permissions_subtitle_two"><xliff:g id="perm_name" example="Location">%1$s</xliff:g> og <xliff:g id="perm_name" example="Contacts">%2$s</xliff:g></string>
+    <string name="unused_permissions_subtitle_many"><xliff:g id="perm_name" example="Location">%1$s</xliff:g>, <xliff:g id="perm_name" example="Contacts">%2$s</xliff:g> og <xliff:g id="number_of_permissions" example="4">%3$s</xliff:g> til</string>
+    <string name="unused_app_permissions_removed_summary">For å verna dataa dine er løyva fjerna frå appar som du ikkje har brukt på nokre månader</string>
+    <string name="unused_app_permissions_removed_summary_some">For å verna dataa dine er løyva fjerna frå somme appar som du ikkje har brukt på nokre månader</string>
+    <string name="one_unused_app_summary">1 app er ikkje brukt på nokre månader</string>
+    <string name="num_unused_apps_summary"><xliff:g id="number_of_apps" example="4">%s</xliff:g> appar er ikkje brukte på nokre månader</string>
+    <string name="permission_subtitle_only_in_foreground">Berre når appen er i bruk</string>
+    <string name="permission_subtitle_media_only">Medium</string>
+    <string name="permission_subtitle_all_files">Alle filer</string>
+    <string name="permission_subtitle_background">Løyve heile tida</string>
+    <string name="app_perms_24h_access">Sist brukt <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="app_perms_24h_access_yest">Sist brukt i går kl. <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="app_perms_7d_access">Sist brukt <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> kl. <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g></string>
+    <string name="app_perms_content_provider_24h">Brukt det siste døgeret</string>
+    <string name="app_perms_content_provider_7d">Brukt dei siste 7 dagane</string>
+    <string name="app_perms_24h_access_background">Sist brukt <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Løyve heile tida</string>
+    <string name="app_perms_24h_access_yest_background">Sist brukt i går kl. <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Løyve heile tida</string>
+    <string name="app_perms_7d_access_background">Sist brukt <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> kl. <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g> \u2022 Løyve heile tida</string>
+    <string name="app_perms_content_provider_24h_background">Brukt det siste døgeret \u2022 Løyve heile tida</string>
+    <string name="app_perms_content_provider_7d_background">Brukt dei siste 7 dagane \u2022 Løyve heile tida</string>
+    <string name="app_perms_24h_access_media_only">Sist brukt <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Media</string>
+    <string name="app_perms_24h_access_yest_media_only">Sist brukt i går kl. <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Media</string>
+    <string name="app_perms_7d_access_media_only">Sist brukt <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> kl. <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g> \u2022 Media</string>
+    <string name="app_perms_content_provider_24h_media_only">Brukt det siste døgeret \u2022 Media</string>
+    <string name="app_perms_content_provider_7d_media_only">Brukt dei siste 7 dagane \u2022 Media</string>
+    <string name="app_perms_24h_access_all_files">Sist brukt <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Alle filer</string>
+    <string name="app_perms_24h_access_yest_all_files">Sist brukt i går kl. <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g> \u2022 Alle filer</string>
+    <string name="app_perms_7d_access_all_files">Sist brukt <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> kl. <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g> \u2022 Alle filer</string>
+    <string name="app_perms_content_provider_24h_all_files">Brukt det siste døgeret \u2022 Alle filer</string>
+    <string name="app_perms_content_provider_7d_all_files">Brukt dei siste 7 dagane \u2022 Alle filer</string>
+    <string name="no_permissions_allowed">Ingen løyve er gjevne</string>
+    <string name="no_permissions_denied">Ingen løyve er nekta</string>
+    <string name="no_apps_allowed">Ingen appar har løyve</string>
+    <string name="no_apps_allowed_full">Ingen appar har løyve for alle filer</string>
+    <string name="no_apps_allowed_scoped">Ingen appar har løyve berre for mediefiler</string>
+    <string name="no_apps_denied">Ingen appar er nekta løyve</string>
+    <string name="car_permission_selected">Valt</string>
+    <string name="settings">Innstillingar</string>
+    <string name="accessibility_service_dialog_title_single"><xliff:g id="service_name" example="Gmail">%s</xliff:g> har full tilgang til eininga di</string>
+    <string name="accessibility_service_dialog_title_multiple"><xliff:g id="num_services" example="2">%s</xliff:g> tilgjenge-appar har full tilgang til eininga di</string>
+    <string name="accessibility_service_dialog_bottom_text_single"><xliff:g id="service_name" example="Gmail">%s</xliff:g> kan sjå skjermen din, kva du gjer og kva du skriv, og utføra handlingar og styra skjermen.</string>
+    <string name="accessibility_service_dialog_bottom_text_multiple">Desse appane kan sjå skjermen din, kva du gjer og kva du skriv, og utføra handlingar og styra skjermen.</string>
+    <string name="role_assistant_label">Standardapp for digital assistent</string>
+    <string name="role_assistant_short_label">Digital assistent-app</string>
+    <string name="role_assistant_description">Assistent-appar kan hjelpa deg ut frå det som vert vist på skjermen. Somme appar støttar både startar- og taleinndatatenester for å gje deg integrert hjelp.</string>
     <string name="role_assistant_recommended_title">Tilrådd av <xliff:g id="OEM_NAME" example="FictionalOEM">%s</xliff:g></string>
+    <string name="role_browser_label">Standard nettlesar-app</string>
+    <string name="role_browser_short_label">Nettlesar-app</string>
+    <string name="role_browser_description">Appar som gjev deg tilgang til internett og viser lenker du trykkjer på</string>
+    <string name="role_browser_request_title">Vil du bruka <xliff:g id="app_name" example="Super Browser">%1$s</xliff:g> som standard nettlesar?</string>
+    <string name="role_browser_request_description">Treng ingen løyve</string>
+    <string name="role_dialer_label">Standard telefon-app</string>
+    <string name="role_dialer_short_label">Telefon-app</string>
+    <string name="role_dialer_description">Appar som lèt deg ringja og ta imot telefonsamtalar på eininga di</string>
+    <string name="role_dialer_request_title">Vil du bruka <xliff:g id="app_name" example="Super Phone">%1$s</xliff:g> som standard telefon-app?</string>
+    <string name="role_dialer_request_description">Denne appen får tilgang til kamera, kontaktar, mikrofon, telefon og SMS</string>
+    <string name="role_dialer_search_keywords">ringje-app</string>
+    <string name="role_sms_label">Standard SMS-app</string>
+    <string name="role_sms_short_label">SMS-app</string>
+    <string name="role_sms_description">Appar som lèt deg bruka telefonnummeret ditt til å senda og ta imot tekstmeldingar, bilete, videoar og anna</string>
+    <string name="role_sms_request_title">Vil du bruka <xliff:g id="app_name" example="Super SMS">%1$s</xliff:g> som standard SMS-app?</string>
+    <string name="role_sms_request_description">Denne appen får tilgang til kamera, kontaktar, filer og medium, mikrofon, telefon og SMS</string>
+    <string name="role_sms_search_keywords">tekstmelding, meldingar, mms</string>
+    <string name="role_emergency_label">Standard naud-app</string>
+    <string name="role_emergency_short_label">Naud-app</string>
+    <string name="role_emergency_description">Appar som lèt deg lagra helseopplysningane dine så naudhjelpspersonell kan sjå dei, få varsel om uvêr og katastrofar, eller varsla andre når du treng hjelp</string>
+    <string name="role_emergency_request_title">Vil du bruka <xliff:g id="app_name" example="Super Emergency">%1$s</xliff:g> som standard naud-app?</string>
+    <string name="role_emergency_request_description">Treng ingen løyve</string>
+    <string name="role_emergency_search_keywords">ice, naud</string>
+    <string name="role_home_label">Standard startskjerm-app</string>
+    <string name="role_home_short_label">Startskjerm-app</string>
+    <string name="role_home_description">Appar, ofte kalla startarar, som erstattar startskjermane på Android-eininga di og gjev deg tilgang til innhaldet og funksjonane på eininga</string>
+    <string name="role_home_request_title">Vil du bruka <xliff:g id="app_name" example="Super Home">%1$s</xliff:g> som standard startskjerm-app?</string>
+    <string name="role_home_request_description">Treng ingen løyve</string>
+    <string name="role_home_search_keywords">startar</string>
+    <string name="role_call_redirection_label">Standardapp for vidarekopling av samtalar</string>
+    <string name="role_call_redirection_short_label">App for vidarekopling av samtalar</string>
+    <string name="role_call_redirection_description">Appar som lèt deg vidarekopla utgåande samtalar til eit anna telefonnummer</string>
+    <string name="role_call_redirection_request_title">Vil du bruka <xliff:g id="app_name" example="Super Call Redirection">%1$s</xliff:g> som standardapp for vidarekopling av samtalar?</string>
+    <string name="role_call_redirection_request_description">Treng ingen løyve</string>
+    <string name="role_call_screening_label">Standardapp for ID-vising og søppelpost</string>
+    <string name="role_call_screening_short_label">App for ID-vising og søppelpost</string>
+    <string name="role_call_screening_description">Appar som lèt deg kjenna att samtalar og blokkera søppelpost, automatiske samtalar eller uynskte nummer</string>
+    <string name="role_call_screening_request_title">Vil du bruka <xliff:g id="app_name" example="Super Call Screening">%1$s</xliff:g> som standardapp for ID-vising og søppelpost?</string>
+    <string name="role_call_screening_request_description">Treng ingen løyve</string>
+    <string name="role_automotive_navigation_label">Standard navigasjonsapp</string>
+    <string name="role_automotive_navigation_short_label">Navigasjonsapp</string>
+    <string name="role_automotive_navigation_description">Appar som kan søkja etter interessepunkt og gje vegvising steg for steg</string>
+    <string name="role_automotive_navigation_request_title">Vil du bruka <xliff:g id="app_name" example="Super Navigation">%1$s</xliff:g> som standard navigasjonsapp?</string>
+    <string name="role_automotive_navigation_request_description">Treng ingen løyve</string>
+    <string name="role_watch_description"><xliff:g id="app_name" example="Wear">%1$s</xliff:g> får løyve til å handtera varsla dine og får tilgang til løyva for telefon, SMS, kontaktar og kalender.</string>
+    <string name="role_notes_label">Standard notataapp</string>
+    <string name="role_notes_short_label">Notatapp</string>
+    <string name="role_notes_description">Appar som lèt deg skriva notat på eininga di</string>
+    <string name="role_notes_search_keywords">notat</string>
+    <string name="role_wallet_label">Standard lommebok-app</string>
+    <string name="role_wallet_short_label">Lommebok-app</string>
+    <string name="role_wallet_description">Lommebok-appar kan lagra kreditt- og lojalitetskort, bilnøklar og anna for å hjelpa til med ulike former for transaksjonar.</string>
+    <string name="role_wallet_request_title">Vil du bruka <xliff:g id="app_name" example="Super Wallet">%1$s</xliff:g> som standard lommebok-app?</string>
+    <string name="role_wallet_request_description">Treng ingen løyve</string>
+    <string name="request_role_current_default">Noverande standardapp</string>
+    <string name="request_role_dont_ask_again">Ikkje spør att</string>
+    <string name="request_role_set_as_default">Bruk som standard</string>
+    <string name="phone_call_uses_microphone">Mikrofonen er i bruk i ein &lt;b&gt;telefonsamtale&lt;/b&gt;</string>
+    <string name="phone_call_uses_microphone_and_camera">Kameraet og mikrofonen er i bruk i ein &lt;b&gt;videosamtale&lt;/b&gt;</string>
+    <string name="phone_call_uses_camera">Kameraet er i bruk i ein &lt;b&gt;videosamtale&lt;/b&gt;</string>
+    <string name="system_uses_microphone">Ein systemteneste har tilgang til mikrofonen</string>
+    <string name="system_uses_microphone_and_camera">Ein systemteneste har tilgang til kameraet og mikrofonen</string>
+    <string name="system_uses_camera">Ein systemteneste har tilgang til kameraet</string>
+    <string name="other_use">Anna bruk:</string>
+    <string name="ongoing_usage_dialog_ok">Greitt</string>
+    <string name="ongoing_usage_dialog_title">Nyleg bruk av <xliff:g id="types_list" example="camera( and location)">%s</xliff:g></string>
+    <string name="ongoing_usage_dialog_title_mic">Nyleg bruk av mikrofonen</string>
+    <string name="ongoing_usage_dialog_title_camera">Nyleg bruk av kameraet</string>
+    <string name="ongoing_usage_dialog_title_mic_camera">Nyleg bruk av mikrofon og kamera</string>
+    <string name="ongoing_usage_dialog_separator">,\u0020</string>
+    <string name="ongoing_usage_dialog_last_separator">\u0020og\u0020</string>
+    <string name="default_app_search_keyword">standardappar</string>
+    <string name="permgroup_list_microphone_and_camera">Mikrofon og kamera</string>
+    <string name="settings_button">Innstillingar</string>
+    <string name="default_apps">Standardappar</string>
+    <string name="no_default_apps">Ingen standardappar</string>
+    <string name="default_apps_more">Fleire standardval</string>
+    <string name="default_apps_manage_domain_urls">Opning av lenker</string>
+    <string name="default_apps_for_work">Standard for arbeid</string>
+    <string name="default_apps_for_private_profile">Standard for det private rommet</string>
     <string name="default_app_others">Andre</string>
-    <string name="incident_report_dialog_text">"<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ber om å få lasta opp ein feilrapport frå denne eininga, laga <xliff:g id="date" example="December 26, 2018">%2$s</xliff:g> kl. <xliff:g id="time" example="1:20 PM">%3$s</xliff:g>. Feilrapportar inneheld personopplysningar om eininga di eller data loggførte av appar, til dømes brukarnamn, stadinformasjon, einings-ID-ar og nettverksinformasjon. Du bør berre dela feilrapportar med personar og appar du har tillit til.\n\nVil du gje <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> løyve til å lasta opp ein feilrapport?"</string>
+    <string name="default_app_none">Ingen</string>
+    <string name="default_app_system_default">(Systemstandard)</string>
+    <string name="default_app_no_apps">Ingen appar</string>
+    <string name="default_payment_app_other_nfc_services">Andre NFC-tenester</string>
+    <string name="car_default_app_selected">Valt</string>
+    <string name="car_default_app_selected_with_info">Valt – <xliff:g id="additional_info" example="(System default)">%1$s</xliff:g></string>
+    <string name="special_app_access_search_keyword">spesialtilgang for appar</string>
+    <string name="special_app_access">Spesialtilgang for appar</string>
+    <string name="no_special_app_access">Ingen spesialtilgang for appar</string>
+    <string name="special_app_access_no_apps">Ingen appar</string>
+    <string name="home_missing_work_profile_support">Støttar ikkje arbeidsprofil</string>
+    <string name="encryption_unaware_confirmation_message">Merk: Om du startar eininga på nytt og har skjermlås, kan ikkje denne appen starta før du har låst opp eininga.</string>
+    <string name="assistant_confirmation_message">Assistenten kan lesa informasjon om appane som er i bruk på systemet ditt, inkludert informasjon som er synleg på skjermen eller som appane har tilgang til.</string>
+    <string name="incident_report_channel_name">Del feilsøkingsdata</string>
+    <string name="incident_report_notification_title">Vil du dela detaljerte feilsøkingsdata?</string>
+    <string name="incident_report_notification_text"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> vil lasta opp feilsøkingsinformasjon.</string>
+    <string name="incident_report_dialog_title">Vil du dela feilsøkingsdata?</string>
+    <string name="incident_report_dialog_intro">Systemet har funne eit problem.</string>
+    <string name="incident_report_dialog_text">"<xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ber om å få lasta opp ein feilrapport frå denne eininga, laga <xliff:g id="date" example="December 26, 2018">%2$s</xliff:g> kl. <xliff:g id="time" example="1:20 PM">%3$s</xliff:g>. Feilrapportar inneheld personopplysningar om eininga di eller data loggførte av appar, til dømes brukarnamn, stadinformasjon, einings-ID-ar og nettverksinformasjon. Du bør berre dela feilrapportar med personar og appar du har tillit til.\n\nVil du gjeva <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> løyve til å lasta opp ein feilrapport?"</string>
+    <string name="incident_report_error_dialog_text">"Det oppstod ein feil då feilrapporten for <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> skulle handsamast. Deling av detaljerte feilsøkingsdata er derfor avslått. Beklagar avbrotet."</string>
+    <string name="incident_report_dialog_allow_label">Gjev løyve</string>
+    <string name="incident_report_dialog_deny_label">Avslå</string>
+    <string name="adjust_user_sensitive_title">Avanserte innstillingar</string>
+    <string name="menu_adjust_user_sensitive">Avanserte innstillingar</string>
+    <string name="adjust_user_sensitive_globally_title">Vis bruk av systemappar</string>
+    <string name="adjust_user_sensitive_globally_summary">Vis bruk av løyve for systemappar i statuslinja, instrumentbordet og andre stader</string>
+    <string name="adjust_user_sensitive_per_app_header">Framhev bruk for desse</string>
+    <string name="assistant_record_audio_user_sensitive_title">Vis når assistenten vert aktivert</string>
+    <string name="assistant_record_audio_user_sensitive_summary">Vis eit ikon i statuslinja når mikrofonen vert brukt til å aktivera taleassistenten</string>
+    <string name="permgrouprequest_storage_isolated">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til bilete og medium på eininga di?</string>
+    <string name="permgrouprequest_device_aware_storage_isolated">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til bilete og medieinnhald på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_contacts">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til kontaktane dine?</string>
+    <string name="permgrouprequest_device_aware_contacts">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til kontaktane dine på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_location">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til posisjonen til denne eininga?</string>
+    <string name="permgrouprequest_device_aware_location">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til posisjonen til &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequestdetail_location">Appen får berre tilgang til posisjonen medan du brukar han</string>
+    <string name="permgroupbackgroundrequest_location">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til posisjonen til denne eininga?</string>
+    <string name="permgroupbackgroundrequest_device_aware_location">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til posisjonen til &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupbackgroundrequestdetail_location">Denne appen vil kanskje ha tilgang til posisjonen din heile tida, òg når du ikkje brukar han. <annotation id="link">Gjev løyve i innstillingane.</annotation></string>
+    <string name="permgroupupgraderequest_location">Vil du endra posisjonstilgangen for &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_location">Vil du endra posisjonstilgangen for &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequestdetail_location">Denne appen vil ha tilgang til posisjonen din heile tida, òg når du ikkje brukar han. <annotation id="link">Gjev løyve i innstillingane.</annotation></string>
+    <string name="permgrouprequest_nearby_devices">Vil du la
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; finna, kopla til og sjå kor andre einingar i nærleiken er?</string>
+    <string name="permgrouprequest_device_aware_nearby_devices">Vil du lata &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; finna, kopla til og avgjera den relative posisjonen til einingar i nærleiken på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequestdetail_nearby_devices">Vil du la &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; finna, kopla til og sjå kor andre einingar i nærleiken er? <annotation id="link">Gjev løyve i innstillingane.</annotation></string>
+    <string name="permgrouprequest_fineupgrade">Vil du endra posisjonstilgangen for <xliff:g id="app_name" example="Gmail">&lt;b&gt;%1$s&lt;/b&gt;</xliff:g> frå omtrentleg til nøyaktig?</string>
+    <string name="permgrouprequest_device_aware_fineupgrade">Vil du endra posisjonstilgangen for <xliff:g id="app_name" example="Gmail">&lt;b&gt;%1$s&lt;/b&gt;</xliff:g> på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt; frå omtrentleg til nøyaktig?</string>
+    <string name="permgrouprequest_coarselocation">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til den omtrentlege posisjonen til denne eininga?</string>
+    <string name="permgrouprequest_device_aware_coarselocation">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til den omtrentlege posisjonen til &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_finelocation_imagetext">Nøyaktig</string>
+    <string name="permgrouprequest_coarselocation_imagetext">Omtrentleg</string>
+    <string name="permgrouprequest_calendar">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til kalenderen din?</string>
+    <string name="permgrouprequest_device_aware_calendar">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til kalenderen din på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_sms">Vil du la
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; senda og sjå SMS-meldingar?</string>
+    <string name="permgrouprequest_device_aware_sms">Vil du lata &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; senda og sjå SMS-meldingar på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_storage">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til bilete, medium og filer på eininga di?</string>
+    <string name="permgrouprequest_device_aware_storage">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til bilete, medieinnhald og filer på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_storage_q_to_s">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til &lt;b&gt;bilete, videoar, musikk og lyd&lt;/b&gt; på denne eininga?</string>
+    <string name="permgrouprequest_storage_pre_q">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til &lt;b&gt;bilete, videoar, musikk, lyd og andre filer&lt;/b&gt; på denne eininga?</string>
+    <string name="permgrouprequest_read_media_aural">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til musikk og lyd på denne eininga?</string>
+    <string name="permgrouprequest_device_aware_read_media_aural">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til musikk og lyd på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_read_media_visual">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til bilete og videoar på denne eininga?</string>
+    <string name="permgrouprequest_device_aware_read_media_visual">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til bilete og videoar på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_more_photos">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til fleire bilete og videoar på denne eininga?</string>
+    <string name="permgrouprequest_device_aware_more_photos">Vil du lata &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; få tilgang til fleire bilete og videoar på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_microphone">Vil du la
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ta opp lyd?</string>
+    <string name="permgrouprequest_device_aware_microphone">Vil du lata &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ta opp lyd på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequestdetail_microphone">Appen kan berre ta opp lyd medan du brukar han</string>
+    <string name="permgroupbackgroundrequest_microphone">Vil du la
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ta opp lyd?</string>
+    <string name="permgroupbackgroundrequest_device_aware_microphone">Vil du lata &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ta opp lyd på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupbackgroundrequestdetail_microphone">Denne appen vil kanskje ta opp lyd heile tida, òg når du ikkje brukar han. <annotation id="link">Gjev løyve i innstillingane.</annotation></string>
+    <string name="permgroupupgraderequest_microphone">Vil du endra lydopptakstilgangen for &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_microphone">Vil du endra mikrofontilgangen for &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequestdetail_microphone">Denne appen vil ta opp lyd heile tida, òg når du ikkje brukar han. <annotation id="link">Gjev løyve i innstillingane.</annotation></string>
+    <string name="permgrouprequest_activityRecognition">Vil du la
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; få tilgang til fysisk aktivitet?</string>
+    <string name="permgrouprequest_device_aware_activityRecognition">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til fysisk aktivitet på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_camera">Vil du la
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ta bilete og ta opp video?</string>
+    <string name="permgrouprequest_device_aware_camera">Vil du lata &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ta bilete og ta opp video på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequestdetail_camera">Appen kan berre ta bilete og ta opp video medan du brukar han</string>
+    <string name="permgroupbackgroundrequest_camera">Vil du la
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ta bilete og ta opp video?</string>
+    <string name="permgroupbackgroundrequest_device_aware_camera">Vil du lata &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ta bilete og ta opp video på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupbackgroundrequestdetail_camera">Denne appen vil kanskje ta bilete og ta opp video heile tida, òg når du ikkje brukar han. <annotation id="link">Gjev løyve i innstillingane.</annotation></string>
+    <string name="permgroupupgraderequest_camera">Vil du endra kameratilgangen for &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequest_device_aware_camera">Vil du endra kameratilgangen for &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequestdetail_camera">Denne appen vil ta bilete og ta opp video heile tida, òg når du ikkje brukar han. <annotation id="link">Gjev løyve i innstillingane.</annotation></string>
+    <string name="permgrouprequest_calllog">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til samtaleloggen din?</string>
+    <string name="permgrouprequest_device_aware_calllog">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til samtaleloggen din på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_phone">Vil du la
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ringja og styra telefonsamtalar?</string>
+    <string name="permgrouprequest_device_aware_phone">Vil du lata &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; starta og styra telefonsamtalar på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequest_sensors">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til sensordata om helsetilstanden din?</string>
+    <string name="permgrouprequest_device_aware_sensors">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til sensordata om livsteikna dine på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequestdetail_sensors">Denne appen vil ha tilgang til sensordata om helsetilstanden din heile tida, òg når du ikkje brukar han. For å gjera denne endringa, <annotation id="link">må du gå til innstillingane.</annotation></string>
+    <string name="permgroupbackgroundrequest_sensors">Vil du gje
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til sensordata om helsetilstanden din?</string>
+    <string name="permgroupbackgroundrequest_device_aware_sensors">Vil du gjeva &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; tilgang til sensordata om livsteikna dine på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupbackgroundrequestdetail_sensors">Viss denne appen skal få tilgang til kroppssensordata heile tida, òg når du ikkje brukar han, <annotation id="link">må du gå til innstillingane.</annotation></string>
+    <string name="permgroupupgraderequest_sensors">Skal &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; framleis få tilgang til kroppssensordata medan appen er i bruk?</string>
+    <string name="permgroupupgraderequest_device_aware_sensors">Vil du framleis lata &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; få tilgang til kroppssensordata på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt; medan appen er i bruk?</string>
+    <string name="permgrouprequest_notifications">Vil du la
+&lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; senda deg varsel?</string>
+    <string name="permgrouprequest_device_aware_notifications">Vil du lata &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; senda deg varsel på &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="auto_granted_permissions">Styrte løyve</string>
+    <string name="auto_granted_location_permission_notification_title"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> har tilgang til posisjon</string>
+    <string name="auto_granted_permission_notification_body">Organisasjonen din lèt <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> få tilgang til posisjonen din</string>
+    <string name="other_permissions_label">Andre løyve</string>
+    <string name="not_used_permissions_label">Løyve brukt av systemet</string>
+    <string name="not_used_permissions_description">Løyve som berre vert brukte av systemappar.</string>
+    <string name="additional_permissions_label">Fleire løyve</string>
+    <string name="additional_permissions_description">Løyve definerte av appar.</string>
+    <string name="privdash_label_camera">Kamera</string>
+    <string name="privdash_label_microphone">Mikrofon</string>
+    <string name="privdash_label_location">Posisjon</string>
+    <string name="privdash_label_other">Anna</string>
+    <string name="privdash_label_none">Ingen</string>
+    <string name="privdash_label_24h">Siste\n24 timar</string>
+    <string name="privdash_label_7d">Siste\n7 dagar</string>
+    <string name="privdash_usage_percent"><xliff:g id="permission_name" example="camera">%1$s</xliff:g> <xliff:g id="percent" example="25">%2$d</xliff:g> prosent</string>
+    <string name="exempt_mic_camera_info_label"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> er verna av Android. Sidan dataa dine vert handsama på denne eininga, vert ikkje løyvebruken til appen vist på statuslinja eller i personvernoversikta.</string>
+    <string name="exempt_info_label"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> er verna av Android. Sidan dataa dine vert handsama på denne eininga, vert ikkje løyvebruken til appen vist i personvernoversikta.</string>
+    <string name="blocked_camera_title">Kameraet på eininga er sperra</string>
+    <string name="blocked_microphone_title">Mikrofonen på eininga er sperra</string>
+    <string name="blocked_location_title">Posisjon på eininga er av</string>
+    <string name="blocked_sensor_summary">For appar og tenester</string>
+    <string name="blocked_mic_summary">Mikrofonen kan framleis verta brukt om du ringjer eit naudnummer.</string>
+    <string name="blocked_sensor_button_label">Endra</string>
+    <string name="automotive_blocked_camera_title">Kameratilgangen er slått av</string>
+    <string name="automotive_blocked_microphone_title">Mikrofontilgangen er slått av</string>
+    <string name="automotive_blocked_location_title">Posisjonstilgangen er slått av</string>
+    <string name="automotive_blocked_infotainment_app_summary">For infotainment-appar</string>
+    <string name="automotive_blocked_required_app_summary">For naudsynte appar</string>
+    <string name="automotive_required_app_title">Denne appen er naudsynt</string>
+    <string name="automotive_required_app_summary">Denne appen er naudsynt for produsenten av bilen din</string>
+    <string name="safety_center_dashboard_page_title">Tryggleik og personvern</string>
+    <string name="safety_center_rescan_button">Skann eininga</string>
+    <string name="safety_center_issue_card_dismiss_button">Fjern</string>
+    <string name="safety_center_issue_card_dismiss_confirmation_title">Vil du fjerna dette varselet?</string>
+    <string name="safety_center_issue_card_dismiss_confirmation_message">Du kan når som helst gå gjennom innstillingane for tryggleik og personvern for å få betre vern</string>
+    <string name="safety_center_issue_card_confirm_dismiss_button">Fjern</string>
+    <string name="safety_center_issue_card_cancel_dismiss_button">Avbryt</string>
+    <string name="safety_center_entries_category_title">Innstillingar</string>
+    <string name="safety_status_preference_title_and_summary_content_description">Status for tryggleik og personvern. <xliff:g id="overall safety status" example="Looks Good">%1$s</xliff:g>. <xliff:g id="summary of device status" example="This device is up to date">%2$s</xliff:g></string>
+    <string name="security_settings">Tryggleiksinnstillingar</string>
+    <string name="sensor_permissions_qs">Løyve</string>
+    <string name="safety_privacy_qs_tile_title">Tryggleik og personvern</string>
+    <string name="safety_privacy_qs_tile_subtitle">Sjekk status</string>
+    <string name="privacy_controls_qs">Dine personvernval</string>
+    <string name="security_settings_button_label_qs">Fleire innstillingar</string>
+    <string name="camera_toggle_label_qs">Kameratilgang</string>
+    <string name="microphone_toggle_label_qs">Mikrofontilgang</string>
+    <string name="permissions_removed_qs">Løyve fjerna</string>
+    <string name="camera_usage_qs">Sjå nyleg kamerabruk</string>
+    <string name="microphone_usage_qs">Sjå nyleg mikrofonbruk</string>
+    <string name="remove_camera_qs">Fjern kameraløyvet for denne appen</string>
+    <string name="remove_microphone_qs">Fjern mikrofonløyvet for denne appen</string>
+    <string name="manage_service_qs">Styr tenesta</string>
+    <string name="manage_permissions_qs">Styr løyve</string>
+    <string name="active_call_usage_qs">Vert brukt i ein samtale</string>
+    <string name="recent_call_usage_qs">Nyleg brukt i ein samtale</string>
+    <string name="active_app_usage_qs">Vert brukt av <xliff:g id="app_name" example="Gmail">%1$s</xliff:g></string>
+    <string name="recent_app_usage_qs">Nyleg brukt av <xliff:g id="app_name" example="Gmail">%1$s</xliff:g></string>
+    <string name="active_app_usage_1_qs">Vert brukt av <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>)</string>
+    <string name="recent_app_usage_1_qs">Nyleg brukt av <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g>)</string>
+    <string name="active_app_usage_2_qs">Vert brukt av <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g> \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
+    <string name="recent_app_usage_2_qs">Nyleg brukt av <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g> \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
+    <string name="media_confirm_dialog_positive_button">Stadfest</string>
+    <string name="media_confirm_dialog_negative_button">Tilbake</string>
+    <string name="media_confirm_dialog_title_a_to_p_aural_allow">Tilgang til andre filer vert òg gjeve</string>
+    <string name="media_confirm_dialog_title_a_to_p_aural_deny">Tilgang til andre filer vert heller ikkje gjeve</string>
+    <string name="media_confirm_dialog_title_a_to_p_visual_allow">Tilgang til andre filer vert òg gjeve</string>
+    <string name="media_confirm_dialog_title_a_to_p_visual_deny">Tilgang til andre filer vert heller ikkje gjeve</string>
+    <string name="media_confirm_dialog_title_q_to_s_aural_allow">Tilgang til bilete og videoar vert òg gjeve</string>
+    <string name="media_confirm_dialog_title_q_to_s_aural_deny">Tilgang til bilete og videoar vert heller ikkje gjeve</string>
+    <string name="media_confirm_dialog_title_q_to_s_visual_allow">Tilgang til musikk og lydfiler vert òg gjeve</string>
+    <string name="media_confirm_dialog_title_q_to_s_visual_deny">Tilgang til musikk og lydfiler vert heller ikkje gjeve</string>
+    <string name="media_confirm_dialog_message_a_to_p_aural_allow">Denne appen støttar ikkje den nyaste versjonen av Android. Viss appen får tilgang til musikk og lydfiler, får han òg tilgang til bilete, videoar og andre filer.</string>
+    <string name="media_confirm_dialog_message_a_to_p_aural_deny">Denne appen støttar ikkje den nyaste versjonen av Android. Viss appen ikkje får tilgang til musikk og lydfiler, får han heller ikkje tilgang til bilete, videoar og andre filer.</string>
+    <string name="media_confirm_dialog_message_a_to_p_visual_allow">Denne appen støttar ikkje den nyaste versjonen av Android. Viss appen får tilgang til bilete og videoar, får han òg tilgang til musikk, lyd og andre filer.</string>
+    <string name="media_confirm_dialog_message_a_to_p_visual_deny">Denne appen støttar ikkje den nyaste versjonen av Android. Viss appen ikkje får tilgang til bilete og videoar, får han heller ikkje tilgang til musikk, lyd og andre filer.</string>
+    <string name="media_confirm_dialog_message_q_to_s_aural_allow">Denne appen støttar ikkje den nyaste versjonen av Android. Viss appen får tilgang til musikk og lydfiler, får han òg tilgang til bilete og videoar.</string>
+    <string name="media_confirm_dialog_message_q_to_s_aural_deny">Denne appen støttar ikkje den nyaste versjonen av Android. Viss appen ikkje får tilgang til musikk og lydfiler, får han heller ikkje tilgang til bilete og videoar.</string>
+    <string name="media_confirm_dialog_message_q_to_s_visual_allow">Denne appen støttar ikkje den nyaste versjonen av Android. Viss appen får tilgang til bilete og videoar, får han òg tilgang til musikk og lydfiler.</string>
+    <string name="media_confirm_dialog_message_q_to_s_visual_deny">Denne appen støttar ikkje den nyaste versjonen av Android. Viss appen ikkje får tilgang til bilete og videoar, får han heller ikkje tilgang til musikk og lydfiler.</string>
+    <string name="safety_center_background_location_access_notification_title">Gå gjennom appar med bakgrunnstilgang til posisjon</string>
+    <string name="safety_center_background_location_access_reminder_notification_content"><xliff:g id="app_name" example="Gmail">%s</xliff:g> har alltid tilgang til posisjonen din, òg når appen er lukka</string>
+    <string name="safety_center_background_location_access_reminder_title">Gå gjennom appar med bakgrunnstilgang til posisjon</string>
+    <string name="safety_center_background_location_access_reminder_summary">Denne appen har alltid tilgang til posisjonen din, òg når han er lukka.\u000a\u000aSomme tryggleiks- og naudappar treng tilgang til posisjonen din i bakgrunnen for å fungera som dei skal.</string>
+    <string name="safety_center_background_location_access_revoked">Tilgangen er endra</string>
+    <string name="safety_center_view_recent_location_access">Sjå nyleg posisjonsbruk</string>
+    <string name="camera_toggle_enable_config">camera_toggle_enabled</string>
+    <string name="mic_toggle_enable_config">mic_toggle_enabled</string>
+    <string name="clipboard_show_access_notifications_config">clipboard_show_access_notifications</string>
+    <string name="show_access_notifications_default_config">show_access_notifications</string>
+    <string name="privacy_controls_title">Personvernval</string>
+    <string name="camera_toggle_title">Kameratilgang</string>
+    <string name="mic_toggle_title">Mikrofontilgang</string>
+    <string name="perm_toggle_description">For appar og tenester</string>
+    <string name="mic_toggle_description">For appar og tenester. Om denne innstillinga er av, kan mikrofonen framleis verta brukt om du ringjer eit naudnummer.</string>
+    <string name="location_settings_subtitle">Sjå appar og tenester som har tilgang til posisjon</string>
+    <string name="show_clip_access_notification_title">Vis utklippstavletilgang</string>
+    <string name="show_clip_access_notification_summary">Vis ei melding når appar brukar tekst, bilete eller anna innhald du har kopiert</string>
+    <string name="show_password_title">Vis passord</string>
+    <string name="show_password_summary">Vis teikna ei kort stund medan du skriv</string>
+    <string name="permission_rationale_message_location">Denne appen har fortalt at han kan dela posisjonsdata med tredjepartar</string>
+    <string name="permission_rationale_location_title">Datadeling og posisjon</string>
+    <string name="permission_rationale_data_sharing_source_title">Kvar informasjonen om datadeling kjem frå</string>
+    <string name="permission_rationale_data_sharing_device_manufacturer_message">Utviklaren har gjeve informasjon til produsenten av denne eininga om korleis denne appen deler data. Utviklaren kan oppdatera denne informasjonen etter kvart.</string>
+    <string name="permission_rationale_data_sharing_source_message">Utviklaren har gjeve informasjon til <annotation id="link"><annotation id="install_source" example="App Store">%1$s</annotation></annotation> om korleis denne appen deler data. Utviklaren kan oppdatera denne informasjonen etter kvart.</string>
+    <string name="permission_rationale_location_purpose_title">Denne appen kan dela posisjonsdata for:</string>
+    <string name="permission_rationale_permission_data_sharing_varies_title">Datadeling varierer</string>
+    <string name="permission_rationale_data_sharing_varies_message">Korleis data vert handsama, kan variera ut frå appversjon, bruk, region og alder. <annotation id="link">Meir om datadeling</annotation></string>
+    <string name="permission_rationale_data_sharing_varies_message_without_link">Korleis data vert handsama, kan variera ut frå appversjon, bruk, region og alder.</string>
+    <string name="permission_rationale_location_settings_title">Dine posisjonsdata</string>
+    <string name="permission_rationale_permission_settings_message">Du kan endra tilgangen for denne appen i <annotation id="link">personverninnstillingane</annotation></string>
+    <string name="permission_rationale_purpose_app_functionality">Appfunksjonalitet</string>
+    <string name="permission_rationale_purpose_analytics">Analyse</string>
+    <string name="permission_rationale_purpose_developer_communications">Kommunikasjon frå utviklar</string>
+    <string name="permission_rationale_purpose_advertising">Reklame eller marknadsføring</string>
+    <string name="permission_rationale_purpose_fraud_prevention_security">Svindelvern, tryggleik og regelverk</string>
+    <string name="permission_rationale_purpose_personalization">Tilpassing</string>
+    <string name="permission_rationale_purpose_account_management">Kontohandtering</string>
+    <string name="app_permission_rationale_message">Datasikkerheit</string>
+    <string name="app_location_permission_rationale_title">Posisjonsdata kan verta delte</string>
+    <string name="app_location_permission_rationale_subtitle">Denne appen har gjeve opp at han kan dela posisjonsdataa dine med tredjepartar</string>
+    <string name="data_sharing_updates_title">Oppdateringar for deling av posisjonsdata</string>
+    <string name="data_sharing_updates_summary">Sjå gjennom appar som har endra korleis dei kan dela posisjonsdataa dine</string>
+    <string name="data_sharing_updates_subtitle">Desse appane har endra måten dei kan dela posisjonsdataa dine på. Dei har kanskje ikkje delt dei før, eller deler dei no for reklame- eller marknadsføringsføremål.</string>
+    <string name="data_sharing_updates_footer_message">Utviklarane av desse appane har gjeve informasjon om korleis dei deler data til ein appbutikk. Dei kan oppdatera denne informasjonen etter kvart.\n\nKorleis data vert handsama, kan variera ut frå appversjon, bruk, region og alder.</string>
+    <string name="learn_about_data_sharing">Lær om datadeling</string>
+    <string name="shares_location_with_third_parties">Posisjonsdataa dine vert no delte med tredjepartar</string>
+    <string name="shares_location_with_third_parties_for_advertising">Posisjonsdataa dine vert no delte med tredjepartar for reklame eller marknadsføring</string>
+    <string name="updated_in_last_days">{count, plural,
+=0 {Oppdatert det siste døgeret}
+=1 {Oppdatert det siste døgeret}
+other {Oppdatert dei siste # dagane}
+}</string>
+    <string name="no_updates_at_this_time">Ingen oppdateringar no</string>
+    <string name="safety_label_changes_notification_title">Oppdateringar om datadeling</string>
+    <string name="safety_label_changes_notification_desc">Somme appar har endra korleis dei kan dela posisjons dataa dine</string>
+    <string name="safety_label_changes_gear_description">Innstillingar</string>
+    <string name="wear_app_perms_24h_access">Brukt <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="wear_app_perms_24h_access_yest">Brukt i går <xliff:g id="time_date" example="12:42 PM">%1$s</xliff:g></string>
+    <string name="wear_app_perms_7d_access">Brukt <xliff:g id="time_date" example="Jan 3">%1$s</xliff:g> <xliff:g id="time_date" example="12:42 PM">%2$s</xliff:g></string>
+    <string name="test_otp_msg">Eingongspassordet ditt er 132435</string>
+    <string name="allow_restricted_settings">Tillat avgrensa innstillingar</string>
+    <string name="enhanced_confirmation_dialog_title">Avgrensa innstilling</string>
+    <string name="enhanced_confirmation_dialog_desc">Av omsyn til tryggleiken din er ikkje denne innstillinga tilgjengeleg no.</string>
     <string name="enhanced_confirmation_phone_state_dialog_title">Kan ikkje fullføra handlinga under ein samtale</string>
     <string name="enhanced_confirmation_phone_state_dialog_desc">Denne innstillinga er sperra for å verna eininga og dataa dine.<xliff:g id="scam_use_setting_description" example="scammers may ask you to allow apps to install other apps">%1$s</xliff:g></string>
     <string name="enhanced_confirmation_phone_state_dialog_install_desc"><xliff:g id="empty_line">\n\n</xliff:g>Svindlarar kan freista å installera skadelege appar ved å be deg installera ukjende appar frå ei ny kjelde.</string>
     <string name="enhanced_confirmation_phone_state_dialog_a11y_desc"><xliff:g id="empty_line">\n\n</xliff:g>Svindlarar kan freista å ta kontroll over eininga di ved å be deg gje tilgjenge-løyve til ein app.</string>
+    <string name="enhanced_confirmation_dialog_title_permission">Appen fekk ikkje tilgang til <xliff:g id="permission_name" example="contacts">%1$s</xliff:g></string>
+    <string name="enhanced_confirmation_dialog_desc_permission">Appen bad om tilgang til eit løyve som kan setja personopplysningar og økonomisk informasjon i fare.<xliff:g>&lt;br&gt;&lt;br&gt;</xliff:g>Det er mogleg at appen ikkje fungerer som han skal utan dette avgrensa løyvet. &lt;a href=\"<xliff:g id="learn_more_link">%1$s</xliff:g>\"&gt;Finn ut korleis du gjev tilgang&lt;/a&gt;</string>
+    <string name="enhanced_confirmation_dialog_title_role">Appen fekk ikkje vera standard-<xliff:g id="role_name" example="phone app">%1$s</xliff:g></string>
+    <string name="enhanced_confirmation_dialog_desc_role">Appen bad om tilgang til løyve som kan setja personopplysningar og økonomisk informasjon i fare.<xliff:g>&lt;br&gt;&lt;br&gt;</xliff:g>Det er mogleg at appen ikkje fungerer som han skal utan desse avgrensa løyva. &lt;a href=\"<xliff:g id="learn_more_link">%1$s</xliff:g>\"&gt;Finn ut korleis du gjev tilgang&lt;/a&gt;</string>
+    <string name="enhanced_confirmation_dialog_title_settings_default">Appen fekk ikkje tilgang</string>
+    <string name="enhanced_confirmation_dialog_desc_settings_default">Tilgang til dette løyvet kan setja personopplysningar og økonomisk informasjon i fare.<xliff:g>&lt;br&gt;&lt;br&gt;</xliff:g>Det er mogleg at appen ikkje fungerer som han skal utan dette avgrensa løyvet. &lt;a href=\"<xliff:g id="learn_more_link">%1$s</xliff:g>\"&gt;Finn ut korleis du gjev tilgang&lt;/a&gt;</string>
+    <string name="enhanced_confirmation_dialog_learn_more">Finn ut meir</string>
+    <string name="enhanced_confirmation_dialog_ok">OK</string>
+    <string name="permission_grant_dialog_streaming_blocked_title">Førespurnad om løyve vart halden attende</string>
+    <string name="permission_grant_dialog_streaming_blocked_description">Denne appen ber om fleire løyve, men løyve kan ikkje gjevast under strøyming. Gjev løyvet på telefonen din først.</string>
+    <string name="privacy_dashboard_emergency_location_enforced_attribution_label">For naudsamtale eller naudmelding</string>
+    <string name="privacy_dashboard_emergency_location_dialog_title">Posisjonen er send til nødetatane</string>
+    <string name="privacy_dashboard_emergency_location_dialog_description">Denne appen henta posisjonen til eininga di under ein samtale eller ei melding til eit nødnummer. Dette kan skje sjølv om appen ikkje har løyve til posisjon eller om posisjonen til eininga er slått av. <a href="https://support.google.com/android/answer/9319337">Finn ut meir</a></string>
+    <string name="wear_check_your_phone_title">Sjå på telefonen din</string>
+    <string name="wear_phone_connection_error">Klarte ikkje å få kontakt med telefonen</string>
+    <string name="wear_phone_connection_should_retry">Prøva på nytt?</string>
     <string name="app_function_access_settings_title" description="The title of the entry for App Function Access Settings">Agentar</string>
     <string name="app_function_access_settings_summary" description="The summary of the entry for App Function Access Settings, which describes the page contents">Agentar som kan henta informasjon eller gjera handlingar i appar</string>
     <string name="app_function_agent_list_title" description="Title for App Function Agent List Settings page">Agentar</string>
@@ -35,9 +794,12 @@
     <string name="app_function_agent_access_summary" description="The summary of the App Function Agent Access Settings, which describes the page contents">Appar og innstillingar denne agenten kan bruka for å henta informasjon og gjera handlingar for deg</string>
     <string name="app_function_agent_access_app_targets_empty_title" description="Label when there are no target apps available for app function agent access">Ingen appar er tilgjengelege for tilgang frå <xliff:g id="app_name" example="Example Agent App">%1$s</xliff:g></string>
     <string name="app_function_agent_access_system_targets_category_title" description="Category title for system apps list section of Agent Access Settings page">System</string>
+    <string name="app_function_agent_access_app_targets_category_title" description="Category title for target apps list section of Agent Access Settings page">Appar</string>
     <string name="app_function_target_access_title">Agenttilgang</string>
     <string name="app_function_target_access_summary" description="The summary of the App Function Target Access Settings, which describes the page contents">Agentar som kan henta informasjon og gjera handlingar for deg i denne appen</string>
     <string name="app_function_device_settings_target_title" description="Target app title used for Device Settings">Eininginnstillingar</string>
-    <string name="request_app_function_access_dialog_title">Vil du gje <xliff:g id="agent_app_name" example="Example Agent App">%1$s</xliff:g> løyve til å vera ein agent for <xliff:g id="target_app_name" example="Example Target App">%2$s</xliff:g>?</string>
+    <string name="request_app_function_access_dialog_title">Vil du gjeva <xliff:g id="agent_app_name" example="Example Agent App">%1$s</xliff:g> løyve til å vera ein agent for <xliff:g id="target_app_name" example="Example Target App">%2$s</xliff:g>?</string>
     <string name="request_app_function_access_dialog_description">Denne agenten vil kunna bruka <xliff:g id="target_app_name" example="Example Target App">%2$s</xliff:g> til å henta informasjon og gjera handlingar for deg</string>
+    <string name="request_app_function_dialog_button_allow">Gjev løyve</string>
+    <string name="request_app_function_dialog_button_dont_allow">Ikkje gjev løyve</string>
 </resources>

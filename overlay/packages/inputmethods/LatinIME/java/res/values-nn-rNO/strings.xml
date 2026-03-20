@@ -18,7 +18,198 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="english_ime_input_options">Inndataval</string>
+    <string name="use_contacts_for_spellchecking_option_title">Slå opp kontaktnamn</string>
     <string name="use_contacts_for_spellchecking_option_summary">Stavekontrollen brukar oppføringar frå kontaktlista di</string>
+    <string name="vibrate_on_keypress">Vibrer ved tastetrykk</string>
+    <string name="sound_on_keypress">Lyd ved tastetrykk</string>
+    <string name="popup_on_keypress">Sprettoppvindauge ved tastetrykk</string>
+    <string name="settings_screen_preferences">Innstillingar</string>
+    <string name="settings_screen_accounts">Kontoar og personvern</string>
+    <string name="settings_screen_appearance">Utsjånad og oppsett</string>
+    <string name="settings_screen_gesture">Sveipeskriving</string>
+    <string name="settings_screen_correction">Tekstretting</string>
+    <string name="settings_screen_advanced">Avansert</string>
+    <string name="settings_screen_theme">Tema</string>
+    <string name="enable_split_keyboard">Bruk delt tastatur</string>
+    <string name="cloud_sync_title">Google-tastatursynkronisering</string>
+    <string name="cloud_sync_summary">Synkronisering er slått på</string>
+    <string name="cloud_sync_summary_disabled">Synkroniser den personlege ordlista di mellom einingar</string>
+    <string name="sync_now_title">Synkroniser no</string>
+    <string name="clear_sync_data_title">Slett skydata</string>
+    <string name="clear_sync_data_summary">Slettar dei synkroniserte dataa dine frå Google</string>
+    <string name="clear_sync_data_confirmation">Dei synkroniserte dataa dine vert sletta frå skya. Er du sikker?</string>
+    <string name="clear_sync_data_ok">Slett</string>
+    <string name="cloud_sync_cancel">Avbryt</string>
+    <string name="cloud_sync_opt_in_text">Den personlege ordlista di vert synkronisert og tryggingskopiert til Google-tenarane. Me kan samla inn statistikk om ordhyppigheit for å forbetra produkta våre. All innsamling og bruk fylgjer <a href="https://www.google.com/policies/privacy">personvernerklæringa til Google</a>.</string>
+    <string name="add_account_to_enable_sync">Legg til ein Google-konto på denne eininga for å bruka denne funksjonen</string>
+    <string name="cloud_sync_summary_disabled_work_profile">Synkronisering er ikkje tilgjengeleg for einingar med Google Apps for Business-kontoar</string>
+    <string name="include_other_imes_in_language_switch_list">Byt til andre inndatametodar</string>
+    <string name="include_other_imes_in_language_switch_list_summary">Tast for språkbyte gjeld òg for andre inndatametodar</string>
+    <string name="show_language_switch_key">Tast for språkbyte</string>
+    <string name="show_language_switch_key_summary">Vis når fleire inndataspråk er slått på</string>
+    <string name="key_preview_popup_dismiss_delay">Forseinking for fjerning av tastsvarsvindauge</string>
+    <string name="key_preview_popup_dismiss_no_delay">Inga forseinking</string>
+    <string name="key_preview_popup_dismiss_default_delay">Standard</string>
+    <string name="abbreviation_unit_milliseconds"><xliff:g id="MILLISECONDS">%s</xliff:g> ms</string>
+    <string name="settings_system_default">Systemstandard</string>
+    <string name="use_contacts_dict">Føreslå kontaktnamn</string>
+    <string name="use_contacts_dict_summary">Bruk namn frå kontaktlista til forslag og rettingar</string>
+    <string name="use_personalized_dicts">Personlege forslag</string>
+    <string name="enable_metrics_logging">"Gjer <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> betre"</string>
+    <string name="use_double_space_period">Punktum ved dobbelttrykk på mellomrom</string>
+    <string name="use_double_space_period_summary">Dobbelttrykk på mellomromstasten set inn eit punktum fylgt av eit mellomrom</string>
+    <string name="auto_cap">Automatisk stor forbokstav</string>
+    <string name="auto_cap_summary">Bruk stor forbokstav i starten av kvar setning</string>
+    <string name="edit_personal_dictionary">Personleg ordliste</string>
+    <string name="configure_dictionaries_title">Tilleggsordlister</string>
+    <string name="main_dictionary">Hovudordliste</string>
+    <string name="prefs_show_suggestions">Vis forslag til retting</string>
+    <string name="prefs_show_suggestions_summary">Vis ordforslag medan du skriv</string>
+    <string name="prefs_block_potentially_offensive_title">Blokker støytande ord</string>
+    <string name="prefs_block_potentially_offensive_summary">Ikkje foreslå ord som kan vera støytande</string>
+    <string name="auto_correction">Autoretting</string>
+    <string name="auto_correction_summary">Mellomrom og teiknsetjing rettar skrivefeil automatisk</string>
+    <string name="auto_correction_threshold_mode_off">Av</string>
+    <string name="auto_correction_threshold_mode_modest">Varsam</string>
+    <string name="auto_correction_threshold_mode_aggressive">Ivrig</string>
+    <string name="auto_correction_threshold_mode_very_aggressive">Svært ivrig</string>
+    <string name="bigram_prediction">Forslag til neste ord</string>
+    <string name="bigram_prediction_summary">Bruk det førre ordet til å gje forslag</string>
+    <string name="gesture_input">Bruk sveipeskriving</string>
+    <string name="gesture_input_summary">Skriv ord ved å sveipa over bokstavane</string>
+    <string name="gesture_preview_trail">Vis sveipespor</string>
+    <string name="gesture_floating_preview_text">Dynamisk førehandsvising</string>
+    <string name="gesture_floating_preview_text_summary">Sjå det føreslåtte ordet medan du sveipar</string>
+    <string name="gesture_space_aware">Frasesveiping</string>
+    <string name="gesture_space_aware_summary">Skriv inn mellomrom i sveipinga ved å sveipa over mellomromstasten</string>
+    <string name="voice_input">Tast for taleinnskriving</string>
+    <string name="voice_input_disabled_summary">Inga taleinnskriving er slått på. Sjekk innstillingane for språk og inndata.</string>
+    <string name="configure_input_method">Set opp inndatametodar</string>
+    <string name="language_selection_title">Språk</string>
+    <string name="help_and_feedback">Hjelp og tilbakemelding</string>
+    <string name="select_language">Språk</string>
+    <string name="hint_add_to_dictionary">Trykk på nytt for å lagra</string>
+    <string name="hint_add_to_dictionary_without_word">Trykk her for å lagra</string>
+    <string name="has_dictionary">Ordliste tilgjengeleg</string>
+    <string name="keyboard_layout">Tastaturtema</string>
+    <string name="switch_accounts">Byt konto</string>
+    <string name="no_accounts_selected">Ingen kontoar er valde</string>
+    <string name="account_selected">Brukar no <xliff:g id="EMAIL_ADDRESS" example="someone@example.com">%1$s</xliff:g></string>
+    <string name="account_select_ok">OK</string>
+    <string name="account_select_cancel">Avbryt</string>
+    <string name="account_select_sign_out">Logg av</string>
+    <string name="account_select_title">Vel ein konto</string>
+    <string name="subtype_en_GB">Engelsk (Storbritannia)</string>
+    <string name="subtype_en_US">Engelsk (USA)</string>
+    <string name="subtype_es_US">Spansk (USA)</string>
+    <string name="subtype_hi_ZZ">Hinglish</string>
+    <string name="subtype_sr_ZZ">Serbisk (latinsk)</string>
+    <string name="subtype_with_layout_en_GB">Engelsk (Storbritannia) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+    <string name="subtype_with_layout_en_US">Engelsk (USA) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+    <string name="subtype_with_layout_es_US">Spansk (USA) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+    <string name="subtype_with_layout_hi_ZZ">Hinglish (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+    <string name="subtype_with_layout_sr_ZZ">Serbisk (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)</string>
+    <string name="subtype_generic_traditional"><xliff:g id="LANGUAGE_NAME" example="Nepali">%s</xliff:g> (tradisjonell)</string>
+    <string name="subtype_generic_compact"><xliff:g id="LANGUAGE_NAME" example="Hindi">%s</xliff:g> (kompakt)</string>
+    <string name="subtype_no_language">Ingen språk (alfabet)</string>
+    <string name="subtype_no_language_qwerty">Alfabet (QWERTY)</string>
+    <string name="subtype_no_language_qwertz">Alfabet (QWERTZ)</string>
+    <string name="subtype_no_language_azerty">Alfabet (AZERTY)</string>
+    <string name="subtype_no_language_dvorak">Alfabet (Dvorak)</string>
+    <string name="subtype_no_language_colemak">Alfabet (Colemak)</string>
+    <string name="subtype_no_language_pcqwerty">Alfabet (PC)</string>
+    <string name="subtype_emoji">Emoji</string>
+    <string name="keyboard_theme">Tastaturtema</string>
+    <string name="custom_input_styles_title">Eigne inndatastilar</string>
+    <string name="add_style">Legg til stil</string>
+    <string name="add">Legg til</string>
+    <string name="remove">Fjerna</string>
+    <string name="save">Lagra</string>
+    <string name="subtype_locale">Språk</string>
+    <string name="keyboard_layout_set">Oppsett</string>
+    <string name="custom_input_style_note_message">"Du må slå på den eigne inndatastilen din før du kan bruka han. Vil du slå han på no?"</string>
+    <string name="enable">Slå på</string>
+    <string name="not_now">Ikkje no</string>
+    <string name="custom_input_style_already_exists">"Den same inndatastilen finst frå før: <xliff:g id="INPUT_STYLE_NAME" example="English (Dvorak)">%s</xliff:g>"</string>
+    <string name="prefs_keypress_vibration_duration_settings">Vibrasjonslengd ved tastetrykk</string>
+    <string name="prefs_keypress_sound_volume_settings">Lydstyrke ved tastetrykk</string>
+    <string name="prefs_key_longpress_timeout_settings">Forseinking for langt trykk</string>
+    <string name="prefs_enable_emoji_alt_physical_key">Emoji for fysisk tastatur</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary">Den fysiske Alt-tasten viser emoji-utvalet</string>
+    <string name="button_default">Standard</string>
+    <string name="setup_welcome_title">"Velkomen til <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
+    <string name="setup_welcome_additional_description">med sveipeskriving</string>
+    <string name="setup_start_action">Kom i gang</string>
+    <string name="setup_next_action">Neste steg</string>
+    <string name="setup_steps_title">"Set opp <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
+    <string name="setup_step1_title">"Slå på <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
+    <string name="setup_step1_instruction">"Merka av for «<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>» i innstillingane for språk og inndata. Dette gjev tastaturet løyve til å køyra på eininga di."</string>
+    <string name="setup_step1_finished_instruction">"«<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>» er allereie slått på i innstillingane for språk og inndata, så dette steget er ferdig. Vidare til neste!"</string>
+    <string name="setup_step1_action">Slå på i innstillingane</string>
+    <string name="setup_step2_title">"Byt til <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
+    <string name="setup_step2_instruction">"Vel no «<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>» som aktiv inndatametode."</string>
+    <string name="setup_step2_action">Byt inndatametode</string>
+    <string name="setup_step3_title">"Gratulerer, alt er klart!"</string>
+    <string name="setup_step3_instruction">No kan du skriva i alle favorittappane dine med <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>.</string>
+    <string name="setup_step3_action">Set opp fleire språk</string>
+    <string name="setup_finish_action">Ferdig</string>
+    <string name="show_setup_wizard_icon">Vis app-ikonet</string>
+    <string name="show_setup_wizard_icon_summary">Vis app-ikonet i app-lista</string>
+    <string name="app_name">Ordlisteleverandør</string>
+    <string name="dictionary_provider_name">Ordlisteleverandør</string>
+    <string name="dictionary_service_name">Ordlisteteneste</string>
+    <string name="download_description">Oppdateringsinfo for ordlister</string>
+    <string name="dictionary_settings_title">Tilleggsordlister</string>
+    <string name="dictionary_install_over_metered_network_prompt">Ordliste tilgjengeleg</string>
+    <string name="dictionary_settings_summary">Innstillingar for ordlister</string>
+    <string name="user_dictionaries">Brukarordlister</string>
+    <string name="default_user_dict_pref_name">Brukarordliste</string>
+    <string name="dictionary_available">Ordliste tilgjengeleg</string>
+    <string name="dictionary_downloading">Lastar ned no</string>
+    <string name="dictionary_installed">Installert</string>
+    <string name="dictionary_disabled">Installert, slått av</string>
+    <string name="cannot_connect_to_dict_service">Klarte ikkje kopla til ordlistetenesta</string>
+    <string name="no_dictionaries_available">Ingen ordlister er tilgjengelege</string>
+    <string name="check_for_updates_now">Oppdater</string>
+    <string name="last_update">Sist oppdatert</string>
+    <string name="message_updating">Sjekkar etter oppdateringar</string>
     <string name="message_loading">Lastar inn …</string>
+    <string name="main_dict_description">Hovudordliste</string>
+    <string name="cancel">Avbryt</string>
+    <string name="go_to_settings">Innstillingar</string>
+    <string name="install_dict">Installer</string>
+    <string name="cancel_download_dict">Avbryt</string>
+    <string name="delete_dict">Slett</string>
+    <string name="should_download_over_metered_prompt">Språket du har valt på eininga, har ei tilgjengeleg ordliste.&lt;br/&gt;
+Me tilrår å &lt;b&gt;lasta ned&lt;/b&gt; ordlista for <xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g> for å gjera skriveopplevinga betre.&lt;br/&gt;
+&lt;br/&gt;Nedlastinga kan ta eit minutt eller to over 3G. Kostnader kan påløpa om du ikkje har &lt;b&gt;uavgrensa data&lt;/b&gt;.&lt;br/&gt;
+Om du ikkje er sikker på kva dataavtale du har, tilrår me å bruka eit Wi-Fi-nettverk for å starta nedlastinga automatisk.&lt;br/&gt;
+&lt;br/&gt;
+Tips: Du kan lasta ned og fjerna ordlister under &lt;b&gt;Språk og inndata&lt;/b&gt; i &lt;b&gt;innstillingane&lt;/b&gt; på eininga di.</string>
+    <string name="download_over_metered">Last ned no (<xliff:g id="SIZE_IN_MEGABYTES" example="0.7">%1$.1f</xliff:g> MB)</string>
+    <string name="do_not_download_over_metered">Last ned over Wi-Fi</string>
+    <string name="dict_available_notification_title">Ei ordliste er tilgjengeleg for <xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g></string>
+    <string name="dict_available_notification_description">Trykk for å sjå over og lasta ned</string>
+    <string name="toast_downloading_suggestions">Lastar ned: Forslag for <xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g> er snart klare.</string>
+    <string name="version_text">Versjon <xliff:g id="VERSION_NUMBER" example="1.0.1864.643521">%1$s</xliff:g></string>
+    <string name="user_dict_settings_add_menu_title">Legg til</string>
+    <string name="user_dict_settings_add_dialog_title">Legg til i ordlista</string>
+    <string name="user_dict_settings_add_screen_title">Frase</string>
+    <string name="user_dict_settings_add_dialog_more_options">Fleire val</string>
+    <string name="user_dict_settings_add_dialog_less_options">Færre val</string>
+    <string name="user_dict_settings_add_dialog_confirm">OK</string>
+    <string name="user_dict_settings_add_word_option_name">Ord:</string>
+    <string name="user_dict_settings_add_shortcut_option_name">Snarveg:</string>
+    <string name="user_dict_settings_add_locale_option_name">Språk:</string>
+    <string name="user_dict_settings_add_word_hint">Skriv eit ord</string>
+    <string name="user_dict_settings_add_shortcut_hint">Valfri snarveg</string>
+    <string name="user_dict_settings_edit_dialog_title">Rediger ord</string>
+    <string name="user_dict_settings_context_menu_edit_title">Rediger</string>
+    <string name="user_dict_settings_context_menu_delete_title">Slett</string>
+    <string name="user_dict_settings_empty_text">Du har ingen ord i brukarordlista. Trykk på plussknappen (+) for å leggja til eit ord.</string>
+    <string name="user_dict_settings_all_languages">For alle språk</string>
     <string name="user_dict_settings_more_languages">Fleire språk …</string>
+    <string name="user_dict_settings_delete">Slett</string>
+    <string name="user_dict_fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ</string>
 </resources>

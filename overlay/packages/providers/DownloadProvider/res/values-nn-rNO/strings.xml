@@ -14,6 +14,45 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Nedlastingssentral</string>
+    <string name="storage_description">Nedlastingar</string>
+    <string name="permlab_downloadManager">Tilgang til nedlastingssentralen.</string>
+    <string name="permdesc_downloadManager">Lèt appen få tilgang til nedlastingssentralen for å lasta ned filer. Uærlege appar kan bruka dette til å skipla nedlastingar og få tak i privat informasjon.</string>
+    <string name="permlab_downloadManagerAdvanced">avanserte funksjonar i nedlastingssentralen</string>
+    <string name="permdesc_downloadManagerAdvanced">Lèt appen få tilgang til avanserte funksjonar i nedlastingssentralen. Uærlege appar kan bruka dette til å skipla nedlastingar og få tak i privat informasjon.</string>
+    <string name="permlab_downloadCompletedIntent">senda varsel om fullførde nedlastingar</string>
+    <string name="permdesc_downloadCompletedIntent">Lèt appen senda varsel om fullførde nedlastingar. Uærlege appar kan bruka dette til å skipla andre appar som lastar ned filer.</string>
+    <string name="permlab_downloadCacheNonPurgeable">reservera plass i snøgglageret for nedlastingar</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Lèt appen lasta ned filer til snøgglageret for nedlastingar, der dei ikkje vert sletta automatisk sjølv om nedlastingssentralen treng meir plass.</string>
+    <string name="permlab_downloadWithoutNotification">lasta ned filer utan varsel</string>
+    <string name="permdesc_downloadWithoutNotification">Lèt appen lasta ned filer gjennom nedlastingssentralen utan at brukaren får noko varsel.</string>
+    <string name="permlab_accessAllDownloads">tilgang til alle nedlastingar i systemet</string>
+    <string name="permdesc_accessAllDownloads">Lèt appen sjå og endra alle nedlastingar som er starta av ein kva som helst app i systemet.</string>
+    <string name="download_unknown_title">&lt;Namnlaus&gt;</string>
+    <string name="notification_download_complete">Ferdig med nedlastinga.</string>
+    <string name="notification_download_failed">Klarte ikkje å lasta ned.</string>
+    <string name="notification_need_wifi_for_size">Du treng Wi-Fi på grunn av storleiken på fila.</string>
+    <string name="notification_paused_in_background">Sett på pause i bakgrunnen.</string>
     <string name="wifi_required_title">Fila er for stor for mobilnettet</string>
+    <string name="wifi_required_body">Du må bruka Wi-Fi for å fullføra denne nedlastinga på <xliff:g id="size" example="12.3KB">%1$s</xliff:g>. \n\nTrykk på <xliff:g id="queue_text" example="Queue">%2$s</xliff:g> for å starta nedlastinga neste gong du er kopla til eit Wi-Fi-nett.</string>
+    <string name="wifi_recommended_title">Setja nedlastinga i kø til seinare?</string>
     <string name="wifi_recommended_body">Om du startar denne nedlastinga på <xliff:g id="size" example="12.3KB">%1$s</xliff:g> no, kan det tømma batteriet fortare eller føra til høg bruk av mobildata. Dette kan kosta pengar alt etter kva slags abonnement du har. \n\nTrykk på <xliff:g id="queue_text" example="Queue">%2$s</xliff:g> for å starta nedlastinga neste gong du er kopla til eit Wi-Fi-nett.</string>
+    <string name="button_queue_for_wifi">Set i kø</string>
+    <string name="button_cancel_download">Avbryt</string>
+    <string name="button_start_now">Start no</string>
+    <plurals name="notif_summary_active">
+        <item quantity="one">1 fil vert lasta ned</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> filer vert lasta ned</item>
+    </plurals>
+    <plurals name="notif_summary_waiting">
+        <item quantity="one">1 fil ventar</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> filer ventar</item>
+    </plurals>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> att</string>
+    <string name="download_no_application_title">Klarte ikkje å opna fila</string>
+    <string name="root_downloads">Nedlastingar</string>
+    <string name="download_queued">I kø</string>
+    <string name="download_running">Pågår</string>
+    <string name="download_error">Mislukka</string>
+    <string name="download_running_percent">Pågår, <xliff:g id="percentage" example="50%">%s</xliff:g></string>
 </resources>

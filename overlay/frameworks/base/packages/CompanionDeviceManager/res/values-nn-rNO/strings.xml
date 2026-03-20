@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Administrasjon av følgjesvein-einingar</string>
-    <string name="confirmation_title">Vil du gje appen &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt; tilgang til &lt;strong&gt;<xliff:g id="device_name" example="ASUS ZenWatch 2">%2$s</xliff:g>&lt;/strong&gt;?</string>
+    <string name="confirmation_title">Vil du gjeva appen &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt; tilgang til &lt;strong&gt;<xliff:g id="device_name" example="ASUS ZenWatch 2">%2$s</xliff:g>&lt;/strong&gt;?</string>
     <string name="message_discovery_soft_timeout">Sjå etter at denne <xliff:g id="device_type" example="phone">%1$s</xliff:g> har slått på <xliff:g id="discovery_method" example="Bluetooth">%2$s</xliff:g>, og ha <xliff:g id="profile_name" example="watch">%3$s</xliff:g> i nærleiken.</string>
     <string name="message_discovery_hard_timeout">Fann ingen einingar. Prøv på nytt seinare.</string>
     <string name="discovery_bluetooth">Bluetooth</string>
@@ -25,16 +25,22 @@
     <string name="chooser_title_non_profile">Vel ei eining som skal styrast av &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt;</string>
     <string name="chooser_title">Vel <xliff:g id="profile_name" example="watch">%1$s</xliff:g> som skal setjast opp</string>
     <string name="single_device_title">Søkjer etter ein <xliff:g id="profile_name" example="watch">%1$s</xliff:g></string>
+    <string name="summary_watch">Appen får lov til å synkronisera informasjon, til dømes namnet på den som ringjer, og bruka desse løyva på <xliff:g id="device_type" example="phone">%1$s</xliff:g></string>
     <string name="profile_name_fitness_tracker">treningssporar</string>
     <string name="confirmation_title_glasses">Vil du la &lt;strong&gt;<xliff:g id="app_name" example="Android Wear">%1$s</xliff:g>&lt;/strong&gt; styra &lt;strong&gt;<xliff:g id="device_name" example="Glasses">%2$s</xliff:g>&lt;/strong&gt;?</string>
     <string name="profile_name_glasses">eining</string>
+    <string name="summary_glasses">Appen får lov til å bruka desse løyva på <xliff:g id="device_type" example="phone">%1$s</xliff:g></string>
     <string name="profile_name_medical">medisinsk eining</string>
-    <string name="title_app_streaming">Vil du gje &lt;strong&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g>&lt;/strong&gt; løyve til å strøyma appar og systemfunksjonar mellom <xliff:g id="device_type" example="phone">%2$s</xliff:g>-eininga di og &lt;strong&gt;<xliff:g id="device_name" example="Chromebook">%3$s</xliff:g>&lt;/strong&gt;?</string>
+    <string name="title_app_streaming">Vil du gjeva &lt;strong&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g>&lt;/strong&gt; løyve til å strøyma appar og systemfunksjonar mellom <xliff:g id="device_type" example="phone">%2$s</xliff:g>-eininga di og &lt;strong&gt;<xliff:g id="device_name" example="Chromebook">%3$s</xliff:g>&lt;/strong&gt;?</string>
     <string name="summary_app_streaming"><xliff:g id="app_name" example="Exo">%1$s</xliff:g> får desse løyva:</string>
+    <string name="summary_app_streaming_legacy"><xliff:g id="app_name" example="Exo">%1$s</xliff:g> får tilgang til alt som er synleg eller vert spelt av på <xliff:g id="device_type" example="phone">%2$s</xliff:g>, medrekna lyd, bilete, betalingsinfo, passord og meldingar.&lt;br/&gt;&lt;br/&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g> kan strøyma appar til <xliff:g id="device_name" example="Chromebook">%3$s</xliff:g> til du trekkjer dette løyvet tilbake.</string>
     <string name="helper_summary_app_streaming"><xliff:g id="app_name" example="Exo">%1$s</xliff:g> ber om løyve på vegner av <xliff:g id="device_name" example="Chromebook">%2$s</xliff:g> til å strøyma appar og systemfunksjonar mellom einingane dine</string>
     <string name="title_computer">Gje &lt;strong&gt;<xliff:g id="display_name" example="Chromebook">%3$s</xliff:g>&lt;/strong&gt; tilgang til denne informasjonen frå <xliff:g id="device_type" example="phone">%2$s</xliff:g>-eininga di</string>
-    <string name="title_nearby_device_streaming">Vil du gje &lt;strong&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g>&lt;/strong&gt; løyve til å strøyma appar og systemfunksjonar mellom <xliff:g id="device_type" example="phone">%2$s</xliff:g>-eininga di og &lt;strong&gt;<xliff:g id="device_name" example="Chromebook">%3$s</xliff:g>&lt;/strong&gt;?</string>
+    <string name="helper_summary_computer"><xliff:g id="app_name" example="GMS">%1$s</xliff:g> ber om løyve på vegner av <xliff:g id="device_name" example="Chromebook">%2$s</xliff:g> til å bruka bilete, media og varsel frå <xliff:g id="device_type" example="phone">%3$s</xliff:g></string>
+    <string name="title_nearby_device_streaming">Vil du gjeva &lt;strong&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g>&lt;/strong&gt; løyve til å strøyma appar og systemfunksjonar mellom <xliff:g id="device_type" example="phone">%2$s</xliff:g>-eininga di og &lt;strong&gt;<xliff:g id="device_name" example="Chromebook">%3$s</xliff:g>&lt;/strong&gt;?</string>
     <string name="summary_nearby_device_streaming"><xliff:g id="app_name" example="Exo">%1$s</xliff:g> får desse løyva:</string>
+    <string name="summary_nearby_device_streaming_legacy"><xliff:g id="app_name" example="Exo">%1$s</xliff:g> får tilgang til alt som er synleg eller vert spelt av på <xliff:g id="device_name" example="Chromebook">%3$s</xliff:g>, medrekna lyd, bilete, betalingsinfo, passord og meldingar.&lt;br/&gt;&lt;br/&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g> kan strøyma appar til <xliff:g id="device_name" example="Chromebook">%3$s</xliff:g> til du trekkjer dette løyvet tilbake.</string>
+    <string name="helper_summary_nearby_device_streaming"><xliff:g id="app_name" example="Exo">%1$s</xliff:g> ber om løyve på vegner av <xliff:g id="device_name" example="Chromebook">%2$s</xliff:g> til å strøyma appar frå <xliff:g id="device_type" example="phone">%3$s</xliff:g></string>
     <string name="title_virtual_device">Gje &lt;strong&gt;<xliff:g id="app_name" example="Exo">%1$s</xliff:g>&lt;/strong&gt; løyve til å strøyma lyd og systemfunksjonar mellom <xliff:g id="device_type" example="phone">%3$s</xliff:g> og &lt;strong&gt;<xliff:g id="device_name" example="Chromebook">%2$s</xliff:g>&lt;/strong&gt;?</string>
     <string name="summary_virtual_device"><xliff:g id="app_name" example="Exo">%2$s</xliff:g> får desse løyva:</string>
     <string name="profile_name_generic">eining</string>
@@ -47,7 +53,7 @@
     <string name="downward_arrow">Pil ned</string>
     <string name="permission_expand">Utvid <xliff:g id="permission_type" example="Notification">%1$s</xliff:g></string>
     <string name="permission_collapse">Slå saman <xliff:g id="permission_type" example="Notification">%1$s</xliff:g></string>
-    <string name="permission_sync_confirmation_title">Vil du gje appane på &lt;strong&gt;<xliff:g id="companion_device_name" example="Galaxy Watch 5">%1$s</xliff:g>&lt;/strong&gt; same løyva som på &lt;strong&gt;<xliff:g id="primary_device_name" example="Pixel 6">%2$s</xliff:g>&lt;/strong&gt;?</string>
+    <string name="permission_sync_confirmation_title">Vil du gjeva appane på &lt;strong&gt;<xliff:g id="companion_device_name" example="Galaxy Watch 5">%1$s</xliff:g>&lt;/strong&gt; same løyva som på &lt;strong&gt;<xliff:g id="primary_device_name" example="Pixel 6">%2$s</xliff:g>&lt;/strong&gt;?</string>
     <string name="permission_sync_summary">Det kan inkludera &lt;strong&gt;mikrofon&lt;/strong&gt;, &lt;strong&gt;kamera&lt;/strong&gt;, and &lt;strong&gt;tilgang til plassering&lt;/strong&gt;, og andre viktige løyve på &lt;strong&gt;<xliff:g id="companion_device_name" example="My Watch">%1$s</xliff:g>&lt;/strong&gt;. &lt;br/&gt;&lt;br/&gt;Du kan endra desse løyva når du vil i innstillingane på &lt;strong&gt;<xliff:g id="companion_device_name" example="My Watch">%1$s</xliff:g>&lt;/strong&gt;.</string>
     <string name="vendor_header_button_description">Meir informasjon</string>
     <string name="permission_phone">Telefon</string>
@@ -81,5 +87,6 @@
     <string name="permission_media_routing_control_summary">Få tilgang til ei liste over tilgjengelege einingar og kontrollera kva eining som strøymer eller kringkastar lyd eller film frå andre appar</string>
     <string name="device_type" product="default">telefon</string>
     <string name="device_type" product="tablet">nettbrett</string>
+    <string name="device_type" product="tv">TV</string>
     <string name="device_type" product="device">eining</string>
 </resources>

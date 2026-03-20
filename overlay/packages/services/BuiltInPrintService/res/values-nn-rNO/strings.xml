@@ -15,11 +15,67 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Standard utskriftsteneste</string>
+    <string name="printer_busy">Oppteken</string>
     <string name="printer_out_of_paper">Tom for papir</string>
+    <string name="printer_out_of_ink">Tom for blekk</string>
+    <string name="printer_out_of_toner">Tom for tonar</string>
+    <string name="printer_low_on_ink">Lite blekk att</string>
+    <string name="printer_low_on_toner">Lite tonar att</string>
+    <string name="printer_door_open">Dekselet er ope</string>
     <string name="printer_jammed">Papirstopp</string>
+    <string name="printer_offline">Fråkopla</string>
+    <string name="printer_bad_certificate">Ugyldig sertifikat</string>
+    <string name="printer_not_encrypted">Ikkje kryptert</string>
+    <string name="printer_check">Sjekk skrivaren</string>
+    <string name="waiting_to_send">Ventar på å senda</string>
+    <string name="unreadable_input">Klarte ikkje lesa dokumentet</string>
+    <string name="media_size_l">L</string>
+    <string name="media_size_5x7in">5×7 tommar</string>
+    <string name="media_size_89x119mm">89×119 mm</string>
+    <string name="media_size_54x86mm">54×86 mm</string>
+    <string name="media_size_8x10in">8×10 tommar</string>
+    <string name="media_size_4x6in">4×6 tommar</string>
+    <string name="printer_description">%1$s – %2$s</string>
+    <string name="title_activity_add_printer">Legg til skrivar</string>
+    <string name="add_printer_by_ip">Legg til skrivar med IP-adresse</string>
+    <string name="hostname_or_ip">Vertsnamn eller IP-adresse</string>
+    <string name="ip_hint">192.168.0.4</string>
+    <string name="add">Legg til</string>
+    <string name="add_named">Legg til
+<xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g></string>
+    <string name="no_printer_found">Fann ingen skrivar på denne adressa</string>
+    <string name="printer_not_supported">Skrivaren er ikkje støtta</string>
+    <string name="wifi_direct">Wi-Fi Direct</string>
+    <string name="find_wifi_direct">Finn Wi-Fi Direct-skrivarar</string>
+    <string name="wifi_direct_printing">Utskrift via Wi-Fi Direct</string>
+    <string name="wifi_direct_printers">Wi-Fi Direct-skrivarar</string>
     <string name="searching">Søkjer \u2026</string>
+    <string name="connect_hint_text">Du må kanskje godkjenna tilkoplinga på panelet til skrivaren</string>
     <string name="connecting_to">Koplar til
 <xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g> </string>
+    <string name="failed_printer_connection">Klarte ikkje kopla til skrivaren</string>
+    <string name="failed_connection">Klarte ikkje kopla til
+<xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g></string>
+    <string name="saved_printers">Lagra skrivarar</string>
+    <string name="forget">Gløym</string>
+    <string name="connects_via_wifi_direct">Koplar til via Wi-Fi Direct</string>
+    <string name="connects_via_network">Koplar til via det noverande nettverket på
+<xliff:g example="192.168.0.101" id="ip_address">%1$s</xliff:g></string>
+    <string name="recommendation_summary">Standard utskriftsteneste gjev deg dei enkle vala. Andre funksjonar kan vera tilgjengelege gjennom andre utskriftstenester.</string>
     <string name="recommendations_heading">Tilrådde tenester</string>
+    <string name="recommendation_install_summary">Trykk for å installera</string>
+    <string name="recommendation_enable_summary">Trykk for å slå på</string>
     <string name="recommendation_manage">Styr tenester</string>
+    <string name="security">Tryggleik</string>
+    <string name="certificate_update_request">Skrivaren har sendt eit nytt tryggleikssertifikat, eller så er det ei anna eining som utgjev seg for å vera han. Vil du godta det nye sertifikatet?</string>
+    <string name="not_encrypted_request">Skrivaren tek ikkje lenger imot krypterte oppdrag. Vil du skriva ut likevel?</string>
+    <string name="accept">Godta</string>
+    <string name="reject">Avvis</string>
+    <string name="connections">Tilkoplingar</string>
+    <string name="wifi_direct_problem">Standard utskriftsteneste finn ingen Wi-Fi Direct-skrivarar</string>
+    <string name="disable_wifi_direct">Slå av Wi-Fi Direct</string>
+    <string name="wifi_direct_permission_rationale">Standard utskriftsteneste treng løyve til å finna einingar i nærleiken for å oppdaga skrivarar.</string>
+    <string name="fix">Sjå over løyve</string>
+    <string name="print">Skriv ut</string>
 </resources>

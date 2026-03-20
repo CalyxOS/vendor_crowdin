@@ -17,9 +17,80 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="recent_task_option_pin">Fest</string>
+    <string name="recent_task_option_freeform">Friform</string>
+    <string name="recent_task_option_desktop">Skrivebord</string>
+    <string name="recent_task_option_external_display">Flytt til ekstern skjerm</string>
     <string name="recent_task_option_remove_task">Fjern</string>
+    <string name="recent_task_desktop">Skrivebord</string>
+    <string name="recents_empty_message">Ingen nylege element</string>
+    <string name="accessibility_app_usage_settings">Innstillingar for appbruk</string>
+    <string name="recents_clear_all">Fjern alle</string>
     <string name="add_desk_button_content_description">Legg til nytt skrivebord</string>
+    <string name="accessibility_recent_apps">Nylege appar</string>
+    <string name="task_contents_description_with_remaining_time"><xliff:g id="task_description" example="GMail">%1$s</xliff:g>, <xliff:g id="remaining_time" example="7 minutes left today">%2$s</xliff:g></string>
+    <string name="shorter_duration_less_than_one_minute">&lt; 1 minutt</string>
+    <string name="time_left_for_app"><xliff:g id="time" example="7 minutes">%1$s</xliff:g> att i dag</string>
+    <string name="title_app_suggestions">Appforslag</string>
+    <string name="all_apps_prediction_tip">Dine føreslåtte appar</string>
+    <string name="hotseat_edu_title_migrate">Få appforslag på nedste rad på startskjermen</string>
+    <string name="hotseat_edu_title_migrate_landscape">Få appforslag på favorittrada på startskjermen</string>
+    <string name="hotseat_edu_message_migrate">Du får enkel tilgang til dei mest brukte appane dine rett på startskjermen. Forslaga vert endra etter rutinane dine. Appar på nedste rad vert flytta opp på startskjermen.</string>
+    <string name="hotseat_edu_message_migrate_landscape">Du får enkel tilgang til dei mest brukte appane dine rett på startskjermen. Forslaga vert endra etter rutinane dine. Appar på favorittrada vert flytta til startskjermen.</string>
+    <string name="hotseat_edu_accept">Få appforslag</string>
+    <string name="hotseat_edu_dismiss">Nei takk</string>
+    <string name="hotseat_prediction_settings">Innstillingar</string>
+    <string name="hotseat_auto_enrolled">Her kjem dei mest brukte appane dine, og dei vert endra etter rutinane dine</string>
+    <string name="hotseat_tip_no_empty_slots">Dra appar bort frå nedste rad for å få appforslag</string>
+    <string name="hotseat_tip_gaps_filled">Appforslag er lagde til der det var ledig plass</string>
+    <string name="hotsaet_tip_prediction_enabled">Appforslag er slått på</string>
+    <string name="hotsaet_tip_prediction_disabled">Appforslag er slått av</string>
+    <string name="gesture_tutorial_title">Innføring i sveiping</string>
+    <string name="gesture_tutorial_rotation_prompt_title">Snu eininga</string>
+    <string name="gesture_tutorial_rotation_prompt">Snu eininga di for å fullføra innføringa i sveiping</string>
+    <string name="back_gesture_feedback_swipe_too_far_from_edge">Pass på at du sveipar heilt frå kanten på høgre eller venstre side</string>
+    <string name="back_gesture_feedback_cancelled">Sveip frå kanten til høgre eller venstre og inn til midten av skjermen før du slepper</string>
+    <string name="back_gesture_feedback_complete_with_overview_follow_up">Du har lært å sveipa frå kanten for å gå tilbake. No skal du læra å byta app.</string>
+    <string name="back_gesture_feedback_complete_with_follow_up">Du har lært å gå tilbake. No skal du læra å byta app.</string>
+    <string name="back_gesture_feedback_complete_without_follow_up">Du har lært å gå tilbake</string>
+    <string name="back_gesture_feedback_swipe_in_nav_bar">Pass på at du ikkje sveipar for nær botnen av skjermen</string>
+    <string name="back_gesture_tutorial_confirm_subtitle">Gå til innstillingane om du vil at skjermen skal merka tilbake-rørsla lettare.</string>
+    <string name="back_gesture_intro_title">Sveip for å gå tilbake</string>
+    <string name="back_gesture_intro_subtitle">For å gå tilbake til førre skjermbilete sveipar du frå venstre eller høgre kant og inn mot midten.</string>
+    <string name="back_gesture_tutorial_title">Gå tilbake</string>
+    <string name="back_gesture_tutorial_subtitle">Sveip frå kanten til venstre eller høgre og inn mot midten</string>
+    <string name="home_gesture_feedback_swipe_too_far_from_edge">Pass på at du sveipar opp frå nedste kanten av skjermen</string>
+    <string name="home_gesture_feedback_overview_detected">Pass på at du ikkje tek pause før du slepper</string>
+    <string name="home_gesture_feedback_wrong_swipe_direction">Pass på at du sveipar rett opp</string>
+    <string name="home_gesture_feedback_complete_with_follow_up">Du har lært å gå til startskjermen. No skal du læra å gå tilbake.</string>
+    <string name="home_gesture_feedback_complete_without_follow_up">Du har lært å gå til startskjermen</string>
+    <string name="home_gesture_intro_title">Sveip for å gå til startskjermen</string>
+    <string name="home_gesture_intro_subtitle">Sveip opp frå botnen av skjermen. Slik kjem du alltid til startskjermen.</string>
+    <string name="home_gesture_tutorial_title">Gå til startskjermen</string>
+    <string name="home_gesture_tutorial_subtitle">Sveip opp frå botnen av skjermen</string>
+    <string name="home_gesture_tutorial_success">Kjempebra!</string>
+    <string name="overview_gesture_feedback_swipe_too_far_from_edge">Pass på at du sveipar opp frå nedste kanten av skjermen</string>
+    <string name="overview_gesture_feedback_home_detected">Prøv å halda på vindauget litt lenger før du slepper</string>
+    <string name="overview_gesture_feedback_wrong_swipe_direction">Sveip rett opp, og ta så ein pause</string>
+    <string name="overview_gesture_feedback_complete_with_follow_up">Du har lært å bruka sveiping. Gå til innstillingane om du vil slå av sveiping.</string>
+    <string name="overview_gesture_feedback_complete_without_follow_up">Du har lært å bytta app</string>
+    <string name="overview_gesture_intro_title">Sveip for å bytta app</string>
+    <string name="overview_gesture_intro_subtitle">For å bytta mellom appar sveipar du opp frå botnen av skjermen, held litt, og slepper.</string>
+    <string name="overview_gesture_tutorial_title">Bytt app</string>
+    <string name="overview_gesture_tutorial_subtitle">Sveip opp frå botnen av skjermen, hald litt, og slepp</string>
+    <string name="overview_gesture_tutorial_success">Bra gjort!</string>
+    <string name="gesture_tutorial_confirm_title">Alt er klart</string>
+    <string name="gesture_tutorial_action_button_label">Ferdig</string>
+    <string name="gesture_tutorial_action_button_label_settings">Innstillingar</string>
+    <string name="gesture_tutorial_try_again">Prøv på nytt</string>
+    <string name="gesture_tutorial_nice">Bra!</string>
+    <string name="gesture_tutorial_step">Del <xliff:g id="current">%1$d</xliff:g> av <xliff:g id="total">%2$d</xliff:g></string>
+    <string name="allset_title">Alt er klart!</string>
+    <string name="allset_hint">Sveip opp for å gå til startskjermen</string>
+    <string name="allset_button_hint">Trykk på heimknappen for å gå til startskjermen</string>
+    <string name="allset_description_generic">Du er no klar til å bruka <xliff:g id="device" example="Pixel 6">%1$s</xliff:g>-eininga di</string>
     <string name="allset_description_fallback">Du er klar til å ta i bruk eininga di</string>
+    <string name="allset_navigation_settings"><annotation id="link">Innstillingar for systemnavigasjon</annotation></string>
     <string name="allset_title_expressive"><xliff:g id="device" example="Pixel 9">%1$s</xliff:g> er \nklar!</string>
     <string name="allset_title_expressive_fallback">Eininga di er \nklar!</string>
     <string name="allset_title_expressive_fixed">No er du klar!</string>
@@ -31,14 +102,78 @@
     <string name="allset_button_hint_expressive">Trykk på heim-knappen</string>
     <string name="allset_device_type_tablet">nettbrett</string>
     <string name="allset_device_type_phone">telefon</string>
+    <string name="action_share">Del</string>
+    <string name="action_screenshot">Skjermbilete</string>
+    <string name="action_split">Delt skjerm</string>
+    <string name="action_save_app_pair">Lagra app-par</string>
+    <string name="toast_split_select_app">Trykk på ein annan app for å bruka delt skjerm</string>
+    <string name="toast_contextual_split_select_app">Vel ein annan app for å bruka delt skjerm</string>
+    <string name="toast_split_select_app_cancel">Avbryt</string>
+    <string name="toast_split_select_cont_desc">Avslutt val av delt skjerm</string>
+    <string name="toast_split_app_unsupported">Vel ein annan app for å bruka delt skjerm</string>
+    <string name="blocked_by_policy">Appen eller organisasjonen din tillèt ikkje denne handlinga</string>
+    <string name="split_widgets_not_supported">Miniprogram (widgets) er ikkje støtta enno. Vel ein annan app.</string>
+    <string name="accessibility_rotate_button">Snu skjermen</string>
     <string name="taskbar_edu_swipe_animation_description">Animasjon som viser korleis oppgåvelinja kjem til syne frå botnen av skjermen, og vert gøymd automatisk når ho ikkje er i bruk</string>
     <string name="taskbar_edu_pinning_animation_description">Animasjon som viser korleis du festar oppgåvelinja med ein brytar, slik at ho alltid er synleg nedst på skjermen</string>
     <string name="taskbar_edu_split_screen_animation_description">Animasjon som viser korleis du deler skjermen ved å dra ein app frå oppgåvelinja og sleppa han over ein open app</string>
     <string name="taskbar_edu_suggested_app_animation_description">Animasjon som viser korleis du finn føreslåtte appar på eininga di</string>
     <string name="taskbar_edu_suggested_search_animation_description">Animasjon som viser korleis du søkjer etter noko på skjermen ved å halda inne handlingstasten og velja det området elementet er i</string>
+    <string name="taskbar_edu_a11y_title">Opplæring i oppgåverad</string>
+    <string name="taskbar_edu_splitscreen">Dra ein app til sida for å bruka to appar samstundes</string>
+    <string name="taskbar_edu_stashing">Sveip sakte oppover for å visa oppgåverada</string>
+    <string name="taskbar_edu_suggestions">Få appforslag basert på rutinane dine</string>
+    <string name="taskbar_edu_pinning">Hald inne på skiljelinja for å festa oppgåverada</string>
+    <string name="taskbar_edu_features">Gjer meir med oppgåverada</string>
+    <string name="taskbar_edu_pinning_title">Vis alltid oppgåverada</string>
+    <string name="taskbar_edu_pinning_standalone">For å alltid visa oppgåverada nedst på skjermen må du halda inne på skiljelinja</string>
+    <string name="taskbar_search_edu_title">Hald inne på handlingstasten for å søkja på det som er på skjermen</string>
+    <string name="taskbar_edu_search_disclosure">Dette produktet brukar den valde delen av skjermen til å søkja. Google sine <xliff:g example="https://policies.google.com/privacy/embedded" id="begin_privacy_link">&lt;a href=\"%1$s\"&gt;</xliff:g>personvernreglar<xliff:g id="end_privacy_link">&lt;/a&gt;</xliff:g> og <xliff:g example="https://policies.google.com/terms" id="begin_tos_link">&lt;a href=\"%2$s\"&gt;</xliff:g>vilkår for bruk<xliff:g id="end_tos_link">&lt;/a&gt;</xliff:g> gjeld.</string>
+    <string name="taskbar_edu_close">Lukk</string>
+    <string name="taskbar_edu_done">Ferdig</string>
+    <string name="taskbar_button_home">Heim</string>
+    <string name="taskbar_button_a11y">Tilgjenge</string>
+    <string name="taskbar_button_back">Tilbake</string>
+    <string name="taskbar_button_ime_switcher">Bytt inndatametode</string>
+    <string name="taskbar_button_recents">Nylege</string>
+    <string name="taskbar_button_notifications">Varsel</string>
+    <string name="taskbar_button_quick_settings">Snøgginnstillingar</string>
+    <string name="taskbar_a11y_title">Oppgåverad</string>
+    <string name="taskbar_phone_a11y_title">Navigasjonsrad</string>
+    <string name="always_show_taskbar">Vis alltid oppgåverada</string>
+    <string name="change_navigation_mode">Bytt navigasjonsmodus</string>
+    <string name="taskbar_divider_a11y_title">Skiljelinje på oppgåverad</string>
     <string name="taskbar_overflow_a11y_title">Andre nylege appar</string>
     <string name="app_added_to_taskbar">Appen er lagd til på oppgåvelinja</string>
     <string name="app_removed_from_taskbar">Appen er fjerna frå oppgåvelinja</string>
+    <string name="move_drop_target_top_or_left">Flytt til oppe, til venstre</string>
+    <string name="move_drop_target_bottom_or_right">Flytt til nede, til høgre</string>
+    <string name="open_app_as_a_bubble">Opna appen som ei boble</string>
+    <string name="quick_switch_pane_title">Nylege appar</string>
+    <string name="quick_switch_content_description">Liste over nylege appar</string>
+    <string name="quick_switch_overflow">{count, plural,
+            =1{éin app til}
+            other{# appar til}
+        }</string>
+    <string name="quick_switch_desktop">Skrivebord</string>
+    <string name="quick_switch_split_task"><xliff:g id="app_name_1" example="Chrome">%1$s</xliff:g> og <xliff:g id="app_name_2" example="Gmail">%2$s</xliff:g></string>
+    <string name="quick_switch_task_with_position_in_parent"><xliff:g id="task_description" example="Chrome">%1$s</xliff:g>, element <xliff:g id="index_in_parent" example="1">%2$d</xliff:g> av <xliff:g id="total_tasks" example="5">%3$d</xliff:g></string>
+    <string name="quick_switch_scroll_arrow_left">Rull til venstre</string>
+    <string name="quick_switch_scroll_arrow_right">Rull til høgre</string>
+    <string name="bubble_bar_bubble_fallback_description">Boble</string>
+    <string name="bubble_bar_overflow_description">Fleire</string>
+    <string name="bubble_bar_bubble_description"><xliff:g id="notification_title" example="some title">%1$s</xliff:g> frå <xliff:g id="app_name" example="YouTube">%2$s</xliff:g></string>
+    <string name="bubble_bar_description_multiple_bubbles"><xliff:g id="bubble_bar_bubble_description" example="some title from YouTube">%1$s</xliff:g> og <xliff:g id="bubble_count" example="4">%2$d</xliff:g> til</string>
+    <string name="bubble_bar_action_move_left">Flytt til venstre</string>
+    <string name="bubble_bar_action_move_right">Flytt til høgre</string>
+    <string name="bubble_bar_action_dismiss_all">Fjern alle</string>
+    <string name="bubble_bar_accessibility_announce_expand">utvida <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
+    <string name="bubble_bar_accessibility_announce_collapse">slå saman <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
+    <string name="search_gesture_feature_title">Ring rundt for å søkja</string>
+    <string name="header_app_icon_description">Appikon</string>
+    <string name="header_default_app_title">Appnamn</string>
+    <string name="header_close_icon_description">Lukk-knapp</string>
     <string name="nudge_a11y_title">Nudge</string>
+    <string name="nudge_a11y_close">Lukk</string>
     <string name="nudge_a11y_image">Nudge-bilete</string>
 </resources>

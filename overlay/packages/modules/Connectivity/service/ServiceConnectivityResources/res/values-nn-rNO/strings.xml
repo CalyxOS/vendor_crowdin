@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2021 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="connectivityResourcesAppLabel">Ressursar for systemtilkopling</string>
+    <string name="wifi_available_sign_in">Logg på Wi-Fi-nettverket</string>
+    <string name="network_available_sign_in">Logg på nettverket</string>
+    <string name="network_available_sign_in_detailed"><xliff:g id="network_ssid">%1$s</xliff:g></string>
+    <string name="mobile_network_available_no_internet">Ingen internettilgang</string>
+    <string name="mobile_network_available_no_internet_detailed">Du kan vera tom for data hjå <xliff:g id="network_carrier" example="Android Mobile">%1$s</xliff:g>. Trykk for å sjå kva du kan gjera.</string>
+    <string name="mobile_network_available_no_internet_detailed_unknown_carrier">Du kan vera tom for data. Trykk for å sjå kva du kan gjera.</string>
+    <string name="wifi_no_internet"><xliff:g id="network_ssid" example="GoogleGuest">%1$s</xliff:g> har ingen internettilgang</string>
+    <string name="wifi_no_internet_detailed">Trykk for å sjå kva du kan gjera</string>
+    <string name="mobile_no_internet">Mobilnettverket har ingen internettilgang</string>
+    <string name="other_networks_no_internet">Nettverket har ikkje internettilgang</string>
+    <string name="private_dns_broken_detailed">Får ikkje tak i den private DNS-tenaren</string>
+    <string name="network_partial_connectivity"><xliff:g id="network_ssid" example="GoogleGuest">%1$s</xliff:g> har avgrensa tilkopling</string>
+    <string name="network_partial_connectivity_detailed">Trykk for å kopla til likevel</string>
+    <string name="network_switch_metered">Bytte til <xliff:g id="network_type">%1$s</xliff:g></string>
+    <string name="network_switch_metered_detail">Eininga brukar <xliff:g id="new_network">%1$s</xliff:g> når <xliff:g id="previous_network">%2$s</xliff:g> ikkje har internettilgang. Dette kan kosta pengar.</string>
+    <string name="network_switch_metered_toast">Bytte frå <xliff:g id="previous_network">%1$s</xliff:g> til <xliff:g id="new_network">%2$s</xliff:g></string>
+    <string-array name="network_switch_type_name">
+        <item>mobildata</item>
+        <item>Wi-Fi</item>
+        <item>Bluetooth</item>
+        <item>Ethernet</item>
+        <item>VPN</item>
+    </string-array>
+    <string name="network_switch_type_name_unknown">ein ukjend nettverkstype</string>
+</resources>

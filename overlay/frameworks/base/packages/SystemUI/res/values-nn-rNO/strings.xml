@@ -30,14 +30,15 @@
     <string name="battery_saver_start_action">Slå på</string>
     <string name="battery_saver_dismiss_action">Nei takk</string>
     <string name="standard_battery_saver_text">Standard</string>
+    <string name="extreme_battery_saver_text">Ekstrem</string>
     <string name="status_bar_settings_auto_rotation">Snu skjermen automatisk</string>
-    <string name="usb_device_permission_prompt">Vil du gje <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
-    <string name="usb_device_permission_prompt_warn">Vil du gje <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?\nDenne appen har ikkje fått løyve til å gjera opptak, men kan fanga opp lyd gjennom denne USB-eininga.</string>
-    <string name="usb_audio_device_permission_prompt_title">Vil du gje <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
+    <string name="usb_device_permission_prompt">Vil du gjeva <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
+    <string name="usb_device_permission_prompt_warn">Vil du gjeva <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?\nDenne appen har ikkje fått løyve til å gjera opptak, men kan fanga opp lyd gjennom denne USB-eininga.</string>
+    <string name="usb_audio_device_permission_prompt_title">Vil du gjeva <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
     <string name="usb_audio_device_confirm_prompt_title">Vil du opna <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> for å styra <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?</string>
     <string name="usb_audio_device_prompt_warn">Denne appen har ikkje fått løyve til å gjera opptak, men kan fanga opp lyd gjennom denne USB-eininga. Brukar du <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> med denne eininga, kan det henda du ikkje høyrer samtalar, varsel eller alarmar.</string>
     <string name="usb_audio_device_prompt">Brukar du <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> med denne eininga, kan det henda du ikkje høyrer samtalar, varsel eller alarmar.</string>
-    <string name="usb_accessory_permission_prompt">Vil du gje <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_accessory" example="USB Dock">%2$s</xliff:g>?</string>
+    <string name="usb_accessory_permission_prompt">Vil du gjeva <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> tilgang til <xliff:g id="usb_accessory" example="USB Dock">%2$s</xliff:g>?</string>
     <string name="usb_device_confirm_prompt">Vil du opna <xliff:g id="application">%1$s</xliff:g> for å styra <xliff:g id="usb_device">%2$s</xliff:g>?</string>
     <string name="usb_device_confirm_prompt_warn">Vil du opna <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> for å styra <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>?\nDenne appen har ikkje fått løyve til å gjera opptak, men kan fanga opp lyd gjennom denne USB-eininga.</string>
     <string name="usb_accessory_confirm_prompt">Vil du opna <xliff:g id="application">%1$s</xliff:g> for å styra <xliff:g id="usb_accessory">%2$s</xliff:g>?</string>
@@ -75,6 +76,7 @@
     <string name="remote_input_image_insertion_text">sende eit bilete</string>
     <string name="screenshot_saving_title">Lagrar skjermbilete \u2026</string>
     <string name="screenshot_saving_work_profile_title">Lagrar skjermbilete i jobbprofilen \u2026</string>
+    <string name="screenshot_saving_private_profile">Lagrar skjermbilete i privat profil</string>
     <string name="screenshot_saved_title">Skjermbilete er lagra</string>
     <string name="screenshot_failed_title">Klarte ikkje lagra skjermbilete</string>
     <string name="screenshot_failed_external_display_indication">Ekstern skjerm</string>
@@ -96,15 +98,25 @@
     <string name="screenshot_left_boundary_pct">Venstre grense <xliff:g id="percent" example="50">%1$d</xliff:g> prosent</string>
     <string name="screenshot_right_boundary_pct">Høgre grense <xliff:g id="percent" example="50">%1$d</xliff:g> prosent</string>
     <string name="screenshot_work_profile_notification">Lagra i <xliff:g id="app" example="Files">%1$s</xliff:g> i jobbprofilen</string>
+    <string name="screenshot_private_profile_notification">Lagra i <xliff:g id="app" example="Files">%1$s</xliff:g> i den private profilen</string>
     <string name="screenshot_default_files_app_name">Filer</string>
     <string name="screenshot_detected_template"><xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> oppdaga dette skjermbiletet.</string>
     <string name="screenshot_detected_multiple_template"><xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> og andre opne appar oppdaga dette skjermbiletet.</string>
     <string name="app_clips_save_add_to_note">Legg til i notat</string>
+    <string name="backlinks_include_link">Ta med lenke</string>
+    <string name="backlinks_duplicate_label_format"><xliff:g id="appName" example="Google Chrome">%1$s</xliff:g> <xliff:g id="frequencyCount" example="(1)">(%2$d)</xliff:g></string>
+    <string name="backlinks_cross_profile_error">Kan ikkje leggja til lenker frå andre profilar</string>
     <string name="screenrecord_title">Skjermopptak</string>
     <string name="screenrecord_background_processing_label">Handsamar skjermopptak</string>
     <string name="screenrecord_channel_description">Løpande varsel for ei skjermopptaksøkt</string>
+    <string name="screenrecord_permission_dialog_title">Vil du ta opp skjermen?</string>
+    <string name="screenrecord_permission_dialog_option_text_single_app">Ta opp frå éin app</string>
     <string name="screenrecord_permission_dialog_option_text_entire_screen">Ta opp denne skjermen</string>
     <string name="screenrecord_permission_dialog_option_text_entire_screen_for_display">Ta opp %s</string>
+    <string name="screenrecord_permission_dialog_warning_entire_screen">Når du tek opp heile skjermen, vert alt som vert vist der, teke opp. Ver difor varsam med ting som passord, betalingsopplysningar, meldingar, bilete og lyd eller video.</string>
+    <string name="screenrecord_permission_dialog_warning_single_app">Når du tek opp frå ein app, vert alt som vert vist eller spela av i appen, teke opp. Ver difor varsam med ting som passord, betalingsopplysningar, meldingar, bilete og lyd eller video.</string>
+    <string name="screenrecord_permission_dialog_continue_entire_screen">Ta opp skjermen</string>
+    <string name="screenrecord_app_selector_title">Vel app for opptak</string>
     <string name="screenrecord_audio_label">Ta opp lyd</string>
     <string name="screenrecord_device_audio_label">Lyden frå eininga</string>
     <string name="screenrecord_device_audio_description">Lyd frå eininga di, som musikk, samtalar og ringetonar</string>
@@ -120,6 +132,10 @@
     <string name="screenrecord_save_text">Trykk for å sjå</string>
     <string name="screenrecord_save_error">Feil ved lagring av skjermopptaket</string>
     <string name="screenrecord_start_error">Klarte ikkje starta skjermopptaket</string>
+    <string name="screenrecord_stop_dialog_title">Vil du stoppa opptaket?</string>
+    <string name="screenrecord_stop_dialog_message">Du tek opp heile skjermen akkurat no</string>
+    <string name="screenrecord_stop_dialog_message_specific_app">Du tek opp frå <xliff:g id="app_name" example="Photos App">%1$s</xliff:g> akkurat no</string>
+    <string name="screenrecord_stop_dialog_button">Stopp opptaket</string>
     <string name="screen_record_entire_screen">Heile skjermen</string>
     <string name="screen_record_single_app">Éin app</string>
     <string name="screen_record_single_app_hint">App som skal takast opp</string>
@@ -142,6 +158,7 @@
     <string name="screen_record_mute">Lydlaus</string>
     <string name="screen_record_unmute">Slå på lyd</string>
     <string name="screen_capture_fullscreen_screenshot_button">Ta bilete av heile skjermen</string>
+    <string name="screen_capture_fullscreen_record_button">Ta opp heile skjermen</string>
     <string name="screen_capture_region_selection_button">Ta bilete av eit valt område</string>
     <string name="screen_capture_record_region_selection_button">Ta opp eit valt område</string>
     <string name="screen_capture_toolbar_screenshot_button">Skjermbilete</string>
@@ -154,13 +171,33 @@
     <string name="screen_capture_toolbar_region_button_screenshot_a11y">Ta skjermbilete av valt område</string>
     <string name="screen_capture_toolbar_region_button_record_a11y">Ta opp valt område</string>
     <string name="screen_capture_toolbar_fullscreen_button_screenshot_a11y">Ta skjermbilete av heile skjermen</string>
+    <string name="screen_capture_toolbar_fullscreen_button_record_a11y">Ta opp heile skjermen</string>
     <string name="screen_capture_toolbar_settings_button_a11y">Innstillingar for skjermopptak</string>
     <string name="screen_capture_show_clicks_and_keys">Vis klikk og tastar</string>
     <string name="screen_capture_device_audio">Lyden frå eininga</string>
     <string name="screen_capture_microphone_audio">Mikrofon</string>
     <string name="screen_capture_front_camera">Frontkamera</string>
     <string name="screen_capture_region_dimensions"><xliff:g example="210" id="width">%1$d</xliff:g> × <xliff:g example="129" id="height">%2$d</xliff:g></string>
+    <string name="screen_share_privacy_indicator_stop_sharing">Stopp deling</string>
+    <string name="share_to_app_chip_accessibility_label">Delar skjermen</string>
+    <string name="share_to_app_chip_accessibility_label_generic">Delar innhald</string>
+    <string name="share_to_app_stop_dialog_title">Vil du stoppa deling av skjermen?</string>
+    <string name="share_to_app_stop_dialog_title_generic">Vil du stoppa delinga?</string>
+    <string name="share_to_app_stop_dialog_message_entire_screen_with_host_app">Du delar heile skjermen med <xliff:g id="host_app_name" example="Screen Recorder App">%1$s</xliff:g> akkurat no</string>
+    <string name="share_to_app_stop_dialog_message_entire_screen">Du delar heile skjermen med ein app akkurat no</string>
+    <string name="share_to_app_stop_dialog_message_single_app_specific">Du delar <xliff:g id="app_being_shared_name" example="Photos App">%1$s</xliff:g> akkurat no</string>
+    <string name="share_to_app_stop_dialog_message_single_app_generic">Du delar ein app akkurat no</string>
+    <string name="share_to_app_stop_dialog_message_generic">Du delar innhald med ein app akkurat no</string>
     <string name="share_to_app_stop_dialog_message_with_host_app">Du deler no med <xliff:g id="host_app_name" example="Screen Recorder App">%1$s</xliff:g></string>
+    <string name="share_to_app_stop_dialog_button">Stopp deling</string>
+    <string name="cast_screen_to_other_device_chip_accessibility_label">Sender skjermen</string>
+    <string name="cast_to_other_device_stop_dialog_title">Vil du stoppa sendinga?</string>
+    <string name="cast_to_other_device_stop_dialog_message_entire_screen_with_device">Du sender heile skjermen til <xliff:g id="device_name" example="Living Room Device">%1$s</xliff:g> akkurat no</string>
+    <string name="cast_to_other_device_stop_dialog_message_entire_screen">Du sender heile skjermen til ei eining i nærleiken akkurat no</string>
+    <string name="cast_to_other_device_stop_dialog_message_specific_app_with_device">Du sender <xliff:g id="app_being_shared_name" example="Photos App">%1$s</xliff:g> til <xliff:g id="device_name" example="Living Room Device">%2$s</xliff:g> akkurat no</string>
+    <string name="cast_to_other_device_stop_dialog_message_specific_app">Du sender <xliff:g id="app_being_shared_name" example="Photos App">%1$s</xliff:g> til ei eining i nærleiken akkurat no</string>
+    <string name="cast_to_other_device_stop_dialog_message_generic_with_device">Du sender innhald til <xliff:g id="device_name" example="Living Room Device">%1$s</xliff:g> akkurat no</string>
+    <string name="cast_to_other_device_stop_dialog_message_generic">Du sender innhald til ei eining i nærleiken akkurat no</string>
     <string name="cast_to_other_device_stop_dialog_button">Stopp castinga</string>
     <string name="close_dialog_button">Lukk</string>
     <string name="issuerecord_title">Feilrapportering</string>
@@ -173,6 +210,7 @@
     <string name="issuerecord_save_error">Feil ved lagring av feilopptaket</string>
     <string name="issuerecord_start_error">Klarte ikkje starta feilopptaket</string>
     <string name="immersive_cling_title">Viser i fullskjerm</string>
+    <string name="immersive_cling_description">Sveip ned frå toppen av skjermen for å avslutta</string>
     <string name="immersive_cling_positive">Greitt</string>
     <string name="accessibility_back">Tilbake</string>
     <string name="accessibility_home">Heim</string>
@@ -192,6 +230,7 @@
     <string name="accessibility_scanning_face">Skannar andlet</string>
     <string name="accessibility_send_smart_reply">Send</string>
     <string name="cancel">Avbryt</string>
+    <string name="biometric_dialog_logo">App-logo</string>
     <string name="biometric_dialog_confirm">Stadfest</string>
     <string name="biometric_dialog_try_again">Prøv på nytt</string>
     <string name="biometric_dialog_empty_space_description">Trykk for å avbryta stadfestinga</string>
@@ -204,8 +243,10 @@
     <string name="biometric_dialog_tap_confirm_with_face_alt_1">Låst opp med andlet. Trykk for å halda fram.</string>
     <string name="biometric_dialog_tap_confirm_with_face_alt_2">Andletet er gjenkjent. Trykk for å halda fram.</string>
     <string name="biometric_dialog_tap_confirm_with_face_alt_3">Andletet er gjenkjent. Trykk på hengelåsen for å halda fram.</string>
+    <string name="biometric_dialog_tap_confirm_with_face_sfps">Låst opp med andlet. Trykk for å halda fram.</string>
     <string name="biometric_dialog_authenticated">Stadfest</string>
     <string name="biometric_dialog_cancel_authentication">Avbryt stadfestinga</string>
+    <string name="biometric_dialog_content_view_more_options_button">Fleire val</string>
     <string name="biometric_dialog_fallback_title">Stadfest på ein annan måte</string>
     <string name="biometric_dialog_fallback_button">Stadfest på ein annan måte</string>
     <string name="biometric_dialog_manage_identity_check">Styr identitetskontroll</string>
@@ -331,6 +372,7 @@
     <string name="start_dreams">Skjermsparar</string>
     <string name="ethernet_label">Ethernet</string>
     <string name="quick_settings_dnd_label">«Ikkje forstyrr»</string>
+    <string name="quick_settings_modes_label">Modusar</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_detail_empty_text">Ingen kopla einingar er tilgjengelege</string>
     <string name="quick_settings_bluetooth_tile_subtitle">Trykk for å kopla einingar til eller frå</string>
@@ -338,10 +380,21 @@
     <string name="see_all_bluetooth_devices">Sjå alle</string>
     <string name="turn_on_bluetooth">Bruk Bluetooth</string>
     <string name="quick_settings_bluetooth_device_connected">Tilkopla</string>
+    <string name="quick_settings_bluetooth_device_audio_sharing">Lyddeling</string>
+    <string name="quick_settings_bluetooth_device_audio_sharing_or_switch_active">Støttar lyddeling</string>
     <string name="quick_settings_bluetooth_device_saved">Lagra</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_disconnect">kopla frå</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">gjer verksam</string>
+    <string name="turn_on_bluetooth_auto_tomorrow">Slå på automatisk i morgon</string>
+    <string name="turn_on_bluetooth_auto_info_disabled">Funksjonar som Quick Share og Finn eininga mi brukar Bluetooth</string>
+    <string name="turn_on_bluetooth_auto_info_enabled">Bluetooth vert slått på i morgon tidleg</string>
+    <string name="quick_settings_bluetooth_audio_sharing_button">Del lyd</string>
     <string name="quick_settings_bluetooth_audio_sharing_button_sharing">Deler lyd</string>
+    <string name="quick_settings_bluetooth_audio_sharing_button_accessibility">opna innstillingar for lyddeling</string>
+    <string name="quick_settings_bluetooth_audio_sharing_dialog_message">Musikk og video frå denne eininga vert spela av i begge hovudtelefonane</string>
+    <string name="quick_settings_bluetooth_audio_sharing_dialog_title">Del lyden din</string>
+    <string name="quick_settings_bluetooth_audio_sharing_dialog_subtitle"><xliff:g id="available_device_name" example="device 1">%1$s</xliff:g> og <xliff:g id="active_device_name" example="device 2">%2$s</xliff:g></string>
+    <string name="quick_settings_bluetooth_audio_sharing_dialog_switch_to_button">Byt til <xliff:g id="available_device_name" example="device 1">%1$s</xliff:g></string>
     <string name="quick_settings_bluetooth_secondary_label_battery_level"><xliff:g id="battery_level_as_percentage">%s</xliff:g> batteri</string>
     <string name="quick_settings_bluetooth_secondary_label_audio">Lyd</string>
     <string name="quick_settings_bluetooth_secondary_label_headset">Hovudsett</string>
@@ -392,6 +445,7 @@
     <string name="quick_settings_flashlight_camera_in_use">Kameraet er i bruk</string>
     <string name="flashlight_dialog_title">Styrke på lommelykta</string>
     <string name="quick_settings_flashlight_tile_level_percentage"><xliff:g id="percentage" example="46">%1$d</xliff:g> %%</string>
+    <string name="flashlight_dialog_turn_off">Slå av</string>
     <string name="quick_settings_cellular_detail_title">Mobildata</string>
     <string name="quick_settings_cellular_detail_data_usage">Databruk</string>
     <string name="quick_settings_cellular_detail_remaining_data">Data att</string>
@@ -423,15 +477,25 @@
     <string name="qs_record_issue_label">Ta opp feil</string>
     <string name="qs_record_issue_start">Start</string>
     <string name="qs_record_issue_stop">Stopp</string>
+    <string name="qs_record_issue_bug_report">Feilmeldingslogg</string>
     <string name="qs_record_issue_dropdown_header">Kva del av brukaropplevinga vart råka?</string>
     <string name="qs_record_issue_dropdown_prompt">Vel feiltype</string>
     <string name="qs_record_issue_dropdown_screenrecord">Skjermopptak</string>
     <string name="performance">Yting</string>
     <string name="user_interface">Brukargrensesnitt</string>
+    <string name="thermal">Termisk</string>
+    <string name="custom">Tilpassa</string>
+    <string name="custom_trace_settings_dialog_title">Tilpassa sporingsinnstillingar</string>
     <string name="restore_default">Gjenopprett standardinnstillingar</string>
     <string name="quick_settings_onehanded_label">Einhandmodus</string>
+    <string name="quick_settings_hearing_devices_label">Høyreapparat</string>
+    <string name="quick_settings_hearing_devices_connected">Aktiv</string>
+    <string name="quick_settings_hearing_devices_disconnected">Fråkopla</string>
+    <string name="quick_settings_hearing_devices_dialog_title">Høyreapparat</string>
     <string name="quick_settings_pair_hearing_devices">Kopla til ny eining</string>
     <string name="accessibility_hearing_device_pair_new_device">Trykk for å kopla til ei ny eining</string>
+    <string name="hearing_devices_presets_error">Klarte ikkje oppdatera førehandsinnstillinga</string>
+    <string name="hearing_devices_preset_label">Førehandsinnstilling</string>
     <string name="hearing_devices_preset_label_left">Innstilling for venstre</string>
     <string name="hearing_devices_preset_label_right">Innstilling for høgre</string>
     <string name="hearing_devices_input_routing_label">Standard mikrofon for samtalar</string>
@@ -449,8 +513,10 @@
     <string name="hearing_devices_ambient_collapse_controls">Slå saman til éin kontroll</string>
     <string name="hearing_devices_ambient_mute">Demp lyden rundt deg</string>
     <string name="hearing_devices_ambient_unmute">Ikkje demp lyden rundt deg</string>
+    <string name="hearing_devices_tools_label">Verktøy</string>
     <string name="quick_settings_hearing_devices_live_caption_title">Direkteteksting</string>
     <string name="hearing_devices_settings_button">Innstillingar</string>
+    <string name="quick_settings_notes_label">Notat</string>
     <string name="sensor_privacy_start_use_mic_dialog_title">Vil du oppheva blokkeringa av mikrofonen?</string>
     <string name="sensor_privacy_start_use_camera_dialog_title">Vil du oppheva blokkeringa av kameraet?</string>
     <string name="sensor_privacy_start_use_mic_camera_dialog_title">Vil du oppheva blokkeringa av kamera og mikrofon?</string>
@@ -481,10 +547,20 @@
     <string name="media_suggestion_disconnected_text">Spel av på <xliff:g id="device_name" example="Living room speaker">%s</xliff:g></string>
     <string name="media_suggestion_failure_text">Klarte ikkje kopla til. Prøv på nytt.</string>
     <string name="quick_step_accessibility_toggle_overview">Veksla oversikt</string>
+    <string name="zen_modes_dialog_title">Modusar</string>
     <string name="zen_modes_dialog_done">Ferdig</string>
     <string name="zen_modes_dialog_settings">Innstillingar</string>
     <string name="zen_mode_on">På</string>
+    <string name="zen_mode_on_with_details">På • <xliff:g id="trigger_description" example="Mon-Fri, 23:00-7:00">%1$s</xliff:g></string>
     <string name="zen_mode_off">Av</string>
+    <string name="zen_mode_set_up">Ikkje stilt inn</string>
+    <string name="zen_mode_no_manual_invocation">Styr i innstillingane</string>
+    <string name="zen_mode_active_modes">        {count, plural,
+            =0 {Ingen aktive modusar}
+            =1 {{mode} er aktiv}
+            other {# aktive modusar}
+        }
+    </string>
     <string name="zen_modes_multiple_on_title"><xliff:g id="number" example="3">%d</xliff:g> modusar</string>
     <string name="zen_modes_multiple_on_status">På</string>
     <string name="zen_priority_introduction">Du vert ikkje forstyrra av lyd eller vibrering, bortsett frå alarmar, påminningar, hendingar og dei som ringjer og som du sjølv har valt ut. Du høyrer framleis lydar frå musikk, video og spel.</string>
@@ -525,6 +601,8 @@
     <string name="keyguard_indication_charging_time_fast"><xliff:g id="percentage">%2$s</xliff:g> • Ladar snøgt • Fullt om <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
     <string name="keyguard_indication_charging_time_slowly"><xliff:g id="percentage">%2$s</xliff:g> • Ladar seint • Fullt om <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
     <string name="keyguard_indication_charging_time_dock"><xliff:g id="percentage" example="20%">%2$s</xliff:g> • Ladar • Fullt om <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
+    <string name="accessibility_action_open_communal_hub">Miniprogram på låseskjermen</string>
+    <string name="accessibility_announcement_communal_widget_added">Miniprogrammet <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> er lagt til på låseskjermen</string>
     <string name="communal_tutorial_indicator_text">Sveip til venstre for å starta omvisinga</string>
     <string name="cta_tile_button_to_open_widget_editor">Tilpassa</string>
     <string name="cta_tile_button_to_dismiss">Fjern</string>
@@ -532,21 +610,40 @@
     <string name="cta_label_to_open_widget_picker">Legg til fleire miniprogram</string>
     <string name="popup_on_dismiss_cta_tile_text">Hald inne for å tilpassa miniprogram</string>
     <string name="button_to_configure_widgets_text">Tilpassa miniprogram</string>
+    <string name="unlock_reason_to_customize_widgets">Lås opp for å tilpassa miniprogramma</string>
     <string name="icon_description_for_disabled_widget">App-ikon for miniprogram som er slått av</string>
+    <string name="icon_description_for_pending_widget">App-ikon for eit miniprogram som vert installert</string>
     <string name="edit_widget">Rediger miniprogram</string>
     <string name="button_to_remove_widget">Fjern</string>
     <string name="hub_mode_add_widget_button_text">Legg til miniprogram</string>
     <string name="hub_mode_editing_exit_button_text">Ferdig</string>
+    <string name="label_for_button_in_empty_state_cta">Legg til miniprogram</string>
     <string name="title_for_empty_state_cta">Få snøgg tilgang til miniprogramma du brukar mest, utan å låsa opp eininga.</string>
+    <string name="dialog_title_to_allow_any_widget">Vil du tillata alle miniprogram på låseskjermen?</string>
     <string name="button_text_to_open_settings">Opna innstillingar</string>
+    <string name="work_mode_off_title">Vil du avslutta pausen for jobb-appar?</string>
+    <string name="work_mode_turn_on">Avslutt pause</string>
+    <string name="accessibility_action_label_close_communal_hub">Lukk miniprogram på låseskjermen</string>
     <string name="accessibility_action_label_edit_widgets">Tilpassa miniprogram</string>
+    <string name="accessibility_content_description_for_communal_hub">Miniprogram på låseskjermen</string>
+    <string name="accessibility_action_label_select_widget">vel miniprogram</string>
+    <string name="accessibility_action_label_remove_widget">fjern miniprogram</string>
+    <string name="accessibility_action_label_place_widget">plasser valt miniprogram</string>
+    <string name="communal_widget_picker_title">Miniprogram på låseskjermen</string>
     <string name="communal_widget_picker_description">Alle kan sjå miniprogram på låseskjermen din, sjølv om eininga er låst.</string>
+    <string name="accessibility_action_label_unselect_widget">ikkje vel miniprogrammet</string>
+    <string name="accessibility_action_label_shrink_widget">Gjer lågare</string>
+    <string name="accessibility_action_label_expand_widget">Gjer høgare</string>
     <string name="accessibility_action_label_umo_show_next">Vis neste</string>
     <string name="accessibility_action_label_umo_show_previous">Vis førre</string>
+    <string name="communal_widgets_disclaimer_title">Miniprogram på låseskjermen</string>
     <string name="communal_widgets_disclaimer_text">Du må stadfesta kven du er for å opna ein app frå eit miniprogram. Hugs òg at alle kan sjå dei, sjølv om eininga er låst. Nokre miniprogram er kanskje ikkje laga for låseskjermen og kan vera utrygge å leggja til her.</string>
     <string name="communal_widgets_disclaimer_button">Greitt</string>
+    <string name="accessibility_glanceable_hub_to_dream_button">Knapp for skjermsparar</string>
     <string name="hub_onboarding_bottom_sheet_title">Utforsk hub-modus</string>
+    <string name="hub_onboarding_bottom_sheet_text">Få tilgang til favorittminiprogram og skjermspararar under lading.</string>
     <string name="hub_onboarding_bottom_sheet_action_button">Set i gang</string>
+    <string name="glanceable_hub_to_dream_button_tooltip">Vis favorittskjermspararane dine under lading</string>
     <string name="accessibility_multi_user_switch_switcher">Byt brukar</string>
     <string name="accessibility_multi_user_list_switcher">nedtrekksmeny</string>
     <string name="guest_exit_guest_dialog_message">Alle appar og data i denne økta vert sletta.</string>
@@ -570,10 +667,26 @@
     <string name="media_projection_sys_service_dialog_title">Start opptak eller casting?</string>
     <string name="media_projection_sys_service_dialog_warning">Tenesta som leverer denne funksjonen vil ha tilgang til all informasjon som er synleg på skjermen eller som vert spela av på eininga di under opptak eller casting. Dette gjeld òg ting som passord, betalingsopplysningar, bilete, meldingar og lyd.</string>
     <string name="screen_share_generic_app_selector_title">Del eller ta opp ein app</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Vil du dela skjermen med <xliff:g id="app_seeking_permission" example="Meet">%s</xliff:g>?</string>
+    <string name="screen_share_permission_dialog_option_single_app">Del éin app</string>
+    <string name="media_projection_entry_app_permission_dialog_option_text_single_app">@string/screen_share_permission_dialog_option_single_app</string>
+    <string name="screen_share_permission_dialog_option_entire_screen">Del heile skjermen</string>
     <string name="screen_share_permission_dialog_option_text_entire_screen_for_display">Del <xliff:g id="display_name" example="Display 1">%s</xliff:g></string>
+    <string name="media_projection_entry_app_permission_dialog_option_text_entire_screen">@string/screen_share_permission_dialog_option_entire_screen</string>
+    <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Når du delar heile skjermen, er alt på skjermen synleg for <xliff:g id="app_seeking_permission" example="Meet">%s</xliff:g>. Ver difor varsam med ting som passord, betalingsopplysningar, meldingar, bilete og lyd eller video.</string>
+    <string name="media_projection_entry_app_permission_dialog_warning_single_app">Når du delar ein app, er alt som vert vist eller spela av i appen, synleg for <xliff:g id="app_seeking_permission" example="Meet">%s</xliff:g>. Ver difor varsam med ting som passord, betalingsopplysningar, meldingar, bilete og lyd eller video.</string>
+    <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Del skjermen</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled"><xliff:g id="app_name" example="Meet">%1$s</xliff:g> har slått av dette valet</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Ikkje støtta av appen</string>
+    <string name="media_projection_entry_share_app_selector_title">Vel app for deling</string>
+    <string name="media_projection_entry_cast_permission_dialog_title">Vil du senda skjermen?</string>
+    <string name="media_projection_entry_cast_permission_dialog_option_text_single_app">Send éin app</string>
+    <string name="media_projection_entry_cast_permission_dialog_option_text_entire_screen">Send heile skjermen</string>
     <string name="media_projection_entry_cast_permission_dialog_option_text_entire_screen_for_display">Send <xliff:g id="display_name" example="Display 1">%s</xliff:g></string>
+    <string name="media_projection_entry_cast_permission_dialog_warning_entire_screen">Når du sender heile skjermen, er alt på skjermen synleg. Ver difor varsam med ting som passord, betalingsopplysningar, meldingar, bilete og lyd eller video.</string>
+    <string name="media_projection_entry_cast_permission_dialog_warning_single_app">Når du sender ein app, er alt som vert vist eller spela av i appen, synleg. Ver difor varsam med ting som passord, betalingsopplysningar, meldingar, bilete og lyd eller video.</string>
+    <string name="media_projection_entry_cast_permission_dialog_continue_entire_screen">Send skjermen</string>
+    <string name="media_projection_entry_cast_app_selector_title">Vel app for sending</string>
     <string name="media_projection_entry_generic_permission_dialog_title">Starta deling?</string>
     <string name="media_projection_entry_generic_permission_dialog_warning_entire_screen">Når du deler, tek opp eller castar, har Android tilgang til alt som er synleg på skjermen eller som vert spela av på eininga di. Ver difor varsam med ting som passord, betalingsopplysningar, meldingar, bilete, lyd og video.</string>
     <string name="media_projection_entry_generic_permission_dialog_warning_single_app">Når du deler, tek opp eller castar ein app, har Android tilgang til alt som vert vist eller spela av i den appen. Ver difor varsam med ting som passord, betalingsopplysningar, meldingar, bilete, lyd og video.</string>
@@ -588,11 +701,14 @@
     <string name="clear_all_notifications_text">Fjern alle</string>
     <string name="manage_notifications_text">Styr</string>
     <string name="manage_notifications_history_text">Logg</string>
+    <string name="notification_settings_button_description">Varslingsinnstillingar</string>
+    <string name="notification_history_button_description">Varslingslogg</string>
     <string name="notification_section_header_incoming">Nye</string>
     <string name="notification_section_header_gentle">Lydlause</string>
     <string name="notification_section_header_alerting">Varsel</string>
     <string name="notification_section_header_conversations">Samtalar</string>
     <string name="accessibility_notification_section_header_gentle_clear_all">Fjern alle lydlause varsel</string>
+    <string name="accessibility_notification_section_header_open_settings">Opna varslingsinnstillingar</string>
     <string name="modes_suppressing_shade_text">        {count, plural, offset:1
             =0 {Ingen varsel}
             =1 {Varsel er sette på pause av {mode}}
@@ -604,6 +720,9 @@
     <string name="media_projection_action_text">Start no</string>
     <string name="empty_shade_text">Ingen varsel</string>
     <string name="no_unseen_notif_text">Ingen nye varsel</string>
+    <string name="adaptive_notification_edu_hun_title">Demping av varsel er no på</string>
+    <string name="adaptive_notification_edu_hun_text">Lydstyrken og varsla på eininga di vert dempa automatisk i opptil 2 minutt når du får for mange varsel på éin gong.</string>
+    <string name="go_to_adaptive_notification_settings">Slå av</string>
     <string name="unlock_to_see_notif_text">Lås opp for å sjå eldre varsel</string>
     <string name="quick_settings_disclosure_parental_controls">Ein føresett styrer denne eininga</string>
     <string name="quick_settings_disclosure_pin_protection">Nokre einingsinnstillingar er verna med PIN-kode.</string>
@@ -698,6 +817,9 @@
     <string name="volume_ringer_status_silent">Lydlaus</string>
     <string name="media_device_cast">Cast</string>
     <string name="stream_notification_unavailable">Ikkje tilgjengeleg fordi ringetonen er slått av</string>
+    <string name="stream_alarm_unavailable">Ikkje tilgjengeleg sidan «Ikkje forstyrr» er på</string>
+    <string name="stream_media_unavailable">Ikkje tilgjengeleg sidan «Ikkje forstyrr» er på</string>
+    <string name="stream_unavailable_by_modes">Ikkje tilgjengeleg fordi <xliff:g id="mode" example="Bedtime">%s</xliff:g> er på</string>
     <string name="stream_unavailable_by_unknown">Ikkje tilgjengeleg</string>
     <string name="volume_stream_content_description_unmute">%1$s. Trykk for å slå på lyden.</string>
     <string name="volume_stream_content_description_vibrate">%1$s. Trykk for å byta til vibrering. Tilgjengetenester kan verta lydlause.</string>
@@ -705,17 +827,29 @@
     <string name="volume_stream_content_description_vibrate_a11y">%1$s. Trykk for å byta til vibrering.</string>
     <string name="volume_stream_content_description_mute_a11y">%1$s. Trykk for å gjera lydlaus.</string>
     <string name="volume_panel_noise_control_title">Støykontroll</string>
+    <string name="volume_panel_spatial_audio_title">Romleg lyd</string>
     <string name="volume_panel_spatial_audio_off">Av</string>
+    <string name="volume_panel_spatial_audio_fixed">Fast</string>
+    <string name="volume_panel_spatial_audio_tracking">Hovudsporing</string>
     <string name="volume_ringer_change">Trykk for å byta ringjemodus</string>
+    <string name="volume_ringer_mode">ringemodus</string>
+    <string name="volume_ringer_drawer_closed_content_description"><xliff:g id="volume ringer status" example="Ring">%1$s</xliff:g>, trykk for å endra ringemodus</string>
     <string name="volume_ringer_hint_mute">gjer lydlaus</string>
     <string name="volume_ringer_hint_unmute">slå på lyden</string>
     <string name="volume_ringer_hint_vibrate">byt til vibrering</string>
     <string name="volume_dialog_title">Lydstyring for %s</string>
     <string name="volume_dialog_ringer_guidance_ring">Samtalar og varsel vil ringja (<xliff:g id="volume level" example="56">%1$s</xliff:g>)</string>
     <string name="volume_dialog_guest_device_volume_description">Lydstyrke på gjesteeining</string>
+    <string name="volume_panel_enter_media_output_settings">Opna innstillingar for lydutgang</string>
+    <string name="volume_panel_expanded_sliders">Volumkontrollar er utvida</string>
+    <string name="volume_panel_collapsed_sliders">Volumkontrollar er slått saman</string>
+    <string name="volume_panel_hint_mute">Demp %s</string>
+    <string name="volume_panel_hint_unmute">Opphev demping for %s</string>
+    <string name="volume_panel_hint_muted">dempa</string>
     <string name="volume_panel_hint_vibrate">byt til vibrering</string>
     <string name="media_output_label_title">Spelar av <xliff:g id="label" example="Music Player">%s</xliff:g> på</string>
     <string name="media_output_title_without_playing">Lyden vert spela av på</string>
+    <string name="media_output_title_ongoing_call">Samtale på</string>
     <string name="system_ui_tuner">System UI Tuner</string>
     <string name="status_bar">Statuslinje</string>
     <string name="demo_mode">System UI-demomodus</string>
@@ -723,6 +857,7 @@
     <string name="show_demo_mode">Vis demomodus</string>
     <string name="status_bar_ethernet">Ethernet</string>
     <string name="status_bar_alarm">Alarm</string>
+    <string name="active_mode_content_description"><xliff:g id="modeName" example="Do Not Disturb">%1$s</xliff:g> er på</string>
     <string name="wallet_title">Lommebok</string>
     <string name="wallet_empty_state_label">Gjer deg klar for å gjera snøggare og tryggare kjøp med telefonen</string>
     <string name="wallet_app_button_label">Vis alle</string>
@@ -746,6 +881,7 @@
     <string name="accessibility_status_bar_satellite_poor_connection">Satellitt, dårleg tilkopling</string>
     <string name="accessibility_status_bar_satellite_good_connection">Satellitt, god tilkopling</string>
     <string name="accessibility_status_bar_satellite_available">Satellitt, tilkopling er tilgjengeleg</string>
+    <string name="satellite_connected_carrier_text">Naudmelding via satellitt</string>
     <string name="satellite_emergency_only_carrier_text">Berre naudsamtalar eller SOS</string>
     <string name="satellite_network_title_text">Satellittnettverk</string>
     <string name="accessibility_phone_string_format"><xliff:g id="carrier_name" example="Carrier Name">%1$s</xliff:g>, <xliff:g id="signal_strength_description" example="two bars">%2$s</xliff:g>.</string>
@@ -784,10 +920,12 @@
     <string name="notification_bundle_header_joined_description"><xliff:g id="name" example="Promotions">%1$s</xliff:g>, <xliff:g id="num_notifications" example="2 notifications">%2$s</xliff:g></string>
     <string name="inline_done_button">Ferdig</string>
     <string name="inline_ok_button">Bruk</string>
+    <string name="inline_turn_off_notifications">Slå av</string>
     <string name="notification_silence_title">Lydlaus</string>
     <string name="notification_alert_title">Standard</string>
     <string name="notification_automatic_title">Automatisk</string>
     <string name="notification_channel_summary_low">Ingen lyd eller vibrering</string>
+    <string name="notification_conversation_summary_low">Ingen lyd eller vibrasjon, men vert framleis vist i samtalebolken</string>
     <string name="notification_channel_summary_default">Kan ringa eller vibrera alt etter kva innstillingar eininga har</string>
     <string name="notification_channel_summary_default_with_bubbles">Kan ringa eller vibrera alt etter kva innstillingar eininga har. Samtalar frå <xliff:g id="app_name" example="YouTube">%1$s</xliff:g> vert viste som bobler som standard.</string>
     <string name="notification_channel_summary_automatic">Lat systemet avgjera om dette varselet skal ha lyd eller vibrering</string>
@@ -803,6 +941,7 @@
     <string name="no_shortcut"><xliff:g id="app_name" example="YouTube">%1$s</xliff:g> støttar ikkje samtalefunksjonar</string>
     <string name="notification_guts_bundle_feedback">Tilbakemelding</string>
     <string name="notification_inline_dismiss">Fjern</string>
+    <string name="notification_inline_disable_promotion">Slå av</string>
     <string name="notification_inline_disable_promotion_button">Blokker Live-oppdateringar frå denne appen</string>
     <string name="live_notifications_title">Direkteoppdateringar</string>
     <string name="live_notifications_desc">Om du slår av dette, vil ikkje lenger varsel frå denne appen visast øvst på låseskjermen eller på statuslinja</string>
@@ -858,6 +997,7 @@
     <string name="keyboard_key_page_up">Page Up</string>
     <string name="keyboard_key_page_down">Page Down</string>
     <string name="keyboard_key_forward_del">Delete</string>
+    <string name="keyboard_key_esc">Esc</string>
     <string name="keyboard_key_move_home">Home</string>
     <string name="keyboard_key_move_end">End</string>
     <string name="keyboard_key_insert">Insert</string>
@@ -899,9 +1039,19 @@
     <string name="group_system_access_google_assistant">Opna digital assistent</string>
     <string name="group_system_lock_screen">Lås skjermen</string>
     <string name="group_system_quick_memo">Ta eit notat</string>
+    <string name="keyboard_shortcut_group_system_multitasking">Fleiroppgåvekøyring</string>
+    <string name="system_multitasking_rhs">Bruk delt skjerm med appen til høgre</string>
+    <string name="system_multitasking_lhs">Bruk delt skjerm med appen til venstre</string>
     <string name="system_multitasking_full_screen">Bruk fullskjerm</string>
     <string name="system_multitasking_desktop_view">Bruk skrivebordsvindauge</string>
+    <string name="system_multitasking_splitscreen_focus_rhs">Byt til appen til høgre eller nedanfor ved bruk av delt skjerm</string>
+    <string name="system_multitasking_splitscreen_focus_lhs">Byt til appen til venstre eller ovanfor ved bruk av delt skjerm</string>
     <string name="system_multitasking_replace">I delt skjerm: byt ut ein app med ein annan</string>
+    <string name="system_multitasking_move_to_next_display">Flytt det aktive vindauget mellom skjermar</string>
+    <string name="system_desktop_mode_snap_left_window">Flytt vindauget til venstre</string>
+    <string name="system_desktop_mode_snap_right_window">Flytt vindauget til høgre</string>
+    <string name="system_desktop_mode_toggle_maximize_window">Maksimer vindauget</string>
+    <string name="system_desktop_mode_minimize_window">Minimer vindauget</string>
     <string name="system_desktop_mode_close_window">Lukk det noverande vindauget</string>
     <string name="system_multiple_desktop_mode_switch_between_desks">Bytt mellom skrivebord</string>
     <string name="keyboard_shortcut_group_input">Inndata</string>
@@ -1001,8 +1151,10 @@
     <string name="accessibility_qs_edit_tile_add_action">Legg til flisa sist</string>
     <string name="accessibility_qs_edit_named_tile_add_action">Legg til <xliff:g id="name" example="Internet">%1$s</xliff:g> på siste plass</string>
     <string name="accessibility_qs_edit_tile_start_move">Flytt feltet</string>
+    <string name="accessibility_qs_edit_tile_start_add">Legg til flisa på ynskte plass</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Flytt til <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_tile_add_to_position">Legg til i posisjon <xliff:g id="position" example="5">%1$d</xliff:g></string>
+    <string name="accessibilit_qs_edit_tile_add_move_invalid_position">Ugyldig plassering.</string>
     <string name="accessibility_qs_edit_position">Posisjon <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_tile_already_added">Flisa er lagd til frå før</string>
     <string name="accessibility_qs_edit_tile_added">Feltet er lagt til</string>
@@ -1275,11 +1427,15 @@
     <string name="media_output_group_title_suggested">Føreslått</string>
     <string name="media_output_group_title_suggested_device">Føreslåtte einingar</string>
     <string name="media_input_group_title">Inndata</string>
+    <string name="media_output_group_title">Utgang</string>
     <string name="media_output_end_session_dialog_summary">Stopp den delte økta for å flytta media til ei onnor eining</string>
     <string name="media_output_end_session_dialog_stop">Stopp</string>
+    <string name="media_output_dialog_button_stop_sharing">Stopp deling</string>
     <string name="media_output_dialog_button_sharing_audio">Deler lyd</string>
+    <string name="media_output_dialog_button_share_audio">Del lyd</string>
     <string name="build_number_clip_data_label">Versjonsnummer</string>
     <string name="build_number_copy_toast">Versjonsnummeret er kopiert til utklippstavla.</string>
+    <string name="copy_to_clipboard_a11y_action">kopier til utklippstavla.</string>
     <string name="basic_status">Opna samtalen</string>
     <string name="select_conversation_title">Samtale-miniprogram</string>
     <string name="select_conversation_text">Trykk på ein samtale for å leggja han til på startskjermen</string>
@@ -1320,6 +1476,7 @@
     <string name="battery_state_unknown_notification_text">Trykk for meir informasjon</string>
     <string name="qs_alarm_tile_no_alarm">Ingen alarm er sett</string>
     <string name="accessibility_bouncer">lås opp skjermen</string>
+    <string name="accessibility_side_fingerprint_indicator_label">Rør ved fingeravtrykkssensoren. Det er den kortaste knappen på sida av telefonen</string>
     <string name="accessibility_fingerprint_label">Fingeravtrykkssensor</string>
     <string name="accessibility_authenticate_hint">stadfest</string>
     <string name="accessibility_enter_hint">lås opp eininga</string>
@@ -1327,6 +1484,8 @@
     <string name="accessibility_fingerprint_bouncer">Du må stadfesta kven du er. Rør ved fingeravtrykkssensoren.</string>
     <string name="resume_animation">Hald fram med animasjonen</string>
     <string name="pause_animation">Set animasjonen på pause</string>
+    <string name="ongoing_call_content_description">Pågåande samtale</string>
+    <string name="ongoing_notification_extra_content_description">Pågåande</string>
     <string name="status_bar_chip_custom_a11y_action_expand_notification">utvid varsel</string>
     <string name="status_bar_chip_custom_a11y_action_collapse_notification">trekk saman varsel</string>
     <string name="mobile_data_settings_title">Mobildata</string>
@@ -1377,6 +1536,7 @@
     <string name="add">Legg til</string>
     <string name="manage_users">Styr brukarar</string>
     <string name="drag_split_not_supported">Dette varselet støttar ikkje deling av skjermen</string>
+    <string name="dream_overlay_location_active">Posisjonering er på</string>
     <string name="dream_overlay_status_bar_wifi_off">Wi\u2011Fi er ikkje tilgjengeleg</string>
     <string name="dream_overlay_status_bar_priority_mode">Prioritetsmodus</string>
     <string name="dream_overlay_status_bar_alarm_set">Alarmen er sett</string>
@@ -1417,9 +1577,12 @@
     <string name="rear_display_unfolded_bottom_sheet_description">Snu telefonen for å få betre bilete</string>
     <string name="rear_display_accessibility_folded_animation">Faldar ut eininga</string>
     <string name="rear_display_accessibility_unfolded_animation">Snur eininga rundt</string>
+    <string name="rear_display_unfolded_front_screen_on">Framskjermen er slått på</string>
+    <string name="rear_display_unfolded_front_screen_on_slide_to_cancel">Sveip for å bruka innerskjermen</string>
     <string name="quick_settings_rotation_posture_folded">falda</string>
     <string name="quick_settings_rotation_posture_unfolded">utfalda</string>
     <string name="rotation_tile_with_posture_secondary_label_template">%1$s / %2$s</string>
+    <string name="stylus_battery_low_percentage">Batteri på penn: <xliff:g id="percentage" example="16%">%s</xliff:g></string>
     <string name="stylus_battery_low_subtitle">Kopla pennen til ein ladar</string>
     <string name="stylus_battery_low">Lite straum på pennen</string>
     <string name="video_camera">Videokamera</string>
@@ -1431,9 +1594,11 @@
     <string name="lock_screen_settings">Tilpassa låseskjermen</string>
     <string name="keyguard_unlock_to_customize_ls">Lås opp for å tilpassa låseskjermen</string>
     <string name="wifi_unavailable_dream_overlay_content_description">Wi-Fi er ikkje tilgjengeleg</string>
+    <string name="location_active_dream_overlay_content_description">Posisjonering er på</string>
     <string name="camera_blocked_dream_overlay_content_description">Kameraet er sperra</string>
     <string name="camera_and_microphone_blocked_dream_overlay_content_description">Kamera og mikrofon er sperra</string>
     <string name="microphone_blocked_dream_overlay_content_description">Mikrofonen er sperra</string>
+    <string name="priority_mode_dream_overlay_content_description">Ikkje forstyrr</string>
     <string name="assistant_attention_content_description">Brukaren er til stades</string>
     <string name="set_default_notes_app_toast_content">Vel ein standardapp for notat under Innstillingar</string>
     <string name="install_app">Installer appen</string>
@@ -1467,53 +1632,123 @@
     <string name="privacy_dialog_active_app_usage_2">I bruk av <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g> \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
     <string name="privacy_dialog_recent_app_usage_2">Nyleg brukt av <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> (<xliff:g id="attribution_label" example="For Wallet">%2$s</xliff:g> \u2022 <xliff:g id="proxy_label" example="Speech services">%3$s</xliff:g>)</string>
     <string name="shortcut_helper_category_system">System</string>
+    <string name="shortcut_helper_category_system_controls">Systemkontrollar</string>
+    <string name="shortcut_helper_category_system_apps">Systemappar</string>
+    <string name="shortcut_helper_category_multitasking">Fleiroppgåvekøyring</string>
+    <string name="shortcutHelper_category_split_screen">Delt skjerm</string>
     <string name="shortcutHelper_category_accessibility">Tilgjenge</string>
     <string name="shortcut_helper_category_input">Inndata</string>
+    <string name="shortcut_helper_category_app_shortcuts">App-snarvegar</string>
+    <string name="shortcut_helper_category_current_app_shortcuts">Gjeldande app</string>
     <string name="shortcut_helper_category_a11y">Tilgjenge</string>
+    <string name="shortcut_helper_title">Tastatursnarvegar</string>
     <string name="shortcut_helper_customize_mode_title">Tilpass snarvegar</string>
+    <string name="shortcut_customize_mode_remove_shortcut_dialog_title">Vil du fjerna snarvegen?</string>
+    <string name="shortcut_customize_mode_reset_shortcut_dialog_title">Vil du nullstilla til standard?</string>
     <string name="shortcut_customize_mode_add_shortcut_description">Trykk på handlingstasten og éin eller fleire andre tastar samstundes for å laga denne snarvegen</string>
+    <string name="shortcut_customize_mode_remove_shortcut_description">Dette slettar den tilpassa snarvegen din permanent.</string>
+    <string name="shortcut_customize_mode_reset_shortcut_description">Dette slettar alle dei tilpassa snarvegane dine permanent.</string>
     <string name="shortcut_helper_search_placeholder">Søk etter snarvegar</string>
+    <string name="shortcut_helper_no_search_results">Ingen søkeresultat</string>
+    <string name="shortcut_helper_content_description_collapse_icon">Ikon for å fella saman</string>
+    <string name="shortcut_helper_content_description_meta_key">Ikon for handlings- eller metatast</string>
+    <string name="shortcut_helper_content_description_plus_icon">Pluss-ikon</string>
     <string name="shortcut_helper_customize_button_text">Tilpassa</string>
     <string name="shortcut_helper_reset_button_text">Nullstill</string>
     <string name="shortcut_helper_done_button_text">Ferdig</string>
+    <string name="shortcut_helper_content_description_expand_icon">Ikon for å utvida</string>
     <string name="shortcut_helper_key_combinations_or_separator">eller</string>
+    <string name="shortcut_helper_key_combinations_and_conjunction">pluss</string>
+    <string name="shortcut_helper_key_combinations_forward_slash">skråstrek</string>
+    <string name="shortcut_helper_content_description_drag_handle">Dra-handtak</string>
+    <string name="shortcut_helper_keyboard_settings_buttons_label">Tastaturinnstillingar</string>
+    <string name="shortcut_helper_customize_dialog_set_shortcut_button_label">Vel snarveg</string>
     <string name="shortcut_helper_customize_dialog_remove_button_label">Fjern</string>
+    <string name="shortcut_helper_customize_dialog_reset_button_label">Ja, nullstill</string>
     <string name="shortcut_helper_customize_dialog_cancel_button_label">Avbryt</string>
+    <string name="shortcut_helper_add_shortcut_dialog_placeholder">Trykk på tasten</string>
     <string name="shortcut_helper_customizer_action_key_text">Handling</string>
     <string name="shortcut_customizer_key_combination_in_use_error_message">Tastekombinasjonen er i bruk frå før. Prøv ein annan kombinasjon.</string>
+    <string name="shortcut_customizer_generic_error_message">Klarte ikkje velja snarvegen.</string>
+    <string name="shortcut_helper_plus_symbol">+</string>
     <string name="shortcut_helper_add_shortcut_button_label">Legg til snarveg</string>
     <string name="shortcut_helper_delete_shortcut_button_label">Slett snarveg</string>
     <string name="shortcut_helper_app_custom_shortcut_limit_exceeded">Grensa på ti eigne app-snarvegar er nådd</string>
     <string name="shortcut_helper_app_custom_shortcut_limit_exceeded_instruction">Slett ein snarveg for å kunna leggja til ein ny</string>
+    <string name="launch_keyboard_tutorial_notification_title">Naviger med tastaturet</string>
     <string name="launch_keyboard_tutorial_notification_content">Lær deg tastatursnarvegar</string>
+    <string name="launch_touchpad_tutorial_notification_title">Naviger med styreflata</string>
+    <string name="launch_touchpad_tutorial_notification_content">Lær deg rørsler på styreflata</string>
+    <string name="launch_keyboard_touchpad_tutorial_notification_title">Naviger med tastaturet og styreflata</string>
     <string name="launch_keyboard_touchpad_tutorial_notification_content">Lær deg rørslene på styreflata, tastatursnarvegar med meir</string>
     <string name="touchpad_tutorial_back_gesture_button">Gå tilbake</string>
+    <string name="touchpad_tutorial_home_gesture_button">Gå heim</string>
     <string name="touchpad_tutorial_recent_apps_gesture_button">Sjå nylege appar</string>
     <string name="touchpad_tutorial_switch_apps_gesture_button">Byt app</string>
     <string name="touchpad_tutorial_done_button">Ferdig</string>
     <string name="touchpad_tutorial_next_button">Neste</string>
     <string name="gesture_error_title">Prøv på nytt!</string>
     <string name="touchpad_back_gesture_action_title">Gå tilbake</string>
+    <string name="touchpad_back_gesture_guidance">Sveip til venstre eller høgre med tre fingrar på styreflata</string>
+    <string name="touchpad_back_gesture_success_title">Bra!</string>
+    <string name="touchpad_back_gesture_success_body">Du klarte rørsla for å gå tilbake.</string>
     <string name="touchpad_back_gesture_error_body">Sveip til venstre eller høgre med tre fingrar for å gå tilbake med styreflata</string>
+    <string name="touchpad_home_gesture_action_title">Gå heim</string>
+    <string name="touchpad_home_gesture_guidance">Sveip opp med tre fingrar på styreflata</string>
+    <string name="touchpad_home_gesture_success_title">Godt gjort!</string>
+    <string name="touchpad_home_gesture_success_body">Du klarte rørsla for å gå heim</string>
     <string name="touchpad_home_gesture_error_body">Sveip opp med tre fingrar på styreflata for å gå til startskjermen</string>
     <string name="touchpad_recent_apps_gesture_action_title">Sjå nylege appar</string>
+    <string name="touchpad_recent_apps_gesture_guidance">Sveip opp og hald inne med tre fingrar på styreflata</string>
+    <string name="touchpad_recent_apps_gesture_success_title">Godt gjort!</string>
+    <string name="touchpad_recent_apps_gesture_success_body">Du klarte rørsla for å sjå nylege appar.</string>
     <string name="touchpad_recent_gesture_error_body">Sveip opp og hald med tre fingrar på styreflata for å sjå nylege appar</string>
     <string name="touchpad_switch_apps_gesture_action_title">Byt app</string>
     <string name="touchpad_switch_apps_gesture_guidance">Sveip til høgre med fire fingrar på styreflata</string>
+    <string name="touchpad_switch_apps_gesture_success_title">Godt gjort!</string>
     <string name="touchpad_switch_apps_gesture_success_body">Du klarte «byt app»-sveipet.</string>
     <string name="touchpad_switch_gesture_error_body">Sveip til høgre med fire fingrar på styreflata for å bytta app</string>
+    <string name="tutorial_action_key_title">Sjå alle appar</string>
+    <string name="tutorial_action_key_guidance">Trykk på handlingstasten på tastaturet</string>
+    <string name="tutorial_action_key_success_title">Bra!</string>
+    <string name="tutorial_action_key_success_body">Du klarte rørsla for å sjå alle appar</string>
     <string name="touchpad_action_key_error_body">Trykk på handlingstasten på tastaturet for å sjå alle appane dine</string>
+    <string name="tutorial_animation_content_description">Rettleiingsanimasjon, trykk for å pausa og spela av att.</string>
     <string name="keyboard_backlight_dialog_title">Baklys for tastatur</string>
     <string name="keyboard_backlight_value">Nivå %1$d av %2$d</string>
     <string name="home_controls_dream_label">Heimestyring</string>
     <string name="home_controls_dream_description">Snøgg tilgang til heimestyring som skjermsparar</string>
     <string name="volume_undo_action">Angra</string>
+    <string name="back_edu_toast_content">For å gå tilbake må du sveipa til venstre eller høgre med tre fingrar på styreflata</string>
+    <string name="home_edu_toast_content">For å gå heim må du sveipa opp med tre fingrar på styreflata</string>
+    <string name="overview_edu_toast_content">For å sjå nylege appar må du sveipa opp og halda inne med tre fingrar på styreflata</string>
+    <string name="all_apps_edu_toast_content">For å sjå alle appane dine må du trykkja på handlingstasten på tastaturet</string>
+    <string name="public_notification_single_line_title">Lås opp for å sjå</string>
     <string name="redacted_otp_notification_single_line_text">Lås opp for å sjå koden</string>
     <string name="empty_notification_single_line_title">Utvid for å sjå</string>
+    <string name="contextual_education_dialog_title">Kontekstbasert opplæring</string>
+    <string name="back_edu_notification_title">Bruk styreflata for å gå tilbake</string>
+    <string name="back_edu_notification_content">Sveip til venstre eller høgre med tre fingrar. Trykk for å læra fleire rørsler.</string>
+    <string name="home_edu_notification_title">Bruk styreflata for å gå heim</string>
+    <string name="home_edu_notification_content">Sveip opp med tre fingrar. Trykk for å læra fleire rørsler.</string>
+    <string name="overview_edu_notification_title">Bruk styreflata for å sjå nylege appar</string>
+    <string name="overview_edu_notification_content">Sveip opp og hald inne med tre fingrar. Trykk for å læra fleire rørsler.</string>
+    <string name="all_apps_edu_notification_title">Bruk tastaturet for å sjå alle appar</string>
+    <string name="all_apps_edu_notification_content">Trykk på handlingstasten når som helst. Trykk for å læra fleire rørsler.</string>
     <string name="accessibility_deprecate_extra_dim_dialog_title">Ekstra mørk er no ein del av lysstyrkekontrollen</string>
     <string name="accessibility_deprecate_extra_dim_dialog_description">Du kan no gjera skjermen ekstra mørk ved å setja ned lysstyrken endå meir.\n\nSidan denne funksjonen no er ein del av lysstyrkekontrollen, vert snarvegar for ekstra mørk fjerna.</string>
+    <string name="accessibility_deprecate_extra_dim_dialog_button">Fjern snarvegar for ekstra mørk</string>
+    <string name="accessibility_deprecate_extra_dim_dialog_toast">Snarvegar for ekstra mørk er fjerna</string>
+    <string name="qs_edit_mode_category_connectivity">Tilknyting</string>
+    <string name="qs_edit_mode_category_accessibility">Tilgjenge</string>
+    <string name="qs_edit_mode_category_utilities">Verktøy</string>
+    <string name="qs_edit_mode_category_privacy">Personvern</string>
     <string name="qs_edit_mode_category_providedBySystemApps">Frå systemappar</string>
     <string name="qs_edit_mode_category_providedByApps">Frå appar du har installert</string>
+    <string name="qs_edit_mode_category_display">Skjerm</string>
+    <string name="qs_edit_mode_category_unknown">Ukjend</string>
+    <string name="qs_edit_mode_reset_dialog_title">Vil du nullstilla alle brikkene?</string>
+    <string name="qs_edit_mode_reset_dialog_content">Alle brikkene i snøgginnstillingane vert nullstilte til dei opphavlege innstillingane på eininga</string>
     <string name="ambientcue_first_time_edu_title">Få nyttige forslag</string>
     <string name="ambientcue_first_time_edu_text">Me brukar KI for å føreslå informasjon og handlingar som er relevante for det du gjer på skjermen</string>
     <string name="ambientcue_first_time_edu_icon_description">Ikon</string>

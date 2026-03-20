@@ -94,8 +94,15 @@
     <string name="bluetooth_connected_no_headset_battery_level">Tilkopla (ingen telefon), batteri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_a2dp_battery_level">Tilkopla (ingen media), batteri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
     <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Tilkopla (korkje telefon eller media), batteri <xliff:g id="battery_level_as_percentage">%1$s</xliff:g><xliff:g id="active_device">%2$s</xliff:g></string>
+    <string name="bluetooth_active_battery_level">Aktiv. <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri.</string>
+    <string name="bluetooth_active_battery_level_untethered">Aktiv. V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri.</string>
+    <string name="bluetooth_active_battery_level_untethered_left">Aktiv. V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> batteri.</string>
+    <string name="bluetooth_active_battery_level_untethered_right">Aktiv. H: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> batteri.</string>
     <string name="bluetooth_battery_level"><xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri</string>
     <string name="tv_bluetooth_battery_level">Batteri: <xliff:g id="battery_level_as_percentage">%1$s</xliff:g></string>
+    <string name="bluetooth_battery_level_untethered">V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri.</string>
+    <string name="bluetooth_battery_level_untethered_left">Venstre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> batteri</string>
+    <string name="bluetooth_battery_level_untethered_right">Høgre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> batteri</string>
     <string name="bluetooth_battery_level_untethered_case">Etui: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> batteri</string>
     <string name="bluetooth_battery_level_untethered_left_case">Venstre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, etui: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri</string>
     <string name="bluetooth_battery_level_untethered_right_case">Høgre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, etui: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri</string>
@@ -105,19 +112,34 @@
     <string name="tv_bluetooth_battery_level_untethered_right">Høgre <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g></string>
     <string name="bluetooth_active_no_battery_level">Aktiv</string>
     <string name="bluetooth_saved_device">Lagra</string>
+    <string name="bluetooth_hearing_aid_left_active">Aktiv (berre venstre)</string>
+    <string name="bluetooth_hearing_aid_right_active">Aktiv (berre høgre)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_active">Aktiv (venstre og høgre)</string>
     <string name="bluetooth_hearing_device_ambient_error">Klarte ikkje oppdatera omverda</string>
     <string name="bluetooth_hearing_aids_presets_error">Klarte ikkje oppdatera førehandsinnstillinga</string>
     <string name="hearing_device_spinner_item_selected">Valt</string>
+    <string name="bluetooth_active_media_only_battery_level">Aktiv (berre media). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri.</string>
+    <string name="bluetooth_active_media_only_battery_level_untethered">Aktiv (berre media). V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri.</string>
     <string name="bluetooth_guest_battery_level">Gjesteeining. <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri.</string>
     <string name="bluetooth_guest_battery_level_untethered">Gjesteeining. V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri.</string>
     <string name="bluetooth_guest_media_only_battery_level">Gjesteeining (berre medieinnhald). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri.</string>
     <string name="bluetooth_guest_media_only_battery_level_untethered">Gjesteeining (berre medieinnhald). V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri.</string>
+    <string name="bluetooth_battery_level_lea_support">Kopla til (støttar lyddeling). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri.</string>
+    <string name="bluetooth_battery_level_untethered_lea_support">Kopla til (støttar lyddeling). V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri.</string>
+    <string name="bluetooth_battery_level_untethered_left_lea_support">Kopla til (støttar lyddeling). Venstre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> batteri.</string>
+    <string name="bluetooth_battery_level_untethered_right_lea_support">Kopla til (støttar lyddeling). Høgre: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g> batteri.</string>
+    <string name="bluetooth_no_battery_level_lea_support">Kopla til (støttar lyddeling)</string>
     <string name="bluetooth_guest_battery_level_lea_support">Gjesteeining (støttar lyddeling). <xliff:g id="battery_level_as_percentage">%1$s</xliff:g> batteri.</string>
     <string name="bluetooth_guest_battery_level_untethered_lea_support">Gjesteeining (støttar lyddeling). V: <xliff:g id="battery_level_as_percentage" example="25%">%1$s</xliff:g>, H: <xliff:g id="battery_level_as_percentage" example="25%">%2$s</xliff:g> batteri.</string>
     <string name="bluetooth_guest_no_battery_level_lea_support">Gjesteeining (støttar lyddeling)</string>
+    <string name="bluetooth_active_media_only_no_battery_level">Aktiv (berre media)</string>
     <string name="bluetooth_guest_no_battery_level">Gjesteeining</string>
     <string name="bluetooth_guest_media_only_no_battery_level">Gjesteeining (berre medieinnhald)</string>
+    <string name="bluetooth_saved_device_lea_support">Støttar lyddeling</string>
     <string name="bluetooth_guest_saved_device_lea_support">Gjesteeining. Støttar lyddeling</string>
+    <string name="bluetooth_hearing_aid_media_only_left_active">Aktiv (berre media), berre venstre</string>
+    <string name="bluetooth_hearing_aid_media_only_right_active">Aktiv (berre media), berre høgre</string>
+    <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktiv (berre media), venstre og høgre</string>
     <string name="bluetooth_profile_a2dp">Media-lyd</string>
     <string name="bluetooth_profile_headset">Telefonsamtalar</string>
     <string name="bluetooth_profile_opp">Filoverføring</string>
@@ -364,6 +386,9 @@
     <string name="enhanced_connectivity_summary">Slår på funksjonen for betre tilkopling.</string>
     <string name="enable_terminal_title">Lokal terminal</string>
     <string name="enable_terminal_summary">Slå på ein terminal-app som gjev tilgang til lokalt skal</string>
+    <string name="enable_linux_terminal_title">Linux-utviklingsmiljø</string>
+    <string name="enable_linux_terminal_summary">(Eksperimentelt) Køyr Linux-terminal på Android</string>
+    <string name="disable_linux_terminal_disclaimer">Om du slår av dette, vert data frå Linux-terminalen sletta</string>
     <string name="hdcp_checking_title">HDCP-sjekking</string>
     <string name="hdcp_checking_dialog_title">Vel åtferd for HDCP-sjekking</string>
     <string name="debug_debugging_category">Feilsøking</string>
@@ -388,6 +413,8 @@
     <string name="show_touches_summary">Vis visuell tilbakemelding for trykk</string>
     <string name="show_key_presses">Vis tastetrykk</string>
     <string name="show_key_presses_summary">Vis visuell tilbakemelding for fysiske tastetrykk</string>
+    <string name="touchpad_visualizer">Vis styrefelt-inndata</string>
+    <string name="touchpad_visualizer_summary">Skjermoverlegg som viser data frå styrefeltet og attkjende teiknrørsler</string>
     <string name="show_screen_updates">Vis flateoppdateringar</string>
     <string name="show_screen_updates_summary">Heile vindaugsflater blinkar når dei vert oppdaterte</string>
     <string name="show_hw_screen_updates">Vis visingsoppdateringar</string>
@@ -416,9 +443,15 @@
     <string name="enable_gpu_debug_layers_summary">Tillat lasting av GPU-feilsøkingslag for feilsøkingsappar</string>
     <string name="enable_verbose_vendor_logging">Slå på detaljert leverandørlogging</string>
     <string name="enable_verbose_vendor_logging_summary">Ta med ekstra einingsspesifikke leverandørloggar i feilrapportar. Desse kan innehalda privat informasjon, bruka meir straum og ta meir lagringsplass.</string>
-    <string name="window_animation_scale_title">Skala for vindaugsanimasjon</string>
-    <string name="transition_animation_scale_title">Skala for overgangsanimasjon</string>
-    <string name="animator_duration_scale_title">Skala for varigheit på animasjon</string>
+    <string name="enable_verbose_vendor_logging_checkbox">Slå av etter éin dag</string>
+    <string name="verbose_vendor_logging_notification_title">Utfyllande leverandørlogging er avslutta</string>
+    <string name="verbose_vendor_logging_notification_summary">Slått på for éin dag</string>
+    <string name="verbose_vendor_logging_notification_action">Slå på for éin dag til</string>
+    <string name="verbose_vendor_logging_preference_summary_will_disable">Vert slått av etter éin dag</string>
+    <string name="verbose_vendor_logging_preference_summary_on">Slått på på ubestemt tid</string>
+    <string name="window_animation_scale_title">Lengd på vindaugsanimasjon</string>
+    <string name="transition_animation_scale_title">Lengd på overgangsanimasjon</string>
+    <string name="animator_duration_scale_title">Kor lenge skal animasjonen vara</string>
     <string name="overlay_display_devices_title">Simuler sekundære skjermar</string>
     <string name="shade_display_awareness_title">Plassering av varselpanel</string>
     <string name="debug_applications_category">Appar</string>
@@ -507,6 +540,10 @@
     <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="time">%2$s</xliff:g> att til batteriet er fullt</string>
     <string name="power_charging_limited"><xliff:g id="level">%1$s</xliff:g> – Lading er sett på vent for å verna batteriet</string>
     <string name="power_charging_future_paused"><xliff:g id="level">%1$s</xliff:g> – Lading</string>
+    <string name="power_fast_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="status">%2$s</xliff:g> – Fullt innan <xliff:g id="time">%3$s</xliff:g></string>
+    <string name="power_charging_duration_v2"><xliff:g id="level">%1$s</xliff:g> – Fullada innan <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_remaining_charging_duration_only_v2">Fullada innan <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="power_remaining_fast_charging_duration_only_v2">Fullt innan <xliff:g id="time">%1$s</xliff:g></string>
     <string name="battery_info_status_unknown">Ukjend</string>
     <string name="battery_info_status_charging">Lading</string>
     <string name="battery_info_status_charging_fast">Ladar snøgt</string>
@@ -519,6 +556,7 @@
     <string name="battery_info_status_full_charged">Fullada</string>
     <string name="battery_info_status_charging_on_hold">Lading er sett på vent</string>
     <string name="battery_info_status_charging_v2">Lading</string>
+    <string name="battery_info_status_charging_fast_v2">Snøgglading</string>
     <string name="disabled_by_admin_summary_text">Styrast av administrator</string>
     <string name="disabled_by_app_ops_text">Styrast av avgrensa innstilling</string>
     <string name="disabled_in_phone_call_text">Ikkje tilgjengeleg under samtalar</string>
@@ -582,6 +620,8 @@
         er av, kjem ikkje eksisterande alarmar og tidsbaserte hendingar frå denne appen til å fungera.
     </string>
     <string name="keywords_alarms_and_reminders">tidsplan, alarm, påminning, klokke</string>
+    <string name="zen_mode_do_not_disturb_name">Ikkje forstyrr</string>
+    <string name="zen_mode_settings_title">Ikkje forstyrr</string>
     <string name="zen_mode_enable_dialog_turn_on">Slå på</string>
     <string name="zen_mode_settings_turn_on_dialog_title">Slå på «Ikkje forstyrr»</string>
     <string name="zen_mode_settings_summary_off">Aldri</string>
@@ -594,13 +634,19 @@
     <string name="zen_mode_duration_settings_title">Varigheit</string>
     <string name="zen_mode_duration_always_prompt_title">Spør kvar gong</string>
     <string name="zen_mode_forever">Til du slår det av</string>
+    <string name="zen_mode_starred_contacts_empty_name">(Namnlaus)</string>
     <string name="time_unit_just_now">Akkurat no</string>
     <string name="media_transfer_this_device_name">Denne telefonen</string>
     <string name="media_transfer_this_device_name_tablet">Dette nettbrettet</string>
+    <string name="media_transfer_this_device_name_desktop">Denne datamaskina (intern)</string>
+    <string name="media_transfer_this_device_name_tv">Denne TV-en</string>
     <string name="media_transfer_dock_speaker_device_name">Dokkhøgtalar</string>
     <string name="media_transfer_external_device_name">Ekstern eining</string>
     <string name="media_transfer_default_device_name">Tilkopla eining</string>
     <string name="media_transfer_this_phone">Denne telefonen</string>
+    <string name="media_transfer_digital_line_name">S/PDIF</string>
+    <string name="media_transfer_analog_line_name">Analog</string>
+    <string name="media_transfer_aux_line_name">AUX</string>
     <string name="media_output_status_unknown_error">Klarar ikkje spela av på denne eininga</string>
     <string name="media_output_status_require_premium">Oppgrader kontoen for å bytta</string>
     <string name="media_output_status_not_support_downloads">Nedlastingar kan ikkje spelast av her</string>
@@ -613,6 +659,8 @@
     <string name="tv_media_transfer_earc_fallback_title">HDMI eARC</string>
     <string name="tv_media_transfer_arc_subtitle">Tilkopla via ARC</string>
     <string name="tv_media_transfer_earc_subtitle">Tilkopla via eARC</string>
+    <string name="tv_media_transfer_internal_speakers">Innebygd høgtalar</string>
+    <string name="tv_media_transfer_hdmi_title">TV-lyd</string>
     <string name="profile_connect_timeout_subtext">Problem ved tilkopling. Slå eininga av og på att</string>
     <string name="bluetooth_key_missing_subtext">Klarte ikkje kopla til</string>
     <string name="media_transfer_wired_device_name">Kabla lydeining</string>
@@ -659,6 +707,7 @@
     <string name="add_user_failed">Klarte ikkje laga ny brukar</string>
     <string name="add_guest_failed">Klarte ikkje laga ny gjest</string>
     <string name="user_nickname">Kallenamn</string>
+    <string name="edit_user_info_message">Namnet og biletet du vel, vert synleg for alle som brukar denne eininga.</string>
     <string name="user_add_user">Legg til brukar</string>
     <string name="guest_new_guest">Legg til gjest</string>
     <string name="guest_exit_guest">Fjerna gjest</string>
@@ -695,6 +744,11 @@
     <string name="cached_apps_freezer_enabled">Slått på</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Eininga må startast på nytt for at denne endringa skal gjelda. Start på nytt no eller avbryt.</string>
     <string name="media_transfer_wired_headphone_name">Kabla hovudtelefon</string>
+    <string name="media_transfer_headphone_name">Kabla hovudtelefonar</string>
+    <string name="media_transfer_usb_audio_name">USB-lyd</string>
+    <string name="media_transfer_wired_device_mic_name">Mikrofon med ledning</string>
+    <string name="media_transfer_usb_device_mic_name">USBB-mikrofon</string>
+    <string name="media_transfer_bt_device_mic_name">Bluetooth-mikrofon</string>
     <string name="wifi_hotspot_switch_on_text">På</string>
     <string name="wifi_hotspot_switch_off_text">Av</string>
     <string name="carrier_network_change_mode">Mobilnettet vert endra</string>
@@ -729,6 +783,7 @@
     <string name="physical_keyboard_title">Fysisk tastatur</string>
     <string name="keyboard_layout_dialog_title">Vel tastaturoppsett</string>
     <string name="keyboard_layout_default_label">Standard</string>
+    <string name="turn_screen_on_title">Styring av skjermaktivering</string>
     <string name="allow_turn_screen_on">Tillat å slå på skjermen</string>
     <string name="allow_turn_screen_on_description">Tillat at ein app slår på skjermen. Om du gjev dette løyvet, kan appen slå på skjermen når som helst utan at du ber om det.</string>
     <string name="bt_le_audio_broadcast_dialog_title">Vil du stogga kringkastinga av <xliff:g id="app_name" example="App Name 1">%1$s</xliff:g>?</string>
@@ -740,4 +795,5 @@
     <string name="neuter">Inkjekjønn</string>
     <string name="feminine">Hokjønn</string>
     <string name="masculine">Hankjønn</string>
+    <string name="system_update_settings_list_item_title">Systemoppdateringar</string>
 </resources>

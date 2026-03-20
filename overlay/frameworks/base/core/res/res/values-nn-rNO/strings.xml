@@ -128,6 +128,7 @@
     <string name="NetworkPreferenceSwitchSummary">Prøv å endra nettverkstype. Trykk for å endra.</string>
     <string name="EmergencyCallWarningTitle">Kan ikkje ringja naudnummer</string>
     <string name="emergency_calling_do_not_show_again">Ikkje vis igjen</string>
+    <string name="EmergencyCallWarningSummary">Naudsamtalar krev tilgang til eit mobilnett</string>
     <string name="notification_channel_network_alert">Varsel</string>
     <string name="notification_channel_call_forward">Vidarekopling</string>
     <string name="notification_channel_emergency_callback">Modus for naudnummer-tilbakeringing</string>
@@ -194,10 +195,19 @@
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> etter <xliff:g id="time_delay">{2}</xliff:g> sekund</string>
     <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: Ikkje vidarekopla</string>
     <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: Ikkje vidarekopla</string>
+    <string name="scCellularNetworkSecurityTitle">Tryggleik i mobilnett</string>
+    <string name="scCellularNetworkSecuritySummary">Kryptering og varsling om ukrypterte nett</string>
+    <string name="scIdentifierDisclosureIssueTitle">Eining-ID er henta ut</string>
     <string name="scIDIssueSummaryNotificationWithCellularID">Kl. <xliff:g id="disclosure_time">%1$s</xliff:g> registrerte eit nettverk i nærleiken den unike ID-en til eininga di (<xliff:g id="cellular_identifier">%2$s</xliff:g>) medan du brukte <xliff:g id="disclosure_network">%3$s</xliff:g>-SIM-kortet</string>
     <string name="scIdentifierDisclosureIssueSummaryNotification">Kl. <xliff:g id="disclosure_time">%1$s</xliff:g> registrerte eit nettverk i nærleiken den unike ID-en til eininga di medan du brukte <xliff:g id="disclosure_network">%3$s</xliff:g>-SIM-kortet</string>
     <string name="scIDIssueSummaryWithCellularID">Kl. <xliff:g id="disclosure_time">%1$s</xliff:g> registrerte eit nettverk i nærleiken den unike ID-en til eininga di (<xliff:g id="cellular_identifier">%2$s</xliff:g>) medan du brukte <xliff:g id="disclosure_network">%3$s</xliff:g>-SIM-kortet.\n\nDette tyder at posisjonen, aktiviteten eller identiteten din er logga. Dette er vanleg praksis, men kan vera eit problem for dei som er opptekne av personvern.</string>
     <string name="scIdentifierDisclosureIssueSummary">Kl. <xliff:g id="disclosure_time">%1$s</xliff:g> registrerte eit nettverk i nærleiken den unike ID-en til eininga di medan du brukte <xliff:g id="disclosure_network">%3$s</xliff:g>-SIM-kortet.\n\nDette tyder at posisjonen, aktiviteten eller identiteten din er logga. Dette er vanleg praksis, men kan vera eit problem for dei som er opptekne av personvern.</string>
+    <string name="scNullCipherIssueEncryptedTitle">Kopla til det krypterte nettverket <xliff:g id="network_name">%1$s</xliff:g></string>
+    <string name="scNullCipherIssueEncryptedSummary">SIM-tilkoplinga til <xliff:g id="network_name">%1$s</xliff:g> er sikrare no</string>
+    <string name="scNullCipherIssueNonEncryptedTitle">Kopla til eit ukryptert nettverk</string>
+    <string name="scNullCipherIssueNonEncryptedSummaryNotification">Samtalar, meldingar og data er meir utsette medan du brukar <xliff:g id="network_name">%1$s</xliff:g>-SIM-kortet</string>
+    <string name="scNullCipherIssueNonEncryptedSummary">Samtalar, meldingar og data er meir utsette medan du brukar <xliff:g id="network_name">%1$s</xliff:g>-SIM-kortet.\n\nDu får eit nytt varsel når tilkoplinga er kryptert att.</string>
+    <string name="scNullCipherIssueActionSettings">Innstillingar for tryggleik i mobilnett</string>
     <string name="scNullCipherIssueActionLearnMore">Finn ut meir</string>
     <string name="scNullCipherIssueActionGotIt">Greitt</string>
     <string name="fcComplete">Funksjonskode ferdig.</string>
@@ -240,6 +250,8 @@
     <string name="work_profile_deleted_description_dpm_wipe">Arbeidsprofilen din er ikkje lenger tilgjengeleg på denne eininga</string>
     <string name="work_profile_deleted_reason_maximum_password_failure">For mange passordforsøk</string>
     <string name="device_ownership_relinquished">Administrator gav frå seg eininga til personleg bruk</string>
+    <string name="private_space_deleted_by_admin">Privat område er fjerna</string>
+    <string name="private_space_deleted_by_admin_details">Organisasjonen din tillet ikkje private område på denne administrerte eininga.</string>
     <string name="network_logging_notification_title">Eininga vert administrert</string>
     <string name="network_logging_notification_text">Organisasjonen din administrerer denne eininga og kan overvaka nettverkstrafikk. Trykk for å få meir informasjon.</string>
     <string name="location_changed_notification_title">Appar har tilgang til posisjonen din</string>
@@ -331,7 +343,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="global_action_settings">Innstillingar</string>
     <string name="global_action_assist">Hjelp</string>
     <string name="global_action_voice_assist">Talehjelp</string>
-    <string name="global_action_lockdown">Sperring</string>
+    <string name="global_action_lockdown">Lås telefonen</string>
     <string name="global_action_unrestricted_lock">Lås</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="notification_compact_heads_up_reply">Svara</string>
@@ -355,6 +367,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="notification_channel_heavy_weight_app">Appen køyrer</string>
     <string name="notification_channel_foreground_service">Appar brukar batteri</string>
     <string name="notification_channel_accessibility_magnification">Forstørring</string>
+    <string name="notification_channel_accessibility_hearing_device">Høyreapparat</string>
     <string name="notification_channel_accessibility_security_policy">Bruk av tilgjenge</string>
     <string name="notification_channel_display">Skjerm</string>
     <string name="foreground_service_app_in_background"><xliff:g id="app_name">%1$s</xliff:g> brukar
@@ -408,7 +421,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="permgroupdesc_xr_tracking_sensitive">kartleggja området nøyaktig og spora hovudet</string>
     <string name="capability_title_canRetrieveWindowContent">Henta innhald i vindauge</string>
     <string name="capability_desc_canRetrieveWindowContent">Granska innhaldet i eit vindauge du brukar.</string>
-    <string name="capability_title_canRequestTouchExploration">Utforsk ved å røra skjermen</string>
+    <string name="capability_title_canRequestTouchExploration">Utforsk ved å trykka på skjermen</string>
     <string name="capability_desc_canRequestTouchExploration">Det du trykkjer på, vert lese høgt, og du kan bruka teikn for å finna fram på skjermen.</string>
     <string name="capability_title_canRequestFilterKeyEvents">Fylg med på kva du skriv</string>
     <string name="capability_desc_canRequestFilterKeyEvents">Dette tek med personleg informasjon som passord og kortnummer.</string>
@@ -421,6 +434,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="capability_title_canTakeScreenshot">Ta skjermbilete</string>
     <string name="capability_desc_canTakeScreenshot">Kan ta bilete av skjermen.</string>
     <string name="dream_preview_title">Førehandsvising, <xliff:g id="dream_name" example="Clock">%1$s</xliff:g></string>
+    <string name="dream_accessibility_action_click">fjern</string>
     <string name="permlab_statusBar">slå av eller endra statusfeltet</string>
     <string name="permdesc_statusBar">Lèt appen slå av statusfeltet eller leggja til og fjerna systemikon.</string>
     <string name="permlab_statusBarService">vera statusfeltet</string>
@@ -674,6 +688,8 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="permdesc_nearby_wifi_devices">Lèt appen visa seg for, kopla seg til og finna ut kvar Wi-Fi-einingar i nærleiken er.</string>
     <string name="permlab_access_local_network">få tilgang til einingar på lokalnettverket</string>
     <string name="permdesc_access_local_network">Lèt appen få tilgang til einingar på lokalnettverket</string>
+    <string name="permlab_ranging">finna den innbyrdes plasseringa til einingar i nærleiken</string>
+    <string name="permdesc_ranging">Lèt appen finna den innbyrdes plasseringa til einingar i nærleiken</string>
     <string name="permlab_preferredPaymentInfo">Informasjon om føretrekt NFC-betaling</string>
     <string name="permdesc_preferredPaymentInfo">Lèt appen henta informasjon om kva teneste du helst brukar til NFC-betaling, til dømes registrerte hjelpemiddel og mål.</string>
     <string name="permlab_nfc">styra NFC-overføring</string>
@@ -749,6 +765,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="fingerprint_acquired_immobile">Flytt litt på fingeren kvar gong</string>
     <string name="fingerprint_error_not_match">Kjende ikkje att fingeravtrykket</string>
     <string name="fingerprint_udfps_error_not_match">Kjende ikkje att fingeravtrykket</string>
+    <string name="fingerprint_dialog_use_fingerprint_instead">Kjende ikkje att andletet. Bruk fingeravtrykk i staden.</string>
     <string name="fingerprint_authenticated">Fingeravtrykket er stadfesta</string>
     <string name="face_authenticated_no_confirmation_required">Andletet er stadfest</string>
     <string name="face_authenticated_confirmation_required">Andletet er stadfest. Trykk for å godkjenna</string>
@@ -1194,9 +1211,9 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="searchview_description_clear">Tøm søkefeltet</string>
     <string name="searchview_description_submit">Send inn søket</string>
     <string name="searchview_description_voice">Talesøk</string>
-    <string name="enable_explore_by_touch_warning_title">Slå på utforsking med berøring?</string>
-    <string name="enable_explore_by_touch_warning_message" product="tablet"><xliff:g id="accessibility_service_name">%1$s</xliff:g> vil slå på utforsking med fingrane. Når denne funksjonen er på, kan du høyra eller sjå skildringar av det som er under fingeren din, eller bruka teikn for å styra brettet.</string>
-    <string name="enable_explore_by_touch_warning_message" product="default"><xliff:g id="accessibility_service_name">%1$s</xliff:g> vil slå på utforsking med fingrane. Når denne funksjonen er på, kan du høyra eller sjå skildringar av det som er under fingeren din, eller bruka teikn for å styra telefonen.</string>
+    <string name="enable_explore_by_touch_warning_title">Slå på utforsking med trykking?</string>
+    <string name="enable_explore_by_touch_warning_message" product="tablet"><xliff:g id="accessibility_service_name">%1$s</xliff:g> vil slå på utforsking med trykking. Når denne funksjonen er på, kan du høyra eller sjå skildringar av det som er under fingeren din, eller bruka teikn for å styra brettet.</string>
+    <string name="enable_explore_by_touch_warning_message" product="default"><xliff:g id="accessibility_service_name">%1$s</xliff:g> vil slå på utforsking med trykking. Når denne funksjonen er på, kan du høyra eller sjå skildringar av det som er under fingeren din, eller bruka teikn for å styra telefonen.</string>
     <string name="oneMonthDurationPast">Ein månad sidan</string>
     <string name="beforeOneMonthDurationPast">Meir enn ein månad sidan</string>
     <string name="last_num_days">{ count, plural,
@@ -1229,6 +1246,8 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="duration_hours_shortest_future">om <xliff:g id="count">%d</xliff:g> t</string>
     <string name="duration_days_shortest_future">om <xliff:g id="count">%d</xliff:g> d</string>
     <string name="duration_years_shortest_future">om <xliff:g id="count">%d</xliff:g> år</string>
+    <string name="duration_minutes_medium"><xliff:g id="count">%d</xliff:g> min</string>
+    <string name="duration_hours_medium"><xliff:g id="count">%d</xliff:g> t</string>
     <string name="duration_minutes_relative">{count, plural,
         =1 {# minutt sidan}
         other {# minutt sidan}
@@ -1298,8 +1317,11 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="deleteText">Slett</string>
     <string name="inputMethod">Inndatametode</string>
     <string name="editTextMenuTitle">Teksthandlingar</string>
+    <string name="error_handwriting_unsupported">Handskrift er ikkje støtta i dette feltet</string>
+    <string name="error_handwriting_unsupported_password">Handskrift er ikkje støtta i passordfelt</string>
     <string name="input_method_nav_back_button_desc">Tilbake</string>
     <string name="input_method_ime_switch_button_desc">Byt inndatametode</string>
+    <string name="input_method_ime_switch_long_click_action_desc">Opna veljaren for inndatametode</string>
     <string name="input_method_switcher_settings_button">Innstillingar</string>
     <string name="low_internal_storage_view_title">Lite lagringsplass att</string>
     <string name="low_internal_storage_view_text">Det kan henda at somme systemfunksjonar ikkje virkar som dei skal</string>
@@ -1523,6 +1545,8 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="adbwifi_active_notification_message" product="tv">Vel for å slå av trådlaus feilsøking.</string>
     <string name="test_harness_mode_notification_title">Modus for testrammeverk er på</string>
     <string name="test_harness_mode_notification_message">Du må nullstilla eininga til fabrikkoppsett for å slå av modusen for testrammeverk.</string>
+    <string name="wrong_hsum_configuration_notification_title">Feil HSUM-oppsettsversjon</string>
+    <string name="wrong_hsum_configuration_notification_message">SUM-stoda på eininga samsvarar ikkje med oppsettsversjonen. Nullstill eininga til fabrikkstandard.</string>
     <string name="console_running_notification_title">Seriekonsollen er på</string>
     <string name="console_running_notification_message">Farten kan verta påverka. Sjekk oppstartsprogrammet for å slå av.</string>
     <string name="mte_override_notification_title">MTE (forsøksstadium) er på</string>
@@ -1538,6 +1562,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="share_remote_bugreport_action">DEL</string>
     <string name="decline_remote_bugreport_action">AVSLÅ</string>
     <string name="select_input_method">Vel inndatametode</string>
+    <string name="input_method_language_settings">Språkinnstillingar</string>
     <string name="select_keyboard_layout_notification_title">Set opp <xliff:g id="device_name" example="Foobar USB Keyboard">%s</xliff:g></string>
     <string name="select_multiple_keyboards_layout_notification_title">Set opp dei fysiske tastatura</string>
     <string name="select_keyboard_layout_notification_message">Trykk for å velja språk og oppsett</string>
@@ -1863,6 +1888,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="accessibility_dialog_touch_filtered_warning">Ein app ligg over førespurnaden om løyve, så svaret ditt kan ikkje stadfestast.</string>
     <string name="accessibility_select_shortcut_menu_title">Trykk på ei funksjon for å byrja å bruka henne:</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Vel kva funksjonar du vil bruka med tilgjengeknappen</string>
+    <string name="accessibility_edit_shortcut_menu_volume_title">Vel funksjonar for snarvegen med lydknappane</string>
     <string name="accessibility_uncheck_legacy_item_warning"><xliff:g id="service_name" example="TalkBack">%s</xliff:g> er slått av</string>
     <string name="edit_accessibility_shortcut_menu_button">Endra snarvegar</string>
     <string name="done_accessibility_shortcut_menu_button">Ferdig</string>
@@ -1882,6 +1908,12 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="accessibility_shortcut_enabling_service">Heldt inne volumknappane. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> vart slått på.</string>
     <string name="accessibility_shortcut_disabling_service">Heldt inne volumknappane. <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g> vart slått av.</string>
     <string name="accessibility_shortcut_spoken_feedback">Slepp volumknappane. For å slå på <xliff:g id="service_name" example="TalkBack">%1$s</xliff:g>, trykk og hald inne båe volumknappane att i 3 sekund.</string>
+    <string name="accessibility_button_prompt_text">Vel ein funksjon</string>
+    <string name="accessibility_gesture_prompt_text">Vel ein funksjon</string>
+    <string name="accessibility_gesture_3finger_prompt_text">Vel ein funksjon</string>
+    <string name="accessibility_button_instructional_text">Funksjonen opnar seg neste gong du trykkjer på tilgjengeknappen</string>
+    <string name="accessibility_gesture_instructional_text">Funksjonen opnar seg neste gong du brukar denne snarvegen. Sveip opp med to fingrar frå botnen av skjermen og slepp raskt.</string>
+    <string name="accessibility_gesture_3finger_instructional_text">Funksjonen opnar seg neste gong du brukar denne snarvegen. Sveip opp med tre fingrar frå botnen av skjermen og slepp raskt.</string>
     <string name="accessibility_magnification_chooser_text">Forstørring</string>
     <string name="hearing_device_switch_phone_mic_notification_title">Byta til mikrofonen på telefonen?</string>
     <string name="hearing_device_switch_hearing_mic_notification_title">Byta til mikrofonen på høyreapparatet?</string>
@@ -2011,6 +2043,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="restr_pin_error_too_short">PIN-koden er for stutt. Han må ha minst fire siffer.</string>
     <string name="restr_pin_try_later">Prøv att seinare</string>
     <string name="immersive_cling_title">Vising over heile skjermen</string>
+    <string name="immersive_cling_description">Sveip ned frå toppen av skjermen for å gå ut or fullskjerm</string>
     <string name="immersive_cling_positive">Greitt</string>
     <string name="display_rotation_camera_compat_toast_after_rotation">Snu skjermen for å sjå betre</string>
     <string name="display_rotation_camera_compat_toast_in_multi_window">Opna <xliff:g id="name" example="MyApp">%s</xliff:g> over heile skjermen for å sjå betre</string>
@@ -2036,6 +2069,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="lock_to_app_unlock_pin">Be om PIN før appen vert låst opp</string>
     <string name="lock_to_app_unlock_pattern">Be om mønster før appar vert låst opp</string>
     <string name="lock_to_app_unlock_password">Be om passord før appar vert låst opp</string>
+    <string name="package_installed_device_owner">Installert av administratoren din.\nGå til innstillingar for å sjå kva løyve som er gjevne</string>
     <string name="package_updated_device_owner">Oppdatert av administratoren din.\nGå til innstillingane for å sjå kva løyve som er gjeve</string>
     <string name="package_deleted_device_owner">Administratoren din har sletta appen</string>
     <string name="confirm_battery_saver">OK</string>
@@ -2096,10 +2130,16 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="zen_mode_default_weeknights_name">Kveldar i veka</string>
     <string name="zen_mode_default_weekends_name">Helg</string>
     <string name="zen_mode_default_events_name">Hending</string>
-    <string name="zen_mode_default_every_night_name">Sover</string>
+    <string name="zen_mode_default_every_night_name">Sova</string>
+    <string name="zen_mode_implicit_name">Ikkje forstyrr (<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>)</string>
     <string name="zen_mode_implicit_trigger_description">Styrt av <xliff:g id="app_name">%1$s</xliff:g></string>
     <string name="zen_mode_implicit_activated">På</string>
     <string name="zen_mode_implicit_deactivated">Av</string>
+    <string name="zen_mode_trigger_summary_divider_text">,\u0020</string>
+    <string name="zen_mode_trigger_summary_range_symbol_combination"><xliff:g id="start" example="Sun">%1$s</xliff:g> – <xliff:g id="end" example="Thu">%2$s</xliff:g></string>
+    <string name="zen_mode_trigger_summary_range_words"><xliff:g id="start" example="Sunday">%1$s</xliff:g> til <xliff:g id="end" example="Thursday">%2$s</xliff:g></string>
+    <string name="zen_mode_trigger_summary_combined"><xliff:g id="days" example="Sat-Thurs">%1$s</xliff:g>,\u0020<xliff:g id="times" example="10:00 PM - 7:00 AM">%2$s</xliff:g></string>
+    <string name="zen_mode_trigger_event_calendar_any">Alle kalendrar</string>
     <string name="muted_by">%1$s har tagt ned somme lydar</string>
     <string name="system_error_wipe_data">Eininga di har fått eit problem i systemet. Ho kan verta ustø til du nullstillar henne heilt.</string>
     <string name="system_error_manufacturer">Eininga di har fått eit problem i systemet. Be produsenten om meir informasjon.</string>
@@ -2140,6 +2180,9 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="call_notification_ongoing_text">Samtale i gang</string>
     <string name="call_notification_screening_text">Sjekkar ein innkomande samtale</string>
     <string name="default_notification_channel_label">Utan kategori</string>
+    <string name="promotional_notification_channel_label">Kampanjar</string>
+    <string name="social_notification_channel_label">Sosialt</string>
+    <string name="news_notification_channel_label">Nyhende</string>
     <string name="recs_notification_channel_label">Tilrådd</string>
     <string name="importance_from_user">Du har valt kor viktige desse varsla er.</string>
     <string name="importance_from_person">Dette er særskilt viktig på grunn av folka det gjeld.</string>
@@ -2167,6 +2210,7 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="set_up_screen_lock_title">Lag ein skjermlås</string>
     <string name="set_up_screen_lock_action_label">Set på skjermlås</string>
     <string name="private_space_set_up_screen_lock_message">Du må ha skjermlås på eininga for å bruka det private rommet</string>
+    <string name="private_space_set_up_screen_lock_for_reset">Set opp ein skjermlås for å sletta det private området</string>
     <string name="app_blocked_title">Appen er ikkje tilgjengeleg</string>
     <string name="app_blocked_message"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> er ikkje tilgjengeleg nett no.</string>
     <string name="app_streaming_blocked_title"><xliff:g id="activity" example="Permission dialog">%1$s</xliff:g> er ikkje tilgjengeleg</string>
@@ -2314,6 +2358,8 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="dynamic_mode_notification_channel_name">Varsel om rutinemodus</string>
     <string name="dynamic_mode_notification_title">Batterisparing er på</string>
     <string name="dynamic_mode_notification_summary">Minkar batteribruken for å få batteriet til å vara lengre</string>
+    <string name="dynamic_mode_notification_title_v2">Batterisparing er på</string>
+    <string name="dynamic_mode_notification_summary_v2">Batterisparing er slått på for å få batteriet til å vara lenger</string>
     <string name="battery_saver_notification_channel_name">Batterisparing</string>
     <string name="battery_saver_off_notification_title">Batterisparing er av</string>
     <string name="battery_saver_charged_notification_summary" product="default">Telefonen har nok straum. Funksjonane er ikkje lenger avgrensa.</string>
@@ -2360,6 +2406,8 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="accessibility_system_action_on_screen_a11y_shortcut_chooser_label">Val av tilgjengesnarveg på skjermen</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Tilgjengesnarveg</string>
     <string name="accessibility_system_action_dismiss_notification_shade">Lukk varselpanelet</string>
+    <string name="accessibility_system_action_menu_label">Meny</string>
+    <string name="accessibility_system_action_media_play_pause_label">Spela av / pause</string>
     <string name="accessibility_system_action_dpad_up_label">Styrepil opp</string>
     <string name="accessibility_system_action_dpad_down_label">Styrepil ned</string>
     <string name="accessibility_system_action_dpad_left_label">Styrepil venstre</string>
@@ -2407,6 +2455,8 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="miniresolver_switch_to_work">Byta til ein jobb-app?</string>
     <string name="miniresolver_call_information">Organisasjonen din lèt deg berre ringja frå jobb-appar</string>
     <string name="miniresolver_sms_information">Organisasjonen din lèt deg berre senda meldingar frå jobb-appar</string>
+    <string name="miniresolver_private_space_phone_information">"Du kan berre ringja frå den personlege telefon-appen din. Samtalar du ringjer med den personlege telefonen, vert lagde til i den personlege samtaleloggen din."</string>
+    <string name="miniresolver_private_space_messages_information">"Du kan berre senda SMS-meldingar frå den personlege meldingsappen din."</string>
     <string name="miniresolver_use_personal_browser">Bruk den personlege nettlesaren</string>
     <string name="miniresolver_use_work_browser">Bruk arbeidsnettlesaren</string>
     <string name="miniresolver_call">Ring</string>
@@ -2584,21 +2634,72 @@ other {Tek skjermbilete for feilrapporten om # sekund.}
     <string name="profile_label_communal">Felles</string>
     <string name="profile_label_supervising">Tilsyn</string>
     <string name="accessibility_label_managed_profile">Arbeidsprofil</string>
+    <string name="accessibility_label_private_profile">Privat område</string>
     <string name="accessibility_label_clone_profile">Klon</string>
     <string name="accessibility_label_communal_profile">Felles</string>
+    <string name="private_space_biometric_prompt_title">Privat område</string>
+    <string name="redacted_notification_message">Sensitivt varselinnhald er gøymt</string>
+    <string name="screen_not_shared_sensitive_content">Av tryggleiksgrunnar er app-innhaldet gøymt ved skjermdeling</string>
     <string name="satellite_notification_title">Auto connected to satellite</string>
     <string name="satellite_notification_summary">Du kan senda og ta imot meldingar utan mobilnett eller Wi-Fi</string>
     <string name="satellite_notification_summary_with_data">Du kan senda og ta imot meldingar og bruka utvalde appar via satellitt</string>
+    <string name="satellite_notification_manual_title">Vil du bruka satellittmeldingar?</string>
+    <string name="satellite_notification_manual_summary">Send og ta imot meldingar utan mobilnett eller Wi-Fi</string>
     <string name="satellite_notification_open_message">Opna Meldingar</string>
     <string name="satellite_notification_how_it_works">Slik verkar det</string>
+    <string name="satellite_manual_selection_state_popup_title">Slå på «Vel nettverk automatisk»</string>
+    <string name="satellite_manual_selection_state_popup_message">Slå på «Vel nettverk automatisk» i innstillingane slik at telefonen kan finna eit nettverk som virkar med satellitt</string>
     <string name="satellite_manual_selection_state_popup_ok">Slå på</string>
+    <string name="satellite_manual_selection_state_popup_cancel">Gå tilbake</string>
     <string name="unarchival_session_app_label">Ventar …</string>
+    <string name="satellite_sos_available_notification_title">Satellitt-naudoppringing er no tilgjengeleg</string>
+    <string name="satellite_sos_available_notification_summary">Du kan senda melding til naudtenester om det ikkje finst mobilnett eller Wi-Fi. Google Meldingar må vera standard-appen din.</string>
+    <string name="satellite_sos_not_supported_notification_title">Satellitt-naudoppringing er ikkje støtta</string>
+    <string name="satellite_sos_not_supported_notification_summary">Satellitt-naudoppringing er ikkje støtta på denne eininga</string>
+    <string name="satellite_sos_not_provisioned_notification_title">Satellitt-naudoppringing er ikkje sett opp</string>
+    <string name="satellite_sos_not_provisioned_notification_summary">Sjekk at du er kopla til Internett og prøv å setja det opp på nytt</string>
+    <string name="satellite_sos_not_in_allowed_region_notification_title">Satellitt-naudoppringing er ikkje tilgjengeleg</string>
+    <string name="satellite_sos_not_in_allowed_region_notification_summary">Satellitt-naudoppringing er ikkje tilgjengeleg i dette landet eller denne regionen</string>
+    <string name="satellite_sos_unsupported_default_sms_app_notification_title">Satellitt-naudoppringing er ikkje sett opp</string>
+    <string name="satellite_sos_unsupported_default_sms_app_notification_summary">For å senda melding via satellitt må du setja Google Meldingar som standard-app</string>
+    <string name="satellite_sos_location_disabled_notification_title">Satellitt-naudoppringing er ikkje tilgjengeleg</string>
+    <string name="satellite_sos_location_disabled_notification_summary">Slå på posisjonstenester for å sjekka om satellitt-naudoppringing er tilgjengeleg der du er</string>
+    <string name="satellite_messaging_available_notification_title">Satellittmeldingar er tilgjengelege</string>
+    <string name="satellite_messaging_available_notification_summary">Du kan senda meldingar via satellitt om det ikkje finst mobilnett eller Wi-Fi. Google Meldingar må vera standard-appen din.</string>
+    <string name="satellite_messaging_not_supported_notification_title">Satellittmeldingar er ikkje støtta</string>
+    <string name="satellite_messaging_not_supported_notification_summary">Satellittmeldingar er ikkje støtta på denne eininga</string>
+    <string name="satellite_messaging_not_provisioned_notification_title">Satellittmeldingar er ikkje sett opp</string>
+    <string name="satellite_messaging_not_provisioned_notification_summary">Sjekk at du er kopla til Internett og prøv å setja det opp på nytt</string>
+    <string name="satellite_messaging_not_in_allowed_region_notification_title">Satellittmeldingar er ikkje tilgjengelege</string>
+    <string name="satellite_messaging_not_in_allowed_region_notification_summary">Satellittmeldingar er ikkje tilgjengelege i dette landet eller denne regionen</string>
+    <string name="satellite_messaging_unsupported_default_sms_app_notification_title">Satellittmeldingar er ikkje sette opp</string>
+    <string name="satellite_messaging_unsupported_default_sms_app_notification_summary">For å senda meldingar via satellitt må du setja Google Meldingar som standard-app</string>
+    <string name="satellite_messaging_location_disabled_notification_title">Satellittmeldingar er ikkje tilgjengelege</string>
+    <string name="satellite_messaging_location_disabled_notification_summary">Slå på posisjonstenester for å sjekka om satellittmeldingar er tilgjengelege der du er</string>
+    <string name="fingerprint_dangling_notification_title">Set opp opplåsing med fingeravtrykk på nytt</string>
+    <string name="fingerprint_dangling_notification_msg_1"><xliff:g id="fingerprint">%s</xliff:g> kan ikkje lenger kjennast att.</string>
+    <string name="fingerprint_dangling_notification_msg_2"><xliff:g id="fingerprint">%1$s</xliff:g> og <xliff:g id="fingerprint">%2$s</xliff:g> kan ikkje lenger kjennast att.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_1"><xliff:g id="fingerprint">%s</xliff:g> kan ikkje lenger kjennast att. Set opp opplåsing med fingeravtrykk på nytt.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_2"><xliff:g id="fingerprint">%1$s</xliff:g> og <xliff:g id="fingerprint">%2$s</xliff:g> kan ikkje lenger kjennast att. Set opp opplåsing med fingeravtrykk på nytt.</string>
+    <string name="face_dangling_notification_title">Set opp andletslås på nytt</string>
+    <string name="face_dangling_notification_msg">Andletsmodellen din kan ikkje lenger kjennast att. Set opp andletslås på nytt.</string>
     <string name="biometric_dangling_notification_action_set_up">Set opp</string>
     <string name="biometric_dangling_notification_action_not_now">Ikkje no</string>
+    <string name="bg_user_sound_notification_title_alarm">Alarm for <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
+    <string name="bg_user_sound_notification_button_switch_user">Byt brukar</string>
+    <string name="bg_user_sound_notification_button_mute">Demp</string>
+    <string name="bg_user_sound_notification_message">Trykk for å dempa lyden</string>
+    <string name="keyboard_shortcut_group_applications_browser">Nettlesar</string>
     <string name="keyboard_shortcut_group_applications_contacts">Kontaktar</string>
+    <string name="keyboard_shortcut_group_applications_email">E-post</string>
     <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_music">Musikk</string>
     <string name="keyboard_shortcut_group_applications_calendar">Kalender</string>
+    <string name="keyboard_shortcut_group_applications_calculator">Kalkulator</string>
+    <string name="keyboard_shortcut_group_applications_maps">Kart</string>
     <string name="keyboard_shortcut_group_applications_files">Filer</string>
+    <string name="keyboard_shortcut_group_applications">Appar</string>
+    <string name="fingerprint_loe_notification_msg">Fingeravtrykka dine kan ikkje lenger kjennast att. Set opp opplåsing med fingeravtrykk på nytt.</string>
     <string name="usb_apm_usb_plugged_in_when_locked_notification_app_title">Tryggleik og personvern</string>
     <string name="usb_apm_usb_plugged_in_when_locked_replug_notification_title">Lås opp skjermen og kopla til USB på nytt</string>
     <string name="usb_apm_usb_plugged_in_when_locked_notification_title">Lås opp skjermen for å kopla til USB</string>

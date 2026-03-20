@@ -14,12 +14,135 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="whichApplication">Fullfør handlinga med</string>
+    <string name="whichApplicationNamed">Fullfør handlinga med <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichApplicationLabel">Fullfør handlinga</string>
+    <string name="whichViewApplication">Opna med</string>
+    <string name="whichViewApplicationNamed">Opna med <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichViewApplicationLabel">Opna</string>
+    <string name="whichOpenHostLinksWith">Opna lenker frå <xliff:g id="host" example="mail.google.com">%1$s</xliff:g> med</string>
+    <string name="whichOpenLinksWith">Opna lenker med</string>
+    <string name="whichOpenLinksWithApp">Opna lenker med <xliff:g id="application" example="Chrome">%1$s</xliff:g></string>
+    <string name="whichOpenHostLinksWithApp">Opna lenker frå <xliff:g id="host" example="mail.google.com">%1$s</xliff:g> med <xliff:g id="application" example="Chrome">%2$s</xliff:g></string>
+    <string name="whichGiveAccessToApplicationLabel">Gjev tilgang</string>
+    <string name="whichEditApplication">Rediger med</string>
+    <string name="whichEditApplicationNamed">Rediger med <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichEditApplicationLabel">Rediger</string>
+    <string name="whichSendApplication">Del</string>
+    <string name="whichSendApplicationNamed">Del med <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichSendApplicationLabel">Del</string>
+    <string name="whichSendToApplication">Send med</string>
+    <string name="whichSendToApplicationNamed">Send med <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichSendToApplicationLabel">Send</string>
+    <string name="whichHomeApplication">Vel ein startskjerm-app</string>
+    <string name="whichHomeApplicationNamed">Bruk <xliff:g id="app" example="YouTube">%1$s</xliff:g> som startskjerm</string>
+    <string name="whichHomeApplicationLabel">Ta bilete</string>
+    <string name="whichImageCaptureApplication">Ta bilete med</string>
+    <string name="whichImageCaptureApplicationNamed">Ta bilete med <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichImageCaptureApplicationLabel">Ta bilete</string>
+    <string name="use_a_different_app">Bruk ein annan app</string>
+    <string name="chooseActivity">Vel ei handling</string>
+    <string name="noApplications">Ingen appar kan utføra denne handlinga.</string>
+    <string name="forward_intent_to_owner">Du brukar denne appen utanfor arbeidsprofilen din</string>
+    <string name="forward_intent_to_work">Du brukar denne appen i arbeidsprofilen din</string>
+    <string name="activity_resolver_use_always">Alltid</string>
+    <string name="activity_resolver_use_once">Berre éin gong</string>
+    <string name="activity_resolver_work_profiles_support"><xliff:g id="app" example="YouTube">%1$s</xliff:g> støttar ikkje arbeidsprofilar</string>
+    <string name="pin_specific_target">Festa <xliff:g id="label" example="Tweet">%1$s</xliff:g></string>
+    <string name="unpin_specific_target">Løys ut <xliff:g id="label" example="Tweet">%1$s</xliff:g></string>
+    <string name="screenshot_edit">Rediger</string>
+    <string name="other_files">{count, plural,
+=1 {+ # fil}
+other {+ # filer}
+}</string>
+    <string name="more_files">{count, plural,
+=1 {+ # fil til}
+other {+ # fleire filer}
+}</string>
+    <string name="sharing_text">Deler tekst</string>
+    <string name="sharing_link">Deler lenke</string>
+    <string name="sharing_images">{count, plural,
+=1 {Deler bilete}
+other {Deler # bilete}
+}</string>
+    <string name="sharing_videos">{count, plural,
+=1 {Deler video}
+other {Deler # videoar}
+}</string>
+    <string name="sharing_files">{count, plural,
+=1 {Deler # fil}
+other {Deler # filer}
+}</string>
     <string name="select_items_to_share">Vel kva du vil dela</string>
+    <string name="sharing_images_with_text">{count, plural,
+=1 {Deler bilete med tekst}
+other {Deler # bilete med tekst}
+}</string>
+    <string name="sharing_images_with_link">{count, plural,
+=1 {Deler bilete med lenke}
+other {Deler # bilete med lenke}
+}</string>
+    <string name="sharing_videos_with_text">{count, plural,
+=1 {Deler video med tekst}
+other {Deler # videoar med tekst}
+}</string>
+    <string name="sharing_videos_with_link">{count, plural,
+=1 {Deler video med lenke}
+other {Deler # videoar med lenke}
+}</string>
+    <string name="sharing_files_with_text">{count, plural,
+=1 {Deler fil med tekst}
+other {Deler # filer med tekst}
+}</string>
+    <string name="sharing_files_with_link">{count, plural,
+=1 {Deler fil med lenke}
+other {Deler # filer med lenke}
+}</string>
+    <string name="sharing_album">Deler album</string>
+    <string name="sharing_images_only">{count, plural,
+=1 {Berre bilete}
+other {Berre bilete}
+}</string>
+    <string name="sharing_videos_only">{count, plural,
+=1 {Berre video}
+other {Berre videoar}
+}</string>
+    <string name="sharing_files_only">{count, plural,
+=1 {Berre fil}
+other {Berre filer}
+}</string>
+    <string name="image_preview_a11y_description">Førehandsvising av bilete</string>
+    <string name="video_preview_a11y_description">Førehandsvising av video</string>
+    <string name="file_preview_a11y_description">Førehandsvising av fil</string>
+    <string name="chooser_no_direct_share_targets">Ingen tilrådde personar å dela med</string>
+    <string name="usb_device_resolve_prompt_warn">Denne appen har ikkje fått løyve til opptak, men kan ta opp lyd gjennom denne USB-eininga.</string>
+    <string name="resolver_personal_tab">Personleg</string>
+    <string name="resolver_work_tab">Arbeid</string>
+    <string name="resolver_private_tab">Låst</string>
+    <string name="resolver_personal_tab_accessibility">Personleg vising</string>
+    <string name="resolver_work_tab_accessibility">Arbeidsvising</string>
+    <string name="resolver_private_tab_accessibility">Låst vising</string>
     <string name="resolver_cross_profile_blocked">Sperra av IT-administratoren</string>
+    <string name="resolver_cant_share_with_work_apps_explanation">Dette innhaldet kan ikkje delast med jobb-appar</string>
+    <string name="resolver_cant_access_work_apps_explanation">Dette innhaldet kan ikkje opnast med jobb-appar</string>
+    <string name="resolver_cant_share_with_personal_apps_explanation">Dette innhaldet kan ikkje delast med personlege appar</string>
+    <string name="resolver_cant_access_personal_apps_explanation">Dette innhaldet kan ikkje opnast med personlege appar</string>
     <string name="resolver_cant_share_with_private_apps_explanation">Innhaldet kan ikkje delast med private appar</string>
     <string name="resolver_cant_access_private_apps_explanation">Innhaldet kan ikkje opnast med private appar</string>
     <string name="resolver_turn_on_work_apps">jobb-appar er sette på pause</string>
+    <string name="resolver_switch_on_work">Opphev pause</string>
+    <string name="resolver_no_work_apps_available">Ingen jobb-appar tilgjengelege</string>
+    <string name="resolver_no_personal_apps_available">Ingen personlege appar tilgjengelege</string>
     <string name="resolver_no_private_apps_available">Ingen private appar</string>
+    <string name="miniresolver_open_in_personal">Opna <xliff:g id="app" example="YouTube">%s</xliff:g> i den personlege profilen din?</string>
+    <string name="miniresolver_open_in_work">Opna <xliff:g id="app" example="YouTube">%s</xliff:g> i arbeidsprofilen din?</string>
+    <string name="miniresolver_use_personal_browser">Bruk personleg nettlesar</string>
+    <string name="miniresolver_use_work_browser">Bruk arbeidsnettlesar</string>
+    <string name="exclude_text">Ikkje ta med tekst</string>
+    <string name="include_text">Ta med tekst</string>
+    <string name="exclude_link">Ikkje ta med lenke</string>
+    <string name="include_link">Ta med lenke</string>
+    <string name="pinned">Festa</string>
     <string name="item_position_label">Element <xliff:g id="item_position" example="123">%1$d</xliff:g></string>
     <string name="selectable_image">Bilete du kan velja</string>
     <string name="selectable_video">Video du kan velja</string>

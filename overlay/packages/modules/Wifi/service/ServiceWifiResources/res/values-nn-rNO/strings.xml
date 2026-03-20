@@ -14,13 +14,57 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifiResourcesAppLabel" product="default">Systemressursar for Wi-Fi</string>
+    <string name="wifi_available_title">Kopla til ope Wi-Fi-nettverk</string>
+    <string name="wifi_available_title_connecting">Koplar til Wi-Fi-nettverk</string>
+    <string name="wifi_available_title_connected">Kopla til Wi-Fi-nettverk</string>
+    <string name="wifi_available_title_failed_to_connect">Klarte ikkje å kopla til Wi-Fi-nettverket</string>
+    <string name="wifi_available_content_failed_to_connect">Trykk for å sjå alle nettverk</string>
+    <string name="wifi_available_action_connect">Kopla til</string>
+    <string name="wifi_available_action_all_networks">Alle nettverk</string>
+    <string name="notification_channel_network_status">Nettverksstatus</string>
+    <string name="notification_channel_network_alerts">Nettverksvarsel</string>
+    <string name="notification_channel_network_available">Nettverk tilgjengeleg</string>
+    <string name="notification_channel_apm_alerts">APM-varsel</string>
+    <string name="wifi_suggestion_title">Løyva føreslåtte Wi-Fi-nettverk?</string>
+    <string name="wifi_suggestion_content"><xliff:g id="name" example="App123">%s</xliff:g> har føreslått nettverk. Eininga kan kopla til automatisk.</string>
+    <string name="wifi_suggestion_action_allow_app">Gjev løyve</string>
+    <string name="wifi_suggestion_action_disallow_app">Nei takk</string>
+    <string name="wifi_suggestion_imsi_privacy_title">Kopla til <xliff:g id="carrierName" example="xxxMobile">%s</xliff:g> sitt Wi-Fi?</string>
+    <string name="wifi_suggestion_imsi_privacy_content">Desse nettverka fær ein SIM-ID som kan brukast til å fylgja med på kvar eininga er</string>
+    <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_carrier">Kopla til</string>
+    <string name="wifi_suggestion_action_disallow_imsi_privacy_exemption_carrier">Ikkje kopla til</string>
+    <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_title">Stadfesta tilkoplinga?</string>
+    <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_content">Om du koplar til, kan <xliff:g id="carrierName" example="xxxMobile">%s</xliff:g> sine Wi-Fi-nettverk få tak i eller dela ein unik ID frå SIM-kortet ditt. Dette kan gjera det mogleg å fylgja med på kvar eininga di er.</string>
+    <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_confirmation">Kopla til</string>
+    <string name="wifi_suggestion_action_disallow_imsi_privacy_exemption_confirmation">Ikkje kopla til</string>
+    <string name="wifi_wakeup_onboarding_title">Wi-Fi vert slått på automatisk</string>
+    <string name="wifi_wakeup_onboarding_subtext">Når du er i nærleiken av eit lagra nettverk med god kvalitet</string>
+    <string name="wifi_wakeup_onboarding_action_disable">Ikkje slå på att</string>
+    <string name="wifi_wakeup_enabled_title">Wi-Fi vart slått på automatisk</string>
+    <string name="wifi_wakeup_enabled_content">Du er i nærleiken av eit lagra nettverk: <xliff:g id="network_ssid">%1$s</xliff:g></string>
+    <string name="wifi_watchdog_network_disabled">Klarte ikkje å kopla til Wi-Fi</string>
+    <string name="wifi_watchdog_network_disabled_detailed"> har dårleg internettsamband.</string>
+    <string name="wifi_connect_alert_title">Løyva tilkopling?</string>
+    <string name="wifi_connect_alert_message">Appen %1$s vil kopla til Wi-Fi-nettverket %2$s</string>
+    <string name="wifi_connect_default_application">Ein app</string>
+    <string name="accept">Godta</string>
+    <string name="decline">Avslå</string>
+    <string name="ok">OK</string>
+    <string name="wifi_p2p_invitation_sent_title">Invitasjon er sendt</string>
+    <string name="wifi_p2p_invitation_to_connect_title">Invitasjon til tilkopling</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0, plural, =1 {Godta innan # sekund.} other {Godta innan # sekund.}}</string>
+    <string name="wifi_p2p_from_message">Frå: </string>
+    <string name="wifi_p2p_to_message">Til: </string>
     <string name="wifi_p2p_enter_pin_message">Skriv inn PIN-koden: </string>
+    <string name="wifi_p2p_show_pin_message">PIN: </string>
     <string name="wifi_p2p_dialog2_sent_title">Einingstilkopling</string>
     <string name="wifi_p2p_dialog2_sent_title_display_pin">Einingstilkopling</string>
     <string name="wifi_p2p_dialog2_sent_message">Invitasjon er send til <xliff:g id="device_name">%1$s</xliff:g>.</string>
     <string name="wifi_p2p_dialog2_sent_message_display_pin">Skriv inn denne PIN-koden på <xliff:g id="device_name">%1$s</xliff:g> for å kopla til.</string>
     <string name="wifi_p2p_dialog2_sent_title_display_password">Einingstilkopling</string>
     <string name="wifi_p2p_dialog2_sent_message_display_password">Skriv inn dette passordet på <xliff:g id="device_name">%1$s</xliff:g> for å kopla til.</string>
+    <string name="wifi_p2p_dialog2_sent_positive_button">OK</string>
     <string name="wifi_p2p_dialog2_received_title">Einingstilkopling</string>
     <string name="wifi_p2p_dialog2_received_title_enter_pin">Einingstilkopling</string>
     <string name="wifi_p2p_dialog2_received_title_display_pin">Einingstilkopling</string>
@@ -56,11 +100,100 @@
             other {{device} vil kopla til eininga di med dette passordet. Godta innan {countdown} sekund.}
         }
     </string>
+    <string name="wifi_p2p_dialog2_received_positive_button">Kopla til</string>
     <string name="wifi_p2p_dialog2_received_negative_button">Avbryt</string>
     <string name="wifi_p2p_dialog2_enter_pin_label">PIN</string>
     <string name="wifi_p2p_dialog2_enter_password_label">Passord</string>
     <string name="wifi_p2p_dialog2_display_pin_label">PIN</string>
     <string name="wifi_p2p_dialog2_display_password_label">Passord</string>
+    <string name="wifi_p2p_frequency_conflict_message">Eininga di vil missa Wi-Fi-sambandet medan ho er kopla til <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="dlg_ok">OK</string>
+    <string name="wifi_cannot_connect_with_randomized_mac_title">Klarte ikkje å kopla til <xliff:g id="ssid">%1$s</xliff:g></string>
+    <string name="wifi_cannot_connect_with_randomized_mac_message">Trykk for å endra personverninnstillingane og prøva på nytt</string>
+    <string name="wifi_disable_mac_randomization_dialog_title">Endra personverninnstillinga?</string>
+    <string name="wifi_disable_mac_randomization_dialog_message">For å kopla til, treng <xliff:g id="ssid">%1$s</xliff:g> å bruka MAC-adressa til eininga di. No brukar personverninnstillinga di ein tilfeldig ID.\n\nDenne endringa kan gjera det mogleg for andre einingar i nærleiken å sjå kvar du er.</string>
+    <string name="wifi_disable_mac_randomization_dialog_confirm_text">Endra innstillinga</string>
+    <string name="wifi_disable_mac_randomization_dialog_success">Innstillinga er oppdatert. Prøv å kopla til på nytt.</string>
+    <string name="wifi_disable_mac_randomization_dialog_failure">Klarte ikkje å endra personverninnstillinga</string>
+    <string name="wifi_disable_mac_randomization_dialog_network_not_found">Fann ikkje nettverket</string>
+    <string name="wifi_eap_error_message_code_32756"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 32756</string>
+    <string-array name="wifi_eap_error_message_code_32756_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g></item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32760"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 32760</string>
+    <string-array name="wifi_eap_error_message_code_32760_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Du kan ikkje kopla til Verizon Wi-Fi Access utanfor dekningsområdet til Verizon. (Feil = 32760)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32761"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 32761</string>
+    <string-array name="wifi_eap_error_message_code_32761_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Du abonnerer ikkje på Verizon Wi-Fi Access. Ring oss på 800-922-0204. (Feil = 32761)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32762"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 32762</string>
+    <string-array name="wifi_eap_error_message_code_32762_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Det er eit problem med kontoen din for Verizon Wi-Fi Access. Ring oss på 800-922-0204. (Feil = 32762)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32763"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 32763</string>
+    <string-array name="wifi_eap_error_message_code_32763_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Du er allereie kopla til Verizon Wi-Fi Access. (Feil = 32763)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32764"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 32764</string>
+    <string-array name="wifi_eap_error_message_code_32764_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Det skjedde noko gale ved tilkopling til Verizon Wi-Fi Access. Ring oss på 800-922-0204. (Feil = 32764)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32765"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 32765</string>
+    <string-array name="wifi_eap_error_message_code_32765_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Det er eit problem med kontoen din for Verizon Wi-Fi Access. Ring oss på 800-922-0204. (Feil = 32765)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32766"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 32766</string>
+    <string-array name="wifi_eap_error_message_code_32766_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Verizon Wi-Fi Access er ikkje tilgjengeleg der du er no. Prøv på nytt seinare eller frå ein annan stad. (Feil = 32766)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32767"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 32767</string>
+    <string-array name="wifi_eap_error_message_code_32767_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Det skjedde noko gale ved tilkopling til Verizon Wi-Fi Access. Prøv på nytt seinare eller frå ein annan stad. (Feil = 32767)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_16384"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 16384</string>
+    <string-array name="wifi_eap_error_message_code_16384_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Det skjedde noko gale ved tilkopling til Verizon Wi-Fi. (Feil = 16384)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_16385"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil 16385</string>
+    <string-array name="wifi_eap_error_message_code_16385_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Det skjedde noko gale ved tilkopling til Verizon Wi-Fi. (Feil = 16385)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_unknown_error_code"><xliff:g id="ssid">%1$s</xliff:g> : EAP-stadfestingsfeil, ukjend feilkode</string>
+    <string-array name="wifi_eap_error_message_unknown_error_code_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : Det skjedde noko gale ved tilkopling til Verizon Wi-Fi. (Feil = ukjend)</item>
+    </string-array>
+    <string name="wifi_softap_auto_shutdown_timeout_expired_title">Sone er slått av</string>
+    <string name="wifi_softap_auto_shutdown_timeout_expired_summary">Ingen einingar er kopla til. Trykk for å endra.</string>
+    <string name="wifi_sim_required_title">Wi-Fi fråkopla</string>
+    <string name="wifi_sim_required_message">Set inn eit <xliff:g id="carrier_name">%2$s</xliff:g>-SIM-kort for å kopla til <xliff:g id="ssid">%1$s</xliff:g></string>
+    <string name="wifi_interface_priority_title"><xliff:g id="app">%1$s</xliff:g> vil bruka ein nettverksressurs</string>
+    <string name="wifi_interface_priority_message">Dette kan laga vanskar for <xliff:g id="apps">%3$s</xliff:g>.</string>
+    <string name="wifi_interface_priority_message_plural">Dette kan laga vanskar for desse appane: <xliff:g id="apps">%3$s</xliff:g>.</string>
+    <string name="wifi_interface_priority_approve">Gjev løyve</string>
+    <string name="wifi_interface_priority_reject">Ikkje gjev løyve</string>
+    <string name="wifi_interface_priority_interface_name_sta">STA</string>
+    <string name="wifi_interface_priority_interface_name_ap">Wi-Fi-sone</string>
+    <string name="wifi_interface_priority_interface_name_ap_bridge">Wi-Fi-sone</string>
+    <string name="wifi_interface_priority_interface_name_p2p">Wi-Fi Direct</string>
+    <string name="wifi_interface_priority_interface_name_nan">Wi-Fi Aware</string>
+    <string name="wifi_ca_cert_dialog_title">Er dette nettverket trygt?</string>
+    <string name="wifi_ca_cert_dialog_continue_text">Ja, kopla til</string>
+    <string name="wifi_ca_cert_dialog_abort_text">Nei, ikkje kopla til</string>
+    <string name="wifi_ca_cert_dialog_message_hint">Berre godta tilkopling om informasjonen nedanfor ser rett ut.\n\n</string>
+    <string name="wifi_ca_cert_dialog_message_server_name_text">Tenarnamn:\n<xliff:g id="value">%1$s</xliff:g>\n\n</string>
+    <string name="wifi_ca_cert_dialog_message_issuer_name_text">Utferdar:\n<xliff:g id="value">%1$s</xliff:g>\n\n</string>
+    <string name="wifi_ca_cert_dialog_message_organization_text">Organisasjon:\n<xliff:g id="value">%1$s</xliff:g>\n\n</string>
+    <string name="wifi_ca_cert_dialog_message_expiration_text">Utløpsdato for sertifikat:\n<xliff:g id="value">%1$s</xliff:g>\n\n</string>
+    <string name="wifi_ca_cert_dialog_message_signature_name_text">SHA-256-fingeravtrykk:\n<xliff:g id="value">%1$s</xliff:g>\n\n</string>
+    <string name="wifi_ca_cert_dialog_message_contact_text">Kontakt:\n<xliff:g id="value">%1$s</xliff:g>\n\n</string>
+    <string name="wifi_ca_cert_notification_title">Nettverket må stadfestast</string>
+    <string name="wifi_ca_cert_notification_message">Gå gjennom detaljane for <xliff:g id="ssid">%1$s</xliff:g> før du koplar til. Trykk for å halda fram.</string>
+    <string name="wifi_ca_cert_failed_to_install_ca_cert">Klarte ikkje å leggja inn sertifikatet.</string>
+    <string name="wifi_tofu_invalid_cert_chain_title">Klarte ikkje å kopla til <xliff:g id="value">%1$s</xliff:g></string>
+    <string name="wifi_tofu_invalid_cert_chain_message">Sertifikatkjeda til tenaren er ugyldig.</string>
+    <string name="wifi_tofu_invalid_cert_chain_ok_text">OK</string>
     <string name="wifi_tofu_dialog2_title">Tryggleikssertifikat</string>
     <string name="wifi_tofu_dialog2_message">Hald berre fram om du stolar på dette nettverket og informasjonen nedanfor ser rett ut.</string>
     <string name="wifi_tofu_dialog2_negative_button">Avbryt</string>
@@ -81,4 +214,28 @@
     <string name="wifi_tofu_dialog2_list_label_public_key">Offentleg nøkkel</string>
     <string name="wifi_tofu_dialog2_list_label_signature_algorithm">Signaturalgoritme</string>
     <string name="wifi_tofu_dialog2_list_label_signature">Signatur</string>
+    <string name="wifi_ca_cert_dialog_preT_title">Klarte ikkje å stadfesta nettverket</string>
+    <string name="wifi_ca_cert_dialog_preT_continue_text">Ver tilkopla</string>
+    <string name="wifi_ca_cert_dialog_preT_abort_text">Kopla frå no</string>
+    <string name="wifi_ca_cert_dialog_preT_message_hint">Nettverket <xliff:g id="ssid">%1$s</xliff:g> vantar eit sertifikat.</string>
+    <string name="wifi_ca_cert_dialog_preT_message_link">Lær korleis du legg til sertifikat</string>
+    <string name="wifi_ca_cert_notification_preT_title">Klarte ikkje å stadfesta nettverket</string>
+    <string name="wifi_ca_cert_notification_preT_message">Nettverket <xliff:g id="ssid">%1$s</xliff:g> vantar eit sertifikat. Trykk for å læra korleis du legg til sertifikat.</string>
+    <string name="wifi_ca_cert_notification_preT_continue_text">Kopla til likevel</string>
+    <string name="wifi_ca_cert_notification_preT_abort_text">Ikkje kopla til</string>
+    <string name="wifi_enable_request_dialog_title">Lat <xliff:g id="app_name" example="App123">%1$s</xliff:g> å slå på Wi-Fi?</string>
+    <string name="wifi_enable_request_dialog_message">Du kan slå av Wi-Fi att i snøgginnstillingane</string>
+    <string name="wifi_enable_request_dialog_positive_button">Gjev løyve</string>
+    <string name="wifi_enable_request_dialog_negative_button">Ikkje gjev løyve</string>
+    <string name="wifi_enabled_apm_first_time_title">Wi-Fi er på i flymodus</string>
+    <string name="wifi_enabled_apm_first_time_message">Om du lèt Wi-Fi vera på, vil eininga hugsa dette til neste gong du brukar flymodus</string>
+    <string name="apm_enabled_first_time_title">Wi-Fi vert verande på</string>
+    <string name="apm_enabled_first_time_message">Eininga hugsar å ha Wi-Fi på i flymodus. Slå av Wi-Fi om du ikkje vil ha det slik.</string>
+    <string name="wifi_network_disabled_by_admin_title">Utilgjengeleg nettverk</string>
+    <string name="wifi_network_disabled_by_admin_message"><xliff:g id="ssid">%1$s</xliff:g> er slått av av administratoren din.</string>
+    <string name="wifi_network_disabled_by_admin_button">Lukk</string>
+    <string name="wifi_network_switch_dialog_title_no_internet">Ser ikkje ut til at <xliff:g id="ssid">%1$s</xliff:g> har internettsamband. Vil du byta til <xliff:g id="ssid">%2$s</xliff:g>?</string>
+    <string name="wifi_network_switch_dialog_title_bad_internet"><xliff:g id="ssid">%1$s</xliff:g> har dårleg kvalitet. Vil du byta til <xliff:g id="ssid">%2$s</xliff:g>?</string>
+    <string name="wifi_network_switch_dialog_positive_button">Byt</string>
+    <string name="wifi_network_switch_dialog_negative_button">Ikkje byt</string>
 </resources>

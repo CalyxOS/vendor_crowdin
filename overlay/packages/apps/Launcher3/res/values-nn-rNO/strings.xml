@@ -17,20 +17,222 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Launcher3</string>
+    <string name="work_folder_name">Arbeid</string>
+    <string name="activity_not_found">Appen er ikkje installert.</string>
+    <string name="activity_not_available">Appen er ikkje tilgjengeleg</string>
+    <string name="safemode_shortcut_error">Nedlasta appar er slått av i sikkermodus</string>
+    <string name="safemode_widget_error">Modular er slått av i sikkermodus</string>
+    <string name="shortcut_not_available">Snarvegen er ikkje tilgjengeleg</string>
+    <string name="home_screen">Start</string>
+    <string name="set_default_home_app">Vel <xliff:g id="launcher_name" example="Launcher3">%1$s</xliff:g> som standard startapp i innstillingane</string>
+    <string name="recent_task_option_split_screen">Delt skjerm</string>
+    <string name="recent_task_option_aspect_ratio">Endra storleiksforhold</string>
+    <string name="split_app_info_accessibility">Appinformasjon for %1$s</string>
+    <string name="split_app_usage_settings">Bruksinnstillingar for %1$s</string>
     <string name="close_task_accessibility">Lukk %1$s</string>
+    <string name="new_window_option_taskbar">Nytt vindauge</string>
+    <string name="manage_windows_option_taskbar">Styr vindauge</string>
+    <string name="close_app_taskbar">Lukk</string>
+    <string name="save_app_pair">Lagra app-par</string>
+    <string name="app_pair_default_title"><xliff:g id="app1" example="Chrome">%1$s</xliff:g> | <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
+    <string name="app_pair_unlaunchable_at_screen_size">Dette app-paret er ikkje støtta på denne eininga</string>
+    <string name="app_pair_needs_unfold">Fald ut eininga for å bruka dette app-paret</string>
+    <string name="app_pair_not_available">App-paret er ikkje tilgjengeleg</string>
+    <string name="long_press_widget_to_add">Hald inne for å flytta eit miniprogram.</string>
+    <string name="long_accessible_way_to_add">Trykk to gonger og hald inne for å flytta eit miniprogram eller bruka tilpassa handlingar.</string>
+    <string name="widget_picker_widget_options_button_description">Fleire val</string>
+    <string name="widget_picker_show_all_widgets_menu_item_title">Vis alle miniprogram</string>
+    <string name="widget_dims_format">%1$d × %2$d</string>
+    <string name="widget_accessible_dims_format">%1$d brei og %2$d høg</string>
+    <string name="widget_preview_context_description"><xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g>-miniprogram</string>
+    <string name="widget_preview_name_and_dims_content_description">        <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g>-miniprogram, %2$d brei og %3$d høg
+    </string>
+    <string name="add_item_request_drag_hint">Hald inne miniprogrammet for å flytta han rundt på startskjermen</string>
+    <string name="add_to_home_screen">Legg til på startskjermen</string>
+    <string name="added_to_home_screen_accessibility_text"><xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g>-miniprogram er lagd til på startskjermen</string>
+    <string name="suggested_widgets_header_title">Forslag</string>
+    <string name="productivity_widget_recommendation_category_label">Viktigaste</string>
+    <string name="news_widget_recommendation_category_label">Nyhende og blad</string>
+    <string name="entertainment_widget_recommendation_category_label">Underhalding</string>
+    <string name="social_widget_recommendation_category_label">Sosialt</string>
+    <string name="others_widget_recommendation_category_label">Føreslått for deg</string>
+    <string name="widget_picker_right_pane_accessibility_title"><xliff:g id="selected_header" example="Calendar">%1$s</xliff:g>-miniprogram til høgre, søk og val til venstre</string>
+    <string name="widgets_count">        {count, plural, =1{# miniprogram} other{# miniprogram}}
+    </string>
+    <string name="shortcuts_count">        {count, plural, =1{# snarveg} other{# snarvegar}}
+    </string>
+    <string name="widgets_and_shortcuts_count"><xliff:g id="widgets_count" example="5 widgets">%1$s</xliff:g>, <xliff:g id="shortcuts_count" example="1 shortcut">%2$s</xliff:g></string>
+    <string name="widget_button_text">Miniprogram</string>
+    <string name="widgets_full_sheet_search_bar_hint">Søk</string>
+    <string name="widgets_full_sheet_cancel_button_description">Tøm søkefeltet</string>
+    <string name="no_widgets_available">Miniprogram og snarvegar er ikkje tilgjengelege</string>
+    <string name="no_search_results">Fann ingen miniprogram eller snarvegar</string>
+    <string name="widgets_full_sheet_personal_tab">Privat</string>
+    <string name="widgets_full_sheet_work_tab">Arbeid</string>
+    <string name="widget_category_conversations">Samtalar</string>
+    <string name="widget_category_note_taking">Notat</string>
+    <string name="widget_cell_tap_to_show_add_button_label">Vis legg til-knappen</string>
+    <string name="widget_cell_tap_to_hide_add_button_label">Gøym legg til-knappen</string>
+    <string name="widget_add_button_label">Legg til</string>
+    <string name="widget_add_button_content_description">Legg til <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g>-miniprogram</string>
+    <string name="widgets_list_expand_button_label">Vis alle</string>
+    <string name="widgets_list_expand_button_content_description">Vis alle miniprogram</string>
+    <string name="widgets_list_expanded">Viser alle miniprogram</string>
+    <string name="reconfigurable_widget_education_tip">Trykk for å endra miniprograminnstillingane</string>
+    <string name="widget_reconfigure_button_content_description">Endra miniprograminnstillingane</string>
+    <string name="all_apps_search_bar_hint">Søk etter appar</string>
     <string name="all_apps_loading_message">Lastar inn appar …</string>
+    <string name="all_apps_no_search_results">Fann ingen appar som passar med «<xliff:g id="query" example="Android">%1$s</xliff:g>»</string>
+    <string name="label_application">App</string>
+    <string name="all_apps_label">Alle appar</string>
+    <string name="all_apps_list_label">Appliste</string>
+    <string name="notifications_header">Varsel</string>
+    <string name="long_press_shortcut_to_add">Hald inne for å flytta ein snarveg.</string>
+    <string name="long_accessible_way_to_add_shortcut">Trykk to gongar og hald inne for å flytta ein snarveg eller bruka tilpassa handlingar.</string>
+    <string name="out_of_space">Ikkje meir plass på denne startskjermen</string>
+    <string name="hotseat_out_of_space">Ikkje meir plass i favorittraden</string>
+    <string name="all_apps_button_label">Appliste</string>
+    <string name="all_apps_search_results">Søkeresultat</string>
+    <string name="all_apps_button_personal_label">Privat appliste</string>
+    <string name="all_apps_button_work_label">Arbeidsappliste</string>
+    <string name="remove_drop_target_label">Fjern</string>
+    <string name="uninstall_drop_target_label">Avinstaller</string>
+    <string name="app_info_drop_target_label">Appinformasjon</string>
+    <string name="install_private_system_shortcut_label">Installer i privat sone</string>
+    <string name="uninstall_private_system_shortcut_label">Avinstaller appen</string>
+    <string name="install_drop_target_label">Installer</string>
+    <string name="dismiss_prediction_label">Ikkje føreslå appen</string>
+    <string name="pin_prediction">Fest forslag</string>
+    <string name="bubble">Boble</string>
     <string name="widget_settings">Innstillingar</string>
     <string name="pin_to_taskbar">Festa til oppgåvelinja</string>
     <string name="unpin_from_taskbar">Fjern frå oppgåvelinja</string>
+    <string name="permlab_install_shortcut">installera snarvegar</string>
+    <string name="permdesc_install_shortcut">Lèt ein app leggja til snarvegar utan at brukaren gjer noko.</string>
+    <string name="permlab_read_settings">lesa startskjerminnstillingar og snarvegar</string>
+    <string name="permdesc_read_settings">Lèt appen lesa innstillingane og snarvegar på startskjermen.</string>
+    <string name="permlab_write_settings">skriva startskjerminnstillingar og snarvegar</string>
+    <string name="permdesc_write_settings">Lèt appen endra innstillingane og snarvegar på startskjermen.</string>
+    <string name="gadget_error_text">Klarte ikkje lasta inn miniprogrammet</string>
+    <string name="gadget_setup_text">Innstillingar for miniprogram</string>
+    <string name="gadget_complete_setup_text">Trykk for å fullføra oppsettet</string>
+    <string name="uninstall_system_app_text">Dette er ein system-app og kan ikkje avinstallerast.</string>
+    <string name="folder_hint_text">Endra namn</string>
     <string name="paginate_left">Bla til venstre</string>
     <string name="paginate_right">Bla til høgre</string>
+    <string name="disabled_app_label"><xliff:g id="app_name" example="Messenger">%1$s</xliff:g> er slått av</string>
+    <string name="dotted_app_label">        {count, plural,
+            =1      {{app_name} har # varsel}
+            other   {{app_name} har # varsel}
+        }
+    </string>
     <string name="hotseat_prediction_content_description">Føreslått app: <xliff:g id="title" example="Chrome">%1$s</xliff:g></string>
+    <string name="default_scroll_format">Side %1$d av %2$d</string>
+    <string name="workspace_scroll_format">Startskjerm %1$d av %2$d</string>
+    <string name="workspace_new_page">Ny side på startskjermen</string>
+    <string name="app_running_state_description">Aktiv</string>
+    <string name="app_minimized_state_description">Minimert</string>
+    <string name="folder_opened">Mappa er opna, <xliff:g id="width" example="5">%1$d</xliff:g> gonger <xliff:g id="height" example="3">%2$d</xliff:g></string>
+    <string name="folder_tap_to_close">Trykk for å lukka mappa</string>
+    <string name="folder_tap_to_rename">Trykk for å lagra det nye namnet</string>
+    <string name="folder_closed">Mappa er lukka</string>
+    <string name="folder_renamed">Mappa har fått det nye namnet <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+    <string name="folder_name_format_exact">Mappe: <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> element</string>
     <string name="folder_name_format_exact_with_dot">Mappe: <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> element, har varsel</string>
+    <string name="folder_name_format_overflow">Mappe: <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> eller fleire element</string>
     <string name="folder_name_format_overflow_with_dot">Mappe: <xliff:g id="name" example="Games">%1$s</xliff:g>, <xliff:g id="size" example="2">%2$d</xliff:g> eller fleire element, har varsel</string>
+    <string name="unnamed_folder">Mappe utan namn</string>
+    <string name="app_pair_name_format">App-par: <xliff:g id="app1" example="Chrome">%1$s</xliff:g> og <xliff:g id="app2" example="YouTube">%2$s</xliff:g></string>
+    <string name="styles_wallpaper_button_text">Bakgrunn og stil</string>
+    <string name="edit_home_screen">Rediger startskjermen</string>
+    <string name="settings_button_text">Innstillingar for startskjermen</string>
+    <string name="msg_disabled_by_admin">Slått av av administratoren din</string>
+    <string name="allow_rotation_title">Tillat rotering av startskjermen</string>
+    <string name="allow_rotation_desc">Når du snur telefonen</string>
+    <string name="landscape_mode_title">Liggjande modus</string>
     <string name="landscape_mode_desc">Still inn startskjermen til liggjande retning</string>
+    <string name="notification_dots_title">Varselpunkt</string>
+    <string name="notification_dots_desc_on">På</string>
+    <string name="notification_dots_desc_off">Av</string>
+    <string name="title_missing_notification_access">Treng tilgang til varsel</string>
+    <string name="msg_missing_notification_access">For å visa varselpunkt må du slå på appvarsel for <xliff:g id="name" example="My App">%1$s</xliff:g></string>
+    <string name="title_change_settings">Endra innstillingane</string>
+    <string name="notification_dots_service_title">Vis varselpunkt</string>
+    <string name="developer_options_title">Utviklarval</string>
+    <string name="auto_add_shortcuts_label">Legg til appikon på startskjermen</string>
+    <string name="auto_add_shortcuts_description">For nye appar</string>
+    <string name="package_state_unknown">Ukjend</string>
+    <string name="abandoned_clean_this">Fjern</string>
+    <string name="abandoned_search">Søk</string>
+    <string name="abandoned_promises_title">Appen er ikkje installert</string>
+    <string name="abandoned_promise_explanation">Appen som høyrer til dette ikonet, er ikkje installert. Du kan fjerna det eller søkja etter appen og installera han manuelt.</string>
+    <string name="app_installing_title">Installerer <xliff:g id="name" example="Messenger">%1$s</xliff:g>, <xliff:g id="progress" example="30%">%2$s</xliff:g> ferdig</string>
+    <string name="app_downloading_title">Lastar ned <xliff:g id="name" example="Messenger">%1$s</xliff:g>, <xliff:g id="progress" example="30%">%2$s</xliff:g> ferdig</string>
+    <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> ventar på installering</string>
+    <string name="app_archived_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> er arkivert.</string>
     <string name="app_unarchiving_action">last ned og gjenopprett</string>
+    <string name="dialog_update_title">Du må oppdatera appen</string>
+    <string name="dialog_update_message">Appen som høyrer til dette ikonet, er ikkje oppdatert. Du kan oppdatera han manuelt for å bruka snarvegen att, eller du kan fjerna ikonet.</string>
+    <string name="dialog_update">Oppdater</string>
+    <string name="dialog_remove">Fjern</string>
+    <string name="widgets_list">Liste over miniprogram</string>
+    <string name="widgets_list_closed">Lista over miniprogram er lukka</string>
+    <string name="action_add_to_workspace">Legg til på startskjermen</string>
+    <string name="action_move_here">Flytt elementet hit</string>
+    <string name="item_removed">Elementet er fjerna</string>
+    <string name="undo">Angra</string>
+    <string name="action_move">Flytt elementet</string>
+    <string name="move_to_empty_cell_description">Flytt til rad <xliff:g id="number" example="1">%1$s</xliff:g> kolonne <xliff:g id="number" example="1">%2$s</xliff:g> på <xliff:g id="string" example="Home screen 2 of 4">%3$s</xliff:g></string>
+    <string name="move_to_position">Flytt til posisjon <xliff:g id="number" example="1">%1$s</xliff:g></string>
+    <string name="move_to_hotseat_position">Flytt til favorittposisjon <xliff:g id="number" example="1">%1$s</xliff:g></string>
+    <string name="item_moved">Elementet er flytta</string>
+    <string name="add_to_folder">Legg til i mappa: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+    <string name="add_to_folder_with_app">Legg til i mappa saman med <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
+    <string name="added_to_folder">Elementet er lagt til i mappa</string>
     <string name="create_folder_with">Lag mappe med: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
     <string name="folder_created">Mappa er laga</string>
+    <string name="action_move_to_workspace">Flytt til startskjermen</string>
+    <string name="action_resize">Endra storleik</string>
+    <string name="action_increase_width">Gjer breiare</string>
+    <string name="action_increase_height">Gjer høgare</string>
+    <string name="action_decrease_width">Gjer smalare</string>
+    <string name="action_decrease_height">Gjer lågare</string>
+    <string name="widget_resized">Storleiken på miniprogrammet er endra til breidde <xliff:g id="number" example="2">%1$s</xliff:g> og høgd <xliff:g id="number" example="1">%2$s</xliff:g></string>
+    <string name="action_deep_shortcut">Snarvegmeny</string>
+    <string name="widget_frame_name">Råme for å endra storleik for <xliff:g id="string" example="Clock">%1$s</xliff:g></string>
+    <string name="action_close">Lukk</string>
+    <string name="action_dismiss_notification">Fjern</string>
+    <string name="accessibility_close">Lukk</string>
+    <string name="all_apps_personal_tab">Privat</string>
+    <string name="all_apps_work_tab">Arbeid</string>
+    <string name="all_apps_personal_tab_content_description">Fane for private appar</string>
+    <string name="all_apps_work_tab_content_description">Fane for arbeidsappar</string>
+    <string name="work_profile_toggle_label">Arbeidsprofil</string>
+    <string name="work_profile_edu_work_apps">Arbeidsappar er merkte og synlege for IT-administratoren din</string>
+    <string name="work_apps_paused_title">Arbeidsappar er sett på pause</string>
+    <string name="work_apps_paused_info_body">Du får ikkje varsel frå arbeidsappane dine</string>
+    <string name="work_apps_paused_body">Arbeidsappane dine kan ikkje senda deg varsel, bruka batteri eller sjå posisjonen din</string>
+    <string name="work_apps_paused_telephony_unavailable_body">Du får ikkje oppringingar, tekstmeldingar eller varsel frå arbeidsappane dine</string>
+    <string name="work_apps_paused_edu_banner">Arbeidsappar er merkte og synlege for IT-administratoren din</string>
+    <string name="work_apps_paused_edu_accept">Det er greitt</string>
+    <string name="work_apps_pause_btn_text">Set arbeidsappar på pause</string>
+    <string name="work_apps_enable_btn_text">Hald fram</string>
+    <string name="work_scheduler_button_content_description">Tidsplan for arbeidsappar</string>
+    <string name="developer_options_filter_hint">Filter</string>
+    <string name="remote_action_failed">Mislukka: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
+    <string name="private_space_label">Privat sone</string>
+    <string name="private_space_secondary_label">Trykk for å setja opp eller opna</string>
+    <string name="ps_container_title">Privat</string>
+    <string name="ps_container_settings">Innstillingar for privat sone</string>
+    <string name="ps_container_unlock_button_content_description">Privat, låst opp.</string>
+    <string name="ps_container_lock_button_content_description">Privat, låst.</string>
+    <string name="ps_container_lock_title">Lås</string>
+    <string name="ps_container_transition">Privat sone vert endra</string>
+    <string name="ps_add_button_label">Installer</string>
+    <string name="ps_app_label_override">Legg til</string>
+    <string name="ps_add_button_content_description">Installer appar i privat sone</string>
+    <string name="ps_app_content_description">Legg til filer og meir i privat sone</string>
     <string name="circle_shape_title">Sirkel</string>
     <string name="square_shape_title">Firkant</string>
     <string name="four_sided_cookie_shape_title">Firsida kake</string>

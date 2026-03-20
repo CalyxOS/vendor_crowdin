@@ -14,13 +14,122 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Bluetooth</string>
+    <string name="permlab_bluetoothShareManager">Tilgang til nedlastingssentralen.</string>
+    <string name="permdesc_bluetoothShareManager">Gjev appen tilgang til Bluetooth-delingssentralen for å overføra filer.</string>
+    <string name="permlab_bluetoothAcceptlist">Godkjenn tilgang for Bluetooth-einingar.</string>
+    <string name="permdesc_bluetoothAcceptlist">Gjev appen løyve til å mellombels godkjenna ei Bluetooth-eining, slik at eininga kan senda filer til denne eininga utan at brukaren må stadfesta det.</string>
+    <string name="bt_share_picker_label">Bluetooth</string>
+    <string name="unknown_device">Ukjend eining</string>
+    <string name="unknownNumber">Ukjend</string>
+    <string name="not_provided">Ikkje oppgjeve</string>
+    <string name="airplane_error_title">Flymodus</string>
+    <string name="airplane_error_msg">Du kan ikkje bruka Bluetooth i flymodus.</string>
+    <string name="bt_enable_line1">For å bruka Bluetooth-tenester må du først slå på Bluetooth.</string>
+    <string name="bt_enable_line2">Vil du slå på Bluetooth no?</string>
+    <string name="bt_enable_cancel">Avbryt</string>
+    <string name="bt_enable_ok">Slå på</string>
+    <string name="incoming_file_confirm_content">Vil du ta imot fila?</string>
+    <string name="incoming_file_confirm_cancel">Avvis</string>
+    <string name="incoming_file_confirm_ok">Ta imot</string>
+    <string name="incoming_file_confirm_timeout_ok">OK</string>
+    <string name="incoming_file_confirm_timeout_content">Det oppstod eit tidsavbrot ved mottak av fil frå «<xliff:g id="sender">%1$s</xliff:g>»</string>
+    <string name="incoming_file_confirm_Notification_title">Innkomande fil</string>
+    <string name="incoming_file_confirm_Notification_content">«<xliff:g id="sender">%1$s</xliff:g>» er klar til å senda ei fil: <xliff:g id="file">%2$s</xliff:g></string>
+    <string name="notification_receiving">Bluetooth-deling: Tek imot <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="notification_received">Bluetooth-deling: Motteke <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="notification_sending">Bluetooth-deling: Sender <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="notification_sent">Bluetooth-deling: <xliff:g id="file">%1$s</xliff:g> er send</string>
+    <string name="notification_sent_fail">Bluetooth-deling: Fila <xliff:g id="file">%1$s</xliff:g> vart ikkje send</string>
+    <string name="download_title">Filoverføring</string>
+    <string name="download_line1">Frå: «<xliff:g id="sender">%1$s</xliff:g>»</string>
+    <string name="download_line2">Fil: <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="download_line3">Filstorleik: <xliff:g id="size">%1$s</xliff:g></string>
     <string name="download_line5">Tek imot fil …</string>
+    <string name="download_cancel">Stopp</string>
+    <string name="download_ok">Gøym</string>
+    <string name="incoming_line1">Frå</string>
+    <string name="incoming_line2">Filnamn</string>
+    <string name="incoming_line3">Storleik</string>
+    <string name="download_fail_line1">Fila kom ikkje fram</string>
+    <string name="download_fail_line2">Fil: <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="download_fail_line3">Grunn: <xliff:g id="reason">%1$s</xliff:g></string>
+    <string name="download_fail_ok">OK</string>
+    <string name="download_succ_line5">Fila er motteken</string>
+    <string name="download_succ_ok">Opna</string>
+    <string name="upload_line1">Til: «<xliff:g id="recipient">%1$s</xliff:g>»</string>
+    <string name="upload_line3">Filtype: <xliff:g id="type">%1$s</xliff:g> (<xliff:g id="size">%2$s</xliff:g>)</string>
     <string name="upload_line5">Sender fil …</string>
+    <string name="upload_succ_line5">Fila er send</string>
+    <string name="upload_succ_ok">OK</string>
+    <string name="upload_fail_line1">Fila vart ikkje send til «<xliff:g id="recipient">%1$s</xliff:g>».</string>
+    <string name="upload_fail_line1_2">Fil: <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="upload_fail_cancel">Lukk</string>
+    <string name="bt_error_btn_ok">OK</string>
+    <string name="unknown_file">Ukjend fil</string>
+    <string name="unknown_file_desc">Det finst ingen app som kan opna denne filtypen.\n</string>
+    <string name="not_exist_file">Fila finst ikkje</string>
+    <string name="not_exist_file_desc">Fann ikkje fila.\n</string>
     <string name="enabling_progress_title">Vent litt …</string>
     <string name="enabling_progress_content">Slår på Bluetooth …</string>
+    <string name="bt_toast_1">Tek imot fila. Du kan fylgja med i varselpanelet.</string>
+    <string name="bt_toast_3">Avbraut mottak av fil frå «<xliff:g id="sender">%1$s</xliff:g>»</string>
+    <string name="bt_toast_4">Sender fil til «<xliff:g id="recipient">%1$s</xliff:g>»</string>
+    <string name="bt_toast_5">Sender <xliff:g id="number">%1$s</xliff:g> filer til «<xliff:g id="recipient">%2$s</xliff:g>»</string>
+    <string name="bt_toast_6">Avbraut sending av fil til «<xliff:g id="recipient">%1$s</xliff:g>»</string>
+    <string name="bt_sm_2_1_nosdcard">Det er ikkje nok plass på USB-lageret til å lagra fila.</string>
+    <string name="bt_sm_2_1_default">Det er ikkje nok plass på SD-kortet til å lagra fila.</string>
+    <string name="bt_sm_2_2">Plass som trengst: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="ErrorTooManyRequests">For mange førespurnader vert handsama no. Prøv att seinare.</string>
+    <string name="status_pending">Filoverføringa har ikkje starta enno.</string>
+    <string name="status_running">Filoverføring pågår.</string>
+    <string name="status_success">Filoverføringa er fullført.</string>
+    <string name="status_not_accept">Innhaldet er ikkje støtta.</string>
+    <string name="status_forbidden">Overføring nekta av den andre eininga.</string>
+    <string name="status_canceled">Overføring avbroten av brukaren.</string>
+    <string name="status_file_error">Lagringsproblem.</string>
+    <string name="status_no_sd_card_nosdcard">Manglar USB-lager.</string>
+    <string name="status_no_sd_card_default">Manglar SD-kort. Set inn eit SD-kort for å lagra overførte filer.</string>
+    <string name="status_connection_error">Klarte ikkje kopla til.</string>
+    <string name="status_protocol_error">Klarte ikkje handtera førespurnaden på rett måte.</string>
+    <string name="status_unknown_error">Ukjend feil.</string>
+    <string name="opp_notification_group">Bluetooth-deling</string>
+    <string name="download_success"><xliff:g id="file_size">%1$s</xliff:g> – ferdig motteke.</string>
+    <string name="upload_success"><xliff:g id="file_size">%1$s</xliff:g> – ferdig sendt.</string>
+    <string name="inbound_history_title">Mottekne filer</string>
+    <string name="outbound_history_title">Sende filer</string>
+    <string name="no_transfers">Overføringsloggen er tom.</string>
+    <string name="transfer_clear_dlg_msg">Alle elementa vert fjerna frå lista.</string>
+    <string name="outbound_noti_title">Bluetooth-deling: Sende filer</string>
+    <string name="inbound_noti_title">Bluetooth-deling: Mottekne filer</string>
+    <string name="noti_caption_unsuccessful"> {count, plural,
+=1 {# mislukka.}
+other {# mislukka.}
+}</string>
+    <string name="noti_caption_success"> {count, plural,
+=1 {# vellukka, %1$s}
+other {# vellukka, %1$s}
+}</string>
+    <string name="transfer_menu_clear_all">Tøm lista</string>
+    <string name="transfer_menu_open">Opna</string>
+    <string name="transfer_menu_clear">Fjern frå lista</string>
+    <string name="transfer_clear_dlg_title">Tøm</string>
+    <string name="bluetooth_a2dp_sink_queue_name">Spelar no</string>
+    <string name="bluetooth_map_settings_app_icon">App-ikon</string>
+    <string name="bluetooth_disconnected">Bluetooth-lyd er kopla frå</string>
+    <string name="a2dp_sink_mbs_label">Bluetooth-lyd</string>
+    <string name="bluetooth_opp_file_limit_exceeded">Filer større enn 4 GB kan ikkje overførast</string>
+    <string name="bluetooth_connect_action">Kopla til Bluetooth</string>
+    <string name="bluetooth_enabled_apm_title">Bluetooth er på i flymodus</string>
+    <string name="bluetooth_enabled_apm_message">Om du lèt Bluetooth vera på, vil eininga hugsa dette til neste gong du er i flymodus</string>
+    <string name="bluetooth_stays_on_title">Bluetooth vert verande på</string>
+    <string name="bluetooth_stays_on_message">Eininga hugsar å ha Bluetooth på i flymodus. Slå av Bluetooth om du ikkje vil at det skal vera slik.</string>
     <string name="bluetooth_stays_on_message_on_watch">Bluetooth er framleis på i flymodus når du er kopla til andre einingar.</string>
     <string name="bluetooth_stays_on_message_due_to_watch">Eininga di held Bluetooth på i flymodus så lenge ho er kopla til klokka di.</string>
     <string name="bluetooth_stays_on_message_due_to_media">Bluetooth er framleis på i flymodus når du er kopla til ei medieining.</string>
+    <string name="bluetooth_and_wifi_stays_on_title">Wi-Fi og Bluetooth vert verande på</string>
+    <string name="bluetooth_and_wifi_stays_on_message">Eininga hugsar å ha Wi-Fi og Bluetooth på i flymodus. Slå dei av om du ikkje vil at dei skal vera slik.</string>
     <string name="bluetooth_enabled_auto_on_title">Bluetooth er slått på att</string>
     <string name="bluetooth_enabled_auto_on_message">Du kan endra dette når som helst i innstillingane</string>
+    <string name="bluetooth_notification_group">Automatisk endring av Bluetooth-status</string>
 </resources>

@@ -14,15 +14,150 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uid_label">Media</string>
+    <string name="storage_description">Lokal lagring</string>
+    <string name="picker_app_label">Medieveljar</string>
+    <string name="artist_label">Artist</string>
+    <string name="unknown">Ukjend</string>
+    <string name="root_images">Bilete</string>
+    <string name="root_videos">Videoar</string>
+    <string name="root_audio">Lyd</string>
+    <string name="root_documents">Dokument</string>
+    <string name="permission_required">Du må gjeva løyve for å endra eller sletta dette elementet.</string>
+    <string name="permission_required_action">Hald fram</string>
+    <string name="grant_dialog_button_allow">Løyv</string>
+    <string name="grant_dialog_button_deny">Avslå</string>
+    <string name="permission_more_thumb"> {count, plural,
+=1 {+<xliff:g id="count" example="1">^1</xliff:g>}
+other {+<xliff:g id="count" example="42">^1</xliff:g>}
+}</string>
+    <string name="permission_more_text"> {count, plural,
+=1 {Pluss <xliff:g id="count" example="1">^1</xliff:g> element til}
+other {Pluss <xliff:g id="count" example="42">^1</xliff:g> element til}
+}</string>
+    <string name="cache_clearing_dialog_title">Tøm mellombels app-filer</string>
+    <string name="cache_clearing_dialog_text"><xliff:g id="app_seeking_permission" example="File manager">%s</xliff:g> vil tøma nokre mellombelse filer. Dette kan føra til meir bruk av batteri eller mobildata.</string>
     <string name="cache_clearing_in_progress_title">Tømer mellombels filer \u2026</string>
+    <string name="clear">Tøm</string>
+    <string name="allow">Tillat</string>
+    <string name="deny">Nekt</string>
     <string name="picker_browse">Bla gjennom \u2026</string>
     <string name="picker_settings">Innstillingar</string>
     <string name="picker_settings_system_settings_menu_title">Innstillingar for skymedia</string>
     <string name="picker_settings_title">Innstillingar for skymedia</string>
+    <string name="picker_settings_description">Få tilgang til media i skya når ein app eller ein nettstad ber deg velja bilete eller videoar</string>
+    <string name="picker_settings_selection_message">Få tilgang til media i skya frå</string>
+    <string name="picker_settings_no_provider">Ingen</string>
+    <string name="picker_settings_toast_error">Klarte ikkje å byta sky-media-app akkurat no.</string>
+    <string name="picker_sync_notification_channel">Mediaveljar</string>
+    <string name="picker_sync_notification_title">Mediaveljar</string>
     <string name="picker_sync_notification_text">Synkroniserer media …</string>
+    <string name="add">Legg til</string>
+    <string name="deselect">Fjern val</string>
+    <string name="deselected">Valet er fjerna</string>
+    <string name="select">Vel</string>
+    <string name="selected">Vald</string>
+    <string name="select_up_to"> {count, plural,
+=1 {Vel opptil <xliff:g id="count" example="1">^1</xliff:g> element}
+other {Vel opptil <xliff:g id="count" example="42">^1</xliff:g> element}
+}</string>
+    <string name="recent">Nylege</string>
+    <string name="picker_photos_empty_message">Ingen bilete eller videoar</string>
+    <string name="picker_album_media_empty_message">Ingen støtta bilete eller videoar</string>
+    <string name="picker_albums_empty_message">Ingen album</string>
+    <string name="picker_view_selected">Sjå valde</string>
+    <string name="picker_photos">Bilete</string>
+    <string name="picker_videos">@string/root_videos</string>
+    <string name="picker_albums">Album</string>
+    <string name="picker_preview">Førehandsvising</string>
+    <string name="picker_work_profile">Byt til arbeidsprofil</string>
+    <string name="picker_personal_profile">Byt til personleg profil</string>
+    <string name="picker_personal_profile_label">Personleg</string>
+    <string name="picker_profile_admin_title">Sperra av administratoren din</string>
+    <string name="picker_profile_admin_msg_from_personal">Du har ikkje lov til å opna arbeidsdata frå ein personleg app</string>
+    <string name="picker_profile_admin_msg_from_work">Du har ikkje lov til å opna personlege data frå ein arbeids-app</string>
+    <string name="picker_profile_admin_msg">Du har ikkje lov til å opna <xliff:g id="profile1" example="work">%1$s</xliff:g>-data frå ein <xliff:g id="profile2" example="personal">%2$s</xliff:g>-app</string>
+    <string name="picker_profile_switch_message">Byt til <xliff:g id="profile" example="personal">%s</xliff:g></string>
+    <string name="picker_profile_work_paused_title">jobb-appar er på pause</string>
+    <string name="picker_profile_paused_title"><xliff:g id="profile" example="work">%s</xliff:g>-appar er på pause</string>
+    <string name="picker_profile_work_paused_msg">Slå på jobb-appane dine og prøv på nytt for å opna arbeids-bilete</string>
+    <string name="picker_profile_paused_msg">Slå på <xliff:g id="profile2" example="work">%2$s</xliff:g>-appane dine og prøv på nytt for å opna <xliff:g id="profile1" example="work">%1$s</xliff:g>-bilete</string>
+    <string name="picker_privacy_message">Appen får berre tilgang til bileta du vel sjølv</string>
+    <string name="picker_header_permissions">"Vel bilete og videoar du vil at appen skal ha tilgang til"</string>
+    <string name="picker_album_item_count"> {count, plural,
+=1 {<xliff:g id="count" example="1">^1</xliff:g> element}
+other {<xliff:g id="count" example="42">^1</xliff:g> element}
+}</string>
+    <string name="picker_add_button_multi_select">Legg til (<xliff:g id="count" example="42">^1</xliff:g>)</string>
+    <string name="picker_add_button_multi_select_permissions">Gjev tilgang til (<xliff:g id="count" example="42">^1</xliff:g>)</string>
+    <string name="picker_add_button_allow_none_option">Ikkje gjev tilgang til noko</string>
+    <string name="picker_category_camera">Kamera</string>
+    <string name="picker_category_downloads">Nedlastingar</string>
+    <string name="picker_category_favorites">Favorittar</string>
+    <string name="picker_category_screenshots">Skjermbilete</string>
+    <string name="picker_category_videos">@string/root_videos</string>
+    <string name="picker_motion_photo_text">Rørslebilete</string>
+    <string name="picker_item_content_desc"><xliff:g id="item_name" example="Photo">%1$s</xliff:g> teke den <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%2$s</xliff:g></string>
+    <string name="picker_video_item_content_desc">Video teke den <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%1$s</xliff:g>. Lengd: <xliff:g id="duration" example="00:03">%2$s</xliff:g></string>
+    <string name="picker_photo">Bilete</string>
+    <string name="picker_gif">GIF</string>
+    <string name="picker_motion_photo">Rørslebilete</string>
+    <string name="picker_mute_video">Demp lyden</string>
+    <string name="picker_unmute_video">Slå på lyden</string>
+    <string name="picker_play_video">Spel av</string>
+    <string name="picker_pause_video">Pause</string>
+    <string name="picker_error_snackbar">Klarte ikkje å spela av videoen</string>
+    <string name="picker_error_dialog_title">Problem med å spela av videoen</string>
+    <string name="picker_error_dialog_body">Sjekk internettilkoplinga og prøv på nytt</string>
+    <string name="picker_error_dialog_positive_action">Prøv på nytt</string>
+    <string name="not_selected">ikkje vald</string>
+    <string name="preloading_dialog_title">"Gjer klar dei valde mediefilene"</string>
+    <string name="preloading_progress_message"><xliff:g id="number_preloaded">%1$d</xliff:g> av <xliff:g id="number_total">%2$d</xliff:g> er klare</string>
+    <string name="preloading_cancel_button">Avbryt</string>
+    <string name="picker_banner_cloud_first_time_available_title">Bilete med tryggingskopi er no med</string>
+    <string name="picker_banner_cloud_first_time_available_desc">Du kan velja bilete frå <xliff:g id="app_name" example="Photos">%1$s</xliff:g>-kontoen <xliff:g id="user_account" example="johndoe123@gmail.com">%2$s</xliff:g></string>
+    <string name="picker_banner_cloud_account_changed_title"><xliff:g id="app_name" example="Photos">%1$s</xliff:g>-kontoen er oppdatert</string>
+    <string name="picker_banner_cloud_account_changed_desc">Bilete frå <xliff:g id="user_account" example="johndoe123@gmail.com">%1$s</xliff:g> er no med her</string>
+    <string name="picker_banner_cloud_choose_app_title">Vel sky-media-app</string>
+    <string name="picker_banner_cloud_choose_app_desc">Om du vil ha med bilete frå tryggingskopiar her, må du velja ein sky-media-app i innstillingane</string>
+    <string name="picker_banner_cloud_choose_account_title">Vel <xliff:g id="app_name" example="Photos">%1$s</xliff:g>-konto</string>
+    <string name="picker_banner_cloud_choose_account_desc">Om du vil ha med bilete frå <xliff:g id="app_name" example="Photos">%1$s</xliff:g> her, må du velja ein konto i appen</string>
+    <string name="picker_banner_cloud_dismiss_button">Fjern</string>
+    <string name="picker_banner_cloud_choose_app_button">Vel app</string>
+    <string name="picker_banner_cloud_choose_account_button">Vel konto</string>
+    <string name="picker_banner_cloud_change_account_button">Byt konto</string>
+    <string name="picker_loading_photos_message">Hentar alle bileta dine</string>
+    <string name="permission_write_audio"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> endra denne lydfila?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> endra <xliff:g id="count" example="42">^2</xliff:g> lydfiler?}
+}</string>
     <string name="permission_progress_write_audio"> {count, plural,
 =1 {Endrar lydfil …}
 other {Endrar <xliff:g id="count" example="42">^1</xliff:g> lydfiler …}
+}</string>
+    <string name="permission_write_video"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> endra denne videoen?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> endra <xliff:g id="count" example="42">^2</xliff:g> videoar?}
+}</string>
+    <string name="permission_progress_write_video"> {count, plural,
+=1 {Endrar video …}
+other {Endrar <xliff:g id="count" example="42">^1</xliff:g> videoar …}
+}</string>
+    <string name="permission_write_image"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> endra dette biletet?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> endra <xliff:g id="count" example="42">^2</xliff:g> bilete?}
+}</string>
+    <string name="permission_progress_write_image"> {count, plural,
+=1 {Endrar bilete …}
+other {Endrar <xliff:g id="count" example="42">^1</xliff:g> bilete …}
+}</string>
+    <string name="permission_write_generic"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> endra dette elementet?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> endra <xliff:g id="count" example="42">^2</xliff:g> element?}
+}</string>
+    <string name="permission_progress_write_generic"> {count, plural,
+=1 {Endrar element …}
+other {Endrar <xliff:g id="count" example="42">^1</xliff:g> element …}
 }</string>
     <string name="permission_trash_audio"> {count, plural,
 =1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> flytta denne lydfila til papirkorga?}
@@ -88,11 +223,61 @@ other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> henta <xlif
 =1 {Hentar ut element or papirkorga …}
 other {Hentar ut <xliff:g id="count" example="42">^1</xliff:g> element or papirkorga …}
 }</string>
+    <string name="permission_delete_audio"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> sletta denne lydfila?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> sletta <xliff:g id="count" example="42">^2</xliff:g> lydfiler?}
+}</string>
+    <string name="permission_progress_delete_audio"> {count, plural,
+=1 {Slettar lydfil …}
+other {Slettar <xliff:g id="count" example="42">^1</xliff:g> lydfiler …}
+}</string>
+    <string name="permission_delete_video"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> sletta denne videoen?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> sletta <xliff:g id="count" example="42">^2</xliff:g> videoar?}
+}</string>
+    <string name="permission_progress_delete_video"> {count, plural,
+=1 {Slettar video …}
+other {Slettar <xliff:g id="count" example="42">^1</xliff:g> videoar …}
+}</string>
+    <string name="permission_delete_image"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> sletta dette biletet?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> sletta <xliff:g id="count" example="42">^2</xliff:g> bilete?}
+}</string>
+    <string name="permission_progress_delete_image"> {count, plural,
+=1 {Slettar bilete …}
+other {Slettar <xliff:g id="count" example="42">^1</xliff:g> bilete …}
+}</string>
+    <string name="permission_delete_generic"> {count, plural,
+=1 {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> sletta dette elementet?}
+other {Vil du la <xliff:g id="app_name" example="Gmail">^1</xliff:g> sletta <xliff:g id="count" example="42">^2</xliff:g> element?}
+}</string>
+    <string name="permission_progress_delete_generic"> {count, plural,
+=1 {Slettar element …}
+other {Slettar <xliff:g id="count" example="42">^1</xliff:g> element …}
+}</string>
+    <string name="transcode_denied"><xliff:g id="app_name" example="File manager">%s</xliff:g> kan ikkje handsama mediefiler</string>
+    <string name="transcode_processing_cancelled">Mediehandsaminga vart avbroten</string>
+    <string name="transcode_processing_error">Feil ved mediehandsaming</string>
+    <string name="transcode_processing_success">Mediehandsaminga er ferdig</string>
+    <string name="transcode_processing_started">Starta mediehandsaming</string>
     <string name="transcode_processing">Handsamar media …</string>
+    <string name="transcode_cancel">Avbryt</string>
+    <string name="transcode_wait">Vent</string>
+    <string name="safety_protection_icon_label">Tryggleiksvern</string>
     <string name="transcode_alert_channel">Varsel om omkoding</string>
     <string name="transcode_progress_channel">Framgang for omkoding</string>
+    <string name="dialog_error_message">Prøv på nytt seinare. Bileta dine vert tilgjengelege så snart problemet er løyst.</string>
+    <string name="dialog_error_title">Klarte ikkje å lasta inn alle bileta</string>
+    <string name="dialog_button_text">Greitt</string>
+    <string name="permlab_accessMediaOwnerPackageName">Tilgang til namnet på app-pakken som eig media</string>
+    <string name="permdesc_accessMediaOwnerPackageName">Lèt appen få tilgang til pakkenamna til appane som eig alle tilgjengelege mediefiler.</string>
     <string name="device_folders_collection_display_name" translation_description="Display name for the collection of local folders on the device. [CHAR_LIMIT=50]">"Frå denne eininga"</string>
     <string name="app_folders_collection_display_name" translation_description="Display name for the collection of app media sets on the device. [CHAR_LIMIT=50]">"Frå appane dine"</string>
     <string name="sd_card_collection_display_name" translation_description="Display name for the collection of media on the SD card. [CHAR_LIMIT=50]">"Frå SD-kortet ditt"</string>
+    <string name="camera_album_display_name" translation_description="Display name for the album containing all the media captured by camera. [CHAR_LIMIT=50]">Kamera</string>
+    <string name="screenshots_album_display_name" translation_description="Display name for the album containing all the screenshots. [CHAR_LIMIT=50]">Skjermbilete</string>
+    <string name="downloads_album_display_name" translation_description="Display name for the album containing all the downloaded media on the device. [CHAR_LIMIT=50]">Nedlastingar</string>
+    <string name="favorites_album_display_name" translation_description="Display name for the album containing all the media marked as favorite. [CHAR_LIMIT=50]">Favorittar</string>
+    <string name="videos_album_display_name" translation_description="Display name for the album containing videos. [CHAR_LIMIT=50]">Videoar</string>
     <string name="sd_card_album_display_name" translation_description="Display name for the album containing media stored in sd card's root directory. [CHAR_LIMIT=50]">SD-kort</string>
 </resources>

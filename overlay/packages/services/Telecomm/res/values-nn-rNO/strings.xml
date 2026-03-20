@@ -14,13 +14,134 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telecommAppLabel" product="default">Telefonsamtalar</string>
+    <string name="userCallActivityLabel" product="default">Telefon</string>
+    <string name="unknown">Ukjend</string>
     <string name="private_num">Gøymt nummer</string>
     <string name="payphone">Betalingstelefon</string>
+    <string name="notification_missedCallTitle">Mist samtale</string>
+    <string name="notification_missedWorkCallTitle">Mist arbeids-samtale</string>
+    <string name="notification_missedCallsTitle">Miste samtalar</string>
+    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> miste samtalar</string>
+    <string name="notification_missedCallTicker">Mist samtale frå <xliff:g id="missed_call_from">%s</xliff:g></string>
+    <string name="notification_missedCall_call_back">Ring tilbake</string>
+    <string name="notification_missedCall_message">Melding</string>
+    <string name="notification_disconnectedCall_title">Avbroten samtale</string>
+    <string name="notification_disconnectedCall_body">Samtalen med <xliff:g id="caller">%s</xliff:g> vart avbroten fordi det vart ringt eit naudnummer.</string>
+    <string name="notification_disconnectedCall_generic_body">Samtalen din vart avbroten fordi det vart ringt eit naudnummer.</string>
+    <string name="notification_audioProcessing_title">Bakgrunnssamtale</string>
+    <string name="notification_audioProcessing_body"><xliff:g id="audio_processing_app_name">%s</xliff:g> handsamar ein samtale i bakgrunnen. Appen kan henta og spela av lyd frå samtalen.</string>
+    <string name="notification_incallservice_not_responding_title"><xliff:g id="in_call_service_app_name">%s</xliff:g> svarar ikkje</string>
+    <string name="notification_incallservice_not_responding_body">Samtalen brukte telefon-appen som fylgde med eininga</string>
+    <string name="accessibility_call_muted">Lyden er slått av.</string>
+    <string name="accessibility_speakerphone_enabled">Høgtalartelefon er slått på.</string>
+    <string name="respond_via_sms_canned_response_1">Kan ikkje snakka no. Kva er det?</string>
+    <string name="respond_via_sms_canned_response_2">Eg ringjer deg snart opp att.</string>
+    <string name="respond_via_sms_canned_response_3">Eg ringjer deg seinare.</string>
+    <string name="respond_via_sms_canned_response_4">Kan ikkje snakka no. Kan du ringja meg seinare?</string>
+    <string name="respond_via_sms_setting_title">Snøggsvar</string>
+    <string name="respond_via_sms_setting_title_2">Rediger snøggsvar</string>
+    <string name="respond_via_sms_edittext_dialog_title">Snøggsvar</string>
     <string name="respond_via_sms_confirmation_format">Sender melding til <xliff:g id="phone_number">%s</xliff:g>.</string>
+    <string name="respond_via_sms_failure_format">Klarte ikkje å senda melding til <xliff:g id="phone_number">%s</xliff:g>.</string>
+    <string name="enable_account_preference_title">Samtalekontoar</string>
+    <string name="outgoing_call_not_allowed_user_restriction">Berre naudsamtalar er tillatne.</string>
+    <string name="outgoing_call_not_allowed_no_permission">Appen kan ikkje ringja ut utan løyve til å bruka telefonen.</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Skriv inn eit gyldig nummer for å ringja.</string>
+    <string name="duplicate_video_call_not_allowed">Kan ikkje leggja til fleire samtalar no.</string>
     <string name="no_vm_number">Manglar nummer til telefonsvarar</string>
     <string name="no_vm_number_msg">Det ligg ikkje noko nummer til telefonsvarar på SIM-kortet.</string>
     <string name="add_vm_number_str">Legg til nummer</string>
+    <string name="change_default_dialer_dialog_title">Vil du bruka <xliff:g id="new_app">%s</xliff:g> som standard-app for telefon?</string>
+    <string name="change_default_dialer_dialog_affirmative">Set som standard</string>
+    <string name="change_default_dialer_dialog_negative">Avbryt</string>
+    <string name="change_default_dialer_warning_message"><xliff:g id="new_app">%s</xliff:g> får makt til å ringja og styra alle delar av samtalar. Du bør berre velja appar du stolar på som standard-app for telefon.</string>
+    <string name="change_default_call_screening_dialog_title">Vil du bruka <xliff:g id="new_app">%s</xliff:g> som standard-app for samtalesjekking?</string>
+    <string name="change_default_call_screening_warning_message_for_disable_old_app"><xliff:g id="old_app">%s</xliff:g> kan ikkje lenger sjekka samtalar.</string>
+    <string name="change_default_call_screening_warning_message"><xliff:g id="new_app">%s</xliff:g> får sjå informasjon om dei som ringjer deg og ikkje ligg i kontaktane dine, og kan sperra desse samtalane. Du bør berre velja appar du stolar på som standard-app for samtalesjekking.</string>
+    <string name="change_default_call_screening_dialog_affirmative">Set som standard</string>
+    <string name="change_default_call_screening_dialog_negative">Avbryt</string>
+    <string name="blocked_numbers">Sperra nummer</string>
+    <string name="blocked_numbers_msg">Du får korkje samtalar eller meldingar frå sperra nummer.</string>
+    <string name="block_number">Legg til eit nummer</string>
+    <string name="unblock_dialog_body">Vil du opna for <xliff:g id="number_to_block">%1$s</xliff:g> att?</string>
+    <string name="unblock_button">Fjern sperre</string>
+    <string name="add_blocked_dialog_body">Sperra samtalar og meldingar frå</string>
+    <string name="add_blocked_number_hint">Telefonnummer</string>
+    <string name="block_button">Sperr</string>
+    <string name="non_primary_user">Berre eigaren av eininga kan sjå og styra sperra nummer.</string>
+    <string name="delete_icon_description">Fjern sperre</string>
+    <string name="blocked_numbers_butter_bar_title">Sperring er slått av mellombels</string>
+    <string name="blocked_numbers_butter_bar_body">Når du ringjer eller sender melding til eit naudnummer, vert sperring slått av slik at naudtenestene kan nå deg.</string>
+    <string name="blocked_numbers_butter_bar_button">Slå på att no</string>
+    <string name="blocked_numbers_number_blocked_message"><xliff:g id="blocked_number">%1$s</xliff:g> er sperra</string>
+    <string name="blocked_numbers_number_unblocked_message">Opna for <xliff:g id="unblocked_number">%1$s</xliff:g></string>
+    <string name="blocked_numbers_block_emergency_number_message">Klarte ikkje å sperra naudnummeret.</string>
+    <string name="blocked_numbers_number_already_blocked_message"><xliff:g id="blocked_number">%1$s</xliff:g> er sperra frå før.</string>
+    <string name="test_account_0_label">Q Mobile</string>
+    <string name="test_account_1_label">Market Wireless</string>
+    <string name="test_account_2_label">Sonoma Circles Talk Plus</string>
+    <string name="test_account_3_label">Bay Voice Chat Pro</string>
+    <string name="test_account_0_short_description">Account with Q Mobile</string>
+    <string name="test_account_1_short_description">Account with Market Wireless</string>
+    <string name="test_account_2_short_description">Talk to everyone in your Circles!</string>
+    <string name="test_account_3_short_description">Chat with Chat Network users</string>
+    <string name="handle_restricted">RESTRICTED</string>
+    <string name="toast_personal_call_msg">Brukar den personlege telefon-appen for å ringja</string>
+    <string name="notification_incoming_call"><xliff:g id="call_via">%1$s</xliff:g>-samtale frå <xliff:g id="call_from">%2$s</xliff:g></string>
+    <string name="notification_incoming_video_call"><xliff:g id="call_via">%1$s</xliff:g>-videosamtale frå <xliff:g id="call_from">%2$s</xliff:g></string>
+    <string name="answering_ends_other_call">Om du svarar, vert <xliff:g id="call_via">%1$s</xliff:g>-samtalen din avbroten</string>
+    <string name="answering_ends_other_calls">Om du svarar, vert <xliff:g id="call_via">%1$s</xliff:g>-samtalane dine avbrotne</string>
+    <string name="answering_ends_other_video_call">Om du svarar, vert <xliff:g id="call_via">%1$s</xliff:g>-videosamtalen din avbroten</string>
+    <string name="answering_ends_other_managed_call">Om du svarar, vert den pågåande samtalen avbroten</string>
+    <string name="answering_ends_other_managed_calls">Om du svarar, vert dei pågåande samtalane avbrotne</string>
+    <string name="answering_ends_other_managed_video_call">Om du svarar, vert den pågåande videosamtalen avbroten</string>
+    <string name="answer_incoming_call">Svar</string>
+    <string name="decline_incoming_call">Avslå</string>
     <string name="cant_call_due_to_no_supported_service">Klarte ikkje ringja. Kontroller sambandet til eininga.</string>
+    <string name="cant_call_due_to_ongoing_call">Klarte ikkje å ringja på grunn av <xliff:g id="other_call">%1$s</xliff:g>-samtalen din.</string>
+    <string name="cant_call_due_to_ongoing_calls">Klarte ikkje å ringja på grunn av <xliff:g id="other_call">%1$s</xliff:g>-samtalane dine.</string>
+    <string name="cant_call_due_to_ongoing_unknown_call">Klarte ikkje å ringja på grunn av ein samtale i ein annan app.</string>
+    <string name="notification_channel_incoming_call">Inngåande samtalar</string>
+    <string name="notification_channel_missed_call">Miste samtalar</string>
+    <string name="notification_channel_call_blocking">Samtalesperrer</string>
+    <string name="notification_channel_background_calls">Bakgrunnssamtalar</string>
+    <string name="notification_channel_disconnected_calls">Avbrotne samtalar</string>
+    <string name="notification_channel_in_call_service_crash">Telefon-appar som har krasja</string>
+    <string name="notification_channel_call_streaming">Samtalestrøyming</string>
+    <string name="alert_outgoing_call">Denne oppringinga kjem til å avslutta <xliff:g id="other_app">%1$s</xliff:g>-samtalen din.</string>
+    <string name="alert_redirect_outgoing_call_or_not">Vel korleis du vil ringja</string>
+    <string name="alert_place_outgoing_call_with_redirection">Vidarefør samtalen med <xliff:g id="other_app">%1$s</xliff:g></string>
+    <string name="alert_place_unredirect_outgoing_call">Ring med mitt telefonnummer</string>
+    <string name="alert_redirect_outgoing_call_timeout"><xliff:g id="other_app">%1$s</xliff:g> klarte ikkje å ringja. Prøv ein annan app eller be utviklaren om hjelp.</string>
+    <string name="phone_settings_call_blocking_txt">Samtalesperring</string>
+    <string name="phone_settings_number_not_in_contact_txt">Nummer som ikkje er i kontaktlista</string>
+    <string name="phone_settings_number_not_in_contact_summary_txt">Sperr nummer som ikkje står i kontaktlista di</string>
+    <string name="phone_settings_private_num_txt">Privat</string>
+    <string name="phone_settings_private_num_summary_txt">Sperr folk som gøymer nummeret sitt</string>
+    <string name="phone_settings_payphone_txt">Betalingstelefon</string>
+    <string name="phone_settings_payphone_summary_txt">Sperr samtalar frå betalingstelefonar</string>
+    <string name="phone_settings_unknown_txt">Ukjend</string>
+    <string name="phone_settings_unknown_summary_txt">Sperr samtalar frå folk som ikkje er identifiserte</string>
+    <string name="phone_settings_unavailable_txt">Ikkje tilgjengeleg</string>
+    <string name="phone_settings_unavailable_summary_txt">Sperr samtalar der nummeret ikkje er tilgjengeleg</string>
+    <string name="phone_strings_call_blocking_turned_off_notification_title_txt">Samtalesperring</string>
+    <string name="phone_strings_call_blocking_turned_off_notification_text_txt">Samtalesperring er slått av</string>
+    <string name="phone_strings_emergency_call_made_dialog_title_txt">Naudsamtale er ringt</string>
+    <string name="phone_strings_emergency_call_made_dialog_call_blocking_text_txt">Samtalesperring er slått av slik at naudtenestene kan nå deg.</string>
+    <string name="developer_title">Utviklarmeny for Telecom</string>
+    <string name="toast_emergency_can_not_pull_call">Du kan ikkje ta imot samtalar medan du er i ein naudsamtale.</string>
+    <string name="cancel">Avbryt</string>
+    <string name="back">Tilbake</string>
+    <string name="callendpoint_name_earpiece">Øyrehøgtalar</string>
+    <string name="callendpoint_name_bluetooth">Bluetooth</string>
+    <string name="callendpoint_name_wiredheadset">Hovudsett med ledning</string>
+    <string name="callendpoint_name_speaker">Høgtalar</string>
+    <string name="callendpoint_name_streaming">Ekstern</string>
+    <string name="callendpoint_name_unknown">Ukjend</string>
+    <string name="call_streaming_notification_body">Strøymer lyd til ei anna eining</string>
+    <string name="call_streaming_notification_action_hang_up">Legg på</string>
+    <string name="call_streaming_notification_action_switch_here">Byt til denne eininga</string>
     <string name="callFailed_outgoing_already_present">Kan ikkje ringja fordi ein annan samtale held på å kopla til. Vent til nokon svarar, eller legg på før du prøver på nytt.</string>
     <string name="callFailed_too_many_calls_include_merge">Kan ikkje ringja fordi du alt er i to samtalar. Legg på ein av dei eller slå dei saman til ein konferansesamtale før du prøver å ringja på nytt.</string>
     <string name="callFailed_too_many_calls_exclude_merge">Kan ikkje ringja fordi du alt er i to samtalar. Legg på ein av dei før du prøver å ringja på nytt.</string>

@@ -50,7 +50,7 @@
     </string>
     <string name="sim_change_data_ok">        Bruk <xliff:g id="carrier" example="Verizon">%1$s</xliff:g>
     </string>
-    <string name="roaming_title">Nettveksling</string>
+    <string name="roaming_title">Nettveksling (Roaming)</string>
     <string name="roaming_summary">Kopla til datatenester ved nettveksling</string>
     <string name="roaming_alert_title">Tillata databruk ved nettveksling?</string>
     <string name="roaming_warning">Nettveksling kan kosta meir.</string>
@@ -74,7 +74,7 @@
     <string name="launch_manage_plan_text">Sjå abonnement</string>
     <string name="app_data_usage">App-databruk</string>
     <string name="data_usage_app_restricted">avgrensa</string>
-    <string name="cycle_reset_day_of_month_picker_title">Nullstillingsdato for databruk</string>
+    <string name="cycle_reset_day_of_month_picker_title">Dato då databruken vert nullstilt</string>
     <string name="cycle_reset_day_of_month_picker_subtitle">Dag i månaden:</string>
     <string name="cycle_reset_day_of_month_picker_positive_button">Vel</string>
     <string name="data_warning_limit_title">Datavarsel og -grense</string>
@@ -82,7 +82,7 @@
     <string name="mobile_data_usage">Mobildatabruk</string>
     <string name="set_data_warning">Still inn varsel om databruk</string>
     <string name="data_warning">Datavarsel</string>
-    <string name="set_data_limit"> Still inn datagrense</string>
+    <string name="set_data_limit">Slå på datagrense</string>
     <string name="data_limit">Datagrense</string>
     <string name="data_usage_limit_dialog_title">Avgrensing av databruk</string>
     <string name="data_usage_limit_dialog_mobile">Hovudeininga i bilen slår av mobildata når ho når grensa du har sett.\n\nSidan hovudeininga måler databruken, og mobiloperatøren din kan måla han annleis, bør du vurdera å setja ei noko lågare grense.</string>
@@ -171,11 +171,14 @@
     <string name="wifi_ap_prefer_5G">Føretrekkjer 5,0 GHz-bandet</string>
     <string name="wifi_ap_2G">2,4 GHz</string>
     <string name="wifi_ap_5G">5,0 GHz</string>
+    <string name="wifi_ap_2G_5G">2,4 og 5 GHz</string>
     <string name="wifi_ap_band_select_one">Vel minst eitt frekvensband for Wi-Fi-sona:</string>
     <string name="tether_settings_title_all">Delt internett (Wi-Fi)</string>
     <string name="hotspot_settings_title">Delt internett</string>
     <string name="wifi_hotspot_switch_title">Bruk Wi-Fi-sone</string>
     <string name="wifi_hotspot_state_off">Av</string>
+    <string name="wifi_hotspot_keep_on_title">Bruk trådlaus sone på alle bilturar</string>
+    <string name="wifi_hotspot_keep_on_summary">Slå på trådlaus sone kvar gong bilen er på</string>
     <string name="wifi_hotspot_qr_code_text">Skann denne QR-koden for å kopla til «%s»</string>
     <string name="wifi_hotspot_qr_code_password_text">Passord for delt internett: %s</string>
     <string name="wifi_ask_enable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> vil slå på Wi-Fi</string>
@@ -189,6 +192,8 @@
     <string name="network_connection_request_dialog_showall">Vis alle</string>
     <string name="progress_scanning">Søkjer</string>
     <string name="wifi_detail_share">Del</string>
+    <string name="wifi_detail_share_description">Skann denne QR-koden for å kopla til Wi-Fi</string>
+    <string name="wifi_detail_share_toast">Wi-Fi-deling er ikkje tilgjengeleg for dette Wi-Fi-nettet.</string>
     <string name="connected_settings_title">Tilkopla einingar</string>
     <string name="bluetooth_settings_title">Bluetooth</string>
     <string name="bluetooth_toggle_title">Bruk Bluetooth</string>
@@ -221,6 +226,9 @@
     <string name="bluetooth_previously_connected">Tidlegare tilkopla</string>
     <string name="bluetooth_device_connected_toast">%1$s er tilkopla</string>
     <string name="bluetooth_device_disconnected_toast">%1$s er fråkopla</string>
+    <string name="device_connections_category_title">Tilkoplingar til bilen din</string>
+    <string name="uwb_toggle_title">Ultra-breiband (UWB)</string>
+    <string name="uwb_toggle_summary">Hjelper bilen din å identifisera posisjonen til UWB-apparat</string>
     <string name="bluetooth_audio_sharing">Lyddeling</string>
     <string name="share_audio_switch_title">Del lyd</string>
     <string name="share_audio_switch_summary">Lyttarar treng eigne LE Audio-hovudtelefonar</string>
@@ -275,6 +283,7 @@
     <string name="sound_alert_sounds">Varsellydar</string>
     <string name="sound_alert_sounds_summary">Ringetone, varsel, alarm</string>
     <string name="audio_route_selector_title">Spel av media på</string>
+    <string name="audio_route_selector_toast">Byter media til %1$s</string>
     <string name="display_brightness">Lysstyrke</string>
     <string name="display_night_mode_summary">Tilpass skjermen for dårleg lys</string>
     <string name="units_settings">Einingar</string>
@@ -362,6 +371,16 @@
         }
     </string>
     <string name="unused_apps_switch">Fjern løyve og frigjer plass</string>
+    <string name="aspect_ratio_label">Storleiksforhold (eksperimentelt)</string>
+    <string name="aspect_ratio_action_button">Opna</string>
+    <string name="user_aspect_ratio_app_default">Standard for appen</string>
+    <string name="user_aspect_ratio_fullscreen">Fullskjerm</string>
+    <string name="user_aspect_ratio_half_screen">Halvskjerm</string>
+    <string name="user_aspect_ratio_device_size">Storleiksforholdet til eininga</string>
+    <string name="user_aspect_ratio_16_9">16:9</string>
+    <string name="user_aspect_ratio_3_2">3:2</string>
+    <string name="user_aspect_ratio_4_3">4:3</string>
+    <string name="app_aspect_ratio_footer">Appen startar på nytt når du endrar storleiksforholdet. Du kan mista endringar som ikkje er lagra. Enkelte appar er kanskje ikkje optimaliserte for alle storleiksforhold.</string>
     <string name="storage_type_internal">%s på internlagring</string>
     <string name="prioritize_app_performance_summary">Bruker systemressursar på å prioritera app-yting</string>
     <string name="app_open_by_default_title">Opna som standard\"</string>
@@ -453,16 +472,18 @@
     <string name="show_system">Vis systemprosessar</string>
     <string name="hide_system">Gøym systemprosessar</string>
     <string name="hide_system_apps">Gøym systemappar</string>
+    <string name="alarms_and_reminders_title">Alarmar og påminningar</string>
     <string name="modify_system_settings_title">Endra systeminnstillingar</string>
     <string name="modify_system_settings_description">Dette løyvet lèt ein app endra systeminnstillingar.</string>
     <string name="notification_access_title">Tilgang til varsel</string>
-    <string name="notification_listener_security_warning_title">Vil du gje <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> tilgang til varsel?</string>
+    <string name="notification_listener_security_warning_title">Vil du gjeva <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> tilgang til varsel?</string>
     <string name="notification_listener_security_warning_summary"><xliff:g id="notification_listener_name">%1$s</xliff:g> kan lesa alle varsel, inkludert personlege opplysningar som kontaktnamn og teksten i meldingar du får. Appen kan òg fjerna varsel eller trykkja på knappar i dei.\n\nDette gjev òg appen høve til å slå på eller av «Ikkje forstyrr» og endra tilhøyrande innstillingar.</string>
-    <string name="notification_listener_revoke_warning_summary">Viss du slår av varseltilgang for <xliff:g id="notification_listener_name">%1$s</xliff:g>, kan funksjonen for «Ikkje forstyrr» òg verta slått av.</string>
+    <string name="notification_listener_revoke_warning_summary">Om du slår av varseltilgang for <xliff:g id="notification_listener_name">%1$s</xliff:g>, kan funksjonen for «Ikkje forstyrr» òg verta slått av.</string>
     <string name="notification_listener_revoke_warning_confirm">Slå av</string>
     <string name="notification_listener_revoke_warning_cancel">Avbryt</string>
     <string name="performance_impacting_apps_description">Desse appane påverkar systemytinga negativt og har vorte hindra i å køyra i bakgrunnen.\nPrioriter appen om du vil tillata bakgrunnsbruk og fjerna han frå denne lista.</string>
     <string name="performance_impacting_apps_button_label">Prioriter appen</string>
+    <string name="premium_sms_access_title">Premium-SMS</string>
     <string name="premium_sms_access_description">Premium-SMS kan kosta pengar og vert lagt til på telefonrekninga. Gjev du ein app dette løyvet, kan du senda Premium-SMS med den appen.</string>
     <string name="usage_access_title">Bruksdata for appar</string>
     <string name="usage_access_description">Tilgang til alle bruksdata for appar gjev ein app løyve til å fylgja med på kva andre appar du brukar og kor ofte, samt mobiloperatør, språkinnstillingar og andre detaljar.</string>
@@ -473,6 +494,8 @@
     <string name="location_toggle_title">Bruk posisjon</string>
     <string name="location_toggle_summary">        Bruk posisjonen til bilen i appane du har valt.
     </string>
+    <string name="location_infotainment_apps_toggle_title">Appar til underhaldningssystemet</string>
+    <string name="location_infotainment_apps_toggle_summary">Lét appar få tilgang til posisjonen din</string>
     <string name="location_toggle_off_warning">        Slår du av dette, vert tilgangen til posisjon fjerna for alle appar, unnateke dei som trengst for førarstøtte.
     </string>
     <string name="adas_location_toggle_off_warning">        Slår du av dette, vert appar for førarstøtte som treng posisjonsinformasjon, deaktiverte.
@@ -607,6 +630,7 @@
     <string name="date_time_24hour_title">24-timarsformat</string>
     <string name="date_time_24hour">Bruk 24-timarsformat</string>
     <string name="date_time_set_time_title">Tid</string>
+    <string name="date_time_set_time">Still klokka</string>
     <string name="date_time_set_timezone_title">Tidssone</string>
     <string name="date_time_set_timezone">Vel tidssone</string>
     <string name="date_time_set_date_title">Dato</string>
@@ -620,9 +644,11 @@
     <string name="auto_local_time_toggle_summary">        Bruk plasseringa til bilen for å stilla dato og tid automatisk. Dette fungerer berre dersom posisjon er på.
     </string>
     <string name="auto_local_time_dialog_negative_button_text">Hald fram</string>
+    <string name="auto_local_time_dialog_positive_button_text">Endra i innstillingar</string>
+    <string name="auto_local_time_dialog_msg">Posisjonstenesta er avslått. Automatisk tidsinnstilling verkar kanskje ikkje.</string>
     <string name="user_admin">Administrator</string>
     <string name="signed_in_admin_user">Logga på som administrator</string>
-    <string name="grant_admin_permissions_title">Vil du gje administratorløyve?</string>
+    <string name="grant_admin_permissions_title">Vil du gjeva administratorløyve?</string>
     <string name="grant_admin_permissions_button_text">Gjer til administrator</string>
     <string name="grant_admin_permissions_message">Administratoren kan sletta andre profilar, inkludert andre administratorar, og fabrikknullstilla infotainment-systemet.</string>
     <string name="action_not_reversible_message">Du kan ikkje omgjera denne handlinga.</string>
@@ -728,6 +754,9 @@
     <string name="vehicle_data_delete_user_title">Slett profilen din</string>
     <string name="vehicle_data_delete_user_summary">Slett profilen og kontoane dine frå infotainment-systemet</string>
     <string name="action_unavailable">Profilen din har ikkje tilgang til denne handlinga</string>
+    <string name="microphone_access_settings_title">Mikrofontilgang</string>
+    <string name="microphone_access_settings_summary">Vel om appar skal ha tilgang til mikrofonane i bilen</string>
+    <string name="microphone_infotainment_apps_toggle_title">Appar til underhaldningssystemet</string>
     <string name="microphone_infotainment_apps_toggle_summary">Gje infotainment-appar løyve til å ta opp lyd</string>
     <string name="camera_access_settings_title">Kameratilgang</string>
     <string name="camera_access_settings_summary">Vel om appar skal ha tilgang til kameraa i bilen</string>
@@ -741,6 +770,10 @@
     <string name="app_function_access_settings_summary">Utfør gjeremål på eininga di og i andre appar</string>
     <string name="camera_infotainment_apps_toggle_title">Infotainment-appar</string>
     <string name="camera_infotainment_apps_toggle_summary">Gje infotainment-appar løyve til å ta bilete og ta opp video</string>
+    <string name="permission_grant_allowed">Gjeve løyve</string>
+    <string name="permission_grant_always">Alltid</string>
+    <string name="permission_grant_never">Ikkje gjeve løyve</string>
+    <string name="permission_grant_in_use">Berre når appen er i bruk</string>
     <string name="permission_grant_ask">Spør kvar gong</string>
     <string name="security_settings_title">Tryggleik</string>
     <string name="security_settings_subtitle">Skjermlås</string>
@@ -773,7 +806,7 @@
     <string name="lockpattern_settings_help_how_to_record">Slik teiknar du eit mønster</string>
     <string name="error_saving_lockpattern">Klarte ikkje å lagra mønsteret</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts">For mange feilforsøk. Prøv på nytt om <xliff:g id="number">%d</xliff:g> sekund.</string>
-    <string name="lockpattern_does_not_support_rotary">Mønsteret støttar ikkje styrehjul, bruk berøringsskjermen</string>
+    <string name="lockpattern_does_not_support_rotary">Mønsteret støttar ikkje styrehjul, trykk på skjermen.</string>
     <string name="okay">OK</string>
     <string name="remove_screen_lock_title">Vil du fjerna skjermlåsen?</string>
     <string name="remove_screen_lock_message">Dette lèt kven som helst få tilgang til kontoen din</string>
@@ -1059,9 +1092,13 @@
     <string name="data_subscription_explore_options">Sjå abonnement</string>
     <string name="connectivity_inactive_prompt">Internettabonnementet ditt er gått ut</string>
     <string name="connectivity_inactive_action_text">Sjå abonnement</string>
+    <string name="audio_route_dialog_neutral_button_text">Ferdig</string>
     <string name="unsupported_intents_toast_text">Bilen din støttar ikkje denne funksjonen</string>
     <string name="aspect_ratio_dialog_title">Innstillingar for storleiksforhold</string>
     <string name="aspect_ratio_dialog_message">Appen startar på nytt når du endrar storleiksforholdet. Du kan mista endringar som ikkje er lagra. Enkelte appar er kanskje ikkje optimerte for visse storleiksforhold.</string>
     <string name="aspect_ratio_dialog_close_button_text">Lukk</string>
     <string name="aspect_ratio_dialog_apply_button_text">Bruk</string>
+    <string name="aspect_ratio_dialog_app_default_text">Standard for appen</string>
+    <string name="aspect_ratio_dialog_full_screen_text">Fullskjerm</string>
+    <string name="aspect_ratio_dialog_half_screen_text">Halvskjerm</string>
 </resources>
