@@ -70,7 +70,7 @@
         <item>@string/wifi_security_none</item>
     </string-array>
     <string-array name="eap_ocsp_type" translatable="true">
-        <item>Peidio â dilysu</item>
+        <item>Peidio â gwireddu</item>
         <item>Dymuno statws tystysgrif</item>
         <item>Ymofyn statws tystysgrif</item>
     </string-array>
@@ -171,9 +171,9 @@
         <item>darllen cysylltiadau</item>
         <item>addasu cysylltiadau</item>
         <item>darllen y log galwadau</item>
-        <item>addasu\'r log galwadau</item>
+        <item>addasu\u2019r log galwadau</item>
         <item>darllen y calendr</item>
-        <item>addasu\'r calendr</item>
+        <item>addasu\u2019r calendr</item>
         <item>sganio wi-fi</item>
         <item>hysbysiad</item>
         <item>sganio symudol</item>
@@ -194,7 +194,7 @@
         <item>recordio sain</item>
         <item>chwarae sain</item>
         <item>darllen y clipfwrdd</item>
-        <item>addasu\'r clipfwrdd</item>
+        <item>addasu\u2019r clipfwrdd</item>
         <item>botymau cyfryngau</item>
         <item>ffocws sain</item>
         <item>prif uchder sain</item>
@@ -208,7 +208,7 @@
         <item>monitro lleoliad</item>
         <item>monitro lleoliad pŵer uchel</item>
         <item>cael ystadegau defnydd</item>
-        <item>distewi/dad-ddistewi\'r meicroffon</item>
+        <item>distewi/dad-ddistewi\u2019r meicroffon</item>
         <item>dangos hysbysyn</item>
         <item>taflunio cyfryngau</item>
         <item>rhoi VPN ar waith</item>
@@ -224,7 +224,7 @@
         <item>darllen darllediadau neges destun</item>
         <item>ffugio lleoliad</item>
         <item>darllen y storfa</item>
-        <item>ysgrifennu i\'r storfa</item>
+        <item>ysgrifennu i\u2019r storfa</item>
         <item>troi sgrin ymlaen</item>
         <item>cael cyfrifon</item>
         <item>rhedeg yn y cefndir</item>
@@ -238,9 +238,9 @@
         <item>Darllen cysylltiadau</item>
         <item>Addasu cysylltiadau</item>
         <item>Darllen y log galwadau</item>
-        <item>Addasu\'r log galwadau</item>
+        <item>Addasu\u2019r log galwadau</item>
         <item>Darllen y calendr</item>
-        <item>Addasu\'r calendr</item>
+        <item>Addasu\u2019r calendr</item>
         <item>Lleoliad</item>
         <item>Gosod hysbysiad</item>
         <item>Lleoliad</item>
@@ -261,7 +261,7 @@
         <item>Recordio sain</item>
         <item>Chwarae sain</item>
         <item>Darllen y clipfwrdd</item>
-        <item>Addasu\'r clipfwrdd</item>
+        <item>Addasu\u2019r clipfwrdd</item>
         <item>Botymau cyfryngau</item>
         <item>Ffocws sain</item>
         <item>Prif uchder sain</item>
@@ -275,7 +275,7 @@
         <item>Lleoliad</item>
         <item>Lleoliad</item>
         <item>Cael ystadegau defnydd</item>
-        <item>Distewi/dad-ddistewi\'r meicroffon</item>
+        <item>Distewi/dad-ddistewi\u2019r meicroffon</item>
         <item>Dangos hysbysyn</item>
         <item>Taflunio cyfryngau</item>
         <item>Rhoi VPN ar waith</item>
@@ -291,7 +291,7 @@
         <item>Darllen darllediadau neges destun</item>
         <item>Ffugio lleoliad</item>
         <item>Darllen y storfa</item>
-        <item>Ysgrifennu i\'r storfa</item>
+        <item>Ysgrifennu i\u2019r storfa</item>
         <item>Troi sgrin ymlaen</item>
         <item>Cael cyfrifon</item>
         <item>Rhedeg yn y cefndir</item>
@@ -406,7 +406,7 @@
     </string-array>
     <string-array name="wifi_metered_entries">
         <item>Synhwyro\'n awtomatig</item>
-        <item>Trin fel wedi\'i mesur</item>
+        <item>Trin fel wedi\u2019i mesur</item>
         <item>Trin fel heb ei mesur</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
@@ -415,7 +415,7 @@
     </string-array>
     <string-array name="wifi_dhcp_entries">
         <item>Anfon enw\u2019r ddyfais i\u2019r rhwydwaith</item>
-        <item>Peidio ag anfon enw\u2109r ddyfais i\u2109r rhwydwaith</item>
+        <item>Peidio ag anfon enw\u2019r ddyfais at y rhwydwaith</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Na</item>
@@ -485,10 +485,24 @@
         <item>O hyd</item>
         <item>Oni bai bod ap talu arall ar agor</item>
     </string-array>
+    <string-array name="nfc_payment_favor_values">
+        <item/>
+        <item/>
+    </string-array>
     <string-array name="switch_to_dock_user_when_docked_timeout_entries">
         <item>Byth</item>
         <item>Ar ôl 1 munud</item>
         <item>Ar ôl 5 munud</item>
+    </string-array>
+    <string-array name="first_day_of_week">
+        <item>default</item>
+        <item>sun</item>
+        <item>mon</item>
+        <item>tue</item>
+        <item>wed</item>
+        <item>thu</item>
+        <item>fri</item>
+        <item>sat</item>
     </string-array>
     <string-array name="zen_mode_icon_options_descriptions">
         <item>Cês gwaith papur</item>
@@ -498,7 +512,7 @@
         <item>Grŵp o bobl</item>
         <item>Bwlb golau</item>
         <item>Calendr</item>
-        <item>Paid â Tharfu</item>
+        <item>Dim Tarfu</item>
         <item>Person yn rhedeg</item>
         <item>Golff</item>
         <item>Dymbel gampfa</item>
@@ -536,7 +550,7 @@
         <item>Dim</item>
         <item>Home</item>
         <item>Recent apps</item>
-        <item>Notifications</item>
+        <item>Hysbysiadau</item>
         <item>Quick settings</item>
         <item>Lockscreen</item>
     </string-array>

@@ -48,6 +48,13 @@
     <string name="clear">Clirio</string>
     <string name="allow">Caniatáu</string>
     <string name="deny">Gwrthod</string>
+    <string name="picker_settings_system_settings_menu_title">Gosodiadau cyfryngau cwmwl</string>
+    <string name="picker_settings_title">Gosodiadau cyfryngau cwmwl</string>
+    <string name="picker_settings_description">Cael mynediad at dy gyfryngau cwmwl pan fo ap neu wefan yn gofyn i ti ddewis lluniau neu fideos</string>
+    <string name="picker_settings_selection_message">Cael mynediad at gyfryngau cwmwl gan</string>
+    <string name="picker_settings_no_provider">Dim</string>
+    <string name="picker_settings_toast_error">Methwyd newid yr ap cyfryngau cwmwl y tro hwn.</string>
+    <string name="picker_sync_notification_text">Yn cydweddu cyfryngau…</string>
     <string name="add">Ychwanegu</string>
     <string name="deselect">Dad-ddewis</string>
     <string name="deselected">Dad-ddewiswyd</string>
@@ -88,23 +95,27 @@
     }</string>
     <string name="picker_add_button_multi_select">Ychwanegu (<xliff:g id="count" example="42">^1</xliff:g>)</string>
     <string name="picker_add_button_multi_select_permissions">Caniatáu (<xliff:g id="count" example="42">^1</xliff:g>)</string>
+    <string name="picker_add_button_allow_none_option">Caniatáu dim</string>
     <string name="picker_category_camera">Camera</string>
     <string name="picker_category_downloads">Llwythi</string>
     <string name="picker_category_favorites">Ffefrynnau</string>
     <string name="picker_category_screenshots">Sgrinluniau</string>
     <string name="picker_motion_photo_text">Llun Symud</string>
-    <string name="picker_item_content_desc"><xliff:g id="item_name" example="Photo">%1$s</xliff:g> wedi\'i dynnu <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%2$s</xliff:g></string>
-    <string name="picker_video_item_content_desc">Fideo wedi\'i ffilmio <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%1$s</xliff:g> gyda hyd o <xliff:g id="duration" example="00:03">%2$s</xliff:g></string>
+    <string name="picker_item_content_desc"><xliff:g id="item_name" example="Photo">%1$s</xliff:g> wedi\u2019i dynnu <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%2$s</xliff:g></string>
+    <string name="picker_video_item_content_desc">Fideo wedi\u2019i ffilmio <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%1$s</xliff:g> gyda hyd o <xliff:g id="duration" example="00:03">%2$s</xliff:g></string>
     <string name="picker_photo">Llun</string>
     <string name="picker_gif">GIF</string>
     <string name="picker_motion_photo">Llun Symud</string>
     <string name="picker_mute_video">Distewi fideo</string>
-    <string name="picker_unmute_video">Dad-tewi\'r fideo</string>
+    <string name="picker_unmute_video">Dad-tewi\u2019r fideo</string>
     <string name="not_selected">heb ei ddewis</string>
     <string name="preloading_cancel_button">Diddymu</string>
+    <string name="picker_banner_cloud_choose_app_title">Dewisa ap cyfryngau cwmwl</string>
+    <string name="picker_banner_cloud_choose_app_desc">I gynnwys copïau wrth gefn o luniau yma, dewisa ap cyfryngau cwmwl yn Gosodiadau</string>
+    <string name="picker_banner_cloud_choose_account_desc">I gynnwys lluniau o <xliff:g id="app_name" example="Photos">%1$s</xliff:g> yma, dewisa gyfrif yn yr ap</string>
     <string name="permission_write_audio"> {count, plural,
         zero {}
-		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu\'r ffeil sain hon?}
+		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu\u2019r ffeil sain hon?}
         one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> ffeil sain?}
         two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> ffeil sain?}
         few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> ffeil sain?}
@@ -118,7 +129,7 @@
     </string>
     <string name="permission_write_video"> {count, plural,
         zero {}
-		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu\'r fideo hwn?}
+		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu\u2019r fideo hwn?}
         one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> fideo?}
         two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> fideo?}
         few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> fideo?}
@@ -132,7 +143,7 @@
     </string>
     <string name="permission_write_image"> {count, plural,
         zero {}
-		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu\'r llun hwn?}
+		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu\u2019r llun hwn?}
         one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> llun?}
         two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> lun?}
         few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> llun?}
@@ -146,7 +157,7 @@
     </string>
     <string name="permission_write_generic"> {count, plural,
         zero {}
-		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu\'r eitem hon?}
+		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu\u2019r eitem hon?}
         one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> eitem?}
         two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> eitem?}
         few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i addasu <xliff:g id="count" example="42">^2</xliff:g> eitem?}
@@ -164,12 +175,12 @@
     </string>
     <string name="permission_trash_audio"> {count, plural,
         zero {}
-		=1 {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y ffeil sain hon i\'r sbwriel?}
-        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain i\'r sbwriel?}
-        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain i\'r sbwriel?}
-        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain i\'r sbwriel?}
-        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain i\'r sbwriel?}
-		other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain i\'r sbwriel?}
+		=1 {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y ffeil sain hon i\u2019r sbwriel?}
+        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain i\u2019r sbwriel?}
+        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain i\u2019r sbwriel?}
+        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain i\u2019r sbwriel?}
+        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain i\u2019r sbwriel?}
+		other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain i\u2019r sbwriel?}
     }</string>
     <string name="permission_progress_trash_audio"> {count, plural,
         =1 {Yn symud ffeil sain i\u2019r sbwriel…}
@@ -178,12 +189,12 @@
     </string>
     <string name="permission_trash_video"> {count, plural,
         zero {}
-		=1 {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y fideo hwn i\'r sbwriel?}
-        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sian i\'r sbwriel?}
-        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sian i\'r sbwriel?}
-        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sian i\'r sbwriel?}
-        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sian i\'r sbwriel?}
-		other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sian i\'r sbwriel?}
+		=1 {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y fideo hwn i\u2019r sbwriel?}
+        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sian i\u2019r sbwriel?}
+        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sian i\u2019r sbwriel?}
+        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sian i\u2019r sbwriel?}
+        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sian i\u2019r sbwriel?}
+		other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sian i\u2019r sbwriel?}
     }</string>
     <string name="permission_progress_trash_video"> {count, plural,
         =1 {Yn symud fideo i\u2019r sbwriel…}
@@ -192,12 +203,12 @@
     </string>
     <string name="permission_trash_image"> {count, plural,
         zero {}
-		=1 {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y llun hwn i\'r sbwriel?}
-        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun i\'r sbwriel?}
-        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> lun i\'r sbwriel?}
-        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun i\'r sbwriel?}
-        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun i\'r sbwriel?}
-		other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun i\'r sbwriel?}
+		=1 {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y llun hwn i\u2019r sbwriel?}
+        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun i\u2019r sbwriel?}
+        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> lun i\u2019r sbwriel?}
+        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun i\u2019r sbwriel?}
+        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun i\u2019r sbwriel?}
+		other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun i\u2019r sbwriel?}
     }</string>
     <string name="permission_progress_trash_image"> {count, plural,
         =1 {Yn symud lllun i\u2019r sbwriel…}
@@ -206,12 +217,12 @@
     </string>
     <string name="permission_trash_generic"> {count, plural,
         zero {}
-		=1 {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud yr eitem hon i\'r sbwriel?}
-        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem i\'r sbwriel?}
-        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem i\'r sbwriel?}
-        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem i\'r sbwriel?}
-        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem i\'r sbwriel?}
-		other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem i\'r sbwriel?}
+		=1 {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud yr eitem hon i\u2019r sbwriel?}
+        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem i\u2019r sbwriel?}
+        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem i\u2019r sbwriel?}
+        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem i\u2019r sbwriel?}
+        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem i\u2019r sbwriel?}
+		other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem i\u2019r sbwriel?}
     }</string>
     <string name="permission_progress_trash_generic"> {count, plural,
         =1 {Yn symud eitem i\u2019r sbwriel…}
@@ -220,12 +231,12 @@
     </string>
     <string name="permission_untrash_audio"> {count, plural,
         zero {}
-		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y ffeil sain hon allan o\'r sbwriel?}		
-        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain allan o\'r sbwriel?}
-        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain allan o\'r sbwriel?}
-        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain allan o\'r sbwriel?}
-        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain allan o\'r sbwriel?}
-        other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain allan o\'r sbwriel?}
+		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y ffeil sain hon allan o\u2019r sbwriel?}		
+        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain allan o\u2019r sbwriel?}
+        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain allan o\u2019r sbwriel?}
+        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain allan o\u2019r sbwriel?}
+        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain allan o\u2019r sbwriel?}
+        other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> ffeil sain allan o\u2019r sbwriel?}
     }</string>
     <string name="permission_progress_untrash_audio"> {count, plural,
         =1 {Yn symud ffeil sain allan o\u2019r sbwriel…}
@@ -234,12 +245,12 @@
     </string>
     <string name="permission_untrash_video"> {count, plural,
         zero {}
-		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y fideo hwn allan o\'r sbwriel?}		
-        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> fideo allan o\'r sbwriel?}
-        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> fideo allan o\'r sbwriel?}
-        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> fideo allan o\'r sbwriel?}
-        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> fideo allan o\'r sbwriel?}
-        other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> fideo allan o\'r sbwriel?}
+		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y fideo hwn allan o\u2019r sbwriel?}		
+        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> fideo allan o\u2019r sbwriel?}
+        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> fideo allan o\u2019r sbwriel?}
+        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> fideo allan o\u2019r sbwriel?}
+        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> fideo allan o\u2019r sbwriel?}
+        other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> fideo allan o\u2019r sbwriel?}
     }</string>
     <string name="permission_progress_untrash_video"> {count, plural,
         =1 {Yn symud fideo allan o\u2019r sbwriel…}
@@ -248,12 +259,12 @@
     </string>
     <string name="permission_untrash_image"> {count, plural,
         zero {}
-		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y llun hwn allan o\'r sbwriel?}		
-        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun allan o\'r sbwriel?}
-        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> lun allan o\'r sbwriel?}
-        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun allan o\'r sbwriel?}
-        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun allan o\'r sbwriel?}
-        other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun allan o\'r sbwriel?}
+		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud y llun hwn allan o\u2019r sbwriel?}		
+        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun allan o\u2019r sbwriel?}
+        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> lun allan o\u2019r sbwriel?}
+        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun allan o\u2019r sbwriel?}
+        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun allan o\u2019r sbwriel?}
+        other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> llun allan o\u2019r sbwriel?}
     }</string>
     <string name="permission_progress_untrash_image"> {count, plural,
         =1 {Yn symud llun allan o\u2019r sbwriel…}
@@ -262,21 +273,21 @@
     </string>
     <string name="permission_untrash_generic"> {count, plural,
         zero {}
-		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud yr eitem hon allan o\'r sbwriel?}		
-        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem allan o\'r sbwriel?}
-        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem allan o\'r sbwriel?}
-        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem allan o\'r sbwriel?}
-        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem allan o\'r sbwriel?}
-        other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem allan o\'r sbwriel?}
+		=1    {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud yr eitem hon allan o\u2019r sbwriel?}		
+        one {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem allan o\u2019r sbwriel?}
+        two {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem allan o\u2019r sbwriel?}
+        few {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem allan o\u2019r sbwriel?}
+        many {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem allan o\u2019r sbwriel?}
+        other {Caniatáu <xliff:g id="app_name" example="Gmail">^1</xliff:g> i symud <xliff:g id="count" example="42">^2</xliff:g> eitem allan o\u2019r sbwriel?}
     }</string>
     <string name="permission_progress_untrash_generic"> {count, plural,
         zero {}
-		=1    {Yn symud yr item allan o\'r sbwriel…}
-        one {Yn symud <xliff:g id="count" example="42">^1</xliff:g> eitem allan o\'r sbwriel…}
-        two {Yn symud <xliff:g id="count" example="42">^1</xliff:g> eitem allan o\'r sbwriel…}
-        few {Yn symud <xliff:g id="count" example="42">^1</xliff:g> eitem allan o\'r sbwriel…}
-        many {Yn symud <xliff:g id="count" example="42">^1</xliff:g> eitem allan o\'r sbwriel…}
-        other {Yn symud <xliff:g id="count" example="42">^1</xliff:g> eitem allan o\'r sbwriel…}
+		=1    {Yn symud yr item allan o\u2019r sbwriel…}
+        one {Yn symud <xliff:g id="count" example="42">^1</xliff:g> eitem allan o\u2019r sbwriel…}
+        two {Yn symud <xliff:g id="count" example="42">^1</xliff:g> eitem allan o\u2019r sbwriel…}
+        few {Yn symud <xliff:g id="count" example="42">^1</xliff:g> eitem allan o\u2019r sbwriel…}
+        many {Yn symud <xliff:g id="count" example="42">^1</xliff:g> eitem allan o\u2019r sbwriel…}
+        other {Yn symud <xliff:g id="count" example="42">^1</xliff:g> eitem allan o\u2019r sbwriel…}
     }</string>
     <string name="permission_delete_audio"> {count, plural,
         zero {}
@@ -344,7 +355,7 @@
     <string name="transcode_wait">Aros</string>
     <string name="transcode_alert_channel">Hysbysiadau Trawsgodio</string>
     <string name="transcode_progress_channel">Cynnydd Trawsgodio</string>
-    <string name="permdesc_accessMediaOwnerPackageName">Mae\u2019n caniatáu\u2019r ap i gael mynediad at enwau pecynnau perchennog pob ffeil cyfrwng sy\u2019n hygyrch.</string>
+    <string name="permdesc_accessMediaOwnerPackageName">Mae\u2019n caniatáu i\u2019r ap gael mynediad at enwau pecynnau perchennog pob ffeil cyfrwng sy\u2019n hygyrch.</string>
     <string name="camera_album_display_name" translation_description="Display name for the album containing all the media captured by camera. [CHAR_LIMIT=50]">Camera</string>
     <string name="screenshots_album_display_name" translation_description="Display name for the album containing all the screenshots. [CHAR_LIMIT=50]">Sgrinluniau</string>
     <string name="downloads_album_display_name" translation_description="Display name for the album containing all the downloaded media on the device. [CHAR_LIMIT=50]">Llwythi</string>
