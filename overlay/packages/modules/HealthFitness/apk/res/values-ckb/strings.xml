@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2022 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="health_connect_notification_channel_name" description="The main notification channel label shown in settings.">نوێکاری و ئاگادارییەکان</string>
+    <string name="devices_summary" description="Summary for the devices menu item. [CHAR_LIMIT=100]">بەڕێوەبردنی ئامێرە پەیوەستکراوەکانت</string>
+    <string name="devices_title" description="Label for a button that takes the user to the devices screen. [CHAR_LIMIT=40]">ئامێرەکان</string>
+    <string name="banner_group_more_items" description="Title for button to expand a banner preference group when one or more banners are hidden [CHAR_LIMIT]=50">بەرەمی زیاتر</string>
+    <string name="banner_group_fewer_items" description="Title for button to collapse banner preference group and only show the first banner [CHAR_LIMIT]=50">بەرەمی کەمتر</string>
+    <string name="recent_access_empty_state_title" description="Title of section shown when no apps have recently accessed health data [CHAR_LIMIT=NONE]">هیچ دەستپێگەیشتنێکی تازە نییە</string>
+    <string name="recent_access_empty_state_description" description="Description of section shown when no apps have recently accessed health data [CHAR_LIMIT=NONE]">ئەو بەرنامانەی لەم دواییانەدا دەستیان بە داتاکانت گەیشتووە بە خۆکاری لێرە پیشان دەدرێن</string>
+    <string name="recent_access_view_all_button" description="Label on a button leading to another screen showing all the writes and reads performed by connected apps in the last 24 hours. [CHAR LIMIT=50]">بینینی هەموو</string>
+    <string name="recent_access_error" description="Text indicating to the user that there was an error while loading recent access [CHAR_LIMIT=NONE]">نەتوانرا دەستپێگەیشتنە تازەکان بار بکرێن</string>
+    <string name="recent_access_inactive_app" description="Text indicating that the app the user tried to click on is no longer available[CHAR_LIMIT=NONE]">ئەم بەرنامەیە چیتر بەردەست نییە</string>
+    <string name="nicotine_intake_uppercase_label" description="Uppercase label used to show user's nicotine intake data [CHAR_LIMIT=50]">وەرگرتنی نیکۆتین</string>
+    <string name="nicotine_intake_lowercase_label" description="Lowercase label used to show user's nicotine intake data [CHAR_LIMIT=50]">وەرگرتنی نیکۆتین</string>
+    <string name="nicotine_intake_read_content_description" description="Content description for switch that enables permissions for reading user's nicotine intake data [CHAR_LIMIT=NONE]">خوێندنەوەی وەرگرتنی نیکۆتین</string>
+    <string name="nicotine_intake_write_content_description" description="Content description for switch that enables permissions for writing user's nicotine intake data [CHAR_LIMIT=NONE]">نووسینی وەرگرتنی نیکۆتین</string>
+    <string name="alcohol_consumption_uppercase_label" description="Uppercase label used to show user's alcohol consumption data [CHAR_LIMIT=50]">بەکاربردنی کحول</string>
+    <string name="alcohol_consumption_lowercase_label" description="Lowercase label used to show user's alcohol consumption data [CHAR_LIMIT=50]">بەکاربردنی کحول</string>
+    <string name="alcohol_consumption_read_content_description" description="Content description for switch that enables permissions for reading user's alcohol consumption data [CHAR_LIMIT=NONE]">خوێندنەوەی بەکاربردنی کحول</string>
+    <string name="alcohol_consumption_write_content_description" description="Content description for switch that enables permissions for writing user's alcohol consumption data [CHAR_LIMIT=NONE]">نووسینی بەکاربردنی کحول</string>
+    <string name="symptom_cough_uppercase_label" description="Uppercase label used to show user's cough symptom data [CHAR_LIMIT=50]">کۆکە</string>
+    <string name="symptom_cough_lowercase_label" description="Lowercase label used to show user's cough symptom data [CHAR_LIMIT=50]">کۆکە</string>
+    <string name="symptom_cough_read_content_description" description="Content description for switch that enables permissions for reading user's cough symptom data [CHAR_LIMIT=NONE]">خوێندنەوەی نیشانەکان</string>
+    <string name="symptom_cough_write_content_description" description="Content description for switch that enables permissions for writing user's cough symptom data [CHAR_LIMIT=NONE]">نووسینی نیشانەکان</string>
+    <string name="matchmaking_screen_title" description="Title for match making screen to add missing data">هاوبەشیکردنی داتا لە نێوان بەرنامەکاندا</string>
+    <string name="matchmaking_screen_data_from_app" description="Title for category that holds list of matching apps">داتا لە <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g></string>
+    <string name="matchmaking_screen_summary" description="Summary on match making screen to allow the given app to read data from other apps using Health Connect">ڕێگە بە بەرنامەی <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> بدە داتا لە بەرنامەکانی ترەوە بخوێنێتەوە لەسەر ئەم ئامێرە بە بەکارهێنانی Health Connect</string>
+    <string name="matchmaking_screen_apps_category_title" description="Title for category that holds list of matching apps">ئەو بەرنامانەی دەتوانن ئەم داتایە هەماهەنگ بکەن</string>
+    <string name="app_privacy_policy_footer" description="Footer with a link to the app's privacy policy.">فێربە چۆن <xliff:g example="Run Tracker" id="app_name">%1$s</xliff:g> داتاکانت بەکاردەهێنێت لە <a href="%2$s">سیاسەتی تایبەتێتییاندا</a>.</string>
+    <string name="matchmaking_screen_footer" descriptio="Summary on match making screen explaining how Health Connect share health and fitness data between multiple apps">Health Connect ڕێگەت پێ دەدات داتای تەندروستی و لەشجوانییەکەت لە نێوان چەند بەرنامەیەکدا هاوبەشی بکەیت. ئەمە یارمەتیت دەدات تێگەیشتن و ئەزموونی نوێ بەدەست بهێنیت لە کاتێکدا داتاکانت بە سەلامەتی دەمێنێتەوە.</string>
+    <string name="more_about_health_connect" description="Title for link to learn more about Health Connect">زیاتر دەربارەی Health Connect</string>
+    <string name="unkwown_resource" description="Label shown when a medical data cannot be identified [CHAR_LIMIT=NONE]">(بێ ناونیشان)</string>
+    <string name="pretty_fhir_header_view_source_data" description="Clickable label that redirects to the raw FHIR screen">بینینی داتای سەرچاوە</string>
+    <string name="connected_apps_empty_list_section_title" description="Title of section when there are no connected apps">هیچ بەرنامەیەکی گونجاو دانەمەزراوە</string>
+    <string name="share_data_text" description="Text explaining how the user can share data with apps"><b>هاوبەشیکردنی داتا لەگەڵ بەرنامەکانت</b>\nئەو داتایە هەڵبژێرە کە هەر بەرنامەیەک دەتوانێت بیخوێنێتەوە یان بۆ Health Connect بنووسێت</string>
+    <string name="manage_your_settings_text" description="Text explaining how the user can change app permissions and manage data"><b>بەڕێوەبردنی ڕێکخستنەکان و تایبەتێتیکەت</b>\nمۆڵەتەکانی بەرنامە بگۆڕە و داتاکانت لە هەر کاتێکدا بەڕێوە ببە</string>
+    <string name="delete_inactive_app_data_button_content_description" description="Content description for a button to delete data for a specific inactive app. [CHAR_LIMIT=NONE]">دوگمەی سڕینەوەی داتا بۆ %1$s</string>
+    <string name="segment_set_index_format" description="Label for the set index of an exercise segment [CHAR LIMIT=50]">کۆمەڵەی <xliff:g example="0" id="set_index">%1$d</xliff:g></string>
+    <string name="segment_rpe_format" description="Label for the rate of perceived exertion for an exercise segment [CHAR LIMIT=50]">RPE: <xliff:g example="5.5" id="rpe">%1$s</xliff:g></string>
+    <string name="segment_rpe_format_long" description="Label for the rate of perceived exertion for an exercise segment">ڕێژەی ماندووبوونی هەستپێکراو: <xliff:g example="5.5" id="rpe">%1$s</xliff:g></string>
+    <string name="session_rpe_header" description="Header for a session rate of perceived exertion value">RPE</string>
+    <string name="session_rpe_header_long" description="Header for a session rate of perceived exertion value">ڕێژەی ماندووبوونی هەستپێکراو</string>
+    <string name="mindfulness_a11y_text" description="Mindfulness text for the aggregation A11y value [CHAR LIMIT=NONE]">        کۆی کاتی هۆشیاریی (mindfulness) بریتییە لە <xliff:g example="12 hours 3 minutes" id="duration">%1$s</xliff:g>
+    </string>
+    <string name="nicotine_intake_title" description="Nicotine intake value with unit. [CHAR LIMIT=50]"><xliff:g example="1 cigarette" id="quantity">%1$s</xliff:g> • <xliff:g example="500 mg" id="intake">%2$s</xliff:g></string>
+    <string name="nicotine_intake_title_long" description="Nicotine intake value with unit. [CHAR LIMIT=160]"><xliff:g example="1 cigarette" id="quantity">%1$s</xliff:g> • <xliff:g example="500 milligrams" id="intake">%2$s</xliff:g></string>
+    <string name="nicotine_intake_type_vape" description="Nicotine intake type: Vape [CHAR LIMIT=20]">{quantity, plural, =1 {{quantity} کێشانی ڤەیپ} other {{quantity} کێشانی ڤەیپ}}</string>
+    <string name="nicotine_intake_type_cigarette" description="Nicotine intake type: Cigarette [CHAR LIMIT=20]">{quantity, plural, =1 {{quantity} جگەرە} other {{quantity} جگەرە}}</string>
+    <string name="nicotine_intake_type_unknown" description="Nicotine intake type: Unknown [CHAR LIMIT=20]">{quantity, number} نەناسراو</string>
+    <string name="hour_minute_duration_short" translation_description="Hour and minute time duration representation. When translating, do not add a space if it is not required. If a space is required, use a no break space   [CHAR LIMIT=8]"><xliff:g example="1" id="hour">%1$s</xliff:g>ک <xliff:g example="31" id="min">%2$s</xliff:g>خ</string>
+    <string name="hour_minute_duration_accessibility" translation_description="Hour and minute time duration representation used by accessibility, 'space' between minute and second should be deleted or replaced according to each language to translate [CHAR LIMIT=NONE]">  <xliff:g example="2 hours" id="hours">%1$s</xliff:g> <xliff:g example="2 minutes" id="minutes">%2$s</xliff:g></string>
+    <string name="see_actions_button_content_description" description="Content description of a button that is used to show the potential actions the user can take: remove selected app, move up or down an app in the priority list [CHAR LIMIT=NONE]">دوگمەیەک بۆ ڕیزکردنەوە یان لابردنی <xliff:g example="Test app" id="selected_app">%s</xliff:g> لە لیستی سەرچاوەکانی بەرنامە</string>
+    <string name="priority_list_item_content_description" description="Content description of an app in the priority list, and the position in the list [CHAR LIMIT=NONE]"> <xliff:g example="1st" id="position">%1$s</xliff:g> لە لیستەکەدا <xliff:g example="Test app" id="selected_app">%2$s</xliff:g></string>
+    <string name="migration_update_needed_header" description="Description of screen shown when migration is pending an update [CHAR_LIMIT=NONE]">Health Connect لەگەڵ سیستمی ئەندرۆید یەکدەخرێت بۆ ئەوەی بتوانیت ڕاستەوخۆ لە ڕێکخستنەکانتەوە دەستت پێی بگات.\n\n<xliff:g example="Before continuing, do this action" id="migration_action">%1$s</xliff:g></string>
+    <string name="app_sources_header" description="Header for section showing apps contributing to the shown totals [CHAR_LIMIT=70]">سەرچاوەکانی داتا</string>
+    <string name="data_sources_footer" description="Footer note explaining how app sources work [CHAR_LIMIT=NONE]">سەرچاوەکانی داتا زیاد بکە بۆ لیستەکە بۆ ئەوەی ببینی چۆن کۆی گشتیی داتا دەگۆڕێت. لابردنی سەرچاوەیەکی داتا لەم لیستە وای لێ دەکات چیتر بەژداری لە کۆی گشتییدا نەکات، بەڵام هێشتا مۆڵەتی نووسینی دەبێت.</string>
+    <string name="data_sources_empty_state" description="Text for the empty state of the data sources screen explaining why there are no apps shown [CHAR_LIMIT=NONE]">هیچ سەرچاوەیەکی داتا نییە</string>
+    <string name="data_sources_empty_state_footer" description="Text for the footer of the empty state of the data sources screen [CHAR_LIMIT=NONE]">کاتێک مۆڵەت بە سەرچاوەیەکی داتا دەدەیت بۆ نووسینی داتای <xliff:g example="activity" id="category_name">%1$s</xliff:g>، سەرچاوەکان لێرە پیشان دەدرێن.</string>
+    <string name="data_sources_add_app" description="Title for preference in the data sources screen used to add an app or device to the list of data sources [CHAR_LIMIT=NONE]">زیادکردنی سەرچاوەیەکی داتا</string>
+    <string name="edit_data_sources" description="Menu option for adding or removing data sources from the data sources list">دەستکاریکردنی سەرچاوەکانی داتا</string>
+    <string name="remove" description="Menu option for removing an app from the app sources list">لابردن</string>
+    <string name="a11y_checkbox_description" description="A11y title for an entry with a title and header that has a checkbox."><xliff:g example="from 11:00 AM to 12:00 AM • Run Tracker" id="header">%1$s</xliff:g>، <xliff:g example="123 Steps" id="title">%2$s</xliff:g></string>
+    <string name="menu_show_system">پیشاندانی سیستم</string>
+    <string name="menu_hide_system">شاردنەوەی سیستم</string>
+    <string name="system_warning">ئەگەر ئەم مۆڵەتە ڕەت بکەیتەوە، لەوانەیە تایبەتمەندییە سەرەتایییەکانی ئامێرەکەت چیتر وەک پێویست کار نەکەن.</string>
+    <string name="grant_dialog_button_deny_anyway">هیچ جۆرێک ڕێگەی مەدە</string>
+    <string name="wear_request_multiple_data_type_permissions" description="Subtitle shown for allowing multiple fitness permissions. "><xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> داوای دەستگەیشتن دەکات بۆ <xliff:g id="data_types" example="heart rate, skin temp">%2$s</xliff:g>.\n\nهەڵبژێرە بۆ ڕێگەدان بە هەموویان یان بە جیا کۆنترۆڵیان بکە.</string>
+    <string name="wear_request_single_data_type_permission" description="Title shown for allowing single fitness permission. ">ڕێگە بە <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> دەدەیت دەستی بگات بە <xliff:g id="data_type" example="Heart rate">%2$s</xliff:g>؟</string>
+    <string name="view_permissions_description_all_the_time" description="Text that indicates an app is allowed to read health data all the time (in the foreground or background)."><xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> دەتوانێت هەموو کاتێک دەستی بگات بە هەموو داتای لەشجوانی و تەندروستیت</string>
+    <string name="view_permissions_description_while_in_use" description="Text that indicates an app is only allowed to read health data while in use (in the foreground)."><xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> دەتوانێت لە کاتی بەکارهێناندا دەستی بگات بە هەموو داتای لەشجوانی و تەندروستیت</string>
+    <string name="write_access" description="Label for switches to toggle write permissions.">دەستگەیشتنی نووسین</string>
+    <string name="read_access" description="Label for switches to toggle read permissions.">دەستگەیشتنی خوێندنەوە</string>
+    <string name="health_switch_content_description" description="A11y content description for a switch."><xliff:g id="switch_title" example="Steps">%1$s</xliff:g>. <xliff:g id="switch_function" example="Write Access">%2$s</xliff:g>. <xliff:g id="switch_state" example="On">%3$s</xliff:g></string>
+    <string name="current_allow_mode_all_the_time" description="Text to indicate that the app is currently allowed to use the permission all the time (in the foreground or background)">\"لەم کاتەدا، <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> دەتوانێت هەموو کاتێک دەستی بگات بە داتای لەشجوانی و تەندروستی</string>
+    <string name="current_allow_mode_while_in_use" description="Text to indicate that the app is currently allowed to use the permission only while in use by the user (in the foreground).">\"لەم کاتەدا، <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> دەتوانێت لە کاتی بەکارهێناندا دەستی بگات بە داتای لەشجوانی و تەندروستی</string>
+    <string name="allow_all_the_time_prompt" description="Title to ask user to select all the time or while in use.">هەڵبژێرە کەی <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g> دەتوانێت دەستی بگات بە داتای لەشجوانی و تەندروستیت</string>
+    <string name="used_by_apps_count" description="Text to indicate how many apps used this permission in past 24 hours.">{count, plural, =1 {بەکار هاتووە لەلایەن ١ بەرنامە} other {بەکار هاتووە لەلایەن # بەرنامە}}</string>
+    <string name="not_used_in_past_24_hours" description="Text to indicate no app used this permission in past 24 hours.">لە ٢٤ کاتژمێری ڕابردوودا بەکارنەهاتووە</string>
+    <string name="accessed" description="Text to indicate last accessed time to a permission.">دەستی پێ گەیشتووە لە <xliff:g example="13:05" id="recent_access_time">%1$s</xliff:g></string>
+    <string name="connect_first_two_apps_title" description="Title of page to connect the first two apps to Health Connect. [CHAR_LIMIT=NONE]">یەکەم بەرنامەت پەیوەست بکە</string>
+    <string name="connect_first_two_apps_description" description="Description of page to connect the first two apps to Health Connect. [CHAR_LIMIT=NONE]">ئەم بەرنامانە پەیوەست بکە بۆ دەستپێکردنی هاوبەشیکردنی داتای تەندروستی و لەشجوانی لە نێوانیاندا</string>
+    <string name="connect_second_app_title" description="Title of page to connect a second app to Health Connect. [CHAR_LIMIT=NONE]">پەیوەستکردنی بەرنامەیەکی دووەم</string>
+    <string name="connect_second_app_description" description="Description of page to connect a second app to Health Connect. [CHAR_LIMIT=NONE]">یەک بەرنامەی تر ڕێک بخە بۆ هاوبەشیکردنی داتای تەندروستی و لەشجوانی لەگەڵ <xliff:g id="app_name" example="Run Tracker">%1$s</xliff:g></string>
+    <string name="set_up_later" description="Title of button to dismiss the onboarding prompt temporarily. [CHAR_LIMIT=NONE]">دواتر ڕێکی بخە</string>
+    <string name="available_apps_to_connect" description="Title of preference category that lists available apps to connect to Health Connect. [CHAR_LIMIT=NONE]">بەرنامە بەردەستەکان بۆ پەیوەستبوون</string>
+    <string name="apps_onboarding_footer" description="Footer of page that lists available apps to connect to Health Connect. [CHAR_LIMIT=NONE]">Health Connect ڕێگەت پێ دەدات داتای تەندروستی و لەشجوانییەکەت لە یەک شوێندا پاشەکەوت بکەیت و لە نێوان بەرنامەکانی سەر مۆبایلەکەتدا هاوبەشی بکەیت، ئەمەش وادەکات بەرنامەکانت پێکەوە باشتر کار بکەن.</string>
+    <string name="apps_onboarding_footer_link" description="Link for footer of page that lists available apps to connect to Health Connect. [CHAR_LIMIT=NONE]">زیاتر دەربارەی Health Connect</string>
+    <string name="onboarded_app_content_description" description="Content description of a button that indicates that an app has been connected to Health Connect. [CHAR_LIMIT=50]">بەرنامەکە پەیوەستە بە Health Connect</string>
+    <string name="almost_done_title" description="Title of page to finish connecting apps to Health Connect by opening the apps. [CHAR_LIMIT=NONE]">نزیک بووینەوە لە تەواوبوون</string>
+    <string name="almost_done_description_all_connected" description="Description of page to finish connecting apps to Health Connect by opening the apps. [CHAR_LIMIT=NONE]">ئەم بەرنامانە ئێستا بکەرەوە بۆ تەواوکردنی ڕێکخستنەکە و دەستپێکردنی هاوبەشیکردنی داتا</string>
+    <string name="almost_done_description_more_to_connect" description="Description of page to finish connecting apps to Health Connect by opening the apps. [CHAR_LIMIT=NONE]">ئەم بەرنامانە ئێستا بکەرەوە بۆ تەواوکردنی ڕێکخستنەکە و دەستپێکردنی هاوبەشیکردنی داتا، یان بەردەوام بە لە پەیوەستکردنی بەرنامە بەردەستەکان</string>
+    <string name="almost_done_connected_apps" description="Title of section of apps that have been connected to Health Connect. [CHAR_LIMIT=NONE]">بەرنامە پەیوەستکراوەکان</string>
+    <string name="almost_done_available_to_connect" description="Title of section of apps that have not yet been connected to Health Connect. [CHAR_LIMIT=NONE]">بەرنامە بەردەستەکان بۆ پەیوەستبوون</string>
+    <string name="zero_apps_onboarding_banner_title" description="Title of banner to take users to a page where they can connect apps to Health Connect [CHAR_LIMIT=NONE]">داتای تەندروستییەکەت لە نێوان بەرنامەکاندا ببینە</string>
+    <string name="zero_apps_onboarding_banner_summary" description="Summary of banner to take users to a page where they can connect apps to Health Connect [CHAR_LIMIT=NONE]">دەست بکە بە هاوبەشیکردنی داتای لەشجوانی و تەندروستی لە نێوان بەرنامەکانتدا</string>
+    <string name="one_app_onboarding_banner_title" description="Title of banner to take users to a page where they can connect a second app to Health Connect [CHAR_LIMIT=NONE]">پەیوەستکردنی بەرنامەیەکی دووەم</string>
+    <string name="one_app_onboarding_banner_summary" description="Summary of banner to take users to a page where they can connect a second app to Health Connect [CHAR_LIMIT=NONE]">بەرنامەیەکی تر ڕێک بخە تا بتوانێت دەست بکات بە هاوبەشیکردنی داتای لەشجوانی و تەندروستی</string>
+    <string name="zero_apps_onboarding_notification_title" description="Title of notification to take users to a page where they can connect apps to Health Connect [CHAR_LIMIT=NONE]">داتای تەندروستییەکەت لە نێوان بەرنامەکاندا ببینە</string>
+    <string name="zero_apps_onboarding_notification_summary" description="Summary of notification to take users to a page where they can connect apps to Health Connect [CHAR_LIMIT=NONE]">Health Connect ڕێگەت پێ دەدات داتای لەشجوانی و تەندروستی لە نێوان بەرنامەکانتدا هاوبەشی بکەیت. ببینە کامیان دەتوانیت ئێستا پەیوەستیان بکەیت.</string>
+    <string name="one_app_onboarding_notification_title" description="Title of notification to take users to a page where they can connect a second app to Health Connect [CHAR_LIMIT=NONE]">پەیوەستکردنی بەرنامەیەکی دووەم</string>
+    <string name="one_app_onboarding_notification_summary" description="Summary of notification to take users to a page where they can connect a second app to Health Connect [CHAR_LIMIT=NONE]">بەرنامەیەکی تر لەگەڵ Health Connect ڕێک بخە تا بتوانێت دەست بکات بە هاوبەشیکردنی داتای لەشجوانی و تەندروستی</string>
+    <string name="devices_current_device" description="Preference summary text that indicates that the specified device is the current device (phone) rather than a peripheral device such as a watch. [CHAR_LIMIT=40]">ئامێری ئێستا</string>
+    <string name="devices_unknown_device" description="Fallback string for a device that isn't recognised or has no name. [CHAR_LIMIT=40]">ئامێری نەناسراو</string>
+    <string name="device_management_screen_title" description="Title for the device management screen. [CHAR_LIMIT=40]">زانیاریی ئامێر</string>
+    <string name="device_management_screen_footer" description="Footer text that explains the consequences of enabling tracking of device data. [CHAR_LIMIT=NONE]">ئەو داتایەی لەلایەن ئەم ئامێرەوە کۆ دەکرێتەوە لە Health Connect پاشەکەوت دەکرێت، کە بەرنامە پەیوەستکراوەکان دەستیان پێی دەگات</string>
+    <string name="device_management_screen_no_step_sensor_footer" description="Footer text that explains that this device does not have a steps sensor but still has data stored. [CHAR_LIMIT=NONE]">ئەم ئامێرە پاڵپشتیی هەژمارکردنی هەنگاو ناکات، بەڵام هێشتا داتای لە Health Connect پاشەکەوت کراوە</string>
+    <string name="device_management_screen_no_step_sensor_header" description="Header to display when the device does not have a steps sensor. [CHAR_LIMIT=100]">ئەم ئامێرە هەنگاوەکان هەژمار ناکات</string>
+    <string name="device_data_screen_title" description="Title for the device data screen. [CHAR_LIMIT=40]">داتای ئامێر</string>
+    <string name="device_data_label" description="Label for the device settings category. [CHAR_LIMIT=40]">بەڕێوەبردنی ئامێر</string>
+    <string name="device_data_button" description="Button for taking users to device data screen. [CHAR_LIMIT=40]">بینینی داتای ئامێر</string>
+    <string name="native_steps_banner_title" description="Title of banner for native step tracking in Health Connect. [CHAR_LIMIT=100]">ئەو هەنگاوانەی لەسەر مۆبایلەکەت هەژمار کراون لە Health Connect دەردەکەون</string>
+    <string name="native_steps_banner_summary" description="Description of banner for native step tracking in Health Connect. [CHAR_LIMIT=NONE]">ئەو هەنگاوانەی لەلایەن ئەم ئامێرەوە هەژمار کراون ئێستا لە Health Connect پاشەکەوت کراون تا بەرنامە پەیوەستکراوەکان دەستیان پێی بگات</string>
+    <string name="native_steps_banner_dismiss_button" description="Button to dismiss the banner for native step tracking in Health Connect. [CHAR_LIMIT=NONE]">لابردن</string>
+    <string name="native_steps_banner_review_button" description="Button of banner to take users to a page where they can review device access to Health Connect. [CHAR_LIMIT=NONE]">پێداچوونەوە</string>
+    <string name="native_steps_notification_title" description="Title of notification for native step tracking in Health Connect. [CHAR_LIMIT=NONE]">هەنگاوەکان ئێستا لە Health Connectـدان</string>
+    <string name="native_steps_notification_content" description="Description of notification for native step tracking in Health Connect. [CHAR_LIMIT=NONE]">ئەو هەنگاوانەی لەلایەن ئەم ئامێرەوە هەژمار کراون ئێستا لە Health Connect پاشەکەوت کراون تا بەرنامە پەیوەستکراوەکان دەستیان پێی بگات</string>
+    <string name="banner_default_dismiss_button" description="Default button to dismiss a banner in Health Connect [CHAR_LIMIT=NONE]">نەک ئێستا</string>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_permanently_delete">سڕینەوە بە هەمیشەیی</string>
+    <string name="menu_move_to_trash">گواستنەوە بۆ زبڵدان</string>
+    <string name="menu_restore_from_trash">گەڕاندنەوە</string>
+    <string name="menu_zip">پەستۆکردن (Zip)</string>
+    <string name="menu_extract_all">دەرکردنی هەموو...</string>
+    <string name="menu_browse">گەڕان</string>
+    <string name="button_show_in_folder">بینین لە بوخچەکەدا</string>
+    <string name="root_trash">زبڵدان</string>
+    <string name="no_application_dialog_title">کردنەوە بە...</string>
+    <string name="no_application_dialog_message">هیچ بەرنامەیەکی پاڵپشتیکراو دانەمەزراوە. هەوڵ بدە لە ڕێگەی Play Storeەوە دایبمەزرێنیت.</string>
+    <string name="no_application_dialog_button">گەڕان لە Play Store</string>
+    <string name="move_to_trash_notification_title">گواستنەوە بۆ زبڵدان</string>
+    <string name="restore_from_trash_notification_title">گەڕاندنەوەی پەڕگەکان</string>
+    <string name="trashing">{count, plural,
+        =1 {گواستنەوەی <xliff:g id="count" example="1">{count}</xliff:g> تەن بۆ زبڵدان}
+        other {گواستنەوەی <xliff:g id="count" example="3">{count}</xliff:g> تەن بۆ زبڵدان}
+    }</string>
+    <string name="restoring_from_trash">{count, plural,
+        =1 {گەڕاندنەوەی <xliff:g id="count" example="1">{count}</xliff:g> تەن لە زبڵدان}
+        other {گەڕاندنەوەی <xliff:g id="count" example="3">{count}</xliff:g> تەن لە زبڵدان}
+    }</string>
+    <string name="copy_error_notification_title">{count, plural,
+        =1 {لەبەرگرتنەوەی <xliff:g id="count" example="1">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+        other {لەبەرگرتنەوەی <xliff:g id="count" example="2">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+    }</string>
+    <string name="compress_error_notification_title">{count, plural,
+        =1 {پەستۆکردنی <xliff:g id="count" example="1">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+        other {پەستۆکردنی <xliff:g id="count" example="2">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+    }</string>
+    <string name="extract_error_notification_title">{count, plural,
+        =1 {دەرکردنی <xliff:g id="count" example="1">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+        other {دەرکردنی <xliff:g id="count" example="2">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+    }</string>
+    <string name="move_error_notification_title">{count, plural,
+        =1 {گواستنەوەی <xliff:g id="count" example="1">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+        other {گواستنەوەی <xliff:g id="count" example="2">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+    }</string>
+    <string name="delete_error_notification_title">{count, plural,
+        =1 {سڕینەوەی <xliff:g id="count" example="1">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+        other {سڕینەوەی <xliff:g id="count" example="2">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+    }</string>
+    <string name="move_to_trash_error_notification_title">{count, plural,
+        =1 {گواستنەوەی <xliff:g id="count" example="1">{count}</xliff:g> تەن بۆ زبڵدان سەرکەوتوو نەبوو}
+        other {گواستنەوەی <xliff:g id="count" example="2">{count}</xliff:g> تەن بۆ زبڵدان سەرکەوتوو نەبوو}
+    }</string>
+    <string name="restore_from_trash_error_notification_title">{count, plural,
+        =1 {گەڕاندنەوەی <xliff:g id="count" example="1">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+        other {گەڕاندنەوەی <xliff:g id="count" example="2">{count}</xliff:g> تەن سەرکەوتوو نەبوو}
+    }</string>
+    <string name="read_only_label">تەنها-خوێندنەوە</string>
+    <string name="read_only_explanation">دەتوانیت ئەم پەڕگانە ببینیت بەڵام هەندێک کردار پاڵپشتی ناکرێن</string>
+    <string name="cannot_extract_in_read_only_folder">ئەم پەستۆکە (Archive) لە شوێنێکی «تەنها-خوێندنەوە»دایە و ناتوانرێت لێرە دەر بێت.</string>
+    <string name="copy_in_progress">{count, plural,
+        =1 {لەبەرگرتنەوەی «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>» بۆ «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
+        other {لەبەرگرتنەوەی # پەڕگە بۆ «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
+    }</string>
+    <string name="extract_in_progress">{count, plural,
+        =1 {دەرکردنی «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>» بۆ «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
+        other {دەرکردنی # پەستۆک بۆ «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
+    }</string>
+    <string name="move_in_progress">{count, plural,
+        =1 {گواستنەوەی «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>» بۆ «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
+        other {گواستنەوەی # پەڕگە بۆ «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
+    }</string>
+    <string name="delete_in_progress">{count, plural,
+        =1 {سڕینەوەی «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>»}
+        other {سڕینەوەی # پەڕگە}
+    }</string>
+    <string name="trash_in_progress">{count, plural,
+        =1 {گواستنەوەی <xliff:g id="count" example="1">{count}</xliff:g> تەن بۆ زبڵدان}
+        other {گواستنەوەی <xliff:g id="count" example="3">{count}</xliff:g> تەن بۆ زبڵدان}
+    }</string>
+    <string name="restore_in_progress">{count, plural,
+        =1 {گەڕاندنەوەی <xliff:g id="count" example="1">{count}</xliff:g> تەن لە زبڵدان}
+        other {گەڕاندنەوەی <xliff:g id="count" example="3">{count}</xliff:g> تەن لە زبڵدان}
+    }</string>
+    <string name="compress_in_progress">{count, plural,
+        =1 {پەستۆکردنی «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>»}
+        other {پەستۆکردنی # پەڕگە}
+    }</string>
+    <string name="job_progress_icon_label">پیشاندانی پێشڕەویی پەڕگە</string>
+    <string name="job_progress_panel_title">پێشڕەویی پەڕگە</string>
+    <string name="job_progress_item_completed">تەواو بوو</string>
+    <string name="job_progress_item_canceled">هەڵوەشێنرایەوە</string>
+    <string name="job_progress_item_see_details">بینینی وردەکارییەکان</string>
+    <string name="job_progress_item_byte_progress">        <xliff:g id="currentBytes" example="2.4 MB">%1$s</xliff:g> لە <xliff:g id="totalBytes" example="50 MB">%2$s</xliff:g>
+    </string>
+    <string name="copy_completed">لەبەر گیرا</string>
+    <string name="move_completed">گوازرایەوە</string>
+    <string name="delete_completed">سڕدرایەوە</string>
+    <string name="compress_completed">پەستۆ کرا</string>
+    <string name="extract_completed">دەرکرا</string>
+    <string name="copy_failed">ناتوانرێت لەبەر بگیرێت</string>
+    <string name="move_failed">ناتوانرێت بگوازرێتەوە</string>
+    <string name="delete_failed">ناتوانرێت بسڕدرێتەوە</string>
+    <string name="compress_failed">ناتوانرێت پەستۆ بکرێت</string>
+    <string name="extract_failed">ناتوانرێت دەر بکرێت</string>
+    <string name="expand_label">فراوانکردن</string>
+    <string name="collapse_label">کۆکردنەوە</string>
+    <string name="clear_selection">لادانی دیاریکردن</string>
+    <string name="document_click_action">کردنەوە</string>
+    <string name="selected_document_click_action">لادانی دیاریکردن</string>
+    <string name="document_long_click_action">دیاریکردن</string>
+    <string name="selected_document_long_click_action">ڕاکێشان</string>
+    <string name="document_long_click_action_picker">دیاریکردنی چەند تەن</string>
+    <string name="new_archive_file_name_2">پەستۆک (Archive)</string>
+    <string name="search_bar_clear">پاککردنەوەی دەق</string>
+    <string name="search_location_root_folder">بوخچەی ڕیشە (Root)</string>
+    <string name="search_location_everywhere">هەموو شوێنێک</string>
+    <string name="search_last_modified_any_time">هەر کاتێک</string>
+    <string name="search_last_modified_1_day">ئەمڕۆ</string>
+    <string name="search_last_modified_2_days">دوێنێ</string>
+    <string name="search_last_modified_7_days">هەفتەی ڕابردوو</string>
+    <string name="search_last_modified_30_days">مانگی ڕابردوو</string>
+    <string name="search_last_modified_365_days">ساڵی ڕابردوو</string>
+    <string name="search_file_type_all">تەواوی جۆرەکان</string>
+    <string name="bullet">\u2022</string>
+    <string name="file_name_hint">ناوی پەڕگە</string>
+    <string name="peek_no_preview">هیچ پێشبینییەک بەردەست نییە</string>
+    <string name="peek_metadata_header_title">وردەکارییەکان</string>
+    <string name="peek_metadata_general_info_title">زانیاریی گشتی</string>
+    <string name="peek_metadata_date_modified">گۆڕانکاری کراوە لە</string>
+    <string name="a11y_peek_navigation_icon">شاردنەوەی پێشبینیی پەڕگە</string>
+    <string name="a11y_peek_image_preview">پێشبینی وێنەی <xliff:g id="filename" example="image.png">%s</xliff:g></string>
+    <string name="a11y_peek_hide_info_button">شاردنەوەی پانێڵی زانیاری</string>
+    <string name="a11y_peek_show_info_button">پیشاندانی پانێڵی زانیاری</string>
+</resources>
