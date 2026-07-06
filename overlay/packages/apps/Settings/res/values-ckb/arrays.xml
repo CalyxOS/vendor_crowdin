@@ -18,10 +18,513 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="screen_timeout_entries">
+        <item>15 چرکە</item>
+        <item>30 چرکە</item>
+        <item>1 خولەک</item>
+        <item>2 خولەک</item>
+        <item>5 خولەک</item>
+        <item>10 خولەک</item>
+        <item>30 خولەک</item>
+    </string-array>
+    <string-array name="dark_ui_scheduler_preference_titles">
+        <item>@string/dark_ui_auto_mode_never</item>
+        <item>@string/dark_ui_auto_mode_custom</item>
+        <item>@string/dark_ui_auto_mode_auto</item>
+    </string-array>
+    <string-array name="dark_ui_scheduler_with_bedtime_preference_titles">
+        <item>@string/dark_ui_auto_mode_never</item>
+        <item>@string/dark_ui_auto_mode_custom</item>
+        <item>@string/dark_ui_auto_mode_auto</item>
+        <item>@string/dark_ui_auto_mode_custom_bedtime</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>دەستبەجێ</item>
+        <item>5 چرکە</item>
+        <item>15 چرکە</item>
+        <item>30 چرکە</item>
+        <item>1 خولەک</item>
+        <item>2 خولەک</item>
+        <item>5 خولەک</item>
+        <item>10 خولەک</item>
+        <item>30 خولەک</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item/>
+        <item>لە گەڕاندایە\u2026</item>
+        <item>لە پەیوەستبووندایە\u2026</item>
+        <item>لە پشتڕاستکردنەوەدایە\u2026</item>
+        <item>وەرگرتنی ناونیشانی IP\u2026</item>
+        <item>پەیوەست بوو</item>
+        <item>ڕاگیراوە</item>
+        <item>لە پچڕاندندایە\u2026</item>
+        <item>پەیوەندی پچڕاوە</item>
+        <item>سەرکەوتوو نەبوو</item>
+        <item>بلۆککراوە</item>
+        <item>بە شێوەیەکی کاتی لە پەیوەندیی لاواز دوور دەکەوێتەوە</item>
+    </string-array>
+    <string-array name="wifi_tether_security">
+        <item>@string/wifi_security_sae</item>
+        <item>@string/wifi_security_psk_sae</item>
+        <item>@string/wifi_security_wpa2</item>
+        <item>@string/wifi_security_none</item>
+    </string-array>
     <string-array name="eap_ocsp_type" translatable="true">
         <item>پشکنین مەکە</item>
         <item>داواکردنی دۆخی بڕوانامە</item>
         <item>پێویستکردنی دۆخی بڕوانامە</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>پەیوەست بوو</item>
+        <item>بانگهێشتکراوە</item>
+        <item>سەرکەوتوو نەبوو</item>
+        <item>بەردەستە</item>
+        <item>لە دەرەوەی مەودایە</item>
+    </string-array>
+    <string-array name="bt_stack_log_level_entries">
+        <item>Verbose</item>
+        <item>Debug</item>
+        <item>Info</item>
+        <item>Warn</item>
+        <item>Error</item>
+    </string-array>
+    <string-array name="bluetooth_leaudio_mode">
+        <item>Disabled</item>
+        <item>Unicast</item>
+        <item>Unicast and Broadcast</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>بەکارهێنانی بنەڕەتیی سیستم: <xliff:g id="default_bluetooth_max_connected_audio_devices">%1$d</xliff:g></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_audio_routing_titles">
+        <item>بەکارهێنانی بنەڕەتی بەرنامە</item>
+        <item>لێدان لەسەر ئامێری بیستن</item>
+        <item>لێدان لەسەر سپیکەری مۆبایل</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>لاواز</item>
+        <item>لاواز</item>
+        <item>مامناوەند</item>
+        <item>باش</item>
+        <item>نایاب</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ttls_phase2_entries">
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>هیچ</item>
+        <item>دەستی</item>
+        <item>Proxy Auto-Config</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>هیچ</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP یان CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>دیارینەکراو</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+        <item>NR</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>هیچ</item>
+        <item translatable="false">SPN</item>
+        <item translatable="false">IMSI</item>
+        <item translatable="false">GID</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>شوێنی مەزندەیی</item>
+        <item>شوێنی ورد</item>
+        <item>GPS</item>
+        <item>لەرینەوە</item>
+        <item>خوێندنەوەی ناوەکان</item>
+        <item>دەستکاریکردنی ناوەکان</item>
+        <item>خوێندنەوەی تۆماری پەیوەندییەکان</item>
+        <item>دەستکاریکردنی تۆماری پەیوەندییەکان</item>
+        <item>خوێندنەوەی ڕۆژژمێر</item>
+        <item>دەستکاریکردنی ڕۆژژمێر</item>
+        <item>گەڕانی Wi-Fi</item>
+        <item>ئاگادارکردنەوە</item>
+        <item>گەڕانی هێڵ</item>
+        <item>پەیوەندیکردن بە مۆبایل</item>
+        <item>خوێندنەوەی کورتەنامە</item>
+        <item>نووسینی کورتەنامە</item>
+        <item>وەرگرتنی کورتەنامە</item>
+        <item>وەرگرتنی کورتەنامەی بەپەلە</item>
+        <item>وەرگرتنی MMS</item>
+        <item>وەرگرتنی WAP push</item>
+        <item>ناردنی کورتەنامە</item>
+        <item>خوێندنەوەی ICC کورتەنامە</item>
+        <item>نووسینی ICC کورتەنامە</item>
+        <item>دەستکاریکردنی ڕێکخستنەکان</item>
+        <item>پیشاندان لە سەرەوە</item>
+        <item>دەستپێڕاگەیشتن بە ئاگادارکردنەوەکان</item>
+        <item>کامێرا</item>
+        <item>تۆمارکردنی دەنگ</item>
+        <item>لێدانی دەنگ</item>
+        <item>خوێندنەوەی تەختەی کاتی</item>
+        <item>دەستکاریکردنی تەختەی کاتی</item>
+        <item>دوگمەکانی میدیا</item>
+        <item>فۆکەسی دەنگ</item>
+        <item>دەنگی سەرەکی</item>
+        <item>دەنگی تەلەفۆن</item>
+        <item>دەنگی زەنگ</item>
+        <item>دەنگی میدیا</item>
+        <item>دەنگی زەنگی بێدارکەرەوە</item>
+        <item>دەنگی ئاگادارکردنەوە</item>
+        <item>دەنگی بلوتووس</item>
+        <item>بە خەبەر هێشتنەوە</item>
+        <item>چاودێریکردنی شوێن</item>
+        <item>چاودێریکردنی شوێن بە وزەی بەرز</item>
+        <item>وەرگرتنی ئاماری بەکارهێنان</item>
+        <item>بێدەنگکردن/بێدەنگنەکردنی مایکڕۆفۆن</item>
+        <item>پیشاندانی نامەی خێرا</item>
+        <item>پەخشکردنی میدیا</item>
+        <item>چالاککردنی VPN</item>
+        <item>دانانی وێنەی پاشبنەما</item>
+        <item>پێکهاتەی یارمەتیدەر</item>
+        <item>وێنەی ڕوونمای یارمەتیدەر</item>
+        <item>خوێندنەوەی دۆخی مۆبایل</item>
+        <item>زیادکردنی پەیامی دەنگی</item>
+        <item>بەکارهێنانی SIP</item>
+        <item>جێبەجێکردنی پەیوەندیی دەرچوو</item>
+        <item>پەنجەمۆر</item>
+        <item>هەستەوەرەکانی جەستە</item>
+        <item>خوێندنەوەی ئاگادارکردنەوەکانی تۆڕ</item>
+        <item>شوێنی ساختە</item>
+        <item>خوێندنەوەی بیرگە</item>
+        <item>نووسین لە بیرگە</item>
+        <item>پێکردنی ڕوونما</item>
+        <item>وەرگرتنی هەژمارەکان</item>
+        <item>کارکردن لە پشتەوە</item>
+        <item>دەنگی ئاسانکاریی دەستپێڕاگەیشتن</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>شوێن</item>
+        <item>شوێن</item>
+        <item>شوێن</item>
+        <item>لەرینەوە</item>
+        <item>خوێندنەوەی ناوەکان</item>
+        <item>دەستکاریکردنی ناوەکان</item>
+        <item>خوێندنەوەی تۆماری پەیوەندییەکان</item>
+        <item>دەستکاریکردنی تۆماری پەیوەندییەکان</item>
+        <item>خوێندنەوەی ڕۆژژمێر</item>
+        <item>دەستکاریکردنی ڕۆژژمێر</item>
+        <item>شوێن</item>
+        <item>ناردنی ئاگادارکردنەوە</item>
+        <item>شوێن</item>
+        <item>پەیوەندیکردن بە مۆبایل</item>
+        <item>خوێندنەوەی کورتەنامە/MMS</item>
+        <item>نووسینی کورتەنامە/MMS</item>
+        <item>وەرگرتنی کورتەنامە/MMS</item>
+        <item>وەرگرتنی کورتەنامە/MMS</item>
+        <item>وەرگرتنی کورتەنامە/MMS</item>
+        <item>وەرگرتنی کورتەنامە/MMS</item>
+        <item>ناردنی کورتەنامە/MMS</item>
+        <item>خوێندنەوەی کورتەنامە/MMS</item>
+        <item>نووسینی کورتەنامە/MMS</item>
+        <item>دەستکاریکردنی ڕێکخستنەکان</item>
+        <item>پیشاندان لە سەرەوە</item>
+        <item>دەستپێڕاگەیشتن بە ئاگادارکردنەوەکان</item>
+        <item>کامێرا</item>
+        <item>تۆمارکردنی دەنگ</item>
+        <item>لێدانی دەنگ</item>
+        <item>خوێندنەوەی تەختەی کاتی</item>
+        <item>دەستکاریکردنی تەختەی کاتی</item>
+        <item>دوگمەکانی میدیا</item>
+        <item>فۆکەسی دەنگ</item>
+        <item>دەنگی سەرەکی</item>
+        <item>دەنگی تەلەفۆن</item>
+        <item>دەنگی زەنگ</item>
+        <item>دەنگی میدیا</item>
+        <item>دەنگی زەنگی بێدارکەرەوە</item>
+        <item>دەنگی ئاگادارکردنەوە</item>
+        <item>دەنگی بلوتووس</item>
+        <item>بە خەبەر هێشتنەوە</item>
+        <item>شوێن</item>
+        <item>شوێن</item>
+        <item>وەرگرتنی ئاماری بەکارهێنان</item>
+        <item>بێدەنگکردن/بێدەنگنەکردنی مایکڕۆفۆن</item>
+        <item>پیشاندانی نامەی خێرا</item>
+        <item>ڕەنگدانەوەی میدیا</item>
+        <item>چالاککردنی VPN</item>
+        <item>دانانی وێنەی پاشبنەما</item>
+        <item>پێکهاتەی یارمەتیدەر</item>
+        <item>وێنەی ڕوونمای یارمەتیدەر</item>
+        <item>خوێندنەوەی دۆخی مۆبایل</item>
+        <item>زیادکردنی پەیامی دەنگی</item>
+        <item>بەکارهێنانی SIP</item>
+        <item>جێبەجێکردنی پەیوەندیی دەرچوو</item>
+        <item>پەنجەمۆر</item>
+        <item>هەستەوەرەکانی جەستە</item>
+        <item>خوێندنەوەی وەشانی هێڵەکان</item>
+        <item>شوێنی ساختە</item>
+        <item>خوێندنەوەی بیرگە</item>
+        <item>نووسین لە بیرگە</item>
+        <item>پێکردنی ڕوونما</item>
+        <item>وەرگرتنی هەژمارەکان</item>
+        <item>کارکردن لە پشتەوە</item>
+        <item>دەنگی ئاسانکاریی دەستپێڕاگەیشتن</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>کورت</item>
+        <item>مامناوەند</item>
+        <item>درێژ</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_list_titles">
+        <item>کورت</item>
+        <item>مامناوەند</item>
+        <item>درێژ</item>
+    </string-array>
+    <string-array name="ethernet_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>بنەڕەتی</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>زۆر بچووک</item>
+        <item>بچووک</item>
+        <item>مامناوەند</item>
+        <item>گەورە</item>
+        <item>زۆر گەورە</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>بنەڕەتی</item>
+        <item>هیچ</item>
+        <item>هێڵی دەرەکی</item>
+        <item>سێبەر</item>
+        <item>بەرزکراوە</item>
+        <item>نزمکراوە</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>دیاریکراو لەلایەن بەرنامەوە</item>
+        <item>سپی لەسەر ڕەش</item>
+        <item>ڕەش لەسەر سپی</item>
+        <item>زەرد لەسەر ڕەش</item>
+        <item>زەرد لەسەر شین</item>
+        <item>تایبەت</item>
+    </string-array>
+    <string-array name="accessibility_button_location_selector_titles">
+        <item>پیشاندان لەسەروی بەرنامەکانی ترەوە</item>
+        <item>شریتی ڕێدۆزی</item>
+    </string-array>
+    <string-array name="accessibility_button_size_selector_titles">
+        <item>بچووک</item>
+        <item>گەورە</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>هیچ</item>
+        <item>دەستی</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>پەیوەندی پچڕاوە</item>
+        <item>دەستپێکردن\u2026</item>
+        <item>لە پەیوەستبووندایە\u2026</item>
+        <item>پەیوەست بوو</item>
+        <item>کاتی بەسەرچوو</item>
+        <item>سەرکەوتوو نەبوو</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>پرسکردن</item>
+        <item>هەرگیز ڕێگە مەدە</item>
+        <item>هەمیشە ڕێگە بدە</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>ئاسایی</item>
+        <item>مامناوەند</item>
+        <item>کەم</item>
+        <item>گرنگ</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>شینی کاڵ</item>
+        <item>شین</item>
+        <item>سەوز</item>
+        <item>مۆر</item>
+        <item>پەمەیی</item>
+        <item>پرتەقاڵی</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>کۆنتر لە 30 ڕۆژ</item>
+        <item>کۆنتر لە 60 ڕۆژ</item>
+        <item>کۆنتر لە 90 ڕۆژ</item>
+    </string-array>
+    <string-array name="swipe_direction_titles">
+        <item>@string/swipe_direction_rtl</item>
+        <item>@string/swipe_direction_ltr</item>
+    </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>دۆزینەوە بە شێوازی خۆکار</item>
+        <item>مامەڵەکردن وەک هێڵی سنووردار</item>
+        <item>مامەڵەکردن وەک هێڵی بێسنوور</item>
+    </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>Use randomized MAC</item>
+        <item>بەکارهێنانی MACی ئامێرەکە</item>
+    </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>نەخێر</item>
+        <item>بەڵێ</item>
+    </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>کوژاوە</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>تەنها ناوخۆیی</item>
+        <item>خۆکار</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>GSM/WCDMAی پەسەندکراو</item>
+        <item>تەنها GSM</item>
+        <item>تەنها WCDMA</item>
+        <item>GSM/WCDMAی خۆکار</item>
+        <item>CDMA/EvDoی خۆکار</item>
+        <item>CDMA بەبێ EvDo</item>
+        <item>تەنها EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>LTE</item>
+        <item>LTE / WCDMA</item>
+        <item>تەنها TDSCDMA</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA </item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>تەنها NR</item>
+        <item>NR/LTE</item>
+        <item>NR/LTE/CDMA/EvDo</item>
+        <item>NR/LTE/GSM/WCDMA</item>
+        <item>جیهانی</item>
+        <item>NR/LTE/WCDMA</item>
+        <item>NR/LTE/TDSCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM</item>
+        <item>NR/LTE/TDSCDMA/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="enhanced_4g_lte_mode_title_variant">
+        <item>@string/enhanced_4g_lte_mode_title</item>
+        <item>@string/enhanced_4g_lte_mode_title_advanced_calling</item>
+        <item>@string/enhanced_4g_lte_mode_title_4g_calling</item>
+    </string-array>
+    <string-array name="rtt_setting_mode">
+        <item/>
+        <item>@string/rtt_settings_no_visible</item>
+        <item>@string/rtt_settings_visible_during_call</item>
+        <item>@string/rtt_settings_always_visible</item>
+    </string-array>
+    <string-array name="nfc_payment_favor">
+        <item>هەمیشە</item>
+        <item>جگە لە کاتێک کە بەرنامەیەکی تری پارەدان کراوە بێت</item>
+    </string-array>
+    <string-array name="nfc_payment_favor_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="switch_to_dock_user_when_docked_timeout_entries">
+        <item>هەرگیز</item>
+        <item>دوای 1 خولەک</item>
+        <item>دوای 5 خولەک</item>
+    </string-array>
+    <string-array name="ingress_rate_limit_entries">
+        <item>@string/ingress_rate_limit_no_limit_entry</item>
+        <item>128kbps</item>
+        <item>256kbps</item>
+        <item>1Mbps</item>
+        <item>5Mbps</item>
+        <item>15Mbps</item>
+    </string-array>
+    <string-array name="ingress_rate_limit_values">
+        <item>-1</item>
+        <item>16000</item>
+        <item>32000</item>
+        <item>125000</item>
+        <item>625000</item>
+        <item>1875000</item>
+        </string-array>
+    <string-array name="temperature_units">
+        <item>default</item>
+        <item>celsius</item>
+        <item>fahrenhe</item>
+    </string-array>
+    <string-array name="first_day_of_week">
+        <item>default</item>
+        <item>sun</item>
+        <item>mon</item>
+        <item>tue</item>
+        <item>wed</item>
+        <item>thu</item>
+        <item>fri</item>
+        <item>sat</item>
     </string-array>
     <string-array name="measurement_system">
         <item>default</item>
@@ -29,8 +532,19 @@
         <item>ussystem</item>
         <item>uksystem</item>
     </string-array>
+    <string-array name="terms_of_address_supported_languages">
+        <item>fr</item>
+        <item>es</item>
+        <item>it</item>
+        <item>de</item>
+        </string-array>
+    <string-array name="private_space_auto_lock_options">
+        <item>@string/private_space_auto_lock_every_time</item>
+        <item>@string/private_space_auto_lock_after_inactivity</item>
+        <item>@string/private_space_auto_lock_after_device_restart</item>
+    </string-array>
     <string-array name="action_corner_action_titles">
-        <item>None</item>
+        <item>هیچ</item>
         <item>ماڵەوە</item>
         <item>بەرنامەکانی ئەم دواییانە</item>
         <item>ئاگادارییەکان</item>
