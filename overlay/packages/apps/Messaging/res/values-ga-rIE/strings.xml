@@ -31,6 +31,14 @@
     <string name="enable_permission_procedure">Is féidir leat ceadanna a athrú i Socruithe &gt; Aipeanna &gt; Teachtaireachtaí &gt; Ceadanna.</string>
     <string name="enable_permission_procedure_description">Is féidir leat ceadanna a athrú i Socruithe, Aipeanna, Teachtaireachtaí, Ceadanna.</string>
     <string name="contact_picker_frequents_tab_title">Go minic</string>
+    <string name="contact_picker_all_contacts_tab_title">Gach teagmhálaí</string>
+    <string name="contact_list_send_to_text">Seol chuig <xliff:g id="destination">%s</xliff:g></string>
+    <string name="mediapicker_cameraChooserDescription">Tóg pictiúir nó físeán</string>
+    <string name="mediapicker_galleryChooserDescription">Roghnaigh íomhánna ón bhfeiste seo</string>
+    <string name="mediapicker_audioChooserDescription">Taifead fuaim</string>
+    <string name="mediapicker_contactChooserDescription">Roghnaigh teagmhálaí ón bhfeiste seo</string>
+    <string name="mediapicker_gallery_title">Roghnaigh meán</string>
+    <string name="mediapicker_gallery_item_selected_content_description">Tá na meáin roghnaithe.</string>
     <string name="action_share">Comhroinn</string>
     <string name="save">Sábháil</string>
     <string name="enter_phone_number_hint">Uimhir theileafóin</string>
@@ -102,7 +110,32 @@
     <string name="failed_message_content_description">Teachtaireacht theipithe. Tapáil le hathiarracht a dhéanamh.</string>
     <string name="delete_subject_content_description">Scrios ábhar</string>
     <string name="settings_activity_title">Socruithe</string>
+    <string name="archived_activity_title">Cartlannaithe</string>
+    <string name="mms_messaging_category_pref_title">MMS</string>
+    <string name="advanced_category_pref_title">Ardleibhéal</string>
+    <string name="notifications_pref_title">Fógraí</string>
+    <string name="delivery_reports_pref_title">Tuairiscí seachadta SMS</string>
+    <string name="delivery_reports_pref_summary">Iarr tuairisc seachadta do gach SMS a sheolann tú</string>
+    <string name="auto_retrieve_mms_pref_title">Aisghabháil uathoibríoch</string>
+    <string name="auto_retrieve_mms_pref_summary">Faigh teachtaireachtaí MMS go huathoibríoch</string>
+    <string name="auto_retrieve_mms_when_roaming_pref_title">Afháil ar ais go huathoibríoch le linn fánaíochta</string>
+    <string name="auto_retrieve_mms_when_roaming_pref_summary">Faigh MMS go huathoibríoch agus tú ag fánaíocht</string>
+    <string name="group_mms_pref_title">Teachtaireachtaí grúpa</string>
+    <string name="sms_enabled_pref_title">Aip SMS réamhshocraithe</string>
+    <string name="default_sms_app"><xliff:g id="ainm_aipe">%s</xliff:g></string>
+    <string name="mms_phone_number_pref_title">Do uimhir theileafóin</string>
     <string name="unknown_phone_number_pref_display_value">Anaithnid</string>
+    <string name="send_sound_pref_title">Fuaimeanna teachtaireachtaí atá á seoladh</string>
+    <string name="message_context_menu_copy_text">Cóipeáil an téacs</string>
+    <string name="message_context_menu_view_details">Féach na sonraí</string>
+    <string name="message_context_menu_forward_message">Réamhrá</string>
+    <string name="message_details_title">Sonraí na teachtaireachta</string>
+    <string name="message_type_label">Cineál:\u0020</string>
+    <string name="text_message">Teachtaireacht téacs</string>
+    <string name="multimedia_message">Teachtaireacht ilmheán</string>
+    <string name="from_label">Ó:\u0020</string>
+    <string name="to_address_label">Chuig:\u0020</string>
+    <string name="sent_label">Seolta:\u0020</string>
     <string name="received_label">Faighte:\u0020</string>
     <string name="subject_label">Ábhar:\u0020</string>
     <string name="message_size_label">Méid:\u0020</string>
@@ -129,6 +162,48 @@
     <string name="action_call">Déan glao</string>
     <string name="compose_message_view_hint_text">Seol teachtaireacht</string>
     <string name="compose_message_view_hint_text_multi_sim">Seol teachtaireacht<br/>&lt;small&gt;ó <xliff:g id="sim_name">%s</xliff:g>&lt;/small&gt;</string>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">Seol grianghraf</item>
+        <item quantity="two">Seol grianghraif</item>
+        <item quantity="few">Seol grianghraif</item>
+        <item quantity="many">Seol grianghraif</item>
+        <item quantity="other">Seol grianghraif</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">Seol fuaim</item>
+        <item quantity="two">Seol fuaimeanna</item>
+        <item quantity="few">Seol fuaimeanna</item>
+        <item quantity="many">Seol fuaimeanna</item>
+        <item quantity="other">Seol fuaimeanna</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">Seol físeán</item>
+        <item quantity="two">Seol físeáin</item>
+        <item quantity="few">Seol físeáin</item>
+        <item quantity="many">Seol físeáin</item>
+        <item quantity="other">Seol físeáin</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">Seol cárta teagmhála</item>
+        <item quantity="two">Seol cártaí teagmhála</item>
+        <item quantity="few">Seol cártaí teagmhála</item>
+        <item quantity="many">Seol cártaí teagmhála</item>
+        <item quantity="other">Seol cártaí teagmhála</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">Seol ceangaltán</item>
+        <item quantity="two">Seol ceangaltáin</item>
+        <item quantity="few">Seol ceangaltáin</item>
+        <item quantity="many">Seol ceangaltáin</item>
+        <item quantity="other">Seol ceangaltáin</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">Ceangaltán amháin réidh le seoladh</item>
+        <item quantity="two"><xliff:g id="attachment_count">%d</xliff:g> ceangaltán réidh le seoladh</item>
+        <item quantity="few"><xliff:g id="attachment_count">%d</xliff:g> ceangaltán réidh le seoladh</item>
+        <item quantity="many"><xliff:g id="attachment_count">%d</xliff:g> ceangaltán réidh le seoladh</item>
+        <item quantity="other"><xliff:g id="attachment_count">%d</xliff:g> ceangaltán réidh le seoladh</item>
+    </plurals>
     <string name="menu_license">Ceadúnais foinse oscailte</string>
     <string name="notifications_enabled_conversation_pref_title">Fógraí</string>
     <string name="mms_attachment_limit_reached">Teorainn na gceangaltán sroichte</string>
@@ -140,6 +215,15 @@
     <string name="loading_vcard">Ag lódáil cárta teagmhála</string>
     <string name="failed_loading_vcard">Níorbh fhéidir an cárta teagmhála a lódáil</string>
     <string name="vcard_tap_hint">Féach ar chárta teagmhála</string>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> teagmháil</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> theagmhálaí</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> theagmhálaí</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> theagmhálaí</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> theagmhálaí</item>
+    </plurals>
+    <string name="vcard_detail_activity_title">Cártaí teagmhála</string>
+    <string name="vcard_detail_birthday_label">Breithlá</string>
     <string name="requires_sms_permissions_close_button">Ceart go leor</string>
     <string name="snack_bar_undo">Cuir ar ceal</string>
     <string name="block_confirmation_title">Blocáil <xliff:g id="destination">%s</xliff:g>?</string>

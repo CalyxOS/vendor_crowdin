@@ -14,10 +14,22 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="missing_rename_error">Caithfidh tú ainm nua a thabhairt air seo.</string>
+    <string name="add_folder_name_error">Caithfidh tú ainm fillteáin a chur leis.</string>
+    <string name="files_label">Comhaid</string>
+    <string name="downloads_label">Íoslódálacha</string>
     <string name="app_label">@string/files_label</string>
     <string name="launcher_label">@string/files_label</string>
+    <string name="title_open">Ar oscailt ó</string>
+    <string name="title_save">Sábháil chuig</string>
+    <string name="menu_create_dir">Fillteán nua</string>
+    <string name="menu_grid">Amharc greille</string>
+    <string name="menu_list">Amharc liosta</string>
     <string name="menu_search">Cuardaigh</string>
+    <string name="menu_settings">Socruithe stórála</string>
     <string name="menu_open">Oscail</string>
+    <string name="menu_open_with">Oscail le</string>
+    <string name="menu_open_in_new_window">Oscail i bhfuinneog nua</string>
     <string name="menu_save">Sábháil</string>
     <string name="menu_share">Comhroinn</string>
     <string name="menu_delete">Scrios</string>
@@ -25,7 +37,9 @@
     <string name="menu_move_to_trash">Bog go dtí an bruscar</string>
     <string name="menu_restore_from_trash">Athchóirigh</string>
     <string name="menu_select_all">Roghnaigh gach rud</string>
+    <string name="menu_deselect_all">Díroghnaigh gach rud</string>
     <string name="menu_select">Roghnaigh</string>
+    <string name="menu_sort">Sórtáil de réir...</string>
     <string name="menu_copy">Cóipeáil chuig\u2026</string>
     <string name="menu_move">Bog go\u2026</string>
     <string name="menu_compress">Comhbhrúigh</string>
@@ -141,6 +155,16 @@
         other {Ag athshlánú <xliff:g id="count" example="3">{count}</xliff:g> míreanna}
     }</string>
     <string name="undo">Cuir ar ceal</string>
+    <string name="copy_preparing">Ag ullmhú...</string>
+    <string name="compress_preparing">Ag ullmhú...</string>
+    <string name="extract_preparing">Ag ullmhú...</string>
+    <string name="move_preparing">Ag ullmhú...</string>
+    <string name="delete_preparing">Ag ullmhú...</string>
+    <string name="move_to_trash_preparing">Ag ullmhú...</string>
+    <string name="restore_from_trash_preparing">Ag ullmhú...</string>
+    <string name="delete_progress"><xliff:g id="count" example="3">%1$d</xliff:g> / <xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
+    <string name="move_to_trash_progress"><xliff:g id="count" example="3">%1$d</xliff:g> / <xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
+    <string name="restore_from_trash_progress"><xliff:g id="count" example="3">%1$d</xliff:g> / <xliff:g id="totalCount" example="5">%2$d</xliff:g></string>
     <string name="copy_error_notification_title">{count, plural,
         =1 {Níorbh fhéidir <xliff:g id="count" example="1">{count}</xliff:g> mír a chóipeáil}
         two {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a chóipeáil}

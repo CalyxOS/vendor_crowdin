@@ -14,11 +14,42 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="telecommAppLabel" product="default">Glaonna Gutháin</string>
     <string name="userCallActivityLabel" product="default">Fón</string>
     <string name="unknown">Anaithnid</string>
     <string name="private_num">Uimhir phríobháideach</string>
     <string name="payphone">Íocfhón</string>
+    <string name="notification_missedCallTitle">Glao caillte</string>
+    <string name="notification_missedWorkCallTitle">Glao oibre caillte</string>
+    <string name="notification_missedCallsTitle">Glaonna caillte</string>
+    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> glaonna caillte</string>
+    <string name="notification_missedCallTicker">Glao caillte ó <xliff:g id="missed_call_from">%s</xliff:g></string>
+    <string name="notification_missedCall_call_back">Glaoigh ar ais</string>
+    <string name="notification_missedCall_message">Teachtaireacht</string>
+    <string name="notification_disconnectedCall_title">Glao dícheangailte</string>
+    <string name="notification_disconnectedCall_body">Tá an glao chuig <xliff:g id="caller">%s</xliff:g> dícheangailte mar gheall ar ghlao éigeandála a chur.</string>
+    <string name="notification_disconnectedCall_generic_body">
+        Tá do ghlao dícheangailte mar gheall ar ghlao éigeandála a chur.
+    </string>
+    <string name="notification_audioProcessing_title">Glao cúlra</string>
+    <string name="notification_incallservice_not_responding_title">
+        Stop <xliff:g id="in_call_service_app_name">%s</xliff:g> ag freagairt
+    </string>
+    <string name="notification_incallservice_not_responding_body">
+        Úsáideadh an aip teileafóin a tháinig le do ghléas le do ghléas.
+    </string>
+    <string name="accessibility_call_muted">Glao balbhaithe.</string>
+    <string name="accessibility_speakerphone_enabled">Fón cainteoir cumasaithe.</string>
+    <string name="respond_via_sms_canned_response_1">Ní féidir liom labhairt anois. Cad atá ort?</string>
+    <string name="respond_via_sms_canned_response_2">Glaofaidh mé ar ais ort láithreach.</string>
+    <string name="respond_via_sms_canned_response_3">Glaofaidh mé ort níos déanaí.</string>
+    <string name="respond_via_sms_canned_response_4">Ní féidir liom labhairt anois. Glaoigh orm níos déanaí?</string>
+    <string name="respond_via_sms_setting_title">Freagraí tapa</string>
+    <string name="respond_via_sms_setting_title_2">Cuir freagraí tapa in eagar</string>
+    <string name="respond_via_sms_edittext_dialog_title">Freagra tapa</string>
     <string name="respond_via_sms_confirmation_format">Ag seoladh teachtaireachta chuig <xliff:g id="phone_number">%s</xliff:g>.</string>
+    <string name="respond_via_sms_failure_format">Theip ar an teachtaireacht a sheoladh chuig <xliff:g id="phone_number">%s</xliff:g>.</string>
+    <string name="enable_account_preference_title">Cuntais ghlaonna</string>
     <string name="outgoing_call_not_allowed_user_restriction">Ní cheadaítear ach glaonna éigeandála.</string>
     <string name="outgoing_call_not_allowed_no_permission">Ní féidir leis an aip seo glaonna amach a dhéanamh gan cead an ghutháin.</string>
     <string name="outgoing_call_error_no_phone_number_supplied">Chun glao a chur, cuir isteach uimhir bhailí.</string>
@@ -73,7 +104,35 @@
     <string name="answer_incoming_call">Freagra</string>
     <string name="decline_incoming_call">Diúltú</string>
     <string name="cant_call_due_to_no_supported_service">Ní féidir glaoch a dhéanamh. Seiceáil nasc do ghléis.</string>
+    <string name="cant_call_due_to_ongoing_call">Ní féidir glaoch a chur mar gheall ar do ghlao <xliff:g id="other_call">%1$s</xliff:g>.</string>
+    <string name="cant_call_due_to_ongoing_calls">Ní féidir glao a chur mar gheall ar do ghlaonna <xliff:g id="other_call">%1$s</xliff:g>.</string>
+    <string name="cant_call_due_to_ongoing_unknown_call">Ní féidir glao a chur mar gheall ar ghlao in aip eile.</string>
+    <string name="notification_channel_incoming_call">Glaonna isteach</string>
+    <string name="notification_channel_missed_call">Glaonna caillte</string>
+    <string name="notification_channel_call_blocking">Blocáil Glaonna</string>
+    <string name="notification_channel_background_calls">Glaonna cúlra</string>
+    <string name="notification_channel_disconnected_calls">Glaonna dícheangailte</string>
+    <string name="notification_channel_in_call_service_crash">Aipeanna gutháin tuairteáilte</string>
+    <string name="alert_outgoing_call">Cuirfidh an glao seo deireadh le do ghlao <xliff:g id="other_app">%1$s</xliff:g>.</string>
+    <string name="alert_redirect_outgoing_call_or_not">Roghnaigh conas an glao seo a chur</string>
+    <string name="alert_place_outgoing_call_with_redirection">Athsheol glao ag baint úsáide as <xliff:g id="other_app">%1$s</xliff:g></string>
+    <string name="alert_place_unredirect_outgoing_call">Glaoigh ag baint úsáide as m\'uimhir theileafóin</string>
+    <string name="alert_redirect_outgoing_call_timeout">Ní féidir le <xliff:g id="other_app">%1$s</xliff:g> glaoch a chur. Bain triail as aip atreoraithe glaonna eile nó déan teagmháil leis an bhforbróir le haghaidh cabhrach.</string>
+    <string name="phone_settings_call_blocking_txt">Blocáil Glaonna</string>
+    <string name="phone_settings_number_not_in_contact_txt">Uimhreacha nach bhfuil sna Teagmhálacha</string>
+    <string name="phone_settings_number_not_in_contact_summary_txt">Uimhreacha nach bhfuil liostaithe i do Theagmhálacha a bhlocáil</string>
+    <string name="phone_settings_private_num_txt">Príobháideach</string>
+    <string name="phone_settings_private_num_summary_txt">Glaoiteoirí nach nochtann a n-uimhir a bhlocáil</string>
+    <string name="phone_settings_payphone_txt">Íocfhón</string>
+    <string name="phone_settings_payphone_summary_txt">Glaonna ó fhóin phá a bhlocáil</string>
     <string name="phone_settings_unknown_txt">Anaithnid</string>
+    <string name="phone_settings_unknown_summary_txt">Glaonna ó ghlaoiteoirí anaithnid a bhac</string>
+    <string name="phone_strings_call_blocking_turned_off_notification_title_txt">Blocáil Glaonna</string>
+    <string name="phone_strings_call_blocking_turned_off_notification_text_txt">Blocáil Glaonna díchumasaithe</string>
+    <string name="phone_strings_emergency_call_made_dialog_title_txt">Glao éigeandála déanta</string>
+    <string name="phone_strings_emergency_call_made_dialog_call_blocking_text_txt">Tá Blocáil Glaonna díchumasaithe chun ligean do fhreagróirí éigeandála teagmháil a dhéanamh leat.</string>
+    <string name="developer_title">Roghchlár Forbróra Teileachumarsáide</string>
+    <string name="toast_emergency_can_not_pull_call">Ní féidir glaonna a fhreagairt le linn glao éigeandála.</string>
     <string name="cancel">Cealaigh</string>
     <string name="callendpoint_name_unknown">Anaithnid</string>
     <string name="callFailed_outgoing_already_present">Ní féidir glaoch a chur mar tá glao eile ag ceangal cheana féin. Fan go bhfreagrófar an glao nó dícheangail é sula gcuirfidh tú glao eile.</string>

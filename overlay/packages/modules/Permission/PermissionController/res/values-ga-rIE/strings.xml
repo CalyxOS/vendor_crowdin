@@ -72,6 +72,9 @@
     <string name="permission_summary_enforced_by_policy">Forfheidhmithe ag polasaí</string>
     <string name="permission_summary_disabled_by_policy_background_only">Rochtain chúlra díchumasaithe ag polasaí</string>
     <string name="permission_summary_enabled_by_policy_background_only">Rochtain chúlra cumasaithe ag polasaí</string>
+    <string name="permission_summary_enabled_by_policy_foreground_only">Rochtain tosaigh cumasaithe ag polasaí</string>
+    <string name="permission_summary_enforced_by_admin">Rialaithe ag an riarthóir</string>
+    <string name="permission_summary_disabled_by_admin_background_only">Rochtain chúlra díchumasaithe ag an riarthóir</string>
     <string name="permission_summary_enabled_by_admin_background_only">Rochtain chúlra cumasaithe ag an riarthóir</string>
     <string name="permission_summary_enabled_by_admin_foreground_only">Rochtain tosaigh cumasaithe ag an riarthóir</string>
     <string name="permission_summary_enabled_system_fixed">Éilíonn an gléas an cead seo le go n-oibreoidh sé</string>
@@ -130,6 +133,13 @@
     <string name="sort_by_time">Sórtáil de réir ama</string>
     <string name="item_separator">,\u0020</string>
     <string name="permission_usage_refresh">Athnuachan</string>
+    <string name="permission_history_title">Stair ceadanna</string>
+    <string name="permission_history_category_today">Inniu</string>
+    <string name="permission_history_category_yesterday">Inné</string>
+    <string name="app_permission_usage_title">Úsáid ceadanna aipeanna</string>
+    <string name="app_permission_usage_summary">Rochtain: <xliff:g id="num" example="2">%1$s</xliff:g> uair. Fad iomlán: <xliff:g id="duration" example="2 hours">%2$s</xliff:g>. Úsáideadh an uair dheireanach é <xliff:g id="time" example="2 hours">%3$s</xliff:g> ó shin.</string>
+    <string name="app_permission_usage_summary_no_duration">Rochtain: <xliff:g id="num" example="2">%1$s</xliff:g> uair. Úsáideadh an uair dheireanach <xliff:g id="time" example="2 hours">%2$s</xliff:g> ó shin.</string>
+    <string name="app_permission_button_allow">Ceadaigh</string>
     <string name="app_permission_header_with_device_name"><xliff:g id="perm" example="camera">%1$s</xliff:g> rochtain don aip seo ar <xliff:g id="device_name" example="My Laptop">%2$s</xliff:g></string>
     <string name="app_permission_info_button">Eolas</string>
     <string name="app_permission_settings_button">Socruithe</string>
@@ -295,22 +305,45 @@
     <string name="car_default_app_selected_with_info">Roghnaithe - <xliff:g id="additional_info" example="(Réamhshocrú an chórais)">%1$s</xliff:g></string>
     <string name="special_app_access_search_keyword">rochtain speisialta ar an aip</string>
     <string name="special_app_access">Rochtain speisialta ar aipeanna</string>
+    <string name="assistant_confirmation_message">Beidh an cúntóir in ann faisnéis a léamh faoi aipeanna atá in úsáid ar do chóras, lena n-áirítear faisnéis atá le feiceáil ar do scáileán nó atá inrochtana laistigh de na haipeanna.</string>
+    <string name="incident_report_channel_name">Comhroinn Sonraí Dífhabhtaithe</string>
+    <string name="incident_report_notification_title">Sonraí dífhabhtaithe mionsonraithe a roinnt?</string>
+    <string name="incident_report_notification_text">Ba mhaith le <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> faisnéis dífhabhtaithe a uaslódáil.</string>
+    <string name="incident_report_dialog_title">Sonraí dífhabhtaithe a roinnt?</string>
+    <string name="incident_report_dialog_intro">Tá fadhb aimsithe ag an gcóras.</string>
     <string name="incident_report_dialog_text">"Tá <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ag iarraidh tuarascáil fabht a uaslódáil ón ngléas seo a tógadh ar <xliff:g id="date" example="26 Nollaig, 2018">%2$s</xliff:g> ag <xliff:g id="time" example="1:20 PM">%3$s</xliff:g>. Cuimsíonn tuairiscí fabht faisnéis phearsanta faoi do ghléas nó faisnéis atá logáilte ag aipeanna, mar shampla, ainmneacha úsáideoirí, sonraí suímh, aitheantóirí gléis, agus faisnéis líonra. Ná roinn tuairiscí fabht ach le daoine agus aipeanna a bhfuil muinín agat astu leis an bhfaisnéis seo.\n\nAn gceadaíonn tú do <xliff:g id="app_name" example="Gmail">%4$s</xliff:g> tuarascáil fabht a uaslódáil?"</string>
+    <string name="incident_report_error_dialog_text">"Tharla earráid agus an tuarascáil fabht á próiseáil le haghaidh <xliff:g id="app_name" example="Gmail">%1$s</xliff:g>. Mar sin, diúltaíodh do na sonraí mionsonraithe dífhabhtaithe a roinnt. Tá brón orm as an gcur isteach."</string>
+    <string name="incident_report_dialog_allow_label">Ceadaigh</string>
+    <string name="incident_report_dialog_deny_label">Diúltaigh</string>
     <string name="adjust_user_sensitive_title">Socruithe Ardleibhéil</string>
     <string name="menu_adjust_user_sensitive">Socruithe Ardleibhéil</string>
+    <string name="adjust_user_sensitive_globally_title">Taispeáin úsáid aipeanna córais</string>
+    <string name="adjust_user_sensitive_globally_summary">Taispeáin úsáid ceadanna aip chórais sa bharra stádais, sa phainéal agus in áiteanna eile</string>
+    <string name="adjust_user_sensitive_per_app_header">Aibhsigh úsáid don seo a leanas</string>
+    <string name="assistant_record_audio_user_sensitive_title">Taispeáin braiteadh spreagthóra cúntóra</string>
+    <string name="assistant_record_audio_user_sensitive_summary">Taispeáin deilbhín sa bharra stádais nuair a úsáidtear micreafón chun cúntóir gutha a ghníomhachtú</string>
     <string name="permgrouprequest_device_aware_storage_isolated">Ceadaigh
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; chun grianghraif agus meáin a rochtain ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_device_aware_contacts">Ceadaigh
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; chun do theagmhálaithe a rochtain ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_device_aware_location">Ceadaigh
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; a rochtain &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>\u2019s&lt;/b&gt; suíomh?</string>
+    <string name="permgrouprequestdetail_location">Ní bheidh rochtain ag an aip ar an suíomh ach amháin agus tú ag úsáid na haipe.</string>
     <string name="permgroupbackgroundrequest_device_aware_location">Ceadaigh
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; a rochtain &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>\u2019s&lt;/b&gt; suíomh?</string>
+    <string name="permgroupbackgroundrequestdetail_location">B’fhéidir go mbeadh an aip seo ag iarraidh rochtain a fháil ar do shuíomh an t-am ar fad, fiú nuair nach bhfuil tú ag úsáid na haipe. <annotation id="link">Ceadaigh sna socruithe.</annotation></string>
+    <string name="permgroupupgraderequest_location">Athraigh rochtain suímh do &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgroupupgraderequest_device_aware_location">Athraigh rochtain suímh le haghaidh &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequestdetail_location">Ba mhaith leis an aip seo rochtain a fháil ar do shuíomh an t-am ar fad, fiú nuair nach bhfuil tú ag úsáid na haipe. <annotation id="link">Ceadaigh sna socruithe.</annotation></string>
     <string name="permgrouprequest_device_aware_nearby_devices">Ceadaigh
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; chun suíomh coibhneasta gléasanna in aice láimhe a aimsiú, a nascadh le agus a chinneadh ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequestdetail_nearby_devices">Ceadaigh do <b><xliff:g id="app_name" example="Gmail">%1$s</xliff:g></b> gléasanna in aice láimhe a aimsiú, ceangal leo, agus a suíomh coibhneasta a chinneadh? <annotation id="link">Ceadaigh sna socruithe.</annotation></string>
+    <string name="permgrouprequest_fineupgrade">Athraigh rochtain suímh <xliff:g id="app_name" example="Gmail">&lt;b&gt;%1$s&lt;/b&gt;</xliff:g> ó thart ar shuíomh go beacht?</string>
     <string name="permgrouprequest_device_aware_fineupgrade">Athraigh <xliff:g id="app_name" example="Gmail">&lt;b&gt;%1$s&lt;/b&gt;</xliff:g>\u2019s rochtain suímh ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt; ó neas go beacht?</string>
+    <string name="permgrouprequest_coarselocation">Ceadaigh do <b><xliff:g id="app_name" example="Gmail">%1$s</xliff:g></b> rochtain a fháil ar shuíomh garbh an ghléis seo?</string>
     <string name="permgrouprequest_device_aware_coarselocation">Ceadaigh &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; chun rochtain a fháil ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;\u2019s suíomh gar do?</string>
+    <string name="permgrouprequest_finelocation_imagetext">Beacht</string>
+    <string name="permgrouprequest_coarselocation_imagetext">Tuairim is</string>
     <string name="permgrouprequest_device_aware_calendar">Ceadaigh
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; chun d\'fhéilire a rochtain ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_device_aware_sms">Ceadaigh
@@ -323,9 +356,13 @@
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; chun tuilleadh grianghraf agus físeáin a rochtain ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_device_aware_microphone">Ceadaigh
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; chun fuaim a thaifeadadh ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgrouprequestdetail_microphone">Ní bheidh an aip in ann fuaim a thaifeadadh ach amháin agus tú ag úsáid na haipe.</string>
     <string name="permgroupbackgroundrequest_device_aware_microphone">Ceadaigh
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; chun fuaim a thaifeadadh ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupbackgroundrequestdetail_microphone">B’fhéidir go mbeadh an aip seo ag iarraidh fuaim a thaifeadadh an t-am ar fad, fiú nuair nach bhfuil tú ag úsáid na haipe. <annotation id="link">Ceadaigh sna socruithe.</annotation></string>
+    <string name="permgroupupgraderequest_microphone">Athraigh rochtain micreafóin do &lt;b&gt;&lt;xliff:g id="app_name" example="Gmail"&gt;%1$s&lt;/xliff:g&gt;&lt;/b&gt;?</string>
     <string name="permgroupupgraderequest_device_aware_microphone">Athraigh rochtain mhicreafóin le haghaidh &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
+    <string name="permgroupupgraderequestdetail_microphone">Ba mhaith leis an aip seo fuaim a thaifeadadh an t-am ar fad, fiú nuair nach bhfuil tú ag úsáid na haipe. <annotation id="link">Ceadaigh sna socruithe.</annotation></string>
     <string name="permgrouprequest_device_aware_activityRecognition">Ceadaigh
         &lt;b&gt;<xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b&gt; chun do ghníomhaíocht fhisiciúil a rochtain ar &lt;b&gt;<xliff:g id="device_name" example="My Laptop">%2$s</xliff:g>&lt;/b&gt;?</string>
     <string name="permgrouprequest_device_aware_camera">Ceadaigh

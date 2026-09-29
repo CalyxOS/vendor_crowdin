@@ -73,6 +73,32 @@
     <string name="option_rating_low_description">Ábhar atá oiriúnach do dhéagóirí</string>
     <string name="option_rating_custom_description">Srianta láimhe</string>
     <string name="side_panel_title_settings">Socruithe</string>
+    <string name="settings_trickplay_description">Taifead agus tú ag breathnú ionas gur féidir leat cláir bheo a chur ar sos nó a athchasadh.\nRabhadh: D’fhéadfadh sé seo saolré an stórais inmheánaigh a laghdú trí úsáid dhian an stórais.</string>
+    <string name="settings_menu_licenses">Ceadúnais foinse oscailte</string>
+    <string name="settings_send_feedback">Seol aiseolas</string>
+    <string name="settings_menu_version">Leagan</string>
+    <string name="tvview_channel_locked">Chun an cainéal seo a fheiceáil, brúigh ar dheis agus cuir isteach do PIN</string>
+    <string name="tvview_channel_locked_talkback">Chun an cainéal seo a fheiceáil, brúigh roghnaigh agus cuir isteach do PIN</string>
+    <string name="tvview_content_locked">Chun an clár seo a fheiceáil, brúigh ar dheis agus cuir isteach do PIN</string>
+    <string name="tvview_content_locked_talkback">Chun an clár seo a fheiceáil, brúigh roghnaigh agus cuir isteach do PIN</string>
+    <string name="tvview_content_locked_unrated">Níl aon rátáil ar an gclár seo.\nChun féachaint ar an gclár seo, brúigh ar dheis agus cuir isteach do PIN</string>
+    <string name="tvview_content_locked_unrated_talkback">Níl aon rátáil ar an gclár seo.\nChun féachaint ar an gclár seo, brúigh roghnaigh agus cuir isteach do PIN</string>
+    <string name="tvview_content_locked_format_talkback">Tá rátáil <xliff:g id="rating" example="TV_MA">%1$s</xliff:g> ar an gclár seo.\nChun féachaint ar an gclár seo, brúigh roghnaigh agus cuir isteach do PIN.</string>
+    <string name="tvview_content_locked_format">Tá rátáil <xliff:g id="rating" example="TV_MA">%1$s</xliff:g> ag an gclár seo.\nChun féachaint ar an gclár seo, brúigh ar dheis agus cuir isteach do PIN.</string>
+    <string name="tvview_channel_locked_no_permission">Chun an cainéal seo a fheiceáil, bain úsáid as an aip teilifíse réamhshocraithe.</string>
+    <string name="tvview_content_locked_no_permission">Chun an clár seo a fheiceáil, bain úsáid as an aip teilifíse réamhshocraithe.</string>
+    <string name="tvview_content_locked_unrated_no_permission">Níl aon rátáil ar an gclár seo.\nChun féachaint ar an gclár seo, bain úsáid as an aip teilifíse réamhshocraithe.</string>
+    <string name="tvview_content_locked_format_no_permission">Tá rátáil <xliff:g id="rating" example="TV_MA">%1$s</xliff:g> ar an gclár seo.\nChun féachaint ar an gclár seo, bain úsáid as an aip teilifíse réamhshocraithe.</string>
+    <string name="shrunken_tvview_content_locked">Tá an clár blocáilte</string>
+    <string name="shrunken_tvview_content_locked_unrated">Níl rátáil ar an gclár seo</string>
+    <string name="shrunken_tvview_content_locked_format">Tá an clár seo rátáilte <xliff:g id="rating" example="TV_MA">%1$s</xliff:g></string>
+    <string name="tvview_msg_audio_only">Fuaim amháin</string>
+    <string name="tvview_msg_weak_signal">Comhartha lag</string>
+    <string name="tvview_msg_no_internet_connection">Gan nasc idirlín</string>
+    <string name="channel_banner_no_title">Gan teideal</string>
+    <string name="channel_banner_locked_channel_title">Cainéal blocáilte</string>
+    <string name="setup_category_new">Nua</string>
+    <string name="setup_category_done">Foinsí</string>
     <string name="setup_input_no_channels">Níl aon chainéil ar fáil</string>
     <string name="setup_input_new">Nua</string>
     <string name="setup_input_setup_now">Gan socrú</string>
@@ -121,7 +147,24 @@
     <string name="dvr_detail_cancel_recording">Cealaigh an taifeadadh</string>
     <string name="dvr_detail_stop_recording">Stop a thaifeadadh</string>
     <string name="dvr_detail_watch">Faire</string>
+    <string name="dvr_detail_play_from_beginning">Seinn ón tús</string>
+    <string name="dvr_detail_resume_play">Lean ar aghaidh ag imirt</string>
     <string name="dvr_detail_delete">Scrios</string>
+    <string name="dvr_detail_series_delete">Scrios taifeadtaí</string>
+    <string name="dvr_detail_series_resume">Resume</string>
+    <string name="dvr_detail_series_season_title">Séasúr <xliff:g id="season_number">%1$s</xliff:g></string>
+    <string name="dvr_detail_view_schedule">Féach ar an sceideal</string>
+    <string name="dvr_detail_read_more">Léigh tuilleadh</string>
+    <string name="dvr_recording_failed_system_failure">Teip chórais. (Cód earráide: <xliff:g id="errorCode" example="0">%1$d</xliff:g>)</string>
+    <string name="dvr_recording_failed_not_started">Níor cuireadh tús leis an taifeadadh. Seiceáil na naisc antenna agus an tiomántáin chrua (más ann dóibh).</string>
+    <string name="dvr_recording_failed_resource_busy">Theip ar an gcainéal a thiúnáil. Cúiseanna féideartha: comhartha lag, droch-nasc antenna, nó coimhlint taifeadta.</string>
+    <string name="dvr_recording_failed_input_unavailable">Níl <xliff:g id="inputId" example="com.example.partnersupportsampletvinput/.SampleTvInputService">%1$s</xliff:g> ar fáil.</string>
+    <string name="dvr_recording_failed_input_dvr_unsupported">Ní thacaítear le taifeadadh an chainéil seo.</string>
+    <string name="dvr_recording_failed_insufficient_space">Gan dóthain spáis. Ceangail gléas stórála seachtrach nó scrios roinnt taifeadtaí atá ann cheana féin.</string>
+    <string name="dvr_series_deletion_title">Scrios taifeadtaí</string>
+    <string name="dvr_series_deletion_description">Roghnaigh na heachtraí ar mhaith leat a scriosadh. Ní féidir iad a aisghabháil nuair a bheidh siad scriosta.</string>
+    <string name="dvr_series_deletion_no_recordings">Níl aon taifeadtaí le scriosadh.</string>
+    <string name="dvr_series_select_watched">Roghnaigh eipeasóidí a fhéachadh</string>
     <string name="dvr_priority_button_action_save">Sábháil</string>
     <string name="dvr_action_stop">Stop</string>
     <string name="dvr_epg_program_recordable">Intaifeadta</string>
@@ -167,7 +210,26 @@
     <string name="dvr_playback_related_recordings">Taifeadtaí gaolmhara</string>
     <string name="dvr_recording_till_format">Ag taifeadadh go dtí <xliff:g id="recordingEndTime" example="9:00pm">%1$s</xliff:g></string>
     <string name="dvr_schedules_information_separator"> / </string>
+    <string name="dvr_series_schedules_stop">Stop taifeadadh sraithe</string>
+    <string name="dvr_series_schedules_stop_dialog_title">Stop a chur le taifeadadh sraithe?</string>
+    <string name="dvr_series_schedules_stop_dialog_description">Beidh eipeasóidí taifeadta ar fáil i leabharlann an DVR fós.</string>
     <string name="dvr_series_schedules_stop_dialog_action_stop">Stop</string>
+    <string name="dvr_series_schedules_stopped_empty_state">Níl aon eipeasóid ar an aer faoi láthair.</string>
+    <string name="dvr_series_schedules_empty_state">Níl aon eipeasóidí ar fáil. Déanfar iad a thaifeadadh a luaithe a bheidh siad ar fáil.</string>
+    <string name="dvr_recording_failed_short">Theip air.</string>
+    <string name="dvr_recording_failed_not_started_short">Theip ar an taifeadadh a thosú.</string>
+    <string name="dvr_recording_failed_resource_busy_short">Theip ar thiúnáil chuig an gcainéal.</string>
+    <string name="dvr_recording_failed_input_unavailable_short">Níl <xliff:g id="inputId" example="com.example.partnersupportsampletvinput/.SampleTvInputService">%1$s</xliff:g> ar fáil.</string>
+    <string name="dvr_recording_failed_input_dvr_unsupported_short">Ní thacaítear le taifeadadh.</string>
+    <string name="dvr_recording_failed_insufficient_space_short">Easpa spáis.</string>
+    <string name="dvr_date_today">Inniu</string>
+    <string name="dvr_date_tomorrow">Amárach</string>
+    <string name="dvr_date_yesterday">Inné</string>
+    <string name="dvr_date_today_time"><xliff:g id="time_range" example="10:00 am - 11:00 am">%1$s</xliff:g> inniu</string>
+    <string name="dvr_date_tomorrow_time"><xliff:g id="time_range" example="10:00 am - 11:00 am">%1$s</xliff:g> amárach</string>
+    <string name="program_guide_critic_score">Scór</string>
+    <string name="recorded_programs_preview_channel">Cláir Thaifeadta</string>
+    <string name="write_storage_permission_rationale_title">Iarr cead</string>
     <string name="tv_iapp_on">Ar</string>
     <string name="tv_iapp_off">As</string>
 </resources>
