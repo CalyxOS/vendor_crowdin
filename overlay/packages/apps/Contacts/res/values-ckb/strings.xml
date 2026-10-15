@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="applicationLabel">پەیوەندییەکان</string>
+    <string name="contactsList">پەیوەندییەکان</string>
+    <string name="shortcut_add_contact">زیادکردنی ناو (Contact)</string>
+    <string name="shortcutContact">پەیوەندی</string>
+    <string name="shortcutDialContact">پەیوەندیی ڕاستەوخۆ</string>
+    <string name="shortcutMessageContact">نامەی ڕاستەوخۆ</string>
+    <string name="shortcutActivityTitle">پەیوەندی هەڵبژێرە</string>
+    <string name="contactInsertOrEditActivityTitle">زیادکردن بۆ پەیوەندی</string>
+    <string name="contactPickerActivityTitle">پەیوەندییەک هەڵبژێرە</string>
+    <string name="groupMemberPickerActivityTitle">دیاریکردن</string>
+    <string name="header_entry_contact_list_adapter_header_title">دروستکردنی پەیوەندیی نوێ</string>
+    <string name="searchHint">گەڕان لە پەیوەندییەکان</string>
+    <string name="menu_addStar">زیاد بکە بۆ دڵخوازەکان</string>
+    <string name="menu_removeStar">لە دڵخوازەکان لایبەر</string>
+    <string name="description_action_menu_remove_star">لە دڵخوازەکان لابرا</string>
+    <string name="description_action_menu_add_star">زیاد کرا بۆ دڵخوازەکان</string>
+    <string name="menu_editContact">دەستکاریکردن</string>
+    <string name="menu_deleteContact">سڕینەوە</string>
+    <string name="menu_change_photo">گۆڕینی وێنە</string>
+    <string name="menu_create_contact_shortcut">دروستکردنی قەدبڕ</string>
+    <string name="menu_splitAggregate">جیاکردنەوە</string>
+    <string name="menu_editGroup">لابردنی پەیوەندییەکان</string>
+    <string name="menu_renameGroup">گۆڕینی ناوی ناونیشان</string>
+    <string name="menu_deleteGroup">سڕینەوەی ناونیشان</string>
+    <string name="menu_addToGroup">زیادکردنی ناو (Contact)</string>
+    <string name="menu_selectForGroup">دیاریکردنی پەیوەندییەکان</string>
+    <string name="menu_addContactsToGroup">زیادکردنی پەیوەندییەکان</string>
+    <string name="menu_removeFromGroup">لابردن لە ناونیشان</string>
+    <string name="menu_new_group_action_bar">دروستکردنی ناونیشان</string>
+    <string name="splitConfirmation">ئەم پەیوەندییە جیا بکرێتەوە بۆ چەند پەیوەندییەکی جیاواز؟</string>
+    <string name="splitConfirmation_positive_button">جیاکردنەوە</string>
+    <string name="splitConfirmationWithPendingChanges">ئایا دەتەوێت ئەو گۆڕانکارییانەی ئەنجامت داون پاشەکەوت بکرێن و ئەم پەیوەندییە جیا بکرێتەوە بۆ چەند پەیوەندییەکی جیاواز؟</string>
+    <string name="splitConfirmationWithPendingChanges_positive_button">پاشەکەوتکردن و جیاکردنەوە</string>
+    <string name="joinConfirmation">ئایا دەتەوێت ئەو گۆڕانکارییانەی ئەنجامت داون پاشەکەوت بکرێن و بە پەیوەندییە دیاریکراوەکەوە ببەسترێتەوە؟</string>
+    <string name="joinConfirmation_positive_button">پاشەکەوتکردن و بەستنەوە</string>
+    <string name="contacts_linking_progress_bar">دەبەسترێتەوە…</string>
+    <string name="contacts_unlinking_progress_bar">جیادەکرێتەوە…</string>
+    <string name="menu_joinAggregate">بەستنەوە</string>
+    <string name="menu_linkedContacts">بینینی پەیوەندییە بەستراوەکان</string>
+    <string name="menu_save">پاشەکەوتکردن</string>
+    <string name="titleJoinContactDataWith">بەستنەوەی پەیوەندییەکان</string>
+    <string name="blurbJoinContactDataWith">ئەو پەیوەندییە هەڵبژێرە کە دەتەوێت بە <xliff:g id="name">%s</xliff:g> بیبەستیتەوە:</string>
+    <string name="separatorJoinAggregateSuggestions">پەیوەندییە پێشنیارکراوەکان</string>
+    <string name="separatorJoinAggregateAll">هەموو ناوەکان</string>
+    <string name="contactsJoinedNamedMessage"><xliff:g id="name">%s</xliff:g> بەسترایەوە</string>
+    <string name="contactsJoinedMessage">پەیوەندییەکان بەسترانەوە</string>
+    <string name="contacts_deleted_one_named_toast"><xliff:g id="name">%1$s</xliff:g> سڕایەوە</string>
+    <string name="contacts_deleted_two_named_toast"><xliff:g id="name">%1$s</xliff:g> و <xliff:g id="name">%2$s</xliff:g> سڕانەوە</string>
+    <string name="contacts_deleted_many_named_toast"><xliff:g id="name">%1$s</xliff:g>، <xliff:g id="name">%2$s</xliff:g>، <xliff:g id="name">%3$s</xliff:g>… سڕانەوە</string>
+    <string name="contacts_deleted_toast">{count, plural,
+        =1    {پەیوەندی سڕایەوە}
+        other {پەیوەندییەکان سڕانەوە}
+    }</string>
+    <string name="contacts_count">{count, plural,
+        =1    {# پەیوەندی}
+        other {# پەیوەندی}
+    }</string>
+    <string name="contacts_count_with_account">{count, plural,
+        =1    {# پەیوەندی · {account}}
+        other {# پەیوەندی · {account}}
+    }</string>
+    <string name="title_from_google">لە Googleـەوە</string>
+    <string name="title_from_other_accounts">لە <xliff:g id="account">%s</xliff:g>ـەوە</string>
+    <string name="menu_set_ring_tone">دانانی زەنگ</string>
+    <string name="menu_redirect_calls_to_vm">ئاراستەکردن بۆ پەیامی دەنگی</string>
+    <string name="menu_unredirect_calls_to_vm">لابردنی ئاراستەکردن بۆ پەیامی دەنگی</string>
+    <string name="readOnlyContactWarning">ئەم پەیوەندییە تەنها بۆ خوێندنەوەیە. ناتوانرێت بسڕدرێتەوە، بەڵام دەتوانیت بیشاریتەوە.</string>
+    <string name="readOnlyContactWarning_positive_button">شاردنەوەی پەیوەندی</string>
+    <string name="readOnlyContactDeleteConfirmation">ئەژمارە تەنها-خوێندنەوەکانی ئەم پەیوەندییە دەشاردرێنەوە، نەسڕدراونەتەوە.</string>
+    <string name="single_delete_confirmation">ئەم پەیوەندییە بسڕدرێتەوە؟</string>
+    <string name="batch_delete_confirmation">پەیوەندییە دیاریکراوەکان بسڕدرێنەوە؟</string>
+    <string name="batch_delete_read_only_contact_confirmation">پەیوەندییەکانی ناو ئەژمارە تەنها-خوێندنەوەکانت ناتوانرێن بسڕدرێنەوە، بەڵام دەکرێت بشاردرێنەوە.</string>
+    <string name="batch_delete_multiple_accounts_confirmation">ئەو پەیوەندییانەی دەسڕدرێنەوە وردەکارییان لە چەند ئەژمارێکەوە هەیە. وردەکاریی ئەژمارە تەنها-خوێندنەوەکان دەشاردرێنەوە، نەسڕدراونەتەوە.</string>
+    <string name="multipleContactDeleteConfirmation">سڕینەوەی ئەم پەیوەندییە وردەکارییەکانی لە چەند ئەژمارێک دەسڕێتەوە.</string>
+    <string name="deleteConfirmation">ئەم پەیوەندییە بسڕدرێتەوە؟</string>
+    <string name="deleteConfirmation_positive_button">سڕینەوە</string>
+    <string name="invalidContactMessage">پەیوەندییەکە بوونی نییە.</string>
+    <string name="createContactShortcutSuccessful_NoName">پەیوەندی بۆ ڕوونمای سەرەکی زیادکرا.</string>
+    <string name="createContactShortcutSuccessful"><xliff:g id="name">%s</xliff:g> بۆ ڕوونمای سەرەکی زیادکرا.</string>
+    <string name="photoPickerNotFoundText">هیچ وێنەیەک لەسەر ئەم ئامێرە بەردەست نییە.</string>
+    <string name="attach_photo_dialog_title">وێنەی پەیوەندی</string>
+    <string name="customLabelPickerTitle">ناوی ناونیشانی تایبەت</string>
+    <string name="removePhoto">لابردنی وێنە</string>
+    <string name="noContacts">لیستی پەیوەندییەکانت بەتاڵە</string>
+    <string name="emptyGroup">هیچ پەیوەندییەک بەم ناونیشانە نییە</string>
+    <string name="emptyAccount">هیچ پەیوەندییەک لەم ئەژمارەدا نییە</string>
+    <string name="emptyMainList">لیستی پەیوەندییەکانت بەتاڵە</string>
+    <string name="contactSavedNamedToast"><xliff:g id="display_name">%s</xliff:g> پاشەکەوتکرا</string>
+    <string name="contactSavedToast">پەیوەندی پاشەکەوتکرا</string>
+    <string name="contactUnlinkedToast">پەیوەندییەکان جیاکرانەوە</string>
+    <string name="contactSavedErrorToast">نەتوانرا گۆڕانکارییەکانی پەیوەندی پاشەکەوت بکرێن</string>
+    <string name="contactUnlinkErrorToast">نەتوانرا پەیوەندی جیا بکرێتەوە</string>
+    <string name="contactJoinErrorToast">نەتوانرا پەیوەندی ببەسترێتەوە</string>
+    <string name="contactGenericErrorToast">هەڵە لە پاشەکەوتکردنی پەیوەندی</string>
+    <string name="contactPhotoSavedErrorToast">نەتوانرا گۆڕانکارییەکانی وێنەی پەیوەندی پاشەکەوت بکرێن</string>
+    <string name="groupLoadErrorToast">نەتوانرا ناونیشان باربکرێت</string>
+    <string name="groupDeletedToast">ناونیشان سڕایەوە</string>
+    <string name="groupCreatedToast">ناونیشان دروستکرا</string>
+    <string name="groupCreateFailedToast">ناتوانرێت ناونیشان دروستبکرێت</string>
+    <string name="groupUpdatedToast">ناونیشان نوێکرایەوە</string>
+    <string name="groupMembersRemovedToast">لە ناونیشان لابرا</string>
+    <string name="groupMembersAddedToast">بۆ ناونیشان زیادکرا</string>
+    <string name="groupSavedErrorToast">نەتوانرا گۆڕانکارییەکانی ناونیشان پاشەکەوت بکرێن</string>
+    <string name="groupExistsErrorMessage">ئەو ناونیشانە پێشتر بوونی هەیە</string>
+    <string name="groupSomeContactsNoEmailsToast">هەندێک لە پەیوەندییەکان پۆستی ئەلیکترۆنییان نییە.</string>
+    <string name="groupSomeContactsNoPhonesToast">هەندێک لە پەیوەندییەکان ژمارەی تەلەفۆنیان نییە.</string>
+    <string name="menu_sendEmailOption">ناردنی پۆستی ئەلیکترۆنی</string>
+    <string name="menu_sendMessageOption">ناردنی نامە</string>
+    <string name="pickerSelectContactsActivityTitle">هەڵبژاردنی پەیوەندییەکان</string>
+    <string name="send_to_selection">ناردن</string>
+    <string name="listFoundAllContactsZero">هیچ پەیوەندییەک نییە</string>
+    <string name="add_contact_dlg_message_fmt">\"<xliff:g id="email">%s</xliff:g>\" زیادبکرێت بۆ پەیوەندییەکان؟</string>
+    <string name="search_settings_description">ناوی پەیوەندییەکانت</string>
+    <string name="quickcontact_transparent_view_description">پەنجە بنێ بۆ گەڕانەوە بۆ ڕوونمای پێشوو</string>
+    <string name="quickcontact_add_phone_number">زیادکردنی ژمارەی تەلەفۆن</string>
+    <string name="quickcontact_add_email">زیادکردنی پۆستی ئەلیکترۆنی</string>
+    <string name="missing_app">هیچ بەرنامەیەک نەدۆزرایەوە بۆ ئەنجامدانی ئەم کردارە.</string>
+    <string name="menu_share">هاوبەشکردن</string>
+    <string name="menu_add_contact">زیادکردن بۆ پەیوەندییەکان</string>
+    <string name="menu_add_contacts">زیادکردن</string>
+    <string name="title_share_via">{count, plural,
+        =1    {هاوبەشکردنی پەیوەندی لە ڕێگەی}
+        other {هاوبەشکردنی پەیوەندییەکان لە ڕێگەی}
+    }</string>
+    <string name="dialog_new_group_account">ئەژمار هەڵبژێرە</string>
+    <string name="group_name_dialog_insert_title">دروستکردنی ناونیشان</string>
+    <string name="group_name_dialog_update_title">گۆڕینی ناوی ناونیشان</string>
+    <string name="group_name_dialog_hint">ناوی ناونیشان</string>
+    <string name="label_name_dialog_hint">ناوی ناونیشان</string>
+    <string name="audio_chat">چاتی دەنگی</string>
+    <string name="video_chat">چاتی ڤیدیۆیی</string>
+    <string name="account_type_format">پەیوەندیی <xliff:g id="source" example="Gmail">%1$s</xliff:g></string>
+    <string name="google_account_type_format">ئەژماری <xliff:g id="source" example="Google">%1$s</xliff:g></string>
+    <string name="take_photo">گرتنی وێنە</string>
+    <string name="take_new_photo">گرتنی وێنەی نوێ</string>
+    <string name="pick_photo">هەڵبژاردنی وێنە</string>
+    <string name="pick_new_photo">دیاریکردنی وێنەی نوێ</string>
+    <string name="search_results_searching">لە گەڕاندایە…</string>
+    <string name="event_edit_field_hint_text">بەروار</string>
+    <string name="group_edit_field_hint_text">ناونیشان</string>
+    <string name="editor_uneditable_section_title">ناتوانرێت ئەم زانیارییە نوێبکرێتەوە</string>
+    <string name="cancel_button_content_description">پاشگەزبوونەوە</string>
+    <string name="back_arrow_content_description">گەڕانەوە</string>
+    <string name="action_menu_back_from_edit_select">داخستن</string>
+    <string name="aggregation_suggestion_edit_dialog_message">بگۆڕدرێت بۆ دەستکاریکردنی پەیوەندییە دیاریکراوەکە؟ ئەو زانیارییانەی تا ئێستا نووسیوتن لەبەر دەگیرێنەوە.</string>
+    <string name="contact_directory_description">پێڕستی <xliff:g id="type" example="Corporate Directory">%1$s</xliff:g></string>
+    <string name="activity_title_settings">ڕێکخستنەکان</string>
+    <string name="menu_settings" msgid="377929915873428211">ڕێکخستنەکان</string>
+    <string name="menu_help">یارمەتی و وەڵامدانەوە</string>
+    <string name="organization_entry_two_field"><xliff:g id="first" example="Google">%1$s</xliff:g> • <xliff:g id="second" example="Developer">%2$s</xliff:g></string>
+    <string name="organization_entry_all_field"><xliff:g id="company" example="Google">%1$s</xliff:g> • <xliff:g id="department" example="People">%2$s</xliff:g> • <xliff:g id="title" example="Developer">%3$s</xliff:g></string>
+    <string name="non_phone_caption">ژمارەی تەلەفۆن</string>
+    <string name="non_phone_add_to_contacts">زیادکردن بۆ پەیوەندییەکان</string>
+    <string name="non_phone_close">داخستن</string>
+    <string name="date_year_toggle">لەخۆگرتنی ساڵ</string>
+    <string name="contacts_unavailable_add_account">زیادکردنی ئەژمار</string>
+    <string name="contacts_unavailable_import_contacts">هاوردەکردن</string>
+    <string name="create_group_item_label">دروستکردنی نوێ…</string>
+    <string name="delete_group_dialog_message">ناونیشانی \"<xliff:g id="group_label" example="Friends">%1$s</xliff:g>\" بسڕدرێتەوە؟
+      (پەیوەندییەکان خۆیان ناسڕدرێنەوە.)</string>
+    <string name="toast_join_with_empty_contact">ناوی پەیوەندی بنووسە پێش بەستنەوەی لەگەڵ یەکێکی تردا.</string>
+    <string name="copy_text">کۆپیکردن بۆ حافیزە</string>
+    <string name="set_default">دانان وەک بنەڕەتی</string>
+    <string name="clear_default">پاککردنەوەی بنەڕەتی</string>
+    <string name="toast_text_copied">دەقەکە لەبەرگیرایەوە</string>
+    <string name="cancel_confirmation_dialog_message">گۆڕانکارییەکان پشتگوێ بخرێن؟</string>
+    <string name="cancel_confirmation_dialog_cancel_editing_button">فڕێدان</string>
+    <string name="cancel_confirmation_dialog_keep_editing_button">پاشگەزبوونەوە</string>
+    <string name="leave_customize_confirmation_dialog_message">دەستکارییە تایبەتەکان پشتگوێ بخرێن؟</string>
+    <string name="enter_contact_name">گەڕان لە پەیوەندییەکان</string>
+    <string name="title_edit_group">لابردنی پەیوەندییەکان</string>
+    <string name="local_profile_title">پڕۆفایلی ناوخۆییی من</string>
+    <string name="external_profile_title">پڕۆفایلی <xliff:g id="external_source">%1$s</xliff:g>ـی من</string>
+    <string name="contact_editor_prompt_zero_accounts">کەمێک کات تەرخان بکە بۆ زیادکردنی ئەژمارێک کە پەیوەندییەکانت لەسەر Google پاشەکەوت بکات.</string>
+    <string name="contact_editor_prompt_one_account">پەیوەندییە نوێیەکان لەسەر <xliff:g id="account_name">%1$s</xliff:g> پاشەکەوت دەکرێن.</string>
+    <string name="contact_editor_prompt_multiple_accounts">ئەژمارێکی بنەڕەتی هەڵبژێرە بۆ پەیوەندییە نوێیەکان:</string>
+    <string name="contact_editor_title_new_contact">دروستکردنی پەیوەندیی نوێ</string>
+    <string name="contact_editor_title_existing_contact">دەستکاریکردنی پەیوەندی</string>
+    <string name="contact_editor_title_read_only_contact">تەنها بینین</string>
+    <string name="contact_editor_pick_raw_contact_to_edit_dialog_title">پەیوەندی هەڵبژێرە بۆ دەستکاریکردن</string>
+    <string name="contact_editor_pick_linked_contact_dialog_title">پەیوەندییە بەستراوەکان</string>
+    <string name="contact_editor_add_linked_contact">زیادکردن</string>
+    <string name="contact_editor_unlink_contacts">جیاکردنەوە</string>
+    <string name="add_account">زیادکردنی ئەژمار</string>
+    <string name="add_new_account">زیادکردنی ئەژماری نوێ</string>
+    <string name="menu_export_database">هەناردەکردنی پەڕگەکانی بنکەدراوە</string>
+    <string name="action_menu_add_new_contact_button">دروستکردنی پەیوەندیی نوێ</string>
+    <string name="expanding_entry_card_view_see_more">بینینی زیاتر</string>
+    <string name="expanding_entry_card_view_see_less">کەمتر پیشان بدە</string>
+    <string name="about_card_title">دەربارە</string>
+    <string name="toast_making_personal_copy">دروستکردنی کۆپییەکی کەسی…</string>
+    <string name="date_time_set">دانان</string>
+    <string name="header_im_entry">IM</string>
+    <string name="header_organization_entry">ڕێکخراو</string>
+    <string name="header_nickname_entry">نازناو</string>
+    <string name="header_note_entry">تێبینی</string>
+    <string name="header_website_entry">ماڵپەڕ</string>
+    <string name="header_event_entry">ڕووداو</string>
+    <string name="header_relation_entry">پەیوەندی</string>
+    <string name="header_name_entry">ناو</string>
+    <string name="header_email_entry">پۆستی ئەلیکترۆنی</string>
+    <string name="header_phone_entry">تەلەفۆن</string>
+    <string name="content_description_directions">ئاراستەکان بۆ شوێن</string>
+    <string name="editor_more_fields">خانەی زیاتر</string>
+    <string name="editor_change_photo_content_description">گۆڕینی وێنەی پەیوەندی</string>
+    <string name="editor_add_photo_content_description">زیادکردنی وێنەی پەیوەندی</string>
+    <string name="editor_contact_photo_content_description">وێنەی پەیوەندی</string>
+    <string name="editor_failed_to_load">نەتوانرا دەستکاریکەر بکرێتەوە.</string>
+    <string name="editor_account_selector_title">پاشەکەوت دەکرێت لە</string>
+    <string name="editor_account_selector_read_only_title">زانیاریی پەیوەندی لە <xliff:g id="account">%s</xliff:g>ـەوە دەستکاری ناکرێت</string>
+    <string name="quickcontact_suggestion_link_button">بەستنەوەی پەیوەندییەکان</string>
+    <string name="quickcontact_suggestion_cancel_button">پاشگەزبوونەوە</string>
+    <string name="suggestion_card_this_contact_title">ئەم پەیوەندییە</string>
+    <string name="suggestion_card_duplicates_title">دووبارەبووەوە ئەگەرییەکان</string>
+    <string name="suggestion_card_help_message">ئەم پەیوەندییانە ڕەنگە هەمان کەس بن. دەتوانیت بەیەکەوە بیانبەستیتەوە وەک یەک پەیوەندی.</string>
+    <string name="editor_delete_view_description">سڕینەوەی <xliff:g id="data_type">%1$s </xliff:g><xliff:g id="data_kind">%2$s</xliff:g></string>
+    <string name="editor_delete_view_description_short">سڕینەوەی <xliff:g id="data_kind">%s</xliff:g></string>
+    <string name="menu_assistant">پێشنیارەکان</string>
+    <string name="menu_assistant_new_badge">نوێ</string>
+    <string name="navigation_drawer_open">کردنەوەی چەکمەجەی ڕێدۆزی</string>
+    <string name="navigation_drawer_close">داخستنی چەکمەجەی ڕێدۆزی</string>
+    <string name="navigation_drawer_label">ناونیشانی <xliff:g id="label_name">%s</xliff:g></string>
+    <string name="menu_title_groups">ناونیشانەکان</string>
+    <string name="menu_title_filters">هەژمارەکان</string>
+    <string name="hamburger_feature_highlight_header">پێشنیارەکان</string>
+    <string name="hamburger_feature_highlight_body">پەیوەندییەکانت بە ڕێکخراوی و بەسوودی بهێڵەرەوە</string>
+    <string name="undo">پاشگەزبوونەوە</string>
+    <string name="call_custom">پەیوەندی بە <xliff:g id="custom_label" example="business">%s</xliff:g></string>
+    <string name="call_home">پەیوەندی بە ماڵەوە</string>
+    <string name="call_mobile">پەیوەندی بە مۆبایل</string>
+    <string name="call_work">پەیوەندی بە کار</string>
+    <string name="call_fax_work">پەیوەندی بە فاکسی کار</string>
+    <string name="call_fax_home">پەیوەندی بە فاکسی ماڵەوە</string>
+    <string name="call_pager">پەیوەندی بە پەیجەر</string>
+    <string name="call_other">پەیوەندی کردن</string>
+    <string name="call_callback">پەیوەندیی وەڵامدانەوە</string>
+    <string name="call_car">پەیوەندی بە ئۆتۆمبێل</string>
+    <string name="call_company_main">پەیوەندی بە سەرەکیی کۆمپانیا</string>
+    <string name="call_isdn">پەیوەندی بە ISDN</string>
+    <string name="call_main">پەیوەندی بە سەرەکی</string>
+    <string name="call_other_fax">پەیوەندی بە فاکس</string>
+    <string name="call_radio">پەیوەندی بە ڕادیۆ</string>
+    <string name="call_telex">پەیوەندی بە تێلێکس</string>
+    <string name="call_tty_tdd">پەیوەندی بە TTY/TDD</string>
+    <string name="call_work_mobile">پەیوەندی بە مۆبایلی کار</string>
+    <string name="call_work_pager">پەیوەندی بە پەیجەری کار</string>
+    <string name="call_assistant">پەیوەندی بە <xliff:g id="custom_label" example="assistant">%s</xliff:g></string>
+    <string name="call_mms">پەیوەندی بە MMS</string>
+    <string name="call_by_shortcut"><xliff:g id="contact_name">%s</xliff:g> (پەیوەندی)</string>
+    <string name="sms_custom">نامە بۆ <xliff:g id="custom_label" example="business">%s</xliff:g></string>
+    <string name="sms_home">نامە بۆ ماڵەوە</string>
+    <string name="sms_mobile">نامە بۆ مۆبایل</string>
+    <string name="sms_work">نامە بۆ کار</string>
+    <string name="sms_fax_work">نامە بۆ فاکسی کار</string>
+    <string name="sms_fax_home">نامە بۆ فاکسی ماڵەوە</string>
+    <string name="sms_pager">نامە بۆ پەیجەر</string>
+    <string name="sms_other">دەق</string>
+    <string name="sms_callback">نامەی وەڵامدانەوە</string>
+    <string name="sms_car">نامە بۆ ئۆتۆمبێل</string>
+    <string name="sms_company_main">نامە بۆ سەرەکیی کۆمپانیا</string>
+    <string name="sms_isdn">نامە بۆ ISDN</string>
+    <string name="sms_main">نامە بۆ سەرەکی</string>
+    <string name="sms_other_fax">نامە بۆ فاکس</string>
+    <string name="sms_radio">نامە بۆ ڕادیۆ</string>
+    <string name="sms_telex">نامە بۆ تێلێکس</string>
+    <string name="sms_tty_tdd">نامە بۆ TTY/TDD</string>
+    <string name="sms_work_mobile">نامە بۆ مۆبایلی کار</string>
+    <string name="sms_work_pager">نامە بۆ پەیجەری کار</string>
+    <string name="sms_assistant">نامە بۆ <xliff:g id="assistant">%s</xliff:g></string>
+    <string name="sms_mms">نامە بۆ MMS</string>
+    <string name="sms_by_shortcut"><xliff:g id="contact_name">%s</xliff:g> (نامە)</string>
+    <string name="description_video_call">ئەنجامدانی پەیوەندیی ڤیدیۆیی</string>
+    <string name="clearFrequentsConfirmation_title">زۆر پەیوەندیکراوەکان پاکبکرێنەوە؟</string>
+    <string name="clearFrequentsConfirmation">لیستی زۆر پەیوەندیکراوەکان لە بەرنامەکانی پەیوەندییەکان و تەلەفۆندا پاک دەکەیتەوە، و بەرنامەکانی پۆستی ئەلیکترۆنی ناچار دەکەیت لە سەرەتاوە فێری پەسەندکراوەکانی ناونیشانت ببن.</string>
+    <string name="clearFrequentsProgress_title">زۆر پەیوەندیکراوەکان پاکدەکرێنەوە…</string>
+    <string name="status_available">لەکارە</string>
+    <string name="status_away">دوور</string>
+    <string name="status_busy">سەرقاڵ</string>
+    <string name="local_invisible_directory">هیتر</string>
+    <string name="directory_search_label">پێڕست</string>
+    <string name="directory_search_label_work">پێڕستی کار</string>
+    <string name="local_search_label">هەموو ناوەکان</string>
+    <string name="description_quick_contact_for">پەیوەندیی خێرا بۆ <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="missing_name">(بێ ناو)</string>
+    <string name="favoritesFrequentContacted">زۆر پەیوەندیکراوەکان</string>
+    <string name="list_filter_phones">هەموو پەیوەندییەکان کە ژمارەی تەلەفۆنیان هەیە</string>
+    <string name="list_filter_phones_work">پەیوەندییەکانی پڕۆفایلی کار</string>
+    <string name="view_updates_from_group">بینینی نوێکارییەکان</string>
+    <string name="account_phone">ئامێر</string>
+    <string name="account_sim">SIM</string>
+    <string name="nameLabelsGroup">ناو</string>
+    <string name="nicknameLabelsGroup">نازناو</string>
+    <string name="name_given">ناوی یەکەم</string>
+    <string name="name_family">ناوی دووەم</string>
+    <string name="name_prefix">پێشگری ناو</string>
+    <string name="name_middle">ناوی ناوەند</string>
+    <string name="name_suffix">پاشگری ناو</string>
+    <string name="name_phonetic">ناوی دەنگی</string>
+    <string name="name_phonetic_given">ناوی یەکەمی دەنگی</string>
+    <string name="name_phonetic_middle">ناوی ناوەندی دەنگی</string>
+    <string name="name_phonetic_family">ناوی کۆتاییی دەنگی</string>
+    <string name="phoneLabelsGroup">تەلەفۆن</string>
+    <string name="emailLabelsGroup">پۆستی ئەلیکترۆنی</string>
+    <string name="postalLabelsGroup">ناونیشان</string>
+    <string name="imLabelsGroup">IM</string>
+    <string name="organizationLabelsGroup">ڕێکخراو</string>
+    <string name="relationLabelsGroup">پەیوەندی</string>
+    <string name="eventLabelsGroup">بەرواری تایبەت</string>
+    <string name="sms">نامەی کورت</string>
+    <string name="postal_address">ناونیشان</string>
+    <string name="ghostData_company">کۆمپانیا</string>
+    <string name="ghostData_department">بەش</string>
+    <string name="ghostData_title">ناو</string>
+    <string name="label_notes">تێبینییەکان</string>
+    <string name="label_custom_field">تایبەت</string>
+    <string name="label_sip_address">SIP</string>
+    <string name="websiteLabelsGroup">ماڵپەڕ</string>
+    <string name="groupsLabel">ناونیشانەکان</string>
+    <string name="email_home">پۆستی ئەلیکترۆنیی ماڵەوە</string>
+    <string name="email_mobile">پۆستی ئەلیکترۆنیی مۆبایل</string>
+    <string name="email_work">پۆستی ئەلیکترۆنیی کار</string>
+    <string name="email_other">پۆستی ئەلیکترۆنی</string>
+    <string name="email_custom">پۆستی ئەلیکترۆنی بۆ <xliff:g id="custom_label" example="business">%s</xliff:g></string>
+    <string name="email">پۆستی ئەلیکترۆنی</string>
+    <string name="postal_street">شەقام</string>
+    <string name="postal_city">شار</string>
+    <string name="postal_region">پارێزگا / هەرێم</string>
+    <string name="postal_postcode">کۆدی پۆستە</string>
+    <string name="postal_country">وڵات</string>
+    <string name="map_home">بینینی ناونیشانی ماڵەوە</string>
+    <string name="map_work">بینینی ناونیشانی کار</string>
+    <string name="map_other">بینینی ناونیشان</string>
+    <string name="map_custom">بینینی ناونیشانی <xliff:g id="custom_label" example="vacation">%s</xliff:g></string>
+    <string name="chat_aim">چات لە ڕێگەی AIM</string>
+    <string name="chat_msn">چات لە ڕێگەی Windows Live</string>
+    <string name="chat_yahoo">چات لە ڕێگەی Yahoo</string>
+    <string name="chat_skype">چات لە ڕێگەی Skype</string>
+    <string name="chat_qq">چات لە ڕێگەی QQ</string>
+    <string name="chat_gtalk">چات لە ڕێگەی Google Talk</string>
+    <string name="chat_icq">چات لە ڕێگەی ICQ</string>
+    <string name="chat_jabber">چات لە ڕێگەی Jabber</string>
+    <string name="chat">چات</string>
+    <string name="description_minus_button">سڕینەوە</string>
+    <string name="expand_name_fields_description">پیشاندانی خانەی زیاتری ناو</string>
+    <string name="collapse_name_fields_description">کۆکردنەوەی خانەکانی ناو</string>
+    <string name="expand_phonetic_name_fields_description">پیشاندانی خانەی زیاتری ناوی دەنگی</string>
+    <string name="collapse_phonetic_name_fields_description">کۆکردنەوەی خانەکانی ناوی دەنگی</string>
+    <string name="expand_fields_description">بڵاوکردنەوە</string>
+    <string name="collapse_fields_description">کۆکردنەوە</string>
+    <string name="announce_expanded_fields">بڵاوکراوەتەوە</string>
+    <string name="announce_collapsed_fields">کۆکراوەتەوە</string>
+    <string name="list_filter_all_accounts">هەموو ناوەکان</string>
+    <string name="list_filter_all_starred">ئەستێرەدار</string>
+    <string name="list_filter_customize">تایبەتکردن</string>
+    <string name="list_filter_single">پەیوەندی</string>
+    <string name="display_ungrouped">هەموو پەیوەندییەکانی تر</string>
+    <string name="display_all_contacts">هەموو ناوەکان</string>
+    <string name="menu_sync_remove">لابردنی گرووپی هاوکاتکردن</string>
+    <string name="dialog_sync_add">زیادکردنی گرووپی هاوکاتکردن</string>
+    <string name="display_more_groups">گرووپی زیاتر…</string>
+    <string name="display_warn_remove_ungrouped">لابردنی \"<xliff:g id="group" example="Starred">%s</xliff:g>\" لە هاوکاتکردن هەر پەیوەندییەکی بێ گرووپیش لە هاوکاتکردن لادەبات.</string>
+    <string name="savingDisplayGroups">پاشەکەوتکردنی هەڵبژاردنەکانی پیشاندان…</string>
+    <string name="listCustomView">دیمەنی دەستکاریکراو</string>
+    <string name="dialog_new_contact_account">پاشەکەوتکردنی پەیوەندییە هاوردەکراوەکان بۆ:</string>
+    <string name="import_from_sim">سیمکارت</string>
+    <string name="import_from_sim_summary_fmt">سیمی <xliff:g id="sim_name">%1$s</xliff:g></string>
+    <string name="import_from_sim_secondary_contact_count_fmt">{count, plural,
+        =1    {# پەیوەندی}
+        other {# پەیوەندی}
+    }</string>
+    <string name="import_from_sim_secondary_template">{count, plural,
+        =1    {# پەیوەندی • <xliff:g id="phone_number">^1</xliff:g>}
+        other {# پەیوەندی • <xliff:g id="phone_number">^1</xliff:g>}
+    }</string>
+    <string name="import_from_vcf_file">پەڕگەی .vcf</string>
+    <string name="nothing_to_import_message">هیچ شتێک نییە بۆ هێنانەناوە</string>
+    <string name="import_from_vcf_file_confirmation_message">پەیوەندییەکان لە vCard هاوردە بکرێن؟</string>
+    <string name="cancel_import_confirmation_message">هاوردەکردنی <xliff:g id="filename" example="import.vcf">%s</xliff:g> هەڵوەشێنرێتەوە؟</string>
+    <string name="cancel_export_confirmation_message">هەناردەکردنی <xliff:g id="filename" example="export.vcf">%s</xliff:g> هەڵوەشێنرێتەوە؟</string>
+    <string name="cancel_vcard_import_or_export_failed">نەتوانرا هاوردەکردن/هەناردەکردنی vCard هەڵوەشێنرێتەوە</string>
+    <string name="fail_reason_unknown">هەڵەی نەناسراو.</string>
+    <string name="fail_reason_could_not_open_file">نەتوانرا \"<xliff:g id="file_name">%1$s</xliff:g>\" بکرێتەوە: <xliff:g id="exact_reason">%2$s</xliff:g>.</string>
+    <string name="fail_reason_could_not_initialize_exporter">نەتوانرا هەناردەکەر دەستپێبکرێت: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+    <string name="fail_reason_no_exportable_contact">هیچ پەیوەندییەکی شیاو بۆ هەناردەکردن نییە.</string>
+    <string name="missing_required_permission">مۆڵەتێکی پێویستت ناچالاک کردووە.</string>
+    <string name="fail_reason_error_occurred_during_export">هەڵەیەک ڕوویدا لە کاتی هەناردەکردندا: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+    <string name="fail_reason_io_error">هەڵەی I/O</string>
+    <string name="fail_reason_low_memory_during_import">بیرگە بەشی پێویست نییە. ڕەنگە پەڕگەکە زۆر گەورە بێت.</string>
+    <string name="fail_reason_not_supported">فۆرماتەکە پشتگیری ناکرێت.</string>
+    <string name="exporting_vcard_finished_title">هەناردەکردنی <xliff:g id="filename" example="export.vcf">%s</xliff:g> تەواو بوو.</string>
+    <string name="exporting_vcard_finished_title_fallback">هەناردەکردنی پەیوەندییەکان تەواو بوو.</string>
+    <string name="exporting_vcard_finished_toast">هەناردەکردنی پەیوەندییەکان تەواو بوو، پەنجە بنێ بە ئاگادارکردنەوەکەدا بۆ هاوبەشکردنی پەیوەندییەکان.</string>
+    <string name="touch_to_share_contacts">پەنجە بنێ بۆ هاوبەشکردنی پەیوەندییەکان.</string>
+    <string name="exporting_vcard_canceled_title">هەناردەکردنی <xliff:g id="filename" example="export.vcf">%s</xliff:g> هەڵوەشێندرایەوە.</string>
+    <string name="exporting_contact_list_title">هەناردەکردنی داتای پەیوەندی</string>
+    <string name="exporting_contact_list_message">داتای پەیوەندی هەناردە دەکرێت.</string>
+    <string name="composer_failed_to_get_database_infomation">نەتوانرا زانیاریی بنکەدراوە بەدەستبهێنرێت.</string>
+    <string name="composer_has_no_exportable_contact">هیچ پەیوەندییەکی شیاو بۆ هەناردەکردن نییە.</string>
+    <string name="composer_not_initialized">دانەری vCard بە دروستی دەستیپێنەکرد.</string>
+    <string name="exporting_contact_failed_title">نەتوانرا هەناردە بکرێت</string>
+    <string name="exporting_contact_failed_message">داتای پەیوەندی هەناردە نەکرا.
+هۆکار: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="importing_vcard_description">هاوردەکردنی <xliff:g id="name" example="Joe Due">%s</xliff:g></string>
+    <string name="reading_vcard_failed_title">نەتوانرا داتای vCard بخوێنرێتەوە</string>
+    <string name="importing_vcard_finished_title">هاوردەکردنی vCardـی <xliff:g id="filename" example="import.vcf">%s</xliff:g> تەواو بوو</string>
+    <string name="importing_vcard_canceled_title">هاوردەکردنی <xliff:g id="filename" example="import.vcf">%s</xliff:g> هەڵوەشێندرایەوە</string>
+    <string name="vcard_import_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> بەم زووانە هاوردە دەکرێت.</string>
+    <string name="vcard_import_will_start_message_with_default_name">پەڕگەکە بەم زووانە هاوردە دەکرێت.</string>
+    <string name="vcard_import_request_rejected_message">داواکاریی هاوردەکردنی vCard ڕەتکرایەوە. دواتر دووبارە هەوڵ بدەرەوە.</string>
+    <string name="contacts_export_will_start_message">پەیوەندییەکان بەم زووانە هەناردە دەکرێن.</string>
+    <string name="vcard_export_request_rejected_message">داواکاریی هەناردەکردنی vCard ڕەتکرایەوە. دواتر دووبارە هەوڵ بدەرەوە.</string>
+    <string name="vcard_unknown_filename">پەیوەندی</string>
+    <string name="caching_vcard_message">پاشەکەوتکردنی کاتیی vCard بۆ کۆگای کاتیی ناوخۆیی. هاوردەکردنی ڕاستەقینە بەم زووانە دەستپێدەکات.</string>
+    <string name="vcard_import_failed">نەتوانرا vCard هاوردە بکرێت.</string>
+    <string name="nfc_vcard_file_name">پەیوەندی لە ڕێگەی NFC وەرگیرا</string>
+    <string name="caching_vcard_title">پاشەکەوتکردنی کاتی</string>
+    <string name="progress_notifier_message">هاوردەکردنی <xliff:g id="current_number">%1$s</xliff:g>/<xliff:g id="total_number">%2$s</xliff:g>: <xliff:g id="name" example="Joe Due">%3$s</xliff:g></string>
+    <string name="export_to_vcf_file">هەناردەکردن بۆ پەڕگەی .vcf</string>
+    <string name="display_options_sort_list_by">ڕیزکردن بەپێی</string>
+    <string name="display_options_phonetic_name_fields">ناوی دەنگی</string>
+    <string name="editor_options_always_show_phonetic_names">هەمیشە پیشان بدرێت</string>
+    <string name="editor_options_hide_phonetic_names_if_empty">شاردنەوە ئەگەر بەتاڵ بوو</string>
+    <string name="display_options_sort_by_given_name">ناوی یەکەم</string>
+    <string name="display_options_sort_by_family_name">ناوی دووەم</string>
+    <string name="display_options_view_names_as">شێوازی ناو</string>
+    <string name="display_options_view_given_name_first">ناوی یەکەم سەرەتا</string>
+    <string name="display_options_view_family_name_first">ناوی دووەم سەرەتا</string>
+    <string name="settings_accounts">هەژمارەکان</string>
+    <string name="default_editor_account">ئەژماری بنەڕەتی بۆ پەیوەندییە نوێیەکان</string>
+    <string name="settings_my_info_title">زانیارییەکانم</string>
+    <string name="set_up_profile">پڕۆفایلەکەت ڕێکبخە</string>
+    <string name="setting_about">دەربارەی پەیوەندییەکان</string>
+    <string name="share_favorite_contacts">هاوبەشکردنی پەیوەندییە دڵخوازەکان</string>
+    <string name="share_contacts">هاوبەشکردنی هەموو پەیوەندییەکان</string>
+    <string name="share_contacts_failure">نەتوانرا پەیوەندییەکان هاوبەش بکرێن.</string>
+    <string name="dialog_export">هەناردەکردنی پەیوەندییەکان</string>
+    <string name="dialog_import">هاوردەکردنی پەیوەندییەکان لە</string>
+    <string name="share_error">ئەم پەیوەندییە ناتوانرێت هاوبەش بکرێت.</string>
+    <string name="no_contact_to_share">هیچ پەیوەندییەک نییە بۆ هاوبەشکردن.</string>
+    <string name="menu_contacts_filter">پەیوەندییەکان بۆ پیشاندان</string>
+    <string name="activity_title_contacts_filter">پەیوەندییەکان بۆ پیشاندان</string>
+    <string name="custom_list_filter">دیمەنی دەستکاریکراو</string>
+    <string name="menu_custom_filter_save">پاشەکەوتکردن</string>
+    <string name="hint_findContacts">گەڕان لە پەیوەندییەکان</string>
+    <string name="contactsFavoritesLabel">دڵخوازەکان</string>
+    <string name="menu_import">هاوردەکردن</string>
+    <string name="menu_export">هەناردەکردن</string>
+    <string name="menu_blocked_numbers">ژمارە بلۆککراوەکان</string>
+    <string name="contact_status_update_attribution">لە ڕێگەی <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
+    <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> لە ڕێگەی <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
+    <string name="letter_tile_letter_font_family">sans-serif-medium</string>
+    <string name="action_menu_back_from_search">وەستاندنی گەڕان</string>
+    <string name="description_clear_search">پاککردنەوەی گەڕان</string>
+    <string name="search_font_family">sans-serif</string>
+    <string name="select_account_dialog_title">هەژمار</string>
+    <string name="set_default_account">هەمیشە ئەمە بۆ پەیوەندییەکان بەکاربهێنە</string>
+    <string name="call_with_a_note">پەیوەندی لەگەڵ تێبینی</string>
+    <string name="call_subject_hint">تێبینییەک بنووسە بۆ ناردنی لەگەڵ پەیوەندیدا…</string>
+    <string name="send_and_call_button">ناردن و پەیوەندیکردن</string>
+    <string name="call_subject_limit"><xliff:g id="count" example="4">%1$s</xliff:g> / <xliff:g id="limit" example="64">%2$s</xliff:g></string>
+    <string name="call_subject_type_and_number"><xliff:g id="type" example="Mobile">%1$s</xliff:g> • <xliff:g id="number" example="(650) 555-1212">%2$s</xliff:g></string>
+    <string name="about_build_version">وەشانی سازکراو</string>
+    <string name="about_open_source_licenses">مۆڵەتەکانی سەرچاوەکراوە</string>
+    <string name="about_open_source_licenses_summary">وردەکاریی مۆڵەتی نەرمەواڵەی سەرچاوەکراوە</string>
+    <string name="about_privacy_policy">سیاسەتی تایبەتمەندی</string>
+    <string name="about_terms_of_service">مەرجەکانی خزمەتگوزاری</string>
+    <string name="activity_title_licenses">مۆڵەتەکانی سەرچاوەکراوە</string>
+    <string name="url_open_error_toast">نەتوانرا بەستەر بکرێتەوە.</string>
+    <string name="account_filter_view_checked"><xliff:g id="account_info">%s</xliff:g> هەڵبژێردرا</string>
+    <string name="account_filter_view_not_checked"><xliff:g id="account_info">%s</xliff:g> هەڵنەبژێردرا</string>
+    <string name="description_search_video_call">ئەنجامدانی پەیوەندیی ڤیدیۆیی</string>
+    <string name="description_delete_contact">سڕینەوە</string>
+    <string name="description_no_name_header">سێ خاڵ</string>
+    <string name="dynamic_shortcut_disabled_message">ئەم قەدبڕە ناچالاک کراوە</string>
+    <string name="dynamic_shortcut_contact_removed_message">پەیوەندی لادرا</string>
+    <string name="sim_import_button_text">هاوردەکردن</string>
+    <string name="sim_import_title_none_selected">دیاریکردنی پەیوەندییەکان</string>
+    <string name="sim_import_empty_message">هیچ پەیوەندییەک لەسەر سیمکارتەکەت نییە</string>
+    <string name="sim_import_contact_exists_toast">پەیوەندی پێشتر لە لیستەکەتدا هەیە</string>
+    <string name="sim_import_success_toast_fmt">{count, plural,
+        =1    {# پەیوەندیی سیم هاوردەکرا}
+        other {# پەیوەندیی سیم هاوردەکران}
+    }</string>
+    <string name="sim_import_failed_toast">نەتوانرا پەیوەندییەکانی سیم هاوردە بکرێن</string>
+    <string name="sim_import_title">هاوردەکردن لە سیم</string>
+    <string name="sim_import_cancel_content_description">پاشگەزبوونەوە</string>
+    <string name="auto_sync_off">هاوکاتکردنی خۆکارانە ناچالاکە. پەنجە بنێ بۆ چالاککردن.</string>
+    <string name="dismiss_sync_alert">بێدەنگکردن</string>
+    <string name="account_sync_off">هاوکاتکردنی ئەژمار ناچالاکە. پەنجە بنێ بۆ چالاککردن.</string>
+    <string name="turn_auto_sync_on_dialog_title">هاوکاتکردنی خۆکارانە چالاک بکرێت؟</string>
+    <string name="turn_auto_sync_on_dialog_body">ئەو گۆڕانکارییانەی لە هەموو بەرنامە و ئەژمارەکاندا دەیکەیت لە نێوان وێب و ئامێرەکانتدا بە هاوکاتکراوی دەمێننەوە.</string>
+    <string name="turn_auto_sync_on_dialog_confirm_btn">چالاککردن</string>
+    <string name="connection_error_message">هیچ پەیوەستییەک نییە</string>
+    <string name="single_sim_display_label">SIM</string>
+    <string name="show_more_content_description">پیشاندانی زیاتر</string>
+    <string name="importing_sim_finished_title">هاوردەکردنی سیمکارت تەواو بوو</string>
+    <string name="importing_sim_failed_title">هاوردەکردن سەرکەوتوو نەبوو</string>
+    <string name="importing_sim_failed_message">نەتوانرا پەیوەندییەکان لە سیمکارتەوە هاوردە بکرێن</string>
+    <string name="importing_sim_in_progress_title">سیم هاوردە دەکرێت</string>
+    <string name="contacts_default_notification_channel">ئاگادارییەکان</string>
+    <string name="yes_button">بەڵێ</string>
+    <string name="no_button">نەخێر</string>
+    <string name="sdn_contacts_directory_search_label">ژمارەکانی خزمەتگوزاریی هێڵ</string>
+</resources>

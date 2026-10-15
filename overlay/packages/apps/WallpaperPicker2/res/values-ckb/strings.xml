@@ -15,19 +15,185 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wallpaper_app_name">پاشبنەماکان</string>
+    <string name="app_name">@string/wallpaper_app_name</string>
+    <string name="select_wallpaper_label">هاوپۆلەکانی وێنەی پاشبنەما</string>
+    <string name="set_wallpaper_button_text">دانانی وێنەی پاشبنەما</string>
+    <string name="set_wallpaper_progress_message">وێنەی پاشبنەما دادەنرێت…</string>
+    <string name="try_again">دووبارە هەوڵ بدەرەوە</string>
     <string name="select_a_photo">وێنەیەک هەڵبژێرە</string>
+    <string name="set_wallpaper_error_message">نەتوانرا وێنەی پاشبنەما دابنرێت.</string>
+    <string name="load_wallpaper_error_message">
+        نەتوانرا وێنەی پاشبنەما باربکرێت. وێنەکە تێکچووە یان بەردەست نییە.
+    </string>
+    <string name="static_wallpaper_presentation_mode_message">لە ئێستادا دانراوە</string>
+    <string name="rotating_wallpaper_presentation_mode_message">وێنەی پاشبنەمای ڕۆژانە</string>
+    <string name="wallpaper_destination_both">ڕوونمای سەرەکی و قوفڵ</string>
+    <string name="choose_a_wallpaper_section_title">وێنەیەکی پاشبنەما هەڵبژێرە</string>
     <string name="choose_a_curated_photo_section_title">وێنە پێشنیارکراوەکان</string>
+    <string name="creative_wallpaper_title">دروستکردنی وێنەی پاشبنەما</string>
     <string name="wallpaper_studio_title">ستۆدیۆی ڕوونما</string>
+    <string name="home_screen_message">ڕوونمای سەرەکی</string>
+    <string name="lock_screen_message">قوفڵی ڕوونما</string>
+    <string name="home_and_lock_short_label">سەرەکی و قوفڵ</string>
+    <string name="set_wallpaper_dialog_message">دانانی وێنەی پاشبنەما لەسەر</string>
+    <string name="set_wallpaper_home_screen_destination">ڕوونمای سەرەکی</string>
+    <string name="set_wallpaper_lock_screen_destination">قوفڵی ڕوونما</string>
+    <string name="set_wallpaper_both_destination">ڕوونماکانی سەرەکی و قوفڵ</string>
+    <string name="no_backup_image_wallpaper_label">وێنەی پاشبنەمای جووڵاوی سووڕاوە</string>
+    <string name="permission_needed_explanation">
+      بۆ پیشاندانی وێنەی پاشبنەمای ئێستا لێرە،
+      <xliff:g example="Wallpapers" id="app_name">%1$s</xliff:g> پێویستی بە دەستپێڕاگەیشتنە بە بیرگەی
+      ئامێرەکەت.
+    </string>
+    <string name="permission_needed_explanation_go_to_settings">
+      بۆ پیشاندانی وێنەی پاشبنەمای ئێستا لێرە، پێویستە ئەپی وێنەی پاشبنەما دەستی بگات بە بیرگەی ئامێرەکەت.
+
+بۆ گۆڕینی ئەم ڕێکخستنە، بڕۆ بۆ بەشی مۆڵەتەکان لە زانیاریی ئەپدا.
+    </string>
+    <string name="permission_needed_allow_access_button_label">
+      ڕێگەدان بە دەستپێڕاگەیشتن
+    </string>
+    <string name="no_backup_image_wallpaper_description">
+      خزمەتگوزاریی وێنەی پاشبنەمای زیندوو بۆ وێنە پاشبنەما سووڕاوەکان
+    </string>
     <string name="more_photos">وێنەی زیاتر</string>
     <string name="choose_a_photo">وێنەیەک هەڵبژێرە</string>
+    <string name="daily_refresh_tile_title">وێنەی پاشبنەمای ڕۆژانە</string>
+    <string name="daily_refresh_tile_subtitle">پەنجە بنێ بۆ هەڵکردن</string>
+    <string name="start_rotation_dialog_body_live_wallpaper_needed">
+      وێنەی پاشبنەما هەموو ڕۆژێک بە شێوەیەکی خۆکارانە دەگۆڕێت. بۆ تەواوکردنی ڕێکخستن، لەسەر پەڕەی دواتر پەنجە بنێ بە
+      &lt;strong&gt;دانانی وێنەی پاشبنەما&lt;/strong&gt;دا.
+    </string>
+    <string name="start_rotation_dialog_wifi_only_option_message">
+      وێنە پاشبنەماکانی داهاتوو تەنها لەسەر وایفای دابگرە
+    </string>
+    <string name="start_rotation_dialog_continue">بەردەوامبوون</string>
+    <string name="start_rotation_progress_message">یەکەم وێنەی پاشبنەما دادەگیرێت…</string>
+    <string name="start_rotation_error_message">
+      نەتوانرا یەکەم وێنەی پاشبنەما دابگیرێت. تکایە ڕێکخستنەکانی تۆڕ بپشکنە و دووبارە هەوڵ بدەوە.
+    </string>
+    <string name="start_rotation_dialog_body">
+      وێنەی پاشبنەما هەموو ڕۆژێک بە شێوەیەکی خۆکارانە دەگۆڕێت
+    </string>
+    <string name="collapse_content_description">کۆکردنەوە</string>
+    <string name="expand_content_description">بڵاوکردنەوە</string>
+    <string name="settings_button_label">ڕێکخستنەکان</string>
+    <string name="explore">گەڕان</string>
+    <string name="next_wallpaper">وێنەی پاشبنەمای دواتر</string>
+    <string name="wallpaper_disabled_message">
+        دانانی وێنەی پاشبنەما لەسەر ئەم ئامێرە ناچالاک کراوە
+    </string>
+    <string name="wallpaper_disabled_by_administrator_message">
+        دانانی وێنەی پاشبنەما لە لایەن سەرپەرشتیاری ئامێرەکەتەوە ناچالاک کراوە
+    </string>
+    <string name="wallpaper_set_successfully_message">
+        وێنەی پاشبنەما بە سەرکەوتوویی دانرا
+    </string>
+    <string name="wallpapers_unavailable_offline_message">
+        پێویستت بە هێڵی ئینتەرنێت هەیە بۆ بینینی وێنەکانی پاشبنەما. تکایە پەیوەست ببە و دووبارە هەوڵ بدەوە.
+    </string>
+    <string name="currently_set_home_wallpaper_thumbnail">
+      وێنۆچکەی بچووکی وێنەی پاشبنەمای دانراوی ئێستای ڕوونمای سەرەکی
+    </string>
+    <string name="currently_set_lock_wallpaper_thumbnail">
+      وێنۆچکەی بچووکی وێنەی پاشبنەمای دانراوی ئێستای ڕوونمای قوفڵ
+    </string>
+    <string name="currently_set_wallpaper_thumbnail">وێنۆچکەی بچووکی وێنەی پاشبنەمای دانراوی ئێستا</string>
+    <string name="wallpaper_thumbnail">وێنۆچکەی بچووکی وێنەی پاشبنەما</string>
+    <string name="explore_home_screen">گەڕان بە وێنەی پاشبنەمای ڕوونمای سەرەکیدا</string>
+    <string name="explore_lock_screen">گەڕان بە وێنەی پاشبنەمای ڕوونمای قوفڵدا</string>
+    <string name="refresh_daily_wallpaper_home_content_description">نوێکردنەوەی ڕۆژانەی وێنەی پاشبنەمای ڕوونمای سەرەکی</string>
+    <string name="refresh_daily_wallpaper_content_description">نوێکردنەوەی ڕۆژانەی وێنەی پاشبنەما</string>
+    <string name="preview_screen_description">ڕوونمای پێشبینینی وێنەی پاشبنەما</string>
     <string name="preview_screen_description_editable">ڕوونمای پێشبینینی ڕوونما %1$s. دوو پەنجە بەکاربهێنە بۆ جووڵە و نزیککردنەوە</string>
     <string name="preview_screen_description_non_editable">ڕوونمای پێشبینینی ڕوونما %1$s</string>
+    <string name="folded_device_state_description">چەماوە</string>
+    <string name="unfolded_device_state_description">کراوە</string>
+    <string name="full_preview_check_button_description">دەستکاریکردنی وێنەی پاشبنەما تەواو بوو</string>
     <string name="suggestion_chip_close_button_description">داخستنی ڕاگەیاندنی پاکێجی بابەتەکان</string>
+    <string name="refreshing_daily_wallpaper_dialog_message">
+        وێنەی پاشبنەمای ڕۆژانە نوێ دەکرێتەوە…
+    </string>
+    <string name="refresh_daily_wallpaper_failed_message">
+        شکستی هێنا لە نوێکردنەوەی وێنەی پاشبنەمای ڕۆژانە. تکایە هێڵی تۆڕەکەت بپشکنە و دووبارە هەوڵ بدەوە.
+    </string>
+    <string name="on_device_wallpapers_category_title">وێنە پاشبنەماکانی سەر ئامێر</string>
+    <string name="on_device_wallpapers_category_title_desktop">لەسەر ئامێر</string>
+    <string name="on_device_wallpaper_title">وێنەی پاشبنەمای ئەندرۆید</string>
+    <string name="live_wallpapers_category_title">وێنە پاشبنەما زیندووەکان</string>
+    <string name="my_photos_category_title">وێنەکانم</string>
+    <string name="my_photos_generic_wallpaper_title">وێنەکەم</string>
+    <string name="fallback_wallpaper_title">وێنەی پاشبنەما</string>
+    <string name="app_not_found">بەرنامە دانەمەزراوە.</string>
+    <string name="center_wallpaper_position">ناوەڕاست</string>
+    <string name="center_crop_wallpaper_position">بڕینی ناوەڕاست</string>
+    <string name="stretch_wallpaper_position">کێشان</string>
+    <string name="preview">پێشبینین</string>
+    <string name="tab_info">زانیاری</string>
+    <string name="tab_customize">تایبەتکردن</string>
+    <string name="tab_effects">کاریگەرییەکان</string>
+    <string name="tab_share">هاوبەشکردن</string>
+    <string name="my_photos">وێنەکانم</string>
+    <string name="configure_wallpaper">ڕێکخستنەکان…</string>
+    <string name="delete_live_wallpaper">سڕینەوە</string>
+    <string name="edit_live_wallpaper">دەستکاریکردن</string>
+    <string name="delete_wallpaper_confirmation">ئەم وێنەی پاشبنەمایە لە ئامێرەکەت بسڕدرێتەوە؟</string>
+    <string name="bottom_action_bar_back">بڕۆ بەرەو سەرەوە</string>
+    <string name="bottom_action_bar_edit">دەستکاریکردن</string>
+    <string name="bottom_action_bar_download">داگرتن (Download)</string>
+    <string name="download_effects">داگرتنی کاریگەرییەکان</string>
+    <string name="bottom_action_bar_slideshow_wallpaper">وێنەی پاشبنەمای سلایدشۆ</string>
+    <string name="bottom_action_bar_apply">جێبەجێکردن</string>
+    <string name="accessibility_preview_pager" msgid="3548503287402185430">پەڕەی <xliff:g name="current_page" example="1">%1$d</xliff:g> لە <xliff:g name="num_pages" example="2">%2$d</xliff:g></string>
+    <string name="next_page_content_description" msgid="5290226604542300962">دواتر</string>
+    <string name="previous_page_content_description" msgid="6025726405430262788">پێشتر</string>
+    <string name="wallpaper_title">وێنەی پاشبنەما</string>
+    <string name="wallpaper_preview_card_content_description">پێشبینینی وێنەی پاشبنەما</string>
     <string name="wallpaper_preview_card_content_description_editable">%1$s پێشبینینی ڕوونما %2$s، دوو جار لێ بدە بۆ دەستکاریکردنی وێنەکەت</string>
     <string name="wallpaper_preview_card_content_description_non_editable">%1$s پێشبینینی ڕوونما %2$s</string>
-    <string name="discard_changes_dialog_message">گۆڕانکارییەکان بسڕدرێنەوە؟</string>
+    <string name="lock_wallpaper_preview_card_content_description">پێشبینینی وێنەی پاشبنەمای ڕوونمای قوفڵ</string>
+    <string name="home_wallpaper_preview_card_content_description">پێشبینینی وێنەی پاشبنەمای ڕوونمای سەرەکی</string>
+    <string name="collection_not_exist_msg">کۆکراوەکە بوونی نییە</string>
+    <string name="wallpaper_exit_split_screen">تکایە لە دۆخی دابەشکردنی ڕوونما دەربچۆ و دووبارە هەوڵ بدەوە</string>
+    <string name="wallpaper_preview_error">پێشبینینی وێنەی باکگراوند پیشان نادرێت</string>
+    <string name="set_wallpaper_dialog_set_button">دانان</string>
+    <string name="cancel">پاشگەزبوونەوە</string>
+    <string name="hide_ui_preview_text">شاردنەوەی پێشبینینی UI</string>
+    <string name="hint_hide_ui_preview">UI شاردراوەتەوە لە پێشبینیندا. دووجار لێ بدە بۆ دەرکەوتنەوە</string>
+    <string name="show_ui_preview_text">پیشاندانی پێشبینینی UI</string>
+    <string name="hide_preview_controls_content_description">کۆنتڕۆڵەکانی پێشبینین پیشان دراون. دووجار لێ بدە بۆ شاردنەوە</string>
+    <string name="hide_preview_controls_action">شاردنەوەی کۆنتڕۆڵەکانی پێشبینین</string>
+    <string name="show_preview_controls_content_description">کۆنتڕۆڵەکانی پێشبینین شاردراونەتەوە. دووجار لێ بدە بۆ پیشاندان</string>
+    <string name="show_preview_controls_action">پیشاندانی کۆنتڕۆڵەکانی پێشبینین</string>
+    <string name="hide_wallpaper_info_action">شاردنەوەی زانیاریی وێنەی پاشبنەما</string>
+    <string name="hint_show_ui_preview">UI پیشان دراوە لە پێشبینیندا. دووجار لێ بدە بۆ شاردنەوە</string>
+    <string name="wallpaper_picker_entry_title" msgid="7039652539125902659">گۆڕینی وێنەی پاشبنەما</string>
+    <string name="lockscreen_wallpaper_preview_card_content_description" msgid="8575577284424318765">پێشبینینی وێنەی پاشبنەمای ڕوونمای قوفڵ</string>
+    <string name="apply_btn" msgid="7965877231041987336">جێبەجێکردن</string>
+    <string name="apply_wallpaper_title_text">وێنەی پاشبنەما جێبەجێ بکرێت؟</string>
+    <string name="accessibility_customize_hidden">دەستکاری شاردراوەتەوە</string>
+    <string name="accessibility_customize_shown">دەستکاری پیشان دراوە</string>
+    <string name="accessibility_info_hidden">زانیاری شاردراوەتەوە</string>
+    <string name="accessibility_info_shown">زانیاری پیشان دراوە</string>
+    <string name="settings_snackbar_description">تکایە فایل و میدیا لە ڕێکخستنەکاندا چالاک بکە.</string>
+    <string name="settings_snackbar_enable">چالاککردن</string>
+    <string name="open_my_photos">کردنەوەی وێنەکانم</string>
+    <string name="lock_screen_tab">قوفڵی ڕوونما</string>
+    <string name="home_screen_tab">ڕوونمای سەرەکی</string>
+    <string name="reset">ڕێکخستنەوە</string>
+    <string name="reset_confirmation_dialog_title">گۆڕانکارییەکان ڕێکبخرێنەوە؟</string>
+    <string name="reset_confirmation_dialog_message">گۆڕانکارییەکانت پاشەکەوت ناکرێن</string>
+    <string name="more_wallpapers">وێنەی پاشبنەمای زیاتر</string>
+    <string name="view_all_wallpapers">&gt;\nبینینی هەموو</string>
+    <string name="wallpapers">پاشبنەماکان</string>
+    <string name="recents_wallpaper_label">%1$s، %2$d</string>
+    <string name="default_wallpaper_title">وێنەی پاشبنەما</string>
+    <string name="small_preview_tooltip">پەنجە بنێ بۆ دەستکاریکردنی وێنەکەت</string>
+    <string name="full_preview_tooltip">ڕێکخستنی شوێن، قەبارە، و گۆشەی وێنەکانت</string>
+    <string name="discard_changes_dialog_message">گۆڕانکارییەکان پشتگوێ بخرێن؟</string>
     <string name="discard_changes_dialog_button_keep_editing">بەردەوامبوون لە دەستکاریکردن</string>
-    <string name="discard_changes_dialog_button_discard">سڕینەوە</string>
+    <string name="discard_changes_dialog_button_discard">فڕێدان</string>
     <string name="action_zoom_in">نزیککردنەوە</string>
     <string name="action_zoom_out">دوورخستنەوە</string>
     <string name="zoomed_to_percent">نزیککراوەتەوە بۆ %d٪</string>

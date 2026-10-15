@@ -17,7 +17,186 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:keep="@color/sud_system_*">
-  <string name="expanded">فراوانکراو</string>
+  <string name="app_label">ڕێکخستنی کار</string>
+  <string name="provisioning_error_title">ئۆپس!</string>
+  <string name="setup_work_profile">ڕێکخستنی پرۆفایلی کار</string>
+  <string name="company_controls_workspace">ڕێکخراوەکەت کۆنتڕۆڵی ئەم پرۆفایلە دەکات و بە پارێزراوی دەیهێڵێتەوە. تۆ کۆنتڕۆڵی هەموو شتێکی تری ئامێرەکەت دەکەیت.</string>
+  <string name="company_controls_device">ڕێکخراوەکەت کۆنتڕۆڵی ئەم ئامێرە دەکات و بە پارێزراوی دەیهێڵێتەوە.</string>
+  <string name="the_following_is_your_mdm">ئەم ئەپەی خوارەوە پێویستە دەستی بەم پرۆفایلە بگات:</string>
+  <string name="the_following_is_your_mdm_for_device">ئەم ئەپەی خوارەوە بەڕێوەبەرایەتیی ئامێرەکەت دەکات:</string>
+  <string name="next">دواتر</string>
+  <string name="setting_up_workspace">ڕێکخستنی پرۆفایلی کار…</string>
+  <string name="admin_has_ability_to_monitor_profile">بەڕێوەبەری ITـی تۆ دەتوانێت چاودێری و بەڕێوەبردنی ڕێکخستنەکان، دەستگەیشتنی کۆمپانیا، ئەپەکان، مۆڵەتەکان، دراوە و چالاکیی تۆڕی پەیوەندیدار بەم پرۆفایلە بکات، هەروەها مێژووی پەیوەندی و مێژووی گەڕانی ناوەکانت. بۆ زانیاریی زیاتر و ئاگاداربوون لە سیاسەتەکانی تایبەتمەندیی ڕێکخراوەکەت پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="admin_has_ability_to_monitor_device">بەڕێوەبەری ITـی تۆ توانای چاودێریکردن و بەڕێوەبردنی ڕێکخستنەکان، دەستگەیشتنی کۆمپانیا، ئەپەکان، مۆڵەتەکان و دراوەی پەیوەندیدار بەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ەی هەیە، لەوانەش چالاکیی تۆڕەکەت، هەروەها شوێنی ئامێرەکەت، مێژووی پەیوەندی و مێژووی گەڕانی ناوەکان.<xliff:g id="line_break">
+
+</xliff:g>بۆ زانیاریی زیاتر، لەوانەش سیاسەتەکانی تایبەتمەندیی ڕێکخراوەکەت پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="theft_protection_disabled_warning">بۆ بەکارهێنانی تایبەتمەندییەکانی پاراستن لە دزین، پێویستە قوفڵی شاشەی پارێزراو بە تێپەڕەوشەت بۆ ئامێرەکەت هەبێت.</string>
+  <string name="contact_your_admin_for_more_info">بۆ زانیاریی زیاتر، لەوانەش سیاسەتەکانی تایبەتمەندیی ڕێکخراوەکەت پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="learn_more_link">زیاتر بزانە</string>
+  <string name="cancel_setup">پاشگەزبوونەوە</string>
+  <string name="ok_setup">باشە</string>
+  <string name="user_consent_msg">ڕەزامەندم</string>
+  <string name="url_error">ئەم بەستەرە پێشان نادرێت.</string>
+  <string name="navigation_button_description">بڕۆ بەرەو سەرەوە</string>
+  <string name="terms">مەرجەکان</string>
+  <string name="work_profile_info">زانیاریی پرۆفایلی کار</string>
+  <string name="managed_device_info">زانیاریی ئامێری بەڕێوەبراو</string>
+  <string name="default_managed_profile_name">پڕۆفایلی کار</string>
+  <string name="delete_profile_title">پرۆفایلی ئێستا بسڕدرێتەوە؟</string>
+  <string name="opening_paragraph_delete_profile">پێشتر پرۆفایلێکی کارت هەیە. لەڕێگەی ئەم ئەپەی خوارەوە بەڕێوەدەبردرێت:</string>
+  <string name="read_more_delete_profile">پێش ئەوەی بەردەوام بیت، <a href="#read_this_link">ئەمە بخوێنەوە</a>.</string>
+  <string name="sure_you_want_to_delete_profile">ئەگەر بەردەوام بیت، هەموو ئەپ و دراوەکانی ئەم پرۆفایلە دەسڕدرێنەوە.</string>
+  <string name="delete_profile">سڕینەوە</string>
+  <string name="cancel_delete_profile">پاشگەزبوونەوە</string>
+  <string name="encrypt_device_text_for_profile_owner_setup">بۆ ڕێکخستنی پرۆفایلی کارت، پێویستە <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ەکەت بە کۆد بکرێت. ئەمە لەوانەیە کەمێک کات بخایەنێت.</string>
+  <string name="encrypt_device_text_for_device_owner_setup">بۆ ڕێکخستنی ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە، سەرەتا پێویستە بە کۆد بکرێت. ئەمە لەوانەیە کەمێک کات بخایەنێت.</string>
+  <string name="encrypt_this_device_question">ئەم ئامێرە بە کۆد بکرێت؟</string>
+  <string name="encrypt">کۆدکردن</string>
+  <string name="continue_provisioning_notify_title">کۆدکردن تەواو بوو</string>
+  <string name="continue_provisioning_notify_text">دابگرە بۆ بەردەوامبوون لە ڕێکخستنی پرۆفایلی کارت</string>
+  <string name="managed_provisioning_error_text">پرۆفایلی کارت ڕێکنەخرا. پەیوەندی بە بەشی IT بکە یان دواتر هەوڵ بدەرەوە.</string>
+  <string name="cant_add_work_profile">پرۆفایلی کار زیاد ناکرێت</string>
+  <string name="cant_replace_or_remove_work_profile">پرۆفایلی کار جێگۆڕکێ یان لانابرێت</string>
+  <string name="work_profile_cant_be_added_contact_admin">پرۆفایلی کار زیاد ناکرێت بۆ ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە. ئەگەر پرسیارت هەیە، پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="change_device_launcher">گۆڕینی دەستپێکەری ئامێر</string>
+  <string name="launcher_app_cant_be_used_by_work_profile">ئەم ئەپەی دەستپێکەر ناتوانرێت لەلایەن پرۆفایلی کارەکەتەوە بەکاربهێنرێت</string>
+  <string name="cancel_provisioning">پاشگەزبوونەوە</string>
+  <string name="pick_launcher">باشە</string>
+  <string name="user_setup_incomplete">ڕێکخستنی بەکارهێنەر تەواو نەکراوە</string>
+  <string name="default_owned_device_username">بەکارهێنەری ئامێری کار</string>
+  <string name="setup_work_device">ڕێکخستنی ئامێری کار…</string>
+  <string name="device_doesnt_allow_encryption_contact_admin">ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە ڕێگە بە کۆدکردن نادات، کە بۆ ڕێکخستن پێویستە. بۆ هاوکاری، پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="stop_setup_reset_device_question">ڕێکخستن ڕابگیرێت و <xliff:g id="device_name" example="Pixel">%1$s</xliff:g> ڕێکبخرێتەوە؟</string>
+  <string name="this_will_reset_take_back_first_screen">ئەمە <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ەکەت ڕێکدەخاتەوە و دەتگەڕێنێتەوە بۆ شاشەی یەکەم</string>
+  <string name="device_owner_cancel_message">ڕێکخستن ڕابگیرێت و دراوەی ئامێرەکەت بسڕدرێتەوە؟</string>
+  <string name="device_owner_cancel_cancel">پاشگەزبوونەوە</string>
+  <string name="device_owner_error_ok">باشە</string>
+  <string name="reset">ڕێکخستنەوە</string>
+  <string name="cant_set_up_profile">پرۆفایل ڕێکناخرێت</string>
+  <string name="cant_set_up_device">ئامێر ڕێکناخرێت</string>
+  <string name="something_went_wrong">هەڵەیەک ڕوویدا</string>
+  <string name="couldnt_set_up_device">ئامێر ڕێکنەخرا. بۆ هاوکاری، پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="contact_your_admin_for_help">بۆ هاوکاری پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە</string>
+  <string name="reset_device">ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە ڕێکبخەرەوە و دووبارە هەوڵی ڕێکخستنی بدەرەوە</string>
+  <string name="device_already_set_up"><xliff:g id="device_name" example="Pixel">%1$s</xliff:g> پێشتر ڕێکخراوە</string>
+  <string name="error_wifi">پەیوەست نەبوو بە Wi-Fi</string>
+  <string name="device_has_reset_protection_contact_admin"><xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ەکەت پاراستنی ڕێکخستنەوەی چالاک کراوە. بۆ هاوکاری، پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="frp_clear_progress_title">لە سڕینەوەدایە</string>
+  <string name="frp_clear_progress_text">تکایە چاوەڕوان بە...</string>
+  <string name="error_hash_mismatch">بەهۆی هەڵەی پشکنینی پشکنینەوە (checksum) نەتوانرا ئەپی بەڕێوەبەر بەکاربهێنرێت. بۆ هاوکاری، پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="error_download_failed">ئەپی بەڕێوەبەر دانەگیرا</string>
+  <string name="error_package_invalid">ئەپی بەڕێوەبەر بەکارناهێنرێت. بەشەکانی کەمن یان تێکچووە. بۆ هاوکاری، پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="error_installation_failed">ئەپی بەڕێوەبەر دانەمەزرا</string>
+  <string name="profile_owner_cancel_message">ڕێکخستن ڕابگیرێت؟</string>
+  <string name="profile_owner_cancel_cancel">نەخێر</string>
+  <string name="profile_owner_cancel_ok">بەڵێ</string>
+  <string name="profile_owner_cancelling">هەڵوەشاندنەوە…</string>
+  <string name="work_profile_setup_later_title">ڕێکخستنی پرۆفایل ڕابگیرێت؟</string>
+  <string name="work_profile_setup_later_message">دەتوانیت دواتر لە ئەپی بەڕێوەبردنی ئامێری ڕێکخراوەکەتدا پرۆفایلی کارەکەت ڕێکبخەیت</string>
+  <string name="continue_button">بەردەوامبوون</string>
+  <string name="work_profile_setup_stop">وەستاندن</string>
+  <string name="dismiss">بێدەنگکردن</string>
+  <string name="profile_owner_info">تۆ لەسەر ئەوەیت پرۆفایلێکی کار دروست بکەیت کە لەلایەن ڕێکخراوەکەتەوە بەڕێوەدەبردرێت و چاودێری دەکرێت. مەرجەکان جێبەجێ دەبن.</string>
+  <string name="profile_owner_info_with_terms_headers">تۆ لەسەر ئەوەیت پرۆفایلێکی کار دروست بکەیت کە لەلایەن ڕێکخراوەکەتەوە بەڕێوەدەبردرێت و چاودێری دەکرێت. مەرجەکانی <xliff:g id="terms_headers" example="EMM Partner A, Company B and Google">%1$s</xliff:g> جێبەجێ دەبن.</string>
+  <string name="profile_owner_info_comp">پرۆفایلێک بۆ ئەپەکانی کارت دروست دەکرێت. ئەم پرۆفایلە و بەشەکەی تری ئامێرەکەت لەلایەن ڕێکخراوەکەتەوە بەڕێوەدەبردرێن و چاودێری دەکرێن. مەرجەکان جێبەجێ دەبن.</string>
+  <string name="profile_owner_info_with_terms_headers_comp">پرۆفایلێک بۆ ئەپەکانی کارت دروست دەکرێت. ئەم پرۆفایلە و بەشەکەی تری ئامێرەکەت لەلایەن ڕێکخراوەکەتەوە بەڕێوەدەبردرێن و چاودێری دەکرێن. مەرجەکانی <xliff:g id="terms_headers" example="EMM Partner A, Company B and Google">%1$s</xliff:g> جێبەجێ دەبن.</string>
+  <string name="device_owner_info">ئەم ئامێرە لەلایەن <xliff:g id="your organization" example="your organization">%1$s</xliff:g> بەڕێوەدەبردرێت، چاودێری دەکرێت و بە پارێزراوی دەهێڵدرێتەوە. مەرجەکان پەیڕەو دەکرێن. <xliff:g id="view_terms" example="View Terms">%2$s</xliff:g></string>
+  <string name="device_owner_info_with_terms_headers">ئەم ئامێرە لەلایەن <xliff:g id="your organization" example="your organization">%1$s</xliff:g> بەڕێوەدەبردرێت، چاودێری دەکرێت و بە پارێزراوی دەهێڵدرێتەوە. مەرجەکانی <xliff:g id="terms_headers" example="EMM Partner A, Company B and Google">%2$s</xliff:g> پەیڕەو دەکرێن. <xliff:g id="view_terms" example="View Terms">%3$s</xliff:g></string>
+  <string name="link_isnt_secure_and_cant_be_opened_until_device_setup_finished">ئەم بەستەرە پارێزراو نییە و ناکرێتەوە تا ڕێکخستنی ئامێرەکە تەواو نەبێت: <xliff:g id="link_raw_test" example="http://insecure-http-link.com/?p1=v1&amp;p2=v2">%1$s</xliff:g></string>
+  <string name="contact_device_provider">بۆ زانیاریی زیاتر، پەیوەندی بە <xliff:g id="it_admin" example="it_admin">%1$s</xliff:g>ی خۆتەوە بکە.</string>
+  <string name="if_questions_contact_admin">ئەگەر پرسیارت هەیە، پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە</string>
+  <string name="setup_isnt_finished_contact_admin">ڕێکخستن تەواو نەبووە. بۆ هاوکاری، پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="for_help_contact_admin">بۆ هاوکاری، پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە</string>
+  <string name="organization_admin">بەڕێوەبەری IT</string>
+  <string name="your_org_app_used"><xliff:g id="Your organization" example="Your organization">%1$s</xliff:g> لەڕێگەی ئەم ئەپەی خوارەوە بەڕێوەبەرایەتی و چاودێریی ئەم ئامێرە دەکات:</string>
+  <string name="your_organization_beginning">ڕێکخراوەکەت</string>
+  <string name="your_organization_middle">ڕێکخراوەکەت</string>
+  <string name="view_terms">بینینی مەرجەکان</string>
+  <string name="accept_and_continue">قبووڵکردن و بەردەوامبوون</string>
+  <string name="back">گەڕانەوە</string>
+  <string name="set_up_your_device">ئامێرەکەت ڕێکبخە</string>
+  <string name="info_anim_title_0">شێوازی کارکردنت بگۆڕە</string>
+  <string name="info_anim_title_1">جیاکردنەوەی کار لە کەسی</string>
+  <string name="one_place_for_work_apps">یەک شوێن بۆ ئەپەکانی کار</string>
+  <string name="info_anim_title_2">کوژاندنەوەی کار کاتێک کارت تەواو بوو</string>
+  <string name="provisioning">ئامادەکاری</string>
+  <string name="copying_certs">ڕێکخستنی بڕوانامەکانی CA</string>
+  <string name="setup_profile">پرۆفایلەکەت ڕێکبخە</string>
+  <string name="profile_benefits_description">بە بەکارهێنانی پرۆفایلی کار، دەتوانیت دراوەی کار لە دراوەی کەسی جیا بکەیتەوە</string>
+  <string name="comp_profile_benefits_description">بە بەکارهێنانی پرۆفایلی کار، دەتوانیت ئەپەکانی کارت لە یەک شوێندا بهێڵیتەوە</string>
+  <string name="setup_profile_encryption">ڕێکخستنی پرۆفایلەکەت. کۆدکردن</string>
+  <string name="setup_profile_progress">ڕێکخستنی پرۆفایلەکەت. پشاندانی بەرەوپێشچوون</string>
+  <string name="setup_device"><xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ەکەت ڕێکبخە</string>
+  <string name="setup_device_encryption">ڕێکخستنی <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ەکەت. کۆدکردن</string>
+  <string name="setup_device_progress">ڕێکخستنی <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ەکەت. پشاندانی بەرەوپێشچوون</string>
+  <string name="learn_more_label">دوگمەی زیاتر بزانە</string>
+  <string name="mdm_icon_label">وێنۆچکەی <xliff:g id="icon_label" example="Test App">%1$s</xliff:g></string>
+  <string name="section_heading">سەردێڕی بەشی <xliff:g id="section_heading" example="Early Renaissance">%1$s</xliff:g>.</string>
+  <string name="section_content">ناوەڕۆکی بەشی <xliff:g id="section_heading" example="Early Renaissance">%1$s</xliff:g>: <xliff:g id="section_content" example="Once upon a time [...]">%2$s</xliff:g></string>
+  <string name="expand">بڵاوکردنەوە</string>
+  <string name="collapse">کۆکردنەوە</string>
+  <string name="expanded">بڵاوکراوەتەوە</string>
   <string name="collapsed">کۆکراوەتەوە</string>
+  <string name="access_list_of_links">دەستگەیشتن بە پێڕستی بەستەرەکان</string>
+  <string name="access_links">دەستگەیشتن بە بەستەرەکان</string>
+  <string name="access_terms">دەستگەیشتن بە مەرجەکان</string>
+  <string name="read_terms">خوێندنەوەی مەرجەکان</string>
+  <string name="close_list">داخستنی پێڕست</string>
+  <string name="cancel_setup_and_factory_reset_dialog_title">کۆتاییهێنان بە ڕێکخستن و گەڕاندنەوە بۆ دۆخی کارگە؟</string>
+  <string name="cancel_setup_and_factory_reset_dialog_msg">کۆتاییهێنان بەم ڕێکخستنە ئامێرەکەت دەگەڕێنێتەوە بۆ دۆخی کارگە و دەتباتەوە بۆ شاشەی یەکەم.</string>
+  <string name="cancel_setup_and_factory_reset_dialog_cancel">پاشگەزبوونەوە</string>
+  <string name="cancel_setup_and_factory_reset_dialog_ok">ڕێکخستنەوەی ئامێر</string>
+  <string name="join_two_items"><xliff:g id="first_item">%1$s</xliff:g> و <xliff:g id="second_item">%2$s</xliff:g></string>
+  <string name="join_many_items_last"><xliff:g id="all_but_last_item">%1$s</xliff:g>، و <xliff:g id="last_item">%2$s</xliff:g></string>
+  <string name="join_many_items_first"><xliff:g id="first_item">%1$s</xliff:g>، <xliff:g id="all_but_first_and_last_item">%2$s</xliff:g></string>
+  <string name="join_many_items_middle"><xliff:g id="added_item">%1$s</xliff:g>، <xliff:g id="rest_of_items">%2$s</xliff:g></string>
+  <string name="take_a_few_minutes">ئەمە لەوانەیە چەند خولەکێک بخایەنێت</string>
+  <string name="work_profile_description">ئەپەکانی کارت لەم پرۆفایلەدا دەپارێزرێن و لەلایەن ڕێکخراوەکەتەوە بەڕێوەدەبردرێن</string>
+  <string name="device_owner_description">ئەم ئامێرە بە پارێزراوی دەهێڵدرێتەوە و لەلایەن ڕێکخراوەکەتەوە بەڕێوەدەبردرێت</string>
+  <string name="setup_provisioning_header">ئامادەکاری بۆ ڕێکخستنی ئامێری کار…</string>
+  <string name="setup_provisioning_header_description">ڕێکخستنی ئەپی بەڕێوەبەر</string>
   <string name="brand_screen_header">ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە هی ڕێکخراوەکەتە</string>
+  <string name="brand_screen_subheader">ئەم ئەپەی خوارەوە بۆ بەڕێوەبردن و چاودێریکردنی ئەم تەلەفۆنە بەکاردێت</string>
+  <string name="account_management_disclaimer_header">هەژمارەکەت بەڕێوەبراوە</string>
+  <string name="account_management_disclaimer_subheader">بەڕێوەبەری ITـی تۆ بەڕێوەبردنی مۆبایل بەکاردەهێنێت بۆ جێبەجێکردنی سیاسەتەکانی ئاسایش</string>
+  <string name="downloading_administrator_header">ئامادەکاری بۆ ڕێکخستنی کار…</string>
+  <string name="work_profile_provisioning_accept_header_post_suw">با پرۆفایلی کارەکەت ڕێکبخەین</string>
+  <string name="work_profile_provisioning_step_1_header">ئەپەکانی کار لە پرۆفایلی کارەکەتدا دەهێڵدرێنەوە</string>
+  <string name="work_profile_provisioning_step_2_header">کاتێک کارەکەت بۆ ئەو ڕۆژە تەواو بوو ئەپەکانی کار ڕابگرە</string>
+  <string name="work_profile_provisioning_step_3_header">دراوە لە پرۆفایلی کارەکەتدا بۆ بەڕێوەبەری ITـی تۆ دیارە</string>
+  <string name="work_profile_provisioning_progress_label">ڕێکخستنی پرۆفایلی کارەکەت…</string>
+  <string name="work_profile_provisioning_summary">ئەپەکانی کار لە پرۆفایلی کارەکەتدا دەهێڵدرێنەوە. دەتوانیت ئەپەکانی کارت ڕابگریت کاتێک کارت بۆ ئەو ڕۆژە تەواو دەبێت. دراوەکانی ناو پرۆفایلی کارت بۆ بەڕێوەبەری ITـی تۆ دیارە.</string>
+  <string name="fully_managed_device_provisioning_accept_header">با ئامێری کارەکەت ڕێکبخەین</string>
+  <string name="fully_managed_device_provisioning_step_1_header">ئەپەکانی کارت لە بەردەستتدا بهێڵەرەوە</string>
+  <string name="fully_managed_device_provisioning_step_2_header">ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە تایبەت نییە</string>
+  <string name="fully_managed_device_provisioning_step_2_subheader">لەوانەیە بەڕێوەبەری ITـی تۆ بتوانێت دراوە و چالاکییەکانت لەسەر ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە ببینێت.</string>
+  <string name="fully_managed_device_provisioning_permissions_header">چالاکی و دراوەکانت</string>
+  <string name="fully_managed_device_provisioning_permissions_secondary_header">مۆڵەتەکانی بەرنامە</string>
+  <string name="fully_managed_device_provisioning_permissions_secondary_subheader">بەڕێوەبەری ITـی تۆ دەتوانێت مۆڵەت بۆ ئەپەکانی سەر ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە دابنێت، وەک مۆڵەتەکانی مایکرۆفۆن، کامێرا و شوێن.</string>
+  <string name="fully_managed_device_provisioning_progress_label">ڕێکخستنی ئامێرەکەت…</string>
+  <string name="fully_managed_device_provisioning_summary">ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە بەکاربهێنە بۆ دەستگەیشتنی ئاسان بە ئەپەکانی کارت. ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە تایبەت نییە، بۆیە لەوانەیە بەڕێوەبەری ITـی تۆ بتوانێت دراوە و چالاکییەکانت ببینێت.</string>
+  <string name="fully_managed_device_with_permission_control_provisioning_summary">ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە بەکاربهێنە بۆ دەستگەیشتنی ئاسان بە ئەپەکانی کارت. ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە تایبەت نییە، بۆیە لەوانەیە بەڕێوەبەری ITـی تۆ بتوانێت چالاکی و دراوەکانت ببینێت. هەروەها بەڕێوەبەری IT دەتوانێت مۆڵەت بۆ ئەپەکانی سەر ئەم ئامێرە دابنێت، وەک مۆڵەتەکانی مایکرۆفۆن، کامێرا و شوێن.</string>
+  <string name="fully_managed_device_provisioning_return_device_title">ئەم ئامێرە بگێڕەرەوە بۆ بەڕێوەبەری ITـی خۆت</string>
+  <string name="fully_managed_device_provisioning_return_device_subheader">بگەڕێوە بۆ شاشەی پێشوو، یان ئەم ئامێرە ڕێکبخەرەوە و بیگێڕەرەوە بۆ بەڕێوەبەری ITـی خۆت.</string>
+  <string name="fully_managed_device_cancel_setup_button">هەڵوەشاندنەوەی ڕێکخستن</string>
+  <string name="fully_managed_device_reset_and_return_button">ڕێکخستنەوە و گێڕانەوەی ئامێر</string>
+  <string name="fully_managed_device_unsupported_DPC_in_headless_mode_header">ئامێر ڕێکناخرێت</string>
+  <string name="fully_managed_device_unsupported_DPC_in_headless_mode_subheader">ئەم ئامێرە ناتوانرێت لە دۆخی تەواو بەڕێوەبراودا تۆمار بکرێت. ئامێرەکەت بگێڕەرەوە بۆ دۆخی کارگە و پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە.</string>
+  <string name="fully_managed_device_reset_button">گەڕاندنەوە بۆ دۆخی کارگە</string>
+  <string name="cope_provisioning_step_1_header">ئەپەکانی کار لە پرۆفایلی کارەکەتدا دەهێڵدرێنەوە و لەلایەن بەڕێوەبەری ITـی تۆوە بەڕێوەدەبردرێن</string>
+  <string name="cope_provisioning_step_2_header">ئەپە کەسییەکان جیاوازن و لە ئەپەکانی کار شاردراونەتەوە</string>
+  <string name="cope_provisioning_step_3_header">بەڕێوەبەری ITـی تۆ دەتوانێت کۆنتڕۆڵی ئەم ئامێرە بکات و هەندێک ئەپ بلۆک بکات</string>
+  <string name="cope_provisioning_summary">ئەپەکانی کار لە پرۆفایلی کارەکەتدا دەهێڵدرێنەوە و لەلایەن بەڕێوەبەری ITـی تۆوە بەڕێوەدەبردرێن. ئەپە کەسییەکان جیاوازن و لە ئەپەکانی کار شاردراونەتەوە. بەڕێوەبەری ITـی تۆ دەتوانێت کۆنتڕۆڵی ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە بکات و هەندێک ئەپ بلۆک بکات.</string>
+  <string name="just_a_sec">تەنها چرکەیەک…</string>
+  <string name="fully_managed_device_provisioning_privacy_title">بیرخەرەوەی تایبەتمەندی</string>
+  <string name="fully_managed_device_provisioning_privacy_body">لەوانەیە بەڕێوەبەری ITـی تۆ بتوانێت دراوە و چالاکییەکانت لەسەر ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە ببینێت</string>
+  <string name="financed_device_screen_header">ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە لەلایەن <xliff:g id="creditor_name" example="creditor_name">%2$s</xliff:g> دابینکراوە</string>
+  <string name="financed_make_payments_subheader_title">پارەدان بۆ ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە ئەنجام بدە</string>
+  <string name="financed_make_payments_subheader_description"><xliff:g id="creditor_name" example="creditor_name">%1$s</xliff:g> دەتوانێت ئەپی <xliff:g id="creditor_name" example="creditor_name">%2$s</xliff:g> دابمەزرێنێت تا بتوانیت پارەدان بۆ ئەم <xliff:g id="device_name" example="Pixel">%3$s</xliff:g>ە ئەنجام بدەیت.</string>
+  <string name="financed_restrict_device_subheader_title">ئەم <xliff:g id="device_name" example="Pixel">%1$s</xliff:g>ە دەکرێت سنووردار بکرێت</string>
+  <string name="financed_restrict_device_subheader_description"><xliff:g id="creditor_name" example="creditor_name">%1$s</xliff:g> دەتوانێت دەستگەیشتن بەم <xliff:g id="device_name" example="Pixel">%2$s</xliff:g>ە سنووردار بکات ئەگەر پارەدان ئەنجام نەدەیت.</string>
+  <string name="error_role_holder_hash_mismatch"><xliff:g id="device_name" example="Pixel">%1$s</xliff:g> ڕێکناخرێت. پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە و ئاماژە بە \"Invalid checksum\" بکە.</string>
+  <string name="error_role_holder_download_install_failed">دواتر هەوڵ بدەرەوە یان داوای هاوکاری لە بەڕێوەبەری ITـی خۆت بکە</string>
+  <string name="error_role_holder_package_invalid"><xliff:g id="device_name" example="Pixel">%1$s</xliff:g> ڕێکناخرێت. پەیوەندی بە بەڕێوەبەری ITـی خۆتەوە بکە و ئاماژە بە \"Missing or corrupted components\" بکە.</string>
+  <string name="setting_up">ڕێکخستن…</string>
 </resources>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2015 The Android Open Source Project
+    Copyright (C) 2024-2025 The LineageOS Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">نامەناردن</string>
+    <string name="share_intent_label">نامەناردن</string>
+    <string name="share_intent_activity_label">گفتوگۆ هەڵبژێرە</string>
+    <string name="action_settings">ڕێکخستنەکان</string>
+    <string name="sendButtonContentDescription">ناردنی نامە</string>
+    <string name="attachMediaButtonContentDescription">زیادکردنی هاوپێچ</string>
+    <string name="next_with_arrow">دواتر &gt;</string>
+    <string name="next">دواتر</string>
+    <string name="exit">دەرچوون</string>
+    <string name="settings_with_arrow">ڕێکخستنەکان &gt;</string>
+    <string name="settings">ڕێکخستنەکان</string>
+    <string name="required_permissions_promo">بەرنامەی نامەکان پێویستی بە مۆڵەتی کورتەنامە (SMS)، تەلەفۆن و پەیوەندییەکانە.</string>
+    <string name="enable_permission_procedure">دەتوانیت مۆڵەتەکان بگۆڕیت لە ڕێکخستنەکان &gt; بەرنامەکان &gt; نامەکان &gt; مۆڵەتەکان.</string>
+    <string name="enable_permission_procedure_description">دەتوانیت مۆڵەتەکان بگۆڕیت لە ڕێکخستنەکان، بەرنامەکان، نامەکان، مۆڵەتەکان.</string>
+    <string name="contact_picker_frequents_tab_title">زۆر بەکارهاتووەکان</string>
+    <string name="contact_picker_all_contacts_tab_title">هەموو ناوەکان</string>
+    <string name="contact_list_send_to_text">ناردن بۆ <xliff:g id="destination">%s</xliff:g></string>
+    <string name="mediapicker_cameraChooserDescription">گرتنی وێنە یان ڤیدیۆ</string>
+    <string name="mediapicker_galleryChooserDescription">وێنەکان لەم ئامێرە هەڵبژێرە</string>
+    <string name="mediapicker_audioChooserDescription">تۆمارکردنی دەنگ</string>
+    <string name="mediapicker_contactChooserDescription">پەیوەندییەک لەم ئامێرە هەڵبژێرە</string>
+    <string name="mediapicker_gallery_title">میدیا هەڵبژێرە</string>
+    <string name="mediapicker_gallery_item_selected_content_description">میدیاکە دیاریکرا.</string>
+    <string name="mediapicker_gallery_item_unselected_content_description">میدیاکە لادرا.</string>
+    <string name="mediapicker_audio_title">تۆمارکردنی دەنگ</string>
+    <string name="mediapicker_contact_title">پەیوەندییەک هەڵبژێرە</string>
+    <string name="contact_picker_hint_text">پەنجە بنێ بۆ کردنەوەی لیستی پەیوەندییەکان لەسەر ئەم ئامێرە</string>
+    <string name="action_share">هاوبەشکردن</string>
+    <string name="posted_just_now">"هەر ئێستا"</string>
+    <string name="posted_now">"ئێستا"</string>
+    <plurals name="num_minutes_ago">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> خولەک</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> خولەک</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> کاتژمێر</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> کاتژمێر</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> ڕۆژ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> رۆژ</item>
+    </plurals>
+    <string name="class_0_message_activity">نامەی پۆلی 0</string>
+    <string name="save">پاشەکەوتکردن</string>
+    <string name="enter_phone_number_title">ژمارەی تەلەفۆنەکەت پشتڕاست بکەرەوە</string>
+    <string name="enter_phone_number_text">ئەم هەنگاوە یەکجارە دڵنیایی دەدات کە بەرنامەی نامەکان بە دروستی نامەکانی گرووپ بگەیەنێت.</string>
+    <string name="enter_phone_number_hint">ژمارەی تەلەفۆن</string>
+    <string name="incoming_text_sender_content_description"><xliff:g id="sender">%s</xliff:g> گوتی</string>
+    <string name="outgoing_text_sender_content_description">تۆ گوتت</string>
+    <string name="incoming_sender_content_description">نامە لە <xliff:g id="sender">%s</xliff:g>ـەوە</string>
+    <string name="outgoing_sender_content_description">تۆ نامەیەکت نارد</string>
+    <string name="message_status_sending">دەنێردرێت…</string>
+    <string name="message_status_send_failed">نەنێردرا. پەنجە بنێ بۆ هەوڵدانەوە.</string>
+    <string name="message_status_send_retrying">نەنێردرا. هەوڵ دەدرێتەوە…</string>
+    <string name="message_status_resend">ناردنەوە یان سڕینەوە</string>
+    <string name="message_status_send_failed_emergency_number">تکایە پەیوەندیی دەنگی بە خزمەتگوزارییەکانی فریاکەوتنەوە بکە. لە ئێستادا ناتوانرێت نامەکەت بگەیەندرێت.</string>
+    <string name="message_title_manual_download">نامەی نوێی MMS بۆ داگرتن</string>
+    <string name="message_title_downloading">نامەی نوێی MMS</string>
+    <string name="message_title_download_failed">نەتوانرا دابگیرێت</string>
+    <string name="message_status_download_failed">پەنجە بنێ بۆ هەوڵدانەوە</string>
+    <string name="message_status_download">پەنجە بنێ بۆ داگرتن</string>
+    <string name="message_status_download_action">داگرتن یان سڕینەوە</string>
+    <string name="message_status_downloading">دادەگیرێت…</string>
+    <string name="message_status_download_error">نامەکە بەسەرچووە یان بەردەست نییە</string>
+    <string name="mms_info">قەبارە: <xliff:g id="messageSize">%1$s</xliff:g>، بەسەرچوون: <xliff:g id="messageExpire">%2$s</xliff:g></string>
+    <string name="unknown_sender">نێرەری نەناسراو</string>
+    <string name="delivered_status_content_description">گەیەندرا</string>
+    <string name="notification_send_failures_line1_singular">نامە نەنێردرا</string>
+    <string name="notification_send_failures_line1_plural">هەندێک نامە لە بەرنامەی نامەکان نەنێردران</string>
+    <plurals name="notification_send_failures">
+        <item quantity="one"><xliff:g id="messages">%d</xliff:g> نامە لە یەک گفتوگۆدا</item>
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> نامە لە <xliff:g id="conversations">%d</xliff:g> گفتوگۆدا</item>
+    </plurals>
+    <string name="notification_download_failures_line1_singular">نامە دانەگیرا</string>
+    <string name="notification_download_failures_line1_plural">هەندێک نامە لە بەرنامەی نامەکان دانەگیران</string>
+    <plurals name="notification_download_failures">
+        <item quantity="one"><xliff:g id="messages">%d</xliff:g> نامە لە یەک گفتوگۆدا</item>
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> نامە لە <xliff:g id="conversations">%d</xliff:g> گفتوگۆدا</item>
+    </plurals>
+    <string name="notification_emergency_send_failure_line1">نامە بۆ <xliff:g id="number">%1$s</xliff:g> نەنێردرا</string>
+    <string name="notification_emergency_send_failure_line2">تکایە پەیوەندیی دەنگی بە خزمەتگوزارییەکانی فریاکەوتنەوە بکە. لە ئێستادا ناتوانرێت نامەکەت بۆ <xliff:g id="number">%1$s</xliff:g> بگەیەندرێت.</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">نامەی نوێ</item>
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> نامەی نوێ</item>
+    </plurals>
+    <string name="back">گەڕانەوە</string>
+    <string name="action_menu_show_archived">ئەرشیڤکراو</string>
+    <string name="action_delete">سڕینەوە</string>
+    <string name="action_archive">ئەرشیفکردن</string>
+    <string name="action_unarchive">دەرهێنان لە ئەرشیڤ</string>
+    <string name="action_add_contact">زیادکردنی ناو (Contact)</string>
+    <string name="action_download">داگرتن (Download)</string>
+    <string name="action_send">ناردن</string>
+    <string name="action_delete_message">سڕینەوە</string>
+    <string name="delete_message_confirmation_dialog_title">ئەم نامەیە بسڕدرێتەوە؟</string>
+    <string name="delete_message_confirmation_dialog_text">ئەم کردارە ناتوانرێت بگەڕێندرێتەوە.</string>
+    <string name="delete_message_confirmation_button">سڕینەوە</string>
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">ئەم گفتوگۆیە بسڕدرێتەوە؟</item>
+        <item quantity="other">ئەم گفتوگۆیانە بسڕدرێنەوە؟</item>
+    </plurals>
+    <string name="delete_conversation_confirmation_button">سڕینەوە</string>
+    <string name="delete_conversation_decline_button">پاشگەزبوونەوە</string>
+    <string name="recipient_hint">بۆ</string>
+    <string name="attachment_more_items">+<xliff:g id="count">%d</xliff:g></string>
+    <string name="audio_recording_start_failed">ناتوانرێت دەنگ تۆمار بکرێت. دووبارە هەوڵ بدەرەوە.</string>
+    <string name="audio_recording_replay_failed">ناتوانرێت دەنگ لێبدرێت. دووبارە هەوڵ بدەرەوە.</string>
+    <string name="audio_recording_error">نەتوانرا دەنگ پاشەکەوت بکرێت. دووبارە هەوڵ بدەرەوە.</string>
+    <string name="audio_picker_hint_text">پەنجە بنێ و ڕایبگرە</string>
+    <string name="enumeration_comma">،\u0020</string>
+    <string name="notification_separator"/>
+    <string name="notification_ticker_separator">: </string>
+    <string name="notification_space_separator"/>
+    <string name="notification_picture">وێنە</string>
+    <string name="notification_audio">پارچەی دەنگی</string>
+    <string name="notification_video">ڤیدیۆ</string>
+    <string name="notification_vcard">کارتی پەیوەندی</string>
+    <string name="notification_download_mms">داگرتن (Download)</string>
+    <string name="notification_reply_via_sms">وەڵامدانەوە لە ڕێگەی SMS</string>
+    <string name="notification_reply_via_mms">وەڵامدانەوە لە ڕێگەی MMS</string>
+    <string name="notification_reply_prompt">وەڵامدانەوە</string>
+    <plurals name="wearable_participant_count">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> بەشداربوو</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> بەشداربوو</item>
+    </plurals>
+    <string name="unknown_self_participant">من</string>
+    <string name="blocked_toast_message">پەیوەندی بلۆککرا و ئەرشیڤکرا</string>
+    <string name="unblocked_toast_message">پەیوەندی لە بلۆک لادرا و لە ئەرشیڤ دەرهێنرا</string>
+    <string name="archived_toast_message"><xliff:g id="count">%d</xliff:g> ئەرشیڤکرا</string>
+    <string name="unarchived_toast_message"><xliff:g id="count">%d</xliff:g> لە ئەرشیڤ دەرهێنرا</string>
+    <string name="toast_after_setting_default_sms_app_for_message_send">هەموو شتێک ئامادەیە. دووبارە پەنجە بنێ بە ناردندا.</string>
+    <string name="toast_after_setting_default_sms_app">بەرنامەی نامەکان بە سەرکەوتوویی وەک بەرنامەی بنەڕەتیی SMS دیاریکرا.</string>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">پشتگوێخستنی هاوپێچ</item>
+        <item quantity="other">پشتگوێخستنی هاوپێچەکان</item>
+    </plurals>
+    <string name="audio_attachment_content_description">هاوپێچی دەنگی</string>
+    <string name="audio_play_content_description">لێدانی هاوپێچی دەنگی</string>
+    <string name="audio_pause_content_description">وەستان</string>
+    <string name="incoming_message_announcement">نامە لە <xliff:g id="sender">%1$s</xliff:g>ـەوە: <xliff:g id="message">%2$s</xliff:g>.</string>
+    <string name="one_on_one_incoming_failed_message_prefix">نامەی سەرنەکەوتوو لە <xliff:g id="sender">%1$s</xliff:g>ـەوە: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_incoming_successful_message_prefix">نامە لە <xliff:g id="sender">%1$s</xliff:g>ـەوە: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_draft_message_prefix">نامەی نەنێردراو بۆ <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_sending_message_prefix">ناردنی نامە بۆ <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_failed_message_prefix">نامەی سەرنەکەوتوو بۆ <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_successful_message_prefix">نامە بۆ <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_incoming_failed_message_prefix">نامەی سەرنەکەوتوو لە <xliff:g id="sender">%1$s</xliff:g>ـەوە: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>. <xliff:g id="groupInfo">%4$s</xliff:g>.</string>
+    <string name="group_incoming_successful_message_prefix">نامە لە <xliff:g id="sender">%1$s</xliff:g>ـەوە: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>. <xliff:g id="groupInfo">%4$s</xliff:g>.</string>
+    <string name="group_outgoing_draft_message_prefix">نامەی نەنێردراو بۆ <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_sending_message_prefix">ناردنی نامە بۆ <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_failed_message_prefix">نامەی سەرنەکەوتوو بۆ <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_successful_message_prefix">نامە بۆ <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. کات: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="failed_message_content_description">نامەکە سەرکەوتوو نەبوو. پەنجە بنێ بۆ دووبارەکردنەوە.</string>
+    <string name="delete_subject_content_description">سڕینەوەی بابەت</string>
+    <string name="photo_view_activity_title">وێنەکانی نامەکان</string>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> وێنە پاشەکەوتکرا لە ئەلبوومی \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> وێنە پاشەکەوتکران لە ئەلبوومی \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> ڤیدیۆ پاشەکەوتکرا لە ئەلبوومی \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> ڤیدیۆ پاشەکەوتکران لە ئەلبوومی \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> هاوپێچ پاشەکەوتکرا لە ئەلبوومی \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> هاوپێچ پاشەکەوتکران لە ئەلبوومی \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> هاوپێچ پاشەکەوتکرا بۆ \"Downloads\"</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> هاوپێچ پاشەکەوتکران بۆ \"Downloads\"</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> هاوپێچ پاشەکەوتکرا</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> هاوپێچ پاشەکەوتکران</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">نەتوانرا <xliff:g id="quantity">%d</xliff:g> هاوپێچ پاشەکەوت بکرێت</item>
+        <item quantity="other">نەتوانرا <xliff:g id="quantity">%d</xliff:g> هاوپێچ پاشەکەوت بکرێن</item>
+    </plurals>
+    <string name="settings_activity_title">ڕێکخستنەکان</string>
+    <string name="archived_activity_title">ئەرشیڤکراو</string>
+    <string name="mms_messaging_category_pref_title">MMS</string>
+    <string name="advanced_category_pref_title">پێشکەوتوو</string>
+    <string name="notifications_pref_title">ئاگادارییەکان</string>
+    <string name="delivery_reports_pref_title">ڕاپۆرتەکانی گەیشتنی SMS</string>
+    <string name="delivery_reports_pref_summary">داواکردنی ڕاپۆرتی گەیشتن بۆ هەر SMSـێک کە دەینێریت</string>
+    <string name="auto_retrieve_mms_pref_title">وەرگرتنەوەی خۆکارانە</string>
+    <string name="auto_retrieve_mms_pref_summary">وەرگرتنەوەی خۆکارانەی نامەکانی MMS</string>
+    <string name="auto_retrieve_mms_when_roaming_pref_title">وەرگرتنەوەی خۆکارانە لە ڕۆمینگدا</string>
+    <string name="auto_retrieve_mms_when_roaming_pref_summary">وەرگرتنەوەی خۆکارانەی MMS لەکاتی ڕۆمینگدا</string>
+    <string name="group_mms_pref_title">نامە ناردنی بەکۆمەڵ</string>
+    <string name="sms_enabled_pref_title">بەرنامەی بنەڕەتیی SMS</string>
+    <string name="default_sms_app"><xliff:g id="app_name">%s</xliff:g></string>
+    <string name="mms_phone_number_pref_title">ژمارەی تەلەفۆنەکەت</string>
+    <string name="unknown_phone_number_pref_display_value">نادیار</string>
+    <string name="send_sound_pref_title">دەنگەکانی ناردنی نامە</string>
+    <string name="message_context_menu_copy_text">کۆپیکردنی دەق</string>
+    <string name="message_context_menu_view_details">بینینی وردەکارییەکان</string>
+    <string name="message_context_menu_forward_message">ناردنەوە</string>
+    <string name="message_details_title">وردەکاریی نامە</string>
+    <string name="message_type_label">جۆر: </string>
+    <string name="text_message">نامەی کورت</string>
+    <string name="multimedia_message">نامەی فرەمیدیا</string>
+    <string name="from_label">لە: </string>
+    <string name="to_address_label">بۆ: </string>
+    <string name="sent_label">نێردراو: </string>
+    <string name="received_label">وەرگیراو: </string>
+    <string name="subject_label">بابەت: </string>
+    <string name="message_size_label">قەبارە: </string>
+    <string name="priority_label">ئەولەویەت: </string>
+    <string name="sim_label">سیم: </string>
+    <string name="priority_high">بەرز</string>
+    <string name="priority_normal">ئاسایی</string>
+    <string name="priority_low">نزم</string>
+    <string name="sim_slot_identifier">سیمی <xliff:g id="sim_slot_number">%s</xliff:g></string>
+    <string name="hidden_sender_address">ناونیشانی شاردراوەی نێرەر</string>
+    <string name="cant_send_message_while_loading_attachments">ناتوانرێت نامە بنێردرێت لەکاتی بارکردنی هاوپێچەکاندا.</string>
+    <string name="cant_send_message_without_active_subscription">تۆڕ ئامادە نییە. دووبارە هەوڵ بدەرەوە.</string>
+    <string name="chips_text_delete_button_content_description">سڕینەوەی دەق</string>
+    <string name="numeric_text_keyboard_toggle_button_content_description">گۆڕین لە نێوان نووسینی دەق و ژمارەکان</string>
+    <string name="add_more_participants_button_content_description">زیادکردنی بەشداربووی زیاتر</string>
+    <string name="confrim_participants_button_content_description">پشتڕاستکردنەوەی بەشداربووان</string>
+    <string name="start_new_conversation">دەستپێکردنی گفتوگۆی نوێ</string>
+    <string name="gallery_checkbox_content_description">دیاریکردنی ئەم بڕگەیە</string>
+    <string name="video_thumbnail_view_play_button_content_description">لێدانی ڤیدیۆ</string>
+    <string name="action_people_and_options">کەسەکان و هەڵبژاردنەکان</string>
+    <string name="people_and_options_activity_title">کەسەکان و هەڵبژاردنەکان</string>
+    <string name="general_settings_title">گشتی</string>
+    <string name="participant_list_title">کەسەکان لەم گفتوگۆیەدا</string>
+    <string name="action_call">ئەنجامدانی پەیوەندی</string>
+    <string name="compose_message_view_hint_text">ناردنی نامە</string>
+    <string name="compose_message_view_hint_text_multi_sim">ناردنی نامە&lt;br/&gt;&lt;small&gt;لە <xliff:g id="sim_name">%s</xliff:g>ـەوە&lt;/small&gt;</string>
+    <plurals name="compose_message_view_hint_text_photo">
+        <item quantity="one">ناردنی وێنە</item>
+        <item quantity="other">ناردنی وێنەکان</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_audio">
+        <item quantity="one">ناردنی دەنگ</item>
+        <item quantity="other">ناردنی دەنگەکان</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_video">
+        <item quantity="one">ناردنی ڤیدیۆ</item>
+        <item quantity="other">ناردنی ڤیدیۆکان</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="one">ناردنی کارتی پەیوەندی</item>
+        <item quantity="other">ناردنی کارتەکانی پەیوەندی</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="one">ناردنی هاوپێچ</item>
+        <item quantity="other">ناردنی هاوپێچەکان</item>
+    </plurals>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="one">یەک هاوپێچ ئامادەیە بۆ ناردن</item>
+        <item quantity="other"><xliff:g id="attachment_count">%d</xliff:g> هاوپێچ ئامادەن بۆ ناردن</item>
+    </plurals>
+    <string name="menu_license">مۆڵەتەکانی سەرچاوەکراوە</string>
+    <string name="notifications_enabled_conversation_pref_title">ئاگادارییەکان</string>
+    <string name="mms_attachment_limit_reached">سنووری هاوپێچ تەواو بوو</string>
+    <string name="add_contact_confirmation_dialog_title">زیادبکرێت بۆ پەیوەندییەکان؟</string>
+    <string name="add_contact_confirmation">زیادکردنی پەیوەندی</string>
+    <string name="compose_message_view_subject_hint_text">بابەت</string>
+    <string name="conversation_message_view_subject_text">بابەت: </string>
+    <string name="notification_subject"><xliff:g id="subject_label">%1$s</xliff:g><xliff:g id="messageText">%2$s</xliff:g></string>
+    <string name="loading_vcard">بارکردنی کارتی پەیوەندی</string>
+    <string name="failed_loading_vcard">نەتوانرا کارتی پەیوەندی باربکرێت</string>
+    <string name="vcard_tap_hint">بینینی کارتی پەیوەندی</string>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> پەیوەندی</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> پەیوەندی</item>
+    </plurals>
+    <string name="vcard_detail_activity_title">کارتەکانی پەیوەندی</string>
+    <string name="vcard_detail_birthday_label">ڕۆژی لەدایکبوون</string>
+    <string name="vcard_detail_notes_label">تێبینییەکان</string>
+    <string name="forward_message_activity_title">ناردنەوەی نامە</string>
+    <string name="plus_one">+1</string>
+    <string name="plus_n">+%d</string>
+    <string name="sms_disabled">SMS ناچالاکە</string>
+    <string name="requires_default_sms_app_to_send">بۆ ناردن، بەرنامەی نامەکان وەک بەرنامەی بنەڕەتیی SMS دابنێ</string>
+    <string name="requires_default_sms_app">دانانی بەرنامەی نامەکان وەک بەرنامەی بنەڕەتیی SMS</string>
+    <string name="requires_default_sms_change_button">گۆڕین</string>
+    <string name="no_preferred_sim_selected">هیچ سیمکارتێکی پەسەندکراو دیاری نەکراوە بۆ ناردنی کورتەنامە (SMS)</string>
+    <string name="requires_sms_permissions_message">ئەم بەرنامەیە ڕێگەپێنەدراوە لەلایەن خاوەنی ئامێرەکەوە.</string>
+    <string name="requires_sms_permissions_close_button">باشە</string>
+    <string name="too_many_participants">بەشداربووی زۆر لە یەک گفتوگۆدا</string>
+    <plurals name="add_invalid_contact_error">
+        <item quantity="one">پەیوەندیی نادروست</item>
+        <item quantity="other">پەیوەندییە نادروستەکان</item>
+    </plurals>
+    <string name="conversation_list_item_view_draft_message">ڕەشنووس</string>
+    <string name="conversation_list_empty_text">هەر کە گفتوگۆیەکی نوێت دەستپێکرد، لێرەدا ڕیزکراوی دەبینیت</string>
+    <string name="archived_conversation_list_empty_text">گفتوگۆ ئەرشیڤکراوەکان لێرە دەردەکەون</string>
+    <string name="conversation_list_first_sync_text">گفتوگۆکان باردەکرێن…</string>
+    <string name="conversation_list_snippet_picture">وێنە</string>
+    <string name="conversation_list_snippet_audio_clip">پارچەی دەنگی</string>
+    <string name="conversation_list_snippet_video">ڤیدیۆ</string>
+    <string name="conversation_list_snippet_vcard">کارتی پەیوەندی</string>
+    <string name="mms_text">MMS</string>
+    <string name="snack_bar_undo">پاشگەزبوونەوە</string>
+    <string name="snack_bar_retry">هەوڵدانەوە</string>
+    <string name="contact_list_empty_text">ناوی پەیوەندی یان ژمارەی تەلەفۆن بنووسە بۆ دەستپێکردنی نامەیەکی نوێ</string>
+    <string name="action_block">بلۆک بکە</string>
+    <string name="block_contact_title">بلۆککردنی <xliff:g id="destination">%s</xliff:g></string>
+    <string name="unblock_contact_title">لابردنی بلۆکی <xliff:g id="destination">%s</xliff:g></string>
+    <string name="block_confirmation_title"><xliff:g id="destination">%s</xliff:g> بلۆک بکرێت؟</string>
+    <string name="block_confirmation_message">بەردەوام دەبیت لە وەرگرتنی نامەکان لەم ژمارەیەوە بەڵام ئاگاداریت پێناگات. ئەم گفتوگۆیە ئەرشیڤ دەکرێت.</string>
+    <string name="blocked_contacts_title">پەیوەندییە بلۆککراوەکان</string>
+    <string name="tap_to_unblock_message">لابردنی بلۆک</string>
+    <string name="sending_message">ناردنی نامە</string>
+    <string name="send_message_success">نامە نێردرا</string>
+    <string name="send_message_failure_no_data">داتای هێڵ کوژاوەتەوە. ڕێکخستنەکانت بپشکنە.</string>
+    <string name="send_message_failure_airplane_mode">ناتوانرێت نامە بنێردرێت لە دۆخی فڕۆکەدا</string>
+    <string name="send_message_failure">نەتوانرا نامە بنێردرێت</string>
+    <string name="download_message_success">نامە داگیرا</string>
+    <string name="download_message_failure_no_data">داتای هێڵ کوژاوەتەوە. ڕێکخستنەکانت بپشکنە.</string>
+    <string name="download_message_failure_airplane_mode">ناتوانرێت نامە دابگیرێت لە دۆخی فڕۆکەدا</string>
+    <string name="download_message_failure">نەتوانرا نامە دابگیرێت</string>
+    <string name="content_description_for_number_zero">سفر</string>
+    <string name="content_description_for_number_one">یەک</string>
+    <string name="content_description_for_number_two">دوو</string>
+    <string name="content_description_for_number_three">سێ</string>
+    <string name="content_description_for_number_four">چوار</string>
+    <string name="content_description_for_number_five">پێنج</string>
+    <string name="content_description_for_number_six">شەش</string>
+    <string name="content_description_for_number_seven">حەوت</string>
+    <string name="content_description_for_number_eight">هەشت</string>
+    <string name="content_description_for_number_nine">نۆ</string>
+    <string name="carrier_send_error">ناتوانرێت نامە بنێردرێت لە ڕێگەی <xliff:g id="carrierName">%1$s</xliff:g>، هەڵەی <xliff:g id="errorCode">%2$d</xliff:g></string>
+    <string name="carrier_send_error_unknown_carrier">ناتوانرێت نامە بنێردرێت لە ڕێگەی هێڵی نەناسراوەوە، هەڵەی <xliff:g id="errorCode">%1$d</xliff:g></string>
+    <string name="message_fwd">Fwd: <xliff:g id="subject">%s</xliff:g></string>
+    <string name="mms_failure_outgoing_service">نامە نەنێردرا: خزمەتگوزاری لەسەر تۆڕ چالاک نەکراوە</string>
+    <string name="mms_failure_outgoing_address">نامە نەنێردرا: ناونیشانی وەرگر نادروستە</string>
+    <string name="mms_failure_outgoing_corrupt">نامە نەنێردرا: نامەی نادروست</string>
+    <string name="mms_failure_outgoing_content">نامە نەنێردرا: ناوەڕۆکی پشتگیرینەکراو</string>
+    <string name="mms_failure_outgoing_unsupported">نامە نەنێردرا: نامەی پشتگیرینەکراو</string>
+    <string name="mms_failure_outgoing_too_large">نامە نەنێردرا: قەبارەی زۆر گەورەیە</string>
+    <string name="in_conversation_notify_new_message_text">نامەی نوێ</string>
+    <string name="in_conversation_notify_new_message_action">بینین</string>
+    <string name="message_image_content_description">وێنە</string>
+    <string name="activity_not_found_message">نەتوانرا بەرنامەیەکی گونجاو بدۆزرێتەوە</string>
+    <string name="chips_delete_content_description">لابردنی وەرگر</string>
+    <string name="share_new_message">نامەی نوێ</string>
+    <string name="share_cancel">پاشگەزبوونەوە</string>
+    <string name="copy_to_clipboard_dialog_title">کۆپی بکرێت بۆ بڕگەی کاتی؟</string>
+    <string name="copy_to_clipboard">کۆپی</string>
+    <string name="incoming_sim_name_text">بۆ <xliff:g id="sim_name">%s</xliff:g></string>
+    <string name="general_settings">گشتی</string>
+    <string name="advanced_settings">پێشکەوتوو</string>
+    <string name="general_settings_activity_title">ڕێکخستنە گشتییەکان</string>
+    <string name="advanced_settings_activity_title">ڕێکخستنە پێشکەوتووەکان</string>
+    <string name="sim_specific_settings">سیمی \"<xliff:g id="sim_name">%s</xliff:g>\"</string>
+    <string name="disable_group_mms">ناردنی SMSـی جیاواز بۆ هەموو وەرگرەکان. تەنها تۆ وەڵامەکانت پێدەگات</string>
+    <string name="enable_group_mms">ناردنی یەک MMS بۆ هەموو وەرگرەکان</string>
+    <string name="sim_settings_unknown_number">ژمارەی نەناسراو</string>
+    <string name="secondary_user_new_message_title">نامەی نوێ</string>
+    <string name="secondary_user_new_message_ticker">نامەی نوێ.</string>
+    <string name="sim_selector_button_content_description">هەڵبژاردنی سیم</string>
+    <string name="sim_selector_button_content_description_with_selection"><xliff:g id="sim">%1$s</xliff:g> هەڵبژێردرا، هەڵبژاردنی سیم</string>
+    <string name="send_button_long_click_description_no_sim_selector">دەستکاریکردنی بابەت</string>
+    <string name="send_button_long_click_description_with_sim_selector">سیم هەڵبژێرە یان دەستکاریی بابەت بکە</string>
+    <string name="audio_record_view_content_description">پەنجە بنێ و ڕایبگرە بۆ تۆمارکردنی دەنگ</string>
+    <string name="widget_new_conversation_content_description">دەستپێکردنی گفتوگۆی نوێ</string>
+    <string name="widget_title_content_description">نامەناردن</string>
+    <string name="widget_conversation_name">نامەناردن</string>
+    <string name="widget_conversation_list_content_description">لیستی گفتوگۆ</string>
+    <string name="loading_conversations">بارکردنی گفتوگۆکان</string>
+    <string name="loading_messages">بارکردنی نامەکان</string>
+    <string name="view_more_conversations">بینینی گفتوگۆی زیاتر</string>
+    <string name="view_more_messages">بینینی نامەی زیاتر</string>
+    <string name="conversation_deleted">گفتوگۆ سڕایەوە</string>
+    <string name="tap_to_configure">گفتوگۆ سڕایەوە. پەنجە بنێ بۆ پیشاندانی گفتوگۆیەکی جیاواز</string>
+    <string name="update_destination_blocked">بلۆککراوە</string>
+    <string name="update_destination_unblocked">لە بلۆک لادرا</string>
+    <string name="db_full">شوێنی کۆگا کەمە. ڕەنگە هەندێک داتا لەدەست بچێت.</string>
+    <string name="attachment_chooser_activity_title">دیاریکردنی هاوپێچەکان</string>
+    <string name="action_confirm_selection">پشتڕاستکردنەوەی دیاریکردن</string>
+    <string name="attachment_chooser_selection"><xliff:g id="count">%d</xliff:g> دیاریکرا</string>
+    <string name="attachment_limit_reached_dialog_message_when_composing">تکایە یەکێک یان زیاتر لە هاوپێچەکان لاببە و دووبارە هەوڵ بدەرەوە.</string>
+    <string name="attachment_limit_reached_dialog_message_when_sending">دەتوانیت هەوڵی ناردنی نامەکەت بدەیت، بەڵام ڕەنگە نەگات مەگەر یەک یان زیاتر لە هاوپێچەکان لابدەیت.</string>
+    <string name="video_attachment_limit_exceeded_when_sending">دەتوانیت تەنها یەک ڤیدیۆ لە هەر نامەیەکدا بنێریت. تکایە ڤیدیۆ زیادەکان لاببە و دووبارە هەوڵ بدەرەوە.</string>
+    <string name="attachment_load_failed_dialog_message">بەرنامەی نامەکان نەیتوانی هاوپێچ باربکات.</string>
+    <string name="attachment_limit_reached_send_anyway">بە هەر حاڵ بنێرە</string>
+    <string name="conversation_creation_failure">نەتوانرا گفتوگۆ دەستپێبکرێت</string>
+    <string name="selected_sim_content_message"><xliff:g id="selected_sim">%s</xliff:g> هەڵبژێردرا</string>
+    <string name="work_directory_display_name">پەیوەندییەکانی پڕۆفایلی کار</string>
+    <string name="disallow_emergency_call">ناتوانرێت لەم بەشەدا پەیوەندیی دەنگی بە خزمەتگوزارییەکانی فریاکەوتنەوە بکرێت.</string>
+</resources>

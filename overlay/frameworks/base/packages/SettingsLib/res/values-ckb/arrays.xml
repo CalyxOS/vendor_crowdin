@@ -18,6 +18,263 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_status">
+        <item/>
+        <item>لە گەڕاندایە\u2026</item>
+        <item>لە پەیوەستبووندایە\u2026</item>
+        <item>لە پشتڕاستکردنەوەدایە\u2026</item>
+        <item>وەرگرتنی ناونیشانی IP\u2026</item>
+        <item>پەیوەستە</item>
+        <item>ڕاگیراوە</item>
+        <item>لە پچڕاندندایە\u2026</item>
+        <item>پەیوەندی پچڕاوە</item>
+        <item>سەرکەوتوو نەبوو</item>
+        <item>بلۆککراوە</item>
+        <item>بە شێوەیەکی کاتی لە پەیوەندیی لاواز دوور دەکەوێتەوە</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item/>
+        <item>لە گەڕاندایە\u2026</item>
+        <item>پەیوەستبوون بە <xliff:g id="network_name">%1$s</xliff:g>…</item>
+        <item>ساغکردنەوە لەگەڵ <xliff:g id="network_name">%1$s</xliff:g>…</item>
+        <item>وەرگرتنی ناونیشانی IP لە <xliff:g id="network_name">%1$s</xliff:g>…</item>
+        <item>پەیوەستکرا بە <xliff:g id="network_name">%1$s</xliff:g></item>
+        <item>ڕاگیراوە</item>
+        <item>پچڕانی پەیوەندی لە <xliff:g id="network_name">%1$s</xliff:g>…</item>
+        <item>پەیوەندی پچڕاوە</item>
+        <item>سەرکەوتوو نەبوو</item>
+        <item>بلۆککراوە</item>
+        <item>بە شێوەیەکی کاتی لە پەیوەندیی لاواز دوور دەکەوێتەوە</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>هەرگیز مەپشکنە</item>
+        <item>تەنیا بۆ ناوەڕۆکی DRM بپشکنە</item>
+        <item>هەمیشە بپشکنە</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>هەرگیز پشکنینی HDCP بەکار مەهێنە</item>
+        <item>پشکنینی HDCP تەنیا بۆ ناوەڕۆکی DRM بەکاربهێنە</item>
+        <item>هەمیشە پشکنینی HDCP بەکاربهێنە</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ناچالاککراو</item>
+        <item>چالاککراوی پاڵێوراو</item>
+        <item>چالاککراوە</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_filters_entries">
+        <item>تەنیا سەردێڕەکانی ACL بهێڵەرەوە</item>
+        <item>پاڵاوتنی گورزەکانی میدیای A2DP</item>
+        <item>پاڵاوتنی کەناڵی RFCOMM</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_profile_filter_entries">
+        <item>ناچالاککردن</item>
+        <item>پڕکردنەوە بە زنجیرەی پیتەکان</item>
+        <item>تەنیا سەردێڕ بهێڵەرەوە</item>
+        <item>بە تەواوی لاببە</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (بنەڕەتی)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (بنەڕەتی)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.2 (بنەڕەتی)</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map14</item>
+        <item>map13</item>
+        <item>map12</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>بەکارهێنانی هەڵبژاردنی سیستم (بنەڕەتی)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>دەنگی <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g></item>
+        <item>دەنگی <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g></item>
+        <item>LDAC</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>بەکارهێنانی هەڵبژاردنی سیستم (بنەڕەتی)</item>
+        <item>44.1 کیلووهێرتز</item>
+        <item>48.0 کیلووهێرتز</item>
+        <item>88.2 کیلووهێرتز</item>
+        <item>96.0 کیلووهێرتز</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>بەکارهێنانی هەڵبژاردنی سیستم (بنەڕەتی)</item>
+        <item>44.1 کیلووهێرتز</item>
+        <item>48.0 کیلووهێرتز</item>
+        <item>88.2 کیلووهێرتز</item>
+        <item>96.0 کیلووهێرتز</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>بەکارهێنانی هەڵبژاردنی سیستم (بنەڕەتی)</item>
+        <item>16 بیت/نموونە</item>
+        <item>24 بیت/نموونە</item>
+        <item>32 بیت/نموونە</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>بەکارهێنانی هەڵبژاردنی سیستم (بنەڕەتی)</item>
+        <item>16 بیت/نموونە</item>
+        <item>24 بیت/نموونە</item>
+        <item>32 بیت/نموونە</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>بەکارهێنانی هەڵبژاردنی سیستم (بنەڕەتی)</item>
+        <item>مۆنۆ</item>
+        <item>stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>بەکارهێنانی هەڵبژاردنی سیستم (بنەڕەتی)</item>
+        <item>مۆنۆ</item>
+        <item>stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>باشترکراو بۆ کوالێتیی دەنگ (990kbps/909kbps)</item>
+        <item>کوالێتیی دەنگ و پەیوەندیی هاوسەنگکراو (660kbps/606kbps)</item>
+        <item>باشترکراو بۆ کوالێتیی پەیوەندی (330kbps/303kbps)</item>
+        <item>باشترین هەوڵ (تێکڕای بیتی خۆگونجێنەر)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>باشترکراو بۆ کوالێتیی دەنگ</item>
+        <item>کوالێتیی دەنگ و پەیوەندیی هاوسەنگکراو</item>
+        <item>باشترکراو بۆ کوالێتیی پەیوەندی</item>
+        <item>باشترین هەوڵ (تێکڕای بیتی خۆگونجێنەر)</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item/>
+        <item>، چالاکە</item>
+        <item>، چالاکە (میدیا)</item>
+        <item>، چالاکە (تەلەفۆن)</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ناچالاک</item>
+        <item>64 کیلۆبایت</item>
+        <item>256 کیلۆبایت</item>
+        <item>1 مێگابایت</item>
+        <item>4 مێگابایت</item>
+        <item>8 مێگابایت</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ناچالاک</item>
+        <item>64 کیلۆبایت</item>
+        <item>256 کیلۆبایت</item>
+        <item>1 مێگابایت</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ناچالاک</item>
+        <item>64 کیلۆبایت بۆ هەر ناوپۆشێکی لۆگ</item>
+        <item>256 کیلۆبایت بۆ هەر ناوپۆشێکی لۆگ</item>
+        <item>1 مێگابایت بۆ هەر ناوپۆشێکی لۆگ</item>
+        <item>4 مێگابایت بۆ هەر ناوپۆشێکی لۆگ</item>
+        <item>8 مێگابایت بۆ هەر ناوپۆشێکی لۆگ</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ناچالاک</item>
+        <item>هەموو</item>
+        <item>هەمووی بێجگە لە ڕادیۆ</item>
+        <item>تەنیا ناوک (kernel)</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ناچالاک</item>
+        <item>هەموو ناوپۆشەکانی لۆگ</item>
+        <item>هەموو ناوپۆشەکانی لۆگ بێجگە لە ڕادیۆ</item>
+        <item>تەنیا ناوپۆشی لۆگی ناوک (kernel)</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>جووڵە ناچالاکە</item>
+        <item>قەبارەی جووڵە .5x</item>
+        <item>قەبارەی جووڵە 1x</item>
+        <item>قەبارەی جووڵە 1.5x</item>
+        <item>قەبارەی جووڵە 2x</item>
+        <item>قەبارەی جووڵە 5x</item>
+        <item>قەبارەی جووڵە 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>جووڵە ناچالاکە</item>
+        <item>قەبارەی جووڵە .5x</item>
+        <item>قەبارەی جووڵە 1x</item>
+        <item>قەبارەی جووڵە 1.5x</item>
+        <item>قەبارەی جووڵە 2x</item>
+        <item>قەبارەی جووڵە 5x</item>
+        <item>قەبارەی جووڵە 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>جووڵە ناچالاکە</item>
+        <item>قەبارەی جووڵە .5x</item>
+        <item>قەبارەی جووڵە 1x</item>
+        <item>قەبارەی جووڵە 1.5x</item>
+        <item>قەبارەی جووڵە 2x</item>
+        <item>قەبارەی جووڵە 5x</item>
+        <item>قەبارەی جووڵە 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>هیچ</item>
+        <item>480p</item>
+        <item>هیچ</item>
+        <item>720p</item>
+        <item>هیچ</item>
+        <item>1080p</item>
+        <item>هیچ</item>
+        <item>4K</item>
+        <item>هیچ</item>
+        <item>4K (گەورەکراو)</item>
+        <item>هیچ</item>
+        <item>هیچ</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>هیچ</item>
+        <item>Logcat</item>
+        <item>Systrace (گرافیک)</item>
+        <item>کەڵەکەی بانگکردن لە کاتی glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ناچالاک</item>
+        <item>کێشانی ناوچەی بڕینی ناناڕێک بە شین</item>
+        <item>دیاریکردنی فەرمانەکانی تاقیکراوەی کێشان بە سەوز</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ناچالاک</item>
+        <item>لە سەر ڕوونما وەک هێڵ</item>
+        <item>لە <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g></item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ناچالاک</item>
+        <item>پیشاندانی ڕووبەرەکانی کێشانی زیادەدەست</item>
+        <item>پیشاندانی ڕووبەرەکان بۆ کۆرەنگیی دیتێرانۆماڵی</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>سنووری ستاندارد</item>
+        <item>هیچ پرۆسەیەکی پاشبنەما نییە</item>
+        <item>زۆرترین 1 پرۆسە</item>
+        <item>زۆرترین 2 پرۆسە</item>
+        <item>زۆرترین 3 پرۆسە</item>
+        <item>زۆرترین 4 پرۆسە</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>بارگاوی دەبێتەوە</item>
+        <item>پڕۆتۆکۆڵی گواستنەوەی میدیا (MTP)</item>
+        <item>پڕۆتۆکۆڵی گواستنەوەی وێنە (PTP)</item>
+        <item>RNDIS (ئیسەرنێتی USB)</item>
+        <item>سەرچاوەی دەنگ</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="grammatical_gender_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="shade_display_awareness_entries">
         <item>تەنها ڕوونمای ئامێرەکە (بنەڕەتی)</item>
         <item>ڕوونمای دەرەکی</item>

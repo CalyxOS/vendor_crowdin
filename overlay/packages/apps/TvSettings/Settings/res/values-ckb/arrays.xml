@@ -14,24 +14,118 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="sleep_timeout_entries">
+        <item>5 خولەک</item>
+        <item>15 خولەک</item>
+        <item>30 خولەک</item>
+        <item>1 کاتژمێر</item>
+        <item>2 کاتژمێر</item>
+    </string-array>
     <string-array name="device_energy_saver_sleep_timeout_entries">
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
+        <item>15 خولەک</item>
+        <item>20 خولەک</item>
+        <item>30 خولەک</item>
+        <item>1 کاتژمێر</item>
+        <item>2 کاتژمێر</item>
         <item>3 کاتژمێر</item>
-        <item>4 hours</item>
-        <item>8 hours</item>
-        <item>12 hours</item>
-        <item>24 hours</item>
-        <item>Never</item>
+        <item>4 کاتژمێر</item>
+        <item>8 کاتژمێر</item>
+        <item>12 کاتژمێر</item>
+        <item>24 کاتژمێر</item>
+        <item>هەرگیز</item>
+    </string-array>
+    <string-array name="bounce_key_timeout_entries">
+        <item>0.5 چرکە</item>
+        <item>1 چرکە</item>
+        <item>2 چرکە</item>
     </string-array>
     <string-array name="device_energy_saver_attentive_timeout_entries">
         <item>3 کاتژمێر</item>
-        <item>4 hours</item>
-        <item>6 hours</item>
-        <item>8 hours</item>
-        <item>Never</item>
+        <item>4 کاتژمێر</item>
+        <item>6 کاتژمێر</item>
+        <item>8 کاتژمێر</item>
+        <item>هەرگیز</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>بنەڕەتی</item>
+        <item>بێ‌سێریف (Sans-serif)</item>
+        <item>بێ‌سێریفی چڕکراوە (Sans-serif condensed)</item>
+        <item>بێ‌سێریفی یەکبۆشایی (Sans-serif monospace)</item>
+        <item>سێریف (Serif)</item>
+        <item>سێریفی یەکبۆشایی (Serif monospace)</item>
+        <item>ئاسایی (Casual)</item>
+        <item>دەستنووس (Cursive)</item>
+        <item>پیتی گەورەی بچووک (Small capitals)</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>زۆر بچووک</item>
+        <item>بچووک</item>
+        <item>ئاسایی</item>
+        <item>گەورە</item>
+        <item>زۆر گەورە</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>هیچ</item>
+        <item>هێڵی دەرەکی</item>
+        <item>سێبەر</item>
+        <item>بەرزکراوە</item>
+        <item>نزمکراوە</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="font_scale_entries">
+        <item>بچووک</item>
+        <item>بنەڕەتی</item>
+        <item>گەورە</item>
+        <item>گەورەترین</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>هیچ</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>هیچ</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="a11y_timeout_entries">
+        <item>بنەڕەتی</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+    </string-array>
+    <string-array name="a11y_delay_before_repeat_entries">
+        <item>بنەڕەتی</item>
+        <item>3 چرکە</item>
+        <item>5 چرکە</item>
+    </string-array>
+    <string-array name="a11y_repeat_rate_entries">
+        <item>بنەڕەتی</item>
+        <item>هێواش</item>
+        <item>خێرا</item>
+    </string-array>
+    <string-array name="volume_change_entries">
+        <item>کپکردن</item>
+        <item>کپکردن</item>
+        <item>کپکردن</item>
+        <item>کپکردن</item>
+    </string-array>
+    <string-array name="backlight_modes">
+        <item>هەرگیز</item>
+        <item>ستاندارد</item>
+        <item>خشتە بۆ دانراو</item>
+    </string-array>
+    <string-array name="backlight_hints">
+        <item>ڕووناکیی پاشبنەما لەگەڵ هەر دەستنانێک دانایسێت.</item>
+        <item>ڕووناکیی پاشبنەما لەگەڵ هەر دەستنانێک دادەگیرسێت. ڕووناکییەکە بۆ ماوەی 5 چرکە دەمێنێتەوە هەر جارێک کە چالاک دەبێت.</item>
+        <item>ڕووناکیی پاشبنەما لەگەڵ هەر دەستنانێک تەنها لە کاتەکانی شەودا (6ی ئێوارە تا 6ی بەیانی) دادەگیرسێت. ڕووناکییەکە بۆ ماوەی 5 چرکە دەمێنێتەوە هەر جارێک کە چالاک دەبێت.</item>
     </string-array>
 </resources>

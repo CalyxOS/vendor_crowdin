@@ -14,19 +14,198 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifiResourcesAppLabel" product="default">سەرچاوەکانی وایفای سیستم</string>
+    <string name="wifi_available_title">پەیوەستبوون بە تۆڕی وایفای کراوە</string>
+    <string name="wifi_available_title_connecting">پەیوەستبوون بە تۆڕی وایفای</string>
+    <string name="wifi_available_title_connected">پەیوەستکرا بە تۆڕی وایفای</string>
+    <string name="wifi_available_title_failed_to_connect">نەتوانرا پەیوەندی بە تۆڕی وایفایەوە بکرێت</string>
+    <string name="wifi_available_content_failed_to_connect">پەنجە بنێ بۆ بینینی هەموو تۆڕەکان</string>
+    <string name="wifi_available_action_connect">پەیوەستبوون</string>
+    <string name="wifi_available_action_all_networks">هەموو تۆڕەکان</string>
+    <string name="notification_channel_network_status">دۆخی تۆڕ</string>
+    <string name="notification_channel_network_alerts">ئاگادارکردنەوەکانی تۆڕ</string>
+    <string name="notification_channel_network_available">تۆڕ بەردەستە</string>
+    <string name="notification_channel_apm_alerts">ئاگادارییەکانی دۆخی فڕۆکە</string>
+    <string name="wifi_suggestion_title">ڕێگە بە تۆڕە پێشنیازکراوەکانی وایفای دەدەیت؟</string>
+    <string name="wifi_suggestion_content"><xliff:g id="name" example="App123">%s</xliff:g> تۆڕی پێشنیازکرد. لەوانەیە ئامێرەکە خۆکارانە پەیوەست ببێت.</string>
+    <string name="wifi_suggestion_action_allow_app">ڕێگەدان</string>
+    <string name="wifi_suggestion_action_disallow_app">نەخێر، سوپاس</string>
+    <string name="wifi_suggestion_imsi_privacy_title">پەیوەست دەبیت بە وایفای <xliff:g id="carrierName" example="xxxMobile">%s</xliff:g>؟</string>
+    <string name="wifi_suggestion_imsi_privacy_content">ئەم تۆڕانە ناسێنەری سیمکارت وەردەگرن کە دەکرێت بۆ شوێنپێهەڵگرتنی ئامێر بەکاربێت</string>
+    <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_carrier">پەیوەستبوون</string>
+    <string name="wifi_suggestion_action_disallow_imsi_privacy_exemption_carrier">پەیوەست مەبە</string>
+    <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_title">پەیوەستبوون پشتڕاست دەکەیتەوە؟</string>
+    <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_content">ئەگەر پەیوەست ببیت، لەوانەیە تۆڕەکانی وایفای <xliff:g id="carrierName" example="xxxMobile">%s</xliff:g> دەستیان بگات بە ناسێنەرێکی تایبەتی سیمکارتەکەت یان هاوبەشی پێ بکەن. ئەمە لەوانەیە ڕێگە بدات شوێنی ئامێرەکەت دیاریبکرێت.</string>
+    <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_confirmation">پەیوەستبوون</string>
+    <string name="wifi_suggestion_action_disallow_imsi_privacy_exemption_confirmation">پەیوەست مەبە</string>
+    <string name="wifi_wakeup_onboarding_title">وایفای بە شێوەیەکی خۆکارانە هەڵدەبێت</string>
+    <string name="wifi_wakeup_onboarding_subtext">کاتێک لە نزیک تۆڕێکی پاشەکەوتکراوی کوالێتی بەرز دەبیت</string>
+    <string name="wifi_wakeup_onboarding_action_disable">دووبارە هەڵمەکەرەوە</string>
+    <string name="wifi_wakeup_enabled_title">وایفای بە شێوەیەکی خۆکارانە هەڵکرا</string>
+    <string name="wifi_wakeup_enabled_content">تۆ لە نزیک تۆڕێکی پاشەکەوتکراویت: <xliff:g id="network_ssid">%1$s</xliff:g></string>
+    <string name="wifi_watchdog_network_disabled">نەتوانرا پەیوەندی بە وایفایەوە بکرێت</string>
+    <string name="wifi_watchdog_network_disabled_detailed"> پەیوەندییەکی ئینتەرنێتی لاوازی هەیە.</string>
+    <string name="wifi_connect_alert_title">ڕێگە بە پەیوەستبوون دەدەیت؟</string>
+    <string name="wifi_connect_alert_message">ئەپڵیکەیشنی %1$s دەیەوێت پەیوەست بێت بە تۆڕی وایفای %2$s</string>
+    <string name="wifi_connect_default_application">ئەپڵیکەیشنێک</string>
+    <string name="accept">پەسەندکردن</string>
+    <string name="decline">ڕەتکردنەوە</string>
+    <string name="ok">باشە</string>
+    <string name="wifi_p2p_invitation_sent_title">بانگهێشتنامە نێردرا</string>
+    <string name="wifi_p2p_invitation_to_connect_title">بانگهێشتنامە بۆ پەیوەستبوون</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0, plural,
+            =1 {لە ماوەی # چرکەدا پەسەندی بکە.}
+            other {لە ماوەی # چرکەدا پەسەندی بکە.}
+        }</string>
+    <string name="wifi_p2p_from_message">لە:</string>
+    <string name="wifi_p2p_to_message">بۆ:</string>
+    <string name="wifi_p2p_enter_pin_message">کۆدی PINـی داواکراو بنووسە:</string>
+    <string name="wifi_p2p_show_pin_message">PIN:</string>
+    <string name="wifi_p2p_dialog2_sent_title">پەیوەندیی ئامێر</string>
+    <string name="wifi_p2p_dialog2_sent_title_display_pin">پەیوەندیی ئامێر</string>
+    <string name="wifi_p2p_dialog2_sent_message">بانگهێشتنامە بۆ <xliff:g id="device_name">%1$s</xliff:g> نێردرا.</string>
+    <string name="wifi_p2p_dialog2_sent_message_display_pin">ئەم پینە (PIN) لەسەر <xliff:g id="device_name">%1$s</xliff:g> بنووسە بۆ پەیوەندیکردن.</string>
+    <string name="wifi_p2p_dialog2_sent_title_display_password">پەیوەندیی ئامێر</string>
     <string name="wifi_p2p_dialog2_sent_message_display_password">ئەم تێپەڕەوشەیە لەسەر <xliff:g id="device_name">%1$s</xliff:g> بنووسە بۆ پەیوەستبوون.</string>
+    <string name="wifi_p2p_dialog2_sent_positive_button">باشە</string>
+    <string name="wifi_p2p_dialog2_received_title">پەیوەندیی ئامێر</string>
+    <string name="wifi_p2p_dialog2_received_title_enter_pin">پەیوەندیی ئامێر</string>
+    <string name="wifi_p2p_dialog2_received_title_display_pin">پەیوەندیی ئامێر</string>
+    <string name="wifi_p2p_dialog2_received_title_enter_password">پەیوەندیی ئامێر</string>
+    <string name="wifi_p2p_dialog2_received_title_display_password">پەیوەندیی ئامێر</string>
+    <string name="wifi_p2p_dialog2_received_message"><xliff:g id="device_name">%1$s</xliff:g> دەیەوێت پەیوەندی بە ئامێرەکەتەوە بکات.</string>
+    <string name="wifi_p2p_dialog2_received_message_enter_pin">ئەو پینەی (PIN) لەسەر <xliff:g id="device_name">%1$s</xliff:g> پیشان دەدرێت بنووسە بۆ پەیوەندیکردن.</string>
     <string name="wifi_p2p_dialog2_received_message_enter_password">ئەو تێپەڕەوشەیەی لەسەر <xliff:g id="device_name">%1$s</xliff:g> نیشان دراوە بنووسە بۆ پەیوەستبوون.</string>
+    <string name="wifi_p2p_dialog2_received_message_display_pin"><xliff:g id="device_name">%1$s</xliff:g> دەیەوێت بەم پینەی (PIN) خوارەوە پەیوەندی بە ئامێرەکەتەوە بکات.</string>
     <string name="wifi_p2p_dialog2_received_message_display_password"><xliff:g id="device_name">%1$s</xliff:g> دەیەوێت بەم تێپەڕەوشەیەی خوارەوە پەیوەست ببێت بە ئامێرەکەتەوە.</string>
+    <string name="wifi_p2p_dialog2_received_message_countdown">{countdown, plural, =1 {{device} دەیەوێت پەیوەندی بە ئامێرەکەتەوە بکات. لە ماوەی {countdown} چرکەدا پەسەندی بکە.} other {{device} دەیەوێت پەیوەندی بە ئامێرەکەتەوە بکات. لە ماوەی {countdown} چرکەدا پەسەندی بکە.}}</string>
+    <string name="wifi_p2p_dialog2_received_message_enter_pin_countdown">{countdown, plural, =1 {ئەو پینەی (PIN) لەسەر {device} پیشان دراوە لە ماوەی {countdown} چرکەدا بنووسە بۆ پەیوەندیکردن.} other {ئەو پینەی (PIN) لەسەر {device} پیشان دراوە لە ماوەی {countdown} چرکەدا بنووسە بۆ پەیوەندیکردن.}}</string>
     <string name="wifi_p2p_dialog2_received_message_enter_password_countdown">{countdown, plural, =1 {تێپەڕەوشەی نیشان دراو لەسەر {device} لە ماوەی {countdown} چرکەدا بنووسە بۆ پەیوەستبوون.} other {تێپەڕەوشەی نیشان دراو لەسەر {device} لە ماوەی {countdown} چرکەدا بنووسە بۆ پەیوەستبوون.}}
 </string>
+    <string name="wifi_p2p_dialog2_received_message_display_pin_countdown">{countdown, plural, =1 {{device} دەیەوێت بەم پینەی (PIN) خوارەوە پەیوەندی بە ئامێرەکەتەوە بکات. لە ماوەی {countdown} چرکەدا پەسەندی بکە.} other {{device} دەیەوێت بەم پینەی (PIN) خوارەوە پەیوەندی بە ئامێرەکەتەوە بکات. لە ماوەی {countdown} چرکەدا پەسەندی بکە.}}</string>
     <string name="wifi_p2p_dialog2_received_message_display_password_countdown">{countdown, plural,
 =1 {{device} دەیەوێت بەم تێپەڕەوشەی خوارەوە پەیوەست ببێت بە ئامێرەکەتەوە. لە ماوەی {countdown} چرکەدا قبوڵی بکە.}
 other {{device} دەیەوێت بەم تێپەڕەوشەی خوارەوە پەیوەست ببێت بە ئامێرەکەتەوە. لە ماوەی {countdown} چرکەدا قبوڵی بکە.}
 }</string>
+    <string name="wifi_p2p_dialog2_received_positive_button">پەیوەستبوون</string>
+    <string name="wifi_p2p_dialog2_received_negative_button">پاشگەزبوونەوە</string>
+    <string name="wifi_p2p_dialog2_enter_pin_label">پین</string>
     <string name="wifi_p2p_dialog2_enter_password_label">تێپەڕەوشە</string>
+    <string name="wifi_p2p_dialog2_display_pin_label">پین</string>
     <string name="wifi_p2p_dialog2_display_password_label">تێپەڕەوشە</string>
-    <string name="wifi_tofu_dialog2_title">بڕوانامەی ئاسایش</string>
+    <string name="wifi_p2p_frequency_conflict_message">ئامێرەکەت بە شێوەیەکی کاتی لە وایفای دەپچڕێت لە کاتێکدا پەیوەستە بە <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="dlg_ok">باشە</string>
+    <string name="wifi_cannot_connect_with_randomized_mac_title">ناتوانرێت پەیوەندی بە <xliff:g id="ssid">%1$s</xliff:g> بکرێت</string>
+    <string name="wifi_cannot_connect_with_randomized_mac_message">پەنجە بنێ بۆ گۆڕینی ڕێکخستنەکانی تایبەتمەندی و دووبارە هەوڵدانەوە</string>
+    <string name="wifi_disable_mac_randomization_dialog_title">ڕێکخستنی تایبەتمەندی دەگۆڕیت؟</string>
+    <string name="wifi_disable_mac_randomization_dialog_message">بۆ پەیوەستبوون، پێویستە <xliff:g id="ssid">%1$s</xliff:g> ناونیشانی MACـی ئامێرەکەت بەکاربهێنێت کە ناسێنەرێکی ناوازەیە. لە ئێستادا، ڕێکخستنی تایبەتمەندیت بۆ ئەم تۆڕە ناسێنەرێکی هەڕەمەکی بەکاردەهێنێت.
+
+ئەم گۆڕانکارییە لەوانەیە ڕێگە بدات ئامێرەکانی نزیکت شوێنی ئامێرەکەت دیاریبکەن.</string>
+    <string name="wifi_disable_mac_randomization_dialog_confirm_text">گۆڕینی ڕێکخستن</string>
+    <string name="wifi_disable_mac_randomization_dialog_success">ڕێکخستن نوێکرایەوە. دووبارە هەوڵی پەیوەستبوون بدەوە.</string>
+    <string name="wifi_disable_mac_randomization_dialog_failure">ناتوانرێت ڕێکخستنی تایبەتمەندی بگۆڕدرێت</string>
+    <string name="wifi_disable_mac_randomization_dialog_network_not_found">تۆڕەکە نەدۆزرایەوە</string>
+    <string name="wifi_eap_error_message_code_32756"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 32756</string>
+    <string-array name="wifi_eap_error_message_code_32756_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g></item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32760"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 32760</string>
+    <string-array name="wifi_eap_error_message_code_32760_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : ناتوانیت پەیوەست بیت بە هێڵی وایفای ڤێریزۆن لە دەرەوەی ناوچەی ڕووماڵی ڤێریزۆن. (هەڵە = 32760)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32761"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 32761</string>
+    <string-array name="wifi_eap_error_message_code_32761_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : تۆ بەشداریت لە هێڵی وایفای ڤێریزۆن نەکردووە. تکایە پەیوەندیمان پێوە بکە بە 800-922-0204. (هەڵە = 32761)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32762"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 32762</string>
+    <string-array name="wifi_eap_error_message_code_32762_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : کێشەیەک لە هەژماری هێڵی وایفای ڤێریزۆنەکەتدا هەیە. تکایە پەیوەندیمان پێوە بکە بە 800-922-0204. (هەڵە = 32762)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32763"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 32763</string>
+    <string-array name="wifi_eap_error_message_code_32763_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : تۆ لە پێشتردا پەیوەست بوویت بە هێڵی وایفای ڤێریزۆن. (هەڵە = 32763)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32764"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 32764</string>
+    <string-array name="wifi_eap_error_message_code_32764_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : کێشەیەک هەیە لە پەیوەستکردنت بە هێڵی وایفای ڤێریزۆن. تکایە پەیوەندیمان پێوە بکە بە 800-922-0204. (هەڵە = 32764)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32765"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 32765</string>
+    <string-array name="wifi_eap_error_message_code_32765_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : کێشەیەک لە هەژماری هێڵی وایفای ڤێریزۆنەکەتدا هەیە. تکایە پەیوەندیمان پێوە بکە بە 800-922-0204. (هەڵە = 32765)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32766"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 32766</string>
+    <string-array name="wifi_eap_error_message_code_32766_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : هێڵی وایفای ڤێریزۆن لە شوێنەکەت بەردەست نییە. دواتر دووبارە هەوڵ بدەوە یان لە شوێنێکی ترەوە تاقی بکەرەوە. (هەڵە = 32766)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_32767"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 32767</string>
+    <string-array name="wifi_eap_error_message_code_32767_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : کێشەیەک هەیە لە پەیوەستکردنت بە هێڵی وایفای ڤێریزۆن. دواتر دووبارە هەوڵ بدەوە یان لە شوێنێکی ترەوە تاقی بکەرەوە. (هەڵە = 32767)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_16384"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 16384</string>
+    <string-array name="wifi_eap_error_message_code_16384_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : کێشەیەک هەیە لە پەیوەستکردنت بە وایفای ڤێریزۆن. (هەڵە = 16384)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_code_16385"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP 16385</string>
+    <string-array name="wifi_eap_error_message_code_16385_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : کێشەیەک هەیە لە پەیوەستکردنت بە وایفای ڤێریزۆن. (هەڵە = 16385)</item>
+    </string-array>
+    <string name="wifi_eap_error_message_unknown_error_code"><xliff:g id="ssid">%1$s</xliff:g> : هەڵەی پشتڕاستکردنەوەی EAP، کۆدی هەڵەی نەناسراو</string>
+    <string-array name="wifi_eap_error_message_unknown_error_code_carrier_overrides">
+        <item><xliff:g id="carrier_id_prefix">:::1839:::</xliff:g><xliff:g id="ssid">%1$s</xliff:g> : کێشەیەک هەیە لە پەیوەستکردنت بە وایفای ڤێریزۆن. (هەڵە = نەناسراو)</item>
+    </string-array>
+    <string name="wifi_softap_auto_shutdown_timeout_expired_title">هۆتسپۆت کوژێندرایەوە</string>
+    <string name="wifi_softap_auto_shutdown_timeout_expired_summary">هیچ ئامێرێک پەیوەست نییە. پەنجە بنێ بۆ دەستکاریکردن.</string>
+    <string name="wifi_sim_required_title">وایفای پچڕا</string>
+    <string name="wifi_sim_required_message">بۆ پەیوەستبوون بە <xliff:g id="ssid">%1$s</xliff:g>، سیمکارتی <xliff:g id="carrier_name">%2$s</xliff:g> دابنێ</string>
+    <string name="wifi_interface_priority_title"><xliff:g id="app">%1$s</xliff:g> دەیەوێت سەرچاوەیەکی تۆڕ بەکاربهێنێت</string>
+    <string name="wifi_interface_priority_message">ئەمە لەوانەیە کێشە بۆ <xliff:g id="apps">%3$s</xliff:g> دروست بکات.</string>
+    <string name="wifi_interface_priority_message_plural">ئەمە لەوانەیە کێشە بۆ ئەم ئەپانە دروست بکات: <xliff:g id="apps">%3$s</xliff:g>.</string>
+    <string name="wifi_interface_priority_approve">ڕێگەدان</string>
+    <string name="wifi_interface_priority_reject">ڕێگە مەدە</string>
+    <string name="wifi_interface_priority_interface_name_sta">STA</string>
+    <string name="wifi_interface_priority_interface_name_ap">هۆتسپۆتی وایفای</string>
+    <string name="wifi_interface_priority_interface_name_ap_bridge">هۆتسپۆتی وایفای</string>
+    <string name="wifi_interface_priority_interface_name_p2p">Wi-Fi Direct</string>
+    <string name="wifi_interface_priority_interface_name_nan">Wi‑Fi Aware</string>
+    <string name="wifi_ca_cert_dialog_title">ئایا ئەم تۆڕە جێی متمانەیە؟</string>
+    <string name="wifi_ca_cert_dialog_continue_text">بەڵێ، پەیوەست ببە</string>
+    <string name="wifi_ca_cert_dialog_abort_text">نەخێر، پەیوەست مەبە</string>
+    <string name="wifi_ca_cert_dialog_message_hint">تەنها کاتێک ڕێگە بە پەیوەستبوونی ئەم تۆڕە بدە کە زانیارییەکانی خوارەوە دروست بن.
+
+</string>
+    <string name="wifi_ca_cert_dialog_message_server_name_text">ناوی ڕاژەکار:
+<xliff:g id="value">%1$s</xliff:g>
+
+</string>
+    <string name="wifi_ca_cert_dialog_message_issuer_name_text">ناوی دەرکەر:
+<xliff:g id="value">%1$s</xliff:g>
+
+</string>
+    <string name="wifi_ca_cert_dialog_message_organization_text">ڕێکخراو:
+<xliff:g id="value">%1$s</xliff:g>
+
+</string>
+    <string name="wifi_ca_cert_dialog_message_expiration_text">بەسەرچوونی بڕوانامە:
+<xliff:g id="value">%1$s</xliff:g>
+
+</string>
+    <string name="wifi_ca_cert_dialog_message_signature_name_text">پەنجەمۆری SHA-256:
+<xliff:g id="value">%1$s</xliff:g>
+
+</string>
+    <string name="wifi_ca_cert_dialog_message_contact_text">پەیوەندی:
+<xliff:g id="value">%1$s</xliff:g>
+
+</string>
+    <string name="wifi_ca_cert_notification_title">تۆڕەکە پێویستی بە پشتڕاستکردنەوە هەیە</string>
+    <string name="wifi_ca_cert_notification_message">پێش پەیوەستبوون پێداچوونەوە بە وردەکارییەکانی تۆڕی <xliff:g id="ssid">%1$s</xliff:g> بکە. پەنجە بنێ بۆ بەردەوامبوون.</string>
+    <string name="wifi_ca_cert_failed_to_install_ca_cert">دابەزاندنی بڕوانامە سەرکەوتوو نەبوو.</string>
+    <string name="wifi_tofu_invalid_cert_chain_title">ناتوانرێت پەیوەندی بە <xliff:g id="value">%1$s</xliff:g> بکرێت</string>
+    <string name="wifi_tofu_invalid_cert_chain_message">زنجیرەی بڕوانامەی ڕاژەکار نادروستە.</string>
+    <string name="wifi_tofu_invalid_cert_chain_ok_text">باشە</string>
+    <string name="wifi_tofu_dialog2_title">بڕوانامەی ئاسایش (Security certificate)</string>
     <string name="wifi_tofu_dialog2_message">تەنها ئەگەر متمانەت بەم تۆڕە هەیە و زانیارییەکانی خوارەوە دروست دەردەکەون، بەردەوام بە.</string>
+    <string name="wifi_tofu_dialog2_negative_button">پاشگەزبوونەوە</string>
     <string name="wifi_tofu_dialog2_positive_button">متمانە</string>
     <string name="wifi_tofu_dialog2_list_label_server_name">سێرڤەر</string>
     <string name="wifi_tofu_dialog2_list_label_issuer_name">دابینکەر</string>
@@ -44,4 +223,35 @@ other {{device} دەیەوێت بەم تێپەڕەوشەی خوارەوە پەی
     <string name="wifi_tofu_dialog2_list_label_public_key">کلیلە گشتییەکە</string>
     <string name="wifi_tofu_dialog2_list_label_signature_algorithm">ئەلگۆریتمی ئیمزاکردن</string>
     <string name="wifi_tofu_dialog2_list_label_signature">ئیمزا</string>
+    <string name="wifi_ca_cert_dialog_preT_title">ناتوانرێت ئەم تۆڕە پشتڕاست بکرێتەوە</string>
+    <string name="wifi_ca_cert_dialog_preT_continue_text">بە پەیوەستکراوی بمێنەرەوە</string>
+    <string name="wifi_ca_cert_dialog_preT_abort_text">ئێستا پەیوەندی بپچڕێنە</string>
+    <string name="wifi_ca_cert_dialog_preT_message_hint">تۆڕی <xliff:g id="ssid">%1$s</xliff:g> بڕوانامەی نییە.</string>
+    <string name="wifi_ca_cert_dialog_preT_message_link">فێربە چۆن بڕوانامە زیاد دەکرێت</string>
+    <string name="wifi_ca_cert_notification_preT_title">ناتوانرێت ئەم تۆڕە پشتڕاست بکرێتەوە</string>
+    <string name="wifi_ca_cert_notification_preT_message">تۆڕی <xliff:g id="ssid">%1$s</xliff:g> بڕوانامەی نییە. پەنجە بنێ بۆ ئەوەی فێربیت چۆن بڕوانامە زیاد دەکرێت.</string>
+    <string name="wifi_ca_cert_notification_preT_continue_text">بە هەر حاڵ پەیوەست ببە</string>
+    <string name="wifi_ca_cert_notification_preT_abort_text">پەیوەست مەبە</string>
+    <string name="wifi_enable_request_dialog_title">ڕێگە بە <xliff:g id="app_name" example="App123">%1$s</xliff:g> دەدەیت وایفای هەڵبکات؟</string>
+    <string name="wifi_enable_request_dialog_message">دەتوانیت وایفای لە ڕێکخستنە خێراکاندا بکوژێنیتەوە</string>
+    <string name="wifi_enable_request_dialog_positive_button">ڕێگەدان</string>
+    <string name="wifi_enable_request_dialog_negative_button">ڕێگە مەدە</string>
+    <string name="wifi_enabled_apm_first_time_title">وایفای هەڵکراوە لە دۆخی فڕۆکەدا</string>
+    <string name="wifi_enabled_apm_first_time_message">ئەگەر وایفای بە هەڵکراوی بهێڵیتەوە، ئامێرەکەت لەبیری دەمێنێت بۆ جاری داهاتوو کە دەچیتە دۆخی فڕۆکەوە بە هەڵکراوی بهێڵێتەوە</string>
+    <string name="apm_enabled_first_time_title">وایفای بە هەڵکراوی دەمێنێتەوە</string>
+    <string name="apm_enabled_first_time_message">ئامێرەکەت لەبیری دەمێنێت کە لە دۆخی فڕۆکەدا وایفای بە هەڵکراوی بهێڵێتەوە. ئەگەر ناتەوێت بە هەڵکراوی بمێنێتەوە، وایفای بکوژێنەرەوە.</string>
+    <string name="wifi_network_disabled_by_admin_title">تۆڕی بەردەستنەبوو</string>
+    <string name="wifi_network_disabled_by_admin_message"><xliff:g id="ssid">%1$s</xliff:g> لەلایەن سەرپەرشتیارەکەتەوە ناچالاککراوە.</string>
+    <string name="wifi_network_disabled_by_admin_button">داخستن</string>
+    <string name="wifi_network_switch_dialog_title_no_internet">وا دەردەکەوێت <xliff:g id="ssid">%1$s</xliff:g> بە ئینتەرنێتەوە پەیوەست نەبێت. دەگۆڕیت بۆ <xliff:g id="ssid">%2$s</xliff:g>؟</string>
+    <string name="wifi_network_switch_dialog_title_bad_internet"><xliff:g id="ssid">%1$s</xliff:g> کوالێتی نزمە. دەگۆڕیت بۆ <xliff:g id="ssid">%2$s</xliff:g>؟</string>
+    <string name="wifi_network_switch_dialog_positive_button">گۆڕین</string>
+    <string name="wifi_network_switch_dialog_negative_button">مەیگۆڕە</string>
+    <string name="wifi_disconnect_dialog_title">پەیوەندی لە <xliff:g id="app_name">%1$s</xliff:g> بپچڕێنرێت؟</string>
+    <string name="wifi_disconnect_dialog_message">پچڕاندنی پەیوەندی لەم تۆڕە دەبێتە هۆی پچڕاندنی پەیوەندیی <xliff:g id="app_name">%1$s</xliff:g>.</string>
+    <string name="wifi_disconnect_dialog_positive_button">پچڕاندنی پەیوەندی</string>
+    <string name="wifi_disconnect_dialog_negative_button">پاشگەزبوونەوە</string>
+    <string name="wifi_disconnect_dialog_new_connection_title">پەیوەست ببێت بە تۆڕێکی جیاوازی وایفای؟</string>
+    <string name="wifi_disconnect_dialog_new_connection_message">پەیوەستبوون بە <xliff:g id="ssid">%2$s</xliff:g> دەبێتە هۆی پچڕاندنی پەیوەندیی <xliff:g id="app_name">%1$s</xliff:g>.</string>
+    <string name="wifi_disconnect_dialog_new_connection_positive_button">پەیوەستبوون</string>
 </resources>

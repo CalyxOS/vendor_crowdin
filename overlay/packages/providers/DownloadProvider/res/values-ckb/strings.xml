@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">بەڕێوەبەری داگرتن</string>
+    <string name="storage_description">داگیراوەکان</string>
+    <string name="permlab_downloadManager">دەستگەیشتن بە بەڕێوەبەری داگرتن.</string>
+    <string name="permdesc_downloadManager">ڕێگە بە ئەپەکە دەدات دەستی بگات بە بەڕێوەبەری داگرتن و بەکاریبهێنێت بۆ داگرتنی فایلەکان. ئەپە زیانبەخشەکان دەتوانن ئەمە بەکاربهێنن بۆ تێکدانی داگرتنەکان و دەستگەیشتن بە زانیارییە تایبەتەکان.</string>
+    <string name="permlab_downloadManagerAdvanced">کردارە پێشکەوتووەکانی بەڕێوەبەری داگرتن.</string>
+    <string name="permdesc_downloadManagerAdvanced">ڕێگە بە ئەپەکە دەدات دەستی بگات بە کردارە پێشکەوتووەکانی بەڕێوەبەری داگرتن. ئەپە زیانبەخشەکان دەتوانن ئەمە بەکاربهێنن بۆ تێکدانی داگرتنەکان و دەستگەیشتن بە زانیارییە تایبەتەکان.</string>
+    <string name="permlab_downloadCompletedIntent">ناردنی ئاگادارییەکانی داگرتن.</string>
+    <string name="permdesc_downloadCompletedIntent">ڕێگە بە ئەپەکە دەدات ئاگاداری بنێرێت سەبارەت بە داگرتنە تەواوبووەکان. ئەپە زیانبەخشەکان دەتوانن ئەمە بەکاربهێنن بۆ سەرلێشێواندنی ئەپەکانی تر کە فایل دادەگرن.</string>
+    <string name="permlab_downloadCacheNonPurgeable">گرتنی شوێن لە کاشی داگرتندا</string>
+    <string name="permdesc_downloadCacheNonPurgeable">ڕێگە بە ئەپەکە دەدات فایلەکان دابگرێت بۆ کاشی داگرتن، کە بە شێوەیەکی خۆکارانە ناسڕدرێتەوە کاتێک بەڕێوەبەری داگرتن پێویستی بە شوێنی زیاتر بێت.</string>
+    <string name="permlab_downloadWithoutNotification">داگرتنی فایلەکان بەبێ ئاگادارکردنەوە</string>
+    <string name="permdesc_downloadWithoutNotification">ڕێگە بە ئەپەکە دەدات لە ڕێگەی بەڕێوەبەری داگرتنەوە فایلەکان دابگرێت بەبێ ئەوەی هیچ ئاگادارییەک بۆ بەکارهێنەر پیشان بدرێت.</string>
+    <string name="permlab_accessAllDownloads">دەستگەیشتن بە هەموو داگیراوەکانی سیستم</string>
+    <string name="permdesc_accessAllDownloads">ڕێگە بە ئەپەکە دەدات هەموو ئەو داگرتنانە ببینێت و دەستکارییان بکات کە لەلایەن هەر ئەپێکی سیستمەوە دەستیان پێکراوە.</string>
+    <string name="download_unknown_title">&lt;بێناو&gt;</string>
+    <string name="notification_download_complete">داگرتن تەواو بوو.</string>
+    <string name="notification_download_failed">داگرتن سەرکەوتوو نەبوو.</string>
+    <string name="notification_need_wifi_for_size">قەبارەی داگرتن پێویستی بە Wi-Fi هەیە.</string>
+    <string name="notification_paused_in_background">لە پاشبنەمادا وەستێنراوە.</string>
+    <string name="wifi_required_title">داگرتنەکە زۆر گەورەیە بۆ تۆڕی کارپێکەر</string>
+    <string name="wifi_required_body">پێویستە Wi-Fi بەکاربهێنیت بۆ تەواوکردنی ئەم داگرتنەی بە قەبارەی <xliff:g id="size" example="12.3KB">%1$s
+        </xliff:g>. 
+
+دەست لە <xliff:g id="queue_text" example="Queue">%2$s
+        </xliff:g> بدە بۆ دەستپێکردنی ئەم داگرتنە کاتێک جاری داهاتوو پەیوەست بوویت بە تۆڕێکی Wi-Fi.</string>
+    <string name="wifi_recommended_title">خرابێتە ڕیزەوە بۆ داگرتن لە کاتێکی تردا؟</string>
+    <string name="wifi_recommended_body">دەستپێکردنی ئەم داگرتنە بە قەبارەی <xliff:g id="size" example="12.3KB">%1$s
+        </xliff:g> ئێستا لەوانەیە تەمەنی باتریت کورت بکاتەوە و/یان ببێتە هۆی بەکارهێنانی لەڕادەبەدەری پەیوەندیی داتای مۆبایلت، کە لەوانەیە باج لەلایەن کارپێکەری مۆبایلەکەتەوە بسەپێنێت بەپێی پلانەکەت.
+
+
+        دەست لە <xliff:g id="queue_text" example="Queue">%2$s</xliff:g> بدە بۆ دەستپێکردنی ئەم داگرتنە کاتێک جاری داهاتوو پەیوەست بوویت بە تۆڕێکی Wi-Fi.</string>
+    <string name="button_queue_for_wifi">سەرە</string>
+    <string name="button_cancel_download">پاشگەزبوونەوە</string>
+    <string name="button_start_now">ئێستا دەست پێ بکە</string>
+    <plurals name="notif_summary_active">
+        <item quantity="one">1 فایل دادەگیرێت</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> فایل دادەگیرێن</item>
+    </plurals>
+    <plurals name="notif_summary_waiting">
+        <item quantity="one">1 فایل چاوەڕوانە</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> فایل چاوەڕوانن</item>
+    </plurals>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> ماوە</string>
+    <string name="download_no_application_title">فایلەکە ناکرێتەوە</string>
+    <string name="root_downloads">داگیراوەکان</string>
+    <string name="download_queued">لە ڕیزدایە</string>
+    <string name="download_running">لە کاردایە</string>
+    <string name="download_error">سەرکەوتوو نەبوو</string>
+    <string name="download_running_percent">لە کاردایە، <xliff:g id="percentage" example="50%">%s</xliff:g></string>
+</resources>

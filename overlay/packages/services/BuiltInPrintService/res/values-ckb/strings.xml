@@ -15,6 +15,97 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ڕاژەی چاپکردنی بنەڕەتی</string>
+    <string name="printer_busy">سەرقاڵ</string>
+    <string name="printer_out_of_paper">کاغەز تەواو بووە</string>
+    <string name="printer_out_of_ink">مەرەکەب تەواو بووە</string>
+    <string name="printer_out_of_toner">تۆنەر تەواو بووە</string>
+    <string name="printer_low_on_ink">مەرەکەب کەمە</string>
+    <string name="printer_low_on_toner">تۆنەر کەمە</string>
+    <string name="printer_door_open">دەرگا کراوەیە</string>
+    <string name="printer_jammed">کاغەز گیر بووە</string>
+    <string name="printer_offline">ئۆفلاین</string>
+    <string name="printer_bad_certificate">بڕوانامەی خراپ</string>
+    <string name="printer_not_encrypted">ناشفرەکراو</string>
+    <string name="printer_check">پشکنینی چاپکەر</string>
+    <string name="waiting_to_send">چاوەڕێی ناردنە</string>
+    <string name="unreadable_input">بەڵگەنامەکە نەخوێندرایەوە</string>
+    <string name="media_size_l">L</string>
+    <string name="media_size_5x7in">5x7 ئینچ</string>
+    <string name="media_size_89x119mm">89x119 ملم</string>
+    <string name="media_size_54x86mm">54x86 ملم</string>
+    <string name="media_size_8x10in">8x10 ئینچ</string>
+    <string name="media_size_4x6in">4x6 ئینچ</string>
+    <string name="printer_description">%1$s – %2$s</string>
+    <string name="title_activity_add_printer">زیادکردنی چاپکەر</string>
+    <string name="add_printer_by_ip">زیادکردنی چاپکەر بە ناونیشانی IP</string>
+    <string name="hostname_or_ip">ناوی خانەخوێ یان ناونیشانی IP</string>
+    <string name="ip_hint">192.168.0.4</string>
+    <string name="add">زیادکردن</string>
+    <string name="add_named">زیادکردنی
+        <xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g>
+    </string>
+    <string name="no_printer_found">هیچ چاپکەرێک لەم ناونیشانە نەدۆزرایەوە</string>
+    <string name="printer_not_supported">چاپکەرەکە پشتیوانی ناکرێت</string>
+    <string name="wifi_direct">Wi-Fi Direct</string>
+    <string name="find_wifi_direct">دۆزینەوەی چاپکەرەکانی Wi-Fi Direct</string>
+    <string name="wifi_direct_printing">چاپکردن لە ڕێگەی Wi-Fi Direct</string>
+    <string name="wifi_direct_printers">چاپکەرەکانی Wi-Fi Direct</string>
+    <string name="searching">لە گەڕاندایە…</string>
+    <string name="connect_hint_text">لەوانەیە پێویست بکات ئەم پەیوەندییە لەسەر پانێڵی پێشەوەی چاپکەرەکەت پەسەند بکەیت
+    </string>
+    <string name="connecting_to">پەیوەستبوون بە
+        <xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g>
+    </string>
+    <string name="failed_printer_connection">پەیوەست نەبوو بە چاپکەر</string>
+    <string name="failed_connection">پەیوەست نەبوو بە
+        <xliff:g example="Epson XP-610" id="printer">%1$s</xliff:g>
+    </string>
+    <string name="saved_printers">چاپکەرە پاشەکەوتکراوەکان</string>
+    <string name="forget">لەبیرکردن</string>
+    <string name="connects_via_wifi_direct">لە ڕێگەی Wi-Fi Directـەوە پەیوەست دەبێت</string>
+    <string name="connects_via_network">لە ڕێگەی تۆڕی ئێستاوە پەیوەست دەبێت لە
+        <xliff:g example="192.168.0.101" id="ip_address">%1$s</xliff:g>
+    </string>
+    <string name="recommendation_summary">ڕاژەی چاپکردنی بنەڕەتی بژاردە سەرەتایییەکان دابین دەکات. بژاردەکانی تر بۆ ئەم چاپکەرە لەوانەیە لە ڕاژەیەکی تری چاپکردندا بەردەست بن.</string>
     <string name="recommendations_heading">خزمەتگوزارییە پێشنیارکراوەکان</string>
+    <string name="recommendation_link">خزمەتگوزارییەکانی زیاتری چاپکردن</string>
+    <string name="recommendation_install_summary">دیاریی بکە بۆ دامەزراندن</string>
+    <string name="recommendation_enable_summary">دیاریی بکە بۆ چالاککردن</string>
     <string name="recommendation_manage">بەڕێوەبردنی خزمەتگوزارییەکان</string>
+    <string name="security">ئاسایش</string>
+    <string name="certificate_update_request">ئەم چاپکەرە بڕوانامەیەکی ئاسایشی نوێی دابین کردووە، یان ئامێرێکی تر لاسایی دەکاتەوە. بڕوانامە نوێیەکە پەسەند دەکەیت؟</string>
+    <string name="not_encrypted_request">ئەم چاپکەرە چیتر کارە شفرەکراوەکان وەرناگرێت. بەردەوام بیت لە چاپکردن؟</string>
+    <string name="accept">پەسەندکردن</string>
+    <string name="reject">ڕەتکردنەوە</string>
+    <string name="connections">پەیوەندییەکان</string>
+    <string name="wifi_direct_problem">ڕاژەی چاپکردنی بنەڕەتی ناتوانێت چاپکەرەکانی Wi-Fi Direct بدۆزێتەوە</string>
+    <string name="disable_wifi_direct">ناچالاککردنی Wi-Fi Direct</string>
+    <string name="wifi_direct_permission_rationale">ڕاژەی چاپکردنی بنەڕەتی پێویستی بە مۆڵەتی ئامێرە نزیکەکانە بۆ دۆزینەوەی چاپکەرە نزیکەکان.</string>
+    <string name="fix">پێداچوونەوە بە مۆڵەت</string>
+    <string name="print">چاپکردن</string>
+    <string name="yes">بەڵێ</string>
+    <string name="unknown">نەناسراو</string>
+    <string name="printer_name">ناوی چاپکەر</string>
+    <string name="status">دۆخ</string>
+    <string name="media_ready">قەبارەی پەڕە بارکراوەکان</string>
+    <string name="supply_levels">ئاستی ماددەکان</string>
+    <string name="information">زانیاری</string>
+    <string name="printer_ready">ئامادەیە</string>
+    <string name="printer_state__printing">چاپکردن</string>
+    <string name="printer_state__offline">ئۆفلاین</string>
+    <string name="printer_state__check_printer">پشکنینی چاپکەر</string>
+    <string name="marker_level_cyan">شینباو. %1$d%%</string>
+    <string name="marker_level_magenta">ئەرخەوانی. %1$d%%</string>
+    <string name="marker_level_yellow">زەرد. %1$d%%</string>
+    <string name="marker_level_black">ڕەش. %1$d%%</string>
+    <string name="marker_level_red">سوور. %1$d%%</string>
+    <string name="marker_level_green">سەوز. %1$d%%</string>
+    <string name="marker_level_blue">شین. %1$d%%</string>
+    <string name="marker_level_ltgray">خۆڵەمێشیی کاڵ. %1$d%%</string>
+    <string name="marker_level_dkgray">خۆڵەمێشیی تۆخ. %1$d%%</string>
+    <string name="marker_level_ltcyan">شینباوی کاڵ. %1$d%%</string>
+    <string name="marker_level_ltmagenta">ئەرخەوانیی کاڵ. %1$d%%</string>
+    <string name="marker_level_violet">مۆر. %1$d%%</string>
+    <string name="marker_level_custom">ڕەنگی دڵخواز #%1$02X%2$02X%3$02X. %4$d%%</string>
 </resources>

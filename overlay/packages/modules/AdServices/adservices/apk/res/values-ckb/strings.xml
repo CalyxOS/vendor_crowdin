@@ -15,19 +15,802 @@
 -->
 <!-- IMPORTANT! If adding new strings, then run generate_adservices_public_xml.py -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_accessAdServicesTopics">دەستگەیشتن بە APIـی بابەتەکانی AdServices</string>
+    <string name="permdesc_accessAdServicesTopics">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی بابەتەکانی AdServices.</string>
+    <string name="permlab_accessAdServicesAttribution">دەستگەیشتن بە APIـی دەستنیشانکردنی AdServices</string>
+    <string name="permdesc_accessAdServicesAttribution">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی دەستنیشانکردنی AdServices.</string>
+    <string name="permlab_accessAdServicesCustomAudience">دەستگەیشتن بە APIـی جەماوەری تایبەتمەندی AdServices</string>
+    <string name="permdesc_accessAdServicesCustomAudience">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی جەماوەری تایبەتمەندی AdServices.</string>
+    <string name="permlab_accessAdServicesAdSelection">دەستگەیشتن بە APIـی هەڵبژاردنی ڕیکلامی AdServices</string>
+    <string name="permdesc_accessAdServicesAdSelection">ڕێگە بە بەرنامەیەک دەدات دەستی بگات بە APIـی هەڵبژاردنی ڕیکلامی AdServices.</string>
+    <string name="permlab_accessAdServicesProtectedSignals">دەستگەیشتن بە APIـی هێما پارێزراوەکانی AdServices</string>
+    <string name="permdesc_accessAdServicesProtectedSignals">ڕێگە بە بەرنامەیەک دەدات دەستی بگات بە APIـی هێما پارێزراوەکانی AdServices.</string>
+    <string name="permlab_accessAdServicesAdId">دەستگەیشتن بە APIـی ناسێنەری ڕیکلام (AdId)</string>
+    <string name="permdesc_accessAdServicesAdId">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی AdId.</string>
+    <string name="permlab_accessAdServicesConsent">دەستگەیشتن بە APIـی ڕەزامەندیی AdServices</string>
+    <string name="permdesc_accessAdServicesConsent">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی ڕەزامەندیی AdServices.</string>
+    <string name="permlab_adServicesAccessAdId">دەستگەیشتن بە APIـی ناسێنەری ڕیکلام</string>
+    <string name="permdesc_adServicesAccessAdId">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی ناسێنەری ڕیکلام.</string>
+    <string name="permlab_adServicesAccessAdServicesCobaltUpload">دەستگەیشتن بە APIـی بارکردنی Cobaltـی AdServices</string>
+    <string name="permdesc_adServicesAccessAdServicesCobaltUpload">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی بارکردنی Cobaltـی AdServices.</string>
+    <string name="permlab_adServicesAccessAppSetId">دەستگەیشتن بە APIـی ناسێنەری کۆمەڵە ئەپ (App Set ID)</string>
+    <string name="permdesc_adServicesAccessAppSetId">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی App Set ID.</string>
+    <string name="permlab_adServicesAccessConsentService">دەستگەیشتن بە APIـی خزمەتگوزاریی ڕەزامەندی</string>
+    <string name="permdesc_adServicesAccessConsentService">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی خزمەتگوزاریی ڕەزامەندی.</string>
+    <string name="permlab_modifyAdServicesState">دەستگەیشتن بە APIـی دەستکاریکردنی دۆخی چالاکبوونی AdServices</string>
+    <string name="permdesc_modifyAdServicesState">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی دەستکاریکردنی دۆخی چالاکبوونی AdServices.</string>
+    <string name="permlab_accessAdServicesState">دەستگەیشتن بە APIـی دۆخی چالاکبوونی AdServices</string>
+    <string name="permdesc_accessAdServicesState">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی دۆخی چالاکبوونی AdServices.</string>
+    <string name="permlab_accessAdServicesManager">دەستگەیشتن بە APIـی بەڕێوەبەری AdServices</string>
+    <string name="permdesc_accessAdServicesManager">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی بەڕێوەبەری AdServices.</string>
+    <string name="permlab_updateAdservicesAdId">دەستگەیشتن بە APIـی نوێکردنەوەی AdIdـی AdServices</string>
+    <string name="permdesc_updateAdservicesAdId">ڕێگە بە ئەپڵیکەیشن دەدات دەستی بگات بە APIـی نوێکردنەوەی AdIdـی AdServices.</string>
+    <string name="app_label">تایبەتمەندیی ڕیکلام</string>
+    <string name="notificationUI_notification_title_eu">بەشداری بکە لە تاقیکاریی تایبەتمەندیی ڕیکلامەکانی ئەندرۆید</string>
+    <string name="notificationUI_notification_content_eu">ئەندرۆید لە ڕێگای نوێ و تایبەتتر دەکۆڵێتەوە تا ئەپەکان ڕیکلامت پیشان بدەن</string>
+    <string name="notificationUI_notification_cta_eu">زیاتر بزانە</string>
+    <string name="notificationUI_header_title_eu">تاقیکاریی تایبەتمەندیی ڕیکلامەکانی ئەندرۆید</string>
+    <string name="notificationUI_container1_title_eu">چی نوێیە</string>
+    <string name="notificationUI_container1_body_text_eu">تایبەتمەندییە نوێیەکانی پاراستنی نهێنی لە Privacy Sandbox ڕێگە بە ئەپەکان دەدەن ڕیکلامی پەیوەندیدارت پیشان بدەن، بەڵام زانیارییەکانی دەربارەی چالاکییەکانت لە ماڵپەڕ و ئەپەکانی پەرەپێدەرانی تردا سنووردار دەکەن.</string>
+    <string name="notificationUI_container1_control_text_eu">چۆنیەتی کارکردنی</string>
+    <string name="notificationUI_container2_title_eu">چۆنیەتی بەشداریکردن</string>
+    <string name="notificationUI_container2_body_text_eu">چالاککردنی وەشانی تاقیکاری ڕێگە بە ئەپەکان دەدات ئەم شێوازە نوێ و پارێزراوانە بۆ پیشاندانی ڕیکلام تاقی بکەنەوە. دەتوانیت لە هەر کاتێکدا لە ڕێکخستنەکانی تایبەتمەندیدا تاقیکارییەکە بکوژێنیتەوە.</string>
+    <string name="notificationUI_left_control_button_text_eu">نەخێر، سوپاس</string>
+    <string name="notificationUI_right_control_button_text_eu">Turn On</string>
+    <string name="notificationUI_more_button_text">زیاتر</string>
+    <string name="notificationUI_confirmation_accept_title">سوپاس بۆ بەشداریکردنت</string>
+    <string name="notificationUI_confirmation_accept_subtitle">تۆ بەشێکیت لە تاقیکاریی تایبەتمەندیی ڕیکلامەکانی ئەندرۆید. تایبەتمەندیی Privacy Sandbox بۆ ئامێرەکەت هەڵکراوە.
+
+دەتوانیت زیاتر فێربیت یان لە هەر کاتێکدا لە ڕێکخستنەکانی تایبەتمەندیدا تاقیکارییەکە بکوژێنیتەوە.</string>
+    <string name="notificationUI_confirmation_decline_title">تۆ هەڵتبژارد بەشداری نەکەیت</string>
+    <string name="notificationUI_confirmation_decline_subtitle">سوپاس بۆ وەڵامەکەت. تایبەتمەندیی Privacy Sandbox بۆ ئامێرەکەت کوژاوەتەوە.
+
+ئەگەر بیرت گۆڕی یان ویستت زیاتر فێربیت، بڕۆ بۆ ڕێکخستنەکانی تایبەتمەندی.</string>
+    <string name="notificationUI_confirmation_left_control_button_text">ڕێکخستنەکانی تایبەتمەندی</string>
+    <string name="notificationUI_container2_title">تۆ بەشێکیت لە وەشانی تاقیکاری</string>
+    <string name="notificationUI_container2_body_text">تایبەتمەندیی Privacy Sandbox بۆ ئامێرەکەت هەڵکراوە، و ئەپەکان دەتوانن ئەم ڕێگا نوێ و پارێزراوانە تاقی بکەنەوە بۆ پیشاندانی ڕیکلام. دەتوانیت لە هەر کاتێکدا لە ڕێکخستنەکانی تایبەتمەندیدا تاقیکارییەکە بکوژێنیتەوە.</string>
+    <string name="notificationUI_right_control_button_text">تێگەیشتم</string>
+    <string name="notificationUI_how_it_works_expanded_text1">تایبەتمەندیی Privacy Sandboxـی ئەندرۆید تایبەتمەندیی نوێ دابین دەکات کە ئەپەکان دەتوانن بەکاریبهێنن بۆ پیشاندانی ڕیکلام کە لەوانەیە حەزت لێی بێت. ئەم تەکنەلۆژیایانە ناسێنەرەکانی ئامێر بەکارناهێنن.
+
+ئەندرۆید و ئەپەکانت دەتوانن ئەو جۆرە ڕیکلامانە بخەمڵێنن کە لەوانەیە حەزت لێیان بێت، و ئارەزووەکان بە شێوەیەکی کاتی لەسەر ئامێرەکەت پاشەکەوت بکەن. ئەمە ڕێگە بە ئەپەکان دەدات ڕیکلامی پەیوەندیدارت پیشان بدەن، بێ ئەوەی شوێنپێی چالاکییەکانت لە ماڵپەڕ و ئەپەکانی پەرەپێدەرانی تردا هەڵبگرن.</string>
+    <string name="notificationUI_how_it_works_expanded_text2">تایبەتکردنی ڕیکلامەکان لەگەڵ Privacy Sandbox</string>
+    <string name="notificationUI_how_it_works_expanded_text3">•  ئارەزووە خەمڵێنراوەکان لەلایەن ئەندرۆیدەوە</string>
+    <string name="notificationUI_how_it_works_expanded_text4">ئەندرۆید بە شێوەیەکی خولیی گرنگترین ئارەزووەکانت بەپێی ئەو ئەپانەی بەکاریان دەهێنیت دەخەمڵێنێت، بۆ نموونە «وەرزش» یان «گەشت».
+
+دواتر، ئەپێک دەتوانێت داوا لە ئەندرۆید بکات ئەو ئارەزووانە بەکاربهێنێت بۆ پیشاندانی ڕیکلامی پەیوەندیدارتر.
+
+دەتوانیت لیستی ئارەزووەکانی ئێستا لە ڕێکخستنەکانی تایبەتمەندیدا ببینیت، و هەر یەکێکیان بلۆک بکەیت کە حەزت لێی نییە.</string>
+    <string name="notificationUI_how_it_works_expanded_text5">•  ئارەزووە خەمڵێنراوەکان لەلایەن ئەپەکانەوە</string>
+    <string name="notificationUI_how_it_works_expanded_text6">ئەپەکان دەتوانن ئارەزووەکانت بخەمڵێنن و بە شێوەیەکی کاتی لە ئەندرۆیددا پاشەکەوتیان بکەن. بۆ نموونە، ئەپێک کە بۆ کڕینی پێڵاوی ڕاکردن بەکاری دەهێنیت لەوانەیە ئارەزووەکەت بە «ڕاکردنی ماراسۆن» بخەمڵێنێت.
+
+دواتر، بەپێی ئەم ئارەزووە، ئەپێکی جیاواز دەتوانێت ڕیکلامێکی پەیوەندیدار بە ماراسۆنت پیشان بدات.
+
+لە ڕێکخستنەکانی تایبەتمەندیدا، دەتوانیت لیستی ئەو ئەپانە بەڕێوەببەیت کە ئارەزوویان پاشەکەوت کردووە.</string>
+    <string name="notificationUI_notification_ga_title">تایبەتمەندییە نوێیەکانی تایبەتمەندیی ڕیکلام</string>
+    <string name="notificationUI_notification_ga_content">بابەتەکانی ڕیکلام و کۆنترۆڵە نوێیەکان هەڵبژاردنی زیاترت پێدەدەن بەسەر ئەو ڕیکلامانەی دەیانبینیت</string>
+    <string name="notificationUI_header_ga_title">تایبەتمەندییە نوێیەکانی تایبەتمەندیی ڕیکلام ئێستا بەردەستن</string>
+    <string name="notificationUI_container2_ga_introduction">ئەندرۆید تێبینیی بابەتەکانی جێی بایەخ دەکات بەپێی ئەو ئەپانەی لەم دوایییەدا بەکارت هێناون. هەروەها، ئەو ئەپانەی بەکاریان دەهێنیت دەتوانن دیاریبکەن چی حەز لێ دەکەیت. دواتر، ئەپەکان دەتوانن داوای ئەم زانیارییە بکەن بۆ پیشاندانی ڕیکلامی تایبەتمەندکراو. دەتوانیت هەڵبژێریت چ بابەت و ئەپێک بۆ پیشاندانی ڕیکلام بەکاربهێنرێن.</string>
+    <string name="notificationUI_container3_ga_introduction">بۆ پێوانەکردنی کارایی ڕیکلامێک، جۆرە سنووردارەکانی داتا لە نێوان ئەپەکاندا هاوبەش دەکرێن.</string>
+    <string name="notificationUI_ga_container1_control_text">زیاتر دەربارەی ڕیکلامەکان لەسەر ئەندرۆید</string>
+    <string name="notificationUI_how_it_works_row_subtitle1">ڕیکلامی بەسوودتر</string>
+    <string name="notificationUI_how_it_works_row_body1">ئەپەکان دەتوانن داوای زانیاری لە ئەندرۆید بکەن بۆ یارمەتیدان لە تایبەتکردنی ئەو ڕیکلامانەی دەیانبینیت.</string>
+    <string name="notificationUI_how_it_works_row_body2">•  ئەندرۆید تێبینیی بابەتەکانی جێی بایەخ دەکات بەپێی ئەو ئەپانەی لەم دوایییەدا بەکارت هێناون.</string>
+    <string name="notificationUI_how_it_works_row_body3">•  ئەو ئەپانەی بەکاریان دەهێنیت دەتوانن دیاریبکەن چی حەز لێ دەکەیت بەپێی شێوازی بەکارهێنانیان. بۆ نموونە، ئەگەر ئەپێک بەکاربهێنیت کە پێڵاوی ڕاکردنی دووری درێژ دەفرۆشێت، ئەپەکە لەوانەیە بڕیار بدات تۆ حەزت لە ڕاکردنی ماراسۆنە.</string>
+    <string name="notificationUI_how_it_works_row_body4">دواتر، ئەپێک کە بەکاری دەهێنیت دەتوانێت داوای ئەم زانیارییە بکات — چ لە بابەتەکانی ڕیکلامت بێت یان لەو ڕیکلامانەی لەلایەن ئەپەکانی پێشترەوە پێشنیازکراون.</string>
+    <string name="notificationUI_how_it_works_row_body5">ئەندرۆید بە شێوەیەکی خولیی بابەتەکان و داتای پێشنیازکراوی ئەپەکان بە خۆکاری دەسڕێتەوە. هەروەها دەتوانیت ئەو بابەت و ئەپە دیاریکراوانە بلۆک بکەیت کە ناتەوێت پێشنیاز بکەن.</string>
+    <string name="notificationUI_how_it_works_subtitle2">پێوانەکردنی چەندێتیی سەرکەوتوویی ڕیکلام</string>
+    <string name="notificationUI_how_it_works_row_body6">ئەو ئەپانەی بەکاریان دەهێنیت دەتوانن داوای زانیاری لە ئەندرۆید بکەن بۆ یارمەتیدانیان لە پێوانەکردنی کارایی ڕیکلامەکانیان. ئەندرۆید ڕێگە بە ئەپەکان دەدات جۆرە سنووردارەکانی داتا کۆبکەنەوە، وەک کاتی پیشاندانی ڕیکلامەکە بە تۆ.</string>
+    <string name="notificationUI_notification_ga_title_eu">تاقیکردنەوەی تایبەتمەندییە نوێیەکانی تایبەتمەندیی ڕیکلام</string>
+    <string name="notificationUI_notification_ga_content_eu">بابەتەکانی ڕیکلام هەڵبژاردنی زیاترت پێدەدەن بەسەر ئەو ڕیکلامانەی دەیانبینیت</string>
+    <string name="notificationUI_notification_ga_cta_eu">بینینی وردەکارییەکان</string>
+    <string name="notificationUI_header_ga_title_eu">تاقیکردنەوەی تایبەتمەندییە نوێیەکانی تایبەتمەندیی ڕیکلام</string>
+    <string name="notificationUI_container1_body_ga_text_eu">ئەندرۆید تایبەتمەندیی نوێی پاراستنی نهێنی دەخاتە کار کە هەڵبژاردنی زیاترت پێدەدات بەسەر ئەو ڕیکلامانەی دەیانبینیت.</string>
+    <string name="notificationUI_container2_body_ga_text_eu">بابەتەکانی ڕیکلام یارمەتی ئەپەکان دەدەن ڕیکلامی پەیوەندیدارت پیشان بدەن لە کاتێکدا ناسنامە و زانیارییەکانی بەکارهێنانی ئەپەکانت دەپارێزن. ئەندرۆید دەتوانێت تێبینیی بابەتەکانی جێی بایەخ بکات بەپێی ئەو ئەپانەی لەم دوایییەدا بەکارت هێناون. دواتر، ئەپێک کە بەکاری دەهێنیت دەتوانێت داوای بابەتە پەیوەندیدارەکان لە ئەندرۆید بکات بۆ تایبەتکردنی ئەو ڕیکلامانەی دەیانبینیت.</string>
+    <string name="notificationUI_container3_body_ga_text_eu">دەتوانیت بابەتەکانی ڕیکلام لە ڕێکخستنەکانی ئامێرەکەتدا ببینیت و ئەوانە بلۆک بکەیت کە ناتەوێت لەگەڵ ئەپەکاندا هاوبەش بکرێن. هەروەها ئەندرۆید بە شێوەیەکی ڕێکوپێک بابەتەکانی ڕیکلام بە خۆکاری دەسڕێتەوە.</string>
+    <string name="notificationUI_change_any_time_in_privacy_settings_eu">دەتوانیت لە هەر کاتێکدا لە ڕێکخستنەکانی تایبەتمەندیدا بڕیارەکەت بگۆڕیت.</string>
+    <string name="notificationUI_container1_control_ga_text_eu">زیاتر دەربارەی بابەتەکانی ڕیکلام</string>
+    <string name="notificationUI_learn_more_from_privacy_policy">زیاتر فێربە دەربارەی چۆنیەتی پاراستنی داتاکانت لەلایەن ئەندرۆید لە <a href="https://policies.google.com/privacy">سیاسەتی پاراستنی نهێنی</a>ماندا.</string>
+    <string name="notificationUI_right_control_button_ga_text_eu">تاقی بکەرەوە</string>
+    <string name="notificationUI_how_it_works_topics_expanded_text3">•  چ داتایەک بەکاردێت</string>
+    <string name="notificationUI_how_it_works_topics_expanded_text4">بابەتەکانی ڕیکلامت لەسەر بنەمای ئەو ئەپانەن کە لەم دوایییەدا لەسەر ئەم ئامێرە بەکارت هێناون و چەندین جار بەکاریان دەهێنیت.</string>
+    <string name="notificationUI_how_it_works_topics_expanded_text5">•  چۆن ئەم داتایە بەکاردەهێنین</string>
+    <string name="notificationUI_how_it_works_topics_expanded_text6">ئەندرۆید تێبینیی بابەتەکانی جێی بایەخ دەکات لەگەڵ بەکارهێنانی ئەپەکانتدا. ناونیشانی بابەتەکان لە پێشتردا دیاریکراون و بریتین لە هونەر و کاتبەسەربردن، بازاڕکردن و وەرزش. دواتر، ئەپێک کە بەکاری دەهێنیت دەتوانێت داوای چەند بابەتێکی کەم لە ئەندرۆید بکات (بەڵام نەک داتای بەکارهێنانی ئەپ یان ناسنامەت) بۆ تایبەتکردنی ئەو ڕیکلامانەی دەیانبینیت.</string>
+    <string name="notificationUI_how_it_works_topics_expanded_text7">•  چۆن دەتوانیت داتاکانت بەڕێوەببەیت</string>
+    <string name="notificationUI_how_it_works_topics_expanded_text8">ئەندرۆید بە شێوەیەکی خولیی بابەتەکان بە خۆکاری دەسڕێتەوە. لەگەڵ بەردەوامبوونت لە بەکارهێنانی ئەپەکان، بابەتێک لەوانەیە دووبارە لە لیستەکەدا دەربکەوێتەوە. هەروەها دەتوانیت ئەو بابەتانە بلۆک بکەیت کە ناتەوێت ئەندرۆید لەگەڵ ئەپەکاندا هاوبەشیان پێ بکات، و لە هەر کاتێکدا لە ڕێکخستنەکانی تایبەتمەندیدا بابەتەکانی ڕیکلام بکوژێنیتەوە.</string>
+    <string name="notificationUI_you_can_change_in_privacy_settings">دەتوانیت لە ڕێکخستنەکانی تایبەتمەندیدا گۆڕانکاری بکەیت.</string>
+    <string name="notificationUI_fledge_measurement_title">تایبەتمەندییە نوێیەکانی تری تایبەتمەندیی ڕیکلام ئێستا بەردەستن</string>
+    <string name="notificationUI_fledge_measurement_introduction_text1">ئەندرۆید هەروەها ڕێگای نوێ پێشکەش دەکات بۆ سنووردارکردنی ئەوەی ئەپەکان دەتوانن دەربارەت فێرببن کاتێک ڕیکلامی تایبەتمەندکراوت پیشان دەدەن.</string>
+    <string name="notificationUI_fledge_measurement_introduction_text2">•  ڕیکلامە پێشنیازکراوەکانی ئەپ یارمەتی پاراستنی ناسنامە و زانیارییەکانی بەکارهێنانی ئەپەکانت دەدەن لە کاتێکدا ڕێگە بە ئەپەکان دەدەن ڕیکلامی پەیوەندیدارت پیشان بدەن. بەپێی چالاکییەکانت، ئەپێک کە بەکاری دەهێنیت دەتوانێت ڕیکلامی پەیوەندیدار لەسەر ئەپەکانی تر پێشنیاز بکات. دەتوانیت لیستێکی ئەپەکان ببینیت و لە ڕێکخستنەکانی تایبەتمەندیدا ڕێگرییان لێبکەیت لە پێشنیازکردن.</string>
+    <string name="notificationUI_fledge_measurement_introduction_text3">•  لەگەڵ پێوانەکردنی ڕیکلامدا، جۆرە سنووردارەکانی داتا لە نێوان ئەپەکاندا هاوبەش دەکرێن بۆ تێگەیشتن لە کارایی ڕیکلامەکانیان، وەک کاتی پیشاندانی ڕیکلامەکە بە تۆ.</string>
+    <string name="notificationUI_fledge_measurement_control_ga_text_eu">زیاتر دەربارەی ڕیکلامە پێشنیازکراوەکانی ئەپ و پێوانەکردنی ڕیکلام</string>
+    <string name="notificationUI_how_it_works_fledge_measurement_expanded_text0">ڕیکلامە پێشنیازکراوەکانی ئەپ</string>
+    <string name="notificationUI_how_it_works_fledge_measurement_expanded_text1">•  چ داتایەک بەکاردێت</string>
+    <string name="notificationUI_how_it_works_fledge_measurement_expanded_text2">چالاکییەکانت لە ئەپێکدا کە لەسەر ئەم ئامێرە بەکاری دەهێنیت.</string>
+    <string name="notificationUI_how_it_works_fledge_measurement_expanded_text3">•  چۆن ئەپەکان ئەم داتایە بەکاردەهێنن</string>
+    <string name="notificationUI_how_it_works_fledge_measurement_expanded_text4">ئەپەکان دەتوانن زانیاری دەربارەی ئەو شتانەی حەزت لێیانە لە ئەندرۆیددا پاشەکەوت بکەن. بۆ نموونە، ئەگەر ئەپێکی مەشقکردنی ماراسۆن بەکاربهێنیت، ئەپەکە لەوانەیە بڕیار بدات تۆ حەزت لە پێڵاوی ڕاکردنە. دواتر، ئەگەر ئەپێکی تر بەکاربهێنیت، ئەو ئەپە دەتوانێت ڕیکلامێکی پێڵاوی ڕاکردنت پیشان بدات کە لەلایەن ئەپی یەکەمەوە پێشنیازکراوە.</string>
+    <string name="notificationUI_how_it_works_fledge_measurement_expanded_text5">•  چۆن دەتوانیت داتاکانت بەڕێوەببەیت</string>
+    <string name="notificationUI_how_it_works_fledge_measurement_expanded_text6">ئەندرۆید بە شێوەیەکی خولیی داتای پێشنیازکراوی ئەپەکان بە خۆکاری دەسڕێتەوە. ئەپێک کە دووبارە بەکاری دەهێنیتەوە لەوانەیە دووبارە لە لیستەکەدا دەربکەوێتەوە.</string>
+    <string name="notificationUI_how_it_works_fledge_measurement_expanded_text7">هەروەها دەتوانیت ئەپێک بلۆک بکەیت لە پێشنیازکردنی ڕیکلام بۆت، تەواوی داتای پێشنیازی ڕیکلام ڕێکبخەیتەوە، یان لە هەر کاتێکدا لە ڕێکخستنەکانی تایبەتمەندیدا ڕیکلامە پێشنیازکراوەکانی ئەپ بکوژێنیتەوە.</string>
+    <string name="notificationUI_how_it_works_fledge_measurement_expanded_text9">ئەو ئەپانەی بەکاریان دەهێنیت دەتوانن داوای زانیاری لە ئەندرۆید بکەن کە یارمەتییان دەدات لە پێوانەکردنی کارایی ڕیکلامەکانیان. ئەندرۆید تایبەتمەندیت دەپارێزێت بە سنووردارکردنی ئەو زانیارییانەی ئەپەکان دەتوانن لەگەڵ یەکتردا هاوبەشی بکەن.</string>
+    <string name="notificationUI_notification_ga_title_eu_v2">تایبەتمەندییە نوێیەکانی تایبەتمەندیی ڕیکلام ئێستا بەردەستن</string>
+    <string name="notificationUI_notification_ga_content_eu_v2">هەڵبژاردنی زیاتر بەدەستبهێنە بەسەر ئەو ڕیکلامانەی دەیانبینیت لە کاتێکدا ناسنامەت دەپارێزیت</string>
+    <string name="notificationUI_fledge_measurement_title_v2">تایبەتمەندییە نوێیەکانی تایبەتمەندیی ڕیکلام ئێستا بەردەستن</string>
+    <string name="notificationUI_fledge_measurement_introduction_text1_v2">ئەندرۆید ڕێگای نوێ دەخاتە کار بۆ سنووردارکردنی ئەوەی ئەپەکان دەتوانن دەربارەت فێرببن کاتێک ڕیکلامی تایبەتمەندکراوت پیشان دەدەن.</string>
+    <string name="notificationUI_fledge_measurement_introduction_text2_v2">•  لەگەڵ ڕیکلامە پێشنیازکراوەکانی ئەپدا، تایبەتمەندییە نوێیەکانی پاراستنی نهێنی یارمەتی پاراستنی ناسنامە و زانیارییەکانی بەکارهێنانی ئەپەکانت دەدەن لە کاتێکدا ڕێگە بە ئەپەکان دەدەن ڕیکلامی پەیوەندیدارت پیشان بدەن. بەپێی چالاکییەکانت، ئەپێک کە بەکاری دەهێنیت دەتوانێت ڕیکلامی پەیوەندیدار لەسەر ئەپەکانی تر پێشنیاز بکات. دەتوانیت لیستێکی ئەپەکان ببینیت و لە ڕێکخستنەکانی تایبەتمەندیدا ڕێگرییان لێبکەیت لە پێشنیازکردن.</string>
+    <string name="notificationUI_fledge_measurement_introduction_text3_v2">•  لەگەڵ پێوانەکردنی ڕیکلامدا، جۆرە سنووردارەکانی داتا لە نێوان ئەپەکاندا هاوبەش دەکرێن بۆ تێگەیشتن لە کارایی ڕیکلامەکانیان، وەک کاتی پیشاندانی ڕیکلامەکە بە تۆ.</string>
+    <string name="notificationUI_how_it_works_fledge_measurement_expanded_text2_v2">چالاکییەکانت لە ئەپێکدا لەسەر ئەم ئامێرە دەکرێت بەکاربهێنرێت بۆ پێشنیازکردنی ڕیکلام.</string>
+    <string name="notificationUI_header_ga_title_eu_v2">تایبەتمەندییەکی تری تایبەتمەندیی ڕیکلام چالاک بکە</string>
+    <string name="notificationUI_container1_body_ga_text_eu_v2">ئەندرۆید هەروەها تایبەتمەندییەکی نوێی پاراستنی نهێنی پێشکەش دەکات کە هەڵبژاردنی زیاترت پێدەدات بەسەر ئەو ڕیکلامانەی دەیانبینیت.</string>
+    <string name="notificationUI_container2_body_ga_text_eu_v2">بابەتەکانی ڕیکلام یارمەتی ئەپەکان دەدەن ڕیکلامی پەیوەندیدارت پیشان بدەن لە کاتێکدا ناسنامە و زانیارییەکانی بەکارهێنانی ئەپەکانت دەپارێزن. ئەندرۆید دەتوانێت تێبینیی بابەتەکانی جێی بایەخ بکات بەپێی ئەو ئەپانەی لەم دوایییەدا بەکارت هێناون. دواتر، ئەپێک کە بەکاری دەهێنیت دەتوانێت داوای بابەتە پەیوەندیدارەکان لە ئەندرۆید بکات بۆ پیشاندانی ڕیکلامی پەیوەندیدارتر.</string>
+    <string name="notificationUI_container3_body_ga_text_eu_v2">دەتوانیت بابەتەکانی ڕیکلام لە ڕێکخستنەکانی تایبەتمەندیتدا ببینیت و ئەوانە بلۆک بکەیت کە ناتەوێت لەگەڵ ئەپەکاندا هاوبەش بکرێن. هەروەها ئەندرۆید بە شێوەیەکی خولیی بابەتەکانی ڕیکلام بە خۆکاری دەسڕێتەوە.</string>
+    <string name="notificationUI_right_control_button_ga_text_eu_v2">چالاکی بکە</string>
+    <string name="notificationUI_notification_ga_title_v2">تایبەتمەندییە نوێیەکانی تایبەتمەندیی ڕیکلام ئێستا بەردەستن</string>
+    <string name="notificationUI_notification_ga_content_v2">ئێستا، هەڵبژاردنی زیاتر هەیە بەسەر ئەو ڕیکلامانەی دەیانبینیت لە کاتێکدا ناسنامەت دەپارێزیت</string>
+    <string name="notificationUI_header_ga_title_v2">تایبەتمەندییە نوێیەکانی تایبەتمەندیی ڕیکلام ئێستا بەردەستن</string>
+    <string name="notificationUI_container1_ga_introduction_v2">ئەندرۆید ئێستا تایبەتمەندییە نوێیەکانی پاراستنی نهێنی پێشکەش دەکات کە هەڵبژاردنی زیاترت پێدەدەن بەسەر ئەو ڕیکلامانەی دەیانبینیت.</string>
+    <string name="notificationUI_how_it_works_row_body7_v2"><a href="https://support.google.com/android/answer/13720755?sjid=5065763854652067029">زیاتر دەربارەی تایبەتمەندیی ڕیکلام لەسەر Android بزانە</a></string>
+    <string name="notificationUI_next_button_text">دواتر</string>
+    <string name="settingsUI_main_view_title">Privacy Sandbox</string>
+    <string name="settingsUI_main_view_subtitle">بەشداریکردن لە تاقیکاریی تایبەتمەندیی ڕیکلامەکانی ئەندرۆید</string>
+    <string name="settingsUI_privacy_sandbox_beta_switch_title">Privacy Sandbox</string>
+    <string name="settingsUI_topics_title">ئارەزووە خەمڵێنراوەکان لەلایەن ئەندرۆیدەوە</string>
+    <string name="settingsUI_apps_title">ئەو ئەپانەی ئارەزووەکان دەخەمڵێنن</string>
+    <string name="settingsUI_main_view_info_text8">پێوانەکردنی ڕیکلام</string>
+    <string name="settingsUI_main_view_info_text9">ئەپەکان دەتوانن Privacy Sandbox بەکاربهێنن بۆ پێوانەکردنی کاریگەریی ڕیکلامەکانیان. بۆ ئەنجامدانی ئەمە، ڕیکلامکەران دەتوانن بە شێوەیەکی کاتی داتا لەگەڵ ئەندرۆید پاشەکەوت بکەن دەربارەی کارلێکەکانت لە نێوان ڕیکلامەکان و ئەپەکانیاندا. بڕی ئەو داتایەی دەتوانن پاشەکەوتی بکەن سنووردارە و بە شێوەیەکی خولیی دەسڕدرێتەوە.
+
+دەتوانیت لە هەر کاتێکدا ئەم داتایە بسڕیتەوە بە کوژاندنەوەی Privacy Sandbox.</string>
+    <string name="settingsUI_topics_view_subtitle">ئەندرۆید بە شێوەیەکی خولیی گرنگترین ئارەزووەکانت بەپێی ئەو ئەپانەی بەکاریان دەهێنیت دەخەمڵێنێت. ئەپەکان دەتوانن داوا لە ئەندرۆید بکەن ئەو ئارەزووانە بەکاربهێنێت بۆ پیشاندانی ڕیکلامی پەیوەندیدارتر بە تۆ.
+
+ئەگەر ئارەزوویەک بلۆک بکەیت، ناخرێتەوە ناو لیستەکە تا ئەوکاتەی لای نەبەیت. لەوانەیە هێشتا هەندێک ڕیکلامی پەیوەندیدار ببینیت.</string>
+    <string name="settingsUI_block_topic_title">بلۆک بکە</string>
+    <string name="settingsUI_unblock_topic_title">لابردنی بلۆک</string>
+    <string name="settingsUI_blocked_topics_title">ئەو ئارەزووانەی بلۆکت کردوون</string>
+    <string name="settingsUI_reset_topics_title">ڕێکخستنەوەی هەموو ئارەزووەکان</string>
+    <string name="settingsUI_topics_view_no_topics_text">لە ئێستادا هیچ ئارەزوویەک نییە بۆ پیشاندان.</string>
+    <string name="settingsUI_topics_view_no_topics_ga_text">لە ئێستادا هیچ بابەتێک نییە بۆ پیشاندان.
+زیاتر فێربە دەربارەی <a href="https://support.google.com/android?p=ad_privacy">بابەتەکانی ڕیکلام</a></string>
+    <string name="settingsUI_topics_view_info_text1">Privacy Sandbox</string>
+    <string name="settingsUI_topics_view_info_text2">تاقیکاریی تایبەتمەندیی ڕیکلامەکانی ئەندرۆید تایبەتمەندیی نوێ دابین دەکات کە ئەپەکان دەتوانن بەکاریبهێنن بۆ پیشاندانی ڕیکلام کە لەوانەیە حەزت لێی بێت. ئەم تەکنەلۆژیایانە ناسێنەرەکانی ئامێر بەکارناهێنن.
+
+ئەندرۆید دەتوانێت ئەو جۆرە ڕیکلامانە بخەمڵێنێت کە لەوانەیە حەزت لێیان بێت، و ئەم ئارەزووانە بە شێوەیەکی کاتی لەسەر ئامێرەکەت پاشەکەوت بکات. ئەمە ڕێگە بە ئەپەکان دەدات ڕیکلامی پەیوەندیدارت پیشان بدەن، بێ ئەوەی شوێنپێی چالاکییەکانت لە ماڵپەڕ و ئەپەکانی پەرەپێدەرانی تردا هەڵبگرن.</string>
+    <string name="settingsUI_topics_view_no_blocked_topics_text">هیچ ئارەزوویەکی بلۆککراوت نییە</string>
+    <string name="settingsUI_no_blocked_topics_ga_text">هیچ بابەتێکی بلۆککراو نییە</string>
+    <string name="settingsUI_view_blocked_topics_title">بینینی بابەتە بلۆککراوەکان</string>
+    <string name="settingsUI_topics_are_reset">ئارەزووەکان ڕێکخرانەوە</string>
+    <string name="settingsUI_topics_are_reset_ga">بابەتەکان ڕێکخرانەوە</string>
+    <string name="settingsUI_apps_view_subtitle">ئەپەکان دەتوانن ئارەزووەکانت بخەمڵێنن و بە شێوەیەکی کاتی لە ئەندرۆیددا پاشەکەوتیان بکەن. دواتر، ئەپێکی جیاواز دەتوانێت ڕیکلامێکت پیشان بدات لەسەر بنەمای ئەم ئارەزووانە.
+
+ئەگەر ئەپێک بلۆک بکەیت، چیتر هیچ ئارەزوویەک ناخەمڵێنێت. ناخرێتەوە ناو ئەم لیستەی ئەپەکان تا ئەوکاتەی لە بلۆک لای نەبەیت. ئەو ئارەزووانەی لە پێشتردا لەلایەن ئەپەکەوە خەمڵێنراون دەسڕدرێنەوە، بەڵام لەوانەیە هێشتا هەندێک ڕیکلامی پەیوەندیدار ببینیت.</string>
+    <string name="settingsUI_blocked_apps_title">ئەو ئەپانەی بلۆکت کردوون</string>
+    <string name="settingsUI_view_blocked_apps_title">بینینی ئەپە بلۆککراوەکان</string>
+    <string name="settingsUI_reset_apps_title">ڕێکخستنەوەی ئەو ئارەزووانەی لەلایەن ئەپەکانەوە خەمڵێنراون</string>
+    <string name="settingsUI_apps_view_no_apps_text">لە ئێستادا هیچ ئەپێک ئارەزووت بۆ دروست ناکات</string>
+    <string name="settingsUI_apps_view_no_apps_ga_text">لە ئێستادا هیچ ئەپێک نییە بۆ پیشاندان.
+زیاتر فێربە دەربارەی <a href="https://support.google.com/android?p=ad_privacy">ڕیکلامە پێشنیازکراوەکانی ئەپ</a></string>
     <string name="settingsUI_apps_view_fragment_no_apps_ga_text">هیچ بەرنامەیەک نییە ئێستا پیشان بدرێت.</string>
     <string name="settingsUI_apps_view_fragment_no_apps_link_text">زیاتر  فێر بە دەربارەی بانگەشە پێشنیارکراوەکانی بەرنامەکان</string>
+    <string name="settingsUI_apps_view_info_text1">Privacy Sandbox</string>
+    <string name="settingsUI_apps_view_info_text2">تاقیکاریی تایبەتمەندیی ڕیکلامەکانی ئەندرۆید تایبەتمەندیی نوێ دابین دەکات کە ئەپەکان دەتوانن بەکاریبهێنن بۆ پیشاندانی ڕیکلام کە لەوانەیە حەزت لێی بێت. ئەم تەکنەلۆژیایانە ناسێنەرەکانی ئامێر بەکارناهێنن.
+
+ئەپەکان دەتوانن ئەو جۆرە ڕیکلامانە بخەمڵێنن کە لەوانەیە حەزت لێیان بێت، و ئەم ئارەزووانە بە شێوەیەکی کاتی لەسەر ئامێرەکەت پاشەکەوت بکەن. ئەمە ڕێگە بە ئەپەکان دەدات ڕیکلامی پەیوەندیدارت پیشان بدەن، بێ ئەوەی شوێنپێی چالاکییەکانت لە ماڵپەڕ و ئەپەکانی پەرەپێدەرانی تردا هەڵبگرن.</string>
+    <string name="settingsUI_apps_view_no_blocked_apps_text">هیچ ئەپێکی بلۆککراوت نییە</string>
+    <string name="settingsUI_no_blocked_apps_ga_text">هیچ ئەپێکی بلۆککراو نییە</string>
+    <string name="settingsUI_measurement_switch_title">ڕێگەدان بە پێوانەکردنی ڕیکلام</string>
+    <string name="settingsUI_measurement_view_intro_text">ئەپەکان و ڕیکلامکەران دەتوانن داوای زانیاری لە ئەندرۆید بکەن کە یارمەتییان دەدات لە پێوانەکردنی کارایی ڕیکلامەکانیان.
+
+داتای پێوانەکردنی ڕیکلام بە شێوەیەکی خولیی لەسەر ئامێرەکەت دەسڕدرێتەوە.</string>
+    <string name="settingsUI_measurement_view_reset_title">ڕێکخستنەوەی داتای پێوانەکردن</string>
+    <string name="settingsUI_measurement_view_footer_text">ئەندرۆید تایبەتمەندیت دەپارێزێت بە سنووردارکردنی ئەو زانیارییانەی ئەپەکان دەتوانن لەگەڵ یەکتردا هاوبەشی بکەن. ڕاپۆرتەکان بە دواکەوتنەوە دەنێردرێن بۆ پاراستنی ناسنامەت.
+
+وێبگەڕەکەت لەوانەیە ڕێکخستنێکی هاوشێوەی هەبێت. ئەگەر پێوانەکردنی ڕیکلام بۆ هەردووکی ئەندرۆید و وێبگەڕەکەت هەڵکرابێت، کۆمپانیایەک لەوانەیە بتوانێت کاریگەریی ڕیکلامێک لە نێوان ئەو ئەپانەی بەکاریان دەهێنیت و ئەو ماڵپەڕانەی سەردانیان دەکەیت بپێوێت. مێژووی گەڕانت لەسەر ئامێرەکەت بە پارێزراوی دەمێنێتەوە.
+
+زیاتر فێربە دەربارەی چۆنیەتی پاراستنی داتاکانت لەلایەن ئەندرۆید لە <a href="https://policies.google.com/privacy">سیاسەتی پاراستنی نهێنی</a>ماندا.</string>
+    <string name="settingsUI_measurement_are_reset">داتای پێوانەکردنی ڕیکلام ڕێکخرایەوە</string>
+    <string name="settingsUI_dialog_negative_text">پاشگەزبوونەوە</string>
+    <string name="settingsUI_dialog_opt_out_title">کوژاندنەوەی Privacy Sandbox؟</string>
+    <string name="settingsUI_dialog_opt_out_message">ئەگەر بیرت گۆڕی یان ویستت زیاتر فێربیت دەربارەی تاقیکاریی تایبەتمەندیی ڕیکلامەکانی ئەندرۆید، بڕۆ بۆ ڕێکخستنەکانی تایبەتمەندیت</string>
+    <string name="settingsUI_dialog_opt_out_positive_text">ناچالاککردن</string>
+    <string name="settingsUI_dialog_block_topic_title">بلۆککردنی <xliff:g id="topic" example="Fashion">%1$s</xliff:g>؟</string>
+    <string name="settingsUI_dialog_block_topic_message">ئەم بابەتە بلۆک دەکرێت و ناخرێتەوە سەر لیستەکەت، مەگەر خۆت دووبارە زیادی بکەیتەوە. لەوانەیە هێشتا هەندێک ڕیکلامی پەیوەندیدار ببینیت.</string>
+    <string name="settingsUI_dialog_block_topic_positive_text">بلۆک بکە</string>
+    <string name="settingsUI_dialog_unblock_topic_title"><xliff:g id="topic" example="Fashion">%1$s</xliff:g> لە بلۆک لادرا</string>
+    <string name="settingsUI_dialog_unblock_topic_message">ئەندرۆید لەوانەیە ئەم بابەتە دووبارە بۆ لیستەکەت زیاد بکاتەوە، بەڵام لەوانەیە دەستبەجێ دەرنەکەوێت</string>
+    <string name="settingsUI_dialog_unblock_topic_positive_text">باشە</string>
+    <string name="settingsUI_dialog_reset_topic_title">ڕێکخستنەوەی هەموو بابەتەکانی ڕیکلام؟</string>
+    <string name="settingsUI_dialog_reset_topic_message">لیستەکەت پاکدەکرێتەوە و لەمەودوا بابەتە نوێیەکان زیاد دەکرێن. لەوانەیە هێشتا هەندێک ڕیکلامی پەیوەندیدار بەو بابەتانە ببینیت کە ڕێکتخستوونەتەوە.</string>
+    <string name="settingsUI_dialog_reset_topic_positive_text">ڕێکخستنەوە</string>
+    <string name="settingsUI_dialog_block_app_title">بلۆککردنی <xliff:g id="app" example="AirBnB">%1$s</xliff:g>؟</string>
+    <string name="settingsUI_dialog_block_app_message">ئەم ئەپە ڕیکلام پێشنیاز ناکات و ناخرێتەوە سەر لیستەکەت، مەگەر لە بلۆک لایبەیت. لەوانەیە هێشتا هەندێک ڕیکلامی پەیوەندیدار ببینیت.</string>
+    <string name="settingsUI_dialog_unblock_app_title"><xliff:g id="app" example="AirBnB">%1$s</xliff:g> لە بلۆک لادرا</string>
+    <string name="settingsUI_dialog_unblock_app_message">ئەم ئەپە دەتوانێت دووبارە ڕیکلامت بۆ پێشنیاز بکاتەوە، بەڵام لەوانەیە دەستبەجێ لەسەر لیستەکەت دەرنەکەوێت. لەوانەیە کاتێکی پێبچێت تا ڕیکلامی پەیوەندیدار دەبینیت.</string>
+    <string name="settingsUI_dialog_reset_app_title">ڕێکخستنەوەی ڕیکلامە پێشنیازکراوەکانی ئەپەکان؟</string>
+    <string name="settingsUI_dialog_reset_app_message">داتای پێشنیازی ڕیکلام لەو ئەپانەی سەر لیستەکەت دەسڕدرێتەوە و ئەپەکان لەمەودوا ڕیکلامی نوێ پێشنیاز دەکەن. لەوانەیە هێشتا هەندێک ڕیکلامی پەیوەندیدار ببینیت.</string>
+    <string name="settingsUI_apps_are_reset">داتای ئەپ ڕێکخرایەوە</string>
+    <string name="settingsUI_dialog_topics_opt_in_title">بابەتەکانی ڕیکلام هەڵکراوە</string>
+    <string name="settingsUI_dialog_topics_opt_in_message">ئەندرۆید دەست دەکات بە تێبینیکردنی بابەتەکانی جێی بایەخ، بەڵام لەوانەیە کاتێکی پێبچێت تا یەکەم بابەتەکانت دەردەکەون.</string>
+    <string name="settingsUI_dialog_topics_opt_out_title">کوژاندنەوەی بابەتەکانی ڕیکلام؟</string>
+    <string name="settingsUI_dialog_topics_opt_out_message">ئەم لیستەی بابەتەکان دەسڕدرێتەوە. ئەندرۆید چیتر تێبینیی بابەتەکانی جێی بایەخ ناکات، بەڵام لەوانەیە هێشتا ڕیکلامی پەیوەندیدار ببینیت.</string>
+    <string name="settingsUI_dialog_apps_opt_in_title">ڕیکلامە پێشنیازکراوەکانی ئەپ هەڵکراوە</string>
+    <string name="settingsUI_dialog_apps_opt_in_message">ئەپەکان لەوانەیە دەست بکەن بە پێشنیازکردنی ڕیکلام. کاتێک دەستیان پێکرد لیستێکی ئەپەکان دەبینیت.</string>
+    <string name="settingsUI_dialog_apps_opt_out_title">کوژاندنەوەی ڕیکلامە پێشنیازکراوەکانی ئەپ؟</string>
+    <string name="settingsUI_dialog_apps_opt_out_message">تەواوی داتای پێشنیازی ڕیکلام دەسڕدرێتەوە. ئەپەکان چیتر ناتوانن ڕیکلام پێشنیاز بکەن، بەڵام لەوانەیە هێشتا ڕیکلامی پەیوەندیدار ببینیت.</string>
+    <string name="settingsUI_dialog_measurement_opt_in_title">پێوانەکردنی ڕیکلام هەڵکراوە</string>
+    <string name="settingsUI_dialog_measurement_opt_in_message">ئەندرۆید تەنها زانیاریی زۆر سنووردار لەگەڵ ئەپەکاندا هاوبەش دەکات بۆ یارمەتیدانیان لە پێوانەکردنی کارایی ڕیکلامەکانیان.</string>
+    <string name="settingsUI_dialog_measurement_opt_out_title">کوژاندنەوەی پێوانەکردنی ڕیکلام؟</string>
+    <string name="settingsUI_dialog_measurement_opt_out_message">تەواوی ڕاپۆرتە هەڵپەسێردراوەکانی پێوانەکردنی ڕیکلام دەسڕدرێنەوە و هیچ ڕاپۆرتێکی نوێ دروست ناکرێت یان هاوبەش ناکرێت.</string>
+    <string name="settingsUI_main_view_ga_title">تایبەتمەندیی ڕیکلام</string>
+    <string name="settingsUI_topics_ga_title">بابەتەکانی ڕیکلام</string>
+    <string name="settingsUI_apps_ga_title">ڕیکلامە پێشنیازکراوەکانی ئەپ</string>
+    <string name="settingsUI_main_view_ad_topics_info">ئەندرۆید تێبینیی بابەتەکانی جێی بایەخ دەکات بەپێی ئەو ئەپانەی لەم دوایییەدا بەکارت هێناون و چەندین جار بەکاریان دەهێنیت.</string>
+    <string name="settingsUI_main_view_apps_info">ئەو ئەپانەی بەکاریان دەهێنیت هەروەها دەتوانن دیاریبکەن چی حەز لێ دەکەیت بەپێی شێوازی بەکارهێنانیان.</string>
+    <string name="settingsU_main_view_measurement_info">ئەو ئەپانەی بەکاریان دەهێنیت دەتوانن داوای زانیاری لە ئەندرۆید بکەن بۆ یارمەتیدانیان لە پێوانەکردنی کارایی ڕیکلامەکانیان. ئەندرۆید ڕێگە بە ئەپەکان دەدات جۆرە سنووردارەکانی داتا کۆبکەنەوە.</string>
+    <string name="settingsU_main_view_learn_more">زیاتر فێربە دەربارەی <a href="https://support.google.com/android?p=ad_privacy">تایبەتمەندیی ڕیکلام لە ئەندرۆیددا</a></string>
     <string name="settingsU_main_view_fragment_learn_more">زیاتر  فێر بە دەربارەی تایبەتێتیی بانگەشە لە ئەندرۆید</string>
+    <string name="settingsUI_topics_subtitle">چالاکە / <xliff:g id="topics_count" example="7">%1$d</xliff:g> بابەت</string>
+    <string name="settingsUI_topics_subtitle_plural">{count, plural,
+    =1    {چالاکە / # بابەت}
+    other {چالاکە / # بابەت}
+    }</string>
+    <string name="settingsUI_apps_subtitle">چالاکە / <xliff:g id="apps_count" example="6">%1$d</xliff:g> ئەپ</string>
+    <string name="settingsUI_apps_subtitle_plural">{count, plural,
+    =1    {چالاکە / # ئەپ}
+    other {چالاکە / # ئەپ}
+    }</string>
+    <string name="settingsUI_subtitle_consent_on">چالاک</string>
+    <string name="settingsUI_subtitle_consent_off">ناچالاک</string>
     <string name="settingsUI_main_view_fragment_footer"><b>بابەتەکانی بانگەشە</b>\nئەندرۆید تێبینیی بابەتە دڵخوازەکان دەکات بەپێی ئەو بەرنامانەی لەم دواییانەدا بە کارت هێناون و ئەوەی چەند جار بەکاریان دەهێنیت.\n\n<b>بانگەشە پێشنیارکراوەکانی بەرنامەکان</b>\nبەرنامەکان کە بەکاریان دەهێنیت دەتوانن دیاری بکەن چیت پێ خۆشە بەپێی ئەوەی چۆن بەکاریان دەهێنیت.\n\n<b>پێوانی بانگەشە</b>\nبەرنامەکان کە بەکاریان دەهێنیت دەتوانن داوا لە ئەندرۆید بکەن بۆ زانیاری تا یارمەتییان بدات لە پێوانی کارایی بانگەشەکانیان. ئەندرۆید ڕێگە بە بەرنامەکان دەدات جۆرە سنووردارکراوەکانی داتا کۆ بکەنەوە.</string>
+    <string name="settingsUI_topics_view_ga_subtitle">بابەتەکانی جێی بایەخ لەسەر بنەمای ئەو ئەپانەن کە لەم دوایییەدا بەکارت هێناون، و لەلایەن ئەپەکانەوە بەکاردەهێنرێن بۆ پیشاندانی ڕیکلامی تایبەتمەندکراو بە تۆ.
+
+دەتوانیت ئەو بابەتانە بلۆک بکەیت کە ناتەوێت لەگەڵ ئەپەکاندا هاوبەش بکرێن. هەروەها ئەندرۆید بە شێوەیەکی خولیی بابەتەکان بە خۆکاری دەسڕێتەوە.
+
+لە کاتێکدا دەکرێت ئەم تایبەتمەندییە هەڵبکرێت، لەوانەیە لیستێکی بابەتەکان نەبینیت تا ئەو کاتەی ئەم تایبەتمەندییە بە تەواوی بەردەست دەبێت و ئەپەکان دەست بە بەکارهێنانی دەکەن.</string>
+    <string name="settingsUI_topics_switch_title">ڕێگەدان بە بابەتەکانی ڕیکلام</string>
+    <string name="settingsUI_blocked_topics_ga_title">ئەو بابەتانەی ڕیکلام کە بلۆکت کردوون</string>
+    <string name="settingsUI_reset_topics_ga_title">ڕێکخستنەوەی هەموو بابەتەکانی ڕیکلام</string>
+    <string name="settingsU_topics_view_footer">ئەندرۆید تێبینیی بابەتەکانی جێی بایەخ دەکات بەپێی ئەو ئەپانەی لە چەند هەفتەی ڕابردوودا بەکارت هێناون.
+
+دواتر، ئەپێک کە بەکاری دەهێنیت دەتوانێت داوای بابەتەکانت لە ئەندرۆید بکات بۆ تایبەتکردنی ئەو ڕیکلامانەی دەیانبینیت. ئەندرۆید تا 3 بابەت هاوبەش دەکات لە کاتێکدا ناسنامەت و زانیارییەکانی بەکارهێنانی ئەپەکانت دەپارێزێت.
+
+ئەندرۆید بە شێوەیەکی خولیی بابەتەکان بە خۆکاری دەسڕێتەوە. لەگەڵ بەردەوامبوونت لە بەکارهێنانی ئەپەکان، بابەتێک لەوانەیە دووبارە لەسەر لیستەکە دەربکەوێتەوە. یان دەتوانیت ئەو بابەتانە بلۆک بکەیت کە ناتەوێت ئەندرۆید لەگەڵ ئەپەکاندا هاوبەشیان پێ بکات.
+
+لە ناو ئەپەکانتدا، ئەو ڕیکلامەی دەیبینیت لەوانەیە تایبەتمەندکراو بێت بەپێی ئەم ڕێکخستنە، ڕێکخستنی ڕیکلامە پێشنیازکراوەکانی ئەپ، ڕێکخستنەکانی ناسێنەری ڕیکلامت (advertising ID)، و ئەوەی ئایا ئەو ئەپەی بەکاری دەهێنیت ڕیکلامەکان تایبەت دەکات یان نا.</string>
     <string name="settingsUI_topics_view_fragment_no_topics_ga_text">هیچ بابەتێکی دڵخواز نییە ئێستا پیشان بدرێت.</string>
     <string name="settingsUI_topics_view_fragment_no_topics_link_text">زیاتر  فێر بە دەربارەی بابەتەکانی بانگەشە</string>
+    <string name="settingsUI_apps_switch_title">ڕێگەدان بە ڕیکلامە پێشنیازکراوەکانی ئەپ</string>
+    <string name="settingsUI_apps_view_ga_subtitle">ئەو ئەپانەی بەکاریان دەهێنیت دەتوانن دیاریبکەن چی حەز لێ دەکەیت و پاشان ڕیکلام لەسەر ئەپەکانی تر پێشنیاز بکەن.
+
+دەتوانیت ئەپەکان بلۆک بکەیت لە پێشنیازکردن. هەروەها ئەندرۆید بە شێوەیەکی خولیی داتای پێشنیازکراوی ئەپەکان بە خۆکاری دەسڕێتەوە.
+
+لە کاتێکدا دەکرێت ئەم تایبەتمەندییە هەڵبکرێت، لەوانەیە لیستێکی ئەپەکان نەبینیت تا ئەو کاتەی ئەم تایبەتمەندییە بە تەواوی بەردەست دەبێت و ئەپەکان دەست بە بەکارهێنانی دەکەن.</string>
+    <string name="settingsUI_blocked_apps_ga_title">ئەو ئەپانەی بلۆکت کردوون</string>
+    <string name="settingsUI_reset_apps_ga_title">ڕێکخستنەوەی داتای پێشنیازکراوی ئەپ</string>
+    <string name="settingsUI_apps_view_footer">ئاسایییە بۆ ئەو ئەپانەی بەکاریان دەهێنیت کە ئەو شتانەی حەزت لێیانە لەبیریان بمێنێت بۆ تایبەتکردنی ئەزموونەکەت. هەروەها ئەپەکان دەتوانن زانیاری دەربارەی بابەتەکانت لە ئەندرۆیددا پاشەکەوت بکەن.
+
+بۆ نموونە، ئەگەر ئەپێکی مەشقکردنی ماراسۆن بەکاربهێنیت، ئەپەکە لەوانەیە بڕیار بدات تۆ حەزت لە پێڵاوی ڕاکردنە. دواتر، ئەگەر ئەپێکی تر بەکاربهێنیت، ئەو ئەپە دەتوانێت ڕیکلامێکی پێڵاوی ڕاکردنت پیشان بدات کە لەلایەن ئەپی یەکەمەوە پێشنیازکراوە.
+
+ئەندرۆید بە شێوەیەکی خولیی داتای پێشنیازکراوی ئەپەکان بە خۆکاری دەسڕێتەوە. ئەپێک کە دووبارە بەکاری دەهێنیتەوە لەوانەیە دووبارە لەسەر لیستەکە دەربکەوێتەوە. یان دەتوانیت ئەپێک بلۆک بکەیت لە پێشنیازکردنی ڕیکلام بۆت.
+
+لە ناو ئەپەکانتدا، ئەو ڕیکلامەی دەیبینیت لەوانەیە تایبەتمەندکراو بێت بەپێی ئەم ڕێکخستنە، ڕێکخستنی بابەتەکانی ڕیکلام، ڕێکخستنەکانی ناسێنەری ڕیکلامت، و ئەوەی ئایا ئەو ئەپەی بەکاری دەهێنیت ڕیکلامەکان تایبەت دەکات یان نا.</string>
+    <string name="notificationUI_u18_notification_title">تایبەتمەندییەکی نوێی تایبەتمەندیی ڕیکلام ئێستا بەردەستە</string>
+    <string name="notificationUI_u18_notification_content">تەنها زانیاریی زۆر سنووردار لە نێوان ئەپەکاندا هاوبەش دەکرێت بۆ یارمەتیدان لە پێوانەکردنی کارایی ڕیکلام</string>
+    <string name="notificationUI_u18_body1">تایبەتمەندییەکی نوێی پاراستنی نهێنی ڕیکلام دەخەینە کار کە پێی دەوترێت پێوانەکردنی ڕیکلام. ئەندرۆید تەنها زانیاریی زۆر سنووردار لە نێوان ئەپەکاندا هاوبەش دەکات، وەک کاتی پیشاندانی ڕیکلامەکە بە تۆ، بۆ یارمەتیدانی ئەپەکان لە پێوانەکردنی کارایی ڕیکلامەکان.</string>
+    <string name="notificationUI_u18_body3">دەتوانیت لە ڕێکخستنەکانی تایبەتمەندیی ڕیکلامدا گۆڕانکاری بکەیت.</string>
+    <string name="settingsUI_u18_main_view_measurement_info">ئەو ئەپانەی بەکاریان دەهێنیت دەتوانن داوای زانیاری لە ئەندرۆید بکەن بۆ یارمەتیدانیان لە پێوانەکردنی کارایی ڕیکلامەکانیان. ئەندرۆید ڕێگە بە ئەپەکان دەدات تەنها جۆرە سنووردارەکانی داتا کۆبکەنەوە.</string>
     <string name="settingsUI_main_u18_view_fragment_footer"><b>پێوانەکردنی بانگەشە</b>\nبەرنامەکان کە بەکاریان دەهێنیت دەتوانن داوا لە ئەندرۆید بکەن بۆ زانیاری تا یارمەتییان بدات لە پێوانی کارایی بانگەشەکانیان. ئەندرۆید ڕێگە بە بەرنامەکان دەدات جۆرە سنووردارکراوەکانی داتا کۆ بکەنەوە.</string>
+    <string name="notificationUI_pas_notification_title">تایبەتمەندییە نوێیەکانی تایبەتمەندیی ڕیکلام</string>
+    <string name="notificationUI_pas_notification_content">هەڵبژاردنی زیاتر بەدەستبهێنە بەسەر ئەو ڕیکلامانەی دەیانبینیت لە کاتێکدا یارمەتی پاراستنی ناسنامەت دەدەیت</string>
+    <string name="notificationUI_pas_re_notification_title">نوێکارییەکانی تایبەتمەندییەکانی تایبەتمەندیی ڕیکلامت</string>
+    <string name="notificationUI_pas_re_notification_content">هەڵبژاردنی زیاتر بەدەستبهێنە بەسەر ئەو ڕیکلامانەی دەیانبینیت لە کاتێکدا یارمەتی پاراستنی ناسنامەت دەدەیت</string>
+    <string name="notificationUI_pas_body_main">تایبەتمەندییەکانی تایبەتمەندیی ڕیکلام یارمەتی سنووردارکردنی ئەوە دەدەن کە بەرنامەکان چی دەربارەت دەزانن کاتێک ڕیکلامی کەسایەتیکراوت پیشان دەدەن.</string>
+    <string name="notificationUI_pas_body1">ئەپەکان و هاوبەشە ڕیکلامییەکانیان دەتوانن چالاکییەکانت لە نێوان ئەپەکانی تر لەسەر ئەم ئامێرە بەکاربهێنن بۆ تایبەتکردنی ڕیکلامەکان لە کاتێکدا هێشتا یارمەتی پاراستنی نهێنی و ئاسایشی ناسنامەت دەدەن.</string>
+    <string name="notificationUI_pas_expand_button_text1">زیاتر دەربارەی ڕیکلامە پێشنیازکراوەکانی ئەپ</string>
+    <string name="notificationUI_pas_body2">جۆرە سنووردارەکانی داتا لە نێوان ئەپەکاندا هاوبەش دەکرێن بۆ تێگەیشتن لە کارایی ڕیکلامەکانیان، وەک کاتی پیشاندانی ڕیکلامەکە بە تۆ.</string>
+    <string name="notificationUI_pas_expand_button_text2">زیاتر دەربارەی پێوانەکردنی ڕیکلام</string>
+    <string name="notificationUI_pas_combined_body_2">ئەندرۆید تێبینیی بابەتەکانی جێی بایەخ دەکات بەپێی ئەو ئەپانەی لەم دوایییەدا بەکارت هێناون. هەروەها، ئەپەکان و هاوبەشە ڕیکلامییەکانیان دەتوانن چالاکییەکانت لە نێوان ئەپەکانی تر لەسەر ئەم ئامێرە بەکاربهێنن بۆ تایبەتکردنی ڕیکلامەکان لە کاتێکدا هێشتا یارمەتی پاراستنی نهێنی و ئاسایشی ناسنامەت دەدەن.</string>
+    <string name="notificationUI_pas_combined_dropdown_body2">•  ئەو ئەپانەی بەکاریان دەهێنیت هەروەها دەتوانن دیاریبکەن چی حەز لێ دەکەیت بەپێی چالاکیی ئەپەکانت. بۆ نموونە، ئەگەر بە شێوەیەکی ڕێکوپێک ئەپەکانی چێشتلێنان بەکاربهێنیت، لەوانەیە ڕیکلامی خزمەتگوزارییەکانی گەیاندنی خواردەمەنی یان ناوەڕۆکی پەیوەندیدار لە ئەپەکانی تردا ببینیت.
+
+ئەپەکان دەتوانن بە شێوەیەکی پارێزراو ئەم زانیارییە پاشەکەوت بکەن تاوەکو تەنها لەلایەن هاوبەشە ڕیکلامییەکانیانەوە بەکاربهێنرێت بۆ تایبەتکردنی ڕیکلامەکان لەسەر ئەپەکانی تر.</string>
+    <string name="notificationUI_pas_combined_dropdown_body3">دواتر، ئەپێک کە بەکاری دەهێنیت دەتوانێت داوای ئەم زانیارییە بکات – چ لە بابەتەکانی ڕیکلامت بێت یان لەو ڕیکلامانەی لەلایەن ئەو ئەپانەوە پێشنیازکراون کە بەکارت هێناون.</string>
+    <string name="notificationUI_pas_combined_dropdown_body5">ئەو ئەپانەی بەکاریان دەهێنیت دەتوانن داوای زانیاری لە ئەندرۆید بکەن بۆ یارمەتیدانیان لە پێوانەکردنی کارایی ڕیکلامەکانیان. ئەندرۆید یارمەتی پاراستنی تایبەتمەندیت دەدات بە سنووردارکردنی ئەو زانیارییانەی ئەپەکان دەتوانن لەگەڵ یەکتردا هاوبەشی بکەن.</string>
+    <string name="notificationUI_pas_combined_dropdown_subtitle3">چۆن بەرنامەکان داتاکەت بەکاردەهێنن</string>
+    <string name="notificationUI_pas_combined_dropdown_body6">گووگڵ داوا لە کۆمپانیاکان دەکات بە ئاشکرا ڕایبگەیەنن کە ئەم داتایە بەکارناهێنن بۆ ناسینەوەی دووبارەی تۆ لە سەرانسەری بەرنامەکاندا. هەندێک بەرنامە لەوانەیە چالاکییەکەت بۆ کەسایەتیکردنی ئەزموونەکەت بەکاربهێنن بۆ شتی زیاتر لە تەنها ڕیکلام. هەروەها لەوانەیە تێکەڵی بکەن لەگەڵ زانیاریی تر کە پێشتر دەربارەی تۆ دەیزانن. کۆمپانیاکان بەرپرسن لە ئاگادارکردنەوەت لەوەی چۆن داتاکەت بەکاردەهێنن.<a href="https://policies.google.com/privacy">زیاتر دەربارەی ئەوە بزانە کە چۆن گووگڵ داتاکەت لە یاسای پاراستنی نهێنیماندا دەپارێزێت</a></string>
+    <string name="notificationUI_pas_msmt_dropdown_subtitle1">چ داتایەک بەکاردێت؟</string>
+    <string name="notificationUI_pas_msmt_body1">ئەو ئەپانەی بەکاریان دەهێنیت دەتوانن داوای زانیاری لە ئەندرۆید بکەن کە یارمەتییان دەدات لە پێوانەکردنی کارایی ڕیکلامەکانیان. ئەندرۆید یارمەتی پاراستنی تایبەتمەندیت دەدات بە سنووردارکردنی ئەو زانیارییانەی ئەپەکان دەتوانن لەگەڵ یەکتردا هاوبەشی بکەن.</string>
+    <string name="notificationUI_pas_msmt_dropdown_subtitle2">چۆن ناسنامەم دەپارێزرێت؟</string>
+    <string name="notificationUI_pas_msmt_body2">ئەندرۆید چەندین ڕێکاری پاراستنی نهێنی بەکاردەهێنێت وەک کۆکردنەوە و شێواندنی ژاوەژاوی داتا بۆ سنووردارکردنی ئەو زانیارییانەی ئەپەکان دەتوانن لەگەڵ یەکتردا هاوبەشی بکەن و یارمەتی پاراستنی ناسنامەت بدات.
+
+هەروەها داتای پێوانەکردنی ڕیکلام بە شێوەیەکی خولیی لەسەر ئامێرەکەت دەسڕدرێتەوە.</string>
+    <string name="notificationUI_pas_learn_more_msmt_link"><a href="https://support.google.com/android?p=ad_measurement">زیاتر دەربارەی ئەوە بزانە کە چۆن Android یارمەتی پاراستنی نهێنییەکەت دەدات</a></string>
+    <string name="notificationUI_pas_app_body1">چالاکیی ئەپەکەت دەکرێت بەکاربهێنرێت بۆ پێشنیازکردنی ڕیکلام.</string>
+    <string name="notificationUI_pas_app_dropdown_subtitle2">ئەپەکان چۆن ئەم داتایە بەکاردەهێنن؟</string>
+    <string name="notificationUI_pas_app_body2">ئەپەکان دەتوانن بە شێوەیەکی پارێزراو ئەم زانیارییە پاشەکەوت بکەن تاوەکو تەنها لەلایەن هاوبەشە ڕیکلامییەکانیانەوە بەکاربهێنرێت بۆ تایبەتکردنی ڕیکلامەکان لەسەر ئەپەکانی تر. بۆ نموونە، ئەگەر بە شێوەیەکی ڕێکوپێک ئەپەکانی چێشتلێنان بەکاربهێنیت، لەوانەیە ڕیکلامی خزمەتگوزارییەکانی گەیاندنی خواردەمەنی یان ناوەڕۆکی پەیوەندیدار لە ئەپەکانی تردا ببینیت.</string>
+    <string name="notificationUI_pas_app_dropdown_subtitle3">چۆن دەتوانم ئەم داتایە بەڕێوەببەم؟</string>
+    <string name="notificationUI_pas_app_body3">دەتوانیت ئەپە دیاریکراوەکان بلۆک بکەیت لە هاوبەشکردنی چالاکییەکانت لەگەڵ هاوبەشە ڕیکلامییەکاندا. دەتوانیت لە هەر کاتێکدا لە ڕێکخستنەکانی تایبەتمەندیدا ڕیکلامە پێشنیازکراوەکانی ئەپ ڕێکبخەیتەوە یان بکوژێنیتەوە. ئەندرۆید هەروەها ئەم داتایە بە شێوەیەکی خولیی بە خۆکاری دەسڕێتەوە.</string>
+    <string name="notificationUI_pas_leanr_more_link"><a href="https://support.google.com/android?p=manage_appsuggested_ads">زیاتر دەربارەی ئەوە بزانە کە چۆن Android یارمەتی پاراستنی نهێنییەکەت دەدات</a></string>
+    <string name="settingsUI_pas_apps_view_body_text">بەرنامەکان و هاوبەشە ڕیکلامییەکانیان دەتوانن چالاکییەکەت لە سەرانسەری بەرنامەکانی تر لەسەر ئەم ئامێرە بەکاربهێنن بۆ کەسایەتیکردنی ڕیکلامەکان لە کاتێکدا هێشتا زانیاریی دەربارەی تۆ بە تایبەتی و پارێزراوی دەهێڵنەوە.
+
+بۆ نموونە، ئەگەر بە بەردەوامی بەرنامەکانی چێشتلێنان بەکاربهێنیت، لەوانەیە ڕیکلامی خزمەتگوزارییەکانی گەیاندنی پێداویستیی ڕۆژانە یان ناوەڕۆکی پەیوەندیدار لە بەرنامەکانی تردا ببینیت.
+
+دەتوانیت بەرنامەیەک لە هاوبەشکردنی داتای چالاکییەکەت لەگەڵ هاوبەشە ڕیکلامییەکان ئاستەنگ بکەیت. هەروەها Android داتای چالاکیی هاوبەشکراو بە شێوەیەکی خۆکار و ڕێکخراو دەسڕێتەوە، بۆیە بەرنامەیەک کە دووبارە بەکاری دەهێنیتەوە لەوانەیە لەم لیستەدا دەربکەوێتەوە.
+
+لە کاتێکدا دەکرێت ئەم تایبەتمەندییە هەڵبکرێت، لەوانەیە لیستێکی بەرنامەکان نەبینیت تا ئەو کاتەی ئەم تایبەتمەندییە بە تەواوی بەردەست دەبێت و بەرنامەکان دەست بە بەکارهێنانی دەکەن.</string>
+    <string name="settingsUI_pas_apps_view_footer">ئاسایییە کە بەرنامەکان و هاوبەشە ڕیکلامییەکانیان ئەو شتانەی ئارەزوویان لێ دەکەیت لەبیر بهێڵنەوە بۆ کەسایەتیکردنی ئەزموونەکەت. بەرنامەکان دەتوانن بە شێوەیەکی پارێزراو ئەم زانیارییە پاشەکەوت بکەن تا تەنها لەلایەن هاوبەشە ڕیکلامییەکانیانەوە بەکاربهێنرێت بۆ پیشاندانی ڕیکلام لەسەر بەرنامەکانی تر.
+
+ئەوەی کە ئایا ڕیکلامێک کە دەیبینیت کەسایەتیکراوە دەکرێت پشت بە چەند فاکتەرێک ببەستێت وەک ئەم ڕێکخستنە، ڕێکخستنی بابەتەکانی ڕیکلام، ڕێکخستنەکانی ناسێنەری ڕیکلامت، و ئەوەی کە ئایا ئەو بەرنامەیەی بەکاری دەهێنیت ڕیکلامەکان کەسایەتی دەکات یاخود نا.
+
+گووگڵ داوا لە کۆمپانیاکان دەکات بە ئاشکرا ڕایبگەیەنن کە ئەم داتایە بەکارناهێنن بۆ ناسینەوەی دووبارەی تۆ لە سەرانسەری بەرنامەکاندا. هەندێک بەرنامە لەوانەیە چالاکییەکەت بۆ کەسایەتیکردنی ئەزموونەکەت بۆ شتی زیاتر لە تەنها ڕیکلام بەکاربهێنن. هەروەها لەوانەیە تێکەڵی بکەن لەگەڵ زانیاریی تر کە پێشتر دەربارەی تۆ دەیزانن. کۆمپانیاکان بەرپرسن لە ئاگادارکردنەوەت لەوەی چۆن داتاکەت بەکاردەهێنن. <a href="https://policies.google.com/privacy">زیاتر دەربارەی ئەوە بزانە کە چۆن گووگڵ داتاکەت لە یاسای پاراستنی نهێنیماندا دەپارێزێت</a>
+
+<a href="https://support.google.com/android?p=manage_appsuggested_ads">زیاتر دەربارەی ڕیکلامە پێشنیارکراوەکانی بەرنامە بزانە</a></string>
     <string name="settingsUI_pas_apps_view_fragment_footer">باوە کە بەرنامەکان و هاوبەشانی بانگەشکاریان ئەو شتانە بیر خۆیان بێننەوە کە تۆ ئارەزوویان دەکەیت بۆ تایبەتکردنی ئەزموونەکەت. ئەپەکان دەتوانن بە پارێزراوی ئەم زانیارییانە پاشەکەوت بکەن تا تەنها لەلایەن هاوبەشانی بانگەشەکاریانەوە بەکاربهێنرێت بۆ پیشاندانی بانگەشە لەسەر ئەپەکانی تر.\n\nئەوەی کە ئایا بانگەشەیەک کە دەیبینیت تایبەت کراوە یان نا، دەکرێت بەند بێت بە چەندین هۆکارەوە وەک ئەم ڕێکخستنە، ڕێکخستنی بابەتەکانی بانگەشە، ڕێکخستنەکانی ناسنامەی بانگەشەکەت، و ئایا ئەو بەرنامەی بەکاری دەهێنیت بانگەشەکان تایبەت دەکات یان نا.\n\nگووگڵ داوا لە کۆمپانیاکان دەکات بە ئاشکرا ڕایبگەیەنن کە ئەم داتایە بۆ دووبارە ناسینەوەی تۆ لە نێوان بەرنامەکاندا بەکارناهێنن. ڕەنگە هەندێک بەرنامە چالاکییەکەت بەکاربهێنن بۆ تایبەتکردنی ئەزموونەکەت بۆ شتی زیاتر لە تەنها بانگەشە. هەروەها دەکرێت تێکەڵی بکەن لەگەڵ ئەو زانیارییە جیاوازانەی تر کە پێشتر لەسەرت دەیزانن. کۆمپانیاکان بەرپرسیارن لە ئاگادارکردنەوەت لەوەی چۆن داتاکانت بەکاردێنن.</string>
     <string name="settingsUI_pas_apps_view_fragment_privacy_learn_more">زیاتر  فێر بە دەربارەی ئەوەی کە چۆن گووگڵ داتاکانت دەپارێزێت لە <a href="[https://policies.google.com/privacy](https://policies.google.com/privacy)">سیاسەتی تایبەتێتیماندا</a>.
 </string>
     <string name="settingsUI_pas_apps_view_fragment_app_learn_more">زیاتر  فێر بە دەربارەی بانگەشە پێشنیارکراوەکانی بەرنامەکان</string>
+    <string name="settingsUI_pas_msmt_view_footer">ئەندرۆید چەندین ڕێکاری پاراستنی نهێنی بەکاردەهێنێت وەک کۆکردنەوە و شێواندنی ژاوەژاوی داتا بۆ سنووردارکردنی ئەو زانیارییانەی ئەپەکان دەتوانن لەگەڵ یەکتردا هاوبەشی بکەن و یارمەتی پاراستنی ناسنامەت بدات.
+
+وێبگەڕەکەت لەوانەیە ڕێکخستنێکی هاوشێوەی هەبێت. ئەگەر پێوانەکردنی ڕیکلام بۆ هەردووکی ئەندرۆید و وێبگەڕەکەت هەڵکرابێت، کۆمپانیایەک لەوانەیە بتوانێت کاریگەریی ڕیکلامێک لە نێوان ئەو ئەپانەی بەکاریان دەهێنیت و ئەو ماڵپەڕانەی سەردانیان دەکەیت بپێوێت. مێژووی گەڕانت لەسەر ئامێرەکەت بە پارێزراوی دەمێنێتەوە.
+
+<a href="https://support.google.com/android?p=ad_privacy">زیاتر فێربە دەربارەی پێوانەکردنی ڕیکلام</a></string>
     <string name="settingsUI_pas_msmt_view_fragment_footer">ئەندرۆید چەندین ڕێکاری تایبەتێتی بەکاردێنێت، وەک کۆکردنەوەی گشتیی داتا و تێکەڵکردنی ژاوەژاو بە داتا، بۆ سنووردارکردنی ئەو زانیارییانەی ئەپەکان دەتوانن لەگەڵ یەکتردا هاوبەشی بکەن و هاوکاری بکات بۆ پاراستنی ناسنامەکەت.\n\nلەوانەیە وێبگەڕەکەت ڕێکخستنێکی هاوشێوەی هەبێت. ئەگەر پێوانەکردنی بانگەشە هەم بۆ ئەندرۆید و هەم بۆ وێبگەڕەکەت چالاک بێت، کۆمپانیایەک دەکرێت بتوانێت کاریگەریی بانگەشەیەک لە نێوان ئەو ئەپانەی بەکاریان دەهێنیت و ئەو ماڵپەڕانەی سەردانیان دەکەیت بپێوێت. مێژووی وێبگەڕانت بە پارێزراوی لەسەر ئامێرەکەت دەپارێزرێت.</string>
     <string name="settingsUI_pas_msmt_view_fragment_footer_learn_more">زیاتر  فێر بە دەربارەی پێوانەکردنی بانگەشە</string>
+    <string name="settingsUI_pas_topics_view_footer">Android تێبینیی بابەتە گرنگەکان دەکات بەپێی ئەو بەرنامانەی لە چەند هەفتەی ڕابردوودا بەکارت هێناون.
+
+دواتر، بەرنامەیەک کە بەکاری دەهێنیت دەتوانێت داوا لە Android بکات بابەتەکانت پێ بدات بۆ کەسایەتیکردنی ئەو ڕیکلامانەی دەیانبینیت. Android تا 3 بابەت هاوبەش دەکات لە کاتێکدا ناسنامەکەت و زانیاریی دەربارەی بەکارهێنانی بەرنامەکەت دەپارێزێت.
+
+Android بە شێوەیەکی ڕێکخراو بابەتەکان بە شێوەی خۆکار دەسڕێتەوە. لەگەڵ بەردەوامبوونت لە بەکارهێنانی بەرنامەکان، لەوانەیە بابەتێک لە لیستەکەدا دەربکەوێتەوە. یاخود دەتوانیت ئەو بابەتانە ئاستەنگ بکەیت کە ناتەوێت Android لەگەڵ بەرنامەکاندا هاوبەشیان بکات.
+
+ئەوەی کە ئایا ڕیکلامێک کە دەیبینیت کەسایەتیکراوە دەکرێت پشت بە چەند فاکتەرێک ببەستێت وەک ئەم ڕێکخستنە، ڕێکخستنی ڕیکلامە پێشنیارکراوەکانی بەرنامە، ڕێکخستنەکانی ناسێنەری ڕیکلامت، و ئەوەی کە ئایا ئەو بەرنامەیەی بەکاری دەهێنیت ڕیکلامەکان کەسایەتی دەکات یاخود نا.
+
+<a href="https://support.google.com/android?p=ad_privacy">زیاتر دەربارەی بابەتەکانی ڕیکلام بزانە</a></string>
     <string name="settingsUI_pas_topics_view_fragment_footer">ئەندرۆید بابەتەکانی ئارەزوو بەپێی ئەو بەرنامانە تۆمار دەکات کە لە چەند هەفتەی ڕابردوودا بەکارت هێناون.\n\nدواتر، بەرنامەیەک کە بەکاری دەهێنیت دەتوانێت داوای بابەتەکانت لە ئەندرۆید بکات بۆ تایبەتکردنی ئەو بانگەشانەی کە دەیانبینیت. ئەندرۆید تا 3 بابەت هاوبەشیی دەکات، لە کاتێکدا ناسنامەکەت و زانیارییەکانی دەربارەی بەکارهێنانی بەرنامەکانت دەپارێزێت.\n\nئەندرۆید بە شێوەیەکی ڕێکخراو بابەتەکان بە خۆکار دەسڕێتەوە. کاتێک بەردەوام دەبیت لە بەکارهێنانی بەرنامەکان، لەوانەیە بابەتێک دووبارە لە لیستەکەدا دەربکەوێتەوە. یاخود دەتوانیت ڕێگری لەو بابەتانە بکەیت کە ناتەوێت ئەندرۆید لەگەڵ بەرنامەکاندا هاوبەشیان بکات.\n\nئەوەی کە ئایا بانگەشەیەک کە دەیبینیت تایبەت کراوە یان نا، دەکرێت بەند بێت بە چەندین هۆکارەوە وەک ئەم ڕێکخستنە، ڕێکخستنی بانگەشە پێشنیارکراوەکانی بەرنامەکان، ڕێکخستنەکانی ناسنامەی بانگەشەکەت، و ئایا ئەو بەرنامەیەی بەکاری دەهێنیت بانگەشەکان تایبەت دەکات یان نا.</string>
     <string name="settingsUI_pas_topics_fragment_learn_more">زیاتر فێر بە دەربارەی بابەتەکانی بانگەشە</string>
+    <string name="ic_consent_notification_ga_image_description">وێنەکردنی ڕەنگاوڕەنگی هێماکان کە نوێنەرایەتی بابەتەکانی جێی بایەخ دەکەن وەک مۆسیقا، هەواڵ و وەرزش</string>
+    <string name="ic_main_view_ga_image_description">وێنەکردنی ڕەنگاوڕەنگی قوفڵێک لە ناو بازنەیەکدا</string>
+    <string name="ic_placeholder_icon_for_empty_apps_list_description">وێنەکردنی بچووکی ڕەش و سپیی نۆ خاڵ کە چوارگۆشەیەک پێکدەهێنن</string>
+    <string name="ic_placeholder_icon_for_empty_topics_list_description">وێنەکردنی بچووکی ڕەش و سپیی شێوە سادەکان وەک دڵ، سێگۆشە و چوارگۆشە</string>
+    <string name="topic10001">هونەر و کاتبەسەربردن</string>
+    <string name="topic10002">نواندن و شانۆ</string>
+    <string name="topic10003">ئەنیمێ و مانگا</string>
+    <string name="topic10004">کارتۆن</string>
+    <string name="topic10005">کۆمیکس</string>
+    <string name="topic10006">کۆنسێرت و فیستیڤاڵەکانی مۆسیقا</string>
+    <string name="topic10007">سەما</string>
+    <string name="topic10008">پیشەسازیی کاتبەسەربردن</string>
+    <string name="topic10009">خۆشی و پرسیار و وەڵام</string>
+    <string name="topic10010">تاقیکردنەوەی خۆش و ڕاپرسییە گاڵتەجاڕییەکان</string>
+    <string name="topic10011">تەنز و نوکتە</string>
+    <string name="topic10012">وێنە و ڤیدیۆیە پێکەنیناوییەکان</string>
+    <string name="topic10013">کۆمیدیای ڕاستەوخۆ</string>
+    <string name="topic10014">ڕووداوە وەرزشییە ڕاستەوخۆکان</string>
+    <string name="topic10015">جادوویی (Magic)</string>
+    <string name="topic10016">لیستی فیلمەکان و کاتی پیشاندانی سینەما</string>
+    <string name="topic10017">فیلمەکان</string>
+    <string name="topic10018">فیلمە ئاکشن و سەرکێشییەکان</string>
+    <string name="topic10019">فیلمە ئەنیمەیشنەکان</string>
+    <string name="topic10020">فیلمە کۆمیدییەکان</string>
+    <string name="topic10021">فیلمە سەربەخۆکان و کلتوورییەکان</string>
+    <string name="topic10022">فیلمە دۆکیۆمێنتارییەکان</string>
+    <string name="topic10023">فیلمە درامییەکان</string>
+    <string name="topic10024">فیلمە خێزانییەکان</string>
+    <string name="topic10025">فیلمە ترسناکەکان</string>
+    <string name="topic10026">فیلمە ڕۆمانسییەکان</string>
+    <string name="topic10027">فیلمە هەستبزوێنەکان (Thriller)</string>
+    <string name="topic10028">مۆسیقا و دەنگ</string>
+    <string name="topic10029">بلوز (Blues)</string>
+    <string name="topic10030">مۆسیقای کلاسیک</string>
+    <string name="topic10031">مۆسیقای کەنتری (Country)</string>
+    <string name="topic10032">مۆسیقای سەما و ئەلیکترۆنی</string>
+    <string name="topic10033">مۆسیقای فۆلکلۆر و نەریتی</string>
+    <string name="topic10034">جاز</string>
+    <string name="topic10035">پەخشکردن و داگرتنی مۆسیقا</string>
+    <string name="topic10036">ڤیدیۆ کلیپی مۆسیقا</string>
+    <string name="topic10037">ئامێرە مۆسیقییەکان</string>
+    <string name="topic10038">پیانۆ و کیبۆردەکان</string>
+    <string name="topic10039">مۆسیقای پۆپ</string>
+    <string name="topic10040">ڕادیۆ</string>
+    <string name="topic10041">ڕادیۆی گفتوگۆ</string>
+    <string name="topic10042">ڕاپ و هیپ هۆپ</string>
+    <string name="topic10043">مۆسیقای ڕۆک</string>
+    <string name="topic10044">ڕۆکی کلاسیک و کۆنەکان</string>
+    <string name="topic10045">هارد ڕۆک و پێشکەوتنخواز</string>
+    <string name="topic10046">مۆسیقای ئیندی و ئەلتەرناتیڤ</string>
+    <string name="topic10047">نموونە و کتێبخانە دەنگییەکان</string>
+    <string name="topic10048">سۆڵ و ئاڕ ئاند بی (Soul &amp; R&amp;B)</string>
+    <string name="topic10049">تراکی دەنگیی فیلم (Soundtracks)</string>
+    <string name="topic10050">مۆسیقای جیهانی</string>
+    <string name="topic10051">مۆسیقای ڕێگی و کاریبی</string>
+    <string name="topic10052">پێشانگاکانی وێنەی سەرهێڵ</string>
+    <string name="topic10053">ڤیدیۆی سەرهێڵ</string>
+    <string name="topic10054">پەخشی ڕاستەوخۆی ڤیدیۆ</string>
+    <string name="topic10055">پەخشی فیلم و تەلەڤزیۆن</string>
+    <string name="topic10056">ئۆپێرا</string>
+    <string name="topic10057">ڕێبەر و سەرچاوەی بەرنامەکانی تەلەڤزیۆن</string>
+    <string name="topic10058">تۆڕ و کەناڵەکانی تەلەڤزیۆن</string>
+    <string name="topic10059">بەرنامە تەلەڤزیۆنییەکان</string>
+    <string name="topic10060">کۆمیدیای تەلەڤزیۆنی</string>
+    <string name="topic10061">بەرنامە دۆکیۆمێنتاری و واقیعییەکانی تەلەڤزیۆن</string>
+    <string name="topic10062">دراما تەلەڤزیۆنییەکان</string>
+    <string name="topic10063">زنجیرە دراما درێژەکان (Soap Operas)</string>
+    <string name="topic10064">بەرنامە تەلەڤزیۆنییە خێزانییەکان</string>
+    <string name="topic10065">بەرنامەکانی ڕاستی (Reality Shows)</string>
+    <string name="topic10066">بەرنامە خەیاڵییە زانستییەکان و فانتازی</string>
+    <string name="topic10067">هونەری بینراو و دیزاین</string>
+    <string name="topic10068">دیزاین</string>
+    <string name="topic10069">نیگارکێشان</string>
+    <string name="topic10070">هونەرە وێنەیی و دیجیتاڵییەکان</string>
+    <string name="topic10071">ئۆتۆمبێل و پێڕاگوێزەکان</string>
+    <string name="topic10072">بارهەڵگر و تڕێلەکان</string>
+    <string name="topic10073">ئۆتۆمبێلە کلاسیکییەکان</string>
+    <string name="topic10074">ئۆتۆمبێلە دەستکاریکراوەکان و کارایی بەرز</string>
+    <string name="topic10075">نرخی بەنزین و سووتەمەنیی پێڕاگوێز</string>
+    <string name="topic10076">پێڕاگوێزە بزوێنەردارەکان (بەپێی جۆر)</string>
+    <string name="topic10077">ئۆتۆمبێلە خۆلێخوڕەکان</string>
+    <string name="topic10078">ئۆتۆمبێلە سەقفکراوەکان (Convertibles)</string>
+    <string name="topic10079">ئۆتۆمبێلە کوپێیەکان (Coupes)</string>
+    <string name="topic10080">ئۆتۆمبێلە هاچباکەکان (Hatchbacks)</string>
+    <string name="topic10081">ئۆتۆمبێلە هایبریدی و ئەلتەرناتیڤەکان</string>
+    <string name="topic10082">ئۆتۆمبێلە لووتکە و ناوازەکان (Luxury)</string>
+    <string name="topic10083">ئۆتۆمبێلە زۆر بچووکەکان</string>
+    <string name="topic10084">ماتۆڕسکیلەکان</string>
+    <string name="topic10085">ئۆتۆمبێلەکانی ڕێگای سەخت (Off-Road)</string>
+    <string name="topic10086">پیکابەکان</string>
+    <string name="topic10087">سکۆتەر و مۆپێدەکان</string>
+    <string name="topic10088">ئۆتۆمبێلە سیدانەکان (Sedans)</string>
+    <string name="topic10089">ئۆتۆمبێلە ستەیشنەکان (Station Wagons)</string>
+    <string name="topic10090">ئۆتۆمبێلە بەرزەکان (SUVs &amp; Crossovers)</string>
+    <string name="topic10091">کرۆسئۆڤەرەکان (Crossovers)</string>
+    <string name="topic10092">ڤان و مینیڤانەکان</string>
+    <string name="topic10093">ڕاکێشان و هاوکاریی ڕێگاوبان</string>
+    <string name="topic10094">سەلامەتیی پێڕاگوێز و هاتووچۆ</string>
+    <string name="topic10095">پارچە و پێداویستییەکانی ئۆتۆمبێل</string>
+    <string name="topic10096">چاککردنەوە و ڕاگرتنی ئۆتۆمبێل</string>
+    <string name="topic10097">بازاڕکردنی ئۆتۆمبێل</string>
+    <string name="topic10098">ئۆتۆمبێلە بەکارهاتووەکان</string>
+    <string name="topic10099">پێشانگاکانی ئۆتۆمبێل</string>
+    <string name="topic10100">جوانی و لەشجوانی</string>
+    <string name="topic10101">هونەری جەستە (تاتۆ و تێکستایل)</string>
+    <string name="topic10102">چاودێریی دەموچاو و جەستە</string>
+    <string name="topic10103">دژە ئارەقەکردنەوە</string>
+    <string name="topic10104">بەرهەمەکانی گەرماو و جەستە</string>
+    <string name="topic10105">جوانیی پاک و سروشتی</string>
+    <string name="topic10106">ماکیاژ و کەرەستەی جوانکاری</string>
+    <string name="topic10107">بەرهەمەکانی چاودێریی نینۆک</string>
+    <string name="topic10108">بۆن و عەترەکان</string>
+    <string name="topic10109">گوێزان و مەکینەی ڕیشتاشین</string>
+    <string name="topic10110">مۆدە و ستایل</string>
+    <string name="topic10111">لەشجوانی</string>
+    <string name="topic10112">بنیاتنانی لەش (Bodybuilding)</string>
+    <string name="topic10113">ڕاهێنانی لەشجوانی و ڕاهێنەری تایبەت</string>
+    <string name="topic10114">بەرهەمە تەکنەلۆژییەکانی لەشجوانی</string>
+    <string name="topic10115">چاودێریی قژ</string>
+    <string name="topic10116">کتێب و ئەدەبیات</string>
+    <string name="topic10117">ئەدەبیاتی منداڵان</string>
+    <string name="topic10118">کتێبە ئەلیکترۆنییەکان (E-Books)</string>
+    <string name="topic10119">گۆڤارەکان</string>
+    <string name="topic10120">شیعر</string>
+    <string name="topic10121">بازرگانی و پیشەسازی</string>
+    <string name="topic10122">ڕیکلام و بەبازاڕکردن</string>
+    <string name="topic10123">فرۆشتن</string>
+    <string name="topic10124">کشتوکاڵ و دارستانناسی</string>
+    <string name="topic10125">بەرهەمهێنانی خۆراک</string>
+    <string name="topic10126">پیشەسازیی ئۆتۆمبێل</string>
+    <string name="topic10127">پیشەسازیی فڕۆکەوانی</string>
+    <string name="topic10128">ئۆپەراسیۆنە بازرگانییەکان</string>
+    <string name="topic10129">ڕێکخستنی کاری نەرم و دوورەدەست</string>
+    <string name="topic10130">سەرچاوە مرۆییەکان (HR)</string>
+    <string name="topic10131">قەرزی بازرگانی</string>
+    <string name="topic10132">بیناسازی و نۆژەنکردنەوە</string>
+    <string name="topic10133">ئەندازیاریی شارستانی</string>
+    <string name="topic10134">پیشەسازیی بەرگری و سەربازی</string>
+    <string name="topic10135">وزە و خزمەتگوزارییە گشتییەکان</string>
+    <string name="topic10136">دابینکردن و پاککردنەوەی ئاو</string>
+    <string name="topic10137">پیشەسازیی میوانداری و هۆتێل</string>
+    <string name="topic10138">پیشەسازی و بەرهەمهێنان</string>
+    <string name="topic10139">کانزاکان و دەرهێنانی کانزا</string>
+    <string name="topic10140">مارکێتینگی فرەئاست و دەرفەتە بازرگانییەکان</string>
+    <string name="topic10141">دەرمانسازی و بایۆتەکنەلۆژیا</string>
+    <string name="topic10142">چاپ و بڵاوکردنەوە</string>
+    <string name="topic10143">بازرگانیی تاکەکەسی (کەلوپەلفرۆشی)</string>
+    <string name="topic10144">سەرمایەگوزاریی پڕمەترسی (Venture Capital)</string>
+    <string name="topic10145">کۆمپیوتەر و ئەلیکترۆنیات</string>
+    <string name="topic10146">کەلوپەلە لاوەکییەکانی کۆمپیوتەر</string>
+    <string name="topic10147">پرینتەرەکان</string>
+    <string name="topic10148">ئاسایشی کۆمپیوتەر</string>
+    <string name="topic10149">دژەڤایرۆس و بەرنامە زیانبەخشەکان</string>
+    <string name="topic10150">ئاسایشی تۆڕ</string>
+    <string name="topic10151">ئەلیکترۆنیاتی بەکاربەر</string>
+    <string name="topic10152">کامێرا و کامێرای ڤیدیۆیی</string>
+    <string name="topic10153">GPS و ڕێدۆزی</string>
+    <string name="topic10154">خۆکارکردنی ماڵەوە (Smart Home)</string>
+    <string name="topic10155">سیستەمەکانی سینەمای ماڵەوە</string>
+    <string name="topic10156">MP3 و لێدەرە دەنگییە هەڵگیراوەکان</string>
+    <string name="topic10157">تەکنەلۆژیای لەبەرکراو (Smartwatches &amp; Wearables)</string>
+    <string name="topic10158">پاشەکەوتکردن و گێڕانەوەی داتا</string>
+    <string name="topic10159">کۆمپیوتەرە مێزییەکان (Desktops)</string>
+    <string name="topic10160">لاپتۆپ و نۆتبووکەکان</string>
+    <string name="topic10161">تۆڕبەندی</string>
+    <string name="topic10162">کۆمپیوتەری هەور و دابەشکراو</string>
+    <string name="topic10163">پرۆگرامسازی</string>
+    <string name="topic10164">نەرمەکاڵا (Software)</string>
+    <string name="topic10165">نەرمەکاڵای دەنگ و مۆسیقا</string>
+    <string name="topic10166">نەرمەکاڵای بازرگانی و بەرهەمهێنان</string>
+    <string name="topic10167">نەرمەکاڵای ڕۆژژمێر و کات دیاریکردن</string>
+    <string name="topic10168">نەرمەکاڵای هاوکاری و کۆبوونەوە</string>
+    <string name="topic10169">نەرمەکاڵای پێشکەشکردن (Presentation)</string>
+    <string name="topic10170">نەرمەکاڵای خشتەبەندی (Spreadsheet)</string>
+    <string name="topic10171">نەرمەکاڵای نووسینی دەق (Word Processing)</string>
+    <string name="topic10172">بڵاوکردنەوەی سەر مێز (Desktop Publishing)</string>
+    <string name="topic10173">فۆنتەکان</string>
+    <string name="topic10174">بەڕێوەبەرانی داگرتن</string>
+    <string name="topic10175">بەرنامە خۆڕایی و بەشداریکراوەکان</string>
+    <string name="topic10176">نەرمەکاڵای گرافیک و ئەنیمەیشن</string>
+    <string name="topic10177">یاریدەدەرە کەسییە زیرەکەکان</string>
+    <string name="topic10178">لێدەرەکانی میدیا</string>
+    <string name="topic10179">نەرمەکاڵای چاودێریکردن</string>
+    <string name="topic10180">سیستەمەکانی کارپێکردن</string>
+    <string name="topic10181">نەرمەکاڵای وێنە و ڤیدیۆ</string>
+    <string name="topic10182">نەرمامێری وێنە</string>
+    <string name="topic10183">نەرمامێری ڤیدیۆ</string>
+    <string name="topic10184">ئامرازەکانی نەرمامێر</string>
+    <string name="topic10185">وێبگەڕەکان</string>
+    <string name="topic10186">دارایی</string>
+    <string name="topic10187">ژمێریاری و وردبینی</string>
+    <string name="topic10188">ئامادەکردن و پلاندانانی باج</string>
+    <string name="topic10189">بانکداری</string>
+    <string name="topic10190">خزمەتگوزارییەکانی حەواڵە و گواستنەوەی پارە</string>
+    <string name="topic10191">قەرز و پێدان</string>
+    <string name="topic10192">کارتەکانی قەرز</string>
+    <string name="topic10193">دابینکردنی داراییی خانوو</string>
+    <string name="topic10194">قەرزە کەسییەکان</string>
+    <string name="topic10195">قەرزەکانی خوێندکاران و داراییی زانکۆ</string>
+    <string name="topic10196">پلاندانان و بەڕێوەبردنی دارایی</string>
+    <string name="topic10197">خانەنشینی و مووچەی خانەنشینی</string>
+    <string name="topic10198">بەخشینە دارایییەکان</string>
+    <string name="topic10199">بەخشینە دارایییەکان</string>
+    <string name="topic10200">دڵنیایی</string>
+    <string name="topic10201">دڵنیاییی ئۆتۆمبێل</string>
+    <string name="topic10202">دڵنیاییی تەندروستی</string>
+    <string name="topic10203">دڵنیاییی خانوو</string>
+    <string name="topic10204">دڵنیاییی ژیان</string>
+    <string name="topic10205">دڵنیاییی گەشت</string>
+    <string name="topic10206">وەبەرهێنان</string>
+    <string name="topic10207">بازرگانیی کاڵاکان و مامەڵەی داهاتوو</string>
+    <string name="topic10208">دراوەکان و ئاڵوگۆڕی دراوی بیانی</string>
+    <string name="topic10209">سندووقەکانی پەرژین</string>
+    <string name="topic10210">سندووقەکانی وەبەرهێنانی هاوبەش</string>
+    <string name="topic10211">پشک و بۆندەکان</string>
+    <string name="topic10212">خۆراک و خواردنەوە</string>
+    <string name="topic10213">لێنان و ڕێچکەکان</string>
+    <string name="topic10214">کەباب و برژاندن</string>
+    <string name="topic10215">چێشتەکان</string>
+    <string name="topic10216">چێشتی ڕووەکی</string>
+    <string name="topic10217">چێشتی ڤیگن</string>
+    <string name="topic10218">خۆراکپێدانی تەندروست</string>
+    <string name="topic10219">فرۆشیارانی خۆراک و بەقاڵی</string>
+    <string name="topic10220">یارییەکان</string>
+    <string name="topic10221">یارییەکانی ئارکەید</string>
+    <string name="topic10222">بیلیارد</string>
+    <string name="topic10223">یارییەکانی تەختە</string>
+    <string name="topic10224">شەتڕەنج و یارییە ستراتیژییە تەجریدییەکان</string>
+    <string name="topic10225">یارییەکانی کاغەز</string>
+    <string name="topic10226">یارییەکانی کارتی کۆکراوە</string>
+    <string name="topic10227">یارییەکانی کۆمپیوتەر و ڤیدیۆ</string>
+    <string name="topic10228">یارییەکانی ئاکشن و پلاتفۆرم</string>
+    <string name="topic10229">یارییەکانی سەرکێشی</string>
+    <string name="topic10230">یارییە سادەکان</string>
+    <string name="topic10231">یارییە ڤیدیۆیییە پێشبڕکێیییەکان</string>
+    <string name="topic10232">یارییەکانی لێخوڕین و پێشبڕکێ</string>
+    <string name="topic10233">یارییەکانی شەڕکردن</string>
+    <string name="topic10234">سەرچاوە و پێداچوونەوەکانی یاری</string>
+    <string name="topic10235">فێڵ و ڕێنمایییەکانی یاریی ڤیدیۆیی</string>
+    <string name="topic10236">یارییە بەکۆمەڵە فرە-یاریزانەکان</string>
+    <string name="topic10237">یارییەکانی مۆسیقا و هەڵپەڕکێ</string>
+    <string name="topic10238">یارییەکانی ساندبۆکس</string>
+    <string name="topic10239">یارییەکانی تەقەکردن</string>
+    <string name="topic10240">یارییەکانی لاساییکردنەوە</string>
+    <string name="topic10241">یارییەکانی بازرگانی و تایکوون</string>
+    <string name="topic10242">یارییەکانی دروستکردنی شار</string>
+    <string name="topic10243">یارییەکانی لاساییکردنەوەی ژیان</string>
+    <string name="topic10244">لاساییکەرەوەکانی هۆکاری گواستنەوە</string>
+    <string name="topic10245">یارییە وەرزشییەکان</string>
+    <string name="topic10246">یارییەکانی بەڕێوەبردنی وەرزش</string>
+    <string name="topic10247">یارییە ستراتیژییەکان</string>
+    <string name="topic10248">مۆد و زیادکراوەکانی یاریی ڤیدیۆیی</string>
+    <string name="topic10249">یارییە پەروەردەیییەکان</string>
+    <string name="topic10250">چالاکی و یارییە خێزانییەکان</string>
+    <string name="topic10251">وێنەکێشان و ڕەنگکردن</string>
+    <string name="topic10252">یارییەکانی پۆشاک و مۆدە</string>
+    <string name="topic10253">مەتەڵ و فیکرییەکان</string>
+    <string name="topic10254">یارییەکانی ڕۆڵگێڕان</string>
+    <string name="topic10255">تێنسی سەر مێز</string>
+    <string name="topic10256">یارییەکانی کاشی</string>
+    <string name="topic10257">یارییەکانی وشە</string>
+    <string name="topic10258">خولیا و کات بەسەربردن</string>
+    <string name="topic10259">ساڵیادەکان</string>
+    <string name="topic10260">ڕۆژانی لەدایکبوون</string>
+    <string name="topic10261">مەلەوانی ژێرئاو و چالاکییەکانی ژێرئاو</string>
+    <string name="topic10262">هونەرەکانی دەزوو و ڕستن</string>
+    <string name="topic10263">دەرەوەی ماڵ و سروشت</string>
+    <string name="topic10264">ماسیگری</string>
+    <string name="topic10265">ڕاوکردن و نیشانەشکێنی</string>
+    <string name="topic10266">پەینتبۆڵ</string>
+    <string name="topic10267">کۆنتڕۆڵی ڕادیۆیی و مۆدێلسازی</string>
+    <string name="topic10268">ئاهەنگەکانی هاوسەرگیری</string>
+    <string name="topic10269">ماڵ و باخچە</string>
+    <string name="topic10270">باخداری</string>
+    <string name="topic10271">دیکۆری ماڵ و ناوەوە</string>
+    <string name="topic10272">ئامێرەکانی ناوماڵ</string>
+    <string name="topic10273">نۆژەنکردنەوە و چاککردنی ماڵ</string>
+    <string name="topic10274">سەلامەتی و پاراستنی ماڵ</string>
+    <string name="topic10275">پێداویستییەکانی ناوماڵ</string>
+    <string name="topic10276">دیزاینی باخچە و سروشت</string>
+    <string name="topic10277">ئینتەرنێت و پەیوەندییەکان</string>
+    <string name="topic10278">ئیمەیڵ و نامەبەری</string>
+    <string name="topic10279">پۆستی ئەلیکترۆنی</string>
+    <string name="topic10280">کورتەنامە و نامەبەریی دەستبەجێ</string>
+    <string name="topic10281">چاتی دەنگی و ڤیدیۆیی</string>
+    <string name="topic10282">دابینکەرانی خزمەتگوزاریی ئینتەرنێت</string>
+    <string name="topic10283">دابینکەرانی خزمەتگوزاریی تەلەفۆن</string>
+    <string name="topic10284">زەنگی مۆبایل و ڕووکارەکان</string>
+    <string name="topic10285">بزوێنەرەکانی گەڕان</string>
+    <string name="topic10286">مۆبایلە زیرەکەکان</string>
+    <string name="topic10287">کۆنفرانسی دووربەدوور</string>
+    <string name="topic10288">ئەپەکانی وێب و ئامرازەکانی سەرھێڵ</string>
+    <string name="topic10289">خزمەتگوزارییەکانی وێب</string>
+    <string name="topic10290">هەورە-کۆگا</string>
+    <string name="topic10291">دیزاین و گەشەپێدانی وێب</string>
+    <string name="topic10292">مێوانداریکردنی وێب</string>
+    <string name="topic10293">کار و پەروەردە</string>
+    <string name="topic10294">پەروەردە</string>
+    <string name="topic10295">کۆنفرانس و بڵاوکراوە ئەکادیمییەکان</string>
+    <string name="topic10296">کۆلێژ و زانکۆکان</string>
+    <string name="topic10297">فێربوونی لەدوورەوە</string>
+    <string name="topic10298">پەروەردەی سەرەتاییی منداڵان</string>
+    <string name="topic10299">باخچەی ساوایان</string>
+    <string name="topic10300">خوێندنی ماڵەوە</string>
+    <string name="topic10301">تاقیکردنەوە ستانداردەکان و وەرگرتن</string>
+    <string name="topic10302">سەرچاوەکانی وانەوتنەوە و پۆل</string>
+    <string name="topic10303">پەروەردەی پیشەیی و بەردەوام</string>
+    <string name="topic10304">کارەکان</string>
+    <string name="topic10305">سەرچاوە و پلاندانانی پیشەیی</string>
+    <string name="topic10306">لیستەکانی هەلی کار</string>
+    <string name="topic10307">یاسا و حکوومەت</string>
+    <string name="topic10308">تاوان و دادپەروەری</string>
+    <string name="topic10309">یاسایی</string>
+    <string name="topic10310">خزمەتگوزارییە یاسایییەکان</string>
+    <string name="topic10311">هەواڵ</string>
+    <string name="topic10312">هەواڵە ئابوورییەکان</string>
+    <string name="topic10313">هەواڵە ناوخۆیییەکان</string>
+    <string name="topic10314">یەکگرتن و کڕینەوەی کۆمپانیاکان</string>
+    <string name="topic10315">ڕۆژنامەکان</string>
+    <string name="topic10316">سیاسەت</string>
+    <string name="topic10317">هەواڵە وەرزشییەکان</string>
+    <string name="topic10318">کەشوهەوا</string>
+    <string name="topic10319">هەواڵەکانی جیهان</string>
+    <string name="topic10320">کۆمەڵگە سەرھێڵەکان</string>
+    <string name="topic10321">کلیپ ئارت و وێنەی جووڵاو</string>
+    <string name="topic10322">ناسین و پەیوەندییەکان</string>
+    <string name="topic10323">کۆکردنەوەی فید و دڵخوازە کۆمەڵایەتییەکان</string>
+    <string name="topic10324">هاوبەشکردن و مێوانداریکردنی فایل</string>
+    <string name="topic10325">دابینکەرانی مەکۆ و چات</string>
+    <string name="topic10326">مایکرۆبلۆگینگ</string>
+    <string name="topic10327">هاوبەشکردنی وێنە و ڤیدیۆ</string>
+    <string name="topic10328">هاوبەشکردنی وێنە</string>
+    <string name="topic10329">هاوبەشکردنی ڤیدیۆ</string>
+    <string name="topic10330">ڕووکارەکان</string>
+    <string name="topic10331">ئەپ و زیادکراوەکانی تۆڕی کۆمەڵایەتی</string>
+    <string name="topic10332">تۆڕە کۆمەڵایەتییەکان</string>
+    <string name="topic10333">خەڵک و کۆمەڵگە</string>
+    <string name="topic10334">خێزان و پەیوەندییەکان</string>
+    <string name="topic10335">بنەچە و ڕەچەڵەکناسی</string>
+    <string name="topic10336">هاوسەرگیری</string>
+    <string name="topic10337">پەروەردەکردنی منداڵ</string>
+    <string name="topic10338">هەڵگرتنەوەی منداڵ</string>
+    <string name="topic10339">کۆرپە و ساواکان</string>
+    <string name="topic10340">پاراستنی سەلامەتیی منداڵان لە ئینتەرنێت</string>
+    <string name="topic10341">ڕۆمانسی</string>
+    <string name="topic10342">خەیاڵی زانستی و فەنتازیا</string>
+    <string name="topic10343">ئاژەڵی ماڵی و گیانلەبەران</string>
+    <string name="topic10344">خواردن و پێداویستییەکانی ئاژەڵی ماڵی</string>
+    <string name="topic10345">ئاژەڵە ماڵییەکان</string>
+    <string name="topic10346">باڵندەکان</string>
+    <string name="topic10347">پشیلەکان</string>
+    <string name="topic10348">سەگەکان</string>
+    <string name="topic10349">ماسی و ئاکواریۆم</string>
+    <string name="topic10350">خشۆکەکان و دووژینەکان</string>
+    <string name="topic10351">پزیشکانی ڤێتێرنەری</string>
+    <string name="topic10352">خانووبەرە</string>
+    <string name="topic10353">پارچە زەوی و خاک</string>
+    <string name="topic10354">موڵکی پشوو و بەشداریکردنی کات</string>
+    <string name="topic10355">سەرچاوە و زانیارینامە</string>
+    <string name="topic10356">لیستە بازرگانی و کەسییەکان</string>
+    <string name="topic10357">سەرچاوەی گشتی</string>
+    <string name="topic10358">ژمێرەر و ئامرازەکانی سەرچاوە</string>
+    <string name="topic10359">فەرهەنگ و ئینسایکلۆپیدیاکان</string>
+    <string name="topic10360">سەرچاوە پەروەردەیییەکان</string>
+    <string name="topic10361">چۆنیەتی ئەنجامدان</string>
+    <string name="topic10362">کات و ساڵنامەکان</string>
+    <string name="topic10363">سەرچاوەکانی زمان</string>
+    <string name="topic10364">فێربوونی زمانی بیانی</string>
+    <string name="topic10365">ئامراز و سەرچاوەکانی وەرگێڕان</string>
+    <string name="topic10366">نەخشەکان</string>
+    <string name="topic10367">زانست</string>
+    <string name="topic10368">واقیعی زیادکراو و مەجازی</string>
+    <string name="topic10369">زانستە بایۆلۆجییەکان</string>
+    <string name="topic10370">جینات</string>
+    <string name="topic10371">کیمیا</string>
+    <string name="topic10372">ژینگەناسی و ژینگە</string>
+    <string name="topic10373">زەویناسی</string>
+    <string name="topic10374">فێربوونی ئامێر و ژیریی دەستکرد</string>
+    <string name="topic10375">بیرکاری</string>
+    <string name="topic10376">فیزیا</string>
+    <string name="topic10377">ڕۆبۆتیکس</string>
+    <string name="topic10378">کڕین</string>
+    <string name="topic10379">کەلوپەلی کۆن و کۆکراوەکان</string>
+    <string name="topic10380">پۆشاک</string>
+    <string name="topic10381">جلوبەرگی منداڵان</string>
+    <string name="topic10382">جلوبەرگی نمایشی</string>
+    <string name="topic10383">جلوبەرگی پیاوان</string>
+    <string name="topic10384">جلوبەرگی ژنان</string>
+    <string name="topic10385">ڕیکلامە بچووکەکان</string>
+    <string name="topic10386">سەرچاوەکانی بەکاربەر</string>
+    <string name="topic10387">کووپۆن و ئۆفەرەکانی داشکاندن</string>
+    <string name="topic10388">کارت و بەرنامەکانی وەفاداری</string>
+    <string name="topic10389">پشتگیریی تەکنیکی و چاککردنەوە</string>
+    <string name="topic10390">گوڵەکان</string>
+    <string name="topic10391">کارتەکانی پیرۆزبایی</string>
+    <string name="topic10392">پێداویستییەکانی ئاهەنگ و پشوو</string>
+    <string name="topic10393">دەروازەکانی کڕین</string>
+    <string name="topic10394">وەرزشی</string>
+    <string name="topic10395">تۆپی پێی ئەمریکی</string>
+    <string name="topic10396">تۆپی پێی ئوسترالی</string>
+    <string name="topic10397">پێشبڕکێی ئۆتۆمبێل</string>
+    <string name="topic10398">بەیسبۆڵ</string>
+    <string name="topic10399">تۆپی سەبەتە</string>
+    <string name="topic10400">بۆڵینگ</string>
+    <string name="topic10401">بۆکسێن</string>
+    <string name="topic10402">چەپڵەلێدان و هاندەری</string>
+    <string name="topic10403">وەرزشەکانی کۆلێژ</string>
+    <string name="topic10404">کریکێت</string>
+    <string name="topic10405">پاسکیلسواری</string>
+    <string name="topic10406">ئەسپسواری</string>
+    <string name="topic10407">وەرزشە مەترسیدارەکان</string>
+    <string name="topic10408">شاخەوانی و سەرکەوتن</string>
+    <string name="topic10409">وەرزشە خەیاڵییەکان</string>
+    <string name="topic10410">گۆڵف</string>
+    <string name="topic10411">جیمناستیک</string>
+    <string name="topic10412">هۆکی</string>
+    <string name="topic10413">خلیسکێنەی سەر سەهۆڵ</string>
+    <string name="topic10414">هونەرە جەنگییەکان</string>
+    <string name="topic10415">پێشبڕکێی ماتۆڕسکیل</string>
+    <string name="topic10416">ئۆڵۆمپیاد</string>
+    <string name="topic10417">ڕەگبی</string>
+    <string name="topic10418">ڕاکردن و ڕۆیشتن</string>
+    <string name="topic10419">خلیسکێنەی بەفر و سنۆبۆرد</string>
+    <string name="topic10420">تۆپی پێ</string>
+    <string name="topic10421">شەپۆلسواری</string>
+    <string name="topic10422">مەلەکردن</string>
+    <string name="topic10423">تێنس</string>
+    <string name="topic10424">گۆڕەپان و مەیدان</string>
+    <string name="topic10425">تۆپی بالە</string>
+    <string name="topic10426">زۆرانبازی</string>
+    <string name="topic10427">گەشت و گواستنەوە</string>
+    <string name="topic10428">گەشتی سەرکێشی</string>
+    <string name="topic10429">گەشتی ئاسمانی</string>
+    <string name="topic10430">گەشتی بازرگانی</string>
+    <string name="topic10431">بەکرێگرتنی ئۆتۆمبێل</string>
+    <string name="topic10432">گەشتە دەریایییەکان و کەشتی</string>
+    <string name="topic10433">گەشتی خێزانی</string>
+    <string name="topic10434">مانگی هەنگوینی و گەشتی ڕۆمانسی</string>
+    <string name="topic10435">هۆتێل و شوێنی مانەوە</string>
+    <string name="topic10436">پاس و شەمەندەفەری دوورمەودا</string>
+    <string name="topic10437">گەشتی کەم-تێچوو و ساتەوەختی کۆتایی</string>
+    <string name="topic10438">جانتا و پێداویستییەکانی گەشت</string>
+    <string name="topic10439">شوێنە گەشتیارییەکان</string>
+    <string name="topic10440">کەناراو و دوورگەکان</string>
+    <string name="topic10441">پارک و باخچە هەرێمییەکان</string>
+    <string name="topic10442">پارکە بابەتییەکان</string>
+    <string name="topic10443">باخچەکانی ئاژەڵان</string>
+    <string name="topic10444">پلاندانەرانی هاتوچۆ و ڕێگا</string>
+    <string name="topic10445">ئاژانس و خزمەتگوزارییەکانی گەشتیاری</string>
+    <string name="topic10446">ڕێبەر و یاداشتەکانی گەشت</string>
 </resources>

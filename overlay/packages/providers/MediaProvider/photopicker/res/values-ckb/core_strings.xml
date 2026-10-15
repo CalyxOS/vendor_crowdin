@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2024 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="photopicker_application_label" translation_description="Label for the application that handles picking media files to share with other apps. [CHAR_LIMIT=NONE]">وێنەکان و ڤیدیۆکان</string>
+  <string name="photopicker_media_item" translation_description="Accessibility text denoting an element that represents an individual photo or video in a grid of selectable media. [CHAR_LIMIT=NONE]">میدیا</string>
+  <string name="photopicker_item_content_desc"><xliff:g id="item_name" example="Photo">%1$s</xliff:g> گیراوە لە <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%2$s</xliff:g></string>
+  <string name="photopicker_selected_item_content_desc"><xliff:g id="item_name" example="Photo">%1$s</xliff:g>ی هەڵبژێردراو، گیراوە لە <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%2$s</xliff:g></string>
+  <string name="photopicker_video_item_content_desc">ڤیدیۆ تۆمارکراوە لە <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%1$s</xliff:g> بە ماوەی <xliff:g id="duration" example="00:03">%2$s</xliff:g></string>
+  <string name="photopicker_selected_video_item_content_desc">ڤیدیۆی هەڵبژێردراو، گیراوە لە <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%1$s</xliff:g>، ماوەکەی <xliff:g id="duration" example="00:03">%2$s</xliff:g></string>
+  <string name="photopicker_date_scrubber_current_date_desc">لە ئێستادا پیشان دەدرێت: <xliff:g id="date" example="July 2025">%1$s</xliff:g></string>
+  <string name="photopicker_date_scrubber_cursor_desc">نیشاندەری ڕاماڵینی بەروار</string>
+  <string name="photopicker_photo">وێنە</string>
+  <string name="photopicker_gif">GIF</string>
+  <string name="photopicker_motion_photo">وێنەی جوڵاو</string>
+  <string name="photopicker_item_selected" translation_description="Accessibility text denoting an individual photo is selected in a grid of photos. [CHAR_LIMIT=NONE]">هەڵبژێردراو</string>
+  <string name="photopicker_item_not_selected" translation_description="Accessibility text denoting an individual photo is not selected in a grid of photos. [CHAR_LIMIT=NONE]">دیاری نەکراوە</string>
+  <string name="photopicker_select_action_description" translation_description="Accessibility text for describing the action to select. [CHAR_LIMIT=NONE]">دیاریکردن</string>
+  <string name="photopicker_deselect_action_description" translation_description="Accessibility text for describing the action to deselect. [CHAR_LIMIT=NONE]">لابردنی دیاریکردن</string>
+  <string name="photopicker_done_button_label" translation_description="Button label that confirms the selected items and closes the photopicker.">تەواو</string>
+  <string name="photopicker_close_button_description" translation_description="Button accessibility description of the close button which exits the photopicker. [CHAR_LIMIT=NONE]">داخستن</string>
+  <string name="photopicker_clear_selection_button_description" translation_description="Button Accessibility description that unselects all selected media items.">لابردنی دیاریکردنی هەمووی</string>
+  <string name="photopicker_selection_size_description" translation_description="Accessibility description for selection count in the selection bar."><xliff:g id="count" example="5">%1$s</xliff:g> وێنە یان ڤیدیۆ هەڵبژێردراوە</string>
+  <string name="photopicker_selection_limit_exceeded_snackbar" translation_description="">تا <xliff:g id="count" example="42">%1$s</xliff:g> بڕگە هەڵبژێرە</string>
+  <string name="photopicker_photos_nav_button_label" translation_description="Button label that gives the user the option to navigate to a grid of their photos.">وێنەکان</string>
+  <string name="photopicker_albums_nav_button_label" translation_description="Button label that gives the user the option to navigate to a grid of their albums.">ئەلبومەکان</string>
+  <string name="photopicker_videos_nav_button_label" translation_description="Button label that gives the user the option to navigate to a grid of their videos.">ڤیدیۆکان</string>
+  <string name="photopicker_photos_empty_state_title" translation_description="Title of the message shown to the user when there are no photos to show">هێشتا هیچ وێنەیەک نییە</string>
+  <string name="photopicker_photos_empty_state_body" translation_description="Message shown to the user when no photos are able to be shown underneath the primary message title">دەست بکە بە گرتنی وێنە و ڤیدیۆ</string>
+  <string name="photopicker_camera_empty_state_body" translation_description="Title of the message shown to the user when there are no photos in the camera album">ئەو وێنە و ڤیدیۆیانەی لەلایەن ئەپی کامێراکەتەوە گیراون، لێرە دەردەکەون</string>
+  <string name="photopicker_favorites_empty_state_title" translation_description="Title of the message shown to the user when there are no favorite photos to show">هێشتا هیچ دڵخوازێک نییە</string>
+  <string name="photopicker_favorites_empty_state_body" translation_description="Message shown to the user when there are no favorite photos to show">ئەو وێنە و ڤیدیۆیانەی وەک دڵخواز یان ئەستێرەدار دیاری کراون، لێرە دەردەکەون</string>
+  <string name="photopicker_videos_empty_state_title" translation_description="Title of the message shown to the user when there are no videos to show">هێشتا هیچ ڤیدیۆیەک نییە</string>
+  <string name="photopicker_videos_empty_state_body" translation_description="Message shown to the user when there are no videos to show">ئەو ڤیدیۆیانەی لەلایەن ئەپی کامێراکەتەوە گیراون، پاشەکەوت کراون، یان هاوبەش کراون لێرە دەردەکەون</string>
+  <string name="photopicker_back_option" translation_description="Button content description that gives the user the option to navigate back to the parent view.">گەڕانەوە</string>
+  <string name="photopicker_dismiss_banner_button_label" translation_description="Button label that gives the user the option to dismiss an informational banner">لابردن</string>
+  <string name="photopicker_media_grid_content_description" translation_description="Text for describing the media grid">تۆڕی میدیا</string>
+  <string name="photopicker_banner_no_network_connection_message" translation_description="Banner message informing the user there is no internet connection.">پەیوەست بە بە Wi-Fi یان داتای مۆبایل بۆ هەڵبژاردنی وێنە و ڤیدیۆ لە <xliff:g id="app_name" example="Cloud media provider">%1$s</xliff:g></string>
+  <string name="photopicker_banner_internet_connection_required_message" translation_description="Banner message informing the user to connect to Wi-Fi or mobile network.">پەیوەست بە بە Wi-Fi یان تۆڕی مۆبایل تا وێنە و ڤیدیۆکانی <xliff:g id="media_provider" example="Cloud media provider">%1$s</xliff:g> بەردەست بن</string>
+  <string name="photopicker_banner_no_network_connection_title" translation_description="Banner message informing the user there is no internet connection.">پەیوەستبوون بە ئینتەرنێت پێویستە</string>
+  <string name="photopicker_offline_banner_go_to_settings_button_label" translation_description="Button text for the banner shown in the photo grid page when offline to take to Settings page.">بچۆ بۆ ڕێکخستنەکان</string>
+  <string name="photopicker_offline_banner_cloud_app_placeholder" translation_description="App placeholder text for cloud app name in the Photo grid offline banner.">ئەپێکی میدیای هەور</string>
+  <string name="photopicker_mediagrid_placeholder" translation_description="Accessibility text denoting an element that represents a loading item in a grid of media.">بارکردنی بڕگەی میدیا</string>
+</resources>
