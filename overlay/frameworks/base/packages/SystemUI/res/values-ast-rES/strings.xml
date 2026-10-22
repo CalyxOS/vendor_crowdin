@@ -32,8 +32,6 @@
     <string name="status_bar_settings_auto_rotation">Voltéu de pantalla automáticu</string>
     <string name="usb_device_permission_prompt">¿Quies permitir a «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» qu\'acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
     <string name="usb_device_permission_prompt_warn">¿Quies permitir a «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» qu\'acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?\nA esta aplicación nun se-y concedió\'l permisu de grabación, mas podría capturar audiu pente esti preséu USB.</string>
-    <string name="usb_audio_device_permission_prompt_title">¿Quies permitir a «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» qu\'acceda a «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
-    <string name="usb_audio_device_confirm_prompt_title">¿Quies abrir «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» pa remanar «<xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g>»?</string>
     <string name="usb_audio_device_prompt_warn">A esta aplicación nun se-y concedió\'l permisu de grabación, mas podría capturar audiu pente esti preséu USB. Quiciabes l\'aplicación «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» impida qu\'escuches les llamaes, los avisos y les alarmes si la uses.</string>
     <string name="usb_audio_device_prompt">Quiciabes l\'aplicación «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» impida qu\'escuches les llamaes, los avisos y les alarmes si la uses.</string>
     <string name="usb_accessory_permission_prompt">¿Quies permitir a «<xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g>» qu\'acceda a «<xliff:g id="usb_accessory" example="USB Dock">%2$s</xliff:g>»?</string>
@@ -42,6 +40,7 @@
     <string name="usb_accessory_confirm_prompt">¿Quies abrir «<xliff:g id="activity">%1$s</xliff:g>» pa remanar «<xliff:g id="usb_accessory">%2$s</xliff:g>»?</string>
     <string name="usb_accessory_uri_prompt">Nun hai aplicaciones instalaes que funcionen con esti accesoriu USB. Más información: <xliff:g id="URL">%1$s</xliff:g></string>
     <string name="title_usb_accessory">Accesoriu USB</string>
+    <string name="usb_device_dialog_cancel_button">Encaboxar</string>
     <string name="label_view">Ver</string>
     <string name="always_use_device">Abrir siempre «<xliff:g id="application">%1$s</xliff:g>» cuando se conecte «<xliff:g id="usb_device">%2$s</xliff:g>»</string>
     <string name="always_use_accessory">Abrir siempre «<xliff:g id="application">%1$s</xliff:g>» cuando se conecte «<xliff:g id="usb_accessory">%2$s</xliff:g>»</string>
@@ -51,6 +50,7 @@
     <string name="usb_debugging_allow">Permitir</string>
     <string name="usb_debugging_secondary_user_title">Depuración per USB non permitida</string>
     <string name="usb_debugging_secondary_user_message">L\'usuariu que tien la sesión aniciada nesti preséu nun pue activar la depuración per USB. Pa usar esta función, cambia al usuariu alministrador.</string>
+    <string name="usb_authorization_allow">Permitir</string>
     <string name="hdmi_cec_set_menu_language_title">¿Quies camudar la llingua del sistema a «<xliff:g id="language" example="German">%1$s</xliff:g>»?</string>
     <string name="hdmi_cec_set_menu_language_description">Otru preséu solicitó camudar la llingua\'l sistema</string>
     <string name="hdmi_cec_set_menu_language_accept">Camudar la llingua</string>
@@ -82,12 +82,11 @@
         facer captures de pantalla</string>
     <string name="screenshot_blocked_by_admin">L\'alministrador de TI bloquió la fechura de captures de pantalla</string>
     <string name="screenshot_edit_label">Editar</string>
-    <string name="screenshot_edit_description">Editar la captura de pantalla</string>
     <string name="screenshot_share_label">Compartir</string>
-    <string name="screenshot_share_description">Compartir la captura de pantalla</string>
     <string name="screenshot_scroll_label">Capturar más</string>
     <string name="screenshot_dismiss_description">Escartar la captura de pantalla</string>
     <string name="screenshot_dismiss_work_profile">Escartar el mensaxe del perfil llaboral</string>
+    <string name="screenshot_open_in_folder_label">Ver</string>
     <string name="screenshot_preview_description">Previsualización de la captura de pantalla</string>
     <string name="screenshot_top_boundary_pct"><xliff:g id="percent" example="50">%1$d</xliff:g> por cientu del marxe cimeru</string>
     <string name="screenshot_bottom_boundary_pct"><xliff:g id="percent" example="50">%1$d</xliff:g> por cientu del marxe baxeru</string>
@@ -119,6 +118,8 @@
     <string name="screenrecord_ongoing_screen_and_audio">Grabando la pantalla y l\'audiu</string>
     <string name="screenrecord_taps_label">Amosar los toques na pantalla</string>
     <string name="screenrecord_stop_label">Parar</string>
+    <string name="screenrecord_stop_description">Dexar de grabar</string>
+    <string name="screenrecord_start_description">Aniciar la grabación</string>
     <string name="screenrecord_share_label">Compartir</string>
     <string name="screenrecord_save_title">Guardóse la grabación de pantalla</string>
     <string name="screenrecord_save_text">Toca pa vela</string>
@@ -130,6 +131,7 @@
     <string name="screenrecord_stop_dialog_button">Dexar de grabar</string>
     <string name="screen_record_entire_screen">Tola pantalla</string>
     <string name="screen_record_undo">Desfacer</string>
+    <string name="screen_record_take_another">Novedaes</string>
     <string name="screen_record_edit">Editar</string>
     <string name="screen_record_delete">Desaniciar</string>
     <string name="screen_record_play">Reproducir</string>
@@ -138,6 +140,7 @@
     <string name="screen_capture_fullscreen_record_button">Grabar tola pantalla</string>
     <string name="screen_capture_toolbar_screenshot_button">Captura de pantalla</string>
     <string name="screen_share_toolbar_share_button">Compartir</string>
+    <string name="screen_share_audio_sharing_text">Compartir l\'audiu</string>
     <string name="screen_capture_toolbar_fullscreen_button_record_a11y">Grabar tola pantalla</string>
     <string name="screen_capture_device_audio">Audiu del preséu</string>
     <string name="screen_capture_microphone_audio">Micrófonu</string>
@@ -194,8 +197,6 @@
     <string name="biometric_dialog_face_icon_description_authenticated">Cara autenticada</string>
     <string name="biometric_dialog_face_icon_description_confirmed">Confirmóse</string>
     <string name="biometric_dialog_tap_confirm">Toca «Confirmar» pa completar</string>
-    <string name="biometric_dialog_tap_confirm_with_face">Desbloquióse cola cámara</string>
-    <string name="biometric_dialog_tap_confirm_with_face_alt_1">Desbloquióse cola cara. Primi pa siguir.</string>
     <string name="biometric_dialog_tap_confirm_with_face_alt_2">Reconocióse la cara. Primi pa siguir.</string>
     <string name="biometric_dialog_tap_confirm_with_face_alt_3">Reconocióse la cara. Primi l\'iconu de desbloquéu pa siguir.</string>
     <string name="biometric_dialog_authenticated">Autenticóse</string>
@@ -230,17 +231,11 @@
     <string name="fingerprint_re_enroll_dialog_content">Pa volver configurar el desbloquéu cola buelga, van desaniciase les imáxenes y los modelos de les buelgues actuales.\n\nDempués de desanicialos, tienes de volver configurar el desbloquéu cola buelga pa desbloquiar el preséu o verificar la to identidá.</string>
     <string name="fingerprint_re_enroll_dialog_content_singular">Pa volver configurar el desbloquéu cola buelga, van desaniciase les imáxenes y el modelu de les buelgues actuales.\n\nDempués de desanicialos, tienes de volver configurar el desbloquéu cola buelga pa desbloquiar el preséu o verificar la to identidá.</string>
     <string name="fingerprint_reenroll_failure_dialog_content">Nun se pudo configurar el desbloquéu cola buelga. Ve a Configuración y volvi tentalo.</string>
-    <string name="face_re_enroll_notification_title">Volvi configurar el desbloquéu facial</string>
-    <string name="face_re_enroll_notification_name">Desbloquéu facial</string>
-    <string name="face_re_enroll_dialog_title">Configura\'l desbloquéu facial</string>
-    <string name="face_re_enroll_dialog_content">Pa volver configurar el desbloquéu facial, va desaniciase\'l modelu facial actual.\n\nVas tener de volver configurar esta función pa usar la cara y desbloquiar el preséu.</string>
-    <string name="face_reenroll_failure_dialog_content">Nun se pudo configurar el desbloquéu facial. Ve a Configuración y volvi tentalo.</string>
     <string name="fingerprint_dialog_touch_sensor">Toca\'l sensor de buelgues</string>
     <string name="fingerprint_dialog_authenticated_confirmation">Primi l\'iconu de desbloquiar pa siguir</string>
     <string name="fingerprint_dialog_use_fingerprint_instead">Nun se reconoció la cara. Usa la buelga.</string>
     <string name="keyguard_face_failed">Nun se reconoció la cara</string>
     <string name="keyguard_suggest_fingerprint">Usa la buelga</string>
-    <string name="keyguard_face_unlock_unavailable">El desbloquéu facial nun ta disponible</string>
     <string name="accessibility_bluetooth_connected">Conectóse\'l Bluetooth.</string>
     <string name="accessibility_bluetooth_device_icon">Iconu de preséu Bluetooth</string>
     <string name="accessibility_bluetooth_device_settings_gear">Calca pa configurar los detalles del preséu</string>
@@ -286,6 +281,8 @@
     <string name="accessibility_location_active">Solicitúes de llocalización actives</string>
     <string name="accessibility_sensors_off_active">Activóse «Desactivar los sensores»</string>
     <string name="accessibility_clear_all">Quitar tolos avisos.</string>
+    <string name="accessibility_notification_bell">Avisos</string>
+    <string name="accessibility_status_bar_assistant_icon">Asistente</string>
     <string name="notification_group_overflow_indicator">+ <xliff:g id="number" example="3">%s</xliff:g></string>
     <string name="notification_group_overflow_description">{count, plural,
         one {}=1 {# avisu más nel grupu.}
@@ -320,7 +317,6 @@
     <string name="quick_settings_rotation_unlocked_label">Voltéu automáticu</string>
     <string name="accessibility_quick_settings_rotation">Voltéu de pantalla automáticu</string>
     <string name="quick_settings_location_label">Llocalización</string>
-    <string name="quick_settings_screensaver_label">Curiapantalles</string>
     <string name="quick_settings_camera_label">Accesu a la cámara</string>
     <string name="quick_settings_mic_label">Accesu al micrófonu</string>
     <string name="quick_settings_camera_mic_available">Disponible</string>
@@ -338,6 +334,7 @@
     <string name="quick_settings_cast_device_default_name">Preséu ensin nome</string>
     <string name="quick_settings_cast_detail_empty_text">Nun hai nengún preséu disponible</string>
     <string name="quick_settings_cast_no_network">Nun hai conexón ethernet nin Wi\u2011Fi</string>
+    <string name="quick_settings_audio_input_section_title">Entrada</string>
     <string name="quick_settings_brightness_dialog_title">Brillu</string>
     <string name="quick_settings_inversion_label">Inversión de colores</string>
     <string name="quick_settings_color_correction_label">Correición del color</string>
@@ -411,42 +408,57 @@
     <string name="sensor_privacy_start_use_mic_blocked_dialog_title">El micrófonu ta bloquiáu</string>
     <string name="sensor_privacy_start_use_camera_blocked_dialog_title">La cámara ta bloquiada</string>
     <string name="sensor_privacy_start_use_mic_camera_blocked_dialog_title">El micrófonu y la cámara tán bloquiaos</string>
-    <string name="sensor_privacy_start_use_mic_blocked_dialog_content">        Pa desbloquialu, movi l\'interruptor de privacidá del preséu a la posición del micrófonu
+    <string name="sensor_privacy_start_use_mic_blocked_dialog_content">
+        Pa desbloquialu, movi l\'interruptor de privacidá del preséu a la posición del micrófonu
         activáu pa permitir l\'accesu al micrófonu. Consulta\'l manual del preséu pa llocalizar
         l\'interruptor de privacidá.
     </string>
-    <string name="sensor_privacy_start_use_camera_blocked_dialog_content">        Pa desbloquiala, movi l\'interruptor de privacidá del preséu a la posición de la cámara
+    <string name="sensor_privacy_start_use_camera_blocked_dialog_content">
+        Pa desbloquiala, movi l\'interruptor de privacidá del preséu a la posición de la cámara
         activada pa permitir l\'accesu a la cámara. Consulta\'l manual del preséu pa llocalizar
         l\'interruptor de privacidá.
     </string>
-    <string name="sensor_privacy_start_use_mic_camera_blocked_dialog_content">        Pa desbloquialos, movi l\'interruptor de privacidá del preséu a la posición de desbloquéu pa
+    <string name="sensor_privacy_start_use_mic_camera_blocked_dialog_content">
+        Pa desbloquialos, movi l\'interruptor de privacidá del preséu a la posición de desbloquéu pa
         permitir l\'accesu. Consulta\'l manual del preséu pa llocalizar l\'interruptor de privacidá.
     </string>
-    <string name="sensor_privacy_mic_unblocked_toast_content">        El micrófonu ta disponible
+    <string name="sensor_privacy_mic_unblocked_toast_content">
+        El micrófonu ta disponible
     </string>
-    <string name="sensor_privacy_camera_unblocked_toast_content">        La cámara ta disponible
+    <string name="sensor_privacy_camera_unblocked_toast_content">
+        La cámara ta disponible
     </string>
-    <string name="sensor_privacy_mic_camera_unblocked_toast_content">        El micrófonu y la cámara tán disponibles
+    <string name="sensor_privacy_mic_camera_unblocked_toast_content">
+        El micrófonu y la cámara tán disponibles
     </string>
-    <string name="sensor_privacy_mic_turned_on_dialog_title">        Activóse\'l micrófonu
+    <string name="sensor_privacy_mic_turned_on_dialog_title">
+        Activóse\'l micrófonu
     </string>
-    <string name="sensor_privacy_mic_turned_off_dialog_title">        Desactivóse\'l micrófonu
+    <string name="sensor_privacy_mic_turned_off_dialog_title">
+        Desactivóse\'l micrófonu
     </string>
-    <string name="sensor_privacy_mic_unblocked_dialog_content">        El micrófonu ta activáu pa toles aplicaciones y tolos servicios.
+    <string name="sensor_privacy_mic_unblocked_dialog_content">
+        El micrófonu ta activáu pa toles aplicaciones y tolos servicios.
     </string>
-    <string name="sensor_privacy_mic_blocked_no_exception_dialog_content">        L\'accesu al micrófonu ta desactiváu pa toles aplicaciones y tolos servicios.
+    <string name="sensor_privacy_mic_blocked_no_exception_dialog_content">
+        L\'accesu al micrófonu ta desactiváu pa toles aplicaciones y tolos servicios.
         Pues activalu en Configuración &gt; Privacidá &gt; Micrófonu.
     </string>
-    <string name="sensor_privacy_mic_blocked_with_exception_dialog_content">        L\'accesu al micrófonu ta desactiváu pa toles aplicaciones y tolos servicios.
+    <string name="sensor_privacy_mic_blocked_with_exception_dialog_content">
+        L\'accesu al micrófonu ta desactiváu pa toles aplicaciones y tolos servicios.
         Pues camudar esta opción en Configuración &gt; Privacidá &gt; Micrófonu.
     </string>
-    <string name="sensor_privacy_camera_turned_on_dialog_title">        Activóse la cámara
+    <string name="sensor_privacy_camera_turned_on_dialog_title">
+        Activóse la cámara
     </string>
-    <string name="sensor_privacy_camera_turned_off_dialog_title">        Desactivóse la cámara
+    <string name="sensor_privacy_camera_turned_off_dialog_title">
+        Desactivóse la cámara
     </string>
-    <string name="sensor_privacy_camera_unblocked_dialog_content">        La cámara ta activada pa toles aplicaciones y tolos servicios.
+    <string name="sensor_privacy_camera_unblocked_dialog_content">
+        La cámara ta activada pa toles aplicaciones y tolos servicios.
     </string>
-    <string name="sensor_privacy_camera_blocked_dialog_content">        L\'accesu a la cámara ta desactiváu pa toles aplicaciones y tolos servicios.
+    <string name="sensor_privacy_camera_blocked_dialog_content">
+        L\'accesu a la cámara ta desactiváu pa toles aplicaciones y tolos servicios.
     </string>
     <string name="sensor_privacy_htt_blocked_dialog_content">Pa usar el botón del micrófonu, activa l\'accesu al micrófonu en Configuración</string>
     <string name="sensor_privacy_dialog_open_settings">Abrir Configuración</string>
@@ -466,15 +478,10 @@
     <string name="tap_again">Volvi tocar</string>
     <string name="keyguard_unlock">Esliza p\'arriba p\'abrir</string>
     <string name="keyguard_unlock_press">Primi l\'iconu de desbloquéu p\'abrir</string>
-    <string name="keyguard_face_successful_unlock_swipe">Desbloquióse cola cara. Esliza p\'arriba p\'abrir.</string>
-    <string name="keyguard_face_successful_unlock_press">Desbloquióse cola cara. Primi\'l botón de desbloquéu p\'abrir.</string>
-    <string name="keyguard_face_successful_unlock_press_alt_1">Desbloquióse cola cara. Primi p\'abrir.</string>
     <string name="keyguard_face_successful_unlock_press_alt_2">Reconocióse la cara. Primi p\'abrir.</string>
     <string name="keyguard_face_successful_unlock_press_alt_3">Reconocióse la cara. Primi\'l botón de desbloquéu p\'abrir.</string>
-    <string name="keyguard_face_successful_unlock">Desbloquióse cola cámara</string>
     <string name="keyguard_face_successful_unlock_alt1">Reconocióse la cara</string>
     <string name="keyguard_retry">Esllizar p\'arriba pa retentar</string>
-    <string name="accesssibility_keyguard_retry">Esliza dende lo cimero pa volver probar el desbloquéu facial</string>
     <string name="require_unlock_for_nfc">Desbloquia pa usar el NFC</string>
     <string name="do_disclosure_generic">Esti preséu pertenez a la to organización</string>
     <string name="do_disclosure_with_name">Esti preséu pertenez a «<xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>»</string>
@@ -495,6 +502,7 @@ prioridá</string>
     <string name="keyguard_indication_charging_time_fast"><xliff:g id="percentage">%2$s</xliff:g> • En carga, rápida • <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g> pa completar la carga</string>
     <string name="keyguard_indication_charging_time_slowly"><xliff:g id="percentage">%2$s</xliff:g> • En carga, lenta • <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g> pa completar la carga</string>
     <string name="keyguard_indication_charging_time_dock"><xliff:g id="percentage" example="20%">%2$s</xliff:g> • En carga • <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g> pa completar la carga</string>
+    <string name="accessibility_action_customize_lock_screen">Personalizar pantalla de bloq.</string>
     <string name="communal_tutorial_indicator_text">Esliza a la esquierda p\'aniciar el tutorial de la comunidá</string>
     <string name="cta_tile_button_to_open_widget_editor">Personalizar</string>
     <string name="cta_tile_button_to_dismiss">Escartar</string>
@@ -550,6 +558,7 @@ prioridá</string>
     <string name="clear_all_notifications_text">Quitar too</string>
     <string name="manage_notifications_text">Xestión</string>
     <string name="manage_notifications_history_text">Historial</string>
+    <string name="notification_dismiss_button_text">Zarrar</string>
     <string name="notification_section_header_incoming">Novedaes</string>
     <string name="notification_section_header_gentle">Silenciu</string>
     <string name="notification_section_header_alerting">Avisos</string>
@@ -560,7 +569,7 @@ prioridá</string>
     <string name="no_unseen_notif_text">Nun hai nengún avisu nuevu</string>
     <string name="go_to_adaptive_notification_settings">Desactivar</string>
     <string name="unlock_to_see_notif_text">Desbloquia pa ver los avisos anteriores</string>
-    <string name="quick_settings_disclosure_parental_controls">To pá/ma xestionen esti preséu</string>
+    <string name="quick_settings_disclosure_parental_controls_legacy">To pá/ma xestionen esti preséu</string>
     <string name="quick_settings_disclosure_management_monitoring">La to organización ye propietaria d\'esti preséu y pue supervisar el tránsitu de rede</string>
     <string name="quick_settings_disclosure_named_management_monitoring">«<xliff:g id="organization_name" example="Foo, Inc.">%1$s</xliff:g>» ye la propietaria d\'esti preséu y pue supervisar el tránsitu de rede</string>
     <string name="quick_settings_financed_disclosure_named_management">«<xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>» forne esti preséu</string>
@@ -599,7 +608,7 @@ prioridá</string>
     <string name="monitoring_description_managed_profile_named_vpn">Les aplicaciones llaborales tán conectaes a internet pente «<xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>». L\'alministrador de TI y el fornidor de la VPN ven la to actividá na rede nes aplicaciones llaborales, incluyíos los correos electrónicos y los datos de restolar.</string>
     <string name="monitoring_description_personal_profile_named_vpn">Les aplicaciones personales tán conectaes a internet pente «<xliff:g id="vpn_app" example="Foo VPN App">%1$s</xliff:g>». El fornidor de la VPN ve la to actividá na rede, incluyíos los correos electrónicos y los datos de restolar.</string>
     <string name="monitoring_description_vpn_settings">Abrir la configuración de la VPN</string>
-    <string name="monitoring_description_parental_controls">To pá/ma xestionen esti preséu, y puen ver y xestionar información como les aplicaciones qu\'uses, la llocalización y el tiempu d\'usu.</string>
+    <string name="monitoring_description_parental_controls_legacy">To pá/ma xestionen esti preséu, y puen ver y xestionar información como les aplicaciones qu\'uses, la llocalización y el tiempu d\'usu.</string>
     <string name="legacy_vpn_name">VPN</string>
     <string name="keyguard_indication_trust_unlocked">TrustAgent desbloquió\'l preséu</string>
     <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
@@ -703,6 +712,7 @@ prioridá</string>
     <string name="tuner_toast">¡Norabona! Amestóse «Afinador de la IU del sistema» a «Configuración»</string>
     <string name="remove_from_settings">Quitar de «Configuración»</string>
     <string name="remove_from_settings_prompt">¿Quies quitar «Afinador de la IU del sistema» de «Configuración» y dexar d\'usar toles sos funciones?</string>
+    <string name="qs_customize_remove">Quitar</string>
     <string name="enable_bluetooth_title">¿Quies habilitar el Bluetooth?</string>
     <string name="enable_bluetooth_message">Pa conectar el tecláu a la tableta, primero tienes d\'habilitar el Bluetooth.</string>
     <string name="enable_bluetooth_confirmation_ok">Habilitar</string>
@@ -874,13 +884,8 @@ prioridá</string>
     <string name="right_keycode">Códigu de tecla de la derecha</string>
     <string name="left_icon">Iconu de la esquierda</string>
     <string name="right_icon">Iconu de la derecha</string>
-    <string name="drag_to_add_tiles">Ten primío y arrastra p\'amestar caxelles</string>
-    <string name="drag_to_rearrange_tiles">Ten primío y arrastra pa reorganizar les caxelles</string>
     <string name="qs_edit_edit_tab">Editar</string>
     <string name="qs_edit_layout_tab">Distribución</string>
-    <string name="drag_to_remove_tiles">Arrastra equí pa quitar</string>
-    <string name="drag_to_remove_disabled">Tienes de tener polo menos <xliff:g id="min_num_tiles" example="6">%1$d</xliff:g> caxelles</string>
-    <string name="qs_edit">Editar</string>
     <string name="qs_edit_settings">Configuración</string>
     <string name="tuner_time">Hora</string>
     <string-array name="clock_options">
@@ -895,9 +900,6 @@ prioridá</string>
     </string-array>
     <string name="tuner_low_priority">Amosar los iconos de los avisos con prioridá baxa</string>
     <string name="other">Otres opciones</string>
-    <string name="accessibility_qs_edit_tile_start_move">Mover la caxella</string>
-    <string name="accessibility_qs_edit_tile_move_to_position">Mover a la posición <xliff:g id="position" example="5">%1$d</xliff:g></string>
-    <string name="accessibility_qs_edit_tile_add_to_position">Amestar a la posición <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_position">Posición <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_tile_added">Amestóse la caxella</string>
     <string name="accessibility_qs_edit_tile_removed">Quitóse la caxella</string>
@@ -912,7 +914,9 @@ prioridá</string>
     <string name="accessibility_quick_settings_open_settings">Abrir la configuración de: <xliff:g name="page" example="Bluetooth">%s</xliff:g>.</string>
     <string name="accessibility_quick_settings_power_menu">Menú d\'apagáu</string>
     <string name="accessibility_quick_settings_page">Páxina <xliff:g name="current_page" example="1">%1$d</xliff:g> de <xliff:g name="num_pages" example="2">%2$d</xliff:g></string>
-    <string name="accessibility_key_gesture_dialog_positive_button_text">Activar</string>
+    <string name="accessibility_shortcutchooser_done_button">Fecho</string>
+    <string name="accessibility_shortcutchooser_edit_button">Editar</string>
+    <string name="accessibility_quick_access_dialog_title">Accesibilidá</string>
     <string name="tuner_lock_screen">Pantalla de bloquéu</string>
     <string name="shutdown_progress">Apagando\u2026</string>
     <string name="thermal_shutdown_dialog_help_text">Ver los pasos de curiáu</string>
@@ -1133,27 +1137,19 @@ prioridá</string>
     <string name="controls_menu_edit">Editar los controles</string>
     <string name="controls_menu_add_another_app">Amestar una aplicación</string>
     <string name="controls_menu_remove">Quitar l\'aplicación</string>
-    <string name="media_output_dialog_add_output">Amiestu de salíes</string>
     <string name="media_output_dialog_group">Grupu</string>
-    <string name="media_output_dialog_single_device">Seleicionóse 1 preséu</string>
-    <string name="media_output_dialog_multiple_devices">Seleicionáronse <xliff:g id="count" example="2">%1$d</xliff:g> preseos</string>
     <string name="media_output_item_connected_state">Conectóse</string>
     <string name="media_output_dialog_connect_failed">Nun se pue cambiar. Toca pa volver tentalo.</string>
-    <string name="media_output_dialog_pairing_new">Conectar un preséu</string>
     <string name="media_output_dialog_unknown_launch_app_name">Aplicación desconocida</string>
     <string name="media_output_dialog_button_stop_casting">Dexar de tresmitir</string>
     <string name="media_output_dialog_accessibility_title">Preseos disponibles pa la salida del audiu.</string>
     <string name="media_output_dialog_accessibility_seekbar">Volume</string>
     <string name="media_output_group_title_speakers_and_displays">Altavoces y pantalles</string>
-    <string name="media_output_group_title_suggested_device">Preseos suxeríos</string>
     <string name="media_input_group_title">Entrada</string>
-    <string name="media_output_end_session_dialog_summary">Para la sesión compartida pa mover el conteníu multimedia a otru preséu</string>
-    <string name="media_output_end_session_dialog_stop">Parar</string>
     <string name="media_output_dialog_button_stop_sharing">Dexar de compartir</string>
     <string name="media_output_dialog_button_sharing_audio">Compartiendo l\'audiu</string>
     <string name="media_output_dialog_button_share_audio">Compartir l\'audiu</string>
     <string name="build_number_clip_data_label">Númberu de la compilación</string>
-    <string name="build_number_copy_toast">El númberu de la compilación copióse nel cartafueyu.</string>
     <string name="basic_status">Conversación abierta</string>
     <string name="select_conversation_title">Widgets de conversación</string>
     <string name="select_conversation_text">Toca una conversación p\'amestala a la pantalla d\'aniciu</string>
@@ -1219,7 +1215,6 @@ prioridá</string>
     <string name="turn_off_airplane_mode">Desactivar el mou avión</string>
     <string name="qs_tile_request_dialog_text">«<xliff:g id="appName" example="Fake App">%1$s</xliff:g>» quier amestar la caxella siguiente a la configuración rápida</string>
     <string name="qs_tile_request_dialog_add">Amestar una caxella</string>
-    <string name="qs_tile_request_dialog_not_add">Nun l\'amestar</string>
     <string name="qs_user_switch_dialog_title">Seleición d\'usuariu</string>
     <string name="fgs_manager_footer_label">{count, plural,
         one {}=1 {Hai # aplicación activa}
@@ -1245,6 +1240,7 @@ prioridá</string>
     <string name="clipboard_image_preview">Previsualización de la imaxe</string>
     <string name="clipboard_edit">editar</string>
     <string name="add">Amestar</string>
+    <string name="remove">Quitar</string>
     <string name="manage_users">Xestionar los usuarios</string>
     <string name="drag_split_not_supported">Esti avisu nun se pue arrastrar a la pantalla dixebrada</string>
     <string name="dream_overlay_status_bar_wifi_off">La Wi\u2011Fi nun ta disponible</string>
@@ -1348,12 +1344,12 @@ prioridá</string>
     <string name="touchpad_tutorial_recent_apps_gesture_button">Ver les aplicaciones de recién</string>
     <string name="touchpad_tutorial_done_button">Fecho</string>
     <string name="touchpad_tutorial_next_button">Siguiente</string>
+    <string name="gesture_error_title">Retentar</string>
     <string name="touchpad_back_gesture_action_title">Dir p\'atrás</string>
     <string name="touchpad_back_gesture_success_body">Completesti\'l xestu de dir p\'atrás.</string>
     <string name="touchpad_home_gesture_action_title">Dir a Aniciu</string>
     <string name="touchpad_recent_apps_gesture_action_title">Ver les aplicaciones de recién</string>
     <string name="touchpad_recent_apps_gesture_success_title">¡Bon trabayu!</string>
-    <string name="touchpad_recent_apps_gesture_success_body">Completesti\'l xestu de ver les aplicaciones de recién</string>
     <string name="touchpad_switch_apps_gesture_success_title">¡Bon trabayu!</string>
     <string name="keyboard_backlight_dialog_title">Retroilluminación del tecláu</string>
     <string name="keyboard_backlight_value">Nivel %1$d de %2$d</string>
@@ -1372,16 +1368,34 @@ prioridá</string>
     <string name="overview_edu_notification_content">Esliza p\'arriba y ten primío con trés deos. Toca pa deprender más xestos.</string>
     <string name="all_apps_edu_notification_title">Usa\'l tecláu pa ver toles aplicaciones</string>
     <string name="all_apps_edu_notification_content">Primi\'l botón d\'aición en cualesquier momentu. Toca pa deprender más xestos.</string>
-    <string name="qs_edit_mode_category_connectivity">        Conectividá
+    <string name="qs_edit_mode_category_connectivity">
+        Conectividá
     </string>
-    <string name="qs_edit_mode_category_accessibility">        Accesibilidá
+    <string name="qs_edit_mode_category_accessibility">
+        Accesibilidá
     </string>
-    <string name="qs_edit_mode_category_utilities">        Utilidaes
+    <string name="qs_edit_mode_category_utilities">
+        Utilidaes
     </string>
-    <string name="qs_edit_mode_category_privacy">        Privacidá
+    <string name="qs_edit_mode_category_privacy">
+        Privacidá
     </string>
     <string name="underlay_close_button_content_description">Zarrar</string>
     <string name="back_button_on_bouncer">Atrás</string>
+    <string name="accessibility_button_on_bouncer_description">Accesibilidá</string>
     <string name="pager_dots_previous_content_description">Anterior</string>
     <string name="pager_dots_next_content_description">Siguiente</string>
+    <string name="sensor_activity_camera_label">Cámara</string>
+    <string name="sensor_activity_microphone_label">Micrófonu</string>
+    <string name="sensor_activity_manage_access_button">Xestionar l\'accesu</string>
+    <string name="sensor_activity_back_button_cd">Atrás</string>
+    <string name="privacy_chip_camera_in_use">Cámara n\'usu</string>
+    <string name="av_mic_label">Micrófonu</string>
+    <string name="av_camera_label">Cámara</string>
+    <string name="av_camera_blur_off">Non</string>
+    <string name="av_drill_in_return_to_main">Atrás</string>
+    <string name="more_options_edit">Editar</string>
+    <string name="dream_setup_button_not_now">Agora non</string>
+    <string name="dream_setup_button_setup">Configurar</string>
+    <string name="ace_attribution_dialog_settings_label">Configuración</string>
 </resources>

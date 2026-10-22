@@ -33,12 +33,6 @@
     <string name="time_left_for_app"><xliff:g id="time" example="7 minutes">%1$s</xliff:g> fágtha inniu</string>
     <string name="title_app_suggestions">Moltaí aipeanna</string>
     <string name="all_apps_prediction_tip">Do aipeanna réamh-mheasta</string>
-    <string name="hotseat_edu_title_migrate">Faigh moltaí aipeanna ar an tsraith íochtarach de do scáileán Baile</string>
-    <string name="hotseat_edu_title_migrate_landscape">Faigh moltaí aipeanna ar shraith na bhfear is fearr leat ar do scáileán Baile</string>
-    <string name="hotseat_edu_message_migrate">Rochtain éasca ar na haipeanna is mó a úsáideann tú díreach ar an scáileán Baile. Athróidh moltaí bunaithe ar do ghnáthaimh. Bogfaidh aipeanna ar an tsraith íochtarach suas go dtí do scáileán Baile.</string>
-    <string name="hotseat_edu_message_migrate_landscape">Rochtain éasca ar na haipeanna is mó a úsáideann tú díreach ar an scáileán Baile. Athróidh na moltaí bunaithe ar do ghnáthaimh. Bogfaidh aipeanna sa ró is fearr leat chuig do scáileán Baile.</string>
-    <string name="hotseat_edu_accept">Faigh moltaí aipeanna</string>
-    <string name="hotseat_edu_dismiss">Ní raibh maith agat</string>
     <string name="hotseat_prediction_settings">Socruithe</string>
     <string name="hotseat_auto_enrolled">Feictear na haipeanna is mó a úsáidtear anseo, agus athraíonn siad bunaithe ar ghnáthaimh</string>
     <string name="hotseat_tip_no_empty_slots">Tarraing aipeanna ón ró bun chun moltaí aipeanna a fháil</string>
@@ -121,7 +115,6 @@
     <string name="taskbar_edu_suggested_search_animation_description">Beochan a thaispeánann conas mír a chuardach ar an scáileán, tríd an eochair ghníomhaíochta a theagmháil agus a shealbhú agus an limistéar ina bhfuil an mhír a roghnú</string>
     <string name="taskbar_edu_a11y_title">Oideachas tascbharra</string>
     <string name="taskbar_edu_splitscreen">Tarraing aip ar an taobh chun 2 aip a úsáid ag an am céanna</string>
-    <string name="taskbar_edu_stashing">Svaidhpeáil suas go mall chun an Barra Tasc a thaispeáint</string>
     <string name="taskbar_edu_suggestions">Faigh moltaí aipeanna bunaithe ar do ghnáthamh</string>
     <string name="taskbar_edu_pinning">Brúigh ar an roinnteoir le bioráin a chur ar an Tascbharra</string>
     <string name="taskbar_edu_features">Déan níos mó leis an Tascbharra</string>
@@ -143,9 +136,7 @@
     <string name="always_show_taskbar">Taispeáin an Barra Tasc i gcónaí</string>
     <string name="change_navigation_mode">Athraigh modh nascleanúna</string>
     <string name="taskbar_divider_a11y_title">Roinnteoir an Bharra Tasc</string>
-    <string name="taskbar_overflow_a11y_title">Aipeanna eile le déanaí</string>
-    <string name="app_added_to_taskbar">Aip curtha leis an Tascbharra</string>
-    <string name="app_removed_from_taskbar">Aip bainte den Tascbharra</string>
+    <string name="taskbar_recents_overflow_a11y_title">Aipeanna eile le déanaí</string>
     <string name="move_drop_target_top_or_left">Bog go dtí an barr/ar chlé</string>
     <string name="move_drop_target_bottom_or_right">Bog go bun &amp; # 47;ar dheis</string>
     <string name="open_app_as_a_bubble">Oscail an aip mar bholgán</string>
@@ -161,22 +152,17 @@
 }</string>
     <string name="quick_switch_desktop">Deasc</string>
     <string name="quick_switch_split_task"><xliff:g id="app_name_1" example="Chrome">%1$s</xliff:g> agus <xliff:g id="app_name_2" example="Gmail">%2$s</xliff:g></string>
-    <string name="quick_switch_task_with_position_in_parent"><xliff:g id="task_description" example="Chrome">%1$s</xliff:g>, mír <xliff:g id="index_in_parent" example="1">%2$d</xliff:g> de <xliff:g id="total_tasks" example="5">%3$d</xliff:g></string>
     <string name="quick_switch_scroll_arrow_left">Scrollaigh ar chlé</string>
     <string name="quick_switch_scroll_arrow_right">Scrollaigh ar dheis</string>
     <string name="bubble_bar_bubble_fallback_description">Boilgeog</string>
     <string name="bubble_bar_overflow_description">Cur thar maoil</string>
-    <string name="bubble_bar_bubble_description"><xliff:g id="notification_title" example="some title">%1$s</xliff:g> ó <xliff:g id="app_name" example="YouTube">%2$s</xliff:g></string>
     <string name="bubble_bar_description_multiple_bubbles"><xliff:g id="bubble_bar_bubble_description" example="some title from YouTube">%1$s</xliff:g> agus <xliff:g id="bubble_count" example="4">%2$d</xliff:g> níos mó</string>
     <string name="bubble_bar_action_move_left">Bog ar chlé</string>
     <string name="bubble_bar_action_move_right">Bog ar dheis</string>
     <string name="bubble_bar_action_dismiss_all">Diúltaigh gach</string>
-    <string name="bubble_bar_accessibility_announce_expand">méadaigh <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
-    <string name="bubble_bar_accessibility_announce_collapse">cliseadh <xliff:g id="bubble_description" example="some title from Messages">%1$s</xliff:g></string>
     <string name="search_gesture_feature_title">Ciorcal go Cuardach</string>
     <string name="header_app_icon_description">Deilbhín aip</string>
     <string name="header_default_app_title">Teideal aip</string>
-    <string name="header_close_icon_description">Cnaipe Dúnta</string>
     <string name="nudge_a11y_title">Broid</string>
     <string name="nudge_a11y_close">Dún</string>
     <string name="nudge_a11y_image">Íomhá broid</string>

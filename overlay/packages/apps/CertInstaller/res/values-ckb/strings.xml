@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">دامەزرێنەری بڕوانامە</string>
+    <string name="pick_file_title">بڕوانامەیەک هەڵبژێرە</string>
+    <string name="pkcs12_password_dialog_title">دەرهێنانی بڕوانامە</string>
+    <string name="extracting_pkcs12">دەردەهێنرێت…</string>
+    <string name="pkcs12_file_password_dialog_title">دەرهێنان لە %s</string>
+    <string name="name_credential_dialog_title">ناونانی ئەم بڕوانامەیە</string>
+    <string name="certificate_name">ناوی بڕوانامە</string>
+    <string name="credential_password">تێپەڕەوشەکە بنووسە بۆ دەرهێنانی بڕوانامەکان.</string>
+    <string name="credential_info">پاکێجەکە لەخۆدەگرێت:</string>
+    <string name="p12_description">بڕوانامەکان لە کۆگای کلیلەکانی PKCS12.</string>
+    <string name="one_userkey">یەک کلیلی بەکارهێنەر</string>
+    <string name="userkey_type">ئەلگۆریتم: </string>
+    <string name="one_usercrt">یەک بڕوانامەی بەکارهێنەر</string>
+    <string name="one_cacrt">یەک بڕوانامەی دەسەڵاتی بڕوانامەدان (CA)</string>
+    <string name="n_cacrts">%d بڕوانامەی CA</string>
+    <string name="password_error">تێپەڕەوشەی دروست بنووسە.</string>
+    <string name="password_empty_error">تێپەڕەوشەکە بنووسە.</string>
+    <string name="name_empty_error">ناوێک بنووسە.</string>
+    <string name="name_char_error">ناوێک بنووسە کە تەنها پیت و ژمارە لەخۆبگرێت.</string>
+    <string name="unable_to_save_cert">نەتوانرا بڕوانامەکە پاشەکەوت بکرێت. کۆگای بڕوانامە چالاک نەکراوە یان بە دروستی دانەمەزراوە.</string>
+    <string name="cert_not_saved">بڕوانامەکە دانەمەزراوە.</string>
+    <string name="no_cert_to_saved">هیچ بڕوانامەیەک نییە بۆ دامەزراندن.</string>
+    <string name="invalid_cert">بڕوانامەکە نادروستە.</string>
+    <string name="action_missing_private_key">کلیلی تایبەت پێویستە بۆ دامەزراندنی بڕوانامە</string>
+    <string name="action_missing_user_cert">بڕوانامە پێویستە بۆ دامەزراندنی کلیلی تایبەت</string>
+    <string name="select_certificate_usage_title">جۆری بڕوانامە هەڵبژێرە</string>
+    <string name="redirect_ca_certificate_title">دامەزراندنی بڕوانامەکانی CA لە ڕێکخستنەکان</string>
+    <string name="redirect_ca_certificate_with_app_info_message">پێویستە ئەم بڕوانامەیە لە
+        <xliff:g id="requesting_app" example="Some App">%1$s</xliff:g> لە ڕێکخستنەکاندا دابمەزرێت.
+        تەنها ئەو بڕوانامانەی CA دابمەزرێنە کە لە ڕێکخراوە جێی متمانەکانەوەن.</string>
+    <string name="redirect_ca_certificate_close_button">داخستن</string>
+    <string name="invalid_certificate_title">ناتوانرێت ئەم فایلە بەکاربهێنرێت</string>
+    <string name="invalid_certificate_close_button">داخستن</string>
+    <string name="invalid_certificate_message">ئەم فایلە ناتوانرێت وەکوو <xliff:g id="certificate_usage">%1$s</xliff:g> بەکاربهێنرێت</string>
+    <string name="certificate">بڕوانامە</string>
+    <string name="ca_certificate">بڕوانامەی CA</string>
+    <string name="user_certificate">بڕوانامەی بەکارهێنەری VPN و بەرنامە</string>
+    <string name="wifi_certificate">بڕوانامەی Wi-Fi</string>
+    <string name="ca_cert_is_added">بڕوانامەی CA دامەزرا</string>
+    <string name="user_cert_is_added">بڕوانامەی بەکارهێنەر دامەزرا</string>
+    <string name="wifi_cert_is_added">بڕوانامەی وایفای دامەزرا</string>
+    <string name="cert_too_large_error">نەتوانرا دابمەزرێت چونکە قەبارەی بڕوانامەکە زۆر گەورەیە.</string>
+    <string name="cert_missing_error">نەتوانرا دابمەزرێت چونکە فایلی بڕوانامەکە نەدۆزرایەوە.</string>
+    <string name="cert_read_error">نەتوانرا دابمەزرێت چونکە نەتوانرا فایلی بڕوانامەکە بخوێنرێتەوە.</string>
+    <string name="cert_temp_error">شکستی کاتی. تکایە دواتر هەوڵ بدەوە.</string>
+    <string name="only_primary_user_allowed">تەنها خاوەنی ئەم ئامێرە دەتوانێت بڕوانامە دابمەزرێنێت.</string>
+    <string name="credential_usage_label">بەکارهێنانی بڕوانامە:</string>
+    <string-array name="credential_usage">
+        <item>VPN و ئەپەکان</item>
+        <item>Wi-Fi</item>
+    </string-array>
+    <string name="certificate_capabilities_warning">تێبینی: دەرکەری ئەم بڕوانامەیە لەوانەیە چاودێریی هەموو هاتوچۆی داتای هاتوو و ڕۆیشتووی ئامێرەکە بکات.</string>
+    <string name="wifi_title">پرۆفایلی وایفای</string>
+    <string name="wifi_detail_title">وردەکارییەکان بۆ %s</string>
+    <string name="wifi_detail_label">وردەکاری</string>
+    <string name="wifi_install_label">دامەزراندن</string>
+    <string name="wifi_installing_label">دادەمەزرێت</string>
+    <string name="wifi_cancel_label">پاشگەزبوونەوە</string>
+    <string name="wifi_dismiss_label">بێدەنگکردن</string>
+    <string name="wifi_no_config">هیچ</string>
+    <string name="wifi_config_text">ناو: %1$s
+FQDN: %2$s
+کۆنسێرتیۆمی ڕۆمینگ: %3$s
+بواری دەسەڵات: %4$s
+شێوازی پشتڕاستکردنەوە: EAP-%5$s
+</string>
+    <string name="wifi_ttls_config_text">ناوی بەکارهێنەر: %s
+</string>
+    <string name="wifi_tls_config_text">بڕوانامەی کڕیار:
+%1$s
+کلیل: %2$s
+</string>
+    <string name="wifi_sim_config_text">سیمکارت: %s
+</string>
+    <string name="wifi_trust_config_text">بڕوانامەی جێی متمانە:
+%s
+</string>
+    <string name="install_done_title">بڕوانامەکان دامەزران</string>
+    <string name="install_done">بڕوانامەکانی <xliff:g id="name">%1$s</xliff:g> بۆ تۆڕە پاشەکەوتکراوەکانی وایفای زیادکران.</string>
+    <string name="done_label">تەواو</string>
+    <string name="wifi_installer_detail">بڕوانامەکانی وایفای دابمەزرێنە بۆ پەیوەستبوون بەو تۆڕانەی لە ڕێگەی <xliff:g id="name">%1$s</xliff:g>ـەوە بەردەستن.</string>
+    <string name="wifi_installer_download_error">فایلی داگیراو کێشەی هەیە و دانامەزرێت. دڵنیابەوە لەوەی فایلەکەت لە سەرچاوەی دروستەوە داگرتووە.</string>
+    <string name="wifi_installer_fail">ناتوانرێت بڕوانامەکانی وایفای دابمەزرێت. هەوڵ بدە دووبارە فایلەکە دابگریتەوە.</string>
+    <string name="wifi_installer_fail_no_wifi_title">دامەزراندن هەڵوەشێنرایەوە</string>
+    <string name="wifi_installer_fail_title">دانامەزرێت</string>
+    <string name="wifi_installer_fail_no_wifi">وایفای هەڵبکە و دووبارە هەوڵ بدەوە.</string>
+</resources>

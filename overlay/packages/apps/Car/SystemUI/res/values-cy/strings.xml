@@ -15,11 +15,6 @@
   ~ limitations under the License.
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="hvac_min_text">Llei.</string>
-    <string name="hvac_max_text">Mwy.</string>
-    <string name="fan_speed_off">I FFWRDD</string>
-    <string name="hvac_temperature_off">I FFWRDD</string>
-    <string name="end_session">Diweddu sesiwn</string>
     <string name="profile_limit_reached_message">{count, plural,
        =1 {Gellir ond creu un proffil.}
         two {Gellir ond creu # broffil.}
@@ -27,27 +22,15 @@
         many {Gellir ond creu # phroffil.}
         other {Gellir ond creu # proffil.}
     }</string>
-    <string name="current_profile_subtitle">Proffil cyfredol</string>
     <string name="privacy_chip_off_content">Mae\u2019r <xliff:g id="sensor" example="Microphone">%1$s</xliff:g> i ffwrdd.</string>
     <string name="privacy_chip_use_sensor">Defnyddio <xliff:g id="sensor" example="microphone">%1$s</xliff:g></string>
     <string name="privacy_chip_use_sensor_subtext">Ar gyfer apiau sydd â chaniatâd</string>
     <string name="privacy_chip_settings">Gosodiadau preifatrwydd</string>
     <string name="privacy_chip_app_using_sensor_suffix">Mae\u2019r <xliff:g id="app" example="Assistant">%1$s</xliff:g> yn defnyddio\u2019r <xliff:g id="sensor" example="microphone">%2$s</xliff:g></string>
-    <string name="mic_privacy_chip_apps_using_mic_suffix">Mae <xliff:g id="app_list" example="Assistant &amp; Phone">%s</xliff:g> yn defnyddio\u2019r meicroffon</string>
     <string name="privacy_chip_app_recently_used_sensor_suffix">Mae <xliff:g id="app" example="Assistant">%1$s</xliff:g> wedi defnyddio\u2019r <xliff:g id="sensor" example="microphone">%2$s</xliff:g> yn ddiweddar</string>
     <string name="privacy_chip_apps_recently_used_sensor_suffix">Defnyddiodd <xliff:g id="app" example="Assistant">%1$s</xliff:g> a <xliff:g id="additional_app_count" example="2">%2$d</xliff:g> arall y <xliff:g id="sensor" example="microphone">%3$s</xliff:g> yn ddiweddar</string>
-    <string name="mic_privacy_chip_on_toast">Meicroffon wedi\u2019i droi ymlaen</string>
-    <string name="mic_privacy_chip_off_toast">Meicroffon wedi\u2019i droi i ffwrdd</string>
-    <string name="mic_privacy_chip_dialog_ok">Iawn</string>
     <string name="sensor_privacy_start_use_mic_dialog_title">Troi meicroffon cerbyd ymlaen?</string>
     <string name="sensor_privacy_start_use_mic_dialog_content">I barhau, tro feicroffon y system gwybodloniant ymlaen. Bydd hyn yn troi\u2019r meicroffon ymlaen ar gyfer pob ap sydd â chaniatâd.</string>
-    <string name="camera_privacy_chip_app_using_camera_suffix">Mae <xliff:g id="app" example="Assistant">%s</xliff:g> yn defnyddio\u2019r camera</string>
-    <string name="camera_privacy_chip_apps_using_camera_suffix">Mae <xliff:g id="app_list" example="Assistant &amp; Phone">%s</xliff:g> yn defnyddio\u2019r camera</string>
-    <string name="camera_privacy_chip_app_recently_used_camera_suffix">Mae <xliff:g id="app" example="Assistant">%s</xliff:g> wedi defnyddio\u2019r camera yn ddiweddar</string>
-    <string name="camera_privacy_chip_apps_recently_used_camera_suffix">Mae <xliff:g id="app" example="Assistant">%1$s</xliff:g> a <xliff:g id="additional_app_count" example="2">%2$d</xliff:g> arall wedi defnyddio\u2019r camera yn ddiweddar</string>
-    <string name="camera_privacy_chip_on_toast">Camera ymlaen</string>
-    <string name="camera_privacy_chip_off_toast">Camera i ffwrdd</string>
-    <string name="camera_privacy_chip_dialog_ok">Iawn</string>
     <string name="sensor_privacy_start_use_camera_dialog_title">Troi camera cerbyd ymlaen?</string>
     <string name="sensor_privacy_start_use_camera_dialog_content">I barhau, tro camera\u2019r system gwybodloniant ymlaen. Bydd hyn yn troi\u2109r camera ymlaen ar gyfer bob ap sydd â chaniatâd.</string>
     <string name="system_bar_home_label">Sgrin Gartref</string>
@@ -59,15 +42,8 @@
     <string name="system_bar_media_label">Cyfryngau</string>
     <string name="hvac_decrease_button_label">Gostwng tymheredd</string>
     <string name="hvac_increase_button_label">Codi tymheredd</string>
-    <string name="status_icon_bluetooth_disconnected">Gosodiad Bluetooth: Datgysylltwyd</string>
-    <string name="status_icon_bluetooth_connected">Gosodiad Bluetooth: Cysylltwyd</string>
-    <string name="status_icon_bluetooth_off">Gosodiad Bluetooth: Bluetooth i ffwrdd</string>
-    <string name="status_icon_signal_mobile">Gosodiadau Signal: Yn Defnyddio Data Symudol</string>
-    <string name="status_icon_signal_wifi">Gosodiadau Signal: Wi\u2011Fi Ymlaen</string>
-    <string name="status_icon_signal_hotspot">Gosodiadau Signal: Llecyn Ymlaen</string>
     <string name="status_icon_display_status">Gosodiadau Dangosydd</string>
     <string name="status_icon_debug_status">Gosodiadau Dadfygio</string>
-    <string name="status_icon_sound_status">Gosodiadau Sain</string>
     <string name="activity_blocked_text">Ni ellir ddefnyddio\u2019r nodwedd hon tra\u2019n gyrru.</string>
     <string name="exit_button_close_application">Cau\u2019r ap</string>
     <string name="exit_button_go_back">Nôl</string>
@@ -91,6 +67,4 @@
         }
     </string>
     <string name="seat_driver">gyrrwr</string>
-    <string name="back_btn">Nôl</string>
-    <string name="data_subscription_button_text">Gweld cynlluniau</string>
 </resources>

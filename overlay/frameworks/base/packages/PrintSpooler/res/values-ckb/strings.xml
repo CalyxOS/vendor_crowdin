@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">بەڕێوەبەری چاپ (Print Spooler)</string>
+    <string name="more_options_button">هەڵبژاردنی زیاتر</string>
+    <string name="label_destination">شوێنی مەبەست</string>
+    <string name="label_copies">لەبەرگیراوەکان</string>
+    <string name="label_copies_summary">لەبەرگیراوەکان:</string>
+    <string name="label_paper_size">قەبارەی کاغەز</string>
+    <string name="label_paper_size_summary">قەبارەی کاغەز:</string>
+    <string name="label_color">ڕەنگ</string>
+    <string name="label_duplex">دوو ڕوو</string>
+    <string name="label_orientation">ئاڕاستە</string>
+    <string name="label_pages">پەڕەکان</string>
+    <string name="destination_default_text">چاپکەرێک هەڵبژێرە</string>
+    <string name="template_all_pages">هەموو <xliff:g id="page_count" example="100">%1$s</xliff:g> پەڕەکە</string>
+    <string name="template_page_range">مەودای <xliff:g id="page_count" example="100">%1$s</xliff:g> پەڕە</string>
+    <string name="pages_range_example">بۆ نموونە: 1—5, 8, 11—13</string>
+    <string name="print_preview">پێشبینینی چاپ</string>
+    <string name="install_for_print_preview">بینەری PDF دابەزێنە بۆ پێشبینیکردن</string>
+    <string name="printing_app_crashed">ئەپی چاپکردن لەکارکەوت</string>
+    <string name="generating_print_job">دروستکردنی کاری چاپ</string>
+    <string name="save_as_pdf">پاشەکەوتکردن وەک PDF</string>
+    <string name="all_printers">هەموو چاپکەرەکان…</string>
+    <string name="print_dialog">دیالۆگی چاپ</string>
+    <string name="current_page_template"><xliff:g id="current_page">%1$d</xliff:g>/<xliff:g id="page_count">%2$d</xliff:g></string>
+    <string name="page_description_template">پەڕەی <xliff:g id="current_page" example="1">%1$d</xliff:g> لە <xliff:g id="page_count" example="100">%2$d</xliff:g></string>
+    <string name="summary_template">پوختە، لەبەرگیراوەکان <xliff:g id="copies" example="1">%1$s</xliff:g>، قەبارەی کاغەز <xliff:g id="paper_size" example="A4">%2$s</xliff:g></string>
+    <string name="expand_handle">دەسکەی فراوانکردن</string>
+    <string name="collapse_handle">دەسکەی گردکردنەوە</string>
+    <string name="print_button">چاپکردن</string>
+    <string name="setup_button">ڕێکخستن</string>
+    <string name="savetopdf_button">پاشەکەوتکردن لە PDF</string>
+    <string name="print_options_expanded">هەڵبژاردنەکانی چاپ فراوانکران</string>
+    <string name="print_options_collapsed">هەڵبژاردنەکانی چاپ گردکرانەوە</string>
+    <string name="search">گەڕان</string>
+    <string name="all_printers_label">هەموو چاپکەرەکان</string>
+    <string name="add_print_service_label">زیادکردنی خزمەتگوزاری</string>
+    <string name="print_search_box_shown_utterance">خانەی گەڕان پیشاندرا</string>
+    <string name="print_search_box_hidden_utterance">خانەی گەڕان شاردرایەوە</string>
+    <string name="print_add_printer">زیادکردنی چاپکەر</string>
+    <string name="print_select_printer">چاپکەر هەڵبژێرە</string>
+    <string name="print_forget_printer">چاپکەر لەبیربکە</string>
+    <plurals name="print_search_result_count_utterance">
+        <item quantity="one"><xliff:g id="count" example="1">%1$s</xliff:g> چاپکەر دۆزرایەوە</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$s</xliff:g> چاپکەر دۆزرانەوە</item>
+    </plurals>
+    <string name="printer_extended_description_template"><xliff:g id="print_service_label" example="Canon Print Service">%1$s</xliff:g> - <xliff:g id="printer_description" example="Printer under the stairs">%2$s</xliff:g></string>
+    <string name="printer_info_desc">زانیاریی زیاتر دەربارەی ئەم چاپکەرە</string>
+    <string name="notification_channel_progress">کارەکانی چاپی لەکاردا</string>
+    <string name="notification_channel_failure">کارەکانی چاپی سەرنەکەوتوو</string>
+    <string name="could_not_create_file">نەتوانرا پەڕگە دروستبکرێت</string>
+    <string name="print_services_disabled_toast">هەندێک خزمەتگوزاریی چاپ ناچالاککراون</string>
+    <string name="print_searching_for_printers">لە گەڕاندایە بۆ چاپکەرەکان</string>
+    <string name="print_no_print_services">هیچ خزمەتگوزارییەکی چاپ چالاک نەکراوە</string>
+    <string name="print_no_printers">هیچ چاپکەرێک نەدۆزرایەوە</string>
+    <string name="cannot_add_printer">ناتوانرێت چاپکەر زیادبکرێت</string>
+    <string name="select_to_add_printers">هەڵبژێرە بۆ زیادکردنی چاپکەر</string>
+    <string name="enable_print_service">هەڵبژێرە بۆ چالاککردن</string>
+    <string name="enabled_services_title">خزمەتگوزارییە چالاککراوەکان</string>
+    <string name="recommended_services_title">خزمەتگوزارییە پێشنیازکراوەکان</string>
+    <string name="disabled_services_title">خزمەتگوزارییە ناچالاککراوەکان</string>
+    <string name="all_services_title">تەواوی خزمەتگوزارییەکان</string>
+    <plurals name="print_services_recommendation_subtitle">
+        <item quantity="one">دابەزێنە بۆ دۆزینەوەی <xliff:g id="count" example="1">%1$s</xliff:g> چاپکەر</item>
+        <item quantity="other">دابەزێنە بۆ دۆزینەوەی <xliff:g id="count" example="2">%1$s</xliff:g> چاپکەر</item>
+    </plurals>
+    <string name="printing_notification_title_template">چاپکردنی <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="cancelling_notification_title_template">هەڵوەشاندنەوەی <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="failed_notification_title_template">هەڵەی چاپکەر لە <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="blocked_notification_title_template">چاپکەر ئاستەنگ کراوە بۆ <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="cancel">پاشگەزبوونەوە</string>
+    <string name="restart">پێکردنەوە</string>
+    <string name="no_connection_to_printer">پەیوەندی بە چاپکەرەوە نییە</string>
+    <string name="reason_unknown">نەزانراو</string>
+    <string name="print_service_security_warning_title"><xliff:g id="service" example="My Print Service">%1$s</xliff:g> بەکاربهێنرێت؟</string>
+    <string name="print_service_security_warning_summary">لەوانەیە بەڵگەنامەکەت بە یەک یان چەند ڕاژەکارێکدا تێپەڕێت لە ڕێگای بەرەو چاپکەرەکە.</string>
+    <string-array name="color_mode_labels">
+        <item>ڕەش و سپی</item>
+        <item>ڕەنگ</item>
+    </string-array>
+    <string-array name="duplex_mode_labels">
+        <item>هیچ</item>
+        <item>لێواری درێژ</item>
+        <item>لێواری کورت</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>ستوونی</item>
+        <item>ئاسۆیی</item>
+    </string-array>
+    <string name="print_write_error_message">نەتوانرا لەناو پەڕگە بنووسرێت</string>
+    <string name="print_error_default_message">ببورە، ئەوە سەرکەوتوو نەبوو. دووبارە هەوڵبدەرەوە.</string>
+    <string name="print_error_retry">هەوڵدانەوە</string>
+    <string name="print_error_printer_unavailable">ئەم چاپکەرە لە ئێستادا بەردەست نییە.</string>
+    <string name="print_cannot_load_page">ناتوانرێت پێشبینین پیشان بدرێت</string>
+    <string name="print_preparing_preview">ئامادەکردنی پێشبینین…</string>
+</resources>

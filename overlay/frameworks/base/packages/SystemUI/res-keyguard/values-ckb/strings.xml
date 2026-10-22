@@ -18,8 +18,148 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_enter_your_pin">ژمارەی نهێنی (PIN) بنووسە</string>
+    <string name="keyguard_enter_pin">کۆدی PIN بنووسە</string>
+    <string name="keyguard_enter_your_pattern">شێوازەکەت بنەخشێنە</string>
+    <string name="keyguard_enter_pattern">نەخشاندنی شێواز</string>
+    <string name="keyguard_enter_your_password">تێپەڕەوشەکەت بنووسە</string>
+    <string name="keyguard_enter_password">تێپەڕەوشە بنووسە</string>
+    <string name="keyguard_sim_error_message_short">کارتی نادروست.</string>
+    <string name="keyguard_charged">بارگاویکرا</string>
+    <string name="keyguard_plugged_in_wireless"><xliff:g id="percentage" example="20%">%s</xliff:g> • بارگاویکردنەوەی بێتەل</string>
+    <string name="keyguard_plugged_in_dock"><xliff:g id="percentage" example="20%">%s</xliff:g> • بارگاویکردنەوە</string>
+    <string name="keyguard_plugged_in"><xliff:g id="percentage">%s</xliff:g> • بارگاویکردنەوە</string>
+    <string name="keyguard_plugged_in_charging_fast"><xliff:g id="percentage">%s</xliff:g> • بارگاویکردنەوە بە خێرایی</string>
+    <string name="keyguard_plugged_in_charging_slowly"><xliff:g id="percentage">%s</xliff:g> • بارگاویکردنەوە بە هێواشی</string>
+    <string name="keyguard_plugged_in_charging_limited"><xliff:g id="percentage">%s</xliff:g> • بارگاویکردن ڕاگیراوە بۆ پاراستنی باتری</string>
+    <string name="keyguard_plugged_in_incompatible_charger"><xliff:g id="percentage">%s</xliff:g> • کەرەستەی بارگاویکردنەوە بپشکنە</string>
+    <string name="keyguard_network_locked_message">تۆڕ قوفڵ کراوە</string>
+    <string name="keyguard_missing_sim_message_short">سیمکارت نییە</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">سیمکارتی بێ کەڵک.</string>
+    <string name="keyguard_sim_locked_message">سیمکارت قوفڵ کراوە.</string>
+    <string name="keyguard_sim_puk_locked_message">سیمکارت بە PUK قوفڵ کراوە.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">قوفڵی سیمکارت دەکرێتەوە\u2026</string>
+    <string name="keyguard_accessibility_pin_area">ناوچەی PIN</string>
+    <string name="keyguard_accessibility_password">تێپەڕەوشەی ئامێر</string>
+    <string name="keyguard_accessibility_sim_pin_area">ناوچەی PINـی سیمکارت</string>
+    <string name="keyguard_accessibility_sim_puk_area">ناوچەی PUKـی سیمکارت</string>
+    <string name="keyguard_accessibility_pin_delete_long_click">داگرتن و ڕاگرتن بۆ سڕینەوەی هەمووی</string>
+    <string name="keyboardview_keycode_delete">سڕینەوە</string>
+    <string name="disable_carrier_button_text">ناچالاککردنی eSIM</string>
+    <string name="error_disable_esim_title">eSIM ناچالاک ناکرێت</string>
+    <string name="error_disable_esim_msg">بەهۆی هەڵەیەکەوە ناتوانرێت eSIM ناچالاک بکرێت.</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="kg_wrong_pattern">نەخشە چەوتە</string>
+    <string name="kg_wrong_pattern_try_again">شێوازی هەڵە. دووبارە هەوڵ بدەوە.</string>
+    <string name="kg_wrong_password">تێپەڕەوشە چەوتە</string>
+    <string name="kg_wrong_password_try_again">تێپەڕەوشەی هەڵە. دووبارە هەوڵ بدەوە.</string>
+    <string name="kg_wrong_pin">کۆدی PINـی هەڵە</string>
+    <string name="kg_wrong_pin_try_again">PINـی هەڵە. دووبارە هەوڵ بدەوە.</string>
+    <string name="kg_wrong_input_try_fp_suggestion">یان بە پەنجەمۆر قفڵەکە بکەرەوە</string>
+    <string name="kg_fp_not_recognized">پەنجەمۆر نەناسراوەتەوە</string>
+    <string name="bouncer_face_not_recognized">دەموچاو نەناسراوەتەوە</string>
+    <string name="kg_bio_try_again_or_pin">دووبارە هەوڵ بدەوە یان PIN بنووسە</string>
+    <string name="kg_bio_try_again_or_password">دووبارە هەوڵ بدەوە یان تێپەڕەوشە بنووسە</string>
+    <string name="kg_bio_try_again_or_pattern">دووبارە هەوڵ بدەوە یان شێواز بنەخشێنە</string>
+    <string name="kg_bio_too_many_attempts_pin">دوای هەوڵی زۆر، PIN پێویستە</string>
+    <string name="kg_bio_too_many_attempts_password">دوای هەوڵی زۆر، تێپەڕەوشە پێویستە</string>
+    <string name="kg_bio_too_many_attempts_pattern">دوای هەوڵی زۆر، شێواز پێویستە</string>
+    <string name="kg_unlock_with_pin_or_fp">کردنەوە بە PIN یان پەنجەمۆر</string>
+    <string name="kg_unlock_with_password_or_fp">کردنەوە بە تێپەڕەوشە یان پەنجەمۆر</string>
+    <string name="kg_unlock_with_pattern_or_fp">کردنەوە بە شێواز یان پەنجەمۆر</string>
+    <string name="kg_prompt_after_dpm_lock">بۆ پاراستنی زیاتر، ئامێر بە سیاسەتی کار قفڵ کرا</string>
     <string name="kg_prompt_title_after_secure_lock_device">پشکنینی دوو-هەنگاوی</string>
     <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_fingerprint">قوفڵکردنەوە بە پەنجەمۆر بەکاربهێنە</string>
-    <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_face">قوفڵکردنەوە بە دەموچاو بەکاربهێنە</string>
+    <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_face">بەکارهێنانی کردنەوەی قوفڵ بە دەموچاو</string>
     <string name="kg_prompt_subtitle_for_secure_lock_device_biometric_auth_coex">قوفڵکردنەوە بە پەنجەمۆر یان دەموچاو بەکاربهێنە</string>
+    <string name="kg_prompt_after_user_lockdown_pin">دوای قفڵکردنی توند، PIN پێویستە</string>
+    <string name="kg_prompt_after_user_lockdown_password">دوای قفڵکردنی توند، تێپەڕەوشە پێویستە</string>
+    <string name="kg_prompt_after_user_lockdown_pattern">دوای قفڵکردنی توند، شێواز پێویستە</string>
+    <string name="kg_prompt_unattended_update">نوێکردنەوە دادەمەزرێت کاتێک ئامێرەکە بەکارنایەت</string>
+    <string name="kg_prompt_pin_auth_timeout">پاراستنی زیاتر پێویستە. ماوەیەکە PIN بەکارنەهاتووە.</string>
+    <string name="kg_prompt_password_auth_timeout">پاراستنی زیاتر پێویستە. ماوەیەکە تێپەڕەوشە بەکارنەهاتووە.</string>
+    <string name="kg_prompt_pattern_auth_timeout">پاراستنی زیاتر پێویستە. ماوەیەکە شێواز بەکارنەهاتووە.</string>
+    <string name="kg_prompt_auth_timeout">پاراستنی زیاتر پێویستە. ماوەیەکە قفڵی ئامێر نەکراوەتەوە.</string>
+    <string name="kg_face_locked_out">بە دەموچاو قفڵ ناکرێتەوە. هەوڵی زۆر درا.</string>
+    <string name="kg_fp_locked_out">بە پەنجەمۆر قفڵ ناکرێتەوە. هەوڵی زۆر درا.</string>
+    <string name="kg_trust_agent_disabled">بریکاری متمانەپێکراو بەردەست نییە</string>
+    <string name="kg_primary_auth_locked_out_pin">هەوڵی زۆر درا بە PINـی نادروست</string>
+    <string name="kg_primary_auth_duplicate_guess_pin">ئەو PINە پێشتر تاقیکراوەتەوە. دانەیەکی تر تاقی بکەرەوە.</string>
+    <string name="kg_primary_auth_duplicate_guess_pattern">ئەو شێوازە پێشتر تاقیکراوەتەوە. دانەیەکی تر تاقی بکەرەوە.</string>
+    <string name="kg_primary_auth_duplicate_guess_password">ئەو تێپەڕەوشەیە پێشتر تاقیکراوەتەوە. دانەیەکی تر تاقی بکەرەوە.</string>
+    <string name="kg_primary_auth_locked_out_pattern">هەوڵی زۆر درا بە شێوازی نادروست</string>
+    <string name="kg_primary_auth_locked_out_password">هەوڵی زۆر درا بە تێپەڕەوشەی نادروست</string>
+    <string name="kg_primary_auth_locked_out_pin_shortlink">هەوڵدانی زۆر بە PINی هەڵە\nزیاتر بزانە لە <xliff:g example="g.co/android/unlock" id="shortlink">{shortlink}</xliff:g></string>
+    <string name="kg_primary_auth_locked_out_pattern_shortlink">هەوڵدانی زۆر بە شێوازی هەڵە\nزیاتر بزانە لە <xliff:g example="g.co/android/unlock" id="shortlink">{shortlink}</xliff:g></string>
+    <string name="kg_primary_auth_locked_out_password_shortlink">هەوڵدانی زۆر بە تێپەڕەوشەی هەڵە\nزیاتر بزانە لە <xliff:g example="g.co/android/unlock" id="shortlink">{shortlink}</xliff:g></string>
+    <string name="kg_too_many_failed_attempts_countdown">{count, plural, =1 {دوای # چرکە هەوڵ بدەوە.} other {دوای # چرکە هەوڵ بدەوە.}}</string>
+    <string name="kg_too_many_failed_attempts_countdown_seconds">{count, plural,
+        =1 {دوای # چرکەی تر هەوڵ بدەرەوە}
+        other {دوای # چرکەی تر هەوڵ بدەرەوە}
+    }</string>
+    <string name="kg_too_many_failed_attempts_countdown_minutes">{count, plural,
+        =1 {دوای # خولەکی تر هەوڵ بدەرەوە}
+        other {دوای # خولەکی تر هەوڵ بدەرەوە}
+    }</string>
+    <string name="kg_too_many_failed_attempts_countdown_hours">{count, plural,
+        =1 {دوای # کاتژمێری تر هەوڵ بدەرەوە}
+        other {دوای # کاتژمێری تر هەوڵ بدەرەوە}
+    }</string>
+    <string name="kg_too_many_failed_attempts_countdown_days">{count, plural,
+        =1 {دوای # ڕۆژی تر هەوڵ بدەرەوە}
+        other {دوای # ڕۆژی تر هەوڵ بدەرەوە}
+    }</string>
+    <string name="kg_too_many_failed_attempts_countdown_years">{count, plural,
+        =1 {دوای # ساڵی تر هەوڵ بدەرەوە}
+        other {دوای # ساڵی تر هەوڵ بدەرەوە}
+    }</string>
+    <string name="kg_sim_pin_instructions">PINـی سیمکارت بنووسە.</string>
+    <string name="kg_sim_pin_instructions_multi">PINـی سیمکارت بنووسە بۆ \"<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>\".</string>
+    <string name="kg_sim_lock_esim_instructions"><xliff:g id="previous_msg" example="Enter SIM PIN.">%1$s</xliff:g> eSIM ناچالاک بکە بۆ بەکارهێنانی ئامێر بێ خزمەتگوزاریی مۆبایل.</string>
+    <string name="kg_puk_enter_puk_hint">سیمکارت ئێستا ناچالاکە. کۆدی PUK بنووسە بۆ بەردەوامبوون. بۆ وردەکاری پەیوەندی بە کۆمپانیای گەیاندنەوە بکە.</string>
+    <string name="kg_puk_enter_puk_hint_multi">سیمکارتی \"<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>\" ئێستا ناچالاکە. کۆدی PUK بنووسە بۆ بەردەوامبوون. بۆ وردەکاری پەیوەندی بە هێڵەکەتەوە بکە.</string>
+    <string name="kg_puk_enter_pin_hint">کۆدی PINـی دڵخوازی خۆت بنووسە</string>
+    <string name="kg_enter_confirm_pin_hint">کۆدی PINـی دڵخواز پشتڕاست بکەرەوە</string>
+    <string name="kg_sim_unlock_progress_dialog_message">قوفڵی سیمکارت دەکرێتەوە\u2026</string>
+    <string name="kg_invalid_sim_pin_hint">کۆدی PIN بنووسە کە لە 4 بۆ 8 ژمارە پێکبێت.</string>
+    <string name="kg_invalid_sim_puk_hint">پێویستە کۆدی PUK لە 8 ژمارە یان زیاتر بێت.</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">تۆ <xliff:g id="number">%1$d</xliff:g> جار کۆدی PINـت بە نادروستی نووسیوە. \n\nدوای <xliff:g id="number">%2$d</xliff:g> چرکەی تر دووبارە هەوڵ بدەرەوە.</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">تۆ <xliff:g id="number">%1$d</xliff:g> جار تێپەڕەوشەت بە نادروستی نووسیوە. \n\nدوای <xliff:g id="number">%2$d</xliff:g> چرکەی تر دووبارە هەوڵ بدەرەوە.</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">تۆ <xliff:g id="number">%1$d</xliff:g> جار نەخشی قوفڵەکەت بە نادروستی کێشاوە. \n\nدوای <xliff:g id="number">%2$d</xliff:g> چرکەی تر دووبارە هەوڵ بدەرەوە.</string>
+    <string name="kg_password_wrong_pin_code_pukked">کۆدی پینی سیمکارت نادروستە، پێویستە ئێستا بۆ کردنەوەی قوفڵی ئامێرەکەت پەیوەندی بە هێڵەکەتەوە بکەیت.</string>
+    <string name="kg_password_wrong_pin_code">{count, plural, =1 {کۆدی PINـی سیمکارت هەڵەیە، # هەوڵت ماوە پێش ئەوەی پەیوەندی بە هێڵەکەتەوە بکەیت بۆ کردنەوەی ئامێرەکەت.} other {کۆدی PINـی سیمکارت هەڵەیە، # هەوڵت ماوە.}}</string>
+    <string name="kg_password_wrong_puk_code_dead">سیمکارتەکە لەکەوتووە. پەیوەندی بە هێڵەکەتەوە بکە.</string>
+    <string name="kg_password_wrong_puk_code">{count, plural, =1 {کۆدی PUKـی سیمکارت هەڵەیە، # هەوڵت ماوە پێش ئەوەی سیمکارت بۆ هەمیشە لەکاربکەوێت.} other {کۆدی PUKـی سیمکارت هەڵەیە، # هەوڵت ماوە پێش ئەوەی سیمکارت بۆ هەمیشە لەکاربکەوێت.}}</string>
+    <string name="kg_password_pin_failed">کرداری پینی سیمکارت سەرکەوتوو نەبوو!</string>
+    <string name="kg_password_puk_failed">کرداری PUKـی سیمکارت سەرکەوتوو نەبوو!</string>
+    <string name="accessibility_ime_switch_button" msgid="5032926134740456424">گۆڕینی ڕێگەی تێخستن</string>
+    <string name="airplane_mode">دۆخی فڕۆکە</string>
+    <string name="kg_prompt_reason_restart_pattern">دوای داگیرساندنەوەی ئامێر، شێواز پێویستە</string>
+    <string name="kg_prompt_reason_restart_pin">دوای داگیرساندنەوەی ئامێر، PIN پێویستە</string>
+    <string name="kg_prompt_reason_restart_password">دوای داگیرساندنەوەی ئامێر، تێپەڕەوشە پێویستە</string>
+    <string name="kg_prompt_reason_signin_pattern">شێواز پێویستە بۆ چوونەژوورەوە</string>
+    <string name="kg_prompt_reason_signin_pin">PIN پێویستە بۆ چوونەژوورەوە</string>
+    <string name="kg_prompt_reason_signin_password">تێپەڕەوشە پێویستە بۆ چوونەژوورەوە</string>
+    <string name="kg_prompt_reason_timeout_pattern">بۆ پاراستنی زیاتر، لەبری ئەوە شێواز بەکاربهێنە</string>
+    <string name="kg_prompt_reason_timeout_pin">بۆ پاراستنی زیاتر، لەبری ئەوە PIN بەکاربهێنە</string>
+    <string name="kg_prompt_reason_timeout_password">بۆ پاراستنی زیاتر، لەبری ئەوە تێپەڕەوشە بەکاربهێنە</string>
+    <string name="kg_prompt_added_security_pin">بۆ پاراستنی زیاتر، PIN پێویستە</string>
+    <string name="kg_prompt_added_security_pattern">بۆ پاراستنی زیاتر، نەخش پێویستە</string>
+    <string name="kg_prompt_added_security_password">بۆ پاراستنی زیاتر، تێپەڕەوشە پێویستە</string>
+    <string name="kg_prompt_reason_device_admin">ئامێر لەلایەن سەرپەرشتیارەوە قفڵ کراوە</string>
+    <string name="kg_prompt_reason_user_request">ئامێرەکە بە دەستی قفڵ کراوە</string>
+    <string name="kg_face_not_recognized">نەناسراوەتەوە</string>
+    <string name="kg_face_sensor_privacy_enabled">بۆ بەکارهێنانی کردنەوە بە دەموچاو، لە ڕێکخستنەکاندا دەستپێگەیشتن بە کامێرا دابگیرسێنە</string>
+    <string name="kg_password_default_pin_message">{count, plural, =1 {کۆدی PINـی سیمکارت بنووسە. # هەوڵت ماوە پێش ئەوەی پەیوەندی بە هێڵەکەتەوە بکەیت بۆ کردنەوەی ئامێرەکەت.} other {کۆدی PINـی سیمکارت بنووسە. # هەوڵت ماوە.}}</string>
+    <string name="kg_password_default_puk_message">{count, plural, =1 {سیمکارت ئێستا ناچالاکە. کۆدی PUK بنووسە بۆ بەردەوامبوون. # هەوڵت ماوە پێش ئەوەی سیمکارت بۆ هەمیشە لەکاربکەوێت. بۆ وردەکاری پەیوەندی بە هێڵەکەتەوە بکە.} other {سیمکارت ئێستا ناچالاکە. کۆدی PUK بنووسە بۆ بەردەوامبوون. # هەوڵت ماوە پێش ئەوەی سیمکارت بۆ هەمیشە لەکاربکەوێت. بۆ وردەکاری پەیوەندی بە هێڵەکەتەوە بکە.}}</string>
+    <string name="clock_title_default">بنەڕەتی</string>
+    <string name="clock_title_bubble">بڵق</string>
+    <string name="clock_title_analog">ئەنالۆگ</string>
+    <string name="keyguard_unlock_to_continue">بۆ بەردەوامبوون قفڵی ئامێرەکەت بکەرەوە</string>
+    <string name="kg_prompt_unattended_update_pin">بۆ دامەزراندنی نوێکردنەوە لە کاتێکی تردا، PIN بنووسە</string>
+    <string name="kg_prompt_unattended_update_password">بۆ دامەزراندنی نوێکردنەوە لە کاتێکی تردا، تێپەڕەوشە بنووسە</string>
+    <string name="kg_prompt_unattended_update_pattern">بۆ دامەزراندنی نوێکردنەوە لە کاتێکی تردا، شێواز بنەخشێنە</string>
+    <string name="kg_prompt_after_update_pin">ئامێر نوێکرایەوە. بۆ بەردەوامبوون PIN بنووسە.</string>
+    <string name="kg_prompt_after_update_password">ئامێر نوێکرایەوە. بۆ بەردەوامبوون تێپەڕەوشە بنووسە.</string>
+    <string name="kg_prompt_after_update_pattern">ئامێر نوێکرایەوە. بۆ بەردەوامبوون شێواز بنەخشێنە.</string>
 </resources>

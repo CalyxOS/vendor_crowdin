@@ -68,7 +68,6 @@
     <string name="button_back">Nôl</string>
     <string name="not_sorted">Heb unrhyw drefn</string>
     <string name="sort_dimension_name">Enw</string>
-    <string name="sort_dimension_summary">Crynodeb</string>
     <string name="sort_dimension_file_type">Math</string>
     <string name="sort_dimension_size">Maint</string>
     <string name="sort_dimension_date">Addaswyd</string>
@@ -132,6 +131,7 @@ dy broffil personol.</string>
     <string name="toast_failed_delete">Methu â dileu rhai dogfennau</string>
     <string name="toast_share_over_limit">Methu â rhannu mwy na <xliff:g id="count" example="1">%1$d</xliff:g> ffeil.</string>
     <string name="toast_action_not_allowed">Ni chaniateir y weithred</string>
+    <string name="toast_op_not_allowed_for_shortcuts">Ni chaniateir y weithred</string>
     <string name="share_via">Rhannu drwy</string>
     <string name="copy_notification_title">Yn copïo ffeiliau</string>
     <string name="compress_notification_title">Yn cywasgu ffeiliau</string>
@@ -240,14 +240,6 @@ dy broffil personol.</string>
         <item quantity="many">Cafodd y ffeiliau hyn eu trosi i fformat arall: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
         <item quantity="other">Cafodd y ffeiliau hyn eu trosi i fformat arall: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
     </plurals>
-    <plurals name="clipboard_files_clipped">
-        <item quantity="zero">Copïwyd <xliff:g id="count" example="1">%1$d</xliff:g> eitemau i\'r clipfwrdd.</item>
-        <item quantity="one">Copïwyd <xliff:g id="count" example="1">%1$d</xliff:g> eitem i\u2019r clipfwrdd.</item>
-        <item quantity="two">Copïwyd <xliff:g id="count" example="1">%1$d</xliff:g> eitem i\'r clipfwrdd.</item>
-        <item quantity="few">Copïwyd <xliff:g id="count" example="1">%1$d</xliff:g> eitem i\'r clipfwrdd.</item>
-        <item quantity="many">Copïwyd <xliff:g id="count" example="1">%1$d</xliff:g> eitem i\'r clipfwrdd.</item>
-        <item quantity="other">Copïwyd <xliff:g id="count" example="1">%1$d</xliff:g> eitem i\'r clipfwrdd.</item>
-    </plurals>
     <string name="file_operation_rejected">Ni chefnogir y weithred ffeil.</string>
     <string name="file_operation_error">Methodd y weithred ffeil.</string>
     <string name="rename_error">Methwyd ag ailenwi\u2019r ddogfen</string>
@@ -275,32 +267,6 @@ dy broffil personol.</string>
         <item quantity="many"><xliff:g id="count" example="3">%1$d</xliff:g> eitem</item>
         <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> eitem</item>
     </plurals>
-    <string name="delete_filename_confirmation_message">Dileu \"<xliff:g id="name" example="cat.jpg">%1$s</xliff:g>\"?</string>
-    <string name="delete_foldername_confirmation_message">Dileu\u2019r ffolder \"<xliff:g id="name" example="Photos">%1$s</xliff:g>\" a\'i chynnwys?</string>
-    <plurals name="delete_files_confirmation_message">
-        <item quantity="zero">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> ffeiliau?</item>
-        <item quantity="one">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> ffeil?</item>
-        <item quantity="two">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> ffeil?</item>
-        <item quantity="few">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> ffeil?</item>
-        <item quantity="many">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> ffeil?</item>
-        <item quantity="other">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> ffeil?</item>
-    </plurals>
-    <plurals name="delete_folders_confirmation_message">
-        <item quantity="zero">Dileu <xliff:g id="count" example="3">%1$d</xliff:g> ffolder a\'u cynnwys?</item>
-        <item quantity="one">Dileu <xliff:g id="count" example="3">%1$d</xliff:g> ffolder a\'i chynnwys?</item>
-        <item quantity="two">Dileu <xliff:g id="count" example="3">%1$d</xliff:g> ffolder a\'u cynnwys?</item>
-        <item quantity="few">Dileu <xliff:g id="count" example="3">%1$d</xliff:g> ffolder a\'u cynnwys?</item>
-        <item quantity="many">Dileu <xliff:g id="count" example="3">%1$d</xliff:g> ffolder a\'u cynnwys?</item>
-        <item quantity="other">Dileu <xliff:g id="count" example="3">%1$d</xliff:g> ffolder a\'u cynnwys?</item>
-    </plurals>
-    <plurals name="delete_items_confirmation_message">
-        <item quantity="zero">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> eitemau?</item>
-        <item quantity="one">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> eitem?</item>
-        <item quantity="two">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> eitem?</item>
-        <item quantity="few">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> eitem?</item>
-        <item quantity="many">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> eitem?</item>
-        <item quantity="other">Dileu <xliff:g id="count" example="1">%1$d</xliff:g> eitem?</item>
-    </plurals>
     <string name="images_shortcut_label">Delweddau</string>
     <string name="archive_loading_failed">Methu ag agor yr archive i\'w phori. Mae\u2019r ffeil naill ai\'n llwgr neu mewn fformat na\'i chefnogir.</string>
     <string name="name_conflict">Mae eisoes ffeil gyda\u2019r enw hwn yn bodoli.</string>
@@ -308,7 +274,6 @@ dy broffil personol.</string>
     <string name="cant_display_content">Methu â dangos y cynnwys</string>
     <string name="sign_in">Mewngofnodi</string>
     <string name="new_archive_file_name">archif<xliff:g id="extension" example=".zip">%s</xliff:g></string>
-    <string name="overwrite_file_confirmation_message">Trosysgrifo <xliff:g id="name" example="foobar.txt">%1$s</xliff:g>?</string>
     <string name="continue_in_background">Parhau yn y cefndir</string>
     <plurals name="selected_count">
         <item quantity="zero"><xliff:g id="count" example="3">%1$d</xliff:g> wedi\u2019u dewis</item>
@@ -338,20 +303,19 @@ dy broffil personol.</string>
     <string name="chip_title_documents">Dogfennau</string>
     <string name="chip_title_large_files">Ffeiliau mawr</string>
     <string name="chip_title_from_this_week">Yr wythnos hon</string>
-    <string name="input_hint_new_folder">Enw\'r ffolder</string>
-    <string name="input_hint_rename">Enw newydd</string>
+    <string name="input_hint_new_folder">Enw</string>
+    <string name="input_hint_rename">Enw</string>
     <string name="preview_file">Rhagolwg o\u2019r ffeil <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
     <string name="preview_work_file">Rhagolwg o\u2019r ffeil gwaith <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
     <string name="preview_cross_profile_file">Rhagweld y ffeil <xliff:g id="profile" example="work">%1$s</xliff:g> <xliff:g id="fileName" example="example.jpg">%2$s</xliff:g></string>
     <string name="apps_row_title">Pori ffeiliau yn apiau eraill</string>
     <string name="anonymous_application">Anhysbys</string>
     <string name="open_tree_button">Defnyddio\u2019r ffolder hon</string>
-    <string name="open_tree_dialog_title">Caniatâu <xliff:g id="appName" example="Drive">%1$s</xliff:g> i gael at ffeiliau yn <xliff:g id="directory" example="DCIM">%2$s</xliff:g>?</string>
-    <string name="open_tree_dialog_message">Bydd hyn yn gadael i \"<xliff:g id="appName" example="Drive">%1$s</xliff:g>\" gael mynediad at gynnwys cyfredol a\u2019r dyfodol wedi\u2019i storio yn <xliff:g id="directory" example="DCIM">%2$s</xliff:g>.</string>
     <string name="directory_blocked_header_title">Ni ellir defnyddio\u2019r ffolder hon</string>
     <string name="directory_blocked_header_subtitle">I warchod dy breifatrwydd, dewisa ffolder arall</string>
     <string name="create_new_folder_button">Creu ffolder newydd</string>
     <string name="search_bar_hint">Chwilio\'r ddyfais hon</string>
+    <string name="search_bar_generic_hint">Chwilio</string>
     <string name="delete_search_history">Dileu hanes chwilio <xliff:g id="text" example="image">%1$s</xliff:g></string>
     <string name="personal_tab">Personol</string>
     <string name="work_tab">Gwaith</string>

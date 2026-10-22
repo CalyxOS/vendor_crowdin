@@ -64,7 +64,6 @@
     <string name="button_back">Atrás</string>
     <string name="not_sorted">Ensin ordenar</string>
     <string name="sort_dimension_name">Nome</string>
-    <string name="sort_dimension_summary">Resume</string>
     <string name="sort_dimension_file_type">Tipu</string>
     <string name="sort_dimension_size">Tamañu</string>
     <string name="sort_dimension_date">Última modific.</string>
@@ -89,9 +88,11 @@
     <string name="query_error">Nesti momentu nun se pue cargar el conteníu</string>
     <string name="quiet_mode_error_title">Les aplicaciones llaborales tán en posa</string>
     <string name="quiet_mode_button">Activar les aplicaciones llaborales</string>
-    <string name="profile_quiet_mode_error_title">        Posáronse les aplicaciones del perfil <xliff:g id="profile" example="Work">%1$s</xliff:g>
+    <string name="profile_quiet_mode_error_title">
+        Posáronse les aplicaciones del perfil <xliff:g id="profile" example="Work">%1$s</xliff:g>
     </string>
-    <string name="profile_quiet_mode_button">        Activar les aplicaciones del perfil <xliff:g id="profile" example="work">%1$s</xliff:g>
+    <string name="profile_quiet_mode_button">
+        Activar les aplicaciones del perfil <xliff:g id="profile" example="work">%1$s</xliff:g>
     </string>
     <string name="cant_select_work_files_error_title">Nun se puen seleicionar los ficheros del perfil llaboral</string>
     <string name="cant_select_work_files_error_message">L\'alministrador de TI nun te permite
@@ -142,6 +143,7 @@
     <string name="toast_failed_delete">Nun ye posible desaniciar dalgunos documentos</string>
     <string name="toast_share_over_limit">Nun se puen compartir más de <xliff:g id="count" example="1">%1$d</xliff:g> ficheros</string>
     <string name="toast_action_not_allowed">L\'aición nun ta permitida</string>
+    <string name="toast_op_not_allowed_for_shortcuts">L\'aición nun ta permitida</string>
     <string name="share_via">Compartir per</string>
     <string name="copy_notification_title">Copia de ficheros</string>
     <string name="compress_notification_title">Compresión de ficheros</string>
@@ -206,10 +208,6 @@
         <item quantity="one">Esti ficheru convirtióse a otru formatu: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
         <item quantity="other">Estos ficheros convirtiéronse a otru formatu: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
     </plurals>
-    <plurals name="clipboard_files_clipped">
-        <item quantity="one">Copióse <xliff:g id="count" example="1">%1$d</xliff:g> elementu nel cartafueyu.</item>
-        <item quantity="other">Copiáronse <xliff:g id="count" example="1">%1$d</xliff:g> elementos nel cartafueyu.</item>
-    </plurals>
     <string name="file_operation_rejected">La operación del ficheru nun ye compatible.</string>
     <string name="file_operation_error">La operación del ficheru falló.</string>
     <string name="rename_error">Hebo un fallu al renomar el documentu</string>
@@ -232,20 +230,6 @@
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> elementu</item>
         <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> elementos</item>
     </plurals>
-    <string name="delete_filename_confirmation_message">¿Quies desaniciar «<xliff:g id="name" example="cat.jpg">%1$s</xliff:g>»?</string>
-    <string name="delete_foldername_confirmation_message">¿Quies desaniciar la carpeta «<xliff:g id="name" example="Photos">%1$s</xliff:g>» y el so conteníu?</string>
-    <plurals name="delete_files_confirmation_message">
-        <item quantity="one">¿Quies desaniciar <xliff:g id="count" example="1">%1$d</xliff:g> ficheru?</item>
-        <item quantity="other">¿Quies desaniciar <xliff:g id="count" example="1">%1$d</xliff:g> ficheros?</item>
-    </plurals>
-    <plurals name="delete_folders_confirmation_message">
-        <item quantity="one">¿Quies desaniciar <xliff:g id="count" example="1">%1$d</xliff:g> carpeta y el so conteníu?</item>
-        <item quantity="other">¿Quies desaniciar <xliff:g id="count" example="1">%1$d</xliff:g> carpetes y el so conteníu?</item>
-    </plurals>
-    <plurals name="delete_items_confirmation_message">
-        <item quantity="one">¿Quies desaniciar <xliff:g id="count" example="1">%1$d</xliff:g> elementu?</item>
-        <item quantity="other">¿Quies desaniciar <xliff:g id="count" example="1">%1$d</xliff:g> elementos?</item>
-    </plurals>
     <string name="images_shortcut_label">Imáxenes</string>
     <string name="archive_loading_failed">Nun ye posible abrir l\'archivu pa restolalu porque ta toyíu o tien un formatu incompatible.</string>
     <string name="name_conflict">Yá esiste un ficheru con esti nome.</string>
@@ -253,7 +237,6 @@
     <string name="cant_display_content">Nun se pue amosar el conteníu</string>
     <string name="sign_in">Aniciar la sesión</string>
     <string name="new_archive_file_name">archivu<xliff:g id="extension" example=".zip">%s</xliff:g></string>
-    <string name="overwrite_file_confirmation_message">¿Quies sobrescribir «<xliff:g id="name" example="foobar.txt">%1$s</xliff:g>»?</string>
     <string name="continue_in_background">Siguir en segundu planu</string>
     <plurals name="selected_count">
         <item quantity="one">Seleicionóse <xliff:g id="count" example="1">%1$d</xliff:g></item>
@@ -279,19 +262,19 @@
     <string name="chip_title_documents">Documentos</string>
     <string name="chip_title_large_files">Ficheros grandes</string>
     <string name="chip_title_from_this_week">Esta selmana</string>
-    <string name="input_hint_new_folder">Nome de la carpeta</string>
-    <string name="input_hint_rename">Nome nuevu</string>
+    <string name="input_hint_new_folder">Nome</string>
+    <string name="input_hint_rename">Nome</string>
     <string name="preview_file">Previsualizar el ficheru del perfil de trabayu «<xliff:g id="fileName" example="example.jpg">%1$s</xliff:g>»</string>
     <string name="preview_work_file">Previsualizar el ficheru del perfil de trabayu «<xliff:g id="fileName" example="example.jpg">%1$s</xliff:g>»</string>
     <string name="preview_cross_profile_file">Previsualizar el ficheru «<xliff:g id="fileName" example="example.jpg">%2$s</xliff:g>» del perfil «<xliff:g id="profile" example="work">%1$s</xliff:g>»</string>
     <string name="apps_row_title">Restolar ficheros n\'otres aplicaciones</string>
     <string name="anonymous_application">Aplicación anónima</string>
     <string name="open_tree_button">Usar esta carpeta</string>
-    <string name="open_tree_dialog_title">¿Quies permitir a «<xliff:g id="appName" example="Drive">%1$s</xliff:g>» qu\'acceda a los ficheros del direutoriu «<xliff:g id="directory" example="DCIM">%2$s</xliff:g>»?</string>
     <string name="directory_blocked_header_title">Nun se pue usar esta carpeta</string>
     <string name="directory_blocked_header_subtitle">Pa protexer la to privacidá, escueyi otra carpeta</string>
     <string name="create_new_folder_button">Crear una carpeta</string>
     <string name="search_bar_hint">Buscar nesti preséu</string>
+    <string name="search_bar_generic_hint">Buscar</string>
     <string name="delete_search_history">Desaniciar l\'historial de busca «<xliff:g id="text" example="image">%1$s</xliff:g>»</string>
     <string name="personal_tab">Perfil personal</string>
     <string name="work_tab">Perfil llaboral</string>

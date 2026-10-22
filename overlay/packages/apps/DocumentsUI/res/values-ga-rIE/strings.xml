@@ -33,7 +33,6 @@
     <string name="menu_save">Sábháil</string>
     <string name="menu_share">Comhroinn</string>
     <string name="menu_delete">Scrios</string>
-    <string name="menu_permanently_delete">Scrios go buan</string>
     <string name="menu_move_to_trash">Bog go dtí an bruscar</string>
     <string name="menu_restore_from_trash">Athchóirigh</string>
     <string name="menu_select_all">Roghnaigh gach rud</string>
@@ -73,7 +72,6 @@
     <string name="button_show_in_folder">Taispeáin sa bhfillteán</string>
     <string name="not_sorted">Gan sórtáil</string>
     <string name="sort_dimension_name">Ainm</string>
-    <string name="sort_dimension_summary">Achoimre</string>
     <string name="sort_dimension_file_type">Cineál</string>
     <string name="sort_dimension_size">Méid</string>
     <string name="sort_dimension_date">Modhnaithe</string>
@@ -128,7 +126,7 @@
     <string name="toast_failed_delete">Ní féidir roinnt doiciméad a scriosadh</string>
     <string name="toast_share_over_limit">Ní féidir níos mó ná <xliff:g id="count" example="1">%1$d</xliff:g> comhad a roinnt</string>
     <string name="toast_action_not_allowed">Ní cheadaítear gníomh</string>
-    <string name="no_application_dialog_title">Oscail le\u2026</string>
+    <string name="toast_op_not_allowed_for_shortcuts">Ní cheadaítear gníomh</string>
     <string name="no_application_dialog_message">Níl aon aipeanna tacaithe suiteáilte. Bain triail as ceann a shuiteáil ón Play Store.</string>
     <string name="no_application_dialog_button">Cuardaigh an Siopa Súgartha</string>
     <string name="share_via">Comhroinn trí</string>
@@ -140,20 +138,6 @@
     <string name="move_to_trash_notification_title">Comhaid á gcur sa bhruscar</string>
     <string name="restore_from_trash_notification_title">Comhaid á n-athchóiriú</string>
     <string name="copy_remaining"><xliff:g id="duration" example="3 nóiméad">%s</xliff:g> fágtha</string>
-    <string name="trashing">{count, plural, 
-        =1 {Ag cur <xliff:g id="count" example="1">{count}</xliff:g> mír sa bhruscar}
-        two {Ag cur <xliff:g id="count" example="3">{count}</xliff:g> míreanna sa bhruscar}
-        few {Ag cur <xliff:g id="count" example="3">{count}</xliff:g> míreanna sa bhruscar}
-        many {Ag cur <xliff:g id="count" example="3">{count}</xliff:g> míreanna sa bhruscar}
-        other {Ag cur <xliff:g id="count" example="3">{count}</xliff:g> míreanna sa bhruscar}
-    }</string>
-    <string name="restoring_from_trash">{count, plural,
-        =1 {Ag athshlánú <xliff:g id="count" example="1">{count}</xliff:g> mír}
-        two {Ag athshlánú <xliff:g id="count" example="3">{count}</xliff:g> míreanna}
-        few {Ag athshlánú <xliff:g id="count" example="3">{count}</xliff:g> míreanna}
-        many {Ag athshlánú <xliff:g id="count" example="3">{count}</xliff:g> míreanna}
-        other {Ag athshlánú <xliff:g id="count" example="3">{count}</xliff:g> míreanna}
-    }</string>
     <string name="undo">Cuir ar ceal</string>
     <string name="copy_preparing">Ag ullmhú...</string>
     <string name="compress_preparing">Ag ullmhú...</string>
@@ -179,13 +163,6 @@
         many {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a chomhbhrú}
         other {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a chomhbhrú}
     }</string>
-    <string name="extract_error_notification_title">{count, plural,
-        =1 {Níorbh fhéidir <xliff:g id="count" example="1">{count}</xliff:g> mír a bhain amach}
-        two {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a bhain amach}
-        few {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a bhain amach}
-        many {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a bhain amach}
-        other {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a bhain amach}
-    }</string>
     <string name="move_error_notification_title">{count, plural,
         =1 {Níorbh fhéidir <xliff:g id="count" example="1">{count}</xliff:g> mír a bhogadh}
         two {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a bhogadh}
@@ -200,76 +177,10 @@
         many {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a scriosadh}
         other {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a scriosadh}
     }</string>
-    <string name="move_to_trash_error_notification_title">{count, plural,
-        =1 {Níorbh fhéidir <xliff:g id="count" example="1">{count}</xliff:g> mír a chur sa bhruscar}
-        two {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a chur sa bhruscar}
-        few {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a chur sa bhruscar}
-        many {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a chur sa bhruscar}
-        other {Níorbh fhéidir <xliff:g id="count" example="3">{count}</xliff:g> míreanna a chur sa bhruscar}
-    }</string>
-    <string name="restore_from_trash_error_notification_title">{count, plural,
-        =1 {Níorbh fhéidir &lt;xliff:g id="count" example="1"&gt;{count}&lt;/xliff:g&gt; mír a athshlánú}
-        two {Níorbh fhéidir &lt;xliff:g id="count" example="3"&gt;{count}&lt;/xliff:g&gt; míreanna a athshlánú}
-        few {Níorbh fhéidir &lt;xliff:g id="count" example="3"&gt;{count}&lt;/xliff:g&gt; míreanna a athshlánú}
-        many {Níorbh fhéidir &lt;xliff:g id="count" example="3"&gt;{count}&lt;/xliff:g&gt; míreanna a athshlánú}
-        other {Níorbh fhéidir &lt;xliff:g id="count" example="3"&gt;{count}&lt;/xliff.g&gt; míreanna a athshlánú}
-    }</string>
     <string name="close">Dún</string>
     <string name="read_only_label">Léamh amháin</string>
     <string name="read_only_explanation">Is féidir leat na comhaid seo a fheiceáil ach ní thacaítear le roinnt gníomhartha</string>
     <string name="cannot_extract_in_read_only_folder">Tá an chartlann seo i suíomh inléite amháin agus ní féidir í a bhaint as anseo.</string>
-    <string name="copy_in_progress">{count, plural,
-        =1 {Ag cóipeáil \u201C<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>\u201D go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        two {Ag cóipeáil # chomhad go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        few {Ag cóipeáil # chomhad go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        many {Ag cóipeáil # gcomhad go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        other {Ag cóipeáil # comhad go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-    }
-</string>
-    <string name="extract_in_progress">{count, plural,
-        =1 {Ag baint \u201C<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>\u201D go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        two {Ag baint # chartlann go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        few {Ag baint # chartlann go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        many {Ag baint # gcartlann go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        other {Ag baint # cartlann go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-    }
-</string>
-    <string name="move_in_progress">{count, plural,
-        =1 {Ag bogadh \u201C<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>\u201D go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        two {Ag bogadh # chomhad go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        few {Ag bogadh # chomhad go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        many {Ag bogadh # gcomhad go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-        other {Ag bogadh # comhad go \u201C<xliff:g id="directory" example="example folder">{directory}</xliff:g>\u201D}
-    }
-</string>
-    <string name="delete_in_progress">{count, plural,
-        =1 {Ag scriosadh <xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>\u201D}
-        two {Ag scriosadh # comhaid}
-        few {Ag scriosadh # comhaid}
-        many {Ag scriosadh # comhaid}
-        other {Ag scriosadh # comhaid}
-    }</string>
-    <string name="trash_in_progress">{count, plural,
-        =1 {Ag cur <xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>sa bhruscar}
-        two {Ag cur # comhaid sa bhruscar}
-        few {Ag cur # comhaid sa bhruscar}
-        many {Ag cur # comhaid sa bhruscar}
-        other {Ag cur # comhaid sa bhruscar}
-    }</string>
-    <string name="restore_in_progress">{count, plural,
-        =1 {Ag athchóiriú <xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>}
-        two {Ag athchóiriú # comhaid}
-        few {Ag athchóiriú # comhaid}
-        many {Ag athchóiriú # comhaid}
-        other {Ag athchóiriú # comhaid}
-    }</string>
-    <string name="compress_in_progress">{count, plural,
-        =1 {Ag zipáil \u201C<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>\u201D}
-        two {Ag zipáil # comhaid}
-        few {Ag zipáil # comhaid}
-        many {Ag zipáil # comhaid}
-        other {Ag zipáil # comhaid}
-    }</string>
     <string name="job_progress_icon_label">Taispeáin dul chun cinn an chomhaid</string>
     <string name="job_progress_panel_title">Dul Chun Cinn Comhaid</string>
     <string name="job_progress_item_completed">Críochnaithe</string>
@@ -317,18 +228,17 @@
     <string name="chip_title_documents">Doiciméid</string>
     <string name="chip_title_large_files">Comhaid mhóra</string>
     <string name="chip_title_from_this_week">An tseachtain seo</string>
-    <string name="input_hint_new_folder">Ainm fillteáin</string>
-    <string name="input_hint_rename">Ainm nua</string>
+    <string name="input_hint_new_folder">Ainm</string>
+    <string name="input_hint_rename">Ainm</string>
     <string name="preview_file">Réamhamharc ar an gcomhad <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
     <string name="preview_work_file">Réamhamharc ar an gcomhad oibre <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
     <string name="apps_row_title">Brabhsáil comhaid in aipeanna eile</string>
     <string name="anonymous_application">Gan ainm</string>
     <string name="open_tree_button">Úsáid an fillteán seo</string>
-    <string name="open_tree_dialog_title">Ceadaigh do <xliff:g id="appName" example="Drive">%1$s</xliff:g> rochtain a fháil ar chomhaid i <xliff:g id="directory" example="DCIM">%2$s</xliff:g>?</string>
-    <string name="open_tree_dialog_message">Cuirfidh sé seo ar chumas \"<xliff:g id="appName" example="Drive">%1$s</xliff:g>\" rochtain a fháil ar ábhar reatha agus ábhar amach anseo atá stóráilte i <xliff:g id="directory" example="DCIM">%2$s</xliff:g>.</string>
     <string name="directory_blocked_header_title">Ní féidir an fillteán seo a úsáid</string>
     <string name="directory_blocked_header_subtitle">Chun do phríobháideacht a chosaint, roghnaigh fillteán eile</string>
     <string name="create_new_folder_button">Cruthaigh fillteán nua</string>
+    <string name="search_bar_generic_hint">Cuardaigh</string>
     <string name="search_bar_clear">Glan an téacs</string>
     <string name="search_location_root_folder">Fillteán fréimhe</string>
     <string name="search_location_everywhere">I ngach áit</string>
@@ -358,4 +268,5 @@
     <string name="a11y_peek_image_preview">Réamhamharc íomhá de <xliff:g id="filename" example="image.png">%s</xliff:g></string>
     <string name="a11y_peek_hide_info_button">Folaigh an painéal eolais</string>
     <string name="a11y_peek_show_info_button">Taispeáin painéal eolais</string>
+    <string name="file_open_in_trash_dialog_restore_action_button">Athchóirigh</string>
 </resources>

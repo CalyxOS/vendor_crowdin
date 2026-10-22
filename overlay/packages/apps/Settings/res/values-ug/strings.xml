@@ -152,8 +152,6 @@
     <string name="bluetooth_key_missing_close">تاقاش</string>
     <string name="device_details_battery">توكدان</string>
     <string name="nfc_reboot_dialog_confirm">قايتا قوزغات</string>
-    <string name="external_display_on">ئوچۇق</string>
-    <string name="external_display_off">تاقاق</string>
     <string name="external_display_more_options_title">تېخىمۇ كۆپ تاللانما</string>
     <string name="wifi_display_enable_menu_item">سىمسىز ئېكراننى قوزغات</string>
     <string name="wifi_display_no_devices_found">ئەتراپتا سىمسىز كۆرسىتىش ئۈسكۈنىسى تېپىلمىدى.\"</string>
@@ -197,11 +195,9 @@
     <string name="wifi_ip_settings">IP تەڭشەك</string>
     <string name="wifi_privacy_device_name_settings">ئۈسكۈنە ئاتى</string>
     <string name="wifi_dpp_connecting">باغلىنىۋاتىدۇ…</string>
-    <string name="wifi_conflict_dialog_confirm">جەزملە</string>
     <string name="wifi_conflict_dialog_cancel">ۋاز كەچ</string>
     <string name="wifi_unchanged">(ئۆزگەرتىلمىگەن)</string>
     <string name="wifi_scan_always_turnon_message">\"ئورۇن ئۇچۇرىنىڭ دەللىكىنى ئۈستۈرۈش ۋە باشقا مەقسەت ئۈچۈن، Wi-Fi تاقالغان تەقدىردىمۇ، <xliff:g id="APP_NAME">%1$s</xliff:g> تور تەكشۈرۈشنى ئاچماقچى.\n\nبۇنىڭغا يول قويۇپ ھەممە ئەپلەر تەكشۈرەلەيدىغان بولسۇنمۇ؟</string>
-    <string name="wifi_scan_always_confirm_allow">يول قوي</string>
     <string name="wifi_scan_always_confirm_deny">رەت قىل</string>
     <string name="wifi_connect">باغلان</string>
     <string name="wifi_connecting">باغلىنىۋاتىدۇ…</string>
@@ -245,7 +241,6 @@
     <string name="private_dns_mode_on">ئوچۇق</string>
     <string name="account_settings">ھېساباتلار</string>
     <string name="search_settings">ئىزدە</string>
-    <string name="display_settings">ئېكران</string>
     <string name="accelerometer_title">ئېكراننى ئۆزلۈكىدىن ئايلاندۇر</string>
     <string name="auto_rotate_option_off">تاقاق</string>
     <string name="auto_rotate_option_on">ئوچۇق</string>
@@ -258,7 +253,6 @@
     <string name="screen_timeout_summary_not_set">تەڭشەلمىگەن</string>
     <string name="wallpaper_settings_title">تام قەغىزى</string>
     <string name="wallpaper_settings_fragment_title">تام قەغەز تاللاش ئورنى</string>
-    <string name="screensaver_unavailable_due_to_mode">ئىشلەتكىلى بولمايدۇ</string>
     <string name="screensaver_settings_summary_sleep">توكلاۋاتقاندا</string>
     <string name="screensaver_settings_summary_dock">لەڭگەرلەنگەندە</string>
     <string name="screensaver_settings_summary_off">تاقاق</string>
@@ -272,6 +266,7 @@
     <string name="sim_change_succeeded">SIM كارتا PIN مۇۋەپپەقىيەتلىك ئۆزگەردى</string>
     <string name="sim_enter_ok">جەزملە</string>
     <string name="sim_enter_cancel">ۋاز كەچ</string>
+    <string name="provide_new_sim_pin_title">يېڭى SIM كارتا PIN</string>
     <string name="wrong_pin_code_pukked">SIM كارتا PIN كودى توغرا ئەمەس، ھازىر مۇلازىمەت سودىگىرىڭىز بىلەن ئالاقە قىلىپ ئۈسكۈنىڭىزنىڭ قۇلۇپىنى ئېچىڭ.</string>
     <string name="pin_failed">SIM كارتا PIN مەشغۇلاتى مەغلۇپ بولدى!</string>
     <string name="system_update_settings_list_item_title">سىستېما يېڭىلاش</string>
@@ -399,7 +394,6 @@
     <string name="lockpattern_settings_choose_lock_pattern">قۇلۇپ ئاچىدىغان ئەندىزە تەڭشەك</string>
     <string name="lockpattern_settings_change_lock_pattern">قۇلۇپ ئاچىدىغان ئەندىزە ئۆزگەرت</string>
     <string name="lockpattern_settings_help_how_to_record">قۇلۇپ ئاچىدىغان ئەندىزە قانداق سىزىلىدۇ</string>
-    <string name="activity_not_found">ئەپ تېلېفونىڭىزغا  ئورنىتىلمىغان.</string>
     <string name="manageapplications_settings_title">ئەپ باشقۇرۇش</string>
     <string name="applications_settings">ئەپ ئۇچۇرى</string>
     <string name="applications_settings_header">ئەپ تەڭشەك</string>
@@ -481,20 +475,18 @@
     <string name="process_service_in_use_description">مۇلازىمەت <xliff:g id="COMP_NAME">%1$s</xliff:g> ئىشلىتىلىۋاتىدۇ.</string>
     <string name="process_provider_in_use_description">تەمىنلىگۈچى <xliff:g id="COMP_NAME">%1$s</xliff:g> ئىشلىتىلىۋاتىدۇ.</string>
     <string name="runningservicedetails_stop_dlg_title">سىستېما مۇلازىمىتىنى توختىتامسىز؟</string>
-    <string name="keyboard_settings_category">ھەرپتاختا ۋە كىرگۈزگۈچ</string>
     <string name="auto_replace">ئاپتوماتىك ئالماشتۇرۇش</string>
     <string name="auto_replace_summary">خاتا كىرگۈزگەن سۆزلەرنى تۈزەت</string>
     <string name="auto_caps">بىرىنچى ھەرپنى ئۆزلۈكىدىن چوڭغا ئالماشتۇر</string>
     <string name="auto_caps_summary">جۈملە بېشىدىكى بىرىنچى ھەرپ چوڭ</string>
     <string name="auto_punctuate">تىنىش بەلگىسىنى ئاپتوماتىك قوش</string>
-    <string name="hardkeyboard_category">فىزىكىلىق ھەرپتاختا تەڭشىكى</string>
     <string name="auto_punctuate_summary">بوشلۇق ئىككى قېتىم بېسىلسا \".\" چېكىت قىستۇرىدۇ</string>
     <string name="spellchecker_quick_settings">تەڭشەكلەر</string>
     <string name="spellchecker_language">تىل</string>
     <string name="keyboard_a11y_category">قوشۇمچە ئىقتىدار</string>
-    <string name="physical_keyboard_title">فىزىكىلىق ھەرپتاختا</string>
     <string name="keyboard_default_layout">كۆڭۈلدىكى</string>
-    <string name="trackpad_pointer_speed">ئىسترېلكا سۈرئىتى</string>
+    <string name="game_controller_settings_title">ئويۇن تىزگىنەك</string>
+    <string name="game_controller_remapping_reset_preference_title">كۆڭۈلدىكىگە قايتۇر</string>
     <string name="pointer_stroke_style_name_white">ئاق</string>
     <string name="pointer_stroke_style_name_black">قارا</string>
     <string name="pointer_stroke_style_name_none">يوق</string>
@@ -507,13 +499,7 @@
     <string name="modifier_keys_default_summary">كۆڭۈلدىكى</string>
     <string name="modifier_keys_done">تامام</string>
     <string name="modifier_keys_cancel">ۋاز كەچ</string>
-    <string name="default_keyboard_layout">كۆڭۈلدىكى</string>
-    <string name="pointer_speed">ئىسترېلكا سۈرئىتى</string>
     <string name="game_controller_settings_category">ئويۇن تىزگىنەك</string>
-    <string name="keyboard_layout_dialog_title">ھەرپتاختا ئورۇنلاشتۇرۇلۇشىنى تاللاڭ</string>
-    <string name="keyboard_layout_dialog_setup_button">ھەرپتاختا ئورۇنلاشتۇرۇش تەڭشىكى</string>
-    <string name="keyboard_layout_dialog_switch_hint">ئالماشتۇرۇشتا Control+بوشلۇق كۇنۇپكىسىنى بېسىڭ</string>
-    <string name="keyboard_layout_default_label">كۆڭۈلدىكى</string>
     <string name="keyboard_layout_picker_title">ھەرپتاختا ئورۇنلاشتۇرۇلۇشى</string>
     <string name="user_dict_settings_title">شەخسىي لۇغەت</string>
     <string name="user_dict_settings_add_menu_title">قوش</string>
@@ -534,7 +520,6 @@
     <string name="user_dict_settings_more_languages">تېخىمۇ كۆپ تىللار…</string>
     <string name="testing">سىناۋاتىدۇ</string>
     <string name="testing_sim_toolkit">SIM قوراللىرى</string>
-    <string name="builtin_keyboard_settings_title">فىزىكىلىق ھەرپتاختا</string>
     <string name="gadget_picker_title">ئەپچە تاللاڭ</string>
     <string name="widget_picker_title">ئەپچە تاللاڭ</string>
     <string name="allow_bind_app_widget_activity_allow_bind_title">ئەپنىڭ ئەپچە قۇرۇپ زىيارەت قىلىشىغا يول قويامدۇ؟</string>
@@ -556,10 +541,12 @@
     <string name="accessibility_power_button_ends_call_prerefence_title">توك مەنبە توپچىسى بېسىلسا سۆزلىشىش ئاخىرلىشىدۇ</string>
     <string name="accessibility_timeout_default">كۆڭۈلدىكى</string>
     <string name="accessibility_long_press_timeout_preference_title">چېكىش ۋە كېچىكتۈرۈش</string>
+    <string name="accessibility_long_press_timeout_option_medium">ئوتتۇرا</string>
     <string name="accessibility_autoclick_medium_title">ئوتتۇرا</string>
     <string name="autoclick_cursor_area_size_dialog_option_default">كۆڭۈلدىكى</string>
     <string name="captioning_more_options_title">تېخىمۇ كۆپ تاللانما</string>
     <string name="accessibility_hearingaid_instruction_continue_button">داۋاملاشتۇر</string>
+    <string name="accessibility_hearing_device_notification_routing_title">ئۇقتۇرۇشلار</string>
     <string name="accessibility_summary_shortcut_disabled">تاقاق</string>
     <string name="accessibility_summary_state_enabled">ئوچۇق</string>
     <string name="accessibility_summary_state_disabled">تاقاق</string>
@@ -661,7 +648,6 @@
     <string name="voice_input_output_settings">تاۋۇش كىرگۈزۈش ۋە چىقىرىش</string>
     <string name="voice_input_output_settings_title">تاۋۇش كىرگۈزۈش ۋە چىقىرىش تەڭشىكى</string>
     <string name="voice_search_settings_title">تاۋۇش ئىزدەش</string>
-    <string name="keyboard_settings_title">ئاندىرويىد ھەرپتاختا</string>
     <string name="tts_engine_preference_title">مايىللىق موتۇر ى</string>
     <string name="tts_engine_settings_title">موتۇر تەڭشىكى</string>
     <string name="tts_install_voices_cancel">ۋاز كەچ</string>
@@ -803,6 +789,7 @@
     <string name="user_summary_not_set_up">تەڭشەلمىگەن</string>
     <string name="user_summary_restricted_not_set_up">تەڭشەلمىگەن - چەكلىمىلىك سەپلىمە ھۆججەت</string>
     <string name="user_you">سىز (<xliff:g id="NAME">%s</xliff:g>)</string>
+    <string name="user_edit_button">تەھرىر</string>
     <string name="user_cannot_add_accounts_message">چەكلىمىلىك سەپلىمە ھۆججەت ھېسابات قوشالمايدۇ</string>
     <string name="user_remove_user_menu">بۇ ئۈسكۈنىدىن <xliff:g id="USER_NAME">%1$s</xliff:g> نى ئۆچۈر</string>
     <string name="user_confirm_remove_self_title">ئۆزىڭىزنى ئۆچۈرەمسىز؟</string>
@@ -905,6 +892,7 @@
     <string name="disconnected">باغلانمىدى</string>
     <string name="keyboard_disconnected">باغلانمىدى</string>
     <string name="disabled_by_advanced_protection_help_button_title">تەڭشەكلەر</string>
+    <string name="wifi_autojoin_disabled_positive_button">قايت</string>
     <string name="ethernet">دائىرىلىك تور</string>
     <string name="configure">سەپلىمە</string>
     <string name="data_saver_on">ئوچۇق</string>
@@ -954,6 +942,7 @@
     <string name="mobile_data_connection_active">باغلاندى</string>
     <string name="apps_dashboard_title">ئەپلەر</string>
     <string name="smart_forwarding_missing_alert_dialog_text">جەزملە</string>
+    <string name="network_protection_2g_notification_settings_btn">تەڭشەكلەر</string>
     <string name="virtual_device_connected">باغلاندى</string>
     <string name="virtual_device_disconnected">ئۈزۈلدى</string>
     <string name="virtual_device_forget_dialog_confirm_button">ئەستە تۇتما</string>
@@ -995,5 +984,9 @@
     <string name="audio_streams_dialog_close">تاقاش</string>
     <string name="audio_streams_dialog_learn_more">تەپسىلات بىلدۈرگۈسى</string>
     <string name="supervision_change_pin_preference_title">PIN ئۆزگەرت</string>
-    <string name="lock_screen_title">ئېكران قۇلۇپلا</string>
+    <string name="supervision_web_content_filters_learn_more_title">تەپسىلات بىلدۈرگۈسى</string>
+    <string name="supervision_delete_button_label">ئۆچۈر</string>
+    <string name="satellite_tile_subtitle_on">ئوچۇق</string>
+    <string name="satellite_tile_subtitle_available">ئىشلىتىلىشچان</string>
+    <string name="satellite_tile_subtitle_not_available">ئىشلەتكىلى بولمايدۇ</string>
 </resources>

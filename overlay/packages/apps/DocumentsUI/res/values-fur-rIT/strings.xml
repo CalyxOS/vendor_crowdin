@@ -66,7 +66,6 @@
     <string name="button_back">Indaûr</string>
     <string name="not_sorted">No ordenât</string>
     <string name="sort_dimension_name">Non</string>
-    <string name="sort_dimension_summary">Sintesi</string>
     <string name="sort_dimension_file_type">Gjenar</string>
     <string name="sort_dimension_size">Dimension</string>
     <string name="sort_dimension_date">Modificât</string>
@@ -142,6 +141,7 @@
     <string name="toast_failed_delete">Impussibil eliminâ cualchi document</string>
     <string name="toast_share_over_limit">Nol è pussibil condividi plui di <xliff:g id="count" example="1">%1$d</xliff:g> files</string>
     <string name="toast_action_not_allowed">Azion no consintude</string>
+    <string name="toast_op_not_allowed_for_shortcuts">Azion no consintude</string>
     <string name="share_via">Condivît vie</string>
     <string name="copy_notification_title">Daûr a copiâ i files</string>
     <string name="compress_notification_title">Daûr a comprimi i files</string>
@@ -206,10 +206,6 @@
         <item quantity="one">Chest file al è stât convertît intun altri formât: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
         <item quantity="other">Chescj files a son stâts convertîts intun altri formât: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
     </plurals>
-    <plurals name="clipboard_files_clipped">
-        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> element copiât intes notis.</item>
-        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> elements copiâts intes notis.</item>
-    </plurals>
     <string name="file_operation_rejected">La operazion dal file no je supuartade.</string>
     <string name="file_operation_error">Operazion dal file falide.</string>
     <string name="rename_error">Nol è stât pussibil cambiâ non al document</string>
@@ -232,20 +228,6 @@
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> element</item>
         <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> elements</item>
     </plurals>
-    <string name="delete_filename_confirmation_message">Eliminâ \"<xliff:g id="name" example="cat.jpg">%1$s</xliff:g>\"?</string>
-    <string name="delete_foldername_confirmation_message">Eliminâ la cartele \"<xliff:g id="name" example="Photos">%1$s</xliff:g>\" e il so contignût?</string>
-    <plurals name="delete_files_confirmation_message">
-        <item quantity="one">Eliminâ <xliff:g id="count" example="1">%1$d</xliff:g> file?</item>
-        <item quantity="other">Eliminâ <xliff:g id="count" example="3">%1$d</xliff:g> files?</item>
-    </plurals>
-    <plurals name="delete_folders_confirmation_message">
-        <item quantity="one">Eliminâ <xliff:g id="count" example="1">%1$d</xliff:g> cartele e il so contignût?</item>
-        <item quantity="other">Eliminâ <xliff:g id="count" example="3">%1$d</xliff:g> cartelis e il lôr contignût?</item>
-    </plurals>
-    <plurals name="delete_items_confirmation_message">
-        <item quantity="one">Eliminâ <xliff:g id="count" example="1">%1$d</xliff:g> element?</item>
-        <item quantity="other">Eliminâ <xliff:g id="count" example="3">%1$d</xliff:g> elements?</item>
-    </plurals>
     <string name="images_shortcut_label">Imagjins</string>
     <string name="archive_loading_failed">Impussibil vierzi l\'archivi pe navigazion. Il file al è ruvinât opûr di un formât no supuartât.</string>
     <string name="name_conflict">Un file cun chest non al esist za.</string>
@@ -253,7 +235,6 @@
     <string name="cant_display_content">Impussibil visualizâ i contignûts</string>
     <string name="sign_in">Jentre</string>
     <string name="new_archive_file_name">archivi<xliff:g id="extension" example=".zip">%s</xliff:g></string>
-    <string name="overwrite_file_confirmation_message">Sorescrivi <xliff:g id="name" example="foobar.txt">%1$s</xliff:g>?</string>
     <string name="continue_in_background">Continue in sotfont</string>
     <plurals name="selected_count">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> selezionât</item>
@@ -279,19 +260,19 @@
     <string name="chip_title_documents">Documents</string>
     <string name="chip_title_large_files">Files grancj</string>
     <string name="chip_title_from_this_week">Cheste setemane</string>
-    <string name="input_hint_new_folder">Non de cartele</string>
-    <string name="input_hint_rename">Gnûf non</string>
+    <string name="input_hint_new_folder">Non</string>
+    <string name="input_hint_rename">Non</string>
     <string name="preview_file">Viôt in anteprime il file <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
     <string name="preview_work_file">Viôt in anteprime il file di lavôr <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
     <string name="preview_cross_profile_file">Viôt in anteprime il file dal profîl <xliff:g id="profile" example="work">%1$s</xliff:g> <xliff:g id="fileName" example="example.jpg">%2$s</xliff:g></string>
     <string name="apps_row_title">Esplore i files in altris aplicazions</string>
     <string name="anonymous_application">Anonim</string>
     <string name="open_tree_button">Dopre cheste cartele</string>
-    <string name="open_tree_dialog_title">Permeti a <xliff:g id="appName" example="Drive">%1$s</xliff:g> di acedi ai files in <xliff:g id="directory" example="DCIM">%2$s</xliff:g>?</string>
     <string name="directory_blocked_header_title">Impussibil doprâ cheste cartele</string>
     <string name="directory_blocked_header_subtitle">Par protezi la tô riservatece, sielç une altre cartele</string>
     <string name="create_new_folder_button">Cree une gnove cartele</string>
     <string name="search_bar_hint">Cîr chest dispositîf</string>
+    <string name="search_bar_generic_hint">Cîr</string>
     <string name="delete_search_history">Elimine la cronologjie de ricercje <xliff:g id="text" example="image">%1$s</xliff:g></string>
     <string name="personal_tab">Personâl</string>
     <string name="work_tab">Di lavôr</string>

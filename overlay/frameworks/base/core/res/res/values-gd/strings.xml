@@ -191,8 +191,10 @@
         a shuathadh bàn a-nis.\n\nMa tha ceist sam bith agad, cuir fios gu rianaire a’ bhuidhinn agan.</string>
     <string name="printing_disabled_by">Chaidh an clò-bhualadh a chur dheth le <xliff:g id="owner_app">%s</xliff:g>.</string>
     <string name="personal_apps_suspension_title">Cuir pròifil na h-obrach agad air</string>
-    <string name="personal_apps_suspension_text">        Bidh na h-aplacaidean pearsanta agad bacte gus an cuir thu pròifil na h-obrach agad air</string>
-    <string name="personal_apps_suspension_soon_text">        Thèid na h-aplacaidean pearsanta agad a bhacadh <xliff:g id="date" example="May 29">%1$s</xliff:g> aig
+    <string name="personal_apps_suspension_text">
+        Bidh na h-aplacaidean pearsanta agad bacte gus an cuir thu pròifil na h-obrach agad air</string>
+    <string name="personal_apps_suspension_soon_text">
+        Thèid na h-aplacaidean pearsanta agad a bhacadh <xliff:g id="date" example="May 29">%1$s</xliff:g> aig
         <xliff:g id="time" example="5:20 PM">%2$s</xliff:g>. Cha cheadaich an rianaire ICT agad gum fuirich
         pròifil na h-obrach agad dheth fad còrr is <xliff:g id="number" example="3">%3$d</xliff:g> là(ithean).
     </string>
@@ -659,8 +661,7 @@
     <string name="fingerprint_name_template">Meur <xliff:g id="fingerId" example="1">%d</xliff:g></string>
     <string name="fingerprint_icon_content_description">Ìomhaigheag na luirge-meòir</string>
     <string name="face_acquired_too_bright">Ro shoilleir. Feuch solas nas sèimhe.</string>
-    <string name="face_acquired_poor_gaze">Coimhead air an uidheam agad gu dìreach.</string>
-    <string name="face_acquired_too_much_motion">Cus gluasaid. Cùm am fòn seasmhach.</string>
+    <string name="face_acquired_too_much_motion" product="default">Cus gluasaid. Cùm am fòn seasmhach.</string>
     <string name="face_acquired_recalibrate">Clàraich d’ aodann a-rithist.</string>
     <string name="face_acquired_obscured">Thoir air falbh dad sam bith a bhios a’ falach d’ aodann.</string>
     <string name="face_acquired_sensor_dirty">Glan uachdar na sgrìn agad, a’ gabhail a-staigh a’ bhàir dhuibh</string>
@@ -909,7 +910,7 @@
     <string name="lockscreen_pattern_wrong">Feuch ris a-rithist</string>
     <string name="lockscreen_password_wrong">Feuch ris a-rithist</string>
     <string name="lockscreen_storage_locked">Thoir a’ ghlas dhen a h-uile gleus agus dàta</string>
-    <string name="faceunlock_multiple_failures">Ràinig thu na tha ceadaichte de dh’oidhirpean gus a’ ghlas a thoirt dheth le d’ aodann</string>
+    <string name="faceunlock_multiple_failures" product="default">Ràinig thu na tha ceadaichte de dh’oidhirpean gus a’ ghlas a thoirt dheth le d’ aodann</string>
     <string name="lockscreen_transport_prev_description">An traca roimhe</string>
     <string name="lockscreen_transport_next_description">An ath-thraca</string>
     <string name="lockscreen_transport_pause_description">Cuir ’na stad</string>
@@ -920,49 +921,61 @@
     <string name="emergency_calls_only" msgid="2485604591272668370">Gairmean-èiginn a-mhàin</string>
     <string name="lockscreen_network_locked_message">Lìonra glaiste</string>
     <string name="lockscreen_sim_puk_locked_instructions">Faic an treòraiche cleachdaiche no cuir fios gu sgioba taic nan custamairean.</string>
-    <string name="lockscreen_too_many_failed_attempts_dialog_message">        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">
+        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
         \n\nFeuch ris a-rithist an ceann <xliff:g id="number">%2$d</xliff:g> diog(an).
     </string>
-    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">        Sgrìobh thu am facal-faire agad gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">
+        Sgrìobh thu am facal-faire agad gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
         \n\nFeuch ris a-rithist an ceann <xliff:g id="number">%2$d</xliff:g> diog(an).
     </string>
-    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">        Sgrìobh thu am PIN agad gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">
+        Sgrìobh thu am PIN agad gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
         \n\nFeuch ris a-rithist an ceann <xliff:g id="number">%2$d</xliff:g> diog(an).
     </string>
-    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">
+        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g>oidhirp(ean) neo-shoirbheachail eile,
        thèid iarraidh ort gun doir thu a’ ghlas far na tablaid agad leis a’ chlàradh a-steach agad air Google.\n\n
        Feuch ris a-rithist an ceann <xliff:g id="number">%3$d</xliff:g> diog(an).
     </string>
-    <string name="lockscreen_failed_attempts_almost_glogin" product="tv">        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tv">
+        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g>oidhirp(ean) neo-shoirbheachail eile,
        thèid iarraidh ort gun doir thu a’ ghlas far an uidheim TBh Android agad leis a’ chlàradh a-steach Google agad.\n\n
        Feuch ris a-rithist an ceann <xliff:g id="number">%3$d</xliff:g> diog(an).
     </string>
-    <string name="lockscreen_failed_attempts_almost_glogin" product="default">        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default">
+        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g>oidhirp(ean) neo-shoirbheachail eile,
        thèid iarraidh ort gun doir thu a’ ghlas far an fhòn agad leis a’ chlàradh a-steach agad air Google.\n\n
        Feuch ris a-rithist an ceann <xliff:g id="number">%3$d</xliff:g> diog(an).
     </string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">       Dh’fhàillig leat a’ ghlas a thoirt far na tablaid <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">
+       Dh’fhàillig leat a’ ghlas a thoirt far na tablaid <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g> oidhirp(ean) neo-shoirbheachail eile,
        thèid an tablaid ath-shuidheachadh air bun-roghainnean an fhactaraidh agus caillidh tu an dàta cleachdaiche uile.
     </string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tv">       Dh’fhàillig leat a’ ghlas a thoirt far an uidheim TBh Android agad <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tv">
+       Dh’fhàillig leat a’ ghlas a thoirt far an uidheim TBh Android agad <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g> oidhirp(ean) neo-shoirbheachail eile,
        thèid an t-uidheam TBh Android agad ath-shuidheachadh air bun-roghainnean an fhactaraidh agus caillidh tu an dàta cleachdaiche uile.
     </string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">       Dh’fhàillig leat a’ ghlas a thoirt far an fhòn <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">
+       Dh’fhàillig leat a’ ghlas a thoirt far an fhòn <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g> oidhirp(ean) neo-shoirbheachail eile,
        thèid am fòn ath-shuidheachadh air bun-roghainnean an fhactaraidh agus caillidh tu an dàta cleachdaiche uile.
     </string>
-    <string name="lockscreen_failed_attempts_now_wiping" product="tablet">       Dh’fhàillig leat a’ ghlas a thoirt far na tablaid <xliff:g id="number">%d</xliff:g> tura(i)s.
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet">
+       Dh’fhàillig leat a’ ghlas a thoirt far na tablaid <xliff:g id="number">%d</xliff:g> tura(i)s.
        Thèid an tablaid ath-shuidheachadh air bun-roghainnean an fhactaraidh a-nis.
     </string>
-    <string name="lockscreen_failed_attempts_now_wiping" product="tv">       Dh’fhàillig leat a’ ghlas a thoirt far an uidheam TBh Android agad <xliff:g id="number">%d</xliff:g> tura(i)s.
+    <string name="lockscreen_failed_attempts_now_wiping" product="tv">
+       Dh’fhàillig leat a’ ghlas a thoirt far an uidheam TBh Android agad <xliff:g id="number">%d</xliff:g> tura(i)s.
        Thèid an t-uidheam TBh Android agad ath-shuidheachadh air bun-roghainnean an fhactaraidh a-nis.
     </string>
-    <string name="lockscreen_failed_attempts_now_wiping" product="default">       Dh’fhàillig leat a’ ghlas a thoirt far an fhòn <xliff:g id="number">%d</xliff:g> tura(i)s.
+    <string name="lockscreen_failed_attempts_now_wiping" product="default">
+       Dh’fhàillig leat a’ ghlas a thoirt far an fhòn <xliff:g id="number">%d</xliff:g> tura(i)s.
        Thèid am fòn ath-shuidheachadh air bun-roghainnean an fhactaraidh a-nis.
     </string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Feuch ris a-rithist an ceann <xliff:g id="number">%d</xliff:g> diog(an).</string>
@@ -982,7 +995,8 @@
     <string name="lockscreen_access_pattern_start">Chaidh tòiseachadh air pàtran</string>
     <string name="lockscreen_access_pattern_cleared">Chaidh am pàtran fhalamhachadh</string>
     <string name="lockscreen_access_pattern_cell_added">Chaidh cealla a chur ris</string>
-    <string name="lockscreen_access_pattern_cell_added_verbose">            Chaidh cealla <xliff:g id="cell_index" example="3">%1$s</xliff:g> a chur ris</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">
+            Chaidh cealla <xliff:g id="cell_index" example="3">%1$s</xliff:g> a chur ris</string>
     <string name="lockscreen_access_pattern_detected">Tha am pàtran deiseil</string>
     <string name="lockscreen_access_pattern_area" msgid="">Raon a’ phàtrain.</string>
     <string name="keyguard_accessibility_widget_changed">%1$s. Widget %2$d à %3$d.</string>
@@ -1053,10 +1067,12 @@
     <string name="searchview_description_submit">Cuir a-null a’ cheist</string>
     <string name="searchview_description_voice">Lorg gutha</string>
     <string name="enable_explore_by_touch_warning_title">A bheil thu airson an rùrachadh le suathadh a chur an comas?</string>
-    <string name="enable_explore_by_touch_warning_message" product="tablet">        Tha <xliff:g id="accessibility_service_name">%1$s</xliff:g> airson an rùrachadh le suathadh a chur an comas.
+    <string name="enable_explore_by_touch_warning_message" product="tablet">
+        Tha <xliff:g id="accessibility_service_name">%1$s</xliff:g> airson an rùrachadh le suathadh a chur an comas.
         Nuair a bhios an rùrachadh le suathadh an comas, cluinnidh no chì thu tuairisgeulan air na tha fo do chorrag
         no cleachdaidh tu gluasadan airson eadar-ghnìomhan a ghabhail leis an tablaid.</string>
-    <string name="enable_explore_by_touch_warning_message" product="default">        Tha <xliff:g id="accessibility_service_name">%1$s</xliff:g> airson an rùrachadh le suathadh a chur an comas.
+    <string name="enable_explore_by_touch_warning_message" product="default">
+        Tha <xliff:g id="accessibility_service_name">%1$s</xliff:g> airson an rùrachadh le suathadh a chur an comas.
         Nuair a bhios an rùrachadh le suathadh an comas, cluinnidh no chì thu tuairisgeulan air na tha fo do chorrag
         no cleachdaidh tu gluasadan airson eadar-ghnìomhan a ghabhail leis an fhòn.</string>
     <string name="oneMonthDurationPast">Mìos air ais</string>
@@ -1218,7 +1234,8 @@
         gun sàbhaladh</string>
     <string name="dump_heap_notification">Chaidh <xliff:g id="proc">%1$s</xliff:g> thar crìoch
         a’ chuimhne</string>
-    <string name="dump_heap_ready_notification">        Tha heap dump <xliff:g id="proc" example="com.android.example">%1$s</xliff:g> deiseil</string>
+    <string name="dump_heap_ready_notification">
+        Tha heap dump <xliff:g id="proc" example="com.android.example">%1$s</xliff:g> deiseil</string>
     <string name="dump_heap_notification_detail">Chaidh heap dump a chruinneachadh. Thoir gnogag gus a cho-roinneadh.</string>
     <string name="dump_heap_title">An co-roinn thu an heap dump?</string>
     <string name="dump_heap_text">Chaidh am pròiseas
@@ -1467,6 +1484,7 @@
     <string name="gpsNotifMessage">Air iarraidh le <xliff:g id="name">%1$s</xliff:g> (<xliff:g id="service" example="SUPL-service">%2$s</xliff:g>)</string>
     <string name="gpsVerifYes">Gabh ris</string>
     <string name="gpsVerifNo">Diùlt</string>
+    <string name="emergency_location_notification_learn_more">Barrachd fiosrachaidh</string>
     <string name="sync_too_many_deletes">Tha cus nithean ’gan sguabadh às</string>
     <string name="sync_too_many_deletes_desc">Tha <xliff:g id="number_of_deleted_items">%1$d</xliff:g> nì air an sguabadh às ann dha <xliff:g id="type_of_sync">%2$s</xliff:g>, cunntas <xliff:g id="account_name">%3$s</xliff:g>. Dè a bu mhiann leat?</string>
     <string name="sync_really_delete">Sguab na nithean às</string>
@@ -1603,65 +1621,78 @@
     <string name="kg_login_invalid_input">Ainm-cleachdaiche no facal-faire mì-dhligheach.</string>
     <string name="kg_login_account_recovery_hint">Na dhìochuimhnich thu an t-ainm-cleachdaiche no am facal-faire agad\?\nTadhail air <b>google.com/accounts/recovery</b>.</string>
     <string name="kg_login_checking_password">’Ga dhearbhadh leis a’ chunntas\u2026</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message">        Sgrìobh thu am PIN agad gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">
+        Sgrìobh thu am PIN agad gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
         \n\nFeuch ris a-rithist an ceann <xliff:g id="number">%2$d</xliff:g> diog(an).
     </string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message">        Sgrìobh thu am facal-faire agad gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="kg_too_many_failed_password_attempts_dialog_message">
+        Sgrìobh thu am facal-faire agad gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
         \n\nFeuch ris a-rithist an ceann <xliff:g id="number">%2$d</xliff:g> diog(an).
     </string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message">        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">
+        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
         \n\nFeuch ris a-rithist an ceann <xliff:g id="number">%2$d</xliff:g> diog(an).
     </string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">       Dh’fhàillig leat a’ ghlas a thoirt far na tablaid <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">
+       Dh’fhàillig leat a’ ghlas a thoirt far na tablaid <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g> oidhirp(ean) neo-shoirbheachail eile,
        thèid an tablaid ath-shuidheachadh air bun-roghainnean an fhactaraidh agus caillidh tu an dàta cleachdaiche uile.
     </string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="tv">       Dh’fhàillig leat a’ ghlas a thoirt far an uidheim TBh Android agad <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="kg_failed_attempts_almost_at_wipe" product="tv">
+       Dh’fhàillig leat a’ ghlas a thoirt far an uidheim TBh Android agad <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g> oidhirp(ean) neo-shoirbheachail eile,
        thèid an t-uidheam TBh Android agad ath-shuidheachadh air bun-roghainnean an fhactaraidh agus caillidh tu an dàta cleachdaiche uile.
     </string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="default">       Dh’fhàillig leat a’ ghlas a thoirt far an fhòn <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">
+       Dh’fhàillig leat a’ ghlas a thoirt far an fhòn <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g> oidhirp(ean) neo-shoirbheachail eile,
        thèid am fòn ath-shuidheachadh air bun-roghainnean an fhactaraidh agus caillidh tu an dàta cleachdaiche uile.
     </string>
-    <string name="kg_failed_attempts_now_wiping" product="tablet">       Dh’fhàillig leat a’ ghlas a thoirt far na tablaid <xliff:g id="number">%d</xliff:g> tura(i)s.
+    <string name="kg_failed_attempts_now_wiping" product="tablet">
+       Dh’fhàillig leat a’ ghlas a thoirt far na tablaid <xliff:g id="number">%d</xliff:g> tura(i)s.
        Thèid an tablaid ath-shuidheachadh air bun-roghainnean an fhactaraidh a-nis.
     </string>
-    <string name="kg_failed_attempts_now_wiping" product="tv">       Dh’fhàillig leat a’ ghlas a thoirt far an uidheam TBh Android agad <xliff:g id="number">%d</xliff:g> tura(i)s.
+    <string name="kg_failed_attempts_now_wiping" product="tv">
+       Dh’fhàillig leat a’ ghlas a thoirt far an uidheam TBh Android agad <xliff:g id="number">%d</xliff:g> tura(i)s.
        Thèid an t-uidheam TBh Android agad ath-shuidheachadh air bun-roghainnean an fhactaraidh a-nis.
     </string>
-    <string name="kg_failed_attempts_now_wiping" product="default">       Dh’fhàillig leat a’ ghlas a thoirt far an fhòn <xliff:g id="number">%d</xliff:g> tura(i)s.
+    <string name="kg_failed_attempts_now_wiping" product="default">
+       Dh’fhàillig leat a’ ghlas a thoirt far an fhòn <xliff:g id="number">%d</xliff:g> tura(i)s.
        Thèid am fòn ath-shuidheachadh air bun-roghainnean an fhactaraidh a-nis.
     </string>
-    <string name="kg_failed_attempts_almost_at_login" product="tablet">        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">
+        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g>oidhirp(ean) neo-shoirbheachail eile,
        thèid iarraidh ort gun doir thu a’ ghlas far na tablaid agad le cunntas puist-d.\n\n
        Feuch ris a-rithist an ceann <xliff:g id="number">%3$d</xliff:g> diog(an).
     </string>
-    <string name="kg_failed_attempts_almost_at_login" product="tv">        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="kg_failed_attempts_almost_at_login" product="tv">
+        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g>oidhirp(ean) neo-shoirbheachail eile,
        thèid iarraidh ort gun doir thu a’ ghlas far an uidheim TBh Android agad le cunntas puist-d.\n\n
        Feuch ris a-rithist an ceann <xliff:g id="number">%3$d</xliff:g> diog(an).
     </string>
-    <string name="kg_failed_attempts_almost_at_login" product="default">        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
+    <string name="kg_failed_attempts_almost_at_login" product="default">
+        Tharraing thu am pàtran neo-ghlasaidh gu ceàrr <xliff:g id="number">%1$d</xliff:g> tura(i)s.
        Às dèidh <xliff:g id="number">%2$d</xliff:g>oidhirp(ean) neo-shoirbheachail eile,
        thèid iarraidh ort gun doir thu a’ ghlas far an fhòn agad le cunntas puist-d.\n\n
        Feuch ris a-rithist an ceann <xliff:g id="number">%3$d</xliff:g> diog(an).
     </string>
     <string name="kg_text_message_separator" product="default">" \u2014 "</string>
     <string name="kg_reordering_delete_drop_target_text">Thoir air falbh</string>
-    <string name="safe_media_volume_warning" product="default">       \"A bheil thu airson an fhuaim a dhèanamh nas àirde na mholamaid?\n\nMa dh’èisteas tu ri fuaim àird ùine fhada, ’s dòcha gun dèan sin cron air do chluaisneachd.\"
+    <string name="safe_media_volume_warning" product="default">
+       \"A bheil thu airson an fhuaim a dhèanamh nas àirde na mholamaid?\n\nMa dh’èisteas tu ri fuaim àird ùine fhada, ’s dòcha gun dèan sin cron air do chluaisneachd.\"
     </string>
     <string name="accessibility_shortcut_warning_dialog_title">An cleachd thu ath-ghoirid na so-ruigsinneachd?</string>
-    <string name="accessibility_shortcut_toogle_warning">        Nuair a bhios an ath-ghoirid air, ’s urrainn dhut brùthadh air an dà phutan fuaime fad 3 diogan airson
+    <string name="accessibility_shortcut_toogle_warning">
+        Nuair a bhios an ath-ghoirid air, ’s urrainn dhut brùthadh air an dà phutan fuaime fad 3 diogan airson
         gleus na so-ruigsinneachd a chur gu dol.
     </string>
     <string name="accessibility_shortcut_multiple_service_warning">Nuair a chumas tu sìos an dà phutan àirde na fuaime fad corra diog, cuiridh seo gleusan na so-ruigsinneachd air. Dh’fhaoidte gun atharraich sin an dòigh air an obraich an t-uidheam agad.\n\nNa gleusan làithreach:\n<xliff:g id="service" example="TalkBack">%1$s</xliff:g>\n’S urrainn dhut na gleusan a thèid a thaghadh atharrachadh ann an “Roghainnean” &gt; “So-ruigsinneachd”.</string>
     <string name="accessibility_shortcut_single_service_warning">Nuair a chumas tu sìos an dà phutan àirde na fuaime fad corra diog, cuiridh seo <xliff:g id="service" example="TalkBack">%1$s</xliff:g> air, seo gleus so-ruigsinneachd. Dh’fhaoidte gun atharraich sin an dòigh air an obraich an t-uidheam agad.\n\n’S urrainn dhut an ath-ghoirid seo atharrachadh gu gleus eile ann an “Roghainnean” &gt; “So-ruigsinneachd”.</string>
     <string name="accessibility_shortcut_on">Cuir air</string>
     <string name="accessibility_shortcut_off">Na cuir air e</string>
-    <string name="accessibility_shortcut_menu_item_status_on">AIR</string>
-    <string name="accessibility_shortcut_menu_item_status_off">DHETH</string>
+    <string name="accessibility_shortcut_menu_item_status_off">Dheth</string>
     <string name="accessibility_enable_service_title">Am faigh
          <xliff:g id="service" example="TalkBack">%1$s</xliff:g> làn-smachd air an
         uidheam agad?</string>
@@ -1682,7 +1713,8 @@
     <string name="accessibility_edit_shortcut_menu_button_title">Tagh na gleusan a chleachdas tu le
         putan na so-ruigsinneachd
     </string>
-    <string name="accessibility_uncheck_legacy_item_warning">        Chaidh <xliff:g id="service_name" example="TalkBack">%s</xliff:g> a chur dheth</string>
+    <string name="accessibility_uncheck_legacy_item_warning">
+        Chaidh <xliff:g id="service_name" example="TalkBack">%s</xliff:g> a chur dheth</string>
     <string name="edit_accessibility_shortcut_menu_button">Deasaich na h-ath-ghoiridean</string>
     <string name="done_accessibility_shortcut_menu_button">Deiseil</string>
     <string name="disable_accessibility_shortcut">Cuir an ath-ghoirid dheth</string>
@@ -1693,7 +1725,6 @@
     <string name="accessibility_magnification_chooser_text">Meudachadh</string>
     <string name="hearing_device_notification_settings_button">Roghainnean</string>
     <string name="user_switching_message">A’ gearradh leum gu <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
-    <string name="user_logging_out_message">A’ clàradh <xliff:g id="name" example="Bob">%1$s</xliff:g> a-mach\u2026</string>
     <string name="owner_name" msgid="3879126011135546571">Seilbheadair</string>
     <string name="error_message_title">Mearachd</string>
     <string name="error_message_change_not_allowed">Cha cheadaich an rianaire agad an t-atharrachadh seo</string>
@@ -1862,7 +1893,6 @@
     <string name="floating_toolbar_close_overflow_description">Dùin an taosgadh</string>
     <string name="maximize_button_text">Làn-mheudaich</string>
     <string name="close_button_text">Dùin</string>
-    <string name="notification_inbox_ellipsis">\u2026</string>
     <string name="notification_messaging_title_template"><xliff:g id="conversation_title" example="Tasty Treat Team">%1$s</xliff:g>: <xliff:g id="sender_name" example="Adrian Baker">%2$s</xliff:g></string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Diùlt</string>
@@ -1882,13 +1912,15 @@
     <string name="region_picker_section_all">Na h-uile roinn-dùthcha</string>
     <string name="locale_search_menu">Lorg</string>
     <string name="app_suspended_title">Chan eil an aplacaid ri fhaighinn</string>
-    <string name="app_suspended_default_message">        Chan eil <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ri fhaighinn an-dràsta. Tha seo ’ga stiùireadh le <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.
+    <string name="app_suspended_default_message">
+        Chan eil <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ri fhaighinn an-dràsta. Tha seo ’ga stiùireadh le <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.
     </string>
     <string name="app_suspended_more_details">Barrachd fiosrachaidh</string>
     <string name="app_suspended_unsuspend_message">Lean air an aplacaid</string>
     <string name="work_mode_emergency_call_button">Èiginn</string>
     <string name="app_blocked_title">Chan eil an aplacaid ri fhaighinn</string>
-    <string name="app_blocked_message">        Chan eil <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ri fhaighinn an-dràsta fhèin.
+    <string name="app_blocked_message">
+        Chan eil <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> ri fhaighinn an-dràsta fhèin.
     </string>
     <string name="deprecated_target_sdk_app_store">Thoir sùil airson ùrachadh</string>
     <string name="new_sms_notification_title">Tha teachdaireachdan ùra agad</string>
@@ -2029,7 +2061,8 @@
     <string name="accessibility_system_action_on_screen_a11y_shortcut_chooser_label">Roghnaichear ath-ghoirid na so-ruigsinneachd air an sgrìn</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Ath-ghoirid na so-ruigsinneachd</string>
     <string name="accessibility_autoclick_pause">Cuir ’na stad</string>
-    <string name="as_app_forced_to_restricted_bucket">        Chaidh <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> a chur dhan bhucaid RESTRICTED</string>
+    <string name="as_app_forced_to_restricted_bucket">
+        Chaidh <xliff:g id="package_name" example="com.android.example">%1$s</xliff:g> a chur dhan bhucaid RESTRICTED</string>
     <string name="conversation_single_line_name_display"><xliff:g id="sender_name" example="Sara">%1$s</xliff:g>:</string>
     <string name="conversation_single_line_image_placeholder">chaidh dealbh a chur</string>
     <string name="conversation_title_fallback_one_to_one">Còmhradh</string>
@@ -2067,8 +2100,6 @@
     <string name="PERSOSUBSTATE_SIM_IMPI_ENTRY">PIN neo-ghlasaidh IMPI</string>
     <string name="PERSOSUBSTATE_SIM_NS_SP_ENTRY">PIN neo-ghlasaidh airson solaraiche seirbheis fo-sheata an lìonraidh</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_IN_PROGRESS">Ag iarraidh neo-ghlasadh lìonra SIM\u2026</string>
-    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_IN_PROGRESS">Ag iarraidh neo-ghlasadh SIM airson fo-sheata an lìonraidh\u2026</string>
-    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_IN_PROGRESS">Ag iarraidh neo-ghlasadh SIM airson solaraiche na seirbheise\u2026</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_IN_PROGRESS">Ag iarraidh neo-ghlasadh SIM chorporra\u2026</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_IN_PROGRESS">Ag iarraidh neo-ghlasadh le PUK\u2026</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_IN_PROGRESS">Ag iarraidh neo-ghlasadh le PUK\u2026</string>
@@ -2079,7 +2110,6 @@
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_IN_PROGRESS">Ag iarraidh neo-ghlasadh RUIM network1\u2026</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_IN_PROGRESS">Ag iarraidh neo-ghlasadh RUIM network2\u2026</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_IN_PROGRESS">Ag iarraidh neo-ghlasadh RUIM hrpd\u2026</string>
-    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_IN_PROGRESS">Ag iarraidh neo-ghlasadh RUIM airson solaraiche na seirbheise\u2026</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_IN_PROGRESS">Ag iarraidh neo-ghlasadh RUIM chorporra\u2026</string>
     <string name="PERSOSUBSTATE_SIM_SPN_IN_PROGRESS">Ag iarraidh neo-ghlasadh SPN\u2026</string>
     <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_IN_PROGRESS">Ag iarraidh neo-ghlasadh SP Equivalent Home PLMN\u2026</string>
@@ -2094,16 +2124,12 @@
     <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_IN_PROGRESS">Ag iarraidh neo-ghlasadh le PUK\u2026</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_IN_PROGRESS">Ag iarraidh neo-ghlasadh le PUK\u2026</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ERROR">Cha deach le iarrtas neo-ghlasadh lìonra an t-SIM.</string>
-    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_ERROR">Cha deach le iarrtas neo-ghlasadh SIM airson fo-sheata an lìonraidh.</string>
-    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_ERROR">Cha deach le iarrtas neo-ghlasadh SIM airson solaraiche na seirbheise.</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_ERROR">Cha deach le iarrtas neo-ghlasadh SIM chorporra.</string>
     <string name="PERSOSUBSTATE_SIM_SIM_ERROR">Cha deach le iarrtas neo-ghlasadh SIM.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_ERROR">Cha deach le iarrtas neo-ghlasadh RUIM Network1.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_ERROR">Cha deach le iarrtas neo-ghlasadh RUIM Network2.</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_ERROR">Cha deach le iarrtas neo-ghlasadh RUIM Hrpd.</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_ERROR">Cha deach le iarrtas neo-ghlasadh RUIM chorporra.</string>
-    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_ERROR">Cha deach le iarrtas neo-ghlasadh RUIM airson solaraiche
-na seirbheise.</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_ERROR">Cha deach le iarrtas neo-ghlasadh RUIM.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_ERROR">Cha deach le neo-ghlasadh leis a’ PUK.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_ERROR">Cha deach le neo-ghlasadh leis a’ PUK.</string>
@@ -2123,14 +2149,11 @@ na seirbheise.</string>
     <string name="PERSOSUBSTATE_SIM_NS_SP_ERROR">Cha deach le iarrtas neo-ghlasadh fo-sheata an lìonraidh airson solaraiche na seirbheise.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUCCESS">Chaidh lìonra an t-SIM a neo-ghlasadh.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_SUCCESS">Chaidh a’ ghlas a thoirt far fo-sheata an lìonraidh SIM.</string>
-    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_SUCCESS">Chaidh a’ ghlas a thoirt far an t-SIM airson solaraiche na seirbheise.</string>
     <string name="PERSOSUBSTATE_SIM_CORPORATE_SUCCESS">Chaidh a’ ghlas a thoirt far an t-SIM chorporra.</string>
     <string name="PERSOSUBSTATE_SIM_SIM_SUCCESS">Chaidh a’ ghlas a thoirt far an t-SIM.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK1_SUCCESS">Chaidh a’ ghlas a thoirt far RUIM Network1.</string>
     <string name="PERSOSUBSTATE_RUIM_NETWORK2_SUCCESS">Chaidh a’ ghlas a thoirt far RUIM Network2.</string>
     <string name="PERSOSUBSTATE_RUIM_HRPD_SUCCESS">Chaidh a’ ghlas a thoirt far RUIM Hrpd.</string>
-    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_SUCCESS">Chaidh a’ ghlas a thoirt far an RUIM airson solaraiche
-na seirbheise.</string>
     <string name="PERSOSUBSTATE_RUIM_CORPORATE_SUCCESS">Chaidh a’ ghlas a thoirt far an RUIM chorporra.</string>
     <string name="PERSOSUBSTATE_RUIM_RUIM_SUCCESS">Chaidh a’ ghlas a thoirt far an RUIM.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_SUCCESS">Chaidh a’ ghlas a thoirt fo bhàrr le PUK.</string>
@@ -2152,10 +2175,13 @@ na seirbheise.</string>
     <string name="device_state_notification_turn_off_button">Cuir dheth</string>
     <string name="profile_label_work">Obair</string>
     <string name="accessibility_label_managed_profile">Pròifil na h-obrach</string>
+    <string name="app_locked_new_notification">Brath ùr</string>
     <string name="satellite_manual_selection_state_popup_ok">Cuir air</string>
     <string name="biometric_dangling_notification_action_set_up">Suidhich</string>
     <string name="biometric_dangling_notification_action_not_now">Chan ann an-dràsta</string>
     <string name="keyboard_shortcut_group_applications_contacts">Luchd-aithne</string>
     <string name="keyboard_shortcut_group_applications_sms">SMS</string>
     <string name="keyboard_shortcut_group_applications_calendar">Mìosachan</string>
+    <string name="airplane_mode_sync_notification_title">Am modh itealain</string>
+    <string name="do_not_disturb_sync_notification_title">Na bris a-steach orm</string>
 </resources>

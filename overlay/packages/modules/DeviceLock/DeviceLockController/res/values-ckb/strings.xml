@@ -15,8 +15,133 @@
   limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">DeviceLockController</string>
+    <string name="next_button">دواتر</string>
+    <string name="reset_button">ڕێکخستنەوە</string>
+    <string name="setup_more_button">زیاتر</string>
+    <string name="setup_info_title_text">چۆن <xliff:g id="creditor_app">%1$s</xliff:g> دەتوانێت ئەم ئامێرە بەڕێوەببات</string>
+    <string name="setup_failed_title_text">ئەپی <xliff:g id="creditor_app">%1$s</xliff:g> دانامەزرێت</string>
+    <string name="setup_failed_reset_device_text">ئامێرەکە ڕێکدەخرێتەوە بۆ ئەوەی دووبارە هەوڵ بدرێتەوە.</string>
+    <string name="setup_failed_reset_device_timer_text">{count, plural,
+            =1    {ئەم ئامێرە ڕێکبخەرەوە، پاشان دووبارە هەوڵی ڕێکخستنی بدەوە. لە ماوەی 1 چرکەدا خۆکارانە ڕێکدەخرێتەوە.}
+            other {ئەم ئامێرە ڕێکبخەرەوە، پاشان دووبارە هەوڵی ڕێکخستنی بدەوە. لە ماوەی # چرکەدا خۆکارانە ڕێکدەخرێتەوە.}
+        }</string>
+    <string name="setup_progress_title_text">دابەزاندنی ئەپی <xliff:g id="creditor_app">%1$s</xliff:g><xliff:g id="ellipsis">…</xliff:g></string>
+    <string name="setup_finish_title_text">کردنەوەی ئەپی <xliff:g id="creditor_app">%1$s</xliff:g><xliff:g id="ellipsis">…</xliff:g></string>
+    <string name="setup_error_title_text">نەتوانرا ئەپی <xliff:g id="creditor_app">%1$s</xliff:g> بکرێتەوە</string>
+    <string name="try_again">دووبارە هەوڵ بدەرەوە</string>
+    <string name="reset_phone">ڕێکخستنەوەی مۆبایل</string>
+    <string name="control_section_title"><xliff:g id="creditor_app">%1$s</xliff:g> دەتوانێت چی بکات؟</string>
+    <string name="control_lock_device_text">سنووردارکردنی ئەم ئامێرە ئەگەر پارەدان ئەنجام نەدەیت</string>
+    <string name="control_download_text">داگرتن، دابەزاندن و نوێکردنەوەی ئەپی <xliff:g id="creditor_app">%1$s</xliff:g></string>
+    <string name="control_disable_debug_text">کوژاندنەوەی تایبەتمەندییەکانی هەڵەدۆزینەوە</string>
+    <string name="locked_section_title">چی کار دەکات ئەگەر ئەم ئامێرە قوفڵ بکرێت؟</string>
+    <string name="locked_emergency_text">خزمەتگوزارییەکانی پەیوەندیی فریاگوزاری</string>
+    <string name="locked_phone_usage_text">پەیوەندییە هاتووەکان و هەندێک پەیوەندیی دەرچوو</string>
+    <string name="locked_settings_usage_text">ڕێکخستنەکان</string>
+    <string name="locked_backup_and_restore_text"><![CDATA[<a href="https://support.google.com/android/answer/2819582">هەڵگرتنەوە و گێڕانەوەی</a>]]> داتاکانت</string>
+    <string name="exposure_section_title">چی بۆ <xliff:g id="creditor_app">%1$s</xliff:g> دیارە؟</string>
+    <string name="exposure_install_text">کاتێک ئەپی <xliff:g id="creditor_app">%1$s</xliff:g> دادەمەزرێت یان دەسڕدرێتەوە</string>
+    <string name="exposure_lock_unlock_text">هەر داواکارییەکی قوفڵکردن یان کردنەوە لەلایەن <xliff:g id="creditor_app">%1$s</xliff:g></string>
+    <string name="exposure_disable_dlc_text">ئەگەر ئەپی <xliff:g id="creditor_app">%1$s</xliff:g> بەردەست نەبێت</string>
+    <string name="open_source_licenses">مۆڵەتەکانی سەرچاوەکراوە</string>
+    <string name="footer_notice_content_description">تواناکانی بەڕێوەبردن لە بەشی ئامێری داراییکراوی ڕێکخستنەکانی پاراستندا بۆ ئەم ئامێرە جێبەجێ نابن.</string>
+    <string name="device_provided_by_provider">ئەم ئامێرە لەلایەن <xliff:g id="provider name">%1$s</xliff:g> دابینکراوە</string>
     <string name="device_used_as_collateral">ئەم ئامێرە وەک بارمتە بۆ قەرزێک دادەنرێت لەلایەن <xliff:g id="provider name">%1$s</xliff:g></string>
+    <string name="download_kiosk_app">ئەپی کیۆسک (Kiosk) بە شێوەیەکی خۆکارانە دادەگیرێت و دادەمەزرێت</string>
+    <string name="install_kiosk_app_secondary_user">ئەپی کیۆسک (Kiosk) بۆ ئەم بەکارهێنەرە دادەمەزرێت</string>
+    <string name="restrict_device_if_missing_payment"><xliff:g id="provider name">%1$s</xliff:g> دەتوانێت ئامێرەکە سنووردار بکات ئەگەر پارەدان ئەنجام نەدەیت. بۆ وردەکارییەکان، <xliff:g id="terms_and_conditions_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>مەرج و یاساکان<xliff:g id="terms_and_conditions_link_end">&lt;/a&gt;</xliff:g> ببینە.</string>
+    <string name="restrict_device_if_dont_make_payment"><xliff:g id="provider name">%1$s</xliff:g> دەتوانێت ئەم ئامێرە سنووردار بکات ئەگەر پارەدانی پێویست ئەنجام نەدەیت. بۆ وردەکارییەکان، <xliff:g id="terms_and_conditions_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>مەرج و یاساکان<xliff:g id="terms_and_conditions_link_end">&lt;/a&gt;</xliff:g> ببینە.</string>
+    <string name="contact_provider_for_help">بۆ یارمەتی، <xliff:g id="support_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>پەیوەندی بە <xliff:g id="provider name">%1$s</xliff:g><xliff:g id="support_link_end">&lt;/a&gt;</xliff:g> بکە.</string>
+    <string name="previous">پێشتر</string>
+    <string name="next">دواتر</string>
+    <string name="start">دەستپێکردن</string>
+    <string name="ok">باشە</string>
+    <string name="done">کراو</string>
+    <string name="do_it_in_one_hour">لە ماوەی 1 کاتژمێردا ئەنجامی بدە</string>
+    <string name="header_icon_content_description">زانیاری</string>
+    <string name="provision_info_item_icon_content_description">زانیاریی دابینکردن</string>
+    <string name="enroll_your_device_header">ئامێرەکەت تۆماربکە</string>
+    <string name="enroll_your_device_financing_subheader">ئێستا دەتوانیت ئامێرەکەت لە بەرنامەی دارایی <xliff:g id="provider name">%1$s</xliff:g> تۆماربکەیت</string>
+    <string name="enroll_your_device_subsidy_subheader">ئێستا دەتوانیت ئامێرەکەت لە بەرنامەی پاڵپشتیی <xliff:g id="provider name">%1$s</xliff:g> تۆماربکەیت</string>
     <string name="enroll_your_device_recol_subheader">ئێستا دەتوانیت ئامێرەکەت لە بەرنامەی بارمتەدانەوەی <xliff:g id="provider name">%1$s</xliff:g> تۆمار بکەیت</string>
+    <string name="subsidy_program_header">تۆ لە بەرنامەی پاڵپشتیی <xliff:g id="provider name">%1$s</xliff:g> بەشداریت</string>
+    <string name="device_enrollment_header_text">تۆمارکردنی ئامێر</string>
+    <string name="device_financing_enrollment_body_text">ئامێرەکەت لە ماوەی 30 ڕۆژدا لە بەرنامەی دارایی <xliff:g id="provider name">%1$s</xliff:g> تۆمار دەکرێت</string>
+    <string name="device_subsidy_enrollment_body_text">ئامێرەکەت لە ماوەی 30 ڕۆژدا لە بەرنامەی پاڵپشتیی <xliff:g id="provider name">%1$s</xliff:g> تۆمار دەکرێت</string>
+    <string name="device_enrollment_notification_body_text">تۆمارکردن لە کاتژمێر <xliff:g id="time">%1$s</xliff:g> دەستپێدەکاتەوە. دەتوانیت بەردەوام بیت لە بەکارهێنانی ئامێرەکەت.</string>
+    <string name="continue_using_device">دەتوانیت بەردەوام بیت لە بەکارهێنانی ئامێرەکەت</string>
+    <string name="device_paid">بڕی پارەی ئامێرەکەت داوە</string>
+    <string name="device_removed_from_subsidy_program">ئامێر لە بەرنامەی پاڵپشتیی <xliff:g id="provider name">%1$s</xliff:g> لادرا</string>
+    <string name="device_removed_from_finance_program">ئامێرەکەت لە بەرنامەی دارایی <xliff:g id="provider name">%1$s</xliff:g> لادرا</string>
+    <string name="restrictions_lifted">تەواوی سنووردارکردنەکانی سەر ئامێرەکەت لابران</string>
+    <string name="uninstall_kiosk_app">دەتوانیت ئەپی کیۆسک (Kiosk) لە ئامێرەکەت بسڕیتەوە</string>
+    <string name="getting_device_ready">ئامادەکردنی ئامێرەکەت…</string>
+    <string name="this_may_take_a_few_minutes">لەوانەیە ئەمە چەند خولەکێکی پێبچێت</string>
+    <string name="installing_kiosk_app">دابەزاندنی ئەپی <xliff:g id="creditor_app">%1$s</xliff:g>…</string>
+    <string name="opening_kiosk_app">کردنەوەی ئەپی <xliff:g id="creditor_app">%1$s</xliff:g>…</string>
+    <string name="settings_banner_title">ئامێر لەلایەن <xliff:g id="provider name">%1$s</xliff:g> دابینکراوە</string>
     <string name="settings_banner_title_recol">ئامێرەکە بارمتە کراوە لەلایەن <xliff:g id="provider name">%1$s</xliff:g></string>
+    <string name="settings_banner_body"><xliff:g id="provider name">%1$s</xliff:g> دەتوانێت ڕێکخستنەکان لەم ئامێرەدا بگۆڕێت</string>
+    <string name="settings_banner_button">زیاتر بزانە</string>
+    <string name="settings_screen_title">زانیاریی ئامێری بەقەرزگیراو (Financed)</string>
+    <string name="settings_intro_device_financing"><xliff:g id="provider name">%1$s</xliff:g> دەتوانێت ڕێکخستنەکان بگۆڕێت و ئەپی کیۆسک لەسەر ئەم ئامێرە داببەزێنێت.
+
+ئەگەر پارەدان ئەنجام نەدەیت، <xliff:g id="provider name">%1$s</xliff:g> دەتوانێت ئامێرەکەت سنووردار بکات.
+
+بۆ زانیاریی زیاتر، پەیوەندی بە <xliff:g id="provider name">%1$s</xliff:g> بکە.</string>
+    <string name="settings_intro_device_subsidy"><xliff:g id="provider name">%1$s</xliff:g> دەتوانێت ڕێکخستنەکان بگۆڕێت و ئەپی کیۆسک لەسەر ئەم ئامێرە داببەزێنێت.
+
+هەروەها <xliff:g id="provider name">%1$s</xliff:g> دەتوانێت ئەم ئامێرە سنووردار بکات ئەگەر پارەدان ئەنجام نەدەیت یان لە بەکارهێنانی سیمکارتی <xliff:g id="provider name">%1$s</xliff:g> بوەستیت.
+
+بۆ زانیاریی زیاتر، پەیوەندی بە <xliff:g id="provider name">%1$s</xliff:g> بکە.</string>
+    <string name="settings_intro_preference_key">settings_intro_preference_key</string>
+    <string name="settings_restrictions_category">تاوەکو تەواوی پارەی ئامێرەکەت نەدەیت، ناتوانیت:</string>
+    <string name="settings_restrictions_category_preference_key">settings_restrictions_category_preference_key</string>
+    <string name="settings_install_apps">بەرنامەکان لە دەرەوەی Play Store دابمەزرێنیت</string>
+    <string name="settings_install_apps_preference_key">settings_install_apps_preference_key</string>
+    <string name="settings_safe_mode">ئامێرەکەت لەسەر دۆخی سەلامەت (Safe mode) سەرلەنوێ دابگیرسێنیتەوە</string>
+    <string name="settings_safe_mode_preference_key">settings_safe_mode_preference_key</string>
+    <string name="settings_developer_options">بژاردەکانی پەرەپێدەر بەکاربهێنیت</string>
+    <string name="settings_developer_options_preference_key">settings_developer_options_preference_key</string>
+    <string name="settings_credit_provider_capabilities_category">ئەگەر کێشەیەک لە ئامێرەکەتدا ڕووبدات، <xliff:g id="provider name">%1$s</xliff:g> دەتوانێت:</string>
+    <string name="settings_credit_provider_capabilities_category_preference_key">settings_credit_provider_capabilities_category_preference_key</string>
+    <string name="settings_IMEI">دەستی بە ژمارەی IMEIەکەت ڕابگات</string>
+    <string name="settings_IMEI_preference_key">settings_IMEI_preference_key</string>
+    <string name="settings_factory_reset">ئامێرەکەت بگەڕێنێتەوە بۆ دۆخی کارگە</string>
+    <string name="settings_factory_reset_preference_key">settings_factory_reset_preference_key</string>
+    <string name="settings_locked_mode_category">ئەگەر ئامێرەکەت سنووردار کرا، تەنها دەتوانیت بۆ ئەم مەبەستانە بەکاریبهێنیت:</string>
+    <string name="settings_locked_mode_category_preference_key">settings_locked_mode_category_preference_key</string>
+    <string name="settings_emergency_calls">پەیوەندیکردن بە ژمارەکانی فریاگوزاری</string>
+    <string name="settings_emergency_calls_preference_key">settings_emergency_calls_preference_key</string>
+    <string name="settings_system_info">زانیارییەکانی سیستەم وەک ڕێکەوت، کات، دۆخی تۆڕ و باتری ببینیت</string>
+    <string name="settings_system_info_preference_key">settings_system_info_preference_key</string>
+    <string name="settings_turn_on_off_device">ئامێرەکەت پێبکەیت یان بکوژێنیتەوە</string>
+    <string name="settings_turn_on_off_device_preference_key">settings_turn_on_off_device_preference_key</string>
+    <string name="settings_notifications">بینینی ئاگادارییەکان و پەیامە دەقییەکان</string>
+    <string name="settings_notifications_preference_key">settings_notifications_preference_key</string>
+    <string name="settings_allowlisted_apps">دەستگەیشتن بەو ئەپانەی لەلایەن <xliff:g id="provider name">%1$s</xliff:g> ڕێگەیان پێدراوە</string>
+    <string name="settings_allowlisted_apps_preference_key">settings_allowlisted_apps_preference_key</string>
+    <string name="settings_fully_paid_category">کاتێک تەواوی بڕی قەرزەکە دەدەیت:</string>
+    <string name="settings_fully_paid_category_preference_key">settings_fully_paid_category_preference_key</string>
+    <string name="settings_restrictions_removed"><xliff:g id="provider name">%1$s</xliff:g> ناتوانێت ئامێرەکەت سنووردار بکات یان ڕێکخستنەکانی ئامێر بگۆڕێت</string>
+    <string name="settings_restrictions_removed_preference_key">settings_restrictions_removed_preference_key</string>
+    <string name="settings_uninstall_kiosk_app">دەتوانیت ئەپی <xliff:g id="kiosk_app">%1$s</xliff:g> بسڕیتەوە</string>
+    <string name="settings_uninstall_kiosk_app_preference_key">settings_uninstall_kiosk_app_preference_key</string>
+    <string name="settings_support_category">بۆ دەستکەوتنی یارمەتی:</string>
+    <string name="settings_support_category_preference_key">settings_support_category_preference_key</string>
+    <string name="settings_contact_provider"><xliff:g id="support_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>پەیوەندی بە <xliff:g id="provider name">%1$s</xliff:g><xliff:g id="support_link_end">&lt;/a&gt;</xliff:g> بکە</string>
+    <string name="settings_contact_provider_preference_key">settings_contact_provider_preference_key</string>
+    <string name="provision_notification_channel_name">دابینکردن</string>
+    <string name="device_reset_in_days_notification_title">{count, plural,
+            =1    {ئامێر لە ماوەی 1 ڕۆژدا ڕێکدەخرێتەوە}
+            other {ئامێر لە ماوەی # ڕۆژدا ڕێکدەخرێتەوە}
+        }</string>
+    <string name="device_reset_timer_notification_title">ئامێر لە ماوەی <xliff:g id="timer">%s</xliff:g> ڕێکدەخرێتەوە</string>
+    <string name="device_reset_notification_content">تەواوی داتای ئامێرەکە دەسڕدرێتەوە. بۆ یارمەتی لە تۆمارکردنی ئامێرەکەت، پەیوەندی بە <xliff:g id="provider name">%1$s</xliff:g> بکە</string>
+    <string name="provisioning_failed">دابینکردنی دارایی سەرکەوتوو نەبوو</string>
     <string name="provisioning_failed_generic">دابینکردن (Provisioning) سەرکەوتوو نەبوو</string>
+    <string name="click_to_contact_financier">بۆ یارمەتی لە تۆمارکردنی ئامێرەکەت، <xliff:g id="support_link_start">&lt;a href=\"%2$s\"&gt;</xliff:g>پەیوەندی بە <xliff:g id="provider name">%1$s</xliff:g><xliff:g id="support_link_end">&lt;/a&gt;</xliff:g> بکە.</string>
+    <string name="exit">دەرچوون</string>
+    <string name="retry">هەوڵدانەوە</string>
 </resources>

@@ -102,10 +102,8 @@
     <string name="bluetooth_hearing_device_input_routing_dialog_title">Standardmikrofon</string>
     <string name="bluetooth_hearing_device_input_routing_dialog_summary">Vel mikrofon for samtalar.</string>
     <string name="bluetooth_hearing_device_input_routing_hearing_device_option">Mikrofon i høyreapparatet</string>
-    <string name="bluetooth_hearing_device_input_routing_builtin_option">Mikrofonen i denne telefonen</string>
     <string name="bluetooth_audio_routing_title">Lydutgang</string>
     <string name="bluetooth_audio_routing_about_title">Om lydutgang</string>
-    <string name="bluetooth_audio_routing_summary">Send lyd til høyreapparatet eller telefonhøgtalaren</string>
     <string name="bluetooth_screen_related">Relatert</string>
     <string name="bluetooth_try_nearby_share_title">Prøv <xliff:g id="Nearby Sharing app label" example="Nearby Sharing">%s</xliff:g></string>
     <string name="bluetooth_try_nearby_share_summary">Den raskaste fildelinga mellom Android-einingar, og med PC-ar får du ved å bruka <xliff:g id="Nearby Sharing app label" example="Nearby Sharing">%s</xliff:g>-appen vår for Windows</string>
@@ -135,7 +133,6 @@
     <string name="bluetooth_map_request">"Førespurnad om meldingstilgang"</string>
     <string name="bluetooth_device_name_summary">Synleg som «<xliff:g id="device_name">^1</xliff:g>» for andre einingar</string>
     <string name="bluetooth_off_footer">Slå på Bluetooth for å kopla til andre einingar.</string>
-    <string name="shared_network_footer">Ta kontakt med eigaren av nettverket eller ein einingsadministrator for å gjera endringar i dette nettverket.</string>
     <string name="bluetooth_paired_device_title">Einingane dine</string>
     <string name="bluetooth_pairing_page_title">Par ny eining</string>
     <string name="bluetooth_disable_a2dp_hw_offload">Slå av Bluetooth A2DP-maskinvareavlasting</string>
@@ -144,8 +141,6 @@
     <string name="bluetooth_disable_hw_offload_dialog_message">Du må starta eininga på nytt for å endra denne innstillinga.</string>
     <string name="bluetooth_disable_hw_offload_dialog_confirm">Start på nytt</string>
     <string name="bluetooth_disable_hw_offload_dialog_cancel">Avbryt</string>
-    <string name="bluetooth_disable_leaudio">Slå av Bluetooth LE-lyd</string>
-    <string name="bluetooth_disable_leaudio_summary">Slår av Bluetooth LE-lydfunksjonen dersom eininga støttar maskinvare for LE-lyd.</string>
     <string name="bluetooth_leaudio_mode">Bluetooth LE-lydmodus</string>
     <string name="bluetooth_show_leaudio_device_details">Vis brytar for LE-lyd i einingsdetaljar</string>
     <string name="bluetooth_bypass_leaudio_allowlist">Gå utanom godkjenningslista for Bluetooth LE-lyd</string>
@@ -241,7 +236,6 @@
     <string name="country_selection_title">Føretrekt region</string>
     <string name="search_language_hint">Søk etter språk</string>
     <string name="search_region_hint">Søk etter regionar</string>
-    <string name="top_intro_region_title">Regionen du vel, påverkar korleis telefonen viser tid, dato, temperatur med meir</string>
     <string name="more_language_settings_category">Fleire språkinnstillingar</string>
     <string name="title_change_system_locale_region">Endra region til <xliff:g id="system_language_region" example="Canada">%1$s</xliff:g>?</string>
     <string name="body_change_system_locale_region">Eininga held på <xliff:g id="system_language" example="English">%1$s</xliff:g> som systemspråk</string>
@@ -310,6 +304,7 @@
     <string name="add">Legg til</string>
     <string name="remove">Fjerna</string>
     <string name="process">Prosess</string>
+    <string name="dismiss">Lukk</string>
     <string name="settings_label">Innstillingar</string>
     <string name="settings_label_launcher">Innstillingar</string>
     <string name="settings_shortcut">Snarveg til innstillingar</string>
@@ -327,7 +322,8 @@
     <string name="date_time_24hour_auto">Bruk standard for språket</string>
     <string name="date_time_24hour">Bruk 24-timarsformat</string>
     <string name="date_time_set_time_title">Tid</string>
-    <string name="time_format_category_title">Tidsformat</string>
+    <string name="time_format_page_title">Tidsformat</string>
+    <string name="time_more_settings_category_title">Fleire innstillingar</string>
     <string name="date_time_set_timezone_title">Tidssone</string>
     <string name="date_time_set_timezone">Vel tidssone</string>
     <string name="date_time_search_time_zone">Søk etter tidssone</string>
@@ -340,8 +336,6 @@
     <string name="zone_info_footer_first_sentence">Brukar <xliff:g id="offset_and_name" example="Pacific Time (GMT-08:00)">%1$s</xliff:g>. <xliff:g id="second_sentence" example="Pacific Daylight Time starts on Mar 11 2018.">%2$s</xliff:g>
     </string>
     <string name="zone_info_footer_second_sentence"><xliff:g id="dst_time_type" example="Pacific Daylight Time">%1$s</xliff:g> byrjar <xliff:g id="transition_date" example="Mar 11 2018">%2$s</xliff:g>.</string>
-    <string name="zone_info_footer_no_dst">Brukar <xliff:g id="offset_and_name" example="GMT-08:00 Pacific Time">%1$s</xliff:g>. Ingen sommartid.</string>
-    <string name="zone_time_type_dst">Sommartid</string>
     <string name="zone_time_type_standard">Standardtid</string>
     <string name="zone_menu_by_region">Vel etter region</string>
     <string name="zone_menu_by_offset">Vel etter GMT-forskyving</string>
@@ -388,13 +382,8 @@
     <string name="security_settings_face_preference_title_new">Andlet</string>
     <string name="security_settings_face_profile_preference_title_new">Andlet for arbeid</string>
     <string name="private_space_face_unlock_title_new">Andlet for privat område</string>
-    <string name="security_settings_face_preference_title">Andletslås</string>
-    <string name="security_settings_face_profile_preference_title">Andletslås for arbeid</string>
-    <string name="security_settings_face_enroll_education_title">Slik set du opp andletslås</string>
-    <string name="security_settings_face_enroll_education_title_accessibility">Set opp andletslås</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled">Bruk andletet for å stadfesta kven du er</string>
     <string name="security_settings_face_enroll_education_start">Start</string>
-    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Dersom andletslås for tilgjenge er slått av, fungerer kanskje ikkje alle oppsettsstega som dei skal med TalkBack.</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Gå tilbake</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Hald fram med oppsettet</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Bruk tilgjengeoppsett</string>
@@ -402,11 +391,7 @@
     <string name="security_settings_face_enroll_introduction_no_thanks">Nei takk</string>
     <string name="security_settings_face_enroll_introduction_agree">Eg samtykkjer</string>
     <string name="security_settings_face_enroll_introduction_more">Meir</string>
-    <string name="security_settings_face_enroll_introduction_title">Lås opp med andletet</string>
-    <string name="security_settings_face_enroll_consent_introduction_title">Tillat andletslås</string>
     <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Bruk andletet for å stadfesta kven du er</string>
-    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">Bruk andletet for å låsa opp telefonen eller godkjenna kjøp.\n\nMerk: Du kan ikkje bruka andletet for å låsa opp denne eininga. Ta kontakt med administratoren for organisasjonen din for meir informasjon.</string>
-    <string name="security_settings_face_enroll_introduction_message_setup">Bruk andletet for å låsa opp telefonen, godkjenna kjøp eller logga på appar</string>
     <string name="security_settings_face_enroll_repeat_title">Midtstill andletet i sirkelen</string>
     <string name="security_settings_face_enroll_enrolling_skip">Hopp over</string>
     <string name="face_intro_error_max">Du har lagt til det maksimale talet på andlet</string>
@@ -417,29 +402,13 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">Andletsregistreringa fungerte ikkje.</string>
     <string name="security_settings_face_enroll_finish_title">Alt er klart. Dette ser bra ut.</string>
     <string name="security_settings_face_enroll_done">Ferdig</string>
-    <string name="security_settings_face_enroll_should_re_enroll_title">Gjer andletslåsen betre</string>
-    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Set opp andletslåsen på nytt</string>
-    <string name="security_settings_face_enroll_must_re_enroll_title">Set opp andletslåsen på nytt</string>
     <string name="security_settings_face_enroll_must_re_enroll_subtitle">Betra tryggleiken og ytinga</string>
-    <string name="security_settings_face_enroll_improve_face_alert_title">Set opp andletslås</string>
-    <string name="security_settings_face_enroll_improve_face_alert_body">Slett den noverande andletsmodellen for å setja opp andletslås på nytt.\n\nAndletsmodellen vert sletta for godt på ein trygg måte.\n\nEtter sletting må du bruka PIN-kode, mønster eller passord for å låsa opp telefonen eller stadfesta kven du er i appar.</string>
-    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">Slett den noverande andletsmodellen for å setja opp andletslås på nytt.\n\nAndletsmodellen vert sletta for godt på ein trygg måte.\n\nEtter sletting må du bruka fingeravtrykk, PIN-kode, mønster eller passord for å låsa opp telefonen eller stadfesta kven du er i appar.</string>
-    <string name="security_settings_face_settings_use_face_category">Bruk andletslås til</string>
     <string name="security_settings_face_settings_face_category">Andlet</string>
     <string name="security_settings_face_settings_use_face_to_category">Bruk andlet til å</string>
-    <string name="security_settings_face_settings_preferences_category">Ved bruk av andletslås</string>
     <string name="security_settings_face_settings_require_attention">Krev at auga er opne</string>
-    <string name="security_settings_face_settings_require_attention_details">For å låsa opp telefonen må auga dine vera opne</string>
     <string name="security_settings_face_settings_require_confirmation">Krev alltid stadfesting</string>
-    <string name="security_settings_face_settings_require_confirmation_details">Krev alltid eit stadfestingssteg ved bruk av andletslås i appar</string>
     <string name="security_settings_face_settings_remove_face_model">Slett andletsmodellen</string>
-    <string name="security_settings_face_settings_enroll">Set opp andletslås</string>
     <string name="security_settings_face_settings_remove_dialog_title">Vil du sletta andletsmodellen?</string>
-    <string name="security_settings_face_settings_remove_dialog_details">Andletsmodellen vert sletta for godt på ein trygg måte.\n\nEtter sletting må du bruka PIN-kode, mønster eller passord for å låsa opp telefonen eller stadfesta kven du er i appar.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_convenience">Andletsmodellen vert sletta for godt på ein trygg måte.\n\nEtter sletting må du bruka PIN-kode, mønster eller passord for å låsa opp telefonen.</string>
-    <string name="security_settings_face_remove_dialog_details_fingerprint">Andletsmodellen vert sletta for godt på ein trygg måte.\n\nEtter sletting må du bruka fingeravtrykk, PIN-kode, mønster eller passord for å låsa opp telefonen eller stadfesta kven du er i appar.</string>
-    <string name="security_settings_face_remove_dialog_details_fingerprint_conv">Andletsmodellen vert sletta for godt på ein trygg måte.\n\nEtter sletting må du bruka fingeravtrykk, PIN-kode, mønster eller passord for å låsa opp telefonen.</string>
-    <string name="security_settings_face_settings_context_subtitle">Bruk andletslås for å låsa opp telefonen</string>
     <string name="security_settings_face_add">Legg til andlet</string>
     <string name="security_settings_fingerprint">Fingeravtrykk</string>
     <string name="security_settings_fingerprint_title">Fingeravtrykk</string>
@@ -463,7 +432,6 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_1">Du har kontrollen</string>
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_consent_1">Du og barnet ditt har kontrollen</string>
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2">Hugs på dette</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">Bruk fingeravtrykket ditt for å låsa opp telefonen eller godkjenna kjøp.\n\nMerk: Du kan ikkje bruka fingeravtrykk for å låsa opp denne eininga. Ta kontakt med administratoren din for meir informasjon.</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Avbryt</string>
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks">Nei takk</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree">Eg samtykkjer</string>
@@ -482,9 +450,6 @@
     <string name="fingerprint_check_enroll_not_recognized">Kjenner ikkje att fingeravtrykket</string>
     <string name="security_settings_activeunlock_preference_title">Klokkelås</string>
     <string name="security_settings_activeunlock">Klokke</string>
-    <string name="biometric_settings_intro_with_activeunlock">Når du set opp andletslås og fingeravtrykk, spør telefonen etter fingeravtrykk om du brukar maske eller det er for mørkt.\n\nKlokkelås er ein annan lettvint måte å låsa opp telefonen på, til dømes om fingrane dine er våte eller andletet ikkje vert gjenkjent.</string>
-    <string name="biometric_settings_intro_with_fingerprint">Klokkelås er ein annan lettvinn måte å låsa opp telefonen på, til dømes om fingeravtrykket ikkje vert gjenkjent.</string>
-    <string name="biometric_settings_intro_with_face">Klokkelås er ein annan lettvinn måte å låsa opp telefonen på, til dømes om andletet ikkje vert gjenkjent.</string>
     <string name="biometric_settings_use_fingerprint_or_watch_for"> Bruk fingeravtrykk eller klokke til å</string>
     <string name="biometric_settings_use_face_or_watch_for"> Bruk andlet eller klokke til å</string>
     <string name="biometric_settings_use_face_fingerprint_or_watch_for"> Bruk andlet, fingeravtrykk eller klokke til å</string>
@@ -493,11 +458,9 @@
     <string name="biometric_settings_use_fingerprint_or_watch_preference_summary">Brukar fingeravtrykk eller klokke</string>
     <string name="biometric_settings_use_face_fingerprint_or_watch_preference_summary">Brukar andlet, fingeravtrykk eller klokke</string>
     <string name="biometric_settings_use_watch_preference_summary">Brukar klokke</string>
-    <string name="security_settings_activeunlock_require_face_fingerprint_setup_title">Lag til andletslås eller fingeravtrykk først</string>
     <string name="security_settings_activeunlock_require_face_fingerprint_setup_message">Du kan låsa opp med klokka når andletet eller fingeravtrykket ikkje vert gjenkjent</string>
     <string name="security_settings_activeunlock_require_fingerprint_setup_title">Lag til fingeravtrykkslås først</string>
     <string name="security_settings_activeunlock_require_fingerprint_setup_message">Du kan låsa opp med klokka når fingeravtrykket ikkje vert gjenkjent</string>
-    <string name="security_settings_activeunlock_require_face_setup_title">Lag til andletslås først</string>
     <string name="security_settings_activeunlock_require_face_setup_message">Du kan låsa opp med klokka når andletet ikkje vert gjenkjent</string>
     <string name="security_settings_activeunlock_biometric_setup">Lag til</string>
     <string name="security_settings_fingerprint_single_watch_preference_summary">Fingeravtrykk og <xliff:g id="watch" example="Dani\'s Watch">%s</xliff:g> er lagde til</string>
@@ -520,13 +483,10 @@
     <string name="security_settings_remoteauth_preference_title">Opplåsing med ekstern klokke</string>
     <string name="security_settings_remoteauth_preference_summary">Klokke er lagt til</string>
     <string name="security_settings_remoteauth_enroll_introduction_title">Set opp klokka di</string>
-    <string name="security_settings_remoteauth_enroll_introduction_message">Klokkelås er ein annan lettvint måte å låsa opp telefonen på, til dømes om fingrane dine er våte eller andletet ikkje vert gjenkjent.\n\nDu kan bruka klokka di for å låsa opp telefonen når du:</string>
     <string name="security_settings_remoteauth_enroll_introduction_disagree">Ikkje no</string>
     <string name="security_settings_remoteauth_enroll_introduction_agree">Hald fram</string>
     <string name="security_settings_remoteauth_enroll_introduction_more">Meir</string>
     <string name="security_settings_remoteauth_enroll_introduction_how_title">Slik fungerer det</string>
-    <string name="security_settings_remoteauth_enroll_introduction_info_lock_open">Klokka må vera ulåst, på handleddet ditt og innan rekkevidd for denne telefonen. Du treng ikkje låsa opp klokka di på nytt så lenge ho sit på handleddet.</string>
-    <string name="security_settings_remoteauth_enroll_introduction_info_notifications">Når denne telefonen vert låst opp, får du eit varsel på klokka. Trykk på varselet for å låsa telefonen att dersom han vart låst opp utan at det var meininga.</string>
     <string name="security_settings_remoteauth_enroll_introduction_youre_in_control_title">Du har kontrollen</string>
     <string name="security_settings_remoteauth_enroll_introduction_info_remove_watch">Du kan sletta klokka di frå Klokkelås når som helst i innstillingane</string>
     <string name="security_settings_remoteauth_enroll_introduction_animation_tap_notification">Trykk på eit varsel</string>
@@ -536,30 +496,21 @@
     <string name="security_settings_remoteauth_enroll_enrolling_disagree">Avbryt</string>
     <string name="security_settings_remoteauth_enroll_enrolling_agree">Stadfest</string>
     <string name="security_settings_remoteauth_enroll_finish_title">Alt er klart!</string>
-    <string name="security_settings_remoteauth_enroll_finish_description">Du kan no bruka klokka di for å låsa opp telefonen når du sveiper opp på låseskjermen eller trykkjer på eit varsel</string>
     <string name="security_settings_remoteauth_enroll_finish_btn_next">Ferdig</string>
     <string name="security_settings_remoteauth_settings_title">Klokkelås</string>
-    <string name="security_settings_remoteauth_settings_description">Du kan bruka klokka di for å låsa opp telefonen når du sveiper opp på låseskjermen eller trykkjer på eit varsel</string>
-    <string name="security_settings_remoteauth_settings_info_footer">For å bruka klokkelås må klokka vera ulåst, på handleddet ditt, innan rekkevidd og kopla til denne telefonen. Dersom sambandet vert brote, må du låsa opp telefonen før du kan bruka klokkelås att.\n\nHugs på:\nDu kan berre ha éi klokke slått på om gongen. For å leggja til ei ny klokke må du først sletta den noverande.</string>
     <string name="security_settings_remoteauth_settings_learn_more">Finn ut meir om klokkelås</string>
     <string name="security_settings_remoteauth_settings_register_new_authenticator">Legg til klokke</string>
     <string name="security_settings_remoteauth_settings_remove_device">Fjerna klokke</string>
-    <string name="security_settings_biometric_preference_title">Fingeravtrykk og andletslås</string>
-    <string name="security_settings_work_biometric_preference_title">Andletslås og fingeravtrykk for arbeid</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Må setjast opp</string>
     <string name="security_settings_biometric_preference_summary_both_fp_multiple">Andlet og fingeravtrykk er lagde til</string>
     <string name="security_settings_biometric_preference_summary_both_fp_single">Andlet og fingeravtrykk er lagde til</string>
-    <string name="biometric_settings_intro">Når du set opp andletslås og fingeravtrykk, spør telefonen etter fingeravtrykk om du brukar maske eller det er for mørkt</string>
     <string name="biometric_settings_category_ways_to_unlock">Måtar å låsa opp på</string>
     <string name="biometric_settings_category_use_face_fingerprint">Bruk andlet eller fingeravtrykk til å</string>
-    <string name="biometric_settings_use_biometric_unlock_phone">Låsa opp telefonen</string>
     <string name="biometric_settings_use_biometric_for_apps">Stadfest kven du er i appar</string>
     <string name="biometric_settings_use_face_preference_summary">Brukar andlet</string>
     <string name="biometric_settings_use_fingerprint_preference_summary">Brukar fingeravtrykk</string>
     <string name="biometric_settings_use_face_or_fingerprint_preference_summary">Brukar andlet eller fingeravtrykk</string>
     <string name="biometric_settings_hand_back_to_guardian_ok">OK</string>
-    <string name="biometric_settings_add_face_in_split_mode_title">Kan ikkje setja opp andletslås</string>
-    <string name="biometric_settings_add_face_in_split_mode_message">Avslutt delt skjerm for å setja opp andletslås</string>
     <string name="biometric_settings_add_fingerprint_in_split_mode_title">Kan ikkje setja opp fingeravtrykk</string>
     <string name="biometric_settings_add_fingerprint_in_split_mode_message">Avslutt delt skjerm for å setja opp fingeravtrykk</string>
     <string name="biometric_settings_add_biometrics_in_split_mode_ok">OK</string>
@@ -571,6 +522,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_title">Rør ved sensoren</string>
     <string name="security_settings_sfps_enroll_find_sensor_title">Rør ved av/på-knappen utan å trykkja på han</string>
     <string name="security_settings_udfps_enroll_find_sensor_title">Slik set du opp fingeravtrykk</string>
+    <string name="security_settings_enroll_find_sensor_standalone_default_title">Rør ved fingeravtrykkssensoren</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message">Han er på baksida av telefonen. Bruk peikefingeren.</string>
     <string name="security_settings_udfps_enroll_find_sensor_message">Fingeravtrykkssensoren er på skjermen. Du fangar fingeravtrykket på den neste skjermen.</string>
     <string name="security_settings_udfps_enroll_find_sensor_start_button">Start</string>
@@ -610,7 +562,6 @@
     <string name="security_settings_udfps_tip_fingerprint_help">Lyft, og rør ved sensoren på nytt</string>
     <string name="security_settings_udfps_side_fingerprint_help">Legg kanten av fingeravtrykket på sensoren og hald han der, og gjer det same på den andre sida</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_title">Vil du hoppa over oppsett av fingeravtrykk?</string>
-    <string name="setup_fingerprint_enroll_enrolling_skip_message">Du har valt å bruka fingeravtrykk for å låsa opp telefonen. Om du hoppar over no, må du setja dette opp seinare. Oppsettet tek berre eit lite minutt.</string>
     <string name="lock_screen_skip_setup_title">Hopp over oppsett for <xliff:g id="options" example="PIN • Face • Fingerprint">%s</xliff:g>?</string>
     <string name="lock_screen_pin_skip_title">Hopp over oppsett av PIN-kode?</string>
     <string name="lock_screen_pin_skip_face_title">Hopp over oppsett av PIN-kode og andletslås?</string>
@@ -663,25 +614,16 @@
     <string name="private_space_lock_title">Lås for privat område</string>
     <string name="private_space_one_lock_summary">Du kan låsa opp det private området på same måte som du låser opp telefonen, eller velja ein annan lås</string>
     <string name="private_space_screen_lock_title">Bruk skjermlåsen på eininga</string>
-    <string name="private_space_biometric_title">Fingeravtrykk og andletslås</string>
     <string name="private_space_fingerprint_title">Fingeravtrykk</string>
-    <string name="private_space_face_title">Andletslås</string>
     <string name="private_space_biometric_summary">Trykk for å setja opp</string>
     <string name="private_space_fingerprint_unlock_title">Fingeravtrykk for privat område</string>
     <string name="private_space_fingerprint_unlock_title_new">Fingeravtrykk for privat område</string>
-    <string name="private_space_face_unlock_title">Andletslås for privat område</string>
-    <string name="private_space_biometric_unlock_title">Andlets- og fingeravtrykksopplåsing for privat sone</string>
     <string name="private_space_fingerprint_enroll_introduction_title">Set opp fingeravtrykksopplåsing for privat sone</string>
     <string name="private_space_fingerprint_enroll_introduction_message">Bruk fingeravtrykket ditt til å låsa opp den private sona di eller stadfesta at det er du, til dømes når du loggar på appar eller godkjenner kjøp</string>
-    <string name="private_space_fingerprint_enroll_introduction_footer_message">Den private sona di kan verta låst opp utan at det er meininga, til dømes om nokon held telefonen din inntil fingeren din.</string>
     <string name="private_space_fingerprint_enroll_finish_message">Bruk fingeravtrykket ditt til å låsa opp den private sona eller godkjenna kjøp</string>
-    <string name="private_space_face_enroll_introduction_title">Set opp andletsopplåsing for privat sone</string>
     <string name="private_space_face_enroll_introduction_message">Bruk andletet ditt til å låsa opp den private sona di eller stadfesta at det er du, til dømes når du loggar på appar eller godkjenner kjøp</string>
-    <string name="private_space_face_enroll_introduction_info_looking">Om du ser på telefonen, kan den private sona verta låst opp sjølv om det ikkje er meininga. Sona kan òg verta låst opp av nokon som liknar mykje på deg, til dømes ein identisk tvilling, eller om nokon held eininga opp framfor andletet ditt.</string>
     <string name="private_space_face_enroll_introduction_info_less_secure">Å bruka andletsopplåsing for den private sona kan vera mindre trygt enn eit sterkt mønster, ein PIN-kode eller eit passord</string>
     <string name="private_space_face_settings_require_attention_details">For å låsa opp den private sona må augo dine vera opne. Ta av solbriller for best resultat.</string>
-    <string name="private_space_face_settings_footer">Bruk andletet ditt til å låsa opp den private sona.\n\nHugs:\nDu kan berre ha eitt andlet registrert om gongen. For å leggja til eit nytt andlet må du sletta det noverande.\n\nOm du ser på telefonen, kan han verta låst opp utan at det er meningen.\n\nDen private sona kan verta låst opp av andre om eininga vert halden opp framfor andletet ditt.\n\nDen private sona kan verta låst opp av nokon som liknar mykje på deg, til dømes ein identisk tvilling.</string>
-    <string name="private_space_face_settings_require_confirmation_details">Krev alltid eit ekstra steg for stadfesting ved bruk av andletsopplåsing</string>
     <string name="private_space_category_ways_to_unlock">Måtar å låsa opp på</string>
     <string name="private_space_screen_lock_summary">Same som skjermlåsen på eininga</string>
     <string name="private_space_new_lock_title">Vil du velja ein ny lås for det private området?</string>
@@ -706,7 +648,6 @@
     <string name="private_space_category_system">System</string>
     <string name="private_space_delete_title">Slett privat område</string>
     <string name="private_space_delete_header">Sletta det private området?</string>
-    <string name="private_space_delete_summary">Den private sona di vert sletta for godt frå eininga di. \n\nAlle appar i sona og tilhøyrande data vert òg sletta for godt frå den <b>interne lagringa</b> på telefonen.</string>
     <string name="private_space_accounts">Følgjande kontoar vert fjerna frå det private området ditt:</string>
     <string name="private_space_delete_button_label">Slett</string>
     <string name="private_space_confirm_deletion_header">Slettar privat område \u2026</string>
@@ -773,7 +714,6 @@
     <string name="no_screen_lock_issue_action_label">Set opp skjermlås</string>
     <string name="no_screen_lock_issue_notification_title">Set opp skjermlås</string>
     <string name="no_screen_lock_issue_notification_text">Set opp ein PIN-kode, eit mønster eller eit passord for å gjera telefonen tryggare.</string>
-    <string name="suggested_lock_settings_title">Sikra telefonen din</string>
     <string name="suggested_fingerprint_lock_settings_title">Legg til fingeravtrykk for å låsa opp</string>
     <string name="lock_settings_picker_title">Vel skjermlås</string>
     <string name="lock_settings_picker_new_lock_title">Vel ein skjermlås</string>
@@ -812,7 +752,6 @@
     <string name="face_unlock_set_unlock_pattern">Mønster \u2022 Andletslås</string>
     <string name="face_unlock_set_unlock_pin">PIN \u2022 Andletslås</string>
     <string name="face_unlock_set_unlock_password">Passord \u2022 Andletslås</string>
-    <string name="face_unlock_skip_face">Hald fram utan andletslås</string>
     <string name="biometrics_unlock_skip_biometrics">Hald fram utan fingeravtrykk eller andletslås</string>
     <string name="unlock_set_unlock_mode_off">Ingen</string>
     <string name="unlock_set_unlock_mode_off_new">Legg til PIN-kode, mønster, passord eller sveip</string>
@@ -822,26 +761,12 @@
     <string name="unlock_set_unlock_mode_password">Passord</string>
     <string name="unlock_disable_frp_warning_title">Vil du fjerna alle måtar å låsa opp eininga på?</string>
     <string name="unlock_disable_frp_warning_title_profile">Vil du fjerna profilbeskyttinga?</string>
-    <string name="unlock_disable_frp_warning_content_pattern">"Eit mønster vernar telefonen din om du mistar han eller han vert stolen."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_fingerprint">"Eit mønster vernar telefonen din om du mistar han eller han vert stolen.<xliff:g id="empty_line">\n\n</xliff:g>Dette slettar òg fingeravtrykksmodellen på eininga. Du kan ikkje lenger bruka fingeravtrykk for å stadfesta kven du er i appar."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_face">"Eit mønster vernar telefonen din om du mistar han eller han vert stolen.<xliff:g id="empty_line">\n\n</xliff:g>Andletsmodellen din vert òg sletta for godt på ein trygg måte. Du kan ikkje lenger bruka andletet for å stadfesta kven du er i appar."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_face_fingerprint">"Eit mønster vernar telefonen din om du mistar han eller han vert stolen.<xliff:g id="empty_line">\n\n</xliff:g>Dette slettar fingeravtrykksmodellen på eininga. Andletsmodellen din vert òg sletta for godt på ein trygg måte. Du kan ikkje lenger bruka andletet eller fingeravtrykk for å stadfesta kven du er i appar."</string>
-    <string name="unlock_disable_frp_warning_content_pin">"Ein PIN-kode vernar telefonen din om du mistar han eller han vert stolen."</string>
-    <string name="unlock_disable_frp_warning_content_pin_fingerprint">"Ein PIN-kode vernar telefonen din om du mistar han eller han vert stolen.<xliff:g id="empty_line">\n\n</xliff:g>Dette slettar òg fingeravtrykksmodellen på eininga. Du kan ikkje lenger bruka fingeravtrykk for å stadfesta kven du er i appar."</string>
-    <string name="unlock_disable_frp_warning_content_pin_face">"Ein PIN-kode vernar telefonen din om du mistar han eller han vert stolen.<xliff:g id="empty_line">\n\n</xliff:g>Andletsmodellen din vert òg sletta for godt på ein trygg måte. Du kan ikkje lenger bruka andletet for å stadfesta kven du er i appar."</string>
-    <string name="unlock_disable_frp_warning_content_pin_face_fingerprint">"Ein PIN-kode vernar telefonen din om du mistar han eller han vert stolen.<xliff:g id="empty_line">\n\n</xliff:g>Dette slettar fingeravtrykksmodellen på eininga. Andletsmodellen din vert òg sletta for godt på ein trygg måte. Du kan ikkje lenger bruka andletet eller fingeravtrykk for å stadfesta kven du er i appar."</string>
-    <string name="unlock_disable_frp_warning_content_password">"Eit passord vernar telefonen din om du mistar han eller han vert stolen."</string>
-    <string name="unlock_disable_frp_warning_content_password_fingerprint">"Eit passord vernar telefonen din om du mistar han eller han vert stolen.<xliff:g id="empty_line">\n\n</xliff:g>Dette slettar òg fingeravtrykksmodellen på eininga. Du kan ikkje lenger bruka fingeravtrykk for å stadfesta kven du er i appar."</string>
-    <string name="unlock_disable_frp_warning_content_password_face">"Eit passord vernar telefonen din om du mistar han eller han vert stolen.<xliff:g id="empty_line">\n\n</xliff:g>Andletsmodellen din vert òg sletta for godt på ein trygg måte. Du kan ikkje lenger bruka andletet for å stadfesta kven du er i appar.\""</string>
-    <string name="unlock_disable_frp_warning_content_password_face_fingerprint">"Eit passord vernar telefonen din om du mistar han eller han vert stolen.<xliff:g id="empty_line">\n\n</xliff:g>Dette slettar fingeravtrykksmodellen på eininga. Andletsmodellen din vert òg sletta for godt på ein trygg måte. Du kan ikkje lenger bruka andletet eller fingeravtrykk for å stadfesta kven du er i appar.\""</string>
     <string name="unlock_disable_frp_warning_content_unknown">"Vernefunksjonane på eininga fungerer ikkje utan skjermlås."</string>
     <string name="unlock_disable_frp_warning_content_unknown_fingerprint">"Vernefunksjonane på eininga fungerer ikkje utan skjermlås.<xliff:g id="empty_line">\n\n</xliff:g>Dette slettar òg fingeravtrykksmodellen på eininga. Du kan ikkje lenger bruka fingeravtrykk for å stadfesta kven du er i appar."</string>
     <string name="unlock_disable_frp_warning_content_unknown_face">"Vernefunksjonane på eininga fungerer ikkje utan skjermlås.<xliff:g id="empty_line">\n\n</xliff:g>Andletsmodellen din vert òg sletta for godt på ein trygg måte. Du kan ikkje lenger bruka andletet for å stadfesta kven du er i appar."</string>
     <string name="unlock_disable_frp_warning_content_unknown_face_fingerprint">"Vernefunksjonane på eininga fungerer ikkje utan skjermlås.<xliff:g id="empty_line">\n\n</xliff:g>Dette slettar fingeravtrykksmodellen på eininga. Andletsmodellen din vert òg sletta for godt på ein trygg måte. Du kan ikkje lenger bruka andletet eller fingeravtrykk for å stadfesta kven du er i appar."</string>
     <string name="unlock_disable_frp_warning_content_authbound_keys">"Skjermlåsen din vert fjerna.<xliff:g id="empty_line">\n\n</xliff:g>Trykk og betal vert ikkje tilgjengeleg.<xliff:g id="empty_line">\n\n</xliff:g>Wallet, betaling og andre appar som krev stadfesting, fungerer kanskje ikkje som dei skal."</string>
     <string name="unlock_disable_frp_warning_content_fingerprint_authbound_keys">"Skjermlåsen og fingeravtrykksopplåsinga di vert fjerna.<xliff:g id="empty_line">\n\n</xliff:g>Trykk og betal vert ikkje tilgjengeleg.<xliff:g id="empty_line">\n\n</xliff:g>Wallet, betaling og andre appar som krev stadfesting, fungerer kanskje ikkje som dei skal."</string>
-    <string name="unlock_disable_frp_warning_content_face_authbound_keys">"Skjermlåsen og andletsopplåsinga di vert fjerna.<xliff:g id="empty_line">\n\n</xliff:g>Trykk og betal vert ikkje tilgjengeleg.<xliff:g id="empty_line">\n\n</xliff:g>Wallet, betaling og andre appar som krev stadfesting, fungerer kanskje ikkje som dei skal."</string>
-    <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys">"Skjermlåsen og andlets- og fingeravtrykksopplåsinga di vert fjerna.<xliff:g id="empty_line">\n\n</xliff:g>Trykk og betal vert ikkje tilgjengeleg.<xliff:g id="empty_line">\n\n</xliff:g>Wallet, betaling og andre appar som krev stadfesting, fungerer kanskje ikkje som dei skal."</string>
     <string name="unlock_disable_frp_warning_ok">Slett</string>
     <string name="unlock_footer_high_complexity_requested">
         <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> tilrår ein sterk PIN-kode eller eit sterkt passord, og fungerer kanskje ikkje som forventa utan eit slikt</string>
@@ -993,7 +918,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="device_details_leaudio_toggle_summary">Prøvefunksjon. Betrar lydkvaliteten.</string>
     <string name="device_details_battery">Batteri</string>
     <string name="device_details_battery_charging">Batteri, ladar</string>
-    <string name="device_details_key_missing_title">Prøv å starta <xliff:g id="device_name">%1$s</xliff:g> på nytt. Om det ikkje fungerer, må du gløyma eininga. Av omsyn til tryggleiken bør du berre para ho på nytt når du ikkje er på ein offentleg stad.\n\nDersom eininga ikkje er i nærleiken, treng du ikkje gjera noko.</string>
     <string name="verbose_printer_logging_title">Detaljert logging for utskrift</string>
     <string name="verbose_printer_logging_summary">Ekstra loggar for feilsøking, inkludert Internet Printing Protocol (IPP), som kan innehalda privat informasjon.</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Gløym eininga</string>
@@ -1008,8 +932,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="nfc_reboot_dialog_title">Vil du starta på nytt?</string>
     <string name="nfc_reboot_dialog_message">Detaljert NFC-logging er berre meint for utvikling. Ekstra NFC-data vert med i feilmeldingar og kan innehalda privat informasjon. Du må starta eininga på nytt for å endra dette.</string>
     <string name="nfc_reboot_dialog_confirm">Start på nytt</string>
-    <string name="external_display_on">På</string>
-    <string name="external_display_off">Av</string>
     <string name="external_display_settings_title">Eksterne skjermar</string>
     <string name="builtin_display_settings_category">Innebygd skjerm</string>
     <string name="builtin_display_settings_universal_cursor_title">Universell markør</string>
@@ -1079,7 +1001,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="show_hdr_sdr_ratio">Vis HDR/SDR-forhold</string>
     <string name="show_hdr_sdr_ratio_summary">Vis noverande HDR/SDR-forhold</string>
     <string name="nfc_quick_toggle_title">NFC</string>
-    <string name="nfc_secure_settings_title">Krev opplåsing for bruk av NFC</string>
     <string name="android_beam_settings_title">Android Beam</string>
     <string name="android_beam_on_summary">Klar for sending via NFC</string>
     <string name="android_beam_off_summary">Av</string>
@@ -1131,12 +1052,11 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="wifi_settings_wep_networks_disconnect_summary">Du er kopla til eit WEP-nettverk. Om du sluttar å tillata desse nettverka, vert du kopla frå.</string>
     <string name="wifi_show_advanced">Avanserte val</string>
     <string name="wifi_advanced_toggle_description">Rullegardinliste for avanserte val</string>
-    <string name="wifi_advanced_toggle_description_collapsed">utvid</string>
+    <string name="wifi_advanced_toggle_action_expand">utvid</string>
     <string name="wifi_ssid">Nettverksnamn*</string>
     <string name="wifi_ssid_hint">Skriv inn SSID</string>
     <string name="wifi_security">Tryggleik</string>
     <string name="wifi_hidden_network">Gøymt nettverk</string>
-    <string name="wifi_hidden_network_warning">Dersom ruter-namnet ikkje vert sendt ut, men du vil kopla til seinare, kan du setja nettverket som gøymt.\n\nDette kan vera ein tryggleiksrisiko fordi telefonen din då sender ut signal for å finna nettverket heile tida.\n\nÅ setja nettverket som gøymt endrar ikkje ruter-innstillingane.</string>
     <string name="wifi_signal">Signalstyrke</string>
     <string name="wifi_status">Status</string>
     <string name="tx_wifi_speed">Sendefart</string>
@@ -1212,17 +1132,9 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="wifi_dpp_connect_network_using_qr_code">Bruk ein QR-kode for å leggja til ei eining i nettverket</string>
     <string name="wifi_dpp_qr_code_is_not_valid_format">QR-koden har ikkje eit gyldig format</string>
     <string name="retry">Prøv på nytt</string>
-    <string name="wifi_shared">Del med andre brukarar på eininga</string>
-    <string name="shared_message">delt</string>
-    <string name="private_message">privat</string>
-    <string name="wifi_conflict_dialog_confirm">Stadfest</string>
+    <string name="wifi_conflict_dialog_switch">Byt</string>
     <string name="wifi_conflict_dialog_cancel">Avbryt</string>
-    <string name="wifi_share_preference_title">Dette er eit delt nettverk</string>
-    <string name="wifi_share_preference_summary">Alle brukarar, bortsett frå gjester, kan sjå, redigera og sletta dette nettverket</string>
-    <string name="wifi_conflict_dialog_title">Vil du byta til det <xliff:g id="shared">%1$s</xliff:g> nettverket «<xliff:g id="network_name">%2$s</xliff:g>»?</string>
-    <string name="wifi_conflict_dialog_message">Du er no kopla til eit <xliff:g id="shared">%1$s</xliff:g> nettverk med same namn. Når du byter, vert du kopla frå det <xliff:g id="shared">%2$s</xliff:g> nettverket og deretter kopla til det <xliff:g id="private">%3$s</xliff:g> nettverket. Du kan mista tilgangen til internett ein kort periode.</string>
     <string name="wifi_unchanged">(uendra)</string>
-    <string name="wifi_allow_edit_configuration_title">Lat andre brukarar redigera nettverksoppsettet</string>
     <string name="wifi_unspecified">Vel her</string>
     <string name="wifi_multiple_cert_added">(Fleire sertifikat er lagte til)</string>
     <string name="wifi_use_system_certs">Bruk systemsertifikat</string>
@@ -1233,14 +1145,8 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="wifi_no_user_cert_warning">Du må ha eit sertifikat.</string>
     <string name="wifi_scan_always_turnon_message">For å gjera posisjonen meir nøyaktig med meir vil <xliff:g id="app_name">%1$s</xliff:g> slå på nettverkssøk, sjølv når Wi-Fi er av.\n\nVil du tillata dette for alle appar som vil søkja?</string>
     <string name="wifi_scan_always_turn_on_message_unknown">For å gjera posisjonen meir nøyaktig med meir vil ein ukjend app slå på nettverkssøk, sjølv når Wi-Fi er av.\n\nVil du tillata dette for alle appar som vil søkja?</string>
-    <string name="wifi_scan_always_confirm_allow">Tillat</string>
     <string name="wifi_scan_always_confirm_deny">Avslå</string>
     <string name="wifi_field_required">*må fyllast ut</string>
-    <string name="wifi_shared_network_login_screen_warning">Dette er eit delt nettverk. Du kan endra denne innstillinga når du har logga på.</string>
-    <string name="share_wifi_network">Del dette nettverket med andre brukarar på eininga</string>
-    <string name="share_wifi_network_summary">Alle brukarar på denne eininga kan sjå og kopla seg til eit delt nettverk. Administratorar kan sletta delte nettverk. Finn ut meir</string>
-    <string name="edit_wifi_network_configuration">Lat andre brukarar redigera nettverksoppsettet</string>
-    <string name="edit_wifi_network_non_owner_message">Ta kontakt med administratoren for eininga for å gjera endringar i dette nettverket.</string>
     <string name="no_internet_access_text">Dette nettverket har ikkje internett. Vil du framleis vera tilkopla?</string>
     <string name="partial_connectivity_text">Somme appar og tenester fungerer kanskje ikkje som dei skal. Vil du bruka det likevel?</string>
     <string name="no_internet_access_remember">Ikkje spør att for dette nettverket</string>
@@ -1261,8 +1167,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="wifi_failed_save_message">Klarte ikkje lagra nettverket</string>
     <string name="wifi_cancel">Avbryt</string>
     <string name="wifi_forget_dialog_title">Vil du gløyma nettverket?</string>
-    <string name="shared_wifi_forget_dialog_title">Vil du gøyma nettverket for alle brukarane?</string>
-    <string name="shared_wifi_forget_dialog_message">«<xliff:g id="network_name">%1$s</xliff:g>» vert brukt av andre på denne eininga, og alle brukarar av nettverket må setja det opp på nytt. Vil du framleis sletta det?</string>
     <string name="wifi_saved_access_points_summary">{count, plural,
         =1      {1 nettverk}
         other   {# nettverk}
@@ -1410,7 +1314,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="wifi_calling_turn_on">Slå på å ringja over Wi-Fi</string>
     <string name="wifi_disconnected_from">Kopla frå <xliff:g id="ssid" example="OfficeWifi">%1$s</xliff:g>
     </string>
-    <string name="sound_settings">Lyd og vibrering</string>
     <string name="account_settings">Kontoar</string>
     <string name="accessibility_category_work">Kontoar for arbeidsprofil – <xliff:g id="managed_by" example="Managed by Corporate application">%s</xliff:g>
     </string>
@@ -1421,7 +1324,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="accessibility_personal_account_title">Personleg konto – <xliff:g id="managed_by" example="Email provider">%s</xliff:g>
     </string>
     <string name="search_settings">Søk</string>
-    <string name="display_settings">Skjerm</string>
     <string name="accelerometer_title">Roter skjermen automatisk</string>
     <string name="auto_rotate_option_off">Av</string>
     <string name="auto_rotate_option_on">På</string>
@@ -1520,14 +1422,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="dark_ui_text_force_invert">Bruk mørk bakgrunn for å gjera skjermen betre å sjå på og spara straum på enkelte skjermar. Om du har ein tidsplan, vert temaet endra når skjermen er sløkt.</string>
     <string name="dark_ui_bedtime_footer_summary">Mørkt tema fylgjer no tidsplanen din for leggjetidsmodus</string>
     <string name="dark_ui_bedtime_footer_action">Innstillingar for leggjetidsmodus</string>
-    <string name="dark_ui_modes_footer_summary">        {count, plural, offset:2
-        =0    {Modusar kan òg slå på mørkt tema}
-        =1    {{mode_1} slår òg på mørkt tema}
-        =2    {{mode_1} og {mode_2} slår òg på mørkt tema}
-        =3    {{mode_1}, {mode_2} og {mode_3} slår òg på mørkt tema}
-        other {{mode_1}, {mode_2} og # andre slår òg på mørkt tema}
-        }
-    </string>
     <string name="dark_ui_modes_footer_action">Innstillingar for modusar</string>
     <string name="hdr_brigtness_text">Gjer bilete og videoar med High Dynamic Range (HDR) lysare og tydelegare, og utvid fargerommet. HDR-innhald vert lysare.</string>
     <string name="screen_timeout">Skjermtidsavbrot</string>
@@ -1539,12 +1433,10 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="wallpaper_suggestion_title">Byt bakgrunnsbilete</string>
     <string name="wallpaper_suggestion_summary">Gjer skjermen personleg</string>
     <string name="wallpaper_settings_fragment_title">Vel bakgrunnsbilete frå</string>
-    <string name="style_suggestion_title">Tilpass telefonen din</string>
     <string name="style_suggestion_summary">Prøv ulike stilar, bakgrunnsbilete og meir</string>
     <string name="screensaver_settings_title">Skjermsparar</string>
     <string name="keywords_screensaver">skjermsparar</string>
     <string name="screensaver_settings_when_to_dream_bedtime">Ikkje tilgjengeleg for di leggjetidsmodus er på</string>
-    <string name="screensaver_unavailable_due_to_mode">Ikkje tilgjengeleg</string>
     <string name="screensaver_settings_toggle_title">Bruk skjermsparar</string>
     <string name="screensaver_settings_summary_either_long">Ved lading eller i dokkingstasjon</string>
     <string name="screensaver_settings_summary_dock_and_charging">I dokkingstasjon og når du ladar</string>
@@ -1565,23 +1457,19 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="blur_switch_disabled_summary">Mellombels slått av på grunn av batterisparing</string>
     <string name="low_light_display_behavior_main_switch_title">Bruk modus for svakt lys</string>
     <string name="low_light_display_behavior_subtitle">Vel kva som skal visast i modus for svakt lys</string>
-    <string name="low_light_display_behavior_screen_off">Skjerm av</string>
     <string name="low_light_display_behavior_low_light_clock_dream">Klokke for svakt lys</string>
     <string name="low_light_display_behavior_summary_on">        På / <xliff:g id="low_light_mode" example="Screen off">%1$s</xliff:g>
     </string>
     <string name="low_light_display_behavior_summary_off">Av</string>
-    <string name="low_light_display_behavior_screen_off_full_summary">Skjermen vert slått av når det er mørkt rundt deg</string>
     <string name="low_light_display_behavior_low_light_clock_dream_full_summary">Klokka for svakt lys vert vist når det er mørkt rundt deg</string>
     <string name="ambient_display_screen_title">Bakgrunnsvising</string>
     <string name="ambient_display_category_triggers">Når han skal visast</string>
     <string name="doze_title">Vekk skjermen ved varsel</string>
     <string name="doze_summary">Når skjermen er mørk, slår han seg på for nye varsel</string>
-    <string name="doze_always_on_title">Vis alltid tid og info</string>
     <string name="doze_always_on_title2">Alltid på-skjerm</string>
     <string name="doze_always_on_summary">Brukar meir straum</string>
     <string name="doze_always_on_summary_with_wallpaper">Vis bakgrunnsbiletet for låst skjerm når skjermen er av</string>
     <string name="doze_always_on_summary_without_wallpaper">Gøym bakgrunnsbiletet for låst skjerm når skjermen er av</string>
-    <string name="doze_always_on_summary_long">Alltid på-skjermen viser klokkeslett, dato og anna informasjon når skjermen er av</string>
     <string name="doze_always_on_wallpaper_options">Val for bakgrunnsbilete</string>
     <string name="doze_always_on_wallpaper_title">Vis bakgrunnsbilete for låst skjerm</string>
     <string name="doze_always_on_wallpaper_description">Bakgrunnsbiletet for låst skjerm er synleg på alltid på-skjermen</string>
@@ -1608,6 +1496,9 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="sim_pin_enable_failed">Klarte ikkje slå på PIN.</string>
     <string name="sim_enter_ok">OK</string>
     <string name="sim_enter_cancel">Avbryt</string>
+    <string name="sim_auto_pin_management_toggle">Lås SIM-kortet</string>
+    <string name="sim_pin_protection_mode_manual">Brukarhandbok</string>
+    <string name="provide_new_sim_pin_title">Ny PIN for SIM</string>
     <string name="sim_change_data_title">Bruk <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> til mobildata?
     </string>
     <string name="sim_change_data_message">Du brukar <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g> til mobildata. Om du byter til <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, vert <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g> ikkje lenger brukt til mobildata.
@@ -1642,9 +1533,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="storage_settings_for_app">Lagring og buffer</string>
     <string name="storage_settings_title">Lagringsinnstillingar</string>
     <string name="status_eid">EID</string>
-    <string name="eid_multi_sim">EID (SIM-plass <xliff:g id="eid_slot_id">%1$d</xliff:g>)</string>
-    <string name="imei_multi_sim">IMEI (SIM-plass <xliff:g id="imei_slot_id">%1$d</xliff:g>)</string>
-    <string name="imei_multi_sim_primary">IMEI (SIM-plass <xliff:g id="imei_slot_id_primary">%1$d</xliff:g>) (hovud)</string>
     <string name="view_saved_network">Vel eit lagra nettverk for å sjå</string>
     <string name="status_imei">IMEI</string>
     <string name="status_imei_sv">IMEI SV</string>
@@ -1652,8 +1540,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="status_min_number">MIN</string>
     <string name="status_msid_number">MSID</string>
     <string name="status_prl_version">PRL-versjon</string>
-    <string name="meid_multi_sim">MEID (SIM-plass <xliff:g id="meid_slot_id">%1$d</xliff:g>)</string>
-    <string name="meid_multi_sim_primary">MEID (SIM-plass <xliff:g id="meid_slot_id_primary">%1$d</xliff:g>) (hovud)</string>
     <string name="scanning_status_text_on">På</string>
     <string name="scanning_status_text_off">Av</string>
     <string name="status_meid_number">MEID</string>
@@ -1726,7 +1612,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="storage_internal_forget_confirm">Alle appane, bileta og dataa som er lagra på <xliff:g id="name" example="SD card">^1</xliff:g>, vil gå tapt for godt.</string>
     <string name="storage_detail_dialog_system">Systemet omfattar filer som trengst for å køyra Android versjon <xliff:g id="version" example="8.0">%s</xliff:g>
     </string>
-    <string name="storage_os_detail_dialog_system">Dette omfattar operativsystemet og filene som trengst for at telefonen skal køyra knirkefritt. For å verna desse filene har du ikkje tilgang til dei.</string>
     <string name="storage_other_files_detail_dialog_system">Dette omfattar snøgglager og andre mellombelse filer som operativsystemet treng. Du kan merka at lagringsmengda som er i bruk, endrar seg over tid.</string>
     <string name="storage_system_label">System</string>
     <string name="storage_wizard_guest">Gjester kan ikkje formatera SD-kort</string>
@@ -1856,7 +1741,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="reset_esim_error_title">Klarte ikkje sletta eSIM-ane</string>
     <string name="reset_esim_error_msg">Noko gjekk galt, og eSIM-ane dine vart ikkje sletta.\n\nStart eininga på nytt og prøv ein gong til.</string>
     <string name="reset_private_space_delete_title">Slett privat område</string>
-    <string name="reset_private_space_delete_dialog">Dersom du har ei privat sone på eininga di, vert ho sletta for godt, og Google-kontoen som er knytt til sona, vert fjerna. \n\nAlle appar i sona di og tilhøyrande data vert òg sletta for godt frå den <b>interne lagringa</b> på telefonen.</string>
     <string name="main_clear_title">Slett alt (fabrikkoppsett)</string>
     <string name="main_clear_short_title">Slett alt (fabrikkoppsett)</string>
     <string name="main_clear_desc_also_erases_external"><li>Musikk</li>\n<li>Bilete</li>\n<li>Andre brukardata</li>
@@ -2003,9 +1887,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="lockpassword_password_set_toast">Passordet er valt</string>
     <string name="lockpassword_pin_set_toast">PIN-koden er valt</string>
     <string name="lockpassword_pattern_set_toast">Mønsteret er valt</string>
-    <string name="lockpassword_choose_your_password_header_for_face">Du må velja eit passord for å bruka andletsopplåsing</string>
-    <string name="lockpassword_choose_your_pattern_header_for_face">Du må velja eit mønster for å bruka andletsopplåsing</string>
-    <string name="lockpassword_choose_your_pin_header_for_face">Du må velja ein PIN-kode for å bruka andletsopplåsing</string>
     <string name="lockpassword_choose_your_password_header_for_biometrics">Vel eit passord for å bruka andlet eller fingeravtrykk</string>
     <string name="lockpassword_choose_your_pattern_header_for_biometrics">Vel eit mønster for å bruka andlet eller fingeravtrykk</string>
     <string name="lockpassword_choose_your_pin_header_for_biometrics">Vel ein PIN-kode for å bruka andlet eller fingeravtrykk</string>
@@ -2028,12 +1909,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="lockpassword_confirm_your_pin_header_frp">Verifiser PIN-koden</string>
     <string name="lockpassword_confirm_your_password_header_frp">Verifiser passordet</string>
     <string name="lockpassword_remote_validation_header">Stadfest at det er deg</string>
-    <string name="lockpassword_remote_validation_pattern_details">Skriv inn mønsteret for den andre eininga di for å overføra Google-kontoar, innstillingar og meir. Mønsteret er kryptert.</string>
-    <string name="lockpassword_remote_validation_pin_details">Skriv inn PIN-koden for den andre eininga di for å overføra Google-kontoar, innstillingar og meir. PIN-koden er kryptert.</string>
-    <string name="lockpassword_remote_validation_password_details">Skriv inn passordet for den andre eininga di for å overføra Google-kontoar, innstillingar og meir. Passordet er kryptert.</string>
-    <string name="lockpassword_remote_validation_set_pattern_as_screenlock">Bruk òg mønsteret til å låsa opp denne eininga</string>
-    <string name="lockpassword_remote_validation_set_pin_as_screenlock">Bruk òg PIN-koden til å låsa opp denne eininga</string>
-    <string name="lockpassword_remote_validation_set_password_as_screenlock">Bruk òg passordet til å låsa opp denne eininga</string>
     <string name="lockpassword_confirm_repair_mode_pattern_header">Verifiser mønsteret</string>
     <string name="lockpassword_confirm_repair_mode_pin_header">Verifiser PIN-koden</string>
     <string name="lockpassword_confirm_repair_mode_password_header">Verifiser passordet</string>
@@ -2073,7 +1948,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="lockpattern_settings_change_lock_pattern">Endra opplåsingsmønster</string>
     <string name="lockpattern_settings_help_how_to_record">Slik teiknar du eit opplåsingsmønster</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts">For mange feilaktige forsøk. Prøv på nytt om <xliff:g id="number">%d</xliff:g> sekund.</string>
-    <string name="activity_not_found">Appen er ikkje installert på telefonen din.</string>
     <string name="lock_settings_profile_title">Tryggleik for arbeidsprofilen</string>
     <string name="lock_settings_profile_screen_lock_title">Skjermlås for arbeidsprofilen</string>
     <string name="lock_settings_profile_unification_title">Bruk same lås</string>
@@ -2245,9 +2119,7 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="language_and_region_settings">Språk og region</string>
     <string name="keyboard_settings">Tastatur</string>
     <string name="language_empty_list_user_restricted">Du har ikkje løyve til å endra språket på eininga.</string>
-    <string name="language_keyboard_settings_title">Språk og inndata</string>
     <string name="input_assistance">Verktøy</string>
-    <string name="keyboard_settings_category">Tastatur og inndatametodar</string>
     <string name="system_language">Systemspråk</string>
     <string name="phone_language">Språk</string>
     <string name="auto_replace">Autoretting</string>
@@ -2255,22 +2127,15 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="auto_caps">Store forbokstavar</string>
     <string name="auto_caps_summary">Gjer den fyrste bokstaven i kvar setning stor</string>
     <string name="auto_punctuate">Auto-teiknsetjing</string>
-    <string name="hardkeyboard_category">Innstillingar for fysisk tastatur</string>
     <string name="auto_punctuate_summary">Trykk på mellomromstasten to gonger for å setja inn punktum</string>
     <string name="show_password">Vis passord</string>
     <string name="show_password_summary">Vis teikna eit lite augneblink medan du skriv</string>
     <string name="spellchecker_security_warning">Denne stavekontrollen kan samla inn alt du skriv, medrekna personlege data som passord og kredittkortnummer. Han kjem frå appen <xliff:g id="spellchecker_application_name">%1$s</xliff:g>. Vil du bruka denne stavekontrollen?</string>
     <string name="spellchecker_quick_settings">Innstillingar</string>
     <string name="spellchecker_language">Språk</string>
-    <string name="keyboard_and_input_methods_category">Tastatur</string>
-    <string name="virtual_keyboard_category">Skjermtastatur</string>
-    <string name="keywords_virtual_keyboard">Gboard</string>
-    <string name="available_virtual_keyboard_category">Tilgjengelege skjermtastatur</string>
-    <string name="add_virtual_keyboard">Styr skjermtastatur</string>
+    <string name="keywords_keyboard_apps">Gboard</string>
     <string name="keyboard_options_category">Val</string>
     <string name="keyboard_a11y_category">Tilgjenge</string>
-    <string name="physical_keyboard_title">Fysisk tastatur</string>
-    <string name="physical_keyboard_layout_picker_title">Val av oppsett for fysisk tastatur</string>
     <string name="bounce_keys">Tastetrykk-filter</string>
     <string name="bounce_keys_summary">Sjå bort frå raske, gjentekne trykk på same tast</string>
     <string name="bounce_keys_dialog_title">Tidsforseinking for tastetrykk-filter</string>
@@ -2307,14 +2172,11 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="mouse_scrolling_speed">Rullefart</string>
     <string name="mouse_scrolling_speed_make_faster_description">Gjer rullinga raskare</string>
     <string name="mouse_scrolling_speed_make_slower_description">Gjer rullinga tregare</string>
-    <string name="mouse_pointer_speed_make_faster_desc">Gjer markøren raskare</string>
-    <string name="mouse_pointer_speed_make_slower_desc">Gjer markøren tregare</string>
     <string name="mouse_swap_primary_button">Byt om på hovudknappane for musa</string>
     <string name="mouse_swap_primary_button_summary">Bruk den venstre museknappen som høgreknapp</string>
     <string name="mouse_pointer_acceleration">Markørakselerasjon</string>
     <string name="mouse_pointer_acceleration_summary">Raskare rørsler med musa flyttar markøren lenger</string>
     <string name="mouse_key_main_page_title">Mustastar for <xliff:g id="keyboard name" example="my keyboard">%s</xliff:g></string>
-    <string name="mouse_keys_directional_summary">Bruk tastane «<xliff:g id="directional_label" example="7,8,9,u,o,j,k,l">%s</xliff:g>» for å flytta musepeikaren</string>
     <string name="mouse_keys_click_summary">Bruk tasten «<xliff:g id="click_label" example="i">%s</xliff:g>» for å klikka med hovudknappen</string>
     <string name="mouse_keys_press_hold_summary">Bruk tasten «<xliff:g id="press_hold_label" example="m">%s</xliff:g>» for å trykkja og halda inne hovudknappen</string>
     <string name="mouse_keys_release_summary">Bruk tasten «<xliff:g id="release_label" example=",">%s</xliff:g>» for å sleppa hovudknappen</string>
@@ -2324,15 +2186,14 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="mouse_keys_acceleration_fast_icon_desc">Rask</string>
     <string name="mouse_keys_acceleration_slow_icon_desc">Treg</string>
     <string name="keyboard_shortcuts_helper">Sjå snøggtastar</string>
-    <string name="keyboard_shortcuts_helper_summary">Vis ei liste over snøggtastar</string>
     <string name="language_and_input_for_work_category_title">Tastatur og verktøy for arbeidsprofilen</string>
-    <string name="virtual_keyboards_for_work_title">Skjermtastatur for arbeid</string>
     <string name="keyboard_default_layout">Standard</string>
+    <string name="game_controller_settings_title">Spelkontroll</string>
+    <string name="game_controller_remapping_reset_preference_title">Nullstill til standard</string>
+    <string name="game_controller_reset_dialog_button">Nullstill</string>
     <string name="trackpad_settings">Styreflate</string>
     <string name="trackpad_mouse_settings">Styreflate og mus</string>
     <string name="mouse_settings">Mus</string>
-    <string name="mouse_settings_summary">Markørfart, tilpassing av knappar</string>
-    <string name="trackpad_settings_summary">Peikarfart, rørslestyring</string>
     <string name="trackpad_tap_to_click">Trykk for å klikka</string>
     <string name="trackpad_tap_dragging_title">Trykk og dra for å flytta element</string>
     <string name="trackpad_tap_dragging_summary">Trykk to gonger og dra fingeren over styreflata for å flytta objekt</string>
@@ -2342,20 +2203,10 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="trackpad_reverse_scrolling_summary">Innhaldet flyttar seg oppover når du rullar nedover</string>
     <string name="trackpad_bottom_right_tap_title">Klikk nede til høgre</string>
     <string name="trackpad_bottom_right_tap_summary">Trykk nede i høgre hjørne av styreflata for fleire val</string>
-    <string name="trackpad_pointer_speed">Peikarfart</string>
-    <string name="trackpad_pointer_speed_make_faster_desc">Gjer markøren raskare</string>
-    <string name="trackpad_pointer_speed_make_slower_desc">Gjer markøren tregare</string>
     <string name="three_finger_tap_preference_title">Bruk trykk med tre fingrar</string>
     <string name="touchpad_acceleration_title">Akselerasjon for styreflata</string>
     <string name="touchpad_acceleration_summary">Raskare rørsler på styreflata flyttar markøren lenger</string>
     <string name="pointer_fill_style">Peikarfarge</string>
-    <string name="pointer_fill_style_black_button">Gjer musepeikaren svart</string>
-    <string name="pointer_fill_style_green_button">Gjer musepeikaren grøn</string>
-    <string name="pointer_fill_style_red_button">Gjer musepeikaren raud</string>
-    <string name="pointer_fill_style_pink_button">Gjer musepeikaren rosa</string>
-    <string name="pointer_fill_style_blue_button">Gjer musepeikaren blå</string>
-    <string name="pointer_fill_style_purple_button">Gjer musepeikaren lilla</string>
-    <string name="pointer_stroke_style">Farge på peikarkant</string>
     <string name="pointer_stroke_style_name_white">Kvit</string>
     <string name="pointer_stroke_style_name_black">Svart</string>
     <string name="pointer_stroke_style_name_none">Ingen</string>
@@ -2423,7 +2274,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="keyboard_repeat_keys_increase_rate_desc">Auka gjentakingsfarta</string>
     <string name="keyboard_repeat_keys_decrease_rate_desc">Minka gjentakingsfarta</string>
     <string name="ime_label_title"><xliff:g id="ime_label" example="Gboard">%s</xliff:g>-oppsett</string>
-    <string name="default_keyboard_layout">Standard</string>
     <string name="automatic_keyboard_layout_label">Automatisk: <xliff:g id="layout_label" example="English(US)">%s</xliff:g>
     </string>
     <string name="user_selected_keyboard_layout_label">Valt av brukaren: <xliff:g id="layout_label" example="English(US)">%s</xliff:g>
@@ -2431,20 +2281,12 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="speech_category_title">Tale</string>
     <string name="speech_preference_title">Tale</string>
     <string name="speech_preference_summary">Styr attkjenning og utmating av tale</string>
-    <string name="pointer_speed">Peikarfart</string>
     <string name="pointer_scale">Markørstorleik</string>
-    <string name="pointer_scale_decrease_content_description">Gjer peikaren mindre</string>
-    <string name="pointer_scale_increase_content_description">Gjer peikaren større</string>
     <string name="pointer_scale_keywords">skala, storleik, peikarstorleik, stor musepeikar, stor, tydeleg</string>
     <string name="game_controller_settings_category">Spelkontroll</string>
     <string name="vibrate_input_devices">Senda vibrering vidare</string>
     <string name="vibrate_input_devices_summary">Send vibrering til spelkontroll når han er kopla til</string>
-    <string name="keyboard_layout_dialog_title">Vel tastaturoppsett</string>
-    <string name="keyboard_layout_dialog_setup_button">Still inn tastaturoppsett</string>
-    <string name="keyboard_layout_dialog_switch_hint">Trykk Ctrl + Mellomrom for å byta</string>
-    <string name="keyboard_layout_default_label">Standard</string>
     <string name="keyboard_layout_picker_title">Tastaturoppsett</string>
-    <string name="keyboard_layout_picker_category_title">Oppsett for fysiske tastatur</string>
     <string name="user_dict_settings_title">Personleg ordliste</string>
     <string name="user_dict_settings_for_work_title">Personleg ordliste for arbeid</string>
     <string name="user_dict_settings_summary">Legg til ord som skal brukast i appar som stavekontroll</string>
@@ -2467,9 +2309,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="user_dict_settings_more_languages">Fleire språk …</string>
     <string name="testing">Testing</string>
     <string name="testing_sim_toolkit">SIM-verktøy</string>
-    <string name="keyboard_settings_summary">Skjermtastatur, verktøy</string>
-    <string name="keyboard_settings_with_physical_keyboard_summary">Skjermtastatur, fysisk tastatur, verktøy</string>
-    <string name="builtin_keyboard_settings_title">Fysisk tastatur</string>
     <string name="enabled_locales_keyboard_layout">Oppsett</string>
     <string name="gadget_picker_title">Vel miniprogram</string>
     <string name="widget_picker_title">Vel miniprogram</string>
@@ -2491,7 +2330,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="vision_settings_description">Du kan tilpassa denne eininga etter det du treng. Desse funksjonane for tilgjenge kan du endra seinare i innstillingane.</string>
     <string name="vision_settings_suggestion_title">Endra skriftstorleik</string>
     <string name="screen_reader_category_title">Skjermlesar</string>
-    <string name="keyboard_category_title">Val for fysisk tastatur</string>
     <string name="captions_category_title">Teksting</string>
     <string name="audio_category_title">Lyd</string>
     <string name="general_category_title">Generelt</string>
@@ -2633,12 +2471,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
         {2,number,integer}. Trykk på <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> og «+» eller «-» for å justera zoomen<br/>
         {3,number,integer}. Bruk snarvegen eller <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + M for å stogga forstørring
         ]]></string>
-    <string name="accessibility_screen_magnification_keyboard_shortcuts_flag_off_summary"><![CDATA[        <b>Slik zoomar du inn:</b><br/>
-        {0,number,integer}. Bruk snarvegen for å starta forstørring<br/>
-        {1,number,integer}. Trykk på <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + piltastane for å flytta deg rundt på skjermen<br/>
-        {2,number,integer}. Trykk på <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> og «+» eller «-» for å justera zoomen<br/>
-        {3,number,integer}. Bruk snarvegen for å stogga forstørring
-        ]]></string>
     <string name="accessibility_screen_magnification_keyboard_touch_summary"><![CDATA[        <b>Tastatur</b><br/>
         {0,number,integer}. Bruk snarvegen eller trykk på <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + M for å starta forstørring<br/>
         {1,number,integer}. Trykk på <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + piltastane for å flytta deg rundt på skjermen<br/>
@@ -2684,7 +2516,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="accessibility_tutorial_dialog_title_button">Snarveg med tilgjengeknappen</string>
     <string name="accessibility_tutorial_dialog_title_volume">Snarveg med volumtastane</string>
     <string name="accessibility_tutorial_dialog_title_triple">Snarveg med tre trykk</string>
-    <string name="accessibility_tutorial_dialog_title_two_finger_double">Snarveg med dobbeltrykk med %1$d fingrar</string>
     <string name="accessibility_tutorial_dialog_title_quick_setting">Snarveg i snøgginnstillingane</string>
     <string name="accessibility_tutorial_dialog_title_gesture">Snarveg med tilgjengesveip</string>
     <string name="accessibility_tutorial_dialog_message_button">For å bruka denne funksjonen må du trykkja på tilgjengeknappen <xliff:g id="accessibility_icon" example="[Icon]">%s</xliff:g> nedst på skjermen.\n\nHald inne på tilgjengeknappen for å veksla mellom funksjonar.</string>
@@ -2738,11 +2569,7 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="accessibility_shortcut_edit_dialog_title_hardware">Volumtastar</string>
     <string name="accessibility_shortcut_hardware_keyword">volumtastar</string>
     <string name="accessibility_shortcut_edit_dialog_summary_hardware">Trykk og hald inne begge volumknappane</string>
-    <string name="accessibility_shortcut_edit_screen_title_two_finger_double_tap">Dobbeltrykk med %1$d fingrar</string>
-    <string name="accessibility_shortcut_edit_screen_summary_two_finger_double_tap">Trykk raskt to gonger på skjermen med %1$d fingrar</string>
     <string name="accessibility_shortcut_edit_screen_title_triple_tap">Tre trykk</string>
-    <string name="accessibility_shortcut_edit_screen_summary_triple_tap">Trykk raskt på skjermen %1$d gonger. Dette kan gjera eininga di tregare.</string>
-    <string name="accessibility_shortcut_two_finger_double_tap_keyword">dobbeltrykk med %1$d fingrar</string>
     <string name="accessibility_shortcut_triple_tap_keyword">tre trykk</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">Avansert</string>
     <string name="accessibility_screen_magnification_navbar_configuration_warning">Knappen for tilgjenge er sett til <xliff:g id="service" example="Select to Speak">%1$s</xliff:g>. For å bruka forstørring må du halda inne knappen for tilgjenge og velja forstørring.</string>
@@ -2765,6 +2592,8 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
         ]]></string>
     <string name="accessibility_button_location_title">Plassering</string>
     <string name="accessibility_button_size_title">Storleik</string>
+    <string name="accessibility_button_size_selector_large">Stort</string>
+    <string name="accessibility_button_size_selector_small">Lite</string>
     <string name="accessibility_button_fade_title">Ton ut når han ikkje er i bruk</string>
     <string name="accessibility_button_fade_summary">Tonar ut etter nokre sekund slik at det er lettare å sjå skjermen</string>
     <string name="accessibility_button_opacity_title">Gjennomsikt ved inaktivitet</string>
@@ -2788,8 +2617,8 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="accessibility_standard_dark_theme_summary">Slår på mørkt tema for eininga di og appar som støttar mørkt tema</string>
     <string name="accessibility_expanded_dark_theme_title">Utvida</string>
     <string name="accessibility_expanded_dark_theme_title_in_search">Utvida mørkt tema</string>
-    <string name="accessibility_expanded_dark_theme_summary">Brukar mørkt tema automatisk i dei fleste appar som ikkje støttar det. Dette kan gjera innhaldet meir lesbart og tilgjengeleg, men enkelte appar kan visast feil.</string>
     <string name="keywords_expanded_dark_theme">tving invertering, fargeinvertering, kontrast</string>
+    <string name="accessibility_expanded_dark_theme_exceptions_title">Utvida mørkt tema</string>
     <string name="accessibility_disable_animations">Fjern animasjonar</string>
     <string name="accessibility_disable_animations_summary">Minka rørslene på skjermen</string>
     <string name="accessibility_text_cursor_blink_rate_title">Blinking for tekstmarkør</string>
@@ -2814,6 +2643,9 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="accessibility_control_timeout_preference_summary">Ikkje alle appar støttar denne tidsinnstillinga</string>
     <string name="accessibility_control_timeout_preference_intro_text">Vel kor lenge mellombelse meldingar som krev svar, skal visast</string>
     <string name="accessibility_long_press_timeout_preference_title">Seinking for trykk og hald</string>
+    <string name="accessibility_long_press_timeout_option_short">Kort</string>
+    <string name="accessibility_long_press_timeout_option_medium">Middels</string>
+    <string name="accessibility_long_press_timeout_option_long">Lang</string>
     <string name="accessibility_display_inversion_preference_title">Fargevending</string>
     <string name="accessibility_display_inversion_switch_title">Bruk fargevending</string>
     <string name="accessibility_display_inversion_shortcut_title">Snarveg for fargevending</string>
@@ -2913,7 +2745,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="accessibility_shortcut_type_triple_tap">Trykk tre gongar på skjermen</string>
     <string name="accessibility_shortcut_edit_screen_title">Rediger snarvegar for tilgjenge</string>
     <string name="accessibility_shortcut_edit_screen_prompt">Vel snarveg for %1$s</string>
-    <string name="accessibility_shortcut_unassigned_setting_unavailable_summary">For å bruka dette må du slå på snarvegen for %1$s på sida for tilgjengefunksjonen</string>
     <string name="accessibility_hearingaid_instruction_continue_button">Hald fram</string>
     <string name="accessibility_hearingaid_title">Høyreapparat</string>
     <string name="accessibility_hearingaid_intro">Konfigurer og styr ASHA- og LE Audio-høyreapparat, cochleaimplantat og andre einingar for lydforsterking</string>
@@ -2932,6 +2763,7 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="accessibility_hearing_device_connected_title">Høyreapparat</string>
     <string name="accessibility_hearing_device_saved_title">Lagra einingar</string>
     <string name="accessibility_hearing_device_control">Styring for høyreapparat</string>
+    <string name="accessibility_hearing_device_notification_routing_title">Varslar</string>
     <string name="accessibility_hearing_device_shortcut_title">Snarveg for høyreapparat</string>
     <string name="accessibility_hac_mode_title">Kompatibilitet for høyreapparat</string>
     <string name="accessibility_hac_mode_summary">Gjer kompatibiliteten med teleslynger betre og minkar uynskt støy</string>
@@ -2984,18 +2816,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="brightness_intensity_start_label">Mørkare</string>
     <string name="brightness_intensity_end_label">Lysare</string>
     <string name="reduce_bright_colors_persist_preference_title">Hald fram med å vera på etter omstart</string>
-    <string name="accessibilty_autoclick_preference_subtitle_short_delay">{count, plural,
-        =1      {Kort ({time} sekund)}
-        other   {Kort ({time} sekund)}
-        }</string>
-    <string name="accessibilty_autoclick_preference_subtitle_medium_delay">{count, plural,
-        =1      {Middels ({time} sekund)}
-        other   {Middels ({time} sekund)}
-        }</string>
-    <string name="accessibilty_autoclick_preference_subtitle_long_delay">{count, plural,
-        =1      {Lang ({time} sekund)}
-        other   {Lang ({time} sekund)}
-        }</string>
     <string name="accessibility_autoclick_delay_unit_second">{count, plural,
         =1      {{time} sekund}
         other   {{time} sekund}
@@ -3323,7 +3143,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="battery_usage_less_than_percent">&lt; <xliff:g id="percentage">%1$s</xliff:g>
     </string>
     <string name="battery_usage_less_than_percent_content_description">under <xliff:g id="percentage">%1$s</xliff:g></string>
-    <string name="battery_cycle_count_footer">Sidan einingane går gjennom kvalitetskontrollar før sending, kan det vera at ladesyklusen ikkje står på null når ho blir brukt fyrste gongen</string>
     <string name="process_stats_summary_title">Prosess-statistikk</string>
     <string name="process_stats_summary">Avansert statistikk om prosessar som køyrer</string>
     <string name="app_memory_use">Minnebruk</string>
@@ -3363,7 +3182,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="voice_input_output_settings">Taleinndata og -utdata</string>
     <string name="voice_input_output_settings_title">Innstillingar for taleinndata og -utdata</string>
     <string name="voice_search_settings_title">Talesøk</string>
-    <string name="keyboard_settings_title">Android-tastatur</string>
     <string name="voice_input_settings">Innstillingar for taleinndata</string>
     <string name="voice_input_settings_title">Taleinndata</string>
     <string name="voice_service_preference_section_title">Tenester for taleinndata</string>
@@ -3403,7 +3221,6 @@ other {PIN-koden må ha minst # siffer, men me rår til ein kode på {minAutoCon
     <string name="adaptive_connectivity_mobile_network_switch_summary">Vel automatisk den beste nettverkstilkoplinga for å forlenga batterilevetida</string>
     <string name="cellular_security_title">Tryggleik i mobilnettverk</string>
     <string name="cellular_security_summary">Nettverkstype, kryptering, kontroll på varsel</string>
-    <string name="cellular_security_top_intro">Desse innstillingane hjelper til med å verna samtalar, meldingar og data mot utdaterte eller ukrypterte nettverk som kan utsetja deg for datatjuveri eller overvaking</string>
     <string name="cellular_security_settings_title">Tryggleik i mobilnettverk</string>
     <string name="cellular_security_notifications">Varslar</string>
     <string name="cellular_security_notifications_controller_title">Nettverksvarsel</string>
@@ -3735,6 +3552,7 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="user_owner">Eigar</string>
     <string name="user_admin">Administrator</string>
     <string name="user_you">Du (<xliff:g id="name" example="Name">%s</xliff:g>)</string>
+    <string name="user_edit_button">Rediger</string>
     <string name="user_add_max_count">Du kan ikkje leggja til fleire brukarar. Du må fjerna ein brukar for å leggja til ein ny.</string>
     <string name="user_cannot_add_accounts_message">Avgrensa profilar kan ikkje leggja til kontoar</string>
     <string name="user_remove_user_menu">Slett <xliff:g id="user_name">%1$s</xliff:g> frå denne eininga</string>
@@ -3774,6 +3592,7 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="user_revoke_admin_confirm_message">Om du fjernar administratorrettane for denne brukaren, kan du eller ein annan administrator gje dei tilbake seinare.</string>
     <string name="user_revoke_admin_for_self_confirm_title">Er du sikker på at du vil fjerna dine eigne administratorrettar?</string>
     <string name="user_revoke_admin_for_self_confirm_message">Berre andre administratorar kan gje deg administratorrettar på nytt dersom du held fram.</string>
+    <string name="add_user_summary_action_restricted">Sperra av retningslinjer for arbeid</string>
     <string name="emergency_info_title">Naudinformasjon</string>
     <string name="emergency_info_summary">Informasjon og kontaktar for <xliff:g id="user_name" example="Jason">%1$s</xliff:g>
     </string>
@@ -3885,7 +3704,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="color_orange">Oransje</string>
     <string name="color_purple">Lilla</string>
     <string name="sim_status_title">SIM-status</string>
-    <string name="sim_status_title_sim_slot">SIM-status (SIM-plass %1$d)</string>
     <string name="sim_signal_strength">
         <xliff:g id="dbm">%1$d</xliff:g> dBm <xliff:g id="asu">%2$d</xliff:g> asu</string>
     <string name="sim_notification_title">SIM-korta dine er endra</string>
@@ -3926,7 +3744,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     </string>
     <string name="cloned_app_created_toast_summary">Har laga klone av <xliff:g id="package_label">%1$s</xliff:g>
     </string>
-    <string name="system_dashboard_summary">Språk, rørsler, tid, tryggingskopi</string>
     <string name="languages_setting_summary">Systemspråk, app-språk, regionale val, tale</string>
     <string name="keywords_wifi">wifi, wi-fi, nettverkssamband, internett, trådlaus, data</string>
     <string name="keywords_wifi_notify_open_networks">Wi-Fi-varsel, wifi-varsel</string>
@@ -4035,7 +3852,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="keywords_font_size">tekststorleik, stor skrift, nedsatt syn, forstørring</string>
     <string name="keywords_always_show_time_info">alltid på, skjerm ved kvile, AOD</string>
     <string name="keywords_change_nfc_tag_apps_state">nfc, tag, lesar</string>
-    <string name="keywords_keyboard_vibration">tastatur, haptikk, vibrer</string>
     <string name="keywords_external_display_settings">ekstern skjerm, tilkopla skjerm, utvida skjerm, skjerm nummer to, innebygd skjerm, organiser skjermar, spegling, skjermstorleik, rotasjon, oppløysing, oppdateringsfrekvens</string>
     <string name="sound_dashboard_summary">Volum og vibrering</string>
     <string name="media_volume_option_title">Mediavolum</string>
@@ -4408,8 +4224,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="notification_assistant_security_warning_summary">Forbetra varsel tok over for Android Adaptive Notifications i Android 12. Denne funksjonen viser føreslåtte handlingar og svar, og organiserer varsla dine.
 \n\nForbetra varsel har tilgang til innhald i varsel, inkludert personleg informasjon som namn på kontaktar og meldingar. Denne funksjonen kan òg fjerna eller svara på varsel, som til dømes å svara når det ringjer, og styra «Ikkje forstyrr».</string>
     <string name="notification_listener_security_warning_title">Vil du tillata varseltilgang for <xliff:g id="service" example="NotificationReader">%1$s</xliff:g>?</string>
-    <string name="notification_listener_security_warning_summary">Appen <xliff:g id="notification_listener_name">%1$s</xliff:g> vil kunna lesa alle varsel, inkludert personleg informasjon som namn på kontaktar, bilete og teksten i meldingar du tek imot. Appen vil òg kunna utsetja eller fjerna varsel eller utføra handlingar via knappar i varsel, inkludert å svara på telefonen.
-\n\nDette gjev òg appen høve til å slå «Ikkje forstyrr» på eller av og endra tilhøyrande innstillingar.</string>
     <string name="nls_warning_prompt">Appen <xliff:g id="notification_listener_name">%1$s</xliff:g> vil kunna:</string>
     <string name="nls_feature_read_title">Lesa varsla dine</string>
     <string name="nls_feature_read_summary">Han kan lesa varsla dine, inkludert personlege opplysningar som kontaktar, meldingar og bilete.</string>
@@ -4422,7 +4236,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="notification_listener_disable_warning_confirm">Slå av</string>
     <string name="notification_listener_disable_warning_cancel">Avbryt</string>
     <string name="notif_type_ongoing">Sanntid</string>
-    <string name="notif_type_ongoing_summary">Pågåande kommunikasjon frå appar i bruk, navigasjon, telefonsamtalar og meir</string>
     <string name="notif_type_conversation">Samtalar</string>
     <string name="notif_type_conversation_summary">SMS, tekstmeldingar og annan kommunikasjon</string>
     <string name="notif_type_alerting">Varsel</string>
@@ -4449,7 +4262,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="notification_app_level_bundle_title">Varselsorganisering</string>
     <string name="notification_app_level_bundle_subtext">Samla og demp varsel med låg prioritet</string>
     <string name="notification_bundle_manage_excluded_apps_title">Styr appar for varselsorganisering</string>
-    <string name="notification_bundle_expand_always_title">Alltid utvid samlingar</string>
     <string name="notification_adjustment_work_switch_title">Bruk på appar i arbeidsprofilen</string>
     <string name="vr_listeners_title">VR-hjelpetenester</string>
     <string name="no_vr_listeners">Ingen installerte appar har bede om å køyra som VR-hjelpetenester.</string>
@@ -4945,12 +4757,12 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="usb_use_MIDI">MIDI</string>
     <string name="usb_use">Bruk USB til</string>
     <string name="usb_default_label">Standard USB-oppsett</string>
-    <string name="usb_default_info">Desse innstillingane vert brukte når ei anna eining vert kopla til og telefonen er låst opp. Berre kople til einingar du stoler på.</string>
     <string name="usb_power_title">Straumbruk</string>
     <string name="usb_file_transfer_title">Val for filoverføring</string>
     <string name="usb_pref">USB</string>
     <string name="usb_preference">Innstillingar for USB</string>
     <string name="usb_control_title">USB blir styrt av</string>
+    <string name="usb_connected_devices">Tilkopla einingar</string>
     <string name="usb_control_host">Den tilkopla eininga</string>
     <string name="usb_control_device">Denne eininga</string>
     <string name="usb_switching">Byter \u2026</string>
@@ -5022,6 +4834,8 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="permit_manage_external_storage">Tillat handsaming av alle filer</string>
     <string name="allow_manage_external_storage_description">Tillat at denne appen les, endrar og slettar alle filer på denne eininga eller på tilkopla lagringseiningar. Dersom appen får dette løyvet, kan han henta filer utan at du veit om det.</string>
     <string name="filter_manage_external_storage">Har tilgang til alle filer</string>
+    <string name="computer_control_automation_ask_every_time">Spør kvar gong</string>
+    <string name="computer_control_automation_dont_allow">Ikkje tillat</string>
     <string name="full_screen_intent_title">Varsel i fullskjerm</string>
     <string name="permit_full_screen_intent">Tillat varsel i fullskjerm frå denne appen</string>
     <string name="footer_description_full_screen_intent">Lat denne appen visa varsel som tek opp heile skjermen når eininga er låst. Appar kan bruka dette for å markera alarmar, innkomande samtalar eller andre viktige varsel.</string>
@@ -5077,10 +4891,8 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="disabled_by_policy_title_suspend_packages">Du kan ikkje opna denne appen</string>
     <string name="disabled_by_policy_title_financed_device">Sperra av kredittleverandøren din</string>
     <string name="disabled_by_policy_title_biometric_parental_consent">Krev samtykke frå foreldre</string>
-    <string name="disabled_by_policy_content_biometric_parental_consent">Gje telefonen til ein av foreldra dine for å setja opp dette</string>
     <string name="disabled_by_policy_title_parental_controls">Be om hjelp</string>
     <string name="disabled_by_policy_content_parental_controls">For å endra denne innstillinga må personen som sette opp kontrollane for eininga eller kontoen din, endra henne for deg.</string>
-    <string name="disabled_by_policy_parental_consent">Gje telefonen til ein av foreldra dine for å få endra denne innstillinga.</string>
     <string name="default_admin_support_msg">Kontakt IT-administratoren din for meir info</string>
     <string name="admin_support_more_info">Fleire detaljar</string>
     <string name="admin_profile_owner_message">Administratoren kan overvaka og styra appar og data i arbeidsprofilen din, inkludert innstillingar, løyve, tilgang til bedriftsressursar, nettverksaktivitet og posisjonen til eininga di.</string>
@@ -5092,6 +4904,7 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="disabled_by_advanced_protection_setting_is_off_message">Av omsyn til tryggleiken krev Avansert vern at denne innstillinga er av</string>
     <string name="disabled_by_advanced_protection_action_message">Av omsyn til tryggleiken hindrar Avansert vern denne handlinga</string>
     <string name="disabled_by_advanced_protection_help_button_title">Innstillingar</string>
+    <string name="wifi_autojoin_disabled_positive_button">Tilbake</string>
     <string name="condition_turn_off">Slå av</string>
     <string name="condition_turn_on">Slå på</string>
     <string name="condition_expand_show">Vis</string>
@@ -5100,7 +4913,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="condition_airplane_title">Flymodus er på</string>
     <string name="condition_airplane_summary">Nettverk er utilgjengelege</string>
     <string name="condition_zen_title">«Ikkje forstyrr» er på</string>
-    <string name="condition_zen_summary_phone_muted">Telefonen er lydlaus</string>
     <string name="condition_zen_summary_with_exceptions">Med unntak</string>
     <string name="condition_battery_title">Straumsparing er på</string>
     <string name="condition_battery_summary">Funksjonaliteten er avgrensa</string>
@@ -5622,7 +5434,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="zen_suggestion_title">Oppdater «Ikkje forstyrr»</string>
     <string name="zen_suggestion_summary">Set varsla på pause for å halda konsentrasjonen</string>
     <string name="disabled_feature">Funksjonen er ikkje tilgjengeleg</string>
-    <string name="disabled_feature_reason_slow_down_phone">Denne funksjonen er slått av for di han gjer telefonen tregare</string>
     <string name="show_first_crash_dialog">Vis alltid krasj-vindauget</string>
     <string name="show_first_crash_dialog_summary">Vis eit vindauge kvar gong ein app krasjar</string>
     <string name="angle_enabled_app">Vel app som brukar ANGLE</string>
@@ -5748,7 +5559,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="cdma_lte_data_service">Set opp datateneste</string>
     <string name="mobile_data_settings_title">Mobildata</string>
     <string name="mobile_data_settings_summary">Bruk mobildata via mobilnettverket</string>
-    <string name="mobile_data_settings_summary_auto_switch">Telefonen byter automatisk til denne mobiloperatøren når han er innan rekkevidd</string>
     <string name="mobile_data_settings_summary_unavailable">Ingen SIM-kort tilgjengelege</string>
     <string name="calls_preference">Val for samtalar</string>
     <string name="sms_preference">Val for SMS</string>
@@ -5834,6 +5644,7 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="title_satellite_supported_app_list_page">Støtta appar på telefonen din</string>
     <string name="title_satellite_dialog_for_sim_restriction">Klarte ikkje leggja til SIM-kort</string>
     <string name="description_satellite_dialog_for_sim_restriction">Avslutt satellitt-sambandet før du legg til eit SIM-kort</string>
+    <string name="apm_sync_bluetooth_off_summary">Bluetooth er av</string>
     <string name="mobile_network_apn_title">Namn på tilgangspunkt (APN)</string>
     <string name="keywords_access_point_names">apn</string>
     <string name="manual_mode_disallowed_summary">Ikkje tilgjengeleg når du er kopla til <xliff:g id="carrier" example="verizon">%1$s</xliff:g>
@@ -5898,8 +5709,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="sim_onboarding_next">Neste</string>
     <string name="sim_onboarding_progressbar_turning_sim_on">Slår på <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g> …</string>
     <string name="mobile_network_spn_title">Mobilnett</string>
-    <string name="imei_primary">IMEI (hovud)</string>
-    <string name="meid_primary">MEID (hovud)</string>
     <string name="mobile_network_phone_number_title">Telefonnummer</string>
     <string name="mobile_network_sim_label_color_title">SIM-etikett og farge</string>
     <string name="sim_setup_channel_id">Nettverksaktivering</string>
@@ -5954,9 +5763,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="bluetooth_left_name_expressive">Venstre: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
     <string name="bluetooth_right_name_expressive">Høgre: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
     <string name="bluetooth_middle_name_expressive">Etui: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
-    <string name="bluetooth_left_content_description_expressive">Venstre, batteri: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
-    <string name="bluetooth_right_content_description_expressive">Høgre, batteri: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
-    <string name="bluetooth_middle_content_description_expressive">Etui, batteri: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
     <string name="bluetooth_main_content_description_expressive">Batteri: <xliff:g id="battery_percentage" example="15">%1$s</xliff:g></string>
     <string name="bluetooth_header_battery_content_description">Batteri</string>
     <string name="settings_panel_title">Innstillingspanel</string>
@@ -6216,6 +6022,9 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
         <xliff:g id="carrier_name_2g" example="Google Fi">%1$s</xliff:g> krev at 2G er tilgjengeleg</string>
     <string name="require_cellular_encryption_title">Tillat berre krypterte nettverk</string>
     <string name="require_cellular_encryption_summary">Dette er tryggare, men kan avgrensa mobilsambandet sume stader. Naudsamtalar er alltid tillatne.</string>
+    <string name="network_protection_2g_alert_dialog_turn_off_btn">Slå av</string>
+    <string name="network_protection_2g_notification_channel_title">Vern for 2G-nett</string>
+    <string name="network_protection_2g_notification_settings_btn">Innstillingar</string>
     <string name="app_info_all_services_label">Alle tenester</string>
     <string name="show_clip_access_notification">Vis utklippstilgang</string>
     <string name="show_clip_access_notification_summary">Vis ei melding når appar hentar tekst, bilete eller anna innhald du har kopiert</string>
@@ -6234,7 +6043,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="uwb_settings_summary_no_uwb_regulatory">UWB er ikkje tilgjengeleg på denne staden</string>
     <string name="thread_network_settings_title">Thread</string>
     <string name="thread_network_settings_main_switch_title">Bruk Thread</string>
-    <string name="thread_network_settings_footer_title">Thread hjelper til med å kopla saman smarthuseiningane dine, noko som gjer dei meir effektive.\n\nNår dette er slått på, kan denne eininga kopla seg til eit Thread-nettverk, slik at du kan styra Matter-støtta einingar frå denne telefonen.</string>
     <string name="thread_network_settings_learn_more">Finn ut meir om Thread</string>
     <string name="camera_toggle_title">Kameratilgang</string>
     <string name="mic_toggle_title">Mikrofontilgang</string>
@@ -6250,8 +6058,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="bluetooth_connect_access_notification_title">Bluetooth-eining tilgjengeleg</string>
     <string name="bluetooth_connect_access_notification_content">Ei eining vil kopla seg til. Trykk for meir info.</string>
     <string name="bluetooth_connect_access_dialog_title">Kopla til Bluetooth-eininga?</string>
-    <string name="bluetooth_connect_access_dialog_content">
-        <xliff:g id="device_name" example="My device">%1$s</xliff:g> vil kopla seg til denne telefonen.\n\nDu har ikkje vore kopla til <xliff:g id="device_name" example="My device">%2$s</xliff:g> før.</string>
     <string name="bluetooth_connect_access_dialog_negative">Ikkje kopla til</string>
     <string name="bluetooth_connect_access_dialog_positive">Kopla til</string>
     <string name="dream_preview_button_title">Førehandsvising</string>
@@ -6262,7 +6068,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="dream_home_controls_toggle_summary">Vis knapp for heimestyring frå skjermspararen</string>
     <string name="dream_more_settings_category">Fleire innstillingar</string>
     <string name="dream_setup_title">Vel skjermsparar</string>
-    <string name="dream_setup_description">Vel kva du vil sjå på skjermen når nettbrettet står i dokka. Eininga kan bruka meir straum når ein skjermsparar er i bruk.</string>
     <string name="customize_button_title">Tilpassa</string>
     <string name="customize_button_description">Tilpassa <xliff:g id="screensaver_name" example="Art Gallery">%1$s</xliff:g>
     </string>
@@ -6275,8 +6080,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="bluetooth_details_spatial_audio_summary">Lyd frå støtta media blir meir omsluttande</string>
     <string name="bluetooth_details_head_tracking_title">Hovudsporing</string>
     <string name="bluetooth_details_head_tracking_summary">Lyden endrar seg etter korleis du rører på hovudet, slik at han høyrest meir naturleg ut</string>
-    <string name="bluetooth_details_permissions_sync_title">Synkroniser løyve frå telefonen</string>
-    <string name="bluetooth_details_permissions_sync_summary">Gje klokka dei same appløyva som du har tillate på denne telefonen</string>
     <string name="bluetooth_details_audio_device_types_title">Type lydeining</string>
     <string name="bluetooth_details_audio_device_type_unknown">Ikkje stilt inn</string>
     <string name="bluetooth_details_audio_device_type_speaker">Høgtalar</string>
@@ -6450,7 +6253,6 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="audio_sharing_connect_button_label">Kopla til</string>
     <string name="audio_sharing_sharing_stopped_label">Lyddelinga er stansa</string>
     <string name="audio_sharing_confirm_dialog_title">Kopla til ei kompatibel eining</string>
-    <string name="audio_sharing_comfirm_dialog_content">For å starta lyddeling må du fyrst kopla eit par LE Audio-hovudtelefonar til telefonen</string>
     <string name="audio_sharing_switch_active_button_label">Byt til <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
     <string name="audio_sharing_progress_dialog_start_stream_content">Startar lydstraumen \u2026</string>
     <string name="audio_sharing_progress_dialog_add_source_content">Deler med <xliff:g example="My buds" id="device_name">%1$s</xliff:g> \u2026</string>
@@ -6546,19 +6348,13 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="supervision_pin_management_preference_title">Styr PIN-koden din</string>
     <string name="supervision_pin_management_screen_title">PIN-kode for foreldrekontroll</string>
     <string name="supervision_pin_management_preference_keywords">Foreldre-PIN, PIN for foreldrekontroll</string>
-    <string name="supervision_pin_management_preference_summary_add">Legg til e-postadresse for gjenoppretting</string>
-    <string name="supervision_pin_management_preference_summary_verify_recovery">Stadfesta e-postadressa for gjenoppretting</string>
     <string name="supervision_change_pin_preference_title">Endra PIN-kode</string>
     <string name="supervision_add_forgot_pin_preference_title">Gløymt PIN-kode</string>
     <string name="supervision_auth_prompt_forgot_pin_button_label">Har du gløymt PIN-koden?</string>
-    <string name="supervision_update_recovery_email_preference_title">Oppdater e-postadressa for gjenoppretting</string>
+    <string name="supervision_pin_updated">PIN-koden er oppdatert</string>
     <string name="supervision_delete_pin_preference_title">Slett PIN-koden</string>
-    <string name="supervision_add_pin_recovery_title">Legg til e-postadresse for gjenoppretting</string>
-    <string name="supervision_verify_pin_recovery_title">Stadfesta e-postadressa di</string>
     <string name="supervision_app_store_filters_title">Filter for appbutikken</string>
-    <string name="supervision_web_content_filters_title">Innhaldsfilter for nettstader</string>
     <string name="supervision_web_content_filters_keywords">Nettstadsfilter, blokker nettstader, nettlesarfilter, blokker nettstader med upassande innhald, filtrer nettstader, blokker søkjeresultat, filtrer bort upassande søkjeresultat, innhaldsavgrensingar</string>
-    <string name="supervision_web_content_filters_top_intro">Hjelp til med å filtrera bort upassande innhald i enkelte appar og nettlesarar på denne telefonen. Upassande innhald kan framleis visast i andre appar, einingar eller nettlesarar.</string>
     <string name="supervision_web_content_filters_browser_title">Nettstader</string>
     <string name="supervision_web_content_filters_browser_filter_title">Blokker nettstader med upassande innhald</string>
     <string name="supervision_web_content_filters_search_title">Søkjeresultat</string>
@@ -6567,6 +6363,7 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
         =1      {På # app}
         other   {På # appar}
         }</string>
+    <string name="supervision_web_content_filters_learn_more_title">Finn ut meir</string>
     <string name="supervision_web_content_filters_footer_title">Sjølv om desse innstillingane er av, kan andre kontoinnstillingar framleis gjelda.</string>
     <string name="supervision_full_screen_pin_verification_title">Oppgje PIN-koden for foreldrekontroll</string>
     <string name="supervision_choose_your_pin_header">Vel ein PIN-kode for foreldrekontroll</string>
@@ -6577,6 +6374,7 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="supervision_delete_pin_supervision_enabled_header">Kan ikkje sletta PIN-koden</string>
     <string name="supervision_delete_pin_error_header">Klarte ikkje å sletta PIN-koden</string>
     <string name="supervision_delete_pin_error_message">Det kom ein feil under sletting av PIN-koden.</string>
+    <string name="supervision_delete_button_label">Slett</string>
     <string name="accessibility_illustration_content_description">Animasjon for <xliff:g id="feature" example="Select to Speak">%1$s</xliff:g>
     </string>
     <string name="supervision_multi_profile_error_title">Kan ikkje slå på kontrollar</string>
@@ -6584,10 +6382,8 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="supervision_generic_error_page_message">Prøv på nytt seinare</string>
     <string name="supervision_generic_error_page_button_label">Gå tilbake</string>
     <string name="identity_check_issue_card_title">Identitetskontroll fungerer med fleire appar</string>
-    <string name="identity_check_issue_card_summary">Identitetskontroll hindrar uønskt tilgang til appane dine. No tilgjengeleg for alle appar som brukar fingeravtrykk eller andletslåsing.</string>
     <string name="identity_check_issue_card_button_text">Vis detaljar</string>
     <string name="identity_check_promo_card_title">Identitetskontroll fungerer med fleire appar</string>
-    <string name="identity_check_promo_card_summary">Oppdateringar:\n<ul><li>Identitetskontroll gjev ekstra vern for alle appar som brukar fingeravtrykk eller andletslåsing</li>\n<li>Etter kvart kan identitetskontroll leggja til fleire måtar å stadfesta at det er du, og sikra appane på eininga di. <a href="https://support.google.com/android?p=identity_check">Finn ut meir om når og kvar du er verna</a></li></ul></string>
     <string name="identity_check_watch_issue_card_title">Identitetskontroll og klokke</string>
     <string name="identity_check_watch_issue_card_summary">Med ei tilkopla klokke gjev identitetskontroll fleire måtar å stadfesta at det er du, for å hindra uønskt tilgang til appar</string>
     <string name="identity_check_watch_promo_card_title">Identitetskontroll og klokke</string>
@@ -6597,12 +6393,21 @@ other {{orgName} har installert sertifikatinstansar for arbeidsprofilen din, nok
     <string name="privacy_sources_title">Personvernkontrollar</string>
     <string name="privacy_sources_summary">Løyve, kontrollar</string>
     <string name="device_unlock_subpage_title">Opplåsing av eininga</string>
-    <string name="lock_screen_title">Skjermlås</string>
     <string name="location_settings">Tilgang til posisjon</string>
     <string name="location_settings_subtitle">Sjå appar og tenester som har tilgang til posisjon</string>
     <string name="identity_check_notification_title">Identitetskontroll fungerer med fleire appar</string>
-    <string name="identity_check_notification_summary">Identitetskontroll hindrar uønskt tilgang til appane dine. No tilgjengeleg for alle appar som brukar fingeravtrykk eller andletslåsing.</string>
+    <string name="identity_check_watch_notification_summary">Med ei tilkopla klokke gjev identitetskontroll fleire måtar å stadfesta at det er du, for å hindra uønskt tilgang til appar</string>
     <string name="identity_check_view_details">Vis detaljar</string>
     <string name="safety_center_refresh_error">Klarte ikkje å sjekka innstillingane</string>
     <string name="safety_center_subpage_unknown_summary">Ingen informasjon enno</string>
+    <string name="safety_center_backup_search_terms">Tryggingskopi</string>
+    <string name="safety_center_qs_open_action">Opna</string>
+    <string name="camera_toggle_label_qs">Kameratilgang</string>
+    <string name="location_toggle_label_qs">Tilgang til posisjon</string>
+    <string name="satellite_tile_label">Satellitt</string>
+    <string name="satellite_tile_subtitle_on">På</string>
+    <string name="satellite_tile_subtitle_available">Tilgjengeleg</string>
+    <string name="satellite_tile_subtitle_not_available">Ikkje tilgjengeleg</string>
+    <string name="satellite_connectivity_title">Satellitt-tilkopling</string>
+    <string name="try_a_demo">Prøv ein demo</string>
 </resources>

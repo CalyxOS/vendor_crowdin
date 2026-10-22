@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2021 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="connectivityResourcesAppLabel">سەرچاوەکانی پەیوەستبوونی سیستم</string>
+    <string name="wifi_available_sign_in">بچۆ ناو تۆڕی Wi-Fiـیەوە</string>
+    <string name="network_available_sign_in">بچۆ ناو تۆڕەکەوە</string>
+    <string name="network_available_sign_in_detailed"><xliff:g id="network_ssid">%1$s</xliff:g></string>
+    <string name="mobile_network_available_no_internet">هێڵی ئینتەرنێت نییە</string>
+    <string name="mobile_network_available_no_internet_detailed">لەوانەیە باڵانسی داتات لە <xliff:g id="network_carrier" example="Android Mobile">%1$s</xliff:g> تەواوبووبێت. پەنجە بنێ بۆ هەڵبژاردنەکان.</string>
+    <string name="mobile_network_available_no_internet_detailed_unknown_carrier">لەوانەیە باڵانسی داتات تەواوبووبێت. پەنجە بنێ بۆ هەڵبژاردنەکان.</string>
+    <string name="wifi_no_internet">تۆڕی <xliff:g id="network_ssid" example="GoogleGuest">%1$s</xliff:g> دەستگەیشتنی بە ئینتەرنێت نییە</string>
+    <string name="wifi_no_internet_detailed">بۆ هەڵبژاردەکان دایبگرە</string>
+    <string name="mobile_no_internet">تۆڕی مۆبایل دەستگەیشتنی بە ئینتەرنێت نییە</string>
+    <string name="other_networks_no_internet">تۆڕ دەستگەیشتنی بە ئینتەرنێت نییە</string>
+    <string name="private_dns_broken_detailed">ناتوانرێت دەست بە سێرڤەری DNSی تایبەت بگات</string>
+    <string name="network_partial_connectivity">تۆڕی <xliff:g id="network_ssid" example="GoogleGuest">%1$s</xliff:g> گرێدراویی سنووردارە</string>
+    <string name="network_partial_connectivity_detailed">دایبگرە بۆ ئەوەی بە هەر شێوەیەک بێت ببەسترێتەوە</string>
+    <string name="network_switch_metered">گۆڕدرا بۆ <xliff:g id="network_type">%1$s</xliff:g></string>
+    <string name="network_switch_metered_detail">ئامێرەکە <xliff:g id="new_network">%1$s</xliff:g> بەکاردەهێنێت کاتێک <xliff:g id="previous_network">%2$s</xliff:g> دەستگەیشتنی بە ئینتەرنێت نییە. ڕەنگە تێچوو هەبێت.</string>
+    <string name="network_switch_metered_toast">گۆڕدرا لە <xliff:g id="previous_network">%1$s</xliff:g> بۆ <xliff:g id="new_network">%2$s</xliff:g></string>
+    <string-array name="network_switch_type_name">
+        <item>داتای مۆبایل</item>
+        <item>Wi-Fi</item>
+        <item>بلوتووس</item>
+        <item>ئێسەرنێت (Ethernet)</item>
+        <item>VPN</item>
+    </string-array>
+    <string name="network_switch_type_name_unknown">جۆرێکی تۆڕی نەناسراو</string>
+    <string name="choose_device_title">ئامێرێک هەڵبژێرە بۆ پەیوەستبوون</string>
+    <string name="choose_device_summary"><xliff:g id="app_name" example="Google Home">%1$s</xliff:g> دەیەوێت پەیوەندی بە ئامێرێکەوە ببەستێت لە تۆڕی ناوخۆییەکەتدا</string>
+    <string name="choose_device_cancel">پەیوەست مەبە</string>
+    <string name="scanning_for_services_progress_description">گەڕان بەدوای خزمەتگوزارییەکاندا</string>
+</resources>

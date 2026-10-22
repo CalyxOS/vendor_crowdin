@@ -15,6 +15,222 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_label">ڕێکخستنەکان</string>
+    <string name="more_settings_label">زیاتر</string>
+    <string name="display_settings">ڕوونما</string>
+    <string name="brightness">ڕێژەی ڕووناکی</string>
+    <string name="auto_brightness_title">ڕووناکیی گونجێنەر</string>
+    <string name="auto_brightness_summary">گونجاندنی ڕووناکیی شاشە لەگەڵ ژینگەدا</string>
+    <string name="theme_toggle_title">ڕوکار</string>
+    <string name="condition_night_display_title">ڕووناکیی شەو پێکراوە</string>
+    <string name="network_and_internet">تۆڕ و ئینتەرنێت</string>
+    <string name="mobile_network_settings">تۆڕی مۆبایل</string>
+    <string name="mobile_network_summary_count">{
+        count, plural,
+            =1    {# SIM}
+            other {# SIM}
+        }</string>
+    <string name="mobile_network_active_sim">چالاکە / سیمکارت</string>
+    <string name="mobile_network_inactive_sim">ناچالاکە / سیمکارت</string>
+    <string name="mobile_network_active_esim">چالاکە / eسیمکارت</string>
+    <string name="mobile_network_inactive_esim">ناچالاکە / eسیمکارت</string>
+    <string name="mobile_network_list_add_more">زیادکردنی شتی زیاتر</string>
+    <string name="mobile_network_toggle_title">داتای مۆبایل</string>
+    <string name="mobile_network_toggle_summary">دەستپێڕاگەیشتن بە داتا لە ڕێگەی تۆڕی مۆبایلەوە</string>
+    <string name="mobile_network_mobile_network_toggle_title">تۆڕی مۆبایل</string>
+    <string name="mobile_network_mobile_network_toggle_summary">بەکارهێنانی دراوەی مۆبایل</string>
+    <string name="mobile_network_state_off">ناچالاک</string>
+    <string name="confirm_mobile_data_disable">داتای مۆبایل بکوژێنرێتەوە؟</string>
+    <string name="sim_selection_required_pref">دیاریکردن پێویستە</string>
+    <string name="sim_change_data_title"><xliff:g id="carrier" example="Google Fi">%1$s</xliff:g> بۆ دراوەی مۆبایل بەکاربهێنرێت؟</string>
+    <string name="sim_change_data_message">تۆ <xliff:g id="carrier2" example="Google Fi">%2$s</xliff:g> بۆ دراوەی مۆبایل بەکاردەهێنیت.
+        ئەگەر بیگۆڕیت بۆ <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>،
+        ئیتر <xliff:g id="carrier2" example="Google Fi">%2$s</xliff:g> بۆ دراوەی مۆبایل
+        بەکارناهێنرێت.</string>
+    <string name="sim_change_data_ok">بەکارهێنانی <xliff:g id="carrier" example="Verizon">%1$s</xliff:g></string>
+    <string name="roaming_title">ڕۆمینگ</string>
+    <string name="roaming_summary">پەیوەستبوون بە خزمەتگوزارییەکانی داتا لەکاتی هێڵی دەورووبەردا (ڕۆمینگ)</string>
+    <string name="roaming_alert_title">ڕێگەدان بە ڕۆمینگی داتا؟</string>
+    <string name="roaming_warning">لەوانەیە تێچووی ڕۆمینگ ئەژمار بکرێت.</string>
+    <string name="data_usage_settings">بەکارهێنانی داتا</string>
+    <string name="data_usage_title">داتای سەرەکی</string>
+    <string name="data_used_formatted"><xliff:g name="value" example="500">^1</xliff:g> <xliff:g name="units" example="GB">^2</xliff:g> بەکارهێنراوە</string>
+    <string name="cell_data_warning">ئاگادارکردنەوەی داتای <xliff:g name="amount" example="1 GB">^1</xliff:g></string>
+    <string name="cell_data_limit">سنووری داتای <xliff:g name="amount" example="1 GB">^1</xliff:g></string>
+    <string name="cell_data_warning_and_limit">ئاگادارکردنەوەی داتای <xliff:g name="amount" example="1 GB">^1</xliff:g> / سنووری داتای <xliff:g name="amount" example="2 GB">^2</xliff:g></string>
+    <string name="billing_cycle_days_left">{
+        count, plural,
+            =1    {# ڕۆژ ماوە}
+            other {# ڕۆژ ماوە}
+        }</string>
+    <string name="billing_cycle_none_left">هیچ کاتێک نەماوە</string>
+    <string name="billing_cycle_less_than_one_day_left">کەمتر لە 1 ڕۆژ ماوە</string>
+    <string name="carrier_and_update_text">نوێکراوەتەوە لەلایەن <xliff:g name="carrier" example="Google Fi">^1</xliff:g> پێش <xliff:g name="time" example="3m">^2</xliff:g></string>
+    <string name="no_carrier_update_text">نوێ کراوەتەوە پێش <xliff:g name="time" example="3m">^2</xliff:g></string>
+    <string name="carrier_and_update_now_text">هەر ئێستا لەلایەن <xliff:g name="carrier" example="Google Fi">^1</xliff:g> نوێکرایەوە</string>
+    <string name="no_carrier_update_now_text">ئێستا نوێ کرایەوە</string>
+    <string name="launch_manage_plan_text">بینینی پلان</string>
+    <string name="app_data_usage">بەکارهێنانی داتای بەرنامە</string>
+    <string name="data_usage_app_restricted">سنووردارکراو</string>
+    <string name="cycle_reset_day_of_month_picker_title">ڕێکەوتی سەرلەنوێ ڕێکخستنەوەی خولی بەکارهێنان</string>
+    <string name="cycle_reset_day_of_month_picker_subtitle">ڕۆژی هەر مانگێک:</string>
+    <string name="cycle_reset_day_of_month_picker_positive_button">دانان</string>
+    <string name="data_warning_limit_title">ئاگادارکردنەوە و سنووری داتا</string>
+    <string name="app_usage_cycle">خولی بەکارهێنانی دراوەی ئەپ</string>
+    <string name="mobile_data_usage">بەکارهێنانی داتای مۆبایل</string>
+    <string name="set_data_warning">دانانی ئاگادارکردنەوەی داتا</string>
+    <string name="data_warning">ئاگادارکردنەوەی داتا</string>
+    <string name="set_data_limit">دانانی سنووری داتا</string>
+    <string name="data_limit">سنووری داتا</string>
+    <string name="data_usage_limit_dialog_title">سنووردارکردنی بەکارهێنانی داتا</string>
+    <string name="data_usage_limit_dialog_mobile">یەکەی سەرەکیی ئۆتۆمبێلەکەت دراوەی مۆبایل دەکوژێنێتەوە هەر کاتێک گەیشتە ئەو سنوورەی دیاریت کردووە.
+
+چونکە بەکارهێنانی دراوە لەلایەن یەکەی سەرەکییەوە دەپێورێت، و لەوانەیە هێڵەکەت بە شێوازێکی جیاواز دراوە هەژمار بکات، سنوورێکی پارێزراو دابنێ.</string>
+    <string name="data_usage_warning_editor_title">دانانی ئاگادارکردنەوەی بەکارهێنانی داتا</string>
+    <string name="data_usage_limit_editor_title">دانانی سنووری بەکارهێنانی داتا</string>
+    <string name="data_usage_settings_footer">بەکارهێنانی دراوە لەلایەن ئامێرەکەتەوە دەپێورێت. لەوانەیە لە دراوەی هێڵی مۆبایلەکەت جیاواز بێت.</string>
+    <string name="usage_bytes_threshold_picker_positive_button">دانان</string>
+    <string name="data_usage_warning_save_title">پاشەکەوتکردن</string>
+    <string name="network_and_internet_oem_network_title">تۆڕی OEM</string>
+    <string name="network_and_internet_vehicle_internet_title">ئینتەرنێتی ئۆتۆمبێل</string>
+    <string name="network_and_internet_oem_network_dialog_description">کوژاندنەوەی ئینتەرنێتی ئۆتۆمبێل لەوانەیە ڕێگری لە کارکردنی هەندێک تایبەتمەندی یان ئەپی ئۆتۆمبێل بکات.
+
+دراوە سەرەکییە پێویستەکان بۆ کارپێکردنی ئۆتۆمبێلەکەت بەردەوام لەگەڵ بەرهەمهێنەری ئۆتۆمبێلدا هاوبەش دەکرێن.</string>
+    <string name="network_and_internet_oem_network_dialog_confirm_label">هەر بکوژێنەرەوە</string>
+    <string name="network_and_internet_oem_network_disabled_footer">ئینتەرنێتی ئۆتۆمبێل کوژاوەتەوە. ئەمە لەوانەیە ڕێگری لە کارکردنی هەندێک تایبەتمەندی یان ئەپی ئۆتۆمبێل بکات. دراوە گرنگە پێویستەکان بۆ کارپێکردنی ئۆتۆمبێلەکەت بەردەوام لەگەڵ بەرهەمهێنەری ئۆتۆمبێلدا هاوبەش دەکرێن.</string>
+    <string name="network_and_internet_data_usage_time_range_summary">%1$s لە %2$s - %3$s بەکارهێنراوە</string>
+    <string name="network_and_internet_join_other_network_title">بەشداربوون لە تۆڕێکی تر</string>
+    <string name="network_and_internet_network_preferences_title">هەڵبژاردنەکانی تۆڕ</string>
+    <string name="wifi_settings">وایفای</string>
+    <string name="wifi_starting">Wi-Fi لە پێبووندایە…</string>
+    <string name="wifi_stopping">Wi-Fi لە کوژانەوەدایە…</string>
+    <string name="loading_wifi_list">بارکردنی پێڕستی Wi‑Fi</string>
+    <string name="wifi_disabled">Wi‑Fi ناچالاک کراوە</string>
+    <string name="wifi_failed_forget_message">لەبیرکردنی تۆڕ سەرکەوتوو نەبوو</string>
+    <string name="wifi_failed_connect_message">پەیوەستبوون بە تۆڕەکە سەرکەوتوو نەبوو</string>
+    <string name="wifi_setup_add_network">زیادکردنی تۆڕ</string>
+    <string name="wifi_setup_connect">پەیوەستبوون</string>
+    <string name="wifi_connecting">لە پەیوەستبووندایە\u2026</string>
+    <string name="wifi_disconnected">پەیوەست نییە</string>
+    <string name="wifi_not_in_range_message">تۆڕەکە لە مەودادا نییە</string>
+    <string name="wifi_password">تێپەڕەوشە</string>
+    <string name="wifi_show_password">پیشاندانی تێپەڕەوشە</string>
+    <string name="wifi_no_network_name">تکایە ناوی تۆڕ بنووسە</string>
+    <string name="wifi_ssid">ناوی تۆڕ</string>
+    <string name="wifi_ssid_hint">SSID بنووسە</string>
+    <string name="wifi_security">ئاسایش</string>
+    <string name="wifi_signal_strength">هێزی شەپۆل</string>
+    <string name="wifi_status">دۆخ</string>
+    <string name="wifi_speed">خێرایی بەستەر</string>
+    <string name="wifi_frequency">لەرەلەر</string>
+    <string name="wifi_ip_address">ناونیشانی IP</string>
+    <string name="show_password">پیشاندانی تێپەڕەوشە</string>
+    <string name="default_network_name_summary">ناوی تۆڕ بنووسە</string>
+    <string name="default_password_summary">تێپەڕەوشە بنووسە</string>
+    <string name="access_point_tag_key">access_point_tag_key</string>
+    <string-array name="wifi_signals">
+        <item>لاواز</item>
+        <item>لاواز</item>
+        <item>مامناوەند</item>
+        <item>باشە</item>
+        <item>نایاب</item>
+    </string-array>
+    <string name="link_speed">%1$d مێگابیت/چرکە</string>
+    <string name="wifi_band_24ghz">2.4 GHz</string>
+    <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="wifi_network_detail">وردەکارییەکانی تۆڕ</string>
+    <string name="wifi_mac_address">ناونیشانی MAC</string>
+    <string name="wifi_ip_address_title">ناونیشانی IP</string>
+    <string name="wifi_subnet_mask">ماسکۆکەی سەبنێت</string>
+    <string name="wifi_dns">DNS</string>
+    <string name="wifi_details_ipv6_address_header">ناونیشانەکانی IPv6</string>
+    <string name="wifi_gateway">دەروازە</string>
+    <string name="wifi_preferences_title">هەڵبژاردنەکانی Wi-Fi</string>
+    <string name="wifi_wakeup">پێکردنی خۆکاری Wi-Fi</string>
+    <string name="wifi_wakeup_summary">Wi-Fi خۆکارانە پێدەبێتەوە لە نزیک تۆڕە پاشکەوتکراوە کوالێتی بەرزەکان، وەک تۆڕی ماڵەکەت</string>
+    <string name="wifi_wakeup_summary_no_location">بەردەست نییە چونکە شوێن کوژاوەتەوە. <annotation id="link">شوێن</annotation> چالاک بکە.</string>
+    <string name="wifi_settings_scanning_required_title">گەڕانی Wi-Fi پێبکرێت؟</string>
+    <string name="wifi_settings_scanning_required_turn_on">چالاککردن</string>
+    <string name="wifi_settings_scanning_required_enabled">گەڕانی Wi-Fi چالاک کرا</string>
+    <string name="wifi_cellular_fallback_title">گۆڕینی خۆکارانە بۆ داتای مۆبایل</string>
+    <string name="wifi_cellular_fallback_summary">داتای مۆبایل بەکاربهێنە کاتێک Wi-Fi هێڵی ئینتەرنێتی نییە. ڕەنگە تێچووی بەکارهێنانی داتا بێتە سەر کاتەکەت.</string>
+    <string name="wifi_network_state_switch_subtitle">دۆزینەوە و پەیوەستبوون بە تۆڕەکانی Wi‑Fi</string>
+    <string name="learn_more">زیاتر بزانە</string>
+    <string name="wifi_hotspot_name_title">ناوی هاتسپات</string>
+    <string name="wifi_hotspot_name_summary_connecting">چالاککردنی <xliff:g id="wifi_hotspot_name">%1$s</xliff:g>...</string>
+    <string name="wifi_hotspot_name_summary_connected">ئامێرەکانی تر دەتوانن پەیوەست بن بە <xliff:g id="wifi_hotspot_name">%1$s</xliff:g></string>
+    <string name="wifi_hotspot_password_title">تێپەڕەوشەی هاتسپات</string>
+    <string name="wifi_hotspot_security_title">ئاسایش</string>
+    <string name="wifi_hotspot_wpa3_sae">WPA3-Personal</string>
+    <string name="wifi_security_psk_sae">WPA2/WPA3-Personal</string>
+    <string name="wifi_hotspot_wpa2_personal">WPA2-Personal</string>
+    <string name="wifi_hotspot_security_none">هیچ</string>
+    <string name="wifi_hotspot_ap_band_title">مەودای AP</string>
+    <string name="wifi_ap_band_config">دیاریکردنی مەودای AP</string>
+    <string name="wifi_ap_choose_auto">خۆکار</string>
+    <string name="wifi_ap_choose_2G">باندی 2.4 GHz</string>
+    <string name="wifi_ap_choose_5G">مەودای 5.0 GHz</string>
+    <string name="wifi_ap_prefer_5G">باندی 5.0 GHz پەسەندە</string>
+    <string name="wifi_ap_2G">2.4 GHz</string>
+    <string name="wifi_ap_5G">5.0 GHz</string>
+    <string name="wifi_ap_2G_5G">2.4 و 5.0 GHz</string>
+    <string name="wifi_ap_band_select_one">لایەنی کەم یەک مەودا هەڵبژێرە بۆ خاڵی گەرمی Wi‑Fi:</string>
+    <string name="tether_settings_title_all">هاتسپاتی Wi-Fi</string>
+    <string name="hotspot_settings_title">خاڵی گەرم</string>
+    <string name="wifi_hotspot_switch_title">بەکارهێنانی هاتسپاتی Wi-Fi</string>
+    <string name="wifi_hotspot_state_off">ناچالاک</string>
+    <string name="wifi_hotspot_keep_on_title">بەکارهێنانی هۆتسپۆت بۆ هەموو لێخوڕینەکان</string>
+    <string name="wifi_hotspot_keep_on_summary">بەردەستکردنی هۆتسپۆت کاتێک ئۆتۆمبێل هەڵکراوە</string>
+    <string name="wifi_hotspot_qr_code_text">ئەم کۆدی QRـە سکان بکە بۆ بەشداربوون لە \"%s\"</string>
+    <string name="wifi_hotspot_qr_code_password_text">تێپەڕەوشەی خاڵی گەرم: %s</string>
+    <string name="wifi_ask_enable">بەرنامەی <xliff:g id="requester" example="FancyApp">%s</xliff:g> دەیەوێت Wi-Fi پێبکات</string>
+    <string name="wifi_ask_disable">بەرنامەی <xliff:g id="requester" example="FancyApp">%s</xliff:g> دەیەوێت Wi-Fi بکوژێنێتەوە</string>
+    <string name="wifi_error">هەڵە</string>
+    <string name="network_connection_request_dialog_title">ئامێر بۆ بەکارهێنان لەگەڵ <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g></string>
+    <string name="network_connection_timeout_dialog_message">هیچ ئامێرێک نەدۆزرایەوە. دڵنیا بەرەوە لەوەی ئامێرەکان پێکراون و بۆ پەیوەستبوون بەردەستن.</string>
+    <string name="network_connection_timeout_dialog_ok">دووبارە هەوڵ بدەرەوە</string>
+    <string name="network_connection_errorstate_dialog_message">شتێک هاتووەتە پێش. بەرنامەکە داواکاریی هەڵبژاردنی ئامێری هەڵوەشاندووەتەوە.</string>
+    <string name="network_connection_connect_successful">پەیوەستبوون سەرکەوتوو بوو</string>
+    <string name="network_connection_request_dialog_showall">پیشاندانی هەموو</string>
+    <string name="progress_scanning">لە گەڕاندایە</string>
+    <string name="wifi_detail_share">هاوبەشکردن</string>
+    <string name="wifi_detail_share_description">ئەم کۆدی QR سکان بکە بۆ بەستنەوە بە Wi‑Fi</string>
+    <string name="wifi_detail_share_toast">هاوبەشکردنی Wi‑Fi بۆ ئەم Wi‑Fiیە بەردەست نییە.</string>
+    <string name="connected_settings_title">ئامێرە پەیوەستکراوەکان</string>
+    <string name="bluetooth_settings_title">بلوتووس</string>
+    <string name="bluetooth_toggle_title">بەکارهێنانی Bluetooth</string>
+    <string name="bluetooth_device">ئامێری بێ ناو</string>
+    <string name="bluetooth_paired_devices">ئامێرە جووتکراوەکان</string>
+    <string name="bluetooth_pair_new_device">جووتکردنی ئامێری نوێ</string>
+    <string name="bluetooth_pair_new_device_summary">بلوتووس پێدەبێت بۆ جووتکردن</string>
+    <string name="bluetooth_disconnect_title">پەیوەندیی ئامێرەکە بپچڕێت؟</string>
+    <string name="bluetooth_disconnect_all_profiles">ئۆتۆمبێلەکەت لە \"<xliff:g example="Pixel" id="device_name">%1$s</xliff:g>\" دەپچڕێت.</string>
+    <string name="bluetooth_vehicle_mac_address">ناونیشانی بلووتووزی ئۆتۆمبێل: <xliff:g example="12:34:56:AB:CD:EF" id="address">%1$s</xliff:g></string>
+    <string name="bluetooth_device_mac_address">ناونیشانی بلووتووزی ئامێر: <xliff:g example="12:34:56:AB:CD:EF" id="address">%1$s</xliff:g></string>
+    <string name="bluetooth_name">ناوی ئۆتۆمبێل</string>
+    <string name="bluetooth_rename_vehicle">گۆڕینی ناوی ئەم ئۆتۆمبێلە</string>
+    <string name="bluetooth_rename_device">گۆڕینی ناوی ئامێر</string>
+    <string name="bluetooth_rename_button">ناولێنانەوە</string>
+    <string name="bluetooth_available_devices">ئامێرە بەردەستەکان</string>
+    <string name="bluetooth_profiles">پڕۆفایلەکان</string>
+    <string name="bluetooth_turning_on">"بلوتووس پێدەبێت\u2026"</string>
+    <string name="bluetooth_turning_off">"بلوتووس دەکوژێتەوە\u2026"</string>
+    <string name="bluetooth_ask_enablement"><xliff:g id="app_name" example="FancyApp">%1$s</xliff:g> دەیەوێت بلووتووز چالاک بکات</string>
+    <string name="bluetooth_ask_disablement"><xliff:g id="app_name" example="FancyApp">%1$s</xliff:g> دەیەوێت بلووتووز ناچالاک بکات</string>
+    <string name="bluetooth_ask_enablement_no_name">بەرنامەیەک دەیەوێت بلوتووس پێبکات</string>
+    <string name="bluetooth_ask_disablement_no_name">بەرنامەیەک دەیەوێت بلوتووس بکوژێنێتەوە</string>
+    <string name="bluetooth_ask_discovery"><xliff:g id="app_name">%1$s</xliff:g> دەیەوێت یەکەی سەرەکییەکەت بۆ ماوەی <xliff:g id="timeout">%2$d</xliff:g> چرکە بۆ ئامێرەکانی تری بلووتووز دیار بێت.</string>
+    <string name="bluetooth_ask_discovery_no_name">ئەپێک دەیەوێت یەکەی سەرەکییەکەت بۆ ماوەی <xliff:g id="timeout">%1$d</xliff:g> چرکە بۆ ئامێرەکانی تری بلووتووز دیار بێت.</string>
+    <string name="bluetooth_ask_enablement_and_discovery"><xliff:g id="app_name">%1$s</xliff:g> دەیەوێت بلووتووز چالاک بکات و یەکەی سەرەکییەکەت بۆ ماوەی <xliff:g id="timeout">%2$d</xliff:g> چرکە بۆ ئامێرەکانی تر دیار بێت.</string>
+    <string name="bluetooth_ask_enablement_and_discovery_no_name">ئەپێک دەیەوێت بلووتووز چالاک بکات و یەکەی سەرەکییەکەت بۆ ماوەی <xliff:g id="timeout">%1$d</xliff:g> چرکە بۆ ئامێرەکانی تر دیار بێت.</string>
+    <string name="bluetooth_state_switch_summary">دیارە بە ناوی %1$s بۆ ئامێرەکانی تر</string>
+    <string name="bluetooth_my_devices">ئامێرەکانم</string>
+    <string name="bluetooth_previously_connected">پێشتر پەیوەست کراوە</string>
+    <string name="bluetooth_device_connected_toast">%1$s پەیوەست بوو</string>
+    <string name="bluetooth_device_disconnected_toast">%1$s پچڕا</string>
+    <string name="device_connections_category_title">بەستنەوەکانی ئامێر بە ئۆتۆمبێلەکەت</string>
+    <string name="uwb_toggle_title">شەپۆلی زۆر فراوان (UWB)</string>
+    <string name="uwb_toggle_summary">یارمەتی ئۆتۆمبێلەکەت دەدات لە ناسینەوەی شوێنی ئامێرەکانی UWB</string>
     <string name="bluetooth_audio_sharing">هاوبەشیکردنی دەنگ</string>
     <string name="share_audio_switch_title">هاوبەشیکردنی دەنگ</string>
     <string name="share_audio_switch_summary">گوێگران پێویستە بیستۆکی LE Audioی تایبەت بە خۆیان هەبێت</string>
@@ -25,37 +241,902 @@
     <string name="audio_streaming_title">کۆدی QRی پەخشی دەنگ</string>
     <string name="scan_qr_code_to_connect">بۆ پەیوەستبوون کۆدی QR بسکێنە</string>
     <string name="audio_stream_qr_code_description">بۆ گوێگرتن لە پەخشی دەنگ، کەسانی تر دەتوانن بیستۆکە هاوگونجاوەکانیان بە ئامێری ئەندرۆیدەکەیانەوە پەیوەست بکەن. پاشان دەتوانن ئەم کۆدی QRە بسکێنن.</string>
+    <string name="bluetooth_notif_ticker">داواکاریی جووتکردنی بلوتووس</string>
+    <string name="bluetooth_device_context_pair_connect">جووتکردن و پەیوەستکردن</string>
+    <string name="bluetooth_pairing_key_msg">کۆدی جووتکردنی Bluetooth</string>
+    <string name="bluetooth_enable_alphanumeric_pin">کۆدی پین پیت یان هێما لەخۆ دەگرێت</string>
+    <string name="bluetooth_enter_passkey_msg">کۆدی جووتکردنەکە بنووسە و پاشان دوگمەی Return یان Enter دابگرە</string>
+    <string name="bluetooth_pairing_request">جووتکردن لەگەڵ <xliff:g example="Pixel" id="device_name">%1$s</xliff:g>؟</string>
+    <string name="bluetooth_pairing_shares_phonebook">ڕێگە بە <xliff:g example="Pixel" id="device_name">%1$s</xliff:g> بدرێت دەستی بگات بە ناوەکانت و مێژووی پەیوەندییەکان</string>
+    <string name="bluetooth_enter_pin_other_device">ڕەنگە پێویست شایانی ئەم کۆدە پین لەسەر ئامێرەکەی تریش بنووسیت.</string>
+    <string name="bluetooth_enter_passkey_other_device">ڕەنگە پێویست شایانی ئەم کۆدە تێپەڕبوون لەسەر ئامێرەکەی تریش بنووسیت.</string>
+    <string name="bluetooth_pin_values_hint_16_digits">پێویستە 16 ژمارە بێت</string>
+    <string name="bluetooth_pin_values_hint">بەزۆری 0000 یان 1234</string>
+    <string name="bluetooth_notif_title">داواکاریی جووتکردن</string>
+    <string name="bluetooth_notif_message">لێی بدە بۆ جووتکردن لەگەڵ <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <string name="bluetooth_device_picker">ئامێری بلوتووس هەڵبژێره</string>
+    <string name="bluetooth_bonded_bluetooth_toggle_content_description">بلوتووس</string>
+    <string name="bluetooth_bonded_phone_toggle_content_description">تەلەفۆن</string>
+    <string name="bluetooth_bonded_media_toggle_content_description">میدیا</string>
+    <string name="language_settings">زمانەکان</string>
+    <string name="languages_and_input_settings">زمانەکان و تێخستن</string>
+    <string name="language_picker_list_suggested_header">پێشنیارکراو</string>
+    <string name="language_picker_list_all_header">هەموو زمانەکان</string>
+    <string name="keyboard_settings">تەختەکلیل</string>
+    <string name="manage_keyboard">بەڕێوەبردنی تەختەکلیلەکان</string>
+    <string name="text_to_speech_settings">دەرئەنجامی دەق-بۆ-قسە</string>
+    <string name="text_to_speech_preferred_engine_settings">بزوێنەری پەسەندکراو</string>
+    <string name="text_to_speech_current_engine">ماتۆڕی ئێستا</string>
+    <string name="tts_speech_rate">خێراییی قسەکردن</string>
+    <string name="tts_pitch">ئاواز</string>
+    <string name="tts_reset">ڕێکخستنەوە</string>
+    <string name="sound_settings">دەنگ</string>
+    <string name="ring_volume_title">دەنگی زەنگ</string>
+    <string name="navi_volume_title">قەبارەی دەنگی ڕێدۆزی</string>
+    <string name="incoming_call_volume_title">زەنگ</string>
+    <string name="notification_volume_title">ئاگادارییەکان</string>
+    <string name="media_volume_title">میدیا</string>
+    <string name="media_volume_summary">دانانی قەبارەی دەنگ بۆ مۆسیقا و ڤیدیۆ</string>
+    <string name="alarm_volume_title">وریاکەرەوە</string>
+    <string name="ringtone_title">ئاوازی زەنگی مۆبایل</string>
+    <string name="notification_ringtone_title">دەنگی بنەڕەتیی ئاگادارکردنەوە</string>
+    <string name="alarm_ringtone_title">دەنگی بنەڕەتیی وریاکەرەوە</string>
+    <string name="ringtone_picker_save_title">پاشەکەوتکردن</string>
+    <string name="sound_alert_sounds">دەنگەکانی هۆشداری</string>
+    <string name="sound_alert_sounds_summary">زەنگی پەیوەندی، ئاگادارکردنەوەکان، زەنگی ئاگادارکەرەوە</string>
+    <string name="audio_route_selector_title">لێدانی میدیا لەسەر</string>
+    <string name="audio_route_preference_listening">گوێگرتن</string>
+    <string name="audio_route_preference_available_to_join">بەردەستە بۆ بەشداریکردن</string>
+    <string name="audio_route_preference_connecting_device">پەیوەندی دەبەسترێت...</string>
+    <string name="audio_route_preference_starting_broadcast">دەستپێکردنی پەخشکردن...</string>
+    <string name="audio_route_preference_connecting_broadcast">پەیوەندی دەبەسترێت...</string>
+    <string name="audio_route_preference_connecting_failed">نەتوانرا پەیوەندی ببەسترێت بە %1$s</string>
+    <string name="audio_route_preference_starting_broadcast_failed">نەتوانرا هاوبەشکردنی دەنگ دەست پێبکرێت</string>
+    <string name="audio_route_preference_leaving_broadcast">بەجێهێشتن...</string>
+    <string name="audio_route_preference_joining_broadcast_failed">نەتوانرا بەشداری لە پەخشی %1$s بکرێت</string>
+    <string name="audio_route_preference_leaving_broadcast_failed">نەتوانرا لە پەخشی %1$s دەربچێت</string>
+    <string name="audio_route_selector_toast">گۆڕینی میدیا بۆ %1$s</string>
+    <string name="display_brightness">ڕووناکی</string>
+    <string name="display_night_mode_summary">گونجاندنی شاشە بۆ ڕووناکیی کەم</string>
+    <string name="units_settings">یەکەکان</string>
+    <string name="units_speed_title">خێرایی</string>
+    <string name="units_distance_title">دووری</string>
+    <string name="units_fuel_consumption_title">بەکارهێنانی سووتەمەنی</string>
+    <string name="units_energy_consumption_title">بەکارهێنانی وزە</string>
+    <string name="units_temperature_title">پلەی گەرمی</string>
+    <string name="units_volume_title">دەنگ</string>
+    <string name="units_pressure_title">پەستان</string>
+    <string name="units_list_entry"><xliff:g example="mph" id="unit_abbreviation">%1$s</xliff:g> - <xliff:g example="Miles per hour" id="unit_pronunciation">%2$s</xliff:g></string>
+    <string name="units_ratio"><xliff:g example="km" id="unit_numerator">%1$s</xliff:g>/<xliff:g example="h" id="unit_denominator">%2$s</xliff:g></string>
+    <string name="units_ratio_numerator"><xliff:g example="10" id="unit_numerator_quantity">%1$d</xliff:g><xliff:g example="kWh" id="unit_numerator_unit">%2$s</xliff:g></string>
+    <string name="units_ratio_denominator"><xliff:g example="100" id="unit_denominator_quantity">%1$d</xliff:g><xliff:g example="mi" id="unit_denominator_unit">%2$s</xliff:g></string>
+    <string name="units_unit_name_meter_per_sec">مەتر لە چرکەیەکدا</string>
+    <string name="units_unit_name_rpm">خول لە خولەکێکدا</string>
+    <string name="units_unit_name_hertz">هێرتز</string>
+    <string name="units_unit_name_percentile">سەدەک</string>
+    <string name="units_unit_name_millimeter">میلیمەتر</string>
+    <string name="units_unit_name_meter">مەتر</string>
+    <string name="units_unit_name_kilometer">کیلۆمەتر</string>
+    <string name="units_unit_name_mile">میل</string>
+    <string name="units_unit_name_celsius">سیلیزی</string>
+    <string name="units_unit_name_fahrenheit">فارەنهایت</string>
+    <string name="units_unit_name_kelvin">کەلڤن</string>
+    <string name="units_unit_name_milliliter">میلیلیتر</string>
+    <string name="units_unit_name_liter">لیتر</string>
+    <string name="units_unit_name_us_gallon">گالۆن</string>
+    <string name="units_unit_name_imperial_gallon">گالۆنی ئیمپریال</string>
+    <string name="units_unit_name_nano_secs">نانۆچرکە</string>
+    <string name="units_unit_name_secs">چرکە</string>
+    <string name="units_unit_name_year">ساڵ</string>
+    <string name="units_unit_name_kilopascal">کیلۆپاسکال</string>
+    <string name="units_unit_name_watt_hour">وات کاتژمێر</string>
+    <string name="units_unit_name_milliampere">میلیئەمپێر</string>
+    <string name="units_unit_name_millivolt">میلیڤۆڵت</string>
+    <string name="units_unit_name_milliwatts">میلیوات</string>
+    <string name="units_unit_name_ampere_hour">ئەمپێر کاتژمێر</string>
     <string name="units_unit_name_kilowatt_hour">کیلۆوات-کاتژمێر</string>
+    <string name="units_unit_name_psi">پاوەند لە هەر ئینجێکی چوارگۆشەدا</string>
+    <string name="units_unit_name_miles_per_hour">میل لە کاتژمێرێکدا</string>
+    <string name="units_unit_name_kilometers_per_hour">کیلۆمەتر لە کاتژمێرێکدا</string>
+    <string name="units_unit_name_bar">بار</string>
+    <string name="units_unit_name_degrees">پلە</string>
     <string name="units_unit_name_kilowatt_per_hundred_miles">کیلۆوات-کاتژمێر بۆ هەر سەد میل</string>
     <string name="units_unit_name_kilowatt_per_hundred_kilometers">کیلۆوات-کاتژمێر بۆ هەر سەد کیلۆمەتر</string>
+    <string name="units_unit_name_miles_per_gallon_us">میل بۆ هەر گالۆنێک (ئەمریکی)</string>
+    <string name="units_unit_name_miles_per_gallon_uk">میل بۆ هەر گالۆنێک (بەریتانی)</string>
+    <string name="units_unit_name_kilometers_per_liter">کیلۆمەتر بۆ هەر لیترێک</string>
+    <string name="units_unit_name_liter_per_hundred_kilometers">لیتر بۆ هەر سەد کیلۆمەترێک</string>
+    <string name="apps_and_notifications_settings">ئەپەکان و ئاگادارکردنەوەکان</string>
+    <string name="all_applications">پشاندانی هەموو ئەپەکان</string>
+    <string name="default_applications">بەرنامە بنەڕەتییەکان</string>
+    <string name="performance_impacting_apps">ئەپە کاریگەرەکان لەسەر کارایی</string>
+    <string name="app_permissions">مۆڵەتەکانی بەرنامە</string>
+    <string name="app_permissions_summary">کۆنتڕۆڵکردنی دەستپێڕاگەیشتنی بەرنامە بە داتاکانت</string>
+    <string name="applications_settings">زانیاریی بەرنامە</string>
+    <string name="force_stop">ڕاگرتنی ئەپ</string>
+    <string name="force_stop_dialog_title">ئەپ ڕابگیرێت؟</string>
+    <string name="force_stop_dialog_text">ئەگەر کارکردنی بەرنامەیەک بە زۆر بوەستێنیت، ڕەنگە تووشی کێشە ببێت یان بە دروستی کار نەکات.</string>
+    <string name="force_stop_success_toast_text"><xliff:g id="app_name" example="Radio">%1$s</xliff:g> ڕاگیرا.</string>
+    <string name="prioritize_app_performance_dialog_title">پێشینەدان بە کاراییی ئەپ؟</string>
+    <string name="prioritize_app_performance_dialog_text">ئەمە لەوانەیە ببێتە هۆی ناسەقامگیریی سیستەم یان کاریگەریی درێژخایەن لەسەر رەقەکاڵا. دەتەوێت بەردەوام بیت؟</string>
+    <string name="prioritize_app_performance_dialog_action_on">بەڵێ</string>
+    <string name="prioritize_app_performance_dialog_action_off">نەخێر، سوپاس</string>
+    <string name="disable_text">ناچالاککردن</string>
+    <string name="enable_text">چالاککردن</string>
+    <string name="uninstall_text">سڕینەوە</string>
+    <string name="app_disable_dialog_text">ئەگەر ئەم ئەپە ناچالاک بکەیت، لەوانەیە ئەندرۆید و ئەپەکانی تر بە دروستی کار نەکەن.</string>
+    <string name="app_disable_dialog_positive">ناچالاککردنی بەرنامە</string>
+    <string name="not_installed">بۆ ئەم پرۆفایلە دانەمەزراوە</string>
+    <string name="permissions_label">ڕێپێدانەکان</string>
+    <string name="app_info_all_services_label">تەواوی خزمەتگوزارییەکان</string>
+    <string name="notifications_label">ئاگادارییەکان</string>
+    <string name="storage_application_label">بیرگە و کاش</string>
+    <string name="prioritize_app_performance_label">پێشینەدان بە کاراییی ئەپ</string>
+    <string name="application_version_label">وەشان: %1$s</string>
+    <string name="runtime_permissions_summary_no_permissions_granted">هیچ ڕێپێدانێک نەدراوە</string>
+    <string name="runtime_permissions_summary_no_permissions_requested">هیچ ڕێپێدانێک داوا نەکراوە</string>
+    <string name="unused_apps">بەرنامە بەکارنەهێنراوەکان</string>
+    <string name="unused_apps_summary">{
+        count, plural,
+            =1    {# ئەپی بەکارنەهاتوو}
+            other {# ئەپی بەکارنەهاتوو}
+        }</string>
+    <string name="unused_apps_switch">لابردنی مۆڵەتەکان و بەتاڵکردنەوەی شوێن</string>
+    <string name="aspect_ratio_label">ڕێژەی ڕووبەر (ئەزموونی)</string>
+    <string name="aspect_ratio_action_button">کردنەوە</string>
+    <string name="user_aspect_ratio_app_default">بنەڕەتیی بەرنامە</string>
+    <string name="user_aspect_ratio_fullscreen">تەواوی ڕوونما</string>
+    <string name="user_aspect_ratio_half_screen">نیوەی ڕوونما</string>
+    <string name="user_aspect_ratio_device_size">ڕێژەی ڕەهەندی ئامێر</string>
+    <string name="user_aspect_ratio_16_9">16:9</string>
+    <string name="user_aspect_ratio_3_2">3:2</string>
+    <string name="user_aspect_ratio_4_3">4:3</string>
+    <string name="app_aspect_ratio_footer">کاتێک ڕێژەی ڕەهەند دەگۆڕیت، بەرنامەکە سەرلەنوێ کار پێدەبێتەوە. ڕەنگە ئەو گۆڕانکارییانەی پاشکەوت نەکراون لەدەست بدەیت. هەندێک بەرنامە ڕەنگە لەگەڵ ڕێژەی ڕەهەندی دیاریکراودا نەگونجێن.</string>
+    <string name="storage_type_internal">%s لە بیرگەی ناوەکیدا</string>
+    <string name="prioritize_app_performance_summary">سەرچاوەکانی سیستەم بەکاردەهێنێت بۆ پێشینەدان بە کاراییی ئەپ</string>
     <string name="app_open_by_default_title">کردنەوە بە بنەڕەتی\"</string>
-    <string name="app_open_by_default_summary">ڕێگەدان بە بەرنامەکە بۆ کردنەوەی لینکە پاڵپشتیکراوەکان</string>
+    <string name="app_open_by_default_summary">ڕێگەدان بە بەرنامەکە بۆ کردنەوەی بەستەرە پاڵپشتیکراوەکان</string>
+    <string name="data_usage_summary_title">بەکارهێنانی داتا</string>
+    <string name="data_usage_app_summary_title">بەکارهێنانی داتای بەرنامە</string>
+    <string name="data_usage_usage_history_title">مێژووی بەکارهێنان</string>
+    <string name="data_usage_all_apps_title">هەموو بەرنامەکان</string>
+    <string name="app_data_usage_title">بەکارهێنانی دراوە و Wi‑Fi</string>
+    <string name="app_data_usage_usage_history_title">مێژووی بەکارهێنان</string>
+    <string name="app_data_usage_total_usage">کۆی بەکارهێنان</string>
+    <string name="app_data_usage_foreground">پێشەوە</string>
+    <string name="app_data_usage_background">پشتەوە</string>
+    <string name="app_data_usage_allow_data_title">ڕێگەدان بە دراوە</string>
+    <string name="app_data_usage_allow_data_summary">ڕێگە بەم ئەپە بدە دراوەی مۆبایل بەکاربهێنێت</string>
+    <string name="app_data_usage_restrict_data_title">سنووردارکردنی دراوە</string>
+    <string name="app_data_usage_background_data_summary">بەکارهێنانی دراوەی مۆبایل تەنها کاتێک ئەپەکە لە پێشەوە بێت</string>
+    <string name="computing_size">لە ئەژمارکردندایە…</string>
+    <string name="runtime_permissions_additional_count">{
+        count, plural,
+            =1    {# مۆڵەتی زیادە}
+            other {# مۆڵەتی زیادە}
+        }</string>
+    <string name="direct_boot_unaware_dialog_message_car">تێبینی: دوای پێکردنەوە، ئەم ئەپە دەست پێ ناکات تا ئۆتۆمبێلەکەت نەکەیتەوە.</string>
+    <string name="assist_and_voice_input_settings">یاریدەدەر و تێکردنی دەنگی</string>
+    <string name="assist_app_settings">ئەپی یاریدەدەر</string>
+    <string name="assist_access_screen_context_title">بەکارهێنانی دراوەی ڕوونما و بەرنامە</string>
+    <string name="assist_access_screen_context_summary">ڕێگە بەم یاریدەدەرە بدە دەستی بگات بە زانیاری و ناوەڕۆکی ئەو بەرنامەیەی کە لەسەر ڕوونمای تۆ کراوەیە</string>
+    <string name="voice_input_settings_title">تێکردنی دەنگی</string>
+    <string name="autofill_settings_title">خزمەتگوزاریی پڕکردنەوەی خۆکار</string>
+    <string name="app_list_preference_none">هیچ</string>
+    <string name="default_app_selected_app">هەڵبژێردراو</string>
+    <string name="assistant_security_warning">یاریدەدەر دەتوانێت زانیاری دەربارەی ئەو ئەپانەی لە سیستەمەکەتدا بەکاردێن بخوێنێتەوە، لەوانەش ئەو زانیارییانەی لەسەر شاشەکەت دەبینرێن یان لەناو ئەپەکاندا دەستپێڕاگەیشتنیان هەیە.</string>
+    <string name="autofill_confirmation_message"><![CDATA[<b>دڵنیا بەرەوە لەوەی متمانەت بەم بەرنامەیە هەیە</b>\n\nبەرنامەی <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> ئەوەی لەسەر ڕوونماکەتە بەکاردێنێت بۆ دیاریکردنی ئەوەی چی دەکرێت خۆکارانە پڕ بکرێتەوە.]]></string>
+    <string name="autofill_add_service">زیادکردنی خزمەتگوزاری</string>
+    <string name="app_launch_domain_links_title">کردنەوەی بەستەرەکان</string>
+    <string name="domain_url_section_title">بەرنامە دامەزراوەکان</string>
+    <string name="domain_urls_summary_none">بەستەرە پاڵپشتیکراوەکان مەکەرەوە</string>
+    <string name="domain_urls_summary_one">کردنەوەی <xliff:g id="domain" example="mail.google.com">%s</xliff:g></string>
+    <string name="domain_urls_summary_some">کردنەوەی <xliff:g id="domain" example="mail.google.com">%s</xliff:g> و بەستەرەکانی تر</string>
+    <string name="app_launch_title">کردنەوە بە شێوازی بنەڕەتی</string>
+    <string name="app_launch_other_defaults_title">بنەڕەتییەکانی تر</string>
+    <string name="auto_launch_disable_text">هیچ ڕێکخستنێکی بنەڕەتی دیاری نەکراوە.</string>
+    <string name="auto_launch_enable_text">ئەم ئەپەت وەک بنەڕەت هەڵبژاردووە بۆ دەستپێکردنی هەندێک کردار.</string>
+    <string name="auto_launch_reset_text">سڕینەوەی بنەڕەتییەکان</string>
+    <string name="app_launch_open_domain_urls_title">کردنەوەی بەستەرە پاڵپشتیکراوەکان</string>
+    <string name="app_link_open_always">کردنەوە لەم ئەپەدا</string>
+    <string name="app_link_open_ask">هەر جارەو بپرسە</string>
+    <string name="app_link_open_never">لەم ئەپەدا مەیکەرەوە</string>
+    <string name="app_launch_supported_domain_urls_title">بەستەرە پاڵپشتیکراوەکان</string>
     <string name="opening_links_verified_links_title">لینکە پشتڕاستکراوەکان</string>
-    <string name="opening_links_verified_links_summary">        {count, plural,
+    <string name="opening_links_verified_links_summary">
+        {count, plural,
         one {}=1    {# بەستەری پشتڕاستکراو}
         other {# بەستەری پشتڕاستکراو}
         }
     </string>
-    <string name="opening_links_supported_links_summary">        {count, plural,
+    <string name="opening_links_supported_links_title">بەستەرە پاڵپشتیکراوەکان</string>
+    <string name="opening_links_supported_links_summary">
+        {count, plural,
         one {}=1    {# بەستەری پاڵپشتیکراو}
         other {# بەستەری پاڵپشتیکراو}
         }
     </string>
     <string name="opening_links_add_links_title">زیادکردنی لینک</string>
-    <string name="opening_links_add_links_summary">        {count, plural,
+    <string name="opening_links_add_links_summary">
+        {count, plural,
         one {}=1    {# بەستەری یەکلایینەکراوە}
         other {# بەستەری یەکلایینەکراوە}
         }
     </string>
-    <string name="app_launch_footer">بەرنامەیەک دەتوانێت لینکەکان پشتڕاست بکاتەوە بۆ ئەوەی بە خۆکارانە لە بەرنامەکەدا بکرێنەوە.</string>
+    <string name="app_launch_footer">بەرنامەیەک دەتوانێت بەستەرەکان پشتڕاست بکاتەوە تا خۆکارانە لە ناو بەرنامەکەدا بکرێنەوە.</string>
+    <string name="apps_settings_title">بەرنامەکان</string>
+    <string name="apps_recently_opened">نوێترین کراوەکان</string>
+    <string name="apps_view_all_apps_title">بینینی هەموو %1$d ئەپەکە</string>
+    <string name="apps_permission_manager_title">بەڕێوەبەری ڕێپێدانەکان</string>
+    <string name="apps_permission_manager_summary">کۆنتڕۆڵکردنی دەستپێڕاگەیشتنی بەرنامە بە داتاکانت</string>
+    <string name="apps_default_apps_summary">بۆ یاریدەدەر و زیاتر</string>
+    <string name="performance_impacting_apps_summary">{
+        count, plural,
+            =1    {# ئەپ کە کار لە کارایی دەکات}
+            other {# ئەپ کە کار لە کارایی دەکەن}
+        }</string>
+    <string name="apps_special_app_access_summary">بۆ ڕێکخستنەکانی سیستەم و تر</string>
+    <string name="special_access">دەستپێڕاگەیشتنی تایبەتی بەرنامە</string>
+    <string name="show_system">پیشاندانی سیستەم</string>
+    <string name="hide_system">شاردنەوەی سیستەم</string>
+    <string name="hide_system_apps">شاردنەوەی ئەپەکانی سیستەم</string>
+    <string name="alarms_and_reminders_title">زەنگەکان و بیرخەرەوەکان</string>
+    <string name="modify_system_settings_title">دەستکاریکردنی ڕێکخستنەکانی سیستەم</string>
+    <string name="modify_system_settings_description">ئەم ڕێپێدانە ڕێگە بە بەرنامەیەک دەدات دەستکاریی ڕێکخستنەکانی سیستەم بکات.</string>
+    <string name="notification_access_title">دەستگەیشتن بە ئاگادارکردنەوە</string>
+    <string name="notification_listener_security_warning_title">ڕێگە بە دەستگەیشتنی ئاگادارکردنەوە بۆ <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> بدرێت؟</string>
+    <string name="notification_listener_security_warning_summary"><xliff:g id="notification_listener_name">%1$s</xliff:g> دەتوانێت هەموو ئاگادارکردنەوەکان بخوێنێتەوە، لەوانەش زانیارییە کەسییەکان وەکوو ناوی پێوەندییەکان و دەقی ئەو پەیامانەی پێتان دەگات. هەروەها دەتوانێت ئاگادارکردنەوەکان لاببات یان دوگمەکانی کرداری ناویان کار پێ بکات.
+
+هەروەها ئەمە دەسەڵات دەداتە ئەپەکە کە دۆخی بێزارمەکەن هەڵبکات یان بکوژێنێتەوە و ڕێکخستنە پەیوەندیدارەکانی بگۆڕێت.</string>
     <string name="notification_listener_revoke_warning_summary">ئەگەر دەستگەیشتن بە ئاگادارکردنەوەکان بۆ <xliff:g id="notification_listener_name">%1$s</xliff:g> ناچالاک بکەیت، لەوانەیە کۆنتڕۆڵی «بێزارم مەکە» (Do Not Disturb)یش ناچالاک بێت.</string>
+    <string name="notification_listener_revoke_warning_confirm">ناچالاککردن</string>
+    <string name="notification_listener_revoke_warning_cancel">پاشگەزبوونەوە</string>
+    <string name="performance_impacting_apps_description">ئەم ئەپانە کاریگەریی خراپ لەسەر کاراییی سیستەم دادەنێن و ڕێگرییان لێکراوە لە پاشبنەمادا کار بکەن.
+پێشینە بدە بە ئەپ بۆ ڕێگەدان بە بەکارهێنانی لە پاشبنەما و لادانی لەم پێڕستە.</string>
+    <string name="performance_impacting_apps_button_label">پێشینەدان بە ئەپ</string>
+    <string name="premium_sms_access_title">SMSی نایاب</string>
+    <string name="premium_sms_access_description">لەوانەیە کورتەنامەی تایبەت پارەی تێبچێت و بخرێتە سەر پسووڵەی هێڵەکەت. ئەگەر ڕێپێدان بۆ بەرنامەیەک چالاک بکەیت، دەتوانیت لە ڕێگەی ئەو بەرنامەیەوە کورتەنامەی تایبەت بنێریت.</string>
     <string name="usage_access_title">داتای بەکارهێنانی بەرنامە</string>
     <string name="usage_access_description">دەستگەیشتن بە تەواوی داتاکانی بەکارهێنانی بەرنامە ڕێگە بە بەرنامەیەک دەدات چاودێری ئەوە بکات کام بەرنامانەی تر بەکاردەهێنیت و چەند جارێک، هەروەها زانیارییەکانی وەک هێڵەکەت، ڕێکخستنەکانی زمان، و وردەکارییەکانی تر.</string>
+    <string name="wifi_control_title">کۆنتڕۆڵی Wi-Fi</string>
+    <string name="wifi_control_description">کۆنتڕۆڵی Wi-Fi ڕێگە بە ئەپێک دەدات Wi-Fi چالاک یان ناچالاک بکات، بگەڕێت و پەیوەست بێت بە تۆڕەکانی Wi-Fi، تۆڕەکان زیاد یان لا ببات، یاخود خاڵی گەرمی تەنها-ناوخۆیی دەست پێ بکات.</string>
+    <string name="more_special_access_title">زیاتر</string>
+    <string name="location_settings_title">شوێن</string>
+    <string name="location_toggle_title">بەکارهێنانی شوێن</string>
+    <string name="location_toggle_summary">بەکارهێنانی شوێنی ئۆتۆمبێلەکەت لەگەڵ هەر ئەپێک کە دیاریت کردووە.</string>
+    <string name="location_infotainment_apps_toggle_title">بەرنامەکانی کات بەسەربردن</string>
+    <string name="location_infotainment_apps_toggle_summary">ڕێگەدان بە بەرنامەکان بۆ دەستپێگەیشتن بە شوێنەکەت</string>
+    <string name="location_toggle_off_warning">ئەگەر ئەمە بکوژێنیتەوە، دەستگەیشتن بە شوێن بۆ هەموو ئەپەکان لادەبات جگە لەوانەی بۆ هاوکاریی شۆفێر پێویستن</string>
+    <string name="adas_location_toggle_off_warning">ئەگەر ئەمە بکوژێنیتەوە، ئەپەکانی هاوکاریی شۆفێر کە پشت بە زانیاریی شوێن دەبەستن ناچالاک
+        دەبن</string>
+    <string name="adas_location_toggle_confirm_label">هەر بکوژێنەرەوە</string>
+    <string name="adas_location_toggle_popup_summary">ئەم ڕێکخستنە ناگۆڕدرێت و لەلایەن بەرهەمهێنەری ئۆتۆمبێلەکەتەوە ناچالاک کراوە.</string>
+    <string name="adas_location_toggle_title">تایبەتمەندییەکان کە یارمەتیت دەدەن لە شۆفێریدا</string>
+    <string name="adas_location_toggle_summary">ڕێگەدان بە تایبەتمەندییە ناوەکییەکان، پەسەندکراو لەلایەن بەرهەمهێنەری ئۆتۆمبێلەکەتەوە، بۆ دەستگەیشتن بە
+        شوێنی ئۆتۆمبێلەکەت.</string>
+    <string name="location_recently_accessed">لەم دواییانەدا دەستیپێگەیشتووە</string>
+    <string name="location_settings_recently_accessed_title">لەم دواییانەدا دەستیپێگەیشتووە</string>
+    <string name="location_settings_recently_accessed_view_all_title">بینینی هەمووی</string>
+    <string name="location_no_recent_access">هیچ ئەپێکی نوێ نییە</string>
+    <string name="driver_assistance_label"><xliff:g id="time" example="1 min. ago">%1$s</xliff:g> • هاوکاریی شۆفێر •
+        دەستگەیشتنی پێویستە</string>
+    <string name="location_adas_apps_list_title">تایبەتمەندییەکان کە یارمەتیت دەدەن لە شۆفێریدا</string>
+    <string name="location_driver_assistance_privacy_policy_button_text">سیاسەت</string>
+    <string name="location_settings_app_permissions_title">مۆڵەتەکانی ئاستی ئەپ</string>
+    <string name="location_settings_app_permissions_summary">بەڕێوەبردنی مۆڵەتەکانی تاکە ئەپ</string>
+    <string name="location_settings_services_title">خزمەتگوزارییەکانی شوێن</string>
+    <string name="location_use_location_title">بەکارهێنانی شوێن</string>
+    <string name="location_access_settings_title">دەستگەیشتن بە شوێن</string>
+    <string name="location_access_settings_summary">هەڵبژێرە ئاخۆ ئەپەکان دەتوانن دەستیان بە شوێنی ئۆتۆمبێلەکەت بگات</string>
+    <string name="location_access_disclaimer_summary">لەوانەیە بەرهەمهێنەری ئۆتۆمبێلەکەت هێشتا دەستی بە شوێنی ئۆتۆمبێلەکەت بگات. دەتوانیت پێداچوونەوە بە
+        سیاسەتەکانیاندا بکەیت بۆ زانیاریی زیاتر.</string>
+    <string name="location_adas_app_info_summary">ئەم تایبەتمەندییە ناوەکییانە پێویستیان بە دەستگەیشتن بە شوێنی ئۆتۆمبێلەکەت هەیە بۆ هاوکاریکردن لە
+        شۆفێریدا.
+
+بۆ زانیاریی زیاتر دەربارەی ئەوەی هەریەک لە ئەپەکان چۆن دراوەی شوێنەکەت بەکاردەهێنن، پێداچوونەوە بە سیاسەتی
+        تایبەتمەندییەکەیاندا بکە.</string>
+    <string name="microphone_settings_title">مایکرۆفۆن</string>
+    <string name="microphone_toggle_title">بەکارهێنانی مایکرۆفۆن</string>
+    <string name="microphone_toggle_summary">ڕێگەدان بە هەموو ئەپەکان بۆ دەستگەیشتن بە مایکرۆفۆنەکەت</string>
+    <string name="microphone_manage_permissions">بەڕێوەبردنی مۆڵەتەکانی مایکرۆفۆن</string>
+    <string name="microphone_recently_accessed">لەم دواییانەدا دەستیپێگەیشتووە</string>
+    <string name="microphone_no_recent_access">هیچ ئەپێکی نوێ نییە</string>
+    <string name="microphone_app_permission_summary_microphone_off">0 ئەپ دەستیان پێڕادەگات</string>
+    <string name="microphone_app_permission_summary_microphone_on">{
+        count, plural,
+            =1    {# لە {total_count} ئەپ دەستی پێڕادەگات}
+            other {# لە {total_count} ئەپ دەستیان پێڕادەگات}
+        }</string>
+    <string name="microphone_settings_recent_requests_title">لەم دواییانەدا دەستیپێگەیشتووە</string>
+    <string name="microphone_settings_recent_requests_view_all_title">بینینی هەمووی</string>
+    <string name="microphone_settings_loading_app_permission_stats">بارکردن…</string>
+    <string name="system_setting_title">سیستم</string>
+    <string name="system_update_settings_title">نوێکردنەوەکانی سیستم</string>
+    <string name="system_advanced_title">پێشکەوتوو</string>
+    <string name="system_advanced_summary">دەربارە، زانیاری یاسایی، ڕێکخستنەوە، و زیاتر</string>
+    <string name="restart_infotainment_system_title">پێکردنەوەی سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="restart_infotainment_system_dialog_text">پێکردنەوەی سیستەمی زانیاری-کات بەسەربردنی ئۆتۆمبێلەکەت لەوانەیە چەند خولەکێک بخایەنێت. دەتەوێت بەردەوام بیت؟</string>
+    <string name="continue_confirmation">بەردەوامبوون</string>
+    <string name="firmware_version">وەشانی Android</string>
+    <string name="security_patch">ئاستی پینەی ئاسایشی ئەندرۆید</string>
+    <string name="hardware_info">مۆدێل و ڕەقەکاڵا</string>
+    <string name="hardware_info_summary">مۆدێل: <xliff:g example="Hawk" id="model">%1$s</xliff:g></string>
+    <string name="baseband_version">وەشانی بەیقباند</string>
+    <string name="kernel_version">وەشانی کێرنێڵ</string>
+    <string name="build_number">ژمارەی بنیاتنان (Build number)</string>
+    <string name="bluetooth_mac_address">ناونیشانی Bluetooth</string>
+    <string name="device_info_not_available">بەردەست نییە</string>
+    <string name="device_status_activity_title">دۆخ</string>
+    <string name="device_status">دۆخ</string>
+    <string name="device_status_summary" product="tablet">دۆخی باتری، تۆڕ، و زانیاریی تر</string>
+    <string name="device_status_summary" product="default">ژمارەی تەلەفۆن، هێڵ، هتد.</string>
+    <string name="about_settings">دەربارە</string>
+    <string name="about_summary">ئەندرۆیدی <xliff:g example="6.0" id="version">%1$s</xliff:g></string>
+    <string name="about_settings_summary">بینینی زانیارییە یاساییەکان، دۆخ و وەشانی نەرمەکاڵا</string>
+    <string name="legal_information">زانیارییە یاساییەکان</string>
+    <string name="contributors_title">هاوبەشەکان</string>
+    <string name="manual">دەستی</string>
+    <string name="regulatory_labels">نیشانە ڕێکخەرەکان</string>
+    <string name="safety_and_regulatory_info">ڕێبەری سەلامەتی و ڕێکخستن</string>
+    <string name="copyright_title">مافی لەبەرگرتنەوە</string>
+    <string name="license_title">مافنامە</string>
+    <string name="terms_title">مەرج و ڕێساکان</string>
+    <string name="webview_license_title">مۆڵەتنامەکانی WebViewـی سیستەم</string>
+    <string name="wallpaper_attributions">پاشبنەماکان</string>
+    <string name="wallpaper_attributions_values">دابینکارانی وێنەی مانگی دەستکرد:\n©2014 CNES / Astrium, DigitalGlobe, Bluesky</string>
+    <string name="model_info">مۆدێل</string>
+    <string name="status_serial_number">ژمارەی زنجیرەیی</string>
+    <string name="hardware_revision">وەشانی ڕەقەکاڵا</string>
+    <string name="settings_license_activity_title">ڕێپێدانەکانی لایەنی سێیەم</string>
+    <string name="settings_license_activity_unavailable">کێشەیەک لە بارکردنی ڕێپێدانەکاندا هەیە.</string>
+    <string name="settings_license_activity_loading">بارکردن…</string>
+    <string name="show_dev_countdown">{
+        count, plural,
+            =1    {ئێستا # هەنگاو دووریت لەوەی ببیت بە گەشەپێدەر.}
+            other {ئێستا # هەنگاو دووریت لەوەی ببیت بە گەشەپێدەر.}
+        }</string>
+    <string name="show_dev_on">ئێستا تۆ پەرەپێدەریت!</string>
+    <string name="show_dev_already">پێویست ناکات، خۆت پەرەپێدەریت.</string>
+    <string name="developer_options_settings">هەڵبژاردنەکانی گەشەپێدەر</string>
+    <string name="reset_options_title">بژاردەکانی گەڕاندنەوە</string>
+    <string name="reset_options_summary">ڕێکخستنەوەی تۆڕ، ئەپەکان، یان ئامێر</string>
+    <string name="reset_network_title">ڕێکخستنەوەی Wi‑Fi و بلووتووز</string>
+    <string name="reset_network_desc">ئەمە ڕێکخستنەکانی Wi‑Fi و بلووتووز ڕێکدەخاتەوە، یادگەی ئەو ئامێرانەی پێشتر پەیوەست بوون لادەبات:</string>
+    <string name="reset_network_item_wifi"><li>تۆڕەکانی Wi‑Fi و تێپەڕەوشەکان</li></string>
+    <string name="reset_network_item_mobile"><li>دراوەی مۆبایل</li></string>
+    <string name="reset_network_item_bluetooth"><li>تەلەفۆنەکان و ئامێرەکانی تری بلووتووز</li></string>
+    <string name="reset_esim_title">سڕینەوەی هەموو eSIMـەکانی ئۆتۆمبێل</string>
+    <string name="reset_esim_desc">ئەمە پلانی خزمەتگوزارییەکەت هەڵناوەشێنێتەوە.</string>
+    <string name="reset_esim_error_title">eSIMـەکان ڕێکناخرێنەوە</string>
+    <string name="reset_network_select">دیاریکردنی تۆڕ</string>
+    <string name="reset_network_button_text">گەڕاندنەوەی ڕێکخستنەکان</string>
+    <string name="reset_network_confirm_title">بگەڕێنرێتەوە؟</string>
+    <string name="reset_network_confirm_desc">هەموو ڕێکخستنەکانی تۆڕ ڕێکبخرێنەوە؟ ناتوانیت ئەم کردارە پاشگەز بکەیتەوە!</string>
+    <string name="reset_network_confirm_button_text">گەڕاندنەوەی ڕێکخستنەکان</string>
+    <string name="reset_network_complete_toast">ڕێکخستنەکانی تۆڕ گەڕێنرانەوە بۆ دۆخی سەرەتایی</string>
+    <string name="reset_app_pref_title">گەڕاندنەوەی هەڵبژاردنەکانی بەرنامە</string>
+    <string name="reset_app_pref_desc">ئەمە هەموو ویستراوەکان بۆ ئەمانەی خوارەوە ڕێکدەخاتەوە:
+
+<li>ئەپە ناچالاککراوەکان</li>
+<li>ئاگادارکردنەوە ناچالاککراوەکانی ئەپ</li>
+<li>ئەپە بنەڕەتییەکان بۆ کردارەکان</li>
+<li>سنووردارکردنەکانی دراوەی پاشبنەما بۆ ئەپەکان</li>
+<li>هەر سنووردارکردنێکی مۆڵەت</li>
+
+هیچ دراوەیەکی ئەپ لەدەست نادەیت.</string>
+    <string name="reset_app_pref_button_text">گەڕاندنەوەی بەرنامەکان</string>
+    <string name="reset_app_pref_complete_toast">ویستراوەکانی ئەپ ڕێکخرانەوە</string>
+    <string name="factory_reset_title">سڕینەوەی تەواوی داتاکان (گەڕاندنەوە بۆ ڕێکخستنی کارگە)</string>
+    <string name="factory_reset_summary">سڕینەوەی هەموو دراوە و پرۆفایلەکان لە سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="factory_reset_desc">ئەمە هەموو دراوەکان لە سیستەمی زانیاری-کات بەسەربردنی ئۆتۆمبێلەکەت دەسڕێتەوە، لەوانەش:
+
+<li>هەژمارەکان و پرۆفایلەکانت</li>
+<li>دراوە و ڕێکخستنەکانی سیستەم و ئەپ</li>
+<li>ئەپە داگیراوەکان</li></string>
+    <string name="factory_reset_accounts">تۆ لە ئێستادا چوویتیتە ژوورەوە بۆ ئەم هەژمارانەی خوارەوە:</string>
+    <string name="factory_reset_other_users_present">پرۆفایلی تر بۆ ئەم ئۆتۆمبێلە ڕێکخراون.</string>
+    <string name="factory_reset_button_text">سڕینەوەی تەواوی داتاکان</string>
+    <string name="factory_reset_confirm_title">تەواوی داتاکان بسڕێتەوە؟</string>
+    <string name="factory_reset_confirm_desc">ئەمە هەموو دراوەی پرۆفایلی کەسی، هەژمارەکان، و ئەپە داگیراوەکانی سەر ئەم سیستەمی زانیاری-کات بەسەربردنە دەسڕێتەوە.
+
+ناتوانیت ئەم کردارە پاشگەز بکەیتەوە.</string>
+    <string name="factory_reset_confirm_button_text">سڕینەوەی هەموو شتێک</string>
+    <string name="factory_reset_progress_title">لە سڕینەوەدایە</string>
+    <string name="factory_reset_progress_text">تکایە چاوەڕوان بە...</string>
+    <string name="date_and_time_settings_title">ڕۆژ &amp; کات</string>
+    <string name="date_and_time_settings_summary">دانانی بەروار، کات، کاتژمێری ناوچەیی، و فۆرماتەکان</string>
+    <string name="date_time_auto">ڕێکخستنی کات بە شێوازی خۆکار</string>
+    <string name="zone_auto">دانانی خۆکاری کاتژمێری ناوچەیی</string>
+    <string name="date_time_24hour_title">فۆرماتی 24 کاتژمێری</string>
+    <string name="date_time_24hour">بەکارهێنانی شێوازی 24 کاتژمێری</string>
+    <string name="date_time_set_time_title">کات</string>
+    <string name="date_time_set_time">دانانی کاتژمێر</string>
+    <string name="date_time_set_timezone_title">ناوچەی کات</string>
+    <string name="date_time_set_timezone">دەستنیشانکردنی کاتی ناوچەکە</string>
+    <string name="date_time_set_date_title">بەروار</string>
+    <string name="date_time_set_date">دیاریکردنی ڕێکەوت</string>
+    <string name="zone_list_menu_sort_alphabetically">ڕیزکردن بەپێی ئەلفوبێ</string>
+    <string name="zone_list_menu_sort_by_timezone">ڕیزکردن بەپێی کاتژمێری ناوچەیی</string>
+    <string name="date_picker_title">بەروار</string>
+    <string name="time_picker_title">کات</string>
+    <string name="auto_local_time_disclaimer_summary">بەروار و کاتی خۆکارانە لەوانەیە سەرچاوەکانی وەک شوێن و تۆڕی مۆبایل بەکاربهێنێت بۆ دیاریکردنی بەروار، کات و ناوچەی کات.</string>
+    <string name="auto_local_time_toggle_summary">شوێنی ئۆتۆمبێلەکەت بەکاربهێنە بۆ دانانی بەروار و کات بە خۆکارانە. تەنها ئەگەر شوێن هەڵکرابێت کار دەکات.</string>
+    <string name="auto_local_time_dialog_negative_button_text">بەردەوامبوون</string>
+    <string name="auto_local_time_dialog_positive_button_text">گۆڕین لە ڕێکخستنەکان</string>
+    <string name="auto_local_time_dialog_msg">شوێنەکەت کوژاوەتەوە. کاتی خۆکارانە لەوانەیە کار نەکات.</string>
+    <string name="user_admin">سەرپەرشتیار</string>
+    <string name="signed_in_admin_user">چووەتە ژوورەوە وەک بەڕێوەبەر</string>
+    <string name="grant_admin_permissions_title">بەخشینی مۆڵەتەکانی بەڕێوەبەر؟</string>
+    <string name="grant_admin_permissions_button_text">کردن بە بەڕێوەبەر</string>
+    <string name="grant_admin_permissions_message">بەڕێوەبەر دەتوانێت پرۆفایلەکانی تر بسڕێتەوە، لەوانەش هی بەڕێوەبەرەکانی تر، و سیستەمی زانیاری-کات بەسەربردن بگەڕێنێتەوە بۆ دۆخی کارگە.</string>
+    <string name="action_not_reversible_message">ئەم کردارە پاشگەزبوونەوەی نییە.</string>
+    <string name="confirm_grant_admin">بەڵێ، بیکە بە بەڕێوەبەر</string>
+    <string name="create_user_permission_title">دروستکردنی پرۆفایلی نوێ</string>
+    <string name="outgoing_calls_permission_title">ئەنجامدانی پەیوەندیی تەلەفۆنی</string>
+    <string name="sms_messaging_permission_title">پەیام ناردن لەڕێگەی دراوەی مۆبایلی ئۆتۆمبێل</string>
+    <string name="install_apps_permission_title">دامەزراندنی ئەپی نوێ</string>
+    <string name="uninstall_apps_permission_title">سڕینەوەی ئەپەکان</string>
+    <string name="user_add_user_menu">زیادکردنی پرۆفایل</string>
+    <string name="user_new_user_name">پرۆفایلی نوێ</string>
+    <string name="user_add_user_title">"پرۆفایلی نوێ زیاد بکرێت؟"</string>
+    <string name="user_add_user_message_setup">دوای ئەوەی پرۆفایلێکی نوێ دروست دەکەیت، دەبێت ئەو کەسە بۆ خۆی ڕێکیبخات.</string>
+    <string name="user_add_user_message_update">ئەپەکان دەتوانرێت لە هەر پرۆفایلێکەوە نوێ بکرێنەوە بۆ بەکارهێنان لەلایەن هەموو پرۆفایلەکانی ترەوە.</string>
+    <string name="user_limit_reached_title">گەیشتە سنووری پرۆفایل</string>
+    <string name="user_limit_reached_message">{
+        count, plural,
+            =1    {تەنها یەک پرۆفایل دروست دەکرێت.}
+            other {دەتوانیت تا # پرۆفایل دروست بکەیت.}
+        }</string>
+    <string name="add_user_error_title">پرۆفایلی نوێ دروست نەکرا</string>
+    <string name="delete_user_dialog_title">ئەم پرۆفایلە بسڕدرێتەوە؟</string>
+    <string name="delete_user_dialog_message">"هەموو ئەپ و دراوەکانی ئەم پرۆفایلە دەسڕدرێنەوە"</string>
+    <string name="delete_user_error_title">پرۆفایل نەسڕدرایەوە. دەتوانیت ئامێرەکە پێبکەیتەوە و دووبارە هەوڵ بدەیتەوە.</string>
+    <string name="delete_user_error_set_ephemeral_title">ئەم پرۆفایلە دەسڕدرێتەوە کاتێک پرۆفایلەکان بگۆڕیت یان ئۆتۆمبێلەکە پێبکەیتەوە.</string>
+    <string name="delete_user_error_dismiss">بێدەنگکردن</string>
+    <string name="delete_user_error_retry">هەوڵدانەوە</string>
+    <string name="delete_last_user_dialog_title">دوا پرۆفایلی ماوە بسڕدرێتەوە؟</string>
+    <string name="delete_last_user_delete_warning">"ئەگەر تەنها پرۆفایلی ماوە بۆ ئەم ئۆتۆمبێلە بسڕیتەوە، هەموو دراوە، ڕێکخستن، و ئەپە پەیوەندیدارەکانی ئەم پرۆفایلە دەسڕدرێنەوە."</string>
+    <string name="delete_last_user_system_setup_required_message">"دوای ڕێکخستنەوە، دەتوانیت پرۆفایلێکی نوێ دابنێیت."</string>
+    <string name="choose_new_admin_title">دیاریکردنی بەڕێوەبەری نوێ</string>
+    <string name="choose_new_admin_message">پێویستت بە لایەنی کەم یەک بەڕێوەبەر هەیە. بۆ سڕینەوەی ئەمە، سەرەتا شوێنگرەوەیەک دیاری بکە.</string>
+    <string name="choose_new_admin_label">دیاریکردنی بەڕێوەبەر</string>
+    <string name="user_switch">گۆڕین</string>
+    <string name="current_user_name">تۆ (%1$s)</string>
+    <string name="user_name_label">ناو</string>
+    <string name="user_summary_not_set_up">ڕێکنەخراوە</string>
+    <string name="edit_user_name_title">دەستکاریکردنی ناوی پرۆفایل</string>
+    <string name="name_input_blank_error">خانەکە نابێت بەتاڵ بێت.</string>
+    <string name="name_input_invalid_error">ناوی پرۆفایلی تێکراو نادروستە.</string>
+    <string name="users_list_title">بەکارهێنەران</string>
+    <string name="profiles_list_title">پڕۆفایلەکان</string>
+    <string name="user_details_admin_title">مۆڵەتەکانی بەخشراو بە %1$s</string>
+    <string name="storage_settings_title">بیرگە</string>
+    <string name="storage_music_audio">مۆسیقا و دەنگ</string>
+    <string name="storage_other_apps">ئەپەکانی تر</string>
+    <string name="storage_files">پەڕگەکان</string>
+    <string name="storage_system">سیستم</string>
     <string name="storage_total_label">کۆی گشتی %s</string>
+    <string name="storage_detail_dialog_system">سیستەم ئەو فایلانە لەخۆ دەگرێت کە بۆ کارپێکردنی وەشانی Androidی <xliff:g id="version" example="8.0">%s</xliff:g> بەکاردێن</string>
+    <string name="storage_audio_files_title">پەڕگە دەنگییەکان</string>
+    <string name="memory_calculating_size">لە ئەژمارکردندایە…</string>
+    <string name="storage_application_size_label">قەبارەی بەرنامە</string>
+    <string name="storage_data_size_label">دراوەی پرۆفایل</string>
+    <string name="storage_cache_size_label">کاش</string>
+    <string name="storage_total_size_label">کۆی گشتی</string>
+    <string name="storage_clear_user_data_text">سڕینەوەی بیرگە</string>
+    <string name="storage_clear_cache_btn_text">سڕینەوەی کاش</string>
+    <string name="storage_clear_data_dlg_title">داتاکانی بەرنامە بسڕێتەوە؟</string>
+    <string name="storage_clear_data_dlg_text">دراوەی ئەم ئەپە بە یەکجاری دەسڕدرێتەوە. ئەمە پەڕگەکان، ڕێکخستنەکان، بنکەدراوەکان، و دراوەکانی تری ئەپ دەگرێتەوە.</string>
+    <string name="storage_clear_failed_dlg_text">نەتوانرا بیرگەی بەرنامەکە بسڕێتەوە.</string>
+    <string name="storage_unmount_success">ئامێری <xliff:g id="name" example="SD card">%1$s</xliff:g> بە سەلامەتی دەرهێنرا</string>
+    <string name="storage_unmount_failure">نەتوانرا ئامێری <xliff:g id="name" example="SD card">%1$s</xliff:g> بە سەلامەتی دەربهێنرێت</string>
+    <string name="accounts_settings_title">هەژمارەکان</string>
+    <string name="user_add_account_menu">زیادکردنی ئەژمار</string>
+    <string name="no_accounts_added">هیچ هەژمارێک زیاد نەکراوە</string>
+    <string name="account_list_title">هەژمارەکان بۆ
+        <xliff:g id="current_user_name">%1$s</xliff:g></string>
+    <string name="account_auto_sync_title">هاوکاتکردنی خۆکاری دراوە</string>
+    <string name="account_auto_sync_summary">ڕێگەدان بە بەرنامەکان بۆ نوێکردنەوەی خۆکارانەی داتا</string>
+    <string name="data_usage_auto_sync_on_dialog_title">ڕێگە بە هاوکاتکردنی خۆکاری دراوە بدرێت؟</string>
+    <string name="data_usage_auto_sync_on_dialog">هەر گۆڕانکارییەک لە هەژمارەکانت لە وێبدا بکەیت، خۆکارانە لەبەرگیراوەی دەچێتە ئۆتۆمبێلەکەت.
+
+هەندێک هەژمار لەوانەیە بە پێچەوانەشەوە گۆڕانکارییەکانی سەر ئۆتۆمبێل لە وێبدا نوێ بکەنەوە.</string>
+    <string name="data_usage_auto_sync_off_dialog_title">ڕێگری لە هاوکاتکردنی خۆکاری دراوە بکرێت؟</string>
+    <string name="data_usage_auto_sync_off_dialog">ئەمە دراوە دەپارێزێت، بەڵام پێویستە دەستکردانە هەریەک لە هەژمارەکان هاوکات بکەیت بۆ وەرگرتنی زانیاریی نوێ. هەروەها کاتێک نوێکردنەوە ڕوودەدات ئاگادارکردنەوەت پێ ناگات.</string>
+    <string name="account_details_title">زانیاریی هەژمار</string>
+    <string name="add_account_title">زیادکردنی ئەژمار</string>
+    <string name="add_an_account">زیادکردنی ئەژمارێک</string>
+    <string name="user_cannot_add_accounts_message">پڕۆفایلە سنووردارکراوەکان ناتوانن هەژمار زیاد بکەن</string>
+    <string name="remove_account_title">لادانی هەژمار</string>
+    <string name="really_remove_account_title">هەژمارەکە لابرێت؟</string>
+    <string name="really_remove_account_message">سڕینەوەی ئەم هەژمارە هەموو پەیامەکان، پێوەندییەکان، و دراوەکانی تری لەسەر ئامێرەکە دەسڕێتەوە!</string>
+    <string name="remove_account_error_title">سڕینەوەی هەژمار سەرکەوتوو نەبوو.</string>
+    <string name="account_sync_title">هاوکاتکردنی هەژمار</string>
+    <string name="account_sync_summary_some_on">هاوکاتکردن پێکراوە بۆ <xliff:g name="count" example="5">%1$d</xliff:g> لە <xliff:g name="total" example="8">%2$d</xliff:g> بڕگە</string>
+    <string name="account_sync_summary_all_on">هاوکاتکردن بۆ تەواوی بڕگەکان پێکراوە</string>
+    <string name="account_sync_summary_all_off">هاوکاتکردن بۆ تەواوی بڕگەکان کوژاوەتەوە</string>
+    <string name="sync_disabled">هاوکاتکردن کوژاوەتەوە</string>
+    <string name="sync_error">هەڵەی هاوکاتکردن</string>
+    <string name="last_synced">دواین هاوکاتکردن <xliff:g id="last_sync_time" example="12/05/18, 12:30 PM">%1$s</xliff:g></string>
+    <string name="sync_in_progress">ئێستا لە هاوکاتکردندایە…</string>
+    <string name="sync_one_time_sync">دابگرە بۆ هاوکاتکردنی ئێستا&lt;xliff:g id=\"last_sync_time\" example=\"
+Last synced 12/05/18, 12:30 PM\"&gt;
+%1$s&lt;/xliff:g&gt;</string>
+    <string name="sync_button_sync_now">ئێستا هاوکات بکرێت</string>
+    <string name="sync_button_sync_cancel">هەڵوەشاندنەوەی هاوکاتکردن</string>
+    <string name="sync_is_failing">هاوکاتکردن لەم کاتەدا ڕووبەڕووی کێشە بووەتەوە. بەم زووانە دەگەڕێتەوە.</string>
+    <string name="privacy_settings_title">تایبەتی</string>
+    <string name="privacy_vehicle_data_title">دراوەی سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="privacy_location_summary">کۆنتڕۆڵی دەستگەیشتنی ئەپ بە شوێنەکەت</string>
+    <string name="mute_camera_title">کامێرا</string>
+    <string name="mute_camera_summary">کۆنتڕۆڵی دەستگەیشتنی ئەپ بە کامێراکانت</string>
+    <string name="mute_mic_title">مایکرۆفۆن</string>
+    <string name="mute_mic_summary">کۆنتڕۆڵی دەستگەیشتنی ئەپ بە مایکرۆفۆن</string>
+    <string name="vehicle_data_title">دراوەی سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="vehicle_data_summary">بەڕێوەبردنی چالاکییەکان و زانیاریی پاشەکەوتکراو لەسەر ئەم ئۆتۆمبێلە</string>
+    <string name="vehicle_data_delete_user_title">سڕینەوەی پرۆفایلەکەت</string>
+    <string name="vehicle_data_delete_user_summary">سڕینەوەی پرۆفایل و هەژمارەکانت لە سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="action_unavailable">ئەم کردارە بۆ پرۆفایلەکەت بەردەست نییە</string>
+    <string name="microphone_access_settings_title">دەستپێڕاگەیشتن بە مایکرۆفۆن</string>
+    <string name="microphone_access_settings_summary">هەڵبژێرە ئایا بەرنامەکان دەتوانن دەستیان بە مایکرۆفۆنەکانی ئۆتۆمبێلەکەت بگات</string>
+    <string name="microphone_infotainment_apps_toggle_title">بەرنامەکانی کات بەسەربردن</string>
+    <string name="microphone_infotainment_apps_toggle_summary">ڕێگەدان بە بەرنامەکانی کات بەسەربردن بۆ تۆمارکردنی دەنگ</string>
+    <string name="camera_access_settings_title">دەستپێڕاگەیشتن بە کامێرا</string>
+    <string name="camera_access_settings_summary">هەڵبژێرە ئاخۆ ئەپەکان دەتوانن دەستیان بە کامێراکانی ئۆتۆمبێلەکەت بگات</string>
+    <string name="required_apps_group_title">ئەپە داواکراوەکان</string>
+    <string name="required_apps_group_summary">ئەو بەرنامانەی لەلایەن دروستکەری ئۆتۆمبێلەکەتەوە پێویستن بۆ یارمەتیدانت لە لێخوڕین</string>
+    <string name="required_apps_privacy_policy_button_text">سیاسەت</string>
+    <string name="camera_access_disclaimer_summary">لەوانەیە دروستکەری ئۆتۆمبێلەکەت هێشتا دەستی بە کامێرای ئۆتۆمبێلەکەت بگات</string>
+    <string name="camera_infotainment_apps_toggle_title">بەرنامەکانی کات بەسەربردن</string>
+    <string name="camera_infotainment_apps_toggle_summary">ڕێگەدان بە بەرنامەکانی کات بەسەربردن بۆ گرتنی وێنە و تۆمارکردنی ڤیدیۆ</string>
+    <string name="permission_grant_allowed">ڕێگەپێدراوە</string>
+    <string name="permission_grant_always">هەموو کاتێک</string>
+    <string name="permission_grant_never">ڕێگەپێنەدراوە</string>
+    <string name="permission_grant_in_use">تەنها لە کاتی بەکارهێنانی بەرنامەکەدا</string>
+    <string name="permission_grant_ask">هەر جارەو بپرسە</string>
     <string name="app_function_access_settings_title">کۆنتڕۆڵی بریکار لەسەر بەرنامەکانی تر</string>
     <string name="app_function_access_settings_summary">ئەنجامدانی کردار لەسەر ئامێرەکەت و لە ناو بەرنامەکانی تردا</string>
+    <string name="agent_app_function_access_settings_title">دەستپێڕاگەیشتنی ئەپ</string>
+    <string name="agent_app_function_access_settings_summary">ڕێگە بدە بەم بریکارە دەستی بە زانیارییەکان بگات یان کردار ئەنجام بدات لە بەرنامەکاندا</string>
+    <string name="target_app_function_access_settings_title">دەستگەیشتنی بریکار</string>
+    <string name="target_app_function_access_settings_summary">ئەو بریکارانەی دەتوانن دەستیان بە زانیارییەکان بگات یان کردار ئەنجام بدەن لەم بەرنامەیەدا</string>
+    <string name="security_settings_title">ئاسایش</string>
+    <string name="security_settings_subtitle">قوفڵکردنی ڕوونما</string>
+    <string name="security_lock_none">هیچ</string>
+    <string name="security_lock_pattern">شێواز (Pattern)</string>
+    <string name="security_lock_pin">پین</string>
+    <string name="security_lock_password">تێپەڕەوشە</string>
+    <string name="lock_settings_picker_title">جۆری قوفڵ دیاری بکە</string>
+    <string name="screen_lock_options">هەڵبژاردەکانی قوفڵ</string>
+    <string name="lock_settings_enter_pattern">نەخشەکەت بنووسە</string>
+    <string name="lockpattern_confirm_button_text">پەسەندکردن</string>
+    <string name="lockpattern_restart_button_text">دووبارە کێشانەوە</string>
+    <string name="continue_button_text">بەردەوامبوون</string>
+    <string name="lockscreen_retry_button_text">هەوڵدانەوە</string>
+    <string name="lockscreen_skip_button_text">تێپەڕاندن</string>
+    <string name="set_screen_lock">قوفڵی ڕوونما دابنێ</string>
+    <string name="lockscreen_choose_your_pin">کۆدی PIN دیاری بکە</string>
+    <string name="lockscreen_choose_your_password">تێپەڕەوشەکەت دیاری بکە</string>
+    <string name="current_screen_lock">قوفڵی ئێستای ڕوونما</string>
+    <string name="choose_lock_pattern_message">بۆ ئاسایش، نەخشەیەک دابنێ</string>
+    <string name="lockpattern_retry_button_text">پاککردنەوە</string>
+    <string name="lockpattern_cancel_button_text">پاشگەزبوونەوە</string>
+    <string name="lockpattern_pattern_confirmed">نەخشەی نوێی کردنەوەی تۆ</string>
+    <string name="lockpattern_recording_intro_header">نەخشەیەکی کردنەوە بکێشە</string>
+    <string name="lockpattern_recording_inprogress">دوای تەواوبوون پەنجەت بەرز بکەرەوە</string>
+    <string name="lockpattern_pattern_entered">نەخشەکە تۆمار کرا</string>
+    <string name="lockpattern_need_to_confirm">بۆ دووپاتکردنەوە، نەخشەکە دووبارە بکێشەرەوە</string>
+    <string name="lockpattern_recording_incorrect_too_short">لایەنی کەم 4 خاڵ پێکەوە ببەستەرەوە. دووبارە هەوڵ بدەرەوە.</string>
+    <string name="lockpattern_pattern_wrong">نەخشە چەوتە</string>
+    <string name="lockpattern_settings_help_how_to_record">چۆنیەتیی کێشانی نەخشەی کردنەوە</string>
+    <string name="error_saving_lockpattern">هەڵە لە پاشەکەوتکردنی نەخشەدا</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">هەوڵە نادروستەکان زۆر بوون. دووبارە تاقیی بکەرەوە دوای 1 ژمارە چرکە.</string>
+    <string name="lockpattern_does_not_support_rotary">نەخشە پاڵپشتیی سووڕاو ناکات، تکایە دەست لێدان بەکاربهێنە</string>
+    <string name="okay">باشە</string>
+    <string name="remove_screen_lock_title">قوفڵی شاشە لاببرێت؟</string>
+    <string name="remove_screen_lock_message">ئەمە ڕێگە بە هەر کەسێک دەدات دەستی بە هەژمارەکەت بگات</string>
+    <string name="security_profile_lock_title">قوفڵی پرۆفایل</string>
+    <string name="security_unlock_profile_summary">ڕێکخستنی کردنەوەی خۆکار</string>
+    <string name="lock_settings_enter_pin">ژمارەی نهێنی (PIN) بنووسە</string>
+    <string name="lock_settings_enter_password">تێپەڕەوشەکەت بنووسە</string>
+    <string name="choose_lock_pin_message">بۆ ئاسایش، کۆدی PIN دابنێ</string>
+    <string name="confirm_your_pin_header">کۆدی پینەکەت دووبارە بنووسەوە</string>
+    <string name="choose_lock_pin_hints">کۆدی PIN دەبێت لایەنی کەم 4 ژمارە بێت</string>
+    <string name="lockpin_invalid_pin">کۆدی PIN نادروستە، دەبێت لایەنی کەم 4 ژمارە بێت.</string>
+    <string name="confirm_pins_dont_match">کۆدە PINـەکان هاوتا نین</string>
+    <string name="error_saving_lockpin">هەڵە لە پاشەکەوتکردنی PIN</string>
+    <string name="lockscreen_wrong_pin">کۆدی PINـی هەڵە</string>
+    <string name="lockscreen_wrong_password">تێپەڕەوشە چەوتە</string>
+    <string name="choose_lock_password_message">بۆ ئاسایش، تێپەڕەوشەیەک دابنێ</string>
+    <string name="confirm_your_password_header">تێپەڕەوشەکەت دووبارە بنووسەوە</string>
+    <string name="confirm_passwords_dont_match">تێپەڕەوشەکان هاوتا نین</string>
+    <string name="lockpassword_clear_label">پاککردنەوە</string>
+    <string name="lockpassword_cancel_label">پاشگەزبوونەوە</string>
+    <string name="lockpassword_confirm_label">پەسەندکردن</string>
+    <string name="choose_lock_password_hints">دەبێت لایەنی کەم 4 نووسە بێت</string>
+    <string name="locktype_unavailable">ئەم جۆرەی قوفڵ بەردەست نییە.</string>
+    <string name="lockpassword_pin_contains_non_digits">دەبێت تەنها ژمارەکانی 0-9 لەخۆ بگرێت.</string>
+    <string name="lockpassword_pin_recently_used">بەرێوەبەری ئامێرەکە ڕێگە نادات بە بەکارهێنانی پینی ئەم دواییە</string>
+    <string name="lockpassword_pin_denylisted_by_admin">کۆدە باوەکانی PIN لەلایەن بەڕێوەبەری ITـی تۆوە بلۆک کراون. کۆدێکی تری PIN تاقی بکەرەوە.</string>
+    <string name="lockpassword_illegal_character">ئەمە ناتوانێت نووسەی نادروست لەخۆ بگرێت.</string>
+    <string name="lockpassword_invalid_password">تێپەڕەوشە نادروستە، دەبێت لایەنی کەم 4 نووسە بێت.</string>
+    <string name="lockpassword_password_recently_used">بەڕێوەبەری ئامێر ڕێگە بە بەکارهێنانی تێپەڕەوشەیەکی نوێ نادات</string>
+    <string name="error_saving_password">هەڵە لە پاشەکەوتکردنی تێپەڕەوشەدا</string>
+    <string name="lockpassword_password_denylisted_by_admin">تێپەڕەوشە باوەکان لەلایەن بەڕێوەبەری ITـی تۆوە بلۆک کراون. تێپەڕەوشەیەکی تر تاقی بکەرەوە.</string>
+    <string name="lockpassword_password_requires_alpha">دەبێت لایەنی کەم یەک پیتی تێدا بێت</string>
+    <string name="lockpassword_password_requires_digit">دەبێت لایەنی کەم یەک ژمارەی تێدا بێت</string>
+    <string name="lockpassword_password_requires_symbol">دەبێت لایەنی کەم یەک هێمای تێدا بێت</string>
+    <string name="lockpassword_password_requires_letters">{
+        count, plural,
+        =1    {دەبێت لایەنی کەم # پیتی تێدا بێت}
+        other {دەبێت لایەنی کەم # پیتی تێدا بێت}
+        }</string>
+    <string name="lockpassword_password_requires_lowercase">{
+        count, plural,
+        =1    {دەبێت لایەنی کەم # پیتی بچووکی تێدا بێت}
+        other {دەبێت لایەنی کەم # پیتی بچووکی تێدا بێت}
+        }</string>
+    <string name="lockpassword_password_requires_uppercase">{
+        count, plural,
+        =1    {دەبێت لایەنی کەم # پیتی گەورەی تێدا بێت}
+        other {دەبێت لایەنی کەم # پیتی گەورەی تێدا بێت}
+        }</string>
+    <string name="lockpassword_password_requires_numeric">{
+        count, plural,
+        =1    {دەبێت لایەنی کەم # ژمارەی تێدا بێت}
+        other {دەبێت لایەنی کەم # ژمارەی تێدا بێت}
+        }</string>
+    <string name="lockpassword_password_requires_symbols">{
+        count, plural,
+        =1    {دەبێت لایەنی کەم # هێمای تایبەتی تێدا بێت}
+        other {دەبێت لایەنی کەم # هێمای تایبەتی تێدا بێت}
+        }</string>
+    <string name="lockpassword_password_requires_nonletter">{
+        count, plural,
+        =1    {دەبێت لایەنی کەم # نووسەی ناپیتی تێدا بێت}
+        other {دەبێت لایەنی کەم # نووسەی ناپیتی تێدا بێت}
+        }</string>
+    <string name="lockpassword_password_requires_nonnumerical">{
+        count, plural,
+        =1    {دەبێت لایەنی کەم # نووسەی ناژمارەیی تێدا بێت}
+        other {دەبێت لایەنی کەم # نووسەی ناژمارەیی تێدا بێت}
+        }</string>
+    <string name="lockpassword_password_too_short">{
+        count, plural,
+        =1    {دەبێت لایەنی کەم # نووسە بێت}
+        other {دەبێت لایەنی کەم # نووسە بێت}
+        }</string>
+    <string name="lockpassword_pin_too_short">{
+        count, plural,
+        =1    {دەبێت لایەنی کەم # ژمارە بێت}
+        other {دەبێت لایەنی کەم # ژمارە بێت}
+        }</string>
+    <string name="lockpassword_password_too_long">{
+        count, plural,
+        =1    {دەبێت کەمتر بێت لە # نووسە}
+        other {دەبێت کەمتر بێت لە # نووسە}
+        }</string>
+    <string name="lockpassword_pin_too_long">{
+        count, plural,
+        =1    {دەبێت کەمتر بێت لە # ژمارە}
+        other {دەبێت کەمتر بێت لە # ژمارە}
+        }</string>
+    <string name="lockpassword_pin_no_sequential_digits">ڕیزبەندیی سەرکەوتوو، داکەوتوو، یان دووبارەبووەوەی ژمارەکان ڕێگەپێدراو نییە</string>
+    <string name="setup_lock_settings_options_button_label">بژاردەکانی قوفڵی ڕوونما</string>
+    <string name="credentials_reset">سڕینەوەی بڕوانامەکان</string>
+    <string name="credentials_reset_summary">لادانی تەواوی بڕوانامەکان</string>
+    <string name="credentials_reset_hint">تەواوی ناوەرۆکەکان لابرێن؟</string>
+    <string name="credentials_erased">بیرگەی بڕوانامەکان سڕدراوەوە.</string>
+    <string name="credentials_not_erased">نەتوانرا بیرگەی بڕوانامەکان بسڕدرێتەوە.</string>
+    <string name="forget">لەبیرکردن</string>
+    <string name="connect">پەیوەستبوون</string>
+    <string name="disconnect">پچڕاندنی پەیوەندی</string>
+    <string name="delete_button">سڕینەوە</string>
+    <string name="remove_button">سڕینەوە</string>
+    <string name="cancel">پاشگەزبوونەوە</string>
+    <string name="allow">ڕێگەدان</string>
+    <string name="do_not_allow">ڕێگە مەدە</string>
+    <string name="deny">ڕەتکردنەوە</string>
+    <string name="backspace_key">دوگمەی Backspace</string>
+    <string name="enter_key">دوگمەی Enter</string>
+    <string name="exit_retail_button_text">دەرچوون لە تاقیکاری</string>
+    <string name="exit_retail_mode_dialog_title">دەرچوون لە دۆخی تاقیکاری</string>
+    <string name="exit_retail_mode_dialog_body">ئەمە هەژماری تاقیکاری دەسڕێتەوە و دراوەی سیستەمەکە دەگەڕێنێتەوە بۆ دۆخی کارگە. هەموو دراوەی پرۆفایل لەدەست دەچێت.</string>
+    <string name="exit_retail_mode_dialog_confirmation_button_text">دەرچوون لە تاقیکاری</string>
+    <string name="suggestion_dismiss_button">ڕەتکردنەوە</string>
+    <string name="restricted_while_driving">تایبەتمەندی لە کاتی لێخوڕیندا بەردەست نییە</string>
+    <string name="restricted_for_passenger">داوا لە شۆفێر بکە بۆ گۆڕینی ڕێکخستن</string>
+    <string name="restricted_for_driver">ناتوانیت ئەم کردارە ئەنجام بدەیت</string>
+    <string name="add_user_restricted_while_driving">لە کاتی شۆفێریدا پرۆفایل زیاد ناکرێت</string>
+    <string name="default_search_query">گەڕان</string>
+    <string name="assistant_and_voice_setting_title">یاریدەدەر و دەنگ</string>
+    <string name="assistant_and_voice_assistant_app_title">بەرنامەی یاریدەدەری دیجیتاڵی</string>
+    <string name="assistant_and_voice_use_text_from_screen_title">بەکارهێنانی دەق لە ڕوونماوە</string>
+    <string name="assistant_and_voice_use_text_from_screen_summary">ڕێگەدان بە یاریدەدەر بۆ دەستگەیشتن بە ناوەڕۆکی شاشە</string>
+    <string name="assistant_and_voice_use_screenshot_title">بەکارهێنانی وێنەی ڕوونما</string>
+    <string name="assistant_and_voice_use_screenshot_summary">ڕێگەدان بە یاریدەدەر بۆ دەستگەیشتن بە وێنەی شاشە</string>
+    <string name="notifications_recently_sent">نوێترین نێردراوەکان</string>
+    <string name="notifications_all_apps">هەموو بەرنامەکان</string>
+    <string name="profiles_and_accounts_settings_title">پرۆفایلەکان و هەژمارەکان</string>
+    <string name="manage_other_profiles_button_text">بەڕێوەبردنی پرۆفایلەکانی تر</string>
+    <string name="add_a_profile_button_text">زیادکردنی پرۆفایل</string>
+    <string name="delete_this_profile_text">سڕینەوەی ئەم پرۆفایلە</string>
+    <string name="add_profile_text">زیادکردنی پرۆفایل</string>
+    <string name="cannot_remove_driver_profile">ئەم پرۆفایلە لە ئێستادا وەک شۆفێر چووەتە ژوورەوە. دواتر هەوڵ بدەرەوە کاتێک پرۆفایلەکە وەک شۆفێر لە بەکارهێناندا نییە.</string>
+    <string name="qc_display_brightness">ڕووناکیی پیشاندەر</string>
+    <string name="qc_bluetooth_off_devices_info">بۆ بینینی ئامێرەکانت، بلووتووز چالاک بکە</string>
+    <string name="qc_bluetooth_on_no_devices_info">بۆ جووتکردنی ئامێرێک، ڕێکخستنەکانی بلووتووز بکەرەوە</string>
+    <string name="qc_ui_mode_title">ڕوکار</string>
+    <string name="driving_mode_title">دانانی لێخوڕین</string>
+    <string name="show_layout_bounds_title">پیشاندانی سنوورەکانی ڕووکار</string>
+    <string name="show_force_rtl_title">سەپاندنی ئاڕاستەی ڕووبەرگەی ڕاست-بۆ-چەپ (RTL)</string>
+    <string name="device_admin_add_title">بەڕێوەبەری سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="device_admin_activated_apps">ئەپە چالاککراوەکان</string>
+    <string name="device_admin_deactivated_apps">ئەپە ناچالاککراوەکان</string>
+    <string name="device_admin_apps_description">ئەو ئەپانەی ئەم مۆڵەتەیان هەیە دەستیان بە دراوەی ئەم ئۆتۆمبێلە دەگات</string>
+    <string name="device_admin_apps_list_empty">هیچ ئەپێکی بەڕێوەبەری ئۆتۆمبێل نییە</string>
+    <string name="device_admin_status">ئەم ئەپەی بەڕێوەبەری سیستەمی زانیاری-کات بەسەربردن چالاکە و ڕێگە بە ئەپی <xliff:g id="app_name">%1$s</xliff:g> دەدات ئەم کارانەی خوارەوە ئەنجام بدات:</string>
+    <string name="device_admin_warning">چالاککردنی ئەم ئەپەی سیستەمی زانیاری-کات بەسەربردن ڕێگە بە ئەپی <xliff:g id="app_name">%1$s</xliff:g> دەدات ئەم کارانەی خوارەوە ئەنجام بدات:</string>
+    <string name="add_device_admin_msg">ئەم ئەپەی سیستەمی زانیاری-کات بەسەربردن چالاک بکرێت؟</string>
+    <string name="add_device_admin">چالاککردنی ئەم ئەپەی سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="deactivate_and_uninstall_device_admin">ناچالاککردن و لادان</string>
+    <string name="remove_device_admin">ناچالاککردنی ئەم ئەپەی سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="admin_profile_owner_message">بەڕێوەبەری ڕێکخراو دەتوانێت چاودێری و بەڕێوەبردنی ئەو ئەپ و دراوانە بکات کە پەیوەستن بەم پرۆفایلە، لەوانەش ڕێکخستنەکان، مۆڵەتەکان، دەستگەیشتنی کۆمپانیا، چالاکیی تۆڕ، و زانیاریی شوێنی ئۆتۆمبێل.</string>
+    <string name="admin_profile_owner_user_message">بەڕێوەبەری ڕێکخراو دەتوانێت چاودێری و بەڕێوەبردنی ئەو ئەپ و دراوانە بکات کە پەیوەستن بەم پرۆفایلە، لەوانەش ڕێکخستنەکان، مۆڵەتەکان، دەستگەیشتنی کۆمپانیا، چالاکیی تۆڕ، و زانیاریی شوێنی ئامێرەکە.</string>
+    <string name="admin_device_owner_message">بەڕێوەبەری ڕێکخراو دەتوانێت چاودێری و بەڕێوەبردنی ئەو ئەپ و دراوانە بکات کە پەیوەستن بەم سیستەمی زانیاری-کات بەسەربردنە، لەوانەش ڕێکخستنەکان، مۆڵەتەکان، دەستگەیشتنی کۆمپانیا، چالاکیی تۆڕ، و زانیاریی شوێنی ئۆتۆمبێل.</string>
+    <string name="admin_financed_message">لەوانەیە بەڕێوەبەری ڕێکخراو بتوانێت دەستی بگات بە دراوەی پەیوەندیدار بەم سیستەمی زانیاری-کات بەسەربردنە، ئەپەکان بەڕێوەببات، و ڕێکخستنەکانی ئەم ئۆتۆمبێلە بگۆڕێت.</string>
+    <string name="disabled_by_policy_title">ئەوە بەردەست نییە</string>
+    <string name="disabled_by_policy_title_adjust_volume">دەنگ لەم ئۆتۆمبێلە بەڕێوەبراوەدا ناگۆڕدرێت</string>
+    <string name="disabled_by_policy_title_outgoing_calls">پەیوەندی لەم ئۆتۆمبێلە بەڕێوەبراوەدا ئەنجام نادرێت</string>
+    <string name="disabled_by_policy_title_sms">پەیامی کورت لەم ئۆتۆمبێلە بەڕێوەبراوەدا ڕێگەپێدراو نییە</string>
+    <string name="disabled_by_policy_title_camera">کامێرا لەم ئۆتۆمبێلە بەڕێوەبراوەدا بەردەست نییە</string>
+    <string name="disabled_by_policy_title_screen_capture">گرتەی شاشە لەم ئۆتۆمبێلە بەڕێوەبراوەدا ناگیرێت</string>
+    <string name="disabled_by_policy_title_suspend_packages">ئەم ئەپە لەم ئۆتۆمبێلە بەڕێوەبراوەدا ناکرێتەوە</string>
+    <string name="disabled_by_policy_title_financed_device">ئاستەنگ کراوە لەلایەن دابینکەری قەرزەکەتەوە</string>
+    <string name="default_admin_support_msg">دەستگەیشتن بە هەندێک تایبەتمەندی لەلایەن ڕێکخراوەکەوە سنووردار کراوە.
+
+ئەگەر پرسیارت هەیە، پەیوەندی بە بەڕێوەبەری ڕێکخراوەکەوە بکە.</string>
+    <string name="manage_device_admin">ئەپەکانی بەڕێوەبەری ئۆتۆمبێل</string>
+    <string name="number_of_device_admins">{
+        count, plural,
+        =1    {# ئەپی چالاککراو}
+        other {# ئەپی چالاککراو}
+        }</string>
+    <string name="number_of_device_admins_none">هیچ ئەپێکی چالاککراو نییە</string>
+    <string name="work_policy_privacy_settings"><xliff:g id="organization_name">%1$s</xliff:g> سیاسەتی ئۆتۆمبێلی</string>
+    <string name="work_policy_privacy_settings_no_org_name">سیاسەتی ئۆتۆمبێل</string>
+    <string name="work_policy_privacy_settings_summary">ڕێکخستنەکانی بەڕێوەبراو لەلایەن بەڕێوەبەری ڕێکخراوەوە</string>
+    <string name="footer_learn_more_content_description">دەربارەی <xliff:g id="service" example="Select to Speak">%1$s</xliff:g> زیاتر فێربە</string>
+    <string name="enterprise_privacy_settings">زانیاریی ئۆتۆمبێلی بەڕێوەبراو</string>
+    <string name="enterprise_privacy_settings_summary_generic">ڕێکخستنەکانی بەڕێوەبراو لەلایەن بەڕێوەبەری پۆلەوە</string>
+    <string name="enterprise_privacy_header">بۆ دابینکردنی دەستگەیشتن بە دراوە لەسەر ئەم ئۆتۆمبێلە بەڕێوەبراوە، لەوانەیە بەڕێوەبەری پۆل ڕێکخستنەکان بگۆڕێت و نەرمەکاڵا لەسەر سیستەمی زانیاری-کات بەسەربردن دابمەزرێنێت.
+
+بۆ وردەکاریی زیاتر، پەیوەندی بە بەڕێوەبەری پۆلەکەتەوە بکە.</string>
+    <string name="enterprise_privacy_exposure_category">ئەو زانیارییانەی کە بەڕێوەبەری پۆلەکەت دەتوانێت بیبینێت</string>
+    <string name="enterprise_privacy_exposure_changes_category">ئەو گۆڕانکارییانەی کە لەلایەن بەڕێوەبەری پۆلەکەتەوە کراون</string>
+    <string name="enterprise_privacy_exposure_desc"><li>دراوەی پەیوەندیدار بە هەژماری ئۆتۆمبێلە بەڕێوەبراوەکەت</li>
+<li>پێڕستی ئەپەکانی سەر ئۆتۆمبێلە بەڕێوەبراوەکەت</li>
+<li>بڕی کات و دراوەی بەکارهاتوو لە هەر ئەپێکدا</li></string>
+    <string name="enterprise_privacy_device_access_category">دەستگەیشتنی تۆ بە سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="enterprise_privacy_installed_packages">پێڕستی ئەپەکانی سەر ئۆتۆمبێلەکەت</string>
+    <string name="enterprise_privacy_apps_count_estimation_info">ژمارەی بەرنامەکان خەمڵێنراوە. ڕەنگە ئەو بەرنامانە نەگرێتەوە کە لە دەرەوەی Play Store دابەزێنراون.</string>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="one">کەمترین <xliff:g id="count">%d</xliff:g> ئەپ</item>
+        <item quantity="other">کەمترین <xliff:g id="count">%d</xliff:g> ئەپ</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> ئەپ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> ئەپ</item>
+    </plurals>
+    <string name="enterprise_privacy_network_logs">دوا مێژووی لۆگی هاتوچۆی تۆڕەکە</string>
+    <string name="enterprise_privacy_bug_reports">دوا ڕاپۆرتی هەڵە</string>
+    <string name="enterprise_privacy_security_logs">دوا لۆگی ئاسایش</string>
+    <string name="enterprise_privacy_none">هیچ</string>
+    <string name="enterprise_privacy_enterprise_installed_packages">بەرنامە دامەزراوەکان</string>
+    <string name="enterprise_privacy_location_access">ڕێپێدانەکانی شوێن</string>
+    <string name="enterprise_privacy_microphone_access">ڕێپێدانەکانی مایکرۆفۆن</string>
+    <string name="enterprise_privacy_camera_access">ڕێپێدانەکانی کامێرا</string>
+    <string name="enterprise_privacy_enterprise_set_default_apps">بەرنامە بنەڕەتییەکان</string>
+    <string name="enterprise_privacy_input_method">تەختەکلیلی بنەڕەتی</string>
+    <string name="enterprise_privacy_input_method_name">جێگیر کراوە لەسەر <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
+    <string name="enterprise_privacy_global_http_proxy">پڕۆکسیی گشتیی HTTP جێگیر کراوە</string>
+    <string name="enterprise_privacy_ca_certs_personal">بڕوانامە جێمتمانەکان لە پڕۆفایلی کەسیتدا</string>
+    <string name="enterprise_privacy_device_access_desc"><li>بەڕێوەبەر دەتوانێت سیستەمی زانیاری-کات بەسەربردن قوفڵ بکات و تێپەڕەوشە ڕێکبخاتەوە</li>
+<li>بەڕێوەبەر دەتوانێت دراوەی سەر سیستەمی زانیاری-کات بەسەربردن بسڕێتەوە</li></string>
+    <string name="enterprise_privacy_failed_password_wipe_device">هەوڵە شکستخواردووەکانی تێپەڕەوشە پێش سڕینەوەی هەموو دراوەی سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="enterprise_privacy_failed_password_wipe_current_user">هەوڵە شکستخواردووەکانی تێپەڕەوشە پێش سڕینەوەی دراوەی پرۆفایل</string>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> هەوڵ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> هەوڵ</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="one" translatable="false">ئەپی کامێرا</item>
+        <item quantity="other" translatable="false">ئەپەکانی کامێرا</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="one" translatable="false">ئەپی کڕیاری ئیمەیڵ</item>
+        <item quantity="other" translatable="false">ئەپەکانی کڕیاری ئیمەیڵ</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="one" translatable="false">بەرنامەی تەلەفۆن</item>
+        <item quantity="other" translatable="false">ئەپەکانی تەلەفۆن</item>
+    </plurals>
+    <string name="share_remote_bugreport_dialog_title">هاوبەشکردنی ڕاپۆرتی کێشەکە؟</string>
+    <string name="share_remote_bugreport_dialog_message_finished">بەڕێوەبەری ڕێکخراوی ئەم ئۆتۆمبێلە داوای ڕاپۆرتی هەڵەی کردووە بۆ یارمەتیدان لە چارەسەرکردنی کێشەکانی ئەم ئامێرە. لەوانەیە ئەپەکان و دراوەکان هاوبەش بکرێن.</string>
+    <string name="share_remote_bugreport_dialog_message">بەڕێوەبەری ڕێکخراوی ئەم ئۆتۆمبێلە داوای ڕاپۆرتی هەڵەی کردووە بۆ یارمەتیدان لە چارەسەرکردنی کێشەکانی ئەم ئامێرە. لەوانەیە ئەپەکان و دراوەکان هاوبەش بکرێن، و ئامێرەکەت بۆ ماوەیەکی کاتی هێواش بێتەوە.</string>
+    <string name="sharing_remote_bugreport_dialog_message">ئەم ڕاپۆرتەی هەڵە لەگەڵ بەڕێوەبەری ڕێکخراوی ئەم ئۆتۆمبێلە هاوبەش دەکرێت. بۆ وردەکاریی زیاتر پەیوەندییان پێوە بکە.</string>
+    <string name="share_remote_bugreport_action">هاوبەشکردن</string>
+    <string name="decline_remote_bugreport_action">ڕەتکردنەوە</string>
+    <string name="factory_reset_parked_title">ڕێکخستنەوەی سیستەمی زانیاری-کات بەسەربردن</string>
+    <string name="factory_reset_parked_text">سیستەمەکەت داواکارییەکی گەڕاندنەوە بۆ دۆخی کارگە و سڕینەوەی هەموو دراوەکانی پێگەیشتووە. دەتوانیت ئێستا ڕێکیبخەیتەوە، یان کاتێک جارێکی تر ئۆتۆمبێلەکە دادەگیرسێت ڕێکدەخرێتەوە. پاشان دەتوانیت پرۆفایلێکی نوێ دابنێیت.</string>
+    <string name="factory_reset_now_button">ئێستا ڕێکیبخەرەوە</string>
+    <string name="factory_reset_later_button">دواتر ڕێکیبخەرەوە</string>
+    <string name="factory_reset_later_text">سیستەمی زانیاری-کات بەسەربردن جاری داهاتوو کە ئۆتۆمبێلەکە دادەگیرسێت ڕێکدەخرێتەوە.</string>
+    <string name="factory_reset_driving_text">پێویستە ئۆتۆمبێلەکە پارک کرابێت بۆ دەستپێکردنی ڕێکخستنەوە.</string>
+    <string name="power_component_disabled">لە ئێستادا ئەم ڕێکخستنە ناگۆڕدرێت</string>
+    <string name="accessibility_settings_title">دەستپێڕاگەیشتن</string>
+    <string name="accessibility_settings_captions_title">ژێرنووسەکان</string>
+    <string name="captions_settings_title">هەڵبژاردنەکانی ژێرنووس</string>
+    <string name="captions_settings_off">ناچالاک</string>
+    <string name="captions_settings_on">چالاک</string>
+    <string name="screen_reader_settings_title">ڕوونمای خوێنەر</string>
+    <string name="show_captions_toggle_title">پیشاندانی ژێرنووسەکان</string>
+    <string name="captions_text_size_title">قەبارەی دەق</string>
+    <string name="captions_settings_style_header">قەبارە و شێوازی ژێرنووس</string>
+    <string name="captions_settings_text_size_very_small">زۆر بچووک</string>
+    <string name="captions_settings_text_size_small">بچووک</string>
+    <string name="captions_settings_text_size_default">بنەڕەتی</string>
+    <string name="captions_settings_text_size_large">گەورە</string>
+    <string name="captions_settings_text_size_very_large">زۆر گەورە</string>
+    <string name="captions_text_style_title">شێوازی ژێرنووس</string>
+    <string name="captions_settings_text_style_by_app">دیاریکراو لەلایەن بەرنامەوە</string>
+    <string name="captions_settings_text_style_white_on_black">سپی لەسەر ڕەش</string>
+    <string name="captions_settings_text_style_black_on_white">ڕەش لەسەر سپی</string>
+    <string name="captions_settings_text_style_yellow_on_black">زەرد لەسەر ڕەش</string>
+    <string name="captions_settings_text_style_yellow_on_blue">زەرد لەسەر شین</string>
+    <string name="accessibility_settings_screen_reader_title">ڕوونمای خوێنەر</string>
+    <string name="screen_reader_settings_off">ناچالاک</string>
+    <string name="screen_reader_settings_on">خوێندنەوەی بڕگەکانی سەر شاشە</string>
+    <string name="enable_screen_reader_toggle_title">بەکارهێنانی <xliff:g id="accessibility_app_name" example="TalkBack">%1$s</xliff:g></string>
+    <string name="screen_reader_options_title">بژاردەکان</string>
+    <string name="screen_reader_description_title">ڕێکخستنەکان</string>
+    <string name="camera_settings_title">کامێرا</string>
+    <string name="camera_toggle_title">بەکارهێنانی کامێرا</string>
+    <string name="camera_toggle_summary">ڕێگەدان بە هەموو ئەپەکان بۆ دەستگەیشتن بە کامێراکەت</string>
+    <string name="camera_manage_permissions">بەڕێوەبردنی مۆڵەتەکانی کامێرا</string>
+    <string name="camera_recently_accessed">لەم دواییانەدا دەستیپێگەیشتووە</string>
+    <string name="camera_no_recent_access">هیچ ئەپێکی نوێ نییە</string>
+    <string name="camera_app_permission_summary_camera_off">0 ئەپ دەستیان پێڕادەگات</string>
+    <string name="camera_app_permission_summary_camera_on">{
+        count, plural,
+            =1    {# لە {total_count} ئەپ دەستی پێڕادەگات}
+            other {# لە {total_count} ئەپ دەستیان پێڕادەگات}
+        }</string>
+    <string name="camera_settings_recent_requests_title">لەم دواییانەدا دەستیپێگەیشتووە</string>
+    <string name="camera_settings_recent_requests_view_all_title">بینینی هەمووی</string>
+    <string name="camera_settings_loading_app_permission_stats">بارکردن…</string>
+    <string name="data_subscription_explore_options">بینینی پلانەکان</string>
+    <string name="connectivity_inactive_prompt">پلانەکانی ئینتەرنێتت بەسەرچوون</string>
+    <string name="connectivity_inactive_action_text">بینینی پلانەکان</string>
+    <string name="audio_route_dialog_neutral_button_text">کراو</string>
+    <string name="unsupported_intents_toast_text">ئۆتۆمبێلەکەت پشتگیری لەم تایبەتمەندییە ناکات</string>
+    <string name="dialog_close_button_text">داخستن</string>
+    <string name="dialog_apply_button_text">جێبەجێکردن</string>
+    <string name="dialog_create_button_text">دروستکردن</string>
     <string name="aspect_ratio_dialog_title">ڕێکخستنەکانی ڕێژەی ڕوونما (Aspect Ratio)</string>
     <string name="aspect_ratio_dialog_message">بەرنامەکە لە کاتی گۆڕینی ڕێژەی ڕوونما دووبارە دادەگیرسێتەوە. لەوانەیە داتا پاشەکەوت نەکراوەکانت لەدەست بدەیت. هەندێک بەرنامە لەوانەیە بۆ هەندێک ڕێژەی ڕوونما نەگونجاو بن.</string>
-    <string name="aspect_ratio_dialog_close_button_text">داخستن</string>
-    <string name="aspect_ratio_dialog_apply_button_text">جێبەجێکردن</string>
+    <string name="aspect_ratio_dialog_app_default_text">بنەڕەتیی بەرنامە</string>
+    <string name="aspect_ratio_dialog_full_screen_text">تەواوی ڕوونما</string>
+    <string name="aspect_ratio_dialog_half_screen_text">نیوەی ڕوونما</string>
+    <string name="aspect_ratio_set_error">نوێکردنەوەی ڕێکخستنەکانی ڕێژەی ڕوونما سەرکەوتوو نەبوو.</string>
+    <string name="display_density_dialog_title">قەبارەی ڕوونما و دەق</string>
+    <string name="display_density_dialog_message">وا لە هەموو شتێکی سەر ڕوونما بکە کە گەورەتر یان بچووکتر دەربکەوێت. بەرنامەکە دەست پێدەکاتەوە کاتێک ڕێژەی ڕوونما دەگۆڕیت. لەوانەیە ئەو گۆڕانکارییانە لەدەست بدەیت کە پاشەکەوت نەکراون. لەوانەیە هەندێک بەرنامە بۆ قەبارەیەکی دیاریکراو باشترین نەبن.</string>
+    <string name="display_density_dialog_smaller_text">0.85x</string>
+    <string name="display_density_dialog_default_text">1x (بنەڕەتی)</string>
+    <string name="display_density_dialog_large_text">1.25x</string>
+    <string name="display_density_dialog_larger_text">1.5x</string>
+    <string name="display_density_set_error">نوێکردنەوەی قەبارەی پیشاندان و دەق سەرکەوتوو نەبوو.</string>
+    <string name="allow_bind_app_widget_activity_allow_bind_title">ویدجێت دروست بکرێت و ڕێگەی دەستپێڕاگەیشتن بدرێت؟</string>
+    <string name="allow_bind_app_widget_activity_allow_bind">دوای ئەوەی ویدجێتەکە دروست دەکەیت، بەرنامەکە دەتوانێت دەستی بە تەواوی ئەو زانیارییانە ڕابگات کە پیشان دەدرێن.\n\nبەرنامە: <xliff:g id="widget_host_name">%1$s</xliff:g>\nویدجێت: <xliff:g id="widget_label">%2$s</xliff:g>\n</string>
+    <string name="allow_bind_app_widget_activity_always_allow_bind">هەمیشە ڕێگە بە <xliff:g id="widget_host_name">%1$s</xliff:g> بدرێت ویدجێت دروست بکات و دەستی بە داتاکانیان ڕابگات</string>
 </resources>

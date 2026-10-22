@@ -33,7 +33,6 @@
     <string name="menu_save">Lagra</string>
     <string name="menu_share">Del</string>
     <string name="menu_delete">Slett</string>
-    <string name="menu_permanently_delete">Slett for godt</string>
     <string name="menu_move_to_trash">Flytt til papirkorga</string>
     <string name="menu_restore_from_trash">Gjenopprett</string>
     <string name="menu_select_all">Vel alle</string>
@@ -73,7 +72,6 @@
     <string name="button_show_in_folder">Vis i mappe</string>
     <string name="not_sorted">Ikkje sortert</string>
     <string name="sort_dimension_name">Namn</string>
-    <string name="sort_dimension_summary">Samandrag</string>
     <string name="sort_dimension_file_type">Type</string>
     <string name="sort_dimension_size">Storleik</string>
     <string name="sort_dimension_date">Endra</string>
@@ -128,7 +126,7 @@
     <string name="toast_failed_delete">Klarte ikkje sletta alle dokumenta</string>
     <string name="toast_share_over_limit">Kan ikkje dela meir enn <xliff:g id="count" example="1">%1$d</xliff:g> filer</string>
     <string name="toast_action_not_allowed">Handlinga er ikkje tillaten</string>
-    <string name="no_application_dialog_title">Opna med …</string>
+    <string name="toast_op_not_allowed_for_shortcuts">Handlinga er ikkje tillaten</string>
     <string name="no_application_dialog_message">Det er ingen støtta appar installert. Prøv å installera ein frå Play Store.</string>
     <string name="no_application_dialog_button">Søk i Play Store</string>
     <string name="share_via">Del via</string>
@@ -160,14 +158,6 @@
         <item quantity="one">Slettar <xliff:g id="count" example="1">%1$d</xliff:g> element.</item>
         <item quantity="other">Slettar <xliff:g id="count" example="3">%1$d</xliff:g> element.</item>
     </plurals>
-    <string name="trashing">{count, plural,
-        =1 {Flyttar <xliff:g id="count" example="1">{count}</xliff:g> element til papirkorga}
-        other {Flyttar <xliff:g id="count" example="3">{count}</xliff:g> element til papirkorga}
-    }</string>
-    <string name="restoring_from_trash">{count, plural,
-        =1 {Gjenopprettar <xliff:g id="count" example="1">{count}</xliff:g> element}
-        other {Gjenopprettar <xliff:g id="count" example="3">{count}</xliff:g> element}
-    }</string>
     <string name="undo">Angra</string>
     <string name="copy_preparing">Gjer klar …</string>
     <string name="compress_preparing">Gjer klar …</string>
@@ -187,10 +177,6 @@
         =1 {Klarte ikkje pakka <xliff:g id="count" example="1">{count}</xliff:g> element}
         other {Klarte ikkje pakka <xliff:g id="count" example="2">{count}</xliff:g> element}
     }</string>
-    <string name="extract_error_notification_title">{count, plural,
-        =1 {Klarte ikkje pakka ut <xliff:g id="count" example="1">{count}</xliff:g> element}
-        other {Klarte ikkje pakka ut <xliff:g id="count" example="2">{count}</xliff:g> element}
-    }</string>
     <string name="move_error_notification_title">{count, plural,
         =1 {Klarte ikkje flytta <xliff:g id="count" example="1">{count}</xliff:g> element}
         other {Klarte ikkje flytta <xliff:g id="count" example="2">{count}</xliff:g> element}
@@ -198,14 +184,6 @@
     <string name="delete_error_notification_title">{count, plural,
         =1 {Klarte ikkje sletta <xliff:g id="count" example="1">{count}</xliff:g> element}
         other {Klarte ikkje sletta <xliff:g id="count" example="2">{count}</xliff:g> element}
-    }</string>
-    <string name="move_to_trash_error_notification_title">{count, plural,
-        =1 {Klarte ikkje flytta <xliff:g id="count" example="1">{count}</xliff:g> element til papirkorga}
-        other {Klarte ikkje flytta <xliff:g id="count" example="2">{count}</xliff:g> element til papirkorga}
-    }</string>
-    <string name="restore_from_trash_error_notification_title">{count, plural,
-        =1 {Klarte ikkje gjenoppretta <xliff:g id="count" example="1">{count}</xliff:g> element}
-        other {Klarte ikkje gjenoppretta <xliff:g id="count" example="2">{count}</xliff:g> element}
     }</string>
     <string name="notification_touch_for_details">Trykk for å sjå detaljar</string>
     <string name="close">Lukk</string>
@@ -233,10 +211,6 @@
         <item quantity="one">Denne fila vart konvertert til eit anna format: <xliff:g id="list" example="Document.pdf">%1$s</xliff:g></item>
         <item quantity="other">Desse filene vart konverterte til eit anna format: <xliff:g id="list" example="Document.pdf, Photo.jpg, Song.ogg">%1$s</xliff:g></item>
     </plurals>
-    <plurals name="clipboard_files_clipped">
-        <item quantity="one">Kopierte <xliff:g id="count" example="1">%1$d</xliff:g> element til utklippstavla.</item>
-        <item quantity="other">Kopierte <xliff:g id="count" example="3">%1$d</xliff:g> element til utklippstavla.</item>
-    </plurals>
     <string name="read_only_label">Berre lesing</string>
     <string name="read_only_explanation">Du kan sjå desse filene, men enkelte handlingar er ikkje støtta</string>
     <string name="cannot_extract_in_read_only_folder">Dette arkivet ligg på ein skriveverna stad og kan ikkje pakkast ut her.</string>
@@ -245,34 +219,6 @@
     <string name="rename_error">Klarte ikkje gje dokumentet nytt namn</string>
     <string name="menu_eject_root">Løys ut</string>
     <string name="notification_copy_files_converted_title">Nokre filer vart konverterte</string>
-    <string name="copy_in_progress">{count, plural,
-        =1 {Kopierer «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>» til «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
-        other {Kopierer # filer til «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
-    }</string>
-    <string name="extract_in_progress">{count, plural,
-        =1 {Pakkar ut «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>» til «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
-        other {Pakkar ut # arkiv til «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
-    }</string>
-    <string name="move_in_progress">{count, plural,
-        =1 {Flyttar «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>» til «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
-        other {Flyttar # filer til «<xliff:g id="directory" example="example folder">{directory}</xliff:g>»}
-    }</string>
-    <string name="delete_in_progress">{count, plural,
-        =1 {Slettar «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>»}
-        other {Slettar # filer}
-    }</string>
-    <string name="trash_in_progress">{count, plural,
-        =1 {Flyttar «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>» til papirkorga}
-        other {Flyttar # filer til papirkorga}
-    }</string>
-    <string name="restore_in_progress">{count, plural,
-        =1 {Gjenopprettar «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>»}
-        other {Gjenopprettar # filer}
-    }</string>
-    <string name="compress_in_progress">{count, plural,
-        =1 {Komprimerer «<xliff:g id="filename" example="foobar.txt">{filename}</xliff:g>»}
-        other {Komprimerer # filer}
-    }</string>
     <string name="job_progress_icon_label">Vis filframgang</string>
     <string name="job_progress_panel_title">Framdrift for fila</string>
     <string name="job_progress_item_completed">Fullført</string>
@@ -311,20 +257,6 @@
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> element</item>
         <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> element</item>
     </plurals>
-    <string name="delete_filename_confirmation_message">Vil du sletta «<xliff:g id="name" example="cat.jpg">%1$s</xliff:g>»?</string>
-    <string name="delete_foldername_confirmation_message">Vil du sletta mappa «<xliff:g id="name" example="Photos">%1$s</xliff:g>» og alt innhaldet i ho?</string>
-    <plurals name="delete_files_confirmation_message">
-        <item quantity="one">Vil du sletta <xliff:g id="count" example="1">%1$d</xliff:g> fil?</item>
-        <item quantity="other">Vil du sletta <xliff:g id="count" example="3">%1$d</xliff:g> filer?</item>
-    </plurals>
-    <plurals name="delete_folders_confirmation_message">
-        <item quantity="one">Vil du sletta <xliff:g id="count" example="1">%1$d</xliff:g> mappe og alt innhaldet i ho?</item>
-        <item quantity="other">Vil du sletta <xliff:g id="count" example="3">%1$d</xliff:g> mapper og alt innhaldet i dei?</item>
-    </plurals>
-    <plurals name="delete_items_confirmation_message">
-        <item quantity="one">Vil du sletta <xliff:g id="count" example="1">%1$d</xliff:g> element?</item>
-        <item quantity="other">Vil du sletta <xliff:g id="count" example="3">%1$d</xliff:g> element?</item>
-    </plurals>
     <string name="images_shortcut_label">Bilete</string>
     <string name="archive_loading_failed">Klarte ikkje opna arkivet. Fila er anten skada eller har eit format som ikkje er støtta.</string>
     <string name="name_conflict">Det finst alt ei fil med dette namnet.</string>
@@ -333,7 +265,6 @@
     <string name="sign_in">Logg på</string>
     <string name="new_archive_file_name">arkiv<xliff:g id="extension" example=".zip">%s</xliff:g></string>
     <string name="new_archive_file_name_2">Arkiv</string>
-    <string name="overwrite_file_confirmation_message">Vil du skriva over <xliff:g id="name" example="foobar.txt">%1$s</xliff:g>?</string>
     <string name="continue_in_background">Hald fram i bakgrunnen</string>
     <plurals name="selected_count">
         <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> vald</item>
@@ -359,20 +290,19 @@
     <string name="chip_title_documents">Dokument</string>
     <string name="chip_title_large_files">Store filer</string>
     <string name="chip_title_from_this_week">Denne veka</string>
-    <string name="input_hint_new_folder">Mappenamn</string>
-    <string name="input_hint_rename">Nytt namn</string>
+    <string name="input_hint_new_folder">Namn</string>
+    <string name="input_hint_rename">Namn</string>
     <string name="preview_file">Førehandsvis fila <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
     <string name="preview_work_file">Førehandsvis arbeidsfila <xliff:g id="fileName" example="example.jpg">%1$s</xliff:g></string>
     <string name="preview_cross_profile_file">Førehandsvis <xliff:g id="profile" example="work">%1$s</xliff:g>-fila <xliff:g id="fileName" example="example.jpg">%2$s</xliff:g></string>
     <string name="apps_row_title">Sjå filer i andre appar</string>
     <string name="anonymous_application">Anonym</string>
     <string name="open_tree_button">Bruk denne mappa</string>
-    <string name="open_tree_dialog_title">Vil du gjeva <xliff:g id="appName" example="Drive">%1$s</xliff:g> tilgang til filene i <xliff:g id="directory" example="DCIM">%2$s</xliff:g>?</string>
-    <string name="open_tree_dialog_message">Dette lèt «<xliff:g id="appName" example="Drive">%1$s</xliff:g>» få tilgang til noverande og framtidig innhald i <xliff:g id="directory" example="DCIM">%2$s</xliff:g>.</string>
     <string name="directory_blocked_header_title">Kan ikkje bruka denne mappa</string>
     <string name="directory_blocked_header_subtitle">Vel ei anna mappe for å verna personvernet ditt</string>
     <string name="create_new_folder_button">Lag ny mappe</string>
     <string name="search_bar_hint">Søk på denne eininga</string>
+    <string name="search_bar_generic_hint">Søk</string>
     <string name="search_bar_clear">Slett tekst</string>
     <string name="search_location_root_folder">Rotmappe</string>
     <string name="search_location_everywhere">Overalt</string>
@@ -402,4 +332,5 @@
     <string name="a11y_peek_image_preview">Førehandsvising av biletet <xliff:g id="filename" example="image.png">%s</xliff:g></string>
     <string name="a11y_peek_hide_info_button">Gøym infopanel</string>
     <string name="a11y_peek_show_info_button">Vis infopanel</string>
+    <string name="file_open_in_trash_dialog_restore_action_button">Gjenopprett</string>
 </resources>

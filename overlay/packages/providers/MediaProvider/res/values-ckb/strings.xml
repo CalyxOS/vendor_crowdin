@@ -14,11 +14,288 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uid_label">میدیا</string>
+    <string name="storage_description">بیرگەی ناوخۆیی</string>
+    <string name="picker_app_label">هەڵبژێرەری میدیا</string>
+    <string name="artist_label">هونەرمەند</string>
+    <string name="unknown">نادیار</string>
+    <string name="root_images">وێنەکان</string>
+    <string name="root_videos">ڤیدیۆکان</string>
+    <string name="root_audio">دەنگ</string>
+    <string name="root_documents">بەڵگەنامەکان</string>
+    <string name="root_files">فایلەکان</string>
+    <string name="permission_required">مۆڵەت پێویستە بۆ دەستکاریکردن یان سڕینەوەی ئەم بڕگەیە.</string>
+    <string name="permission_required_action">بەردەوامبوون</string>
+    <string name="grant_dialog_button_allow">ڕێگەدان</string>
+    <string name="grant_dialog_button_deny">ڕەتکردنەوە</string>
+    <string name="permission_more_thumb"> {count, plural,
+        =1    {+<xliff:g id="count" example="1">^1</xliff:g>}
+        other {+<xliff:g id="count" example="42">^1</xliff:g>}
+    }</string>
+    <string name="permission_more_text"> {count, plural,
+        =1    {لەگەڵ <xliff:g id="count" example="1">^1</xliff:g> بڕگەی زیاتر}
+        other {لەگەڵ <xliff:g id="count" example="42">^1</xliff:g> بڕگەی زیاتر}
+    }</string>
+    <string name="cache_clearing_dialog_title">پاککردنەوەی فایلە کاتییەکانی ئەپ</string>
+    <string name="cache_clearing_dialog_text"><xliff:g id="app_seeking_permission" example="File manager">%s</xliff:g> دەیەوێت هەندێک فایلی کاتی پاک بکاتەوە. ئەمە لەوانەیە ببێتە هۆی بەکارهێنانی زیاتری باتری یان داتای مۆبایل.</string>
+    <string name="cache_clearing_in_progress_title">پاککردنەوەی فایلە کاتییەکانی ئەپ\u2026</string>
+    <string name="clear">پاککردنەوە</string>
+    <string name="allow">ڕێگەدان</string>
+    <string name="deny">ڕەتکردنەوە</string>
+    <string name="picker_browse">گەڕان\u2026</string>
     <string name="picker_settings">ڕێکخستنەکان</string>
     <string name="picker_settings_system_settings_menu_title">ڕێکخستنەکانی میدیای هەوری</string>
     <string name="picker_settings_title">ڕێکخستنەکانی میدیای هەوری</string>
+    <string name="picker_settings_description">دەستگەیشتن بە میدیای هەورەکەت کاتێک ئەپێک یان ماڵپەڕێک داوات لێدەکات وێنە یان ڤیدیۆ هەڵبژێریت</string>
+    <string name="picker_settings_selection_message">دەستگەیشتن بە میدیای هەور لە</string>
+    <string name="picker_settings_no_provider">هیچ</string>
+    <string name="picker_settings_toast_error">لە ئێستادا ناتوانرێت ئەپی میدیای هەور بگۆڕدرێت.</string>
+    <string name="picker_settings_no_account_access_summary">هیچ دەستڕاگەیشتنێک بە هەژمار نییە</string>
+    <string name="picker_sync_notification_channel">هەڵبژێرەری میدیا</string>
+    <string name="picker_sync_notification_title">هەڵبژێرەری میدیا</string>
+    <string name="picker_sync_notification_text">هاوکاتکردنی میدیا…</string>
+    <string name="add">زیادکردن</string>
+    <string name="deselect">لابردنی دیاریکردن</string>
+    <string name="deselected">دیارینەکراو</string>
+    <string name="select">دیاریکردن</string>
+    <string name="selected">هەڵبژێردراو</string>
+    <string name="select_up_to"> {count, plural,
+        =1    {تا <xliff:g id="count" example="1">^1</xliff:g> بڕگە هەڵبژێرە}
+        other {تا <xliff:g id="count" example="42">^1</xliff:g> بڕگە هەڵبژێرە}
+    }</string>
+    <string name="recent">دواهەمینەکان</string>
+    <string name="picker_photos_empty_message">هیچ وێنە یان ڤیدیۆیەک نییە</string>
+    <string name="picker_album_media_empty_message">هیچ وێنە یان ڤیدیۆیەکی پاڵپشتیکراو نییە</string>
+    <string name="picker_albums_empty_message">هیچ ئەلبوومێک نییە</string>
+    <string name="picker_view_selected">بینینی دیاریکراو</string>
+    <string name="picker_photos">وێنەکان</string>
+    <string name="picker_videos">@string/root_videos</string>
+    <string name="picker_albums">ئەلبومەکان</string>
+    <string name="picker_preview">پێشبینین</string>
+    <string name="picker_work_profile">گۆڕین بۆ کاری</string>
+    <string name="picker_personal_profile">گۆڕین بۆ کەسی</string>
+    <string name="picker_personal_profile_label">کەسی</string>
+    <string name="picker_profile_admin_title">لە لایەن سەرپەرشتیارەکەتەوە بلۆککراوە</string>
+    <string name="picker_profile_admin_msg_from_personal">دەستگەیشتن بە داتای کار لە ئەپێکی کەسییەوە ڕێگەپێدراو نییە</string>
+    <string name="picker_profile_admin_msg_from_work">دەستگەیشتن بە داتای کەسی لە ئەپێکی کارەوە ڕێگەپێدراو نییە</string>
+    <string name="picker_profile_admin_msg">دەستگەیشتن بە داتای <xliff:g id="profile1" example="work">%1$s</xliff:g> لە ئەپێکی <xliff:g id="profile2" example="personal">%2$s</xliff:g> ڕێگەپێدراو نییە</string>
+    <string name="picker_profile_switch_message">گۆڕین بۆ <xliff:g id="profile" example="personal">%s</xliff:g></string>
+    <string name="picker_profile_work_paused_title">بەرنامەکانی کار بە کاتی ڕاگیراون</string>
+    <string name="picker_profile_paused_title">ئەپەکانی <xliff:g id="profile" example="work">%s</xliff:g> ڕاگیراون</string>
+    <string name="picker_profile_work_paused_msg">بۆ کردنەوەی وێنەکانی کار، ئەپەکانی کارەکەت کارا بکە پاشان هەوڵ بدەرەوە</string>
+    <string name="picker_profile_paused_msg">بۆ کردنەوەی وێنەکانی <xliff:g id="profile1" example="work">%1$s</xliff:g>، ئەپەکانی <xliff:g id="profile2" example="work">%2$s</xliff:g>ەکەت کارا بکە پاشان هەوڵ بدەرەوە</string>
+    <string name="picker_privacy_message">ئەم ئەپە تەنها دەستی دەگات بەو وێنانەی تۆ هەڵیان دەبژێریت</string>
+    <string name="picker_header_permissions">"ئەو وێنە و ڤیدیۆیانە هەڵبژێرە کە ڕێگە بەم ئەپە دەدەیت دەستی پێیان بگات"</string>
+    <string name="picker_album_item_count"> {count, plural,
+        =1    {<xliff:g id="count" example="1">^1</xliff:g> بڕگە}
+        other {<xliff:g id="count" example="42">^1</xliff:g> بڕگە}
+    }</string>
+    <string name="picker_add_button_multi_select">زیادکردن (<xliff:g id="count" example="42">^1</xliff:g>)</string>
+    <string name="picker_add_button_multi_select_permissions">ڕێگەدان (<xliff:g id="count" example="42">^1</xliff:g>)</string>
+    <string name="picker_add_button_allow_none_option">ڕێگە بە هیچیان مەدە</string>
+    <string name="picker_category_camera">کامێرا</string>
+    <string name="picker_category_downloads">داگیراوەکان</string>
+    <string name="picker_category_favorites">دڵخوازەکان</string>
+    <string name="picker_category_screenshots">وێنەکانی ڕوونما</string>
+    <string name="picker_category_videos">@string/root_videos</string>
+    <string name="picker_motion_photo_text">وێنەی جوڵاو</string>
+    <string name="picker_item_content_desc"><xliff:g id="item_name" example="Photo">%1$s</xliff:g> گیراوە لە <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%2$s</xliff:g></string>
+    <string name="picker_video_item_content_desc">ڤیدیۆ تۆمارکراوە لە <xliff:g id="time" example="Jul 7, 2020, 12:00:00 AM">%1$s</xliff:g> بە ماوەی <xliff:g id="duration" example="00:03">%2$s</xliff:g></string>
+    <string name="picker_photo">وێنە</string>
+    <string name="picker_gif">GIF</string>
+    <string name="picker_motion_photo">وێنەی جوڵاو</string>
+    <string name="picker_mute_video">کپکردنی ڤیدیۆ</string>
+    <string name="picker_unmute_video">لابردنی کپیی ڤیدیۆ</string>
+    <string name="picker_play_video">لێدان</string>
+    <string name="picker_pause_video">وەستان</string>
+    <string name="picker_error_snackbar">ڤیدیۆ لێنادرێت</string>
+    <string name="picker_error_dialog_title">کێشە لە لێدانی ڤیدیۆ هەیە</string>
+    <string name="picker_error_dialog_body">پەیوەندیی ئینتەرنێتەکەت بپشکنە و دووبارە هەوڵ بدەرەوە</string>
+    <string name="picker_error_dialog_positive_action">هەوڵدانەوە</string>
+    <string name="not_selected">دیاری نەکراوە</string>
+    <string name="preloading_dialog_title">"ئامادەکردنی میدیا دیاریکراوەکەت"</string>
+    <string name="preloading_progress_message"><xliff:g id="number_preloaded">%1$d</xliff:g> لە <xliff:g id="number_total">%2$d</xliff:g> ئامادەیە</string>
+    <string name="preloading_cancel_button">پاشگەزبوونەوە</string>
+    <string name="picker_banner_cloud_first_time_available_title">وێنە پاڵپشتیکراوەکان ئێستا لەخۆگیراون</string>
+    <string name="picker_banner_cloud_first_time_available_desc">دەتوانیت وێنە هەڵبژێریت لە ئەستۆی <xliff:g id="app_name" example="Photos">%1$s</xliff:g> هەژماری <xliff:g id="user_account" example="johndoe123@gmail.com">%2$s</xliff:g></string>
+    <string name="picker_banner_cloud_account_changed_title">هەژماری <xliff:g id="app_name" example="Photos">%1$s</xliff:g> نوێکرایەوە</string>
+    <string name="picker_banner_cloud_account_changed_desc">وێنەکانی هەژماری <xliff:g id="user_account" example="johndoe123@gmail.com">%1$s</xliff:g> ئێستا لێرە لەخۆدەگیرێن</string>
+    <string name="picker_banner_cloud_choose_app_title">ئەپی میدیای هەور هەڵبژێرە</string>
+    <string name="picker_banner_cloud_choose_app_desc">بۆ لەخۆگرتنی وێنە پاڵپشتیکراوەکان لێرە، ئەپێکی میدیای هەور لە ڕێکخستنەکان هەڵبژێرە</string>
+    <string name="picker_banner_cloud_choose_account_title">هەژماری <xliff:g id="app_name" example="Photos">%1$s</xliff:g> هەڵبژێرە</string>
+    <string name="picker_banner_cloud_choose_account_desc">بۆ لەخۆگرتنی وێنە لە <xliff:g id="app_name" example="Photos">%1$s</xliff:g> لێرە، هەژمارێک لە ناو ئەپەکەدا هەڵبژێرە</string>
+    <string name="picker_banner_cloud_dismiss_button">بێدەنگکردن</string>
+    <string name="picker_banner_cloud_choose_app_button">هەڵبژاردنی بەرنامە</string>
+    <string name="picker_banner_cloud_choose_account_button">هەژمار هەڵبژێرە</string>
+    <string name="picker_banner_cloud_change_account_button">گۆڕینی هەژمار</string>
+    <string name="picker_loading_photos_message">هێنانی هەموو وێنەکانت</string>
+    <string name="permission_write_audio"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم فایلی دەنگە دەستکاری بکات؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> فایلی دەنگ دەستکاری بکات؟}
+    }</string>
+    <string name="permission_progress_write_audio"> {count, plural,
+        =1    {دەستکاریکردنی فایلی دەنگ…}
+        other {دەستکاریکردنی <xliff:g id="count" example="42">^1</xliff:g> فایلی دەنگ…}
+    }</string>
+    <string name="permission_write_video"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم ڤیدیۆیە دەستکاری بکات؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> ڤیدیۆ دەستکاری بکات؟}
+    }</string>
+    <string name="permission_progress_write_video"> {count, plural,
+        =1    {دەستکاریکردنی ڤیدیۆ…}
+        other {دەستکاریکردنی <xliff:g id="count" example="42">^1</xliff:g> ڤیدیۆ…}
+    }</string>
+    <string name="permission_write_image"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم وێنەیە دەستکاری بکات؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> وێنە دەستکاری بکات؟}
+    }</string>
+    <string name="permission_progress_write_image"> {count, plural,
+        =1    {دەستکاریکردنی وێنە…}
+        other {دەستکاریکردنی <xliff:g id="count" example="42">^1</xliff:g> وێنە…}
+    }</string>
+    <string name="permission_write_generic"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم بڕگەیە دەستکاری بکات؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> بڕگە دەستکاری بکات؟}
+    }</string>
+    <string name="permission_progress_write_generic"> {count, plural,
+        =1    {دەستکاریکردنی بڕگە…}
+        other {دەستکاریکردنی <xliff:g id="count" example="42">^1</xliff:g> بڕگە…}
+    }</string>
+    <string name="permission_trash_audio"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم فایلی دەنگە ببات بۆ تەنەکەی خۆڵ؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> فایلی دەنگ ببات بۆ تەنەکەی خۆڵ؟}
+    }</string>
+    <string name="permission_progress_trash_audio"> {count, plural,
+        =1    {بردنی فایلی دەنگ بۆ تەنەکەی خۆڵ…}
+        other {بردنی <xliff:g id="count" example="42">^1</xliff:g> فایلی دەنگ بۆ تەنەکەی خۆڵ…}
+    }</string>
+    <string name="permission_trash_video"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم ڤیدیۆیە ببات بۆ تەنەکەی خۆڵ؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> ڤیدیۆ ببات بۆ تەنەکەی خۆڵ؟}
+    }</string>
+    <string name="permission_progress_trash_video"> {count, plural,
+        =1    {بردنی ڤیدیۆ بۆ تەنەکەی خۆڵ…}
+        other {بردنی <xliff:g id="count" example="42">^1</xliff:g> ڤیدیۆ بۆ تەنەکەی خۆڵ…}
+    }</string>
+    <string name="permission_trash_image"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم وێنەیە ببات بۆ تەنەکەی خۆڵ؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> وێنە ببات بۆ تەنەکەی خۆڵ؟}
+    }</string>
+    <string name="permission_progress_trash_image"> {count, plural,
+        =1    {بردنی وێنە بۆ تەنەکەی خۆڵ…}
+        other {بردنی <xliff:g id="count" example="42">^1</xliff:g> وێنە بۆ تەنەکەی خۆڵ…}
+    }</string>
+    <string name="permission_trash_generic"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم بڕگەیە ببات بۆ تەنەکەی خۆڵ؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> بڕگە ببات بۆ تەنەکەی خۆڵ؟}
+    }</string>
+    <string name="permission_progress_trash_generic"> {count, plural,
+        =1    {بردنی بڕگە بۆ تەنەکەی خۆڵ…}
+        other {بردنی <xliff:g id="count" example="42">^1</xliff:g> بڕگە بۆ تەنەکەی خۆڵ…}
+    }</string>
+    <string name="permission_untrash_audio"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم فایلی دەنگە لە تەنەکەی خۆڵ دەربکات؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> فایلی دەنگ لە تەنەکەی خۆڵ دەربکات؟}
+    }</string>
+    <string name="permission_progress_untrash_audio"> {count, plural,
+        =1    {دەرکردنی فایلی دەنگ لە تەنەکەی خۆڵ…}
+        other {دەرکردنی <xliff:g id="count" example="42">^1</xliff:g> فایلی دەنگ لە تەنەکەی خۆڵ…}
+    }</string>
+    <string name="permission_untrash_video"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم ڤیدیۆیە لە تەنەکەی خۆڵ دەربکات؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> ڤیدیۆ لە تەنەکەی خۆڵ دەربکات؟}
+    }</string>
+    <string name="permission_progress_untrash_video"> {count, plural,
+        =1    {دەرکردنی ڤیدیۆ لە تەنەکەی خۆڵ…}
+        other {دەرکردنی <xliff:g id="count" example="42">^1</xliff:g> ڤیدیۆ لە تەنەکەی خۆڵ…}
+    }</string>
+    <string name="permission_untrash_image"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم وێنەیە لە تەنەکەی خۆڵ دەربکات؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> وێنە لە تەنەکەی خۆڵ دەربکات؟}
+    }</string>
+    <string name="permission_progress_untrash_image"> {count, plural,
+        =1    {دەرکردنی وێنە لە تەنەکەی خۆڵ…}
+        other {دەرکردنی <xliff:g id="count" example="42">^1</xliff:g> وێنە لە تەنەکەی خۆڵ…}
+    }</string>
+    <string name="permission_untrash_generic"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم بڕگەیە لە تەنەکەی خۆڵ دەربکات؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> بڕگە لە تەنەکەی خۆڵ دەربکات؟}
+    }</string>
+    <string name="permission_progress_untrash_generic"> {count, plural,
+        =1    {دەرکردنی بڕگە لە تەنەکەی خۆڵ…}
+        other {دەرکردنی <xliff:g id="count" example="42">^1</xliff:g> بڕگە لە تەنەکەی خۆڵ…}
+    }</string>
+    <string name="permission_delete_audio"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم فایلی دەنگە بسڕێتەوە؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> فایلی دەنگ بسڕێتەوە؟}
+    }</string>
+    <string name="permission_progress_delete_audio"> {count, plural,
+        =1    {سڕینەوەی فایلی دەنگ…}
+        other {سڕینەوەی <xliff:g id="count" example="42">^1</xliff:g> فایلی دەنگ…}
+    }</string>
+    <string name="permission_delete_video"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم ڤیدیۆیە بسڕێتەوە؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> ڤیدیۆ بسڕێتەوە؟}
+    }</string>
+    <string name="permission_progress_delete_video"> {count, plural,
+        =1    {سڕینەوەی ڤیدیۆ…}
+        other {سڕینەوەی <xliff:g id="count" example="42">^1</xliff:g> ڤیدیۆ…}
+    }</string>
+    <string name="permission_delete_image"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم وێنەیە بسڕێتەوە؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> وێنە بسڕێتەوە؟}
+    }</string>
+    <string name="permission_progress_delete_image"> {count, plural,
+        =1    {سڕینەوەی وێنە…}
+        other {سڕینەوەی <xliff:g id="count" example="42">^1</xliff:g> وێنە…}
+    }</string>
+    <string name="permission_delete_generic"> {count, plural,
+        =1    {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت ئەم بڕگەیە بسڕێتەوە؟}
+        other {ڕێگە بە <xliff:g id="app_name" example="Gmail">^1</xliff:g> دەدەیت <xliff:g id="count" example="42">^2</xliff:g> بڕگە بسڕێتەوە؟}
+    }</string>
+    <string name="permission_progress_delete_generic"> {count, plural,
+        =1    {سڕینەوەی بڕگە…}
+        other {سڕینەوەی <xliff:g id="count" example="42">^1</xliff:g> بڕگە…}
+    }</string>
+    <string name="transcode_denied"><xliff:g id="app_name" example="File manager">%s</xliff:g> ناتوانێت فایلی میدیا پرۆسێس بکات</string>
+    <string name="transcode_processing_cancelled">پرۆسێسکردنی میدیا هەڵوەشێنرایەوە</string>
+    <string name="transcode_processing_error">هەڵە لە پرۆسێسکردنی میدیا</string>
+    <string name="transcode_processing_success">پرۆسێسکردنی میدیا سەرکەوتوو بوو</string>
+    <string name="transcode_processing_started">پرۆسێسکردنی میدیا دەستی پێکرد</string>
+    <string name="transcode_processing">پرۆسێسکردنی میدیا…</string>
+    <string name="transcode_cancel">پاشگەزبوونەوە</string>
+    <string name="transcode_wait">چاوەڕوانبە</string>
+    <string name="safety_protection_icon_label">پاراستنی سەلامەتی</string>
+    <string name="transcode_alert_channel">ئاگادارییەکانی گۆڕینی کۆد</string>
+    <string name="transcode_progress_channel">بەرەوپێشچوونی گۆڕینی کۆد</string>
+    <string name="dialog_error_message">دواتر هەوڵ بدەرەوە. وێنەکانت بەردەست دەبن هەر کاتێک کێشەکە چارەسەر کرا.</string>
+    <string name="dialog_error_title">هەندێک وێنە بار ناکرێن</string>
+    <string name="dialog_button_text">تێگەیشتم</string>
+    <string name="permlab_accessMediaOwnerPackageName">دەستگەیشتن بە ناوی پاکێجی خاوەنی میدیا</string>
+    <string name="permdesc_accessMediaOwnerPackageName">ڕێگە بە ئەپەکە دەدات دەستی بگات بە ناوی پاکێجی خاوەنی هەموو ئەو فایلە میدیاییانەی دەستپێگەیشتنیان هەیە.</string>
     <string name="device_folders_collection_display_name" translation_description="Display name for the collection of local folders on the device. [CHAR_LIMIT=50]">"لە ئەم ئامێرەوە"</string>
     <string name="app_folders_collection_display_name" translation_description="Display name for the collection of app media sets on the device. [CHAR_LIMIT=50]">"لە بەرنامەکانتەوە"</string>
     <string name="sd_card_collection_display_name" translation_description="Display name for the collection of media on the SD card. [CHAR_LIMIT=50]">"لە SD cardـەکەتەوە"</string>
-    <string name="sd_card_album_display_name" translation_description="Display name for the album containing media stored in sd card's root directory. [CHAR_LIMIT=50]">SD card</string>
+    <string name="camera_album_display_name" translation_description="Display name for the album containing all the media captured by camera. [CHAR_LIMIT=50]">کامێرا</string>
+    <string name="screenshots_album_display_name" translation_description="Display name for the album containing all the screenshots. [CHAR_LIMIT=50]">وێنەکانی ڕوونما</string>
+    <string name="downloads_album_display_name" translation_description="Display name for the album containing all the downloaded media on the device. [CHAR_LIMIT=50]">داگیراوەکان</string>
+    <string name="favorites_album_display_name" translation_description="Display name for the album containing all the media marked as favorite. [CHAR_LIMIT=50]">دڵخوازەکان</string>
+    <string name="videos_album_display_name" translation_description="Display name for the album containing videos. [CHAR_LIMIT=50]">ڤیدیۆکان</string>
+    <string name="sd_card_album_display_name" translation_description="Display name for the album containing media stored in sd card's root directory. [CHAR_LIMIT=50]">کارتی SD</string>
+    <string name="metadata_label_image">وێنە</string>
+    <string name="metadata_label_images">وێنەکان</string>
+    <string name="metadata_label_photo">وێنە</string>
+    <string name="metadata_label_photos">وێنەکان</string>
+    <string name="metadata_label_video">ڤیدیۆ</string>
+    <string name="metadata_label_videos">ڤیدیۆکان</string>
+    <string name="metadata_label_audio">دەنگ</string>
+    <string name="metadata_label_audios">دەنگەکان</string>
+    <string name="metadata_label_document">بەڵگەنامە</string>
+    <string name="metadata_label_documents">بەڵگەنامەکان</string>
+    <string name="metadata_label_animated">جوڵاو</string>
+    <string name="metadata_label_motion_photo">وێنەی جوڵاو</string>
+    <string name="metadata_label_favorite">دڵخوازکردن</string>
+    <string name="metadata_label_favorites">دڵخوازەکان</string>
+    <string name="metadata_label_download">داگرتن</string>
+    <string name="metadata_label_downloads">داگیراوەکان</string>
 </resources>

@@ -136,6 +136,10 @@
     <string name="wfcSpnFormat_spn_wifi_calling"><xliff:g id="spn" example="Oibreoir">%s</xliff:g> Glaonna Wi-Fi</string>
     <string name="wfcSpnFormat_spn_wifi_calling_vo_hyphen"><xliff:g id="spn" example="Oibreoir">%s</xliff:g> Glaonna WiFi</string>
     <string name="wfcSpnFormat_spn_wlan_call">Glao WLAN <xliff:g id="spn" example="Oibreoir">%s</xliff:g></string>
+    <string name="adaptive_low_frequency_less_than_one_minute">~ %s</string>
+    <string name="adaptive_low_frequency_neg_less_than_one_minute">~ −%s</string>
+    <string name="elapsed_time_low_frequency_short_format_h_mm">%1$d:%2$02d:--</string>
+    <string name="elapsed_time_low_frequency_short_format_mm">%1$02d:--</string>
     <string name="crossSimFormat_spn_cross_sim_calling"><xliff:g id="spn" example="Oibreoir">%s</xliff:g> Glao Cúltaca</string>
     <string name="cfTemplateNotForwarded"><xliff:g id="bearer_service_code">{0}</xliff:g>: Níor cuireadh ar aghaidh é</string>
     <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> i ndiaidh <xliff:g id="time_delay">{2}</xliff:g> soicind</string>
@@ -164,6 +168,7 @@
         <xliff:g id="time" example="5:20 PM">%2$s</xliff:g>. Ní cheadaíonn do
         riarthóir TF do phróifíl oibre a bheith múchta ar feadh níos mó ná <xliff:g id="number" example="3">%3$d</xliff:g> lá.
         </string>
+    <string name="global_action_feedback">Aiseolas</string>
     <string name="global_action_standby">Fuireachas</string>
     <string name="global_action_unrestricted_lock">Glasáil</string>
     <string name="notification_channel_system_time">Am agus criosanna ama</string>
@@ -291,7 +296,6 @@
     <string name="hearing_device_switch_phone_mic_notification_text">Chun fuaim níos fearr a fháil nó má tá ceallraí do chluasáin éisteachta íseal. Ní athraíonn sé seo ach do mhicreafón le linn an ghlao.</string>
     <string name="hearing_device_switch_hearing_mic_notification_text">Is féidir leat micreafón do chabhair éisteachta a úsáid le haghaidh glaonna saor ó lámha. Ní athraíonn sé seo ach do mhicreafón le linn an ghlao.</string>
     <string name="user_switching_message">Ag aistriú go <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
-    <string name="user_logging_out_message">Ag logáil amach <xliff:g id="name" example="Bob">%1$s</xliff:g>\u2026</string>
     <string name="headless_system_user_name">Úsáideoir Córais</string>
     <string name="unnamed_user_name">Úsáideoir</string>
     <string name="print_service_installed_title">Seirbhís <xliff:g id="name" example="Cloud Print">%s</xliff:g> suiteáilte</string>
@@ -402,8 +406,8 @@
     <string name="fingerprint_dangling_notification_msg_2">Ní féidir <xliff:g id="fingerprint">%1$s</xliff:g> agus <xliff:g id="fingerprint">%2$s</xliff:g> a aithint a thuilleadh.</string>
     <string name="fingerprint_dangling_notification_msg_all_deleted_1">Ní féidir <xliff:g id="fingerprint">%s</xliff:g>a aithint a thuilleadh. Socraigh Díghlasáil Méarloirg arís.</string>
     <string name="fingerprint_dangling_notification_msg_all_deleted_2">Ní féidir <xliff:g id="fingerprint">%1$s</xliff:g> agus <xliff:g id="fingerprint">%2$s</xliff:g> a aithint a thuilleadh. Socraigh Díghlasáil Méarloirg arís.</string>
-    <string name="face_dangling_notification_title">Socraigh Aghaidh Díghlasáil arís</string>
-    <string name="face_dangling_notification_msg">Ní féidir do mhúnla aghaidhe a aithint níos mó. Socraigh Díghlasáil Aghaidhe arís.</string>
+    <string name="face_dangling_notification_title" product="default">Socraigh Aghaidh Díghlasáil arís</string>
+    <string name="face_dangling_notification_msg" product="default">Ní féidir do mhúnla aghaidhe a aithint níos mó. Socraigh Díghlasáil Aghaidhe arís.</string>
     <string name="bg_user_sound_notification_title_alarm">Aláram le haghaidh <xliff:g id="user_name" example="John Doe">%s</xliff:g></string>
     <string name="bg_user_sound_notification_button_switch_user">Athraigh úsáideoir</string>
     <string name="bg_user_sound_notification_button_mute">Balbhaigh</string>
@@ -431,7 +435,5 @@
     <string name="fingerprint_frr_notification_msg">Tapáil chun leideanna a athbhreithniú chun do thaithí díghlasála a fheabhsú</string>
     <string name="no_blink_accessibility_text_cursor_blink_label">Ná bí ag caochadh</string>
     <string name="long_press_power_to_turn_off_tv_toast">Brúigh an cnaipe Cumhachta go fada chun an teilifís a mhúchadh</string>
-    <string name="tv_watchdog_notification_channel_name">Foláirimh Acmhainní Córais</string>
-    <string name="tv_watchdog_notification_title">Ró-úsáid Acmhainní</string>
-    <string name="tv_watchdog_notification_content">"Tá an iomarca acmhainní á n-úsáid ag an aip '<xliff:g id="app_name">%1$s</xliff:g>'."</string>
+    <string name="do_not_disturb_sync_notification_title">Ná cuir isteach</string>
 </resources>

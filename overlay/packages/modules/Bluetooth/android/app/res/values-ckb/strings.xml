@@ -14,7 +14,135 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">بلوتووس</string>
+    <string name="permlab_bluetoothShareManager">دەستگەیشتن بە بەڕێوەبەری داگرتن.</string>
+    <string name="permdesc_bluetoothShareManager">ڕێگە بە ئەپەکە دەدات دەستی بگات بە بەڕێوەبەری هاوبەشکردنی بلوتووس و بۆ گواستنەوەی فایل بەکاریبهێنێت.</string>
+    <string name="permlab_bluetoothAcceptlist">دەستگەیشتنی ئامێری بلوتووس بخەرە لیستی ڕێگەپێدراوەوە.</string>
+    <string name="permdesc_bluetoothAcceptlist">ڕێگە بە ئەپەکە دەدات بە شێوەیەکی کاتی ئامێرێکی بلوتووس بخاتە لیستی سپییەوە، تا ئەو ئامێرە بتوانێت فایل بنێرێت بۆ ئەم ئامێرە بێ پەسەندکردنی بەکارهێنەر.</string>
+    <string name="permlab_bluetoothBackup">ڕێگەدان بە پەخشی پشتیوانیکردنی بلوتووس.</string>
+    <string name="permdesc_bluetoothBackup">ڕێگە بە بەرنامەی بلوتووس دەدات پەخشەکان وەربگرێت بۆ دەستپێکردنی پشتیوانیکردنی دراوەی ڕێکخستنەکان</string>
+    <string name="bt_share_picker_label">بلوتووس</string>
+    <string name="unknown_device">ئامێری نەناسراو</string>
+    <string name="unknownNumber">نادیار</string>
+    <string name="not_provided">دابین نەکراوە</string>
+    <string name="airplane_error_title">دۆخی فڕۆکە</string>
+    <string name="airplane_error_msg">ناتوانیت بلوتووس لە دۆخی فڕۆکەدا بەکاربهێنیت.</string>
+    <string name="bt_enable_line1">بۆ بەکارهێنانی خزمەتگوزارییەکانی بلوتووس، دەبێت سەرەتا بلوتووس هەڵکەیت.</string>
+    <string name="bt_enable_line2">ئێستا بلوتووس هەڵدەکرێت؟</string>
+    <string name="bt_enable_cancel">پاشگەزبوونەوە</string>
+    <string name="bt_enable_ok">چالاککردن</string>
+    <string name="incoming_file_confirm_content">فایلی هاتووە پەسەند دەکەیت؟</string>
+    <string name="incoming_file_confirm_cancel">ڕەتکردنەوە</string>
+    <string name="incoming_file_confirm_ok">پەسەندکردن</string>
+    <string name="incoming_file_confirm_timeout_ok">باشە</string>
+    <string name="incoming_file_confirm_timeout_content">کاتی پەسەندکردنی فایلی هاتووە لە «<xliff:g id="sender">%1$s</xliff:g>» بەسەرچوو</string>
+    <string name="incoming_file_confirm_Notification_title">فایلی هاتووە</string>
+    <string name="incoming_file_confirm_Notification_content"><xliff:g id="sender">%1$s</xliff:g> ئامادەیە بۆ ناردنی فایل: <xliff:g id="file">%2$s</xliff:g></string>
+    <string name="notification_receiving">هاوبەشکردنی بلوتووس: وەرگرتنی <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="notification_received">هاوبەشکردنی بلوتووس: <xliff:g id="file">%1$s</xliff:g> وەرگیرا</string>
+    <string name="notification_sending">هاوبەشکردنی بلوتووس: ناردنی <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="notification_sent">هاوبەشکردنی بلوتووس: <xliff:g id="file">%1$s</xliff:g> نێردرا</string>
+    <string name="notification_sent_fail">هاوبەشکردنی بلوتووس: فایلی <xliff:g id="file">%1$s</xliff:g> نەنێردرا</string>
+    <string name="download_title">گواستنەوەی فایل</string>
+    <string name="download_line1">لە: «<xliff:g id="sender">%1$s</xliff:g>»</string>
+    <string name="download_line2">فایل: <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="download_line3">قەبارەی فایل: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="download_line5">وەرگرتنی پەڕگە…</string>
+    <string name="download_cancel">وەستاندن</string>
+    <string name="download_ok">شاردنەوە</string>
+    <string name="incoming_line1">لە</string>
+    <string name="incoming_line2">ناوی پەڕگە</string>
+    <string name="incoming_line3">قەبارە</string>
+    <string name="download_fail_line1">فایل وەرنەگیرا</string>
+    <string name="download_fail_line2">فایل: <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="download_fail_line3">هۆکار: <xliff:g id="reason">%1$s</xliff:g></string>
+    <string name="download_fail_ok">باشە</string>
+    <string name="download_succ_line5">فایل وەرگیرا</string>
+    <string name="download_succ_ok">کردنەوە</string>
+    <string name="upload_line1">بۆ: «<xliff:g id="recipient">%1$s</xliff:g>»</string>
+    <string name="upload_line3">جۆری فایل: <xliff:g id="type">%1$s</xliff:g> (<xliff:g id="size">%2$s</xliff:g>)</string>
+    <string name="upload_line5">ناردنی پەڕگە…</string>
+    <string name="upload_succ_line5">فایل نێردرا</string>
+    <string name="upload_succ_ok">باشە</string>
+    <string name="upload_fail_line1">فایلەکە نەتوانرا بنێردرێت بۆ «<xliff:g id="recipient">%1$s</xliff:g>».</string>
+    <string name="upload_fail_line1_2">فایل: <xliff:g id="file">%1$s</xliff:g></string>
+    <string name="upload_fail_cancel">داخستن</string>
+    <string name="bt_error_btn_ok">باشە</string>
+    <string name="unknown_file">فایلی نەناسراو</string>
+    <string name="unknown_file_desc">هیچ ئەپێک نییە بۆ کردنەوەی ئەم جۆرە فایلە. 
+</string>
+    <string name="not_exist_file">هیچ فایلێک نییە</string>
+    <string name="not_exist_file_desc">فایلەکە بوونی نییە. 
+</string>
+    <string name="enabling_progress_title">تکایە چاوەڕوان بە…</string>
+    <string name="enabling_progress_content">هەڵکردنی بلوتووس…</string>
+    <string name="bt_toast_1">فایلەکە وەردەگیرێت. لە پانێڵی ئاگادارییەکاندا چاودێریی بەرەوپێشچوونەکە بکە.</string>
+    <string name="bt_toast_3">وەرگرتنی فایل لە «<xliff:g id="sender">%1$s</xliff:g>» ڕاگیرا</string>
+    <string name="bt_toast_4">ناردنی فایل بۆ «<xliff:g id="recipient">%1$s</xliff:g>»</string>
+    <string name="bt_toast_5">ناردنی <xliff:g id="number">%1$s</xliff:g> فایل بۆ «<xliff:g id="recipient">%2$s</xliff:g>»</string>
+    <string name="bt_toast_6">ناردنی فایل بۆ «<xliff:g id="recipient">%1$s</xliff:g>» ڕاگیرا</string>
+    <string name="bt_sm_2_1_nosdcard">شوێنی پێویست لە بیرگەی USB نییە بۆ پاشەکەوتکردنی فایلەکە.</string>
+    <string name="bt_sm_2_1_default">شوێنی پێویست لەسەر کارتی SD نییە بۆ پاشەکەوتکردنی فایلەکە.</string>
+    <string name="bt_sm_2_2">شوێنی پێویست: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="ErrorTooManyRequests">داواکارییەکی زۆر لە پرۆسەسەکردندایە. دواتر هەوڵ بدەرەوە.</string>
+    <string name="status_pending">گواستنەوەی فایل هێشتا دەستی پێ نەکردووە.</string>
+    <string name="status_running">گواستنەوەی فایل بەردەوامە.</string>
+    <string name="status_success">گواستنەوەی فایل بە سەرکەوتوویی تەواوبوو.</string>
+    <string name="status_not_accept">ناوەڕۆکەکە پاڵپشتی ناکرێت.</string>
+    <string name="status_forbidden">گواستنەوە لەلایەن ئامێری بەرامبەرەوە ڕێگری لێکرا.</string>
+    <string name="status_canceled">گواستنەوە لەلایەن بەکارهێنەرەوە هەڵوەشێندرایەوە.</string>
+    <string name="status_file_error">کێشەی بیرگە.</string>
+    <string name="status_no_sd_card_nosdcard">بیرگەی USB نییە.</string>
+    <string name="status_no_sd_card_default">کارتی SD نییە. کارتێکی SD دابنێ بۆ پاشەکەوتکردنی فایلە گواستراوەکان.</string>
+    <string name="status_connection_error">پەیوەندی سەرکەوتوو نەبوو.</string>
+    <string name="status_protocol_error">نەتوانرا داواکارییەکە بە دروستی ئەنجام بدرێت.</string>
+    <string name="status_unknown_error">هەڵەی نەناسراو.</string>
+    <string name="opp_notification_group">هاوبەشکردنی بلوتووس</string>
+    <string name="download_success"><xliff:g id="file_size">%1$s</xliff:g> وەرگرتن تەواوبوو.</string>
+    <string name="upload_success"><xliff:g id="file_size">%1$s</xliff:g> ناردن تەواوبوو.</string>
+    <string name="inbound_history_title">گواستنەوە هاتووەکان</string>
+    <string name="outbound_history_title">گواستنەوە ڕۆیشتووەکان</string>
+    <string name="no_transfers">مێژووی گواستنەوە بەتاڵە.</string>
+    <string name="transfer_clear_dlg_msg">هەموو بڕگەکان لە لیستەکە دەسڕدرێنەوە.</string>
+    <string name="outbound_noti_title">هاوبەشکردنی بلوتووس: فایلە نێردراوەکان</string>
+    <string name="inbound_noti_title">هاوبەشکردنی بلوتووس: فایلە وەرگیراوەکان</string>
+    <string name="noti_caption_unsuccessful">{count, plural,
+        =1    {# سەرکەوتوو نەبوو.}
+        other {# سەرکەوتوو نەبوو.}
+    }</string>
+    <string name="noti_caption_success">{count, plural,
+        =1    {# سەرکەوتوو بوو، %1$s}
+        other {# سەرکەوتوو بوو، %1$s}
+    }</string>
+    <string name="transfer_menu_clear_all">پاککردنەوەی لیستەکە</string>
+    <string name="transfer_menu_open">کردنەوە</string>
+    <string name="transfer_menu_clear">سڕینەوە لە لیستەکە</string>
+    <string name="transfer_clear_dlg_title">پاککردنەوە</string>
+    <string name="bluetooth_media_audio_app_name">دەنگی بلوتووس</string>
+    <string name="bluetooth_media_audio_queue_name">ئێستا لێدەدرێت</string>
+    <string name="bluetooth_map_settings_app_icon">وێنۆچکەی ئەپڵیکەیشن</string>
+    <string name="bluetooth_disconnected">دەنگی بلوتووس پچڕا</string>
+    <string name="bluetooth_opp_file_limit_exceeded">فایلەکانی گەورەتر لە 4 گێگابایت ناتوانرێت بگوازرێنەوە</string>
+    <string name="bluetooth_connect_action">پەیوەستبوون بە بلوتووس</string>
+    <string name="bluetooth_enabled_apm_title">هەڵکردنی بلوتووس لە دۆخی فڕۆکەدا</string>
+    <string name="bluetooth_enabled_apm_message">ئەگەر بلوتووس بە هەڵکراوی بهێڵیتەوە، ئامێرەکەت لەبیری دەمێنێت بۆ جاری داهاتوو کە دەچیتە دۆخی فڕۆکەوە بە هەڵکراوی بهێڵێتەوە</string>
+    <string name="bluetooth_stays_on_title">بلوتووس بە هەڵکراوی دەمێنێتەوە</string>
+    <string name="bluetooth_stays_on_message">ئامێرەکەت لەبیری دەمێنێت کە لە دۆخی فڕۆکەدا بلوتووس بە هەڵکراوی بهێڵێتەوە. ئەگەر ناتەوێت بە هەڵکراوی بمێنێتەوە، بلوتووس بکوژێنەرەوە.</string>
     <string name="bluetooth_stays_on_message_on_watch">بلوتووس لە دۆخی فڕۆکەواندا چالاک دەمێنێتەوە کاتێک پەیوەستە بە ئامێرەکانی ترەوە.</string>
     <string name="bluetooth_stays_on_message_due_to_watch">ئامێرەکەت بلوتووس چالاک دەهێڵێتەوە لە دۆخی فڕۆکەواندا کاتێک پەیوەستە بە کاتژمێرەکەتەوە.</string>
     <string name="bluetooth_stays_on_message_due_to_media">بلوتووس لە دۆخی فڕۆکەواندا چالاک دەمێنێتەوە کاتێک پەیوەستە بە ئامێرێکی میدیاوە.</string>
+    <string name="bluetooth_and_wifi_stays_on_title">وایفای و بلوتووس بە هەڵکراوی دەمێننەوە</string>
+    <string name="bluetooth_and_wifi_stays_on_message">ئامێرەکەت لەبیری دەمێنێت کە لە دۆخی فڕۆکەدا وایفای و بلوتووس بە هەڵکراوی بهێڵێتەوە. ئەگەر ناتەوێت بە هەڵکراوی بمێننەوە، وایفای و بلوتووس بکوژێنەرەوە.</string>
+    <string name="bluetooth_enabled_auto_on_title">بلوتووس دووبارە هەڵکرایەوە</string>
+    <string name="bluetooth_enabled_auto_on_message">دەتوانیت هەر کاتێک بێت ئەمە لە ڕێکخستنەکاندا بگۆڕیت</string>
+    <string name="bluetooth_notification_group">گۆڕانی خۆکارانەی دۆخی بلوتووس</string>
+    <string name="auracast_notification_channel">Auracast</string>
+    <string name="auracast_notification_title">پەخشی دەنگیی <xliff:g id="stream_name" example="Airport TV">%1$s</xliff:g> بەردەستە</string>
+    <string name="auracast_notification_subtext">LE Audio</string>
+    <string name="auracast_connect_device_message">ئامێرێکی LE Audio ببەستەوە بۆ دەستپێکردنی گوێگرتن</string>
+    <string name="auracast_listen_on_device_message">گوێ لە پەخشی دەنگیی <xliff:g id="stream_name" example="Airport TV">%1$s</xliff:g> بگرە لەسەر <xliff:g id="device_name" example="Google Buds">%2$s</xliff:g>ـی خۆت</string>
+    <string name="auracast_connect_action">پەیوەستبوون</string>
+    <string name="auracast_connection_failed_message">پەیوەستبوون بە پەخشی دەنگیی <xliff:g id="stream_name" example="Airport TV">%1$s</xliff:g> لەسەر <xliff:g id="device_name" example="Google Buds">%2$s</xliff:g>ـی خۆت سەرکەوتوو نەبوو.</string>
+    <string name="auracast_default_stream_name">نزیکەکان</string>
+    <string name="auracast_default_device_name">ئامێرەکان</string>
 </resources>

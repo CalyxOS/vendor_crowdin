@@ -14,6 +14,118 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">دابەزێنەری پاکێج</string>
+    <string name="install">دامەزراندن</string>
+    <string name="update">نوێکردنەوە</string>
+    <string name="done">کراو</string>
+    <string name="cancel">پاشگەزبوونەوە</string>
     <string name="more_details">وردەکاریی زیاتر</string>
     <string name="dont_install">دامەمەزرێنە</string>
+    <string name="installing">دابەزاندن…</string>
+    <string name="installing_app">دابەزاندنی <xliff:g id="package_label">%1$s</xliff:g>…</string>
+    <string name="install_done">ئەپەکە دابەزێنرا.</string>
+    <string name="install_confirm_question">دەتەوێت ئەم ئەپە دابەزێنیت؟</string>
+    <string name="install_confirm_question_update">دەتەوێت ئەم ئەپە نوێ بکەیتەوە؟</string>
+    <string name="install_confirm_question_update_owner_reminder" product="tablet"><p>ئەم ئەپە لە <b><xliff:g id="new_update_owner">%1$s</xliff:g></b> نوێبکرێتەوە؟</p><p>ئەم ئەپە بە شێوەیەکی ئاسایی نوێکارییەکان لە <b><xliff:g id="existing_update_owner">%2$s</xliff:g></b> وەردەگرێت. بە نوێکردنەوەی لە سەرچاوەیەکی جیاوازەوە، لەوانەیە لە داهاتوودا نوێکاری لە هەر سەرچاوەیەکەوە لەسەر تابلێتەکەت وەربگریت. لەوانەیە کارکردنی ئەپەکە بگۆڕێت.</p></string>
+    <string name="install_confirm_question_update_owner_reminder" product="tv"><p>ئەم ئەپە لە <b><xliff:g id="new_update_owner">%1$s</xliff:g></b> نوێبکرێتەوە؟</p><p>ئەم ئەپە بە شێوەیەکی ئاسایی نوێکارییەکان لە <b><xliff:g id="existing_update_owner">%2$s</xliff:g></b> وەردەگرێت. بە نوێکردنەوەی لە سەرچاوەیەکی جیاوازەوە، لەوانەیە لە داهاتوودا نوێکاری لە هەر سەرچاوەیەکەوە لەسەر تەلەفزیۆنەکەت وەربگریت. لەوانەیە کارکردنی ئەپەکە بگۆڕێت.</p></string>
+    <string name="install_confirm_question_update_owner_reminder" product="default"><p>ئەم ئەپە لە <b><xliff:g id="new_update_owner">%1$s</xliff:g></b> نوێبکرێتەوە؟</p><p>ئەم ئەپە بە شێوەیەکی ئاسایی نوێکارییەکان لە <b><xliff:g id="existing_update_owner">%2$s</xliff:g></b> وەردەگرێت. بە نوێکردنەوەی لە سەرچاوەیەکی جیاوازەوە، لەوانەیە لە داهاتوودا نوێکاری لە هەر سەرچاوەیەکەوە لەسەر تەلەفۆنەکەت وەربگریت. لەوانەیە کارکردنی ئەپەکە بگۆڕێت.</p></string>
+    <string name="install_failed">ئەپەکە دانەبەزێنرا.</string>
+    <string name="install_failed_blocked">ڕێگری لە دابەزاندنی پاکێجەکە کرا.</string>
+    <string name="install_failed_conflict">ئەپەکە دانەبەزێنرا چونکە پاکێجەکە ناکۆکە لەگەڵ پاکێجێکی بەردەستدا.</string>
+    <string name="install_failed_incompatible" product="tablet">ئەپەکە دانەبەزێنرا چونکە ئەپەکە لەگەڵ تابلێتەکەت ناگونجێت.</string>
+    <string name="install_failed_incompatible" product="tv">ئەم ئەپە لەگەڵ تەلەفزیۆنەکەت ناگونجێت.</string>
+    <string name="install_failed_incompatible" product="default">ئەپەکە دانەبەزێنرا چونکە ئەپەکە لەگەڵ تەلەفۆنەکەت ناگونجێت.</string>
+    <string name="install_failed_invalid_apk">ئەپەکە دانەبەزێنرا چونکە وا دەردەکەوێت پاکێجەکە نادروست بێت.</string>
+    <string name="install_failed_msg" product="tablet">نەتوانرا <xliff:g id="app_name">%1$s</xliff:g> لەسەر تابلێتەکەت دابەزێنرێت.</string>
+    <string name="install_failed_msg" product="tv">نەتوانرا <xliff:g id="app_name">%1$s</xliff:g> لەسەر تەلەفزیۆنەکەت دابەزێنرێت.</string>
+    <string name="install_failed_msg" product="default">نەتوانرا <xliff:g id="app_name">%1$s</xliff:g> لەسەر تەلەفۆنەکەت دابەزێنرێت.</string>
+    <string name="launch">کردنەوە</string>
+    <string name="unknown_apps_admin_dlg_text">بەڕێوەبەرەکەت ڕێگە بە دابەزاندنی ئەو ئەپانە نادات کە لە سەرچاوەی نەناسراوەوە بەدەست هاتوون</string>
+    <string name="unknown_apps_user_restriction_dlg_text">ئەپە نەناسراوەکان ناتوانرێت لە لایەن ئەم بەکارهێنەرەوە دابەزێنرێن</string>
+    <string name="install_apps_user_restriction_dlg_text">ڕێگە بەم بەکارهێنەرە نادرێت ئەپەکان دابەزێنێت</string>
+    <string name="ok">باشە</string>
+    <string name="archive">ئەرشیفکردن</string>
+    <string name="update_anyway">بە هەر حاڵ نوێی بکەرەوە</string>
+    <string name="manage_applications">بەڕێوەبردنی بەرنامەکان</string>
+    <string name="out_of_space_dlg_title">شوێن نەماوە</string>
+    <string name="out_of_space_dlg_text">نەتوانرا <xliff:g id="app_name">%1$s</xliff:g> دابەزێنرێت. شوێنێکی کەم چۆڵ بکە و دووبارە هەوڵبدەرەوە.</string>
+    <string name="app_not_found_dlg_title">ئەپەکە نەدۆزرایەوە</string>
+    <string name="app_not_found_dlg_text">ئەپەکە لە لیستی ئەپە دابەزێنراوەکاندا نەدۆزرایەوە.</string>
+    <string name="user_is_not_allowed_dlg_title">ڕێگەپێنەدراوە</string>
+    <string name="user_is_not_allowed_dlg_text">ڕێگە بە بەکارهێنەری ئێستا نادرێت ئەم کردارەی سڕینەوە ئەنجام بدات.</string>
+    <string name="generic_error_dlg_title">هەڵە</string>
+    <string name="generic_error_dlg_text">نەتوانرا ئەپەکە بسڕدرێتەوە.</string>
+    <string name="uninstall_application_title">لادانی بەرنامە</string>
+    <string name="uninstall_update_title">سڕینەوەی نوێکاری</string>
+    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> بەشێکە لەم ئەپەی خوارەوە:</string>
+    <string name="uninstall_application_text">دەتەوێت ئەم ئەپە بسڕیتەوە؟</string>
+    <string name="archive_application_text">داتای کەسیت پاشەکەوت دەکرێت</string>
+    <string name="archive_application_text_all_users">ئەم ئەپە بۆ هەموو بەکارهێنەران ئەرشیڤ بکرێت؟ داتای کەسیت پاشەکەوت دەکرێت</string>
+    <string name="archive_application_text_current_user_work_profile">ئەم ئەپە لە پڕۆفایلی کارەکەتدا ئەرشیڤ بکرێت؟ داتای کەسیت پاشەکەوت دەکرێت</string>
+    <string name="archive_application_text_user">ئەم ئەپە بۆ <xliff:g id="username">%1$s</xliff:g> ئەرشیڤ بکرێت؟ داتای کەسیت پاشەکەوت دەکرێت</string>
+    <string name="archive_application_text_current_user_private_profile">دەتەوێت ئەم ئەپە لە فەزای تایبەتتدا ئەرشیڤ بکەیت؟ داتای کەسیت پاشەکەوت دەکرێت</string>
+    <string name="uninstall_application_text_all_users">دەتەوێت ئەم ئەپە بۆ <b>هەموو</b> بەکارهێنەران بسڕیتەوە؟ ئەپەکە و داتاکانی لە لایەن <b>هەموو</b> بەکارهێنەرانی سەر ئامێرەکە لادەبرێن.</string>
+    <string name="uninstall_application_text_user">دەتەوێت ئەم ئەپە بۆ بەکارهێنەر <xliff:g id="username">%1$s</xliff:g> بسڕیتەوە؟</string>
+    <string name="uninstall_application_text_current_user_work_profile">دەتەوێت ئەم ئەپە لە پڕۆفایلی کارەکەت بسڕیتەوە؟</string>
+    <string name="uninstall_update_text">ئەم ئەپە بە وەشانی کارگە بگۆڕدرێتەوە؟ هەموو داتاکان دەسڕدرێنەوە.</string>
+    <string name="uninstall_update_text_multiuser">ئەم ئەپە بە وەشانی کارگە بگۆڕدرێتەوە؟ هەموو داتاکان دەسڕدرێنەوە. ئەمە کاریگەری لەسەر هەموو بەکارهێنەرانی ئەم ئامێرە دەبێت، لەوانەش ئەوانەی پڕۆفایلی کاریان هەیە.</string>
+    <string name="uninstall_keep_data"><xliff:g id="size" example="1.5MB">%1$s</xliff:g> لە داتای ئەپەکە بهێڵەرەوە.</string>
+    <string name="uninstall_application_text_current_user_clone_profile">دەتەوێت ئەم ئەپە بسڕیتەوە؟</string>
+    <string name="uninstall_application_text_with_clone_instance">دەتەوێت ئەم ئەپە بسڕیتەوە؟ هاوشێوەی <xliff:g id="package_label">%1$s</xliff:g> (Clone) هەروەها دەسڕدرێتەوە.</string>
+    <string name="uninstall_application_text_current_user_private_profile">دەتەوێت ئەم ئەپە لە فەزای تایبەتتدا بسڕیتەوە؟</string>
+    <string name="uninstalling_notification_channel">سڕینەوە کارپێکراوەکان</string>
+    <string name="uninstall_failure_notification_channel">سڕینەوە سەرنەکەوتووەکان</string>
+    <string name="uninstalling">سڕینەوە…</string>
+    <string name="uninstalling_app">سڕینەوەی <xliff:g id="package_label">%1$s</xliff:g>…</string>
+    <string name="uninstall_done">سڕینەوە تەواو بوو.</string>
+    <string name="uninstall_done_app"><xliff:g id="package_label">%1$s</xliff:g> سڕایەوە</string>
+    <string name="uninstall_done_clone_app">هاوشێوەی (Clone)ی <xliff:g id="package_label">%1$s</xliff:g> سڕایەوە</string>
+    <string name="uninstall_failed">سڕینەوە سەرکەوتوو نەبوو.</string>
+    <string name="uninstall_failed_app">سڕینەوەی <xliff:g id="package_label">%1$s</xliff:g> سەرکەوتوو نەبوو.</string>
+    <string name="uninstalling_cloned_app">سڕینەوەی هاوشێوەی (Clone)ی <xliff:g id="package_label">%1$s</xliff:g>…</string>
+    <string name="uninstall_failed_device_policy_manager">ناتوانرێت ئەپی چالاکی بەڕێوەبەری ئامێر بسڕدرێتەوە</string>
+    <string name="uninstall_failed_device_policy_manager_of_user">ناتوانرێت ئەپی چالاکی بەڕێوەبەری ئامێر بۆ <xliff:g id="username">%1$s</xliff:g> بسڕدرێتەوە</string>
+    <string name="uninstall_all_blocked_profile_owner">ئەم ئەپە بۆ هەندێک بەکارهێنەر یان پڕۆفایل پێویستە و بۆ کەسانی تر سڕدراوەتەوە</string>
+    <string name="uninstall_blocked_profile_owner">ئەم ئەپە بۆ پڕۆفایلەکەت پێویستە و ناتوانرێت بسڕدرێتەوە.</string>
+    <string name="uninstall_blocked_device_owner">ئەم ئەپە لە لایەن بەڕێوەبەری ئامێرەکەتەوە داواکراوە و ناتوانرێت بسڕدرێتەوە.</string>
+    <string name="manage_device_administrators">بەڕێوەبردنی ئەپەکانی بەڕێوەبەری ئامێر</string>
+    <string name="manage_users">بەڕێوەبردنی بەکارهێنەران</string>
+    <string name="uninstall_failed_msg">نەتوانرا <xliff:g id="app_name">%1$s</xliff:g> بسڕدرێتەوە.</string>
+    <string name="Parse_error_dlg_text">کێشەیەک ڕوویدا لە شیکردنەوەی پاکێجەکە.</string>
+    <string name="message_staging">ئامادەکردنی ئەپ…</string>
+    <string name="app_name_unknown">نادیار</string>
+    <string name="untrusted_external_source_warning" product="tablet">بۆ پاراستنی تۆ، لە ئێستادا ڕێگە بە تابلێتەکەت نادرێت ئەپی نەناسراو لەم سەرچاوەیەوە دابەزێنێت. دەتوانیت ئەمە لە ڕێکخستنەکاندا بگۆڕیت.</string>
+    <string name="untrusted_external_source_warning" product="tv">بۆ پاراستنی تۆ، لە ئێستادا ڕێگە بە تەلەفزیۆنەکەت نادرێت ئەپی نەناسراو لەم سەرچاوەیەوە دابەزێنێت. دەتوانیت ئەمە لە ڕێکخستنەکاندا بگۆڕیت.</string>
+    <string name="untrusted_external_source_warning" product="watch">بۆ پاراستنی تۆ، لە ئێستادا ڕێگە بە کاتژمێرەکەت نادرێت ئەپی نەناسراو لەم سەرچاوەیەوە دابەزێنێت. دەتوانیت ئەمە لە ڕێکخستنەکاندا بگۆڕیت.</string>
+    <string name="untrusted_external_source_warning" product="default">بۆ پاراستنی تۆ، لە ئێستادا ڕێگە بە تەلەفۆنەکەت نادرێت ئەپی نەناسراو لەم سەرچاوەیەوە دابەزێنێت. دەتوانیت ئەمە لە ڕێکخستنەکاندا بگۆڕیت.</string>
+    <string name="anonymous_source_warning" product="default">تەلەفۆن و داتای کەسیت زیاتر بەرەوڕووی هێرشی ئەپە نەناسراوەکان دەبنەوە. بە دابەزاندنی ئەم ئەپە، ڕازی دەبیت بەوەی خۆت بەرپرسیاری لە هەر زیانێک بۆ سەر تەلەفۆنەکەت یان لەدەستچوونی داتاکان کە بەهۆی بەکارهێنانیەوە ڕووبدات.</string>
+    <string name="anonymous_source_warning" product="tablet">تابلێت و داتای کەسیت زیاتر بەرەوڕووی هێرشی ئەپە نەناسراوەکان دەبنەوە. بە دابەزاندنی ئەم ئەپە، ڕازی دەبیت بەوەی خۆت بەرپرسیاری لە هەر زیانێک بۆ سەر تابلێتەکەت یان لەدەستچوونی داتاکان کە بەهۆی بەکارهێنانیەوە ڕووبدات.</string>
+    <string name="anonymous_source_warning" product="tv">تەلەفزیۆن و داتای کەسیت زیاتر بەرەوڕووی هێرشی ئەپە نەناسراوەکان دەبنەوە. بە دابەزاندنی ئەم ئەپە، ڕازی دەبیت بەوەی خۆت بەرپرسیاری لە هەر زیانێک بۆ سەر تەلەفزیۆنەکەت یان لەدەستچوونی داتاکان کە بەهۆی بەکارهێنانیەوە ڕووبدات.</string>
+    <string name="cloned_app_label">هاوشێوەی <xliff:g id="package_label">%1$s</xliff:g></string>
+    <string name="archiving_app_label"><xliff:g id="package_label">%1$s</xliff:g> ئەرشیڤ بکرێت؟</string>
+    <string name="anonymous_source_continue">بەردەوامبوون</string>
+    <string name="external_sources_settings">ڕێکخستنەکان</string>
+    <string name="wear_app_channel">دابەزاندن/سڕینەوەی ئەپەکانی Wear</string>
+    <string name="app_installed_notification_channel_description">ئاگادارکردنەوەی دابەزاندنی ئەپ</string>
+    <string name="notification_installation_success_message">بە سەرکەوتوویی دابەزێنرا</string>
+    <string name="notification_installation_success_status">بە سەرکەوتوویی “<xliff:g id="appname" example="Package Installer">%1$s</xliff:g>” دابەزێنرا</string>
+    <string name="unarchive_application_title">گەڕاندنەوەی <xliff:g id="appname" example="Bird Game">%1$s</xliff:g> لە <xliff:g id="installername" example="App Store">%2$s</xliff:g>؟</string>
+    <string name="unarchive_body_text">ئەم ئەپە دەست دەکات بە داگرتن لە پاشبنەمادا</string>
+    <string name="restore">گەڕاندنەوە</string>
+    <string name="unarchive_error_offline_title">هێڵت نییە</string>
+    <string name="unarchive_error_offline_body">بۆ گەڕاندنەوەی ئەم ئەپە، هێڵی ئینتەرنێتەکەت بپشکنە و دووبارە هەوڵبدەرەوە</string>
+    <string name="unarchive_error_generic_title">هەڵەیەک ڕوویدا</string>
+    <string name="unarchive_error_generic_body">کێشەیەک ڕوویدا لە کاتی هەوڵدان بۆ گەڕاندنەوەی ئەم ئەپە</string>
+    <string name="unarchive_error_storage_title">شوێنی بیرگە بەس نییە</string>
+    <string name="unarchive_error_storage_body">بۆ گەڕاندنەوەی ئەم ئەپە، دەتوانیت شوێن لەسەر ئەم ئامێرە چۆڵ بکەیت. بیرگەی پێویست: <xliff:g id="bytes" example="100 MB">%1$s</xliff:g></string>
+    <string name="unarchive_action_required_title">کردار پێویستە</string>
+    <string name="unarchive_action_required_body">شوێن هەنگاوەکانی داهاتوو بکەوە بۆ گەڕاندنەوەی ئەم ئەپە</string>
+    <string name="unarchive_error_installer_disabled_title"><xliff:g id="installername" example="App Store">%1$s</xliff:g> ناچالاککراوە</string>
+    <string name="unarchive_error_installer_disabled_body">بۆ گەڕاندنەوەی ئەم ئەپە، <xliff:g id="installername" example="App Store">%1$s</xliff:g> لە ڕێکخستنەکاندا چالاک بکە</string>
+    <string name="unarchive_error_installer_uninstalled_title"><xliff:g id="installername" example="App Store">%1$s</xliff:g> سڕدراوەتەوە</string>
+    <string name="unarchive_error_installer_uninstalled_body">بۆ گەڕاندنەوەی ئەم ئەپە، پێویستە <xliff:g id="installername" example="App Store">%1$s</xliff:g> دابەزێنیت</string>
+    <string name="unarchive_action_required_continue">بەردەوامبوون</string>
+    <string name="unarchive_clear_storage_button">سڕینەوەی بیرگە</string>
+    <string name="unarchive_settings_button">ڕێکخستنەکان</string>
+    <string name="close">داخستن</string>
 </resources>

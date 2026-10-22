@@ -30,13 +30,13 @@
     <string name="status_bar_settings_auto_rotation">Cuairtich an sgrìn gu fèin-obrachail</string>
     <string name="usb_device_permission_prompt">Am faod <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g> inntrigeadh?</string>
     <string name="usb_device_permission_prompt_warn">Am faod <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g> inntrigeadh?\nCha d’ fhuair an aplacaid seo cead clàraidh ach b’ urrainn dhi fuaim a ghlacadh leis an uidheam USB seo.</string>
-    <string name="usb_audio_device_permission_prompt_title">Am faod <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g> inntrigeadh?</string>
     <string name="usb_accessory_permission_prompt">Am faod <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> <xliff:g id="usb_accessory" example="USB Dock">%2$s</xliff:g> inntrigeadh?</string>
     <string name="usb_device_confirm_prompt">A bheil thu airson <xliff:g id="application">%1$s</xliff:g> fhosgladh airson <xliff:g id="usb_device">%2$s</xliff:g> a làimhseachadh?</string>
     <string name="usb_device_confirm_prompt_warn">Am fosgail thu <xliff:g id="application" example="Usb Mega Player">%1$s</xliff:g> airson <xliff:g id="usb_device" example="USB Headphones">%2$s</xliff:g> a làimhseachadh?\nCha d’ fhuair an aplacaid seo cead clàraidh ach b’ urrainn dhi fuaim a ghlacadh leis an uidheam USB seo.</string>
     <string name="usb_accessory_confirm_prompt">A bheil thu airson <xliff:g id="application">%1$s</xliff:g> fhosgladh airson <xliff:g id="usb_accessory">%2$s</xliff:g> a làimhseachadh?</string>
     <string name="usb_accessory_uri_prompt">Chan obraich gin dhe na h-aplacaidean stàlaichte leis a’ cho-inneal USB seo. Barrachd fiosrachaidh mu dhèidhinn aig <xliff:g id="url">%1$s</xliff:g></string>
     <string name="title_usb_accessory">Co-inneal USB</string>
+    <string name="usb_device_dialog_cancel_button">Sguir dheth</string>
     <string name="label_view">Seall</string>
     <string name="always_use_device">Fosgail <xliff:g id="application">%1$s</xliff:g> an-còmhnaidh nuair a thèid <xliff:g id="usb_device">%2$s</xliff:g> a cheangal ris</string>
     <string name="always_use_accessory">Fosgail <xliff:g id="application">%1$s</xliff:g> an-còmhnaidh nuair a thèid <xliff:g id="usb_accessory">%2$s</xliff:g> a cheangal ris</string>
@@ -45,6 +45,7 @@
     <string name="usb_debugging_always">Ceadaich an-còmhnaidh on choimpiutair seo</string>
     <string name="usb_debugging_allow">Ceadaich</string>
     <string name="usb_debugging_secondary_user_title">Chan eil dì-bhugachadh USB ceadaichte</string>
+    <string name="usb_authorization_allow">Ceadaich</string>
     <string name="wifi_debugging_title">An doir thu cead do dhì-bhugachadh uèirleas air an lìonra seo?</string>
     <string name="wifi_debugging_message">Ainm an lìonraidh (SSID)\n<xliff:g id="ssid" example="My wifi">%1$s</xliff:g>\n\nSeòladh WiFI (BSSID)\n<xliff:g id="bssid" example="AB:CD:EF:12:34:56">%2$s</xliff:g></string>
     <string name="wifi_debugging_always">Ceadaich air an lìonra seo an-còmhnaidh</string>
@@ -66,6 +67,7 @@
     <string name="screenshot_edit_label">Deasaich</string>
     <string name="screenshot_share_label">Co-roinn</string>
     <string name="screenshot_dismiss_description">Leig seachad an glacadh-sgrìn</string>
+    <string name="screenshot_open_in_folder_label">Seall</string>
     <string name="screenshot_preview_description">Ro-shealladh a’ ghlacaidh-sgrìn</string>
     <string name="screenrecord_title">Clàradair na sgrìn</string>
     <string name="screenrecord_background_processing_label">A’ pròiseasadh clàradh sgrìn</string>
@@ -83,6 +85,7 @@
     <string name="screenrecord_share_label">Co-roinn</string>
     <string name="screenrecord_start_error">Mearachd a’ tòiseachadh clàradh na sgrìn</string>
     <string name="screen_record_undo">Neo-dhèan</string>
+    <string name="screen_record_take_another">Ùr</string>
     <string name="screen_record_edit">Deasaich</string>
     <string name="screen_record_delete">Sguab às</string>
     <string name="screen_record_play">Cluich</string>
@@ -177,6 +180,7 @@
     <string name="accessibility_location_active">Tha iarrtasan ionaid gnìomhach</string>
     <string name="accessibility_sensors_off_active">Tha “Mothaichearan dheth” gnìomhach</string>
     <string name="accessibility_clear_all">Falamhaich a h-uile brath.</string>
+    <string name="accessibility_notification_bell">Brathan</string>
     <string name="notification_group_overflow_indicator">+ <xliff:g id="number" example="3">%s</xliff:g></string>
     <string name="accessibility_rotation_lock_on_landscape">Tha an sgrìn glaiste air comhair an dreach-tìre.</string>
     <string name="accessibility_rotation_lock_on_portrait">Tha an sgrìn glaiste air comhair na portraid.</string>
@@ -196,7 +200,6 @@
     <string name="quick_settings_rotation_unlocked_label">Fèin-chuairtich</string>
     <string name="accessibility_quick_settings_rotation">Cuairtich an sgrìn gu fèin-obrachail</string>
     <string name="quick_settings_location_label">Ionad</string>
-    <string name="quick_settings_screensaver_label">Sàbhalaiche-sgrìn</string>
     <string name="quick_settings_media_device_label">Uidheam mheadhanan</string>
     <string name="quick_settings_user_title">Cleachdaiche</string>
     <string name="quick_settings_wifi_label">WiFi</string>
@@ -205,6 +208,7 @@
     <string name="quick_settings_casting">Tilgeil</string>
     <string name="quick_settings_cast_device_default_name">Uidheam gun ainm</string>
     <string name="quick_settings_cast_detail_empty_text">Chan eil uidheam ri làimh</string>
+    <string name="quick_settings_audio_input_section_title">Ion-chur</string>
     <string name="quick_settings_brightness_dialog_title">Soilleireachd</string>
     <string name="quick_settings_done">Deiseil</string>
     <string name="quick_settings_close_user_panel">Dùin</string>
@@ -295,6 +299,7 @@
     <string name="clear_all_notifications_text">Falamhaich na h-uile</string>
     <string name="manage_notifications_text">Stiùirich</string>
     <string name="manage_notifications_history_text">Eachdraidh</string>
+    <string name="notification_dismiss_button_text">Dùin</string>
     <string name="notification_section_header_incoming">Ùr</string>
     <string name="notification_section_header_gentle">Tostach</string>
     <string name="notification_section_header_alerting">Brathan</string>
@@ -395,6 +400,7 @@
     <string name="tuner_toast">Meal do naidheachd! Chaidh gleusadh eadar-aghaidh an t-siostaim a chur ris na roghainnean</string>
     <string name="remove_from_settings">Thoir air falbh o na roghainnean</string>
     <string name="remove_from_settings_prompt">An doir thu gleusadh eadar-aghaidh an t-siostaim air falbh o na roghainnean is an sguir thu de chleachdadh nan gleusan aige uile?\"</string>
+    <string name="qs_customize_remove">Thoir air falbh</string>
     <string name="enable_bluetooth_title">An cuir thu Bluetooth air?</string>
     <string name="enable_bluetooth_message">Feumaidh tu Bluetooth a chur air mus ceangail thu am meur-chlàr ris an tablaid.</string>
     <string name="enable_bluetooth_confirmation_ok">Cuir air</string>
@@ -499,13 +505,8 @@
     <string name="right_keycode">Còd-iuchrach taobh deas</string>
     <string name="left_icon">Ìomhaigheag taobh clì</string>
     <string name="right_icon">Ìomhaigheag taobh deas</string>
-    <string name="drag_to_add_tiles">Cùm sìos is slaod airson leacagan a chur ris</string>
-    <string name="drag_to_rearrange_tiles">Cùm sìos is slaod airson òrdugh ùr air na leacagan</string>
     <string name="qs_edit_edit_tab">Deasaich</string>
     <string name="qs_edit_layout_tab">Co-dhealbhachd</string>
-    <string name="drag_to_remove_tiles">Slaod an-seo airson a thoirt air falbh</string>
-    <string name="drag_to_remove_disabled">Feumaidh tu <xliff:g id="min_num_tiles" example="6">%1$d</xliff:g> leacag(an) air a char as lugha</string>
-    <string name="qs_edit">Deasaich</string>
     <string name="qs_edit_settings">Roghainnean</string>
     <string name="tuner_time">Àm</string>
     <string-array name="clock_options">
@@ -520,9 +521,6 @@
     </string-array>
     <string name="tuner_low_priority">Seall ìomhaigheagan nam brathan le prìomhachas ìosal</string>
     <string name="other">Roghainnean eile</string>
-    <string name="accessibility_qs_edit_tile_start_move">Gluais an leacag</string>
-    <string name="accessibility_qs_edit_tile_move_to_position">Gluais gu <xliff:g id="position" example="5">%1$d</xliff:g></string>
-    <string name="accessibility_qs_edit_tile_add_to_position">Cuir ri ionad <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_qs_edit_position">Ionad <xliff:g id="position" example="5">%1$d</xliff:g></string>
     <string name="accessibility_desc_quick_settings_edit">Deasaiche nan grad-roghainnean.</string>
     <string name="accessibility_desc_notification_icon">Brath <xliff:g name="app_name" example="Gmail">%1$s</xliff:g>: <xliff:g name="notification_text" example="5 new messages">%2$s</xliff:g></string>
@@ -533,7 +531,9 @@
     <string name="data_connection_no_internet">Gun eadar-lìon</string>
     <string name="accessibility_quick_settings_open_settings">Fosgail roghainnean <xliff:g name="page" example="Bluetooth">%s</xliff:g>.</string>
     <string name="accessibility_quick_settings_page">Duilleag <xliff:g name="current_page" example="1">%1$d</xliff:g> à <xliff:g name="num_pages" example="2">%2$d</xliff:g></string>
-    <string name="accessibility_key_gesture_dialog_positive_button_text">Cuir air</string>
+    <string name="accessibility_shortcutchooser_done_button">Deiseil</string>
+    <string name="accessibility_shortcutchooser_edit_button">Deasaich</string>
+    <string name="accessibility_quick_access_dialog_title">So-ruigsinneachd</string>
     <string name="tuner_lock_screen">An sgrìn-ghlasaidh</string>
     <string name="thermal_shutdown_dialog_help_text">Seall ceumannan a’ chùraim</string>
     <string name="high_temp_dialog_help_text">Seall ceumannan a’ chùraim</string>
@@ -657,13 +657,9 @@
     <string name="controls_error_failed">Mearachd, feuch ris a-rithist</string>
     <string name="controls_menu_add">Cuir uidheaman-smachd ris</string>
     <string name="controls_menu_edit">Deasaich na h-uidheaman-smachd</string>
-    <string name="media_output_dialog_add_output">Cuir às-chuir ris</string>
     <string name="media_output_dialog_group">Buidheann</string>
-    <string name="media_output_dialog_single_device">Chaidh 1 uidheam a thaghadh</string>
-    <string name="media_output_dialog_multiple_devices">Chaidh <xliff:g id="count" example="2">%1$d</xliff:g> uidheam(an) a thaghadh</string>
     <string name="media_output_item_connected_state">Ceangailte</string>
     <string name="media_input_group_title">Ion-chur</string>
-    <string name="media_output_end_session_dialog_stop">Cuir stad air</string>
     <string name="battery_state_unknown_notification_title">Mearachd a’ leughadh inneal-tomhais a’ bhataraidh agad</string>
     <string name="battery_state_unknown_notification_text">Thoir gnogag airson barrachd fiosrachaidh</string>
     <string name="mobile_data_settings_title">Dàta mobile</string>
@@ -673,6 +669,7 @@
     <string name="clipboard_edit_text_done">Deiseil</string>
     <string name="clipboard_overlay_window_name">Stòr-bhòrd</string>
     <string name="add">Cuir ris</string>
+    <string name="remove">Thoir air falbh</string>
     <string name="log_access_confirmation_learn_more">Barrachd fiosrachaidh</string>
     <string name="rear_display_bottom_sheet_cancel">Sguir dheth</string>
     <string name="call_from_work_profile_close">Sguir dheth</string>
@@ -690,9 +687,22 @@
     <string name="shortcut_helper_customize_dialog_cancel_button_label">Sguir dheth</string>
     <string name="touchpad_tutorial_done_button">Deiseil</string>
     <string name="touchpad_tutorial_next_button">Air adhart</string>
+    <string name="gesture_error_title">Feuch ris a‑rithist</string>
     <string name="volume_undo_action">Neo-dhèan</string>
     <string name="underlay_close_button_content_description">Dùin</string>
     <string name="back_button_on_bouncer">Air ais</string>
+    <string name="accessibility_button_on_bouncer_description">So-ruigsinneachd</string>
     <string name="pager_dots_previous_content_description">Air ais</string>
     <string name="pager_dots_next_content_description">Air adhart</string>
+    <string name="sensor_activity_camera_label">Camara</string>
+    <string name="sensor_activity_microphone_label">Micreofon</string>
+    <string name="sensor_activity_back_button_cd">Air ais</string>
+    <string name="privacy_chip_camera_in_use">Tha an camara ’ga chleachdadh</string>
+    <string name="av_mic_label">Micreofon</string>
+    <string name="av_camera_label">Camara</string>
+    <string name="av_camera_blur_off">Dheth</string>
+    <string name="av_drill_in_return_to_main">Air ais</string>
+    <string name="more_options_edit">Deasaich</string>
+    <string name="dream_setup_button_setup">Suidhich</string>
+    <string name="ace_attribution_dialog_settings_label">Roghainnean</string>
 </resources>

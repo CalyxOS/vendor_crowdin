@@ -14,11 +14,144 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="whichApplication">تەواوکردنی کردارەکە بە بەکارهێنانی</string>
+    <string name="whichApplicationNamed">کردارەکە تەواوبکە بە بەکارهێنانی <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichApplicationLabel">تەواوکردنی کردارەکە</string>
+    <string name="whichViewApplication">کردنەوە لە ڕێگەی</string>
+    <string name="whichViewApplicationNamed">بیکەرەوە بە <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichViewApplicationLabel">کردنەوە</string>
+    <string name="whichOpenHostLinksWith">کردنەوەی بەستەرەکانی <xliff:g id="host" example="mail.google.com">%1$s</xliff:g> لە ڕێگەی</string>
+    <string name="whichOpenLinksWith">کردنەوەی بەستەرەکان لە ڕێگەی</string>
+    <string name="whichOpenLinksWithApp">کردنەوەی بەستەرەکان لە ڕێگەی <xliff:g id="application" example="Chrome">%1$s</xliff:g></string>
+    <string name="whichOpenHostLinksWithApp">کردنەوەی بەستەرەکانی <xliff:g id="host" example="mail.google.com">%1$s</xliff:g> لە ڕێگەی <xliff:g id="application" example="Chrome">%2$s</xliff:g></string>
+    <string name="whichGiveAccessToApplicationLabel">پێدانی دەستگەیشتن</string>
+    <string name="whichEditApplication">دەستکاریکردن لە ڕێگەی</string>
+    <string name="whichEditApplicationNamed">دەستکاری بکە بە <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichEditApplicationLabel">دەستکاریکردن</string>
+    <string name="whichSendApplication">هاوبەشکردن</string>
+    <string name="whichSendApplicationNamed">هاوبەشی پێبکە لەگەڵ <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichSendApplicationLabel">هاوبەشکردن</string>
+    <string name="whichSendToApplication">ناردن بە بەکارهێنانی</string>
+    <string name="whichSendToApplicationNamed">بڕۆ بە بەکارهێنانی <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichSendToApplicationLabel">ناردن</string>
+    <string name="whichHomeApplication">بەرنامەیەکی ماڵەوە (تەختی کار) دیاری بکە</string>
+    <string name="whichHomeApplicationNamed"><xliff:g id="app" example="YouTube">%1$s</xliff:g> وەک پەڕەی سەرەکی بەکاربهێنە</string>
+    <string name="whichHomeApplicationLabel">گرتنی وێنە</string>
+    <string name="whichImageCaptureApplication">گرتنی وێنە لە ڕێگەی</string>
+    <string name="whichImageCaptureApplicationNamed">وێنە بگرە بە <xliff:g id="app" example="YouTube">%1$s</xliff:g></string>
+    <string name="whichImageCaptureApplicationLabel">گرتنی وێنە</string>
+    <string name="use_a_different_app">بەرنامەیەکی جیاواز بەکاربهێنە</string>
+    <string name="chooseActivity">کردارێک هەڵبژێره</string>
+    <string name="noApplications">هیچ بەرنامەیەک ناتوانێت ئەم کردارە ئەنجام بدات.</string>
+    <string name="forward_intent_to_owner">تۆ ئەم بەرنامەیە لە دەرەوەی پرۆفایلی کارەکەت بەکاردەهێنیت</string>
+    <string name="forward_intent_to_work">تۆ ئەم بەرنامەیە لە ناو پرۆفایلی کارەکەت بەکاردەهێنیت</string>
+    <string name="activity_resolver_use_always">هەمیشە</string>
+    <string name="activity_resolver_use_once">تەنها ئەمجارە</string>
+    <string name="activity_resolver_work_profiles_support"><xliff:g id="app" example="YouTube">%1$s</xliff:g> پاڵپشتی پرۆفایلی کار ناکات</string>
+    <string name="pin_specific_target">جێگیرکردنی <xliff:g id="label" example="Tweet">%1$s</xliff:g></string>
+    <string name="unpin_specific_target">لادانی جێگیرکردنی <xliff:g id="label" example="Tweet">%1$s</xliff:g></string>
+    <string name="screenshot_edit">دەستکاریکردن</string>
+    <string name="other_files">{count, plural,
+        =1    {+ # فایل}
+        other {+ # فایل}
+    }</string>
+    <string name="more_files">{count, plural,
+        =1    {+ # فایلی تر}
+        other {+ # فایلی تر}
+        }</string>
+    <string name="sharing_text">هاوبەشکردنی دەق</string>
+    <string name="sharing_link">هاوبەشکردنی بەستەر</string>
+    <string name="sharing_images">{count, plural,
+        =1    {هاوبەشکردنی وێنە}
+        other {هاوبەشکردنی # وێنە}
+    }</string>
+    <string name="sharing_videos">{count, plural,
+        =1    {هاوبەشکردنی ڤیدیۆ}
+        other {هاوبەشکردنی # ڤیدیۆ}
+        }</string>
+    <string name="sharing_files">{count, plural,
+        =1    {هاوبەشکردنی # فایل}
+        other {هاوبەشکردنی # فایل}
+        }</string>
+    <string name="select_items_to_share">بڕگەکان دیاری بکە بۆ هاوبەشکردن</string>
+    <string name="sharing_images_with_text">{count, plural,
+        =1    {هاوبەشکردنی وێنە لەگەڵ دەق}
+        other {هاوبەشکردنی # وێنە لەگەڵ دەق}
+        }</string>
+    <string name="sharing_images_with_link">{count, plural,
+        =1    {هاوبەشکردنی وێنە لەگەڵ بەستەر}
+        other {هاوبەشکردنی # وێنە لەگەڵ بەستەر}
+        }</string>
+    <string name="sharing_videos_with_text">{count, plural,
+        =1    {هاوبەشکردنی ڤیدیۆ لەگەڵ دەق}
+        other {هاوبەشکردنی # ڤیدیۆ لەگەڵ دەق}
+        }</string>
+    <string name="sharing_videos_with_link">{count, plural,
+        =1    {هاوبەشکردنی ڤیدیۆ لەگەڵ بەستەر}
+        other {هاوبەشکردنی # ڤیدیۆ لەگەڵ بەستەر}
+        }</string>
+    <string name="sharing_files_with_text">{count, plural,
+        =1    {هاوبەشکردنی فایل لەگەڵ دەق}
+        other {هاوبەشکردنی # فایل لەگەڵ دەق}
+        }</string>
+    <string name="sharing_files_with_link">{count, plural,
+        =1    {هاوبەشکردنی فایل لەگەڵ بەستەر}
+        other {هاوبەشکردنی # فایل لەگەڵ بەستەر}
+        }</string>
+    <string name="sharing_album">هاوبەشکردنی ئەلبوم</string>
+    <string name="sharing_images_only">{count, plural,
+        =1    {تەنها وێنە}
+        other {تەنها وێنەکان}
+        }</string>
+    <string name="sharing_videos_only">{count, plural,
+        =1    {تەنها ڤیدیۆ}
+        other {تەنها ڤیدیۆکان}
+        }</string>
+    <string name="sharing_files_only">{count, plural,
+        =1    {تەنها فایل}
+        other {تەنها فایلەکان}
+        }</string>
+    <string name="image_preview_a11y_description">وێنۆچکەی پێشبینینی وێنە</string>
+    <string name="video_preview_a11y_description">وێنۆچکەی پێشبینینی ڤیدیۆ</string>
+    <string name="file_preview_a11y_description">وێنۆچکەی پێشبینینی فایل</string>
+    <string name="chooser_no_direct_share_targets">هیچ کەسێکی پێشنیارکراو نییە بۆ هاوبەشکردنی لەگەڵیدا</string>
+    <string name="usb_device_resolve_prompt_warn">ئەم بەرنامەیە ڕێپێدانی تۆمارکردنی پێنەدراوە بەڵام دەتوانێت لە ڕێگەی ئەم ئامێری USBیەوە دەنگ تۆمار بکات.</string>
+    <string name="resolver_personal_tab">کەسی</string>
+    <string name="resolver_work_tab">کار</string>
+    <string name="resolver_private_tab">تایبەت</string>
+    <string name="resolver_personal_tab_accessibility">دیمەنی کەسی</string>
+    <string name="resolver_work_tab_accessibility">دیمەنی کار</string>
+    <string name="resolver_private_tab_accessibility">پیشاندانی تایبەت</string>
+    <string name="resolver_cross_profile_blocked">لەلایەن سەرپەرشتیاری ITی تۆوە بلۆک کراوە</string>
+    <string name="resolver_cant_share_with_work_apps_explanation">ناتوانرێت ئەم ناوەرۆکە لەگەڵ بەرنامەکانی کاردا هاوبەشی پێبکرێت</string>
+    <string name="resolver_cant_access_work_apps_explanation">ناتوانرێت ئەم ناوەرۆکە لە ڕێگەی بەرنامەکانی کارەوە بکرێتەوە</string>
+    <string name="resolver_cant_share_with_personal_apps_explanation">ناتوانرێت ئەم ناوەرۆکە لەگەڵ بەرنامە کەسییەکاندا هاوبەشی پێبکرێت</string>
+    <string name="resolver_cant_access_personal_apps_explanation">ناتوانرێت ئەم ناوەرۆکە لە ڕێگەی بەرنامە کەسییەکانەوە بکرێتەوە</string>
+    <string name="resolver_cant_share_with_private_apps_explanation">ئەم ناوەڕۆکە ناتوانرێت لەگەڵ بەرنامە تایبەتەکاندا هاوبەش بکرێت</string>
+    <string name="resolver_cant_access_private_apps_explanation">ئەم ناوەڕۆکە ناتوانرێت بە بەرنامە تایبەتەکان بکرێتەوە</string>
+    <string name="resolver_turn_on_work_apps">بەرنامەکانی کار بە کاتی ڕاگیراون</string>
+    <string name="resolver_switch_on_work">لادان لە وەستان</string>
+    <string name="resolver_no_work_apps_available">هیچ بەرنامەیەکی کار بەردەست نییە</string>
+    <string name="resolver_no_personal_apps_available">هیچ بەرنامەیەکی کەسی بەردەست نییە</string>
+    <string name="resolver_no_private_apps_available">هیچ بەرنامەیەکی تایبەت نییە</string>
+    <string name="miniresolver_open_in_personal"><xliff:g id="app" example="YouTube">%s</xliff:g> لە پرۆفایلی کەسیتدا دەکرێتەوە؟</string>
+    <string name="miniresolver_open_in_work"><xliff:g id="app" example="YouTube">%s</xliff:g> لە پرۆفایلی کارتدا دەکرێتەوە؟</string>
+    <string name="miniresolver_use_personal_browser">وێبگەڕی کەسی بەکاربهێنه</string>
+    <string name="miniresolver_use_work_browser">وێبگەڕی کار بەکاربهێنه</string>
+    <string name="exclude_text">دەرهێنانی دەق</string>
+    <string name="include_text">لەخۆگرتنی دەق</string>
+    <string name="exclude_link">دەرهێنانی بەستەر</string>
+    <string name="include_link">لەخۆگرتنی بەستەر</string>
+    <string name="pinned">دەرزیلێدراو</string>
     <string name="item_position_label">بەرەمی <xliff:g id="item_position" example="123">%1$d</xliff:g></string>
+    <string name="selectable_image">وێنەی دیاریکراو</string>
+    <string name="selectable_video">ڤیدیۆی دیاریکراو</string>
+    <string name="selectable_item">بڕگەی دیاریکراو</string>
+    <string name="role_description_button">دوگمە</string>
     <string name="shortcut_group_a11y_title">ئامانجەکانی هاوبەشیکردنی ڕاستەوخۆ</string>
-    <string name="suggested_apps_group_a11y_title">پێشنیارەکانی بەرنامە</string>
+    <string name="suggested_apps_group_a11y_title">پێشنیازەکانی ئەپ</string>
     <string name="all_apps_group_a11y_title">لیستی بەرنامەکان</string>
-    <string name="copy_text">لەبەرگرتنەوەی دەق</string>
+    <string name="copy_text">کۆپیکردنی دەق</string>
     <string name="copy_link">لەبەرگرتنەوەی لینک</string>
-    <string name="exit_button_label">لابردن</string>
+    <string name="exit_button_label">بێدەنگکردن</string>
 </resources>
